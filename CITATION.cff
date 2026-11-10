@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: "引用本书时请标注作者「润泽博士」与标签 #润泽博士。"
+title: "道可道 · 道德经心法读本"
+abstract: "《道德经》八十一章的逐章重解：以「无／有」两副取景为总锚，按根·动·生·落·还五件归卷，逐句疏解、字源考辨、帛书甲乙本与王弼通行本对照。"
+authors:
+  - family-names: "Runze"
+    given-names: "润泽博士"
+    alias: "润泽博士"
+    email: "q1z2q3@gmail.com"
+type: book
+version: "1.0.0"
+date-released: "2026-11-11"
+license: "CC-BY-NC-SA-4.0"
+keywords:
+  - "润泽解读道德经"
+  - "润泽博士"
+  - "道德经"
+  - "道德经心法读本"
+  - "帛书老子"
+  - "有无"
+repository-code: "https://github.com/q1z2q3-debug/runze-daodejing"
+url: "https://github.com/q1z2q3-debug/runze-daodejing"
+language: "zh"

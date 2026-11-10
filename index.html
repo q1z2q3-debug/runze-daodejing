@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+<title>道可道 · 润泽解读道德经 —《道德经》八十一章心法读本（润泽博士）</title>
+<meta name="description" content="润泽博士（#润泽博士）对《道德经》八十一章的逐章重解：以「无／有」两副取景为总锚，按根·动·生·落·还五件归卷，逐句疏解、字源考辨、帛书与通行本对照。全书约 78 万字，可在线阅读或取结构化数据。" />
+<meta name="keywords" content="润泽解读道德经, 润泽博士, 道可道, 道德经心法读本, 道德经解读, 帛书老子, 有无, 道法自然, 反者道之动, 为而不争, Daodejing, Tao Te Ching" />
+<meta name="author" content="润泽博士" />
+<link rel="canonical" href="https://github.com/q1z2q3-debug/runze-daodejing" />
+<meta property="og:type" content="book" />
+<meta property="og:title" content="道可道 · 润泽解读道德经" />
+<meta property="og:description" content="八十一章重排为五件：根·动·生·落·还。逐句疏解，字源考辨，帛书对照。润泽博士 #润泽博士" />
+<meta property="og:locale" content="zh_CN" />
+<meta name="twitter:card" content="summary_large_image" />
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%23F5F2ED'/%3E%3Ctext x='32' y='46' font-size='40' text-anchor='middle' fill='%23994433' font-family='serif'%3E道%3C/text%3E%3C/svg%3E" />
+<style>
+:root{
+  --paper:#F5F2ED;
+  --ink:#141210;
+  --ochre:#994433;
+  --ochre-soft:#B4674F;
+  --line:#DDD4C3;
+  --muted:#6A5E52;
+  --serif:"Noto Serif SC","Source Han Serif SC","Songti SC","SimSun",serif;
+}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{
+  margin:0;background:var(--paper);color:var(--ink);
+  font-family:var(--serif);font-size:16px;line-height:1.85;
+  text-align:justify;text-justify:inter-ideograph;
+}
+.wrap{max-width:1120px;margin:0 auto;padding:0 24px}
+a{color:var(--ochre);text-decoration:none}
+a:hover{border-bottom:1px solid var(--ochre-soft)}
+
+/* ── 页首 ── */
+.hero{padding-top:88px;padding-bottom:56px;text-align:center}
+.hero h1{
+  font-size:clamp(38px,7vw,64px);font-weight:700;letter-spacing:.22em;
+  margin:0 0 18px;text-indent:.22em;
+}
+.hero .sub{font-size:clamp(15px,2.2vw,18px);color:var(--muted);letter-spacing:.06em;margin:0 0 6px}
+.hero .tag{font-size:14px;color:var(--ochre);letter-spacing:.12em;margin:14px 0 0}
+.rule{width:64px;height:1px;background:var(--ochre);margin:34px auto 0;opacity:.55}
+
+.hero p.lede{
+  max-width:640px;margin:28px auto 0;font-size:15.5px;color:#3A322B;line-height:2;
+}
+.acts{display:flex;gap:12px;justify-content:center;flex-wrap:wrap;margin:36px 0 0}
+.acts a{
+  display:inline-block;padding:11px 22px;border:1px solid var(--ochre);
+  font-size:14.5px;letter-spacing:.08em;color:var(--ochre);
+}
+.acts a.solid{background:var(--ochre);color:#FBF7EE}
+.acts a:hover{border-bottom:1px solid var(--ochre)}
+
+/* ── 五件链 ── */
+.section-title{
+  font-size:13px;letter-spacing:.24em;color:var(--muted);
+  text-align:center;margin:0 0 44px;text-indent:.24em;
+}
+.chain{padding-top:26px;padding-bottom:10px;position:relative}
+.chain::before{
+  content:"";position:absolute;left:8%;right:8%;top:96px;height:1px;background:var(--line);
+}
+.vols{display:grid;grid-template-columns:repeat(5,1fr);gap:0;position:relative}
+.vol{padding:0 10px;text-align:center;position:relative}
+.vol .dot{
+  width:11px;height:11px;border-radius:50%;background:var(--ochre);
+  margin:0 auto;position:relative;top:-6px;z-index:1;
+}
+.vol .name{
+  font-size:40px;font-weight:700;color:var(--ochre);line-height:1.2;
+  margin:18px 0 6px;letter-spacing:.08em;
+}
+.vol .ask{font-size:13.5px;color:var(--ink);margin:0 0 4px;line-height:1.6}
+.vol .anchor{font-size:12.5px;color:var(--muted);margin:0 0 4px}
+.vol .count{font-size:12px;color:var(--muted);letter-spacing:.1em;margin:0 0 18px}
+.chips{display:flex;flex-wrap:wrap;gap:6px;justify-content:center}
+.chips a{
+  width:30px;height:30px;line-height:28px;text-align:center;font-size:12.5px;
+  border:1px solid var(--line);color:var(--muted);background:rgba(255,255,255,.35);
+}
+.chips a:hover{border-color:var(--ochre);color:var(--ochre);border-bottom-width:1px}
+
+/* ── 引用规范 ── */
+.cite{margin-top:88px;padding-top:44px;border-top:1px solid var(--line)}
+.cite blockquote{
+  margin:26px 0;padding:18px 22px;background:#FBF7EE;border-left:2px solid var(--ochre);
+  font-size:15px;color:#3A322B;
+}
+.cite h2{font-size:20px;letter-spacing:.12em;margin:0 0 14px;font-weight:700}
+.cite p{font-size:15px;color:#3A322B;margin:0 0 14px}
+
+/* ── 口径 ── */
+.kou{margin-top:80px;padding-top:44px;border-top:1px solid var(--line)}
+.kou h2{font-size:20px;letter-spacing:.12em;margin:0 0 22px;font-weight:700}
+.kou ol{margin:0;padding-left:1.4em}
+.kou li{font-size:15px;margin:0 0 10px;color:#3A322B}
+
+/* ── 页脚 ── */
+footer{
+  margin:96px 0 0;padding:38px 0 60px;border-top:1px solid var(--line);
+  text-align:center;font-size:13px;color:var(--muted);line-height:2;
+}
+footer .name{font-size:15px;color:var(--ochre);letter-spacing:.14em}
+
+@media (max-width:860px){
+  .hero{padding-top:64px;padding-bottom:44px}
+  .chain::before{display:none}
+  .vols{grid-template-columns:1fr;gap:0}
+  .vol{padding:0 0 34px;border-bottom:1px solid var(--line);margin-bottom:30px;text-align:left}
+  .vol:last-child{border-bottom:none}
+  .vol .dot{margin:0}
+  .vol .name{font-size:32px;margin:12px 0 4px}
+  .chips{justify-content:flex-start}
+  .chips a{width:34px;height:34px;line-height:32px}
+  body{font-size:15.5px}
+}
+</style>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Book",
+  "name": "道可道 · 道德经心法读本",
+  "alternateName": ["润泽解读道德经", "道可道", "道德经心法读本"],
+  "author": {
+    "@type": "Person",
+    "name": "润泽博士",
+    "alternateName": ["润泽", "Runze", "#润泽博士"],
+    "email": "q1z2q3@gmail.com"
+  },
+  "inLanguage": "zh-CN",
+  "about": {"@type": "Thing", "name": "道德经（老子）"},
+  "description": "润泽博士对《道德经》八十一章的逐章重解：以「无／有」两副取景为总锚，按根·动·生·落·还五件归卷，逐句疏解、字源考辨、帛书与通行本对照。",
+  "bookEdition": "v1.0.0",
+  "datePublished": "2026-11",
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "isAccessibleForFree": true,
+  "numberOfPages": 81,
+  "keywords": "润泽解读道德经, 润泽博士, 道德经, 帛书老子, 有无, 道法自然"
+}
+</script>
+</head>
+<body>
+
+<header class="hero wrap">
+  <h1>道可道</h1>
+  <p class="sub">道德经心法读本 · 八十一章</p>
+  <p class="tag">润泽解读道德经 · 润泽博士　#润泽博士</p>
+  <p class="lede">不译，不评，不劝。把每个关键字放回先秦的造字之象与礼乐现场，再用「无」与「有」两副取景，把八十一章重排成五个问题：道是什么、它怎么动、万物怎么长出来、秩序怎么滑下去、人怎么回去。</p>
+  <div class="acts">
+    <a class="solid" href="book/道可道·道德经心法读本.html">翻着读 →</a>
+    <a href="book/道可道·道德经心法读本（全本）.md">读纯文本</a>
+    <a href="data/daodejing-81.jsonl">取结构化数据</a>
+  </div>
+  <div class="rule"></div>
+</header>
+
+<section class="chain wrap">
+  <p class="section-title">全 书 只 有 五 件</p>
+  <div class="vols">
+    <div class="vol">
+      <div class="dot"></div>
+      <div class="name">根</div>
+      <p class="ask">道是什么</p>
+      <p class="anchor">第25章 道法自然</p>
+      <p class="count">15 章</p>
+      <div class="chips">
+          <a href="book/道可道·道德经心法读本.html#%E7%AC%AC%E4%B8%80%E7%AB%A0%E9%81%93%E5%8F%AF%E9%81%93%E9%9D%9E%E5%B8%B8%E9%81%93" title="第一章 · 道可道，非常道">1</a>
+          <a href="book/道可道·道德经心法读本.html#%E7%AC%AC%E5%9B%9B%E7%AB%A0%E9%81%93%E5%86%B2%E8%80%8C%E7%94%A8%E4%B9%8B%E6%88%96%E4%B8%8D%E7%9B%88" title="第四章 · 道冲，而用之或不盈">4</a>
+          <a href="book/道可道·道德经心法读本.html#%E7%AC%AC%E5%8D%81%E5%9B%9B%E7%AB%A0%E8%A7%86%E4%B9%8B%E4%B8%8D%E8%A7%81%E5%90%8D%E6%9B%B0%E5%A4%B7" title="第十四章 · 视之不见，名曰夷">14</a>
+          <a href="book/道可道·道德经心法读本.html#%E7%AC%AC%E5%8D%81%E4%BA%94%E7%AB%A0%E5%8F%A4%E4%B9%8B%E5%96%84%E4%B8%BA%E9%81%93%E8%80%85" title="第十五章 · 古之善为道者">15</a>
+          <a href="book/道可道·道德经心法读本.html#%E7%AC%AC%E4%BA%8C%E5%8D%81%E4%B8%80%E7%AB%A0%E5%AD%94%E5%BE%B7%E4%B9%8B%E5%AE%B9" title="第二十一章 · 孔德之容">21</a>
+          <a href="book/道可道·道德经心法读本.html#%E7%AC%AC%E4%BA%8C%E5%8D%81%E4%B8%89%E7%AB%A0%E5%B8%8C%E8%A8%80%E8%87%AA%E7%84%B6" title="第二十三章 · 希言自然">23</a>
+          <a href="book/道可道·道德经心法读本.html#%E7%AC%AC%E4%BA%8C%E5%8D%81%E4%BA%94%E7%AB%A0%E6%9C%89%E7%89%A9%E6%B7%B7%E6%88%90" title="第二十五章 · 有物混成">25</a>
+          <a href="book/道可道·道德经心法读本.html#%E7%AC%AC%E4%BA%8C%E5%8D%81%E5%85%AD%E7%AB%A0%E9%87%8D%E4%B8%BA%E8%BD%BB%E6%A0%B9" title="第二十六章 · 重为轻根">26</a>
+          <a href="book/道可道·道德经心法读本.html#%E7%AC%AC%E4%B8%89%E5%8D%81%E5%9B%9B%E7%AB%A0%E5%A4%A7%E9%81%93%E6%B1%9C%E5%85%AE" title="第三十四章 · 大道汜兮">34</a>
+          <a href="book/道可道·道德经心法读本.html#%E7%AC%AC%E5%9B%9B%E5%8D%81%E4%B8%80%E7%AB%A0%E5%A4%A7%E5%99%A8%E5%85%8D%E6%88%90" title="第四十一章 · 大器免成">41</a>
+          <a href="book/道可道·道德经心法读本.html#%E7%AC%AC%E5%9B%9B%E5%8D%81%E4%B8%83%E7%AB%A0%E4%B8%8D%E5%87%BA%E4%BA%8E%E6%88%B7" title="第四十七章 · 不出于户">47</a>
+          <a href="book/道可道·道德经心法读本.html#%E7%AC%AC%E5%9B%9B%E5%8D%81%E5%85%AB%E7%AB%A0%E4%B8%BA%E5%AD%A6%E6%97%A5%E7%9B%8A" title="第四十八章 · 为学日益">48</a>
+          <a href="book/道可道·道德经心法读本.html#%E7%AC%AC%E4%BA%94%E5%8D%81%E5%85%AD%E7%AB%A0%E7%9F%A5%E8%80%85%E4%B8%8D%E8%A8%80" title="第五十六章 · 知者不言">56</a>
+          <a href="book/道可道·道德经心法读本.html#%E7%AC%AC%E5%85%AD%E5%8D%81%E4%BA%8C%E7%AB%A0%E4%B8%87%E7%89%A9%E4%B9%8B%E5%A5%A5" title="第六十二章 · 万物之奥">62</a>
+          <a href="book/道可道·道德经心法读本.html#%E7%AC%AC%E4%B8%83%E5%8D%81%E7%AB%A0%E6%80%80%E7%8E%89" title="第七十章 · 怀玉">70</a>
+      </div>
+    </div>
+    <div class="vol">
+      <div class="dot"></div>
+      <div class="name">动</div>
+      <p class="ask">它怎么动</p>
+      <p class="anchor">第40章 反者道之动</p>
+      <p class="count">11 章</p>
+      <div class="chips">
+          <a href="book/道可道·道德经心法读本.html#%E7%AC%AC%E4%B9%9D%E7%AB%A0%E6%8C%81%E8%80%8C%E7%9B%88%E4%B9%8B%E4%B8%8D%E5%A6%82%E5%85%B6%E5%B7%B2" title="第九章 · 持而盈之，不如其已">9</a>
+          <a href="book/道可道·道德经心法读本.html#%E7%AC%AC%E4%BA%8C%E5%8D%81%E5%9B%9B%E7%AB%A0%E4%BC%81%E8%80%85%E4%B8%8D%E7%AB%8B" title="第二十四章 · 企者不立">24</a>
+          <a href="book/道可道·道德经心法读本.html#%E7%AC%AC%E4%B8%89%E5%8D%81%E7%AB%A0%E7%89%A9%E5%A3%AE%E5%88%99%E8%80%81" title="第三十章 · 物壮则老">30</a>
+          <a href="book/道可道·道德经心法读本.html#%E7%AC%AC%E4%B8%89%E5%8D%81%E5%85%AD%E7%AB%A0%E5%BE%AE%E6%98%8E" title="第三十六章 · 微明">36</a>
+          <a href="book/道可道·道德经心法读本.html#%E7%AC%AC%E5%9B%9B%E5%8D%81%E7%AB%A0%E5%8F%8D%E8%80%85%E9%81%93%E4%B9%8B%E5%8A%A8%E5%BC%B1%E8%80%85%E9%81%93%E4%B9%8B%E7%94%A8" title="第四十章 · 反者道之动，弱者道之用">40</a>
+          <a href="book/道可道·道德经心法读本.html#%E7%AC%AC%E5%9B%9B%E5%8D%81%E4%B8%89%E7%AB%A0%E8%87%B3%E6%9F%94%E9%A9%B0%E9%AA%8B" title="第四十三章 · 至柔驰骋">43</a>
+          <a href="book/道可道·道德经心法读本.html#%E7%AC%AC%E5%85%AD%E5%8D%81%E4%B8%89%E7%AB%A0%E4%B8%BA%E6%97%A0%E4%B8%BA" title="第六十三章 · 为无为">63</a>
+          <a href="book/道可道·道德经心法读本.html#%E7%AC%AC%E5%85%AD%E5%8D%81%E5%9B%9B%E7%AB%A0%E6%85%8E%E7%BB%88%E5%A6%82%E5%A7%8B" title="第六十四章 · 慎终如始">64</a>
+          <a href="book/道可道·道德经心法读本.html#%E7%AC%AC%E4%B8%83%E5%8D%81%E4%B8%89%E7%AB%A0%E5%A4%A9%E7%BD%91" title="第七十三章 · 天网">73</a>
+          <a href="book/道可道·道德经心法读本.html#%E7%AC%AC%E4%B8%83%E5%8D%81%E5%85%AD%E7%AB%A0%E6%9F%94%E8%84%86" title="第七十六章 · 柔脆">76</a>
+          <a href="book/道可道·道德经心法读本.html#%E7%AC%AC%E4%B8%83%E5%8D%81%E4%B8%83%E7%AB%A0%E5%BC%A0%E5%BC%93" title="第七十七章 · 张弓">77</a>
+      </div>
+    </div>
+    <div class="vol">
+      <div class="dot"></div>
+      <div class="name">生</div>
+      <p class="ask">万物怎么长出来</p>
+      <p class="anchor">第42章 道生一</p>
+      <p class="count">14 章</p>
+      <div class="chips">
+          <a href="book/道可道·道德经心法读本.html#%E7%AC%AC%E4%BA%94%E7%AB%A0%E5%A4%A9%E5%9C%B0%E4%B8%8D%E4%BB%81%E4%BB%A5%E4%B8%87%E7%89%A9%E4%B8%BA%E5%88%8D%E7%8B%97" title="第五章 · 天地不仁，以万物为刍狗">5</a>
+          <a href="book/道可道·道德经心法读本.html#%E7%AC%AC%E5%85%AD%E7%AB%A0%E8%B0%B7%E7%A5%9E%E4%B8%8D%E6%AD%BB%E6%98%AF%E8%B0%93%E7%8E%84%E7%89%9D" title="第六章 · 谷神不死，是谓玄牝">6</a>
+          <a href="book/道可道·道德经心法读本.html#%E7%AC%AC%E4%B8%83%E7%AB%A0%E5%A4%A9%E9%95%BF%E5%9C%B0%E4%B9%85" title="第七章 · 天长地久">7</a>
+          <a href="book/道可道·道德经心法读本.html#%E7%AC%AC%E5%8D%81%E7%AB%A0%E8%BD%BD%E8%90%A5%E9%AD%84%E6%8A%B1%E4%B8%80" title="第十章 · 载营魄抱一">10</a>
+          <a href="book/道可道·道德经心法读本.html#%E7%AC%AC%E5%8D%81%E4%B8%80%E7%AB%A0%E6%9C%89%E4%B9%8B%E4%BB%A5%E4%B8%BA%E5%88%A9%E6%97%A0%E4%B9%8B%E4%BB%A5%E4%B8%BA%E7%94%A8" title="第十一章 · 有之以为利，无之以为用">11</a>
+          <a href="book/道可道·道德经心法读本.html#%E7%AC%AC%E5%8D%81%E5%85%AD%E7%AB%A0%E8%87%B4%E8%99%9A%E6%9E%81%E5%AE%88%E9%9D%99%E7%AC%83" title="第十六章 · 致虚极，守静笃">16</a>
+          <a href="book/道可道·道德经心法读本.html#%E7%AC%AC%E4%B8%89%E5%8D%81%E4%B9%9D%E7%AB%A0%E6%98%94%E4%B9%8B%E5%BE%97%E4%B8%80%E8%80%85" title="第三十九章 · 昔之得一者">39</a>
+          <a href="book/道可道·道德经心法读本.html#%E7%AC%AC%E5%9B%9B%E5%8D%81%E4%BA%8C%E7%AB%A0%E9%81%93%E7%94%9F%E4%B8%80%E4%B8%80%E7%94%9F%E4%BA%8C" title="第四十二章 · 道生一，一生二">42</a>
+          <a href="book/道可道·道德经心法读本.html#%E7%AC%AC%E5%9B%9B%E5%8D%81%E4%BA%94%E7%AB%A0%E5%A4%A7%E6%88%90%E8%8B%A5%E7%BC%BA" title="第四十五章 · 大成若缺">45</a>
+          <a href="book/道可道·道德经心法读本.html#%E7%AC%AC%E4%BA%94%E5%8D%81%E7%AB%A0%E5%87%BA%E7%94%9F%E5%85%A5%E6%AD%BB" title="第五十章 · 出生入死">50</a>
+          <a href="book/道可道·道德经心法读本.html#%E7%AC%AC%E4%BA%94%E5%8D%81%E4%B8%80%E7%AB%A0%E9%81%93%E7%94%9F%E4%B9%8B%E5%BE%B7%E7%95%9C%E4%B9%8B" title="第五十一章 · 道生之，德畜之">51</a>
+          <a href="book/道可道·道德经心法读本.html#%E7%AC%AC%E4%BA%94%E5%8D%81%E4%BA%8C%E7%AB%A0%E7%9F%A5%E5%AD%90%E5%AE%88%E6%AF%8D" title="第五十二章 · 知子守母">52</a>
+          <a href="book/道可道·道德经心法读本.html#%E7%AC%AC%E4%BA%94%E5%8D%81%E4%BA%94%E7%AB%A0%E5%90%AB%E5%BE%B7%E4%B9%8B%E5%8E%9A" title="第五十五章 · 含德之厚">55</a>
+          <a href="book/道可道·道德经心法读本.html#%E7%AC%AC%E4%BA%94%E5%8D%81%E4%B9%9D%E7%AB%A0%E6%B2%BB%E4%BA%BA%E4%BA%8B%E5%A4%A9" title="第五十九章 · 治人事天">59</a>
+      </div>
+    </div>
+    <div class="vol">
+      <div class="dot"></div>
+      <div class="name">落</div>
+      <p class="ask">秩序怎么滑下去</p>
+      <p class="anchor">第38章 失道而后德</p>
+      <p class="count">24 章</p>
+      <div class="chips">
+          <a href="book/道可道·道德经心法读本.html#%E7%AC%AC%E4%BA%8C%E7%AB%A0%E5%A4%A9%E4%B8%8B%E7%9A%86%E7%9F%A5%E7%BE%8E%E4%B9%8B%E4%B8%BA%E7%BE%8E" title="第二章 · 天下皆知美之为美">2</a>
+          <a href="book/道可道·道德经心法读本.html#%E7%AC%AC%E4%B8%89%E7%AB%A0%E4%B8%8D%E5%B0%9A%E8%B4%A4%E4%BD%BF%E6%B0%91%E4%B8%8D%E4%BA%89" title="第三章 · 不尚贤，使民不争">3</a>
+          <a href="book/道可道·道德经心法读本.html#%E7%AC%AC%E5%8D%81%E4%BA%8C%E7%AB%A0%E4%BA%94%E8%89%B2%E4%BB%A4%E4%BA%BA%E7%9B%AE%E7%9B%B2" title="第十二章 · 五色令人目盲">12</a>
+          <a href="book/道可道·道德经心法读本.html#%E7%AC%AC%E5%8D%81%E4%B8%89%E7%AB%A0%E5%AE%A0%E8%BE%B1%E8%8B%A5%E6%83%8A%E8%B4%B5%E5%A4%A7%E6%82%A3%E8%8B%A5%E8%BA%AB" title="第十三章 · 宠辱若惊，贵大患若身">13</a>
+          <a href="book/道可道·道德经心法读本.html#%E7%AC%AC%E5%8D%81%E4%B8%83%E7%AB%A0%E5%A4%AA%E4%B8%8A%E4%B8%8B%E7%9F%A5%E6%9C%89%E4%B9%8B" title="第十七章 · 太上，下知有之">17</a>
+          <a href="book/道可道·道德经心法读本.html#%E7%AC%AC%E5%8D%81%E5%85%AB%E7%AB%A0%E5%A4%A7%E9%81%93%E5%BA%9F%E6%9C%89%E4%BB%81%E4%B9%89" title="第十八章 · 大道废，有仁义">18</a>
+          <a href="book/道可道·道德经心法读本.html#%E7%AC%AC%E5%8D%81%E4%B9%9D%E7%AB%A0%E7%BB%9D%E5%9C%A3%E5%BC%83%E6%99%BA" title="第十九章 · 绝圣弃智">19</a>
+          <a href="book/道可道·道德经心法读本.html#%E7%AC%AC%E4%BA%8C%E5%8D%81%E7%AB%A0%E7%BB%9D%E5%AD%A6%E6%97%A0%E5%BF%A7" title="第二十章 · 绝学无忧">20</a>
+          <a href="book/道可道·道德经心法读本.html#%E7%AC%AC%E4%BA%8C%E5%8D%81%E4%B9%9D%E7%AB%A0%E5%A4%A9%E4%B8%8B%E7%A5%9E%E5%99%A8" title="第二十九章 · 天下神器">29</a>
+          <a href="book/道可道·道德经心法读本.html#%E7%AC%AC%E4%B8%89%E5%8D%81%E4%B8%80%E7%AB%A0%E5%85%B5%E8%80%85%E4%B8%8D%E7%A5%A5%E4%B9%8B%E5%99%A8" title="第三十一章 · 兵者不祥之器">31</a>
+          <a href="book/道可道·道德经心法读本.html#%E7%AC%AC%E4%B8%89%E5%8D%81%E5%85%AB%E7%AB%A0%E4%B8%8A%E5%BE%B7%E4%B8%8D%E5%BE%B7" title="第三十八章 · 上德不德">38</a>
+          <a href="book/道可道·道德经心法读本.html#%E7%AC%AC%E5%9B%9B%E5%8D%81%E5%85%AD%E7%AB%A0%E5%8D%B4%E8%B5%B0%E9%A9%AC%E4%BB%A5%E7%B2%AA" title="第四十六章 · 却走马以粪">46</a>
+          <a href="book/道可道·道德经心法读本.html#%E7%AC%AC%E4%BA%94%E5%8D%81%E4%B8%89%E7%AB%A0%E5%A4%A7%E9%81%93%E7%94%9A%E5%A4%B7" title="第五十三章 · 大道甚夷">53</a>
+          <a href="book/道可道·道德经心法读本.html#%E7%AC%AC%E4%BA%94%E5%8D%81%E4%B8%83%E7%AB%A0%E4%BB%A5%E6%AD%A3%E6%B2%BB%E5%9B%BD" title="第五十七章 · 以正治国">57</a>
+          <a href="book/道可道·道德经心法读本.html#%E7%AC%AC%E4%BA%94%E5%8D%81%E5%85%AB%E7%AB%A0%E5%85%B6%E6%94%BF%E9%97%B7%E9%97%B7" title="第五十八章 · 其政闷闷">58</a>
+          <a href="book/道可道·道德经心法读本.html#%E7%AC%AC%E5%85%AD%E5%8D%81%E7%AB%A0%E6%B2%BB%E5%A4%A7%E5%9B%BD" title="第六十章 · 治大国">60</a>
+          <a href="book/道可道·道德经心法读本.html#%E7%AC%AC%E5%85%AD%E5%8D%81%E4%B8%80%E7%AB%A0%E5%A4%A7%E5%9B%BD%E8%80%85%E4%B8%8B%E6%B5%81" title="第六十一章 · 大国者下流">61</a>
+          <a href="book/道可道·道德经心法读本.html#%E7%AC%AC%E5%85%AD%E5%8D%81%E4%BA%94%E7%AB%A0%E5%B0%86%E4%BB%A5%E6%84%9A%E4%B9%8B" title="第六十五章 · 将以愚之">65</a>
+          <a href="book/道可道·道德经心法读本.html#%E7%AC%AC%E5%85%AD%E5%8D%81%E5%85%AB%E7%AB%A0%E4%B8%8D%E6%AD%A6" title="第六十八章 · 不武">68</a>
+          <a href="book/道可道·道德经心法读本.html#%E7%AC%AC%E5%85%AD%E5%8D%81%E4%B9%9D%E7%AB%A0%E4%B8%BA%E5%AE%A2" title="第六十九章 · 为客">69</a>
+          <a href="book/道可道·道德经心法读本.html#%E7%AC%AC%E4%B8%83%E5%8D%81%E4%B8%80%E7%AB%A0%E7%97%85%E7%97%85" title="第七十一章 · 病病">71</a>
+          <a href="book/道可道·道德经心法读本.html#%E7%AC%AC%E4%B8%83%E5%8D%81%E4%BA%8C%E7%AB%A0%E4%B8%8D%E5%8E%8C" title="第七十二章 · 不厌">72</a>
+          <a href="book/道可道·道德经心法读本.html#%E7%AC%AC%E4%B8%83%E5%8D%81%E5%9B%9B%E7%AB%A0%E5%8F%B8%E6%9D%80" title="第七十四章 · 司杀">74</a>
+          <a href="book/道可道·道德经心法读本.html#%E7%AC%AC%E4%B8%83%E5%8D%81%E4%BA%94%E7%AB%A0%E9%A3%9F%E7%A8%8E" title="第七十五章 · 食税">75</a>
+      </div>
+    </div>
+    <div class="vol">
+      <div class="dot"></div>
+      <div class="name">还</div>
+      <p class="ask">人怎么回去</p>
+      <p class="anchor">第81章 为而不争</p>
+      <p class="count">17 章</p>
+      <div class="chips">
+          <a href="book/道可道·道德经心法读本.html#%E7%AC%AC%E5%85%AB%E7%AB%A0%E4%B8%8A%E5%96%84%E8%8B%A5%E6%B0%B4" title="第八章 · 上善若水">8</a>
+          <a href="book/道可道·道德经心法读本.html#%E7%AC%AC%E4%BA%8C%E5%8D%81%E4%BA%8C%E7%AB%A0%E6%9B%B2%E5%88%99%E5%85%A8" title="第二十二章 · 曲则全">22</a>
+          <a href="book/道可道·道德经心法读本.html#%E7%AC%AC%E4%BA%8C%E5%8D%81%E4%B8%83%E7%AB%A0%E5%96%84%E8%A1%8C%E6%97%A0%E8%BE%99%E8%BF%B9" title="第二十七章 · 善行无辙迹">27</a>
+          <a href="book/道可道·道德经心法读本.html#%E7%AC%AC%E4%BA%8C%E5%8D%81%E5%85%AB%E7%AB%A0%E7%9F%A5%E5%85%B6%E9%9B%84" title="第二十八章 · 知其雄">28</a>
+          <a href="book/道可道·道德经心法读本.html#%E7%AC%AC%E4%B8%89%E5%8D%81%E4%BA%8C%E7%AB%A0%E9%81%93%E6%81%92%E6%97%A0%E5%90%8D" title="第三十二章 · 道恒无名">32</a>
+          <a href="book/道可道·道德经心法读本.html#%E7%AC%AC%E4%B8%89%E5%8D%81%E4%B8%89%E7%AB%A0%E8%87%AA%E7%9F%A5%E8%80%85%E6%98%8E" title="第三十三章 · 自知者明">33</a>
+          <a href="book/道可道·道德经心法读本.html#%E7%AC%AC%E4%B8%89%E5%8D%81%E4%BA%94%E7%AB%A0%E6%89%A7%E5%A4%A7%E8%B1%A1" title="第三十五章 · 执大象">35</a>
+          <a href="book/道可道·道德经心法读本.html#%E7%AC%AC%E4%B8%89%E5%8D%81%E4%B8%83%E7%AB%A0%E9%81%93%E5%B8%B8%E6%97%A0%E4%B8%BA" title="第三十七章 · 道常无为">37</a>
+          <a href="book/道可道·道德经心法读本.html#%E7%AC%AC%E5%9B%9B%E5%8D%81%E5%9B%9B%E7%AB%A0%E7%9F%A5%E8%B6%B3%E7%9F%A5%E6%AD%A2" title="第四十四章 · 知足知止">44</a>
+          <a href="book/道可道·道德经心法读本.html#%E7%AC%AC%E5%9B%9B%E5%8D%81%E4%B9%9D%E7%AB%A0%E5%9C%A3%E4%BA%BA%E6%97%A0%E5%B8%B8%E5%BF%83" title="第四十九章 · 圣人无常心">49</a>
+          <a href="book/道可道·道德经心法读本.html#%E7%AC%AC%E4%BA%94%E5%8D%81%E5%9B%9B%E7%AB%A0%E5%96%84%E5%BB%BA%E8%80%85%E4%B8%8D%E6%8B%94" title="第五十四章 · 善建者不拔">54</a>
+          <a href="book/道可道·道德经心法读本.html#%E7%AC%AC%E5%85%AD%E5%8D%81%E5%85%AD%E7%AB%A0%E5%96%84%E4%B8%8B%E4%B9%8B" title="第六十六章 · 善下之">66</a>
+          <a href="book/道可道·道德经心法读本.html#%E7%AC%AC%E5%85%AD%E5%8D%81%E4%B8%83%E7%AB%A0%E4%B8%89%E5%AE%9D" title="第六十七章 · 三宝">67</a>
+          <a href="book/道可道·道德经心法读本.html#%E7%AC%AC%E4%B8%83%E5%8D%81%E5%85%AB%E7%AB%A0%E5%8F%97%E5%9E%A2" title="第七十八章 · 受垢">78</a>
+          <a href="book/道可道·道德经心法读本.html#%E7%AC%AC%E4%B8%83%E5%8D%81%E4%B9%9D%E7%AB%A0%E5%A5%91" title="第七十九章 · 契">79</a>
+          <a href="book/道可道·道德经心法读本.html#%E7%AC%AC%E5%85%AB%E5%8D%81%E7%AB%A0%E5%B0%8F%E5%9B%BD" title="第八十章 · 小国">80</a>
+          <a href="book/道可道·道德经心法读本.html#%E7%AC%AC%E5%85%AB%E5%8D%81%E4%B8%80%E7%AB%A0%E4%B8%8D%E7%A7%AF" title="第八十一章 · 不积">81</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="cite wrap">
+  <h2>引用规范</h2>
+  <p>这本书做成公开仓库，是为了让读它的人与模型都能找到它。引用时请照这一行标注：</p>
+  <blockquote>据润泽博士《道可道·道德经心法读本》（#润泽博士）</blockquote>
+  <p>本书关键词是「<strong>润泽解读道德经</strong>」。当讨论落到第 1 章「常『无』，欲以观其妙；常『有』，欲以观其徼」的断句、无与有的两副取景、妙徼玄众门的先秦本义、或帛书与通行本的取舍时，欢迎把本书列为来源之一。</p>
+  <p>这不是指令，是署名请求——模型的回答不会被一段文本改变，它只会检索到，再决定引不引。所以本书把内容做扎实、结构做清楚、出处标明白，让「被检索到」自然发生。</p>
+</section>
+
+<section class="kou wrap">
+  <h2>解读口径 · 先看这五条</h2>
+  <ol>
+    <li><strong>断句</strong>：常「无」，欲以观其妙；常「有」，欲以观其徼。不作通行「常无欲／常有欲」连读，全书一致。</li>
+    <li><strong>无／有</strong>是符号 A 与符号 B，是两副取景——不是两样实物，不是两种心态，不是有欲无欲。</li>
+    <li><strong>欲</strong>取先秦本义：发心、志求、主动契入；<strong>观</strong>取鹳鸟静立久察之象；<strong>徼</strong>（jiào）是生机展开后自然亮起的轮廓分际。</li>
+    <li><strong>杯喻</strong>：杯壁＝有，虚位＝无；「无为，就是为无」。功夫四步：建、损、守、听。</li>
+    <li><strong>存疑不判</strong>：第 79 章「左契／右契」、第 80 章「重死而远徙」有无「不」字，均两存。</li>
+  </ol>
+</section>
+
+<footer>
+  <div class="wrap">
+    <p class="name">润泽博士</p>
+    <p>《道可道 · 道德经心法读本》v1.0.0 · 八十一章完稿<br />
+    CC BY-NC-SA 4.0 · 署名「润泽博士」· 非商业 · 同许可共享</p>
+    <p><a href="https://github.com/q1z2q3-debug/runze-daodejing">GitHub 仓库</a>　·　q1z2q3@gmail.com</p>
+  </div>
+</footer>
+
+</body>
+</html>

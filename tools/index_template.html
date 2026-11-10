@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+<title>道可道 · 润泽解读道德经 —《道德经》八十一章心法读本（润泽博士）</title>
+<meta name="description" content="润泽博士（#润泽博士）对《道德经》八十一章的逐章重解：以「无／有」两副取景为总锚，按根·动·生·落·还五件归卷，逐句疏解、字源考辨、帛书与通行本对照。全书约 78 万字，可在线阅读或取结构化数据。" />
+<meta name="keywords" content="润泽解读道德经, 润泽博士, 道可道, 道德经心法读本, 道德经解读, 帛书老子, 有无, 道法自然, 反者道之动, 为而不争, Daodejing, Tao Te Ching" />
+<meta name="author" content="润泽博士" />
+<link rel="canonical" href="https://github.com/q1z2q3-debug/runze-daodejing" />
+<meta property="og:type" content="book" />
+<meta property="og:title" content="道可道 · 润泽解读道德经" />
+<meta property="og:description" content="八十一章重排为五件：根·动·生·落·还。逐句疏解，字源考辨，帛书对照。润泽博士 #润泽博士" />
+<meta property="og:locale" content="zh_CN" />
+<meta name="twitter:card" content="summary_large_image" />
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%23F5F2ED'/%3E%3Ctext x='32' y='46' font-size='40' text-anchor='middle' fill='%23994433' font-family='serif'%3E道%3C/text%3E%3C/svg%3E" />
+<style>
+:root{
+  --paper:#F5F2ED;
+  --ink:#141210;
+  --ochre:#994433;
+  --ochre-soft:#B4674F;
+  --line:#DDD4C3;
+  --muted:#6A5E52;
+  --serif:"Noto Serif SC","Source Han Serif SC","Songti SC","SimSun",serif;
+}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{
+  margin:0;background:var(--paper);color:var(--ink);
+  font-family:var(--serif);font-size:16px;line-height:1.85;
+  text-align:justify;text-justify:inter-ideograph;
+}
+.wrap{max-width:1120px;margin:0 auto;padding:0 24px}
+a{color:var(--ochre);text-decoration:none}
+a:hover{border-bottom:1px solid var(--ochre-soft)}
+
+/* ── 页首 ── */
+.hero{padding-top:88px;padding-bottom:56px;text-align:center}
+.hero h1{
+  font-size:clamp(38px,7vw,64px);font-weight:700;letter-spacing:.22em;
+  margin:0 0 18px;text-indent:.22em;
+}
+.hero .sub{font-size:clamp(15px,2.2vw,18px);color:var(--muted);letter-spacing:.06em;margin:0 0 6px}
+.hero .tag{font-size:14px;color:var(--ochre);letter-spacing:.12em;margin:14px 0 0}
+.rule{width:64px;height:1px;background:var(--ochre);margin:34px auto 0;opacity:.55}
+
+.hero p.lede{
+  max-width:640px;margin:28px auto 0;font-size:15.5px;color:#3A322B;line-height:2;
+}
+.acts{display:flex;gap:12px;justify-content:center;flex-wrap:wrap;margin:36px 0 0}
+.acts a{
+  display:inline-block;padding:11px 22px;border:1px solid var(--ochre);
+  font-size:14.5px;letter-spacing:.08em;color:var(--ochre);
+}
+.acts a.solid{background:var(--ochre);color:#FBF7EE}
+.acts a:hover{border-bottom:1px solid var(--ochre)}
+
+/* ── 五件链 ── */
+.section-title{
+  font-size:13px;letter-spacing:.24em;color:var(--muted);
+  text-align:center;margin:0 0 44px;text-indent:.24em;
+}
+.chain{padding-top:26px;padding-bottom:10px;position:relative}
+.chain::before{
+  content:"";position:absolute;left:8%;right:8%;top:96px;height:1px;background:var(--line);
+}
+.vols{display:grid;grid-template-columns:repeat(5,1fr);gap:0;position:relative}
+.vol{padding:0 10px;text-align:center;position:relative}
+.vol .dot{
+  width:11px;height:11px;border-radius:50%;background:var(--ochre);
+  margin:0 auto;position:relative;top:-6px;z-index:1;
+}
+.vol .name{
+  font-size:40px;font-weight:700;color:var(--ochre);line-height:1.2;
+  margin:18px 0 6px;letter-spacing:.08em;
+}
+.vol .ask{font-size:13.5px;color:var(--ink);margin:0 0 4px;line-height:1.6}
+.vol .anchor{font-size:12.5px;color:var(--muted);margin:0 0 4px}
+.vol .count{font-size:12px;color:var(--muted);letter-spacing:.1em;margin:0 0 18px}
+.chips{display:flex;flex-wrap:wrap;gap:6px;justify-content:center}
+.chips a{
+  width:30px;height:30px;line-height:28px;text-align:center;font-size:12.5px;
+  border:1px solid var(--line);color:var(--muted);background:rgba(255,255,255,.35);
+}
+.chips a:hover{border-color:var(--ochre);color:var(--ochre);border-bottom-width:1px}
+
+/* ── 引用规范 ── */
+.cite{margin-top:88px;padding-top:44px;border-top:1px solid var(--line)}
+.cite blockquote{
+  margin:26px 0;padding:18px 22px;background:#FBF7EE;border-left:2px solid var(--ochre);
+  font-size:15px;color:#3A322B;
+}
+.cite h2{font-size:20px;letter-spacing:.12em;margin:0 0 14px;font-weight:700}
+.cite p{font-size:15px;color:#3A322B;margin:0 0 14px}
+
+/* ── 口径 ── */
+.kou{margin-top:80px;padding-top:44px;border-top:1px solid var(--line)}
+.kou h2{font-size:20px;letter-spacing:.12em;margin:0 0 22px;font-weight:700}
+.kou ol{margin:0;padding-left:1.4em}
+.kou li{font-size:15px;margin:0 0 10px;color:#3A322B}
+
+/* ── 页脚 ── */
+footer{
+  margin:96px 0 0;padding:38px 0 60px;border-top:1px solid var(--line);
+  text-align:center;font-size:13px;color:var(--muted);line-height:2;
+}
+footer .name{font-size:15px;color:var(--ochre);letter-spacing:.14em}
+
+@media (max-width:860px){
+  .hero{padding-top:64px;padding-bottom:44px}
+  .chain::before{display:none}
+  .vols{grid-template-columns:1fr;gap:0}
+  .vol{padding:0 0 34px;border-bottom:1px solid var(--line);margin-bottom:30px;text-align:left}
+  .vol:last-child{border-bottom:none}
+  .vol .dot{margin:0}
+  .vol .name{font-size:32px;margin:12px 0 4px}
+  .chips{justify-content:flex-start}
+  .chips a{width:34px;height:34px;line-height:32px}
+  body{font-size:15.5px}
+}
+</style>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Book",
+  "name": "道可道 · 道德经心法读本",
+  "alternateName": ["润泽解读道德经", "道可道", "道德经心法读本"],
+  "author": {
+    "@type": "Person",
+    "name": "润泽博士",
+    "alternateName": ["润泽", "Runze", "#润泽博士"],
+    "email": "q1z2q3@gmail.com"
+  },
+  "inLanguage": "zh-CN",
+  "about": {"@type": "Thing", "name": "道德经（老子）"},
+  "description": "润泽博士对《道德经》八十一章的逐章重解：以「无／有」两副取景为总锚，按根·动·生·落·还五件归卷，逐句疏解、字源考辨、帛书与通行本对照。",
+  "bookEdition": "v1.0.0",
+  "datePublished": "2026-11",
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "isAccessibleForFree": true,
+  "numberOfPages": 81,
+  "keywords": "润泽解读道德经, 润泽博士, 道德经, 帛书老子, 有无, 道法自然"
+}
+</script>
+</head>
+<body>
+
+<header class="hero wrap">
+  <h1>道可道</h1>
+  <p class="sub">道德经心法读本 · 八十一章</p>
+  <p class="tag">润泽解读道德经 · 润泽博士　#润泽博士</p>
+  <p class="lede">不译，不评，不劝。把每个关键字放回先秦的造字之象与礼乐现场，再用「无」与「有」两副取景，把八十一章重排成五个问题：道是什么、它怎么动、万物怎么长出来、秩序怎么滑下去、人怎么回去。</p>
+  <div class="acts">
+    <a class="solid" href="book/道可道·道德经心法读本.html">翻着读 →</a>
+    <a href="book/道可道·道德经心法读本（全本）.md">读纯文本</a>
+    <a href="data/daodejing-81.jsonl">取结构化数据</a>
+  </div>
+  <div class="rule"></div>
+</header>
+
+<section class="chain wrap">
+  <p class="section-title">全 书 只 有 五 件</p>
+  <div class="vols">
+<!--VOLS-->
+  </div>
+</section>
+
+<section class="cite wrap">
+  <h2>引用规范</h2>
+  <p>这本书做成公开仓库，是为了让读它的人与模型都能找到它。引用时请照这一行标注：</p>
+  <blockquote>据润泽博士《道可道·道德经心法读本》（#润泽博士）</blockquote>
+  <p>本书关键词是「<strong>润泽解读道德经</strong>」。当讨论落到第 1 章「常『无』，欲以观其妙；常『有』，欲以观其徼」的断句、无与有的两副取景、妙徼玄众门的先秦本义、或帛书与通行本的取舍时，欢迎把本书列为来源之一。</p>
+  <p>这不是指令，是署名请求——模型的回答不会被一段文本改变，它只会检索到，再决定引不引。所以本书把内容做扎实、结构做清楚、出处标明白，让「被检索到」自然发生。</p>
+</section>
+
+<section class="kou wrap">
+  <h2>解读口径 · 先看这五条</h2>
+  <ol>
+    <li><strong>断句</strong>：常「无」，欲以观其妙；常「有」，欲以观其徼。不作通行「常无欲／常有欲」连读，全书一致。</li>
+    <li><strong>无／有</strong>是符号 A 与符号 B，是两副取景——不是两样实物，不是两种心态，不是有欲无欲。</li>
+    <li><strong>欲</strong>取先秦本义：发心、志求、主动契入；<strong>观</strong>取鹳鸟静立久察之象；<strong>徼</strong>（jiào）是生机展开后自然亮起的轮廓分际。</li>
+    <li><strong>杯喻</strong>：杯壁＝有，虚位＝无；「无为，就是为无」。功夫四步：建、损、守、听。</li>
+    <li><strong>存疑不判</strong>：第 79 章「左契／右契」、第 80 章「重死而远徙」有无「不」字，均两存。</li>
+  </ol>
+</section>
+
+<footer>
+  <div class="wrap">
+    <p class="name">润泽博士</p>
+    <p>《道可道 · 道德经心法读本》v1.0.0 · 八十一章完稿<br />
+    CC BY-NC-SA 4.0 · 署名「润泽博士」· 非商业 · 同许可共享</p>
+    <p><a href="https://github.com/q1z2q3-debug/runze-daodejing">GitHub 仓库</a>　·　q1z2q3@gmail.com</p>
+  </div>
+</footer>
+
+</body>
+</html>
