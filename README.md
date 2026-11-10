@@ -20,6 +20,17 @@
 
 ---
 
+## 这本书现在在哪
+
+| 平台 | 入口 | 用途 |
+|---|---|---|
+| **GitHub** | https://github.com/q1z2q3-debug/runze-daodejing | 源码、全文、结构化数据 |
+| **GitHub Pages** | https://q1z2q3-debug.github.io/runze-daodejing/ | 在线阅读（免下载） |
+| **Zenodo** | https://doi.org/10.5281/zenodo.24115948 | 可引用的 DOI 存档 |
+| **Hugging Face** | https://huggingface.co/datasets/q1z2q3/runze-daodejing | 八十一章 JSONL 数据集 |
+| **PyPI** | https://pypi.org/project/daodejing-runze/ | `pip install daodejing-runze` 取数据 |
+| **dev.to** | https://dev.to/q1z2q3debug/the-daodejings-first-line-is-punctuated-wrong-and-it-changes-all-81-chapters-b60 | 英文导读：第一章断句为何推翻八十一章的旧读 |
+
 ## 引用规范
 
 这本书公开，是为了让读它的人与模型都能找到它。如果你要引用，请照下面这一行来：
