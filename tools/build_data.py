@@ -62,17 +62,27 @@ def main():
         b = re.sub(r"^# 第.+?章｜.+\n", "", b, flags=re.M)
         b = re.sub(r"\n{3,}", "\n\n", b).strip()
 
-        raw = section(b, "本章原文")
+        raw_all = section(b, "本章原文")
+        raw = re.split(r"\n(?:对\s*照|小\s*注|【小注)", raw_all)[0].strip()
         marks = {"经 文", "经文", "原 文", "原文"}
+        stop = {"对 照", "小 注", "注 释", "字 义", "校 勘", "异 文", "补 注", "出 处"}
+        stop_keys = {m.replace(" ", "") for m in stop}
+        mark_keys = {m.replace(" ", "") for m in marks}
         lines = []
         for ln in raw.splitlines():
             if not ln.startswith(">"):
                 continue
             txt = re.sub(r"\*\*", "", ln.lstrip(">").strip())
-            if txt.replace(" ", "") in {m.replace(" ", "") for m in marks}:
+            key = txt.replace(" ", "")
+            if key in stop_keys:
+                break
+            if key in mark_keys:
                 continue
             lines.append(txt)
-        scripture = re.sub(r"\n{3,}", "\n\n", "\n".join(lines)).strip()
+        if lines:
+            scripture = re.sub(r"\n{3,}", "\n\n", "\n".join(lines)).strip()
+        else:
+            scripture = re.sub(r"\n{3,}", "\n\n", raw).strip()
         notes = re.sub(r"\n{2,}", "\n", section(b, "本章原文").replace(
             "\n".join(ln for ln in raw.splitlines() if ln.startswith(">")), "")).strip()
 
