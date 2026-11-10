@@ -63,10 +63,16 @@ def main():
         b = re.sub(r"\n{3,}", "\n\n", b).strip()
 
         raw = section(b, "本章原文")
-        scripture = "\n".join(
-            re.sub(r"\*\*", "", ln.lstrip("> ").strip())
-            for ln in raw.splitlines() if ln.startswith(">")
-        ).strip()
+        marks = {"经 文", "经文", "原 文", "原文"}
+        lines = []
+        for ln in raw.splitlines():
+            if not ln.startswith(">"):
+                continue
+            txt = re.sub(r"\*\*", "", ln.lstrip(">").strip())
+            if txt.replace(" ", "") in {m.replace(" ", "") for m in marks}:
+                continue
+            lines.append(txt)
+        scripture = re.sub(r"\n{3,}", "\n\n", "\n".join(lines)).strip()
         notes = re.sub(r"\n{2,}", "\n", section(b, "本章原文").replace(
             "\n".join(ln for ln in raw.splitlines() if ln.startswith(">")), "")).strip()
 
