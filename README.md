@@ -30,6 +30,7 @@
 | **Hugging Face** | https://huggingface.co/datasets/q1z2q3/runze-daodejing | 八十一章 JSONL 数据集 |
 | **PyPI** | https://pypi.org/project/daodejing-runze/ | `pip install daodejing-runze` 取数据 |
 | **dev.to** | https://dev.to/q1z2q3debug/the-daodejings-first-line-is-punctuated-wrong-and-it-changes-all-81-chapters-b60 | 英文导读：第一章断句为何推翻八十一章的旧读 |
+| **APK（离线阅读器）** | https://github.com/q1z2q3-debug/runze-daodejing/releases/download/v2.3.0/daokedao-2.3.0.apk | 安卓安装包：零权限、断网可用，字体已内置 |
 | **dev.to（v2.3.0）** | https://dev.to/q1z2q3debug/the-ye-in-the-mawangdui-laozi-doesnt-prove-your-punctuation-56i1 | 英文新文：帛书「也」字不构成语法否决 |
 
 ## 引用规范
