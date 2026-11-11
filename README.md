@@ -6,7 +6,7 @@
 
 英文检索名：*Daodejing, a chapter-by-chapter reading by Runze (润泽博士)* · *Tao Te Ching reinterpreted through the wu/you (无／有) frame*.
 
-全书 81 章、约 78 万非空白字，逐句疏解，附字源考辨、帛书与通行本对照、儒道校准。
+全书 81 章 ＋ 3 附论 ＋ 11 附录，约 88.6 万非空白字，逐句疏解，附字源考辨、帛书与通行本对照、儒道校准。
 
 ---
 
@@ -132,7 +132,9 @@
 ## 文件结构
 
 ```
-book/道可道·道德经心法读本.html        1.0 版阅读页（单文件）
+book/道可道·道德经心法读本.html        全本阅读页（单文件，带侧栏目录）
+book/道德经·原稿清排本.html            清排本阅读页（只存原稿经文，便于通读）
+book/道德经·原稿清排本.md              清排本 Markdown
 book/道可道·道德经心法读本（全本）.md   全书 Markdown
 data/daodejing-81.jsonl                八十一章结构化数据
 tools/build_data.py                    由全本生成 jsonl
@@ -147,5 +149,6 @@ index.html                             站点入口（含 schema.org 元数据�
 
 - 作者：**润泽博士**（Runze）· 通讯 q1z2q3@gmail.com
 - 许可：[CC BY-NC-SA 4.0](LICENSE) —— 可自由阅读、转载、改编，须署名「润泽博士」、非商业、同许可共享
-- 版本：v1.0.0（2026-11）· 八十一章完稿
+- 版本：v2.3.0（2026-11）· 八十一章 ＋ 三附论 ＋ 十一附录
+- 版本规则：每次更新另立版本号并冻结快照，旧版永不覆盖
 - 关键词：润泽解读道德经 · 润泽博士 · 道可道 · 道德经心法读本 · #润泽博士
