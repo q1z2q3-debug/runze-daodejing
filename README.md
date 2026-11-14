@@ -25,6 +25,7 @@
 | 平台 | 入口 | 用途 |
 |---|---|---|
 | **GitHub** | https://github.com/q1z2q3-debug/runze-daodejing | 源码、全文、结构化数据 |
+| **系列总站** | https://q1z2q3-debug.github.io/runze-daokedao/ | 《道德经》《易传》《心经》三部书的统一入口 |
 | **GitHub Pages** | https://q1z2q3-debug.github.io/runze-daodejing/ | 在线阅读（免下载） |
 | **Zenodo** | https://doi.org/10.5281/zenodo.24115947 | 可引用的 DOI 存档（concept DOI，随版本更新；当前版 DOI 10.5281/zenodo.24131543） |
 | **Hugging Face** | https://huggingface.co/datasets/q1z2q3/runze-daodejing | 八十一章 JSONL 数据集 |
