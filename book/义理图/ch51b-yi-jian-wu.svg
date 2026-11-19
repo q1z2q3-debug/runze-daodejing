@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 380 592" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="亭是有顶无壁的屋子，宰是屋下当差的人：一个给顶，一个进屋" font-family="'Noto Serif CJK SC','Noto Serif SC','Songti SC',serif">
+<defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#6E6459"/></marker><marker id="arr2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#4A5C55"/></marker><marker id="arrL" viewBox="0 0 10 10" refX="1" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M10 0 L0 5 L10 10 z" fill="#4A5C55"/></marker><marker id="arrS" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#A2503B"/></marker></defs>
+<rect x="0" y="0" width="380" height="592" fill="#F8F3E6"/>
+<text x="20" y="26" font-size="11" fill="#A2503B" font-family="'Noto Sans CJK SC','Noto Sans SC',sans-serif" letter-spacing="3">第 五 十 一 章 · 屋</text>
+<text x="20" y="58" font-size="21" fill="#2F2A24">一间屋</text>
+<text x="20" y="78" font-size="10.5" fill="#6E6459">亭之毒之……长而不宰。</text>
+<rect x="20" y="102" width="340" height="30" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="190" y="114" font-size="5.2" fill="#2F2A24" text-anchor="middle">「亭」，《说文》「民所安定也」——有顶，所以能遮；无壁，所以不拦。</text>
+<text x="190" y="126" font-size="5.2" fill="#6E6459" text-anchor="middle">「宰」，屋下执事者——长养你，却不搬进你屋里当那个管事的。</text>
+<text x="24" y="146" font-size="5.4" fill="#4A5C55">一、亭之：给一个能停一停的顶</text>
+<line x1="24" y1="254" x2="356" y2="254" stroke="#2F2A24" stroke-width="1"/>
+<path d="M56,170 L156,142 L256,170" fill="none" stroke="#2F2A24" stroke-width="1.4"/>
+<line x1="72" y1="167" x2="240" y2="167" stroke="#2F2A24" stroke-width="0.6"/>
+<line x1="76" y1="170" x2="76" y2="254" stroke="#2F2A24" stroke-width="1.2"/>
+<line x1="236" y1="170" x2="236" y2="254" stroke="#2F2A24" stroke-width="1.2"/>
+<circle cx="156" cy="214" r="4" fill="none" stroke="#4A5C55" stroke-width="0.8"/>
+<line x1="156" y1="218" x2="156" y2="240" stroke="#4A5C55" stroke-width="0.9"/>
+<line x1="156" y1="240" x2="148" y2="254" stroke="#4A5C55" stroke-width="0.8"/>
+<line x1="156" y1="240" x2="164" y2="254" stroke="#4A5C55" stroke-width="0.8"/>
+<text x="292" y="180" font-size="4.8" fill="#4A5C55">有顶：能遮</text>
+<text x="292" y="194" font-size="4.8" fill="#4A5C55">无壁：不拦</text>
+<text x="292" y="206" font-size="4.6" fill="#6E6459">谁都能进</text>
+<text x="292" y="218" font-size="4.6" fill="#6E6459">谁也不算</text>
+<text x="292" y="228" font-size="4.6" fill="#6E6459">被关在里面</text>
+<text x="24" y="268" font-size="4.8" fill="#4A5C55">毒之：不是替它长，是给它长厚的条件</text>
+<text x="24" y="290" font-size="5.4" fill="#A2503B">二、宰：加了四壁，又搬进一个当差的</text>
+<line x1="24" y1="394" x2="356" y2="394" stroke="#2F2A24" stroke-width="1"/>
+<path d="M56,310 L156,282 L256,310" fill="none" stroke="#2F2A24" stroke-width="1.4"/>
+<rect x="76" y="310" width="160" height="84" fill="#EFE6D4" stroke="#2F2A24" stroke-width="1.2"/>
+<line x1="140" y1="310" x2="140" y2="370" stroke="#2F2A24" stroke-width="0.6"/>
+<line x1="140" y1="370" x2="176" y2="370" stroke="#2F2A24" stroke-width="0.6"/>
+<circle cx="196" cy="348" r="3.4" fill="none" stroke="#A2503B" stroke-width="0.8"/>
+<line x1="196" y1="352" x2="196" y2="372" stroke="#A2503B" stroke-width="0.9"/>
+<text x="196" y="386" font-size="5.0" fill="#A2503B" text-anchor="middle">宰</text>
+<text x="292" y="334" font-size="4.6" fill="#A2503B">墙一立，里面就</text>
+<text x="292" y="344" font-size="4.6" fill="#A2503B">有了「谁说了算」</text>
+<text x="24" y="408" font-size="4.8" fill="#A2503B">「长养」最自然的下一步，就是搬进去管——这一步要按住的正是它</text>
+<text x="24" y="434" font-size="5.2" fill="#2F2A24">「养大」和「让它长」的差别，不在动作，在手里有没有那一把。</text>
+<text x="24" y="450" font-size="5.2" fill="#2F2A24">三个字，一个「不进屋」：亭给顶，毒给厚，宰不给位。</text>
+<text x="24" y="466" font-size="5.4" fill="#4A5C55">这一章不教人怎么施恩，教人怎么施恩之后，不进那间屋。</text>
+<line x1="24" y1="484" x2="338" y2="484" stroke="#DCCBB0" stroke-width="0.6"/>
+<rect x="20" y="492" width="340" height="40" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="190" y="508" font-size="6.0" fill="#2F2A24" text-anchor="middle">亭是有顶无壁的屋子，宰是屋下当差的人；</text>
+<text x="190" y="520" font-size="6.0" fill="#4A5C55" text-anchor="middle">一个给顶，一个进屋。</text>
+<line x1="20" y1="546" x2="360" y2="546" stroke="#E6D8C2" stroke-width="0.8"/>
+<text x="20" y="560" font-size="8.0" fill="#A89577" letter-spacing="1">本 章 金 句</text>
+<text x="20" y="576" font-size="8.4" fill="#2F2A24">亭是有顶无壁的屋子，宰是屋下当差的人；一个给顶，一个进屋。</text>
+</svg>

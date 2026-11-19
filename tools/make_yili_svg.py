@@ -1524,6 +1524,9 @@ GOLD = {
     "ch48c": ["「取天下」的「取」是割耳朵，所以老子换了一个动作：不是割，是不动。"],
     "ch47a": ["透过框看，你看见的每一块都是真的；可你真的没看见框外。"],
     "ch47b": ["其出弥远，其知弥少。"],
+    "ch51a": ["道负责「有」，德负责「留住」；一个不占地方，一个专门存。"],
+    "ch51b": ["亭是有顶无壁的屋子，宰是屋下当差的人；一个给顶，一个进屋。"],
+    "ch51c": ["「不有」是总开关：一划「这是我的」，恃与宰就自己跟上来了。"],
     "ch50a": ["三成是天给的，三成是自己走进去的；后面这个「亦」字，是老子唯一想说的那句。"],
     "ch50b": ["「厚」和「地」是同一个方向：都是往下堆；堆到成层，人就站在自己堆的那块土上。"],
     "ch50c": ["他不是没遇到兕虎，是兕虎找不到那个可以下角的地方。"],
@@ -4861,6 +4864,180 @@ def ch50c_yi_zhi_jiao():
     return "\n".join(s)
 
 
+# ============ 第五十一章 · 四层链条 ============
+def ch51a_si_ceng_lian_tiao():
+    W, H = 380, 592
+    body, y = head(W, H, "道生、德畜、物形、势成：四层链条，顺序不可颠倒",
+                   "第 五 十 一 章 · 链", "四层链条", "道生之，德畜之，物形之，势成之。", H)
+    s = [body]
+
+    s.append(box(20, y + 2, 340, 30, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, y + 14, "道不占地方，它「生」的方式是给一个能容的场；德是把这份生机存住。", 5.2, INK, "middle"))
+    s.append(txt(190, y + 26, "物给边界，势给时候——形管你在哪儿，势管你什么时候。", 5.2, "#6E6459", "middle"))
+
+    t1 = y + 46
+    s.append(txt(24, t1, "四层链条，从虚到成", 5.4, SEAL))
+
+    rows = [(170, "道 生 之", "虚：不占地方，先有「这回事」"),
+            (240, "德 畜 之", "蓄：像存粮，把生机留住"),
+            (310, "物 形 之", "形：落到质料上，有了边界"),
+            (380, "势 成 之", "势：顺着时令风气，才长得成")]
+    for k, (yy, name, desc) in enumerate(rows):
+        if k < 3:
+            s.append(f'<line x1="52" y1="{yy+16}" x2="52" y2="{yy+50}" stroke="{LINE2}" stroke-width="0.6" stroke-dasharray="4 4"/>')
+            if k < 2:
+                s.append(arrow(52, yy + 48, 52, yy + 68, GREEN, 0.7, head="arr2"))
+        s.append(txt(86, yy + 1, name, 6.6, INK))
+        s.append(txt(86, yy + 16, desc, 4.8, "#6E6459"))
+
+    # 图标：四个中心都落在 yy-6
+    s.append(f'<circle cx="52" cy="164" r="15" fill="none" stroke="{SEAL}" stroke-width="0.8" stroke-dasharray="4 3"/>')
+    s.append(txt(52, 167, "道", 5.8, SEAL, "middle"))
+    s.append(box(36, 222, 32, 28, fill="#EFE6D4", stroke=INK, width=0.9))
+    s.append(f'<line x1="36" y1="226" x2="68" y2="226" stroke="{INK}" stroke-width="0.5"/>')
+    s.append(txt(52, 243, "德", 5.8, INK, "middle"))
+    s.append(box(36, 290, 32, 32, fill="none", stroke=INK, width=0.9))
+    s.append(box(44, 298, 16, 16, fill="#EFE6D4", stroke=INK, width=0.6))
+    s.append(f'<path d="M32,390 C44,384 60,376 72,364" fill="none" stroke="{GREEN}" stroke-width="0.9"/>')
+    s.append(arrow(66, 370, 74, 362, GREEN, 0.7, head="arr2"))
+
+    b = 424
+    s.append(txt(24, b, "世俗习惯反过来：只看见有形之物，看不见它后面的虚源与生机。", 5.2, INK))
+    s.append(txt(24, b + 16, "所以「物形之」不是起点，是第三层；头一层，是一个不占地方的场。", 5.2, INK))
+    s.append(txt(24, b + 32, "四层不能颠倒：先有虚，才有存；先有形，才谈得上顺时。", 5.4, GREEN))
+
+    c = b + 50
+    s.append(f'<line x1="24" y1="{c}" x2="338" y2="{c}" stroke="{LINE}" stroke-width="0.6"/>')
+    s.append(box(20, c + 8, 340, 40, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, c + 24, "道负责「有」，德负责「留住」；", 6.0, INK, "middle"))
+    s.append(txt(190, c + 36, "一个不占地方，一个专门存。", 6.0, GREEN, "middle"))
+    s.append(gold(c + 62, "ch51a"))
+    s.append('</svg>')
+    return "\n".join(s)
+
+
+# ============ 第五十一章 · 一间屋 ============
+def ch51b_yi_jian_wu():
+    W, H = 380, 592
+    body, y = head(W, H, "亭是有顶无壁的屋子，宰是屋下当差的人：一个给顶，一个进屋",
+                   "第 五 十 一 章 · 屋", "一间屋", "亭之毒之……长而不宰。", H)
+    s = [body]
+
+    s.append(box(20, y + 2, 340, 30, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, y + 14, "「亭」，《说文》「民所安定也」——有顶，所以能遮；无壁，所以不拦。", 5.2, INK, "middle"))
+    s.append(txt(190, y + 26, "「宰」，屋下执事者——长养你，却不搬进你屋里当那个管事的。", 5.2, "#6E6459", "middle"))
+
+    # 一、亭：有顶无壁
+    t1 = y + 46
+    s.append(txt(24, t1, "一、亭之：给一个能停一停的顶", 5.4, GREEN))
+    gy1 = t1 + 108
+    s.append(f'<line x1="24" y1="{gy1}" x2="356" y2="{gy1}" stroke="{INK}" stroke-width="1"/>')
+    s.append(f'<path d="M56,{gy1-84} L156,{gy1-112} L256,{gy1-84}" fill="none" stroke="{INK}" stroke-width="1.4"/>')
+    s.append(f'<line x1="72" y1="{gy1-87}" x2="240" y2="{gy1-87}" stroke="{INK}" stroke-width="0.6"/>')
+    for xv in (76, 236):
+        s.append(f'<line x1="{xv}" y1="{gy1-84}" x2="{xv}" y2="{gy1}" stroke="{INK}" stroke-width="1.2"/>')
+    s.append(f'<circle cx="156" cy="{gy1-40}" r="4" fill="none" stroke="{GREEN}" stroke-width="0.8"/>')
+    s.append(f'<line x1="156" y1="{gy1-36}" x2="156" y2="{gy1-14}" stroke="{GREEN}" stroke-width="0.9"/>')
+    s.append(f'<line x1="156" y1="{gy1-14}" x2="148" y2="{gy1}" stroke="{GREEN}" stroke-width="0.8"/>')
+    s.append(f'<line x1="156" y1="{gy1-14}" x2="164" y2="{gy1}" stroke="{GREEN}" stroke-width="0.8"/>')
+    s.append(txt(292, gy1 - 74, "有顶：能遮", 4.8, GREEN))
+    s.append(txt(292, gy1 - 60, "无壁：不拦", 4.8, GREEN))
+    s.append(txt(292, gy1 - 48, "谁都能进", 4.6, "#6E6459"))
+    s.append(txt(292, gy1 - 36, "谁也不算", 4.6, "#6E6459"))
+    s.append(txt(292, gy1 - 26, "被关在里面", 4.6, "#6E6459"))
+    s.append(txt(24, gy1 + 14, "毒之：不是替它长，是给它长厚的条件", 4.8, GREEN))
+
+    # 二、宰：加了壁，又住进一个人
+    t2 = gy1 + 36
+    s.append(txt(24, t2, "二、宰：加了四壁，又搬进一个当差的", 5.4, SEAL))
+    gy2 = t2 + 104
+    s.append(f'<line x1="24" y1="{gy2}" x2="356" y2="{gy2}" stroke="{INK}" stroke-width="1"/>')
+    s.append(f'<path d="M56,{gy2-84} L156,{gy2-112} L256,{gy2-84}" fill="none" stroke="{INK}" stroke-width="1.4"/>')
+    s.append(box(76, gy2 - 84, 160, 84, fill="#EFE6D4", stroke=INK, width=1.2))
+    s.append(f'<line x1="140" y1="{gy2-84}" x2="140" y2="{gy2-24}" stroke="{INK}" stroke-width="0.6"/>')
+    s.append(f'<line x1="140" y1="{gy2-24}" x2="176" y2="{gy2-24}" stroke="{INK}" stroke-width="0.6"/>')
+    # 屋里的当差者
+    s.append(f'<circle cx="196" cy="{gy2-46}" r="3.4" fill="none" stroke="{SEAL}" stroke-width="0.8"/>')
+    s.append(f'<line x1="196" y1="{gy2-42}" x2="196" y2="{gy2-22}" stroke="{SEAL}" stroke-width="0.9"/>')
+    s.append(txt(196, gy2 - 8, "宰", 5.0, SEAL, "middle"))
+    s.append(txt(292, gy2 - 60, "墙一立，里面就", 4.6, SEAL))
+    s.append(txt(292, gy2 - 50, "有了「谁说了算」", 4.6, SEAL))
+    s.append(txt(24, gy2 + 14, "「长养」最自然的下一步，就是搬进去管——这一步要按住的正是它", 4.8, SEAL))
+
+    b = gy2 + 40
+    s.append(txt(24, b, "「养大」和「让它长」的差别，不在动作，在手里有没有那一把。", 5.2, INK))
+    s.append(txt(24, b + 16, "三个字，一个「不进屋」：亭给顶，毒给厚，宰不给位。", 5.2, INK))
+    s.append(txt(24, b + 32, "这一章不教人怎么施恩，教人怎么施恩之后，不进那间屋。", 5.4, GREEN))
+
+    c = b + 50
+    s.append(f'<line x1="24" y1="{c}" x2="338" y2="{c}" stroke="{LINE}" stroke-width="0.6"/>')
+    s.append(box(20, c + 8, 340, 40, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, c + 24, "亭是有顶无壁的屋子，宰是屋下当差的人；", 6.0, INK, "middle"))
+    s.append(txt(190, c + 36, "一个给顶，一个进屋。", 6.0, GREEN, "middle"))
+    s.append(gold(c + 62, "ch51b"))
+    s.append('</svg>')
+    return "\n".join(s)
+
+
+# ============ 第五十一章 · 一本账 ============
+def ch51c_yi_ben_zhang():
+    W, H = 380, 552
+    body, y = head(W, H, "「不有」是总开关：一划「这是我的」，恃与宰就自己跟上来",
+                   "第 五 十 一 章 · 账", "一本账", "生而不有，为而不恃，长而不宰。", H)
+    s = [body]
+
+    s.append(box(20, y + 2, 340, 30, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, y + 14, "「有」就是划一道界：这一块是我的。而这道界最常划在「我养的」这三个字上。", 5.2, INK, "middle"))
+    s.append(txt(190, y + 26, "恃与宰，是「我养了它」的利息；本金不借，利息不来。", 5.2, "#6E6459", "middle"))
+
+    def ledger(cx, cy, filled):
+        o = [box(cx - 46, cy - 32, 92, 64, fill="#FBF6EC", stroke=INK, width=1.0),
+             f'<line x1="{cx-46}" y1="{cy-14}" x2="{cx+46}" y2="{cy-14}" stroke="{LINE}" stroke-width="0.45"/>',
+             f'<line x1="{cx-46}" y1="{cy+4}" x2="{cx+46}" y2="{cy+4}" stroke="{LINE}" stroke-width="0.45"/>',
+             f'<line x1="{cx-30}" y1="{cy-32}" x2="{cx-30}" y2="{cy+32}" stroke="{LINE2}" stroke-width="0.4"/>']
+        if filled:
+            o.append(txt(cx - 24, cy - 18, "我养的", 4.6, SEAL))
+        return o
+
+    # 一、不有：账上不记这一笔
+    t1 = y + 46
+    s.append(txt(24, t1, "一、生而不有：账上不记这一笔", 5.4, GREEN))
+    cy1 = t1 + 54
+    for part in ledger(94, cy1, False):
+        s.append(part)
+    s.append(txt(168, cy1 - 6, "没有这一笔，就没有利息", 4.8, "#6E6459"))
+    s.append(txt(168, cy1 + 10, "为而不恃：做了，不靠着它站直", 4.6, GREEN))
+    s.append(txt(168, cy1 + 22, "长而不宰：养大了，不进去当管事", 4.6, GREEN))
+
+    # 二、有：记上一笔，利息自来
+    t2 = cy1 + 58
+    s.append(txt(24, t2, "二、一划界：记上「我养的」，两笔利息自己来", 5.4, SEAL))
+    cy2 = t2 + 62
+    for part in ledger(94, cy2, True):
+        s.append(part)
+    s.append(arrow(142, cy2 - 8, 208, cy2 - 26, SEAL, 0.9, head="arrS"))
+    s.append(arrow(142, cy2 + 8, 208, cy2 + 26, SEAL, 0.9, head="arrS"))
+    s.append(txt(214, cy2 - 32, "恃：靠着它站直", 4.8, SEAL))
+    s.append(txt(214, cy2 - 20, "说话硬一点，眼神定一点", 4.4, "#6E6459"))
+    s.append(txt(214, cy2 + 20, "宰：搬进它屋里", 4.8, SEAL))
+    s.append(txt(214, cy2 + 32, "养了，就顺手管起来", 4.4, "#6E6459"))
+    s.append(txt(30, cy2 + 44, "这是「好人」的病：坏事的人不恃，好事的人才恃", 4.6, "#6E6459"))
+
+    b = cy2 + 70
+    s.append(txt(24, b, "三个「不」是一条递进的线：不有不划界，不恃不靠它站直，不宰不搬进它屋里。", 5.0, INK))
+    s.append(txt(24, b + 16, "玄德不是深：玄是两股丝绞在一起——一根看不出怎么绞的绳，才承得住重。", 5.0, INK))
+    s.append(txt(24, b + 32, "开关一合，后面两样就关不上；这个开关，就在「这是我的」四个字上。", 5.4, GREEN))
+
+    c = b + 50
+    s.append(f'<line x1="24" y1="{c}" x2="338" y2="{c}" stroke="{LINE}" stroke-width="0.6"/>')
+    s.append(box(20, c + 8, 340, 40, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, c + 24, "「不有」是总开关：一划「这是我的」，", 6.0, INK, "middle"))
+    s.append(txt(190, c + 36, "恃与宰就自己跟上来了。", 6.0, GREEN, "middle"))
+    s.append(gold(c + 62, "ch51c"))
+    s.append('</svg>')
+    return "\n".join(s)
+
+
 FIGS = {
     "ch01-wu-you": ("第一章", "无有同出", ch01_wu_you),
     "ch01-zhi-yue": ("第一章", "指月三境", ch01_zhi_yue),
@@ -4909,6 +5086,9 @@ FIGS = {
     "ch50a-yi-tiao-lu": ("第五十章", "一条路的两头", ch50a_yi_tiao_lu),
     "ch50b-yi-ba-tu": ("第五十章", "一把土", ch50b_yi_ba_tu),
     "ch50c-yi-zhi-jiao": ("第五十章", "一只角", ch50c_yi_zhi_jiao),
+    "ch51a-si-ceng-lian-tiao": ("第五十一章", "四层链条", ch51a_si_ceng_lian_tiao),
+    "ch51b-yi-jian-wu": ("第五十一章", "一间屋", ch51b_yi_jian_wu),
+    "ch51c-yi-ben-zhang": ("第五十一章", "一本账", ch51c_yi_ben_zhang),
     "ch12-wu-se": ("第十二章", "门开五处", ch12_wu_se),
     "ch13-chong-ru": ("第十三章", "惊的是我", ch13_chong_ru),
     "ch14-yi-xi-wei": ("第十四章", "三样工具探不到", ch14_yi_xi_wei),
