@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 380 520" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="道生一，一生二，二生三，三生万物" font-family="'Noto Serif CJK SC','Noto Serif SC','Songti SC',serif">
+<defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#6E6459"/></marker><marker id="arr2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#4A5C55"/></marker><marker id="arrL" viewBox="0 0 10 10" refX="1" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M10 0 L0 5 L10 10 z" fill="#4A5C55"/></marker><marker id="arrS" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#A2503B"/></marker></defs>
+<rect x="0" y="0" width="380" height="520" fill="#F8F3E6"/>
+<text x="20" y="26" font-size="11" fill="#A2503B" font-family="'Noto Sans CJK SC','Noto Sans SC',sans-serif" letter-spacing="3">第 四 十 二 章 · 生 发</text>
+<text x="20" y="58" font-size="21" fill="#2F2A24">生发总图</text>
+<text x="20" y="78" font-size="10.5" fill="#6E6459">三是被二撑出来的那道空，不是阴阳之外的第三样东西。</text>
+<rect x="20" y="104" width="40" height="34" fill="#E9DFCC" stroke="#DCCBB0" stroke-width="1.0"/>
+<text x="40" y="127" font-size="14" fill="#2F2A24" text-anchor="middle">道</text>
+<text x="72" y="127" font-size="10" fill="#6E6459">无极 · 浑然未显</text>
+<line x1="66" y1="138" x2="66" y2="156" stroke="#6E6459" stroke-width="1.0" marker-end="url(#arr)"/>
+<rect x="20" y="160" width="40" height="34" fill="#FBF6EC" stroke="#DCCBB0" stroke-width="1.0"/>
+<text x="40" y="183" font-size="14" fill="#2F2A24" text-anchor="middle">一</text>
+<text x="72" y="183" font-size="10" fill="#6E6459">太极 · 未判</text>
+<line x1="66" y1="194" x2="66" y2="212" stroke="#6E6459" stroke-width="1.0" marker-end="url(#arr)"/>
+<rect x="20" y="216" width="40" height="34" fill="#FBF6EC" stroke="#DCCBB0" stroke-width="1.0"/>
+<text x="40" y="239" font-size="14" fill="#2F2A24" text-anchor="middle">二</text>
+<text x="72" y="239" font-size="10" fill="#6E6459">阴阳 · 有与无</text>
+<line x1="66" y1="250" x2="66" y2="268" stroke="#6E6459" stroke-width="1.0" marker-end="url(#arr)"/>
+<text x="20" y="282" font-size="10.5" fill="#2F2A24">二生三：两端一立，中间撑开一道位</text>
+<rect x="20" y="294" width="96" height="52" fill="#FBF6EC" stroke="#E6D8C2"/>
+<text x="68" y="326" font-size="13" fill="#4A5C55" text-anchor="middle">阴</text>
+<rect x="264" y="294" width="96" height="52" fill="#FBF6EC" stroke="#E6D8C2"/>
+<text x="312" y="326" font-size="13" fill="#A2503B" text-anchor="middle">阳</text>
+<rect x="128" y="294" width="124" height="52" fill="#F2EADA" stroke="#C9B79A" stroke-dasharray="3 3"/>
+<text x="190" y="318" font-size="12" fill="#2F2A24" text-anchor="middle">三</text>
+<text x="190" y="336" font-size="9.5" fill="#8A7C69" text-anchor="middle">虚位 · 冲气</text>
+<line x1="190" y1="360" x2="190" y2="376" stroke="#6E6459" stroke-width="1.0" marker-end="url(#arr)"/>
+<rect x="20" y="378" width="340" height="58" fill="#FBF6EC" stroke="{LINE2}" stroke-width="1.0"/>
+<text x="30" y="400" font-size="11" fill="#2F2A24">三生万物：负阴而抱阳，冲气以为和。</text>
+<text x="30" y="420" font-size="9.5" fill="#6E6459">配比不同、节律不同，遂显为万千物类。</text>
+<text x="190" y="456" font-size="10" fill="#6E6459" text-anchor="middle">填实了那道空，生发即止——这是全书对「生」的唯一定义。</text>
+</svg>

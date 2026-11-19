@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 380 508" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="道生、德畜、物形、势成：四者合力而不居功" font-family="'Noto Serif CJK SC','Noto Serif SC','Songti SC',serif">
+<defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#6E6459"/></marker><marker id="arr2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#4A5C55"/></marker><marker id="arrL" viewBox="0 0 10 10" refX="1" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M10 0 L0 5 L10 10 z" fill="#4A5C55"/></marker><marker id="arrS" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#A2503B"/></marker></defs>
+<rect x="0" y="0" width="380" height="508" fill="#F8F3E6"/>
+<text x="20" y="26" font-size="11" fill="#A2503B" font-family="'Noto Sans CJK SC','Noto Sans SC',sans-serif" letter-spacing="3">第 五 十 一 章 · 玄 德</text>
+<text x="20" y="58" font-size="21" fill="#2F2A24">生而不有</text>
+<text x="20" y="78" font-size="10.5" fill="#6E6459">亭是有顶无壁的小屋；宰，是钻进屋里当差的那个人。</text>
+<rect x="20" y="104" width="76" height="46" fill="#FBF6EC" stroke="{LINE2}" stroke-width="1.0"/>
+<text x="58" y="124" font-size="12" fill="#2F2A24" text-anchor="middle">道</text>
+<text x="58" y="142" font-size="9.5" fill="#4A5C55" text-anchor="middle">生之</text>
+<line x1="58" y1="150" x2="58" y2="162" stroke="#DCCBB0" stroke-width="1"/>
+<rect x="106" y="104" width="76" height="46" fill="#FBF6EC" stroke="{LINE2}" stroke-width="1.0"/>
+<text x="144" y="124" font-size="12" fill="#2F2A24" text-anchor="middle">德</text>
+<text x="144" y="142" font-size="9.5" fill="#4A5C55" text-anchor="middle">畜之</text>
+<line x1="144" y1="150" x2="144" y2="162" stroke="#DCCBB0" stroke-width="1"/>
+<rect x="192" y="104" width="76" height="46" fill="#FBF6EC" stroke="{LINE2}" stroke-width="1.0"/>
+<text x="230" y="124" font-size="12" fill="#2F2A24" text-anchor="middle">物</text>
+<text x="230" y="142" font-size="9.5" fill="#4A5C55" text-anchor="middle">形之</text>
+<line x1="230" y1="150" x2="230" y2="162" stroke="#DCCBB0" stroke-width="1"/>
+<rect x="278" y="104" width="76" height="46" fill="#FBF6EC" stroke="{LINE2}" stroke-width="1.0"/>
+<text x="316" y="124" font-size="12" fill="#2F2A24" text-anchor="middle">势</text>
+<text x="316" y="142" font-size="9.5" fill="#4A5C55" text-anchor="middle">成之</text>
+<line x1="316" y1="150" x2="316" y2="162" stroke="#DCCBB0" stroke-width="1"/>
+<rect x="20" y="162" width="340" height="26" fill="#F6EFE0" stroke="{LINE2}" stroke-width="1.0"/>
+<text x="190" y="180" font-size="10" fill="#6E6459" text-anchor="middle">四者合力，万物以成</text>
+<rect x="20" y="198" width="340" height="42" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="190" y="216" font-size="10.5" fill="#2F2A24" text-anchor="middle">长之 · 育之 · 亭之 · 毒之 · 养之 · 覆之</text>
+<text x="190" y="234" font-size="9.5" fill="#6E6459" text-anchor="middle">亭＝有顶无壁，让它停一停；毒＝厚，让它自己长厚</text>
+<text x="20" y="276" font-size="12" fill="#A2503B">生而不有</text>
+<text x="132" y="276" font-size="9.5" fill="#6E6459">生了，不占为己有</text>
+<text x="20" y="324" font-size="12" fill="#A2503B">为而不恃</text>
+<text x="132" y="324" font-size="9.5" fill="#6E6459">做了，不拿它当本事</text>
+<text x="20" y="372" font-size="12" fill="#A2503B">长而不宰</text>
+<text x="132" y="372" font-size="9.5" fill="#6E6459">养了，不进那间屋当差</text>
+<rect x="20" y="404" width="340" height="40" fill="#E9DFCC" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="190" y="430" font-size="12" fill="#2F2A24" text-anchor="middle" letter-spacing="2">是谓玄德</text>
+<text x="190" y="466" font-size="10" fill="#6E6459" text-anchor="middle">同一条德，落到人身上就是：养得住，放得下。</text>
+</svg>

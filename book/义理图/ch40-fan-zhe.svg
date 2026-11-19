@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 380 536" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="反者道之动，弱者道之用：一台反向的机器" font-family="'Noto Serif CJK SC','Noto Serif SC','Songti SC',serif">
+<defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#6E6459"/></marker><marker id="arr2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#4A5C55"/></marker><marker id="arrL" viewBox="0 0 10 10" refX="1" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M10 0 L0 5 L10 10 z" fill="#4A5C55"/></marker><marker id="arrS" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#A2503B"/></marker></defs>
+<rect x="0" y="0" width="380" height="536" fill="#F8F3E6"/>
+<text x="20" y="26" font-size="11" fill="#A2503B" font-family="'Noto Sans CJK SC','Noto Sans SC',sans-serif" letter-spacing="3">第 四 十 章 · 公 理</text>
+<text x="20" y="58" font-size="21" fill="#2F2A24">反向的机器</text>
+<text x="20" y="78" font-size="10.5" fill="#6E6459">动力取自回环，方法取自柔曲，根基取自空位。</text>
+<circle cx="110" cy="192" r="58" fill="none" stroke="#E6D8C2" stroke-width="0.8"/>
+<path d="M 55.5 172.2 A 58 58 0 0 1 166.0 177.0" fill="none" stroke="#A2503B" stroke-width="1.5" marker-end="url(#arrS)"/>
+<path d="M 164.5 211.8 A 58 58 0 0 1 54.0 207.0" fill="none" stroke="#4A5C55" stroke-width="1.5" marker-end="url(#arr2)"/>
+<text x="110" y="196" font-size="15" fill="#2F2A24" text-anchor="middle">反</text>
+<text x="110" y="218" font-size="9.5" fill="#8A7C69" text-anchor="middle">同一次翻转</text>
+<text x="20" y="276" font-size="9" fill="#A2503B">赭：翻过去（推到头，另一端已在门口）</text>
+<text x="20" y="292" font-size="9" fill="#4A5C55">青：翻回来（回到源头，向内观照）</text>
+<text x="20" y="108" font-size="10.5" fill="#2F2A24">反者 · 道之动</text>
+<text x="206" y="108" font-size="10.5" fill="#2F2A24">弱者 · 道之用</text>
+<path d="M 216 144 Q 260 114 300 144 Q 322 158 344 140" fill="none" stroke="#A2503B" stroke-width="1.3"/>
+<text x="216" y="176" font-size="9.5" fill="#8A7C69">弱，木之柔曲；不是衰弱</text>
+<rect x="20" y="310" width="160" height="132" fill="#F6EFE0" stroke="{LINE2}" stroke-width="1.0"/>
+<rect x="200" y="310" width="160" height="132" fill="#FBF6EC" stroke="{LINE2}" stroke-width="1.0"/>
+<text x="32" y="332" font-size="10.5" fill="#8A7C69">世人那台</text>
+<text x="212" y="332" font-size="10.5" fill="#4A5C55">老子那台</text>
+<text x="32" y="358" font-size="9.5" fill="#6E6459">动力：加码</text>
+<text x="212" y="358" font-size="9.5" fill="#2F2A24">动力：回环</text>
+<text x="32" y="380" font-size="9.5" fill="#6E6459">方法：硬顶</text>
+<text x="212" y="380" font-size="9.5" fill="#2F2A24">方法：柔曲</text>
+<text x="32" y="402" font-size="9.5" fill="#6E6459">根基：堆叠</text>
+<text x="212" y="402" font-size="9.5" fill="#2F2A24">根基：空位</text>
+<text x="32" y="424" font-size="9.5" fill="#6E6459">→ 加到无处可加，卡死</text>
+<text x="212" y="424" font-size="9.5" fill="#4A5C55">→ 一直转</text>
+<text x="190" y="458" font-size="12" fill="#2F2A24" text-anchor="middle">天下万物生于有，有生于无。</text>
+<text x="190" y="478" font-size="10" fill="#6E6459" text-anchor="middle">根基在空位：壁围出空，空生出用。</text>
+</svg>

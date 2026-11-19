@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 380 566" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="四大与四法：人法地，地法天，天法道，道法自然" font-family="'Noto Serif CJK SC','Noto Serif SC','Songti SC',serif">
+<defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#6E6459"/></marker><marker id="arr2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#4A5C55"/></marker><marker id="arrL" viewBox="0 0 10 10" refX="1" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M10 0 L0 5 L10 10 z" fill="#4A5C55"/></marker><marker id="arrS" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#A2503B"/></marker></defs>
+<rect x="0" y="0" width="380" height="566" fill="#F8F3E6"/>
+<text x="20" y="26" font-size="11" fill="#A2503B" font-family="'Noto Sans CJK SC','Noto Sans SC',sans-serif" letter-spacing="3">第 二 十 五 章 · 总 纲</text>
+<text x="20" y="58" font-size="21" fill="#2F2A24">道法自然</text>
+<text x="20" y="78" font-size="10.5" fill="#6E6459">「自然」不是大自然，是自己如此——上面没有更高的东西在命令它。</text>
+<rect x="20" y="106" width="116" height="38" fill="#FBF6EC" stroke="#DCCBB0" stroke-width="1.0"/>
+<text x="38" y="130" font-size="14" fill="#2F2A24">人</text>
+<text x="62" y="130" font-size="10" fill="#6E6459">四大之一</text>
+<line x1="142" y1="144" x2="142" y2="156" stroke="#6E6459" stroke-width="1.2" marker-end="url(#arr)"/>
+<rect x="20" y="158" width="116" height="38" fill="#FBF6EC" stroke="#DCCBB0" stroke-width="1.0"/>
+<text x="38" y="182" font-size="14" fill="#2F2A24">地</text>
+<text x="62" y="182" font-size="10" fill="#6E6459">厚而载</text>
+<line x1="142" y1="196" x2="142" y2="208" stroke="#6E6459" stroke-width="1.2" marker-end="url(#arr)"/>
+<rect x="20" y="210" width="116" height="38" fill="#FBF6EC" stroke="#DCCBB0" stroke-width="1.0"/>
+<text x="38" y="234" font-size="14" fill="#2F2A24">天</text>
+<text x="62" y="234" font-size="10" fill="#6E6459">覆而运</text>
+<line x1="142" y1="248" x2="142" y2="260" stroke="#6E6459" stroke-width="1.2" marker-end="url(#arr)"/>
+<rect x="20" y="262" width="116" height="38" fill="#E9DFCC" stroke="#DCCBB0" stroke-width="1.0"/>
+<text x="38" y="286" font-size="14" fill="#2F2A24">道</text>
+<text x="62" y="286" font-size="10" fill="#6E6459">自本自根</text>
+<rect x="20" y="318" width="340" height="46" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="30" y="338" font-size="10.5" fill="#2F2A24">人法地 → 地法天 → 天法道 → 道法自然</text>
+<text x="30" y="356" font-size="10" fill="#6E6459">逐层取法，不是层层复制；法者，以其为则。</text>
+<text x="246" y="120" font-size="9.5" fill="#8A7C69">大曰逝，逝曰远，远曰反</text>
+<circle cx="296" cy="192" r="42" fill="none" stroke="#DCCBB0" stroke-width="1" stroke-dasharray="3 3"/>
+<text x="296.0" y="154.0" font-size="11" fill="#4A5C55" text-anchor="middle">逝</text>
+<text x="332.3730669589464" y="217.0" font-size="11" fill="#4A5C55" text-anchor="middle">远</text>
+<text x="259.6269330410536" y="217.0" font-size="11" fill="#4A5C55" text-anchor="middle">反</text>
+<text x="296" y="196" font-size="10" fill="#8A7C69" text-anchor="middle">环</text>
+<text x="190" y="392" font-size="10.5" fill="#6E6459" text-anchor="middle">反，是回到本根；环上没有终点，只有转捩点。</text>
+</svg>

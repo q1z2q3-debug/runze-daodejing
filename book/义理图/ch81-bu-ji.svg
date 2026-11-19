@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 380 604" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="九个不：全书收口的方式是划掉" font-family="'Noto Serif CJK SC','Noto Serif SC','Songti SC',serif">
+<defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#6E6459"/></marker><marker id="arr2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#4A5C55"/></marker><marker id="arrL" viewBox="0 0 10 10" refX="1" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M10 0 L0 5 L10 10 z" fill="#4A5C55"/></marker><marker id="arrS" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#A2503B"/></marker></defs>
+<rect x="0" y="0" width="380" height="604" fill="#F8F3E6"/>
+<text x="20" y="26" font-size="11" fill="#A2503B" font-family="'Noto Sans CJK SC','Noto Sans SC',sans-serif" letter-spacing="3">第 八 十 一 章 · 收 口</text>
+<text x="20" y="58" font-size="21" fill="#2F2A24">九个不</text>
+<text x="20" y="78" font-size="10.5" fill="#6E6459">他不肯说「这就是道」，只说：不是这个，不是这个。</text>
+<rect x="20" y="104" width="100" height="32" fill="#FBF6EC" stroke="{LINE2}" stroke-width="1.0"/>
+<text x="70" y="126" font-size="11.5" fill="#2F2A24" text-anchor="middle">不美</text>
+<line x1="38" y1="112" x2="102" y2="128" stroke="#A2503B" stroke-width="0.8" opacity="0.6"/>
+<rect x="136" y="104" width="100" height="32" fill="#FBF6EC" stroke="{LINE2}" stroke-width="1.0"/>
+<text x="186" y="126" font-size="11.5" fill="#2F2A24" text-anchor="middle">不信</text>
+<line x1="154" y1="112" x2="218" y2="128" stroke="#A2503B" stroke-width="0.8" opacity="0.6"/>
+<rect x="252" y="104" width="100" height="32" fill="#FBF6EC" stroke="{LINE2}" stroke-width="1.0"/>
+<text x="302" y="126" font-size="11.5" fill="#2F2A24" text-anchor="middle">不辩</text>
+<line x1="270" y1="112" x2="334" y2="128" stroke="#A2503B" stroke-width="0.8" opacity="0.6"/>
+<rect x="20" y="144" width="100" height="32" fill="#FBF6EC" stroke="{LINE2}" stroke-width="1.0"/>
+<text x="70" y="166" font-size="11.5" fill="#2F2A24" text-anchor="middle">不善</text>
+<line x1="38" y1="152" x2="102" y2="168" stroke="#A2503B" stroke-width="0.8" opacity="0.6"/>
+<rect x="136" y="144" width="100" height="32" fill="#FBF6EC" stroke="{LINE2}" stroke-width="1.0"/>
+<text x="186" y="166" font-size="11.5" fill="#2F2A24" text-anchor="middle">不博</text>
+<line x1="154" y1="152" x2="218" y2="168" stroke="#A2503B" stroke-width="0.8" opacity="0.6"/>
+<rect x="252" y="144" width="100" height="32" fill="#FBF6EC" stroke="{LINE2}" stroke-width="1.0"/>
+<text x="302" y="166" font-size="11.5" fill="#2F2A24" text-anchor="middle">不知</text>
+<line x1="270" y1="152" x2="334" y2="168" stroke="#A2503B" stroke-width="0.8" opacity="0.6"/>
+<rect x="20" y="184" width="100" height="32" fill="#FBF6EC" stroke="{LINE2}" stroke-width="1.0"/>
+<text x="70" y="206" font-size="11.5" fill="#2F2A24" text-anchor="middle">不积</text>
+<line x1="38" y1="192" x2="102" y2="208" stroke="#A2503B" stroke-width="0.8" opacity="0.6"/>
+<rect x="136" y="184" width="100" height="32" fill="#FBF6EC" stroke="{LINE2}" stroke-width="1.0"/>
+<text x="186" y="206" font-size="11.5" fill="#2F2A24" text-anchor="middle">不害</text>
+<line x1="154" y1="192" x2="218" y2="208" stroke="#A2503B" stroke-width="0.8" opacity="0.6"/>
+<rect x="252" y="184" width="100" height="32" fill="#FBF6EC" stroke="{LINE2}" stroke-width="1.0"/>
+<text x="302" y="206" font-size="11.5" fill="#2F2A24" text-anchor="middle">不争</text>
+<line x1="270" y1="192" x2="334" y2="208" stroke="#A2503B" stroke-width="0.8" opacity="0.6"/>
+<rect x="20" y="238" width="160" height="92" fill="#F6EFE0" stroke="{LINE2}" stroke-width="1.0"/>
+<rect x="200" y="238" width="160" height="92" fill="#FBF6EC" stroke="{LINE2}" stroke-width="1.0"/>
+<text x="32" y="260" font-size="12" fill="#8A7C69">仓</text>
+<text x="32" y="282" font-size="9.5" fill="#6E6459">积则满，满则溢，溢则空</text>
+<text x="32" y="300" font-size="9.5" fill="#A2503B">守住会空</text>
+<text x="212" y="260" font-size="12" fill="#4A5C55">泉</text>
+<text x="212" y="282" font-size="9.5" fill="#6E6459">既以为人，己愈有</text>
+<text x="212" y="300" font-size="9.5" fill="#4A5C55">给出不会少</text>
+<rect x="20" y="346" width="340" height="50" fill="#E9DFCC" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="190" y="368" font-size="10.5" fill="#2F2A24" text-anchor="middle">天之道，利而不害；圣人之道，为而不争。</text>
+<text x="190" y="386" font-size="9.5" fill="#6E6459" text-anchor="middle">全书第一句划掉一个，最后一句划掉九个。</text>
+</svg>

@@ -35,7 +35,9 @@ def head(w, h, aria, kicker, title, sub, total_h=None):
          f'<marker id="arr2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto">'
          f'<path d="M0 0 L10 5 L0 10 z" fill="{GREEN}"/></marker>'
          f'<marker id="arrL" viewBox="0 0 10 10" refX="1" refY="5" markerWidth="6" markerHeight="6" orient="auto">'
-         f'<path d="M10 0 L0 5 L10 10 z" fill="{GREEN}"/></marker></defs>',
+         f'<path d="M10 0 L0 5 L10 10 z" fill="{GREEN}"/></marker>'
+         f'<marker id="arrS" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto">'
+         f'<path d="M0 0 L10 5 L0 10 z" fill="{SEAL}"/></marker></defs>',
          f'<rect x="0" y="0" width="{w}" height="{total_h or h}" fill="{PAPER}"/>',
          f'<text x="20" y="{y0}" font-size="11" fill="{SEAL}" font-family="{SANS}" letter-spacing="3">{kicker}</text>',
          f'<text x="20" y="{y0 + 32}" font-size="21" fill="{INK}">{title}</text>']
@@ -235,11 +237,418 @@ def ch02_liu_zu():
     return "\n".join(s)
 
 
+
+# ============ 第十一章 · 三容器：利与用 ============
+def ch11_li_yong():
+    W, H = 380, 596
+    body, y = head(W, H, "车、器、室三容器：有给利，无给用", "第 十 一 章 · 器 喻", "利与用",
+                   "三件东西，一个道理：有形给依托，虚空给功能。", H)
+    s = [body]
+    rows = [
+        ("毂", "辐、毂、舆", "毂中之虚", "轴穿而转", "车之用"),
+        ("器", "黏土、器壁", "器腹之腔", "盛而能容", "器之用"),
+        ("室", "墙、户、牖", "室中之虚", "居而能通", "室之用"),
+    ]
+    yb = y + 2
+    for i, (icon, you, wu, act, use) in enumerate(rows):
+        h = 106
+        s.append(box(20, yb, 340, h, fill="#FBF6EC" if i % 2 == 0 else "#F6EFE0"))
+        # 图标
+        cx, cy = 56, yb + 50
+        if i == 0:
+            import math
+            s.append(f'<circle cx="{cx}" cy="{cy}" r="20" fill="none" stroke="{INK}" stroke-width="1.1"/>')
+            for k in range(12):
+                a = math.radians(k * 30)
+                s.append(f'<line x1="{cx + 7*math.cos(a):.1f}" y1="{cy + 7*math.sin(a):.1f}" '
+                         f'x2="{cx + 20*math.cos(a):.1f}" y2="{cy + 20*math.sin(a):.1f}" stroke="{INK}" stroke-width="0.7"/>')
+            s.append(f'<circle cx="{cx}" cy="{cy}" r="7" fill="none" stroke="{SEAL}" stroke-width="1"/>')
+        elif i == 1:
+            s.append(f'<path d="M {cx-22} {cy-14} Q {cx} {cy+22} {cx+22} {cy-14}" fill="none" stroke="{INK}" stroke-width="1.1"/>')
+            s.append(f'<line x1="{cx-24}" y1="{cy-14}" x2="{cx+24}" y2="{cy-14}" stroke="{INK}" stroke-width="0.9"/>')
+            s.append(f'<line x1="{cx-22}" y1="{cy-14}" x2="{cx+22}" y2="{cy-14}" stroke="{SEAL}" stroke-width="0.5" opacity="0.6"/>')
+        else:
+            s.append(box(cx - 24, cy - 14, 48, 30, "none", INK, None, 1.1))
+            s.append(f'<line x1="{cx-8}" y1="{cy-14}" x2="{cx-8}" y2="{cy+16}" stroke="{SEAL}" stroke-width="1"/>')
+        s.append(txt(cx, yb + 88, icon, 10, "#8A7C69", "middle"))
+        # 文字两列
+        s.append(txt(96, yb + 28, you, 11, SEAL))
+        s.append(txt(96, yb + 46, "有 · 立界", 10, "#6E6459"))
+        s.append(txt(96, yb + 72, wu, 11, GREEN))
+        s.append(txt(96, yb + 90, "无 · 让位", 10, "#6E6459"))
+        s.append(txt(248, yb + 44, act, 11, INK))
+        s.append(txt(248, yb + 62, use, 10.5, "#6E6459"))
+        yb += h + 8
+    # 结语
+    yc = yb + 6
+    s.append(box(20, yc, 340, 58, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, yc + 24, "有之以为利，无之以为用", 13, INK, "middle", spacing="1"))
+    s.append(txt(190, yc + 44, "不是先有器壁再补一个空，是器壁把那个空撑出来。", 10, "#6E6459", "middle"))
+    s.append(txt(190, yc + 78, "该立多少界，该留多少空——这是一份分寸表，不是技巧。", 10.5, "#6E6459", "middle"))
+    s.append('</svg>')
+    return "\n".join(s)
+
+
+# ============ 第二十二章 · 曲则全 ============
+def ch22_qu_ze_quan():
+    W, H = 380, 640
+    body, y = head(W, H, "六句三截：能受、肯少、然后抱一", "第 二 十 二 章 · 处 世", "曲则全",
+                   "六句不是六条策略，是同一条规律的六个截面。", H)
+    s = [body]
+    # 形四句
+    s.append(txt(20, y + 12, "一 · 就形说：姿态能屈", 10.5, SEAL))
+    pairs = [("曲", "全", "能受"), ("枉", "直", "屈而后伸"), ("洼", "盈", "低处聚水"), ("敝", "新", "旧极则新")]
+    yb = y + 22
+    for i, (a, b, note) in enumerate(pairs):
+        yy = yb + i * 34
+        s.append(f'<rect x="20" y="{yy}" width="44" height="26" fill="#FBF6EC" stroke="{LINE2}"/>')
+        s.append(txt(42, yy + 18, a, 11.5, INK, "middle"))
+        s.append(f'<line x1="70" y1="{yy+13}" x2="94" y2="{yy+13}" stroke="{GREEN}" stroke-width="1" marker-end="url(#arr)"/>')
+        s.append(f'<rect x="100" y="{yy}" width="44" height="26" fill="#F2EADA" stroke="{LINE}"/>')
+        s.append(txt(122, yy + 18, b, 11.5, GREEN, "middle"))
+        s.append(txt(156, yy + 18, note, 10, "#6E6459"))
+    # 量二句
+    yq = yb + 4 * 34 + 10
+    s.append(txt(20, yq + 12, "二 · 就量说：心里的账", 10.5, SEAL))
+    for i, (a, b, note) in enumerate([("少", "得", "手里不满，才接得住"), ("多", "惑", "尺子越多，越量不准")]):
+        yy = yq + 22 + i * 34
+        s.append(f'<rect x="20" y="{yy}" width="44" height="26" fill="#FBF6EC" stroke="{LINE2}"/>')
+        s.append(txt(42, yy + 18, a, 11.5, INK, "middle"))
+        s.append(f'<line x1="70" y1="{yy+13}" x2="94" y2="{yy+13}" stroke="{GREEN}" stroke-width="1" marker-end="url(#arr)"/>')
+        s.append(f'<rect x="100" y="{yy}" width="44" height="26" fill="#F2EADA" stroke="{LINE}"/>')
+        s.append(txt(122, yy + 18, b, 11.5, GREEN if i == 0 else SEAL, "middle"))
+        s.append(txt(156, yy + 18, note, 10, "#6E6459"))
+    # 抱一
+    y1 = yq + 22 + 2 * 34 + 6
+    s.append(vline(190, y1 - 4, y1 + 8, "#C9B79A"))
+    s.append(box(110, y1 + 8, 160, 34, fill="#E9DFCC", stroke="#C9B79A"))
+    s.append(txt(190, y1 + 31, "抱一 · 为天下式", 11.5, INK, "middle"))
+    # 四不 → 四果
+    y2 = y1 + 54
+    quads = [("不自见", "故明"), ("不自是", "故彰"), ("不自伐", "故有功"), ("不自矜", "故长")]
+    for i, (a, b) in enumerate(quads):
+        col, row = i % 2, i // 2
+        x = 20 + col * 172
+        yy = y2 + row * 32
+        s.append(txt(x, yy + 18, a, 10.5, INK))
+        s.append(f'<line x1="{x+62}" y1="{yy+13}" x2="{x+86}" y2="{yy+13}" stroke="{LINE}" stroke-width="1"/>')
+        s.append(txt(x + 92, yy + 18, b, 10.5, GREEN))
+    # 收
+    y3 = y2 + 2 * 32 + 10
+    s.append(box(20, y3, 340, 50, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, y3 + 22, "夫唯不争，故天下莫能与之争", 11, INK, "middle"))
+    s.append(txt(190, y3 + 41, "诚全而归之：归是回家，不是得利。", 10, SEAL, "middle"))
+    s.append('</svg>')
+    return "\n".join(s)
+
+
+# ============ 第二十五章 · 四大四法 ============
+def ch25_dao_fa():
+    W, H = 380, 566
+    body, y = head(W, H, "四大与四法：人法地，地法天，天法道，道法自然", "第 二 十 五 章 · 总 纲", "道法自然",
+                   "「自然」不是大自然，是自己如此——上面没有更高的东西在命令它。", H)
+    s = [body]
+    cx = 150
+    levels = [("人", "四大之一"), ("地", "厚而载"), ("天", "覆而运"), ("道", "自本自根")]
+    yb = y + 6
+    for i, (name, note) in enumerate(levels):
+        yy = yb + i * 52
+        s.append(box(20, yy, 116, 38, fill="#FBF6EC" if i < 3 else "#E9DFCC"))
+        s.append(txt(38, yy + 24, name, 14, INK))
+        s.append(txt(62, yy + 24, note, 10, "#6E6459"))
+        if i < 3:
+            s.append(arrow(cx - 8, yy + 38, cx - 8, yy + 50, "#6E6459", 1.2))
+    # 法
+    yf = yb + 4 * 52 + 4
+    s.append(box(20, yf, 340, 46, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(30, yf + 20, "人法地 → 地法天 → 天法道 → 道法自然", 10.5, INK))
+    s.append(txt(30, yf + 38, "逐层取法，不是层层复制；法者，以其为则。", 10, "#6E6459"))
+    # 右：逝远反
+    xr = 252
+    s.append(txt(xr - 6, yb + 14, "大曰逝，逝曰远，远曰反", 9.5, "#8A7C69"))
+    ccx, ccy, r = xr + 44, yb + 86, 42
+    s.append(f'<circle cx="{ccx}" cy="{ccy}" r="{r}" fill="none" stroke="{LINE}" stroke-width="1" stroke-dasharray="3 3"/>')
+    for k, lab in enumerate(["逝", "远", "反"]):
+        ang = -90 + k * 120
+        import math
+        px = ccx + r * math.cos(math.radians(ang))
+        py = ccy + r * math.sin(math.radians(ang))
+        s.append(txt(px, py + 4, lab, 11, GREEN, "middle"))
+    s.append(txt(ccx, ccy + 4, "环", 10, "#8A7C69", "middle"))
+    s.append(txt(190, yf + 74, "反，是回到本根；环上没有终点，只有转捩点。", 10.5, "#6E6459", "middle"))
+    s.append('</svg>')
+    return "\n".join(s)
+
+
+# ============ 第三十八章 · 五级滑落 ============
+def ch38_wu_ji():
+    W, H = 380, 604
+    body, y = head(W, H, "道、德、仁、义、礼：一道五级台阶", "第 三 十 八 章 · 秩 序", "五级滑落",
+                   "越往下，越靠「作意」撑；作意越重，越要强制。", H)
+    s = [body]
+    steps = [("道", "无", "万物自化"), ("上德", "无以为", "有德而不自知"),
+             ("下德", "有以为", "守德而恐失"), ("仁", "为之而无以为", "体恤不图报"),
+             ("义", "为之而有以为", "带是非立场"), ("礼", "攘臂而扔之", "强引使从")]
+    yb = y + 4
+    for i, (name, mark, note) in enumerate(steps):
+        yy = yb + i * 50
+        s.append(box(20, yy, 84, 40, fill="#FBF6EC" if i < 2 else "#F6EFE0"))
+        s.append(txt(32, yy + 25, name, 12.5, SEAL if i > 1 else INK))
+        s.append(txt(112, yy + 25, mark, 10.5, GREEN if i < 3 else SEAL))
+        s.append(txt(206, yy + 25, note, 9.5, "#6E6459"))
+        if i < len(steps) - 1:
+            s.append(arrow(62, yy + 40, 62, yy + 48, "#C9B79A", 1.0))
+    yend = yb + len(steps) * 50
+    s.append(txt(20, yend + 14, "失道而后德，失德而后仁，失仁而后义，失义而后礼。", 10, "#6E6459"))
+    s.append(box(20, yend + 28, 340, 64, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(32, yend + 50, "大丈夫处其厚，不居其薄；处其实，不居其华。", 10.5, INK))
+    s.append(txt(32, yend + 72, "不是分出谁高谁低，是认清自己此刻站在第几级。", 10, "#6E6459"))
+    s.append('</svg>')
+    return "\n".join(s)
+
+
+# ============ 第四十章 · 反者道之动 ============
+def ch40_fan_zhe():
+    W, H = 380, 536
+    body, y = head(W, H, "反者道之动，弱者道之用：一台反向的机器", "第 四 十 章 · 公 理", "反向的机器",
+                   "动力取自回环，方法取自柔曲，根基取自空位。", H)
+    s = [body]
+    # 左：环
+    cx, cy, r = 110, y + 92, 58
+    import math
+    s.append(f'<circle cx="{cx}" cy="{cy}" r="{r}" fill="none" stroke="{LINE2}" stroke-width="0.8"/>')
+    def pt(deg):
+        a = math.radians(deg)
+        return cx + r * math.cos(a), cy + r * math.sin(a)
+    # 上弧：翻过去（外推），赭
+    x1, y1 = pt(200); x2, y2 = pt(345)
+    s.append(f'<path d="M {x1:.1f} {y1:.1f} A {r} {r} 0 0 1 {x2:.1f} {y2:.1f}" fill="none" stroke="{SEAL}" stroke-width="1.5" marker-end="url(#arrS)"/>')
+    # 下弧：翻回来（回归），青
+    x3, y3 = pt(20); x4, y4 = pt(165)
+    s.append(f'<path d="M {x3:.1f} {y3:.1f} A {r} {r} 0 0 1 {x4:.1f} {y4:.1f}" fill="none" stroke="{GREEN}" stroke-width="1.5" marker-end="url(#arr2)"/>')
+    s.append(txt(cx, cy + 4, "反", 15, INK, "middle"))
+    s.append(txt(cx, cy + 26, "同一次翻转", 9.5, "#8A7C69", "middle"))
+    s.append(txt(20, cy + r + 26, "赭：翻过去（推到头，另一端已在门口）", 9, SEAL))
+    s.append(txt(20, cy + r + 42, "青：翻回来（回到源头，向内观照）", 9, GREEN))
+    s.append(txt(20, y + 8, "反者 · 道之动", 10.5, INK))
+    # 右：弱
+    s.append(txt(206, y + 8, "弱者 · 道之用", 10.5, INK))
+    s.append(f'<path d="M 216 {y+44} Q 260 {y+14} 300 {y+44} Q 322 {y+58} 344 {y+40}" fill="none" stroke="{SEAL}" stroke-width="1.3"/>')
+    s.append(txt(216, y + 76, "弱，木之柔曲；不是衰弱", 9.5, "#8A7C69"))
+    # 对比表
+    yt = y + 210
+    s.append(box(20, yt, 160, 132, fill="#F6EFE0", stroke="{LINE2}"))
+    s.append(box(200, yt, 160, 132, fill="#FBF6EC", stroke="{LINE2}"))
+    s.append(txt(32, yt + 22, "世人那台", 10.5, "#8A7C69"))
+    s.append(txt(212, yt + 22, "老子那台", 10.5, GREEN))
+    left = ["动力：加码", "方法：硬顶", "根基：堆叠", "→ 加到无处可加，卡死"]
+    right = ["动力：回环", "方法：柔曲", "根基：空位", "→ 一直转"]
+    for i in range(4):
+        col_l = RGB = "#6E6459"
+        s.append(txt(32, yt + 48 + i * 22, left[i], 9.5, "#6E6459"))
+        s.append(txt(212, yt + 48 + i * 22, right[i], 9.5, GREEN if i == 3 else INK))
+    # 底
+    yb = yt + 148
+    s.append(txt(190, yb, "天下万物生于有，有生于无。", 12, INK, "middle"))
+    s.append(txt(190, yb + 20, "根基在空位：壁围出空，空生出用。", 10, "#6E6459", "middle"))
+    s.append('</svg>')
+    return "\n".join(s)
+
+
+# ============ 第四十二章 · 道生一 ============
+def ch42_dao_sheng():
+    W, H = 380, 520
+    body, y = head(W, H, "道生一，一生二，二生三，三生万物", "第 四 十 二 章 · 生 发", "生发总图",
+                   "三是被二撑出来的那道空，不是阴阳之外的第三样东西。", H)
+    s = [body]
+    chain = [("道", "无极 · 浑然未显"), ("一", "太极 · 未判"), ("二", "阴阳 · 有与无")]
+    yb = y + 4
+    for i, (n, note) in enumerate(chain):
+        yy = yb + i * 56
+        s.append(box(20, yy, 40, 34, fill="#E9DFCC" if i == 0 else "#FBF6EC"))
+        s.append(txt(40, yy + 23, n, 14, INK, "middle"))
+        s.append(txt(72, yy + 23, note, 10, "#6E6459"))
+        s.append(arrow(66, yy + 34, 66, yy + 52, "#6E6459", 1.0))
+    # 二三
+    y2 = yb + 3 * 56 + 6
+    s.append(txt(20, y2 + 4, "二生三：两端一立，中间撑开一道位", 10.5, INK))
+    s.append(f'<rect x="20" y="{y2+16}" width="96" height="52" fill="#FBF6EC" stroke="{LINE2}"/>')
+    s.append(txt(68, y2 + 48, "阴", 13, "#4A5C55", "middle"))
+    s.append(f'<rect x="264" y="{y2+16}" width="96" height="52" fill="#FBF6EC" stroke="{LINE2}"/>')
+    s.append(txt(312, y2 + 48, "阳", 13, SEAL, "middle"))
+    s.append(f'<rect x="128" y="{y2+16}" width="124" height="52" fill="#F2EADA" stroke="#C9B79A" stroke-dasharray="3 3"/>')
+    s.append(txt(190, y2 + 40, "三", 12, INK, "middle"))
+    s.append(txt(190, y2 + 58, "虚位 · 冲气", 9.5, "#8A7C69", "middle"))
+    # 万物
+    yw = y2 + 82
+    s.append(arrow(190, yw, 190, yw + 16, "#6E6459", 1.0))
+    s.append(box(20, yw + 18, 340, 58, fill="#FBF6EC", stroke="{LINE2}"))
+    s.append(txt(30, yw + 40, "三生万物：负阴而抱阳，冲气以为和。", 11, INK))
+    s.append(txt(30, yw + 60, "配比不同、节律不同，遂显为万千物类。", 9.5, "#6E6459"))
+    s.append(txt(190, yw + 96, "填实了那道空，生发即止——这是全书对「生」的唯一定义。", 10, "#6E6459", "middle"))
+    s.append('</svg>')
+    return "\n".join(s)
+
+
+# ============ 第五十一章 · 生而不有 ============
+def ch51_sheng_bu_you():
+    W, H = 380, 508
+    body, y = head(W, H, "道生、德畜、物形、势成：四者合力而不居功", "第 五 十 一 章 · 玄 德", "生而不有",
+                   "亭是有顶无壁的小屋；宰，是钻进屋里当差的那个人。", H)
+    s = [body]
+    feeders = [("道", "生"), ("德", "畜"), ("物", "形"), ("势", "成")]
+    yb = y + 4
+    for i, (n, v) in enumerate(feeders):
+        x = 20 + i * 86
+        s.append(box(x, yb, 76, 46, fill="#FBF6EC", stroke="{LINE2}"))
+        s.append(txt(x + 38, yb + 20, n, 12, INK, "middle"))
+        s.append(txt(x + 38, yb + 38, v + "之", 9.5, GREEN, "middle"))
+        s.append(f'<line x1="{x + 38}" y1="{yb + 46}" x2="{x + 38}" y2="{yb + 58}" stroke="{LINE}" stroke-width="1"/>')
+    # 合力条
+    s.append(box(20, yb + 58, 340, 26, fill="#F6EFE0", stroke="{LINE2}"))
+    s.append(txt(190, yb + 76, "四者合力，万物以成", 10, "#6E6459", "middle"))
+    # 六事
+    yy = yb + 94
+    s.append(box(20, yy, 340, 42, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, yy + 18, "长之 · 育之 · 亭之 · 毒之 · 养之 · 覆之", 10.5, INK, "middle"))
+    s.append(txt(190, yy + 36, "亭＝有顶无壁，让它停一停；毒＝厚，让它自己长厚", 9.5, "#6E6459", "middle"))
+    # 三不
+    y3 = yy + 58
+    items = [("生而不有", "生了，不占为己有"), ("为而不恃", "做了，不拿它当本事"), ("长而不宰", "养了，不进那间屋当差")]
+    for i, (a, b) in enumerate(items):
+        y4 = y3 + i * 48
+        s.append(txt(20, y4 + 20, a, 12, SEAL))
+        s.append(txt(132, y4 + 20, b, 9.5, "#6E6459"))
+    y5 = y3 + 3 * 48 + 4
+    s.append(box(20, y5, 340, 40, fill="#E9DFCC", stroke="#C9B79A"))
+    s.append(txt(190, y5 + 26, "是谓玄德", 12, INK, "middle", spacing="2"))
+    s.append(txt(190, y5 + 62, "同一条德，落到人身上就是：养得住，放得下。", 10, "#6E6459", "middle"))
+    s.append('</svg>')
+    return "\n".join(s)
+
+
+# ============ 第六十七章 · 三宝 ============
+def ch67_san_bao():
+    W, H = 380, 540
+    body, y = head(W, H, "慈、俭、不敢为天下先：三条活得久的约束", "第 六 十 七 章 · 三 宝", "三宝",
+                   "「长」量的是时间，不是位次：做得成，还要做得久。", H)
+    s = [body]
+    cols = [("慈", "心里长草，护生", "勇"), ("俭", "把散出的收成一束绳", "广"), ("不敢为先", "不抢位次", "长 · 久")]
+    yb = y + 4
+    for i, (n, note, effect) in enumerate(cols):
+        x = 20 + i * 116
+        s.append(box(x, yb, 108, 108, fill="#FBF6EC", stroke="{LINE2}"))
+        s.append(txt(x + 54, yb + 26, n, 13.5, SEAL if i < 2 else INK, "middle"))
+        # 简符
+        cx, cy = x + 54, yb + 52
+        if i == 0:
+            s.append(f'<path d="M {cx-16} {cy+8} Q {cx} {cy-16} {cx+16} {cy+8}" fill="none" stroke="{GREEN}" stroke-width="1.1"/>')
+            s.append(f'<line x1="{cx}" y1="{cy+8}" x2="{cx}" y2="{cy+18}" stroke="{GREEN}" stroke-width="1"/>')
+        elif i == 1:
+            for k in range(3):
+                s.append(f'<path d="M {cx-14} {cy-8+k*9} Q {cx} {cy-16+k*9} {cx+14} {cy-8+k*9}" fill="none" stroke="{GREEN}" stroke-width="1"/>')
+        else:
+            s.append(f'<line x1="{cx-18}" y1="{cy+10}" x2="{cx+18}" y2="{cy+10}" stroke="{GREEN}" stroke-width="1"/>')
+            s.append(f'<line x1="{cx-10}" y1="{cy+10}" x2="{cx-10}" y2="{cy-8}" stroke="{GREEN}" stroke-width="1"/>')
+        s.append(txt(x + 54, yb + 86, note, 9, "#6E6459", "middle"))
+        s.append(f'<line x1="{x+54}" y1="{yb+108}" x2="{x+54}" y2="{yb+124}" stroke="{LINE}" stroke-width="1" marker-end="url(#arr)"/>')
+        s.append(txt(x + 54, yb + 142, effect, 11.5, GREEN if i < 2 else INK, "middle"))
+    # 反面
+    yw = yb + 158
+    s.append(box(20, yw, 340, 50, fill="#F6EFE0", stroke="#C9B79A"))
+    s.append(txt(30, yw + 20, "今舍慈且勇，舍俭且广，舍后且先，死矣。", 10.5, SEAL))
+    s.append(txt(30, yw + 40, "三样一起舍，就是把「久」换成了「快」。", 9.5, "#6E6459"))
+    s.append(txt(190, yw + 76, "夫慈，以战则胜，以守则固。", 11, INK, "middle"))
+    s.append('</svg>')
+    return "\n".join(s)
+
+
+# ============ 第七十七章 · 张弓 ============
+def ch77_zhang_gong():
+    W, H = 380, 566
+    body, y = head(W, H, "张弓：上弦不是拉满，是找那个刚好", "第 七 十 七 章 · 调 平", "张弓",
+                   "拉满是使力，调平是找平；拉满会断，调平才久。", H)
+    s = [body]
+    # 弓
+    cx, cy = 190, y + 96
+    s.append(f'<path d="M {cx-70} {cy+40} Q {cx} {cy-64} {cx+70} {cy+40}" fill="none" stroke="{INK}" stroke-width="1.6"/>')
+    s.append(f'<line x1="{cx-70}" y1="{cy+40}" x2="{cx+70}" y2="{cy+40}" stroke="{INK}" stroke-width="1"/>')
+    s.append(txt(cx + 8, cy + 30, "弓", 9.5, "#8A7C69", "middle"))
+    s.append(txt(cx + 46, cy + 58, "弦", 9.5, "#8A7C69"))
+    # 高抑 / 下举
+    s.append(arrow(cx - 96, cy - 6, cx - 44, cy - 48, "#C9B79A", 1.0))
+    s.append(txt(20, cy - 52, "高者抑之：按，一只手够", 9.5, "#6E6459"))
+    s.append(arrow(cx - 96, cy + 60, cx - 44, cy + 34, "#C9B79A", 1.0))
+    s.append(txt(20, cy + 78, "下者举之：举，要两只手", 9.5, "#6E6459"))
+    s.append(txt(cx + 84, cy - 4, "有余者损", 9.5, "#6E6459"))
+    s.append(txt(cx + 84, cy + 16, "不足者补", 9.5, "#6E6459"))
+    # 两天道
+    yt = cy + 108
+    s.append(box(20, yt, 160, 96, fill="#F6EFE0", stroke="{LINE2}"))
+    s.append(box(200, yt, 160, 96, fill="#FBF6EC", stroke="{LINE2}"))
+    s.append(txt(32, yt + 22, "天之道", 10.5, GREEN))
+    s.append(txt(212, yt + 22, "人之道", 10.5, SEAL))
+    s.append(txt(32, yt + 46, "损有余", 9.5, INK))
+    s.append(txt(32, yt + 62, "补不足", 9.5, INK))
+    s.append(txt(32, yt + 82, "往下按一半，往上抬到底", 9, "#6E6459"))
+    s.append(txt(212, yt + 46, "损不足", 9.5, INK))
+    s.append(txt(212, yt + 62, "奉有余", 9.5, INK))
+    s.append(txt(212, yt + 82, "越缺越拿，越有越给", 9, "#6E6459"))
+    s.append(txt(190, yt + 128, "孰能有余以奉天下？唯有道者。", 11, INK, "middle"))
+    s.append(txt(190, yt + 148, "上弦的人不使力，使的是眼。", 10, "#6E6459", "middle"))
+    s.append('</svg>')
+    return "\n".join(s)
+
+
+# ============ 第八十一章 · 不积 ============
+def ch81_bu_ji():
+    W, H = 380, 604
+    body, y = head(W, H, "九个不：全书收口的方式是划掉", "第 八 十 一 章 · 收 口", "九个不",
+                   "他不肯说「这就是道」，只说：不是这个，不是这个。", H)
+    s = [body]
+    words = ["不美", "不信", "不辩", "不善", "不博", "不知", "不积", "不害", "不争"]
+    yb = y + 4
+    for i, w in enumerate(words):
+        col, row = i % 3, i // 3
+        x = 20 + col * 116
+        yy = yb + row * 40
+        s.append(box(x, yy, 100, 32, fill="#FBF6EC", stroke="{LINE2}"))
+        s.append(txt(x + 50, yy + 22, w, 11.5, INK, "middle"))
+        s.append(f'<line x1="{x+18}" y1="{yy+8}" x2="{x+82}" y2="{yy+24}" stroke="{SEAL}" stroke-width="0.8" opacity="0.6"/>')
+    # 泉与仓
+    yc = yb + 3 * 40 + 14
+    s.append(box(20, yc, 160, 92, fill="#F6EFE0", stroke="{LINE2}"))
+    s.append(box(200, yc, 160, 92, fill="#FBF6EC", stroke="{LINE2}"))
+    s.append(txt(32, yc + 22, "仓", 12, "#8A7C69"))
+    s.append(txt(32, yc + 44, "积则满，满则溢，溢则空", 9.5, "#6E6459"))
+    s.append(txt(32, yc + 62, "守住会空", 9.5, SEAL))
+    s.append(txt(212, yc + 22, "泉", 12, GREEN))
+    s.append(txt(212, yc + 44, "既以为人，己愈有", 9.5, "#6E6459"))
+    s.append(txt(212, yc + 62, "给出不会少", 9.5, GREEN))
+    # 收
+    yend = yc + 108
+    s.append(box(20, yend, 340, 50, fill="#E9DFCC", stroke="#C9B79A"))
+    s.append(txt(190, yend + 22, "天之道，利而不害；圣人之道，为而不争。", 10.5, INK, "middle"))
+    s.append(txt(190, yend + 40, "全书第一句划掉一个，最后一句划掉九个。", 9.5, "#6E6459", "middle"))
+    s.append('</svg>')
+    return "\n".join(s)
+
+
 FIGS = {
     "ch01-wu-you": ("第一章", "无有同出", ch01_wu_you),
     "ch01-zhi-yue": ("第一章", "指月三境", ch01_zhi_yue),
     "ch01-miao-jiao": ("第一章", "观妙观徼", ch01_miao_jiao),
     "ch02-liu-zu": ("第二章", "六组对偶", ch02_liu_zu),
+    "ch11-li-yong": ("第十一章", "利与用", ch11_li_yong),
+    "ch22-qu-ze-quan": ("第二十二章", "曲则全", ch22_qu_ze_quan),
+    "ch25-dao-fa": ("第二十五章", "道法自然", ch25_dao_fa),
+    "ch38-wu-ji": ("第三十八章", "五级滑落", ch38_wu_ji),
+    "ch40-fan-zhe": ("第四十章", "反向的机器", ch40_fan_zhe),
+    "ch42-dao-sheng": ("第四十二章", "生发总图", ch42_dao_sheng),
+    "ch51-sheng-bu-you": ("第五十一章", "生而不有", ch51_sheng_bu_you),
+    "ch67-san-bao": ("第六十七章", "三宝", ch67_san_bao),
+    "ch77-zhang-gong": ("第七十七章", "张弓", ch77_zhang_gong),
+    "ch81-bu-ji": ("第八十一章", "九个不", ch81_bu_ji),
 }
 
 

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 380 640" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="六句三截：能受、肯少、然后抱一" font-family="'Noto Serif CJK SC','Noto Serif SC','Songti SC',serif">
+<defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#6E6459"/></marker><marker id="arr2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#4A5C55"/></marker><marker id="arrL" viewBox="0 0 10 10" refX="1" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M10 0 L0 5 L10 10 z" fill="#4A5C55"/></marker><marker id="arrS" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#A2503B"/></marker></defs>
+<rect x="0" y="0" width="380" height="640" fill="#F8F3E6"/>
+<text x="20" y="26" font-size="11" fill="#A2503B" font-family="'Noto Sans CJK SC','Noto Sans SC',sans-serif" letter-spacing="3">第 二 十 二 章 · 处 世</text>
+<text x="20" y="58" font-size="21" fill="#2F2A24">曲则全</text>
+<text x="20" y="78" font-size="10.5" fill="#6E6459">六句不是六条策略，是同一条规律的六个截面。</text>
+<text x="20" y="112" font-size="10.5" fill="#A2503B">一 · 就形说：姿态能屈</text>
+<rect x="20" y="122" width="44" height="26" fill="#FBF6EC" stroke="#E6D8C2"/>
+<text x="42" y="140" font-size="11.5" fill="#2F2A24" text-anchor="middle">曲</text>
+<line x1="70" y1="135" x2="94" y2="135" stroke="#4A5C55" stroke-width="1" marker-end="url(#arr)"/>
+<rect x="100" y="122" width="44" height="26" fill="#F2EADA" stroke="#DCCBB0"/>
+<text x="122" y="140" font-size="11.5" fill="#4A5C55" text-anchor="middle">全</text>
+<text x="156" y="140" font-size="10" fill="#6E6459">能受</text>
+<rect x="20" y="156" width="44" height="26" fill="#FBF6EC" stroke="#E6D8C2"/>
+<text x="42" y="174" font-size="11.5" fill="#2F2A24" text-anchor="middle">枉</text>
+<line x1="70" y1="169" x2="94" y2="169" stroke="#4A5C55" stroke-width="1" marker-end="url(#arr)"/>
+<rect x="100" y="156" width="44" height="26" fill="#F2EADA" stroke="#DCCBB0"/>
+<text x="122" y="174" font-size="11.5" fill="#4A5C55" text-anchor="middle">直</text>
+<text x="156" y="174" font-size="10" fill="#6E6459">屈而后伸</text>
+<rect x="20" y="190" width="44" height="26" fill="#FBF6EC" stroke="#E6D8C2"/>
+<text x="42" y="208" font-size="11.5" fill="#2F2A24" text-anchor="middle">洼</text>
+<line x1="70" y1="203" x2="94" y2="203" stroke="#4A5C55" stroke-width="1" marker-end="url(#arr)"/>
+<rect x="100" y="190" width="44" height="26" fill="#F2EADA" stroke="#DCCBB0"/>
+<text x="122" y="208" font-size="11.5" fill="#4A5C55" text-anchor="middle">盈</text>
+<text x="156" y="208" font-size="10" fill="#6E6459">低处聚水</text>
+<rect x="20" y="224" width="44" height="26" fill="#FBF6EC" stroke="#E6D8C2"/>
+<text x="42" y="242" font-size="11.5" fill="#2F2A24" text-anchor="middle">敝</text>
+<line x1="70" y1="237" x2="94" y2="237" stroke="#4A5C55" stroke-width="1" marker-end="url(#arr)"/>
+<rect x="100" y="224" width="44" height="26" fill="#F2EADA" stroke="#DCCBB0"/>
+<text x="122" y="242" font-size="11.5" fill="#4A5C55" text-anchor="middle">新</text>
+<text x="156" y="242" font-size="10" fill="#6E6459">旧极则新</text>
+<text x="20" y="280" font-size="10.5" fill="#A2503B">二 · 就量说：心里的账</text>
+<rect x="20" y="290" width="44" height="26" fill="#FBF6EC" stroke="#E6D8C2"/>
+<text x="42" y="308" font-size="11.5" fill="#2F2A24" text-anchor="middle">少</text>
+<line x1="70" y1="303" x2="94" y2="303" stroke="#4A5C55" stroke-width="1" marker-end="url(#arr)"/>
+<rect x="100" y="290" width="44" height="26" fill="#F2EADA" stroke="#DCCBB0"/>
+<text x="122" y="308" font-size="11.5" fill="#4A5C55" text-anchor="middle">得</text>
+<text x="156" y="308" font-size="10" fill="#6E6459">手里不满，才接得住</text>
+<rect x="20" y="324" width="44" height="26" fill="#FBF6EC" stroke="#E6D8C2"/>
+<text x="42" y="342" font-size="11.5" fill="#2F2A24" text-anchor="middle">多</text>
+<line x1="70" y1="337" x2="94" y2="337" stroke="#4A5C55" stroke-width="1" marker-end="url(#arr)"/>
+<rect x="100" y="324" width="44" height="26" fill="#F2EADA" stroke="#DCCBB0"/>
+<text x="122" y="342" font-size="11.5" fill="#A2503B" text-anchor="middle">惑</text>
+<text x="156" y="342" font-size="10" fill="#6E6459">尺子越多，越量不准</text>
+<line x1="190" y1="360" x2="190" y2="372" stroke="#C9B79A" stroke-width="1"/>
+<rect x="110" y="372" width="160" height="34" fill="#E9DFCC" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="190" y="395" font-size="11.5" fill="#2F2A24" text-anchor="middle">抱一 · 为天下式</text>
+<text x="20" y="436" font-size="10.5" fill="#2F2A24">不自见</text>
+<line x1="82" y1="431" x2="106" y2="431" stroke="#DCCBB0" stroke-width="1"/>
+<text x="112" y="436" font-size="10.5" fill="#4A5C55">故明</text>
+<text x="192" y="436" font-size="10.5" fill="#2F2A24">不自是</text>
+<line x1="254" y1="431" x2="278" y2="431" stroke="#DCCBB0" stroke-width="1"/>
+<text x="284" y="436" font-size="10.5" fill="#4A5C55">故彰</text>
+<text x="20" y="468" font-size="10.5" fill="#2F2A24">不自伐</text>
+<line x1="82" y1="463" x2="106" y2="463" stroke="#DCCBB0" stroke-width="1"/>
+<text x="112" y="468" font-size="10.5" fill="#4A5C55">故有功</text>
+<text x="192" y="468" font-size="10.5" fill="#2F2A24">不自矜</text>
+<line x1="254" y1="463" x2="278" y2="463" stroke="#DCCBB0" stroke-width="1"/>
+<text x="284" y="468" font-size="10.5" fill="#4A5C55">故长</text>
+<rect x="20" y="492" width="340" height="50" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="190" y="514" font-size="11" fill="#2F2A24" text-anchor="middle">夫唯不争，故天下莫能与之争</text>
+<text x="190" y="533" font-size="10" fill="#A2503B" text-anchor="middle">诚全而归之：归是回家，不是得利。</text>
+</svg>
