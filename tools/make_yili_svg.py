@@ -987,6 +987,64 @@ def ch10_bao_yi():
     return "\n".join(s)
 
 
+
+# ============ 第三章 · 尚即过度（壁与空） ============
+def ch03_shang_ji_guo_du():
+    W, H = 380, 500
+    body, y = head(W, H, "「尚」是把自然的分寸，抬成表态", "第 三 章 · 治 世", "尚即过度",
+                   "壁在，空才用得起；壁过头，腹先空，用也就没了。", H)
+    s = [body]
+    # 三个尚
+    rows = [("不尚贤", "使民不争", "把长处摆成徽章"),
+            ("不贵难得之货", "使民不为盗", "把稀罕标成高价"),
+            ("不见可欲", "使民心不乱", "把勾人的摆到眼前")]
+    yb = y + 2
+    for i, (a, b, note) in enumerate(rows):
+        yy = yb + i * 26
+        s.append(txt(20, yy + 15, a, 10, SEAL))
+        s.append(f'<line x1="116" y1="{yy+10}" x2="138" y2="{yy+10}" stroke="{LINE}" stroke-width="1" marker-end="url(#arr)"/>')
+        s.append(txt(144, yy + 15, b, 9.5, INK))
+        s.append(txt(212, yy + 15, note, 8.8, "#6E6459"))
+    s.append(txt(20, yb + 3 * 26 + 8, "三个动作是同一件：不主动抬它，标尺就不起来。", 9, "#8A7C69"))
+    # 三档壁
+    ys = yb + 3 * 26 + 22
+    s.append(txt(20, ys, "壁之三档：有壁而空在，才叫器", 9.5, "#8A7C69"))
+    cy = ys + 62
+    R = 44
+    specs = [(75, 37, "薄壁", "壁太薄：立不住", "空虽在，器不成"),
+             (190, 18, "中壁", "壁立而空存", "利与用俱"),
+             (305, 0, "实心", "空被挤尽", "用无从生")]
+    for cx, ri, name, a, b in specs:
+        s.append(f'<circle cx="{cx}" cy="{cy}" r="{R}" fill="{INK}" opacity="0.5"/>')
+        if ri:
+            s.append(f'<circle cx="{cx}" cy="{cy}" r="{ri}" fill="{PAPER}" stroke="{INK}" stroke-width="0.8"/>')
+            s.append(txt(cx, cy + 4, "空", 10, "#8A7C69", "middle"))
+        s.append(txt(cx, cy + R + 18, name, 10, SEAL if ri else INK, "middle"))
+        s.append(txt(cx, cy + R + 34, a, 8.8, "#6E6459", "middle"))
+        s.append(txt(cx, cy + R + 50, b, 8.8, "#6E6459", "middle"))
+    # 崩：实过头，腹虚
+    yc2 = cy + R + 66
+    import math
+    cxd, cyd, rd = 75, yc2 + 24, 30
+    def pt(deg):
+        a = math.radians(deg)
+        return cxd + rd * math.cos(a), cyd + rd * math.sin(a)
+    for a1, a2 in ((30, 200), (210, 380)):
+        x1, y1 = pt(a1); x2, y2 = pt(a2)
+        s.append(f'<path d="M {x1:.1f} {y1:.1f} A {rd} {rd} 0 0 1 {x2:.1f} {y2:.1f}" fill="none" stroke="{SEAL}" stroke-width="1.6"/>')
+    s.append(txt(cxd, cyd + 4, "虚", 10, SEAL, "middle"))
+    s.append(txt(126, yc2 + 16, "再进一步：实过头，壁崩，腹先虚", 10, SEAL))
+    s.append(txt(126, yc2 + 34, "虚其腹不是「清空」，是壁让得过、先破了。", 9, "#6E6459"))
+    s.append(txt(126, yc2 + 50, "壁一破，腔也守不住，用随之中断。", 9, "#6E6459"))
+    # 收
+    yc = yc2 + 66
+    s.append(box(20, yc, 340, 50, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, yc + 22, "有之以为利，无之以为用。", 11.5, INK, "middle", spacing="1"))
+    s.append(txt(190, yc + 42, "过与不及，皆失其用——一个立不住，一个容不下。", 9, "#6E6459", "middle"))
+    s.append('</svg>')
+    return "\n".join(s)
+
+
 FIGS = {
     "ch01-wu-you": ("第一章", "无有同出", ch01_wu_you),
     "ch01-zhi-yue": ("第一章", "指月三境", ch01_zhi_yue),
@@ -1003,7 +1061,7 @@ FIGS = {
     "ch77-zhang-gong": ("第七十七章", "张弓", ch77_zhang_gong),
     "ch81-bu-ji": ("第八十一章", "九个不", ch81_bu_ji),
     "ch40-san-dong": ("第四十章", "一次动，三次翻", ch40_san_dong),
-    "ch03-bu-zao-biao": ("第三章", "不造标", ch03_bu_zao_biao),
+    "ch03-shang-ji-guo-du": ("第三章", "尚即过度", ch03_shang_ji_guo_du),
     "ch04-dao-chong": ("第四章", "装不满的空", ch04_dao_chong),
     "ch05-tuo-yue": ("第五章", "中不是点，是枢", ch05_tuo_yue),
     "ch06-gu-shen": ("第六章", "谷神不死", ch06_gu_shen),
