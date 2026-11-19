@@ -990,9 +990,9 @@ def ch10_bao_yi():
 
 # ============ 第三章 · 尚即过度（壁与空） ============
 def ch03_shang_ji_guo_du():
-    W, H = 380, 702
+    W, H = 380, 636
     body, y = head(W, H, "「尚」是把自然的分寸，抬成表态", "第 三 章 · 治 世", "尚即过度",
-                   "壁在，空才用得起；壁过了头，用也就没了。", H)
+                   "壁在，空才用得起；壁胀了，空就用不上。", H)
     s = [body]
     rows = [("不尚贤", "使民不争", "把长处摆成徽章"),
             ("不贵难得之货", "使民不为盗", "把稀罕标成高价"),
@@ -1008,56 +1008,63 @@ def ch03_shang_ji_guo_du():
     # 经文四句 ↔ 壁／空
     ys = yb + 3 * 24 + 30
     s.append(txt(20, ys, "经文四句，恰好分成壁与空", 9.5, "#8A7C69"))
-    top, bot = ys + 32, ys + 116
-    s.append(f'<rect x="36" y="{top}" width="13" height="{bot-top}" fill="{INK}" opacity="0.55"/>')
-    s.append(f'<rect x="132" y="{top}" width="13" height="{bot-top}" fill="{INK}" opacity="0.55"/>')
-    s.append(f'<line x1="49" y1="{bot}" x2="132" y2="{bot}" stroke="{INK}" stroke-width="1" opacity="0.55"/>')
+    top, bot = ys + 30, ys + 104
+    s.append(f'<rect x="36" y="{top}" width="13" height="{bot-top}" fill="{INK}" opacity="0.62"/>')
+    s.append(f'<rect x="132" y="{top}" width="13" height="{bot-top}" fill="{INK}" opacity="0.62"/>')
+    s.append(f'<line x1="49" y1="{bot}" x2="132" y2="{bot}" stroke="{INK}" stroke-width="1" opacity="0.5"/>')
     s.append(txt(90, (top + bot) / 2 + 4, "空", 12, "#8A7C69", "middle"))
     s.append(txt(26, top - 6, "壁", 9, SEAL))
     s.append(txt(162, top + 2, "实其腹 · 强其骨 → 壁", 9.5, SEAL))
     s.append(txt(162, top + 18, "厚其壁，是让它立得住", 8.5, "#6E6459"))
-    s.append(txt(162, top + 44, "虚其心 · 弱其志 → 空", 9.5, GREEN))
-    s.append(txt(162, top + 60, "守其空，是让空用得起", 8.5, "#6E6459"))
-    s.append(txt(162, top + 82, "四句不是四件事：两厚壁，两守空", 8.3, "#8A7C69"))
-    # 壁之三档
-    yz = ys + 140
-    s.append(txt(20, yz, "壁之三档：有壁而空在，才叫器", 9.5, "#8A7C69"))
-    cy = yz + 56
-    R = 40
-    specs = [(70, 34, "薄壁", "不及：立不住", "空虽在，器不成"),
-             (190, 17, "中壁", "实其腹的分寸", "壁立而空存，利与用俱"),
-             (310, 0, "实心", "过度：空被挤尽", "用无从生")]
-    for cx, ri, name, a, b in specs:
-        s.append(f'<circle cx="{cx}" cy="{cy}" r="{R}" fill="{INK}" opacity="0.5"/>')
-        if ri:
-            s.append(f'<circle cx="{cx}" cy="{cy}" r="{ri}" fill="{PAPER}" stroke="{INK}" stroke-width="0.8"/>')
-            s.append(txt(cx, cy + 4, "空", 9.5, "#8A7C69", "middle"))
-        s.append(txt(cx, cy + R + 15, name, 10, SEAL if ri else INK, "middle"))
-        s.append(txt(cx, cy + R + 31, a, 8.4, "#6E6459", "middle"))
-        s.append(txt(cx, cy + R + 46, b, 8.2, "#6E6459", "middle"))
-    # 同一个「虚」字，两个意思
-    yr = cy + R + 72
-    s.append(txt(20, yr, "同一个「虚」字，两个意思", 9.5, "#8A7C69"))
-    cys, Rs = yr + 62, 34
-    s.append(f'<circle cx="62" cy="{cys}" r="{Rs}" fill="{INK}" opacity="0.55"/>')
-    s.append(f'<circle cx="62" cy="{cys}" r="21" fill="{INK}" opacity="0.28"/>')
+    s.append(txt(162, top + 48, "虚其心 · 弱其志 → 空", 9.5, GREEN))
+    s.append(txt(162, top + 64, "守其空，是让空用得起", 8.5, "#6E6459"))
+    # 同一段壁，三种质地
+    yz = ys + 128
+    s.append(txt(20, yz, "同一段壁的三种质地：变的是壁，空一直是空", 9.2, "#8A7C69"))
+    cy = yz + 62
+    R = 44
+    thin = 7
+    r1 = R - thin / 2
+    s.append(f'<circle cx="72" cy="{cy}" r="{r1}" fill="none" stroke="{INK}" stroke-width="{thin}" opacity="0.34"/>')
+    s.append(txt(72, cy + 4, "空", 9.5, "#8A7C69", "middle"))
+    s.append(txt(72, cy + R + 16, "薄壁", 10, SEAL, "middle"))
+    s.append(txt(72, cy + R + 32, "不及：立不住", 8.4, "#6E6459", "middle"))
+    s.append(txt(72, cy + R + 46, "空虽在，器不成", 8.2, "#6E6459", "middle"))
+    # 实其腹：深灰、适中
+    thick = 17
+    r2 = R - thick / 2
+    s.append(f'<circle cx="190" cy="{cy}" r="{r2}" fill="none" stroke="{INK}" stroke-width="{thick}" opacity="0.66"/>')
+    s.append(txt(190, cy + 4, "空", 9.5, "#8A7C69", "middle"))
+    s.append(txt(190, cy + R + 16, "实其腹", 10, SEAL, "middle"))
+    s.append(txt(190, cy + R + 32, "分寸：壁致密而空存", 8.4, "#6E6459", "middle"))
+    s.append(txt(190, cy + R + 46, "利与用俱", 8.2, "#6E6459", "middle"))
+    # 海绵壁：更深、更厚、带孔，腔被挤小
+    thick2 = 26
+    r3 = R - thick2 / 2
+    s.append(f'<circle cx="308" cy="{cy}" r="{r3}" fill="none" stroke="{INK}" stroke-width="{thick2}" opacity="0.72"/>')
     pores = []
-    for gx in range(-20, 21, 6):
-        for gy in range(-20, 21, 6):
-            if gx * gx + gy * gy < 17 ** 2:
-                pores.append(f'<circle cx="{62+gx}" cy="{cys+gy}" r="2.1" fill="{PAPER}" opacity="0.9"/>')
+    for gx in range(-R, R + 1, 6):
+        for gy in range(-R, R + 1, 6):
+            rr = gx * gx + gy * gy
+            ri = (R - thick2 + 4) ** 2
+            if ri < rr < (R - 5) ** 2:
+                pores.append(f'<circle cx="{308+gx}" cy="{cy+gy}" r="2.2" fill="{PAPER}" opacity="0.85"/>')
     s.append("".join(pores))
-    s.append(txt(62, cys + Rs + 14, "实 · 内有海绵", 7.8, "#6E6459", "middle"))
-    s.append(txt(112, cys - 40, "虚其心＝主动留白：不堆料，空才用得起。", 8.6, GREEN))
-    s.append(txt(112, cys - 14, "虚其腹＝实的一部分成了海绵：料还在，", 8.6, SEAL))
-    s.append(txt(112, cys + 1, "却多孔；空被吸进料里，不再是能容的腔。", 8.6, SEAL))
-    s.append(txt(112, cys + 22, "不是把实反过来，也不是把料倒掉——", 8.4, "#6E6459"))
-    s.append(txt(112, cys + 37, "是同一块料自己松了，用随之失灵。", 8.4, "#6E6459"))
+    s.append(txt(308, cy + 4, "空", 9, "#8A7C69", "middle"))
+    s.append(txt(308, cy + R + 16, "海绵壁", 10, SEAL, "middle"))
+    s.append(txt(308, cy + R + 32, "过度：壁胀、变厚", 8.4, "#6E6459", "middle"))
+    s.append(txt(308, cy + R + 46, "腔被挤小，空吸进孔里", 7.9, "#6E6459", "middle"))
+    # 辨义
+    yr = cy + R + 62
+    s.append(box(20, yr, 340, 60, fill="#F6EFE0", stroke="#C9B79A", dash="4 3"))
+    s.append(txt(32, yr + 17, "「虚」不是实的反面：是有的那部分自己松成海绵", 8.8, SEAL))
+    s.append(txt(32, yr + 33, "虚其心：在空上做减法，留白，空还照用。", 8.6, "#6E6459"))
+    s.append(txt(32, yr + 49, "虚其腹：在壁上被动的松，料变多孔、变胀，空反被吃掉。", 8.6, "#6E6459"))
     # 收
-    yc = cys + Rs + 30
-    s.append(box(20, yc, 340, 44, fill="#F2EADA", stroke="#C9B79A"))
-    s.append(txt(190, yc + 21, "有之以为利，无之以为用。", 11.5, INK, "middle", spacing="1"))
-    s.append(txt(190, yc + 37, "过与不及，皆失其用。", 9, "#6E6459", "middle"))
+    yc = yr + 74
+    s.append(box(20, yc, 340, 40, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, yc + 19, "有之以为利，无之以为用。", 11.5, INK, "middle", spacing="1"))
+    s.append(txt(190, yc + 34, "过与不及，皆失其用。", 8.8, "#6E6459", "middle"))
     s.append('</svg>')
     return "\n".join(s)
 
