@@ -622,7 +622,7 @@ def ch77_zhang_gong():
 
 # ============ 第八十一章 · 不积 ============
 def ch81_bu_ji():
-    W, H = 380, 660
+    W, H = 380, 690
     body, y = head(W, H, "九个不：全书收口的方式是划掉", "第 八 十 一 章 · 收 口", "九个不",
                    "他不肯说「这就是道」，只说：不是这个，不是这个。", H)
     s = [body]
@@ -2301,7 +2301,7 @@ def ch34_bu_zhu_wei_da():
 # ============ 第三十四章 · 一句两读 ============
 def ch34b_yi_ju_liang_du():
     import math
-    W, H = 380, 660
+    W, H = 380, 690
     body, y = head(W, H, "同一个「不为主」：从它自己看是小，从万物看是大", "第 三 十 四 章 · 同 语 异 名",
                    "一句两读：小与大", "帛书这一句写了两遍，不是抄错，是同语异名。", H)
     s = [body]
@@ -2350,19 +2350,21 @@ def ch34b_yi_ju_liang_du():
 
     # 恒无欲
     yb = ya + 108
-    s.append(box(20, yb, 340, 62, fill="#FBF6EC", stroke="#E6D8C2"))
-    s.append(txt(32, yb + 16, "恒无欲：从来没有那种欲——", 8.0, INK))
-    s.append(txt(32, yb + 31, "「我要你变成我要的样子」", 7.4, "#6E6459"))
-    s.append(txt(32, yb + 47, "不是有时无，是根本没有起过；", 7.2, "#6E6459"))
-    s.append(txt(32, yb + 60, "更不是伸出去再收回来。", 7.2, "#6E6459"))
-    # 手臂垂着，从未伸出
-    s.append(f'<line x1="300" y1="{yb+12}" x2="300" y2="{yb+34}" stroke="{INK}" stroke-width="1.2"/>')
-    s.append(f'<path d="M293,{yb+34} q7,-5 14,0 q1,11 -7,11 q-8,0 -7,-11 z" fill="#E9DFCC" stroke="{INK}" stroke-width="0.8"/>')
-    s.append(f'<path d="M286,{yb+16} q14,-8 28,0" fill="none" stroke="{LINE}" stroke-width="0.8" stroke-dasharray="3 2"/>')
-    s.append(txt(300, yb + 54, "垂着，未伸", 6.4, SEAL, "middle"))
+    s.append(box(20, yb, 340, 92, fill="#FBF6EC", stroke="#E6D8C2"))
+    s.append(txt(32, yb + 15, "「欲」本书读作发心、志求：从谷从欠——谷能容能纳，欠有所向往。", 7.2, INK))
+    s.append(txt(32, yb + 30, "它是中性的那股力，不是后世窄化的贪念。", 7.2, "#6E6459"))
+    s.append(txt(32, yb + 48, "第三章所戒，是攀缘之欲：依附外标而生的求。", 7.2, "#6E6459"))
+    s.append(txt(32, yb + 66, "本章「恒无欲」：那一支从来没有发作——", 7.2, SEAL))
+    s.append(txt(32, yb + 80, "不改造、不统一、不主宰、不占有。", 7.2, SEAL))
+    # 谷：两坡夹一容，向往一点
+    s.append(f'<path d="M264,{yb+14} L282,{yb+46} L300,{yb+14}" fill="none" stroke="{INK}" stroke-width="1.2"/>')
+    s.append(f'<circle cx="282" cy="{yb+40}" r="2.4" fill="{SEAL}"/>')
+    s.append(f'<line x1="282" y1="{yb+34}" x2="282" y2="{yb+18}" stroke="{SEAL}" stroke-width="0.8" stroke-dasharray="3 2"/>')
+    s.append(txt(282, yb + 62, "谷能容，欠向往", 6.2, "#8A7C69", "middle"))
+    s.append(txt(282, yb + 76, "一股中性的力", 6.2, SEAL, "middle"))
 
     # 收
-    yc = yb + 74
+    yc = yb + 104
     s.append(box(20, yc, 340, 44, fill="#F2EADA", stroke="#C9B79A"))
     s.append(txt(190, yc + 18, "世人求大，是往大里做；道之大，是往小里做出来的。", 8.4, INK, "middle"))
     s.append(txt(190, yc + 34, "「大」本是一人张两臂：张开只抱一抱，垂着怀里是整个天地。", 7.4, "#6E6459", "middle"))

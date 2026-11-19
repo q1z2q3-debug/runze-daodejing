@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg viewBox="0 0 380 660" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="同一个「不为主」：从它自己看是小，从万物看是大" font-family="'Noto Serif CJK SC','Noto Serif SC','Songti SC',serif">
+<svg viewBox="0 0 380 690" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="同一个「不为主」：从它自己看是小，从万物看是大" font-family="'Noto Serif CJK SC','Noto Serif SC','Songti SC',serif">
 <defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#6E6459"/></marker><marker id="arr2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#4A5C55"/></marker><marker id="arrL" viewBox="0 0 10 10" refX="1" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M10 0 L0 5 L10 10 z" fill="#4A5C55"/></marker><marker id="arrS" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#A2503B"/></marker></defs>
-<rect x="0" y="0" width="380" height="660" fill="#F8F3E6"/>
+<rect x="0" y="0" width="380" height="690" fill="#F8F3E6"/>
 <text x="20" y="26" font-size="11" fill="#A2503B" font-family="'Noto Sans CJK SC','Noto Sans SC',sans-serif" letter-spacing="3">第 三 十 四 章 · 同 语 异 名</text>
 <text x="20" y="58" font-size="21" fill="#2F2A24">一句两读：小与大</text>
 <text x="20" y="78" font-size="10.5" fill="#6E6459">帛书这一句写了两遍，不是抄错，是同语异名。</text>
@@ -53,20 +53,22 @@
 <text x="210" y="426" font-size="7.2" fill="#6E6459">大不是小之外另修的一层，</text>
 <text x="210" y="440" font-size="7.2" fill="#6E6459">是小自己长出来的结果。</text>
 <text x="210" y="458" font-size="6.9" fill="#A2503B">往大里做，越做越窄</text>
-<rect x="20" y="480" width="340" height="62" fill="#FBF6EC" stroke="#E6D8C2" stroke-width="1.0"/>
-<text x="32" y="496" font-size="8.0" fill="#2F2A24">恒无欲：从来没有那种欲——</text>
-<text x="32" y="511" font-size="7.4" fill="#6E6459">「我要你变成我要的样子」</text>
-<text x="32" y="527" font-size="7.2" fill="#6E6459">不是有时无，是根本没有起过；</text>
-<text x="32" y="540" font-size="7.2" fill="#6E6459">更不是伸出去再收回来。</text>
-<line x1="300" y1="492" x2="300" y2="514" stroke="#2F2A24" stroke-width="1.2"/>
-<path d="M293,514 q7,-5 14,0 q1,11 -7,11 q-8,0 -7,-11 z" fill="#E9DFCC" stroke="#2F2A24" stroke-width="0.8"/>
-<path d="M286,496 q14,-8 28,0" fill="none" stroke="#DCCBB0" stroke-width="0.8" stroke-dasharray="3 2"/>
-<text x="300" y="534" font-size="6.4" fill="#A2503B" text-anchor="middle">垂着，未伸</text>
-<rect x="20" y="554" width="340" height="44" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
-<text x="190" y="572" font-size="8.4" fill="#2F2A24" text-anchor="middle">世人求大，是往大里做；道之大，是往小里做出来的。</text>
-<text x="190" y="588" font-size="7.4" fill="#6E6459" text-anchor="middle">「大」本是一人张两臂：张开只抱一抱，垂着怀里是整个天地。</text>
-<line x1="20" y1="606" x2="360" y2="606" stroke="#E6D8C2" stroke-width="0.8"/>
-<text x="20" y="620" font-size="8.0" fill="#A89577" letter-spacing="1">本 章 金 句</text>
-<text x="20" y="636" font-size="8.4" fill="#2F2A24">能小，是因为它从不伸手；不伸手，才没人能握住它。</text>
-<text x="20" y="652" font-size="8.4" fill="#2F2A24">世人求大，是往大里做；道之大，是往小里做出来的。</text>
+<rect x="20" y="480" width="340" height="92" fill="#FBF6EC" stroke="#E6D8C2" stroke-width="1.0"/>
+<text x="32" y="495" font-size="7.2" fill="#2F2A24">「欲」本书读作发心、志求：从谷从欠——谷能容能纳，欠有所向往。</text>
+<text x="32" y="510" font-size="7.2" fill="#6E6459">它是中性的那股力，不是后世窄化的贪念。</text>
+<text x="32" y="528" font-size="7.2" fill="#6E6459">第三章所戒，是攀缘之欲：依附外标而生的求。</text>
+<text x="32" y="546" font-size="7.2" fill="#A2503B">本章「恒无欲」：那一支从来没有发作——</text>
+<text x="32" y="560" font-size="7.2" fill="#A2503B">不改造、不统一、不主宰、不占有。</text>
+<path d="M264,494 L282,526 L300,494" fill="none" stroke="#2F2A24" stroke-width="1.2"/>
+<circle cx="282" cy="520" r="2.4" fill="#A2503B"/>
+<line x1="282" y1="514" x2="282" y2="498" stroke="#A2503B" stroke-width="0.8" stroke-dasharray="3 2"/>
+<text x="282" y="542" font-size="6.2" fill="#8A7C69" text-anchor="middle">谷能容，欠向往</text>
+<text x="282" y="556" font-size="6.2" fill="#A2503B" text-anchor="middle">一股中性的力</text>
+<rect x="20" y="584" width="340" height="44" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="190" y="602" font-size="8.4" fill="#2F2A24" text-anchor="middle">世人求大，是往大里做；道之大，是往小里做出来的。</text>
+<text x="190" y="618" font-size="7.4" fill="#6E6459" text-anchor="middle">「大」本是一人张两臂：张开只抱一抱，垂着怀里是整个天地。</text>
+<line x1="20" y1="636" x2="360" y2="636" stroke="#E6D8C2" stroke-width="0.8"/>
+<text x="20" y="650" font-size="8.0" fill="#A89577" letter-spacing="1">本 章 金 句</text>
+<text x="20" y="666" font-size="8.4" fill="#2F2A24">能小，是因为它从不伸手；不伸手，才没人能握住它。</text>
+<text x="20" y="682" font-size="8.4" fill="#2F2A24">世人求大，是往大里做；道之大，是往小里做出来的。</text>
 </svg>
