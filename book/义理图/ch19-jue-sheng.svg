@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 380 380" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="不是把好东西扔掉，是把它从被标举的位置上撤下来" font-family="'Noto Serif CJK SC','Noto Serif SC','Songti SC',serif">
+<defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#6E6459"/></marker><marker id="arr2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#4A5C55"/></marker><marker id="arrL" viewBox="0 0 10 10" refX="1" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M10 0 L0 5 L10 10 z" fill="#4A5C55"/></marker><marker id="arrS" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#A2503B"/></marker></defs>
+<rect x="0" y="0" width="380" height="380" fill="#F8F3E6"/>
+<text x="20" y="26" font-size="11" fill="#A2503B" font-family="'Noto Sans CJK SC','Noto Sans SC',sans-serif" letter-spacing="3">第 十 九 章 · 减 法</text>
+<text x="20" y="58" font-size="21" fill="#2F2A24">三绝三弃</text>
+<text x="20" y="78" font-size="10.5" fill="#6E6459">上一章是诊断，这一章是方子。</text>
+<text x="20" y="124" font-size="9.6" fill="#A2503B">绝圣弃智</text>
+<line x1="100" y1="119" x2="126" y2="119" stroke="#C9B79A" stroke-width="1.2" marker-end="url(#arr)"/>
+<text x="132" y="124" font-size="9.6" fill="#2F2A24">民利百倍</text>
+<text x="196" y="124" font-size="8.0" fill="#6E6459">不靠聪明立标准，人反而松</text>
+<text x="20" y="160" font-size="9.6" fill="#A2503B">绝仁弃义</text>
+<line x1="100" y1="155" x2="126" y2="155" stroke="#C9B79A" stroke-width="1.2" marker-end="url(#arr)"/>
+<text x="132" y="160" font-size="9.6" fill="#2F2A24">民复孝慈</text>
+<text x="196" y="160" font-size="8.0" fill="#6E6459">不拿仁义当旗，孝慈自己回来</text>
+<text x="20" y="196" font-size="9.6" fill="#A2503B">绝巧弃利</text>
+<line x1="100" y1="191" x2="126" y2="191" stroke="#C9B79A" stroke-width="1.2" marker-end="url(#arr)"/>
+<text x="132" y="196" font-size="9.6" fill="#2F2A24">盗贼无有</text>
+<text x="196" y="196" font-size="8.0" fill="#6E6459">不抬巧利，偷的念头没有落处</text>
+<text x="20" y="224" font-size="8.6" fill="#8A7C69">此三者以为文，不足：撤了三样，还不够。</text>
+<text x="20" y="240" font-size="8.8" fill="#6E6459">故令有所属——落到三件更实的事上：</text>
+<rect x="20" y="254" width="106" height="44" fill="#F6EFE0" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="73" y="273" font-size="9.4" fill="#4A5C55" text-anchor="middle">见素</text>
+<text x="73" y="288" font-size="7.8" fill="#6E6459" text-anchor="middle">看见本来的</text>
+<rect x="134" y="254" width="106" height="44" fill="#F6EFE0" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="187" y="273" font-size="9.4" fill="#4A5C55" text-anchor="middle">抱朴</text>
+<text x="187" y="288" font-size="7.8" fill="#6E6459" text-anchor="middle">抱住未加工的</text>
+<rect x="248" y="254" width="106" height="44" fill="#F6EFE0" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="301" y="273" font-size="9.4" fill="#4A5C55" text-anchor="middle">少私寡欲</text>
+<text x="301" y="288" font-size="7.8" fill="#6E6459" text-anchor="middle">少一点自己要</text>
+<text x="20" y="310" font-size="8.6" fill="#8A7C69">绝学无忧：不是不学，是不再拿那套标尺学。</text>
+<rect x="20" y="324" width="340" height="40" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="190" y="342" font-size="10.8" fill="#2F2A24" text-anchor="middle" letter-spacing="1">绝圣弃智，民利百倍。</text>
+<text x="190" y="358" font-size="8.4" fill="#6E6459" text-anchor="middle">撤的是位置，不是东西。</text>
+</svg>

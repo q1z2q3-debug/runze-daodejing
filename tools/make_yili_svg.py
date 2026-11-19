@@ -1102,6 +1102,358 @@ def ch10_bao_yi():
     s.append('</svg>')
     return "\n".join(s)
 
+
+# ============ 第十二章 · 五色令人目盲 ============
+def ch12_wu_se():
+    W, H = 380, 410
+    body, y = head(W, H, "门不是要封死，是接法要自己管", "第 十 二 章 · 受 体", "门开五处",
+                   "受于身，不如治于身：物自己来，怎么接是我。", H)
+    s = [body]
+    rows = [("五色", "目盲", "看得越花，反而越看不清"),
+            ("五音", "耳聋", "声音越满，反而听不进"),
+            ("五味", "口爽", "味道越重，口中越失味"),
+            ("驰骋畋猎", "心发狂", "追得越欢，心越收不住"),
+            ("难得之货", "行妨", "稀罕的东西，先绊住脚")]
+    y0 = y + 8
+    for i, (a, b, note) in enumerate(rows):
+        yy = y0 + i * 32
+        s.append(txt(20, yy + 16, a, 9.5, SEAL))
+        s.append(arrow(104, yy + 11, 128, yy + 11, color="#C9B79A", head="arr"))
+        s.append(txt(134, yy + 16, b, 9.5, INK))
+        s.append(txt(184, yy + 16, note, 8.2, "#6E6459"))
+    y1 = y0 + 5 * 32 + 4
+    s.append(txt(20, y1, "五句不是五条禁令：说的是接收那一头先垮了。", 8.6, "#8A7C69"))
+    # 为腹 / 为目
+    y2 = y1 + 16
+    s.append(box(20, y2, 160, 46, fill="#F6EFE0", stroke="#C9B79A"))
+    s.append(txt(100, y2 + 20, "为腹：以物养己", 9.5, GREEN, "middle"))
+    s.append(txt(100, y2 + 36, "重心在里头，物来养它", 8.2, "#6E6459", "middle"))
+    s.append(box(200, y2, 160, 46, fill="#F6EFE0", stroke="#C9B79A"))
+    s.append(txt(280, y2 + 20, "为目：以物役己", 9.5, SEAL, "middle"))
+    s.append(txt(280, y2 + 36, "重心在外头，物来役它", 8.2, "#6E6459", "middle"))
+    yc = y2 + 62
+    s.append(box(20, yc, 340, 42, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, yc + 19, "为腹不为目：去彼取此。", 11.5, INK, "middle", spacing="1"))
+    s.append(txt(190, yc + 35, "不是不要眼耳，是不把人生的重心交给外面。", 8.4, "#6E6459", "middle"))
+    s.append('</svg>')
+    return "\n".join(s)
+
+
+# ============ 第十三章 · 宠辱若惊 ============
+def ch13_chong_ru():
+    W, H = 380, 336
+    body, y = head(W, H, "惊的不是宠辱，是那个被交出去的「我」", "第 十 三 章 · 荣 辱", "惊的是我",
+                   "宠辱本身没有力气；力气是把自己交出去那一刻给的。", H)
+    s = [body]
+    yy = y + 20
+    s.append(box(140, yy, 100, 34, fill="#F6EFE0", stroke="#C9B79A"))
+    s.append(txt(190, yy + 22, "我", 13, INK, "middle", spacing="2"))
+    s.append(txt(34, yy + 22, "宠", 13, GREEN, "middle", spacing="1"))
+    s.append(txt(346, yy + 22, "辱", 13, SEAL, "middle", spacing="1"))
+    s.append(arrow(52, yy + 17, 134, yy + 17, color="#4A5C55", head="arr2"))
+    s.append(arrow(328, yy + 17, 248, yy + 17, color="#A2503B", head="arrS"))
+    s.append(txt(58, yy - 6, "得之若惊", 8.2, "#6E6459"))
+    s.append(txt(322, yy - 6, "失之若惊", 8.2, "#6E6459", "end"))
+    s.append(txt(190, yy + 52, "宠为下：一求它，就把自己放在下位", 8.6, "#8A7C69", "middle"))
+    # 大患
+    y2 = yy + 74
+    s.append(txt(20, y2, "贵大患若身：患的落脚处，是一个「身」", 9.2, "#8A7C69"))
+    y3 = y2 + 14
+    s.append(box(20, y3, 340, 44, fill="#F6EFE0", stroke="#C9B79A"))
+    s.append(txt(190, y3 + 19, "吾所以有大患者，为吾有身；及吾无身，吾有何患？", 8.8, INK, "middle"))
+    s.append(txt(190, y3 + 35, "无身不是弃身：是松开那个钉在边界上的我。", 8.4, "#6E6459", "middle"))
+    yc = y3 + 62
+    s.append(box(20, yc, 340, 44, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, yc + 20, "贵以身为天下，若可寄天下。", 11, INK, "middle", spacing="1"))
+    s.append(txt(190, yc + 36, "先把自己看重，别人才敢把事托给你——不是相反。", 8.4, "#6E6459", "middle"))
+    s.append('</svg>')
+    return "\n".join(s)
+
+
+# ============ 第十四章 · 视之不见 ============
+def ch14_yi_xi_wei():
+    W, H = 380, 356
+    body, y = head(W, H, "把「看得见才算有」降回局部工具", "第 十 四 章 · 道 体", "三样工具探不到",
+                   "探不到不等于没有；探得到也不等于全部。", H)
+    s = [body]
+    rows = [("视之不见", "夷", "眼睛这条线，走到这里就断了"),
+            ("听之不闻", "希", "耳朵这条线，走到这里就断了"),
+            ("搏之不得", "微", "手这条线，走到这里就断了")]
+    y0 = y + 8
+    for i, (a, name, note) in enumerate(rows):
+        yy = y0 + i * 34
+        s.append(txt(20, yy + 15, a, 9.5, SEAL))
+        s.append(txt(102, yy + 15, name, 10, GREEN))
+        s.append(f'<line x1="122" y1="{yy+11}" x2="200" y2="{yy+11}" stroke="{LINE}" stroke-width="1"/>')
+        s.append(txt(206, yy + 15, note, 8.2, "#6E6459"))
+    y1 = y0 + 3 * 34 + 6
+    s.append(arrow(190, y1 + 4, 190, y1 + 14, color="#A2503B", head="arrS"))
+    y2 = y1 + 6
+    s.append(box(60, y2, 260, 40, fill="#F6EFE0", stroke="#C9B79A"))
+    s.append(txt(190, y2 + 17, "此三者不可致诘，故混而为一", 9.8, INK, "middle"))
+    s.append(txt(190, y2 + 33, "三条线都断，断处却指着同一个东西。", 8.4, "#6E6459", "middle"))
+    y3 = y2 + 58
+    s.append(txt(20, y3, "惚恍：其上不皦，其下不昧；迎之不见其首，随之不见其后。", 8.6, "#8A7C69"))
+    yc = y3 + 12
+    s.append(box(20, yc, 340, 44, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, yc + 19, "执古之道，以御今之有。", 10.5, INK, "middle", spacing="1"))
+    s.append(txt(190, yc + 35, "能知古始，是谓道纪：不是复古，是拿源流来看眼前。", 8.4, "#6E6459", "middle"))
+    s.append('</svg>')
+    return "\n".join(s)
+
+
+# ============ 第十五章 · 古之善为道者 ============
+def ch15_shan_wei_dao():
+    W, H = 380, 398
+    body, y = head(W, H, "七喻不是七种美德，是七种「不」", "第 十 五 章 · 体 道", "七个比喻",
+                   "微妙玄通，深不可识：认不出，是因为他不把自己摆出来。", H)
+    s = [body]
+    items = [("豫", "冬涉川", "不敢抢先"),
+             ("犹", "畏四邻", "不敢自专"),
+             ("俨", "其若客", "不敢当主"),
+             ("涣", "若凌释", "不结死冰"),
+             ("敦", "其若朴", "不带修饰"),
+             ("旷", "其若谷", "不填满自己"),
+             ("混", "其若浊", "不装作清")]
+    y0 = y + 6
+    for i, (a, b, note) in enumerate(items):
+        col = i % 2
+        row = i // 2
+        xx = 20 + col * 176
+        yy = y0 + row * 34
+        s.append(txt(xx, yy + 16, a, 11, SEAL, spacing="1"))
+        s.append(txt(xx + 22, yy + 16, b, 9, INK))
+        s.append(txt(xx + 96, yy + 16, note, 8, "#6E6459"))
+    y1 = y0 + 4 * 34 + 6
+    s.append(txt(20, y1, "七字一个字都不褒：说的都是「不肯往前站一步」。", 8.6, "#8A7C69"))
+    y2 = y1 + 18
+    s.append(box(20, y2, 340, 52, fill="#F6EFE0", stroke="#C9B79A"))
+    s.append(txt(32, y2 + 18, "孰能浊以静之徐清？", 9.2, SEAL))
+    s.append(txt(200, y2 + 18, "不是澄清，是让它自己沉下来。", 8.4, "#6E6459"))
+    s.append(txt(32, y2 + 36, "孰能安以动之徐生？", 9.2, GREEN))
+    s.append(txt(200, y2 + 36, "不是不动，是动得慢，才生得出来。", 8.4, "#6E6459"))
+    yc = y2 + 70
+    s.append(box(20, yc, 340, 42, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, yc + 19, "不欲盈：夫唯不盈，故能蔽而新成。", 10.5, INK, "middle", spacing="1"))
+    s.append(txt(190, yc + 35, "不装满，旧样子才换得成新样子。", 8.4, "#6E6459", "middle"))
+    s.append('</svg>')
+    return "\n".join(s)
+
+
+# ============ 第十六章 · 致虚极，守静笃 ============
+def ch16_zhi_xu_ji():
+    W, H = 380, 416
+    body, y = head(W, H, "观不是往外看，是看它回到哪里", "第 十 六 章 · 修 法", "归根",
+                   "万物并作，吾以观复：动的看一头，复的看另一头。", H)
+    s = [body]
+    left = y + 8
+    nodes = ["万物并作", "芸芸", "归根", "静"]
+    for i, t in enumerate(nodes):
+        yy = left + i * 30
+        s.append(box(20, yy, 108, 24, fill="#F6EFE0", stroke="#C9B79A"))
+        s.append(txt(74, yy + 17, t, 9, INK, "middle"))
+        if i:
+            s.append(arrow(74, yy - 6, 74, yy - 1, color="#C9B79A", head="arr"))
+    s.append(txt(20, left + 4 * 30 + 14, "这条线往下：动到最后，都要回到根。", 8.4, "#8A7C69"))
+    right = left + 8
+    nodes2 = ["复命", "常", "明"]
+    for i, t in enumerate(nodes2):
+        yy = right + i * 30
+        s.append(box(252, yy, 108, 24, fill="#F6EFE0", stroke="#C9B79A"))
+        s.append(txt(306, yy + 17, t, 9, INK, "middle"))
+        if i:
+            s.append(arrow(306, yy - 6, 306, yy - 1, color="#4A5C55", head="arr2"))
+    s.append(txt(252, right + 3 * 30 + 14, "往上：回到根，才叫常与明。", 8.4, "#8A7C69"))
+    s.append(arrow(132, left + 3 * 30 + 12, 230, left + 3 * 30 + 12, color="#A2503B", head="arrS"))
+    s.append(arrow(236, left + 3 * 30 + 8, 236, right + 0 * 30 + 30, color="#A2503B", head="arrS"))
+    # 果链
+    y2 = left + 4 * 30 + 30
+    s.append(txt(20, y2, "知常而后：一条顺下来的链", 9.2, "#8A7C69"))
+    chain = ["知常", "容", "公", "全", "天", "道", "久"]
+    y3 = y2 + 30
+    for i, t in enumerate(chain):
+        xx = 24 + i * 48
+        s.append(box(xx, y3, 40, 24, fill="#F2EADA", stroke="#C9B79A"))
+        s.append(txt(xx + 20, y3 + 16, t, 8.6, INK, "middle"))
+        if i:
+            s.append(arrow(xx - 8, y3 + 12, xx - 1, y3 + 12, color="#6E6459", head="arr"))
+    s.append(txt(20, y3 + 44, "不知常，妄作凶：这一条反过来，是从根部一断到底。", 8.4, SEAL))
+    yc = y3 + 62
+    s.append(box(20, yc, 340, 42, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, yc + 19, "致虚极，守静笃。", 11.5, INK, "middle", spacing="1"))
+    s.append(txt(190, yc + 35, "虚到极、静到笃，才看得见「复」这件事。", 8.4, "#6E6459", "middle"))
+    s.append('</svg>')
+    return "\n".join(s)
+
+
+
+# ============ 第十七章 · 太上，下知有之 ============
+def ch17_tai_shang():
+    W, H = 380, 370
+    body, y = head(W, H, "四级不是四种人，是同一件事的四次退化", "第 十 七 章 · 治 道", "四级台阶",
+                   "从上往下：不必被感念 → 要被感念 → 只能被怕 → 连怕也不怕。", H)
+    s = [body]
+    rows = [("太上", "下知有之", "只知有他，不必感念"),
+            ("其次", "亲而誉之", "要被感念了"),
+            ("其次", "畏之", "只能被怕了"),
+            ("其次", "侮之", "连怕也不怕了")]
+    y0 = y + 12
+    for i, (lv, t, note) in enumerate(rows):
+        yy = y0 + i * 40
+        s.append(txt(20, yy + 22, lv, 9, "#8A7C69"))
+        s.append(box(66, yy, 108, 30, fill="#F6EFE0" if i else "#F2EADA", stroke="#C9B79A"))
+        s.append(txt(120, yy + 20, t, 9.6, INK if i < 2 else "#6E6459", "middle"))
+        s.append(txt(188, yy + 20, note, 8.4, "#6E6459"))
+        if i:
+            s.append(arrow(120, yy - 6, 120, yy - 1, color="#C9B79A", head="arr"))
+    y1 = y0 + 4 * 40 + 9
+    s.append(txt(20, y1, "信不足焉，有不信焉：不是下面不信，是上面先不足。", 8.6, "#8A7C69"))
+    yc = y1 + 16
+    s.append(box(20, yc, 340, 48, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, yc + 20, "功成事遂，百姓皆谓：我自然。", 10.8, INK, "middle", spacing="1"))
+    s.append(txt(190, yc + 37, "最好的治理，是做完之后没人把它记在谁头上。", 8.4, "#6E6459", "middle"))
+    s.append('</svg>')
+    return "\n".join(s)
+
+
+# ============ 第十八章 · 大道废，有仁义 ============
+def ch18_da_dao_fei():
+    W, H = 380, 402
+    body, y = head(W, H, "先有缺口，才有那个被举起来的名字", "第 十 八 章 · 世 相", "四对因果",
+                   "四句同一个句式：先废，才有一个被标举的名字。", H)
+    s = [body]
+    rows = [("大道废", "有仁义", "补丁"),
+            ("慧智出", "有大伪", "更精致的仿制品"),
+            ("六亲不和", "有孝慈", "关系破了，才讲孝慈"),
+            ("国家昏乱", "有忠臣", "朝廷乱了，才显忠臣")]
+    y0 = y + 8
+    for i, (a, b, note) in enumerate(rows):
+        yy = y0 + i * 34
+        s.append(txt(20, yy + 16, a, 9.6, SEAL))
+        s.append(arrow(96, yy + 11, 122, yy + 11, color="#C9B79A", head="arr"))
+        s.append(txt(128, yy + 16, b, 9.6, INK))
+        s.append(txt(196, yy + 16, note, 8.2, "#6E6459"))
+    y1 = y0 + 4 * 34 + 8
+    s.append(txt(20, y1, "名字本身不坏；坏在补丁被当成了原因。", 8.6, "#8A7C69"))
+    y2 = y1 + 16
+    s.append(box(20, y2, 340, 52, fill="#F6EFE0", stroke="#C9B79A"))
+    s.append(txt(190, y2 + 20, "一个东西要被单独提出、大力宣扬、由衷赞颂，", 8.8, INK, "middle"))
+    s.append(txt(190, y2 + 36, "本身就是信号：它原来所在的那处，已经有了缺口。", 8.8, INK, "middle"))
+    yc = y2 + 70
+    s.append(box(20, yc, 340, 40, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, yc + 18, "大道废，有仁义。", 11, INK, "middle", spacing="1"))
+    s.append(txt(190, yc + 34, "不是骂仁义：是给仁义记一笔来处。", 8.4, "#6E6459", "middle"))
+    s.append('</svg>')
+    return "\n".join(s)
+
+
+# ============ 第十九章 · 绝圣弃智 ============
+def ch19_jue_sheng():
+    W, H = 380, 380
+    body, y = head(W, H, "不是把好东西扔掉，是把它从被标举的位置上撤下来", "第 十 九 章 · 减 法", "三绝三弃",
+                   "上一章是诊断，这一章是方子。", H)
+    s = [body]
+    rows = [("绝圣弃智", "民利百倍", "不靠聪明立标准，人反而松"),
+            ("绝仁弃义", "民复孝慈", "不拿仁义当旗，孝慈自己回来"),
+            ("绝巧弃利", "盗贼无有", "不抬巧利，偷的念头没有落处")]
+    y0 = y + 8
+    for i, (a, b, note) in enumerate(rows):
+        yy = y0 + i * 36
+        s.append(txt(20, yy + 16, a, 9.6, SEAL))
+        s.append(arrow(100, yy + 11, 126, yy + 11, color="#C9B79A", head="arr"))
+        s.append(txt(132, yy + 16, b, 9.6, INK))
+        s.append(txt(196, yy + 16, note, 8.0, "#6E6459"))
+    y1 = y0 + 3 * 36 + 8
+    s.append(txt(20, y1, "此三者以为文，不足：撤了三样，还不够。", 8.6, "#8A7C69"))
+    y2 = y1 + 16
+    s.append(txt(20, y2, "故令有所属——落到三件更实的事上：", 8.8, "#6E6459"))
+    y3 = y2 + 14
+    items = [("见素", "看见本来的"), ("抱朴", "抱住未加工的"), ("少私寡欲", "少一点自己要")]
+    for i, (a, b) in enumerate(items):
+        xx = 20 + i * 114
+        s.append(box(xx, y3, 106, 44, fill="#F6EFE0", stroke="#C9B79A"))
+        s.append(txt(xx + 53, y3 + 19, a, 9.4, GREEN, "middle"))
+        s.append(txt(xx + 53, y3 + 34, b, 7.8, "#6E6459", "middle"))
+    y4 = y3 + 56
+    s.append(txt(20, y4, "绝学无忧：不是不学，是不再拿那套标尺学。", 8.6, "#8A7C69"))
+    yc = y4 + 14
+    s.append(box(20, yc, 340, 40, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, yc + 18, "绝圣弃智，民利百倍。", 10.8, INK, "middle", spacing="1"))
+    s.append(txt(190, yc + 34, "撤的是位置，不是东西。", 8.4, "#6E6459", "middle"))
+    s.append('</svg>')
+    return "\n".join(s)
+
+
+# ============ 第二十章 · 唯之与阿 ============
+def ch20_wei_zhi_yu_e():
+    W, H = 380, 446
+    body, y = head(W, H, "尺子一换，答案就换", "第 二 十 章 · 独 异", "两把尺子",
+                   "唯之与阿、善之与恶，相去几何？", H)
+    s = [body]
+    y0 = y + 6
+    s.append(txt(150, y0 + 14, "众人", 9.6, "#8A7C69", "middle"))
+    s.append(txt(290, y0 + 14, "我", 9.6, SEAL, "middle"))
+    s.append(f'<line x1="20" y1="{y0+22}" x2="360" y2="{y0+22}" stroke="{LINE}" stroke-width="0.8"/>')
+    rows = [("熙熙如享太牢", "泊兮其未兆"),
+            ("昭昭", "昏昏"),
+            ("察察", "闷闷"),
+            ("皆有馀", "独若遗")]
+    for i, (a, b) in enumerate(rows):
+        yy = y0 + 30 + i * 36
+        s.append(txt(150, yy + 16, a, 8.6, INK, "middle"))
+        s.append(txt(290, yy + 16, b, 8.6, SEAL, "middle"))
+        if i:
+            s.append(f'<line x1="20" y1="{yy-4}" x2="360" y2="{yy-4}" stroke="{LINE2}" stroke-width="0.6"/>')
+    s.append(f'<line x1="220" y1="{y0+26}" x2="220" y2="{y0+30+4*36-8}" stroke="{LINE2}" stroke-width="0.8" stroke-dasharray="3 3"/>')
+    y1 = y0 + 30 + 4 * 36 + 2
+    s.append(txt(20, y1, "他如春登台、如婴儿未孩；我儽儽兮若无所归。", 8.2, "#8A7C69"))
+    s.append(txt(20, y1 + 14, "不是清高：是把自己那把尺，从别人手里拿回来。", 8.4, "#8A7C69"))
+    y2 = y1 + 30
+    s.append(box(20, y2, 340, 50, fill="#F6EFE0", stroke="#C9B79A"))
+    s.append(txt(190, y2 + 20, "人之所畏，不可不畏——但不是每一份畏，都值得接着怕。", 8.6, INK, "middle"))
+    s.append(txt(190, y2 + 36, "荒兮其未央哉：这套尺子铺得很远，一直没个尽头。", 8.4, "#6E6459", "middle"))
+    yc = y2 + 68
+    s.append(box(20, yc, 340, 44, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, yc + 20, "贵食母。", 11, INK, "middle", spacing="1"))
+    s.append(txt(190, yc + 37, "众人有恃，我独有所养：养的是那个母，不是那套尺。", 8.2, "#6E6459", "middle"))
+    s.append('</svg>')
+    return "\n".join(s)
+
+
+# ============ 第二十一章 · 孔德之容 ============
+def ch21_kong_de():
+    W, H = 380, 436
+    body, y = head(W, H, "恍惚不是玄，是还没成形就说成形必失真", "第 二 十 一 章 · 道 之 为 物", "由粗到细",
+                   "惚兮恍兮其中有象；窈兮冥兮其中有精。", H)
+    s = [body]
+    y0 = y + 16
+    s.append(box(20, y0, 340, 32, fill="#F6EFE0", stroke="#C9B79A", dash="4 3"))
+    s.append(txt(190, y0 + 21, "惚兮恍兮：不是一个清楚的东西，是一团还没定形的", 8.4, "#6E6459", "middle"))
+    rows = [("象", "其中有个模糊的样子"),
+            ("物", "那样子里，有东西"),
+            ("精", "那东西里，有极细的质"),
+            ("信", "这质可验、不骗人")]
+    y1 = y0 + 46
+    for i, (a, b) in enumerate(rows):
+        yy = y1 + i * 34
+        s.append(txt(40, yy + 16, a, 13, SEAL if i < 2 else GREEN))
+        s.append(txt(76, yy + 16, b, 8.8, "#6E6459"))
+        if i:
+            s.append(arrow(52, yy - 8, 52, yy - 1, color="#C9B79A", head="arr"))
+    s.append(f'<line x1="30" y1="{y1-6}" x2="30" y2="{y1+3*34+18}" stroke="{LINE2}" stroke-width="1"/>')
+    s.append(txt(20, y1 + 4 * 34 + 2, "越往里越细，但每一层都是真的：不是越玄越空。", 8.6, "#8A7C69"))
+    y2 = y1 + 4 * 34 + 18
+    s.append(box(20, y2, 340, 46, fill="#F6EFE0", stroke="#C9B79A"))
+    s.append(txt(190, y2 + 18, "孔德之容，惟道是从。", 10, INK, "middle", spacing="1"))
+    s.append(txt(190, y2 + 34, "德的样子，只是跟着道走；不是自己长成一套。", 8.4, "#6E6459", "middle"))
+    yc = y2 + 64
+    s.append(box(20, yc, 340, 42, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, yc + 19, "自今及古，其名不去，以阅众甫。", 10, INK, "middle", spacing="1"))
+    s.append(txt(190, yc + 35, "往回看不是怀旧：是拿这条不断的名，看清万物怎么起头。", 8.2, "#6E6459", "middle"))
+    s.append('</svg>')
+    return "\n".join(s)
+
+
 FIGS = {
     "ch01-wu-you": ("第一章", "无有同出", ch01_wu_you),
     "ch01-zhi-yue": ("第一章", "指月三境", ch01_zhi_yue),
@@ -1118,6 +1470,16 @@ FIGS = {
     "ch77-zhang-gong": ("第七十七章", "张弓", ch77_zhang_gong),
     "ch81-bu-ji": ("第八十一章", "九个不", ch81_bu_ji),
     "ch40-san-dong": ("第四十章", "一次动，三次翻", ch40_san_dong),
+    "ch12-wu-se": ("第十二章", "门开五处", ch12_wu_se),
+    "ch13-chong-ru": ("第十三章", "惊的是我", ch13_chong_ru),
+    "ch14-yi-xi-wei": ("第十四章", "三样工具探不到", ch14_yi_xi_wei),
+    "ch15-shan-wei-dao": ("第十五章", "七个比喻", ch15_shan_wei_dao),
+    "ch16-zhi-xu-ji": ("第十六章", "归根", ch16_zhi_xu_ji),
+    "ch17-tai-shang": ("第十七章", "四级台阶", ch17_tai_shang),
+    "ch18-da-dao-fei": ("第十八章", "四对因果", ch18_da_dao_fei),
+    "ch19-jue-sheng": ("第十九章", "三绝三弃", ch19_jue_sheng),
+    "ch20-wei-zhi-yu-e": ("第二十章", "两把尺子", ch20_wei_zhi_yu_e),
+    "ch21-kong-de": ("第二十一章", "由粗到细", ch21_kong_de),
     "ch03-shang-ji-guo-du": ("第三章", "尚即过度", ch03_shang_ji_guo_du),
     "ch04-dao-chong": ("第四章", "装不满的空", ch04_dao_chong),
     "ch05-tuo-yue": ("第五章", "中不是点，是枢", ch05_tuo_yue),

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 380 446" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="尺子一换，答案就换" font-family="'Noto Serif CJK SC','Noto Serif SC','Songti SC',serif">
+<defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#6E6459"/></marker><marker id="arr2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#4A5C55"/></marker><marker id="arrL" viewBox="0 0 10 10" refX="1" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M10 0 L0 5 L10 10 z" fill="#4A5C55"/></marker><marker id="arrS" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#A2503B"/></marker></defs>
+<rect x="0" y="0" width="380" height="446" fill="#F8F3E6"/>
+<text x="20" y="26" font-size="11" fill="#A2503B" font-family="'Noto Sans CJK SC','Noto Sans SC',sans-serif" letter-spacing="3">第 二 十 章 · 独 异</text>
+<text x="20" y="58" font-size="21" fill="#2F2A24">两把尺子</text>
+<text x="20" y="78" font-size="10.5" fill="#6E6459">唯之与阿、善之与恶，相去几何？</text>
+<text x="150" y="120" font-size="9.6" fill="#8A7C69" text-anchor="middle">众人</text>
+<text x="290" y="120" font-size="9.6" fill="#A2503B" text-anchor="middle">我</text>
+<line x1="20" y1="128" x2="360" y2="128" stroke="#DCCBB0" stroke-width="0.8"/>
+<text x="150" y="152" font-size="8.6" fill="#2F2A24" text-anchor="middle">熙熙如享太牢</text>
+<text x="290" y="152" font-size="8.6" fill="#A2503B" text-anchor="middle">泊兮其未兆</text>
+<text x="150" y="188" font-size="8.6" fill="#2F2A24" text-anchor="middle">昭昭</text>
+<text x="290" y="188" font-size="8.6" fill="#A2503B" text-anchor="middle">昏昏</text>
+<line x1="20" y1="168" x2="360" y2="168" stroke="#E6D8C2" stroke-width="0.6"/>
+<text x="150" y="224" font-size="8.6" fill="#2F2A24" text-anchor="middle">察察</text>
+<text x="290" y="224" font-size="8.6" fill="#A2503B" text-anchor="middle">闷闷</text>
+<line x1="20" y1="204" x2="360" y2="204" stroke="#E6D8C2" stroke-width="0.6"/>
+<text x="150" y="260" font-size="8.6" fill="#2F2A24" text-anchor="middle">皆有馀</text>
+<text x="290" y="260" font-size="8.6" fill="#A2503B" text-anchor="middle">独若遗</text>
+<line x1="20" y1="240" x2="360" y2="240" stroke="#E6D8C2" stroke-width="0.6"/>
+<line x1="220" y1="132" x2="220" y2="272" stroke="#E6D8C2" stroke-width="0.8" stroke-dasharray="3 3"/>
+<text x="20" y="282" font-size="8.2" fill="#8A7C69">他如春登台、如婴儿未孩；我儽儽兮若无所归。</text>
+<text x="20" y="296" font-size="8.4" fill="#8A7C69">不是清高：是把自己那把尺，从别人手里拿回来。</text>
+<rect x="20" y="312" width="340" height="50" fill="#F6EFE0" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="190" y="332" font-size="8.6" fill="#2F2A24" text-anchor="middle">人之所畏，不可不畏——但不是每一份畏，都值得接着怕。</text>
+<text x="190" y="348" font-size="8.4" fill="#6E6459" text-anchor="middle">荒兮其未央哉：这套尺子铺得很远，一直没个尽头。</text>
+<rect x="20" y="380" width="340" height="44" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="190" y="400" font-size="11" fill="#2F2A24" text-anchor="middle" letter-spacing="1">贵食母。</text>
+<text x="190" y="417" font-size="8.2" fill="#6E6459" text-anchor="middle">众人有恃，我独有所养：养的是那个母，不是那套尺。</text>
+</svg>

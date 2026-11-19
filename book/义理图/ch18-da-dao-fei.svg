@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 380 402" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="先有缺口，才有那个被举起来的名字" font-family="'Noto Serif CJK SC','Noto Serif SC','Songti SC',serif">
+<defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#6E6459"/></marker><marker id="arr2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#4A5C55"/></marker><marker id="arrL" viewBox="0 0 10 10" refX="1" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M10 0 L0 5 L10 10 z" fill="#4A5C55"/></marker><marker id="arrS" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#A2503B"/></marker></defs>
+<rect x="0" y="0" width="380" height="402" fill="#F8F3E6"/>
+<text x="20" y="26" font-size="11" fill="#A2503B" font-family="'Noto Sans CJK SC','Noto Sans SC',sans-serif" letter-spacing="3">第 十 八 章 · 世 相</text>
+<text x="20" y="58" font-size="21" fill="#2F2A24">四对因果</text>
+<text x="20" y="78" font-size="10.5" fill="#6E6459">四句同一个句式：先废，才有一个被标举的名字。</text>
+<text x="20" y="124" font-size="9.6" fill="#A2503B">大道废</text>
+<line x1="96" y1="119" x2="122" y2="119" stroke="#C9B79A" stroke-width="1.2" marker-end="url(#arr)"/>
+<text x="128" y="124" font-size="9.6" fill="#2F2A24">有仁义</text>
+<text x="196" y="124" font-size="8.2" fill="#6E6459">补丁</text>
+<text x="20" y="158" font-size="9.6" fill="#A2503B">慧智出</text>
+<line x1="96" y1="153" x2="122" y2="153" stroke="#C9B79A" stroke-width="1.2" marker-end="url(#arr)"/>
+<text x="128" y="158" font-size="9.6" fill="#2F2A24">有大伪</text>
+<text x="196" y="158" font-size="8.2" fill="#6E6459">更精致的仿制品</text>
+<text x="20" y="192" font-size="9.6" fill="#A2503B">六亲不和</text>
+<line x1="96" y1="187" x2="122" y2="187" stroke="#C9B79A" stroke-width="1.2" marker-end="url(#arr)"/>
+<text x="128" y="192" font-size="9.6" fill="#2F2A24">有孝慈</text>
+<text x="196" y="192" font-size="8.2" fill="#6E6459">关系破了，才讲孝慈</text>
+<text x="20" y="226" font-size="9.6" fill="#A2503B">国家昏乱</text>
+<line x1="96" y1="221" x2="122" y2="221" stroke="#C9B79A" stroke-width="1.2" marker-end="url(#arr)"/>
+<text x="128" y="226" font-size="9.6" fill="#2F2A24">有忠臣</text>
+<text x="196" y="226" font-size="8.2" fill="#6E6459">朝廷乱了，才显忠臣</text>
+<text x="20" y="252" font-size="8.6" fill="#8A7C69">名字本身不坏；坏在补丁被当成了原因。</text>
+<rect x="20" y="268" width="340" height="52" fill="#F6EFE0" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="190" y="288" font-size="8.8" fill="#2F2A24" text-anchor="middle">一个东西要被单独提出、大力宣扬、由衷赞颂，</text>
+<text x="190" y="304" font-size="8.8" fill="#2F2A24" text-anchor="middle">本身就是信号：它原来所在的那处，已经有了缺口。</text>
+<rect x="20" y="338" width="340" height="40" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="190" y="356" font-size="11" fill="#2F2A24" text-anchor="middle" letter-spacing="1">大道废，有仁义。</text>
+<text x="190" y="372" font-size="8.4" fill="#6E6459" text-anchor="middle">不是骂仁义：是给仁义记一笔来处。</text>
+</svg>
