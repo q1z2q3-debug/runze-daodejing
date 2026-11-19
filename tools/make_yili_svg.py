@@ -3958,10 +3958,37 @@ def ch45c_yin_er_bu_fa():
     return "\n".join(s)
 
 # ============ 第四十六章 · 路上的印子 ============
+def horse(s, x, gy, k=1.0, flip=False, col=None, op=0.85):
+    """侧立一匹马，脚在 gy，面朝右；flip=True 面朝左。k 为缩放。"""
+    col = col or INK
+    sx = -k if flip else k
+    g = [f'<g transform="translate({x},{gy}) scale({sx},{k})" fill="{col}" opacity="{op}">']
+    # 躯干
+    g.append('<ellipse cx="-4" cy="-34" rx="24" ry="12"/>')
+    g.append('<circle cx="-26" cy="-35" r="11"/>')
+    g.append('<circle cx="10" cy="-35" r="11"/>')
+    # 颈
+    g.append('<path d="M8,-43 L21,-43 L34,-66 L20,-69 Z"/>')
+    # 头
+    g.append('<path d="M19,-69 L36,-65 L46,-62 L47,-56 L40,-54 L28,-61 Z"/>')
+    # 耳
+    g.append('<path d="M22,-69 L25,-78 L30,-69 Z"/>')
+    # 鬃
+    g.append('<path d="M20,-69 l2,-5 l2,5 l2,-6 l2,6" stroke="%s" stroke-width="1.2" fill="none" opacity="0.9"/>' % col)
+    # 尾
+    g.append(f'<path d="M-32,-42 q-8,16 -6,26" stroke="{col}" stroke-width="2.6" fill="none"/>')
+    # 四腿
+    for lx, lx2 in ((15, 16), (6, 4), (-22, -25), (-14, -12)):
+        g.append(f'<line x1="{lx}" y1="-28" x2="{lx2}" y2="-1" stroke="{col}" stroke-width="2.6"/>')
+        g.append(f'<rect x="{lx2-2}" y="-2" width="7" height="2.6"/>')
+    g.append('</g>')
+    s.extend(g)
+
+
 def ch46a_lu_shang_yin_zi():
-    W, H = 380, 500
+    W, H = 380, 512
     body, y = head(W, H, "一个国家的秩序，看马站在哪儿就知道", "第 四 十 六 章 · 马",
-                   "路上的印子", "天下有道，却走马以粪；天下无道，戎马生于郊。", H)
+                   "马站在哪儿", "天下有道，却走马以粪；天下无道，戎马生于郊。", H)
     s = [body]
 
     s.append(box(20, y + 2, 340, 30, fill="#F2EADA", stroke="#C9B79A"))
@@ -3969,58 +3996,60 @@ def ch46a_lu_shang_yin_zi():
     s.append(txt(190, y + 26, "「郊」，《说文》「距国百里为郊」——都城往外一百里，最不该见血的一圈。", 5.3, "#6E6459", "middle"))
 
     a = y + 46
-    s.append(txt(24, a + 8, "一 · 有道：田里", 5.9, GREEN))
-    gy = a + 76
+    s.append(txt(24, a + 8, "一 · 有道：马在田里", 5.9, GREEN))
+    gy = a + 82
     s.append(f'<line x1="24" y1="{gy}" x2="338" y2="{gy}" stroke="{LINE2}" stroke-width="0.7"/>')
     # 田垄
     for k in range(4):
-        yy = gy - 8 - k * 10
-        s.append(f'<line x1="32" y1="{yy}" x2="118" y2="{yy}" stroke="{GREEN}" stroke-width="0.45" opacity="0.75"/>')
-        s.append(f'<line x1="32" y1="{yy-3}" x2="118" y2="{yy-3}" stroke="{GREEN}" stroke-width="0.2" opacity="0.4"/>')
-    s.append(txt(75, gy + 12, "田", 4.6, "#6E6459", "middle"))
-    # 车辙（两道，从车往左）
-    s.append(f'<line x1="150" y1="{gy+2}" x2="248" y2="{gy+2}" stroke="{INK}" stroke-width="0.6" opacity="0.6"/>')
-    s.append(f'<line x1="150" y1="{gy+8}" x2="248" y2="{gy+8}" stroke="{INK}" stroke-width="0.6" opacity="0.6"/>')
-    s.append(txt(192, gy + 18, "两道车辙，走得慢", 4.6, "#6E6459", "middle"))
-    # 粪车
-    s.append(f'<rect x="244" y="{gy-32}" width="62" height="26" fill="#E6D8C2" stroke="{INK}" stroke-width="0.8"/>')
-    s.append(f'<line x1="244" y1="{gy-24}" x2="228" y2="{gy-28}" stroke="{INK}" stroke-width="0.6"/>')
-    for wx in (256, 292):
+        yy = gy - 8 - k * 9
+        s.append(f'<line x1="28" y1="{yy}" x2="92" y2="{yy}" stroke="{GREEN}" stroke-width="0.45" opacity="0.8"/>')
+    s.append(txt(60, gy + 12, "田", 4.6, "#6E6459", "middle"))
+    # 车辙
+    s.append(f'<line x1="118" y1="{gy+2}" x2="286" y2="{gy+2}" stroke="{INK}" stroke-width="0.5" opacity="0.55"/>')
+    s.append(f'<line x1="118" y1="{gy+8}" x2="286" y2="{gy+8}" stroke="{INK}" stroke-width="0.5" opacity="0.55"/>')
+    # 马拉车
+    horse(s, 168, gy, k=0.66, flip=True)
+    s.append(f'<line x1="186" y1="{gy-20}" x2="214" y2="{gy-22}" stroke="{INK}" stroke-width="0.5"/>')
+    s.append(f'<rect x="214" y="{gy-30}" width="52" height="24" fill="#E6D8C2" stroke="{INK}" stroke-width="0.8"/>')
+    s.append(f'<path d="M214,{gy-30} l-7,-2 M266,{gy-30} l7,-2" stroke="{INK}" stroke-width="0.4" fill="none"/>')
+    for wx in (226, 254):
         s.append(f'<circle cx="{wx}" cy="{gy-3}" r="7" fill="{PAPER}" stroke="{INK}" stroke-width="0.7"/>')
-        s.append(f'<circle cx="{wx}" cy="{gy-3}" r="2" fill="{INK}" opacity="0.5"/>')
-    s.append(txt(275, gy - 42, "却走马以粪", 4.8, GREEN, "middle"))
+        s.append(f'<circle cx="{wx}" cy="{gy-3}" r="1.8" fill="{INK}" opacity="0.5"/>')
+    s.append(txt(240, gy - 38, "却走马以粪", 4.8, GREEN, "middle"))
+    s.append(txt(241, gy + 20, "最贵的军资，拉最贱的肥", 4.6, "#6E6459", "middle"))
 
     b = a + 100
-    s.append(txt(24, b + 8, "二 · 无道：郊外", 5.9, SEAL))
-    gy2 = b + 72
+    s.append(txt(24, b + 8, "二 · 无道：马在郊外生崽", 5.9, SEAL))
+    gy2 = b + 84
     s.append(f'<line x1="24" y1="{gy2}" x2="338" y2="{gy2}" stroke="{LINE2}" stroke-width="0.7"/>')
     # 城墙
-    s.append(f'<rect x="28" y="{gy2-32}" width="78" height="32" fill="none" stroke="{INK}" stroke-width="1"/>')
+    s.append(f'<rect x="28" y="{gy2-30}" width="66" height="30" fill="none" stroke="{INK}" stroke-width="1"/>')
     for k in range(4):
-        s.append(f'<rect x="{30+k*19}" y="{gy2-40}" width="11" height="8" fill="none" stroke="{INK}" stroke-width="0.7"/>')
-    s.append(f'<line x1="28" y1="{gy2-22}" x2="106" y2="{gy2-22}" stroke="{INK}" stroke-width="0.35" opacity="0.5"/>')
-    s.append(txt(67, gy2 + 12, "国", 4.6, "#6E6459", "middle"))
+        s.append(f'<rect x="{30+k*16}" y="{gy2-38}" width="9" height="8" fill="none" stroke="{INK}" stroke-width="0.6"/>')
+    s.append(txt(61, gy2 + 12, "国", 4.6, "#6E6459", "middle"))
     # 营帐
-    s.append(f'<path d="M136,{gy2} L160,{gy2-30} L184,{gy2} Z" fill="none" stroke="{INK}" stroke-width="0.9"/>')
-    s.append(f'<line x1="160" y1="{gy2-30}" x2="160" y2="{gy2-38}" stroke="{INK}" stroke-width="0.5"/>')
-    s.append(txt(160, gy2 + 12, "百里之内", 4.6, "#6E6459", "middle"))
+    s.append(f'<path d="M104,{gy2} L124,{gy2-26} L144,{gy2} Z" fill="none" stroke="{INK}" stroke-width="0.9"/>')
+    s.append(f'<line x1="124" y1="{gy2-26}" x2="124" y2="{gy2-33}" stroke="{INK}" stroke-width="0.5"/>')
+    s.append(txt(124, gy2 + 12, "百里之内", 4.6, "#6E6459", "middle"))
+    # 母马与小马
+    horse(s, 192, gy2, k=0.76)
+    horse(s, 240, gy2, k=0.44)
+    s.append(txt(196, gy2 + 12, "母马上阵", 4.6, SEAL, "middle"))
+    s.append(txt(246, gy2 + 12, "生在野地", 4.6, SEAL, "middle"))
     # 乱蹄印
-    marks = [(214, 0), (238, 4), (262, 0), (288, 5), (310, 1), (222, 10), (250, 9), (334, 8), (300, 12)]
-    for mx, off in marks:
-        s.append(f'<path d="M{mx},{gy2-off} q4,-3.4 8,0" fill="none" stroke="{SEAL}" stroke-width="0.55" opacity="0.85"/>')
-        s.append(f'<circle cx="{mx+2.4}" cy="{gy2-off-3.4}" r="0.7" fill="{SEAL}"/>')
-        s.append(f'<circle cx="{mx+5.6}" cy="{gy2-off-3.4}" r="0.7" fill="{SEAL}"/>')
-    s.append(txt(272, gy2 - 48, "戎马生于郊", 4.8, SEAL, "middle"))
-    s.append(txt(272, gy2 + 18, "蹄印又急又乱", 4.6, "#6E6459", "middle"))
+    for mx, off in [(288, 0), (312, 4), (330, 0), (300, 9), (322, 12)]:
+        s.append(f'<path d="M{mx},{gy2-off} q4,-3.2 8,0" fill="none" stroke="{SEAL}" stroke-width="0.5" opacity="0.85"/>')
+    s.append(txt(310, gy2 - 34, "蹄印又急又乱", 4.6, "#6E6459", "middle"))
 
     c = gy2 + 30
     s.append(f'<line x1="24" y1="{c}" x2="338" y2="{c}" stroke="{LINE}" stroke-width="0.6"/>')
     s.append(box(20, c + 8, 340, 44, fill="#F2EADA", stroke="#C9B79A"))
-    s.append(txt(190, c + 24, "同一个国家，两种年景：一条路上是车辙，一条路上是蹄印。", 6.0, INK, "middle"))
+    s.append(txt(190, c + 24, "同一个国家，两种年景：一匹马往田里去，一匹马在战场生崽。", 5.8, INK, "middle"))
     s.append(txt(190, c + 38, "不必看它说什么，看马站在哪儿。", 6.0, GREEN, "middle"))
     s.append(gold(c + 66, "ch46a"))
     s.append('</svg>')
     return "\n".join(s)
+
 
 # ============ 第四十六章 · 刀改成犁 ============
 def ch46b_dao_gai_li():
