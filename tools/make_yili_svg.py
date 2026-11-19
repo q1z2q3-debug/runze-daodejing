@@ -1519,6 +1519,7 @@ GOLD = {
     "ch24": ["借来的高度站不住，省下的步子走不远。", "不处不是割掉，是不长——约束是按住它，不处是根本不在那儿站。"],
     "ch25": ["不是它比天地老，是天地离了它不成。", "名是给有边界的东西用的；对没有边界的东西，名只是手指。"],
     "ch45b_jing": ["满得溢出来的，是在往外倒；满在里面不溢的，是在往里续。"],
+    "ch45c_dao": ["「正」不是被谁摆正的，是它自己终于站住了。"],
     "ch45c_bi": ["直、巧、辩，三样都在「收」上见高低。",
                  "「正」不是被谁摆正的，是它自己终于站住了。"],
     "ch45c_old": ["动可以赢一场冷，只有静能了断一场热。",
@@ -3891,55 +3892,65 @@ def ch45b_jing_ying_chong():
 
 
 # ============ 第四十五章 · 笔 ============
-def ch45c_bi_zhi():
-    W, H = 380, 664
-    body, y = head(W, H, "一笔、一字、一行，写到最后是收笔", "第 四 十 五 章 · 笔",
-                   "写到该停的地方", "大直若屈，大巧若拙，大辩若讷。", H)
+def ch45c_yi_ba_dao():
+    W, H = 380, 610
+    body, y = head(W, H, "刀身有腰、刃留一线钝、锋在鞘里", "第 四 十 五 章 · 刀",
+                   "一把刀，三处留一分", "大直若屈，大巧若拙，大辩若讷。", H)
     s = [body]
 
     s.append(box(20, y + 2, 340, 30, fill="#F2EADA", stroke="#C9B79A"))
-    s.append(txt(190, y + 14, "写字全在收：一横不能一路按到底，一字不能让人看出用劲，一行不能写满。", 5.5, INK, "middle"))
-    s.append(txt(190, y + 26, "同一种手：到极处，还留一处没使完的劲。", 5.6, "#6E6459", "middle"))
+    s.append(txt(190, y + 14, "「辩」就是刀：话说出口，刃就出来了，一出鞘就在切分。", 5.8, INK, "middle"))
+    s.append(txt(190, y + 26, "讷，是刀还在鞘里；不是没有刃，是不出鞘。", 5.6, "#6E6459", "middle"))
 
-    rows = [
-        ("一笔 · 大直若屈", "一横若一路按到底，就僵；中间提一下，它才走得远。", "一条直线压下去是死的。"),
-        ("一字 · 大巧若拙", "露锋的起收看得出用劲；藏锋的，看不出笔从哪儿来。", "看不出使过劲，才是本事。"),
-        ("一行 · 大辩若讷", "字写满、话说满，都不留余地；留白处才是气口。", "不写满，比写得多更要紧。"),
-        ("收笔 · 清静为正", "笔停不下来会写过界、墨会洇开；停在该停处，字才立得住。", "动治不足，静治有余。"),
+    a = y + 50
+    cy = a + 40
+    # 全直参照线（虚线）
+    s.append(f'<line x1="118" y1="{cy-22}" x2="322" y2="{cy-22}" stroke="{INK}" stroke-width="0.5" stroke-dasharray="4 3" opacity="0.6"/>')
+    s.append(txt(330, cy - 24, "全直", 4.6, "#6E6459"))
+    # 刀身
+    s.append(f'<path d="M120,{cy-20} Q212,{cy-11} 318,{cy-12} L318,{cy-4} Q212,{cy+2} 120,{cy+9} Z" fill="#DDD5C6" stroke="{INK}" stroke-width="0.8"/>')
+    s.append(txt(196, cy - 2, "腰", 5.2, SEAL, "middle"))
+    # 刀柄与护手
+    s.append(f'<rect x="72" y="{cy-8}" width="46" height="15" rx="3" fill="#E6D8C2" stroke="{INK}" stroke-width="0.7"/>')
+    s.append(f'<line x1="118" y1="{cy-18}" x2="118" y2="{cy+16}" stroke="{INK}" stroke-width="1.2"/>')
+    for k in range(3):
+        s.append(f'<line x1="{78+k*13}" y1="{cy-8}" x2="{78+k*13}" y2="{cy+7}" stroke="{INK}" stroke-width="0.35" opacity="0.5"/>')
+    # 刃口留一线钝
+    s.append(f'<line x1="286" y1="{cy+1}" x2="316" y2="{cy-4}" stroke="{SEAL}" stroke-width="1.6"/>')
+    s.append(f'<line x1="300" y1="{cy+8}" x2="300" y2="{cy+18}" stroke="{SEAL}" stroke-width="0.4" stroke-dasharray="2 2"/>')
+    s.append(txt(300, cy + 26, "刃到这儿就停，留一线不磨透", 4.6, SEAL, "middle"))
+    s.append(txt(318, cy - 26, "", 4.6, "#6E6459"))
+
+    # 鞘
+    b = cy + 46
+    s.append(f'<path d="M124,{b} L330,{b+6} Q338,{b+11} 330,{b+16} L124,{b+20} Z" fill="#E6D8C2" stroke="{INK}" stroke-width="0.7"/>')
+    s.append(f'<path d="M124,{b} L96,{b+2} L96,{b+16} L124,{b+20} Z" fill="#DDD5C6" stroke="{INK}" stroke-width="0.7"/>')
+    s.append(f'<rect x="58" y="{b+2}" width="38" height="14" rx="3" fill="#EFE4CF" stroke="{INK}" stroke-width="0.6"/>')
+    s.append(f'<line x1="96" y1="{b-4}" x2="96" y2="{b+20}" stroke="{INK}" stroke-width="0.8"/>')
+    s.append(txt(316, b - 2, "鞘", 4.8, GREEN, "middle"))
+    s.append(txt(232, b + 40, "在鞘里：刃还在，只是不出鞘", 4.8, GREEN, "middle"))
+
+    # 四行释义
+    c = b + 54
+    lines = [
+        ("直", "刀背收一点腰：全直的一砍就震手，有腰才砍得动。", "屈不是弯，是把自己收短一点。"),
+        ("巧", "刃口留一线不磨透：磨透了，一碰硬物就崩口。", "好刀也看不出磨痕——不是不会磨，是不磨尽。"),
+        ("辩", "话说出口就是刃，一出鞘就在切分。", "讷，是刀还在鞘里；不是没刃，是不切。"),
+        ("静", "用完就收，刃不露在外面。", "动治不足，静治有余；清静为正。"),
     ]
-    a = y + 46
-    for i, (tag, l1, l2) in enumerate(rows):
-        r = a + i * 92
-        s.append(txt(24, r + 6, tag, 6.0, SEAL))
-        cy = r + 56
-        if i == 0:
-            s.append(f'<path d="M38,{cy-10} L74,{cy-4} L104,{cy-4} L104,{cy+4} L74,{cy+4} L38,{cy+10} Z" fill="{INK}"/>')
-            s.append(f'<path d="M104,{cy-9} L122,{cy-3} L122,{cy+3} L104,{cy+9} Z" fill="{INK}"/>')
-            s.append(f'<path d="M84,{cy-14} l0,-6 M82,{cy-18} l2,-3 l2,3" fill="none" stroke="{SEAL}" stroke-width="0.5"/>')
-        elif i == 1:
-            s.append(f'<rect x="38" y="{cy-16}" width="34" height="9" rx="4.5" fill="{INK}"/>')
-            s.append(f'<path d="M38,{cy+2} L58,{cy+8} L72,{cy+8} L72,{cy+14} L38,{cy+14} Z" fill="{INK}" opacity="0.6"/>')
-            s.append(f'<path d="M38,{cy+8} l-6,-2 M38,{cy+14} l-6,2" fill="none" stroke="{INK}" stroke-width="0.5" opacity="0.6"/>')
-            s.append(txt(86, cy - 12, "露锋", 4.4, "#6E6459"))
-            s.append(txt(86, cy + 8, "藏锋", 4.4, GREEN))
-        elif i == 2:
-            for k in range(3):
-                s.append(f'<rect x="{38+k*17}" y="{cy-16}" width="6" height="32" fill="{INK}" opacity="{0.88-k*0.16:.2f}"/>')
-            s.append(f'<line x1="100" y1="{cy-18}" x2="100" y2="{cy+18}" stroke="{SEAL}" stroke-width="0.5" stroke-dasharray="3 3"/>')
-            s.append(txt(108, cy + 2, "留白", 4.6, SEAL))
-        else:
-            s.append(f'<path d="M38,{cy-7} L92,{cy-2} L110,{cy} L92,{cy+3} L38,{cy+8} Z" fill="{INK}"/>')
-            s.append(f'<line x1="112" y1="{cy-9}" x2="112" y2="{cy+9}" stroke="{SEAL}" stroke-width="0.6"/>')
-            s.append(txt(120, cy + 3, "止", 5.0, SEAL))
-        s.append(txt(150, r + 34, l1, 5.5, INK))
-        s.append(txt(150, r + 50, l2, 5.4, "#6E6459"))
+    for k, (tag, l1, l2) in enumerate(lines):
+        r = c + k * 48
+        s.append(f'<circle cx="32" cy="{r+2}" r="6.5" fill="none" stroke="{LINE2}" stroke-width="0.5"/>')
+        s.append(txt(32, r + 5, tag, 5.0, SEAL, "middle"))
+        s.append(txt(50, r + 5, l1, 5.6, INK))
+        s.append(txt(50, r + 21, l2, 5.3, "#6E6459"))
 
-    y2 = a + 4 * 92 + 2
+    y2 = c + 4 * 48 + 2
     s.append(f'<line x1="24" y1="{y2-6}" x2="338" y2="{y2-6}" stroke="{LINE}" stroke-width="0.6"/>')
     s.append(box(20, y2 + 4, 340, 44, fill="#F2EADA", stroke="#C9B79A"))
-    s.append(txt(190, y2 + 20, "直、巧、辩，三样都在「收」上见高低。", 6.2, INK, "middle"))
-    s.append(txt(190, y2 + 34, "收到该停的地方，就是正。", 6.2, GREEN, "middle"))
-    s.append(gold(y2 + 62, "ch45c_bi"))
+    s.append(txt(190, y2 + 20, "三处都留了一分：腰、钝、鞘。", 6.2, INK, "middle"))
+    s.append(txt(190, y2 + 34, "留一分的，用不尽；用尽的，一碰就崩。", 6.2, GREEN, "middle"))
+    s.append(gold(y2 + 62, "ch45c_dao"))
     s.append('</svg>')
     return "\n".join(s)
 
@@ -3976,7 +3987,7 @@ FIGS = {
     "ch44c-jiao-yu-zhi": ("第四十四章", "站住，停脚", ch44c_jiao_yu_zhi),
     "ch45a-liu-yi-dao-feng": ("第四十五章", "留一道缝", ch45a_liu_yi_dao_feng),
     "ch45b-jing-ying-chong": ("第四十五章", "井口看着是空的", ch45b_jing_ying_chong),
-    "ch45c-bi-zhi": ("第四十五章", "写到该停的地方", ch45c_bi_zhi),
+    "ch45c-yi-ba-dao": ("第四十五章", "一把刀，三处留一分", ch45c_yi_ba_dao),
     "ch12-wu-se": ("第十二章", "门开五处", ch12_wu_se),
     "ch13-chong-ru": ("第十三章", "惊的是我", ch13_chong_ru),
     "ch14-yi-xi-wei": ("第十四章", "三样工具探不到", ch14_yi_xi_wei),

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 380 610" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="刀身有腰、刃留一线钝、锋在鞘里" font-family="'Noto Serif CJK SC','Noto Serif SC','Songti SC',serif">
+<defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#6E6459"/></marker><marker id="arr2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#4A5C55"/></marker><marker id="arrL" viewBox="0 0 10 10" refX="1" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M10 0 L0 5 L10 10 z" fill="#4A5C55"/></marker><marker id="arrS" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#A2503B"/></marker></defs>
+<rect x="0" y="0" width="380" height="610" fill="#F8F3E6"/>
+<text x="20" y="26" font-size="11" fill="#A2503B" font-family="'Noto Sans CJK SC','Noto Sans SC',sans-serif" letter-spacing="3">第 四 十 五 章 · 刀</text>
+<text x="20" y="58" font-size="21" fill="#2F2A24">一把刀，三处留一分</text>
+<text x="20" y="78" font-size="10.5" fill="#6E6459">大直若屈，大巧若拙，大辩若讷。</text>
+<rect x="20" y="102" width="340" height="30" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="190" y="114" font-size="5.8" fill="#2F2A24" text-anchor="middle">「辩」就是刀：话说出口，刃就出来了，一出鞘就在切分。</text>
+<text x="190" y="126" font-size="5.6" fill="#6E6459" text-anchor="middle">讷，是刀还在鞘里；不是没有刃，是不出鞘。</text>
+<line x1="118" y1="168" x2="322" y2="168" stroke="#2F2A24" stroke-width="0.5" stroke-dasharray="4 3" opacity="0.6"/>
+<text x="330" y="166" font-size="4.6" fill="#6E6459">全直</text>
+<path d="M120,170 Q212,179 318,178 L318,186 Q212,192 120,199 Z" fill="#DDD5C6" stroke="#2F2A24" stroke-width="0.8"/>
+<text x="196" y="188" font-size="5.2" fill="#A2503B" text-anchor="middle">腰</text>
+<rect x="72" y="182" width="46" height="15" rx="3" fill="#E6D8C2" stroke="#2F2A24" stroke-width="0.7"/>
+<line x1="118" y1="172" x2="118" y2="206" stroke="#2F2A24" stroke-width="1.2"/>
+<line x1="78" y1="182" x2="78" y2="197" stroke="#2F2A24" stroke-width="0.35" opacity="0.5"/>
+<line x1="91" y1="182" x2="91" y2="197" stroke="#2F2A24" stroke-width="0.35" opacity="0.5"/>
+<line x1="104" y1="182" x2="104" y2="197" stroke="#2F2A24" stroke-width="0.35" opacity="0.5"/>
+<line x1="286" y1="191" x2="316" y2="186" stroke="#A2503B" stroke-width="1.6"/>
+<line x1="300" y1="198" x2="300" y2="208" stroke="#A2503B" stroke-width="0.4" stroke-dasharray="2 2"/>
+<text x="300" y="216" font-size="4.6" fill="#A2503B" text-anchor="middle">刃到这儿就停，留一线不磨透</text>
+<text x="318" y="164" font-size="4.6" fill="#6E6459"></text>
+<path d="M124,236 L330,242 Q338,247 330,252 L124,256 Z" fill="#E6D8C2" stroke="#2F2A24" stroke-width="0.7"/>
+<path d="M124,236 L96,238 L96,252 L124,256 Z" fill="#DDD5C6" stroke="#2F2A24" stroke-width="0.7"/>
+<rect x="58" y="238" width="38" height="14" rx="3" fill="#EFE4CF" stroke="#2F2A24" stroke-width="0.6"/>
+<line x1="96" y1="232" x2="96" y2="256" stroke="#2F2A24" stroke-width="0.8"/>
+<text x="316" y="234" font-size="4.8" fill="#4A5C55" text-anchor="middle">鞘</text>
+<text x="232" y="276" font-size="4.8" fill="#4A5C55" text-anchor="middle">在鞘里：刃还在，只是不出鞘</text>
+<circle cx="32" cy="292" r="6.5" fill="none" stroke="#E6D8C2" stroke-width="0.5"/>
+<text x="32" y="295" font-size="5.0" fill="#A2503B" text-anchor="middle">直</text>
+<text x="50" y="295" font-size="5.6" fill="#2F2A24">刀背收一点腰：全直的一砍就震手，有腰才砍得动。</text>
+<text x="50" y="311" font-size="5.3" fill="#6E6459">屈不是弯，是把自己收短一点。</text>
+<circle cx="32" cy="340" r="6.5" fill="none" stroke="#E6D8C2" stroke-width="0.5"/>
+<text x="32" y="343" font-size="5.0" fill="#A2503B" text-anchor="middle">巧</text>
+<text x="50" y="343" font-size="5.6" fill="#2F2A24">刃口留一线不磨透：磨透了，一碰硬物就崩口。</text>
+<text x="50" y="359" font-size="5.3" fill="#6E6459">好刀也看不出磨痕——不是不会磨，是不磨尽。</text>
+<circle cx="32" cy="388" r="6.5" fill="none" stroke="#E6D8C2" stroke-width="0.5"/>
+<text x="32" y="391" font-size="5.0" fill="#A2503B" text-anchor="middle">辩</text>
+<text x="50" y="391" font-size="5.6" fill="#2F2A24">话说出口就是刃，一出鞘就在切分。</text>
+<text x="50" y="407" font-size="5.3" fill="#6E6459">讷，是刀还在鞘里；不是没刃，是不切。</text>
+<circle cx="32" cy="436" r="6.5" fill="none" stroke="#E6D8C2" stroke-width="0.5"/>
+<text x="32" y="439" font-size="5.0" fill="#A2503B" text-anchor="middle">静</text>
+<text x="50" y="439" font-size="5.6" fill="#2F2A24">用完就收，刃不露在外面。</text>
+<text x="50" y="455" font-size="5.3" fill="#6E6459">动治不足，静治有余；清静为正。</text>
+<line x1="24" y1="478" x2="338" y2="478" stroke="#DCCBB0" stroke-width="0.6"/>
+<rect x="20" y="488" width="340" height="44" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="190" y="504" font-size="6.2" fill="#2F2A24" text-anchor="middle">三处都留了一分：腰、钝、鞘。</text>
+<text x="190" y="518" font-size="6.2" fill="#4A5C55" text-anchor="middle">留一分的，用不尽；用尽的，一碰就崩。</text>
+<line x1="20" y1="546" x2="360" y2="546" stroke="#E6D8C2" stroke-width="0.8"/>
+<text x="20" y="560" font-size="8.0" fill="#A89577" letter-spacing="1">本 章 金 句</text>
+<text x="20" y="576" font-size="8.4" fill="#2F2A24">「正」不是被谁摆正的，是它自己终于站住了。</text>
+</svg>
