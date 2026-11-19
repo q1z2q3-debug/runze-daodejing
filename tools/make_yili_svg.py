@@ -4377,7 +4377,7 @@ def ch48a_yi_yu_sun():
 
 # ============ 第四十八章 · 一层套一层的壳 ============
 def ch48b_ceng_ke():
-    W, H = 380, 526
+    W, H = 380, 646
     body, y = head(W, H, "同一张框：往外推是学，把手松是道", "第 四 十 八 章 · 一图两观",
                    "一图两观", "为学日益，为道日损。", H)
     s = [body]
@@ -4401,6 +4401,7 @@ def ch48b_ceng_ke():
     # 学：同一个角，往外推
     s.append(f'<line x1="{cx+12}" y1="{cy+12}" x2="{cx+84}" y2="{cy+84}" stroke="{SEAL}" stroke-width="0.7" marker-end="url(#arrS)"/>')
     s.append(txt(cx + 40, cy + 100, "学：同一个角往外推，框就大一圈、多一层", 4.8, SEAL))
+
     # 道：同一条边的四种线质（右侧小图例）
     lx = cx + 88
     s.append(txt(lx, cy - 62, "道：同一条边，一路淡下去", 4.8, GREEN))
@@ -4413,11 +4414,22 @@ def ch48b_ceng_ke():
         s.append(f'<line x1="{lx}" y1="{ly}" x2="{lx+42}" y2="{ly}" stroke="{SEAL}" stroke-width="{lw}" opacity="{lop}"{dash}/>')
         s.append(txt(lx + 48, ly + 2, lab, 4.5, "#6E6459"))
 
-    # 四层的小序号
-    for k, (hl, _, _, _, _) in enumerate(layers):
-        s.append(f'<text x="{cx-hl-3}" y="{cy-hl-3}" font-size="4.6" fill="#2F2A24" text-anchor="end" opacity="0.6">{["一","二","三","四"][k]}</text>')
+    # 中间过程：一条边还实着，一条边已经虚了
+    mb = cy + 126
+    s.append(f'<line x1="24" y1="{mb}" x2="338" y2="{mb}" stroke="{LINE}" stroke-width="0.6"/>')
+    s.append(txt(24, mb + 15, "中间过程：一个框正处在半中间", 5.4, SEAL))
+    fx, fy, fh = 58, mb + 62, 26
+    s.append(f'<line x1="{fx-fh}" y1="{fy-fh}" x2="{fx+fh}" y2="{fy-fh}" stroke="{INK}" stroke-width="1"/>')
+    s.append(f'<line x1="{fx+fh}" y1="{fy-fh}" x2="{fx+fh}" y2="{fy+fh}" stroke="{INK}" stroke-width="1"/>')
+    s.append(f'<line x1="{fx+fh}" y1="{fy+fh}" x2="{fx-fh}" y2="{fy+fh}" stroke="{SEAL}" stroke-width="1" stroke-dasharray="3.4 2.6"/>')
+    s.append(f'<line x1="{fx-fh}" y1="{fy+fh}" x2="{fx-fh}" y2="{fy-fh}" stroke="{SEAL}" stroke-width="1" stroke-dasharray="3.4 2.6"/>')
+    s.append(f'<path d="M{fx-fh},{fy-fh} l6,-2 M{fx-fh},{fy-fh} l2,-6" stroke="{SEAL}" stroke-width="0.6" fill="none"/>')
+    s.append(txt(fx + fh + 8, fy - 16, "上、右两条边：还硬着，撑得住", 4.7, INK))
+    s.append(txt(fx + fh + 8, fy - 4, "下、左两条边：已经虚了，不再划人", 4.7, SEAL))
+    s.append(txt(fx + fh + 8, fy + 8, "越往下走，实的那两条边也一条条虚掉", 4.7, "#6E6459"))
+    s.append(txt(24, mb + 104, "所以「损之又损」不是一次全破：是先破一边，再破一边。", 5.2, GREEN))
 
-    b = cy + 118
+    b = mb + 128
     s.append(txt(24, b, "往外读：框一层层变大——这是为学，越学越细，越细越好用。", 5.6, INK))
     s.append(txt(24, b + 16, "读线：每一条边由实变虚——这是为道，不是拆掉框，是让它不再硬着。", 5.6, INK))
     s.append(txt(24, b + 32, "同一张图：你把它往外推，它就多一层；你把手松开，它就淡一层。", 5.4, GREEN))

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg viewBox="0 0 380 526" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="同一张框：往外推是学，把手松是道" font-family="'Noto Serif CJK SC','Noto Serif SC','Songti SC',serif">
+<svg viewBox="0 0 380 646" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="同一张框：往外推是学，把手松是道" font-family="'Noto Serif CJK SC','Noto Serif SC','Songti SC',serif">
 <defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#6E6459"/></marker><marker id="arr2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#4A5C55"/></marker><marker id="arrL" viewBox="0 0 10 10" refX="1" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M10 0 L0 5 L10 10 z" fill="#4A5C55"/></marker><marker id="arrS" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#A2503B"/></marker></defs>
-<rect x="0" y="0" width="380" height="526" fill="#F8F3E6"/>
+<rect x="0" y="0" width="380" height="646" fill="#F8F3E6"/>
 <text x="20" y="26" font-size="11" fill="#A2503B" font-family="'Noto Sans CJK SC','Noto Sans SC',sans-serif" letter-spacing="3">第 四 十 八 章 · 一图两观</text>
 <text x="20" y="58" font-size="21" fill="#2F2A24">一图两观</text>
 <text x="20" y="78" font-size="10.5" fill="#6E6459">为学日益，为道日损。</text>
@@ -23,18 +23,25 @@
 <text x="268" y="246" font-size="4.5" fill="#6E6459">三 · 虚线</text>
 <line x1="220" y1="266" x2="262" y2="266" stroke="#A2503B" stroke-width="0.5" opacity="0.35" stroke-dasharray="5 4"/>
 <text x="268" y="268" font-size="4.5" fill="#6E6459">四 · 几乎没了</text>
-<text x="113" y="225" font-size="4.6" fill="#2F2A24" text-anchor="end" opacity="0.6">一</text>
-<text x="93" y="205" font-size="4.6" fill="#2F2A24" text-anchor="end" opacity="0.6">二</text>
-<text x="73" y="185" font-size="4.6" fill="#2F2A24" text-anchor="end" opacity="0.6">三</text>
-<text x="53" y="165" font-size="4.6" fill="#2F2A24" text-anchor="end" opacity="0.6">四</text>
-<text x="24" y="362" font-size="5.6" fill="#2F2A24">往外读：框一层层变大——这是为学，越学越细，越细越好用。</text>
-<text x="24" y="378" font-size="5.6" fill="#2F2A24">读线：每一条边由实变虚——这是为道，不是拆掉框，是让它不再硬着。</text>
-<text x="24" y="394" font-size="5.4" fill="#4A5C55">同一张图：你把它往外推，它就多一层；你把手松开，它就淡一层。</text>
-<line x1="24" y1="412" x2="338" y2="412" stroke="#DCCBB0" stroke-width="0.6"/>
-<rect x="20" y="420" width="340" height="40" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
-<text x="190" y="436" font-size="6.0" fill="#2F2A24" text-anchor="middle">框是同一个框；加和减，是同一只手的两件事。</text>
-<text x="190" y="448" font-size="6.0" fill="#4A5C55" text-anchor="middle">推到极处，框最大、线最淡——那就是无为。</text>
-<line x1="20" y1="474" x2="360" y2="474" stroke="#E6D8C2" stroke-width="0.8"/>
-<text x="20" y="488" font-size="8.0" fill="#A89577" letter-spacing="1">本 章 金 句</text>
-<text x="20" y="504" font-size="8.4" fill="#2F2A24">损之又损，以至于无为。</text>
+<line x1="24" y1="370" x2="338" y2="370" stroke="#DCCBB0" stroke-width="0.6"/>
+<text x="24" y="385" font-size="5.4" fill="#A2503B">中间过程：一个框正处在半中间</text>
+<line x1="32" y1="406" x2="84" y2="406" stroke="#2F2A24" stroke-width="1"/>
+<line x1="84" y1="406" x2="84" y2="458" stroke="#2F2A24" stroke-width="1"/>
+<line x1="84" y1="458" x2="32" y2="458" stroke="#A2503B" stroke-width="1" stroke-dasharray="3.4 2.6"/>
+<line x1="32" y1="458" x2="32" y2="406" stroke="#A2503B" stroke-width="1" stroke-dasharray="3.4 2.6"/>
+<path d="M32,406 l6,-2 M32,406 l2,-6" stroke="#A2503B" stroke-width="0.6" fill="none"/>
+<text x="92" y="416" font-size="4.7" fill="#2F2A24">上、右两条边：还硬着，撑得住</text>
+<text x="92" y="428" font-size="4.7" fill="#A2503B">下、左两条边：已经虚了，不再划人</text>
+<text x="92" y="440" font-size="4.7" fill="#6E6459">越往下走，实的那两条边也一条条虚掉</text>
+<text x="24" y="474" font-size="5.2" fill="#4A5C55">所以「损之又损」不是一次全破：是先破一边，再破一边。</text>
+<text x="24" y="498" font-size="5.6" fill="#2F2A24">往外读：框一层层变大——这是为学，越学越细，越细越好用。</text>
+<text x="24" y="514" font-size="5.6" fill="#2F2A24">读线：每一条边由实变虚——这是为道，不是拆掉框，是让它不再硬着。</text>
+<text x="24" y="530" font-size="5.4" fill="#4A5C55">同一张图：你把它往外推，它就多一层；你把手松开，它就淡一层。</text>
+<line x1="24" y1="548" x2="338" y2="548" stroke="#DCCBB0" stroke-width="0.6"/>
+<rect x="20" y="556" width="340" height="40" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="190" y="572" font-size="6.0" fill="#2F2A24" text-anchor="middle">框是同一个框；加和减，是同一只手的两件事。</text>
+<text x="190" y="584" font-size="6.0" fill="#4A5C55" text-anchor="middle">推到极处，框最大、线最淡——那就是无为。</text>
+<line x1="20" y1="610" x2="360" y2="610" stroke="#E6D8C2" stroke-width="0.8"/>
+<text x="20" y="624" font-size="8.0" fill="#A89577" letter-spacing="1">本 章 金 句</text>
+<text x="20" y="640" font-size="8.4" fill="#2F2A24">损之又损，以至于无为。</text>
 </svg>
