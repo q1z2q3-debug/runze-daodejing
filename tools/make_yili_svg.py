@@ -1519,6 +1519,9 @@ GOLD = {
     "ch24": ["借来的高度站不住，省下的步子走不远。", "不处不是割掉，是不长——约束是按住它，不处是根本不在那儿站。"],
     "ch25": ["不是它比天地老，是天地离了它不成。", "名是给有边界的东西用的；对没有边界的东西，名只是手指。"],
     "ch45b_jing": ["满得溢出来的，是在往外倒；满在里面不溢的，是在往里续。"],
+    "ch47a": ["透过框看，你看见的每一块都是真的；可你真的没看见框外。"],
+    "ch47b": ["其出弥远，其知弥少。"],
+    "ch47c": ["站在路口的人只能选一条路；知道路怎么走的人，不必选。"],
     "ch46b": ["他不是把刀收了，是把刀改成了犁。"],
     "ch46c": ["先站住，才够；先够，永远不够。",
               "靠外物撑起来的「够」，是借来的；借来的东西，主人随时可以收回。"],
@@ -4175,6 +4178,141 @@ def ch46c_san_ge_zu():
     s.append('</svg>')
     return "\n".join(s)
 
+# ============ 第四十七章 · 一扇有格的窗 ============
+def ch47a_you_ge_de_chuang():
+    W, H = 380, 502
+    body, y = head(W, H, "透过框看，看见的每一块都是真的", "第 四 十 七 章 · 牖",
+                   "一扇有格的窗", "不窥于牖，以知天道。", H)
+    s = [body]
+
+    s.append(box(20, y + 2, 340, 30, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, y + 14, "「窥」，《说文》「小视也」——从孔里看，看见多少由孔决定。", 5.8, INK, "middle"))
+    s.append(txt(190, y + 26, "「牖」，《说文》「穿壁以木为交窗」——你看见的每一块，都是被格出来的。", 5.2, "#6E6459", "middle"))
+
+    a = y + 50
+    ov = (66, a + 34, 108, 100)   # 窗洞 x,y,w,h
+    cx, cyv, r = 120, a + 84, 64
+    # 后面的整个太阳
+    s.append(f'<circle cx="{cx}" cy="{cyv}" r="{r}" fill="#E8C9A0" opacity="0.9"/>')
+    # 墙（四块），把洞留住
+    wall = [(30, a + 12, 36, 138), (174, a + 12, 40, 138), (66, a + 12, 108, 22), (66, a + 134, 108, 22)]
+    for (wx, wy, ww, wh) in wall:
+        s.append(f'<rect x="{wx}" y="{wy}" width="{ww}" height="{wh}" fill="{PAPER}" stroke="{INK}" stroke-width="0.9"/>')
+    # 直棂：竖木条
+    for k in range(5):
+        s.append(f'<rect x="{74+k*22}" y="{ov[1]}" width="6" height="{ov[3]}" fill="{INK}" opacity="0.82"/>')
+    s.append(f'<rect x="{ov[0]}" y="{ov[1]}" width="{ov[2]}" height="3" fill="{INK}" opacity="0.5"/>')
+    # 虚线：太阳其实一直圆着
+    s.append(f'<circle cx="{cx}" cy="{cyv}" r="{r+14}" fill="none" stroke="{INK}" stroke-width="0.5" stroke-dasharray="4 3" opacity="0.5"/>')
+    s.append(f'<line x1="{cx+r}" y1="{cyv}" x2="222" y2="{cyv}" stroke="{LINE2}" stroke-width="0.4" stroke-dasharray="3 2"/>')
+    s.append(txt(250, cyv - 6, "框外：太阳一直圆着", 4.6, "#6E6459"))
+    s.append(txt(250, cyv + 4, "你没看见的是这一段", 4.6, "#6E6459"))
+    s.append(txt(120, a + 172, "窗内：太阳被切成五条——每一条都是真的", 4.8, SEAL, "middle"))
+
+    b = a + 192
+    s.append(txt(24, b, "不窥于牖，不是「别看」，是「别从那个洞看」。", 5.9, INK))
+    s.append(txt(24, b + 16, "格是真的，天也是真的；可格在中间，天就被格说了算。", 5.6, "#6E6459"))
+    s.append(txt(24, b + 32, "要知道天道，先得知道那个框是框，不是天。", 5.6, GREEN))
+
+    c = b + 52
+    s.append(f'<line x1="24" y1="{c}" x2="338" y2="{c}" stroke="{LINE}" stroke-width="0.6"/>')
+    s.append(box(20, c + 8, 340, 40, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, c + 24, "透过框看，你看见的每一块都是真的；", 6.2, INK, "middle"))
+    s.append(txt(190, c + 36, "可你真的没看见框外。", 6.2, GREEN, "middle"))
+    s.append(gold(c + 62, "ch47a"))
+    s.append('</svg>')
+    return "\n".join(s)
+
+
+# ============ 第四十七章 · 网越密，越看不见 ============
+def ch47b_wang_yue_mi():
+    W, H = 380, 470
+    body, y = head(W, H, "其出弥远，其知弥少", "第 四 十 七 章 · 网",
+                   "网越密，越看不见", "其出弥远，其知弥少。", H)
+    s = [body]
+
+    s.append(box(20, y + 2, 340, 30, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, y + 14, "「知」不是信息量，是「通」——知道这一件和那一件，是同一件事。", 5.6, INK, "middle"))
+    s.append(txt(190, y + 26, "而「出」是采集：多一件，就多一条线；多一条线，就多一处要连的地方。", 5.2, "#6E6459", "middle"))
+
+    a = y + 58
+    cy = a + 62
+    for i, (bx, n, lab) in enumerate([(66, 2, "刚出门：还看得见"),
+                                     (190, 4, "走远了：线多了"),
+                                     (312, 8, "走得很远：看不见了")]):
+        s.append(f'<circle cx="{bx}" cy="{cy}" r="42" fill="{GREEN}" opacity="0.28"/>')
+        s.append(f'<circle cx="{bx}" cy="{cy}" r="42" fill="none" stroke="{GREEN}" stroke-width="0.5" opacity="0.7"/>')
+        s.append(f'<circle cx="{bx}" cy="{cy}" r="9" fill="{GREEN}" opacity="0.9"/>')
+        step = 84 / (n + 1)
+        for k in range(1, n + 1):
+            off = -42 + k * step
+            hh = (42 * 42 - off * off) ** 0.5
+            s.append(f'<line x1="{bx+off:.1f}" y1="{cy-hh:.1f}" x2="{bx+off:.1f}" y2="{cy+hh:.1f}" stroke="{INK}" stroke-width="0.5" opacity="0.55"/>')
+            s.append(f'<line x1="{bx-hh:.1f}" y1="{cy+off:.1f}" x2="{bx+hh:.1f}" y2="{cy+off:.1f}" stroke="{INK}" stroke-width="0.5" opacity="0.55"/>')
+        s.append(txt(bx, cy + 56, lab, 4.6, "#6E6459", "middle"))
+
+    b = cy + 76
+    s.append(txt(24, b, "三个圆里是同一片「知」。网眼越密，中间那点亮越小；", 5.8, INK))
+    s.append(txt(24, b + 16, "线都是你自己一条条捡回来的，捡得越多，越放不下。", 5.8, SEAL))
+    s.append(txt(24, b + 32, "老子不是反对看；他反对把「向外看」当成求道的路。", 5.4, "#6E6459"))
+
+    c = b + 50
+    s.append(f'<line x1="24" y1="{c}" x2="338" y2="{c}" stroke="{LINE}" stroke-width="0.6"/>')
+    s.append(box(20, c + 8, 340, 40, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, c + 24, "信息是捡回来的，通是放下去的；", 6.2, INK, "middle"))
+    s.append(txt(190, c + 36, "捡得越多，越放不下。", 6.2, GREEN, "middle"))
+    s.append(gold(c + 62, "ch47b"))
+    s.append('</svg>')
+    return "\n".join(s)
+
+
+# ============ 第四十七章 · 十字路口 ============
+def ch47c_shi_zi_lu_kou():
+    W, H = 380, 508
+    body, y = head(W, H, "站在路口的人只能选一条", "第 四 十 七 章 · 行",
+                   "十字路口", "是以圣人不行而知。", H)
+    s = [body]
+
+    s.append(box(20, y + 2, 340, 30, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, y + 14, "「行」的甲骨文，就是十字路口：四条路通到一处。", 5.8, INK, "middle"))
+    s.append(txt(190, y + 26, "所以「不行而知」不是不走路，是「不站在那个路口」。", 5.4, "#6E6459", "middle"))
+
+    a = y + 52
+    cx, cy = 150, a + 66
+    s.append(f'<rect x="{cx-24}" y="{a+8}" width="48" height="130" fill="#EFE6D4" stroke="{INK}" stroke-width="0.5" opacity="0.8"/>')
+    s.append(f'<rect x="{cx-70}" y="{cy-24}" width="140" height="48" fill="#EFE6D4" stroke="{INK}" stroke-width="0.5" opacity="0.8"/>')
+    s.append(f'<line x1="{cx-14}" y1="{cy}" x2="{cx-40}" y2="{cy}" stroke="{LINE2}" stroke-width="0.3" stroke-dasharray="4 3"/>')
+    s.append(f'<line x1="{cx+14}" y1="{cy}" x2="{cx+40}" y2="{cy}" stroke="{LINE2}" stroke-width="0.3" stroke-dasharray="4 3"/>')
+    s.append(f'<line x1="{cx}" y1="{cy-14}" x2="{cx}" y2="{cy-52}" stroke="{LINE2}" stroke-width="0.3" stroke-dasharray="4 3"/>')
+    s.append(f'<line x1="{cx}" y1="{cy+14}" x2="{cx}" y2="{cy+52}" stroke="{LINE2}" stroke-width="0.3" stroke-dasharray="4 3"/>')
+    for dx, dy in ((0, -1), (0, 1), (-1, 0), (1, 0)):
+        s.append(f'<line x1="{cx+dx*16}" y1="{cy+dy*16}" x2="{cx+dx*58}" y2="{cy+dy*58}" stroke="{SEAL}" stroke-width="0.7" marker-end="url(#arrS)" opacity="0.9"/>')
+    s.append(f'<circle cx="{cx}" cy="{cy}" r="4" fill="{INK}"/>')
+    s.append(txt(cx, cy + 86, "选一条，就走不成那三条", 4.8, SEAL, "middle"))
+
+    s.append(txt(258, a + 40, "路是同一套走法：", 5.0, GREEN))
+    s.append(txt(258, a + 54, "反、弱、有无相生、", 5.4, GREEN))
+    s.append(txt(258, a + 66, "冲气为和。", 5.4, GREEN))
+    s.append(txt(258, a + 84, "知道一处，就通了全部。", 5.4, GREEN))
+    s.append(f'<line x1="252" y1="{a+96}" x2="338" y2="{a+96}" stroke="{LINE2}" stroke-width="0.4"/>')
+    s.append(txt(258, a + 110, "知道走法的人，", 4.8, "#6E6459"))
+    s.append(txt(258, a + 120, "站不站在路口都一样。", 4.8, "#6E6459"))
+
+    b = a + 178
+    s.append(txt(24, b, "不行而知，不是不走路：天下不是一堆散事，是一套统一的运化。", 5.6, INK))
+    s.append(txt(24, b + 16, "散事只能一件件去看；一套机制，知道一处就通了全部。", 5.6, INK))
+    s.append(txt(24, b + 32, "这就是「不出户」能成立的全部理由：他看的不是多，是那一条律。", 5.4, GREEN))
+
+    c = b + 50
+    s.append(f'<line x1="24" y1="{c}" x2="338" y2="{c}" stroke="{LINE}" stroke-width="0.6"/>')
+    s.append(box(20, c + 8, 340, 40, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, c + 24, "站在路口的人只能选一条路；", 6.2, INK, "middle"))
+    s.append(txt(190, c + 36, "知道路怎么走的人，不必选。", 6.2, GREEN, "middle"))
+    s.append(gold(c + 62, "ch47c"))
+    s.append('</svg>')
+    return "\n".join(s)
+
+
 
 FIGS = {
     "ch01-wu-you": ("第一章", "无有同出", ch01_wu_you),
@@ -4212,6 +4350,9 @@ FIGS = {
     "ch46a-lu-shang-yin-zi": ("第四十六章", "路上的印子", ch46a_lu_shang_yin_zi),
     "ch46b-dao-gai-li": ("第四十六章", "刀改成犁", ch46b_dao_gai_li),
     "ch46c-san-ge-zu": ("第四十六章", "一句话里三个「足」", ch46c_san_ge_zu),
+    "ch47a-you-ge-de-chuang": ("第四十七章", "一扇有格的窗", ch47a_you_ge_de_chuang),
+    "ch47b-wang-yue-mi": ("第四十七章", "网越密，越看不见", ch47b_wang_yue_mi),
+    "ch47c-shi-zi-lu-kou": ("第四十七章", "十字路口", ch47c_shi_zi_lu_kou),
     "ch12-wu-se": ("第十二章", "门开五处", ch12_wu_se),
     "ch13-chong-ru": ("第十三章", "惊的是我", ch13_chong_ru),
     "ch14-yi-xi-wei": ("第十四章", "三样工具探不到", ch14_yi_xi_wei),
