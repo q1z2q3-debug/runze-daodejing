@@ -1519,6 +1519,11 @@ GOLD = {
     "ch24": ["借来的高度站不住，省下的步子走不远。", "不处不是割掉，是不长——约束是按住它，不处是根本不在那儿站。"],
     "ch25": ["不是它比天地老，是天地离了它不成。", "名是给有边界的东西用的；对没有边界的东西，名只是手指。"],
     "ch45b_jing": ["满得溢出来的，是在往外倒；满在里面不溢的，是在往里续。"],
+    "ch46b": ["他不是把刀收了，是把刀改成了犁。"],
+    "ch46c": ["先站住，才够；先够，永远不够。",
+              "靠外物撑起来的「够」，是借来的；借来的东西，主人随时可以收回。"],
+    "ch46a": ["一个国家的秩序好不好，看马站在哪儿就知道；不必看它说什么。",
+               "「却」这个字自己写着答案：马是被拉回来的，欲是自己节住的。"],
     "ch45c_gong": ["弓不常张，话不说满，力不使尽。"],
     "ch45c_qin": ["最响的一声，常常是没弹出来的那一下。"],
     "ch45c_dao": ["「正」不是被谁摆正的，是它自己终于站住了。"],
@@ -3952,6 +3957,195 @@ def ch45c_yin_er_bu_fa():
     s.append('</svg>')
     return "\n".join(s)
 
+# ============ 第四十六章 · 路上的印子 ============
+def ch46a_lu_shang_yin_zi():
+    W, H = 380, 500
+    body, y = head(W, H, "一个国家的秩序，看马站在哪儿就知道", "第 四 十 六 章 · 马",
+                   "路上的印子", "天下有道，却走马以粪；天下无道，戎马生于郊。", H)
+    s = [body]
+
+    s.append(box(20, y + 2, 340, 30, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, y + 14, "「却」，《说文》「节欲也」——先节住欲，再把马拉回来。", 5.8, INK, "middle"))
+    s.append(txt(190, y + 26, "「郊」，《说文》「距国百里为郊」——都城往外一百里，最不该见血的一圈。", 5.3, "#6E6459", "middle"))
+
+    a = y + 46
+    s.append(txt(24, a + 8, "一 · 有道：田里", 5.9, GREEN))
+    gy = a + 76
+    s.append(f'<line x1="24" y1="{gy}" x2="338" y2="{gy}" stroke="{LINE2}" stroke-width="0.7"/>')
+    # 田垄
+    for k in range(4):
+        yy = gy - 8 - k * 10
+        s.append(f'<line x1="32" y1="{yy}" x2="118" y2="{yy}" stroke="{GREEN}" stroke-width="0.45" opacity="0.75"/>')
+        s.append(f'<line x1="32" y1="{yy-3}" x2="118" y2="{yy-3}" stroke="{GREEN}" stroke-width="0.2" opacity="0.4"/>')
+    s.append(txt(75, gy + 12, "田", 4.6, "#6E6459", "middle"))
+    # 车辙（两道，从车往左）
+    s.append(f'<line x1="150" y1="{gy+2}" x2="248" y2="{gy+2}" stroke="{INK}" stroke-width="0.6" opacity="0.6"/>')
+    s.append(f'<line x1="150" y1="{gy+8}" x2="248" y2="{gy+8}" stroke="{INK}" stroke-width="0.6" opacity="0.6"/>')
+    s.append(txt(192, gy + 18, "两道车辙，走得慢", 4.6, "#6E6459", "middle"))
+    # 粪车
+    s.append(f'<rect x="244" y="{gy-32}" width="62" height="26" fill="#E6D8C2" stroke="{INK}" stroke-width="0.8"/>')
+    s.append(f'<line x1="244" y1="{gy-24}" x2="228" y2="{gy-28}" stroke="{INK}" stroke-width="0.6"/>')
+    for wx in (256, 292):
+        s.append(f'<circle cx="{wx}" cy="{gy-3}" r="7" fill="{PAPER}" stroke="{INK}" stroke-width="0.7"/>')
+        s.append(f'<circle cx="{wx}" cy="{gy-3}" r="2" fill="{INK}" opacity="0.5"/>')
+    s.append(txt(275, gy - 42, "却走马以粪", 4.8, GREEN, "middle"))
+
+    b = a + 100
+    s.append(txt(24, b + 8, "二 · 无道：郊外", 5.9, SEAL))
+    gy2 = b + 72
+    s.append(f'<line x1="24" y1="{gy2}" x2="338" y2="{gy2}" stroke="{LINE2}" stroke-width="0.7"/>')
+    # 城墙
+    s.append(f'<rect x="28" y="{gy2-32}" width="78" height="32" fill="none" stroke="{INK}" stroke-width="1"/>')
+    for k in range(4):
+        s.append(f'<rect x="{30+k*19}" y="{gy2-40}" width="11" height="8" fill="none" stroke="{INK}" stroke-width="0.7"/>')
+    s.append(f'<line x1="28" y1="{gy2-22}" x2="106" y2="{gy2-22}" stroke="{INK}" stroke-width="0.35" opacity="0.5"/>')
+    s.append(txt(67, gy2 + 12, "国", 4.6, "#6E6459", "middle"))
+    # 营帐
+    s.append(f'<path d="M136,{gy2} L160,{gy2-30} L184,{gy2} Z" fill="none" stroke="{INK}" stroke-width="0.9"/>')
+    s.append(f'<line x1="160" y1="{gy2-30}" x2="160" y2="{gy2-38}" stroke="{INK}" stroke-width="0.5"/>')
+    s.append(txt(160, gy2 + 12, "百里之内", 4.6, "#6E6459", "middle"))
+    # 乱蹄印
+    marks = [(214, 0), (238, 4), (262, 0), (288, 5), (310, 1), (222, 10), (250, 9), (334, 8), (300, 12)]
+    for mx, off in marks:
+        s.append(f'<path d="M{mx},{gy2-off} q4,-3.4 8,0" fill="none" stroke="{SEAL}" stroke-width="0.55" opacity="0.85"/>')
+        s.append(f'<circle cx="{mx+2.4}" cy="{gy2-off-3.4}" r="0.7" fill="{SEAL}"/>')
+        s.append(f'<circle cx="{mx+5.6}" cy="{gy2-off-3.4}" r="0.7" fill="{SEAL}"/>')
+    s.append(txt(272, gy2 - 48, "戎马生于郊", 4.8, SEAL, "middle"))
+    s.append(txt(272, gy2 + 18, "蹄印又急又乱", 4.6, "#6E6459", "middle"))
+
+    c = gy2 + 30
+    s.append(f'<line x1="24" y1="{c}" x2="338" y2="{c}" stroke="{LINE}" stroke-width="0.6"/>')
+    s.append(box(20, c + 8, 340, 44, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, c + 24, "同一个国家，两种年景：一条路上是车辙，一条路上是蹄印。", 6.0, INK, "middle"))
+    s.append(txt(190, c + 38, "不必看它说什么，看马站在哪儿。", 6.0, GREEN, "middle"))
+    s.append(gold(c + 66, "ch46a"))
+    s.append('</svg>')
+    return "\n".join(s)
+
+# ============ 第四十六章 · 刀改成犁 ============
+def ch46b_dao_gai_li():
+    W, H = 380, 536
+    body, y = head(W, H, "他不是把刀收了，是把刀改成了犁", "第 四 十 六 章 · 犁",
+                   "刀改成犁", "天下有道，却走马以粪。", H)
+    s = [body]
+
+    s.append(box(20, y + 2, 340, 30, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, y + 14, "「却」是把冲出去的拉回来；「粪」是把不要的扫回去。", 5.9, INK, "middle"))
+    s.append(txt(190, y + 26, "两个都是「收」：一个收力，一个收物。", 5.6, "#6E6459", "middle"))
+
+    a = y + 58
+    cy = a + 40
+    # 刀
+    s.append(txt(24, cy - 44, "刀", 6.2, INK))
+    s.append(f'<path d="M44,{cy-12} Q64,{cy-6} 96,{cy-6} L96,{cy+2} Q64,{cy+5} 44,{cy+10} Z" fill="#DDD5C6" stroke="{INK}" stroke-width="0.8"/>')
+    s.append(f'<rect x="24" y="{cy-5}" width="20" height="12" rx="2" fill="#E6D8C2" stroke="{INK}" stroke-width="0.6"/>')
+    s.append(f'<line x1="44" y1="{cy-12}" x2="44" y2="{cy+10}" stroke="{INK}" stroke-width="1"/>')
+    s.append(txt(70, cy + 24, "为杀而生", 4.6, "#6E6459", "middle"))
+
+    # 箭头
+    s.append(f'<path d="M120,{cy-1} L162,{cy-1}" fill="none" stroke="{GREEN}" stroke-width="0.6" marker-end="url(#arr2)"/>')
+    s.append(txt(140, cy + 16, "改用途", 4.6, GREEN, "middle"))
+    s.append(txt(140, cy + 28, "不是取消力量", 4.2, "#6E6459", "middle"))
+
+    # 犁
+    s.append(txt(300, cy - 44, "犁", 6.2, INK))
+    s.append(f'<line x1="180" y1="{cy+34}" x2="340" y2="{cy+34}" stroke="{LINE2}" stroke-width="0.7"/>')
+    # 犁辕
+    s.append(f'<path d="M210,{cy-2} Q250,{cy-14} 320,{cy-22}" fill="none" stroke="{INK}" stroke-width="0.9"/>')
+    s.append(f'<line x1="320" y1="{cy-22}" x2="338" y2="{cy-24}" stroke="{INK}" stroke-width="0.5"/>')
+    # 犁把
+    s.append(f'<line x1="228" y1="{cy-6}" x2="242" y2="{cy-30}" stroke="{INK}" stroke-width="0.9"/>')
+    s.append(f'<line x1="242" y1="{cy-30}" x2="254" y2="{cy-26}" stroke="{INK}" stroke-width="0.5"/>')
+    # 犁壁
+    s.append(f'<path d="M212,{cy+2} L240,{cy+2} L246,{cy+16} L232,{cy+18} Z" fill="#DDD5C6" stroke="{INK}" stroke-width="0.8"/>')
+    # 犁铧
+    s.append(f'<path d="M206,{cy+10} L232,{cy+18} L214,{cy+34} Z" fill="{INK}" opacity="0.72"/>')
+    s.append(f'<line x1="206" y1="{cy+10}" x2="232" y2="{cy+18}" stroke="{INK}" stroke-width="0.5"/>')
+    # 翻起的土
+    for tx in (196, 244, 262):
+        s.append(f'<path d="M{tx},{cy+34} q4,-5 8,-2 q4,3 8,-1" fill="none" stroke="{GREEN}" stroke-width="0.4" opacity="0.7"/>')
+    s.append(txt(238, cy + 52, "为生而用：刀形还在，只是改成往前拉", 4.6, GREEN, "middle"))
+
+    b = cy + 64
+    rows = [
+        ("一 · 收物", "粪，《说文》「弃除也」：把不要的扫出来，再送回田里。"),
+        ("二 · 收力", "却，《说文》「节欲也」：马不是自己回来的，是人先把手收住。"),
+        ("三 · 换用途", "没说不要马。那个时代最贵的军资，降成最贱的农具。"),
+        ("四 · 边界", "刀改犁，是把「推出去」改成「收回来」；边界不再往外长。"),
+    ]
+    for k, (tag, line) in enumerate(rows):
+        r = b + k * 40
+        s.append(txt(24, r, tag, 5.6, SEAL))
+        s.append(txt(88, r, line, 5.5, INK))
+
+    y2 = b + 4 * 40 + 2
+    s.append(f'<line x1="24" y1="{y2-6}" x2="338" y2="{y2-6}" stroke="{LINE}" stroke-width="0.6"/>')
+    s.append(box(20, y2 + 4, 340, 44, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, y2 + 20, "不是把刀收了，是把刀改成了犁。", 6.4, INK, "middle"))
+    s.append(txt(190, y2 + 34, "一件为杀而生的东西，改成一件为生而用的东西。", 5.8, GREEN, "middle"))
+    s.append(gold(y2 + 62, "ch46b"))
+    s.append('</svg>')
+    return "\n".join(s)
+
+
+# ============ 第四十六章 · 三个足 ============
+def ch46c_san_ge_zu():
+    W, H = 380, 512
+    body, y = head(W, H, "先站住，才够；先够，永远不够", "第 四 十 六 章 · 足",
+                   "一句话里三个「足」", "故知足之足，常足矣。", H)
+    s = [body]
+
+    s.append(box(20, y + 2, 340, 30, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, y + 14, "第一个足是脚，第二个足是够，第三个足是一直站着。", 5.9, INK, "middle"))
+    s.append(txt(190, y + 26, "书上说：用「知道脚站在哪儿」的那个足，去换「够」的那个足。", 5.4, "#6E6459", "middle"))
+
+    a = y + 46
+    s.append(txt(24, a + 6, "一 · 第一个足：脚", 5.9, INK))
+    gy = a + 74
+    # 左：地在这里
+    s.append(f'<line x1="24" y1="{gy}" x2="126" y2="{gy}" stroke="{INK}" stroke-width="1"/>')
+
+    def foot(cx, cy, col, dash=""):
+        d = f' stroke-dasharray="3 3"' if dash else ""
+        o = []
+        o.append(f'<ellipse cx="{cx}" cy="{cy}" rx="7.4" ry="6" fill="none" stroke="{col}" stroke-width="0.7"{d}/>')
+        o.append(f'<path d="M{cx-6},{cy-6} Q{cx-8.5},{cy-14} {cx-5},{cy-19} L{cx+5},{cy-19} Q{cx+8.5},{cy-14} {cx+6},{cy-6} Z" fill="none" stroke="{col}" stroke-width="0.7"{d}/>')
+        o.append(f'<ellipse cx="{cx}" cy="{cy-23}" rx="10" ry="6" fill="none" stroke="{col}" stroke-width="0.7"{d}/>')
+        for k, (dx, dy, r) in enumerate([(-9.5, -3, 2.5), (-4, -9, 2.2), (1.5, -11, 2.0), (7, -9, 1.9), (10.5, -3, 1.7)]):
+            o.append(f'<circle cx="{cx+dx}" cy="{cy-23+dy}" r="{r}" fill="none" stroke="{col}" stroke-width="0.55"{d}/>')
+        return o
+
+    for part in foot(72, gy - 8, INK):
+        s.append(part)
+    s.append(txt(72, gy + 14, "站住：脚知道地在哪儿", 4.8, GREEN, "middle"))
+
+    # 右：地没有了
+    s.append(f'<path d="M134,{gy} q6,-4 12,0 q6,4 12,0 q6,-4 12,0 q6,4 12,0" fill="none" stroke="{INK}" stroke-width="0.4" opacity="0.25"/>')
+    for part in foot(190, gy - 30, SEAL, "dash"):
+        s.append(part)
+    s.append(f'<path d="M183,{gy-8} v10 M197,{gy-8} v10" stroke="{SEAL}" stroke-width="0.3" stroke-dasharray="2 2"/>')
+    s.append(f'<path d="M176,{gy+2} q14,6 28,0" fill="none" stroke="{SEAL}" stroke-width="0.3" stroke-dasharray="2 2"/>')
+    s.append(txt(190, gy + 14, "还在往下探：底下没有地", 4.8, SEAL, "middle"))
+
+    b = gy + 30
+    s.append(txt(24, b + 4, "二 · 第二个足：够（门槛）", 5.9, INK))
+    s.append(f'<path d="M30,{b+74} L96,{b+66} L96,{b+56} L162,{b+48} L162,{b+38} L228,{b+30} L228,{b+20} L294,{b+12}" fill="none" stroke="{SEAL}" stroke-width="0.6"/>')
+    s.append(txt(300, b + 14, "够", 4.8, SEAL))
+    s.append(txt(300, b + 26, "的门槛", 4.4, SEAL))
+    s.append(txt(36, b + 90, "不知足的人：门槛一级一级往上，脚一直没落地。", 5.4, SEAL))
+
+    c = b + 116
+    s.append(txt(24, c, "三 · 第三个足：常——脚先落地，门槛就不动了。", 5.4, GREEN))
+
+    y2 = c + 14
+    s.append(f'<line x1="24" y1="{y2}" x2="338" y2="{y2}" stroke="{LINE}" stroke-width="0.6"/>')
+    s.append(box(20, y2 + 8, 340, 44, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, y2 + 24, "先站住，才够；先够，永远不够。", 6.4, INK, "middle"))
+    s.append(txt(190, y2 + 38, "顺序不能倒：靠外物撑起来的「够」，是借来的。", 5.8, GREEN, "middle"))
+    s.append(gold(y2 + 66, "ch46c"))
+    s.append('</svg>')
+    return "\n".join(s)
+
 
 FIGS = {
     "ch01-wu-you": ("第一章", "无有同出", ch01_wu_you),
@@ -3986,6 +4180,9 @@ FIGS = {
     "ch45a-liu-yi-dao-feng": ("第四十五章", "留一道缝", ch45a_liu_yi_dao_feng),
     "ch45b-jing-ying-chong": ("第四十五章", "井口看着是空的", ch45b_jing_ying_chong),
     "ch45c-yin-er-bu-fa": ("第四十五章", "引而不发", ch45c_yin_er_bu_fa),
+    "ch46a-lu-shang-yin-zi": ("第四十六章", "路上的印子", ch46a_lu_shang_yin_zi),
+    "ch46b-dao-gai-li": ("第四十六章", "刀改成犁", ch46b_dao_gai_li),
+    "ch46c-san-ge-zu": ("第四十六章", "一句话里三个「足」", ch46c_san_ge_zu),
     "ch12-wu-se": ("第十二章", "门开五处", ch12_wu_se),
     "ch13-chong-ru": ("第十三章", "惊的是我", ch13_chong_ru),
     "ch14-yi-xi-wei": ("第十四章", "三样工具探不到", ch14_yi_xi_wei),
