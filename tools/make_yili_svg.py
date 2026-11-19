@@ -2354,8 +2354,8 @@ def ch34b_yi_ju_liang_du():
     s.append(txt(32, yb + 15, "「欲」本书读作发心、志求：从谷从欠——谷能容能纳，欠有所向往。", 7.2, INK))
     s.append(txt(32, yb + 30, "它是中性的那股力，不是后世窄化的贪念。", 7.2, "#6E6459"))
     s.append(txt(32, yb + 48, "第三章所戒，是攀缘之欲：依附外标而生的求。", 7.2, "#6E6459"))
-    s.append(txt(32, yb + 66, "本章「恒无欲」：那一支从来没有发作——", 7.2, SEAL))
-    s.append(txt(32, yb + 80, "不改造、不统一、不主宰、不占有。", 7.2, SEAL))
+    s.append(txt(32, yb + 66, "本章「恒无欲」：不是把欲掐掉，是那一念从不把场填满、锁死——", 6.9, SEAL))
+    s.append(txt(32, yb + 80, "不改造、不统一、不主宰、不占有，那一支从来不发作。", 6.9, SEAL))
     # 谷：两坡夹一容，向往一点
     s.append(f'<path d="M264,{yb+14} L282,{yb+46} L300,{yb+14}" fill="none" stroke="{INK}" stroke-width="1.2"/>')
     s.append(f'<circle cx="282" cy="{yb+40}" r="2.4" fill="{SEAL}"/>')
