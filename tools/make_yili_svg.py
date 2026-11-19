@@ -4377,53 +4377,62 @@ def ch48a_yi_yu_sun():
 
 # ============ 第四十八章 · 一层套一层的壳 ============
 def ch48b_ceng_ke():
-    W, H = 380, 486
-    body, y = head(W, H, "每减掉一层，剩下那层长出新皮", "第 四 十 八 章 · 又",
-                   "损之又损", "损之又损，以至于无为。", H)
+    W, H = 380, 500
+    body, y = head(W, H, "破一层，那一层就从实线变成虚线", "第 四 十 八 章 · 框",
+                   "打破框框", "损之又损，以至于无为。", H)
     s = [body]
 
     s.append(box(20, y + 2, 340, 30, fill="#F2EADA", stroke="#C9B79A"))
-    s.append(txt(190, y + 14, "「又」不是重复劳动，是一层套一层地剥。", 5.8, INK, "middle"))
-    s.append(txt(190, y + 26, "为什么没有终点？不是路长，是壳会再生。", 5.4, "#6E6459", "middle"))
+    s.append(txt(190, y + 14, "「损」不是扔东西，是破框：那一层边不再硬着了。", 5.8, INK, "middle"))
+    s.append(txt(190, y + 26, "框是自己画的；破一层，那一层就从实线变成虚线。", 5.4, "#6E6459", "middle"))
 
     a = y + 52
-    cx, cy = 120, a + 74
-    for i, r in enumerate((56, 46, 36, 26, 16)):
-        op = 0.9 - i * 0.12
-        s.append(f'<circle cx="{cx}" cy="{cy}" r="{r}" fill="none" stroke="{INK}" stroke-width="0.8" opacity="{op:.2f}"/>')
-    s.append(f'<circle cx="{cx}" cy="{cy}" r="6" fill="{SEAL}" opacity="0.55"/>')
-    # 最外一层在右上开了口，被掀起一段
-    import math as _m
-    def _pt(r, deg):
-        return (cx + r * _m.cos(_m.radians(deg)), cy + r * _m.sin(_m.radians(deg)))
-    x1, y1 = _pt(56, 25); x2, y2 = _pt(56, 335)
-    s.append(f'<path d="M{x1:.1f},{y1:.1f} A56,56 0 1 1 {x2:.1f},{y2:.1f}" fill="none" stroke="{INK}" stroke-width="0.8" opacity="0.9"/>')
-    px1, py1 = _pt(58, 25); px2, py2 = _pt(64, -18)
-    s.append(f'<path d="M{px1:.1f},{py1:.1f} Q{_pt(72,8)[0]:.1f},{_pt(72,8)[1]:.1f} {px2:.1f},{py2:.1f}" fill="none" stroke="{SEAL}" stroke-width="0.8"/>')
-    s.append(f'<path d="M{px2:.1f},{py2:.1f} q6,2 10,-2" fill="none" stroke="{SEAL}" stroke-width="0.5"/>')
-    s.append(txt(196, a + 26, "掀起的一层", 4.8, SEAL))
-    s.append(f'<line x1="194" y1="{a+30}" x2="{px2+6:.1f}" y2="{py2-2:.1f}" stroke="{LINE2}" stroke-width="0.4"/>')
-    # 刚露出来的新皮
-    nx1, ny1 = _pt(48, -34); nx2, ny2 = _pt(48, 30)
-    s.append(f'<path d="M{nx1:.1f},{ny1:.1f} A48,48 0 0 0 {nx2:.1f},{ny2:.1f}" fill="none" stroke="{GREEN}" stroke-width="0.9" stroke-dasharray="3 2.4"/>')
-    s.append(txt(196, a + 104, "断口这里，又长出一层新皮", 4.8, GREEN))
-    s.append(f'<line x1="194" y1="{a+100}" x2="{cx+44}" y2="{cy+20}" stroke="{LINE2}" stroke-width="0.4"/>')
-    s.append(txt(cx, cy + 76, "减贪，减到最后贪「我已经不贪了」", 4.8, "#6E6459", "middle"))
+    cx, cy = 128, a + 84
 
-    b = cy + 96
-    s.append(txt(24, b, "减一次，人就会把「我已经减了」也当成一层新的东西收着。", 5.8, INK))
-    s.append(txt(24, b + 16, "减评判，减到最后评判「他还在评判」。", 5.4, "#6E6459"))
-    s.append(txt(24, b + 32, "所以「又」是剥一层、等它长、再剥一层——不是同一刀重复。", 5.4, GREEN))
+    def sq(h, col, w=0.9, op=1.0, dash=""):
+        d = f' stroke-dasharray="{dash}"' if dash else ""
+        return (f'<rect x="{cx-h}" y="{cy-h}" width="{2*h}" height="{2*h}" fill="none" '
+                f'stroke="{col}" stroke-width="{w}" opacity="{op}"{d}/>')
+
+    # 最外一层：已破（全虚线）
+    s.append(sq(68, SEAL, 0.8, 0.9, "4 3"))
+    # 第二层：破口中——实线断开，虚线接上
+    s.append(f'<line x1="{cx-52}" y1="{cy-52}" x2="{cx+2}" y2="{cy-52}" stroke="{INK}" stroke-width="0.9"/>')
+    s.append(f'<line x1="{cx+14}" y1="{cy-52}" x2="{cx+52}" y2="{cy-52}" stroke="{INK}" stroke-width="0.9" stroke-dasharray="3 3"/>')
+    s.append(f'<line x1="{cx+52}" y1="{cy-52}" x2="{cx+52}" y2="{cy+52}" stroke="{INK}" stroke-width="0.9"/>')
+    s.append(f'<line x1="{cx+52}" y1="{cy+52}" x2="{cx-52}" y2="{cy+52}" stroke="{INK}" stroke-width="0.9"/>')
+    s.append(f'<line x1="{cx-52}" y1="{cy+52}" x2="{cx-52}" y2="{cy-52}" stroke="{INK}" stroke-width="0.9"/>')
+    # 破口的两个小楔
+    s.append(f'<path d="M{cx+2},{cy-52} l4,-4 M{cx+2},{cy-52} l4,4" stroke="{SEAL}" stroke-width="0.6" fill="none"/>')
+    s.append(f'<path d="M{cx+14},{cy-52} l-4,-4 M{cx+14},{cy-52} l-4,4" stroke="{SEAL}" stroke-width="0.6" fill="none"/>')
+    # 第三层：还没破（实线，起了裂口）
+    s.append(sq(36, INK, 0.9))
+    s.append(f'<path d="M{cx+24},{cy-36} l8,-8 M{cx+30},{cy-36} l8,8" stroke="{SEAL}" stroke-width="0.5" fill="none"/>')
+    # 最里
+    s.append(sq(18, INK, 0.7, 0.5))
+
+    s.append(txt(214, a + 18, "已破：整圈成了虚线", 4.9, SEAL))
+    s.append(f'<line x1="212" y1="{a+22}" x2="{cx+68}" y2="{cy-32}" stroke="{LINE2}" stroke-width="0.4"/>')
+    s.append(txt(214, a + 52, "正在破：实线断处，", 4.9, SEAL))
+    s.append(txt(214, a + 64, "虚线从这里接上", 4.9, GREEN))
+    s.append(f'<line x1="212" y1="{a+56}" x2="{cx+16}" y2="{cy-52}" stroke="{LINE2}" stroke-width="0.4"/>')
+    s.append(txt(214, a + 108, "还没破：还是实线", 4.9, "#6E6459"))
+    s.append(txt(214, a + 120, "只起了一道裂", 4.9, "#6E6459"))
+    s.append(f'<line x1="212" y1="{a+112}" x2="{cx+36}" y2="{cy+12}" stroke="{LINE2}" stroke-width="0.4"/>')
+
+    b = a + 186
+    s.append(txt(24, b, "框不是别人给的，是自己画的：一个概念一道框，一个标准一道框。", 5.6, INK))
+    s.append(txt(24, b + 16, "破一层，那一层就不再硬着；剩下一层还硬着，所以还要再破。", 5.6, INK))
+    s.append(txt(24, b + 32, "这就是「又」：不是同一刀重复，是破完这层，下一层才露出来。", 5.4, GREEN))
 
     c = b + 50
     s.append(f'<line x1="24" y1="{c}" x2="338" y2="{c}" stroke="{LINE}" stroke-width="0.6"/>')
     s.append(box(20, c + 8, 340, 40, fill="#F2EADA", stroke="#C9B79A"))
-    s.append(txt(190, c + 24, "剥到极处，不是手里空了，", 6.0, INK, "middle"))
-    s.append(txt(190, c + 36, "是那只加边的手不动了。", 6.0, GREEN, "middle"))
+    s.append(txt(190, c + 24, "破到极处，不是手里空了，", 6.0, INK, "middle"))
+    s.append(txt(190, c + 36, "是那只画框的手不动了。", 6.0, GREEN, "middle"))
     s.append(gold(c + 62, "ch48b"))
     s.append('</svg>')
     return "\n".join(s)
-
 
 # ============ 第四十八章 · 一道关，一道关 ============
 def ch48c_guan_qia():
@@ -4517,7 +4526,7 @@ FIGS = {
     "ch47b-wang-yue-mi": ("第四十七章", "网越密，越看不见", ch47b_wang_yue_mi),
     "ch47c-shi-zi-lu-kou": ("第四十七章", "十字路口", ch47c_shi_zi_lu_kou),
     "ch48a-yi-yu-sun": ("第四十八章", "一只器，两只手", ch48a_yi_yu_sun),
-    "ch48b-ceng-ke": ("第四十八章", "损之又损", ch48b_ceng_ke),
+    "ch48b-ceng-ke": ("第四十八章", "打破框框", ch48b_ceng_ke),
     "ch48c-guan-qia": ("第四十八章", "一道关，一道关", ch48c_guan_qia),
     "ch12-wu-se": ("第十二章", "门开五处", ch12_wu_se),
     "ch13-chong-ru": ("第十三章", "惊的是我", ch13_chong_ru),
