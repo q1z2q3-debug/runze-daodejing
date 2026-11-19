@@ -1088,7 +1088,7 @@ def ch03_shang_ji_guo_du():
 
 
 def ch10_bao_yi():
-    W, H = 380, 572
+    W, H = 380, 592
     body, y = head(W, H, "六问一答：对内做主人，对外做租客", "第 十 章 · 勘 验", "载营魄抱一",
                    "六问各管一件，底子只有一句质问：你是不是在当主人？", H)
     s = [body]
@@ -2547,8 +2547,7 @@ def ch36a_si_dui_jie_lv():
     s.append(txt(32, c1 + 18, "歙 / 张：一口气", 8.2, SEAL))
     s.append(f'<path d="M48,{c1+38} Q68,{c1+62} 48,{c1+86}" fill="none" stroke="{INK}" stroke-width="1.3"/>')
     s.append(f'<line x1="44" y1="{c1+38}" x2="44" y2="{c1+86}" stroke="{INK}" stroke-width="0.9"/>')
-    s.append(f'<path d="M62,{c1+52} q14,-8 26,-4" fill="none" stroke="{SEAL}" stroke-width="0.9"/>')
-    s.append(arrow(74, c1 + 46, 92, c1 + 42, SEAL, 0.8, head="arrS"))
+    s.append(arrow(62, c1 + 52, 92, c1 + 44, SEAL, 0.9, head="arrS"))
     s.append(txt(100, c1 + 52, "上弦之后必放", 6.8, "#6E6459"))
     s.append(txt(32, c1 + 100, "吸气之后必呼，上弦之后必放。", 7.0, INK))
     s.append(txt(32, c1 + 114, "你要收，是因为它已经张满了。", 6.9, SEAL))
@@ -2567,11 +2566,11 @@ def ch36a_si_dui_jie_lv():
     s.append(f'<rect x="38" y="{c2+56}" width="36" height="24" fill="none" stroke="{LINE}" stroke-width="0.9"/>')
     s.append(f'<path d="M34,{c2+56} l10,-10 l12,8 l14,-12" fill="none" stroke="{INK}" stroke-width="1"/>')
     s.append(f'<path d="M40,{c2+84} l26,-8" stroke="{INK}" stroke-width="0.9" stroke-dasharray="4 3"/>')
-    s.append(txt(62, c2 + 90, "屋塌：不用人管", 6.6, "#6E6459"))
+    s.append(txt(38, c2 + 96, "屋塌：不用人管", 6.4, "#6E6459"))
     s.append(f'<rect x="118" y="{c2+52}" width="26" height="18" fill="#E9DFCC" stroke="{INK}" stroke-width="0.8"/>')
     for dx in (-14, -4, 8, 18):
         s.append(arrow(131 + dx, c2 + 84, 131 + dx, c2 + 72, GREEN, 0.7, head="arrS"))
-    s.append(txt(131, c2 + 96, "四手共举", 6.6, GREEN, "middle"))
+    s.append(txt(131, c2 + 96, "四手共举", 6.4, GREEN, "middle"))
     s.append(txt(32, c2 + 114, "举起来要合力，塌下去不用人管。", 6.9, SEAL))
 
     # 四 取/与：割耳与给饼
@@ -2579,11 +2578,12 @@ def ch36a_si_dui_jie_lv():
     s.append(f'<circle cx="220" cy="{c2+48}" r="4.2" fill="none" stroke="{INK}" stroke-width="0.8"/>')
     s.append(f'<path d="M228,{c2+48} l16,0" stroke="{INK}" stroke-width="0.9"/>')
     s.append(f'<path d="M244,{c2+44} l0,6 M244,{c2+50} l0,6" stroke="{INK}" stroke-width="0.7"/>')
-    s.append(txt(240, c2 + 52, "取：从别人身上拿", 6.6, "#6E6459"))
-    s.append(f'<circle cx="238" cy="{c2+78}" r="9" fill="#E9DFCC" stroke="{INK}" stroke-width="0.8"/>')
-    s.append(f'<path d="M214,{c2+88} q12,10 24,0" fill="none" stroke="{INK}" stroke-width="0.8"/>')
-    s.append(txt(214, c2 + 104, "凡是给出去的，都在某处等着被取。", 6.9, SEAL))
-    s.append(txt(210, c2 + 118, "给是给，取是拿，两者不是两件事。", 6.7, "#6E6459"))
+    s.append(txt(250, c2 + 50, "取：从别人身上拿", 6.4, "#6E6459"))
+    s.append(f'<circle cx="238" cy="{c2+74}" r="8" fill="#E9DFCC" stroke="{INK}" stroke-width="0.8"/>')
+    s.append(f'<path d="M220,{c2+86} q14,-3 24,-1" fill="none" stroke="{INK}" stroke-width="0.9"/>')
+    s.append(f'<path d="M244,{c2+85} l4,2 l-4,2" fill="none" stroke="{INK}" stroke-width="0.7"/>')
+    s.append(txt(210, c2 + 100, "给出去的，都在等着被取。", 6.7, SEAL))
+    s.append(txt(210, c2 + 112, "给是给，取是拿，两件事。", 6.4, "#6E6459"))
 
     # 固 与 收
     y3 = y + 324
@@ -2598,7 +2598,7 @@ def ch36a_si_dui_jie_lv():
 # ============ 第三十六章 · 微明与渊 ============
 def ch36b_wei_ming_yuan():
     import math
-    W, H = 380, 572
+    W, H = 380, 592
     body, y = head(W, H, "胜，本义是「任」：刚撑不住自己，柔撑得住", "第 三 十 六 章 · 微 明",
                    "微明 · 渊 · 利器", "看得见的人很多，看得见而不动声色的人很少。", H)
     s = [body]
@@ -2610,10 +2610,10 @@ def ch36b_wei_ming_yuan():
     a = y + 38
     s.append(box(20, a, 340, 118, fill="#FBF6EC", stroke="#E6D8C2"))
     s.append(txt(32, a + 18, "微明：拐点还没显出来", 8.2, INK))
-    s.append(f'<path d="M40,{a+72} Q66,{a+76} 90,{a+40} Q104,{a+22} 118,{a+38} Q134,{a+58} 162,{a+70}" fill="none" stroke="{INK}" stroke-width="1.2"/>')
+    s.append(f'<path d="M40,{a+64} Q64,{a+68} 88,{a+38} Q102,{a+22} 116,{a+36} Q132,{a+54} 160,{a+62}" fill="none" stroke="{INK}" stroke-width="1.2"/>')
     s.append(f'<circle cx="104" cy="{a+30}" r="2.4" fill="{SEAL}"/>')
-    s.append(f'<line x1="104" y1="{a+34}" x2="104" y2="{a+62}" stroke="{SEAL}" stroke-width="0.7" stroke-dasharray="3 2"/>')
-    s.append(txt(108, a + 84, "顶点之前，已经有信", 6.4, SEAL))
+    s.append(f'<line x1="102" y1="{a+32}" x2="102" y2="{a+54}" stroke="{SEAL}" stroke-width="0.7" stroke-dasharray="3 2"/>')
+    s.append(txt(104, a + 74, "顶点之前，已经有信", 6.2, SEAL))
     # 胜＝任：直梁断 / 弯梁承
     s.append(f'<line x1="200" y1="{a+50}" x2="270" y2="{a+50}" stroke="{INK}" stroke-width="1.3"/>')
     s.append(f'<path d="M232,{a+50} l-3,4 M236,{a+50} l3,-4" stroke="{SEAL}" stroke-width="1"/>')
@@ -2627,42 +2627,42 @@ def ch36b_wei_ming_yuan():
 
     # 二、渊与鱼
     b = a + 130
-    s.append(box(20, b, 340, 104, fill="#F7F1E3", stroke="#E6D8C2"))
-    s.append(txt(32, b + 18, "鱼不可脱于渊：渊是回水，看不见底", 8.2, INK))
+    s.append(box(20, b, 340, 120, fill="#F7F1E3", stroke="#E6D8C2"))
+    s.append(txt(32, b + 18, "渊：回水，看不见底", 8.2, INK))
     s.append(f'<circle cx="82" cy="{b+58}" r="32" fill="#DCE5DF" stroke="#B9C7BE" stroke-width="0.8"/>')
     for r in (24, 17, 10):
         s.append(f'<circle cx="82" cy="{b+58}" r="{r}" fill="none" stroke="#9FB0A6" stroke-width="0.5" stroke-dasharray="4 3"/>')
     s.append(f'<ellipse cx="82" cy="{b+58}" rx="9" ry="4" fill="#F7F1E3" stroke="{INK}" stroke-width="0.8"/>')
     s.append(f'<path d="M91,{b+58} l7,-4 l0,8 z" fill="#F7F1E3" stroke="{INK}" stroke-width="0.7"/>')
-    s.append(txt(82, b + 98, "在渊：有地方转", 6.6, GREEN, "middle"))
-    s.append(f'<line x1="160" y1="{b+76}" x2="330" y2="{b+76}" stroke="{LINE}" stroke-width="0.9"/>')
-    s.append(f'<ellipse cx="212" cy="{b+70}" rx="10" ry="4.4" fill="#F7F1E3" stroke="{SEAL}" stroke-width="0.8"/>')
-    s.append(f'<path d="M222,{b+70} l8,-4 l0,8 z" fill="#F7F1E3" stroke="{SEAL}" stroke-width="0.7"/>')
-    s.append(f'<path d="M206,{b+64} l-4,-6 M212,{b+63} l0,-7 M218,{b+64} l4,-6" stroke="{SEAL}" stroke-width="0.7"/>')
-    s.append(txt(212, b + 92, "脱渊：鳃里进沙", 6.6, SEAL, "middle"))
-    s.append(txt(168, b + 22, "不是被捉走，是自己跳上岸。", 7.0, INK))
-    s.append(txt(168, b + 36, "鱼是「有」，渊是「无」：", 6.6, "#6E6459"))
-    s.append(txt(168, b + 48, "本事全长在那片「无」上。", 6.6, "#6E6459"))
+    s.append(txt(82, b + 104, "在渊：有地方转", 6.6, GREEN, "middle"))
+    s.append(f'<line x1="160" y1="{b+96}" x2="330" y2="{b+96}" stroke="{LINE}" stroke-width="0.9"/>')
+    s.append(f'<ellipse cx="212" cy="{b+88}" rx="10" ry="4.4" fill="#F7F1E3" stroke="{SEAL}" stroke-width="0.8"/>')
+    s.append(f'<path d="M222,{b+88} l8,-4 l0,8 z" fill="#F7F1E3" stroke="{SEAL}" stroke-width="0.7"/>')
+    s.append(f'<path d="M206,{b+82} l-4,-6 M212,{b+81} l0,-7 M218,{b+82} l4,-6" stroke="{SEAL}" stroke-width="0.7"/>')
+    s.append(txt(212, b + 112, "脱渊：鳃里进沙", 6.6, SEAL, "middle"))
+    s.append(txt(170, b + 40, "不是被捉走，是自己跳上岸。", 6.9, INK))
+    s.append(txt(170, b + 54, "鱼是「有」，渊是「无」；", 6.4, "#6E6459"))
+    s.append(txt(170, b + 66, "本事全长在那片「无」上。", 6.4, "#6E6459"))
 
     # 三、利器
-    c = b + 116
-    s.append(box(20, c, 340, 68, fill="#FBF6EC", stroke="#E6D8C2"))
+    c = b + 132
+    s.append(box(20, c, 340, 76, fill="#FBF6EC", stroke="#E6D8C2"))
     s.append(txt(32, c + 18, "利器：刀可以挂在墙上", 8.2, GREEN))
-    s.append(f'<line x1="40" y1="{c+34}" x2="128" y2="{c+34}" stroke="{LINE}" stroke-width="0.9"/>')
-    s.append(f'<path d="M74,{c+34} l0,4" stroke="{INK}" stroke-width="0.7"/>')
-    s.append(f'<path d="M72,{c+38} l8,0 l2,26 l-8,2 z" fill="#E9DFCC" stroke="{INK}" stroke-width="0.9"/>')
-    s.append(f'<line x1="72" y1="{c+44}" x2="82" y2="{c+43}" stroke="{INK}" stroke-width="0.6"/>')
-    s.append(txt(96, c + 52, "挂起来：看得见，但不随手", 6.6, "#6E6459"))
-    s.append(txt(210, c + 18, "不能挂在嘴上", 8.2, SEAL))
-    s.append(f'<path d="M222,{c+48} q14,8 28,0" fill="none" stroke="{INK}" stroke-width="1"/>')
-    s.append(f'<path d="M232,{c+40} l0,10 l-4,-4" stroke="{SEAL}" stroke-width="0.9"/>')
-    s.append(f'<line x1="248" y1="{c+46}" x2="266" y2="{c+32}" stroke="{SEAL}" stroke-width="0.9"/>')
-    s.append(f'<line x1="262" y1="{c+34}" x2="268" y2="{c+30}" stroke="{SEAL}" stroke-width="1.2"/>')
-    s.append(f'<circle cx="252" cy="{c+42}" r="14" fill="none" stroke="{SEAL}" stroke-width="0.9"/>')
-    s.append(f'<line x1="242" y1="{c+52}" x2="262" y2="{c+32}" stroke="{SEAL}" stroke-width="1"/>')
-    s.append(txt(276, c + 56, "说出来就成了刀", 6.6, "#6E6459"))
+    s.append(f'<line x1="40" y1="{c+34}" x2="140" y2="{c+34}" stroke="{LINE}" stroke-width="0.9"/>')
+    s.append(f'<path d="M76,{c+34} l0,6" stroke="{INK}" stroke-width="0.7"/>')
+    s.append(f'<rect x="75" y="{c+34}" width="6" height="8" fill="#E9DFCC" stroke="{INK}" stroke-width="0.7"/>')
+    s.append(f'<path d="M74,{c+42} l9,-1 l1,30 l-8,1 z" fill="#E9DFCC" stroke="{INK}" stroke-width="0.9"/>')
+    s.append(txt(96, c + 54, "挂起来：看得见，但不随手", 6.4, "#6E6459"))
+    s.append(txt(196, c + 18, "不能挂在嘴上", 8.2, SEAL))
+    s.append(f'<path d="M206,{c+52} q16,-9 32,0" fill="none" stroke="{INK}" stroke-width="0.9"/>')
+    s.append(f'<path d="M206,{c+52} q16,9 32,0" fill="none" stroke="{INK}" stroke-width="0.7"/>')
+    s.append(f'<line x1="222" y1="{c+26}" x2="222" y2="{c+44}" stroke="{INK}" stroke-width="1.1"/>')
+    s.append(f'<path d="M222,{c+44} l-4,-5 l8,0 z" fill="{SEAL}" stroke="{SEAL}" stroke-width="0.6"/>')
+    s.append(f'<circle cx="222" cy="{c+36}" r="13" fill="none" stroke="{SEAL}" stroke-width="0.9"/>')
+    s.append(f'<line x1="211" y1="{c+47}" x2="233" y2="{c+25}" stroke="{SEAL}" stroke-width="1"/>')
+    s.append(txt(246, c + 54, "说出来就成了刀", 6.4, "#6E6459"))
 
-    y3 = c + 78
+    y3 = c + 88
     s.append(box(20, y3, 340, 40, fill="#F2EADA", stroke="#C9B79A"))
     s.append(txt(190, y3 + 17, "藏刀不是为了让你不知道有刀，是为了让你不必怕刀。", 8.0, INK, "middle"))
     s.append(txt(190, y3 + 32, "这一问，就把本章和权术分开了。", 7.6, "#6E6459", "middle"))

@@ -15,8 +15,7 @@
 <text x="32" y="168" font-size="8.2" fill="#A2503B">歙 / 张：一口气</text>
 <path d="M48,188 Q68,212 48,236" fill="none" stroke="#2F2A24" stroke-width="1.3"/>
 <line x1="44" y1="188" x2="44" y2="236" stroke="#2F2A24" stroke-width="0.9"/>
-<path d="M62,202 q14,-8 26,-4" fill="none" stroke="#A2503B" stroke-width="0.9"/>
-<line x1="74" y1="196" x2="92" y2="192" stroke="#A2503B" stroke-width="0.8" marker-end="url(#arrS)"/>
+<line x1="62" y1="202" x2="92" y2="194" stroke="#A2503B" stroke-width="0.9" marker-end="url(#arrS)"/>
 <text x="100" y="202" font-size="6.8" fill="#6E6459">上弦之后必放</text>
 <text x="32" y="250" font-size="7.0" fill="#2F2A24">吸气之后必呼，上弦之后必放。</text>
 <text x="32" y="264" font-size="6.9" fill="#A2503B">你要收，是因为它已经张满了。</text>
@@ -31,23 +30,24 @@
 <rect x="38" y="342" width="36" height="24" fill="none" stroke="#DCCBB0" stroke-width="0.9"/>
 <path d="M34,342 l10,-10 l12,8 l14,-12" fill="none" stroke="#2F2A24" stroke-width="1"/>
 <path d="M40,370 l26,-8" stroke="#2F2A24" stroke-width="0.9" stroke-dasharray="4 3"/>
-<text x="62" y="376" font-size="6.6" fill="#6E6459">屋塌：不用人管</text>
+<text x="38" y="382" font-size="6.4" fill="#6E6459">屋塌：不用人管</text>
 <rect x="118" y="338" width="26" height="18" fill="#E9DFCC" stroke="#2F2A24" stroke-width="0.8"/>
 <line x1="117" y1="370" x2="117" y2="358" stroke="#4A5C55" stroke-width="0.7" marker-end="url(#arrS)"/>
 <line x1="127" y1="370" x2="127" y2="358" stroke="#4A5C55" stroke-width="0.7" marker-end="url(#arrS)"/>
 <line x1="139" y1="370" x2="139" y2="358" stroke="#4A5C55" stroke-width="0.7" marker-end="url(#arrS)"/>
 <line x1="149" y1="370" x2="149" y2="358" stroke="#4A5C55" stroke-width="0.7" marker-end="url(#arrS)"/>
-<text x="131" y="382" font-size="6.6" fill="#4A5C55" text-anchor="middle">四手共举</text>
+<text x="131" y="382" font-size="6.4" fill="#4A5C55" text-anchor="middle">四手共举</text>
 <text x="32" y="400" font-size="6.9" fill="#A2503B">举起来要合力，塌下去不用人管。</text>
 <text x="210" y="304" font-size="8.2" fill="#4A5C55">取 / 与：拿与给</text>
 <circle cx="220" cy="334" r="4.2" fill="none" stroke="#2F2A24" stroke-width="0.8"/>
 <path d="M228,334 l16,0" stroke="#2F2A24" stroke-width="0.9"/>
 <path d="M244,330 l0,6 M244,336 l0,6" stroke="#2F2A24" stroke-width="0.7"/>
-<text x="240" y="338" font-size="6.6" fill="#6E6459">取：从别人身上拿</text>
-<circle cx="238" cy="364" r="9" fill="#E9DFCC" stroke="#2F2A24" stroke-width="0.8"/>
-<path d="M214,374 q12,10 24,0" fill="none" stroke="#2F2A24" stroke-width="0.8"/>
-<text x="214" y="390" font-size="6.9" fill="#A2503B">凡是给出去的，都在某处等着被取。</text>
-<text x="210" y="404" font-size="6.7" fill="#6E6459">给是给，取是拿，两者不是两件事。</text>
+<text x="250" y="336" font-size="6.4" fill="#6E6459">取：从别人身上拿</text>
+<circle cx="238" cy="360" r="8" fill="#E9DFCC" stroke="#2F2A24" stroke-width="0.8"/>
+<path d="M220,372 q14,-3 24,-1" fill="none" stroke="#2F2A24" stroke-width="0.9"/>
+<path d="M244,371 l4,2 l-4,2" fill="none" stroke="#2F2A24" stroke-width="0.7"/>
+<text x="210" y="386" font-size="6.7" fill="#A2503B">给出去的，都在等着被取。</text>
+<text x="210" y="398" font-size="6.4" fill="#6E6459">给是给，取是拿，两件事。</text>
 <rect x="20" y="424" width="340" height="44" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
 <text x="190" y="442" font-size="8.2" fill="#2F2A24" text-anchor="middle">「固」＝必然如此：说这话的是观天的人。</text>
 <text x="190" y="458" font-size="7.4" fill="#6E6459" text-anchor="middle">若读成「你就这样办」，就成了下棋的人——同一句，两条路。</text>

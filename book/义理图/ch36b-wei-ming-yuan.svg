@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg viewBox="0 0 380 572" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="胜，本义是「任」：刚撑不住自己，柔撑得住" font-family="'Noto Serif CJK SC','Noto Serif SC','Songti SC',serif">
+<svg viewBox="0 0 380 592" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="胜，本义是「任」：刚撑不住自己，柔撑得住" font-family="'Noto Serif CJK SC','Noto Serif SC','Songti SC',serif">
 <defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#6E6459"/></marker><marker id="arr2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#4A5C55"/></marker><marker id="arrL" viewBox="0 0 10 10" refX="1" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M10 0 L0 5 L10 10 z" fill="#4A5C55"/></marker><marker id="arrS" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#A2503B"/></marker></defs>
-<rect x="0" y="0" width="380" height="572" fill="#F8F3E6"/>
+<rect x="0" y="0" width="380" height="592" fill="#F8F3E6"/>
 <text x="20" y="26" font-size="11" fill="#A2503B" font-family="'Noto Sans CJK SC','Noto Sans SC',sans-serif" letter-spacing="3">第 三 十 六 章 · 微 明</text>
 <text x="20" y="58" font-size="21" fill="#2F2A24">微明 · 渊 · 利器</text>
 <text x="20" y="78" font-size="10.5" fill="#6E6459">看得见的人很多，看得见而不动声色的人很少。</text>
@@ -9,10 +9,10 @@
 <text x="190" y="121" font-size="7.6" fill="#2F2A24" text-anchor="middle">是谓微明。柔弱胜刚强。鱼不可脱于渊，国之利器不可以示人。</text>
 <rect x="20" y="138" width="340" height="118" fill="#FBF6EC" stroke="#E6D8C2" stroke-width="1.0"/>
 <text x="32" y="156" font-size="8.2" fill="#2F2A24">微明：拐点还没显出来</text>
-<path d="M40,210 Q66,214 90,178 Q104,160 118,176 Q134,196 162,208" fill="none" stroke="#2F2A24" stroke-width="1.2"/>
+<path d="M40,202 Q64,206 88,176 Q102,160 116,174 Q132,192 160,200" fill="none" stroke="#2F2A24" stroke-width="1.2"/>
 <circle cx="104" cy="168" r="2.4" fill="#A2503B"/>
-<line x1="104" y1="172" x2="104" y2="200" stroke="#A2503B" stroke-width="0.7" stroke-dasharray="3 2"/>
-<text x="108" y="222" font-size="6.4" fill="#A2503B">顶点之前，已经有信</text>
+<line x1="102" y1="170" x2="102" y2="192" stroke="#A2503B" stroke-width="0.7" stroke-dasharray="3 2"/>
+<text x="104" y="212" font-size="6.2" fill="#A2503B">顶点之前，已经有信</text>
 <line x1="200" y1="188" x2="270" y2="188" stroke="#2F2A24" stroke-width="1.3"/>
 <path d="M232,188 l-3,4 M236,188 l3,-4" stroke="#A2503B" stroke-width="1"/>
 <text x="235" y="178" font-size="6.6" fill="#A2503B" text-anchor="middle">直：撑不住</text>
@@ -22,43 +22,43 @@
 <text x="304" y="222" font-size="6.2" fill="#6E6459" text-anchor="middle">胜＝任</text>
 <text x="32" y="238" font-size="6.9" fill="#2F2A24">柔不打败刚；刚没有自己站住的地方。</text>
 <text x="32" y="250" font-size="6.9" fill="#6E6459">微不是细小，是没有行迹。</text>
-<rect x="20" y="268" width="340" height="104" fill="#F7F1E3" stroke="#E6D8C2" stroke-width="1.0"/>
-<text x="32" y="286" font-size="8.2" fill="#2F2A24">鱼不可脱于渊：渊是回水，看不见底</text>
+<rect x="20" y="268" width="340" height="120" fill="#F7F1E3" stroke="#E6D8C2" stroke-width="1.0"/>
+<text x="32" y="286" font-size="8.2" fill="#2F2A24">渊：回水，看不见底</text>
 <circle cx="82" cy="326" r="32" fill="#DCE5DF" stroke="#B9C7BE" stroke-width="0.8"/>
 <circle cx="82" cy="326" r="24" fill="none" stroke="#9FB0A6" stroke-width="0.5" stroke-dasharray="4 3"/>
 <circle cx="82" cy="326" r="17" fill="none" stroke="#9FB0A6" stroke-width="0.5" stroke-dasharray="4 3"/>
 <circle cx="82" cy="326" r="10" fill="none" stroke="#9FB0A6" stroke-width="0.5" stroke-dasharray="4 3"/>
 <ellipse cx="82" cy="326" rx="9" ry="4" fill="#F7F1E3" stroke="#2F2A24" stroke-width="0.8"/>
 <path d="M91,326 l7,-4 l0,8 z" fill="#F7F1E3" stroke="#2F2A24" stroke-width="0.7"/>
-<text x="82" y="366" font-size="6.6" fill="#4A5C55" text-anchor="middle">在渊：有地方转</text>
-<line x1="160" y1="344" x2="330" y2="344" stroke="#DCCBB0" stroke-width="0.9"/>
-<ellipse cx="212" cy="338" rx="10" ry="4.4" fill="#F7F1E3" stroke="#A2503B" stroke-width="0.8"/>
-<path d="M222,338 l8,-4 l0,8 z" fill="#F7F1E3" stroke="#A2503B" stroke-width="0.7"/>
-<path d="M206,332 l-4,-6 M212,331 l0,-7 M218,332 l4,-6" stroke="#A2503B" stroke-width="0.7"/>
-<text x="212" y="360" font-size="6.6" fill="#A2503B" text-anchor="middle">脱渊：鳃里进沙</text>
-<text x="168" y="290" font-size="7.0" fill="#2F2A24">不是被捉走，是自己跳上岸。</text>
-<text x="168" y="304" font-size="6.6" fill="#6E6459">鱼是「有」，渊是「无」：</text>
-<text x="168" y="316" font-size="6.6" fill="#6E6459">本事全长在那片「无」上。</text>
-<rect x="20" y="384" width="340" height="68" fill="#FBF6EC" stroke="#E6D8C2" stroke-width="1.0"/>
-<text x="32" y="402" font-size="8.2" fill="#4A5C55">利器：刀可以挂在墙上</text>
-<line x1="40" y1="418" x2="128" y2="418" stroke="#DCCBB0" stroke-width="0.9"/>
-<path d="M74,418 l0,4" stroke="#2F2A24" stroke-width="0.7"/>
-<path d="M72,422 l8,0 l2,26 l-8,2 z" fill="#E9DFCC" stroke="#2F2A24" stroke-width="0.9"/>
-<line x1="72" y1="428" x2="82" y2="427" stroke="#2F2A24" stroke-width="0.6"/>
-<text x="96" y="436" font-size="6.6" fill="#6E6459">挂起来：看得见，但不随手</text>
-<text x="210" y="402" font-size="8.2" fill="#A2503B">不能挂在嘴上</text>
-<path d="M222,432 q14,8 28,0" fill="none" stroke="#2F2A24" stroke-width="1"/>
-<path d="M232,424 l0,10 l-4,-4" stroke="#A2503B" stroke-width="0.9"/>
-<line x1="248" y1="430" x2="266" y2="416" stroke="#A2503B" stroke-width="0.9"/>
-<line x1="262" y1="418" x2="268" y2="414" stroke="#A2503B" stroke-width="1.2"/>
-<circle cx="252" cy="426" r="14" fill="none" stroke="#A2503B" stroke-width="0.9"/>
-<line x1="242" y1="436" x2="262" y2="416" stroke="#A2503B" stroke-width="1"/>
-<text x="276" y="440" font-size="6.6" fill="#6E6459">说出来就成了刀</text>
-<rect x="20" y="462" width="340" height="40" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
-<text x="190" y="479" font-size="8.0" fill="#2F2A24" text-anchor="middle">藏刀不是为了让你不知道有刀，是为了让你不必怕刀。</text>
-<text x="190" y="494" font-size="7.6" fill="#6E6459" text-anchor="middle">这一问，就把本章和权术分开了。</text>
-<line x1="20" y1="510" x2="360" y2="510" stroke="#E6D8C2" stroke-width="0.8"/>
-<text x="20" y="524" font-size="8.0" fill="#A89577" letter-spacing="1">本 章 金 句</text>
-<text x="20" y="540" font-size="8.4" fill="#2F2A24">不是柔把刚打败了，是刚撑不住自己，柔撑得住。</text>
-<text x="20" y="556" font-size="8.4" fill="#2F2A24">鱼不是被捉走的，是自己跳上岸的。</text>
+<text x="82" y="372" font-size="6.6" fill="#4A5C55" text-anchor="middle">在渊：有地方转</text>
+<line x1="160" y1="364" x2="330" y2="364" stroke="#DCCBB0" stroke-width="0.9"/>
+<ellipse cx="212" cy="356" rx="10" ry="4.4" fill="#F7F1E3" stroke="#A2503B" stroke-width="0.8"/>
+<path d="M222,356 l8,-4 l0,8 z" fill="#F7F1E3" stroke="#A2503B" stroke-width="0.7"/>
+<path d="M206,350 l-4,-6 M212,349 l0,-7 M218,350 l4,-6" stroke="#A2503B" stroke-width="0.7"/>
+<text x="212" y="380" font-size="6.6" fill="#A2503B" text-anchor="middle">脱渊：鳃里进沙</text>
+<text x="170" y="308" font-size="6.9" fill="#2F2A24">不是被捉走，是自己跳上岸。</text>
+<text x="170" y="322" font-size="6.4" fill="#6E6459">鱼是「有」，渊是「无」；</text>
+<text x="170" y="334" font-size="6.4" fill="#6E6459">本事全长在那片「无」上。</text>
+<rect x="20" y="400" width="340" height="76" fill="#FBF6EC" stroke="#E6D8C2" stroke-width="1.0"/>
+<text x="32" y="418" font-size="8.2" fill="#4A5C55">利器：刀可以挂在墙上</text>
+<line x1="40" y1="434" x2="140" y2="434" stroke="#DCCBB0" stroke-width="0.9"/>
+<path d="M76,434 l0,6" stroke="#2F2A24" stroke-width="0.7"/>
+<rect x="75" y="434" width="6" height="8" fill="#E9DFCC" stroke="#2F2A24" stroke-width="0.7"/>
+<path d="M74,442 l9,-1 l1,30 l-8,1 z" fill="#E9DFCC" stroke="#2F2A24" stroke-width="0.9"/>
+<text x="96" y="454" font-size="6.4" fill="#6E6459">挂起来：看得见，但不随手</text>
+<text x="196" y="418" font-size="8.2" fill="#A2503B">不能挂在嘴上</text>
+<path d="M206,452 q16,-9 32,0" fill="none" stroke="#2F2A24" stroke-width="0.9"/>
+<path d="M206,452 q16,9 32,0" fill="none" stroke="#2F2A24" stroke-width="0.7"/>
+<line x1="222" y1="426" x2="222" y2="444" stroke="#2F2A24" stroke-width="1.1"/>
+<path d="M222,444 l-4,-5 l8,0 z" fill="#A2503B" stroke="#A2503B" stroke-width="0.6"/>
+<circle cx="222" cy="436" r="13" fill="none" stroke="#A2503B" stroke-width="0.9"/>
+<line x1="211" y1="447" x2="233" y2="425" stroke="#A2503B" stroke-width="1"/>
+<text x="246" y="454" font-size="6.4" fill="#6E6459">说出来就成了刀</text>
+<rect x="20" y="488" width="340" height="40" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="190" y="505" font-size="8.0" fill="#2F2A24" text-anchor="middle">藏刀不是为了让你不知道有刀，是为了让你不必怕刀。</text>
+<text x="190" y="520" font-size="7.6" fill="#6E6459" text-anchor="middle">这一问，就把本章和权术分开了。</text>
+<line x1="20" y1="536" x2="360" y2="536" stroke="#E6D8C2" stroke-width="0.8"/>
+<text x="20" y="550" font-size="8.0" fill="#A89577" letter-spacing="1">本 章 金 句</text>
+<text x="20" y="566" font-size="8.4" fill="#2F2A24">不是柔把刚打败了，是刚撑不住自己，柔撑得住。</text>
+<text x="20" y="582" font-size="8.4" fill="#2F2A24">鱼不是被捉走的，是自己跳上岸的。</text>
 </svg>
