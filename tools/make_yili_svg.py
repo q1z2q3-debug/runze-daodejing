@@ -1524,6 +1524,9 @@ GOLD = {
     "ch48c": ["「取天下」的「取」是割耳朵，所以老子换了一个动作：不是割，是不动。"],
     "ch47a": ["透过框看，你看见的每一块都是真的；可你真的没看见框外。"],
     "ch47b": ["其出弥远，其知弥少。"],
+    "ch58a": ["闷是把心关在门里，察是盖过来翻着看；一个是关，一个是翻。"],
+    "ch58b": ["祸不是等在福后面，是靠在福身上；它们一直贴着，所以换的时候不用通知。"],
+    "ch58c": ["方是两条船并着；并着不动刀，一动刀就成了界。"],
     "ch57a": ["正，是脚站定；一个政策最大的德，是明年还是它。"],
     "ch57b": ["奇是落单的一手；会用，但不能落单成习惯。"],
     "ch57c": ["彰是画上去的花；条文画得越花，能踩的线就越多。"],
@@ -6093,6 +6096,184 @@ def ch57c_yi_kuai_hua_pai():
     return "\n".join(s)
 
 
+# ============ 第五十八章 · 一扇门 ============
+def ch58a_yi_shan_men():
+    W, H = 380, 664
+    body, y = head(W, H, "其政闷闷：闷从心从门，是心关在门里，不往外放",
+                   "第 五 十 八 章 · 闷", "一扇门", "其政闷闷，其民淳淳。", H)
+    s = [body]
+
+    s.append(box(20, y + 2, 340, 30, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, y + 14, "「闷」，《说文》「懑也」，从心、从门——心关在门里。", 5.2, INK, "middle"))
+    s.append(txt(190, y + 26, "「察」，《说文》「覆也」，从宀、从祭——屋顶底下，把东西盖过来再审。", 5.2, "#6E6459", "middle"))
+
+    def jar(cx, gy, level=None, col=INK, fill="#EFE6D4"):
+        o = [f'<ellipse cx="{cx}" cy="{gy-24}" rx="15" ry="17" fill="{fill}" stroke="{col}" stroke-width="1"/>']
+        o.append(f'<rect x="{cx-7}" y="{gy-46}" width="14" height="9" rx="2" fill="{fill}" stroke="{col}" stroke-width="1"/>')
+        o.append(f'<line x1="{cx-15}" y1="{gy-42}" x2="{cx+15}" y2="{gy-42}" stroke="{col}" stroke-width="0.8"/>')
+        if level is not None:
+            o.append(f'<line x1="{cx-14}" y1="{level}" x2="{cx+14}" y2="{level}" stroke="{SEAL}" stroke-width="1"/>')
+        return o
+
+    # 一、门关着
+    t1 = y + 46
+    s.append(txt(24, t1, "一、门关着：心在门里，酒没兑水", 5.4, GREEN))
+    gy1 = t1 + 108
+    s.append(f'<line x1="24" y1="{gy1}" x2="240" y2="{gy1}" stroke="{INK}" stroke-width="1"/>')
+    s.append(box(56, gy1 - 92, 60, 92, fill="#EFE6D4", stroke=INK, width=1.2))
+    s.append(f'<line x1="86" y1="{gy1-92}" x2="86" y2="{gy1}" stroke="{INK}" stroke-width="0.9"/>')
+    s.append(f'<line x1="74" y1="{gy1-42}" x2="74" y2="{gy1-34}" stroke="{INK}" stroke-width="1.4"/>')
+    s.append(f'<circle cx="74" cy="{gy1-38}" r="2" fill="{INK}"/>')
+    for k in range(4):
+        s.append(f'<line x1="88" y1="{gy1-86+k*20}" x2="110" y2="{gy1-86+k*20}" stroke="{LINE}" stroke-width="0.5"/>')
+    s += jar(150, gy1, None)
+    s.append(txt(150, gy1 + 14, "淳：酒没兑水", 4.6, GREEN, "middle"))
+    s.append(txt(176, gy1 - 66, "心关在门里", 4.8, GREEN))
+    s.append(txt(176, gy1 - 54, "懂了不往外放", 4.4, "#6E6459"))
+
+    # 二、屋顶盖下来，一遍遍翻
+    t2 = gy1 + 36
+    s.append(txt(24, t2, "二、盖过来审：翻一遍，割一道", 5.4, SEAL))
+    gy2 = t2 + 134
+    s.append(f'<line x1="24" y1="{gy2}" x2="240" y2="{gy2}" stroke="{INK}" stroke-width="1"/>')
+    s.append(f'<path d="M40,{gy2-88} L110,{gy2-118} L180,{gy2-88}" fill="none" stroke="{SEAL}" stroke-width="1.2"/>')
+    s.append(f'<line x1="40" y1="{gy2-88}" x2="180" y2="{gy2-88}" stroke="{SEAL}" stroke-width="1"/>')
+    s.append(f'<line x1="34" y1="{gy2-86}" x2="34" y2="{gy2}" stroke="{LINE}" stroke-width="1"/>')
+    s.append(f'<line x1="186" y1="{gy2-86}" x2="186" y2="{gy2}" stroke="{LINE}" stroke-width="1"/>')
+    s.append(box(62, gy2 - 40, 76, 40, fill="#F2EADA", stroke=INK, width=0.9))
+    for k in range(3):
+        x = 70 + k * 24
+        s.append(f'<line x1="{x}" y1="{gy2-14}" x2="{x+16}" y2="{gy2-36}" stroke="{INK}" stroke-width="0.7"/>')
+        s.append(f'<line x1="{x+4}" y1="{gy2-12}" x2="{x+20}" y2="{gy2-34}" stroke="{INK}" stroke-width="0.7"/>')
+    s.append(arrow(112, gy2 - 56, 112, gy2 - 46, SEAL, 0.7, head="arrS"))
+    s += jar(208, gy2, gy2 - 22)
+    s.append(txt(208, gy2 + 14, "缺：被割出来的", 4.6, SEAL, "middle"))
+    s.append(txt(198, gy2 - 88, "一遍一遍翻着看", 4.8, SEAL, "start"))
+
+    b = gy2 + 40
+    s.append(txt(24, b, "「闷」从心从门：心关在门里，懂了不往外放。", 5.2, INK))
+    s.append(txt(24, b + 16, "「察」训「覆」：屋顶底下，把东西盖过来一遍遍翻着审；越审越割。", 4.8, INK))
+    s.append(txt(24, b + 32, "淳通醇，是酒没兑水；上面不兑，下面才是原味。", 5.0, GREEN))
+
+    c = b + 50
+    s.append(f'<line x1="24" y1="{c}" x2="338" y2="{c}" stroke="{LINE}" stroke-width="0.6"/>')
+    s.append(box(20, c + 8, 340, 40, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, c + 24, "闷是把心关在门里，察是盖过来翻着看；", 5.8, INK, "middle"))
+    s.append(txt(190, c + 36, "一个是关，一个是翻。", 6.0, GREEN, "middle"))
+    s.append(gold(c + 62, "ch58a"))
+    s.append('</svg>')
+    return "\n".join(s)
+
+
+# ============ 第五十八章 · 一张折纸 ============
+def ch58b_yi_zhang_zhe_zhi():
+    W, H = 380, 568
+    body, y = head(W, H, "祸兮福之所倚：倚是靠着，伏是藏着——它们不是排队，是背贴背",
+                   "第 五 十 八 章 · 倚伏", "一张折纸", "祸兮，福之所倚；福兮，祸之所伏。", H)
+    s = [body]
+
+    s.append(box(20, y + 2, 340, 30, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, y + 14, "「倚」是靠、是贴；「伏」是藏、是底下那面——一张纸的两面，本来就是同一张。", 5.0, INK, "middle"))
+    s.append(txt(190, y + 26, "所以不是祸完了才轮到福，是福在身上就一直贴着祸。", 5.2, "#6E6459", "middle"))
+
+    cx, cy = 178, y + 146
+    s.append(f'<rect x="{cx-64}" y="{cy-54}" width="64" height="108" fill="#EFE6D4" stroke="{INK}" stroke-width="1"/>')
+    s.append(f'<path d="M{cx},{cy-54} L{cx+64},{cy-54} L{cx+64},{cy+26} L{cx+38},{cy+54} L{cx},{cy+54} Z" fill="#F2EADA" stroke="{SEAL}" stroke-width="1" stroke-dasharray="4 3"/>')
+    s.append(f'<line x1="{cx}" y1="{cy-54}" x2="{cx}" y2="{cy+54}" stroke="{LINE2}" stroke-width="0.8"/>')
+    s.append(f'<text x="{cx-32}" y="{cy+10}" font-size="22" fill="{INK}" text-anchor="middle">福</text>')
+    s.append(f'<text x="{cx+34}" y="{cy+14}" font-size="18" fill="{SEAL}" text-anchor="middle">祸</text>')
+    s.append(txt(cx - 32, cy - 66, "上面这面", 4.6, INK, "middle"))
+    s.append(txt(cx + 34, cy - 66, "底下那面", 4.6, SEAL, "middle"))
+    s.append(arrow(cx + 78, cy + 46, cx + 60, cy + 30, SEAL, 0.8, head="arrS"))
+    s.append(txt(cx + 82, cy + 52, "翻过来：", 4.6, SEAL))
+    s.append(txt(cx + 82, cy + 63, "不用通知", 4.6, SEAL))
+    s.append(txt(cx, cy + 78, "折线不是界限：同一张纸，只是折了一下", 4.6, "#6E6459", "middle"))
+
+    b = cy + 106
+    s.append(txt(24, b, "「祸兮福之所倚」：倚不是「等着」，是靠、是贴——祸来的时候，福已经在它背后靠着。", 4.8, INK))
+    s.append(txt(24, b + 16, "「福兮祸之所伏」：伏不是「埋伏」，是藏在底下那一面，翻手就到。", 4.8, INK))
+    s.append(txt(24, b + 32, "所以换的时候不用通知：不是排队，是同一张纸的两面。", 5.0, GREEN))
+
+    c = b + 50
+    s.append(f'<line x1="24" y1="{c}" x2="338" y2="{c}" stroke="{LINE}" stroke-width="0.6"/>')
+    s.append(box(20, c + 8, 340, 40, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, c + 24, "祸不是等在福后面，是靠在福身上；", 5.8, INK, "middle"))
+    s.append(txt(190, c + 36, "它们一直贴着，所以换的时候不用通知。", 5.4, GREEN, "middle"))
+    s.append(gold(c + 62, "ch58b"))
+    s.append('</svg>')
+    return "\n".join(s)
+
+
+# ============ 第五十八章 · 两条船 ============
+def ch58c_liang_tiao_chuan():
+    W, H = 380, 736
+    body, y = head(W, H, "方而不割：方，《说文》「併船也」——两条船并在一起",
+                   "第 五 十 八 章 · 方", "两条船", "方而不割，廉而不刿，直而不肆，光而不耀。", H)
+    s = [body]
+
+    s.append(box(20, y + 2, 340, 30, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, y + 14, "「方」，《说文》「併船也」——两条船并在一起；所以方不是「棱角」，是「并着」。", 5.2, INK, "middle"))
+    s.append(txt(190, y + 26, "并着不动刀；一动刀，并就成了界。", 5.2, "#6E6459", "middle"))
+
+    def boat(cx, cy_, col, flip=1):
+        o = []
+        RX, RY = 17, 52
+        o.append(f'<path d="M{cx},{cy_-RY} C{cx+RX},{cy_-RY+18} {cx+RX},{cy_+RY-18} {cx},{cy_+RY} C{cx-RX},{cy_+RY-18} {cx-RX},{cy_-RY+18} {cx},{cy_-RY} Z" fill="#EFE6D4" stroke="{col}" stroke-width="1.1"/>')
+        o.append(f'<line x1="{cx}" y1="{cy_-32}" x2="{cx}" y2="{cy_+32}" stroke="{col}" stroke-width="0.4" stroke-dasharray="3 3"/>')
+        for dy in (-34, 0, 34):
+            o.append(f'<path d="M{cx-24},{cy_+dy} C{cx-30},{cy_+dy+7} {cx-30},{cy_+dy+14} {cx-24},{cy_+dy+18}" fill="none" stroke="{LINE2}" stroke-width="0.45"/>')
+        ox = cx + flip * (RX - 3)
+        o.append(f'<line x1="{ox}" y1="{cy_-6}" x2="{cx + flip*(RX+16)}" y2="{cy_+18}" stroke="{col}" stroke-width="1"/>')
+        o.append(f'<line x1="{cx-4}" y1="{cy_+20}" x2="{cx+4}" y2="{cy_+20}" stroke="{col}" stroke-width="0.5"/>')
+        return o
+
+    # 一、并着
+    t1 = y + 46
+    s.append(txt(24, t1, "一、两条船并着：中间不留刀口", 5.4, GREEN))
+    wy = t1 + 96
+    s += boat(124, wy, INK, -1)
+    s += boat(158, wy, INK, 1)
+    s.append(txt(143, wy - 74, "并着：船帮贴船帮，中间没有刀口", 4.8, GREEN, "middle"))
+    s.append(txt(124, wy + 76, "方：两条船并在一起", 4.6, "#6E6459"))
+
+    # 二、动了刀
+    t2 = wy + 84
+    s.append(txt(24, t2, "二、一动刀：并就成了界", 5.4, SEAL))
+    wy2 = t2 + 84
+    s += boat(124, wy2, INK, -1)
+    s += boat(158, wy2, INK, 1)
+    s.append(f'<line x1="141" y1="{wy2-64}" x2="141" y2="{wy2+64}" stroke="{SEAL}" stroke-width="0.8" stroke-dasharray="4 3"/>')
+    s.append(txt(150, wy2 - 46, "割", 4.8, SEAL, "start"))
+    s.append(txt(196, wy2 + 32, "界：船还是两条", 4.8, SEAL, "start"))
+    s.append(txt(196, wy2 + 46, "路只剩一边", 4.6, "#6E6459", "start"))
+    s.append(txt(124, wy2 + 76, "一动刀，并就成了界", 4.6, SEAL))
+
+    # 三、四句 = 四个方向的留一点
+    t3 = wy2 + 84
+    s.append(f'<line x1="24" y1="{t3}" x2="338" y2="{t3}" stroke="{LINE}" stroke-width="0.6"/>')
+    s.append(txt(24, t3 + 18, "四句，是四个方向上的「留一点」：", 5.2, INK))
+    quads = [("方而不割", "并着，不收刀"), ("廉而不刿", "边立着，不利手"),
+             ("直而不肆", "话说着，不说尽"), ("光而不耀", "灯亮着，不刺眼")]
+    for k, (a, bb) in enumerate(quads):
+        col = 26 + (k % 2) * 166
+        row = t3 + 38 + (k // 2) * 19
+        s.append(txt(col, row, a, 4.8, SEAL))
+        s.append(txt(col + 50, row, "——" + bb, 4.6, "#6E6459"))
+
+    b = t3 + 88
+    s.append(txt(24, b, "方是两条船并着：并着不动刀，一动刀就成了界。", 5.2, INK))
+    s.append(txt(24, b + 16, "廉是堂屋那条侧边，不是刀口：边要立着，可不能划手。", 5.0, INK))
+    s.append(txt(24, b + 32, "直是话说着不说尽，光是灯亮着不刺眼——这一章的功夫，都在「留一点」上。", 4.6, GREEN))
+
+    c = b + 48
+    s.append(box(20, c + 8, 340, 40, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, c + 24, "方是两条船并着；并着不动刀，一动刀就成了界。", 5.6, INK, "middle"))
+    s.append(txt(190, c + 36, "光在，耀不在；一刺眼，照就变成了压。", 5.2, GREEN, "middle"))
+    s.append(gold(c + 62, "ch58c"))
+    s.append('</svg>')
+    return "\n".join(s)
+
+
 FIGS = {
     "ch01-wu-you": ("第一章", "无有同出", ch01_wu_you),
     "ch01-zhi-yue": ("第一章", "指月三境", ch01_zhi_yue),
@@ -6162,6 +6343,9 @@ FIGS = {
     "ch57a-yi-zhi-jiao": ("第五十七章", "一只脚", ch57a_yi_zhi_jiao),
     "ch57b-yi-shuang-shou-tao": ("第五十七章", "一双手套", ch57b_yi_shuang_shou_tao),
     "ch57c-yi-kuai-hua-pai": ("第五十七章", "一块木牌", ch57c_yi_kuai_hua_pai),
+    "ch58a-yi-shan-men": ("第五十八章", "一扇门", ch58a_yi_shan_men),
+    "ch58b-yi-zhang-zhe-zhi": ("第五十八章", "一张折纸", ch58b_yi_zhang_zhe_zhi),
+    "ch58c-liang-tiao-chuan": ("第五十八章", "两条船", ch58c_liang_tiao_chuan),
     "ch12-wu-se": ("第十二章", "门开五处", ch12_wu_se),
     "ch13-chong-ru": ("第十三章", "惊的是我", ch13_chong_ru),
     "ch14-yi-xi-wei": ("第十四章", "三样工具探不到", ch14_yi_xi_wei),
