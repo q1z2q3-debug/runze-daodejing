@@ -1518,6 +1518,10 @@ GOLD = {
     "ch23": ["自然不是「不管」，是「不需要管」——差别全在有没有人在使劲。", "信不足，不是话说得不够多，是话后面没有人。"],
     "ch24": ["借来的高度站不住，省下的步子走不远。", "不处不是割掉，是不长——约束是按住它，不处是根本不在那儿站。"],
     "ch25": ["不是它比天地老，是天地离了它不成。", "名是给有边界的东西用的；对没有边界的东西，名只是手指。"],
+    "ch39b": ["数得清的是零件，数不清的才是那辆车。",
+               "玉的体面是别人给的，石的体面是自己有的。"],
+    "ch39a": ["「壹」是装满封口的壶；「一」只是一道横，没有盖。",
+               "「得一」的对面不是「不得」，是「无以」——不是没得到，是拿不出了。"],
     "ch38": ["失道而后德，失德而后仁，失仁而后义，失义而后礼。",
               "药可治病，药不是饭；礼可维序，礼不是和。"],
     "ch37b": ["压住火的不是更多的柴，是把它从柴上挪开。",
@@ -2869,6 +2873,122 @@ def ch38_wu_ji_tai_jie():
     return "\n".join(s)
 
 
+# ============ 第三十九章 · 六得一无以 ============
+def ch39a_liu_de_yi():
+    W, H = 380, 448
+    body, y = head(W, H, "得一不是得到什么，是不丢什么", "第 三 十 九 章 · 得 一",
+                   "六样东西，各自不裂", "六种整全，不是一种整全。", H)
+    s = [body]
+
+    s.append(box(20, y + 2, 340, 34, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, y + 15, "昔之得一者：天得一以清，地得一以宁，神得一以灵，", 6.4, INK, "middle"))
+    s.append(txt(190, y + 29, "谷得一以盈，万物得一以生，侯王得一以为天下贞。", 6.4, INK, "middle"))
+
+    a = y + 44
+    s.append(txt(40, a, "名", 6.0, "#6E6459", "middle"))
+    s.append(txt(126, a, "得一（守着的）", 6.2, GREEN, "middle"))
+    s.append(txt(258, a, "无以（拿不出的）", 6.2, SEAL, "middle"))
+    s.append(f'<line x1="24" y1="{a+6}" x2="338" y2="{a+6}" stroke="{INK}" stroke-width="0.7"/>')
+
+    rows = [("天", "得一以清", "无以清，将恐", "裂"),
+            ("地", "得一以宁", "无以宁，将恐", "废"),
+            ("神", "得一以灵", "无以灵，将恐", "歇"),
+            ("谷", "得一以盈", "无以盈，将恐", "竭"),
+            ("万物", "得一以生", "无以生，将恐", "灭"),
+            ("侯王", "得一以为天下贞", "无以贵高，将恐", "蹶")]
+    rh = 27
+    for i, (nm, got, lost, brk) in enumerate(rows):
+        ry = a + 10 + i * rh
+        s.append(txt(40, ry + 13, nm, 7.0, INK, "middle"))
+        s.append(txt(58, ry + 13, got, 6.0, GREEN))
+        s.append(txt(196, ry + 13, lost, 6.2, "#6E6459"))
+        s.append(txt(330, ry + 14, brk, 9.2, SEAL, "end"))
+        s.append(f'<line x1="24" y1="{ry+22}" x2="338" y2="{ry+22}" stroke="{LINE}" stroke-width="0.5"/>')
+
+    y2 = a + 10 + 6 * rh + 8
+    s.append(box(20, y2, 340, 50, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, y2 + 17, "「一」不是把六样并成一样，是六样各自不裂：", 7.2, INK, "middle"))
+    s.append(txt(190, y2 + 31, "天得天的整全，地得地的整全，各清、各宁、各灵、各盈、各生、各贞。", 6.6, "#6E6459", "middle"))
+    s.append(txt(190, y2 + 44, "「得一」的反面不是「不得」，是「无以」——不是没得到，是拿不出了。", 6.4, SEAL, "middle"))
+    s.append(gold(y2 + 62, "ch39a"))
+    s.append('</svg>')
+    return "\n".join(s)
+
+
+# ============ 第三十九章 · 底下的三只脚 ============
+def ch39b_di_xia_san_zhi_jiao():
+    W, H = 380, 612
+    body, y = head(W, H, "一切立着的东西，都靠一个不显眼的部分立着", "第 三 十 九 章 · 托 底",
+                   "底下那三只脚", "整全不在明面上。", H)
+    s = [body]
+
+    y0 = y + 10
+    # 一、鼎
+    s.append(txt(24, y0 + 10, "一 · 鼎：贵的那一头，靠贱的那一头立着", 6.6, INK))
+    dx, dy = 74, y0 + 26
+    s.append(f'<ellipse cx="{dx}" cy="{dy+34}" rx="40" ry="24" fill="#F2EADA" stroke="{INK}" stroke-width="1"/>')
+    s.append(f'<path d="M{dx-28},{dy+14} L{dx-28},{dy+2} L{dx-18},{dy+2}" fill="none" stroke="{INK}" stroke-width="1.2"/>')
+    s.append(f'<path d="M{dx+28},{dy+14} L{dx+28},{dy+2} L{dx+18},{dy+2}" fill="none" stroke="{INK}" stroke-width="1.2"/>')
+    for lx in (dx - 22, dx, dx + 22):
+        s.append(f'<line x1="{lx}" y1="{dy+56}" x2="{lx}" y2="{dy+70}" stroke="{INK}" stroke-width="1.4"/>')
+    s.append(txt(dx, dy + 38, "贵 · 高", 6.4, SEAL, "middle"))
+    s.append(txt(dx, dy + 82, "贱 · 下（三只短足）", 5.8, "#6E6459", "middle"))
+    s.append(txt(150, dy + 6, "三千斤的鼎，站在三只短短的脚上。", 6.4, INK))
+    s.append(txt(150, dy + 20, "足一断，腹立刻塌；腹越重，塌得越彻底。", 6.4, INK))
+    s.append(txt(150, dy + 34, "越重的东西，落地的那一部分越小、越不起眼，", 6.2, "#6E6459"))
+    s.append(txt(150, dy + 46, "也从来不写进铭文。", 6.2, "#6E6459"))
+    s.append(txt(150, dy + 64, "故贵以贱为本，高以下为基。", 6.8, SEAL))
+
+    # 二、车厢
+    y1 = y0 + 136
+    s.append(txt(24, y1, "二 · 舆：数遍零件，数不出那个空位", 6.6, INK))
+    cx, cy = 84, y1 + 44
+    s.append(f'<rect x="{cx-34}" y="{cy-26}" width="68" height="34" fill="none" stroke="{INK}" stroke-width="1"/>')
+    s.append(f'<line x1="{cx-34}" y1="{cy-26}" x2="{cx+34}" y2="{cy-26}" stroke="{LINE}" stroke-width="1"/>')
+    s.append(f'<rect x="{cx-20}" y="{cy-20}" width="40" height="22" fill="none" stroke="{SEAL}" stroke-width="0.7" stroke-dasharray="5 4"/>')
+    s.append(txt(cx, cy - 7, "空位", 6.0, SEAL, "middle"))
+    s.append(f'<circle cx="{cx-18}" cy="{cy+18}" r="12" fill="none" stroke="{INK}" stroke-width="1"/>')
+    s.append(f'<circle cx="{cx-18}" cy="{cy+18}" r="3" fill="none" stroke="{INK}" stroke-width="0.8"/>')
+    s.append(f'<line x1="{cx+34}" y1="{cy+4}" x2="{cx+62}" y2="{cy+4}" stroke="{INK}" stroke-width="1.2"/>')
+    s.append(f'<line x1="{cx-34}" y1="{cy+8}" x2="{cx+34}" y2="{cy+8}" stroke="{LINE}" stroke-width="0.8"/>')
+    s.append(txt(cx - 18, cy + 36, "轮", 5.4, "#6E6459", "middle"))
+    s.append(txt(cx + 48, cy + 14, "辕", 5.4, "#6E6459", "middle"))
+    s.append(txt(cx - 28, cy + 2, "辐", 5.4, "#6E6459"))
+    s.append(txt(150, cy - 22, "「舆」是车厢——装人的那个空位，不是车轮车辕。", 6.4, INK))
+    s.append(txt(150, cy - 8, "轮、轴、辕、辐，数得再准，也数不出那个空位；", 6.4, INK))
+    s.append(txt(150, cy + 6, "空位不在零件里。这就是「数舆无舆」。", 6.4, INK))
+    s.append(txt(150, cy + 22, "分析能把「有」拆到极细，拆不出「无」。", 6.2, "#6E6459"))
+    s.append(txt(150, cy + 40, "数得清的是零件，数不清的才是那辆车。", 6.8, SEAL))
+
+    # 三、玉与石
+    y2 = y1 + 132
+    s.append(txt(24, y2, "三 · 玉与石：一块要借光，一块不用", 6.6, INK))
+    gy, gx = y2 + 50, 60
+    s.append(f'<ellipse cx="{gx}" cy="{gy}" rx="16" ry="12" fill="#F2EADA" stroke="{INK}" stroke-width="0.9"/>')
+    for ang in (-70, -35, 0, 35, 70, -100, 110):
+        import math
+        a1 = math.radians(ang)
+        s.append(f'<line x1="{gx+18*math.cos(a1):.1f}" y1="{gy+14*math.sin(a1):.1f}" '
+                 f'x2="{gx+25*math.cos(a1):.1f}" y2="{gy+20*math.sin(a1):.1f}" stroke="{SEAL}" stroke-width="0.6"/>')
+    s.append(txt(gx, gy + 26, "玉 · 琭琭", 5.6, SEAL, "middle"))
+    sx = 118
+    s.append(f'<path d="M{sx-14},{gy-6} L{sx-4},{gy-14} L{sx+10},{gy-8} L{sx+14},{gy+4} L{sx+4},{gy+13} L{sx-12},{gy+8} Z" fill="#E6D8C2" stroke="{INK}" stroke-width="0.9"/>')
+    s.append(txt(sx, gy + 26, "石 · 珞珞（字从玉）", 5.6, "#6E6459", "middle"))
+    s.append(txt(150, gy - 22, "「琭琭」不是玉，是玉的光；光要照，照的人一走就没了。", 6.2, INK))
+    s.append(txt(150, gy - 8, "「珞」这个字本身从玉——那块石头不必去做玉。", 6.2, INK))
+    s.append(txt(150, gy + 6, "玉的体面是别人给的，石的体面是自己有的。", 6.4, SEAL))
+    s.append(txt(150, gy + 22, "不欲琭琭如玉，珞珞如石。", 6.6, GREEN))
+
+    yb = y2 + 96
+    s.append(box(20, yb, 340, 48, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, yb + 16, "本是不动的，基是不空的；根断了树死，砖抽了墙倒。", 7.0, INK, "middle"))
+    s.append(txt(190, yb + 32, "这一章不是叫人往下走，是叫人知道自己在什么上头站着。", 6.6, "#6E6459", "middle"))
+    s.append(txt(190, yb + 44, "知道了，就不用怕低；不知道，才要一直往高里垫。", 6.4, SEAL, "middle"))
+    s.append(gold(yb + 60, "ch39b"))
+    s.append('</svg>')
+    return "\n".join(s)
+
+
 
 FIGS = {
     "ch01-wu-you": ("第一章", "无有同出", ch01_wu_you),
@@ -2923,7 +3043,9 @@ FIGS = {
     "ch36b-wei-ming-yuan": ("第三十六章", "微明 · 渊 · 利器", ch36b_wei_ming_yuan),
     "ch37a-wei-shou-xiang": ("第三十七章", "手牵象，与自化", ch37a_wei_shou_xiang),
     "ch37b-pu-yu-jing": ("第三十七章", "朴 · 静 · 自正", ch37b_pu_yu_jing),
-    "ch38-wu-ji-tai-jie": ("第三十八章", "五级台阶", ch38_wu_ji_tai_jie),
+    "ch38-wu-ji-tai-jie": ("第三十八章", "五级滑落", ch38_wu_ji_tai_jie),
+    "ch39a-liu-de-yi": ("第三十九章", "六样东西，各自不裂", ch39a_liu_de_yi),
+    "ch39b-di-xia-san-zhi-jiao": ("第三十九章", "底下那三只脚", ch39b_di_xia_san_zhi_jiao),
 }
 
 
