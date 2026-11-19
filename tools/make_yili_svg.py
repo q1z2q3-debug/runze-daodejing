@@ -1524,6 +1524,9 @@ GOLD = {
     "ch48c": ["「取天下」的「取」是割耳朵，所以老子换了一个动作：不是割，是不动。"],
     "ch47a": ["透过框看，你看见的每一块都是真的；可你真的没看见框外。"],
     "ch47b": ["其出弥远，其知弥少。"],
+    "ch54a": ["楼是立在地方的，律是立在人心里的；地方会被换，人心不容易。"],
+    "ch54b": ["手会松，怀不会；所以抱得住的东西，都是放进怀里的，不是端在手上的。"],
+    "ch54c": ["德往外走，先多，再久，再厚，最后匀；匀了才叫普，不是到处都有，是到处一样。"],
     "ch53a": ["「径」是步道：快，是因为窄；窄，是因为只打算一个人过。"],
     "ch53b": ["台阶越高，田越荒，仓越虚；这三句不是三件事，是一件事的三个刻度。"],
     "ch53c": ["留出来的空能装，抽出来的空只剩响；两个都是空，一个是杯，一个是坑。"],
@@ -5388,6 +5391,150 @@ def ch53c_yi_zhi_bei():
     return "\n".join(s)
 
 
+# ============ 第五十四章 · 一条线 ============
+def ch54a_yi_tiao_xian():
+    W, H = 380, 596
+    body, y = head(W, H, "善建者不拔：楼是立在地方的，律是立在人心里的",
+                   "第 五 十 四 章 · 线", "一条线", "善建者不拔，善抱者不脱。", H)
+    s = [body]
+
+    s.append(box(20, y + 2, 340, 30, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, y + 14, "「建」，《说文》「立朝律也」——立一条律；「拔」，《说文》「擢也」——往上抽。", 5.2, INK, "middle"))
+    s.append(txt(190, y + 26, "不是「会盖房子的人，房子不被推倒」，是「会立律的人，那条律抽不走」。", 5.2, "#6E6459", "middle"))
+
+    # 一、楼：有位置，所以拔得走
+    t1 = y + 46
+    s.append(txt(24, t1, "一、楼：立在一个地方，所以抽得走", 5.4, SEAL))
+    gy1 = t1 + 126
+    s.append(f'<line x1="24" y1="{gy1}" x2="180" y2="{gy1}" stroke="{INK}" stroke-width="1"/>')
+    s.append(box(84, gy1 - 60, 48, 20, fill="#EFE6D4", stroke=INK, width=0.9))
+    s.append(box(84, gy1 - 40, 48, 20, fill="#EFE6D4", stroke=INK, width=0.9))
+    s.append(box(84, gy1 - 20, 48, 20, fill="#EFE6D4", stroke=INK, width=0.9))
+    s.append(f'<path d="M76,{gy1-60} L108,{gy1-78} L140,{gy1-60}" fill="none" stroke="{INK}" stroke-width="1.1"/>')
+    s.append(arrow(108, gy1 - 82, 108, gy1 - 112, SEAL, 1.0, head="arrS"))
+    s.append(txt(116, gy1 - 96, "拔：往上抽", 4.8, SEAL))
+    s.append(txt(108, gy1 + 14, "它有位置，就有个地儿可以抓", 4.6, "#6E6459", "middle"))
+
+    # 二、律：没有端点，抓不住
+    t2 = gy1 + 34
+    s.append(txt(24, t2, "二、律：立在人心里，没有端点可抓", 5.4, GREEN))
+    cy2 = t2 + 100
+    s.append(box(96, cy2 - 84, 188, 76, fill="#FBF6EC", stroke=INK, width=0.8))
+    s.append(f'<line x1="190" y1="{cy2-88}" x2="190" y2="{cy2-2}" stroke="{INK}" stroke-width="1.6"/>')
+    s.append(txt(190, cy2 - 90, "上不见头", 4.4, "#6E6459", "middle"))
+    s.append(txt(190, cy2 + 10, "下不见底", 4.4, "#6E6459", "middle"))
+    s.append(arrow(120, cy2 - 26, 156, cy2 - 26, SEAL, 0.9, head="arrS"))
+    s.append(txt(112, cy2 - 40, "同样去抽", 4.6, SEAL, "middle"))
+    s.append(txt(112, cy2 - 30, "抓了个空", 4.4, "#6E6459", "middle"))
+
+    b = cy2 + 30
+    s.append(txt(24, b, "一座楼可以拔，一堵墙可以拆，一个人可以调走；一条立对了的律，抽不走。", 5.2, INK))
+    s.append(txt(24, b + 16, "因为它不在某个位置上，它在人心里。", 5.2, INK))
+    s.append(txt(24, b + 32, "第五十三章的台阶，可以修得更高，也可以被推得更低；律立住了，就一直在那儿。", 5.0, GREEN))
+
+    c = b + 50
+    s.append(f'<line x1="24" y1="{c}" x2="338" y2="{c}" stroke="{LINE}" stroke-width="0.6"/>')
+    s.append(box(20, c + 8, 340, 40, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, c + 24, "楼是立在地方的，律是立在人心里的；", 6.0, INK, "middle"))
+    s.append(txt(190, c + 36, "地方会被换，人心不容易。", 6.0, GREEN, "middle"))
+    s.append(gold(c + 62, "ch54a"))
+    s.append('</svg>')
+    return "\n".join(s)
+
+
+# ============ 第五十四章 · 一副衣襟 ============
+def ch54b_yi_fu_yi_jin():
+    W, H = 380, 556
+    body, y = head(W, H, "善抱者不脱：手会松，怀不会",
+                   "第 五 十 四 章 · 怀", "一副衣襟", "善抱者不脱，子孙以祭祀不辍。", H)
+    s = [body]
+
+    s.append(box(20, y + 2, 340, 30, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, y + 14, "「抱」古字作「袌」，《说文》「褱也」——从衣：把东西放进衣襟里兜着。", 5.2, INK, "middle"))
+    s.append(txt(190, y + 26, "兜住的东西，是靠衣裳的重量压着，不是靠手臂箍着。", 5.2, "#6E6459", "middle"))
+
+    # 一、端在手上
+    t1 = y + 46
+    s.append(txt(24, t1, "一、端在手上：手会累，会松", 5.4, SEAL))
+    gy1 = t1 + 92
+    s.append(box(36, gy1 - 62, 84, 13, fill="#EFE6D4", stroke=INK, width=0.9))
+    s.append(f'<ellipse cx="126" cy="{gy1-56}" rx="10" ry="8" fill="#EFE6D4" stroke="{INK}" stroke-width="0.9"/>')
+    s.append(f'<path d="M136,{gy1-62} C142,{gy1-70} 136,{gy1-72} 132,{gy1-66}" fill="none" stroke="{INK}" stroke-width="0.8"/>')
+    s.append(f'<circle cx="126" cy="{gy1-74}" r="10" fill="#FBF6EC" stroke="{SEAL}" stroke-width="1"/>')
+    s.append(f'<line x1="140" y1="{gy1-80}" x2="176" y2="{gy1-80}" stroke="{SEAL}" stroke-width="0.5" stroke-dasharray="4 3"/>')
+    s.append(arrow(150, gy1 - 92, 150, gy1 - 66, SEAL, 0.6, head="arrS"))
+    s.append(txt(196, gy1 - 88, "手臂一累就松", 4.6, SEAL))
+    s.append(txt(196, gy1 - 78, "端着的早晚要掉", 4.6, "#6E6459"))
+    s.append(txt(78, gy1 - 40, "端：靠的是力", 4.6, "#6E6459", "middle"))
+
+    # 二、放进怀里
+    t2 = gy1 + 8
+    s.append(txt(24, t2, "二、放进怀里：衣裳压着，不用手", 5.4, GREEN))
+    gy2 = t2 + 112
+    s.append(f'<path d="M74,{gy2-96} C64,{gy2-30} 100,{gy2-4} 160,{gy2-4} C220,{gy2-4} 256,{gy2-30} 246,{gy2-96}" fill="#EFE6D4" stroke="{INK}" stroke-width="1.1"/>')
+    s.append(f'<path d="M74,{gy2-96} C110,{gy2-40} 210,{gy2-40} 246,{gy2-96}" fill="none" stroke="{INK}" stroke-width="0.6" stroke-dasharray="5 4"/>')
+    s.append(f'<circle cx="160" cy="{gy2-26}" r="12" fill="#FBF6EC" stroke="{GREEN}" stroke-width="1.1"/>')
+    s.append(txt(160, gy2 + 18, "怀：靠的是衣裳的重量", 4.6, GREEN, "middle"))
+    s.append(f'<line x1="266" y1="{gy2-60}" x2="296" y2="{gy2-60}" stroke="{GREEN}" stroke-width="0.4" stroke-dasharray="3 3"/>')
+    s.append(txt(300, gy2 - 58, "不用手", 4.4, GREEN))
+
+    b = gy2 + 30
+    s.append(txt(24, b, "「脱」是从怀里滑出去——说的不是「不离」，是「放对了地方」。", 5.2, INK))
+    s.append(txt(24, b + 16, "这里抱的不是外物，是那份生机、那条道脉。", 5.2, INK))
+    s.append(txt(24, b + 32, "「辍」，《说文》「车小缺复合者也」——断了一段又接上；不辍，是一次也没断过。", 5.0, GREEN))
+
+    c = b + 50
+    s.append(f'<line x1="24" y1="{c}" x2="338" y2="{c}" stroke="{LINE}" stroke-width="0.6"/>')
+    s.append(box(20, c + 8, 340, 40, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, c + 24, "手会松，怀不会；所以抱得住的东西，", 6.0, INK, "middle"))
+    s.append(txt(190, c + 36, "都是放进怀里的，不是端在手上的。", 6.0, GREEN, "middle"))
+    s.append(gold(c + 62, "ch54b"))
+    s.append('</svg>')
+    return "\n".join(s)
+
+
+# ============ 第五十四章 · 一圈涟漪 ============
+def ch54c_yi_quan_lian_yi():
+    W, H = 380, 604
+    body, y = head(W, H, "修之于身，其德乃真……其德乃普：五级不是爬上去的，是渗上去的",
+                   "第 五 十 四 章 · 渗", "一圈涟漪", "修之于身……修之于天下，其德乃普。", H)
+    s = [body]
+
+    s.append(box(20, y + 2, 340, 30, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, y + 14, "五个字不是四句好话，是四个刻度：余是量（多到溢出来）／长是时／丰是厚／普是匀。", 5.0, INK, "middle"))
+    s.append(txt(190, y + 26, "「普」，《说文》「日无色也」——太阳没有颜色的时候，才是匀的。", 5.2, "#6E6459", "middle"))
+
+    t1 = y + 46
+    s.append(txt(24, t1, "一滴落下去，一圈一圈往外渗", 5.4, SEAL))
+
+    cx, cy = 190, t1 + 152
+    rings = [(120, "#D8CBB2", 0.6, "普", "天下"),
+             (96, "#B9A98C", 0.7, "丰", "邦"),
+             (72, GREEN, 0.85, "长", "乡"),
+             (48, "#7A8C7C", 0.9, "余", "家"),
+             (24, SEAL, 1.1, "真", "身")]
+    for r, col, w, ch, where in rings:
+        s.append(f'<circle cx="{cx}" cy="{cy}" r="{r}" fill="none" stroke="{col}" stroke-width="{w}"/>')
+        s.append(txt(cx, cy - r - 6, f"{ch}·{where}", 4.8, col if ch != "真" else SEAL, "middle"))
+    s.append(f'<circle cx="{cx}" cy="{cy}" r="4" fill="{INK}"/>')
+    s.append(txt(cx, cy + 16, "身", 5.0, INK, "middle"))
+
+    # 右侧用一句话压住「不是征服」
+    b = cy + 136
+    s.append(txt(24, b, "「修之于天下」不是「把天下修好」：不是你去修它，是它被渗到。", 5.2, INK))
+    s.append(txt(24, b + 16, "你去改一个家，那个家就被你压住；你身上有余，那个家就自己松一点。", 5.2, INK))
+    s.append(txt(24, b + 32, "从身上长出来的，会渗过去；从外面压过去的，会被顶回来。", 5.4, GREEN))
+
+    c = b + 50
+    s.append(f'<line x1="24" y1="{c}" x2="338" y2="{c}" stroke="{LINE}" stroke-width="0.6"/>')
+    s.append(box(20, c + 8, 340, 40, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, c + 24, "德往外走，先多，再久，再厚，最后匀；", 6.0, INK, "middle"))
+    s.append(txt(190, c + 36, "匀了才叫普，不是到处都有，是到处一样。", 6.0, GREEN, "middle"))
+    s.append(gold(c + 62, "ch54c"))
+    s.append('</svg>')
+    return "\n".join(s)
+
+
 FIGS = {
     "ch01-wu-you": ("第一章", "无有同出", ch01_wu_you),
     "ch01-zhi-yue": ("第一章", "指月三境", ch01_zhi_yue),
@@ -5445,6 +5592,9 @@ FIGS = {
     "ch53a-liang-tiao-lu": ("第五十三章", "两条路", ch53a_liang_tiao_lu),
     "ch53b-yi-zuo-tai": ("第五十三章", "一座台", ch53b_yi_zuo_tai),
     "ch53c-yi-zhi-bei": ("第五十三章", "一只杯", ch53c_yi_zhi_bei),
+    "ch54a-yi-tiao-xian": ("第五十四章", "一条线", ch54a_yi_tiao_xian),
+    "ch54b-yi-fu-yi-jin": ("第五十四章", "一副衣襟", ch54b_yi_fu_yi_jin),
+    "ch54c-yi-quan-lian-yi": ("第五十四章", "一圈涟漪", ch54c_yi_quan_lian_yi),
     "ch12-wu-se": ("第十二章", "门开五处", ch12_wu_se),
     "ch13-chong-ru": ("第十三章", "惊的是我", ch13_chong_ru),
     "ch14-yi-xi-wei": ("第十四章", "三样工具探不到", ch14_yi_xi_wei),
