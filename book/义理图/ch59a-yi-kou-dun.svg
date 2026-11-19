@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 380 640" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="治人事天，莫若啬：啬从來从回，是收庄稼入仓" font-family="'Noto Serif CJK SC','Noto Serif SC','Songti SC',serif">
+<defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#6E6459"/></marker><marker id="arr2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#4A5C55"/></marker><marker id="arrL" viewBox="0 0 10 10" refX="1" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M10 0 L0 5 L10 10 z" fill="#4A5C55"/></marker><marker id="arrS" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#A2503B"/></marker></defs>
+<rect x="0" y="0" width="380" height="640" fill="#F8F3E6"/>
+<text x="20" y="26" font-size="11" fill="#A2503B" font-family="'Noto Sans CJK SC','Noto Sans SC',sans-serif" letter-spacing="3">第 五 十 九 章 · 啬</text>
+<text x="20" y="58" font-size="21" fill="#2F2A24">一口囤</text>
+<text x="20" y="78" font-size="10.5" fill="#6E6459">治人事天，莫若啬。</text>
+<rect x="20" y="102" width="340" height="30" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="190" y="114" font-size="5.0" fill="#2F2A24" text-anchor="middle">「啬」，《说文》「爱濇也」，从「來」（麦子）、从「回」（围着囤转一圈收进去）。</text>
+<text x="190" y="126" font-size="5.2" fill="#6E6459" text-anchor="middle">所以啬的本义不是「省」，是「收庄稼入仓」。</text>
+<text x="24" y="146" font-size="5.4" fill="#4A5C55">一、收：围着麦地转一圈，拢回仓里</text>
+<line x1="24" y1="268" x2="240" y2="268" stroke="#2F2A24" stroke-width="1"/>
+<line x1="52" y1="268" x2="52" y2="214" stroke="#4A5C55" stroke-width="1.1"/>
+<ellipse cx="52" cy="208" rx="3" ry="6" fill="none" stroke="#A2503B" stroke-width="0.9"/>
+<line x1="52" y1="204" x2="48" y2="196" stroke="#A2503B" stroke-width="0.6"/>
+<line x1="52" y1="204" x2="52" y2="196" stroke="#A2503B" stroke-width="0.6"/>
+<line x1="52" y1="204" x2="56" y2="196" stroke="#A2503B" stroke-width="0.6"/>
+<line x1="52" y1="224" x2="45" y2="216" stroke="#4A5C55" stroke-width="0.6"/>
+<line x1="74" y1="268" x2="74" y2="214" stroke="#4A5C55" stroke-width="1.1"/>
+<ellipse cx="74" cy="208" rx="3" ry="6" fill="none" stroke="#A2503B" stroke-width="0.9"/>
+<line x1="74" y1="204" x2="70" y2="196" stroke="#A2503B" stroke-width="0.6"/>
+<line x1="74" y1="204" x2="74" y2="196" stroke="#A2503B" stroke-width="0.6"/>
+<line x1="74" y1="204" x2="78" y2="196" stroke="#A2503B" stroke-width="0.6"/>
+<line x1="74" y1="224" x2="67" y2="216" stroke="#4A5C55" stroke-width="0.6"/>
+<line x1="96" y1="268" x2="96" y2="214" stroke="#4A5C55" stroke-width="1.1"/>
+<ellipse cx="96" cy="208" rx="3" ry="6" fill="none" stroke="#A2503B" stroke-width="0.9"/>
+<line x1="96" y1="204" x2="92" y2="196" stroke="#A2503B" stroke-width="0.6"/>
+<line x1="96" y1="204" x2="96" y2="196" stroke="#A2503B" stroke-width="0.6"/>
+<line x1="96" y1="204" x2="100" y2="196" stroke="#A2503B" stroke-width="0.6"/>
+<line x1="96" y1="224" x2="89" y2="216" stroke="#4A5C55" stroke-width="0.6"/>
+<rect x="155.0" y="204" width="46" height="64" fill="#EFE6D4" stroke="#2F2A24" stroke-width="1"/>
+<path d="M155.0,204 C163.0,192 193.0,192 201.0,204" fill="none" stroke="#2F2A24" stroke-width="1"/>
+<line x1="155.0" y1="250" x2="201.0" y2="250" stroke="#DCCBB0" stroke-width="0.4"/>
+<line x1="155.0" y1="235" x2="201.0" y2="235" stroke="#DCCBB0" stroke-width="0.4"/>
+<line x1="155.0" y1="220" x2="201.0" y2="220" stroke="#DCCBB0" stroke-width="0.4"/>
+<line x1="155.0" y1="205" x2="201.0" y2="205" stroke="#DCCBB0" stroke-width="0.4"/>
+<path d="M159.0,213 C170,207 186,207 197.0,213" fill="none" stroke="#A2503B" stroke-width="0.9"/>
+<circle cx="166.5" cy="215" r="1.6" fill="none" stroke="#A2503B" stroke-width="0.6"/>
+<circle cx="172.25" cy="215" r="1.6" fill="none" stroke="#A2503B" stroke-width="0.6"/>
+<circle cx="178.0" cy="215" r="1.6" fill="none" stroke="#A2503B" stroke-width="0.6"/>
+<circle cx="183.75" cy="215" r="1.6" fill="none" stroke="#A2503B" stroke-width="0.6"/>
+<path d="M104,212 C132,182 168,182 176,210" fill="none" stroke="#4A5C55" stroke-width="0.7"/>
+<path d="M172,206 L176,212 L181,205" fill="none" stroke="#4A5C55" stroke-width="0.7"/>
+<text x="110" y="176" font-size="4.6" fill="#4A5C55">收进去</text>
+<text x="178" y="282" font-size="4.6" fill="#4A5C55" text-anchor="middle">仓：满了才叫啬</text>
+<text x="24" y="308" font-size="5.0" fill="#A2503B">二、不是舍不得给：是往回拢，不是往外撒</text>
+<line x1="24" y1="426" x2="240" y2="426" stroke="#2F2A24" stroke-width="1"/>
+<path d="M96,386 L136,386 L128,426 L104,426 Z" fill="#EFE6D4" stroke="#A2503B" stroke-width="1" stroke-dasharray="4 3"/>
+<circle cx="106" cy="374" r="2" fill="none" stroke="#A2503B" stroke-width="0.7" stroke-dasharray="2 2"/>
+<circle cx="116" cy="366" r="2" fill="none" stroke="#A2503B" stroke-width="0.7" stroke-dasharray="2 2"/>
+<circle cx="126" cy="358" r="2" fill="none" stroke="#A2503B" stroke-width="0.7" stroke-dasharray="2 2"/>
+<text x="124" y="364" font-size="4.6" fill="#A2503B">往外撒：那是给，不是啬</text>
+<text x="124" y="376" font-size="4.4" fill="#6E6459">撒完了，仓是空的</text>
+<rect x="199.0" y="362" width="46" height="64" fill="#EFE6D4" stroke="#2F2A24" stroke-width="1"/>
+<path d="M199.0,362 C207.0,350 237.0,350 245.0,362" fill="none" stroke="#2F2A24" stroke-width="1"/>
+<line x1="199.0" y1="408" x2="245.0" y2="408" stroke="#DCCBB0" stroke-width="0.4"/>
+<line x1="199.0" y1="393" x2="245.0" y2="393" stroke="#DCCBB0" stroke-width="0.4"/>
+<line x1="199.0" y1="378" x2="245.0" y2="378" stroke="#DCCBB0" stroke-width="0.4"/>
+<line x1="199.0" y1="363" x2="245.0" y2="363" stroke="#DCCBB0" stroke-width="0.4"/>
+<path d="M203.0,371 C214,365 230,365 241.0,371" fill="none" stroke="#A2503B" stroke-width="0.9"/>
+<circle cx="210.5" cy="373" r="1.6" fill="none" stroke="#A2503B" stroke-width="0.6"/>
+<circle cx="216.25" cy="373" r="1.6" fill="none" stroke="#A2503B" stroke-width="0.6"/>
+<circle cx="222.0" cy="373" r="1.6" fill="none" stroke="#A2503B" stroke-width="0.6"/>
+<circle cx="227.75" cy="373" r="1.6" fill="none" stroke="#A2503B" stroke-width="0.6"/>
+<text x="222" y="440" font-size="4.4" fill="#4A5C55" text-anchor="middle">拢回来：仓是实的</text>
+<text x="24" y="466" font-size="4.8" fill="#2F2A24">「啬」从來、从回：來是麦子，回是围着囤转一圈，把麦子赶进仓。</text>
+<text x="24" y="482" font-size="4.8" fill="#2F2A24">所以啬不是舍不得给，是先把该收的收回来；一个动作，两种人做出来是两回事。</text>
+<text x="24" y="498" font-size="5.2" fill="#4A5C55">这一章不是讲节俭，是讲收成。</text>
+<line x1="24" y1="516" x2="338" y2="516" stroke="#DCCBB0" stroke-width="0.6"/>
+<rect x="20" y="524" width="340" height="40" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="190" y="540" font-size="5.6" fill="#2F2A24" text-anchor="middle">啬不是舍不得给，是把收下来的拢回仓里；</text>
+<text x="190" y="552" font-size="6.0" fill="#4A5C55" text-anchor="middle">这一章不是讲节俭，是讲收成。</text>
+<line x1="20" y1="578" x2="360" y2="578" stroke="#E6D8C2" stroke-width="0.8"/>
+<text x="20" y="592" font-size="8.0" fill="#A89577" letter-spacing="1">本 章 金 句</text>
+<text x="20" y="608" font-size="8.4" fill="#2F2A24">啬不是舍不得给，是把收下来的拢回仓里；这一章不是讲节俭，是讲收成。</text>
+</svg>

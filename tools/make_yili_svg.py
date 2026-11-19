@@ -1524,6 +1524,9 @@ GOLD = {
     "ch48c": ["「取天下」的「取」是割耳朵，所以老子换了一个动作：不是割，是不动。"],
     "ch47a": ["透过框看，你看见的每一块都是真的；可你真的没看见框外。"],
     "ch47b": ["其出弥远，其知弥少。"],
+    "ch59a": ["啬不是舍不得给，是把收下来的拢回仓里；这一章不是讲节俭，是讲收成。"],
+    "ch59b": ["克是肩，不是刀；「无不克」不是打遍天下，是天下事都担得起。"],
+    "ch59c": ["根是横着铺的，柢是竖着扎的；铺满一层挡不住风，扎死一根才挡得住。"],
     "ch58a": ["闷是把心关在门里，察是盖过来翻着看；一个是关，一个是翻。"],
     "ch58b": ["祸不是等在福后面，是靠在福身上；它们一直贴着，所以换的时候不用通知。"],
     "ch58c": ["方是两条船并着；并着不动刀，一动刀就成了界。"],
@@ -6274,6 +6277,202 @@ def ch58c_liang_tiao_chuan():
     return "\n".join(s)
 
 
+# ============ 第五十九章 · 一口囤 ============
+def ch59a_yi_kou_dun():
+    W, H = 380, 640
+    body, y = head(W, H, "治人事天，莫若啬：啬从來从回，是收庄稼入仓",
+                   "第 五 十 九 章 · 啬", "一口囤", "治人事天，莫若啬。", H)
+    s = [body]
+
+    s.append(box(20, y + 2, 340, 30, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, y + 14, "「啬」，《说文》「爱濇也」，从「來」（麦子）、从「回」（围着囤转一圈收进去）。", 5.0, INK, "middle"))
+    s.append(txt(190, y + 26, "所以啬的本义不是「省」，是「收庄稼入仓」。", 5.2, "#6E6459", "middle"))
+
+    def wheat(cx, gy, hgt=54):
+        o = [f'<line x1="{cx}" y1="{gy}" x2="{cx}" y2="{gy-hgt}" stroke="{GREEN}" stroke-width="1.1"/>']
+        o.append(f'<ellipse cx="{cx}" cy="{gy-hgt-6}" rx="3" ry="6" fill="none" stroke="{SEAL}" stroke-width="0.9"/>')
+        for d in (-4, 0, 4):
+            o.append(f'<line x1="{cx}" y1="{gy-hgt-10}" x2="{cx+d}" y2="{gy-hgt-18}" stroke="{SEAL}" stroke-width="0.6"/>')
+        o.append(f'<line x1="{cx}" y1="{gy-hgt+10}" x2="{cx-7}" y2="{gy-hgt+2}" stroke="{GREEN}" stroke-width="0.6"/>')
+        return o
+
+    def dun(cx, gy, h=64, filled=False):
+        w = 46
+        o = [f'<rect x="{cx-w/2}" y="{gy-h}" width="{w}" height="{h}" fill="#EFE6D4" stroke="{INK}" stroke-width="1"/>']
+        o.append(f'<path d="M{cx-w/2},{gy-h} C{cx-w/2+8},{gy-h-12} {cx+w/2-8},{gy-h-12} {cx+w/2},{gy-h}" fill="none" stroke="{INK}" stroke-width="1"/>')
+        for k in range(4):
+            yy = gy - 18 - k * 15
+            o.append(f'<line x1="{cx-w/2}" y1="{yy}" x2="{cx+w/2}" y2="{yy}" stroke="{LINE}" stroke-width="0.4"/>')
+        if filled:
+            o.append(f'<path d="M{cx-w/2+4},{gy-h+9} C{cx-8},{gy-h+3} {cx+8},{gy-h+3} {cx+w/2-4},{gy-h+9}" fill="none" stroke="{SEAL}" stroke-width="0.9"/>')
+            for k in range(4):
+                o.append(f'<circle cx="{cx-w/4+k*w/8}" cy="{gy-h+11}" r="1.6" fill="none" stroke="{SEAL}" stroke-width="0.6"/>')
+        return o
+
+    # 一、收
+    t1 = y + 46
+    s.append(txt(24, t1, "一、收：围着麦地转一圈，拢回仓里", 5.4, GREEN))
+    gy1 = t1 + 122
+    s.append(f'<line x1="24" y1="{gy1}" x2="240" y2="{gy1}" stroke="{INK}" stroke-width="1"/>')
+    for cx in (52, 74, 96):
+        s += wheat(cx, gy1)
+    s += dun(178, gy1, filled=True)
+    s.append(f'<path d="M104,{gy1-56} C132,{gy1-86} 168,{gy1-86} 176,{gy1-58}" fill="none" stroke="{GREEN}" stroke-width="0.7"/>')
+    s.append(f'<path d="M172,{gy1-62} L176,{gy1-56} L181,{gy1-63}" fill="none" stroke="{GREEN}" stroke-width="0.7"/>')
+    s.append(txt(110, gy1 - 92, "收进去", 4.6, GREEN))
+    s.append(txt(178, gy1 + 14, "仓：满了才叫啬", 4.6, GREEN, "middle"))
+
+    # 二、不是撒
+    t2 = gy1 + 40
+    s.append(txt(24, t2, "二、不是舍不得给：是往回拢，不是往外撒", 5.0, SEAL))
+    gy2 = t2 + 118
+    s.append(f'<line x1="24" y1="{gy2}" x2="240" y2="{gy2}" stroke="{INK}" stroke-width="1"/>')
+    s.append(f'<path d="M96,{gy2-40} L136,{gy2-40} L128,{gy2} L104,{gy2} Z" fill="#EFE6D4" stroke="{SEAL}" stroke-width="1" stroke-dasharray="4 3"/>')
+    for k in range(3):
+        s.append(f'<circle cx="{106+k*10}" cy="{gy2-52-k*8}" r="2" fill="none" stroke="{SEAL}" stroke-width="0.7" stroke-dasharray="2 2"/>')
+    s.append(txt(124, gy2 - 62, "往外撒：那是给，不是啬", 4.6, SEAL))
+    s.append(txt(124, gy2 - 50, "撒完了，仓是空的", 4.4, "#6E6459"))
+    s += dun(222, gy2, filled=True)
+    s.append(txt(222, gy2 + 14, "拢回来：仓是实的", 4.4, GREEN, "middle"))
+
+    b = gy2 + 40
+    s.append(txt(24, b, "「啬」从來、从回：來是麦子，回是围着囤转一圈，把麦子赶进仓。", 4.8, INK))
+    s.append(txt(24, b + 16, "所以啬不是舍不得给，是先把该收的收回来；一个动作，两种人做出来是两回事。", 4.8, INK))
+    s.append(txt(24, b + 32, "这一章不是讲节俭，是讲收成。", 5.2, GREEN))
+
+    c = b + 50
+    s.append(f'<line x1="24" y1="{c}" x2="338" y2="{c}" stroke="{LINE}" stroke-width="0.6"/>')
+    s.append(box(20, c + 8, 340, 40, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, c + 24, "啬不是舍不得给，是把收下来的拢回仓里；", 5.6, INK, "middle"))
+    s.append(txt(190, c + 36, "这一章不是讲节俭，是讲收成。", 6.0, GREEN, "middle"))
+    s.append(gold(c + 62, "ch59a"))
+    s.append('</svg>')
+    return "\n".join(s)
+
+
+# ============ 第五十九章 · 一根扁担 ============
+def ch59b_yi_gen_bian_dan():
+    W, H = 380, 648
+    body, y = head(W, H, "重积德则无不克：克训「肩」，是担得起，不是打遍天下",
+                   "第 五 十 九 章 · 克", "一根扁担", "重积德则无不克。", H)
+    s = [body]
+
+    s.append(box(20, y + 2, 340, 30, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, y + 14, "「积」从禾，是一袋一袋码起来；「克」训「肩」，是扛得起。", 5.2, INK, "middle"))
+    s.append(txt(190, y + 26, "所以「无不克」不是打遍天下，是天下事都担得起。", 5.2, "#6E6459", "middle"))
+
+    t1 = y + 46
+    s.append(txt(24, t1, "一根扁担两头沉：担得起，才走得远", 5.4, GREEN))
+    gy1 = t1 + 132
+    s.append(f'<line x1="24" y1="{gy1}" x2="250" y2="{gy1}" stroke="{INK}" stroke-width="1"/>')
+    # 人
+    s.append(f'<circle cx="114" cy="{gy1-72}" r="6" fill="#EFE6D4" stroke="{INK}" stroke-width="0.9"/>')
+    s.append(f'<line x1="114" y1="{gy1-66}" x2="114" y2="{gy1-30}" stroke="{INK}" stroke-width="1.4"/>')
+    s.append(f'<line x1="100" y1="{gy1-58}" x2="128" y2="{gy1-58}" stroke="{INK}" stroke-width="1.1"/>')
+    s.append(f'<line x1="114" y1="{gy1-30}" x2="102" y2="{gy1}" stroke="{INK}" stroke-width="1.2"/>')
+    s.append(f'<line x1="114" y1="{gy1-30}" x2="126" y2="{gy1}" stroke="{INK}" stroke-width="1.2"/>')
+    # 扁担 + 两筐
+    s.append(f'<line x1="56" y1="{gy1-58}" x2="172" y2="{gy1-58}" stroke="{INK}" stroke-width="2"/>')
+    for bx in (56, 172):
+        s.append(f'<line x1="{bx}" y1="{gy1-58}" x2="{bx}" y2="{gy1-52}" stroke="{INK}" stroke-width="0.5"/>')
+        s.append(f'<path d="M{bx-16},{gy1-52} L{bx+16},{gy1-52} L{bx+11},{gy1-2} L{bx-11},{gy1-2} Z" fill="#EFE6D4" stroke="{INK}" stroke-width="0.9"/>')
+        for k in range(3):
+            s.append(f'<line x1="{bx-10}" y1="{gy1-44+k*10}" x2="{bx+10}" y2="{gy1-44+k*10}" stroke="{LINE}" stroke-width="0.4"/>')
+    s.append(txt(56, gy1 + 14, "一头：担子", 4.4, "#6E6459", "middle"))
+    s.append(txt(172, gy1 + 14, "另一头：也担着", 4.4, "#6E6459", "middle"))
+    s.append(txt(196, gy1 - 78, "克是肩：", 4.8, GREEN))
+    s.append(txt(196, gy1 - 66, "担得起，不是打得过", 4.4, "#6E6459"))
+
+    t2 = gy1 + 40
+    s.append(txt(24, t2, "积是码货：一袋一袋往上堆，才堆得高", 5.4, SEAL))
+    gy2 = t2 + 116
+    s.append(f'<line x1="24" y1="{gy2}" x2="250" y2="{gy2}" stroke="{INK}" stroke-width="1"/>')
+    for k in range(5):
+        w = 30 + k * 4
+        s.append(f'<rect x="{116-w/2}" y="{gy2-(k+1)*18}" width="{w}" height="16" fill="#EFE6D4" stroke="{INK}" stroke-width="0.8"/>')
+        s.append(f'<line x1="{116-w/2+6}" y1="{gy2-(k+1)*18+11}" x2="{116+w/2-6}" y2="{gy2-(k+1)*18+11}" stroke="{LINE}" stroke-width="0.4"/>')
+    s.append(txt(150, gy2 - 40, "积：从禾，是码货", 4.8, SEAL))
+    s.append(txt(150, gy2 - 28, "德是堆出来的，堆的前提是先收", 4.4, "#6E6459"))
+    s.append(txt(116, gy2 + 14, "底下一袋是「啬」收回来的", 4.6, "#6E6459", "middle"))
+
+    b = gy2 + 40
+    s.append(txt(24, b, "积德是码货，不是做好事：德是堆出来的，堆的前提是先收。", 5.0, INK))
+    s.append(txt(24, b + 16, "克是肩，不是刀：「无不克」不是打遍天下，是天下事都担得起。", 5.0, INK))
+    s.append(txt(24, b + 32, "担子两头都沉，人才走得稳；只挑轻的那头，走两步就歪。", 4.8, GREEN))
+
+    c = b + 50
+    s.append(f'<line x1="24" y1="{c}" x2="338" y2="{c}" stroke="{LINE}" stroke-width="0.6"/>')
+    s.append(box(20, c + 8, 340, 40, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, c + 24, "克是肩，不是刀；「无不克」不是打遍天下，", 5.6, INK, "middle"))
+    s.append(txt(190, c + 36, "是天下事都担得起。", 6.0, GREEN, "middle"))
+    s.append(gold(c + 62, "ch59b"))
+    s.append('</svg>')
+    return "\n".join(s)
+
+
+# ============ 第五十九章 · 一棵树 ============
+def ch59c_yi_ke_shu():
+    W, H = 380, 718
+    body, y = head(W, H, "深根固柢：根是横着铺的，柢是竖着扎的",
+                   "第 五 十 九 章 · 根柢", "一棵树", "是谓深根固柢，长生久视之道。", H)
+    s = [body]
+
+    s.append(box(20, y + 2, 340, 30, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, y + 14, "「根」是横着铺开的那一层须；「柢」，《说文》「木根也」，是那根往下扎死的主根。", 4.8, INK, "middle"))
+    s.append(txt(190, y + 26, "铺满一层挡不住风；扎死一根，才挡得住。", 5.2, "#6E6459", "middle"))
+
+    def trunk(cx, gy, tilt=0):
+        o = [f'<line x1="{cx}" y1="{gy}" x2="{cx+tilt}" y2="{gy-70}" stroke="{INK}" stroke-width="2.6"/>']
+        o.append(f'<line x1="{cx+tilt*0.6}" y1="{gy-44}" x2="{cx+tilt*0.6-22}" y2="{gy-66}" stroke="{INK}" stroke-width="1.2"/>')
+        o.append(f'<line x1="{cx+tilt*0.8}" y1="{gy-56}" x2="{cx+tilt*0.8+20}" y2="{gy-76}" stroke="{INK}" stroke-width="1.2"/>')
+        o.append(f'<circle cx="{cx+tilt*0.5-24}" cy="{gy-70}" r="12" fill="none" stroke="{GREEN}" stroke-width="0.5"/>')
+        o.append(f'<circle cx="{cx+tilt*0.8+22}" cy="{gy-80}" r="13" fill="none" stroke="{GREEN}" stroke-width="0.5"/>')
+        return o
+
+    # 一、只有根
+    t1 = y + 46
+    s.append(txt(24, t1, "一、只有根：横着铺一层，风一来就歪", 5.4, SEAL))
+    gy1 = t1 + 120
+    s.append(f'<line x1="24" y1="{gy1}" x2="240" y2="{gy1}" stroke="{INK}" stroke-width="1"/>')
+    s += trunk(150, gy1, tilt=8)
+    for d in (-56, -42, -28, 28, 42, 56):
+        s.append(f'<path d="M150,{gy1+2} C{150+d*0.4},{gy1+14} {150+d*0.8},{gy1+16} {150+d},{gy1+22}" fill="none" stroke="{SEAL}" stroke-width="0.7"/>')
+    s.append(f'<line x1="150" y1="{gy1}" x2="158" y2="{gy1-70}" stroke="{LINE}" stroke-width="0.4" stroke-dasharray="3 3"/>')
+    s.append(arrow(196, gy1 - 46, 176, gy1 - 44, SEAL, 0.8, head="arrS"))
+    s.append(txt(198, gy1 - 52, "风", 4.8, SEAL))
+    s.append(txt(150, gy1 + 34, "根浅、铺得广：一层皮毛，挡不住风", 4.6, SEAL, "middle"))
+
+    # 二、柢扎下去
+    t2 = gy1 + 70
+    s.append(txt(24, t2, "二、有柢：一根扎死，风还在，树不动", 5.4, GREEN))
+    gy2 = t2 + 132
+    s.append(f'<line x1="24" y1="{gy2}" x2="240" y2="{gy2}" stroke="{INK}" stroke-width="1"/>')
+    s += trunk(150, gy2, tilt=0)
+    for d in (-40, -22, 22, 40):
+        s.append(f'<path d="M150,{gy2+2} C{150+d*0.4},{gy2+10} {150+d*0.8},{gy2+12} {150+d},{gy2+16}" fill="none" stroke="{SEAL}" stroke-width="0.6"/>')
+    s.append(f'<line x1="150" y1="{gy2}" x2="150" y2="{gy2+50}" stroke="{SEAL}" stroke-width="2.4"/>')
+    s.append(f'<line x1="150" y1="{gy2+26}" x2="138" y2="{gy2+40}" stroke="{SEAL}" stroke-width="0.8"/>')
+    s.append(f'<line x1="150" y1="{gy2+34}" x2="162" y2="{gy2+48}" stroke="{SEAL}" stroke-width="0.8"/>')
+    s.append(arrow(196, gy2 - 46, 176, gy2 - 44, SEAL, 0.8, head="arrS"))
+    s.append(txt(198, gy2 - 52, "风还在", 4.8, SEAL))
+    s.append(txt(196, gy2 + 10, "柢：竖着扎死一根", 4.8, GREEN))
+    s.append(txt(150, gy2 + 68, "长生久视：久不是远，是扎得住", 4.6, GREEN, "middle"))
+
+    b = gy2 + 84
+    s.append(txt(24, b, "往外长的都有屋脊：树有顶，屋有顶，到顶就开始老。", 4.9, INK))
+    s.append(txt(24, b + 16, "往里蓄的没有顶：仓越满越稳，柢越扎越深，都不长「顶」。", 4.9, INK))
+    s.append(txt(24, b + 32, "「久视」是看得久，不是看得远；「长生」在这本书里，从不指肉身不坏。", 4.7, GREEN))
+
+    c = b + 50
+    s.append(f'<line x1="24" y1="{c}" x2="338" y2="{c}" stroke="{LINE}" stroke-width="0.6"/>')
+    s.append(box(20, c + 8, 340, 40, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, c + 24, "根是横着铺的，柢是竖着扎的；铺满一层挡不住风，", 5.4, INK, "middle"))
+    s.append(txt(190, c + 36, "扎死一根才挡得住。", 6.0, GREEN, "middle"))
+    s.append(gold(c + 62, "ch59c"))
+    s.append('</svg>')
+    return "\n".join(s)
+
+
 FIGS = {
     "ch01-wu-you": ("第一章", "无有同出", ch01_wu_you),
     "ch01-zhi-yue": ("第一章", "指月三境", ch01_zhi_yue),
@@ -6346,6 +6545,9 @@ FIGS = {
     "ch58a-yi-shan-men": ("第五十八章", "一扇门", ch58a_yi_shan_men),
     "ch58b-yi-zhang-zhe-zhi": ("第五十八章", "一张折纸", ch58b_yi_zhang_zhe_zhi),
     "ch58c-liang-tiao-chuan": ("第五十八章", "两条船", ch58c_liang_tiao_chuan),
+    "ch59a-yi-kou-dun": ("第五十九章", "一口囤", ch59a_yi_kou_dun),
+    "ch59b-yi-gen-bian-dan": ("第五十九章", "一根扁担", ch59b_yi_gen_bian_dan),
+    "ch59c-yi-ke-shu": ("第五十九章", "一棵树", ch59c_yi_ke_shu),
     "ch12-wu-se": ("第十二章", "门开五处", ch12_wu_se),
     "ch13-chong-ru": ("第十三章", "惊的是我", ch13_chong_ru),
     "ch14-yi-xi-wei": ("第十四章", "三样工具探不到", ch14_yi_xi_wei),
