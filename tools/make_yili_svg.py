@@ -1524,6 +1524,9 @@ GOLD = {
     "ch48c": ["「取天下」的「取」是割耳朵，所以老子换了一个动作：不是割，是不动。"],
     "ch47a": ["透过框看，你看见的每一块都是真的；可你真的没看见框外。"],
     "ch47b": ["其出弥远，其知弥少。"],
+    "ch50a": ["三成是天给的，三成是自己走进去的；后面这个「亦」字，是老子唯一想说的那句。"],
+    "ch50b": ["「厚」和「地」是同一个方向：都是往下堆；堆到成层，人就站在自己堆的那块土上。"],
+    "ch50c": ["他不是没遇到兕虎，是兕虎找不到那个可以下角的地方。"],
     "ch49a": ["一把尺能定长短，也能把人钉在短的那一格里。"],
     "ch49b": ["「歙」是吸，「注」是灌；一个往里收，一个往外倒。"],
     "ch49c": ["「浑」是水声，不是糊涂；水还在流，只是不再一格一格地流。"],
@@ -4682,6 +4685,182 @@ def ch49c_hun_shui_sheng():
     return "\n".join(s)
 
 
+# ============ 第五十章 · 一条路 ============
+def ch50a_yi_tiao_lu():
+    W, H = 380, 566
+    body, y = head(W, H, "出生入死是一条路的两头，不是两扇门；三成是天给的，三成是自己走进去的",
+                   "第 五 十 章 · 路", "一条路的两头", "出生入死。", H)
+    s = [body]
+
+    s.append(box(20, y + 2, 340, 30, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, y + 14, "「出生入死」不是两扇门，是一条路的两头：从出来的那一处，往进去的那一处走。", 5.2, INK, "middle"))
+    s.append(txt(190, y + 26, "「徒」，《说文》「步行也」——这三成不是三个命定，是三个方向。", 5.2, "#6E6459", "middle"))
+
+    t1 = y + 46
+    s.append(txt(24, t1, "一条路，三种走法", 5.4, SEAL))
+    gy = t1 + 96
+    top, bot = gy - 16, gy + 16
+    s.append(f'<rect x="30" y="{top}" width="320" height="40" fill="#FBF6EC" stroke="{LINE}" stroke-width="0.7"/>')
+    s.append(f'<line x1="34" y1="{gy}" x2="346" y2="{gy}" stroke="{LINE2}" stroke-width="0.5" stroke-dasharray="6 5"/>')
+    s.append(txt(30, top - 10, "出 · 生", 5.0, GREEN))
+    s.append(txt(306, top - 10, "入 · 死", 5.0, SEAL))
+
+    # 生之徒：走上缘
+    for k, (px, py) in enumerate([(70, top + 6), (146, top + 6), (222, top + 6)]):
+        s.append(f'<circle cx="{px}" cy="{py}" r="2.6" fill="{GREEN}" opacity="{0.9-k*0.15}"/>')
+    # 死之徒：走下缘
+    for k, (px, py) in enumerate([(70, bot - 6), (140, bot - 6), (210, bot - 6)]):
+        s.append(f'<circle cx="{px}" cy="{py}" r="2.6" fill="{INK}" opacity="{0.9-k*0.15}"/>')
+    # 亦十有三：自己拐下去
+    s.append(f'<circle cx="44" cy="{gy}" r="2.6" fill="{SEAL}"/>')
+    s.append(f'<circle cx="92" cy="{gy+3}" r="2.6" fill="{SEAL}" opacity="0.8"/>')
+    s.append(f'<circle cx="138" cy="{gy+6}" r="2.6" fill="{SEAL}" opacity="0.6"/>')
+    s.append(f'<line x1="146" y1="{gy+8}" x2="182" y2="{bot+26}" stroke="{SEAL}" stroke-width="0.8" marker-end="url(#arrS)"/>')
+    s.append(f'<ellipse cx="200" cy="{bot+32}" rx="17" ry="6" fill="none" stroke="{SEAL}" stroke-width="0.7" stroke-dasharray="3 2"/>')
+    s.append(txt(222, bot + 34, "死地：自己堆的土，塌成坑", 4.6, SEAL))
+
+    ly = bot + 42
+    for k, (col, lab) in enumerate([(GREEN, "生之徒：顺守生机，十有三"),
+                                    (INK, "死之徒：禀赋耗散，十有三"),
+                                    (SEAL, "亦十有三：自己走进去的")]):
+        s.append(f'<circle cx="34" cy="{ly + k*16 - 2}" r="2.4" fill="{col}"/>')
+        s.append(txt(44, ly + k * 16, lab, 4.8, "#6E6459"))
+
+    b = ly + 62
+    s.append(txt(24, b, "本来就有一批人容易早亡，那是禀赋与外缘；另外那一批，是自己动手把自己送进去的。", 5.2, INK))
+    s.append(txt(24, b + 16, "而这后一批，恰恰是最用心养生的那一批。", 5.2, INK))
+    s.append(txt(24, b + 32, "那个「亦」字，是老子全章唯一想说的。", 5.4, GREEN))
+
+    c = b + 50
+    s.append(f'<line x1="24" y1="{c}" x2="338" y2="{c}" stroke="{LINE}" stroke-width="0.6"/>')
+    s.append(box(20, c + 8, 340, 40, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, c + 24, "三成是天给的，三成是自己走进去的；", 6.0, INK, "middle"))
+    s.append(txt(190, c + 36, "这个「亦」字，是老子唯一想说的那句。", 6.0, GREEN, "middle"))
+    s.append(gold(c + 62, "ch50a"))
+    s.append('</svg>')
+    return "\n".join(s)
+
+
+# ============ 第五十章 · 一把土 ============
+def ch50b_yi_ba_tu():
+    W, H = 380, 556
+    body, y = head(W, H, "厚、重、沉、地：厚和地是同一个方向，都是往下堆",
+                   "第 五 十 章 · 土", "一把土", "以其生生之厚。", H)
+    s = [body]
+
+    s.append(box(20, y + 2, 340, 30, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, y + 14, "「厚」是堆；「地」，《说文》「重浊阴为地」——重的东西沉下来，堆成那一层。", 5.2, INK, "middle"))
+    s.append(txt(190, y + 26, "所以「死地」不是会死的地方，是已经堆成土的那一层。", 5.2, "#6E6459", "middle"))
+
+    # 一、薄
+    t1 = y + 46
+    s.append(txt(24, t1, "一、薄：气还通，脚下没有那一层", 5.4, GREEN))
+    g1 = t1 + 62
+    s.append(f'<line x1="30" y1="{g1}" x2="350" y2="{g1}" stroke="{INK}" stroke-width="0.9"/>')
+    s.append(f'<rect x="30" y="{g1}" width="320" height="4" fill="#EFE6D4" stroke="{LINE}" stroke-width="0.35"/>')
+    for dx in (96, 128, 160):
+        s.append(f'<circle cx="{dx}" cy="{g1+9}" r="1.4" fill="{LINE2}" opacity="0.8"/>')
+    s.append(arrow(250, g1 - 46, 250, g1 + 2, "#6E6459", 0.8, head="arr"))
+    s.append(txt(258, g1 - 30, "角、爪、刃都找不到落点", 4.6, "#6E6459"))
+    s.append(txt(258, g1 - 18, "薄薄一层，一按就散", 4.6, "#6E6459"))
+
+    # 二、厚
+    t2 = g1 + 40
+    s.append(txt(24, t2, "二、厚：一层一层往上堆，堆成一层土", 5.4, SEAL))
+    g2 = t2 + 94
+    s.append(f'<line x1="30" y1="{g2}" x2="350" y2="{g2}" stroke="{INK}" stroke-width="1.2"/>')
+    for k in range(4):
+        ly = g2 - 8 * (k + 1)
+        s.append(f'<line x1="56" y1="{ly}" x2="304" y2="{ly}" stroke="{LINE}" stroke-width="0.5"/>')
+    s.append(f'<rect x="56" y="{g2-32}" width="248" height="32" fill="#EFE6D4" stroke="{INK}" stroke-width="0.9" opacity="0.9"/>')
+    for k in range(3):
+        ly = g2 - 8 * (k + 1)
+        s.append(f'<line x1="58" y1="{ly}" x2="302" y2="{ly}" stroke="{LINE}" stroke-width="0.45"/>')
+    # 硬壳面 + 被钉住的落点
+    s.append(f'<line x1="56" y1="{g2-32}" x2="304" y2="{g2-32}" stroke="{INK}" stroke-width="1.6"/>')
+    s.append(arrow(250, g2 - 64, 250, g2 - 32, SEAL, 0.9, head="arrS"))
+    s.append(f'<path d="M244,{g2-34} l6,-5 M250,{g2-34} l-6,-5" stroke="{SEAL}" stroke-width="0.7" fill="none"/>')
+    s.append(txt(258, g2 - 62, "厚到成层，就硬成一块壳", 4.6, SEAL))
+    s.append(txt(258, g2 - 50, "每一处硬，都是一个落点", 4.6, SEAL))
+    s.append(txt(24, g2 - 44, "厚 → 重 → 沉 → 地 → 死地", 5.0, SEAL))
+    s.append(txt(10, g2 - 8, "补品、防护", 4.5, "#6E6459"))
+    s.append(txt(10, g2 + 12, "一层一层堆", 4.5, "#6E6459"))
+
+    b = g2 + 40
+    s.append(txt(24, b, "堆的不是坏东西：补品、防护、一整套「我在养」的念头，一样一样都出于好意。", 5.2, INK))
+    s.append(txt(24, b + 16, "可「厚」这个字的方向是往下：厚的东西沉，沉到底，就成了地。", 5.2, INK))
+    s.append(txt(24, b + 32, "死地不是命给的，是自己一锹一锹堆起来的；撤土比加甲难。", 5.4, GREEN))
+
+    c = b + 50
+    s.append(f'<line x1="24" y1="{c}" x2="338" y2="{c}" stroke="{LINE}" stroke-width="0.6"/>')
+    s.append(box(20, c + 8, 340, 40, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, c + 24, "「厚」和「地」是同一个方向：都是往下堆；", 6.0, INK, "middle"))
+    s.append(txt(190, c + 36, "堆到成层，人就站在自己堆的那块土上。", 6.0, GREEN, "middle"))
+    s.append(gold(c + 62, "ch50b"))
+    s.append('</svg>')
+    return "\n".join(s)
+
+
+# ============ 第五十章 · 一只角 ============
+def ch50c_yi_zhi_jiao():
+    W, H = 380, 598
+    body, y = head(W, H, "兕无所投其角：不是伤害不来，是伤害找不到落点",
+                   "第 五 十 章 · 角", "一只角", "兕无所投其角，虎无所用其爪。", H)
+    s = [body]
+
+    s.append(box(20, y + 2, 340, 30, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, y + 14, "角要顶穿一样东西，得有一个硬的点；爪要抓，得有一处能挂住的地方。", 5.2, INK, "middle"))
+    s.append(txt(190, y + 26, "不是「伤害不来」，是「伤害找不到落点」。", 5.2, "#6E6459", "middle"))
+
+    def horn(x0, cy, ln=108):
+        tip = x0 + ln
+        up = f"M{x0},{cy-11} C{x0+46},{cy-17} {tip-40},{cy-13} {tip},{cy}"
+        dn = f"C{tip-40},{cy+13} {x0+46},{cy+17} {x0},{cy+11}"
+        return [f'<path d="{up} {dn} Z" fill="#EFE6D4" stroke="{INK}" stroke-width="1.1"/>',
+                f'<path d="M{x0},{cy-11} q-7,11 0,22" fill="none" stroke="{INK}" stroke-width="0.7"/>',
+                f'<line x1="{x0+18}" y1="{cy-13}" x2="{x0+18}" y2="{cy+13}" stroke="{LINE}" stroke-width="0.35"/>',
+                f'<line x1="{x0+52}" y1="{cy-12}" x2="{x0+52}" y2="{cy+12}" stroke="{LINE}" stroke-width="0.35"/>']
+
+    # 一、抵硬壳：穿进去了
+    t1 = y + 46
+    s.append(txt(24, t1, "一、一身设防：每一道防线都是一个可破的点", 5.4, SEAL))
+    cy1 = t1 + 66
+    s.append(box(202, cy1 - 40, 14, 80, fill="#EFE6D4", stroke=INK, width=1.4))
+    for k in range(3):
+        s.append(f'<line x1="204" y1="{cy1-26+k*20}" x2="214" y2="{cy1-26+k*20}" stroke="{LINE}" stroke-width="0.4"/>')
+    for part in horn(92, cy1):
+        s.append(part)
+    s.append(f'<path d="M216,{cy1-6} l10,-5 M216,{cy1+6} l10,5" stroke="{SEAL}" stroke-width="0.8" fill="none"/>')
+    s.append(arrow(216, cy1, 256, cy1, SEAL, 1.0, head="arrS"))
+    s.append(txt(260, cy1 + 2, "穿进去", 4.8, SEAL))
+    s.append(txt(30, cy1 + 48, "壳越硬，越像一个可以被钉住的靶心", 4.6, "#6E6459"))
+
+    # 二、抵空处：滑开了
+    t2 = cy1 + 76
+    s.append(txt(24, t2, "二、无死地：同一只角，没有地方可投", 5.4, GREEN))
+    cy2 = t2 + 66
+    s.append(f'<line x1="202" y1="{cy2-40}" x2="202" y2="{cy2+40}" stroke="{LINE2}" stroke-width="0.6" stroke-dasharray="4 4"/>')
+    for part in horn(92, cy2):
+        s.append(part)
+    s.append(f'<path d="M202,{cy2} q12,-6 22,-18" fill="none" stroke="{GREEN}" stroke-width="0.7" marker-end="url(#arr2)"/>')
+    s.append(txt(226, cy2 - 24, "角滑开了：无处落点", 4.8, GREEN))
+    s.append(txt(30, cy2 + 48, "不是练成刀枪不入——那是把土堆得更厚", 4.6, "#6E6459"))
+
+    b = cy2 + 70
+    s.append(txt(24, b, "一个全身紧绷、处处设防的人，恰恰把自己变成了一排靶子。", 5.2, INK))
+    s.append(txt(24, b + 16, "无死地，不是没有一处可以被打——是没有一处「可以被定点击中」。", 5.2, INK))
+    s.append(txt(24, b + 32, "所以那个「摄」字是往回收：不堆，就不成地。", 5.4, GREEN))
+
+    c = b + 50
+    s.append(f'<line x1="24" y1="{c}" x2="338" y2="{c}" stroke="{LINE}" stroke-width="0.6"/>')
+    s.append(box(20, c + 8, 340, 40, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, c + 24, "他不是没遇到兕虎，", 6.0, INK, "middle"))
+    s.append(txt(190, c + 36, "是兕虎找不到那个可以下角的地方。", 6.0, GREEN, "middle"))
+    s.append(gold(c + 62, "ch50c"))
+    s.append('</svg>')
+    return "\n".join(s)
+
+
 FIGS = {
     "ch01-wu-you": ("第一章", "无有同出", ch01_wu_you),
     "ch01-zhi-yue": ("第一章", "指月三境", ch01_zhi_yue),
@@ -4727,6 +4906,9 @@ FIGS = {
     "ch49a-yi-ba-chi": ("第四十九章", "一把尺", ch49a_yi_ba_chi),
     "ch49b-yi-xi-yi-guan": ("第四十九章", "一吸一灌", ch49b_yi_xi_yi_guan),
     "ch49c-hun-shui-sheng": ("第四十九章", "浑，是水声", ch49c_hun_shui_sheng),
+    "ch50a-yi-tiao-lu": ("第五十章", "一条路的两头", ch50a_yi_tiao_lu),
+    "ch50b-yi-ba-tu": ("第五十章", "一把土", ch50b_yi_ba_tu),
+    "ch50c-yi-zhi-jiao": ("第五十章", "一只角", ch50c_yi_zhi_jiao),
     "ch12-wu-se": ("第十二章", "门开五处", ch12_wu_se),
     "ch13-chong-ru": ("第十三章", "惊的是我", ch13_chong_ru),
     "ch14-yi-xi-wei": ("第十四章", "三样工具探不到", ch14_yi_xi_wei),

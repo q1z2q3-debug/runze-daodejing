@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 380 566" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="出生入死是一条路的两头，不是两扇门；三成是天给的，三成是自己走进去的" font-family="'Noto Serif CJK SC','Noto Serif SC','Songti SC',serif">
+<defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#6E6459"/></marker><marker id="arr2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#4A5C55"/></marker><marker id="arrL" viewBox="0 0 10 10" refX="1" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M10 0 L0 5 L10 10 z" fill="#4A5C55"/></marker><marker id="arrS" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#A2503B"/></marker></defs>
+<rect x="0" y="0" width="380" height="566" fill="#F8F3E6"/>
+<text x="20" y="26" font-size="11" fill="#A2503B" font-family="'Noto Sans CJK SC','Noto Sans SC',sans-serif" letter-spacing="3">第 五 十 章 · 路</text>
+<text x="20" y="58" font-size="21" fill="#2F2A24">一条路的两头</text>
+<text x="20" y="78" font-size="10.5" fill="#6E6459">出生入死。</text>
+<rect x="20" y="102" width="340" height="30" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="190" y="114" font-size="5.2" fill="#2F2A24" text-anchor="middle">「出生入死」不是两扇门，是一条路的两头：从出来的那一处，往进去的那一处走。</text>
+<text x="190" y="126" font-size="5.2" fill="#6E6459" text-anchor="middle">「徒」，《说文》「步行也」——这三成不是三个命定，是三个方向。</text>
+<text x="24" y="146" font-size="5.4" fill="#A2503B">一条路，三种走法</text>
+<rect x="30" y="226" width="320" height="40" fill="#FBF6EC" stroke="#DCCBB0" stroke-width="0.7"/>
+<line x1="34" y1="242" x2="346" y2="242" stroke="#E6D8C2" stroke-width="0.5" stroke-dasharray="6 5"/>
+<text x="30" y="216" font-size="5.0" fill="#4A5C55">出 · 生</text>
+<text x="306" y="216" font-size="5.0" fill="#A2503B">入 · 死</text>
+<circle cx="70" cy="232" r="2.6" fill="#4A5C55" opacity="0.9"/>
+<circle cx="146" cy="232" r="2.6" fill="#4A5C55" opacity="0.75"/>
+<circle cx="222" cy="232" r="2.6" fill="#4A5C55" opacity="0.6000000000000001"/>
+<circle cx="70" cy="252" r="2.6" fill="#2F2A24" opacity="0.9"/>
+<circle cx="140" cy="252" r="2.6" fill="#2F2A24" opacity="0.75"/>
+<circle cx="210" cy="252" r="2.6" fill="#2F2A24" opacity="0.6000000000000001"/>
+<circle cx="44" cy="242" r="2.6" fill="#A2503B"/>
+<circle cx="92" cy="245" r="2.6" fill="#A2503B" opacity="0.8"/>
+<circle cx="138" cy="248" r="2.6" fill="#A2503B" opacity="0.6"/>
+<line x1="146" y1="250" x2="182" y2="284" stroke="#A2503B" stroke-width="0.8" marker-end="url(#arrS)"/>
+<ellipse cx="200" cy="290" rx="17" ry="6" fill="none" stroke="#A2503B" stroke-width="0.7" stroke-dasharray="3 2"/>
+<text x="222" y="292" font-size="4.6" fill="#A2503B">死地：自己堆的土，塌成坑</text>
+<circle cx="34" cy="298" r="2.4" fill="#4A5C55"/>
+<text x="44" y="300" font-size="4.8" fill="#6E6459">生之徒：顺守生机，十有三</text>
+<circle cx="34" cy="314" r="2.4" fill="#2F2A24"/>
+<text x="44" y="316" font-size="4.8" fill="#6E6459">死之徒：禀赋耗散，十有三</text>
+<circle cx="34" cy="330" r="2.4" fill="#A2503B"/>
+<text x="44" y="332" font-size="4.8" fill="#6E6459">亦十有三：自己走进去的</text>
+<text x="24" y="362" font-size="5.2" fill="#2F2A24">本来就有一批人容易早亡，那是禀赋与外缘；另外那一批，是自己动手把自己送进去的。</text>
+<text x="24" y="378" font-size="5.2" fill="#2F2A24">而这后一批，恰恰是最用心养生的那一批。</text>
+<text x="24" y="394" font-size="5.4" fill="#4A5C55">那个「亦」字，是老子全章唯一想说的。</text>
+<line x1="24" y1="412" x2="338" y2="412" stroke="#DCCBB0" stroke-width="0.6"/>
+<rect x="20" y="420" width="340" height="40" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="190" y="436" font-size="6.0" fill="#2F2A24" text-anchor="middle">三成是天给的，三成是自己走进去的；</text>
+<text x="190" y="448" font-size="6.0" fill="#4A5C55" text-anchor="middle">这个「亦」字，是老子唯一想说的那句。</text>
+<line x1="20" y1="474" x2="360" y2="474" stroke="#E6D8C2" stroke-width="0.8"/>
+<text x="20" y="488" font-size="8.0" fill="#A89577" letter-spacing="1">本 章 金 句</text>
+<text x="20" y="504" font-size="8.4" fill="#2F2A24">三成是天给的，三成是自己走进去的；后面这个「亦」字，是老子唯一想说的那句。</text>
+</svg>
