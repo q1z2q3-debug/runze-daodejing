@@ -1524,6 +1524,9 @@ GOLD = {
     "ch48c": ["「取天下」的「取」是割耳朵，所以老子换了一个动作：不是割，是不动。"],
     "ch47a": ["透过框看，你看见的每一块都是真的；可你真的没看见框外。"],
     "ch47b": ["其出弥远，其知弥少。"],
+    "ch55a": ["藏是往里放，含是含在嘴边；藏起来的东西会忘，含在嘴里的忘不掉。"],
+    "ch55b": ["成年人攥拳是为了抓，婴儿攥拳是为了收；抓是往外，收是往里，一只是同一只手。"],
+    "ch55c": ["婴儿哭一天嗓子不坏，不是嗓子好，是他从不憋气；一憋，就有了「存」，有了「伤」。"],
     "ch54a": ["楼是立在地方的，律是立在人心里的；地方会被换，人心不容易。"],
     "ch54b": ["手会松，怀不会；所以抱得住的东西，都是放进怀里的，不是端在手上的。"],
     "ch54c": ["德往外走，先多，再久，再厚，最后匀；匀了才叫普，不是到处都有，是到处一样。"],
@@ -5535,6 +5538,171 @@ def ch54c_yi_quan_lian_yi():
     return "\n".join(s)
 
 
+# ============ 第五十五章 · 一张嘴 ============
+def ch55a_yi_zhang_zui():
+    W, H = 380, 620
+    body, y = head(W, H, "含德之厚：含是衔在口里，不咽也不吐",
+                   "第 五 十 五 章 · 含", "一张嘴", "含德之厚，比于赤子。", H)
+    s = [body]
+
+    s.append(box(20, y + 2, 340, 30, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, y + 14, "「含」，《说文》「嗛也」——嗛就是衔：东西在嘴里，不咽下去，也不吐出来。", 5.2, INK, "middle"))
+    s.append(txt(190, y + 26, "不是「心里藏着一份德」：藏是往里放，含是含在嘴边。", 5.2, "#6E6459", "middle"))
+
+    # 一、含
+    t1 = y + 46
+    s.append(txt(24, t1, "一、含着：在嘴边上，没咽下去，也没吐掉", 5.4, GREEN))
+    cy1 = t1 + 92
+    s.append(f'<ellipse cx="150" cy="{cy1-16}" rx="34" ry="12" fill="none" stroke="{INK}" stroke-width="1.1"/>')
+    s.append(f'<ellipse cx="150" cy="{cy1+16}" rx="34" ry="12" fill="none" stroke="{INK}" stroke-width="1.1"/>')
+    s.append(f'<circle cx="150" cy="{cy1}" r="14" fill="#EFE6D4" stroke="{INK}" stroke-width="1"/>')
+    s.append(arrow(150, cy1 + 34, 150, cy1 + 60, SEAL, 0.8, head="arrS"))
+    s.append(f'<line x1="138" y1="{cy1+48}" x2="162" y2="{cy1+48}" stroke="{SEAL}" stroke-width="1.1"/>')
+    s.append(txt(150, cy1 + 76, "咽：咽下去就没了", 4.6, SEAL, "middle"))
+    s.append(arrow(196, cy1, 246, cy1, SEAL, 0.8, head="arrS"))
+    s.append(f'<line x1="236" y1="{cy1-10}" x2="236" y2="{cy1+10}" stroke="{SEAL}" stroke-width="1.1"/>')
+    s.append(txt(248, cy1 - 6, "吐：吐出来", 4.6, SEAL))
+    s.append(txt(248, cy1 + 6, "就散了", 4.4, "#6E6459"))
+    s.append(txt(60, cy1 - 34, "含：不咽不吐", 5.0, GREEN))
+
+    # 二、吐
+    t2 = cy1 + 92
+    s.append(txt(24, t2, "二、吐出来：那是第五十三章的「夸」", 5.4, SEAL))
+    cy2 = t2 + 76
+    s.append(f'<ellipse cx="96" cy="{cy2-30}" rx="30" ry="10" fill="none" stroke="{INK}" stroke-width="1.1"/>')
+    s.append(f'<ellipse cx="96" cy="{cy2+30}" rx="30" ry="10" fill="none" stroke="{INK}" stroke-width="1.1"/>')
+    s.append(arrow(130, cy2, 186, cy2, SEAL, 1.0, head="arrS"))
+    s.append(f'<circle cx="204" cy="{cy2}" r="12" fill="#EFE6D4" stroke="{SEAL}" stroke-width="1"/>')
+    s.append(txt(236, cy2 - 6, "摆出来", 4.8, SEAL))
+    s.append(txt(236, cy2 + 6, "给人看", 4.4, "#6E6459"))
+    s.append(txt(96, cy2 + 52, "张口给人看：吐一次，就少一点", 4.6, "#6E6459", "middle"))
+
+    b = cy2 + 72
+    s.append(txt(24, b, "第四十四章说「多藏必厚亡」；本章说「含」——藏是往里放，含是含在嘴边。", 5.2, INK))
+    s.append(txt(24, b + 16, "藏起来的东西会忘，含在嘴里的忘不掉：它离得很近，一直在。", 5.2, INK))
+    s.append(txt(24, b + 32, "含着的人，安稳；一松开，就哭。", 5.4, GREEN))
+
+    c = b + 50
+    s.append(f'<line x1="24" y1="{c}" x2="338" y2="{c}" stroke="{LINE}" stroke-width="0.6"/>')
+    s.append(box(20, c + 8, 340, 40, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, c + 24, "藏是往里放，含是含在嘴边；", 6.0, INK, "middle"))
+    s.append(txt(190, c + 36, "藏起来的东西会忘，含在嘴里的忘不掉。", 6.0, GREEN, "middle"))
+    s.append(gold(c + 62, "ch55a"))
+    s.append('</svg>')
+    return "\n".join(s)
+
+
+# ============ 第五十五章 · 一只拳 ============
+def ch55b_yi_zhi_quan():
+    W, H = 380, 630
+    body, y = head(W, H, "骨弱筋柔而握固：婴儿攥拳是为了收，成人攥拳是为了抓",
+                   "第 五 十 五 章 · 拳", "一只拳", "骨弱筋柔而握固。", H)
+    s = [body]
+
+    s.append(box(20, y + 2, 340, 30, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, y + 14, "「握」，《说文》「搤持也」——搤，掐住；婴儿那只拳，拇指是扣在四指里面的。", 5.2, INK, "middle"))
+    s.append(txt(190, y + 26, "骨弱筋柔是外面软，握固是里面紧：边界柔，生机实。", 5.2, "#6E6459", "middle"))
+
+    def fist(cx, cy):
+        o = [f'<ellipse cx="{cx}" cy="{cy}" rx="42" ry="34" fill="#EFE6D4" stroke="{INK}" stroke-width="1.1"/>']
+        for xx in (cx - 24, cx - 10, cx + 4, cx + 18):
+            o.append(f'<path d="M{xx},{cy-30} C{xx-4},{cy-12} {xx-4},{cy+6} {xx+2},{cy+20}" fill="none" stroke="{INK}" stroke-width="0.6"/>')
+        o.append(f'<path d="M{cx-38},{cy-4} C{cx-24},{cy+14} {cx-2},{cy+20} {cx+18},{cy+16} C{cx+28},{cy+14} {cx+30},{cy+4} {cx+24},{cy-4}" fill="none" stroke="{SEAL}" stroke-width="1.3"/>')
+        return o
+
+    # 一、婴儿的拳：往里收
+    t1 = y + 46
+    s.append(txt(24, t1, "一、婴儿的拳：拇指扣在里面，把自己握住", 5.4, GREEN))
+    cy1 = t1 + 96
+    for part in fist(126, cy1):
+        s.append(part)
+    s.append(arrow(214, cy1 + 6, 178, cy1 + 6, GREEN, 1.0, head="arrL"))
+    s.append(txt(216, cy1 + 22, "收：往里", 4.8, GREEN))
+    s.append(txt(126, cy1 + 50, "不抓外面的东西，就是收着", 4.4, "#6E6459", "middle"))
+    s.append(txt(268, cy1 - 24, "外面软", 4.8, GREEN))
+    s.append(txt(268, cy1 - 12, "（骨弱筋柔）", 4.4, "#6E6459"))
+    s.append(txt(268, cy1 + 14, "里面紧", 4.8, GREEN))
+    s.append(txt(268, cy1 + 26, "（握固）", 4.4, "#6E6459"))
+
+    # 二、成人的手：往外抓
+    t2 = cy1 + 82
+    s.append(txt(24, t2, "二、成人的拳：同一只手，方向朝外", 5.4, SEAL))
+    cy2 = t2 + 84
+    for part in fist(126, cy2):
+        s.append(part)
+    s.append(arrow(172, cy2 + 6, 210, cy2 + 6, SEAL, 1.0, head="arrS"))
+    s.append(box(216, cy2 - 10, 42, 34, fill="#FBF6EC", stroke=SEAL, width=0.8))
+    s.append(txt(237, cy2 + 8, "物", 4.8, SEAL, "middle"))
+    s.append(txt(126, cy2 + 50, "抓：往外；一放下就没了", 4.4, SEAL, "middle"))
+    s.append(txt(237, cy2 + 44, "攥拳是为了抓", 4.4, "#6E6459", "middle"))
+
+    b = cy2 + 72
+    s.append(txt(24, b, "同一只手，两个方向：一只往里收，一只往外抓。", 5.2, INK))
+    s.append(txt(24, b + 16, "第五十二章讲「塞其兑，闭其门」，讲的就是这个「收」；只不过一个是功夫，一个是天生。", 5.0, INK))
+    s.append(txt(24, b + 32, "收的那只，不用力就一直在；抓的那只，一放下就没了。", 5.4, GREEN))
+
+    c = b + 50
+    s.append(f'<line x1="24" y1="{c}" x2="338" y2="{c}" stroke="{LINE}" stroke-width="0.6"/>')
+    s.append(box(20, c + 8, 340, 40, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, c + 24, "成年人攥拳是为了抓，婴儿攥拳是为了收；", 6.0, INK, "middle"))
+    s.append(txt(190, c + 36, "抓是往外，收是往里，一只是同一只手。", 6.0, GREEN, "middle"))
+    s.append(gold(c + 62, "ch55b"))
+    s.append('</svg>')
+    return "\n".join(s)
+
+
+# ============ 第五十五章 · 一根管 ============
+def ch55c_yi_gen_guan():
+    W, H = 380, 616
+    body, y = head(W, H, "终日号而不嗄：婴儿哭一天嗓子不坏，不是嗓子好，是他从不憋气",
+                   "第 五 十 五 章 · 气", "一根管", "终日号而不嗄，和之至也。", H)
+    s = [body]
+
+    s.append(box(20, y + 2, 340, 30, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, y + 14, "「嗄」，声败。婴儿哭是气出尽了就吸，吸满了再哭；他不存气，也不压气。", 5.2, INK, "middle"))
+    s.append(txt(190, y + 26, "「和」不是平和这个状态，是进出的量对得上——中点一直在被穿过。", 5.2, "#6E6459", "middle"))
+
+    # 一、不憋
+    t1 = y + 46
+    s.append(txt(24, t1, "一、不憋：两头通着，出尽了就进", 5.4, GREEN))
+    gy1 = t1 + 92
+    s.append(box(48, gy1 - 56, 284, 40, fill="#FBF6EC", stroke=INK, width=1.0))
+    s.append(f'<line x1="48" y1="{gy1-36}" x2="332" y2="{gy1-36}" stroke="{LINE2}" stroke-width="0.4" stroke-dasharray="4 4"/>')
+    s.append(arrow(56, gy1 - 46, 316, gy1 - 46, GREEN, 1.0, head="arr2"))
+    s.append(arrow(316, gy1 - 26, 56, gy1 - 26, SEAL, 1.0, head="arrS"))
+    s.append(txt(190, gy1 - 70, "进：吸到满", 4.6, GREEN, "middle"))
+    s.append(txt(190, gy1 - 8, "出：哭到尽", 4.6, SEAL, "middle"))
+    s.append(txt(190, gy1 + 18, "中间没有闸：两头一直在换", 4.8, GREEN, "middle"))
+
+    # 二、憋
+    t2 = gy1 + 46
+    s.append(txt(24, t2, "二、憋着：中间装一道闸，管就鼓起来", 5.4, SEAL))
+    gy2 = t2 + 92
+    s.append(box(48, gy2 - 56, 284, 40, fill="#FBEEE8", stroke=INK, width=1.0))
+    s.append(f'<path d="M48,{gy2-56} C110,{gy2-86} 270,{gy2-86} 332,{gy2-56}" fill="none" stroke="{SEAL}" stroke-width="0.9"/>')
+    s.append(f'<path d="M48,{gy2-56} C110,{gy2-84} 270,{gy2-84} 332,{gy2-56}" fill="none" stroke="{SEAL}" stroke-width="0.4" opacity="0.6"/>')
+    s.append(box(178, gy2 - 58, 12, 44, fill="#EFE6D4", stroke=SEAL, width=1.0))
+    s.append(arrow(66, gy2 - 36, 168, gy2 - 36, SEAL, 1.0, head="arrS"))
+    s.append(f'<line x1="160" y1="{gy2-46}" x2="160" y2="{gy2-26}" stroke="{SEAL}" stroke-width="1.2"/>')
+    s.append(txt(74, gy2 - 46, "进不去", 4.6, SEAL))
+    s.append(txt(248, gy2 - 30, "出不来", 4.6, SEAL))
+    s.append(txt(190, gy2 + 18, "「存」起来了：有了存，就有了伤", 4.8, SEAL, "middle"))
+
+    b = gy2 + 46
+    s.append(txt(24, b, "婴儿哭一整天，嗓子不沙，不是嗓子好，是他从不憋气。", 5.2, INK))
+    s.append(txt(24, b + 16, "成年人哭，多半是憋着的：一边哭一边忍，气出不尽，也吸不满。", 5.2, INK))
+    s.append(txt(24, b + 32, "「心使气」就是往这管子里装闸，派气去做事；一装，它就不按自己的节奏走了。", 5.0, GREEN))
+
+    c = b + 50
+    s.append(f'<line x1="24" y1="{c}" x2="338" y2="{c}" stroke="{LINE}" stroke-width="0.6"/>')
+    s.append(box(20, c + 8, 340, 40, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, c + 24, "婴儿哭一天嗓子不坏，不是嗓子好，是他从不憋气；", 6.0, INK, "middle"))
+    s.append(txt(190, c + 36, "一憋，就有了「存」，就有了「伤」。", 6.0, GREEN, "middle"))
+    s.append(gold(c + 62, "ch55c"))
+    s.append('</svg>')
+    return "\n".join(s)
+
+
 FIGS = {
     "ch01-wu-you": ("第一章", "无有同出", ch01_wu_you),
     "ch01-zhi-yue": ("第一章", "指月三境", ch01_zhi_yue),
@@ -5595,6 +5763,9 @@ FIGS = {
     "ch54a-yi-tiao-xian": ("第五十四章", "一条线", ch54a_yi_tiao_xian),
     "ch54b-yi-fu-yi-jin": ("第五十四章", "一副衣襟", ch54b_yi_fu_yi_jin),
     "ch54c-yi-quan-lian-yi": ("第五十四章", "一圈涟漪", ch54c_yi_quan_lian_yi),
+    "ch55a-yi-zhang-zui": ("第五十五章", "一张嘴", ch55a_yi_zhang_zui),
+    "ch55b-yi-zhi-quan": ("第五十五章", "一只拳", ch55b_yi_zhi_quan),
+    "ch55c-yi-gen-guan": ("第五十五章", "一根管", ch55c_yi_gen_guan),
     "ch12-wu-se": ("第十二章", "门开五处", ch12_wu_se),
     "ch13-chong-ru": ("第十三章", "惊的是我", ch13_chong_ru),
     "ch14-yi-xi-wei": ("第十四章", "三样工具探不到", ch14_yi_xi_wei),
