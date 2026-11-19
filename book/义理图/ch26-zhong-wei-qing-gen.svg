@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg viewBox="0 0 380 560" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="根重的树，冠再摇也不倒" font-family="'Noto Serif CJK SC','Noto Serif SC','Songti SC',serif">
+<svg viewBox="0 0 380 586" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="根重的树，冠再摇也不倒" font-family="'Noto Serif CJK SC','Noto Serif SC','Songti SC',serif">
 <defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#6E6459"/></marker><marker id="arr2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#4A5C55"/></marker><marker id="arrL" viewBox="0 0 10 10" refX="1" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M10 0 L0 5 L10 10 z" fill="#4A5C55"/></marker><marker id="arrS" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#A2503B"/></marker></defs>
-<rect x="0" y="0" width="380" height="560" fill="#F8F3E6"/>
+<rect x="0" y="0" width="380" height="586" fill="#F8F3E6"/>
 <text x="20" y="26" font-size="11" fill="#A2503B" font-family="'Noto Sans CJK SC','Noto Sans SC',sans-serif" letter-spacing="3">第 二 十 六 章 · 轻 重</text>
 <text x="20" y="58" font-size="21" fill="#2F2A24">重为轻根</text>
 <text x="20" y="78" font-size="10.5" fill="#6E6459">法地不是学地的形状，是学地的分量。</text>
@@ -25,6 +25,20 @@
 <text x="24" y="142" font-size="8.4" fill="#8A7C69">风来，冠摇，</text>
 <text x="24" y="154" font-size="8.4" fill="#8A7C69">干不摇。</text>
 <text x="26" y="116" font-size="8.2" fill="#6E6459">冠：轻</text>
+<line x1="204" y1="166" x2="226" y2="136" stroke="#A2503B" stroke-width="1" stroke-dasharray="3 3"/>
+<circle cx="228" cy="134" r="2.4" fill="#A2503B"/>
+<text x="230" y="162" font-size="8.0" fill="#A2503B">令：静发令，躁受之</text>
+<rect x="212" y="192" width="54" height="22" fill="#E9DFCC" stroke="#B9A98F" stroke-width="1.0"/>
+<text x="239" y="207" font-size="8.0" fill="#2F2A24" text-anchor="middle">辎重</text>
+<line x1="206" y1="200" x2="212" y2="200" stroke="#DCCBB0" stroke-width="1"/>
+<text x="212" y="222" font-size="7.6" fill="#8A7C69">走到哪，根都带着</text>
+<line x1="28" y1="292" x2="92" y2="292" stroke="#E6D8C2" stroke-width="1"/>
+<line x1="40" y1="288" x2="86" y2="270" stroke="#B9A98F" stroke-width="2"/>
+<line x1="40" y1="288" x2="30" y2="280" stroke="#B9A98F" stroke-width="1"/>
+<line x1="40" y1="288" x2="36" y2="276" stroke="#B9A98F" stroke-width="1"/>
+<line x1="40" y1="288" x2="42" y2="282" stroke="#B9A98F" stroke-width="1"/>
+<text x="96" y="278" font-size="8.0" fill="#A2503B">拔根</text>
+<text x="96" y="290" font-size="7.6" fill="#8A7C69">轻则失根</text>
 <text x="28" y="320" font-size="8.2" fill="#2F2A24">根：重——往下那一截，才是立得住的。</text>
 <text x="28" y="334" font-size="8.2" fill="#8A7C69">冠再大，根一浅，整棵就倒。</text>
 <text x="28" y="358" font-size="8.6" fill="#A2503B">静为躁君：静不是不动，静是动的发令处。</text>

@@ -1635,7 +1635,7 @@ def ch24_qi_zhe_bu_li():
 
 # ============ 第二十六章 · 重为轻根 ============
 def ch26_zhong_wei_qing_gen():
-    W, H = 380, 560
+    W, H = 380, 586
     body, y = head(W, H, "根重的树，冠再摇也不倒", "第 二 十 六 章 · 轻 重", "重为轻根",
                    "法地不是学地的形状，是学地的分量。", H)
     s = [body]
@@ -1667,6 +1667,22 @@ def ch26_zhong_wei_qing_gen():
     s.append(txt(24, gy - 116, "风来，冠摇，", 8.4, "#8A7C69"))
     s.append(txt(24, gy - 104, "干不摇。", 8.4, "#8A7C69"))
     s.append(txt(26, gy - 142, "冠：轻", 8.2, "#6E6459"))
+    # 令：静发令，躁受之
+    s.append(f'<line x1="204" y1="{gy-92}" x2="226" y2="{gy-122}" stroke="{SEAL}" stroke-width="1" stroke-dasharray="3 3"/>')
+    s.append(f'<circle cx="228" cy="{gy-124}" r="2.4" fill="{SEAL}"/>')
+    s.append(txt(230, gy - 96, "令：静发令，躁受之", 8.0, SEAL))
+    # 辎重：绑在干上，走到哪带到哪
+    s.append(box(212, gy - 66, 54, 22, fill="#E9DFCC", stroke="#B9A98F"))
+    s.append(txt(239, gy - 51, "辎重", 8.0, INK, "middle"))
+    s.append(f'<line x1="206" y1="{gy-58}" x2="212" y2="{gy-58}" stroke="{LINE}" stroke-width="1"/>')
+    s.append(txt(212, gy - 36, "走到哪，根都带着", 7.6, "#8A7C69"))
+    # 拔根：小倒树
+    s.append(f'<line x1="28" y1="{gy+34}" x2="92" y2="{gy+34}" stroke="{LINE2}" stroke-width="1"/>')
+    s.append(f'<line x1="40" y1="{gy+30}" x2="86" y2="{gy+12}" stroke="#B9A98F" stroke-width="2"/>')
+    for dx, dy in ((-10, -8), (-4, -12), (2, -6)):
+        s.append(f'<line x1="40" y1="{gy+30}" x2="{40+dx}" y2="{gy+30+dy}" stroke="#B9A98F" stroke-width="1"/>')
+    s.append(txt(96, gy + 20, "拔根", 8.0, SEAL))
+    s.append(txt(96, gy + 32, "轻则失根", 7.6, "#8A7C69"))
     # 根注
     s.append(txt(28, gy + 62, "根：重——往下那一截，才是立得住的。", 8.2, INK))
     s.append(txt(28, gy + 76, "冠再大，根一浅，整棵就倒。", 8.2, "#8A7C69"))
