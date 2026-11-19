@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 380 640" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="反者道之动：一个动作，连翻三回" font-family="'Noto Serif CJK SC','Noto Serif SC','Songti SC',serif">
+<defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#6E6459"/></marker><marker id="arr2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#4A5C55"/></marker><marker id="arrL" viewBox="0 0 10 10" refX="1" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M10 0 L0 5 L10 10 z" fill="#4A5C55"/></marker><marker id="arrS" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#A2503B"/></marker></defs>
+<rect x="0" y="0" width="380" height="640" fill="#F8F3E6"/>
+<text x="20" y="26" font-size="11" fill="#A2503B" font-family="'Noto Sans CJK SC','Noto Sans SC',sans-serif" letter-spacing="3">第 四 十 章 · 生 发 动 力</text>
+<text x="20" y="58" font-size="21" fill="#2F2A24">一次动，三次翻</text>
+<text x="20" y="78" font-size="10.5" fill="#6E6459">不是三台机器，是同一个「反」翻了三回。</text>
+<text x="20" y="116" font-size="9.5" fill="#8A7C69">动 ①</text>
+<circle cx="48" cy="154" r="20" fill="none" stroke="#E6D8C2" stroke-width="0.8"/>
+<path d="M 48 134 A 20 20 0 0 1 48 174" fill="none" stroke="#A2503B" stroke-width="1.2" marker-end="url(#arrS)"/>
+<path d="M 48 174 A 20 20 0 0 1 48 134" fill="none" stroke="#4A5C55" stroke-width="1.2" marker-end="url(#arr2)"/>
+<text x="48" y="158" font-size="11.5" fill="#2F2A24" text-anchor="middle">反</text>
+<text x="48" y="200" font-size="10" fill="#A2503B" text-anchor="middle">道生一</text>
+<text x="88" y="134" font-size="9" fill="#6E6459">收成一团，还没分面</text>
+<circle cx="262" cy="154" r="30" fill="#FBF6EC" stroke="#2F2A24" stroke-width="1.2"/>
+<text x="262" y="159" font-size="12.5" fill="#2F2A24" text-anchor="middle">一</text>
+<text x="262" y="204" font-size="10" fill="#2F2A24" text-anchor="middle">一 · 太极</text>
+<text x="262" y="222" font-size="8.8" fill="#8A7C69" text-anchor="middle">圆而未判</text>
+<text x="20" y="264" font-size="9.5" fill="#8A7C69">动 ②</text>
+<circle cx="48" cy="302" r="20" fill="none" stroke="#E6D8C2" stroke-width="0.8"/>
+<path d="M 48 282 A 20 20 0 0 1 48 322" fill="none" stroke="#A2503B" stroke-width="1.2" marker-end="url(#arrS)"/>
+<path d="M 48 322 A 20 20 0 0 1 48 282" fill="none" stroke="#4A5C55" stroke-width="1.2" marker-end="url(#arr2)"/>
+<text x="48" y="306" font-size="11.5" fill="#2F2A24" text-anchor="middle">反</text>
+<text x="48" y="348" font-size="10" fill="#A2503B" text-anchor="middle">一生二</text>
+<text x="88" y="282" font-size="9" fill="#6E6459">一翻成两，同一道口两侧</text>
+<path d="M 232 302 A 30 30 0 0 1 292 302 Z" fill="#E4EBE7" stroke="#4A5C55" stroke-width="1"/>
+<path d="M 292 302 A 30 30 0 0 1 232 302 Z" fill="#F0E1D9" stroke="#A2503B" stroke-width="1"/>
+<text x="262" y="290" font-size="10" fill="#4A5C55" text-anchor="middle">阴</text>
+<text x="262" y="324" font-size="10" fill="#A2503B" text-anchor="middle">阳</text>
+<text x="262" y="352" font-size="10" fill="#2F2A24" text-anchor="middle">二 · 阴阳</text>
+<text x="262" y="370" font-size="8.8" fill="#8A7C69" text-anchor="middle">有与无、形与气</text>
+<text x="20" y="412" font-size="9.5" fill="#8A7C69">动 ③</text>
+<circle cx="48" cy="450" r="20" fill="none" stroke="#E6D8C2" stroke-width="0.8"/>
+<path d="M 48 430 A 20 20 0 0 1 48 470" fill="none" stroke="#A2503B" stroke-width="1.2" marker-end="url(#arrS)"/>
+<path d="M 48 470 A 20 20 0 0 1 48 430" fill="none" stroke="#4A5C55" stroke-width="1.2" marker-end="url(#arr2)"/>
+<text x="48" y="454" font-size="11.5" fill="#2F2A24" text-anchor="middle">反</text>
+<text x="48" y="496" font-size="10" fill="#A2503B" text-anchor="middle">二生三</text>
+<text x="88" y="430" font-size="9" fill="#6E6459">两面对立，中缝被撑开</text>
+<path d="M 232 439 A 30 30 0 0 1 292 439" fill="none" stroke="#4A5C55" stroke-width="2"/>
+<path d="M 232 461 A 30 30 0 0 0 292 461" fill="none" stroke="#A2503B" stroke-width="2"/>
+<line x1="295" y1="450" x2="304" y2="450" stroke="#B9A88E" stroke-width="0.8"/>
+<text x="312" y="454" font-size="10.5" fill="#8A7C69">三</text>
+<text x="262" y="506" font-size="10" fill="#2F2A24" text-anchor="middle">三 · 虚位</text>
+<text x="262" y="524" font-size="8.8" fill="#8A7C69" text-anchor="middle">缝不是东西，是撑出来的位</text>
+<rect x="20" y="550" width="340" height="52" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="190" y="572" font-size="10.5" fill="#2F2A24" text-anchor="middle">三生万物：靠的不是力气，是那道缝没被填实。</text>
+<text x="190" y="592" font-size="9.5" fill="#6E6459" text-anchor="middle">反不是往回退，是翻到另一面；翻一次，显一层。</text>
+</svg>

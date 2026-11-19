@@ -634,6 +634,57 @@ def ch81_bu_ji():
     return "\n".join(s)
 
 
+
+# ============ 第四十章 · 三动图（反者道之动 → 生一、二、三） ============
+def ch40_san_dong():
+    W, H = 380, 640
+    body, y = head(W, H, "反者道之动：一个动作，连翻三回", "第 四 十 章 · 生 发 动 力", "一次动，三次翻",
+                   "不是三台机器，是同一个「反」翻了三回。", H)
+    s = [body]
+    rows = [
+        ("动 ①", "道生一", "收成一团，还没分面", "一 · 太极", "圆而未判"),
+        ("动 ②", "一生二", "一翻成两，同一道口两侧", "二 · 阴阳", "有与无、形与气"),
+        ("动 ③", "二生三", "两面对立，中缝被撑开", "三 · 虚位", "缝不是东西，是撑出来的位"),
+    ]
+    ys, rowh = y + 4, 148
+    cx, r = 262, 30
+    for i, (tag, act, note, label, sub) in enumerate(rows):
+        yy = ys + i * rowh
+        s.append(txt(20, yy + 12, tag, 9.5, "#8A7C69"))
+        # 反：环
+        ax, ay = 48, yy + 50
+        s.append(f'<circle cx="{ax}" cy="{ay}" r="20" fill="none" stroke="{LINE2}" stroke-width="0.8"/>')
+        s.append(f'<path d="M {ax} {ay-20} A 20 20 0 0 1 {ax} {ay+20}" fill="none" stroke="{SEAL}" stroke-width="1.2" marker-end="url(#arrS)"/>')
+        s.append(f'<path d="M {ax} {ay+20} A 20 20 0 0 1 {ax} {ay-20}" fill="none" stroke="{GREEN}" stroke-width="1.2" marker-end="url(#arr2)"/>')
+        s.append(txt(ax, ay + 4, "反", 11.5, INK, "middle"))
+        s.append(txt(ax, yy + 96, act, 10, SEAL, "middle"))
+        s.append(txt(88, yy + 30, note, 9, "#6E6459"))
+        # 右：结果
+        cy = yy + 50
+        if i == 0:
+            s.append(f'<circle cx="{cx}" cy="{cy}" r="{r}" fill="#FBF6EC" stroke="{INK}" stroke-width="1.2"/>')
+            s.append(txt(cx, cy + 5, "一", 12.5, INK, "middle"))
+        elif i == 1:
+            s.append(f'<path d="M {cx-r} {cy} A {r} {r} 0 0 1 {cx+r} {cy} Z" fill="#E4EBE7" stroke="{GREEN}" stroke-width="1"/>')
+            s.append(f'<path d="M {cx+r} {cy} A {r} {r} 0 0 1 {cx-r} {cy} Z" fill="#F0E1D9" stroke="{SEAL}" stroke-width="1"/>')
+            s.append(txt(cx, cy - 12, "阴", 10, GREEN, "middle"))
+            s.append(txt(cx, cy + 22, "阳", 10, SEAL, "middle"))
+        else:
+            gap = 11
+            s.append(f'<path d="M {cx-r} {cy-gap} A {r} {r} 0 0 1 {cx+r} {cy-gap}" fill="none" stroke="{GREEN}" stroke-width="2"/>')
+            s.append(f'<path d="M {cx-r} {cy+gap} A {r} {r} 0 0 0 {cx+r} {cy+gap}" fill="none" stroke="{SEAL}" stroke-width="2"/>')
+            s.append(f'<line x1="{cx+r+3}" y1="{cy}" x2="{cx+r+12}" y2="{cy}" stroke="#B9A88E" stroke-width="0.8"/>')
+            s.append(txt(cx + r + 20, cy + 4, "三", 10.5, "#8A7C69"))
+        s.append(txt(cx, yy + (106 if i == 2 else 100), label, 10, INK, "middle"))
+        s.append(txt(cx, yy + (124 if i == 2 else 118), sub, 8.8, "#8A7C69", "middle"))
+    yb = ys + 3 * rowh + 2
+    s.append(box(20, yb, 340, 52, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, yb + 22, "三生万物：靠的不是力气，是那道缝没被填实。", 10.5, INK, "middle"))
+    s.append(txt(190, yb + 42, "反不是往回退，是翻到另一面；翻一次，显一层。", 9.5, "#6E6459", "middle"))
+    s.append('</svg>')
+    return "\n".join(s)
+
+
 FIGS = {
     "ch01-wu-you": ("第一章", "无有同出", ch01_wu_you),
     "ch01-zhi-yue": ("第一章", "指月三境", ch01_zhi_yue),
@@ -649,6 +700,7 @@ FIGS = {
     "ch67-san-bao": ("第六十七章", "三宝", ch67_san_bao),
     "ch77-zhang-gong": ("第七十七章", "张弓", ch77_zhang_gong),
     "ch81-bu-ji": ("第八十一章", "九个不", ch81_bu_ji),
+    "ch40-san-dong": ("第四十章", "一次动，三次翻", ch40_san_dong),
 }
 
 
