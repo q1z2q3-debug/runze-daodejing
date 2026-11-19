@@ -1518,6 +1518,10 @@ GOLD = {
     "ch23": ["自然不是「不管」，是「不需要管」——差别全在有没有人在使劲。", "信不足，不是话说得不够多，是话后面没有人。"],
     "ch24": ["借来的高度站不住，省下的步子走不远。", "不处不是割掉，是不长——约束是按住它，不处是根本不在那儿站。"],
     "ch25": ["不是它比天地老，是天地离了它不成。", "名是给有边界的东西用的；对没有边界的东西，名只是手指。"],
+    "ch42c": ["三不是第三样东西，是被二撑开的那道空。",
+               "分出去，又合回来；不是一条直线，是一条环。"],
+    "ch42b": ["纯阴则死，纯阳则散。",
+               "壁厚到把中空填实，器还在，用已亡。"],
     "ch41d": ["「晚成」是把终点挪远，「免成」是把终点取消。",
                "不是它没有样子，是任何样子都只是它的一块。"],
     "ch41c": ["下士没有看错，他看的是背面；他只是不知道那件东西还有另一面。",
@@ -3362,6 +3366,120 @@ def ch41d_da_qi_mian_cheng():
     return "\n".join(s)
 
 
+# ============ 第四十二章 · 和与合 ============
+def ch42b_he_yu_ge():
+    W, H = 380, 566
+    body, y = head(W, H, "和是动着的不散；合是抹去那道虚", "第 四 十 二 章 · 和 合",
+                   "和，不是合", "壁厚到把中空填实，器还在，用已亡。", H)
+    s = [body]
+
+    s.append(box(20, y + 2, 340, 30, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, y + 15, "万物负阴而抱阳，冲气以为和。", 7.2, INK, "middle"))
+    s.append(txt(190, y + 27, "负是背在背上，抱是抱在怀里：一物之内，阴在背，阳在怀。", 5.7, "#6E6459", "middle"))
+
+    a = y + 52
+    cx, r = 84, 40
+
+    # 一、和
+    s.append(txt(24, a, "一 · 和：中间那道虚还空着", 6.4, GREEN))
+    cy = a + 62
+    s.append(f'<circle cx="{cx}" cy="{cy}" r="{r+6}" fill="#E6D8C2" stroke="{INK}" stroke-width="0.9"/>')
+    s.append(f'<circle cx="{cx}" cy="{cy}" r="{r-2}" fill="{PAPER}" stroke="{INK}" stroke-width="0.9"/>')
+    s.append(txt(cx, cy + 4, "阳", 8.6, GREEN, "middle"))
+    s.append(f'<path d="M{cx-14},{cy+14} a18,18 0 0 1 28,-24" fill="none" stroke="{SEAL}" stroke-width="0.7"/>')
+    s.append(f'<path d="M{cx+12},{cy-14} l5,3 l-6,3" fill="none" stroke="{SEAL}" stroke-width="0.7"/>')
+    s.append(f'<path d="M{cx+14},{cy-14} a18,18 0 0 1 -28,24" fill="none" stroke="{GREEN}" stroke-width="0.7"/>')
+    s.append(f'<path d="M{cx-12},{cy+14} l-5,-3 l6,-3" fill="none" stroke="{GREEN}" stroke-width="0.7"/>')
+    s.append(txt(cx, cy + r + 22, "壁＝阴（背），腔＝阳（怀）", 5.4, "#6E6459", "middle"))
+    s.append(txt(150, a + 22, "阴守住成形的边界，阳保有流通的动能，二者互不吞并。", 6.1, INK))
+    s.append(txt(150, a + 40, "靠的正是中间那道虚位：它不固化、不占据，", 6.1, INK))
+    s.append(txt(150, a + 54, "才容得下两端持续涌摇往来。", 6.1, INK))
+    s.append(txt(150, a + 78, "这就是和——", 6.6, GREEN))
+    s.append(txt(150, a + 94, "不是静止的均衡，是动着的不散。", 6.6, GREEN))
+
+    # 二、合
+    b = a + 150
+    s.append(txt(24, b, "二 · 合：把虚位填实，强行归一", 6.4, SEAL))
+    cy2 = b + 62
+    s.append(f'<circle cx="{cx}" cy="{cy2}" r="{r+6}" fill="#E6D8C2" stroke="{INK}" stroke-width="0.9"/>')
+    s.append(f'<circle cx="{cx}" cy="{cy2}" r="{r-2}" fill="#D9CBB2" stroke="{SEAL}" stroke-width="0.8"/>')
+    for i in range(-3, 4):
+        s.append(f'<line x1="{cx-30}" y1="{cy2+i*9}" x2="{cx+30}" y2="{cy2+i*9}" stroke="{SEAL}" stroke-width="0.4" opacity="0.55"/>')
+    s.append(txt(cx, cy2 + 4, "实", 7.6, SEAL, "middle"))
+    s.append(txt(cx, cy2 + r + 22, "外壳还在，形制还像", 5.4, "#6E6459", "middle"))
+    s.append(txt(150, b + 22, "用泥把中空填满：阳的流通场没了。", 6.1, INK))
+    s.append(txt(150, b + 40, "抹去那道虚、消掉差异、强行归一，器就成了泥坨。", 6.1, INK))
+    s.append(txt(150, b + 54, "有之利还在，无之用已绝。", 6.1, "#6E6459"))
+    s.append(txt(150, b + 78, "合是消掉中间，", 6.6, SEAL))
+    s.append(txt(150, b + 94, "和是容下中间。", 6.6, SEAL))
+
+    y2 = b + 136
+    s.append(f'<line x1="24" y1="{y2-8}" x2="338" y2="{y2-8}" stroke="{LINE}" stroke-width="0.6"/>')
+    s.append(box(20, y2 + 2, 340, 46, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, y2 + 20, "纯阴则死，纯阳则散；一物之内，形质在外撑着，气化在内转着。", 6.5, INK, "middle"))
+    s.append(txt(190, y2 + 34, "抹去中间那道虚，器还在，用已亡。", 6.4, "#6E6459", "middle"))
+    s.append(gold(y2 + 62, "ch42b"))
+    s.append('</svg>')
+    return "\n".join(s)
+
+
+# ============ 第四十二章 · 一圈正反合 ============
+def ch42c_zheng_fan_he():
+    W, H = 380, 520
+    body, y = head(W, H, "分出去，又合回来；不是一条直线，是一条环", "第 四 十 二 章 · 一 环",
+                   "正 · 分 · 散 · 和", "三不是第三样东西，是被二撑开的那道空。", H)
+    s = [body]
+
+    a = y + 22
+    s.append(f'<rect x="52" y="{a}" width="252" height="212" rx="26" fill="none" stroke="{LINE2}" stroke-width="0.7"/>')
+
+    # 四节点
+    s.append(box(56, a + 8, 96, 40, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(104, a + 25, "道", 8.0, INK, "middle"))
+    s.append(txt(104, a + 39, "正 · 未分", 5.6, "#6E6459", "middle"))
+
+    s.append(box(204, a + 8, 96, 40, fill="#F7F1E3", stroke="#E6D8C2"))
+    s.append(txt(252, a + 25, "一 · 二 · 三", 6.6, INK, "middle"))
+    s.append(txt(252, a + 39, "分 · 撑开虚位", 5.6, "#6E6459", "middle"))
+
+    s.append(box(204, a + 164, 96, 40, fill="#F7F1E3", stroke="#E6D8C2"))
+    s.append(txt(252, a + 181, "万物", 8.0, INK, "middle"))
+    s.append(txt(252, a + 195, "散 · 配比不同", 5.6, "#6E6459", "middle"))
+
+    s.append(box(56, a + 164, 96, 40, fill="#F6E9E2", stroke="{SEAL}".replace("{","").replace("}","") if False else "#D9B7A6"))
+    s.append(txt(104, a + 181, "和", 8.0, GREEN, "middle"))
+    s.append(txt(104, a + 195, "动着不散", 5.6, "#6E6459", "middle"))
+
+    # 顺时针箭头
+    s.append(f'<line x1="156" y1="{a+28}" x2="196" y2="{a+28}" stroke="{INK}" stroke-width="0.7"/>')
+    s.append(f'<path d="M196,{a+24} l7,4 l-7,4 z" fill="{INK}"/>')
+    s.append(f'<line x1="252" y1="{a+54}" x2="252" y2="{a+158}" stroke="{INK}" stroke-width="0.7"/>')
+    s.append(f'<path d="M248,{a+158} l4,7 l4,-7 z" fill="{INK}"/>')
+    s.append(f'<line x1="198" y1="{a+184}" x2="160" y2="{a+184}" stroke="{INK}" stroke-width="0.7"/>')
+    s.append(f'<path d="M160,{a+180} l-7,4 l7,4 z" fill="{INK}"/>')
+    s.append(f'<line x1="104" y1="{a+158}" x2="104" y2="{a+58}" stroke="{SEAL}" stroke-width="0.9"/>')
+    s.append(f'<path d="M100,{a+58} l4,-7 l4,7 z" fill="{SEAL}"/>')
+    s.append(txt(116, a + 100, "反", 7.4, SEAL))
+    s.append(txt(116, a + 112, "者", 7.4, SEAL))
+    s.append(txt(116, a + 124, "道", 7.4, SEAL))
+    s.append(txt(116, a + 136, "之", 7.4, SEAL))
+    s.append(txt(116, a + 148, "动", 7.4, SEAL))
+
+    # 中心
+    s.append(txt(190, a + 100, "虚位", 7.6, INK, "middle"))
+    s.append(txt(190, a + 116, "盅·中·冲", 5.6, "#6E6459", "middle"))
+    s.append(txt(190, a + 134, "三不是第三样东西", 5.4, SEAL, "middle"))
+
+    y2 = a + 230
+    s.append(box(20, y2, 340, 48, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, y2 + 16, "三生万物之后，还要「冲气以为和」：中间那道虚没被填实，环才接得上。", 6.2, INK, "middle"))
+    s.append(txt(190, y2 + 31, "把虚填实叫「合」——外壳还在，环断了；容着虚叫「和」——路还通着。", 6.2, "#6E6459", "middle"))
+    s.append(txt(190, y2 + 44, "所以这条链不是直线往前，是分出去、又合回来。", 6.4, GREEN, "middle"))
+    s.append(gold(y2 + 62, "ch42c"))
+    s.append('</svg>')
+    return "\n".join(s)
+
+
 
 FIGS = {
     "ch01-wu-you": ("第一章", "无有同出", ch01_wu_you),
@@ -3386,6 +3504,8 @@ FIGS = {
     "ch41b-fan-guo-lai": ("第四十一章", "翻过来，全是反面", ch41b_fan_guo_lai),
     "ch41c-san-zhong-kan-bei": ("第四十一章", "三种看杯", ch41c_san_zhong_kan_bei),
     "ch41d-da-qi-mian-cheng": ("第四十一章", "大器免成", ch41d_da_qi_mian_cheng),
+    "ch42b-he-yu-ge": ("第四十二章", "和，不是合", ch42b_he_yu_ge),
+    "ch42c-zheng-fan-he": ("第四十二章", "正 · 分 · 散 · 和", ch42c_zheng_fan_he),
     "ch12-wu-se": ("第十二章", "门开五处", ch12_wu_se),
     "ch13-chong-ru": ("第十三章", "惊的是我", ch13_chong_ru),
     "ch14-yi-xi-wei": ("第十四章", "三样工具探不到", ch14_yi_xi_wei),
