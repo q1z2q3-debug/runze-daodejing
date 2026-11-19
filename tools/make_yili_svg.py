@@ -1524,6 +1524,9 @@ GOLD = {
     "ch48c": ["「取天下」的「取」是割耳朵，所以老子换了一个动作：不是割，是不动。"],
     "ch47a": ["透过框看，你看见的每一块都是真的；可你真的没看见框外。"],
     "ch47b": ["其出弥远，其知弥少。"],
+    "ch56a": ["锐是芒，不是刀；芒不伤人，只扎人；所以要磨，不要砍。"],
+    "ch56b": ["纷是套，不是乱；乱能理，套只能解。"],
+    "ch56c": ["六把尺都要一个「我」在中间才量得动；中间空了，尺就落不下来。"],
     "ch55a": ["藏是往里放，含是含在嘴边；藏起来的东西会忘，含在嘴里的忘不掉。"],
     "ch55b": ["成年人攥拳是为了抓，婴儿攥拳是为了收；抓是往外，收是往里，一只是同一只手。"],
     "ch55c": ["婴儿哭一天嗓子不坏，不是嗓子好，是他从不憋气；一憋，就有了「存」，有了「伤」。"],
@@ -5703,6 +5706,169 @@ def ch55c_yi_gen_guan():
     return "\n".join(s)
 
 
+# ============ 第五十六章 · 一根芒 ============
+def ch56a_yi_gen_mang():
+    W, H = 380, 600
+    body, y = head(W, H, "挫其锐：锐是芒，不是刀；芒不伤人，只扎人",
+                   "第 五 十 六 章 · 芒", "一根芒", "挫其锐，解其纷。", H)
+    s = [body]
+
+    s.append(box(20, y + 2, 340, 30, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, y + 14, "「锐」，《说文》「芒也」——芒是禾本科植物尖端那一根细刺。", 5.2, INK, "middle"))
+    s.append(txt(190, y + 26, "它不伤人，它只是扎人；人身上的芒，就是那点「我比你明白」的尖。", 5.2, "#6E6459", "middle"))
+
+    def leaf(gy):
+        o = []
+        o.append(f'<line x1="38" y1="{gy}" x2="130" y2="{gy}" stroke="{INK}" stroke-width="1"/>')
+        o.append(f'<path d="M50,{gy} C66,{gy-26} 76,{gy-40} 84,{gy-50}" fill="none" stroke="{GREEN}" stroke-width="2.8"/>')
+        return o
+
+    # 一、没磨过
+    t1 = y + 46
+    s.append(txt(24, t1, "一、没磨过：尖还在，一碰就扎", 5.4, SEAL))
+    gy1 = t1 + 120
+    s += leaf(gy1)
+    s.append(f'<line x1="84" y1="{gy1-50}" x2="112" y2="{gy1-68}" stroke="{SEAL}" stroke-width="1.3"/>')
+    s.append(f'<circle cx="122" cy="{gy1-72}" r="5.5" fill="#EFE6D4" stroke="{INK}" stroke-width="0.9"/>')
+    s.append(f'<line x1="126" y1="{gy1-74}" x2="162" y2="{gy1-62}" stroke="{INK}" stroke-width="1.6"/>')
+    s.append(txt(128, gy1 - 82, "一碰就扎", 4.8, SEAL))
+    s.append(txt(44, gy1 + 12, "芒：草尖上那一根细刺", 4.4, "#6E6459"))
+
+    # 二、磨过
+    t2 = gy1 + 28
+    s.append(txt(24, t2, "二、磨过：尖磨平了，才不扎", 5.4, GREEN))
+    gy2 = t2 + 120
+    s += leaf(gy2)
+    s.append(f'<line x1="84" y1="{gy2-50}" x2="106" y2="{gy2-64}" stroke="{SEAL}" stroke-width="1.3"/>')
+    s.append(f'<line x1="102" y1="{gy2-67}" x2="112" y2="{gy2-64}" stroke="{SEAL}" stroke-width="2.2"/>')
+    s.append(f'<line x1="106" y1="{gy2-64}" x2="116" y2="{gy2-71}" stroke="{SEAL}" stroke-width="0.4" stroke-dasharray="3 3"/>')
+    s.append(f'<circle cx="124" cy="{gy2-74}" r="5.5" fill="#EFE6D4" stroke="{INK}" stroke-width="0.9"/>')
+    s.append(arrow(130, gy2 - 80, 168, gy2 - 90, GREEN, 0.7, head="arr2"))
+    s.append(txt(140, gy2 - 96, "滑过去", 4.8, GREEN))
+    s.append(txt(40, gy2 + 12, "虚线：原来那根尖", 4.4, "#6E6459"))
+
+    b = gy2 + 40
+    s.append(txt(24, b, "「挫」是磨，不是砍——砍是断，磨是平；断了的还会再长，磨平了才不扎。", 5.2, INK))
+    s.append(txt(24, b + 16, "而人身上那根芒，多半长在「我比你明白」这句话上。", 5.2, INK))
+    s.append(txt(24, b + 32, "它不刺人，可一碰就扎；扎的不是对方，是那点不肯放的明白。", 5.2, GREEN))
+
+    c = b + 50
+    s.append(f'<line x1="24" y1="{c}" x2="338" y2="{c}" stroke="{LINE}" stroke-width="0.6"/>')
+    s.append(box(20, c + 8, 340, 40, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, c + 24, "锐是芒，不是刀；芒不伤人，只扎人；", 6.0, INK, "middle"))
+    s.append(txt(190, c + 36, "所以要磨，不要砍。", 6.0, GREEN, "middle"))
+    s.append(gold(c + 62, "ch56a"))
+    s.append('</svg>')
+    return "\n".join(s)
+
+
+# ============ 第五十六章 · 一个套 ============
+def ch56b_yi_ge_tao():
+    W, H = 380, 676
+    body, y = head(W, H, "解其纷：纷是马尾韬，是那个套子，不是那团乱",
+                   "第 五 十 六 章 · 套", "一个套", "解其纷，和其光，同其尘。", H)
+    s = [body]
+
+    s.append(box(20, y + 2, 340, 30, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, y + 14, "「纷」，《说文》「马尾韬也」——韬是套子，缠在马尾上，防它跑起来乱甩。", 5.2, INK, "middle"))
+    s.append(txt(190, y + 26, "所以纷的本义不是「乱」，是「用来对付乱的那个东西」。", 5.2, "#6E6459", "middle"))
+
+    def strands(cx, cy, spread):
+        o = []
+        for k in range(6):
+            t = (k - 2.5)
+            xs = cx + t * 2.6
+            xb = cx + t * spread
+            o.append(f'<path d="M{xs:.1f},{cy-54} C{xs:.1f},{cy-16} {xb:.1f},{cy+16} {xb:.1f},{cy+54}" fill="none" stroke="{INK}" stroke-width="1.1"/>')
+        return o
+
+    # 一、缠着
+    t1 = y + 46
+    s.append(txt(24, t1, "一、缠着：为了不乱，先缠上一个套", 5.4, SEAL))
+    cy1 = t1 + 84
+    for part in strands(150, cy1, 3.2):
+        s.append(part)
+    s.append(box(120, cy1 - 9, 60, 18, fill="#EFE6D4", stroke=SEAL, width=0.8))
+    s.append(f'<line x1="120" y1="{cy1-9}" x2="118" y2="{cy1-14}" stroke="{SEAL}" stroke-width="0.8"/>')
+    s.append(f'<line x1="180" y1="{cy1-9}" x2="182" y2="{cy1-14}" stroke="{SEAL}" stroke-width="0.8"/>')
+    s.append(txt(206, cy1 - 6, "套：缠住了，尾巴不敢甩", 4.8, SEAL))
+    s.append(txt(206, cy1 + 6, "缠久了，它就长在尾巴上", 4.4, "#6E6459"))
+    s.append(txt(150, cy1 + 70, "一套规矩、一句座右铭、一个「我一向如此」", 4.6, "#6E6459", "middle"))
+
+    # 二、解开
+    t2 = cy1 + 92
+    s.append(txt(24, t2, "二、解开：放开那个缠，让它自己顺", 5.4, GREEN))
+    cy2 = t2 + 84
+    for part in strands(150, cy2, 24):
+        s.append(part)
+    s.append(f'<path d="M92,{cy2-2} C96,{cy2-12} 106,{cy2-14} 112,{cy2-6}" fill="none" stroke="{GREEN}" stroke-width="1"/>')
+    s.append(f'<path d="M208,{cy2-2} C204,{cy2-12} 194,{cy2-14} 188,{cy2-6}" fill="none" stroke="{GREEN}" stroke-width="1"/>')
+    s.append(txt(94, cy2 - 44, "套松脱了", 4.8, GREEN, "end"))
+    s.append(txt(206, cy2 + 18, "尾巴会甩一阵", 4.8, GREEN))
+    s.append(txt(206, cy2 + 30, "甩过之后，它自己会顺", 4.4, "#6E6459"))
+    s.append(txt(150, cy2 + 70, "解：不是理顺，是松绑", 4.8, GREEN, "middle"))
+
+    b = cy2 + 92
+    s.append(txt(24, b, "「纷」是套，不是乱；乱能理，套只能解。", 5.2, INK))
+    s.append(txt(24, b + 16, "人心里那些「为了不让自己乱」的规矩，缠久了，就是新的乱。", 5.2, INK))
+    s.append(txt(24, b + 32, "放了，尾巴会甩一阵；甩过之后，它自己会顺。", 5.2, GREEN))
+
+    c = b + 50
+    s.append(f'<line x1="24" y1="{c}" x2="338" y2="{c}" stroke="{LINE}" stroke-width="0.6"/>')
+    s.append(box(20, c + 8, 340, 40, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, c + 24, "纷是套，不是乱；", 6.0, INK, "middle"))
+    s.append(txt(190, c + 36, "乱能理，套只能解。", 6.0, GREEN, "middle"))
+    s.append(gold(c + 62, "ch56b"))
+    s.append('</svg>')
+    return "\n".join(s)
+
+
+# ============ 第五十六章 · 六把尺 ============
+def ch56c_liu_ba_chi():
+    W, H = 380, 588
+    body, y = head(W, H, "不可得而亲……不可得而贱：六把尺都要一个「我」在中间才量得动",
+                   "第 五 十 六 章 · 尺", "六把尺", "是谓玄同……故为天下贵。", H)
+    s = [body]
+
+    s.append(box(20, y + 2, 340, 30, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, y + 14, "亲疏、利害、贵贱，是世人最核心的六把尺；三组都建立在一个前提上：有一个「我」在中间。", 5.0, INK, "middle"))
+    s.append(txt(190, y + 26, "「不可得而」四个字，说的是：拿不到——那六把尺，在他身上找不到落脚的地方。", 5.2, "#6E6459", "middle"))
+
+    t1 = y + 46
+    s.append(txt(24, t1, "六把尺朝中间伸，中间那个位置空了", 5.4, SEAL))
+
+    cx, cy, r0, r1 = 190, t1 + 150, 30, 78
+    s.append(f'<circle cx="{cx}" cy="{cy}" r="{r0}" fill="none" stroke="{SEAL}" stroke-width="0.8" stroke-dasharray="4 3"/>')
+    s.append(txt(cx, cy + 4, "空", 7.0, SEAL, "middle"))
+
+    import math
+    labels = ["亲", "利", "贵", "害", "疏", "贱"]
+    for k in range(6):
+        ang = -90 + k * 60
+        ax, ay = math.cos(math.radians(ang)), math.sin(math.radians(ang))
+        x1, y1 = cx + ax * (r0 + 4), cy + ay * (r0 + 4)
+        x2, y2 = cx + ax * r1, cy + ay * r1
+        s.append(f'<line x1="{x1:.1f}" y1="{y1:.1f}" x2="{x2:.1f}" y2="{y2:.1f}" stroke="{INK}" stroke-width="2.6"/>')
+        s.append(f'<line x1="{x1:.1f}" y1="{y1:.1f}" x2="{x2:.1f}" y2="{y2:.1f}" stroke="{LINE2}" stroke-width="0.4" stroke-dasharray="2 3"/>')
+        lx, ly = cx + ax * (r1 + 16), cy + ay * (r1 + 16)
+        s.append(txt(round(lx, 1), round(ly + 3, 1), labels[k], 5.4, INK, "middle"))
+    s.append(txt(cx, cy + 112, "尺都悬在外面：落不下来", 4.8, GREEN, "middle"))
+
+    b = cy + 128
+    s.append(txt(24, b, "合我意则亲、则利、则贵；逆我意则疏、则害、则贱——尺一动，都要那个「我」在中间。", 5.0, INK))
+    s.append(txt(24, b + 16, "不是他没有亲疏，是那六把尺在他身上找不到落脚的地方。", 5.2, INK))
+    s.append(txt(24, b + 32, "「玄同」也不是大家都一样：一样是抹平，玄同是接上而看不出接头。", 5.0, GREEN))
+
+    c = b + 50
+    s.append(f'<line x1="24" y1="{c}" x2="338" y2="{c}" stroke="{LINE}" stroke-width="0.6"/>')
+    s.append(box(20, c + 8, 340, 40, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, c + 24, "六把尺都要一个「我」在中间才量得动；", 6.0, INK, "middle"))
+    s.append(txt(190, c + 36, "中间空了，尺就落不下来。", 6.0, GREEN, "middle"))
+    s.append(gold(c + 62, "ch56c"))
+    s.append('</svg>')
+    return "\n".join(s)
+
+
 FIGS = {
     "ch01-wu-you": ("第一章", "无有同出", ch01_wu_you),
     "ch01-zhi-yue": ("第一章", "指月三境", ch01_zhi_yue),
@@ -5766,6 +5932,9 @@ FIGS = {
     "ch55a-yi-zhang-zui": ("第五十五章", "一张嘴", ch55a_yi_zhang_zui),
     "ch55b-yi-zhi-quan": ("第五十五章", "一只拳", ch55b_yi_zhi_quan),
     "ch55c-yi-gen-guan": ("第五十五章", "一根管", ch55c_yi_gen_guan),
+    "ch56a-yi-gen-mang": ("第五十六章", "一根芒", ch56a_yi_gen_mang),
+    "ch56b-yi-ge-tao": ("第五十六章", "一个套", ch56b_yi_ge_tao),
+    "ch56c-liu-ba-chi": ("第五十六章", "六把尺", ch56c_liu_ba_chi),
     "ch12-wu-se": ("第十二章", "门开五处", ch12_wu_se),
     "ch13-chong-ru": ("第十三章", "惊的是我", ch13_chong_ru),
     "ch14-yi-xi-wei": ("第十四章", "三样工具探不到", ch14_yi_xi_wei),

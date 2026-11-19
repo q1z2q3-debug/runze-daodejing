@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 380 676" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="解其纷：纷是马尾韬，是那个套子，不是那团乱" font-family="'Noto Serif CJK SC','Noto Serif SC','Songti SC',serif">
+<defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#6E6459"/></marker><marker id="arr2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#4A5C55"/></marker><marker id="arrL" viewBox="0 0 10 10" refX="1" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M10 0 L0 5 L10 10 z" fill="#4A5C55"/></marker><marker id="arrS" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#A2503B"/></marker></defs>
+<rect x="0" y="0" width="380" height="676" fill="#F8F3E6"/>
+<text x="20" y="26" font-size="11" fill="#A2503B" font-family="'Noto Sans CJK SC','Noto Sans SC',sans-serif" letter-spacing="3">第 五 十 六 章 · 套</text>
+<text x="20" y="58" font-size="21" fill="#2F2A24">一个套</text>
+<text x="20" y="78" font-size="10.5" fill="#6E6459">解其纷，和其光，同其尘。</text>
+<rect x="20" y="102" width="340" height="30" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="190" y="114" font-size="5.2" fill="#2F2A24" text-anchor="middle">「纷」，《说文》「马尾韬也」——韬是套子，缠在马尾上，防它跑起来乱甩。</text>
+<text x="190" y="126" font-size="5.2" fill="#6E6459" text-anchor="middle">所以纷的本义不是「乱」，是「用来对付乱的那个东西」。</text>
+<text x="24" y="146" font-size="5.4" fill="#A2503B">一、缠着：为了不乱，先缠上一个套</text>
+<path d="M143.5,176 C143.5,214 142.0,246 142.0,284" fill="none" stroke="#2F2A24" stroke-width="1.1"/>
+<path d="M146.1,176 C146.1,214 145.2,246 145.2,284" fill="none" stroke="#2F2A24" stroke-width="1.1"/>
+<path d="M148.7,176 C148.7,214 148.4,246 148.4,284" fill="none" stroke="#2F2A24" stroke-width="1.1"/>
+<path d="M151.3,176 C151.3,214 151.6,246 151.6,284" fill="none" stroke="#2F2A24" stroke-width="1.1"/>
+<path d="M153.9,176 C153.9,214 154.8,246 154.8,284" fill="none" stroke="#2F2A24" stroke-width="1.1"/>
+<path d="M156.5,176 C156.5,214 158.0,246 158.0,284" fill="none" stroke="#2F2A24" stroke-width="1.1"/>
+<rect x="120" y="221" width="60" height="18" fill="#EFE6D4" stroke="#A2503B" stroke-width="0.8"/>
+<line x1="120" y1="221" x2="118" y2="216" stroke="#A2503B" stroke-width="0.8"/>
+<line x1="180" y1="221" x2="182" y2="216" stroke="#A2503B" stroke-width="0.8"/>
+<text x="206" y="224" font-size="4.8" fill="#A2503B">套：缠住了，尾巴不敢甩</text>
+<text x="206" y="236" font-size="4.4" fill="#6E6459">缠久了，它就长在尾巴上</text>
+<text x="150" y="300" font-size="4.6" fill="#6E6459" text-anchor="middle">一套规矩、一句座右铭、一个「我一向如此」</text>
+<text x="24" y="322" font-size="5.4" fill="#4A5C55">二、解开：放开那个缠，让它自己顺</text>
+<path d="M143.5,352 C143.5,390 90.0,422 90.0,460" fill="none" stroke="#2F2A24" stroke-width="1.1"/>
+<path d="M146.1,352 C146.1,390 114.0,422 114.0,460" fill="none" stroke="#2F2A24" stroke-width="1.1"/>
+<path d="M148.7,352 C148.7,390 138.0,422 138.0,460" fill="none" stroke="#2F2A24" stroke-width="1.1"/>
+<path d="M151.3,352 C151.3,390 162.0,422 162.0,460" fill="none" stroke="#2F2A24" stroke-width="1.1"/>
+<path d="M153.9,352 C153.9,390 186.0,422 186.0,460" fill="none" stroke="#2F2A24" stroke-width="1.1"/>
+<path d="M156.5,352 C156.5,390 210.0,422 210.0,460" fill="none" stroke="#2F2A24" stroke-width="1.1"/>
+<path d="M92,404 C96,394 106,392 112,400" fill="none" stroke="#4A5C55" stroke-width="1"/>
+<path d="M208,404 C204,394 194,392 188,400" fill="none" stroke="#4A5C55" stroke-width="1"/>
+<text x="94" y="362" font-size="4.8" fill="#4A5C55" text-anchor="end">套松脱了</text>
+<text x="206" y="424" font-size="4.8" fill="#4A5C55">尾巴会甩一阵</text>
+<text x="206" y="436" font-size="4.4" fill="#6E6459">甩过之后，它自己会顺</text>
+<text x="150" y="476" font-size="4.8" fill="#4A5C55" text-anchor="middle">解：不是理顺，是松绑</text>
+<text x="24" y="498" font-size="5.2" fill="#2F2A24">「纷」是套，不是乱；乱能理，套只能解。</text>
+<text x="24" y="514" font-size="5.2" fill="#2F2A24">人心里那些「为了不让自己乱」的规矩，缠久了，就是新的乱。</text>
+<text x="24" y="530" font-size="5.2" fill="#4A5C55">放了，尾巴会甩一阵；甩过之后，它自己会顺。</text>
+<line x1="24" y1="548" x2="338" y2="548" stroke="#DCCBB0" stroke-width="0.6"/>
+<rect x="20" y="556" width="340" height="40" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="190" y="572" font-size="6.0" fill="#2F2A24" text-anchor="middle">纷是套，不是乱；</text>
+<text x="190" y="584" font-size="6.0" fill="#4A5C55" text-anchor="middle">乱能理，套只能解。</text>
+<line x1="20" y1="610" x2="360" y2="610" stroke="#E6D8C2" stroke-width="0.8"/>
+<text x="20" y="624" font-size="8.0" fill="#A89577" letter-spacing="1">本 章 金 句</text>
+<text x="20" y="640" font-size="8.4" fill="#2F2A24">纷是套，不是乱；乱能理，套只能解。</text>
+</svg>
