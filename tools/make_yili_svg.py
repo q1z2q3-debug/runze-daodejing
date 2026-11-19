@@ -1518,6 +1518,10 @@ GOLD = {
     "ch23": ["自然不是「不管」，是「不需要管」——差别全在有没有人在使劲。", "信不足，不是话说得不够多，是话后面没有人。"],
     "ch24": ["借来的高度站不住，省下的步子走不远。", "不处不是割掉，是不长——约束是按住它，不处是根本不在那儿站。"],
     "ch25": ["不是它比天地老，是天地离了它不成。", "名是给有边界的东西用的；对没有边界的东西，名只是手指。"],
+    "ch40b": ["万物形于有，有自无中生；金钱为器壁，幸福是虚空。",
+               "外求终有尽，内守得本源；知反明弱用，静里见真诠。"],
+    "ch40a": ["道动常归反，物极必回还。",
+               "妙用存柔弱，不竞自安闲。"],
     "ch39b": ["数得清的是零件，数不清的才是那辆车。",
                "玉的体面是别人给的，石的体面是自己有的。"],
     "ch39a": ["「壹」是装满封口的壶；「一」只是一道横，没有盖。",
@@ -2989,6 +2993,126 @@ def ch39b_di_xia_san_zhi_jiao():
     return "\n".join(s)
 
 
+# ============ 第四十章 · 一台反装的机器 ============
+def ch40a_fan_zhuang_ji_qi():
+    W, H = 380, 594
+    body, y = head(W, H, "动力取自回环，方法取自柔曲，根基取自空位", "第 四 十 章 · 反 装",
+                   "一台反装的机器", "道从不硬来。", H)
+    s = [body]
+
+    s.append(box(20, y + 2, 340, 26, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, y + 18, "反者，道之动；弱者，道之用。天下万物生于有，有生于无。", 6.6, INK, "middle"))
+
+    a = y + 40
+    s.append(txt(76, a, "世人的机器", 6.2, "#6E6459", "middle"))
+    s.append(txt(268, a, "道的那台", 6.2, GREEN, "middle"))
+    s.append(f'<line x1="24" y1="{a+6}" x2="338" y2="{a+6}" stroke="{INK}" stroke-width="0.6"/>')
+
+    rh = 96
+    # 一、动力
+    r1 = a + 16
+    s.append(txt(26, r1 + 6, "动", 8.0, SEAL))
+    s.append(txt(26, r1 + 20, "力", 8.0, SEAL))
+    for i, (lx, ly) in enumerate(((60, r1 + 44), (76, r1 + 32), (92, r1 + 20))):
+        s.append(arrow(lx - 12, ly + 10, lx, ly, "#C9B79A", 0.9, head="arrS"))
+    s.append(txt(84, r1 + 62, "加码：再多、再快、再强", 5.8, "#6E6459", "middle"))
+    s.append(f'<circle cx="268" cy="{r1 + 34}" r="17" fill="none" stroke="{GREEN}" stroke-width="1"/>')
+    s.append(f'<path d="M268,{r1+17} a17,17 0 1 1 -0.1,0" fill="none" stroke="{GREEN}" stroke-width="1.2"/>')
+    s.append(f'<path d="M258,{r1+19} l6,-6 l6,6" fill="none" stroke="{GREEN}" stroke-width="1.1"/>')
+    s.append(txt(268, r1 + 66, "回环：力不往前使，往回转", 5.8, GREEN, "middle"))
+
+    # 二、方法
+    r2 = r1 + rh
+    s.append(txt(26, r2 + 6, "方", 8.0, SEAL))
+    s.append(txt(26, r2 + 20, "法", 8.0, SEAL))
+    s.append(f'<rect x="58" y="{r2+16}" width="42" height="16" fill="#F2EADA" stroke="{INK}" stroke-width="0.9"/>')
+    s.append(arrow(70, r2 + 2, 70, r2 + 13, "#C9B79A", 0.8, head="arrS"))
+    s.append(arrow(88, r2 + 2, 88, r2 + 13, "#C9B79A", 0.8, head="arrS"))
+    s.append(f'<path d="M72,{r2+56} l5,-4 l4,4 l5,-4" fill="none" stroke="{SEAL}" stroke-width="0.9"/>')
+    s.append(f'<line x1="79" y1="{r2+32}" x2="79" y2="{r2+54}" stroke="{INK}" stroke-width="1.2"/>')
+
+    s.append(txt(84, r2 + 70, "硬顶：顶住、压住、锁住", 5.8, "#6E6459", "middle"))
+    s.append(f'<path d="M232,{r2+54} C238,{r2+22} 262,{r2+14} 278,{r2+26} C292,{r2+36} 300,{r2+54} 304,{r2+58}" fill="none" stroke="{GREEN}" stroke-width="1.4"/>')
+    s.append(f'<circle cx="268" cy="{r2+17}" r="3" fill="{SEAL}"/>')
+    s.append(txt(268, r2 + 70, "柔曲：不加在硬处，加在软处", 5.8, GREEN, "middle"))
+
+    # 三、根基
+    r3 = r2 + rh
+    s.append(txt(26, r3 + 6, "根", 8.0, SEAL))
+    s.append(txt(26, r3 + 20, "基", 8.0, SEAL))
+    for i in range(3):
+        s.append(f'<rect x="{64}" y="{r3+48-i*13}" width="32" height="11" fill="#F2EADA" stroke="{INK}" stroke-width="0.8"/>')
+    s.append(txt(84, r3 + 70, "堆叠：堆到没有一处空", 5.8, "#6E6459", "middle"))
+    s.append(f'<rect x="238" y="{r3+22}" width="60" height="34" fill="none" stroke="{GREEN}" stroke-width="1" stroke-dasharray="6 5"/>')
+    s.append(txt(268, r3 + 43, "空位", 6.2, GREEN, "middle"))
+    s.append(txt(268, r3 + 70, "空位：留一个不被占据的位置", 5.8, GREEN, "middle"))
+
+    y2 = r3 + rh + 4
+    s.append(f'<line x1="24" y1="{y2}" x2="338" y2="{y2}" stroke="{LINE}" stroke-width="0.6"/>')
+    s.append(box(20, y2 + 8, 340, 50, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, y2 + 25, "两台机器都能转；世人的那台，转到某点就卡死。", 7.0, INK, "middle"))
+    s.append(txt(190, y2 + 39, "加无可加，顶无可顶，堆到没有一处空——力尽而事废。", 6.6, "#6E6459", "middle"))
+    s.append(txt(190, y2 + 51, "道的那台方向相反，所以能一直转。", 6.6, SEAL, "middle"))
+    s.append(gold(y2 + 68, "ch40a"))
+    s.append('</svg>')
+    return "\n".join(s)
+
+
+# ============ 第四十章 · 一翻二曲 ============
+def ch40b_fan_yu_qu():
+    W, H = 380, 540
+    body, y = head(W, H, "反不是对抗，是翻转；弱不是衰弱，是柔曲", "第 四 十 章 · 翻 与 曲",
+                   "一翻，二曲", "环上没有终点，只有转捩点。", H)
+    s = [body]
+
+    s.append(box(20, y + 2, 340, 30, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, y + 14, "反者，道之动；弱者，道之用。", 7.4, INK, "middle"))
+    s.append(txt(190, y + 27, "天下万物生于有，有生于无。", 6.6, "#6E6459", "middle"))
+
+    # 一、环
+    c1 = y + 58
+    cx, cy, r = 96, c1 + 42, 38
+    s.append(f'<circle cx="{cx}" cy="{cy}" r="{r}" fill="none" stroke="{INK}" stroke-width="1.1"/>')
+    s.append(txt(cx, cy + 4, "反", 13.0, INK, "middle"))
+    s.append(f'<path d="M{cx+6},{cy-r-2} l8,3 l-8,4 z" fill="{SEAL}"/>')
+    s.append(f'<path d="M{cx-6},{cy+r+2} l-8,-3 l8,-4 z" fill="{GREEN}"/>')
+    s.append(txt(cx, cy - r - 10, "翻过去", 5.8, SEAL, "middle"))
+    s.append(txt(cx, cy + r + 14, "翻回来", 5.8, GREEN, "middle"))
+    s.append(txt(160, c1 + 20, "「反」，《说文》「覆也」，从又从厂——", 6.4, INK))
+    s.append(txt(160, c1 + 33, "一只手把东西翻过来。", 6.4, INK))
+    s.append(txt(160, c1 + 50, "翻过去：推到顶，必向对面回转；", 6.2, "#6E6459"))
+    s.append(txt(160, c1 + 63, "翻回来：从向外追的路上回头。", 6.2, "#6E6459"))
+    s.append(txt(160, c1 + 80, "老子用「反」不用「返」：两件事，一条环。", 6.4, SEAL))
+
+    # 二、曲木
+    c2 = c1 + 116
+    s.append(txt(24, c2, "二 · 直者易折，弯者能活", 6.6, INK))
+    sx, sy = 74, c2 + 22
+    s.append(f'<line x1="{sx}" y1="{sy}" x2="{sx}" y2="{sy+56}" stroke="{INK}" stroke-width="2.2"/>')
+    s.append(f'<path d="M{sx-7},{sy+30} l7,-5 l7,5 l7,-5" fill="none" stroke="{SEAL}" stroke-width="0.9"/>')
+    s.append(txt(sx, sy + 72, "直的：一动就断", 5.6, "#6E6459", "middle"))
+    bx, by = 122, c2 + 22
+    s.append(f'<path d="M{bx},{by+56} C{bx+4},{by+30} {bx+14},{by+22} {bx+22},{by+26} C{bx+36},{by+32} {bx+40},{by+46} {bx+46},{by+56}" fill="none" stroke="{GREEN}" stroke-width="2.2"/>')
+    s.append(f'<circle cx="{bx+22}" cy="{by+18}" r="5" fill="{SEAL}"/>')
+    s.append(arrow(bx + 22, by + 4, bx + 22, by + 11, "#C9B79A", 0.7, head="arrS"))
+    s.append(txt(bx + 22, sy + 72, "弯的：还能弯", 5.6, GREEN, "middle"))
+    s.append(txt(190, c2 + 14, "「弱」，《说文》「桡也」——曲木，", 6.4, INK))
+    s.append(txt(190, c2 + 27, "木弯而不折的那个样子。", 6.4, INK))
+    s.append(txt(190, c2 + 44, "直的易折，弯的能活；硬的易碎，软的能存。", 6.2, "#6E6459"))
+    s.append(txt(190, c2 + 60, "绷得最紧的那一处，最先断。", 6.2, "#6E6459"))
+    s.append(txt(190, c2 + 78, "弱不是没力，是把力放在能回来的地方。", 6.4, SEAL))
+
+    yb = c2 + 104
+    s.append(f'<line x1="24" y1="{yb-6}" x2="338" y2="{yb-6}" stroke="{LINE}" stroke-width="0.6"/>')
+    s.append(box(20, yb + 2, 340, 50, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, yb + 19, "刚者求胜于一击，柔者求存于千日。", 7.6, INK, "middle"))
+    s.append(txt(190, yb + 34, "一击之后无处可退，千日之后仍在场中。", 6.8, "#6E6459", "middle"))
+    s.append(txt(190, yb + 47, "看懂物极必反，是为知止，不是撂手等坏。", 6.6, SEAL, "middle"))
+    s.append(gold(yb + 66, "ch40b"))
+    s.append('</svg>')
+    return "\n".join(s)
+
+
 
 FIGS = {
     "ch01-wu-you": ("第一章", "无有同出", ch01_wu_you),
@@ -3046,6 +3170,8 @@ FIGS = {
     "ch38-wu-ji-tai-jie": ("第三十八章", "五级滑落", ch38_wu_ji_tai_jie),
     "ch39a-liu-de-yi": ("第三十九章", "六样东西，各自不裂", ch39a_liu_de_yi),
     "ch39b-di-xia-san-zhi-jiao": ("第三十九章", "底下那三只脚", ch39b_di_xia_san_zhi_jiao),
+    "ch40a-fan-zhuang-ji-qi": ("第四十章", "一台反装的机器", ch40a_fan_zhuang_ji_qi),
+    "ch40b-fan-yu-qu": ("第四十章", "一翻，二曲", ch40b_fan_yu_qu),
 }
 
 
