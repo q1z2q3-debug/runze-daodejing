@@ -1518,6 +1518,8 @@ GOLD = {
     "ch23": ["自然不是「不管」，是「不需要管」——差别全在有没有人在使劲。", "信不足，不是话说得不够多，是话后面没有人。"],
     "ch24": ["借来的高度站不住，省下的步子走不远。", "不处不是割掉，是不长——约束是按住它，不处是根本不在那儿站。"],
     "ch25": ["不是它比天地老，是天地离了它不成。", "名是给有边界的东西用的；对没有边界的东西，名只是手指。"],
+    "ch41d": ["「晚成」是把终点挪远，「免成」是把终点取消。",
+               "不是它没有样子，是任何样子都只是它的一块。"],
     "ch41c": ["下士没有看错，他看的是背面；他只是不知道那件东西还有另一面。",
                "有之以为利，无之以为用。"],
     "ch41b": ["「晚成」是把终点挪远，「免成」是把终点取消。",
@@ -3303,6 +3305,63 @@ def ch41c_san_zhong_kan_bei():
     return "\n".join(s)
 
 
+# ============ 第四十一章 · 大器免成 ============
+def ch41d_da_qi_mian_cheng():
+    W, H = 380, 486
+    body, y = head(W, H, "「晚成」把终点挪远，「免成」把终点取消", "第 四 十 一 章 · 免 成",
+                   "大器免成", "不是不成器，是不封口。", H)
+    s = [body]
+
+    s.append(box(20, y + 2, 340, 30, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, y + 14, "帛书本作「大器免成」；通行本作「大器晚成」。", 6.4, INK, "middle"))
+    s.append(txt(190, y + 27, "「免」，脱除、除去——把「成」这件事从器上摘下来。", 6.2, SEAL, "middle"))
+
+    a = y + 48
+    # 左：晚成
+    s.append(txt(24, a + 6, "通行本 · 晚成", 6.6, "#6E6459"))
+    cx = 84
+    top = a + 24
+    s.append(f'<path d="M{cx-26},{top} L{cx-20},{top+50} L{cx+20},{top+50} L{cx+26},{top} Z" fill="none" stroke="{INK}" stroke-width="0.9"/>')
+    s.append(f'<line x1="{cx-27}" y1="{top-6}" x2="{cx+27}" y2="{top-6}" stroke="{INK}" stroke-width="1.1"/>')
+    s.append(f'<line x1="{cx-27}" y1="{top-6}" x2="{cx-27}" y2="{top}" stroke="{INK}" stroke-width="0.9"/>')
+    s.append(f'<line x1="{cx+27}" y1="{top-6}" x2="{cx+27}" y2="{top}" stroke="{INK}" stroke-width="0.9"/>')
+    s.append(f'<line x1="118" y1="{top+10}" x2="150" y2="{top+10}" stroke="#C9B79A" stroke-width="0.6" stroke-dasharray="6 5"/>')
+    s.append(f'<line x1="150" y1="{top+2}" x2="150" y2="{top+34}" stroke="{INK}" stroke-width="0.9"/>')
+    s.append(f'<path d="M150,{top+2} l14,4 l-14,4 z" fill="{SEAL}"/>')
+    s.append(txt(157, top + 46, "终点还在", 5.2, SEAL, "middle"))
+    s.append(txt(84, top + 66, "慢慢来，总会成的", 5.6, "#6E6459", "middle"))
+    s.append(txt(190, a + 34, "承认「成」是终点，只把终点推远一点。", 6.2, INK))
+    s.append(txt(190, a + 50, "盖还盖着，器还朝定型走。", 6.2, "#6E6459"))
+    s.append(txt(190, a + 68, "这是一句安慰话。", 6.4, INK))
+
+    # 右：免成
+    b = a + 104
+    s.append(txt(24, b + 6, "帛书本 · 免成", 6.6, GREEN))
+    cx2 = 84
+    top2 = b + 24
+    s.append(f'<path d="M{cx2-26},{top2} L{cx2-20},{top2+50} L{cx2+20},{top2+50} L{cx2+26},{top2} Z" fill="none" stroke="{GREEN}" stroke-width="1"/>')
+    s.append(f'<ellipse cx="{cx2}" cy="{top2}" rx="26" ry="5" fill="none" stroke="{GREEN}" stroke-width="0.9"/>')
+    s.append(f'<path d="M{cx2-14},{top2-6} a14,6 0 0 1 28,0" fill="none" stroke="{SEAL}" stroke-width="0.7" stroke-dasharray="4 3"/>')
+    s.append(txt(cx2, top2 - 14, "口一直开着", 5.2, SEAL, "middle"))
+    s.append(txt(130, top2 + 12, "成", 9.0, SEAL, "middle"))
+    s.append(f'<line x1="120" y1="{top2+8}" x2="140" y2="{top2+8}" stroke="{SEAL}" stroke-width="1.1"/>')
+    s.append(txt(130, top2 + 30, "免＝脱除", 5.0, "#6E6459", "middle"))
+    s.append(txt(84, top2 + 58, "不封口，还留着一处在变", 5.4, GREEN, "middle"))
+    s.append(txt(190, b + 34, "不往那个终点去，因为「成」就是「定型」。", 6.2, INK))
+    s.append(txt(190, b + 50, "一定型，就碰上「物壮则老」：顶点后面只有下坡。", 5.9, "#6E6459"))
+    s.append(txt(190, b + 68, "所以它一直留着一处没完成。", 6.4, GREEN))
+
+    y2 = b + 100
+    s.append(f'<line x1="24" y1="{y2-6}" x2="338" y2="{y2-8}" stroke="{LINE}" stroke-width="0.6"/>')
+    s.append(box(20, y2, 340, 48, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, y2 + 16, "「免成」不是不成器，是不封口——永远还留着一处在变。", 6.8, INK, "middle"))
+    s.append(txt(190, y2 + 31, "一个「免」字和一个「善」字，把「成」分成两件事：自己的成，和让别人成。", 6.2, "#6E6459", "middle"))
+    s.append(txt(190, y2 + 44, "它不给自己定型，所以能给别人留出形。", 6.6, GREEN, "middle"))
+    s.append(gold(y2 + 62, "ch41d"))
+    s.append('</svg>')
+    return "\n".join(s)
+
+
 
 FIGS = {
     "ch01-wu-you": ("第一章", "无有同出", ch01_wu_you),
@@ -3324,9 +3383,9 @@ FIGS = {
     "ch77-zhang-gong": ("第七十七章", "张弓", ch77_zhang_gong),
     "ch81-bu-ji": ("第八十一章", "九个不", ch81_bu_ji),
     "ch40-san-dong": ("第四十章", "一次动，三次翻", ch40_san_dong),
-    "ch41a-san-shi": ("第四十一章", "三种边界", ch41a_san_shi),
     "ch41b-fan-guo-lai": ("第四十一章", "翻过来，全是反面", ch41b_fan_guo_lai),
     "ch41c-san-zhong-kan-bei": ("第四十一章", "三种看杯", ch41c_san_zhong_kan_bei),
+    "ch41d-da-qi-mian-cheng": ("第四十一章", "大器免成", ch41d_da_qi_mian_cheng),
     "ch12-wu-se": ("第十二章", "门开五处", ch12_wu_se),
     "ch13-chong-ru": ("第十三章", "惊的是我", ch13_chong_ru),
     "ch14-yi-xi-wei": ("第十四章", "三样工具探不到", ch14_yi_xi_wei),
