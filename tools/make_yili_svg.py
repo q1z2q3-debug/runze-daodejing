@@ -1518,6 +1518,8 @@ GOLD = {
     "ch23": ["自然不是「不管」，是「不需要管」——差别全在有没有人在使劲。", "信不足，不是话说得不够多，是话后面没有人。"],
     "ch24": ["借来的高度站不住，省下的步子走不远。", "不处不是割掉，是不长——约束是按住它，不处是根本不在那儿站。"],
     "ch25": ["不是它比天地老，是天地离了它不成。", "名是给有边界的东西用的；对没有边界的东西，名只是手指。"],
+    "ch31": ["用是借它一次，处是住在它里面；借一次可以，住进去你就变成那种人了。",
+             "淡不是无味，是味薄；恬淡不是没有情绪，是不往里面加糖。"],
     "ch30": ["兵是「合」的物理形态：它不让他想通，它让他不能不想通。",
              "弓有力，是因为它被拉满了；而拉满的弓，不能久张。"],
     "ch29": ["切是把一个整体分成几块，捏是把几块不同捏成一个；老子两样都不放心。",
@@ -1976,6 +1978,67 @@ def ch30_wu_zhuang_ze_lao():
 
 
 
+# ============ 第三十一章 · 兵者不祥之器 ============
+def ch31_bing_zhe_bu_xiang():
+    W, H = 380, 552
+    body, y = head(W, H, "一件器被定了名，就有了位次：左吉、右凶，兵不许搬到左边", "第 三 十 一 章 · 器 与 位", "兵者不祥之器",
+                   "上一章管手，本章管心：给一件东西定名，才知道该怎么拿它。", H)
+    s = [body]
+
+    # ---- 一器：定名 ----
+    s.append(txt(20, y + 4, "一器：定名", 8.6, GREEN))
+    s.append(f'<path d="M62,{y+26} Q74,{y+60} 62,{y+96} Q50,{y+60} 62,{y+26} z" fill="#E9DFCC" stroke="{INK}" stroke-width="1.2"/>')
+    s.append(f'<line x1="62" y1="{y+40}" x2="62" y2="{y+84}" stroke="{SEAL}" stroke-width="0.7"/>')
+    s.append(txt(88, y + 46, "不祥之器", 10.0, SEAL))
+    s.append(txt(88, y + 62, "物或恶之，故有道者不处", 7.6, "#6E6459"))
+    s.append(txt(88, y + 78, "「处」是止、是安身——不是不能用，是不能住进去", 7.4, "#8A7C69"))
+
+    # ---- 位次：左吉右凶 ----
+    y1 = y + 118
+    s.append(txt(20, y1, "位次：吉事尚左，凶事尚右", 8.6, GREEN))
+    s.append(txt(24, y1 + 22, "左 · 吉", 7.8, GREEN))
+    s.append(txt(356, y1 + 22, "右 · 凶", 7.8, SEAL, "end"))
+    s.append(vline(24, y1 + 40, y1 + 72, LINE, 1))
+    s.append(vline(356, y1 + 40, y1 + 72, LINE, 1))
+    s.append(f'<line x1="24" y1="{y1+68}" x2="356" y2="{y1+68}" stroke="{LINE}" stroke-width="1"/>')
+    for i, t in enumerate(["冠", "婚", "聘"]):
+        x = 44 + i * 30
+        s.append(box(x, y1 + 40, 18, 18, fill="#F2EADA", stroke=LINE))
+        s.append(txt(x + 9, y1 + 54, t, 7.6, INK, "middle"))
+    s.append(box(292, y1 + 40, 18, 18, fill="#FDFBF4", stroke="#C9B79A"))
+    s.append(txt(301, y1 + 54, "丧", 7.6, INK, "middle"))
+    s.append(box(322, y1 + 40, 18, 18, fill="#E7C9BE", stroke=SEAL))
+    s.append(txt(331, y1 + 54, "兵", 7.8, SEAL, "middle"))
+    # 借与还
+    s.append(f'<path d="M318,{y1+40} Q331,{y1+22} 344,{y1+40}" fill="none" stroke="{SEAL}" stroke-width="0.9" marker-end="url(#arrS)"/>')
+    s.append(txt(348, y1 + 40, "借", 7.4, SEAL))
+    s.append(txt(24, y1 + 82, "不得已：借它一次，用完还回右位——「恬淡为上」", 7.6, "#6E6459"))
+    # 越界：把凶位搬到吉位
+    s.append(arrow(318, y1 + 92, 96, y1 + 92, SEAL, 1.0, dash="4 3", head="arrS"))
+    s.append(txt(206, y1 + 88, "×", 8.4, SEAL, "middle"))
+    s.append(txt(24, y1 + 110, "美之：把右位搬到左位——「乐杀人者，不可以得志于天下」", 7.4, SEAL))
+
+    # ---- 三处落点 ----
+    y2 = y1 + 122
+    cards = [("恬淡", "味薄，不往里加糖"), ("居左居右", "偏将军左，上将军右"), ("胜而不美", "胜是付，不是得")]
+    for i, (t, sub) in enumerate(cards):
+        x = 20 + i * 116
+        s.append(box(x, y2, 106, 58, fill="#F6EFE0", stroke="#C9B79A"))
+        s.append(txt(x + 10, y2 + 20, t, 9.2, INK))
+        s.append(txt(x + 10, y2 + 38, sub, 7.2, "#6E6459"))
+    s.append(txt(20, y2 + 76, "丧礼是五礼里唯一不许笑的一种：战胜以丧礼处之，就是把它放进那个不许笑的地方。", 7.2, "#8A7C69"))
+
+    # ---- 收 ----
+    y3 = y2 + 90
+    s.append(box(20, y3, 340, 44, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, y3 + 19, "兵者不祥之器，非君子之器，不得已而用之。", 9.0, INK, "middle"))
+    s.append(txt(190, y3 + 34, "胜不是得，胜是付。", 8.0, "#6E6459", "middle"))
+    s.append(gold(y3 + 52, "ch31"))
+    s.append('</svg>')
+    return "\n".join(s)
+
+
+
 FIGS = {
     "ch01-wu-you": ("第一章", "无有同出", ch01_wu_you),
     "ch01-zhi-yue": ("第一章", "指月三境", ch01_zhi_yue),
@@ -2017,6 +2080,7 @@ FIGS = {
     "ch28-zhi-xiong": ("第二十八章", "知其雄", ch28_zhi_xiong),
     "ch29-tian-xia-shen-qi": ("第二十九章", "天下神器", ch29_tian_xia_shen_qi),
     "ch30-wu-zhuang-ze-lao": ("第三十章", "物壮则老", ch30_wu_zhuang_ze_lao),
+    "ch31-bing-zhe-bu-xiang": ("第三十一章", "兵者不祥之器", ch31_bing_zhe_bu_xiang),
 }
 
 
