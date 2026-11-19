@@ -3170,8 +3170,6 @@ FIGS = {
     "ch38-wu-ji-tai-jie": ("第三十八章", "五级滑落", ch38_wu_ji_tai_jie),
     "ch39a-liu-de-yi": ("第三十九章", "六样东西，各自不裂", ch39a_liu_de_yi),
     "ch39b-di-xia-san-zhi-jiao": ("第三十九章", "底下那三只脚", ch39b_di_xia_san_zhi_jiao),
-    "ch40a-fan-zhuang-ji-qi": ("第四十章", "一台反装的机器", ch40a_fan_zhuang_ji_qi),
-    "ch40b-fan-yu-qu": ("第四十章", "一翻，二曲", ch40b_fan_yu_qu),
 }
 
 
