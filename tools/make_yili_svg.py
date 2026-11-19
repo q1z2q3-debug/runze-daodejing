@@ -585,7 +585,7 @@ def ch67_san_bao():
 
 # ============ 第七十七章 · 张弓 ============
 def ch77_zhang_gong():
-    W, H = 380, 566
+    W, H = 380, 618
     body, y = head(W, H, "张弓：上弦不是拉满，是找那个刚好", "第 七 十 七 章 · 调 平", "张弓",
                    "拉满是使力，调平是找平；拉满会断，调平才久。", H)
     s = [body]
@@ -1518,6 +1518,8 @@ GOLD = {
     "ch23": ["自然不是「不管」，是「不需要管」——差别全在有没有人在使劲。", "信不足，不是话说得不够多，是话后面没有人。"],
     "ch24": ["借来的高度站不住，省下的步子走不远。", "不处不是割掉，是不长——约束是按住它，不处是根本不在那儿站。"],
     "ch25": ["不是它比天地老，是天地离了它不成。", "名是给有边界的东西用的；对没有边界的东西，名只是手指。"],
+    "ch35a": ["同一个「执」字，宾语一换，手就转向了——执罪人是抓人，执中是持己。",
+              "手一伸出去，场就变成了门槛。"],
     "ch34b": ["能小，是因为它从不伸手；不伸手，才没人能握住它。",
               "世人求大，是往大里做；道之大，是往小里做出来的。"],
     "ch34": ["张开手臂，抱住的只有一抱；手臂垂着，怀里是整个天地。",
@@ -2234,7 +2236,7 @@ def ch33_zi_zhi_zhe_ming():
 
 # ============ 第三十四章 · 不主之谓大 ============
 def ch34_bu_zhu_wei_da():
-    W, H = 380, 566
+    W, H = 380, 618
     body, y = head(W, H, "一主，即落合；不主，方为和", "第 三 十 四 章 · 三 个 本 义",
                    "不主，故能成其大", "道是场域，不是王座。", H)
     s = [body]
@@ -2373,6 +2375,87 @@ def ch34b_yi_ju_liang_du():
     return "\n".join(s)
 
 
+# ============ 第三十五章 · 执与场 ============
+def ch35a_zhi_yu_chang():
+    W, H = 380, 618
+    body, y = head(W, H, "宾语一换，手就转向：一个向外扣，一个向内捧", "第 三 十 五 章 · 执 与 场",
+                   "执大象，天下往", "图可以挂起来，场只能站进去。", H)
+    s = [body]
+
+    s.append(box(20, y + 4, 340, 28, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, y + 23, "执大象，天下往。往而不害，安平泰。", 9.4, INK, "middle"))
+
+    # 一、两只手
+    a = y + 46
+    s.append(box(20, a, 162, 108, fill="#FBF6EC", stroke="#E6D8C2"))
+    s.append(box(198, a, 162, 108, fill="#FBF6EC", stroke="#E6D8C2"))
+    s.append(txt(32, a + 18, "执罪人：向外扣", 8.2, SEAL))
+    s.append(txt(210, a + 18, "执中：向内捧", 8.2, GREEN))
+    # 左手扣住一个小人
+    s.append(f'<line x1="76" y1="{a+34}" x2="76" y2="{a+48}" stroke="{INK}" stroke-width="0.9"/>')
+    s.append(f'<rect x="52" y="{a+46}" width="48" height="9" rx="4" fill="#E9DFCC" stroke="{INK}" stroke-width="0.9"/>')
+    for i in range(4):
+        s.append(f'<line x1="{58+i*10}" y1="{a+55}" x2="{58+i*10}" y2="{a+68}" stroke="{INK}" stroke-width="0.9"/>')
+    s.append(f'<circle cx="76" cy="{a+78}" r="4.4" fill="none" stroke="{INK}" stroke-width="0.9"/>')
+    s.append(f'<line x1="76" y1="{a+82}" x2="76" y2="{a+92}" stroke="{INK}" stroke-width="0.8"/>')
+    s.append(txt(36, a + 100, "手形自带一个被抓的人", 6.8, "#8A7C69"))
+    # 右手捧着一个「己」
+    s.append(f'<path d="M220,{a+84} q6,-14 14,-16" fill="none" stroke="{INK}" stroke-width="1"/>')
+    s.append(f'<path d="M256,{a+84} q-6,-14 -14,-16" fill="none" stroke="{INK}" stroke-width="1"/>')
+    s.append(f'<circle cx="238" cy="{a+62}" r="7" fill="none" stroke="{GREEN}" stroke-width="0.9"/>')
+    s.append(txt(238, a + 65, "己", 6.4, GREEN, "middle"))
+    s.append(txt(214, a + 100, "捧住的是自己，不是别人", 6.8, "#8A7C69"))
+
+    # 二、场与门槛
+    b = a + 116
+    s.append(box(20, b, 340, 132, fill="#FBF6EC", stroke="#E6D8C2"))
+    s.append(txt(32, b + 18, "场：不是挂起来的图，是站进去的地方", 8.4, INK))
+    s.append(f'<circle cx="108" cy="{b+76}" r="38" fill="#F7F1E3" stroke="{GREEN}" stroke-width="0.9" stroke-dasharray="5 3"/>')
+    s.append(f'<circle cx="108" cy="{b+64}" r="4.2" fill="none" stroke="{INK}" stroke-width="0.8"/>')
+    s.append(f'<path d="M108,{b+68} l0,16 M108,{b+72} l-9,8 M108,{b+72} l9,8 M108,{b+84} l-7,10 M108,{b+84} l7,10" stroke="{INK}" stroke-width="0.7"/>')
+    s.append(txt(108, b + 124, "人站在里面", 6.8, "#6E6459", "middle"))
+    # 图：画框挂着
+    s.append(f'<rect x="188" y="{b+30}" width="46" height="34" fill="#F7F1E3" stroke="{INK}" stroke-width="0.9"/>')
+    s.append(f'<path d="M211,{b+30} l0,-10" stroke="{LINE}" stroke-width="0.9"/>')
+    s.append(f'<circle cx="211" cy="{b+18}" r="2" fill="{INK}"/>')
+    s.append(f'<line x1="192" y1="{b+56}" x2="230" y2="{b+36}" stroke="{LINE}" stroke-width="0.6"/>')
+    s.append(txt(211, b + 78, "图：可以挂起来", 6.8, "#8A7C69", "middle"))
+    # 手伸出去成门槛
+    s.append(f'<line x1="146" y1="{b+76}" x2="176" y2="{b+76}" stroke="{SEAL}" stroke-width="1.1"/>')
+    s.append(f'<line x1="168" y1="{b+70}" x2="168" y2="{b+82}" stroke="{SEAL}" stroke-width="1.1"/>')
+    s.append(txt(160, b + 96, "手一伸，场变门槛", 6.9, SEAL))
+    s.append(txt(246, b + 108, "进门第一件事，先量你合不合尺寸。", 7.0, "#6E6459"))
+    s.append(txt(246, b + 122, "不伸手的场，才容得下你的样子。", 7.0, "#6E6459"))
+
+    # 三、安平泰
+    c = b + 144
+    s.append(box(20, c, 340, 72, fill="#F7F1E3", stroke="#E6D8C2"))
+    # 安：宀下有人
+    s.append(f'<path d="M46,{c+34} l14,-12 l14,12" fill="none" stroke="{INK}" stroke-width="1"/>')
+    s.append(f'<circle cx="60" cy="{c+40}" r="3.4" fill="none" stroke="{INK}" stroke-width="0.8"/>')
+    s.append(f'<line x1="60" y1="{c+44}" x2="60" y2="{c+54}" stroke="{INK}" stroke-width="0.8"/>')
+    s.append(txt(60, c + 66, "安：有地方待", 6.6, "#6E6459", "middle"))
+    # 平：差异无压
+    s.append(f'<rect x="142" y="{c+26}" width="14" height="22" fill="#E9DFCC" stroke="{INK}" stroke-width="0.7"/>')
+    s.append(f'<rect x="166" y="{c+34}" width="14" height="14" fill="#E9DFCC" stroke="{INK}" stroke-width="0.7"/>')
+    s.append(f'<line x1="138" y1="{c+48}" x2="184" y2="{c+48}" stroke="{LINE}" stroke-width="0.9"/>')
+    s.append(txt(160, c + 66, "平：没人压你", 6.6, "#6E6459", "middle"))
+    # 泰：气通
+    s.append(f'<path d="M242,{c+30} l0,18 M262,{c+30} l0,18" stroke="{INK}" stroke-width="0.8"/>')
+    s.append(arrow(238, c + 40, 268, c + 40, GREEN, 0.9, head="arrS"))
+    s.append(txt(253, c + 66, "泰：气走得通", 6.6, "#6E6459", "middle"))
+    s.append(txt(20, c + 84, "三字连起来：不是大家都一样，是大家都不用改。", 7.4, SEAL))
+
+    # 收
+    y3 = c + 100
+    s.append(box(20, y3, 340, 40, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, y3 + 17, "往，是自己走过去；不是被收拢，不是低头。", 8.2, INK, "middle"))
+    s.append(txt(190, y3 + 32, "手一松，场就开了；场一开，人自己会来。", 7.8, "#6E6459", "middle"))
+    s.append(gold(y3 + 48, "ch35a"))
+    s.append('</svg>')
+    return "\n".join(s)
+
+
 
 FIGS = {
     "ch01-wu-you": ("第一章", "无有同出", ch01_wu_you),
@@ -2421,6 +2504,7 @@ FIGS = {
     "ch33-zi-zhi-zhe-ming": ("第三十三章", "自知者明", ch33_zi_zhi_zhe_ming),
     "ch34-bu-zhu": ("第三十四章", "不主故能成其大", ch34_bu_zhu_wei_da),
     "ch34b-yi-ju-liang-du": ("第三十四章", "一句两读：小与大", ch34b_yi_ju_liang_du),
+    "ch35a-zhi-yu-chang": ("第三十五章", "执与场", ch35a_zhi_yu_chang),
 }
 
 
