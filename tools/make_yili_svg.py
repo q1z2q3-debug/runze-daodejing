@@ -342,42 +342,62 @@ def ch22_qu_ze_quan():
     return "\n".join(s)
 
 
-# ============ 第二十五章 · 四大四法 ============
+# ============ 第二十五章 · 有物混成 ============
 def ch25_dao_fa():
-    W, H = 380, 566
-    body, y = head(W, H, "四大与四法：人法地，地法天，天法道，道法自然", "第 二 十 五 章 · 总 纲", "道法自然",
-                   "「自然」不是大自然，是自己如此——上面没有更高的东西在命令它。", H)
+    W, H = 380, 562
+    body, y = head(W, H, "名只是手指，四大只到自然为止", "第 二 十 五 章 · 总 纲", "道法自然",
+                   "不是它比天地老，是天地离了它不成。", H)
     s = [body]
-    cx = 150
-    levels = [("人", "四大之一"), ("地", "厚而载"), ("天", "覆而运"), ("道", "自本自根")]
-    yb = y + 6
-    for i, (name, note) in enumerate(levels):
-        yy = yb + i * 52
-        s.append(box(20, yy, 116, 38, fill="#FBF6EC" if i < 3 else "#E9DFCC"))
-        s.append(txt(38, yy + 24, name, 14, INK))
-        s.append(txt(62, yy + 24, note, 10, "#6E6459"))
-        if i < 3:
-            s.append(arrow(cx - 8, yy + 38, cx - 8, yy + 50, "#6E6459", 1.2))
-    # 法
-    yf = yb + 4 * 52 + 4
-    s.append(box(20, yf, 340, 46, fill="#F2EADA", stroke="#C9B79A"))
-    s.append(txt(30, yf + 20, "人法地 → 地法天 → 天法道 → 道法自然", 10.5, INK))
-    s.append(txt(30, yf + 38, "逐层取法，不是层层复制；法者，以其为则。", 10, "#6E6459"))
-    # 右：逝远反
-    xr = 252
-    s.append(txt(xr - 6, yb + 14, "大曰逝，逝曰远，远曰反", 9.5, "#8A7C69"))
-    ccx, ccy, r = xr + 44, yb + 86, 42
-    s.append(f'<circle cx="{ccx}" cy="{ccy}" r="{r}" fill="none" stroke="{LINE}" stroke-width="1" stroke-dasharray="3 3"/>')
+    # 名与指
+    y0 = y + 4
+    s.append(txt(20, y0 + 12, "强为之名：字之曰道，名之曰大", 8.8, "#8A7C69"))
+    names = ["道", "大", "逝", "远", "反"]
+    for i, n in enumerate(names):
+        s.append(box(20 + i * 44, y0 + 20, 38, 26, fill="#F2EADA", stroke="#C9B79A"))
+        s.append(txt(39 + i * 44, y0 + 38, n, 10, SEAL, "middle"))
+    s.append(arrow(250, y0 + 33, 296, y0 + 33, color="#6E6459", head="arr"))
+    s.append(f'<circle cx="324" cy="{y0+33}" r="18" fill="none" stroke="{LINE}" stroke-width="1" stroke-dasharray="3 3"/>')
+    s.append(txt(324, y0 + 37, "？", 11, "#6E6459", "middle"))
+    s.append(txt(20, y0 + 62, "名是给有边界的东西用的；对没有边界的东西，名只是手指。", 8.2, "#8A7C69"))
+    # 四大：人地天道
+    y1 = y0 + 78
+    lv = [("王", "人亦大：四大之一"), ("地", "厚而载"), ("天", "覆而运"), ("道", "自本自根")]
+    for i, (a, b) in enumerate(lv):
+        yy = y1 + i * 26
+        s.append(box(20, yy, 92, 22, fill="#FBF6EC" if i < 3 else "#E9DFCC", stroke="#C9B79A"))
+        s.append(txt(66, yy + 15, a, 9.4, INK, "middle"))
+        s.append(txt(120, yy + 15, b, 8.0, "#6E6459"))
+        if i:
+            s.append(arrow(66, yy - 4, 66, yy + 1, color="#C9B79A", head="arr"))
+    s.append(txt(240, y1 + 14, "域中有四大，", 8.6, "#8A7C69"))
+    s.append(txt(240, y1 + 30, "而王居其一焉。", 8.6, "#8A7C69"))
+    # 四法
+    y2 = y1 + 4 * 26 + 8
+    s.append(box(20, y2, 340, 36, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, y2 + 16, "人法地 → 地法天 → 天法道 → 道法自然", 9.6, INK, "middle"))
+    s.append(txt(190, y2 + 31, "法者，以其为则：不是层层复制，是逐层取法。", 8.0, "#6E6459", "middle"))
+    # 逝远反：一次呼吸
+    y3 = y2 + 54
+    cx, cy, r = 150, y3 + 44, 34
+    s.append(f'<circle cx="{cx}" cy="{cy}" r="{r}" fill="none" stroke="{LINE}" stroke-width="1" stroke-dasharray="3 3"/>')
+    import math
     for k, lab in enumerate(["逝", "远", "反"]):
         ang = -90 + k * 120
-        import math
-        px = ccx + r * math.cos(math.radians(ang))
-        py = ccy + r * math.sin(math.radians(ang))
-        s.append(txt(px, py + 4, lab, 11, GREEN, "middle"))
-    s.append(txt(ccx, ccy + 4, "环", 10, "#8A7C69", "middle"))
-    s.append(txt(190, yf + 74, "反，是回到本根；环上没有终点，只有转捩点。", 10.5, "#6E6459", "middle"))
+        px = cx + r * math.cos(math.radians(ang))
+        py = cy + r * math.sin(math.radians(ang))
+        s.append(txt(px, py + 4, lab, 10, GREEN, "middle"))
+    s.append(txt(cx, cy + 4, "环", 8.6, "#8A7C69", "middle"))
+    s.append(txt(196, y3 + 26, "大曰逝，逝曰远，远曰反", 8.8, SEAL))
+    s.append(txt(196, y3 + 42, "世界不是一场没有回头路的散开，", 8.2, "#6E6459"))
+    s.append(txt(196, y3 + 56, "是一次呼吸。", 8.2, "#6E6459"))
+    yc = y3 + 92
+    s.append(box(20, yc, 340, 40, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, yc + 18, "道法自然。", 10.4, INK, "middle", spacing="1"))
+    s.append(txt(190, yc + 33, "上面没有更高的东西在命令它：自己如此，不借外力。", 8.2, "#6E6459", "middle"))
+    s.append(gold(yc + 48, "ch25"))
     s.append('</svg>')
     return "\n".join(s)
+
 
 
 # ============ 第三十八章 · 五级滑落 ============
@@ -1497,6 +1517,9 @@ GOLD = {
     "ch21": ["孔德之容，惟道是从：德不是修出来的，是流出来的。", "名不去，是路标一直在；路标在，不等于路标就是那个地方。"],
     "ch23": ["自然不是「不管」，是「不需要管」——差别全在有没有人在使劲。", "信不足，不是话说得不够多，是话后面没有人。"],
     "ch24": ["借来的高度站不住，省下的步子走不远。", "不处不是割掉，是不长——约束是按住它，不处是根本不在那儿站。"],
+    "ch25": ["不是它比天地老，是天地离了它不成。", "名是给有边界的东西用的；对没有边界的东西，名只是手指。"],
+    "ch26": ["法地，不是学地的形状，是学地的分量。", "不是被外面夺了权，是你自己先把位置让出去了。"],
+    "ch27": ["玉的病在里头，言的病在把柄上。", "不是他心肠软，是他看见的分类不成立。"],
 }
 
 
@@ -1609,6 +1632,106 @@ def ch24_qi_zhe_bu_li():
     return "\n".join(s)
 
 
+
+# ============ 第二十六章 · 重为轻根 ============
+def ch26_zhong_wei_qing_gen():
+    W, H = 380, 556
+    body, y = head(W, H, "法地不是学地的形状，是学地的分量", "第 二 十 六 章 · 轻 重", "重为轻根",
+                   "轻车跑得快，正因为它不载重——代价是空。", H)
+    s = [body]
+    # 重为轻根
+    y0 = y + 8
+    s.append(box(60, y0 + 34, 96, 26, fill="#D9C7A6", stroke="#B9A98F"))
+    s.append(txt(108, y0 + 51, "重", 9.6, INK, "middle"))
+    s.append(f'<line x1="108" y1="{y0+34}" x2="108" y2="{y0+14}" stroke="{LINE}" stroke-width="1"/>')
+    s.append(f'<circle cx="108" cy="{y0+10}" r="6" fill="#FBF6EC" stroke="{LINE}" stroke-width="1"/>')
+    s.append(txt(108, y0 + 9, "轻", 7, "#6E6459", "middle"))
+    s.append(txt(176, y0 + 24, "轻要靠根立着", 8.4, "#6E6459"))
+    s.append(txt(176, y0 + 40, "根一抽，轻就倒", 8.2, "#8A7C69"))
+    # 静为躁君
+    y1 = y0 + 82
+    s.append(box(20, y1, 52, 26, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(46, y1 + 17, "静", 10.4, INK, "middle", spacing="1"))
+    s.append(arrow(76, y1 + 13, 108, y1 + 13, color="#6E6459", head="arr"))
+    s.append(txt(88, y1 - 6, "发令", 7.6, "#8A7C69", "middle"))
+    zz = [(112, y1 + 4), (140, y1 + 21), (168, y1 + 4), (196, y1 + 21), (224, y1 + 4), (252, y1 + 21)]
+    for i in range(len(zz) - 1):
+        s.append(f'<line x1="{zz[i][0]}" y1="{zz[i][1]}" x2="{zz[i+1][0]}" y2="{zz[i+1][1]}" stroke="{SEAL}" stroke-width="1.1"/>')
+    s.append(txt(296, y1 + 17, "躁", 10.4, SEAL, "middle", spacing="1"))
+    s.append(txt(20, y1 + 44, "君不在，令就乱：静是动的发令处，不是不动。", 8.2, "#8A7C69"))
+    # 终日行不离辎重
+    y2 = y1 + 66
+    s.append(txt(20, y2 + 4, "终日行，不离辎重：走到哪，根就带到哪。", 8.4, "#6E6459"))
+    s.append(box(160, y2 + 12, 64, 24, fill="#FBF6EC", stroke="#C9B79A"))
+    s.append(txt(192, y2 + 28, "身", 9, INK, "middle"))
+    s.append(box(160, y2 + 40, 64, 24, fill="#E9DFCC", stroke="#C9B79A"))
+    s.append(txt(192, y2 + 56, "辎重", 8.6, INK, "middle"))
+    s.append(f'<line x1="192" y1="{y2+36}" x2="192" y2="{y2+40}" stroke="{LINE}" stroke-width="1"/>')
+    s.append(f'<line x1="30" y1="{y2+70}" x2="340" y2="{y2+70}" stroke="{LINE2}" stroke-width="1" stroke-dasharray="4 3"/>')
+    # 荣观 / 燕处
+    y3 = y2 + 88
+    s.append(box(20, y3, 162, 40, fill="#F6EFE0", stroke="#C9B79A"))
+    s.append(txt(101, y3 + 18, "荣观：外面好看", 8.8, SEAL, "middle"))
+    s.append(txt(101, y3 + 32, "看一眼，不跟着走", 7.8, "#6E6459", "middle"))
+    s.append(box(198, y3, 162, 40, fill="#F6EFE0", stroke="#C9B79A"))
+    s.append(txt(279, y3 + 18, "燕处超然：在场而不随之", 8.4, GREEN, "middle"))
+    s.append(txt(279, y3 + 32, "坐在这里，不搬进里头", 7.8, "#6E6459", "middle"))
+    yc = y3 + 58
+    s.append(box(20, yc, 340, 42, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, yc + 19, "轻则失根，躁则失君。", 10.4, INK, "middle", spacing="1"))
+    s.append(txt(190, yc + 34, "不是被外面夺了权，是你自己先把位置让出去了。", 8.2, "#6E6459", "middle"))
+    s.append(gold(yc + 50, "ch26"))
+    s.append('</svg>')
+    return "\n".join(s)
+
+
+
+# ============ 第二十七章 · 善行无辙迹 ============
+def ch27_shan_xing_wu_zhe_ji():
+    W, H = 380, 548
+    body, y = head(W, H, "善不是做得多，是做完不留把柄", "第 二 十 七 章 · 善 用", "善行无辙迹",
+                   "五种善，五次「不用工具」；不用，事也成了。", H)
+    s = [body]
+    rows = [("善行", "无辙迹", "路面上最深那道沟，是载重的车压出来的"),
+            ("善言", "无瑕谪", "不是说得漂亮，是说得干净"),
+            ("善数", "不用筹策", "数得对，不必把筹码摊一桌"),
+            ("善闭", "无关楗", "门不闩，也开不了"),
+            ("善结", "无绳约", "绳不用，也解不开")]
+    y0 = y + 4
+    for i, (a, b, note) in enumerate(rows):
+        yy = y0 + i * 30
+        s.append(txt(20, yy + 16, a, 9.6, SEAL))
+        s.append(arrow(64, yy + 11, 86, yy + 11, color="#C9B79A", head="arr"))
+        s.append(txt(92, yy + 16, b, 9.0, INK))
+        s.append(txt(172, yy + 16, note, 7.8, "#6E6459"))
+    y1 = y0 + 5 * 30 + 6
+    s.append(txt(20, y1, "五个「不」都是同一件事：动作做尽，痕迹不落。", 8.4, "#8A7C69"))
+    # 无弃人 / 无弃物
+    y2 = y1 + 16
+    s.append(box(20, y2, 162, 42, fill="#F6EFE0", stroke="#C9B79A"))
+    s.append(txt(101, y2 + 18, "常善救人：无弃人", 8.6, GREEN, "middle"))
+    s.append(txt(101, y2 + 33, "不是心肠软，是分类不成立", 7.6, "#6E6459", "middle"))
+    s.append(box(198, y2, 162, 42, fill="#F6EFE0", stroke="#C9B79A"))
+    s.append(txt(279, y2 + 18, "常善救物：无弃物", 8.6, GREEN, "middle"))
+    s.append(txt(279, y2 + 33, "不是用得省，是没有废物这一格", 7.6, "#6E6459", "middle"))
+    s.append(txt(20, y2 + 58, "是谓袭明：这份明不是自己点的，是从上头承来的。", 8.2, "#8A7C69"))
+    # 师与资
+    y3 = y2 + 74
+    s.append(box(20, y3, 162, 42, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(101, y3 + 18, "善人：师", 9, INK, "middle"))
+    s.append(txt(101, y3 + 33, "给一个方向", 7.8, "#6E6459", "middle"))
+    s.append(box(198, y3, 162, 42, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(279, y3 + 18, "不善人：资", 9, INK, "middle"))
+    s.append(txt(279, y3 + 33, "给一份本钱", 7.8, "#6E6459", "middle"))
+    yc = y3 + 58
+    s.append(box(20, yc, 340, 42, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, yc + 19, "不贵其师，不爱其资，虽智大迷。", 9.6, INK, "middle"))
+    s.append(txt(190, yc + 34, "迷不在无知，在太会分。", 8.4, SEAL, "middle"))
+    s.append(gold(yc + 50, "ch27"))
+    s.append('</svg>')
+    return "\n".join(s)
+
+
 FIGS = {
     "ch01-wu-you": ("第一章", "无有同出", ch01_wu_you),
     "ch01-zhi-yue": ("第一章", "指月三境", ch01_zhi_yue),
@@ -1618,6 +1741,8 @@ FIGS = {
     "ch24-qi-zhe-bu-li": ("第二十四章", "企者不立", ch24_qi_zhe_bu_li),
     "ch23-xi-yan-zi-ran": ("第二十三章", "希言自然", ch23_xi_yan_zi_ran),
     "ch22-qu-ze-quan": ("第二十二章", "曲则全", ch22_qu_ze_quan),
+    "ch26-zhong-wei-qing-gen": ("第二十六章", "重为轻根", ch26_zhong_wei_qing_gen),
+    "ch27-shan-xing-wu-zhe-ji": ("第二十七章", "善行无辙迹", ch27_shan_xing_wu_zhe_ji),
     "ch25-dao-fa": ("第二十五章", "道法自然", ch25_dao_fa),
     "ch38-wu-ji": ("第三十八章", "五级滑落", ch38_wu_ji),
     "ch40-fan-zhe": ("第四十章", "反向的机器", ch40_fan_zhe),

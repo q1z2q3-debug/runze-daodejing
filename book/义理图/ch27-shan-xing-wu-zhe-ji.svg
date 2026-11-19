@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 380 548" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="善不是做得多，是做完不留把柄" font-family="'Noto Serif CJK SC','Noto Serif SC','Songti SC',serif">
+<defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#6E6459"/></marker><marker id="arr2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#4A5C55"/></marker><marker id="arrL" viewBox="0 0 10 10" refX="1" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M10 0 L0 5 L10 10 z" fill="#4A5C55"/></marker><marker id="arrS" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#A2503B"/></marker></defs>
+<rect x="0" y="0" width="380" height="548" fill="#F8F3E6"/>
+<text x="20" y="26" font-size="11" fill="#A2503B" font-family="'Noto Sans CJK SC','Noto Sans SC',sans-serif" letter-spacing="3">第 二 十 七 章 · 善 用</text>
+<text x="20" y="58" font-size="21" fill="#2F2A24">善行无辙迹</text>
+<text x="20" y="78" font-size="10.5" fill="#6E6459">五种善，五次「不用工具」；不用，事也成了。</text>
+<text x="20" y="120" font-size="9.6" fill="#A2503B">善行</text>
+<line x1="64" y1="115" x2="86" y2="115" stroke="#C9B79A" stroke-width="1.2" marker-end="url(#arr)"/>
+<text x="92" y="120" font-size="9.0" fill="#2F2A24">无辙迹</text>
+<text x="172" y="120" font-size="7.8" fill="#6E6459">路面上最深那道沟，是载重的车压出来的</text>
+<text x="20" y="150" font-size="9.6" fill="#A2503B">善言</text>
+<line x1="64" y1="145" x2="86" y2="145" stroke="#C9B79A" stroke-width="1.2" marker-end="url(#arr)"/>
+<text x="92" y="150" font-size="9.0" fill="#2F2A24">无瑕谪</text>
+<text x="172" y="150" font-size="7.8" fill="#6E6459">不是说得漂亮，是说得干净</text>
+<text x="20" y="180" font-size="9.6" fill="#A2503B">善数</text>
+<line x1="64" y1="175" x2="86" y2="175" stroke="#C9B79A" stroke-width="1.2" marker-end="url(#arr)"/>
+<text x="92" y="180" font-size="9.0" fill="#2F2A24">不用筹策</text>
+<text x="172" y="180" font-size="7.8" fill="#6E6459">数得对，不必把筹码摊一桌</text>
+<text x="20" y="210" font-size="9.6" fill="#A2503B">善闭</text>
+<line x1="64" y1="205" x2="86" y2="205" stroke="#C9B79A" stroke-width="1.2" marker-end="url(#arr)"/>
+<text x="92" y="210" font-size="9.0" fill="#2F2A24">无关楗</text>
+<text x="172" y="210" font-size="7.8" fill="#6E6459">门不闩，也开不了</text>
+<text x="20" y="240" font-size="9.6" fill="#A2503B">善结</text>
+<line x1="64" y1="235" x2="86" y2="235" stroke="#C9B79A" stroke-width="1.2" marker-end="url(#arr)"/>
+<text x="92" y="240" font-size="9.0" fill="#2F2A24">无绳约</text>
+<text x="172" y="240" font-size="7.8" fill="#6E6459">绳不用，也解不开</text>
+<text x="20" y="260" font-size="8.4" fill="#8A7C69">五个「不」都是同一件事：动作做尽，痕迹不落。</text>
+<rect x="20" y="276" width="162" height="42" fill="#F6EFE0" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="101" y="294" font-size="8.6" fill="#4A5C55" text-anchor="middle">常善救人：无弃人</text>
+<text x="101" y="309" font-size="7.6" fill="#6E6459" text-anchor="middle">不是心肠软，是分类不成立</text>
+<rect x="198" y="276" width="162" height="42" fill="#F6EFE0" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="279" y="294" font-size="8.6" fill="#4A5C55" text-anchor="middle">常善救物：无弃物</text>
+<text x="279" y="309" font-size="7.6" fill="#6E6459" text-anchor="middle">不是用得省，是没有废物这一格</text>
+<text x="20" y="334" font-size="8.2" fill="#8A7C69">是谓袭明：这份明不是自己点的，是从上头承来的。</text>
+<rect x="20" y="350" width="162" height="42" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="101" y="368" font-size="9" fill="#2F2A24" text-anchor="middle">善人：师</text>
+<text x="101" y="383" font-size="7.8" fill="#6E6459" text-anchor="middle">给一个方向</text>
+<rect x="198" y="350" width="162" height="42" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="279" y="368" font-size="9" fill="#2F2A24" text-anchor="middle">不善人：资</text>
+<text x="279" y="383" font-size="7.8" fill="#6E6459" text-anchor="middle">给一份本钱</text>
+<rect x="20" y="408" width="340" height="42" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="190" y="427" font-size="9.6" fill="#2F2A24" text-anchor="middle">不贵其师，不爱其资，虽智大迷。</text>
+<text x="190" y="442" font-size="8.4" fill="#A2503B" text-anchor="middle">迷不在无知，在太会分。</text>
+<line x1="20" y1="458" x2="360" y2="458" stroke="#E6D8C2" stroke-width="0.8"/>
+<text x="20" y="472" font-size="8.0" fill="#A89577" letter-spacing="1">本 章 金 句</text>
+<text x="20" y="488" font-size="8.4" fill="#2F2A24">玉的病在里头，言的病在把柄上。</text>
+<text x="20" y="504" font-size="8.4" fill="#2F2A24">不是他心肠软，是他看见的分类不成立。</text>
+</svg>
