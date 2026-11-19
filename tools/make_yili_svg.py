@@ -1635,7 +1635,7 @@ def ch24_qi_zhe_bu_li():
 
 # ============ 第二十六章 · 重为轻根 ============
 def ch26_zhong_wei_qing_gen():
-    W, H = 380, 556
+    W, H = 380, 610
     body, y = head(W, H, "法地不是学地的形状，是学地的分量", "第 二 十 六 章 · 轻 重", "重为轻根",
                    "轻车跑得快，正因为它不载重——代价是空。", H)
     s = [body]
@@ -1648,19 +1648,27 @@ def ch26_zhong_wei_qing_gen():
     s.append(txt(108, y0 + 9, "轻", 7, "#6E6459", "middle"))
     s.append(txt(176, y0 + 24, "轻要靠根立着", 8.4, "#6E6459"))
     s.append(txt(176, y0 + 40, "根一抽，轻就倒", 8.2, "#8A7C69"))
-    # 静为躁君
-    y1 = y0 + 82
-    s.append(box(20, y1, 52, 26, fill="#F2EADA", stroke="#C9B79A"))
-    s.append(txt(46, y1 + 17, "静", 10.4, INK, "middle", spacing="1"))
-    s.append(arrow(76, y1 + 13, 108, y1 + 13, color="#6E6459", head="arr"))
-    s.append(txt(88, y1 - 6, "发令", 7.6, "#8A7C69", "middle"))
-    zz = [(112, y1 + 4), (140, y1 + 21), (168, y1 + 4), (196, y1 + 21), (224, y1 + 4), (252, y1 + 21)]
+    # 静为躁君：君是主宰，不是压制——一正一反两态
+    y1 = y0 + 96
+    s.append(txt(20, y1 - 16, "静为躁君：君是统摄，不是压制", 8.8, SEAL))
+    # 一态：有君——动由我出
+    s.append(box(34, y1 + 26, 48, 30, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(58, y1 + 45, "静", 10.4, INK, "middle"))
+    s.append(f'<line x1="58" y1="{y1+26}" x2="58" y2="{y1+8}" stroke="{INK}" stroke-width="1.2"/>')
+    s.append(arrow(58, y1 + 8, 148, y1 + 8, color="#6E6459", width=1.2, head="arr"))
+    s.append(txt(58, y1 + 68, "有君：动由我出", 8.4, INK))
+    s.append(txt(58, y1 + 82, "令从座上发出，往哪去由上定", 7.6, "#8A7C69"))
+    # 一态：失君——座上无人，动自己乱摆
+    s.append(box(210, y1 + 26, 48, 30, dash="4 3", stroke="#C9B79A"))
+    s.append(txt(234, y1 + 45, "空", 8.0, "#B0A18B", "middle"))
+    zz = [(234, y1 + 26), (234, y1 + 8), (256, y1 + 16), (278, y1 + 6), (300, y1 + 18), (322, y1 + 8), (344, y1 + 14)]
     for i in range(len(zz) - 1):
         s.append(f'<line x1="{zz[i][0]}" y1="{zz[i][1]}" x2="{zz[i+1][0]}" y2="{zz[i+1][1]}" stroke="{SEAL}" stroke-width="1.1"/>')
-    s.append(txt(296, y1 + 17, "躁", 10.4, SEAL, "middle", spacing="1"))
-    s.append(txt(20, y1 + 44, "君不在，令就乱：静是动的发令处，不是不动。", 8.2, "#8A7C69"))
+    s.append(txt(234, y1 + 68, "失君：动自己乱摆", 8.4, SEAL))
+    s.append(txt(234, y1 + 82, "座一空，线就不听令了", 7.6, "#8A7C69"))
+    s.append(txt(20, y1 + 104, "静不是不动，静是动的发令处；躁不是动，是动失了主。", 8.4, "#6E6459"))
     # 终日行不离辎重
-    y2 = y1 + 66
+    y2 = y1 + 120
     s.append(txt(20, y2 + 4, "终日行，不离辎重：走到哪，根就带到哪。", 8.4, "#6E6459"))
     s.append(box(160, y2 + 12, 64, 24, fill="#FBF6EC", stroke="#C9B79A"))
     s.append(txt(192, y2 + 28, "身", 9, INK, "middle"))
