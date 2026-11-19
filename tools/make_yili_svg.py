@@ -917,73 +917,64 @@ def ch08_shang_shan():
     return "\n".join(s)
 
 
-# ============ 第九章 · 持而盈之（一根箭头，又进一步） ============
+# ============ 第九章 · 持而盈之（进与退，同一根尺子） ============
 def ch09_ying_man():
-    W, H = 380, 412
-    body, y = head(W, H, "一根箭头就是一步：又进一步", "第 九 章 · 事 成", "持而盈之",
+    W, H = 380, 604
+    body, y = head(W, H, "一根箭头＝一步；退，是唯一不往前的一步", "第 九 章 · 事 成", "持而盈之",
                    "满不是问题；满了还要再加一步，才是问题。", H)
     s = [body]
     rows = [("持", "盈", "已满还要拿住，不如其已"),
             ("揣", "锐", "还要磨尖，不可长保"),
             ("金玉", "满堂", "还要囤着，莫之能守"),
             ("富贵", "骄", "还要显出来，自遗其咎")]
-    y0 = y + 10
+    y0 = y + 8
+    s.append(txt(20, y0, "一、四根向前的箭头", 9.2, "#8A7C69"))
     for i, (a, b, note) in enumerate(rows):
-        yy = y0 + i * 40
-        s.append(txt(24, yy + 22, a, 12, SEAL, spacing="1"))
-        s.append(f'<line x1="70" y1="{yy+17}" x2="104" y2="{yy+17}" stroke="{LINE}" stroke-width="1" marker-end="url(#arr)"/>')
-        s.append(txt(87, yy + 8, "又进一步", 7.2, "#A89577", "middle"))
-        s.append(txt(110, yy + 22, b, 12, INK, spacing="1"))
-        s.append(txt(170, yy + 22, note, 8.6, "#6E6459"))
-    s.append(txt(24, y0 + 4 * 40 - 8, "四句是同一根尺子的四个刻度：在哪一格停手，就叫度。", 8.6, "#8A7C69"))
-    # 反向：停手
-    yd = y0 + 4 * 40 + 2
-    s.append(box(20, yd, 72, 26, fill="#F6EFE0", stroke="#C9B79A"))
-    s.append(txt(56, yd + 18, "身退", 10.5, SEAL, "middle", spacing="1"))
-    s.append(f'<line x1="258" y1="{yd+13}" x2="102" y2="{yd+13}" stroke="{SEAL}" stroke-width="1" marker-end="url(#arrS)"/>')
-    s.append(txt(266, yd + 17, "停手，不是又进一步", 8.6, SEAL))
+        yy = y0 + 22 + i * 38
+        s.append(txt(24, yy + 16, a, 12, SEAL, spacing="1"))
+        s.append(f'<line x1="70" y1="{yy+11}" x2="104" y2="{yy+11}" stroke="{LINE}" stroke-width="1" marker-end="url(#arr)"/>')
+        s.append(txt(87, yy + 4, "又进一步", 7.2, "#A89577", "middle"))
+        s.append(txt(110, yy + 16, b, 12, INK, spacing="1"))
+        s.append(txt(170, yy + 16, note, 8.6, "#6E6459"))
+    y1 = y0 + 22 + 4 * 38
+    # 二、反向的那一根
+    s.append(txt(20, y1 + 6, "二、唯一一根反向的：停手", 9.2, "#8A7C69"))
+    ya = y1 + 20
+    s.append(box(20, ya, 72, 26, fill="#F6EFE0", stroke="#C9B79A"))
+    s.append(txt(56, ya + 18, "身退", 10.5, SEAL, "middle", spacing="1"))
+    s.append(f'<line x1="258" y1="{ya+13}" x2="102" y2="{ya+13}" stroke="{SEAL}" stroke-width="1" marker-end="url(#arrS)"/>')
+    s.append(txt(266, ya + 17, "退：不往前，只停", 8.6, SEAL))
+    # 三、身／功 对轴（子虔）
+    yb = ya + 42
+    s.append(txt(20, yb, "三、同一件事的两头：功与身", 9.2, "#8A7C69"))
+    yaxis = yb + 34
+    s.append(f'<line x1="52" y1="{yaxis}" x2="328" y2="{yaxis}" stroke="{LINE2}" stroke-width="1"/>')
+    s.append(f'<line x1="132" y1="{yaxis-7}" x2="96" y2="{yaxis-7}" stroke="{SEAL}" stroke-width="1" marker-end="url(#arrS)"/>')
+    s.append(f'<line x1="248" y1="{yaxis+7}" x2="286" y2="{yaxis+7}" stroke="{GREEN}" stroke-width="1" marker-end="url(#arr2)"/>')
+    s.append(txt(52, yaxis + 4, "身", 11, SEAL, "middle", spacing="1"))
+    s.append(txt(328, yaxis + 4, "功", 11, INK, "middle", spacing="1"))
+    s.append(txt(96, yaxis - 14, "退：事留在外面", 8.2, "#6E6459"))
+    s.append(txt(292, yaxis + 24, "进：事越做越大", 8.2, "#6E6459"))
+    s.append(txt(20, yaxis + 34, "功可以越做越大，身只有一副；两头一起用，才有得退。", 8.6, "#8A7C69"))
+    # 四、阴阳＝度
+    yc = yaxis + 56
+    s.append(txt(20, yc, "四、度：两半互含，不是折中", 9.2, "#8A7C69"))
+    cx, cyy, r = 58, yc + 46, 28
+    s.append(f'<circle cx="{cx}" cy="{cyy}" r="{r}" fill="{PAPER}" stroke="{INK}" stroke-width="0.9"/>')
+    s.append(f'<path d="M {cx},{cyy-r} A {r},{r} 0 0 1 {cx},{cyy+r} A {r/2},{r/2} 0 0 1 {cx},{cyy} A {r/2},{r/2} 0 0 1 {cx},{cyy-r} Z" fill="{INK}" opacity="0.62"/>')
+    s.append(f'<circle cx="{cx}" cy="{cyy-r/2}" r="3.6" fill="{PAPER}"/>')
+    s.append(f'<circle cx="{cx}" cy="{cyy+r/2}" r="3.6" fill="{INK}" opacity="0.62"/>')
+    s.append(txt(100, cyy - 14, "黑的那半是进：一直在加", 8.6, "#6E6459"))
+    s.append(txt(100, cyy + 2, "白的那半是退：知道停在哪一格", 8.6, "#6E6459"))
+    s.append(txt(100, cyy + 22, "两半各含对方一点：能退，进才立得住；", 8.6, "#6E6459"))
+    s.append(txt(100, cyy + 37, "只会进，那一点退就被挤没了。", 8.6, "#6E6459"))
     # 收
-    yc = yd + 44
-    s.append(box(20, yc, 340, 50, fill="#F2EADA", stroke="#C9B79A"))
-    s.append(txt(190, yc + 19, "功遂身退，天之道。", 11.5, INK, "middle", spacing="1"))
-    s.append(txt(190, yc + 37, "退的是那只还要加一步的手，不是事。", 8.8, "#6E6459", "middle"))
+    yf = cyy + 52
+    s.append(box(20, yf, 340, 44, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, yf + 19, "功遂身退，天之道。", 11.5, INK, "middle", spacing="1"))
+    s.append(txt(190, yf + 35, "退的是那只还要加一步的手，不是事。", 8.6, "#6E6459", "middle"))
     s.append('</svg>')
     return "\n".join(s)
-def ch10_bao_yi():
-    W, H = 380, 572
-    body, y = head(W, H, "六问一答：对内做主人，对外做租客", "第 十 章 · 勘 验", "载营魄抱一",
-                   "六问各管一件，底子只有一句质问：你是不是在当主人？", H)
-    s = [body]
-    qs = [("载营魄抱一", "能无离乎", "身心一处，不各走各的"),
-          ("专气致柔", "能婴儿乎", "气顺到软，不绷着"),
-          ("涤除玄览", "能无疵乎", "擦净那面镜子，不留斑"),
-          ("爱民治国", "能无为乎", "事办了，人不被搅"),
-          ("天门开阖", "能为雌乎", "开合之际，肯受不肯抢"),
-          ("明白四达", "能无知乎", "都懂了，不拿懂去压人")]
-    yb = y + 4
-    for i, (a, b, note) in enumerate(qs):
-        yy = yb + i * 44
-        s.append(txt(20, yy + 16, a, 10, INK))
-        s.append(txt(112, yy + 16, b + "？", 9, "#8A7C69"))
-        s.append(txt(20, yy + 32, note, 8.8, "#8A7C69"))
-    # 两栏
-    ya = yb + 6 * 44 + 8
-    s.append(box(20, ya, 160, 92, fill="#F6EFE0", stroke="{LINE2}"))
-    s.append(box(200, ya, 160, 92, fill="#FBF6EC", stroke="{LINE2}"))
-    s.append(txt(32, ya + 22, "对内：主人", 10, SEAL))
-    s.append(txt(32, ya + 44, "自心是唯一有全权的地方", 8.8, "#6E6459"))
-    s.append(txt(32, ya + 60, "只能自己修，自己守", 8.8, "#6E6459"))
-    s.append(txt(212, ya + 22, "对外：租客", 10, GREEN))
-    s.append(txt(212, ya + 44, "万物只是暂住，可养可建", 8.8, "#6E6459"))
-    s.append(txt(212, ya + 60, "不可占有，不可改写其性", 8.8, "#6E6459"))
-    # 收
-    yc = ya + 108
-    s.append(box(20, yc, 340, 52, fill="#F2EADA", stroke="#C9B79A"))
-    s.append(txt(190, yc + 22, "生而不有，为而不恃，长而不宰，是谓玄德", 9.5, INK, "middle"))
-    s.append(txt(190, yc + 42, "勘破了那份主宰欲，德自然现成——不必另修一个德出来。", 9, "#6E6459", "middle"))
-    s.append('</svg>')
-    return "\n".join(s)
-
 
 
 # ============ 第三章 · 尚即过度（壁与空） ============
@@ -1066,6 +1057,41 @@ def ch03_shang_ji_guo_du():
     s.append('</svg>')
     return "\n".join(s)
 
+
+def ch10_bao_yi():
+    W, H = 380, 572
+    body, y = head(W, H, "六问一答：对内做主人，对外做租客", "第 十 章 · 勘 验", "载营魄抱一",
+                   "六问各管一件，底子只有一句质问：你是不是在当主人？", H)
+    s = [body]
+    qs = [("载营魄抱一", "能无离乎", "身心一处，不各走各的"),
+          ("专气致柔", "能婴儿乎", "气顺到软，不绷着"),
+          ("涤除玄览", "能无疵乎", "擦净那面镜子，不留斑"),
+          ("爱民治国", "能无为乎", "事办了，人不被搅"),
+          ("天门开阖", "能为雌乎", "开合之际，肯受不肯抢"),
+          ("明白四达", "能无知乎", "都懂了，不拿懂去压人")]
+    yb = y + 4
+    for i, (a, b, note) in enumerate(qs):
+        yy = yb + i * 44
+        s.append(txt(20, yy + 16, a, 10, INK))
+        s.append(txt(112, yy + 16, b + "？", 9, "#8A7C69"))
+        s.append(txt(20, yy + 32, note, 8.8, "#8A7C69"))
+    # 两栏
+    ya = yb + 6 * 44 + 8
+    s.append(box(20, ya, 160, 92, fill="#F6EFE0", stroke="{LINE2}"))
+    s.append(box(200, ya, 160, 92, fill="#FBF6EC", stroke="{LINE2}"))
+    s.append(txt(32, ya + 22, "对内：主人", 10, SEAL))
+    s.append(txt(32, ya + 44, "自心是唯一有全权的地方", 8.8, "#6E6459"))
+    s.append(txt(32, ya + 60, "只能自己修，自己守", 8.8, "#6E6459"))
+    s.append(txt(212, ya + 22, "对外：租客", 10, GREEN))
+    s.append(txt(212, ya + 44, "万物只是暂住，可养可建", 8.8, "#6E6459"))
+    s.append(txt(212, ya + 60, "不可占有，不可改写其性", 8.8, "#6E6459"))
+    # 收
+    yc = ya + 108
+    s.append(box(20, yc, 340, 52, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, yc + 22, "生而不有，为而不恃，长而不宰，是谓玄德", 9.5, INK, "middle"))
+    s.append(txt(190, yc + 42, "勘破了那份主宰欲，德自然现成——不必另修一个德出来。", 9, "#6E6459", "middle"))
+    s.append('</svg>')
+    return "\n".join(s)
 
 FIGS = {
     "ch01-wu-you": ("第一章", "无有同出", ch01_wu_you),
