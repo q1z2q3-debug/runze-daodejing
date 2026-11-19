@@ -1518,6 +1518,8 @@ GOLD = {
     "ch23": ["自然不是「不管」，是「不需要管」——差别全在有没有人在使劲。", "信不足，不是话说得不够多，是话后面没有人。"],
     "ch24": ["借来的高度站不住，省下的步子走不远。", "不处不是割掉，是不长——约束是按住它，不处是根本不在那儿站。"],
     "ch25": ["不是它比天地老，是天地离了它不成。", "名是给有边界的东西用的；对没有边界的东西，名只是手指。"],
+    "ch32": ["知止不是收手不干，是知道地基的边在哪儿——再往外砌，就砌在虚空上了。",
+             "江海之为大，在于它不挑水。"],
     "ch31": ["用是借它一次，处是住在它里面；借一次可以，住进去你就变成那种人了。",
              "淡不是无味，是味薄；恬淡不是没有情绪，是不往里面加糖。"],
     "ch30": ["兵是「合」的物理形态：它不让他想通，它让他不能不想通。",
@@ -2039,6 +2041,112 @@ def ch31_bing_zhe_bu_xiang():
 
 
 
+# ============ 第三十二章（候选一） · 名与止 ============
+def ch32a_ming_zhi():
+    W, H = 380, 492
+    body, y = head(W, H, "朴是木素，名是裁切；裁到地基的边就停", "第 三 十 二 章 · 其 一", "名 与 止",
+                   "朴不是没有形状，是形状还没有被定下来。", H)
+    s = [body]
+
+    # ---- 朴 ----
+    s.append(txt(20, y + 4, "朴：木素也，未加斧斤", 8.6, GREEN))
+    s.append(f'<path d="M34,{y+26} L70,{y+18} L88,{y+44} L80,{y+76} L44,{y+82} L28,{y+52} z" fill="#E9DFCC" stroke="{INK}" stroke-width="1.1"/>')
+    s.append(txt(104, y + 36, "朴不是没有形状", 8.4, INK))
+    s.append(txt(104, y + 50, "是形状还没有被定下来", 8.4, INK))
+    s.append(txt(104, y + 66, "所以它可方可圆，也可成一只兽", 7.2, "#8A7C69"))
+
+    # ---- 名 ----
+    y1 = y + 104
+    s.append(txt(20, y1, "名：裁也——把木放进格", 8.6, GREEN))
+    for i, t in enumerate(["名一", "名二", "名三"]):
+        x = 30 + i * 74
+        s.append(box(x, y1 + 12, 64, 36, fill="#F2EADA", stroke=LINE))
+        if i == 0:
+            s.append(f'<rect x="{x+12}" y="{y1+22}" width="40" height="18" fill="#E9DFCC" stroke="{LINE}" stroke-width="0.8"/>')
+        elif i == 1:
+            s.append(f'<circle cx="{x+32}" cy="{y1+31}" r="10" fill="#E9DFCC" stroke="{LINE}" stroke-width="0.8"/>')
+        else:
+            s.append(f'<path d="M{x+12},{y1+40} L{x+32},{y1+20} L{x+52},{y1+40} z" fill="#E9DFCC" stroke="{LINE}" stroke-width="0.8"/>')
+        s.append(txt(x + 32, y1 + 62, t, 7.4, "#6E6459", "middle"))
+    s.append(txt(20, y1 + 80, "「始制有名」：名是必须立的——不立，连话都说不出", 7.4, "#6E6459"))
+
+    # ---- 止 ----
+    y2 = y1 + 96
+    s.append(txt(20, y2, "止：地基有边，再砌就砌在虚空上", 8.6, GREEN))
+    for i in range(3):
+        x = 30 + i * 64
+        s.append(box(x, y2 + 12, 56, 36, fill="#F2EADA", stroke=LINE))
+    s.append(box(230, y2 + 12, 56, 36, fill="none", stroke=SEAL, dash="4 3", width=0.9))
+    s.append(txt(258, y2 + 34, "×", 9.0, SEAL, "middle"))
+    s.append(txt(258, y2 + 60, "越界的格", 7.2, SEAL, "middle"))
+    s.append(vline(224, y2 + 6, y2 + 56, SEAL, 0.8))
+    s.append(txt(228, y2 + 4, "地基边", 7.0, SEAL))
+    s.append(txt(20, y2 + 74, "「知止」：知道地基的边在哪儿——不是收手不干，是不往虚空里砌", 7.4, "#6E6459"))
+
+    # ---- 收 ----
+    y3 = y2 + 90
+    s.append(box(20, y3, 340, 42, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, y3 + 19, "始制有名，名亦既有，夫亦将知止；知止可以不殆。", 8.8, INK, "middle"))
+    s.append(txt(190, y3 + 33, "名越界，不是名坏了，是执名的人把地基当成了天空。", 7.8, "#6E6459", "middle"))
+    s.append(gold(y3 + 50, "ch32"))
+    s.append('</svg>')
+    return "\n".join(s)
+
+
+
+# ============ 第三十二章（候选二） · 川谷与江海 ============
+def ch32b_chuan_gu():
+    W, H = 380, 400
+    body, y = head(W, H, "百川各有宽窄急缓，江海不挑水", "第 三 十 二 章 · 其 二", "川 谷 与 江 海",
+                   "江海之为大，在于它不要求支流先改成一样的河道。", H)
+    s = [body]
+
+    s.append(txt(20, y + 2, "川谷：各有各的走向、宽窄、急缓", 8.4, GREEN))
+    rivers = [
+        (52, 7, 11, "M52,{a} C40,{c} 62,{d} 46,{b}"),
+        (104, 20, 17, "M104,{a} C90,{c} 114,{d} 94,{b}"),
+        (152, 11, 13, "M152,{a} C164,{c} 140,{d} 156,{b}"),
+        (208, 24, 21, "M208,{a} C194,{c} 220,{d} 200,{b}"),
+        (262, 13, 15, "M262,{a} C276,{c} 250,{d} 270,{b}"),
+        (316, 6, 9, "M316,{a} C304,{c} 326,{d} 310,{b}")
+    ]
+    top, bot = y + 16, y + 112
+    for (x, w, w2, d) in rivers:
+        s.append(f'<path d="{d.format(a=top, c=top+40, d=bot-30, b=bot)}" fill="none" stroke="#C2D0C7" stroke-width="0.8"/>')
+        s.append(f'<path d="M{x-w/2},{top+2} C{x-w/2-6},{top+40} {x-w2/2},{bot-30} {x-w2/2},{bot}" fill="none" stroke="#6E6459" stroke-width="1.2"/>')
+        s.append(f'<path d="M{x+w/2},{top+2} C{x+w/2+6},{top+40} {x+w2/2},{bot-30} {x+w2/2},{bot}" fill="none" stroke="#6E6459" stroke-width="1.2"/>')
+        s.append(f'<circle cx="{x}" cy="{top}" r="{2.4+w*0.18}" fill="none" stroke="{GREEN}" stroke-width="0.8"/>')
+    s.append(txt(208, y + 96, "宽", 7.2, "#6E6459", "middle"))
+    s.append(txt(316, y + 96, "窄", 7.2, "#6E6459", "middle"))
+    # 江海
+    s.append(f'<path d="M24,{y+112} Q190,{y+96} 356,{y+112} L356,{y+134} Q190,{y+150} 24,{y+134} z" fill="#DCE5DF" stroke="#B9C7BE" stroke-width="0.9"/>')
+    for i in range(2):
+        s.append(f'<path d="M66,{y+122+i*9} q22,-5 44,0 q22,5 44,0" fill="none" stroke="#9FB0A6" stroke-width="0.8"/>')
+    s.append(txt(250, y + 128, "江海", 10.0, GREEN, "middle", spacing="2"))
+    s.append(txt(20, y + 160, "不挑水：千条支流不改河道，也能进来", 7.6, "#6E6459"))
+
+    # 对照
+    y1 = y + 176
+    s.append(box(20, y1, 162, 56, fill="#F6EFE0", stroke="#C9B79A"))
+    s.append(txt(32, y1 + 18, "道：同归，不失自性", 8.2, GREEN))
+    s.append(txt(32, y1 + 34, "差异不必先被抹平", 7.4, "#6E6459"))
+    s.append(txt(32, y1 + 46, "来是「宾」，不是「臣」", 7.4, "#6E6459"))
+    s.append(box(198, y1, 162, 56, fill="#F6EFE0", stroke="#C9B79A"))
+    s.append(txt(210, y1 + 18, "合：先改成一样的河道", 8.2, SEAL))
+    s.append(txt(210, y1 + 34, "削平、捏成一条", 7.4, "#6E6459"))
+    s.append(txt(210, y1 + 46, "那是人之合", 7.4, "#6E6459"))
+
+    # 收
+    y2 = y1 + 74
+    s.append(box(20, y2, 340, 42, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, y2 + 19, "譬道之在天下，犹川谷之于江海。", 9.4, INK, "middle", spacing="0.6"))
+    s.append(txt(190, y2 + 33, "江海之为大，在于它不挑水。", 7.8, "#6E6459", "middle"))
+    s.append(gold(y2 + 50, "ch32"))
+    s.append('</svg>')
+    return "\n".join(s)
+
+
+
 FIGS = {
     "ch01-wu-you": ("第一章", "无有同出", ch01_wu_you),
     "ch01-zhi-yue": ("第一章", "指月三境", ch01_zhi_yue),
@@ -2081,6 +2189,8 @@ FIGS = {
     "ch29-tian-xia-shen-qi": ("第二十九章", "天下神器", ch29_tian_xia_shen_qi),
     "ch30-wu-zhuang-ze-lao": ("第三十章", "物壮则老", ch30_wu_zhuang_ze_lao),
     "ch31-bing-zhe-bu-xiang": ("第三十一章", "兵者不祥之器", ch31_bing_zhe_bu_xiang),
+    "ch32a-ming-zhi": ("第三十二章", "名与止", ch32a_ming_zhi),
+    "ch32b-chuan-gu": ("第三十二章", "川谷与江海", ch32b_chuan_gu),
 }
 
 

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 380 492" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="朴是木素，名是裁切；裁到地基的边就停" font-family="'Noto Serif CJK SC','Noto Serif SC','Songti SC',serif">
+<defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#6E6459"/></marker><marker id="arr2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#4A5C55"/></marker><marker id="arrL" viewBox="0 0 10 10" refX="1" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M10 0 L0 5 L10 10 z" fill="#4A5C55"/></marker><marker id="arrS" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#A2503B"/></marker></defs>
+<rect x="0" y="0" width="380" height="492" fill="#F8F3E6"/>
+<text x="20" y="26" font-size="11" fill="#A2503B" font-family="'Noto Sans CJK SC','Noto Sans SC',sans-serif" letter-spacing="3">第 三 十 二 章 · 其 一</text>
+<text x="20" y="58" font-size="21" fill="#2F2A24">名 与 止</text>
+<text x="20" y="78" font-size="10.5" fill="#6E6459">朴不是没有形状，是形状还没有被定下来。</text>
+<text x="20" y="104" font-size="8.6" fill="#4A5C55">朴：木素也，未加斧斤</text>
+<path d="M34,126 L70,118 L88,144 L80,176 L44,182 L28,152 z" fill="#E9DFCC" stroke="#2F2A24" stroke-width="1.1"/>
+<text x="104" y="136" font-size="8.4" fill="#2F2A24">朴不是没有形状</text>
+<text x="104" y="150" font-size="8.4" fill="#2F2A24">是形状还没有被定下来</text>
+<text x="104" y="166" font-size="7.2" fill="#8A7C69">所以它可方可圆，也可成一只兽</text>
+<text x="20" y="204" font-size="8.6" fill="#4A5C55">名：裁也——把木放进格</text>
+<rect x="30" y="216" width="64" height="36" fill="#F2EADA" stroke="#DCCBB0" stroke-width="1.0"/>
+<rect x="42" y="226" width="40" height="18" fill="#E9DFCC" stroke="#DCCBB0" stroke-width="0.8"/>
+<text x="62" y="266" font-size="7.4" fill="#6E6459" text-anchor="middle">名一</text>
+<rect x="104" y="216" width="64" height="36" fill="#F2EADA" stroke="#DCCBB0" stroke-width="1.0"/>
+<circle cx="136" cy="235" r="10" fill="#E9DFCC" stroke="#DCCBB0" stroke-width="0.8"/>
+<text x="136" y="266" font-size="7.4" fill="#6E6459" text-anchor="middle">名二</text>
+<rect x="178" y="216" width="64" height="36" fill="#F2EADA" stroke="#DCCBB0" stroke-width="1.0"/>
+<path d="M190,244 L210,224 L230,244 z" fill="#E9DFCC" stroke="#DCCBB0" stroke-width="0.8"/>
+<text x="210" y="266" font-size="7.4" fill="#6E6459" text-anchor="middle">名三</text>
+<text x="20" y="284" font-size="7.4" fill="#6E6459">「始制有名」：名是必须立的——不立，连话都说不出</text>
+<text x="20" y="300" font-size="8.6" fill="#4A5C55">止：地基有边，再砌就砌在虚空上</text>
+<rect x="30" y="312" width="56" height="36" fill="#F2EADA" stroke="#DCCBB0" stroke-width="1.0"/>
+<rect x="94" y="312" width="56" height="36" fill="#F2EADA" stroke="#DCCBB0" stroke-width="1.0"/>
+<rect x="158" y="312" width="56" height="36" fill="#F2EADA" stroke="#DCCBB0" stroke-width="1.0"/>
+<rect x="230" y="312" width="56" height="36" fill="none" stroke="#A2503B" stroke-width="0.9" stroke-dasharray="4 3"/>
+<text x="258" y="334" font-size="9.0" fill="#A2503B" text-anchor="middle">×</text>
+<text x="258" y="360" font-size="7.2" fill="#A2503B" text-anchor="middle">越界的格</text>
+<line x1="224" y1="306" x2="224" y2="356" stroke="#A2503B" stroke-width="0.8"/>
+<text x="228" y="304" font-size="7.0" fill="#A2503B">地基边</text>
+<text x="20" y="374" font-size="7.4" fill="#6E6459">「知止」：知道地基的边在哪儿——不是收手不干，是不往虚空里砌</text>
+<rect x="20" y="390" width="340" height="42" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="190" y="409" font-size="8.8" fill="#2F2A24" text-anchor="middle">始制有名，名亦既有，夫亦将知止；知止可以不殆。</text>
+<text x="190" y="423" font-size="7.8" fill="#6E6459" text-anchor="middle">名越界，不是名坏了，是执名的人把地基当成了天空。</text>
+<line x1="20" y1="440" x2="360" y2="440" stroke="#E6D8C2" stroke-width="0.8"/>
+<text x="20" y="454" font-size="8.0" fill="#A89577" letter-spacing="1">本 章 金 句</text>
+<text x="20" y="470" font-size="8.4" fill="#2F2A24">知止不是收手不干，是知道地基的边在哪儿——再往外砌，就砌在虚空上了。</text>
+<text x="20" y="486" font-size="8.4" fill="#2F2A24">江海之为大，在于它不挑水。</text>
+</svg>

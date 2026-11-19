@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 380 400" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="百川各有宽窄急缓，江海不挑水" font-family="'Noto Serif CJK SC','Noto Serif SC','Songti SC',serif">
+<defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#6E6459"/></marker><marker id="arr2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#4A5C55"/></marker><marker id="arrL" viewBox="0 0 10 10" refX="1" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M10 0 L0 5 L10 10 z" fill="#4A5C55"/></marker><marker id="arrS" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#A2503B"/></marker></defs>
+<rect x="0" y="0" width="380" height="400" fill="#F8F3E6"/>
+<text x="20" y="26" font-size="11" fill="#A2503B" font-family="'Noto Sans CJK SC','Noto Sans SC',sans-serif" letter-spacing="3">第 三 十 二 章 · 其 二</text>
+<text x="20" y="58" font-size="21" fill="#2F2A24">川 谷 与 江 海</text>
+<text x="20" y="78" font-size="10.5" fill="#6E6459">江海之为大，在于它不要求支流先改成一样的河道。</text>
+<text x="20" y="102" font-size="8.4" fill="#4A5C55">川谷：各有各的走向、宽窄、急缓</text>
+<path d="M52,116 C40,156 62,182 46,212" fill="none" stroke="#C2D0C7" stroke-width="0.8"/>
+<path d="M48.5,118 C42.5,156 46.5,182 46.5,212" fill="none" stroke="#6E6459" stroke-width="1.2"/>
+<path d="M55.5,118 C61.5,156 57.5,182 57.5,212" fill="none" stroke="#6E6459" stroke-width="1.2"/>
+<circle cx="52" cy="116" r="3.66" fill="none" stroke="#4A5C55" stroke-width="0.8"/>
+<path d="M104,116 C90,156 114,182 94,212" fill="none" stroke="#C2D0C7" stroke-width="0.8"/>
+<path d="M94.0,118 C88.0,156 95.5,182 95.5,212" fill="none" stroke="#6E6459" stroke-width="1.2"/>
+<path d="M114.0,118 C120.0,156 112.5,182 112.5,212" fill="none" stroke="#6E6459" stroke-width="1.2"/>
+<circle cx="104" cy="116" r="6.0" fill="none" stroke="#4A5C55" stroke-width="0.8"/>
+<path d="M152,116 C164,156 140,182 156,212" fill="none" stroke="#C2D0C7" stroke-width="0.8"/>
+<path d="M146.5,118 C140.5,156 145.5,182 145.5,212" fill="none" stroke="#6E6459" stroke-width="1.2"/>
+<path d="M157.5,118 C163.5,156 158.5,182 158.5,212" fill="none" stroke="#6E6459" stroke-width="1.2"/>
+<circle cx="152" cy="116" r="4.38" fill="none" stroke="#4A5C55" stroke-width="0.8"/>
+<path d="M208,116 C194,156 220,182 200,212" fill="none" stroke="#C2D0C7" stroke-width="0.8"/>
+<path d="M196.0,118 C190.0,156 197.5,182 197.5,212" fill="none" stroke="#6E6459" stroke-width="1.2"/>
+<path d="M220.0,118 C226.0,156 218.5,182 218.5,212" fill="none" stroke="#6E6459" stroke-width="1.2"/>
+<circle cx="208" cy="116" r="6.720000000000001" fill="none" stroke="#4A5C55" stroke-width="0.8"/>
+<path d="M262,116 C276,156 250,182 270,212" fill="none" stroke="#C2D0C7" stroke-width="0.8"/>
+<path d="M255.5,118 C249.5,156 254.5,182 254.5,212" fill="none" stroke="#6E6459" stroke-width="1.2"/>
+<path d="M268.5,118 C274.5,156 269.5,182 269.5,212" fill="none" stroke="#6E6459" stroke-width="1.2"/>
+<circle cx="262" cy="116" r="4.74" fill="none" stroke="#4A5C55" stroke-width="0.8"/>
+<path d="M316,116 C304,156 326,182 310,212" fill="none" stroke="#C2D0C7" stroke-width="0.8"/>
+<path d="M313.0,118 C307.0,156 311.5,182 311.5,212" fill="none" stroke="#6E6459" stroke-width="1.2"/>
+<path d="M319.0,118 C325.0,156 320.5,182 320.5,212" fill="none" stroke="#6E6459" stroke-width="1.2"/>
+<circle cx="316" cy="116" r="3.48" fill="none" stroke="#4A5C55" stroke-width="0.8"/>
+<text x="208" y="196" font-size="7.2" fill="#6E6459" text-anchor="middle">宽</text>
+<text x="316" y="196" font-size="7.2" fill="#6E6459" text-anchor="middle">窄</text>
+<path d="M24,212 Q190,196 356,212 L356,234 Q190,250 24,234 z" fill="#DCE5DF" stroke="#B9C7BE" stroke-width="0.9"/>
+<path d="M66,222 q22,-5 44,0 q22,5 44,0" fill="none" stroke="#9FB0A6" stroke-width="0.8"/>
+<path d="M66,231 q22,-5 44,0 q22,5 44,0" fill="none" stroke="#9FB0A6" stroke-width="0.8"/>
+<text x="250" y="228" font-size="10.0" fill="#4A5C55" text-anchor="middle" letter-spacing="2">江海</text>
+<text x="20" y="260" font-size="7.6" fill="#6E6459">不挑水：千条支流不改河道，也能进来</text>
+<rect x="20" y="276" width="162" height="56" fill="#F6EFE0" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="32" y="294" font-size="8.2" fill="#4A5C55">道：同归，不失自性</text>
+<text x="32" y="310" font-size="7.4" fill="#6E6459">差异不必先被抹平</text>
+<text x="32" y="322" font-size="7.4" fill="#6E6459">来是「宾」，不是「臣」</text>
+<rect x="198" y="276" width="162" height="56" fill="#F6EFE0" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="210" y="294" font-size="8.2" fill="#A2503B">合：先改成一样的河道</text>
+<text x="210" y="310" font-size="7.4" fill="#6E6459">削平、捏成一条</text>
+<text x="210" y="322" font-size="7.4" fill="#6E6459">那是人之合</text>
+<rect x="20" y="350" width="340" height="42" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="190" y="369" font-size="9.4" fill="#2F2A24" text-anchor="middle" letter-spacing="0.6">譬道之在天下，犹川谷之于江海。</text>
+<text x="190" y="383" font-size="7.8" fill="#6E6459" text-anchor="middle">江海之为大，在于它不挑水。</text>
+<line x1="20" y1="400" x2="360" y2="400" stroke="#E6D8C2" stroke-width="0.8"/>
+<text x="20" y="414" font-size="8.0" fill="#A89577" letter-spacing="1">本 章 金 句</text>
+<text x="20" y="430" font-size="8.4" fill="#2F2A24">知止不是收手不干，是知道地基的边在哪儿——再往外砌，就砌在虚空上了。</text>
+<text x="20" y="446" font-size="8.4" fill="#2F2A24">江海之为大，在于它不挑水。</text>
+</svg>
