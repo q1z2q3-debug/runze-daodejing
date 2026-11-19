@@ -1518,6 +1518,8 @@ GOLD = {
     "ch23": ["自然不是「不管」，是「不需要管」——差别全在有没有人在使劲。", "信不足，不是话说得不够多，是话后面没有人。"],
     "ch24": ["借来的高度站不住，省下的步子走不远。", "不处不是割掉，是不长——约束是按住它，不处是根本不在那儿站。"],
     "ch25": ["不是它比天地老，是天地离了它不成。", "名是给有边界的东西用的；对没有边界的东西，名只是手指。"],
+    "ch30": ["兵是「合」的物理形态：它不让他想通，它让他不能不想通。",
+             "弓有力，是因为它被拉满了；而拉满的弓，不能久张。"],
     "ch29": ["切是把一个整体分成几块，捏是把几块不同捏成一个；老子两样都不放心。",
              "和是听得见的，合是摸得着的。"],
     "ch28": ["装弱是权谋，守雌是心法；权谋是知而让，心法是知而不必。",
@@ -1894,6 +1896,86 @@ def ch29_tian_xia_shen_qi():
 
 
 
+# ============ 第三十章 · 物壮则老 ============
+def ch30_wu_zhuang_ze_lao():
+    W, H = 380, 646
+    body, y = head(W, H, "兵是一张满弓：一发即止，还是久张到断", "第 三 十 章 · 兵 与 果", "物壮则老",
+                   "佐是搭手，不是推手；弓有力，是因为它被拉满了。", H)
+    s = [body]
+
+    def bow(cx, cy, w=30, h=44):
+        return (f'<path d="M{cx},{cy-h} Q{cx-w},{cy} {cx},{cy+h}" fill="none" stroke="{INK}" stroke-width="1.5"/>')
+
+    # ---- 弓：两态 ----
+    s.append(txt(20, y + 6, "兵：一张满弓，两种用法", 8.6, GREEN))
+    # 左：一发即止
+    s.append(bow(72, y + 74))
+    s.append(f'<path d="M72,{y+30} Q48,{y+74} 72,{y+118}" fill="none" stroke="{INK}" stroke-width="1.1"/>')
+    s.append(arrow(56, y + 74, 116, y + 74, SEAL, 1.2, head="arrS"))
+    s.append(f'<path d="M72,{y+30} Q86,{y+74} 72,{y+118}" fill="none" stroke="#B9A98F" stroke-width="0.9" stroke-dasharray="4 3"/>')
+    s.append(txt(72, y + 140, "满而不久：一矢而止", 8.2, INK, "middle"))
+    s.append(txt(72, y + 153, "果而已，不取强", 7.4, "#8A7C69", "middle"))
+    # 右：久张
+    s.append(bow(252, y + 74))
+    s.append(f'<path d="M252,{y+30} Q240,{y+52} 236,{y+68}" fill="none" stroke="{INK}" stroke-width="1.1"/>')
+    s.append(f'<path d="M236,{y+80} Q240,{y+98} 252,{y+118}" fill="none" stroke="{INK}" stroke-width="1.1"/>')
+    s.append(txt(236, y + 76, "×", 9.0, SEAL, "middle"))
+    s.append(txt(252, y + 140, "久张：弦断弓折", 8.2, SEAL, "middle"))
+    s.append(txt(252, y + 153, "取强，则物壮", 7.4, "#8A7C69", "middle"))
+    s.append(txt(162, y + 186, "「其事好还」：力发出去，最先回来的是它自己", 7.4, "#6E6459", "middle"))
+
+    # ---- 果：树结果就停 ----
+    y1 = y + 202
+    s.append(txt(20, y1, "果：树结果就停，人未必", 8.6, GREEN))
+
+    def tree(cx, by, fruit, up):
+        out = [f'<line x1="{cx}" y1="{by}" x2="{cx}" y2="{by-40}" stroke="{INK}" stroke-width="1.6"/>']
+        out.append(f'<path d="M{cx},{by-26} l-16,-14" stroke="{INK}" stroke-width="1.1"/>')
+        out.append(f'<path d="M{cx},{by-30} l16,-16" stroke="{INK}" stroke-width="1.1"/>')
+        out.append(f'<path d="M{cx},{by-40} l-8,-14" stroke="{INK}" stroke-width="1"/>')
+        out.append(f'<path d="M{cx},{by-40} l10,-16" stroke="{INK}" stroke-width="1"/>')
+        for (fx, fy) in fruit:
+            out.append(f'<circle cx="{fx}" cy="{fy}" r="4.4" fill="#EFE0C4" stroke="{SEAL}" stroke-width="0.8"/>')
+        return "\n".join(out)
+
+    # 左树：结完就停
+    s.append(tree(70, y1 + 96, [(54, y1 + 52), (70, y1 + 44), (86, y1 + 54), (62, y1 + 66)], False))
+    s.append(f'<line x1="30" y1="{y1+38}" x2="112" y2="{y1+38}" stroke="{SEAL}" stroke-width="0.8" stroke-dasharray="4 2"/>')
+    s.append(txt(114, y1 + 41, "到这儿就停", 7.4, SEAL))
+    s.append(txt(70, y1 + 112, "果而已：不再往上要", 8.0, INK, "middle"))
+
+    # 右树：拿果换更大的自己
+    s.append(tree(250, y1 + 96, [(234, y1 + 54), (250, y1 + 46), (266, y1 + 56), (256, y1 + 68)], True))
+    s.append(f'<line x1="212" y1="{y1+38}" x2="292" y2="{y1+38}" stroke="{SEAL}" stroke-width="0.8" stroke-dasharray="4 2"/>')
+    s.append(arrow(280, y1 + 46, 296, y1 + 18, SEAL, 1.2, head="arrS"))
+    s.append(txt(250, y1 + 112, "求壮：提前领老", 8.0, SEAL, "middle"))
+
+    # ---- 荆棘 ----
+    y2 = y1 + 130
+    s.append(txt(20, y2, "师之所处，荆棘生焉", 8.6, GREEN))
+    s.append(f'<line x1="22" y1="{y2+62}" x2="358" y2="{y2+62}" stroke="{LINE}" stroke-width="1"/>')
+    for i in range(9):
+        gx = 34 + i * 14
+        s.append(f'<path d="M{gx},{y2+62} l-3,-9 M{gx},{y2+62} l0,-11 M{gx},{y2+62} l4,-9" stroke="#B9A98F" stroke-width="0.8"/>')
+    for i in range(4):
+        tx = 178 + i * 44
+        s.append(f'<path d="M{tx},{y2+62} l6,-16 l-7,-12 l8,-14 l-5,-12" fill="none" stroke="{INK}" stroke-width="1.1"/>')
+        for j in range(4):
+            yy = y2 + 56 - j * 9
+            s.append(f'<path d="M{tx+ (2 if j%2==0 else 6)},{yy} l-7,-3" stroke="{SEAL}" stroke-width="0.8"/>')
+    s.append(txt(20, y2 + 80, "荒地先长刺，因为刺不需要人养。", 7.6, SEAL))
+
+    # ---- 收 ----
+    y3 = y2 + 96
+    s.append(box(20, y3, 340, 44, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, y3 + 19, "物壮则老，是谓不道；不道早已。", 9.6, INK, "middle", spacing="0.6"))
+    s.append(txt(190, y3 + 34, "求壮，就是提前领老。", 8.0, "#6E6459", "middle"))
+    s.append(gold(y3 + 52, "ch30"))
+    s.append('</svg>')
+    return "\n".join(s)
+
+
+
 FIGS = {
     "ch01-wu-you": ("第一章", "无有同出", ch01_wu_you),
     "ch01-zhi-yue": ("第一章", "指月三境", ch01_zhi_yue),
@@ -1934,6 +2016,7 @@ FIGS = {
     "ch10-bao-yi": ("第十章", "载营魄抱一", ch10_bao_yi),
     "ch28-zhi-xiong": ("第二十八章", "知其雄", ch28_zhi_xiong),
     "ch29-tian-xia-shen-qi": ("第二十九章", "天下神器", ch29_tian_xia_shen_qi),
+    "ch30-wu-zhuang-ze-lao": ("第三十章", "物壮则老", ch30_wu_zhuang_ze_lao),
 }
 
 
