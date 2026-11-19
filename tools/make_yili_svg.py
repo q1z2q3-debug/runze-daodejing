@@ -1518,6 +1518,8 @@ GOLD = {
     "ch23": ["自然不是「不管」，是「不需要管」——差别全在有没有人在使劲。", "信不足，不是话说得不够多，是话后面没有人。"],
     "ch24": ["借来的高度站不住，省下的步子走不远。", "不处不是割掉，是不长——约束是按住它，不处是根本不在那儿站。"],
     "ch25": ["不是它比天地老，是天地离了它不成。", "名是给有边界的东西用的；对没有边界的东西，名只是手指。"],
+    "ch36a": ["歙是吸气，张是上弦；一口气吸到底，下一口只能是呼。",
+              "兴是众手共举，废是无人再举。"],
     "ch35b": ["客停下来不是归，是歇脚；他没有把这儿当家，只是吃了一口饼。",
               "加味的抓人，无味的养人。道是一碗白水：喝不完，也说不浓。"],
     "ch35a": ["同一个「执」字，宾语一换，手就转向了——执罪人是抓人，执中是持己。",
@@ -2523,6 +2525,74 @@ def ch35b_dan_bai_shui():
     return "\n".join(s)
 
 
+# ============ 第三十六章 · 四对节律 ============
+def ch36a_si_dui_jie_lv():
+    W, H = 380, 536
+    body, y = head(W, H, "「固」是必然如此，不是「你就这样办」", "第 三 十 六 章 · 四 对",
+                   "四对：一张一阖", "看清节律的人有两种：一种跟着走，一种拿它下套。", H)
+    s = [body]
+
+    s.append(box(20, y + 2, 340, 40, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, y + 18, "将欲歙之，必固张之；将欲弱之，必固强之；", 7.4, INK, "middle"))
+    s.append(txt(190, y + 34, "将欲废之，必固兴之；将欲取之，必固与之。", 7.4, INK, "middle"))
+
+    cells = [(20, y + 50), (198, y + 50), (20, y + 186), (198, y + 186)]
+    for cx, cy in cells:
+        s.append(box(cx, cy, 162, 126, fill="#FBF6EC", stroke="#E6D8C2"))
+
+    c1, c2 = y + 50, y + 186
+    # 一 歙/张：弓与呼
+    s.append(txt(32, c1 + 18, "歙 / 张：一口气", 8.2, SEAL))
+    s.append(f'<path d="M48,{c1+38} Q68,{c1+62} 48,{c1+86}" fill="none" stroke="{INK}" stroke-width="1.3"/>')
+    s.append(f'<line x1="44" y1="{c1+38}" x2="44" y2="{c1+86}" stroke="{INK}" stroke-width="0.9"/>')
+    s.append(f'<path d="M62,{c1+52} q14,-8 26,-4" fill="none" stroke="{SEAL}" stroke-width="0.9"/>')
+    s.append(arrow(74, c1 + 46, 92, c1 + 42, SEAL, 0.8, head="arrS"))
+    s.append(txt(100, c1 + 52, "上弦之后必放", 6.8, "#6E6459"))
+    s.append(txt(32, c1 + 100, "吸气之后必呼，上弦之后必放。", 7.0, INK))
+    s.append(txt(32, c1 + 114, "你要收，是因为它已经张满了。", 6.9, SEAL))
+
+    # 二 弱/强：曲枝与绷弦
+    s.append(txt(210, c1 + 18, "弱 / 强：能弯的不折", 8.2, GREEN))
+    s.append(f'<path d="M216,{c1+80} Q236,{c1+44} 256,{c1+80}" fill="none" stroke="{GREEN}" stroke-width="1.3"/>')
+    s.append(f'<line x1="268" y1="{c1+42}" x2="292" y2="{c1+42}" stroke="{INK}" stroke-width="1.2"/>')
+    s.append(f'<path d="M268,{c1+42} l-6,-4 M292,{c1+42} l6,-4" stroke="{SEAL}" stroke-width="0.8"/>')
+    s.append(txt(280, c1 + 56, "绷到断", 6.6, SEAL, "middle"))
+    s.append(txt(210, c1 + 100, "弱是桡：一根能弯的枝；", 7.0, INK))
+    s.append(txt(210, c1 + 114, "强是弦绷紧。弯的不断，绷的会断。", 6.9, SEAL))
+
+    # 三 废/兴：塌屋与众手
+    s.append(txt(32, c2 + 18, "废 / 兴：众手与撤手", 8.2, SEAL))
+    s.append(f'<rect x="38" y="{c2+56}" width="36" height="24" fill="none" stroke="{LINE}" stroke-width="0.9"/>')
+    s.append(f'<path d="M34,{c2+56} l10,-10 l12,8 l14,-12" fill="none" stroke="{INK}" stroke-width="1"/>')
+    s.append(f'<path d="M40,{c2+84} l26,-8" stroke="{INK}" stroke-width="0.9" stroke-dasharray="4 3"/>')
+    s.append(txt(62, c2 + 90, "屋塌：不用人管", 6.6, "#6E6459"))
+    s.append(f'<rect x="118" y="{c2+52}" width="26" height="18" fill="#E9DFCC" stroke="{INK}" stroke-width="0.8"/>')
+    for dx in (-14, -4, 8, 18):
+        s.append(arrow(131 + dx, c2 + 84, 131 + dx, c2 + 72, GREEN, 0.7, head="arrS"))
+    s.append(txt(131, c2 + 96, "四手共举", 6.6, GREEN, "middle"))
+    s.append(txt(32, c2 + 114, "举起来要合力，塌下去不用人管。", 6.9, SEAL))
+
+    # 四 取/与：割耳与给饼
+    s.append(txt(210, c2 + 18, "取 / 与：拿与给", 8.2, GREEN))
+    s.append(f'<circle cx="220" cy="{c2+48}" r="4.2" fill="none" stroke="{INK}" stroke-width="0.8"/>')
+    s.append(f'<path d="M228,{c2+48} l16,0" stroke="{INK}" stroke-width="0.9"/>')
+    s.append(f'<path d="M244,{c2+44} l0,6 M244,{c2+50} l0,6" stroke="{INK}" stroke-width="0.7"/>')
+    s.append(txt(240, c2 + 52, "取：从别人身上拿", 6.6, "#6E6459"))
+    s.append(f'<circle cx="238" cy="{c2+78}" r="9" fill="#E9DFCC" stroke="{INK}" stroke-width="0.8"/>')
+    s.append(f'<path d="M214,{c2+88} q12,10 24,0" fill="none" stroke="{INK}" stroke-width="0.8"/>')
+    s.append(txt(214, c2 + 104, "凡是给出去的，都在某处等着被取。", 6.9, SEAL))
+    s.append(txt(210, c2 + 118, "给是给，取是拿，两者不是两件事。", 6.7, "#6E6459"))
+
+    # 固 与 收
+    y3 = y + 324
+    s.append(box(20, y3, 340, 44, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, y3 + 18, "「固」＝必然如此：说这话的是观天的人。", 8.2, INK, "middle"))
+    s.append(txt(190, y3 + 34, "若读成「你就这样办」，就成了下棋的人——同一句，两条路。", 7.4, "#6E6459", "middle"))
+    s.append(gold(y3 + 52, "ch36a"))
+    s.append('</svg>')
+    return "\n".join(s)
+
+
 
 FIGS = {
     "ch01-wu-you": ("第一章", "无有同出", ch01_wu_you),
@@ -2573,6 +2643,7 @@ FIGS = {
     "ch34b-yi-ju-liang-du": ("第三十四章", "一句两读：小与大", ch34b_yi_ju_liang_du),
     "ch35a-zhi-yu-chang": ("第三十五章", "执与场", ch35a_zhi_yu_chang),
     "ch35b-dan-bai-shui": ("第三十五章", "淡：一碗白水", ch35b_dan_bai_shui),
+    "ch36a-si-dui-jie-lv": ("第三十六章", "四对：一张一阖", ch36a_si_dui_jie_lv),
 }
 
 
