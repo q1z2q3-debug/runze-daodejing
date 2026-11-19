@@ -1524,6 +1524,9 @@ GOLD = {
     "ch48c": ["「取天下」的「取」是割耳朵，所以老子换了一个动作：不是割，是不动。"],
     "ch47a": ["透过框看，你看见的每一块都是真的；可你真的没看见框外。"],
     "ch47b": ["其出弥远，其知弥少。"],
+    "ch52a": ["母生子，是天道；子归母，是功夫；本章讲的，就是这后半圈。"],
+    "ch52b": ["「兑」是口，「袭」是袍，「救」是止；三个字，一个在收口，一个在穿衣，一个在刹车。"],
+    "ch52c": ["光是照东西的，明是那个照本身；光一直在外面，人就一直在外面。"],
     "ch51a": ["道负责「有」，德负责「留住」；一个不占地方，一个专门存。"],
     "ch51b": ["亭是有顶无壁的屋子，宰是屋下当差的人；一个给顶，一个进屋。"],
     "ch51c": ["「不有」是总开关：一划「这是我的」，恃与宰就自己跟上来了。"],
@@ -5038,6 +5041,176 @@ def ch51c_yi_ben_zhang():
     return "\n".join(s)
 
 
+# ============ 第五十二章 · 一个圈 ============
+def ch52a_yi_ge_quan():
+    W, H = 380, 612
+    body, y = head(W, H, "出去是顺水，回来是逆水：这一章的全部功夫，都在逆水那半圈上",
+                   "第 五 十 二 章 · 圈", "一个圈", "既得其母，以知其子；既知其子，复守其母。", H)
+    s = [body]
+
+    s.append(box(20, y + 2, 340, 30, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, y + 14, "母生子，是天道；子归母，是功夫。出去那半圈，一步不用你走，它自己会走。", 5.2, INK, "middle"))
+    s.append(txt(190, y + 26, "回来那半圈，每一步都要你自己迈。", 5.2, "#6E6459", "middle"))
+
+    t1 = y + 46
+    s.append(txt(24, t1, "一个闭环：从母到子，是出去；从子到母，是回来", 5.4, SEAL))
+
+    cy = t1 + 112
+    # 上弧：出去（赭）
+    s.append(f'<path d="M100,{cy} A110,54 0 0 1 280,{cy}" fill="none" stroke="{SEAL}" stroke-width="1.4"/>')
+    s.append(f'<polygon points="186,{cy-60} 186,{cy-48} 197,{cy-54}" fill="{SEAL}"/>')
+    # 下弧：回来（青）
+    s.append(f'<path d="M280,{cy} A110,54 0 0 1 100,{cy}" fill="none" stroke="{GREEN}" stroke-width="1.4"/>')
+    s.append(f'<polygon points="194,{cy+60} 194,{cy+48} 183,{cy+54}" fill="{GREEN}"/>')
+
+    s.append(f'<circle cx="80" cy="{cy}" r="20" fill="#FBF6EC" stroke="{INK}" stroke-width="1"/>')
+    s.append(txt(80, cy + 3, "母", 7.0, INK, "middle"))
+    s.append(txt(80, cy + 30, "无·本源", 4.6, "#6E6459", "middle"))
+    s.append(f'<circle cx="300" cy="{cy}" r="20" fill="#EFE6D4" stroke="{INK}" stroke-width="1"/>')
+    s.append(txt(300, cy + 3, "子", 7.0, INK, "middle"))
+    s.append(txt(300, cy + 30, "有·万象", 4.6, "#6E6459", "middle"))
+
+    s.append(txt(190, cy - 78, "出去：顺水（天定的）", 5.0, SEAL, "middle"))
+    s.append(txt(190, cy + 84, "回来：逆水（人做的）", 5.0, GREEN, "middle"))
+
+    b = cy + 106
+    s.append(txt(24, b, "两个岔口：站在这半圈上，还是站在那半圈上", 5.4, INK))
+    s.append(box(20, b + 10, 164, 54, fill="#FBF6EC", stroke=GREEN))
+    s.append(txt(102, b + 26, "塞其兑，闭其门", 5.2, GREEN, "middle"))
+    s.append(txt(102, b + 40, "站在回来的半圈上", 4.6, "#6E6459", "middle"))
+    s.append(txt(102, b + 52, "终身不勤：不用那么劳", 4.6, "#6E6459", "middle"))
+    s.append(box(196, b + 10, 164, 54, fill="#FBF6EC", stroke=SEAL))
+    s.append(txt(278, b + 26, "开其兑，济其事", 5.2, SEAL, "middle"))
+    s.append(txt(278, b + 40, "站在出去那半圈上", 4.6, "#6E6459", "middle"))
+    s.append(txt(278, b + 52, "终身不救：一辈子停不下来", 4.6, "#6E6459", "middle"))
+
+    d = b + 82
+    s.append(txt(24, d, "「复」是走回来，不是停下来；没出去过的，谈不上复。", 5.2, INK))
+    s.append(txt(24, d + 16, "出去要看得见万象（知子），回来要守得住虚源（守母）；", 5.2, INK))
+    s.append(txt(24, d + 32, "不是关在母里不出来——那是闭门造车，不叫守母。", 5.2, GREEN))
+
+    c = d + 50
+    s.append(f'<line x1="24" y1="{c}" x2="338" y2="{c}" stroke="{LINE}" stroke-width="0.6"/>')
+    s.append(box(20, c + 8, 340, 40, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, c + 24, "母生子，是天道；子归母，是功夫；", 6.0, INK, "middle"))
+    s.append(txt(190, c + 36, "本章讲的，就是这后半圈。", 6.0, GREEN, "middle"))
+    s.append(gold(c + 62, "ch52a"))
+    s.append('</svg>')
+    return "\n".join(s)
+
+
+# ============ 第五十二章 · 一张脸 ============
+def ch52b_yi_zhang_lian():
+    W, H = 380, 664
+    body, y = head(W, H, "塞其兑，闭其门；开其兑，济其事：口一张一收，人就在两个半圈上",
+                   "第 五 十 二 章 · 口", "一张脸", "塞其兑，闭其门……开其兑，济其事。", H)
+    s = [body]
+
+    s.append(box(20, y + 2, 340, 30, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, y + 14, "「兑」在《易·说卦》里就是「口」——口、眼、耳、鼻，人身上一共就这几个口。", 5.2, INK, "middle"))
+    s.append(txt(190, y + 26, "塞不是缝上，是「不敞着」。", 5.2, "#6E6459", "middle"))
+
+    # 一、塞
+    t1 = y + 46
+    s.append(txt(24, t1, "一、塞其兑：把口收一收", 5.4, GREEN))
+    cy1 = t1 + 84
+    s.append(f'<circle cx="104" cy="{cy1}" r="44" fill="#EFE6D4" stroke="{INK}" stroke-width="1"/>')
+    for ex in (88, 120):
+        s.append(f'<circle cx="{ex}" cy="{cy1-12}" r="6" fill="#FBF6EC" stroke="{INK}" stroke-width="0.7"/>')
+        s.append(f'<line x1="{ex-7}" y1="{cy1-12}" x2="{ex+7}" y2="{cy1-12}" stroke="{SEAL}" stroke-width="1.1"/>')
+    s.append(f'<ellipse cx="104" cy="{cy1+22}" rx="13" ry="7" fill="#FBF6EC" stroke="{INK}" stroke-width="0.7"/>')
+    s.append(f'<line x1="91" y1="{cy1+22}" x2="117" y2="{cy1+22}" stroke="{SEAL}" stroke-width="1.1"/>')
+    s.append(txt(104, cy1 + 56, "三孔皆塞", 4.8, SEAL, "middle"))
+    s.append(arrow(30, cy1 - 12, 74, cy1 - 12, SEAL, 0.8, head="arrS"))
+    s.append(txt(30, cy1 + 2, "外头的东西", 4.4, "#6E6459"))
+    s.append(txt(30, cy1 + 12, "进不来", 4.4, "#6E6459"))
+
+    # 二、开
+    t2 = cy1 + 74
+    s.append(txt(24, t2, "二、开其兑，济其事：口一敞，事一件件往外长", 5.4, SEAL))
+    cy2 = t2 + 84
+    s.append(f'<circle cx="104" cy="{cy2}" r="44" fill="#EFE6D4" stroke="{INK}" stroke-width="1"/>')
+    for ex in (88, 120):
+        s.append(f'<circle cx="{ex}" cy="{cy2-12}" r="6" fill="#FBF6EC" stroke="{INK}" stroke-width="0.7"/>')
+    s.append(f'<ellipse cx="104" cy="{cy2+22}" rx="13" ry="7" fill="#FBF6EC" stroke="{INK}" stroke-width="0.7"/>')
+    s.append(arrow(74, cy2 - 12, 30, cy2 - 22, SEAL, 0.8, head="arrS"))
+    s.append(arrow(134, cy2 - 12, 178, cy2 - 22, SEAL, 0.8, head="arrS"))
+    s.append(arrow(104, cy2 + 34, 104, cy2 + 62, SEAL, 0.8, head="arrS"))
+    for k, (bx, by) in enumerate([(10, cy2 - 34), (186, cy2 - 34), (96, cy2 + 66)]):
+        for m in range(2):
+            s.append(box(bx + m * 10, by, 9, 9, fill="#FBF6EC", stroke=SEAL, width=0.6))
+    s.append(txt(186, cy2 + 8, "事：一件未", 4.4, "#6E6459"))
+    s.append(txt(186, cy2 + 18, "完又起一件", 4.4, "#6E6459"))
+    s.append(txt(104, cy2 + 86, "一辈子停不下来：「救」训「止」，不救是止不住", 4.6, SEAL, "middle"))
+
+    b = cy2 + 108
+    s.append(txt(24, b, "「塞」与「闭」是两个动作：孔是一个个的，堵；门是一整扇的，合。", 5.2, INK))
+    s.append(txt(24, b + 16, "「勤」训「劳」：不勤不是不干活，是不用那么劳。", 5.2, INK))
+    s.append(txt(24, b + 32, "两个半圈的分界，就在这几个口上：收着，就在回来那半圈上。", 5.2, GREEN))
+
+    c = b + 50
+    s.append(f'<line x1="24" y1="{c}" x2="338" y2="{c}" stroke="{LINE}" stroke-width="0.6"/>')
+    s.append(box(20, c + 8, 340, 40, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, c + 24, "「兑」是口，「袭」是袍，「救」是止；", 6.0, INK, "middle"))
+    s.append(txt(190, c + 36, "三个字，一个在收口，一个在穿衣，一个在刹车。", 6.0, GREEN, "middle"))
+    s.append(gold(c + 62, "ch52b"))
+    s.append('</svg>')
+    return "\n".join(s)
+
+
+# ============ 第五十二章 · 一盏灯 ============
+def ch52c_yi_zhan_deng():
+    W, H = 380, 656
+    body, y = head(W, H, "用其光，复归其明：光出去照东西，明是那个照本身",
+                   "第 五 十 二 章 · 灯", "一盏灯", "用其光，复归其明，无遗身殃，是为袭常。", H)
+    s = [body]
+
+    s.append(box(20, y + 2, 340, 30, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, y + 14, "灯照屋子，屋子照亮了；灯一关，屋子黑，灯还在。", 5.2, INK, "middle"))
+    s.append(txt(190, y + 26, "光是照东西的，明是那个照本身；光一直在外面，人就一直在外面。", 5.2, "#6E6459", "middle"))
+
+    t1 = y + 46
+    s.append(txt(24, t1, "一、用其光：开灯，照见屋里的东西", 5.4, SEAL))
+    ry1 = t1 + 26
+    s.append(box(56, ry1, 268, 118, fill="#FDFAF2", stroke=INK, width=1.0))
+    s.append(f'<polygon points="86,{ry1+22} 62,{ry1+118} 318,{ry1+118} 236,{ry1+22}" fill="#F6E9B8" opacity="0.55" stroke="none"/>')
+    s.append(f'<path d="M74,{ry1+22} L100,{ry1+22} L96,{ry1+8} L78,{ry1+8} Z" fill="#EFE6D4" stroke="{INK}" stroke-width="0.9"/>')
+    s.append(f'<circle cx="87" cy="{ry1+31}" r="5" fill="#F2C46B" stroke="{INK}" stroke-width="0.6"/>')
+    s.append(f'<line x1="87" y1="{ry1+22}" x2="87" y2="{ry1+26}" stroke="{INK}" stroke-width="0.6"/>')
+    s.append(box(150, ry1 + 92, 46, 14, fill="#EFE6D4", stroke=INK, width=0.7))
+    s.append(box(206, ry1 + 86, 60, 20, fill="#F2EADA", stroke=INK, width=0.7))
+    s.append(f'<line x1="228" y1="{ry1+90}" x2="244" y2="{ry1+90}" stroke="{LINE2}" stroke-width="0.5"/>')
+    s.append(txt(87, ry1 - 4, "光：照出去", 4.6, SEAL, "middle"))
+    s.append(txt(190, ry1 + 134, "开灯：屋里每样东西都看得见——这就是「用其光」", 4.6, "#6E6459", "middle"))
+
+    # 二、复归其明
+    t2 = ry1 + 168
+    s.append(txt(24, t2, "二、复归其明：灯一关，屋子黑，灯还在", 5.4, GREEN))
+    ry2 = t2 + 26
+    s.append(box(56, ry2, 268, 118, fill="#EFE8D8", stroke=INK, width=1.0))
+    s.append(f'<path d="M74,{ry2+22} L100,{ry2+22} L96,{ry2+8} L78,{ry2+8} Z" fill="#EFE6D4" stroke="{INK}" stroke-width="0.9"/>')
+    s.append(f'<circle cx="87" cy="{ry2+31}" r="5" fill="#FBF6EC" stroke="{GREEN}" stroke-width="1.1"/>')
+    s.append(f'<line x1="87" y1="{ry2+22}" x2="87" y2="{ry2+26}" stroke="{INK}" stroke-width="0.6"/>')
+    s.append(box(150, ry2 + 92, 46, 14, fill="#E6DDC9", stroke=INK, width=0.7))
+    s.append(box(206, ry2 + 86, 60, 20, fill="#E6DDC9", stroke=INK, width=0.7))
+    s.append(txt(151, ry2 + 60, "东西还在这儿，只是看不清了", 4.4, "#8A7E70"))
+    s.append(txt(110, ry2 - 4, "灯还在：这就是「明」", 4.6, GREEN, "middle"))
+
+    b = ry2 + 148
+    s.append(txt(24, b, "人最常见的病，是把「光」当成自己：光照到哪儿，人就以为自己在哪儿。", 5.2, INK))
+    s.append(txt(24, b + 16, "照得越远，人越散；「复归其明」就是：光收回来，人还在原处。", 5.2, INK))
+    s.append(txt(24, b + 32, "「袭」是左衽袍，一层层穿上：那件「常」，是要天天穿，穿到长在身上。", 5.2, GREEN))
+
+    c = b + 50
+    s.append(f'<line x1="24" y1="{c}" x2="338" y2="{c}" stroke="{LINE}" stroke-width="0.6"/>')
+    s.append(box(20, c + 8, 340, 40, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, c + 24, "光是照东西的，明是那个照本身；", 6.0, INK, "middle"))
+    s.append(txt(190, c + 36, "光一直在外面，人就一直在外面。", 6.0, GREEN, "middle"))
+    s.append(gold(c + 62, "ch52c"))
+    s.append('</svg>')
+    return "\n".join(s)
+
+
 FIGS = {
     "ch01-wu-you": ("第一章", "无有同出", ch01_wu_you),
     "ch01-zhi-yue": ("第一章", "指月三境", ch01_zhi_yue),
@@ -5089,6 +5262,9 @@ FIGS = {
     "ch51a-si-ceng-lian-tiao": ("第五十一章", "四层链条", ch51a_si_ceng_lian_tiao),
     "ch51b-yi-jian-wu": ("第五十一章", "一间屋", ch51b_yi_jian_wu),
     "ch51c-yi-ben-zhang": ("第五十一章", "一本账", ch51c_yi_ben_zhang),
+    "ch52a-yi-ge-quan": ("第五十二章", "一个圈", ch52a_yi_ge_quan),
+    "ch52b-yi-zhang-lian": ("第五十二章", "一张脸", ch52b_yi_zhang_lian),
+    "ch52c-yi-zhan-deng": ("第五十二章", "一盏灯", ch52c_yi_zhan_deng),
     "ch12-wu-se": ("第十二章", "门开五处", ch12_wu_se),
     "ch13-chong-ru": ("第十三章", "惊的是我", ch13_chong_ru),
     "ch14-yi-xi-wei": ("第十四章", "三样工具探不到", ch14_yi_xi_wei),
