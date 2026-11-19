@@ -1635,21 +1635,29 @@ def ch24_qi_zhe_bu_li():
 
 # ============ 第二十六章 · 重为轻根 ============
 def ch26_zhong_wei_qing_gen():
-    W, H = 380, 610
+    W, H = 380, 626
     body, y = head(W, H, "法地不是学地的形状，是学地的分量", "第 二 十 六 章 · 轻 重", "重为轻根",
                    "轻车跑得快，正因为它不载重——代价是空。", H)
     s = [body]
-    # 重为轻根
+    # 重为轻根：有根／失根 两态
     y0 = y + 8
-    s.append(box(60, y0 + 34, 96, 26, fill="#D9C7A6", stroke="#B9A98F"))
-    s.append(txt(108, y0 + 51, "重", 9.6, INK, "middle"))
-    s.append(f'<line x1="108" y1="{y0+34}" x2="108" y2="{y0+14}" stroke="{LINE}" stroke-width="1"/>')
-    s.append(f'<circle cx="108" cy="{y0+10}" r="6" fill="#FBF6EC" stroke="{LINE}" stroke-width="1"/>')
-    s.append(txt(108, y0 + 9, "轻", 7, "#6E6459", "middle"))
-    s.append(txt(176, y0 + 24, "轻要靠根立着", 8.4, "#6E6459"))
-    s.append(txt(176, y0 + 40, "根一抽，轻就倒", 8.2, "#8A7C69"))
+    # 有根
+    s.append(box(30, y0 + 34, 96, 26, fill="#D9C7A6", stroke="#B9A98F"))
+    s.append(txt(78, y0 + 51, "重", 9.6, INK, "middle"))
+    s.append(f'<line x1="78" y1="{y0+34}" x2="78" y2="{y0+16}" stroke="{LINE}" stroke-width="1"/>')
+    s.append(f'<circle cx="78" cy="{y0+10}" r="6" fill="#FBF6EC" stroke="{LINE}" stroke-width="1"/>')
+    s.append(txt(78, y0 + 9, "轻", 7, "#6E6459", "middle"))
+    s.append(txt(78, y0 + 76, "有根：轻挂在重上", 8.2, INK, "middle"))
+    # 失根
+    s.append(box(214, y0 + 34, 96, 26, fill="#D9C7A6", stroke="#B9A98F"))
+    s.append(txt(262, y0 + 51, "重", 9.6, INK, "middle"))
+    s.append(f'<circle cx="330" cy="{y0+10}" r="6" fill="#FBF6EC" stroke="{SEAL}" stroke-width="1"/>')
+    s.append(txt(330, y0 + 9, "轻", 7, SEAL, "middle"))
+    s.append(arrow(330, y0 + 18, 330, y0 + 54, color="#A2503B", width=0.9, dash="3 3", head="arrS"))
+    s.append(txt(336, y0 + 40, "落", 7.4, SEAL))
+    s.append(txt(262, y0 + 76, "失根：根一抽，轻就落", 8.2, SEAL, "middle"))
     # 静为躁君：君是主宰，不是压制——一正一反两态
-    y1 = y0 + 96
+    y1 = y0 + 112
     s.append(txt(20, y1 - 16, "静为躁君：君是统摄，不是压制", 8.8, SEAL))
     # 一态：有君——动由我出
     s.append(box(34, y1 + 26, 48, 30, fill="#F2EADA", stroke="#C9B79A"))
