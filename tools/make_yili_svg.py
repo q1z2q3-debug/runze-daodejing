@@ -3778,126 +3778,117 @@ def ch44c_jiao_yu_zhi():
     return "\n".join(s)
 
 
-# ============ 第四十五章 · 器上的三个样子 ============
-def ch45a_cheng_ying_chong():
-    W, H = 380, 560
-    body, y = head(W, H, "到了头，还要留一个口", "第 四 十 五 章 · 缺 冲",
-                   "成、盈、冲", "真正不破的，是那个本来就有破口的。", H)
+# ============ 第四十五章 · 留一道缝 ============
+def ch45a_liu_yi_dao_feng():
+    W, H = 380, 580
+    body, y = head(W, H, "不是做得不够，是把缝预留在对的地方", "第 四 十 五 章 · 留 缝",
+                   "留一道缝", "大成若缺，其用不敝。", H)
     s = [body]
 
     s.append(box(20, y + 2, 340, 30, fill="#F2EADA", stroke="#C9B79A"))
-    s.append(txt(190, y + 15, "大成若缺，其用不敝；大盈若冲，其用不穷。", 6.6, INK, "middle"))
-    s.append(txt(190, y + 27, "「成」是走到了头，「缺」是器破了口——到了头的东西，要留一个口。", 5.5, "#6E6459", "middle"))
+    s.append(txt(190, y + 15, "「缺」，《说文》「器破也」——器皿破了口。", 6.4, INK, "middle"))
+    s.append(txt(190, y + 27, "到了头的东西，要留一个口；封死了，力就全落在自己身上。", 5.7, "#6E6459", "middle"))
 
-    # 一、封口的器
     a = y + 48
-    s.append(txt(24, a + 6, "一 · 封死口：受力只能裂", 6.0, SEAL))
-    top = a + 22
-    s.append(f'<path d="M56,{top} L64,{top+46} L108,{top+46} L116,{top}" fill="none" stroke="{INK}" stroke-width="1"/>')
-    s.append(f'<line x1="56" y1="{top}" x2="116" y2="{top}" stroke="{INK}" stroke-width="1.4"/>')
-    s.append(f'<line x1="88" y1="{top+6}" x2="84" y2="{top+22}" stroke="{SEAL}" stroke-width="1"/>')
-    s.append(f'<line x1="84" y1="{top+22}" x2="90" y2="{top+34}" stroke="{SEAL}" stroke-width="1"/>')
-    s.append(txt(86, top + 60, "封死：压力全落在自己身上", 5.2, "#6E6459", "middle"))
-    s.append(txt(150, a + 26, "封死了口的器，用久了都会破——里面没有余地，", 5.9, INK))
-    s.append(txt(150, a + 40, "一受力，只能裂。", 5.9, INK))
-    s.append(txt(150, a + 60, "「敝」是破旧的衣裳：穿到破，是迟早的事。", 6.0, SEAL))
+    deck = a + 46
+    # 桥面两段
+    s.append(f'<rect x="34" y="{deck}" width="116" height="11" fill="#E6D8C2" stroke="{INK}" stroke-width="0.8"/>')
+    s.append(f'<rect x="162" y="{deck}" width="176" height="11" fill="#E6D8C2" stroke="{INK}" stroke-width="0.8"/>')
+    s.append(f'<line x1="150" y1="{deck-4}" x2="150" y2="{deck+15}" stroke="{SEAL}" stroke-width="0.9" stroke-dasharray="3 3"/>')
+    s.append(f'<line x1="162" y1="{deck-4}" x2="162" y2="{deck+15}" stroke="{SEAL}" stroke-width="0.9" stroke-dasharray="3 3"/>')
+    s.append(txt(156, deck - 12, "缝", 6.4, SEAL, "middle"))
+    s.append(f'<path d="M144,{deck+2} l-10,0 M134,{deck+2} l3,-3 M134,{deck+2} l3,3" fill="none" stroke="{SEAL}" stroke-width="0.6"/>')
+    s.append(f'<path d="M168,{deck+2} l10,0 M178,{deck+2} l-3,-3 M178,{deck+2} l-3,3" fill="none" stroke="{SEAL}" stroke-width="0.6"/>')
+    # 桥墩
+    for px in (80, 262):
+        s.append(f'<path d="M{px-9},{deck+11} L{px+9},{deck+11} L{px+13},{deck+46} L{px-13},{deck+46} Z" fill="#EFE4CF" stroke="{INK}" stroke-width="0.7"/>')
+        for k in range(3):
+            s.append(f'<line x1="{px-9+k*6}" y1="{deck+11}" x2="{px-13+k*8}" y2="{deck+46}" stroke="{INK}" stroke-width="0.35" opacity="0.5"/>')
+    s.append(f'<line x1="20" y1="{deck+46}" x2="340" y2="{deck+46}" stroke="{INK}" stroke-width="0.7"/>')
+    s.append(txt(156, deck + 60, "桥面两段之间，故意留一道缝：热胀冷缩，力从缝里放掉", 5.2, "#6E6459", "middle"))
 
-    # 二、留口的器
-    b = a + 96
-    s.append(txt(24, b + 6, "二 · 留一个口：口替它卸力", 6.0, GREEN))
-    top = b + 22
-    s.append(f'<path d="M56,{top} L64,{top+46} L108,{top+46} L116,{top}" fill="none" stroke="{GREEN}" stroke-width="1"/>')
-    s.append(f'<line x1="56" y1="{top}" x2="70" y2="{top}" stroke="{GREEN}" stroke-width="1.2"/>')
-    s.append(f'<line x1="96" y1="{top}" x2="116" y2="{top}" stroke="{GREEN}" stroke-width="1.2"/>')
-    for i, (dx, dy) in enumerate([(2, -6), (-6, -12), (6, -14)]):
-        s.append(f'<path d="M80,{top+2} q{dx},-6 {dx*2},-8" fill="none" stroke="{GREEN}" stroke-width="0.5"/>')
-    s.append(txt(86, top + 60, "缺口不是缺陷，是泄压的地方", 5.2, "#6E6459", "middle"))
-    s.append(txt(150, b + 26, "留了口的器，用久了反而不破——", 5.9, INK))
-    s.append(txt(150, b + 40, "那个口一直在替它卸力。", 5.9, INK))
-    s.append(txt(150, b + 60, "缺口不在补，在于它是气出去的地方。", 6.0, GREEN))
+    b = deck + 78
+    s.append(txt(24, b + 4, "一 · 封死：力只能落在自己身上", 5.9, SEAL))
+    s.append(f'<path d="M52,{b+14} L60,{b+48} L92,{b+48} L100,{b+14}" fill="none" stroke="{INK}" stroke-width="0.9"/>')
+    s.append(f'<line x1="52" y1="{b+14}" x2="100" y2="{b+14}" stroke="{INK}" stroke-width="1.3"/>')
+    s.append(f'<line x1="76" y1="{b+20}" x2="72" y2="{b+32}" stroke="{SEAL}" stroke-width="1"/>')
+    s.append(f'<line x1="72" y1="{b+32}" x2="78" y2="{b+42}" stroke="{SEAL}" stroke-width="1"/>')
+    s.append(txt(76, b + 64, "封死则裂", 5.0, SEAL, "middle"))
+    s.append(txt(150, b + 18, "凡是封死了口的器，用久了都会破。", 5.9, INK))
+    s.append(txt(150, b + 32, "它里面没有余地，一受力只能裂。", 5.9, INK))
 
-    # 三、大盈若冲
-    c = b + 96
-    s.append(txt(24, c + 6, "三 · 满在里面，空在外面", 6.0, INK))
-    top = c + 34
-    s.append(f'<path d="M56,{top} L64,{top+46} L108,{top+46} L116,{top}" fill="none" stroke="{INK}" stroke-width="0.9"/>')
-    s.append(f'<ellipse cx="86" cy="{top}" rx="30" ry="6" fill="none" stroke="{INK}" stroke-width="0.9"/>')
-    s.append(f'<ellipse cx="86" cy="{top+6}" rx="23" ry="4.4" fill="#DCE6E0" stroke="{GREEN}" stroke-width="0.6"/>')
-    s.append(f'<line x1="86" y1="{c+24}" x2="86" y2="{top-2}" stroke="{GREEN}" stroke-width="0.7"/>')
-    s.append(f'<path d="M82,{top-8} l4,6 l4,-6 z" fill="{GREEN}"/>')
-    s.append(txt(96, c + 26, "续", 5.0, GREEN))
-    s.append(txt(86, top + 56, "外面是虚的，里面在续", 5.2, "#6E6459", "middle"))
-    s.append(txt(150, c + 26, "「冲」是虚而不满：里面有东西在动，外面永远是虚的。", 5.9, INK))
-    s.append(txt(150, c + 40, "所以其用不穷——它一直在往里续，不在往外倒。", 5.9, INK))
-    s.append(txt(150, c + 60, "满在外面的，一满就到顶；满在里面的，永远还有空。", 5.9, "#6E6459"))
+    c = b + 74
+    s.append(txt(24, c + 4, "二 · 留缝：力从缝里卸掉", 5.9, GREEN))
+    s.append(f'<path d="M52,{c+14} L60,{c+48} L92,{c+48} L100,{c+14}" fill="none" stroke="{GREEN}" stroke-width="0.9"/>')
+    s.append(f'<line x1="52" y1="{c+14}" x2="72" y2="{c+14}" stroke="{GREEN}" stroke-width="1.1"/>')
+    s.append(f'<line x1="80" y1="{c+14}" x2="100" y2="{c+14}" stroke="{GREEN}" stroke-width="1.1"/>')
+    s.append(f'<path d="M76,{c+10} l-2,-8 M79,{c+10} l2,-8" fill="none" stroke="{GREEN}" stroke-width="0.5"/>')
+    s.append(txt(76, c + 62, "留缝不敝", 5.0, GREEN, "middle"))
+    s.append(txt(150, c + 18, "留了缝的器，用久了反而不破——", 5.9, INK))
+    s.append(txt(150, c + 32, "那道缝一直在替它卸力。", 5.9, INK))
 
-    y2 = c + 106
+    y2 = c + 80
     s.append(f'<line x1="24" y1="{y2-6}" x2="338" y2="{y2-6}" stroke="{LINE}" stroke-width="0.6"/>')
     s.append(box(20, y2 + 4, 340, 44, fill="#F2EADA", stroke="#C9B79A"))
-    s.append(txt(190, y2 + 20, "封死的器，压力全落在自己身上；留口的器，压力从那个口出去了。", 6.2, INK, "middle"))
-    s.append(txt(190, y2 + 34, "「大成」不是做得更满，是做到头了，还知道留一处不封。", 6.2, GREEN, "middle"))
+    s.append(txt(190, y2 + 20, "「大成」不是没有做到头，是做到头了，还留一处不封。", 6.2, INK, "middle"))
+    s.append(txt(190, y2 + 34, "那个缺口不是缺陷，是泄压的地方。", 6.2, GREEN, "middle"))
     s.append(gold(y2 + 62, "ch45a"))
     s.append('</svg>')
     return "\n".join(s)
 
 
-# ============ 第四十五章 · 直、巧、辩 ============
-def ch45b_zhi_qiao_bian():
-    W, H = 380, 552
-    body, y = head(W, H, "最直的缩着，最巧的像笨，最会说的像说不出", "第 四 十 五 章 · 直 巧 辩",
-                   "直、巧、辩", "大直若屈，大巧若拙，大辩若讷。", H)
+# ============ 第四十五章 · 五处，一道缝 ============
+def ch45b_wu_chu_liu_bai():
+    W, H = 380, 664
+    body, y = head(W, H, "五处留白，是同一种手，留在不同的地方", "第 四 十 五 章 · 五 若",
+                   "五处，一道缝", "冲到极处，都留一处没补齐。", H)
     s = [body]
 
-    # 一、大直若屈
-    a = y + 24
-    s.append(txt(24, a + 4, "一 · 大直若屈", 6.0, INK))
-    s.append(f'<rect x="70" y="{a+30}" width="22" height="26" fill="#E6D8C2" stroke="{INK}" stroke-width="0.7"/>')
-    s.append(f'<line x1="34" y1="{a+52}" x2="120" y2="{a+18}" stroke="{SEAL}" stroke-width="0.6" stroke-dasharray="5 4"/>')
-    s.append(f'<path d="M96,{a+36} l8,8 M104,{a+36} l-8,8" fill="none" stroke="{SEAL}" stroke-width="1.1"/>')
-    s.append(f'<path d="M34,{a+56} C50,{a+76} 86,{a+82} 112,{a+62} L124,{a+22}" fill="none" stroke="{GREEN}" stroke-width="1.2"/>')
-    s.append(f'<circle cx="124" cy="{a+22}" r="3" fill="{GREEN}"/>')
-    s.append(txt(130, a + 24, "到", 5.0, GREEN))
-    s.append(txt(24, a + 92, "一刀切过去的直，撞在中间；能缩一下的直，绕过去也到了", 4.9, "#6E6459"))
-    s.append(txt(150, a + 26, "世俗的直，是直线切割：把挡路的东西都分开。", 5.9, INK))
-    s.append(txt(150, a + 40, "看着利落，代价是它必须一路撞开东西。", 5.9, INK))
-    s.append(txt(150, a + 60, "「屈」不是弯，是缩——把自己收短一点，好过去。", 6.0, GREEN))
+    s.append(box(20, y + 2, 340, 30, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, y + 15, "大成若缺，大盈若冲，大直若屈，大巧若拙，大辩若讷。", 6.2, INK, "middle"))
+    s.append(txt(190, y + 27, "五处不是五个德目，是同一种手：到了头，留一处不补齐。", 5.6, "#6E6459", "middle"))
 
-    # 二、大巧若拙
-    b = a + 108
-    s.append(txt(24, b + 4, "二 · 大巧若拙", 6.0, INK))
-    s.append(f'<circle cx="46" cy="{b+42}" r="16" fill="none" stroke="{INK}" stroke-width="0.9"/>')
-    import math
-    for k in range(12):
-        ang = math.radians(k * 30)
-        x1, y1 = 46 + 13 * math.cos(ang), b + 42 + 13 * math.sin(ang)
-        x2, y2s = 46 + 17 * math.cos(ang), b + 42 + 17 * math.sin(ang)
-        s.append(f'<line x1="{x1:.1f}" y1="{y1:.1f}" x2="{x2:.1f}" y2="{y2s:.1f}" stroke="{INK}" stroke-width="0.4"/>')
-    s.append(txt(46, b + 70, "看得出使过劲", 4.9, "#6E6459", "middle"))
-    s.append(f'<circle cx="106" cy="{b+42}" r="16" fill="none" stroke="{GREEN}" stroke-width="0.9"/>')
-    s.append(txt(106, b + 70, "看不出手", 4.9, GREEN, "middle"))
-    s.append(txt(150, b + 26, "巧到了极处，就不再需要「巧」这个动作。", 5.9, INK))
-    s.append(txt(150, b + 40, "要人看出巧，那是手艺；看不出使过劲，才是本事。", 5.9, INK))
-    s.append(txt(150, b + 60, "「拙」不是装笨：是已经没有那个劲可用了。", 6.0, GREEN))
+    rows = [
+        ("一 · 器", 0, "大成若缺", ["口沿缺一段，气从这里出去。", "其用不敝：封死就裂，留口不敝。"]),
+        ("二 · 水", 1, "大盈若冲", ["满在里面，外面仍是虚的；一直在往里续。", "其用不穷：满在外面的，一满就到顶。"]),
+        ("三 · 路", 2, "大直若屈", ["直切撞上障碍；绕一下，仍然到得了。", "屈不是弯，是缩：收短一点，好过去。"]),
+        ("四 · 手", 3, "大巧若拙", ["巧到极处，不再需要「巧」这个动作。", "看不出使过劲，才是本事；「拙」不是装笨。"]),
+        ("五 · 口", 4, "大辩若讷", ["话卡在嘴边；滔滔的是把世界切得顺手。", "说不说满，比说得多更要紧。"]),
+    ]
+    a = y + 46
+    for i, (tag, kind, phrase, lines) in enumerate(rows):
+        r = a + i * 78
+        s.append(txt(24, r + 8, tag, 5.4, "#6E6459"))
+        cx, cy = 56, r + 48
+        if kind == 0:
+            s.append(f'<path d="M{cx-15},{cy-18} L{cx-9},{cy+16} L{cx+9},{cy+16} L{cx+15},{cy-18}" fill="none" stroke="{GREEN}" stroke-width="0.8"/>')
+            s.append(f'<line x1="{cx-15}" y1="{cy-18}" x2="{cx-5}" y2="{cy-18}" stroke="{GREEN}" stroke-width="1"/>')
+            s.append(f'<line x1="{cx+5}" y1="{cy-18}" x2="{cx+15}" y2="{cy-18}" stroke="{GREEN}" stroke-width="1"/>')
+            s.append(f'<path d="M{cx},{cy-30} v-6 M{cx-2},{cy-34} l2,-4 l2,4" fill="none" stroke="{GREEN}" stroke-width="0.5"/>')
+        elif kind == 1:
+            s.append(f'<path d="M{cx-15},{cy-18} L{cx-9},{cy+16} L{cx+9},{cy+16} L{cx+15},{cy-18}" fill="none" stroke="{INK}" stroke-width="0.8"/>')
+            s.append(f'<ellipse cx="{cx}" cy="{cy-18}" rx="15" ry="3.6" fill="none" stroke="{INK}" stroke-width="0.7"/>')
+            s.append(f'<ellipse cx="{cx}" cy="{cy-12}" rx="10" ry="2.6" fill="#DCE6E0" stroke="{GREEN}" stroke-width="0.5"/>')
+        elif kind == 2:
+            s.append(f'<line x1="{cx-18}" y1="{cy+14}" x2="{cx-4}" y2="{cy-2}" stroke="{SEAL}" stroke-width="0.5" stroke-dasharray="4 3"/>')
+            s.append(f'<path d="M{cx-18},{cy+18} C{cx-6},{cy+26} {cx+4},{cy+6} {cx+16},{cy-12}" fill="none" stroke="{GREEN}" stroke-width="1"/>')
+            s.append(f'<circle cx="{cx+16}" cy="{cy-12}" r="2.6" fill="{GREEN}"/>')
+        elif kind == 3:
+            s.append(f'<circle cx="{cx-9}" cy="{cy}" r="12" fill="none" stroke="{INK}" stroke-width="0.8"/>')
+            s.append(f'<circle cx="{cx+11}" cy="{cy}" r="12" fill="none" stroke="{GREEN}" stroke-width="0.8"/>')
+        else:
+            s.append(f'<ellipse cx="{cx-4}" cy="{cy}" rx="9" ry="4.4" fill="none" stroke="{INK}" stroke-width="0.7"/>')
+            s.append(f'<line x1="{cx+8}" y1="{cy-4}" x2="{cx+22}" y2="{cy-4}" stroke="{SEAL}" stroke-width="0.5"/>')
+            s.append(f'<line x1="{cx+8}" y1="{cy+4}" x2="{cx+22}" y2="{cy+4}" stroke="{SEAL}" stroke-width="0.5"/>')
+        s.append(txt(96, r + 30, phrase, 6.6, SEAL))
+        for k, ln in enumerate(lines):
+            s.append(txt(96, r + 48 + k * 13, ln, 5.7, INK if k == 0 else "#6E6459"))
 
-    # 三、大辩若讷
-    c = b + 102
-    s.append(txt(24, c + 4, "三 · 大辩若讷", 6.0, INK))
-    s.append(f'<ellipse cx="46" cy="{c+40}" rx="10" ry="6" fill="none" stroke="{INK}" stroke-width="0.8"/>')
-    s.append(txt(46, c + 32, "讷", 5.0, INK, "middle"))
-    for k in range(4):
-        s.append(f'<line x1="66" y1="{c+34+k*5}" x2="{66+18-(0 if k<2 else 4)}" y2="{c+34+k*5}" stroke="{SEAL}" stroke-width="0.55"/>')
-    s.append(txt(74, c + 66, "滔滔", 4.8, "#6E6459", "middle"))
-    s.append(f'<line x1="100" y1="{c+40}" x2="132" y2="{c+40}" stroke="{GREEN}" stroke-width="1.1"/>')
-    s.append(txt(116, c + 66, "一句说清", 4.8, GREEN, "middle"))
-    s.append(txt(150, c + 22, "「讷」，《说文》「言难也」——话卡在嘴边。", 5.9, INK))
-    s.append(txt(150, c + 38, "不会说的人讷；说得太明白的人也讷。", 5.9, INK))
-    s.append(txt(150, c + 58, "中间那批滔滔不绝的，是把世界切得顺手。", 5.9, "#6E6459"))
-
-    y2 = c + 92
+    y2 = a + 5 * 78 + 4
     s.append(f'<line x1="24" y1="{y2-6}" x2="338" y2="{y2-6}" stroke="{LINE}" stroke-width="0.6"/>')
     s.append(box(20, y2 + 4, 340, 44, fill="#F2EADA", stroke="#C9B79A"))
-    s.append(txt(190, y2 + 20, "五个「大」，五处留白：缺、冲、屈、拙、讷。", 6.6, INK, "middle"))
-    s.append(txt(190, y2 + 34, "不是没做到，是做到了，故意不补齐。", 6.4, GREEN, "middle"))
+    s.append(txt(190, y2 + 20, "世俗求显、锐、巧、辩、满；道这边是隐、柔、朴、默、虚。", 6.2, INK, "middle"))
+    s.append(txt(190, y2 + 34, "不是没做到，是做到了，故意不补齐。", 6.2, GREEN, "middle"))
     s.append(gold(y2 + 62, "ch45b"))
     s.append('</svg>')
     return "\n".join(s)
@@ -3997,8 +3988,8 @@ FIGS = {
     "ch44a-san-wen": ("第四十四章", "三问，越问越近", ch44a_san_wen),
     "ch44b-yue-gong-yu-tao": ("第四十四章", "月供与逃跑", ch44b_yue_gong_yu_tao),
     "ch44c-jiao-yu-zhi": ("第四十四章", "站住，停脚", ch44c_jiao_yu_zhi),
-    "ch45a-cheng-ying-chong": ("第四十五章", "成、盈、冲", ch45a_cheng_ying_chong),
-    "ch45b-zhi-qiao-bian": ("第四十五章", "直、巧、辩", ch45b_zhi_qiao_bian),
+    "ch45a-liu-yi-dao-feng": ("第四十五章", "留一道缝", ch45a_liu_yi_dao_feng),
+    "ch45b-wu-chu-liu-bai": ("第四十五章", "五处，一道缝", ch45b_wu_chu_liu_bai),
     "ch45c-zao-han-jing-re": ("第四十五章", "两种治法", ch45c_zao_han_jing_re),
     "ch12-wu-se": ("第十二章", "门开五处", ch12_wu_se),
     "ch13-chong-ru": ("第十三章", "惊的是我", ch13_chong_ru),
