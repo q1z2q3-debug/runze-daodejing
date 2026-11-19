@@ -685,6 +685,308 @@ def ch40_san_dong():
     return "\n".join(s)
 
 
+
+# ============ 第三章 · 不造标 ============
+def ch03_bu_zao_biao():
+    W, H = 380, 484
+    body, y = head(W, H, "三个「不」，一个动作：不主动造标", "第 三 章 · 治 世", "不造标",
+                   "标尺不起，争、盗、乱便无处生根——不是不许人，是不先把尺子立起来。", H)
+    s = [body]
+    rows = [("不尚贤", "不争", "不把人的长处摆成徽章"),
+            ("不贵难得之货", "不为盗", "不把稀罕东西标成高价"),
+            ("不见可欲", "心不乱", "不把勾人的东西摆在眼前")]
+    yb = y + 6
+    for i, (a, b, note) in enumerate(rows):
+        yy = yb + i * 36
+        s.append(txt(20, yy + 16, a, 10.5, SEAL))
+        s.append(f'<line x1="112" y1="{yy+11}" x2="136" y2="{yy+11}" stroke="{LINE}" stroke-width="1" marker-end="url(#arr)"/>')
+        s.append(txt(142, yy + 16, b, 10.5, INK))
+        s.append(txt(184, yy + 16, note, 9, "#6E6459"))
+    # 器剖面：壁与空
+    yy = yb + 3 * 36 + 26
+    s.append(txt(20, yy, "后半章转治身：壁与空，同一只器", 9.5, "#8A7C69"))
+    top, bot = yy + 26, yy + 108
+    s.append(f'<rect x="30" y="{top}" width="14" height="{bot-top}" fill="{INK}" opacity="0.55"/>')
+    s.append(f'<rect x="130" y="{top}" width="14" height="{bot-top}" fill="{INK}" opacity="0.55"/>')
+    s.append(f'<line x1="44" y1="{bot}" x2="130" y2="{bot}" stroke="{INK}" stroke-width="1" opacity="0.55"/>')
+    s.append(txt(87, (top + bot) / 2 + 4, "空", 12, "#8A7C69", "middle"))
+    s.append(txt(150, top + 8, "壁", 9, SEAL))
+    s.append(txt(166, top + 20, "壁：实其腹 · 强其骨", 9, SEAL))
+    s.append(txt(166, top + 38, "厚其壁，是让它立得住", 9, "#6E6459"))
+    s.append(txt(166, top + 56, "守其空，是让它容得下", 9, "#6E6459"))
+    s.append(txt(166, top + 76, "虚心弱志＝守其空，不是抽空人", 8.8, GREEN))
+    # 收
+    yc = yy + 130
+    s.append(box(20, yc, 340, 44, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, yc + 27, "为无为，则无不治", 12, INK, "middle", spacing="1"))
+    s.append(txt(190, yc + 70, "最易读错处：把「不造标」读成「不许人」，或读成禁欲。", 9.5, "#6E6459", "middle"))
+    s.append('</svg>')
+    return "\n".join(s)
+
+
+# ============ 第四章 · 道冲不盈 ============
+def ch04_dao_chong():
+    W, H = 380, 496
+    body, y = head(W, H, "道冲：一个永远装不满的空", "第 四 章 · 本 体", "装不满的空",
+                   "上半说它是什么，下半说你怎么办；中间贯通的那句，是「有生于无」。", H)
+    s = [body]
+    # 器
+    cx, top, bot, half = 110, y + 22, y + 132, 62
+    s.append(f'<path d="M {cx-half} {top} L {cx-half} {bot-24} Q {cx} {bot+16} {cx+half} {bot-24} L {cx+half} {top}" fill="none" stroke="{INK}" stroke-width="1.3"/>')
+    s.append(f'<line x1="{cx-half-8}" y1="{top}" x2="{cx+half+8}" y2="{top}" stroke="{INK}" stroke-width="1"/>')
+    for i in range(3):
+        s.append(f'<line x1="{cx-24}" y1="{top+18+i*22}" x2="{cx+24}" y2="{top+18+i*22}" stroke="{LINE2}" stroke-width="0.7" stroke-dasharray="2 3"/>')
+    s.append(txt(cx, top - 10, "冲 · 虚", 9.5, "#8A7C69", "middle"))
+    s.append(txt(cx + half + 20, top + 26, "用之或不盈", 10, GREEN))
+    s.append(txt(cx + half + 20, top + 42, "倒多少进去，它都不满", 8.8, "#6E6459"))
+    s.append(txt(cx + half + 20, top + 64, "渊兮，似万物之宗", 9.5, SEAL))
+    # 四修
+    ys = y + 176
+    s.append(txt(20, ys, "落到人身上：四句实修", 9.5, "#8A7C69"))
+    quads = [("挫其锐", "磨去锋芒", "先减，不是先增"),
+             ("解其纷", "理清纠缠", "把结打开，不加新结"),
+             ("和其光", "收敛光耀", "亮而不刺人"),
+             ("同其尘", "落回尘土", "与粗处同处")]
+    for i, (a, b, c) in enumerate(quads):
+        col, row = i % 2, i // 2
+        x = 20 + col * 174
+        yy = ys + 14 + row * 46
+        s.append(txt(x, yy + 16, a, 10.5, SEAL))
+        s.append(txt(x + 54, yy + 16, b, 9.5, "#6E6459"))
+        s.append(txt(x, yy + 32, c, 8.8, "#8A7C69"))
+    # 收
+    yc = ys + 112
+    s.append(box(20, yc, 340, 46, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, yc + 20, "湛兮，似或存；吾不知谁之子，象帝之先。", 10, INK, "middle"))
+    s.append(txt(190, yc + 38, "它先于一切被命名者——连「谁生的」都问不到它头上。", 9, "#6E6459", "middle"))
+    s.append(txt(190, yc + 66, "四句不是四种修养，是把加在身上的东西一件件卸下来。", 9.5, "#6E6459", "middle"))
+    s.append('</svg>')
+    return "\n".join(s)
+
+
+# ============ 第五章 · 橐籥：中是枢 ============
+def ch05_tuo_yue():
+    W, H = 380, 524
+    body, y = head(W, H, "橐籥：中不是点，是枢", "第 五 章 · 用 之", "中不是点，是枢",
+                   "读成点，就成了折中、和稀泥；读成枢，才知道它一直在动。", H)
+    s = [body]
+    # 风箱
+    x1, x2, ty, by = 40, 240, y + 30, y + 132
+    s.append(box(x1, ty, x2 - x1, by - ty, fill="#FBF6EC", stroke="{INK}", width=1.2))
+    s.append(f'<rect x="{x1+56}" y="{ty+8}" width="12" height="{by-ty-16}" fill="{INK}" opacity="0.5"/>')
+    s.append(f'<line x1="{x1+62}" y1="{ty+4}" x2="{x1+62}" y2="{ty-16}" stroke="{INK}" stroke-width="1.2"/>')
+    s.append(f'<path d="M {x1+50} {ty-24} h24" stroke="{INK}" stroke-width="1.2"/>')
+    s.append(f'<line x1="{x1+96}" y1="{by-30}" x2="{x1+156}" y2="{by-30}" stroke="{GREEN}" stroke-width="1.2" marker-end="url(#arr2)"/>')
+    s.append(f'<line x1="{x1+156}" y1="{by-18}" x2="{x1+96}" y2="{by-18}" stroke="{GREEN}" stroke-width="1.2" marker-end="url(#arrL)"/>')
+    s.append(txt(x1 + 96, by + 8, "往复：不是停在中，是穿过中", 8.8, GREEN))
+    s.append(txt(x1 + 12, ty - 26, "两端闭合与拉开", 8.8, "#8A7C69"))
+    s.append(box(x2 + 6, ty + 30, 96, 26, fill="#F6EFE0", stroke="{LINE2}"))
+    s.append(txt(x2 + 54, ty + 47, "出风", 9.5, SEAL, "middle"))
+    s.append(arrow(x2, ty + 43, x2 + 4, ty + 43, "#C9B79A", 0.8))
+    # 三词链
+    ys = y + 168
+    chain = [("不仁", "自持：顺自性运行，不添私情"),
+             ("橐籥", "开合：生机在中间那个支点"),
+             ("守中", "守枢：守住那个一直在动的位置")]
+    for i, (a, b) in enumerate(chain):
+        yy = ys + i * 46
+        s.append(box(20, yy, 62, 30, fill="#FBF6EC", stroke="{LINE2}"))
+        s.append(txt(51, yy + 20, a, 11, SEAL, "middle"))
+        s.append(txt(92, yy + 20, b, 9.5, "#6E6459"))
+        if i < 2:
+            s.append(vline(51, yy + 30, yy + 44, "#C9B79A"))
+    yc = ys + 3 * 46 + 6
+    s.append(box(20, yc, 340, 42, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, yc + 26, "多言数穷，不如守中", 11, INK, "middle"))
+    s.append(txt(190, yc + 58, "「中」不是 0 与 1 之间的 0.5，是天平求不到的静止。", 9.5, "#6E6459", "middle"))
+    s.append(txt(190, yc + 74, "它是那台机器里，一直在来回穿过的支点。", 9.5, "#6E6459", "middle"))
+    s.append('</svg>')
+    return "\n".join(s)
+
+
+# ============ 第六章 · 谷神 ============
+def ch06_gu_shen():
+    W, H = 380, 484
+    body, y = head(W, H, "谷、门、一线：玄牝三级", "第 六 章 · 生 生", "谷神不死",
+                   "虚能受，受而能生，生而不竭——三级说的是一件事。", H)
+    s = [body]
+    # 谷
+    yg = y + 16
+    s.append(f'<path d="M 40 {yg+56} Q 60 {yg+6} 96 {yg+56}" fill="none" stroke="{INK}" stroke-width="1.3"/>')
+    s.append(f'<path d="M 96 {yg+56} Q 132 {yg+6} 152 {yg+56}" fill="none" stroke="{INK}" stroke-width="1.3"/>')
+    s.append(f'<line x1="30" y1="{yg+56}" x2="162" y2="{yg+56}" stroke="{LINE}" stroke-width="0.8"/>')
+    s.append(txt(96, yg + 40, "谷", 11, GREEN, "middle"))
+    s.append(txt(178, yg + 20, "两山之间的凹陷", 9, "#6E6459"))
+    s.append(txt(178, yg + 36, "虚而能受；不是被填满的坑", 9, "#6E6459"))
+    s.append(txt(178, yg + 54, "谷神不死", 9.5, SEAL))
+    # 门
+    yd = yg + 92
+    s.append(txt(20, yd, "玄牝之门：它从哪里出入", 9, "#8A7C69"))
+    s.append(f'<line x1="68" y1="{yd+14}" x2="68" y2="{yd+62}" stroke="{INK}" stroke-width="1.6"/>')
+    s.append(f'<line x1="124" y1="{yd+14}" x2="124" y2="{yd+62}" stroke="{INK}" stroke-width="1.6"/>')
+    s.append(f'<line x1="56" y1="{yd+14}" x2="136" y2="{yd+14}" stroke="{INK}" stroke-width="1"/>')
+    s.append(f'<line x1="70" y1="{yd+42}" x2="88" y2="{yd+42}" stroke="{GREEN}" stroke-width="1" marker-end="url(#arr2)"/>')
+    s.append(f'<line x1="122" y1="{yd+52}" x2="104" y2="{yd+52}" stroke="{GREEN}" stroke-width="1" marker-end="url(#arrL)"/>')
+    s.append(txt(158, yd + 30, "天地根：出也从此，入也从此", 9, "#6E6459"))
+    s.append(txt(158, yd + 48, "门不装东西，只给一个进出的口", 9, "#6E6459"))
+    # 绵绵
+    yl = yd + 96
+    s.append(txt(20, yl, "绵绵若存，用之不勤", 9, "#8A7C69"))
+    s.append(f'<path d="M {40} {yl+34} Q {90} {yl+8} {140} {yl+34} Q {190} {yl+60} {240} {yl+34} Q {290} {yl+8} {340} {yl+34}" fill="none" stroke="{SEAL}" stroke-width="1.1" opacity="0.8"/>')
+    s.append(txt(190, yl + 62, "细得几乎看不见，却一直没断", 9, "#6E6459", "middle"))
+    # 收
+    yc = yl + 82
+    s.append(box(20, yc, 340, 62, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(32, yc + 22, "「神」不是人格神：是「申」，闪电屈曲之象，虚中不测的势能。", 9, INK))
+    s.append(txt(32, yc + 40, "「玄牝」不是性别：是牡牝往复的整套本能，不归男女。", 9, INK))
+    s.append(txt(32, yc + 58, "读成神灵，多一个主宰；读成肉身，少一半天地。", 9, SEAL))
+    s.append('</svg>')
+    return "\n".join(s)
+
+
+# ============ 第七章 · 不自生 ============
+def ch07_bu_zi_sheng():
+    W, H = 380, 402
+    body, y = head(W, H, "不自生，故能长生", "第 七 章 · 立 身", "不自生",
+                   "无私之后，那个「私」是被成全的，不是被交换的。", H)
+    s = [body]
+    s.append(txt(20, y + 8, "同一笔账，两处记法", 9.5, "#8A7C69"))
+    cols = [("天地", [("不自生", "长生")]), ("圣人", [("后其身", "身先"), ("外其身", "身存")])]
+    yb = y + 20
+    s.append(txt(60, yb, "天地", 10, GREEN, "middle"))
+    s.append(txt(214, yb, "圣人", 10, SEAL, "middle"))
+    rows = [("不自生", "长生"), ("后其身", "身先"), ("外其身", "身存")]
+    for i, (a, b) in enumerate(rows):
+        yy = yb + 20 + i * 44
+        s.append(txt(20, yy + 16, a, 10, INK))
+        s.append(f'<line x1="62" y1="{yy+11}" x2="86" y2="{yy+11}" stroke="{LINE}" stroke-width="1"/>')
+        s.append(txt(92, yy + 16, b, 10, GREEN))
+        if i > 0:
+            s.append(txt(190, yy + 16, a, 10, INK))
+            s.append(f'<line x1="234" y1="{yy+11}" x2="258" y2="{yy+11}" stroke="{LINE}" stroke-width="1"/>')
+            s.append(txt(264, yy + 16, b, 10, SEAL))
+        else:
+            s.append(txt(190, yy + 16, "（天地只此一笔）", 8.5, "#8A7C69"))
+    # 警
+    yw = yb + 20 + 3 * 44 + 8
+    s.append(box(20, yw, 340, 50, fill="#F6EFE0", stroke="#C9B79A"))
+    s.append(txt(32, yw + 22, "若先退一步，等着赚回来——那是权谋，不是老子。", 9.5, SEAL))
+    s.append(txt(32, yw + 40, "把无私当手段、把成私当回报，这一章的读法就整个翻过去了。", 9, "#6E6459"))
+    yc = yw + 66
+    s.append(txt(190, yc, "非以其无私邪？故能成其私。", 11.5, INK, "middle"))
+    s.append(txt(190, yc + 20, "成，是顺带的；不是先讲价、再让利。", 9.5, "#6E6459", "middle"))
+    s.append('</svg>')
+    return "\n".join(s)
+
+
+# ============ 第八章 · 上善若水 ============
+def ch08_shang_shan():
+    W, H = 380, 478
+    body, y = head(W, H, "上善若水：几于道，不等于道", "第 八 章 · 取 象", "上善若水",
+                   "「若」是像，不是是；「善」是取向，不是标签。", H)
+    s = [body]
+    # 水
+    yw = y + 10
+    s.append(f'<path d="M 30 {yw+10} Q 90 {yw+40} 150 {yw+30} Q 210 {yw+20} 260 {yw+56} Q 290 {yw+76} 340 {yw+70}" fill="none" stroke="{INK}" stroke-width="1.2" opacity="0.75"/>')
+    s.append(f'<ellipse cx="150" cy="{yw+42}" rx="14" ry="8" fill="{LINE2}" stroke="{LINE}" stroke-width="0.8"/>')
+    s.append(txt(150, yw + 44, "石", 8, "#8A7C69", "middle"))
+    s.append(txt(300, yw + 30, "处众人之所恶", 9, SEAL))
+    s.append(txt(300, yw + 46, "往低处走，不挑地方", 8.5, "#6E6459"))
+    # 三理由
+    yb = yw + 70
+    rs = [("利万物", "先给，不等回报"), ("而不争", "不与所利者争位"), ("故几于道", "是接近，不是等同")]
+    for i, (a, b) in enumerate(rs):
+        s.append(txt(20, yb + 14 + i * 22, a, 9.5, GREEN))
+        s.append(txt(86, yb + 14 + i * 22, b, 9, "#6E6459"))
+    # 七善
+    ys = yb + 92
+    s.append(txt(20, ys, "七善：七处取向，一句话落到一处", 9.5, "#8A7C69"))
+    seven = [("居善地", "择下不择高"), ("心善渊", "心似深潭，不浅不躁"), ("与善仁", "给不图还"),
+             ("言善信", "话可验"), ("政善治", "事理顺"), ("事善能", "做得到"), ("动善时", "动在时上")]
+    for i, (a, b) in enumerate(seven):
+        col, row = i % 2, i // 2
+        x = 20 + col * 176
+        yy = ys + 18 + row * 26
+        s.append(txt(x, yy + 16, a, 9.5, INK))
+        s.append(txt(x + 44, yy + 16, b, 8.5, "#6E6459"))
+    yc = ys + 18 + 4 * 26 + 20
+    s.append(box(20, yc, 340, 44, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, yc + 26, "夫唯不争，故无尤", 11.5, INK, "middle"))
+    s.append(txt(190, yc + 60, "水不与石争路，绕过去，仍到低处。", 9.5, "#6E6459", "middle"))
+    s.append('</svg>')
+    return "\n".join(s)
+
+
+# ============ 第九章 · 五级下坡 ============
+def ch09_ying_man():
+    W, H = 380, 456
+    body, y = head(W, H, "五句一个坡，末句是出口", "第 九 章 · 事 成", "持而盈之",
+                   "功成了，心不跟着功走——这不是不做事，是不把自我绑在所得上。", H)
+    s = [body]
+    steps = [("持而盈之", "不如其已", "满到端口，再倒就溢"),
+             ("揣而锐之", "不可长保", "越磨越利，越易折"),
+             ("金玉满堂", "莫之能守", "守得住物，守不住心"),
+             ("富贵而骄", "自遗其咎", "骄是自己给自己留下的债"),
+             ("功遂身退", "天之道", "退的是心，不是事")]
+    yb = y + 6
+    for i, (a, b, note) in enumerate(steps):
+        yy = yb + i * 50
+        off = i * 12
+        last = i == len(steps) - 1
+        s.append(box(20 + off, yy, 118, 36, fill="#E9DFCC" if last else "#FBF6EC",
+                     stroke="{INK}" if last else "{LINE2}", width=1.2 if last else 1.0))
+        s.append(txt(30 + off, yy + 23, a, 10.5, INK))
+        s.append(txt(196, yy + 23, b, 10, SEAL if not last else GREEN))
+        s.append(txt(246, yy + 23, note, 8.2, "#6E6459"))
+        if i < len(steps) - 1:
+            s.append(arrow(30 + off, yy + 36, 30 + off + 10, yy + 48, "#C9B79A", 0.9))
+    # 出口
+    yt = yb + 5 * 50 + 2
+    s.append(arrow(140, yt + 22, 140, yt - 2, "#4A5C55", 1.4))
+    s.append(txt(150, yt + 14, "出口", 9, GREEN))
+    s.append(txt(150, yt + 30, "坡到此为止，人还要往下走", 8.8, "#6E6459"))
+    s.append(txt(190, yt + 58, "五句不是五条戒律，是一个坡的五个位置：绑得越紧，掉得越快。", 9.5, "#6E6459", "middle"))
+    s.append('</svg>')
+    return "\n".join(s)
+
+
+# ============ 第十章 · 六问抱一 ============
+def ch10_bao_yi():
+    W, H = 380, 572
+    body, y = head(W, H, "六问一答：对内做主人，对外做租客", "第 十 章 · 勘 验", "载营魄抱一",
+                   "六问各管一件，底子只有一句质问：你是不是在当主人？", H)
+    s = [body]
+    qs = [("载营魄抱一", "能无离乎", "身心一处，不各走各的"),
+          ("专气致柔", "能婴儿乎", "气顺到软，不绷着"),
+          ("涤除玄览", "能无疵乎", "擦净那面镜子，不留斑"),
+          ("爱民治国", "能无为乎", "事办了，人不被搅"),
+          ("天门开阖", "能为雌乎", "开合之际，肯受不肯抢"),
+          ("明白四达", "能无知乎", "都懂了，不拿懂去压人")]
+    yb = y + 4
+    for i, (a, b, note) in enumerate(qs):
+        yy = yb + i * 44
+        s.append(txt(20, yy + 16, a, 10, INK))
+        s.append(txt(112, yy + 16, b + "？", 9, "#8A7C69"))
+        s.append(txt(20, yy + 32, note, 8.8, "#8A7C69"))
+    # 两栏
+    ya = yb + 6 * 44 + 8
+    s.append(box(20, ya, 160, 92, fill="#F6EFE0", stroke="{LINE2}"))
+    s.append(box(200, ya, 160, 92, fill="#FBF6EC", stroke="{LINE2}"))
+    s.append(txt(32, ya + 22, "对内：主人", 10, SEAL))
+    s.append(txt(32, ya + 44, "自心是唯一有全权的地方", 8.8, "#6E6459"))
+    s.append(txt(32, ya + 60, "只能自己修，自己守", 8.8, "#6E6459"))
+    s.append(txt(212, ya + 22, "对外：租客", 10, GREEN))
+    s.append(txt(212, ya + 44, "万物只是暂住，可养可建", 8.8, "#6E6459"))
+    s.append(txt(212, ya + 60, "不可占有，不可改写其性", 8.8, "#6E6459"))
+    # 收
+    yc = ya + 108
+    s.append(box(20, yc, 340, 52, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, yc + 22, "生而不有，为而不恃，长而不宰，是谓玄德", 9.5, INK, "middle"))
+    s.append(txt(190, yc + 42, "勘破了那份主宰欲，德自然现成——不必另修一个德出来。", 9, "#6E6459", "middle"))
+    s.append('</svg>')
+    return "\n".join(s)
+
+
 FIGS = {
     "ch01-wu-you": ("第一章", "无有同出", ch01_wu_you),
     "ch01-zhi-yue": ("第一章", "指月三境", ch01_zhi_yue),
@@ -701,6 +1003,14 @@ FIGS = {
     "ch77-zhang-gong": ("第七十七章", "张弓", ch77_zhang_gong),
     "ch81-bu-ji": ("第八十一章", "九个不", ch81_bu_ji),
     "ch40-san-dong": ("第四十章", "一次动，三次翻", ch40_san_dong),
+    "ch03-bu-zao-biao": ("第三章", "不造标", ch03_bu_zao_biao),
+    "ch04-dao-chong": ("第四章", "装不满的空", ch04_dao_chong),
+    "ch05-tuo-yue": ("第五章", "中不是点，是枢", ch05_tuo_yue),
+    "ch06-gu-shen": ("第六章", "谷神不死", ch06_gu_shen),
+    "ch07-bu-zi-sheng": ("第七章", "不自生", ch07_bu_zi_sheng),
+    "ch08-shang-shan": ("第八章", "上善若水", ch08_shang_shan),
+    "ch09-ying-man": ("第九章", "持而盈之", ch09_ying_man),
+    "ch10-bao-yi": ("第十章", "载营魄抱一", ch10_bao_yi),
 }
 
 
