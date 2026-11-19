@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg viewBox="0 0 380 446" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="尺子一换，答案就换" font-family="'Noto Serif CJK SC','Noto Serif SC','Songti SC',serif">
+<svg viewBox="0 0 380 508" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="尺子一换，答案就换" font-family="'Noto Serif CJK SC','Noto Serif SC','Songti SC',serif">
 <defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#6E6459"/></marker><marker id="arr2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#4A5C55"/></marker><marker id="arrL" viewBox="0 0 10 10" refX="1" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M10 0 L0 5 L10 10 z" fill="#4A5C55"/></marker><marker id="arrS" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#A2503B"/></marker></defs>
-<rect x="0" y="0" width="380" height="446" fill="#F8F3E6"/>
+<rect x="0" y="0" width="380" height="508" fill="#F8F3E6"/>
 <text x="20" y="26" font-size="11" fill="#A2503B" font-family="'Noto Sans CJK SC','Noto Sans SC',sans-serif" letter-spacing="3">第 二 十 章 · 独 异</text>
 <text x="20" y="58" font-size="21" fill="#2F2A24">两把尺子</text>
 <text x="20" y="78" font-size="10.5" fill="#6E6459">唯之与阿、善之与恶，相去几何？</text>
@@ -28,4 +28,8 @@
 <rect x="20" y="380" width="340" height="44" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
 <text x="190" y="400" font-size="11" fill="#2F2A24" text-anchor="middle" letter-spacing="1">贵食母。</text>
 <text x="190" y="417" font-size="8.2" fill="#6E6459" text-anchor="middle">众人有恃，我独有所养：养的是那个母，不是那套尺。</text>
+<line x1="20" y1="432" x2="360" y2="432" stroke="#E6D8C2" stroke-width="0.8"/>
+<text x="20" y="446" font-size="8.0" fill="#A89577" letter-spacing="1">本 章 金 句</text>
+<text x="20" y="462" font-size="8.4" fill="#2F2A24">唯之与阿，相去几何——尺子定的，不是事定的。</text>
+<text x="20" y="478" font-size="8.4" fill="#2F2A24">众人贵末，我贵食母；末可争，母不可争。</text>
 </svg>

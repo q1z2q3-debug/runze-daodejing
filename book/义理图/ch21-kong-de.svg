@@ -1,29 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg viewBox="0 0 380 436" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="恍惚不是玄，是还没成形就说成形必失真" font-family="'Noto Serif CJK SC','Noto Serif SC','Songti SC',serif">
+<svg viewBox="0 0 380 512" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="德不是修出来的，是流出来的" font-family="'Noto Serif CJK SC','Noto Serif SC','Songti SC',serif">
 <defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#6E6459"/></marker><marker id="arr2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#4A5C55"/></marker><marker id="arrL" viewBox="0 0 10 10" refX="1" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M10 0 L0 5 L10 10 z" fill="#4A5C55"/></marker><marker id="arrS" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#A2503B"/></marker></defs>
-<rect x="0" y="0" width="380" height="436" fill="#F8F3E6"/>
+<rect x="0" y="0" width="380" height="512" fill="#F8F3E6"/>
 <text x="20" y="26" font-size="11" fill="#A2503B" font-family="'Noto Sans CJK SC','Noto Sans SC',sans-serif" letter-spacing="3">第 二 十 一 章 · 道 之 为 物</text>
-<text x="20" y="58" font-size="21" fill="#2F2A24">由粗到细</text>
-<text x="20" y="78" font-size="10.5" fill="#6E6459">惚兮恍兮其中有象；窈兮冥兮其中有精。</text>
-<rect x="20" y="116" width="340" height="32" fill="#F6EFE0" stroke="#C9B79A" stroke-width="1.0" stroke-dasharray="4 3"/>
-<text x="190" y="137" font-size="8.4" fill="#6E6459" text-anchor="middle">惚兮恍兮：不是一个清楚的东西，是一团还没定形的</text>
-<text x="40" y="178" font-size="13" fill="#A2503B">象</text>
-<text x="76" y="178" font-size="8.8" fill="#6E6459">其中有个模糊的样子</text>
-<text x="40" y="212" font-size="13" fill="#A2503B">物</text>
-<text x="76" y="212" font-size="8.8" fill="#6E6459">那样子里，有东西</text>
-<line x1="52" y1="188" x2="52" y2="195" stroke="#C9B79A" stroke-width="1.2" marker-end="url(#arr)"/>
-<text x="40" y="246" font-size="13" fill="#4A5C55">精</text>
-<text x="76" y="246" font-size="8.8" fill="#6E6459">那东西里，有极细的质</text>
-<line x1="52" y1="222" x2="52" y2="229" stroke="#C9B79A" stroke-width="1.2" marker-end="url(#arr)"/>
-<text x="40" y="280" font-size="13" fill="#4A5C55">信</text>
-<text x="76" y="280" font-size="8.8" fill="#6E6459">这质可验、不骗人</text>
-<line x1="52" y1="256" x2="52" y2="263" stroke="#C9B79A" stroke-width="1.2" marker-end="url(#arr)"/>
-<line x1="30" y1="156" x2="30" y2="282" stroke="#E6D8C2" stroke-width="1"/>
-<text x="20" y="300" font-size="8.6" fill="#8A7C69">越往里越细，但每一层都是真的：不是越玄越空。</text>
-<rect x="20" y="316" width="340" height="46" fill="#F6EFE0" stroke="#C9B79A" stroke-width="1.0"/>
-<text x="190" y="334" font-size="10" fill="#2F2A24" text-anchor="middle" letter-spacing="1">孔德之容，惟道是从。</text>
-<text x="190" y="350" font-size="8.4" fill="#6E6459" text-anchor="middle">德的样子，只是跟着道走；不是自己长成一套。</text>
-<rect x="20" y="380" width="340" height="42" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
-<text x="190" y="399" font-size="10" fill="#2F2A24" text-anchor="middle" letter-spacing="1">自今及古，其名不去，以阅众甫。</text>
-<text x="190" y="415" font-size="8.2" fill="#6E6459" text-anchor="middle">往回看不是怀旧：是拿这条不断的名，看清万物怎么起头。</text>
+<text x="20" y="58" font-size="21" fill="#2F2A24">孔德之容</text>
+<text x="20" y="78" font-size="10.5" fill="#6E6459">道不抓取时是道；被我们抓取时，才成恍兮惚兮。</text>
+<rect x="60" y="104" width="56" height="26" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="88" y="121" font-size="10" fill="#2F2A24" text-anchor="middle" letter-spacing="1">道</text>
+<line x1="120" y1="117" x2="196" y2="117" stroke="#A2503B" stroke-width="1.2" marker-end="url(#arrS)"/>
+<text x="158" y="113" font-size="8.2" fill="#A2503B" text-anchor="middle">流</text>
+<rect x="200" y="104" width="120" height="26" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="260" y="121" font-size="9.6" fill="#2F2A24" text-anchor="middle" letter-spacing="1">德：容</text>
+<text x="20" y="146" font-size="8.4" fill="#8A7C69">德不是自己长成一套，是道流过它，它才有样子。</text>
+<rect x="20" y="160" width="340" height="28" fill="#F6EFE0" stroke="#C9B79A" stroke-width="1.0" stroke-dasharray="4 3"/>
+<text x="190" y="178" font-size="8.2" fill="#6E6459" text-anchor="middle">惚兮恍兮：不是它模糊，是抓取时只剩一个轮廓</text>
+<text x="40" y="211" font-size="12.5" fill="#A2503B">象</text>
+<text x="74" y="211" font-size="8.6" fill="#6E6459">其中有个模糊的样子</text>
+<text x="40" y="241" font-size="12.5" fill="#A2503B">物</text>
+<text x="74" y="241" font-size="8.6" fill="#6E6459">那样子里，有东西</text>
+<line x1="52" y1="220" x2="52" y2="227" stroke="#C9B79A" stroke-width="1.2" marker-end="url(#arr)"/>
+<text x="40" y="271" font-size="12.5" fill="#4A5C55">精</text>
+<text x="74" y="271" font-size="8.6" fill="#6E6459">东西里有极细的质</text>
+<line x1="52" y1="250" x2="52" y2="257" stroke="#C9B79A" stroke-width="1.2" marker-end="url(#arr)"/>
+<text x="40" y="301" font-size="12.5" fill="#4A5C55">信</text>
+<text x="74" y="301" font-size="8.6" fill="#6E6459">这质可验、不骗人</text>
+<line x1="52" y1="280" x2="52" y2="287" stroke="#C9B79A" stroke-width="1.2" marker-end="url(#arr)"/>
+<line x1="30" y1="190" x2="30" y2="302" stroke="#E6D8C2" stroke-width="1"/>
+<text x="20" y="324" font-size="8.4" fill="#8A7C69">越往里越细，但每一层都是真的：不是越玄越空。</text>
+<text x="20" y="344" font-size="9" fill="#8A7C69">名：一条一直立在那里的路标</text>
+<line x1="30" y1="380" x2="352" y2="380" stroke="#E6D8C2" stroke-width="1"/>
+<line x1="70" y1="380" x2="70" y2="366" stroke="#DCCBB0" stroke-width="1"/>
+<rect x="54" y="353" width="32" height="13" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="70" y="363" font-size="7.6" fill="#A2503B" text-anchor="middle">名</text>
+<line x1="180" y1="380" x2="180" y2="366" stroke="#DCCBB0" stroke-width="1"/>
+<rect x="164" y="353" width="32" height="13" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="180" y="363" font-size="7.6" fill="#A2503B" text-anchor="middle">名</text>
+<line x1="290" y1="380" x2="290" y2="366" stroke="#DCCBB0" stroke-width="1"/>
+<rect x="274" y="353" width="32" height="13" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="290" y="363" font-size="7.6" fill="#A2503B" text-anchor="middle">名</text>
+<text x="30" y="398" font-size="8.4" fill="#6E6459">路标一直在（其名不去）；但路标不是那个地方。</text>
+<rect x="20" y="414" width="340" height="40" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="190" y="432" font-size="10" fill="#2F2A24" text-anchor="middle" letter-spacing="1">自今及古，其名不去，以阅众甫。</text>
+<text x="190" y="447" font-size="8.0" fill="#6E6459" text-anchor="middle">往回看不是怀旧：是拿这条不断的名，看清万物怎么起头。</text>
+<line x1="20" y1="462" x2="360" y2="462" stroke="#E6D8C2" stroke-width="0.8"/>
+<text x="20" y="476" font-size="8.0" fill="#A89577" letter-spacing="1">本 章 金 句</text>
+<text x="20" y="492" font-size="8.4" fill="#2F2A24">孔德之容，惟道是从：德不是修出来的，是流出来的。</text>
+<text x="20" y="508" font-size="8.4" fill="#2F2A24">名不去，是路标一直在；路标在，不等于路标就是那个地方。</text>
 </svg>
