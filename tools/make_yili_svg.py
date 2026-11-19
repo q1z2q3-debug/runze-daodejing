@@ -4377,66 +4377,56 @@ def ch48a_yi_yu_sun():
 
 # ============ 第四十八章 · 一层套一层的壳 ============
 def ch48b_ceng_ke():
-    W, H = 380, 438
-    body, y = head(W, H, "损，就是把实线损成虚线", "第 四 十 八 章 · 损",
-                   "打破框框", "损之又损，以至于无为。", H)
+    W, H = 380, 526
+    body, y = head(W, H, "同一张框：往外推是学，把手松是道", "第 四 十 八 章 · 一图两观",
+                   "一图两观", "为学日益，为道日损。", H)
     s = [body]
 
     s.append(box(20, y + 2, 340, 30, fill="#F2EADA", stroke="#C9B79A"))
-    s.append(txt(190, y + 14, "「损」不是扔东西，是把那道边一点点损掉。", 5.8, INK, "middle"))
-    s.append(txt(190, y + 26, "实线是边；损一次，边就淡成虚线；再损，虚线也淡掉。", 5.4, "#6E6459", "middle"))
+    s.append(txt(190, y + 14, "「学」把框往外推，一天多一层；「道」把线往里损，一天少一层。", 5.6, INK, "middle"))
+    s.append(txt(190, y + 26, "同一个框，两种读法——这就是「益」和「损」是同一件事的两面。", 5.2, "#6E6459", "middle"))
 
-    a = y + 56
-    cy = a + 26
-    h = 22
-    xs = (54, 148, 242, 326)
+    a = y + 52
+    cx, cy = 132, a + 92
+    layers = [
+        (16, INK, 1, 0.95, ""),
+        (36, INK, 0.8, 0.62, ""),
+        (56, SEAL, 0.7, 0.8, "4 3"),
+        (76, SEAL, 0.5, 0.35, "5 4"),
+    ]
+    for (hl, col, w, op, d) in layers:
+        dash = f' stroke-dasharray="{d}"' if d else ""
+        s.append(f'<rect x="{cx-hl}" y="{cy-hl}" width="{2*hl}" height="{2*hl}" fill="none" stroke="{col}" stroke-width="{w}" opacity="{op}"{dash}/>')
 
-    def frame(cx, mode, col=INK, op=1.0):
-        o = []
-        d = {"solid": "", "dashed": ' stroke-dasharray="4 3"', "faint": ' stroke-dasharray="5 4"'}[mode]
-        o.append(f'<rect x="{cx-h}" y="{cy-h}" width="{2*h}" height="{2*h}" fill="none" stroke="{col}" stroke-width="0.9" opacity="{op}"{d}/>')
-        return o
+    # 学：同一个角，往外推
+    s.append(f'<line x1="{cx+12}" y1="{cy+12}" x2="{cx+84}" y2="{cy+84}" stroke="{SEAL}" stroke-width="0.7" marker-end="url(#arrS)"/>')
+    s.append(txt(cx + 40, cy + 100, "学：同一个角往外推，框就大一圈、多一层", 4.8, SEAL))
+    # 道：同一条边的四种线质（右侧小图例）
+    lx = cx + 88
+    s.append(txt(lx, cy - 62, "道：同一条边，一路淡下去", 4.8, GREEN))
+    for k, (lw, lop, ld, lab) in enumerate([(0.9, 0.95, "", "一 · 实线"),
+                                            (0.8, 0.6, "", "二 · 淡实线"),
+                                            (0.7, 0.75, "4 3", "三 · 虚线"),
+                                            (0.5, 0.35, "5 4", "四 · 几乎没了")]):
+        ly = cy - 44 + k * 22
+        dash = f' stroke-dasharray="{ld}"' if ld else ""
+        s.append(f'<line x1="{lx}" y1="{ly}" x2="{lx+42}" y2="{ly}" stroke="{SEAL}" stroke-width="{lw}" opacity="{lop}"{dash}/>')
+        s.append(txt(lx + 48, ly + 2, lab, 4.5, "#6E6459"))
 
-    # 一：实线
-    for part in frame(xs[0], "solid"):
-        s.append(part)
-    s.append(txt(xs[0], cy + 44, "框是实的", 4.6, "#6E6459", "middle"))
-    # 二：正在损（上半实、下半虚，断口）
-    s.append(f'<line x1="{xs[1]-h}" y1="{cy-h}" x2="{xs[1]+h}" y2="{cy-h}" stroke="{INK}" stroke-width="0.9"/>')
-    s.append(f'<line x1="{xs[1]+h}" y1="{cy-h}" x2="{xs[1]+h}" y2="{cy+2}" stroke="{INK}" stroke-width="0.9"/>')
-    s.append(f'<line x1="{xs[1]+h}" y1="{cy+10}" x2="{xs[1]+h}" y2="{cy+h}" stroke="{SEAL}" stroke-width="0.9" stroke-dasharray="3 3"/>')
-    s.append(f'<line x1="{xs[1]+h}" y1="{cy+h}" x2="{xs[1]-h}" y2="{cy+h}" stroke="{SEAL}" stroke-width="0.9" stroke-dasharray="3 3"/>')
-    s.append(f'<line x1="{xs[1]-h}" y1="{cy+h}" x2="{xs[1]-h}" y2="{cy-2}" stroke="{INK}" stroke-width="0.9"/>')
-    s.append(f'<line x1="{xs[1]-h}" y1="{cy-10}" x2="{xs[1]-h}" y2="{cy-h}" stroke="{INK}" stroke-width="0.9" stroke-dasharray="3 3"/>')
-    s.append(f'<path d="M{xs[1]+h},{cy+2} l4,-3 M{xs[1]+h},{cy+2} l4,3" stroke="{SEAL}" stroke-width="0.6" fill="none"/>')
-    s.append(txt(xs[1], cy + 44, "实线断成虚线", 4.6, SEAL, "middle"))
-    # 三：整圈虚线
-    for part in frame(xs[2], "dashed", SEAL):
-        s.append(part)
-    s.append(txt(xs[2], cy + 44, "损成了虚线", 4.6, SEAL, "middle"))
-    # 四：虚线也淡掉
-    for part in frame(xs[3], "faint", SEAL, 0.4):
-        s.append(part)
-    s.append(txt(xs[3], cy + 44, "虚线也淡掉", 4.6, "#6E6459", "middle"))
+    # 四层的小序号
+    for k, (hl, _, _, _, _) in enumerate(layers):
+        s.append(f'<text x="{cx-hl-3}" y="{cy-hl-3}" font-size="4.6" fill="#2F2A24" text-anchor="end" opacity="0.6">{["一","二","三","四"][k]}</text>')
 
-    for k in range(3):
-        ax = xs[k] + h + 8
-        ax2 = xs[k+1] - h - 8
-        s.append(f'<line x1="{ax}" y1="{cy}" x2="{ax2}" y2="{cy}" stroke="{GREEN}" stroke-width="0.6" marker-end="url(#arr2)"/>')
-    s.append(txt((xs[1] + xs[2]) / 2, cy - 34, "又损", 4.8, GREEN, "middle"))
-    s.append(txt((xs[0] + xs[1]) / 2, cy - 34, "损", 4.8, GREEN, "middle"))
-    s.append(txt((xs[2] + xs[3]) / 2, cy - 20, "再损", 4.8, GREEN, "middle"))
-
-    b = cy + 68
-    s.append(txt(24, b, "框是自己画的：一个概念一道框，一个标准一道框。", 5.6, INK))
-    s.append(txt(24, b + 16, "损不是扔掉框，是让它不再硬着——实线还在，只是不再划人。", 5.6, INK))
-    s.append(txt(24, b + 32, "这就是「又」：损一次不够，因为剩下的那条实线会自己又长硬。", 5.4, GREEN))
+    b = cy + 118
+    s.append(txt(24, b, "往外读：框一层层变大——这是为学，越学越细，越细越好用。", 5.6, INK))
+    s.append(txt(24, b + 16, "读线：每一条边由实变虚——这是为道，不是拆掉框，是让它不再硬着。", 5.6, INK))
+    s.append(txt(24, b + 32, "同一张图：你把它往外推，它就多一层；你把手松开，它就淡一层。", 5.4, GREEN))
 
     c = b + 50
     s.append(f'<line x1="24" y1="{c}" x2="338" y2="{c}" stroke="{LINE}" stroke-width="0.6"/>')
     s.append(box(20, c + 8, 340, 40, fill="#F2EADA", stroke="#C9B79A"))
-    s.append(txt(190, c + 24, "损到极处，框还在，", 6.0, INK, "middle"))
-    s.append(txt(190, c + 36, "可它已经不是一座墙了。", 6.0, GREEN, "middle"))
+    s.append(txt(190, c + 24, "框是同一个框；加和减，是同一只手的两件事。", 6.0, INK, "middle"))
+    s.append(txt(190, c + 36, "推到极处，框最大、线最淡——那就是无为。", 6.0, GREEN, "middle"))
     s.append(gold(c + 62, "ch48b"))
     s.append('</svg>')
     return "\n".join(s)
@@ -4533,7 +4523,7 @@ FIGS = {
     "ch47b-wang-yue-mi": ("第四十七章", "网越密，越看不见", ch47b_wang_yue_mi),
     "ch47c-shi-zi-lu-kou": ("第四十七章", "十字路口", ch47c_shi_zi_lu_kou),
     "ch48a-yi-yu-sun": ("第四十八章", "一只器，两只手", ch48a_yi_yu_sun),
-    "ch48b-ceng-ke": ("第四十八章", "打破框框", ch48b_ceng_ke),
+    "ch48b-ceng-ke": ("第四十八章", "一图两观", ch48b_ceng_ke),
     "ch48c-guan-qia": ("第四十八章", "一道关，一道关", ch48c_guan_qia),
     "ch12-wu-se": ("第十二章", "门开五处", ch12_wu_se),
     "ch13-chong-ru": ("第十三章", "惊的是我", ch13_chong_ru),
