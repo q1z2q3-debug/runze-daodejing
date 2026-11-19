@@ -1518,6 +1518,8 @@ GOLD = {
     "ch23": ["自然不是「不管」，是「不需要管」——差别全在有没有人在使劲。", "信不足，不是话说得不够多，是话后面没有人。"],
     "ch24": ["借来的高度站不住，省下的步子走不远。", "不处不是割掉，是不长——约束是按住它，不处是根本不在那儿站。"],
     "ch25": ["不是它比天地老，是天地离了它不成。", "名是给有边界的东西用的；对没有边界的东西，名只是手指。"],
+    "ch28": ["装弱是权谋，守雌是心法；权谋是知而让，心法是知而不必。",
+             "散是必然，老子的态度不是砸器回朴，是认下这个散，在散里用。"],
     "ch26": ["法地，不是学地的形状，是学地的分量。", "不是被外面夺了权，是你自己先把位置让出去了。"],
     "ch27": ["玉的病在里头，言的病在把柄上。", "不是他心肠软，是他看见的分类不成立。"],
 }
@@ -1751,6 +1753,74 @@ def ch27_shan_xing_wu_zhe_ji():
     return "\n".join(s)
 
 
+# ============ 第二十八章 · 知其雄 ============
+def ch28_zhi_xiong():
+    W, H = 380, 608
+    body, y = head(W, H, "知而不必，是心法", "第 二 十 八 章 · 溪 谷", "知其雄",
+                   "知与守同时：看见了，但不往那儿去。", H)
+    s = [body]
+    # ---- 三组知守 ----
+    cols = [26, 78, 134, 198, 266]
+    for cx, lab in zip(cols, ["知（照见）", "守（安住）", "为天下", "常德", "复归"]):
+        s.append(txt(cx, y + 6, lab, 7.4, "#8A7C69"))
+    rows = [("雄", "雌", "溪", "不离", "婴儿"),
+            ("白", "黑", "式", "不忒", "无极"),
+            ("荣", "辱", "谷", "乃足", "朴")]
+    y0 = y + 16
+    for i, (a, b, wei, de, gui) in enumerate(rows):
+        yy = y0 + i * 48
+        s.append(box(cols[0], yy, 44, 22, fill="#FBF6EC", stroke=LINE))
+        s.append(txt(cols[0] + 22, yy + 15, a, 9.2, INK, "middle"))
+        s.append(box(cols[1], yy, 44, 22, fill="#EFE3CC", stroke="#C9B79A"))
+        s.append(txt(cols[1] + 22, yy + 15, b, 9.2, INK, "middle"))
+        s.append(arrow(cols[0] + 46, yy + 11, cols[1] - 4, yy + 11, color="#A2503B", width=0.9, head="arrS"))
+        s.append(txt(cols[2], yy + 15, f"为天下{wei}", 8.4, GREEN))
+        s.append(txt(cols[3], yy + 15, f"常德{de}", 8.0, INK))
+        s.append(txt(cols[4], yy + 15, f"复归{gui}", 8.0, SEAL))
+    note_y = y0 + 3 * 48 + 8
+    s.append(txt(20, note_y, "知是照见，守是安住；不是先看、再退两步——知不必通向取。", 8.2, "#6E6459"))
+    # ---- 溪与谷：一纳一出 ----
+    y1 = note_y + 18
+    s.append(box(20, y1, 162, 38, fill="#F6EFE0", stroke="#C9B79A"))
+    s.append(txt(101, y1 + 16, "溪：众水所归", 8.8, GREEN, "middle"))
+    s.append(txt(101, y1 + 30, "受——低处，水自己来", 7.6, "#6E6459", "middle"))
+    s.append(box(198, y1, 162, 38, fill="#F6EFE0", stroke="#C9B79A"))
+    s.append(txt(279, y1 + 16, "谷：泉水所出", 8.8, GREEN, "middle"))
+    s.append(txt(279, y1 + 30, "出——虚而能出", 7.6, "#6E6459", "middle"))
+    # ---- 朴散则为器 ----
+    y2 = y1 + 54
+    s.append(txt(20, y2, "朴散则为器：原木一剖，才成了一件件有用的东西。", 8.4, SEAL))
+    s.append(box(26, y2 + 10, 58, 40, fill="#D9C7A6", stroke="#B9A98F"))
+    s.append(txt(55, y2 + 34, "朴", 8.8, INK, "middle"))
+    for sy, ty in ((y2 + 16, y2 + 14), (y2 + 30, y2 + 30), (y2 + 44, y2 + 46)):
+        s.append(arrow(88, sy, 172, ty, color="#6E6459", width=0.7))
+    s.append(f'<circle cx="186" cy="{y2+14}" r="7.5" fill="#F2EADA" stroke="{LINE}" stroke-width="0.9"/>')
+    s.append(f'<rect x="178" y="{y2+23}" width="15" height="15" fill="#F2EADA" stroke="{LINE}" stroke-width="0.9"/>')
+    s.append(f'<polygon points="186,{y2+39} 195,{y2+54} 177,{y2+54}" fill="#F2EADA" stroke="{LINE}" stroke-width="0.9"/>')
+    s.append(txt(206, y2 + 26, "同一条原木，", 7.6, "#6E6459"))
+    s.append(txt(206, y2 + 38, "剖开就各有其用", 7.6, "#6E6459"))
+    s.append(txt(20, y2 + 70, "散是必然：老子不砸器回朴，是认下这个散，在散里用。", 8.0, "#8A7C69"))
+    # ---- 大制不割 ----
+    y3 = y2 + 96
+    s.append(txt(20, y3, "大制不割：最高明的裁制，是刀不动。", 8.4, SEAL))
+    s.append(box(30, y3 + 24, 64, 20, fill="#D9C7A6", stroke="#B9A98F"))
+    s.append(txt(62, y3 + 38, "木", 8.2, INK, "middle"))
+    s.append(f'<rect x="58" y="{y3+0}" width="7" height="5" fill="#E9DFCC" stroke="{SEAL}" stroke-width="0.8"/>')
+    s.append(f'<line x1="61" y1="{y3+5}" x2="61" y2="{y3+18}" stroke="{SEAL}" stroke-width="1.6"/>')
+    s.append(f'<line x1="61" y1="{y3+17}" x2="61" y2="{y3+24}" stroke="{SEAL}" stroke-width="0.9" stroke-dasharray="2 2"/>')
+    s.append(txt(106, y3 + 22, "刀悬在木上，不落", 7.8, SEAL))
+    s.append(txt(106, y3 + 36, "制、割二字都带刀，老子偏说不割", 7.6, "#8A7C69"))
+    # ---- 收 ----
+    yc = y3 + 56
+    s.append(box(20, yc, 340, 44, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, yc + 19, "知而不必，是心法；知而让，是权谋。", 9.6, INK, "middle", spacing="0.6"))
+    s.append(txt(190, yc + 34, "守不是没本事上去，是有本事，但不往那儿去。", 8.2, "#6E6459", "middle"))
+    s.append(gold(yc + 52, "ch28"))
+    s.append('</svg>')
+    return "\n".join(s)
+
+
+
 FIGS = {
     "ch01-wu-you": ("第一章", "无有同出", ch01_wu_you),
     "ch01-zhi-yue": ("第一章", "指月三境", ch01_zhi_yue),
@@ -1789,6 +1859,7 @@ FIGS = {
     "ch08-shang-shan": ("第八章", "上善若水", ch08_shang_shan),
     "ch09-ying-man": ("第九章", "持而盈之", ch09_ying_man),
     "ch10-bao-yi": ("第十章", "载营魄抱一", ch10_bao_yi),
+    "ch28-zhi-xiong": ("第二十八章", "知其雄", ch28_zhi_xiong),
 }
 
 
