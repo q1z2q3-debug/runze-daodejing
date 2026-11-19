@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg viewBox="0 0 380 604" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="一根箭头＝一步；退，是唯一不往前的一步" font-family="'Noto Serif CJK SC','Noto Serif SC','Songti SC',serif">
+<svg viewBox="0 0 380 648" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="一根箭头＝一步；退，是唯一不往前的一步" font-family="'Noto Serif CJK SC','Noto Serif SC','Songti SC',serif">
 <defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#6E6459"/></marker><marker id="arr2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#4A5C55"/></marker><marker id="arrL" viewBox="0 0 10 10" refX="1" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M10 0 L0 5 L10 10 z" fill="#4A5C55"/></marker><marker id="arrS" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#A2503B"/></marker></defs>
-<rect x="0" y="0" width="380" height="604" fill="#F8F3E6"/>
+<rect x="0" y="0" width="380" height="648" fill="#F8F3E6"/>
 <text x="20" y="26" font-size="11" fill="#A2503B" font-family="'Noto Sans CJK SC','Noto Sans SC',sans-serif" letter-spacing="3">第 九 章 · 事 成</text>
 <text x="20" y="58" font-size="21" fill="#2F2A24">持而盈之</text>
 <text x="20" y="78" font-size="10.5" fill="#6E6459">满不是问题；满了还要再加一步，才是问题。</text>
@@ -41,15 +41,23 @@
 <text x="292" y="402" font-size="8.2" fill="#6E6459">进：事越做越大</text>
 <text x="20" y="412" font-size="8.6" fill="#8A7C69">功可以越做越大，身只有一副；两头一起用，才有得退。</text>
 <text x="20" y="434" font-size="9.2" fill="#8A7C69">四、度：两半互含，不是折中</text>
-<circle cx="58" cy="480" r="28" fill="#F8F3E6" stroke="#2F2A24" stroke-width="0.9"/>
-<path d="M 58,452 A 28,28 0 0 1 58,508 A 14.0,14.0 0 0 1 58,480 A 14.0,14.0 0 0 1 58,452 Z" fill="#2F2A24" opacity="0.62"/>
-<circle cx="58" cy="466.0" r="3.6" fill="#F8F3E6"/>
-<circle cx="58" cy="494.0" r="3.6" fill="#2F2A24" opacity="0.62"/>
-<text x="100" y="466" font-size="8.6" fill="#6E6459">黑的那半是进：一直在加</text>
-<text x="100" y="482" font-size="8.6" fill="#6E6459">白的那半是退：知道停在哪一格</text>
-<text x="100" y="502" font-size="8.6" fill="#6E6459">两半各含对方一点：能退，进才立得住；</text>
-<text x="100" y="517" font-size="8.6" fill="#6E6459">只会进，那一点退就被挤没了。</text>
-<rect x="20" y="532" width="340" height="44" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
-<text x="190" y="551" font-size="11.5" fill="#2F2A24" text-anchor="middle" letter-spacing="1">功遂身退，天之道。</text>
-<text x="190" y="567" font-size="8.6" fill="#6E6459" text-anchor="middle">退的是那只还要加一步的手，不是事。</text>
+<circle cx="190" cy="492" r="48" fill="#7B766E"/>
+<path d="M 190,444 A 48,48 0 0 1 190,540 L 190,444 Z" fill="#F8F3E6"/>
+<circle cx="190" cy="468.0" r="24.0" fill="#7B766E"/>
+<circle cx="190" cy="516.0" r="24.0" fill="#F8F3E6"/>
+<circle cx="190" cy="492" r="48" fill="none" stroke="#2F2A24" stroke-width="0.9"/>
+<circle cx="190" cy="468.0" r="7" fill="#F8F3E6"/>
+<circle cx="190" cy="516.0" r="7" fill="#7B766E"/>
+<text x="165" y="496" font-size="11" fill="#F8F3E6" text-anchor="middle" letter-spacing="1">进</text>
+<text x="217" y="502" font-size="11" fill="#7B766E" text-anchor="middle" letter-spacing="1">退</text>
+<text x="20" y="476" font-size="8.5" fill="#6E6459">进：黑那半，</text>
+<text x="20" y="492" font-size="8.5" fill="#6E6459">一直在加</text>
+<text x="20" y="514" font-size="8.2" fill="#8A7C69">加到端就溢</text>
+<text x="300" y="476" font-size="8.5" fill="#6E6459" text-anchor="end">退：白那半，</text>
+<text x="300" y="492" font-size="8.5" fill="#6E6459" text-anchor="end">知道停在哪格</text>
+<text x="300" y="514" font-size="8.2" fill="#8A7C69" text-anchor="end">两点即两半所含</text>
+<text x="190" y="564" font-size="8.4" fill="#8A7C69" text-anchor="middle">能退，进才立得住；只会进，那点退就被挤没了。</text>
+<rect x="20" y="580" width="340" height="44" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="190" y="599" font-size="11.5" fill="#2F2A24" text-anchor="middle" letter-spacing="1">功遂身退，天之道。</text>
+<text x="190" y="615" font-size="8.6" fill="#6E6459" text-anchor="middle">退的是那只还要加一步的手，不是事。</text>
 </svg>

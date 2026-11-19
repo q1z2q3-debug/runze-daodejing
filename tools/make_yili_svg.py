@@ -382,7 +382,7 @@ def ch25_dao_fa():
 
 # ============ 第三十八章 · 五级滑落 ============
 def ch38_wu_ji():
-    W, H = 380, 604
+    W, H = 380, 652
     body, y = head(W, H, "道、德、仁、义、礼：一道五级台阶", "第 三 十 八 章 · 秩 序", "五级滑落",
                    "越往下，越靠「作意」撑；作意越重，越要强制。", H)
     s = [body]
@@ -919,7 +919,7 @@ def ch08_shang_shan():
 
 # ============ 第九章 · 持而盈之（进与退，同一根尺子） ============
 def ch09_ying_man():
-    W, H = 380, 604
+    W, H = 380, 648
     body, y = head(W, H, "一根箭头＝一步；退，是唯一不往前的一步", "第 九 章 · 事 成", "持而盈之",
                    "满不是问题；满了还要再加一步，才是问题。", H)
     s = [body]
@@ -956,20 +956,29 @@ def ch09_ying_man():
     s.append(txt(96, yaxis - 14, "退：事留在外面", 8.2, "#6E6459"))
     s.append(txt(292, yaxis + 24, "进：事越做越大", 8.2, "#6E6459"))
     s.append(txt(20, yaxis + 34, "功可以越做越大，身只有一副；两头一起用，才有得退。", 8.6, "#8A7C69"))
-    # 四、阴阳＝度
+    # 四、阴阳＝度（正版太极：两半合成）
     yc = yaxis + 56
     s.append(txt(20, yc, "四、度：两半互含，不是折中", 9.2, "#8A7C69"))
-    cx, cyy, r = 58, yc + 46, 28
-    s.append(f'<circle cx="{cx}" cy="{cyy}" r="{r}" fill="{PAPER}" stroke="{INK}" stroke-width="0.9"/>')
-    s.append(f'<path d="M {cx},{cyy-r} A {r},{r} 0 0 1 {cx},{cyy+r} A {r/2},{r/2} 0 0 1 {cx},{cyy} A {r/2},{r/2} 0 0 1 {cx},{cyy-r} Z" fill="{INK}" opacity="0.62"/>')
-    s.append(f'<circle cx="{cx}" cy="{cyy-r/2}" r="3.6" fill="{PAPER}"/>')
-    s.append(f'<circle cx="{cx}" cy="{cyy+r/2}" r="3.6" fill="{INK}" opacity="0.62"/>')
-    s.append(txt(100, cyy - 14, "黑的那半是进：一直在加", 8.6, "#6E6459"))
-    s.append(txt(100, cyy + 2, "白的那半是退：知道停在哪一格", 8.6, "#6E6459"))
-    s.append(txt(100, cyy + 22, "两半各含对方一点：能退，进才立得住；", 8.6, "#6E6459"))
-    s.append(txt(100, cyy + 37, "只会进，那一点退就被挤没了。", 8.6, "#6E6459"))
+    R, cx, cyy = 48, 190, yc + 58
+    D = "#7B766E"
+    s.append(f'<circle cx="{cx}" cy="{cyy}" r="{R}" fill="{D}"/>')
+    s.append(f'<path d="M {cx},{cyy-R} A {R},{R} 0 0 1 {cx},{cyy+R} L {cx},{cyy-R} Z" fill="{PAPER}"/>')
+    s.append(f'<circle cx="{cx}" cy="{cyy-R/2}" r="{R/2}" fill="{D}"/>')
+    s.append(f'<circle cx="{cx}" cy="{cyy+R/2}" r="{R/2}" fill="{PAPER}"/>')
+    s.append(f'<circle cx="{cx}" cy="{cyy}" r="{R}" fill="none" stroke="{INK}" stroke-width="0.9"/>')
+    s.append(f'<circle cx="{cx}" cy="{cyy-R/2}" r="7" fill="{PAPER}"/>')
+    s.append(f'<circle cx="{cx}" cy="{cyy+R/2}" r="7" fill="{D}"/>')
+    s.append(txt(cx - 25, cyy + 4, "进", 11, PAPER, "middle", spacing="1"))
+    s.append(txt(cx + 27, cyy + 10, "退", 11, D, "middle", spacing="1"))
+    s.append(txt(20, cyy - 16, "进：黑那半，", 8.5, "#6E6459"))
+    s.append(txt(20, cyy, "一直在加", 8.5, "#6E6459"))
+    s.append(txt(20, cyy + 22, "加到端就溢", 8.2, "#8A7C69"))
+    s.append(txt(300, cyy - 16, "退：白那半，", 8.5, "#6E6459", "end"))
+    s.append(txt(300, cyy, "知道停在哪格", 8.5, "#6E6459", "end"))
+    s.append(txt(300, cyy + 22, "两点即两半所含", 8.2, "#8A7C69", "end"))
+    s.append(txt(cx, cyy + R + 24, "能退，进才立得住；只会进，那点退就被挤没了。", 8.4, "#8A7C69", "middle"))
     # 收
-    yf = cyy + 52
+    yf = cyy + R + 40
     s.append(box(20, yf, 340, 44, fill="#F2EADA", stroke="#C9B79A"))
     s.append(txt(190, yf + 19, "功遂身退，天之道。", 11.5, INK, "middle", spacing="1"))
     s.append(txt(190, yf + 35, "退的是那只还要加一步的手，不是事。", 8.6, "#6E6459", "middle"))
