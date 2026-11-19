@@ -1495,6 +1495,8 @@ GOLD = {
     "ch19": ["所绝者名，所复者实；文不足以为治，令有所属乃安。", "破其外饰，守其本根；破而不立，台面自有人填。"],
     "ch20": ["唯之与阿，相去几何——尺子定的，不是事定的。", "众人贵末，我贵食母；末可争，母不可争。"],
     "ch21": ["孔德之容，惟道是从：德不是修出来的，是流出来的。", "名不去，是路标一直在；路标在，不等于路标就是那个地方。"],
+    "ch23": ["自然不是「不管」，是「不需要管」——差别全在有没有人在使劲。", "信不足，不是话说得不够多，是话后面没有人。"],
+    "ch24": ["借来的高度站不住，省下的步子走不远。", "不处不是割掉，是不长——约束是按住它，不处是根本不在那儿站。"],
 }
 
 
@@ -1506,12 +1508,115 @@ def gold(y, key):
     return "\n".join(out)
 
 
+
+# ============ 第二十三章 · 希言自然 ============
+def ch23_xi_yan_zi_ran():
+    W, H = 380, 486
+    body, y = head(W, H, "多言本身就是用力，用力过猛的东西撑不久", "第 二 十 三 章 · 自 然", "希言自然",
+                   "说得越多，越不长：这一章问的是「你凭什么站得住」。", H)
+    s = [body]
+    # 风雨
+    y0 = y + 4
+    s.append(box(20, y0, 340, 52, fill="#F6EFE0", stroke="#C9B79A"))
+    for i in range(4):
+        xx = 44 + i * 18
+        s.append(f'<line x1="{xx}" y1="{y0+12}" x2="{xx+16}" y2="{y0+40}" stroke="{LINE}" stroke-width="1"/>')
+    for i in range(9):
+        xx = 130 + (i % 5) * 12
+        yy = y0 + 16 + (i // 5) * 16
+        s.append(f'<line x1="{xx}" y1="{yy}" x2="{xx-3}" y2="{yy+9}" stroke="#B9A98F" stroke-width="1"/>')
+    s.append(txt(238, y0 + 22, "飘风不终朝", 9.2, SEAL))
+    s.append(txt(238, y0 + 38, "骤雨不终日", 9.2, SEAL))
+    s.append(txt(20, y0 + 68, "天地用力，也撑不过一早一日；况于人乎。", 8.4, "#8A7C69"))
+    # 三同
+    y1 = y0 + 84
+    rows = [("道", "同于道"), ("德", "同于德"), ("失", "同于失")]
+    for i, (a, b) in enumerate(rows):
+        yy = y1 + i * 30
+        s.append(txt(40, yy + 16, a, 13, SEAL if a == "失" else GREEN))
+        s.append(arrow(70, yy + 11, 118, yy + 11, color="#C9B79A", head="arr"))
+        s.append(txt(124, yy + 16, b, 9.6, INK))
+        s.append(txt(196, yy + 16, "道亦乐得之" if i == 0 else ("德亦乐得之" if i == 1 else "失亦乐得之"), 8.2, "#6E6459"))
+    s.append(txt(20, y1 + 3 * 30 + 14, "不是道偏心，是同类相取：抱一是动作，同于是结果。", 8.2, "#8A7C69"))
+    # 信不足
+    y2 = y1 + 3 * 30 + 32
+    s.append(box(36, y2, 68, 40, fill="none", stroke=LINE, dash="4 3"))
+    s.append(txt(70, y2 + 25, "言", 10, "#8A7C69", "middle"))
+    s.append(txt(120, y2 + 18, "话说了，话后面没有人：信不足。", 8.6, INK))
+    s.append(txt(120, y2 + 32, "不是话说得不够多，是说得太多。", 8.2, "#6E6459"))
+    yc = y2 + 48
+    s.append(box(20, yc, 340, 40, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, yc + 18, "自然不是没有秩序，是秩序自己长出来的。", 9.6, INK, "middle"))
+    s.append(txt(190, yc + 34, "自，自身；然，如是：不借外力而自如此。", 8.4, "#6E6459", "middle"))
+    s.append(gold(yc + 48, "ch23"))
+    s.append('</svg>')
+    return "\n".join(s)
+
+
+
+# ============ 第二十四章 · 企者不立 ============
+def ch24_qi_zhe_bu_li():
+    W, H = 380, 452
+    body, y = head(W, H, "两个动作，一个方向：想越过自己本来的位置", "第 二 十 四 章 · 余 食 赘 行", "企者不立",
+                   "一个求高，一个求快；动机是同一个。", H)
+    s = [body]
+    # 企 / 跨
+    y0 = y + 6
+    s.append(txt(20, y0 + 12, "企：举踵", 8.8, SEAL))
+    s.append(f'<line x1="24" y1="{y0+56}" x2="158" y2="{y0+56}" stroke="{LINE2}" stroke-width="1"/>')
+    # 脚：脚尖点在线上，脚跟抬起
+    s.append(f'<line x1="64" y1="{y0+56}" x2="88" y2="{y0+40}" stroke="{SEAL}" stroke-width="1.2"/>')
+    s.append(f'<circle cx="64" cy="{y0+56}" r="2.6" fill="{SEAL}"/>')
+    s.append(f'<line x1="88" y1="{y0+40}" x2="88" y2="{y0+56}" stroke="{LINE}" stroke-width="1" stroke-dasharray="2 3"/>')
+    # 借来的高度：一段虚的尺
+    s.append(f'<line x1="100" y1="{y0+40}" x2="100" y2="{y0+18}" stroke="{SEAL}" stroke-width="1" stroke-dasharray="3 3"/>')
+    s.append(f'<line x1="96" y1="{y0+40}" x2="104" y2="{y0+40}" stroke="{SEAL}" stroke-width="1"/>')
+    s.append(f'<line x1="96" y1="{y0+18}" x2="104" y2="{y0+18}" stroke="{SEAL}" stroke-width="1"/>')
+    s.append(txt(110, y0 + 24, "借来的高度", 8.0, "#6E6459"))
+    s.append(txt(110, y0 + 38, "力气一松，落回原高", 7.8, "#8A7C69"))
+    s.append(txt(186, y0 + 12, "跨：大步越", 8.8, GREEN))
+    s.append(f'<line x1="182" y1="{y0+56}" x2="356" y2="{y0+56}" stroke="{LINE2}" stroke-width="1"/>')
+    for xx in (200, 340):
+        s.append(f'<ellipse cx="{xx}" cy="{y0+53}" rx="6" ry="3" fill="none" stroke="{GREEN}" stroke-width="1"/>')
+    s.append(f'<line x1="206" y1="{y0+53}" x2="334" y2="{y0+53}" stroke="{LINE}" stroke-width="1" stroke-dasharray="3 3"/>')
+    s.append(txt(206, y0 + 36, "一步顶两步：半步要还", 7.8, "#8A7C69"))
+    s.append(txt(20, y0 + 74, "不是劝人别努力：是这两个动作，都离开了本来的位置。", 8.4, "#8A7C69"))
+    # 四句
+    y1 = y0 + 92
+    quads = [("自见", "不明"), ("自是", "不彰"), ("自伐", "无功"), ("自矜", "不长")]
+    for i, (a, b) in enumerate(quads):
+        col, row = i % 2, i // 2
+        xx = 30 + col * 172
+        yy = y1 + row * 30
+        s.append(txt(xx, yy + 14, a, 9.4, SEAL))
+        s.append(arrow(xx + 44, yy + 9, xx + 66, yy + 9, color="#C9B79A", head="arr"))
+        s.append(txt(xx + 72, yy + 14, b, 9.4, "#6E6459"))
+    s.append(txt(20, y1 + 2 * 30 + 12, "四个词是同一件事：把自己往前挪了半步。", 8.4, "#8A7C69"))
+    # 余食赘行
+    y2 = y1 + 2 * 30 + 30
+    s.append(box(20, y2, 162, 48, fill="#F6EFE0", stroke="#C9B79A"))
+    s.append(txt(101, y2 + 18, "余食", 9.4, SEAL, "middle"))
+    s.append(txt(101, y2 + 33, "吃饱了，还要再添一口", 7.8, "#6E6459", "middle"))
+    s.append(box(198, y2, 162, 48, fill="#F6EFE0", stroke="#C9B79A"))
+    s.append(txt(279, y2 + 18, "赘行", 9.4, SEAL, "middle"))
+    s.append(txt(279, y2 + 33, "身上多长出来的一块", 7.8, "#6E6459", "middle"))
+    yc = y2 + 64
+    s.append(box(20, yc, 340, 44, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, yc + 19, "物或恶之，故有道者不处。", 10.4, INK, "middle", spacing="1"))
+    s.append(txt(190, yc + 35, "不处不是割掉，是不长在那儿。", 8.4, "#6E6459", "middle"))
+    s.append(gold(yc + 52, "ch24"))
+    s.append('</svg>')
+    return "\n".join(s)
+
+
 FIGS = {
     "ch01-wu-you": ("第一章", "无有同出", ch01_wu_you),
     "ch01-zhi-yue": ("第一章", "指月三境", ch01_zhi_yue),
     "ch01-miao-jiao": ("第一章", "观妙观徼", ch01_miao_jiao),
     "ch02-liu-zu": ("第二章", "六组对偶", ch02_liu_zu),
     "ch11-li-yong": ("第十一章", "利与用", ch11_li_yong),
+    "ch24-qi-zhe-bu-li": ("第二十四章", "企者不立", ch24_qi_zhe_bu_li),
+    "ch23-xi-yan-zi-ran": ("第二十三章", "希言自然", ch23_xi_yan_zi_ran),
     "ch22-qu-ze-quan": ("第二十二章", "曲则全", ch22_qu_ze_quan),
     "ch25-dao-fa": ("第二十五章", "道法自然", ch25_dao_fa),
     "ch38-wu-ji": ("第三十八章", "五级滑落", ch38_wu_ji),

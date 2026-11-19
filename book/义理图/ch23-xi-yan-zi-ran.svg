@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 380 486" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="多言本身就是用力，用力过猛的东西撑不久" font-family="'Noto Serif CJK SC','Noto Serif SC','Songti SC',serif">
+<defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#6E6459"/></marker><marker id="arr2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#4A5C55"/></marker><marker id="arrL" viewBox="0 0 10 10" refX="1" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M10 0 L0 5 L10 10 z" fill="#4A5C55"/></marker><marker id="arrS" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#A2503B"/></marker></defs>
+<rect x="0" y="0" width="380" height="486" fill="#F8F3E6"/>
+<text x="20" y="26" font-size="11" fill="#A2503B" font-family="'Noto Sans CJK SC','Noto Sans SC',sans-serif" letter-spacing="3">第 二 十 三 章 · 自 然</text>
+<text x="20" y="58" font-size="21" fill="#2F2A24">希言自然</text>
+<text x="20" y="78" font-size="10.5" fill="#6E6459">说得越多，越不长：这一章问的是「你凭什么站得住」。</text>
+<rect x="20" y="104" width="340" height="52" fill="#F6EFE0" stroke="#C9B79A" stroke-width="1.0"/>
+<line x1="44" y1="116" x2="60" y2="144" stroke="#DCCBB0" stroke-width="1"/>
+<line x1="62" y1="116" x2="78" y2="144" stroke="#DCCBB0" stroke-width="1"/>
+<line x1="80" y1="116" x2="96" y2="144" stroke="#DCCBB0" stroke-width="1"/>
+<line x1="98" y1="116" x2="114" y2="144" stroke="#DCCBB0" stroke-width="1"/>
+<line x1="130" y1="120" x2="127" y2="129" stroke="#B9A98F" stroke-width="1"/>
+<line x1="142" y1="120" x2="139" y2="129" stroke="#B9A98F" stroke-width="1"/>
+<line x1="154" y1="120" x2="151" y2="129" stroke="#B9A98F" stroke-width="1"/>
+<line x1="166" y1="120" x2="163" y2="129" stroke="#B9A98F" stroke-width="1"/>
+<line x1="178" y1="120" x2="175" y2="129" stroke="#B9A98F" stroke-width="1"/>
+<line x1="130" y1="136" x2="127" y2="145" stroke="#B9A98F" stroke-width="1"/>
+<line x1="142" y1="136" x2="139" y2="145" stroke="#B9A98F" stroke-width="1"/>
+<line x1="154" y1="136" x2="151" y2="145" stroke="#B9A98F" stroke-width="1"/>
+<line x1="166" y1="136" x2="163" y2="145" stroke="#B9A98F" stroke-width="1"/>
+<text x="238" y="126" font-size="9.2" fill="#A2503B">飘风不终朝</text>
+<text x="238" y="142" font-size="9.2" fill="#A2503B">骤雨不终日</text>
+<text x="20" y="172" font-size="8.4" fill="#8A7C69">天地用力，也撑不过一早一日；况于人乎。</text>
+<text x="40" y="204" font-size="13" fill="#4A5C55">道</text>
+<line x1="70" y1="199" x2="118" y2="199" stroke="#C9B79A" stroke-width="1.2" marker-end="url(#arr)"/>
+<text x="124" y="204" font-size="9.6" fill="#2F2A24">同于道</text>
+<text x="196" y="204" font-size="8.2" fill="#6E6459">道亦乐得之</text>
+<text x="40" y="234" font-size="13" fill="#4A5C55">德</text>
+<line x1="70" y1="229" x2="118" y2="229" stroke="#C9B79A" stroke-width="1.2" marker-end="url(#arr)"/>
+<text x="124" y="234" font-size="9.6" fill="#2F2A24">同于德</text>
+<text x="196" y="234" font-size="8.2" fill="#6E6459">德亦乐得之</text>
+<text x="40" y="264" font-size="13" fill="#A2503B">失</text>
+<line x1="70" y1="259" x2="118" y2="259" stroke="#C9B79A" stroke-width="1.2" marker-end="url(#arr)"/>
+<text x="124" y="264" font-size="9.6" fill="#2F2A24">同于失</text>
+<text x="196" y="264" font-size="8.2" fill="#6E6459">失亦乐得之</text>
+<text x="20" y="292" font-size="8.2" fill="#8A7C69">不是道偏心，是同类相取：抱一是动作，同于是结果。</text>
+<rect x="36" y="310" width="68" height="40" fill="none" stroke="#DCCBB0" stroke-width="1.0" stroke-dasharray="4 3"/>
+<text x="70" y="335" font-size="10" fill="#8A7C69" text-anchor="middle">言</text>
+<text x="120" y="328" font-size="8.6" fill="#2F2A24">话说了，话后面没有人：信不足。</text>
+<text x="120" y="342" font-size="8.2" fill="#6E6459">不是话说得不够多，是说得太多。</text>
+<rect x="20" y="358" width="340" height="40" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="190" y="376" font-size="9.6" fill="#2F2A24" text-anchor="middle">自然不是没有秩序，是秩序自己长出来的。</text>
+<text x="190" y="392" font-size="8.4" fill="#6E6459" text-anchor="middle">自，自身；然，如是：不借外力而自如此。</text>
+<line x1="20" y1="406" x2="360" y2="406" stroke="#E6D8C2" stroke-width="0.8"/>
+<text x="20" y="420" font-size="8.0" fill="#A89577" letter-spacing="1">本 章 金 句</text>
+<text x="20" y="436" font-size="8.4" fill="#2F2A24">自然不是「不管」，是「不需要管」——差别全在有没有人在使劲。</text>
+<text x="20" y="452" font-size="8.4" fill="#2F2A24">信不足，不是话说得不够多，是话后面没有人。</text>
+</svg>
