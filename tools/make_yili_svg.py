@@ -622,7 +622,7 @@ def ch77_zhang_gong():
 
 # ============ 第八十一章 · 不积 ============
 def ch81_bu_ji():
-    W, H = 380, 604
+    W, H = 380, 660
     body, y = head(W, H, "九个不：全书收口的方式是划掉", "第 八 十 一 章 · 收 口", "九个不",
                    "他不肯说「这就是道」，只说：不是这个，不是这个。", H)
     s = [body]
@@ -1518,6 +1518,8 @@ GOLD = {
     "ch23": ["自然不是「不管」，是「不需要管」——差别全在有没有人在使劲。", "信不足，不是话说得不够多，是话后面没有人。"],
     "ch24": ["借来的高度站不住，省下的步子走不远。", "不处不是割掉，是不长——约束是按住它，不处是根本不在那儿站。"],
     "ch25": ["不是它比天地老，是天地离了它不成。", "名是给有边界的东西用的；对没有边界的东西，名只是手指。"],
+    "ch34b": ["能小，是因为它从不伸手；不伸手，才没人能握住它。",
+              "世人求大，是往大里做；道之大，是往小里做出来的。"],
     "ch34": ["张开手臂，抱住的只有一抱；手臂垂着，怀里是整个天地。",
              "世人的大，是把世界收进来；道的大，是让世界不必进来。"],
     "ch33": ["智是识词，明是照见；智越用越熟，明越照越静。",
@@ -2296,6 +2298,79 @@ def ch34_bu_zhu_wei_da():
 
 
 
+# ============ 第三十四章 · 一句两读 ============
+def ch34b_yi_ju_liang_du():
+    import math
+    W, H = 380, 660
+    body, y = head(W, H, "同一个「不为主」：从它自己看是小，从万物看是大", "第 三 十 四 章 · 同 语 异 名",
+                   "一句两读：小与大", "帛书这一句写了两遍，不是抄错，是同语异名。", H)
+    s = [body]
+
+    # 经句
+    s.append(box(20, y + 4, 340, 30, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, y + 24, "万物归焉而弗为主", 10.4, INK, "middle", spacing="1.5"))
+    s.append(txt(190, y + 46, "帛书甲、乙本：前后两处一字不差；通行本把前一处改成「衣养万物」，结构就没了。", 6.9, "#8A7C69", "middle"))
+
+    # 中心与来归
+    cx, cy, R = 190, y + 150, 92
+    s.append(f'<circle cx="{cx}" cy="{cy}" r="28" fill="none" stroke="{INK}" stroke-width="1" stroke-dasharray="4 3"/>')
+    s.append(txt(cx, cy + 4, "不主", 7.6, "#6E6459", "middle"))
+    for k in range(10):
+        a = math.pi * 2 * k / 10 - math.pi / 2
+        dx, dy = cx + R * math.cos(a), cy + R * math.sin(a)
+        s.append(f'<circle cx="{dx:.1f}" cy="{dy:.1f}" r="2.6" fill="none" stroke="#8A7C69" stroke-width="0.7"/>')
+        ix, iy = cx + 34 * math.cos(a), cy + 34 * math.sin(a)
+        s.append(f'<line x1="{dx:.1f}" y1="{dy:.1f}" x2="{ix:.1f}" y2="{iy:.1f}" stroke="#C9B79A" stroke-width="0.8" stroke-dasharray="4 3"/>')
+    s.append(txt(20, y + 116, "小", 13, GREEN))
+    s.append(txt(20, y + 133, "从它自己看", 6.8, "#6E6459"))
+    s.append(txt(20, y + 146, "不伸张", 6.8, "#6E6459"))
+    s.append(txt(20, y + 158, "不认领", 6.8, "#6E6459"))
+    s.append(txt(20, y + 170, "不做主", 6.8, "#6E6459"))
+    s.append(txt(342, y + 116, "大", 13, SEAL))
+    s.append(txt(342, y + 133, "从万物看", 6.8, "#6E6459", "end"))
+    s.append(txt(342, y + 146, "归是真的归", 6.8, "#6E6459", "end"))
+    s.append(txt(342, y + 158, "差异都进来", 6.8, "#6E6459", "end"))
+    s.append(txt(342, y + 170, "不必改成一样", 6.8, "#6E6459", "end"))
+    s.append(txt(190, y + 254, "归，是万物自己走过来的；主，是我伸手去管。", 7.6, "#6E6459", "middle"))
+
+    # 两卡
+    ya = y + 272
+    s.append(box(20, ya, 162, 96, fill="#F7F1E3", stroke="#E6D8C2"))
+    s.append(box(198, ya, 162, 96, fill="#F7F1E3", stroke="#E6D8C2"))
+    s.append(txt(32, ya + 20, "何以为小", 8.4, GREEN))
+    s.append(txt(32, ya + 38, "不显、不彰、不宰、不争、不割", 7.2, "#6E6459"))
+    s.append(txt(32, ya + 54, "能小，是因为它从不伸手；", 7.2, "#6E6459"))
+    s.append(txt(32, ya + 68, "不伸手，才没人能握住它。", 7.2, "#6E6459"))
+    s.append(txt(32, ya + 86, "形上切不开，意志上不伸张", 6.9, SEAL))
+    s.append(txt(210, ya + 20, "何以为大", 8.4, SEAL))
+    s.append(txt(210, ya + 38, "正因不做主，万千差异都能归来", 7.2, "#6E6459"))
+    s.append(txt(210, ya + 54, "大不是小之外另修的一层，", 7.2, "#6E6459"))
+    s.append(txt(210, ya + 68, "是小自己长出来的结果。", 7.2, "#6E6459"))
+    s.append(txt(210, ya + 86, "往大里做，越做越窄", 6.9, SEAL))
+
+    # 恒无欲
+    yb = ya + 108
+    s.append(box(20, yb, 340, 62, fill="#FBF6EC", stroke="#E6D8C2"))
+    s.append(txt(32, yb + 16, "恒无欲：从来没有那种欲——", 8.0, INK))
+    s.append(txt(32, yb + 31, "「我要你变成我要的样子」", 7.4, "#6E6459"))
+    s.append(txt(32, yb + 47, "不是有时无，是根本没有起过；", 7.2, "#6E6459"))
+    s.append(txt(32, yb + 60, "更不是伸出去再收回来。", 7.2, "#6E6459"))
+    # 手臂垂着，从未伸出
+    s.append(f'<line x1="300" y1="{yb+12}" x2="300" y2="{yb+34}" stroke="{INK}" stroke-width="1.2"/>')
+    s.append(f'<path d="M293,{yb+34} q7,-5 14,0 q1,11 -7,11 q-8,0 -7,-11 z" fill="#E9DFCC" stroke="{INK}" stroke-width="0.8"/>')
+    s.append(f'<path d="M286,{yb+16} q14,-8 28,0" fill="none" stroke="{LINE}" stroke-width="0.8" stroke-dasharray="3 2"/>')
+    s.append(txt(300, yb + 54, "垂着，未伸", 6.4, SEAL, "middle"))
+
+    # 收
+    yc = yb + 74
+    s.append(box(20, yc, 340, 44, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, yc + 18, "世人求大，是往大里做；道之大，是往小里做出来的。", 8.4, INK, "middle"))
+    s.append(txt(190, yc + 34, "「大」本是一人张两臂：张开只抱一抱，垂着怀里是整个天地。", 7.4, "#6E6459", "middle"))
+    s.append(gold(yc + 52, "ch34b"))
+    s.append('</svg>')
+    return "\n".join(s)
+
+
 
 FIGS = {
     "ch01-wu-you": ("第一章", "无有同出", ch01_wu_you),
@@ -2343,6 +2418,7 @@ FIGS = {
     "ch32b-chuan-gu": ("第三十二章", "川谷与江海", ch32b_chuan_gu),
     "ch33-zi-zhi-zhe-ming": ("第三十三章", "自知者明", ch33_zi_zhi_zhe_ming),
     "ch34-bu-zhu": ("第三十四章", "不主故能成其大", ch34_bu_zhu_wei_da),
+    "ch34b-yi-ju-liang-du": ("第三十四章", "一句两读：小与大", ch34b_yi_ju_liang_du),
 }
 
 
