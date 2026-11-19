@@ -1518,6 +1518,10 @@ GOLD = {
     "ch23": ["自然不是「不管」，是「不需要管」——差别全在有没有人在使劲。", "信不足，不是话说得不够多，是话后面没有人。"],
     "ch24": ["借来的高度站不住，省下的步子走不远。", "不处不是割掉，是不长——约束是按住它，不处是根本不在那儿站。"],
     "ch25": ["不是它比天地老，是天地离了它不成。", "名是给有边界的东西用的；对没有边界的东西，名只是手指。"],
+    "ch41b": ["「晚成」是把终点挪远，「免成」是把终点取消。",
+               "不是它没有样子，是任何样子都只是它的一块。"],
+    "ch41a": ["下士没有看错，他看的是背面；他只是不知道那件东西还有另一面。",
+               "不是道难懂，是道难看；难懂可以学，难看只能翻过来看。"],
     "ch40b": ["万物形于有，有自无中生；金钱为器壁，幸福是虚空。",
                "外求终有尽，内守得本源；知反明弱用，静里见真诠。"],
     "ch40a": ["道动常归反，物极必回还。",
@@ -3113,6 +3117,114 @@ def ch40b_fan_yu_qu():
     return "\n".join(s)
 
 
+# ============ 第四十一章 · 三士三种边界 ============
+def ch41a_san_shi():
+    W, H = 380, 540
+    body, y = head(W, H, "不是境界高低，是把边界当不当真", "第 四 十 一 章 · 三 士",
+                   "三种边界", "三个人看同一只杯子。", H)
+    s = [body]
+
+    s.append(box(20, y + 2, 340, 34, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, y + 15, "上士闻道，勤能行之；中士闻道，若存若亡；下士闻道，大笑之。", 6.6, INK, "middle"))
+    s.append(txt(190, y + 29, "弗笑，不足以为道。", 6.6, SEAL, "middle"))
+
+    a = y + 46
+    # 上士
+    r1 = a + 6
+    s.append(txt(24, r1 + 44, "上士", 9.0, GREEN))
+    for i in range(5):
+        x = 68 + i * 15
+        s.append(f'<path d="M{x},{r1+28} L{x+8},{r1+34} L{x},{r1+40}" fill="none" stroke="{GREEN}" stroke-width="1.1"/>')
+    s.append(txt(120, r1 + 56, "绵绵不断（勤，帛书作堇）", 5.6, "#6E6459", "middle"))
+    s.append(txt(190, r1 + 16, "知道那条线是自己画的，于是不照它活。", 6.4, INK))
+    s.append(txt(190, r1 + 32, "他的不同不在能吃苦，在不再需要边界。", 6.2, "#6E6459"))
+    s.append(txt(190, r1 + 48, "线一撤，路就通了。", 6.2, GREEN))
+
+    # 中士
+    r2 = r1 + 92
+    s.append(txt(24, r2 + 44, "中士", 9.0, INK))
+    s.append(f'<line x1="68" y1="{r2+34}" x2="94" y2="{r2+34}" stroke="{INK}" stroke-width="1.4"/>')
+    s.append(f'<line x1="94" y1="{r2+34}" x2="140" y2="{r2+34}" stroke="{INK}" stroke-width="1.0" stroke-dasharray="5 5"/>')
+    s.append(txt(104, r2 + 24, "信", 5.4, INK, "middle"))
+    s.append(txt(133, r2 + 24, "疑", 5.4, "#6E6459", "middle"))
+    s.append(txt(96, r2 + 56, "早上信，晚上疑", 5.6, "#6E6459", "middle"))
+    s.append(txt(190, r2 + 16, "看见了那个空的作用，可一动手，还是照边界去动。", 6.4, INK))
+    s.append(txt(190, r2 + 32, "讲的时候通，做的时候断——若存若亡。", 6.2, "#6E6459"))
+    s.append(txt(190, r2 + 48, "知道边界是画的，却还是照着它活。", 6.2, INK))
+
+    # 下士
+    r3 = r2 + 92
+    s.append(txt(24, r3 + 44, "下士", 9.0, SEAL))
+    s.append(f'<rect x="70" y="{r3+18}" width="34" height="30" fill="#F2EADA" stroke="{INK}" stroke-width="0.9"/>')
+    s.append(txt(87, r3 + 37, "有", 7.0, INK, "middle"))
+    s.append(txt(115, r3 + 37, "×", 8.0, SEAL))
+    s.append(f'<path d="M112,{r3+50} a10,10 0 0 0 20,0" fill="none" stroke="{SEAL}" stroke-width="1"/>')
+    s.append(txt(96, r3 + 66, "只信边界内的东西", 5.6, "#6E6459", "middle"))
+    s.append(txt(190, r3 + 16, "他只认有形、有成果、有输赢、有定型。", 6.4, INK))
+    s.append(txt(190, r3 + 32, "你讲虚、讲退、讲不足，他听到的不是另一层，是「没有」。", 5.9, "#6E6459"))
+    s.append(txt(190, r3 + 48, "所以他笑——那不是轻慢，是真诚的不信。", 6.2, SEAL))
+
+    y2 = r3 + 82
+    s.append(box(20, y2, 340, 50, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, y2 + 17, "三个人看同一只杯子：一个只看见壁，一个看见空却不敢松手，", 6.8, INK, "middle"))
+    s.append(txt(190, y2 + 31, "一个知道壁和空本来是一回事。", 6.8, INK, "middle"))
+    s.append(txt(190, y2 + 45, "下士没有看错，他看的是背面。", 6.6, SEAL, "middle"))
+    s.append(gold(y2 + 64, "ch41a"))
+    s.append('</svg>')
+    return "\n".join(s)
+
+
+# ============ 第四十一章 · 翻过来看 ============
+def ch41b_fan_guo_lai():
+    W, H = 380, 566
+    body, y = head(W, H, "一整章十一个「如」，都在说同一件事：道难看", "第 四 十 一 章 · 翻 面",
+                   "翻过来，全是反面", "不是深奥，是不好看。", H)
+    s = [body]
+
+    s.append(box(20, y + 2, 340, 30, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, y + 14, "反，《说文》「覆也」，从又从厂——", 6.4, INK, "middle"))
+    s.append(txt(190, y + 27, "一只手在崖上把东西翻过来；不是转身走。", 6.2, "#6E6459", "middle"))
+
+    # 翻桌
+    t = y + 52
+    s.append(f'<rect x="70" y="{t+14}" width="76" height="9" fill="#F2EADA" stroke="{INK}" stroke-width="1"/>')
+    for lx in (78, 138):
+        s.append(f'<line x1="{lx}" y1="{t+14}" x2="{lx}" y2="{t}" stroke="{INK}" stroke-width="1.1"/>')
+    s.append(f'<path d="M156,{t+30} a16,16 0 0 1 0,-22" fill="none" stroke="{SEAL}" stroke-width="0.8"/>')
+    s.append(f'<path d="M156,{t+8} l-5,5 M156,{t+8} l5,5" fill="none" stroke="{SEAL}" stroke-width="0.8"/>')
+    s.append(txt(60, t + 38, "正面", 6.2, INK, "middle"))
+    s.append(txt(196, t + 12, "翻一下，正面对你的那一面，就成了反面。", 6.2, INK))
+    s.append(txt(196, t + 26, "下士笑的是那个背面；老子手里握的是同一件东西。", 6.0, "#6E6459"))
+    s.append(txt(196, t + 42, "他笑，是因为他站在原来那一面。", 6.2, SEAL))
+
+    # 十一个如
+    g = t + 66
+    s.append(f'<line x1="24" y1="{g-10}" x2="338" y2="{g-10}" stroke="{LINE}" stroke-width="0.6"/>')
+    pairs = [("明道", "昧"), ("进道", "退"), ("夷道", "颣"),
+             ("上德", "谷"), ("大白", "辱"), ("广德", "不足"),
+             ("建德", "偷"), ("质真", "渝"), ("大方", "无隅"),
+             ("大器", "免成"), ("大音", "希声"), ("大象", "无形")]
+    for i, (lft, rgt) in enumerate(pairs):
+        col = i % 2
+        row = i // 2
+        cx = 20 + col * 168
+        cy = g + row * 30
+        s.append(box(cx, cy, 160, 24, fill="#F7F1E3", stroke="#E6D8C2"))
+        s.append(txt(cx + 14, cy + 16, lft, 6.8, INK))
+        s.append(txt(cx + 62, cy + 15, "如", 5.4, "#6E6459", "middle"))
+        s.append(txt(cx + 96, cy + 16, rgt, 7.2, SEAL))
+    s.append(txt(190, g + 6 * 30 + 8, "道隐无名：名字贴不住，因为它分不开。", 6.2, GREEN, "middle"))
+
+    y2 = g + 6 * 30 + 20
+    s.append(box(20, y2, 340, 46, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, y2 + 16, "不是道难懂，是道难看；难懂可以学，难看只能翻过来看。", 7.0, INK, "middle"))
+    s.append(txt(190, y2 + 31, "翻过来的东西，永远背对着站在原来那一面的人。", 6.6, "#6E6459", "middle"))
+    s.append(txt(190, y2 + 44, "方到极处，是不需要角来证明自己是方的。", 6.4, GREEN, "middle"))
+    s.append(gold(y2 + 60, "ch41b"))
+    s.append('</svg>')
+    return "\n".join(s)
+
+
 
 FIGS = {
     "ch01-wu-you": ("第一章", "无有同出", ch01_wu_you),
@@ -3134,6 +3246,8 @@ FIGS = {
     "ch77-zhang-gong": ("第七十七章", "张弓", ch77_zhang_gong),
     "ch81-bu-ji": ("第八十一章", "九个不", ch81_bu_ji),
     "ch40-san-dong": ("第四十章", "一次动，三次翻", ch40_san_dong),
+    "ch41a-san-shi": ("第四十一章", "三种边界", ch41a_san_shi),
+    "ch41b-fan-guo-lai": ("第四十一章", "翻过来，全是反面", ch41b_fan_guo_lai),
     "ch12-wu-se": ("第十二章", "门开五处", ch12_wu_se),
     "ch13-chong-ru": ("第十三章", "惊的是我", ch13_chong_ru),
     "ch14-yi-xi-wei": ("第十四章", "三样工具探不到", ch14_yi_xi_wei),
