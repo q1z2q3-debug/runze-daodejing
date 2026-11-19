@@ -1518,6 +1518,8 @@ GOLD = {
     "ch23": ["自然不是「不管」，是「不需要管」——差别全在有没有人在使劲。", "信不足，不是话说得不够多，是话后面没有人。"],
     "ch24": ["借来的高度站不住，省下的步子走不远。", "不处不是割掉，是不长——约束是按住它，不处是根本不在那儿站。"],
     "ch25": ["不是它比天地老，是天地离了它不成。", "名是给有边界的东西用的；对没有边界的东西，名只是手指。"],
+    "ch29": ["切是把一个整体分成几块，捏是把几块不同捏成一个；老子两样都不放心。",
+             "和是听得见的，合是摸得着的。"],
     "ch28": ["装弱是权谋，守雌是心法；权谋是知而让，心法是知而不必。",
              "散是必然，老子的态度不是砸器回朴，是认下这个散，在散里用。"],
     "ch26": ["法地，不是学地的形状，是学地的分量。", "不是被外面夺了权，是你自己先把位置让出去了。"],
@@ -1821,6 +1823,77 @@ def ch28_zhi_xiong():
 
 
 
+# ============ 第二十九章 · 天下神器 ============
+def ch29_tian_xia_shen_qi():
+    W, H = 380, 636
+    body, y = head(W, H, "天下是编管，不是一根棍", "第 二 十 九 章 · 神 器", "天下神器",
+                   "长短本就不齐，能调成调，不能削成一根。", H)
+    s = [body]
+    # ---- 一器：编管 ----
+    base = y + 126
+    s.append(txt(20, y + 4, "一器：编管，长短本就不齐", 8.6, GREEN))
+    pipes = [(48, 58), (84, 84), (120, 46), (156, 74), (192, 92), (228, 52)]
+    for px, ph in pipes:
+        s.append(f'<rect x="{px}" y="{base-ph}" width="15" height="{ph}" fill="#E9DFCC" stroke="{LINE}" stroke-width="0.9"/>')
+        s.append(f'<circle cx="{px+7.5}" cy="{base-11}" r="2.2" fill="{PAPER}" stroke="{INK}" stroke-width="0.7"/>')
+    s.append(box(42, base - 44, 204, 5, fill="#DCCBB0", stroke="#C9B79A", width=0.7))
+    s.append(box(42, base - 18, 204, 5, fill="#DCCBB0", stroke="#C9B79A", width=0.7))
+    for i, t in enumerate(["或行或随", "或歔或吹", "或强或羸", "或载或隳"]):
+        s.append(txt(258, y + 40 + i * 15, t, 8.0, "#6E6459"))
+    s.append(txt(258, y + 106, "八样都是料性，不是毛病", 7.4, SEAL))
+    # ---- 两病：削平 / 攥住 ----
+    y1 = base + 22
+    s.append(txt(20, y1, "两病：一为、一执", 8.6, SEAL))
+    # 为：削成一样齐
+    b2 = y1 + 92
+    for i in range(5):
+        s.append(f'<rect x="{28+i*20}" y="{b2-56}" width="15" height="56" fill="#E9DFCC" stroke="{LINE}" stroke-width="0.9"/>')
+        s.append(f'<circle cx="{35+i*20}" cy="{b2-10}" r="2.2" fill="{PAPER}" stroke="{INK}" stroke-width="0.7"/>')
+    s.append(f'<line x1="22" y1="{b2-62}" x2="132" y2="{b2-62}" stroke="{SEAL}" stroke-width="0.9" stroke-dasharray="4 2"/>')
+    s.append(txt(78, b2 + 14, "为：削成一样齐", 8.2, SEAL, "middle"))
+    s.append(txt(78, b2 + 27, "音就没了——调不成调", 7.4, "#8A7C69", "middle"))
+    # 执：攥住
+    s.append(f'<ellipse cx="286" cy="{b2-30}" rx="30" ry="20" fill="#E9DFCC" stroke="{SEAL}" stroke-width="1"/>')
+    for i in range(3):
+        s.append(f'<path d="M266,{b2-40+i*7} q10,-5 20,0" fill="none" stroke="{SEAL}" stroke-width="0.7"/>')
+    for i in range(3):
+        s.append(f'<line x1="{272+i*12}" y1="{b2-52}" x2="{274+i*12}" y2="{b2-8}" stroke="{LINE}" stroke-width="0.8"/>')
+    s.append(txt(286, b2 + 14, "执：攥住不放", 8.2, SEAL, "middle"))
+    s.append(txt(286, b2 + 27, "管子捏死，吹不响", 7.4, "#8A7C69", "middle"))
+    # ---- 和 / 合 ----
+    y2 = y1 + 122
+    s.append(box(20, y2, 162, 56, fill="#F6EFE0", stroke="#C9B79A"))
+    for i, ph in enumerate([26, 34, 20, 30]):
+        s.append(f'<rect x="{34+i*13}" y="{y2+44-ph}" width="10" height="{ph}" fill="#E9DFCC" stroke="{LINE}" stroke-width="0.8"/>')
+    s.append(txt(108, y2 + 18, "和", 10.4, GREEN, spacing="1"))
+    s.append(txt(108, y2 + 34, "长短不一，同调共存", 7.6, "#6E6459"))
+    s.append(txt(108, y2 + 47, "听得见的", 7.4, "#8A7C69"))
+    s.append(box(198, y2, 162, 56, fill="#F6EFE0", stroke="#C9B79A"))
+    s.append(f'<rect x="242" y="{y2+26}" width="34" height="20" fill="#E9DFCC" stroke="{LINE}" stroke-width="0.8"/>')
+    s.append(f'<polygon points="236,{y2+26} 282,{y2+26} 274,{y2+14} 244,{y2+14}" fill="#DCCBB0" stroke="{LINE}" stroke-width="0.8"/>')
+    s.append(txt(286, y2 + 20, "合", 10.4, SEAL))
+    s.append(txt(279, y2 + 40, "盖扣上，边没了", 7.6, "#6E6459", "middle"))
+    s.append(txt(279, y2 + 52, "摸得着的", 7.4, "#8A7C69", "middle"))
+    # ---- 三去 ----
+    y3 = y2 + 72
+    s.append(txt(20, y3, "三去：全是减法，不添一件", 8.6, SEAL))
+    tags = [("甚", "过度", "孔开太多"), ("奢", "无度", "管加太长"), ("泰", "骄纵越分", "气吹太猛")]
+    for i, (name, mid, sub) in enumerate(tags):
+        x = 20 + i * 116
+        s.append(box(x, y3 + 10, 106, 46, fill="#F6EFE0", stroke="#C9B79A"))
+        s.append(txt(x + 12, y3 + 28, "去" + name, 9.4, SEAL))
+        s.append(txt(x + 12, y3 + 40, mid + "：" + sub, 7.2, "#6E6459"))
+    # ---- 收 ----
+    yc = y3 + 68
+    s.append(box(20, yc, 340, 44, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, yc + 19, "天下神器，不可为也，不可执也。", 9.6, INK, "middle", spacing="0.6"))
+    s.append(txt(190, yc + 34, "为者败之，执者失之——不是你不够强，是它本来不是给你捏的。", 8.0, "#6E6459", "middle"))
+    s.append(gold(yc + 52, "ch29"))
+    s.append('</svg>')
+    return "\n".join(s)
+
+
+
 FIGS = {
     "ch01-wu-you": ("第一章", "无有同出", ch01_wu_you),
     "ch01-zhi-yue": ("第一章", "指月三境", ch01_zhi_yue),
@@ -1860,6 +1933,7 @@ FIGS = {
     "ch09-ying-man": ("第九章", "持而盈之", ch09_ying_man),
     "ch10-bao-yi": ("第十章", "载营魄抱一", ch10_bao_yi),
     "ch28-zhi-xiong": ("第二十八章", "知其雄", ch28_zhi_xiong),
+    "ch29-tian-xia-shen-qi": ("第二十九章", "天下神器", ch29_tian_xia_shen_qi),
 }
 
 
