@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 380 636" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="观妙与观徼：向下探未形，向上看见界" font-family="'Noto Serif CJK SC','Noto Serif SC','Songti SC',serif">
+<defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#6E6459"/></marker><marker id="arr2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#4A5C55"/></marker><marker id="arrL" viewBox="0 0 10 10" refX="1" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M10 0 L0 5 L10 10 z" fill="#4A5C55"/></marker></defs>
+<rect x="0" y="0" width="380" height="636" fill="#F8F3E6"/>
+<text x="20" y="26" font-size="11" fill="#A2503B" font-family="'Noto Sans CJK SC','Noto Sans SC',sans-serif" letter-spacing="3">第 一 章 · 观 法</text>
+<text x="20" y="58" font-size="21" fill="#2F2A24">观妙 · 观徼</text>
+<text x="20" y="78" font-size="10.5" fill="#6E6459">同一件事，向下看是「妙」，向上看是「徼」。</text>
+<line x1="168" y1="110" x2="168" y2="524" stroke="#C9B79A" stroke-width="1.2"/>
+<line x1="168" y1="110" x2="168" y2="104" stroke="#6E6459" stroke-width="1.2" marker-end="url(#arr)"/>
+<line x1="168" y1="524" x2="168" y2="530" stroke="#6E6459" stroke-width="1.2" marker-end="url(#arr)"/>
+<text x="190" y="126" font-size="11" fill="#4A5C55">徼 · 已显</text>
+<text x="190" y="144" font-size="10" fill="#6E6459">层层显化：星系 · 生命 · 社群 · 乐</text>
+<line x1="142" y1="168" x2="164" y2="168" stroke="#DCCBB0" stroke-width="1"/>
+<text x="136" y="172" font-size="9.5" fill="#8A7C69" text-anchor="end">星系</text>
+<line x1="142" y1="198" x2="164" y2="198" stroke="#DCCBB0" stroke-width="1"/>
+<text x="136" y="202" font-size="9.5" fill="#8A7C69" text-anchor="end">生命</text>
+<line x1="142" y1="228" x2="164" y2="228" stroke="#DCCBB0" stroke-width="1"/>
+<text x="136" y="232" font-size="9.5" fill="#8A7C69" text-anchor="end">社群</text>
+<ellipse cx="168" cy="306" rx="88" ry="20" fill="none" stroke="#DCCBB0" stroke-width="1" stroke-dasharray="3 3"/>
+<text x="168" y="310" font-size="10.5" fill="#6E6459" text-anchor="middle" letter-spacing="2">显 界</text>
+<text x="168" y="342" font-size="10" fill="#6E6459" text-anchor="middle">界之内是「有」；界之外不是空，是未显。</text>
+<text x="190" y="402" font-size="11" fill="#A2503B">妙 · 未形</text>
+<text x="190" y="420" font-size="10" fill="#6E6459">未定形处：量子 · 势能 · 未有之势</text>
+<text x="190" y="440" font-size="10" fill="#6E6459">不是没有，是还没显</text>
+<line x1="142" y1="464" x2="164" y2="464" stroke="#DCCBB0" stroke-width="1" stroke-dasharray="2 3"/>
+<text x="136" y="468" font-size="9.5" fill="#8A7C69" text-anchor="end">量子</text>
+<line x1="142" y1="490" x2="164" y2="490" stroke="#DCCBB0" stroke-width="1" stroke-dasharray="2 3"/>
+<text x="136" y="494" font-size="9.5" fill="#8A7C69" text-anchor="end">势能</text>
+<line x1="142" y1="516" x2="164" y2="516" stroke="#DCCBB0" stroke-width="1" stroke-dasharray="2 3"/>
+<text x="136" y="520" font-size="9.5" fill="#8A7C69" text-anchor="end">未发</text>
+<text x="168" y="564" font-size="10.5" fill="#6E6459" text-anchor="middle">两头都是同一件事：说「有」或说「无」，只在你站界内还是界外。</text>
+</svg>
