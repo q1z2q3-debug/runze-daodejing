@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 380 634" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="以奇用兵：奇，《说文》「不耦」——落单的一手" font-family="'Noto Serif CJK SC','Noto Serif SC','Songti SC',serif">
+<defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#6E6459"/></marker><marker id="arr2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#4A5C55"/></marker><marker id="arrL" viewBox="0 0 10 10" refX="1" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M10 0 L0 5 L10 10 z" fill="#4A5C55"/></marker><marker id="arrS" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#A2503B"/></marker></defs>
+<rect x="0" y="0" width="380" height="634" fill="#F8F3E6"/>
+<text x="20" y="26" font-size="11" fill="#A2503B" font-family="'Noto Sans CJK SC','Noto Sans SC',sans-serif" letter-spacing="3">第 五 十 七 章 · 奇</text>
+<text x="20" y="58" font-size="21" fill="#2F2A24">一双手套</text>
+<text x="20" y="78" font-size="10.5" fill="#6E6459">奇是落单的一手，会用，不能落单成习惯。</text>
+<rect x="20" y="102" width="340" height="30" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="190" y="114" font-size="5.2" fill="#2F2A24" text-anchor="middle">「奇」，《说文》「异也，一曰不耦」——不耦，就是落单：没有配对的。</text>
+<text x="190" y="126" font-size="5.2" fill="#6E6459" text-anchor="middle">一双手套，平时是两只；出手的时候，只戴一只。</text>
+<text x="24" y="146" font-size="5.4" fill="#A2503B">一、出手：取一只，用一下</text>
+<rect x="40" y="236" width="62" height="36" fill="#EFE6D4" stroke="#2F2A24" stroke-width="0.8"/>
+<rect x="51" y="242" width="14" height="24" rx="5" stroke="#DCCBB0" stroke-width="1" fill="#FBF6EC"/>
+<line x1="54.5" y1="243" x2="54.5" y2="250" stroke="#DCCBB0" stroke-width="0.5" stroke-dasharray="2 2"/>
+<line x1="58" y1="243" x2="58" y2="250" stroke="#DCCBB0" stroke-width="0.5" stroke-dasharray="2 2"/>
+<line x1="61.5" y1="243" x2="61.5" y2="250" stroke="#DCCBB0" stroke-width="0.5" stroke-dasharray="2 2"/>
+<ellipse cx="48.5" cy="257" rx="3" ry="4.6" stroke="#DCCBB0" stroke-width="1" fill="#FBF6EC"/>
+<rect x="79" y="242" width="14" height="24" rx="5" stroke="#DCCBB0" stroke-width="1" stroke-dasharray="4 3" fill="none"/>
+<line x1="82.5" y1="243" x2="82.5" y2="250" stroke="#DCCBB0" stroke-width="0.5" stroke-dasharray="2 2"/>
+<line x1="86" y1="243" x2="86" y2="250" stroke="#DCCBB0" stroke-width="0.5" stroke-dasharray="2 2"/>
+<line x1="89.5" y1="243" x2="89.5" y2="250" stroke="#DCCBB0" stroke-width="0.5" stroke-dasharray="2 2"/>
+<ellipse cx="76.5" cy="257" rx="3" ry="4.6" stroke="#DCCBB0" stroke-width="1" stroke-dasharray="4 3" fill="none"/>
+<text x="71" y="280" font-size="4.2" fill="#8A8078" text-anchor="middle">盒里还剩一只</text>
+<rect x="143" y="210" width="14" height="24" rx="5" stroke="#A2503B" stroke-width="1" fill="#FBF6EC"/>
+<line x1="146.5" y1="211" x2="146.5" y2="218" stroke="#A2503B" stroke-width="0.5" stroke-dasharray="2 2"/>
+<line x1="150" y1="211" x2="150" y2="218" stroke="#A2503B" stroke-width="0.5" stroke-dasharray="2 2"/>
+<line x1="153.5" y1="211" x2="153.5" y2="218" stroke="#A2503B" stroke-width="0.5" stroke-dasharray="2 2"/>
+<ellipse cx="140.5" cy="225" rx="3" ry="4.6" stroke="#A2503B" stroke-width="1" fill="#FBF6EC"/>
+<line x1="96" y1="234" x2="138" y2="218" stroke="#A2503B" stroke-width="0.7" marker-end="url(#arrS)"/>
+<text x="170" y="210" font-size="4.8" fill="#A2503B">取出去：只戴一只</text>
+<text x="170" y="222" font-size="4.4" fill="#6E6459">打完了，手要还回来</text>
+<text x="190" y="280" font-size="4.6" fill="#6E6459" text-anchor="middle">兵是迫不得已的那一手</text>
+<text x="24" y="306" font-size="5.4" fill="#4A5C55">二、成常：两只都取走，盒子就空了</text>
+<rect x="40" y="390" width="62" height="36" fill="#F2EADA" stroke="#2F2A24" stroke-width="0.8"/>
+<rect x="51" y="396" width="14" height="24" rx="5" stroke="#DCCBB0" stroke-width="1" stroke-dasharray="4 3" fill="none"/>
+<line x1="54.5" y1="397" x2="54.5" y2="404" stroke="#DCCBB0" stroke-width="0.5" stroke-dasharray="2 2"/>
+<line x1="58" y1="397" x2="58" y2="404" stroke="#DCCBB0" stroke-width="0.5" stroke-dasharray="2 2"/>
+<line x1="61.5" y1="397" x2="61.5" y2="404" stroke="#DCCBB0" stroke-width="0.5" stroke-dasharray="2 2"/>
+<ellipse cx="48.5" cy="411" rx="3" ry="4.6" stroke="#DCCBB0" stroke-width="1" stroke-dasharray="4 3" fill="none"/>
+<rect x="79" y="396" width="14" height="24" rx="5" stroke="#DCCBB0" stroke-width="1" stroke-dasharray="4 3" fill="none"/>
+<line x1="82.5" y1="397" x2="82.5" y2="404" stroke="#DCCBB0" stroke-width="0.5" stroke-dasharray="2 2"/>
+<line x1="86" y1="397" x2="86" y2="404" stroke="#DCCBB0" stroke-width="0.5" stroke-dasharray="2 2"/>
+<line x1="89.5" y1="397" x2="89.5" y2="404" stroke="#DCCBB0" stroke-width="0.5" stroke-dasharray="2 2"/>
+<ellipse cx="76.5" cy="411" rx="3" ry="4.6" stroke="#DCCBB0" stroke-width="1" stroke-dasharray="4 3" fill="none"/>
+<text x="71" y="434" font-size="4.2" fill="#8A8078" text-anchor="middle">盒里一只也没有</text>
+<rect x="139" y="362" width="14" height="24" rx="5" stroke="#A2503B" stroke-width="1" fill="#FBF6EC"/>
+<line x1="142.5" y1="363" x2="142.5" y2="370" stroke="#A2503B" stroke-width="0.5" stroke-dasharray="2 2"/>
+<line x1="146" y1="363" x2="146" y2="370" stroke="#A2503B" stroke-width="0.5" stroke-dasharray="2 2"/>
+<line x1="149.5" y1="363" x2="149.5" y2="370" stroke="#A2503B" stroke-width="0.5" stroke-dasharray="2 2"/>
+<ellipse cx="136.5" cy="377" rx="3" ry="4.6" stroke="#A2503B" stroke-width="1" fill="#FBF6EC"/>
+<rect x="165" y="362" width="14" height="24" rx="5" stroke="#A2503B" stroke-width="1" fill="#FBF6EC"/>
+<line x1="168.5" y1="363" x2="168.5" y2="370" stroke="#A2503B" stroke-width="0.5" stroke-dasharray="2 2"/>
+<line x1="172" y1="363" x2="172" y2="370" stroke="#A2503B" stroke-width="0.5" stroke-dasharray="2 2"/>
+<line x1="175.5" y1="363" x2="175.5" y2="370" stroke="#A2503B" stroke-width="0.5" stroke-dasharray="2 2"/>
+<ellipse cx="162.5" cy="377" rx="3" ry="4.6" stroke="#A2503B" stroke-width="1" fill="#FBF6EC"/>
+<text x="159" y="404" font-size="4.6" fill="#A2503B" text-anchor="middle">两只都戴出去</text>
+<text x="159" y="416" font-size="4.6" fill="#A2503B" text-anchor="middle">＝把奇当常</text>
+<text x="159" y="428" font-size="4.6" fill="#4A5C55" text-anchor="middle">＝以兵治国</text>
+<text x="190" y="450" font-size="4.6" fill="#6E6459" text-anchor="middle">会用，但不能落单成习惯——习惯就成常了</text>
+<text x="24" y="464" font-size="5.2" fill="#2F2A24">「奇」是不耦，是落单：没有配对的。</text>
+<text x="24" y="480" font-size="5.0" fill="#2F2A24">兵戈起于对立，是二元激化之后的应急，属于不得已的那一手。</text>
+<text x="24" y="496" font-size="5.2" fill="#4A5C55">知雄守雌：知道那一手怎么用，绝不把它当日子过。</text>
+<line x1="24" y1="514" x2="338" y2="514" stroke="#DCCBB0" stroke-width="0.6"/>
+<rect x="20" y="522" width="340" height="40" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="190" y="538" font-size="6.0" fill="#2F2A24" text-anchor="middle">奇是落单的一手；会用，但不能落单成习惯。</text>
+<text x="190" y="550" font-size="5.4" fill="#4A5C55" text-anchor="middle">无事是宗旨，正是常轨，奇只是兜底。</text>
+<line x1="20" y1="576" x2="360" y2="576" stroke="#E6D8C2" stroke-width="0.8"/>
+<text x="20" y="590" font-size="8.0" fill="#A89577" letter-spacing="1">本 章 金 句</text>
+<text x="20" y="606" font-size="8.4" fill="#2F2A24">奇是落单的一手；会用，但不能落单成习惯。</text>
+</svg>

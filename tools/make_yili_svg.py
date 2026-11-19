@@ -1524,6 +1524,9 @@ GOLD = {
     "ch48c": ["「取天下」的「取」是割耳朵，所以老子换了一个动作：不是割，是不动。"],
     "ch47a": ["透过框看，你看见的每一块都是真的；可你真的没看见框外。"],
     "ch47b": ["其出弥远，其知弥少。"],
+    "ch57a": ["正，是脚站定；一个政策最大的德，是明年还是它。"],
+    "ch57b": ["奇是落单的一手；会用，但不能落单成习惯。"],
+    "ch57c": ["彰是画上去的花；条文画得越花，能踩的线就越多。"],
     "ch56a": ["锐是芒，不是刀；芒不伤人，只扎人；所以要磨，不要砍。"],
     "ch56b": ["纷是套，不是乱；乱能理，套只能解。"],
     "ch56c": ["六把尺都要一个「我」在中间才量得动；中间空了，尺就落不下来。"],
@@ -5869,6 +5872,227 @@ def ch56c_liu_ba_chi():
     return "\n".join(s)
 
 
+# ============ 第五十七章 · 一只脚 ============
+def ch57a_yi_zhi_jiao():
+    W, H = 380, 604
+    body, y = head(W, H, "以正治国：正从止，是一只脚停在它该在的地方",
+                   "第 五 十 七 章 · 正", "一只脚", "以正治国，以奇用兵，以无事取天下。", H)
+    s = [body]
+
+    s.append(box(20, y + 2, 340, 30, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, y + 14, "「正」从止——止就是脚趾，正的本义是「一只脚停在它该在的地方」。", 5.2, INK, "middle"))
+    s.append(txt(190, y + 26, "所以正不是「对」，是不动：脚不乱换地方，那个地方才立得住。", 5.2, "#6E6459", "middle"))
+
+    def foot(cx, cy, col, dash=0, fill=None):
+        o = []
+        d = f' stroke-dasharray="{dash}"' if dash else ''
+        fl = f' fill="{fill}"' if fill else ' fill="none"'
+        o.append(f'<path d="M{cx-9},{cy-12} C{cx-11},{cy-2} {cx-10},{cy+9} {cx-4},{cy+14} C{cx+2},{cy+18} {cx+8},{cy+10} {cx+9},{cy-2} C{cx+10},{cy-11} {cx+6},{cy-17} {cx-1},{cy-17} C{cx-6},{cy-17} {cx-8},{cy-16} {cx-9},{cy-12} Z" stroke="{col}" stroke-width="1"{d}{fl}/>')
+        o.append(f'<circle cx="{cx-6}" cy="{cy-20}" r="2.3" stroke="{col}" stroke-width="0.8"{d}{fl}/>')
+        o.append(f'<circle cx="{cx-1.5}" cy="{cy-23}" r="2.0" stroke="{col}" stroke-width="0.8"{d}{fl}/>')
+        o.append(f'<circle cx="{cx+2.5}" cy="{cy-22}" r="1.7" stroke="{col}" stroke-width="0.8"{d}{fl}/>')
+        o.append(f'<circle cx="{cx+6}" cy="{cy-19}" r="1.5" stroke="{col}" stroke-width="0.8"{d}{fl}/>')
+        return o
+
+    # 一、脚乱换地方
+    t1 = y + 46
+    s.append(txt(24, t1, "一、脚乱换地方：换个地方，就换一套说法", 5.4, SEAL))
+    gy1 = t1 + 116
+    s.append(f'<line x1="24" y1="{gy1}" x2="246" y2="{gy1}" stroke="{INK}" stroke-width="1"/>')
+    for cx in (66, 124, 182):
+        s += foot(cx, gy1 - 20, SEAL, dash="4 3")
+    s.append(arrow(58, gy1 - 62, 118, gy1 - 62, SEAL, 0.7, head="arrS"))
+    s.append(arrow(120, gy1 - 56, 176, gy1 - 56, SEAL, 0.7, head="arrS"))
+    s.append(txt(140, gy1 - 72, "年年换新法", 4.8, SEAL, "middle"))
+    s.append(txt(66, gy1 + 14, "三个规矩，三只脚，哪一只都不常", 4.6, "#6E6459"))
+
+    # 二、脚站定
+    t2 = gy1 + 40
+    s.append(txt(24, t2, "二、脚站定：同一个地方，明年还是它", 5.4, GREEN))
+    gy2 = t2 + 116
+    s.append(f'<line x1="24" y1="{gy2}" x2="246" y2="{gy2}" stroke="{INK}" stroke-width="1"/>')
+    s += foot(112, gy2 - 20, GREEN, fill="#EFE6D4")
+    s.append(txt(150, gy2 - 26, "同一只脚，同一个地方", 4.8, GREEN))
+    s.append(txt(150, gy2 - 14, "一笔不动，百姓才敢照着过日子", 4.4, "#6E6459"))
+    # 年轴：四个年份都落在这一处（先有年头，脚才落得下）
+    ty = gy2 - 62
+    s.append(f'<line x1="52" y1="{ty}" x2="212" y2="{ty}" stroke="{LINE}" stroke-width="0.9"/>')
+    for k, lab in enumerate(["去", "今", "明", "后"]):
+        x = 64 + k * 44
+        s.append(f'<line x1="{x}" y1="{ty-4}" x2="{x}" y2="{ty+4}" stroke="{INK}" stroke-width="0.9"/>')
+        s.append(txt(x, ty - 9, lab, 4.2, "#6E6459", "middle"))
+    s.append(f'<line x1="112" y1="{ty+8}" x2="112" y2="{gy2-44}" stroke="{GREEN}" stroke-width="0.9" stroke-dasharray="3 3"/>')
+    s.append(txt(220, ty + 2, "年年都落这一处", 4.6, GREEN))
+    s.append(txt(112, gy2 + 16, "四个年头，都落在这一处", 4.6, "#6E6459", "middle"))
+
+    b = gy2 + 44
+    s.append(txt(24, b, "「正」从止，止是脚趾：一只脚停在它该在的地方。", 5.2, INK))
+    s.append(txt(24, b + 16, "所以正不是「对」，是不动；一个政策最大的德，是明年还是它。", 5.2, INK))
+    s.append(txt(24, b + 32, "朝令夕改的地方，不是百姓不听话，是脚没有地方可落。", 5.0, GREEN))
+
+    c = b + 50
+    s.append(f'<line x1="24" y1="{c}" x2="338" y2="{c}" stroke="{LINE}" stroke-width="0.6"/>')
+    s.append(box(20, c + 8, 340, 40, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, c + 24, "正，是脚站定；奇，是落单的一手；", 6.0, INK, "middle"))
+    s.append(txt(190, c + 36, "无事，是不给自己加职分。", 6.0, GREEN, "middle"))
+    s.append(gold(c + 62, "ch57a"))
+    s.append('</svg>')
+    return "\n".join(s)
+
+
+# ============ 第五十七章 · 一双手套 ============
+def ch57b_yi_shuang_shou_tao():
+    W, H = 380, 634
+    body, y = head(W, H, "以奇用兵：奇，《说文》「不耦」——落单的一手",
+                   "第 五 十 七 章 · 奇", "一双手套", "奇是落单的一手，会用，不能落单成习惯。", H)
+    s = [body]
+
+    s.append(box(20, y + 2, 340, 30, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, y + 14, "「奇」，《说文》「异也，一曰不耦」——不耦，就是落单：没有配对的。", 5.2, INK, "middle"))
+    s.append(txt(190, y + 26, "一双手套，平时是两只；出手的时候，只戴一只。", 5.2, "#6E6459", "middle"))
+
+    def glove(cx, cy, col, dash=None, fill=None):
+        o = []
+        d = f' stroke-dasharray="{dash}"' if dash else ''
+        fl = f' fill="{fill}"' if fill else ' fill="none"'
+        o.append(f'<rect x="{cx-7}" y="{cy-12}" width="14" height="24" rx="5" stroke="{col}" stroke-width="1"{d}{fl}/>')
+        for dx in (-3.5, 0, 3.5):
+            o.append(f'<line x1="{cx+dx}" y1="{cy-11}" x2="{cx+dx}" y2="{cy-4}" stroke="{col}" stroke-width="0.5" stroke-dasharray="2 2"/>')
+        o.append(f'<ellipse cx="{cx-9.5}" cy="{cy+3}" rx="3" ry="4.6" stroke="{col}" stroke-width="1"{d}{fl}/>')
+        return o
+
+    def boxwith(x, y0, labels, solid_slots):
+        o = [box(x, y0, 64, 34, fill="#EFE6D4", stroke=INK, width=0.8)]
+        for k, (gx, is_solid) in enumerate(solid_slots):
+            o += glove(gx, y0 - 4 if False else y0 + 20, LINE if is_solid else LINE, dash=None if is_solid else "4 3")
+        return o
+
+    # 一、出手：取一只
+    t1 = y + 46
+    s.append(txt(24, t1, "一、出手：取一只，用一下", 5.4, SEAL))
+    cy1 = t1 + 84
+    s.append(box(40, cy1 + 6, 62, 36, fill="#EFE6D4", stroke=INK, width=0.8))
+    s += glove(58, cy1 + 24, LINE, fill="#FBF6EC")
+    s += glove(86, cy1 + 24, LINE, dash="4 3")
+    s.append(txt(71, cy1 + 50, "盒里还剩一只", 4.2, "#8A8078", "middle"))
+    s += glove(150, cy1 - 8, SEAL, fill="#FBF6EC")
+    s.append(arrow(96, cy1 + 4, 138, cy1 - 12, SEAL, 0.7, head="arrS"))
+    s.append(txt(170, cy1 - 20, "取出去：只戴一只", 4.8, SEAL))
+    s.append(txt(170, cy1 - 8, "打完了，手要还回来", 4.4, "#6E6459"))
+    s.append(txt(190, cy1 + 50, "兵是迫不得已的那一手", 4.6, "#6E6459", "middle"))
+
+    # 二、成常：两只都取走
+    t2 = cy1 + 76
+    s.append(txt(24, t2, "二、成常：两只都取走，盒子就空了", 5.4, GREEN))
+    cy2 = t2 + 78
+    s.append(box(40, cy2 + 6, 62, 36, fill="#F2EADA", stroke=INK, width=0.8))
+    s += glove(58, cy2 + 24, LINE, dash="4 3")
+    s += glove(86, cy2 + 24, LINE, dash="4 3")
+    s.append(txt(71, cy2 + 50, "盒里一只也没有", 4.2, "#8A8078", "middle"))
+    s += glove(146, cy2 - 10, SEAL, fill="#FBF6EC")
+    s += glove(172, cy2 - 10, SEAL, fill="#FBF6EC")
+    s.append(txt(159, cy2 + 20, "两只都戴出去", 4.6, SEAL, "middle"))
+    s.append(txt(159, cy2 + 32, "＝把奇当常", 4.6, SEAL, "middle"))
+    s.append(txt(159, cy2 + 44, "＝以兵治国", 4.6, GREEN, "middle"))
+    s.append(txt(190, cy2 + 66, "会用，但不能落单成习惯——习惯就成常了", 4.6, "#6E6459", "middle"))
+
+    b = cy2 + 80
+    s.append(txt(24, b, "「奇」是不耦，是落单：没有配对的。", 5.2, INK))
+    s.append(txt(24, b + 16, "兵戈起于对立，是二元激化之后的应急，属于不得已的那一手。", 5.0, INK))
+    s.append(txt(24, b + 32, "知雄守雌：知道那一手怎么用，绝不把它当日子过。", 5.2, GREEN))
+
+    c = b + 50
+    s.append(f'<line x1="24" y1="{c}" x2="338" y2="{c}" stroke="{LINE}" stroke-width="0.6"/>')
+    s.append(box(20, c + 8, 340, 40, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, c + 24, "奇是落单的一手；会用，但不能落单成习惯。", 6.0, INK, "middle"))
+    s.append(txt(190, c + 36, "无事是宗旨，正是常轨，奇只是兜底。", 5.4, GREEN, "middle"))
+    s.append(gold(c + 62, "ch57b"))
+    s.append('</svg>')
+    return "\n".join(s)
+
+
+# ============ 第五十七章 · 一块被画花的木牌 ============
+def ch57c_yi_kuai_hua_pai():
+    W, H = 380, 628
+    body, y = head(W, H, "法令滋彰：彰从彡，是三撇毛，是画上去的花纹",
+                   "第 五 十 七 章 · 彰", "一块木牌", "法令滋彰，盗贼多有。", H)
+    s = [body]
+
+    s.append(box(20, y + 2, 340, 30, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, y + 14, "「彰」从彡——彡是三撇毛，是画上去的花纹；不是「法令很多」，是「条文越画越花」。", 5.0, INK, "middle"))
+    s.append(txt(190, y + 26, "花是画在木牌上的；木牌本来只有一条线，是给人踩的。", 5.2, "#6E6459", "middle"))
+
+    def board(cx, gy):
+        o = [box(cx - 40, gy - 74, 80, 58, fill="#EFE6D4", stroke=INK, width=1)]
+        o.append(f'<line x1="{cx-22}" y1="{gy-16}" x2="{cx-22}" y2="{gy}" stroke="{INK}" stroke-width="2"/>')
+        o.append(f'<line x1="{cx+22}" y1="{gy-16}" x2="{cx+22}" y2="{gy}" stroke="{INK}" stroke-width="2"/>')
+        return o
+
+    def sanpie(cx, cy, col, n=3, ln=11, gap=4.6):
+        o = []
+        for k in range(n):
+            x = cx + k * gap
+            o.append(f'<line x1="{x:.1f}" y1="{cy}" x2="{x+4.5:.1f}" y2="{cy-ln}" stroke="{col}" stroke-width="1"/>')
+        return o
+
+    def foot(cx, cy, col, fl=None, k=1.3):
+        o = []
+        fill = f' fill="{fl}"' if fl else ' fill="none"'
+        def X(v): return cx + v * k
+        def Y(v): return cy + v * k
+        o.append(f'<path d="M{X(-6.5)},{Y(-9)} C{X(-8)},{Y(-1)} {X(-7.5)},{Y(7)} {X(-3)},{Y(11)} C{X(2)},{Y(14)} {X(6)},{Y(8)} {X(7)},{Y(-1)} C{X(8)},{Y(-9)} {X(5)},{Y(-14)} {X(-1)},{Y(-14)} C{X(-4.5)},{Y(-14)} {X(-5.5)},{Y(-13)} {X(-6.5)},{Y(-9)} Z" stroke="{col}" stroke-width="0.9"{fill}/>')
+        o.append(f'<circle cx="{X(-5)}" cy="{Y(-16.5)}" r="{1.9*k}" stroke="{col}" stroke-width="0.7"{fill}/>')
+        o.append(f'<circle cx="{X(-1.2)}" cy="{Y(-18.5)}" r="{1.6*k}" stroke="{col}" stroke-width="0.7"{fill}/>')
+        o.append(f'<circle cx="{X(2)}" cy="{Y(-17)}" r="{1.4*k}" stroke="{col}" stroke-width="0.7"{fill}/>')
+        o.append(f'<circle cx="{X(4.6)}" cy="{Y(-14.6)}" r="{1.2*k}" stroke="{col}" stroke-width="0.7"{fill}/>')
+        return o
+
+    # 一、素牌
+    t1 = y + 46
+    s.append(txt(24, t1, "一、素牌：一条刻线，脚踩得着", 5.4, GREEN))
+    gy1 = t1 + 106
+    s.append(f'<line x1="24" y1="{gy1}" x2="250" y2="{gy1}" stroke="{INK}" stroke-width="1"/>')
+    s += board(78, gy1)
+    s.append(f'<line x1="78" y1="{gy1-68}" x2="78" y2="{gy1-22}" stroke="{INK}" stroke-width="1.6"/>')
+    s += foot(178, gy1 - 15, GREEN, "#EFE6D4")
+    s.append(txt(196, gy1 - 44, "一条线：", 4.8, GREEN))
+    s.append(txt(196, gy1 - 32, "踩得着，看得懂", 4.4, "#6E6459"))
+    s.append(txt(100, gy1 + 14, "禁什么、许什么，一站就知道", 4.4, "#6E6459", "middle"))
+
+    # 二、花牌
+    t2 = gy1 + 40
+    s.append(txt(24, t2, "二、花牌：条文越画越花，人只剩绕", 5.4, SEAL))
+    gy2 = t2 + 106
+    s += board(78, gy2)
+    for r in range(4):
+        for cc in range(4):
+            s += sanpie(50 + cc * 19, gy2 - 24 - r * 12, SEAL)
+    s.append(f'<line x1="78" y1="{gy2-68}" x2="78" y2="{gy2-22}" stroke="{LINE}" stroke-width="0.4" stroke-dasharray="2 3"/>')
+    s.append(f'<line x1="24" y1="{gy2}" x2="250" y2="{gy2}" stroke="{INK}" stroke-width="1"/>')
+    for k in range(11):
+        x0 = 28 + k * 21
+        s.append(f'<line x1="{x0}" y1="{gy2}" x2="{x0+11}" y2="{gy2-16}" stroke="{SEAL}" stroke-width="0.5"/>')
+    s += foot(178, gy2 - 34, INK, "#F8F3E6")
+    s.append(f'<line x1="178" y1="{gy2-18}" x2="178" y2="{gy2-6}" stroke="{SEAL}" stroke-width="0.5" stroke-dasharray="2 2"/>')
+    s.append(txt(200, gy2 - 52, "线多了：", 4.8, SEAL))
+    s.append(txt(200, gy2 - 40, "一条都不敢踩", 4.4, "#6E6459"))
+    s.append(txt(100, gy2 + 14, "绕着走：绕到最后，就是铤而走险", 4.4, SEAL, "middle"))
+
+    b = gy2 + 40
+    s.append(txt(24, b, "「彰」从彡：三撇毛，是画上去的花。", 5.2, INK))
+    s.append(txt(24, b + 16, "木牌上本来只有一条线，那条线是给人踩的；画满了花，就没有一条清楚的线可踩。", 4.8, INK))
+    s.append(txt(24, b + 32, "人不是不怕法，是踩不到那条线；踩不到，就只剩下绕——绕到最后，就是铤而走险。", 4.6, GREEN))
+
+    c = b + 50
+    s.append(f'<line x1="24" y1="{c}" x2="338" y2="{c}" stroke="{LINE}" stroke-width="0.6"/>')
+    s.append(box(20, c + 8, 340, 40, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, c + 24, "彰是画上去的花；", 6.0, INK, "middle"))
+    s.append(txt(190, c + 36, "条文画得越花，能踩的线就越多。", 5.4, GREEN, "middle"))
+    s.append(gold(c + 62, "ch57c"))
+    s.append('</svg>')
+    return "\n".join(s)
+
+
 FIGS = {
     "ch01-wu-you": ("第一章", "无有同出", ch01_wu_you),
     "ch01-zhi-yue": ("第一章", "指月三境", ch01_zhi_yue),
@@ -5935,6 +6159,9 @@ FIGS = {
     "ch56a-yi-gen-mang": ("第五十六章", "一根芒", ch56a_yi_gen_mang),
     "ch56b-yi-ge-tao": ("第五十六章", "一个套", ch56b_yi_ge_tao),
     "ch56c-liu-ba-chi": ("第五十六章", "六把尺", ch56c_liu_ba_chi),
+    "ch57a-yi-zhi-jiao": ("第五十七章", "一只脚", ch57a_yi_zhi_jiao),
+    "ch57b-yi-shuang-shou-tao": ("第五十七章", "一双手套", ch57b_yi_shuang_shou_tao),
+    "ch57c-yi-kuai-hua-pai": ("第五十七章", "一块木牌", ch57c_yi_kuai_hua_pai),
     "ch12-wu-se": ("第十二章", "门开五处", ch12_wu_se),
     "ch13-chong-ru": ("第十三章", "惊的是我", ch13_chong_ru),
     "ch14-yi-xi-wei": ("第十四章", "三样工具探不到", ch14_yi_xi_wei),

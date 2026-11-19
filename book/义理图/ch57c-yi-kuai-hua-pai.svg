@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 380 628" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="法令滋彰：彰从彡，是三撇毛，是画上去的花纹" font-family="'Noto Serif CJK SC','Noto Serif SC','Songti SC',serif">
+<defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#6E6459"/></marker><marker id="arr2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#4A5C55"/></marker><marker id="arrL" viewBox="0 0 10 10" refX="1" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M10 0 L0 5 L10 10 z" fill="#4A5C55"/></marker><marker id="arrS" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#A2503B"/></marker></defs>
+<rect x="0" y="0" width="380" height="628" fill="#F8F3E6"/>
+<text x="20" y="26" font-size="11" fill="#A2503B" font-family="'Noto Sans CJK SC','Noto Sans SC',sans-serif" letter-spacing="3">第 五 十 七 章 · 彰</text>
+<text x="20" y="58" font-size="21" fill="#2F2A24">一块木牌</text>
+<text x="20" y="78" font-size="10.5" fill="#6E6459">法令滋彰，盗贼多有。</text>
+<rect x="20" y="102" width="340" height="30" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="190" y="114" font-size="5.0" fill="#2F2A24" text-anchor="middle">「彰」从彡——彡是三撇毛，是画上去的花纹；不是「法令很多」，是「条文越画越花」。</text>
+<text x="190" y="126" font-size="5.2" fill="#6E6459" text-anchor="middle">花是画在木牌上的；木牌本来只有一条线，是给人踩的。</text>
+<text x="24" y="146" font-size="5.4" fill="#4A5C55">一、素牌：一条刻线，脚踩得着</text>
+<line x1="24" y1="252" x2="250" y2="252" stroke="#2F2A24" stroke-width="1"/>
+<rect x="38" y="178" width="80" height="58" fill="#EFE6D4" stroke="#2F2A24" stroke-width="1"/>
+<line x1="56" y1="236" x2="56" y2="252" stroke="#2F2A24" stroke-width="2"/>
+<line x1="100" y1="236" x2="100" y2="252" stroke="#2F2A24" stroke-width="2"/>
+<line x1="78" y1="184" x2="78" y2="230" stroke="#2F2A24" stroke-width="1.6"/>
+<path d="M169.55,225.3 C167.6,235.7 168.25,246.1 174.1,251.3 C180.6,255.2 185.8,247.4 187.1,235.7 C188.4,225.3 184.5,218.8 176.7,218.8 C172.15,218.8 170.85,220.1 169.55,225.3 Z" stroke="#4A5C55" stroke-width="0.9" fill="#EFE6D4"/>
+<circle cx="171.5" cy="215.55" r="2.4699999999999998" stroke="#4A5C55" stroke-width="0.7" fill="#EFE6D4"/>
+<circle cx="176.44" cy="212.95" r="2.08" stroke="#4A5C55" stroke-width="0.7" fill="#EFE6D4"/>
+<circle cx="180.6" cy="214.9" r="1.8199999999999998" stroke="#4A5C55" stroke-width="0.7" fill="#EFE6D4"/>
+<circle cx="183.98" cy="218.02" r="1.56" stroke="#4A5C55" stroke-width="0.7" fill="#EFE6D4"/>
+<text x="196" y="208" font-size="4.8" fill="#4A5C55">一条线：</text>
+<text x="196" y="220" font-size="4.4" fill="#6E6459">踩得着，看得懂</text>
+<text x="100" y="266" font-size="4.4" fill="#6E6459" text-anchor="middle">禁什么、许什么，一站就知道</text>
+<text x="24" y="292" font-size="5.4" fill="#A2503B">二、花牌：条文越画越花，人只剩绕</text>
+<rect x="38" y="324" width="80" height="58" fill="#EFE6D4" stroke="#2F2A24" stroke-width="1"/>
+<line x1="56" y1="382" x2="56" y2="398" stroke="#2F2A24" stroke-width="2"/>
+<line x1="100" y1="382" x2="100" y2="398" stroke="#2F2A24" stroke-width="2"/>
+<line x1="50.0" y1="374" x2="54.5" y2="363" stroke="#A2503B" stroke-width="1"/>
+<line x1="54.6" y1="374" x2="59.1" y2="363" stroke="#A2503B" stroke-width="1"/>
+<line x1="59.2" y1="374" x2="63.7" y2="363" stroke="#A2503B" stroke-width="1"/>
+<line x1="69.0" y1="374" x2="73.5" y2="363" stroke="#A2503B" stroke-width="1"/>
+<line x1="73.6" y1="374" x2="78.1" y2="363" stroke="#A2503B" stroke-width="1"/>
+<line x1="78.2" y1="374" x2="82.7" y2="363" stroke="#A2503B" stroke-width="1"/>
+<line x1="88.0" y1="374" x2="92.5" y2="363" stroke="#A2503B" stroke-width="1"/>
+<line x1="92.6" y1="374" x2="97.1" y2="363" stroke="#A2503B" stroke-width="1"/>
+<line x1="97.2" y1="374" x2="101.7" y2="363" stroke="#A2503B" stroke-width="1"/>
+<line x1="107.0" y1="374" x2="111.5" y2="363" stroke="#A2503B" stroke-width="1"/>
+<line x1="111.6" y1="374" x2="116.1" y2="363" stroke="#A2503B" stroke-width="1"/>
+<line x1="116.2" y1="374" x2="120.7" y2="363" stroke="#A2503B" stroke-width="1"/>
+<line x1="50.0" y1="362" x2="54.5" y2="351" stroke="#A2503B" stroke-width="1"/>
+<line x1="54.6" y1="362" x2="59.1" y2="351" stroke="#A2503B" stroke-width="1"/>
+<line x1="59.2" y1="362" x2="63.7" y2="351" stroke="#A2503B" stroke-width="1"/>
+<line x1="69.0" y1="362" x2="73.5" y2="351" stroke="#A2503B" stroke-width="1"/>
+<line x1="73.6" y1="362" x2="78.1" y2="351" stroke="#A2503B" stroke-width="1"/>
+<line x1="78.2" y1="362" x2="82.7" y2="351" stroke="#A2503B" stroke-width="1"/>
+<line x1="88.0" y1="362" x2="92.5" y2="351" stroke="#A2503B" stroke-width="1"/>
+<line x1="92.6" y1="362" x2="97.1" y2="351" stroke="#A2503B" stroke-width="1"/>
+<line x1="97.2" y1="362" x2="101.7" y2="351" stroke="#A2503B" stroke-width="1"/>
+<line x1="107.0" y1="362" x2="111.5" y2="351" stroke="#A2503B" stroke-width="1"/>
+<line x1="111.6" y1="362" x2="116.1" y2="351" stroke="#A2503B" stroke-width="1"/>
+<line x1="116.2" y1="362" x2="120.7" y2="351" stroke="#A2503B" stroke-width="1"/>
+<line x1="50.0" y1="350" x2="54.5" y2="339" stroke="#A2503B" stroke-width="1"/>
+<line x1="54.6" y1="350" x2="59.1" y2="339" stroke="#A2503B" stroke-width="1"/>
+<line x1="59.2" y1="350" x2="63.7" y2="339" stroke="#A2503B" stroke-width="1"/>
+<line x1="69.0" y1="350" x2="73.5" y2="339" stroke="#A2503B" stroke-width="1"/>
+<line x1="73.6" y1="350" x2="78.1" y2="339" stroke="#A2503B" stroke-width="1"/>
+<line x1="78.2" y1="350" x2="82.7" y2="339" stroke="#A2503B" stroke-width="1"/>
+<line x1="88.0" y1="350" x2="92.5" y2="339" stroke="#A2503B" stroke-width="1"/>
+<line x1="92.6" y1="350" x2="97.1" y2="339" stroke="#A2503B" stroke-width="1"/>
+<line x1="97.2" y1="350" x2="101.7" y2="339" stroke="#A2503B" stroke-width="1"/>
+<line x1="107.0" y1="350" x2="111.5" y2="339" stroke="#A2503B" stroke-width="1"/>
+<line x1="111.6" y1="350" x2="116.1" y2="339" stroke="#A2503B" stroke-width="1"/>
+<line x1="116.2" y1="350" x2="120.7" y2="339" stroke="#A2503B" stroke-width="1"/>
+<line x1="50.0" y1="338" x2="54.5" y2="327" stroke="#A2503B" stroke-width="1"/>
+<line x1="54.6" y1="338" x2="59.1" y2="327" stroke="#A2503B" stroke-width="1"/>
+<line x1="59.2" y1="338" x2="63.7" y2="327" stroke="#A2503B" stroke-width="1"/>
+<line x1="69.0" y1="338" x2="73.5" y2="327" stroke="#A2503B" stroke-width="1"/>
+<line x1="73.6" y1="338" x2="78.1" y2="327" stroke="#A2503B" stroke-width="1"/>
+<line x1="78.2" y1="338" x2="82.7" y2="327" stroke="#A2503B" stroke-width="1"/>
+<line x1="88.0" y1="338" x2="92.5" y2="327" stroke="#A2503B" stroke-width="1"/>
+<line x1="92.6" y1="338" x2="97.1" y2="327" stroke="#A2503B" stroke-width="1"/>
+<line x1="97.2" y1="338" x2="101.7" y2="327" stroke="#A2503B" stroke-width="1"/>
+<line x1="107.0" y1="338" x2="111.5" y2="327" stroke="#A2503B" stroke-width="1"/>
+<line x1="111.6" y1="338" x2="116.1" y2="327" stroke="#A2503B" stroke-width="1"/>
+<line x1="116.2" y1="338" x2="120.7" y2="327" stroke="#A2503B" stroke-width="1"/>
+<line x1="78" y1="330" x2="78" y2="376" stroke="#DCCBB0" stroke-width="0.4" stroke-dasharray="2 3"/>
+<line x1="24" y1="398" x2="250" y2="398" stroke="#2F2A24" stroke-width="1"/>
+<line x1="28" y1="398" x2="39" y2="382" stroke="#A2503B" stroke-width="0.5"/>
+<line x1="49" y1="398" x2="60" y2="382" stroke="#A2503B" stroke-width="0.5"/>
+<line x1="70" y1="398" x2="81" y2="382" stroke="#A2503B" stroke-width="0.5"/>
+<line x1="91" y1="398" x2="102" y2="382" stroke="#A2503B" stroke-width="0.5"/>
+<line x1="112" y1="398" x2="123" y2="382" stroke="#A2503B" stroke-width="0.5"/>
+<line x1="133" y1="398" x2="144" y2="382" stroke="#A2503B" stroke-width="0.5"/>
+<line x1="154" y1="398" x2="165" y2="382" stroke="#A2503B" stroke-width="0.5"/>
+<line x1="175" y1="398" x2="186" y2="382" stroke="#A2503B" stroke-width="0.5"/>
+<line x1="196" y1="398" x2="207" y2="382" stroke="#A2503B" stroke-width="0.5"/>
+<line x1="217" y1="398" x2="228" y2="382" stroke="#A2503B" stroke-width="0.5"/>
+<line x1="238" y1="398" x2="249" y2="382" stroke="#A2503B" stroke-width="0.5"/>
+<path d="M169.55,352.3 C167.6,362.7 168.25,373.1 174.1,378.3 C180.6,382.2 185.8,374.4 187.1,362.7 C188.4,352.3 184.5,345.8 176.7,345.8 C172.15,345.8 170.85,347.1 169.55,352.3 Z" stroke="#2F2A24" stroke-width="0.9" fill="#F8F3E6"/>
+<circle cx="171.5" cy="342.55" r="2.4699999999999998" stroke="#2F2A24" stroke-width="0.7" fill="#F8F3E6"/>
+<circle cx="176.44" cy="339.95" r="2.08" stroke="#2F2A24" stroke-width="0.7" fill="#F8F3E6"/>
+<circle cx="180.6" cy="341.9" r="1.8199999999999998" stroke="#2F2A24" stroke-width="0.7" fill="#F8F3E6"/>
+<circle cx="183.98" cy="345.02" r="1.56" stroke="#2F2A24" stroke-width="0.7" fill="#F8F3E6"/>
+<line x1="178" y1="380" x2="178" y2="392" stroke="#A2503B" stroke-width="0.5" stroke-dasharray="2 2"/>
+<text x="200" y="346" font-size="4.8" fill="#A2503B">线多了：</text>
+<text x="200" y="358" font-size="4.4" fill="#6E6459">一条都不敢踩</text>
+<text x="100" y="412" font-size="4.4" fill="#A2503B" text-anchor="middle">绕着走：绕到最后，就是铤而走险</text>
+<text x="24" y="438" font-size="5.2" fill="#2F2A24">「彰」从彡：三撇毛，是画上去的花。</text>
+<text x="24" y="454" font-size="4.8" fill="#2F2A24">木牌上本来只有一条线，那条线是给人踩的；画满了花，就没有一条清楚的线可踩。</text>
+<text x="24" y="470" font-size="4.6" fill="#4A5C55">人不是不怕法，是踩不到那条线；踩不到，就只剩下绕——绕到最后，就是铤而走险。</text>
+<line x1="24" y1="488" x2="338" y2="488" stroke="#DCCBB0" stroke-width="0.6"/>
+<rect x="20" y="496" width="340" height="40" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="190" y="512" font-size="6.0" fill="#2F2A24" text-anchor="middle">彰是画上去的花；</text>
+<text x="190" y="524" font-size="5.4" fill="#4A5C55" text-anchor="middle">条文画得越花，能踩的线就越多。</text>
+<line x1="20" y1="550" x2="360" y2="550" stroke="#E6D8C2" stroke-width="0.8"/>
+<text x="20" y="564" font-size="8.0" fill="#A89577" letter-spacing="1">本 章 金 句</text>
+<text x="20" y="580" font-size="8.4" fill="#2F2A24">彰是画上去的花；条文画得越花，能踩的线就越多。</text>
+</svg>
