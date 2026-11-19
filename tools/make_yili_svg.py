@@ -1518,6 +1518,8 @@ GOLD = {
     "ch23": ["自然不是「不管」，是「不需要管」——差别全在有没有人在使劲。", "信不足，不是话说得不够多，是话后面没有人。"],
     "ch24": ["借来的高度站不住，省下的步子走不远。", "不处不是割掉，是不长——约束是按住它，不处是根本不在那儿站。"],
     "ch25": ["不是它比天地老，是天地离了它不成。", "名是给有边界的东西用的；对没有边界的东西，名只是手指。"],
+    "ch41c": ["下士没有看错，他看的是背面；他只是不知道那件东西还有另一面。",
+               "有之以为利，无之以为用。"],
     "ch41b": ["「晚成」是把终点挪远，「免成」是把终点取消。",
                "不是它没有样子，是任何样子都只是它的一块。"],
     "ch41a": ["下士没有看错，他看的是背面；他只是不知道那件东西还有另一面。",
@@ -3225,6 +3227,82 @@ def ch41b_fan_guo_lai():
     return "\n".join(s)
 
 
+# ============ 第四十一章 · 三种看杯 ============
+def ch41c_san_zhong_kan_bei():
+    W, H = 380, 606
+    body, y = head(W, H, "下士看见壁，就把空当作「没有」", "第 四 十 一 章 · 有 无",
+                   "三种看杯", "有之以为利，无之以为用。", H)
+    s = [body]
+
+    s.append(box(20, y + 2, 340, 30, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, y + 14, "上士闻道，勤能行之；中士闻道，若存若亡；下士闻道，大笑之。", 6.2, INK, "middle"))
+    s.append(txt(190, y + 27, "弗笑，不足以为道。", 6.2, SEAL, "middle"))
+
+    def cup(cx, top, h=52, half=26, wall=True, water=False, dash=False):
+        stroke = INK if wall else "#C9B79A"
+        d = "1" if wall else "0.7"
+        out = []
+        out.append(f'<path d="M{cx-half},{top} L{cx-half+7},{top+h} L{cx+half-7},{top+h} L{cx+half},{top} " '
+                   f'fill="none" stroke="{stroke}" stroke-width="{d}"/>')
+        out.append(f'<line x1="{cx-half+7}" y1="{top+h}" x2="{cx+half-7}" y2="{top+h}" stroke="{stroke}" stroke-width="{d}"/>')
+        if dash:
+            out.append(f'<ellipse cx="{cx}" cy="{top+2}" rx="{half-1}" ry="5" fill="none" stroke="{SEAL}" '
+                       f'stroke-width="0.6" stroke-dasharray="4 4"/>')
+        else:
+            out.append(f'<ellipse cx="{cx}" cy="{top+2}" rx="{half-1}" ry="5" fill="none" stroke="{stroke}" stroke-width="{d}"/>')
+        if water:
+            out.append(f'<path d="M{cx-half+3},{top+20} L{cx+half-3},{top+20} L{cx+half-6},{top+h-1} '
+                       f'L{cx-half+6},{top+h-1} Z" fill="#DCE6E0" stroke="none"/>')
+            out.append(f'<line x1="{cx-half+3}" y1="{top+20}" x2="{cx+half-3}" y2="{top+20}" stroke="{GREEN}" stroke-width="0.7"/>')
+        return "".join(out)
+
+    # 一、下士
+    r1 = y + 48
+    s.append(txt(24, r1 + 14, "下士", 8.6, SEAL))
+    s.append(txt(24, r1 + 28, "只看见壁", 5.8, "#6E6459"))
+    s.append(cup(106, r1 + 16))
+    s.append(txt(106, r1 + 38, "×", 9.0, SEAL, "middle"))
+    s.append(txt(138, r1 + 26, "空＝", 5.4, SEAL))
+    s.append(txt(144, r1 + 38, "「没有」", 5.4, SEAL))
+    s.append(txt(170, r1 + 30, "他摸得到的是壁：有形、有成果、有输赢、有定型。", 6.2, INK))
+    s.append(txt(170, r1 + 46, "壁里的那一块，他听成「不存在」。", 6.2, "#6E6459"))
+    s.append(txt(170, r1 + 66, "所以他笑——笑的是那块空。", 6.4, SEAL))
+
+    # 二、中士
+    r2 = r1 + 116
+    s.append(txt(24, r2 + 14, "中士", 8.6, INK))
+    s.append(txt(24, r2 + 28, "看见空，不敢松手", 5.6, "#6E6459"))
+    s.append(cup(106, r2 + 16, dash=True))
+    s.append(txt(106, r2 + 42, "空", 6.0, SEAL, "middle"))
+    s.append(f'<path d="M134,{r2+20} a12,9 0 0 1 14,4" fill="none" stroke="{INK}" stroke-width="1"/>')
+    s.append(f'<line x1="148" y1="{r2+24}" x2="150" y2="{r2+32}" stroke="{INK}" stroke-width="1"/>')
+    s.append(txt(136, r2 + 44, "手抓着壁", 4.9, "#6E6459"))
+    s.append(txt(170, r2 + 30, "他看得出空有用，可一动手，还是照着壁去动。", 6.2, INK))
+    s.append(txt(170, r2 + 46, "早上信，晚上疑；讲的时候通，做的时候断。", 6.2, "#6E6459"))
+    s.append(txt(170, r2 + 66, "知道了是一回事，松手是另一回事。", 6.4, INK))
+
+    # 三、上士
+    r3 = r2 + 116
+    s.append(txt(24, r3 + 14, "上士", 8.6, GREEN))
+    s.append(txt(24, r3 + 28, "壁空一起用", 5.8, "#6E6459"))
+    s.append(cup(106, r3 + 16, water=True))
+    s.append(txt(106, r3 + 44, "水", 5.6, GREEN, "middle"))
+    s.append(f'<path d="M76,{r3+8} a30,10 0 0 1 60,0" fill="none" stroke="{GREEN}" stroke-width="0.7"/>')
+    s.append(txt(106, r3 + 4, "一体", 5.0, GREEN, "middle"))
+    s.append(txt(170, r3 + 30, "壁围出空，空盛住水；两样一起，杯才成杯。", 6.2, INK))
+    s.append(txt(170, r3 + 46, "他不照那条线活，所以线一撤，路就通了。", 6.2, "#6E6459"))
+    s.append(txt(170, r3 + 66, "弗笑，不足以为道：被笑，是道的常态。", 6.4, GREEN))
+
+    y2 = r3 + 92
+    s.append(box(20, y2, 340, 46, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, y2 + 16, "下士把空当成「没有」，所以只认壁；他并没有看错——", 6.8, INK, "middle"))
+    s.append(txt(190, y2 + 31, "空不是没有，是这个器能用的那一处。", 6.8, "#6E6459", "middle"))
+    s.append(txt(190, y2 + 44, "有之以为利，无之以为用。", 6.6, GREEN, "middle"))
+    s.append(gold(y2 + 60, "ch41c"))
+    s.append('</svg>')
+    return "\n".join(s)
+
+
 
 FIGS = {
     "ch01-wu-you": ("第一章", "无有同出", ch01_wu_you),
@@ -3248,6 +3326,7 @@ FIGS = {
     "ch40-san-dong": ("第四十章", "一次动，三次翻", ch40_san_dong),
     "ch41a-san-shi": ("第四十一章", "三种边界", ch41a_san_shi),
     "ch41b-fan-guo-lai": ("第四十一章", "翻过来，全是反面", ch41b_fan_guo_lai),
+    "ch41c-san-zhong-kan-bei": ("第四十一章", "三种看杯", ch41c_san_zhong_kan_bei),
     "ch12-wu-se": ("第十二章", "门开五处", ch12_wu_se),
     "ch13-chong-ru": ("第十三章", "惊的是我", ch13_chong_ru),
     "ch14-yi-xi-wei": ("第十四章", "三样工具探不到", ch14_yi_xi_wei),
