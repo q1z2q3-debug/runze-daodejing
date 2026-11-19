@@ -917,40 +917,38 @@ def ch08_shang_shan():
     return "\n".join(s)
 
 
-# ============ 第九章 · 五级下坡 ============
+# ============ 第九章 · 持而盈之（一根箭头，又进一步） ============
 def ch09_ying_man():
-    W, H = 380, 456
-    body, y = head(W, H, "五句一个坡，末句是出口", "第 九 章 · 事 成", "持而盈之",
-                   "功成了，心不跟着功走——这不是不做事，是不把自我绑在所得上。", H)
+    W, H = 380, 412
+    body, y = head(W, H, "一根箭头就是一步：又进一步", "第 九 章 · 事 成", "持而盈之",
+                   "满不是问题；满了还要再加一步，才是问题。", H)
     s = [body]
-    steps = [("持而盈之", "不如其已", "满到端口，再倒就溢"),
-             ("揣而锐之", "不可长保", "越磨越利，越易折"),
-             ("金玉满堂", "莫之能守", "守得住物，守不住心"),
-             ("富贵而骄", "自遗其咎", "骄是自己给自己留下的债"),
-             ("功遂身退", "天之道", "退的是心，不是事")]
-    yb = y + 6
-    for i, (a, b, note) in enumerate(steps):
-        yy = yb + i * 50
-        off = i * 12
-        last = i == len(steps) - 1
-        s.append(box(20 + off, yy, 118, 36, fill="#E9DFCC" if last else "#FBF6EC",
-                     stroke="{INK}" if last else "{LINE2}", width=1.2 if last else 1.0))
-        s.append(txt(30 + off, yy + 23, a, 10.5, INK))
-        s.append(txt(196, yy + 23, b, 10, SEAL if not last else GREEN))
-        s.append(txt(246, yy + 23, note, 8.2, "#6E6459"))
-        if i < len(steps) - 1:
-            s.append(arrow(30 + off, yy + 36, 30 + off + 10, yy + 48, "#C9B79A", 0.9))
-    # 出口
-    yt = yb + 5 * 50 + 2
-    s.append(arrow(140, yt + 22, 140, yt - 2, "#4A5C55", 1.4))
-    s.append(txt(150, yt + 14, "出口", 9, GREEN))
-    s.append(txt(150, yt + 30, "坡到此为止，人还要往下走", 8.8, "#6E6459"))
-    s.append(txt(190, yt + 58, "五句不是五条戒律，是一个坡的五个位置：绑得越紧，掉得越快。", 9.5, "#6E6459", "middle"))
+    rows = [("持", "盈", "已满还要拿住，不如其已"),
+            ("揣", "锐", "还要磨尖，不可长保"),
+            ("金玉", "满堂", "还要囤着，莫之能守"),
+            ("富贵", "骄", "还要显出来，自遗其咎")]
+    y0 = y + 10
+    for i, (a, b, note) in enumerate(rows):
+        yy = y0 + i * 40
+        s.append(txt(24, yy + 22, a, 12, SEAL, spacing="1"))
+        s.append(f'<line x1="70" y1="{yy+17}" x2="104" y2="{yy+17}" stroke="{LINE}" stroke-width="1" marker-end="url(#arr)"/>')
+        s.append(txt(87, yy + 8, "又进一步", 7.2, "#A89577", "middle"))
+        s.append(txt(110, yy + 22, b, 12, INK, spacing="1"))
+        s.append(txt(170, yy + 22, note, 8.6, "#6E6459"))
+    s.append(txt(24, y0 + 4 * 40 - 8, "四句是同一根尺子的四个刻度：在哪一格停手，就叫度。", 8.6, "#8A7C69"))
+    # 反向：停手
+    yd = y0 + 4 * 40 + 2
+    s.append(box(20, yd, 72, 26, fill="#F6EFE0", stroke="#C9B79A"))
+    s.append(txt(56, yd + 18, "身退", 10.5, SEAL, "middle", spacing="1"))
+    s.append(f'<line x1="258" y1="{yd+13}" x2="102" y2="{yd+13}" stroke="{SEAL}" stroke-width="1" marker-end="url(#arrS)"/>')
+    s.append(txt(266, yd + 17, "停手，不是又进一步", 8.6, SEAL))
+    # 收
+    yc = yd + 44
+    s.append(box(20, yc, 340, 50, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, yc + 19, "功遂身退，天之道。", 11.5, INK, "middle", spacing="1"))
+    s.append(txt(190, yc + 37, "退的是那只还要加一步的手，不是事。", 8.8, "#6E6459", "middle"))
     s.append('</svg>')
     return "\n".join(s)
-
-
-# ============ 第十章 · 六问抱一 ============
 def ch10_bao_yi():
     W, H = 380, 572
     body, y = head(W, H, "六问一答：对内做主人，对外做租客", "第 十 章 · 勘 验", "载营魄抱一",

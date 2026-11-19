@@ -1,36 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg viewBox="0 0 380 456" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="五句一个坡，末句是出口" font-family="'Noto Serif CJK SC','Noto Serif SC','Songti SC',serif">
+<svg viewBox="0 0 380 412" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="一根箭头就是一步：又进一步" font-family="'Noto Serif CJK SC','Noto Serif SC','Songti SC',serif">
 <defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#6E6459"/></marker><marker id="arr2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#4A5C55"/></marker><marker id="arrL" viewBox="0 0 10 10" refX="1" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M10 0 L0 5 L10 10 z" fill="#4A5C55"/></marker><marker id="arrS" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#A2503B"/></marker></defs>
-<rect x="0" y="0" width="380" height="456" fill="#F8F3E6"/>
+<rect x="0" y="0" width="380" height="412" fill="#F8F3E6"/>
 <text x="20" y="26" font-size="11" fill="#A2503B" font-family="'Noto Sans CJK SC','Noto Sans SC',sans-serif" letter-spacing="3">第 九 章 · 事 成</text>
 <text x="20" y="58" font-size="21" fill="#2F2A24">持而盈之</text>
-<text x="20" y="78" font-size="10.5" fill="#6E6459">功成了，心不跟着功走——这不是不做事，是不把自我绑在所得上。</text>
-<rect x="20" y="106" width="118" height="36" fill="#FBF6EC" stroke="{LINE2}" stroke-width="1.0"/>
-<text x="30" y="129" font-size="10.5" fill="#2F2A24">持而盈之</text>
-<text x="196" y="129" font-size="10" fill="#A2503B">不如其已</text>
-<text x="246" y="129" font-size="8.2" fill="#6E6459">满到端口，再倒就溢</text>
-<line x1="30" y1="142" x2="40" y2="154" stroke="#C9B79A" stroke-width="0.9" marker-end="url(#arr)"/>
-<rect x="32" y="156" width="118" height="36" fill="#FBF6EC" stroke="{LINE2}" stroke-width="1.0"/>
-<text x="42" y="179" font-size="10.5" fill="#2F2A24">揣而锐之</text>
-<text x="196" y="179" font-size="10" fill="#A2503B">不可长保</text>
-<text x="246" y="179" font-size="8.2" fill="#6E6459">越磨越利，越易折</text>
-<line x1="42" y1="192" x2="52" y2="204" stroke="#C9B79A" stroke-width="0.9" marker-end="url(#arr)"/>
-<rect x="44" y="206" width="118" height="36" fill="#FBF6EC" stroke="{LINE2}" stroke-width="1.0"/>
-<text x="54" y="229" font-size="10.5" fill="#2F2A24">金玉满堂</text>
-<text x="196" y="229" font-size="10" fill="#A2503B">莫之能守</text>
-<text x="246" y="229" font-size="8.2" fill="#6E6459">守得住物，守不住心</text>
-<line x1="54" y1="242" x2="64" y2="254" stroke="#C9B79A" stroke-width="0.9" marker-end="url(#arr)"/>
-<rect x="56" y="256" width="118" height="36" fill="#FBF6EC" stroke="{LINE2}" stroke-width="1.0"/>
-<text x="66" y="279" font-size="10.5" fill="#2F2A24">富贵而骄</text>
-<text x="196" y="279" font-size="10" fill="#A2503B">自遗其咎</text>
-<text x="246" y="279" font-size="8.2" fill="#6E6459">骄是自己给自己留下的债</text>
-<line x1="66" y1="292" x2="76" y2="304" stroke="#C9B79A" stroke-width="0.9" marker-end="url(#arr)"/>
-<rect x="68" y="306" width="118" height="36" fill="#E9DFCC" stroke="{INK}" stroke-width="1.2"/>
-<text x="78" y="329" font-size="10.5" fill="#2F2A24">功遂身退</text>
-<text x="196" y="329" font-size="10" fill="#4A5C55">天之道</text>
-<text x="246" y="329" font-size="8.2" fill="#6E6459">退的是心，不是事</text>
-<line x1="140" y1="380" x2="140" y2="356" stroke="#4A5C55" stroke-width="1.4" marker-end="url(#arr)"/>
-<text x="150" y="372" font-size="9" fill="#4A5C55">出口</text>
-<text x="150" y="388" font-size="8.8" fill="#6E6459">坡到此为止，人还要往下走</text>
-<text x="190" y="416" font-size="9.5" fill="#6E6459" text-anchor="middle">五句不是五条戒律，是一个坡的五个位置：绑得越紧，掉得越快。</text>
+<text x="20" y="78" font-size="10.5" fill="#6E6459">满不是问题；满了还要再加一步，才是问题。</text>
+<text x="24" y="132" font-size="12" fill="#A2503B" letter-spacing="1">持</text>
+<line x1="70" y1="127" x2="104" y2="127" stroke="#DCCBB0" stroke-width="1" marker-end="url(#arr)"/>
+<text x="87" y="118" font-size="7.2" fill="#A89577" text-anchor="middle">又进一步</text>
+<text x="110" y="132" font-size="12" fill="#2F2A24" letter-spacing="1">盈</text>
+<text x="170" y="132" font-size="8.6" fill="#6E6459">已满还要拿住，不如其已</text>
+<text x="24" y="172" font-size="12" fill="#A2503B" letter-spacing="1">揣</text>
+<line x1="70" y1="167" x2="104" y2="167" stroke="#DCCBB0" stroke-width="1" marker-end="url(#arr)"/>
+<text x="87" y="158" font-size="7.2" fill="#A89577" text-anchor="middle">又进一步</text>
+<text x="110" y="172" font-size="12" fill="#2F2A24" letter-spacing="1">锐</text>
+<text x="170" y="172" font-size="8.6" fill="#6E6459">还要磨尖，不可长保</text>
+<text x="24" y="212" font-size="12" fill="#A2503B" letter-spacing="1">金玉</text>
+<line x1="70" y1="207" x2="104" y2="207" stroke="#DCCBB0" stroke-width="1" marker-end="url(#arr)"/>
+<text x="87" y="198" font-size="7.2" fill="#A89577" text-anchor="middle">又进一步</text>
+<text x="110" y="212" font-size="12" fill="#2F2A24" letter-spacing="1">满堂</text>
+<text x="170" y="212" font-size="8.6" fill="#6E6459">还要囤着，莫之能守</text>
+<text x="24" y="252" font-size="12" fill="#A2503B" letter-spacing="1">富贵</text>
+<line x1="70" y1="247" x2="104" y2="247" stroke="#DCCBB0" stroke-width="1" marker-end="url(#arr)"/>
+<text x="87" y="238" font-size="7.2" fill="#A89577" text-anchor="middle">又进一步</text>
+<text x="110" y="252" font-size="12" fill="#2F2A24" letter-spacing="1">骄</text>
+<text x="170" y="252" font-size="8.6" fill="#6E6459">还要显出来，自遗其咎</text>
+<text x="24" y="262" font-size="8.6" fill="#8A7C69">四句是同一根尺子的四个刻度：在哪一格停手，就叫度。</text>
+<rect x="20" y="272" width="72" height="26" fill="#F6EFE0" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="56" y="290" font-size="10.5" fill="#A2503B" text-anchor="middle" letter-spacing="1">身退</text>
+<line x1="258" y1="285" x2="102" y2="285" stroke="#A2503B" stroke-width="1" marker-end="url(#arrS)"/>
+<text x="266" y="289" font-size="8.6" fill="#A2503B">停手，不是又进一步</text>
+<rect x="20" y="316" width="340" height="50" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="190" y="335" font-size="11.5" fill="#2F2A24" text-anchor="middle" letter-spacing="1">功遂身退，天之道。</text>
+<text x="190" y="353" font-size="8.8" fill="#6E6459" text-anchor="middle">退的是那只还要加一步的手，不是事。</text>
 </svg>
