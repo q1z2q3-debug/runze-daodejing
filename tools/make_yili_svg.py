@@ -1518,6 +1518,8 @@ GOLD = {
     "ch23": ["自然不是「不管」，是「不需要管」——差别全在有没有人在使劲。", "信不足，不是话说得不够多，是话后面没有人。"],
     "ch24": ["借来的高度站不住，省下的步子走不远。", "不处不是割掉，是不长——约束是按住它，不处是根本不在那儿站。"],
     "ch25": ["不是它比天地老，是天地离了它不成。", "名是给有边界的东西用的；对没有边界的东西，名只是手指。"],
+    "ch36b": ["不是柔把刚打败了，是刚撑不住自己，柔撑得住。",
+              "鱼不是被捉走的，是自己跳上岸的。"],
     "ch36a": ["歙是吸气，张是上弦；一口气吸到底，下一口只能是呼。",
               "兴是众手共举，废是无人再举。"],
     "ch35b": ["客停下来不是归，是歇脚；他没有把这儿当家，只是吃了一口饼。",
@@ -2593,6 +2595,82 @@ def ch36a_si_dui_jie_lv():
     return "\n".join(s)
 
 
+# ============ 第三十六章 · 微明与渊 ============
+def ch36b_wei_ming_yuan():
+    import math
+    W, H = 380, 572
+    body, y = head(W, H, "胜，本义是「任」：刚撑不住自己，柔撑得住", "第 三 十 六 章 · 微 明",
+                   "微明 · 渊 · 利器", "看得见的人很多，看得见而不动声色的人很少。", H)
+    s = [body]
+
+    s.append(box(20, y + 2, 340, 28, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, y + 21, "是谓微明。柔弱胜刚强。鱼不可脱于渊，国之利器不可以示人。", 7.6, INK, "middle"))
+
+    # 一、微明：拐点未显 + 胜＝任
+    a = y + 38
+    s.append(box(20, a, 340, 118, fill="#FBF6EC", stroke="#E6D8C2"))
+    s.append(txt(32, a + 18, "微明：拐点还没显出来", 8.2, INK))
+    s.append(f'<path d="M40,{a+72} Q66,{a+76} 90,{a+40} Q104,{a+22} 118,{a+38} Q134,{a+58} 162,{a+70}" fill="none" stroke="{INK}" stroke-width="1.2"/>')
+    s.append(f'<circle cx="104" cy="{a+30}" r="2.4" fill="{SEAL}"/>')
+    s.append(f'<line x1="104" y1="{a+34}" x2="104" y2="{a+62}" stroke="{SEAL}" stroke-width="0.7" stroke-dasharray="3 2"/>')
+    s.append(txt(108, a + 84, "顶点之前，已经有信", 6.4, SEAL))
+    # 胜＝任：直梁断 / 弯梁承
+    s.append(f'<line x1="200" y1="{a+50}" x2="270" y2="{a+50}" stroke="{INK}" stroke-width="1.3"/>')
+    s.append(f'<path d="M232,{a+50} l-3,4 M236,{a+50} l3,-4" stroke="{SEAL}" stroke-width="1"/>')
+    s.append(txt(235, a + 40, "直：撑不住", 6.6, SEAL, "middle"))
+    s.append(f'<path d="M200,{a+86} Q235,{a+62} 270,{a+86}" fill="none" stroke="{GREEN}" stroke-width="1.4"/>')
+    s.append(txt(235, a + 102, "弯：承得住", 6.6, GREEN, "middle"))
+    s.append(txt(304, a + 70, "任", 12, GREEN, "middle"))
+    s.append(txt(304, a + 84, "胜＝任", 6.2, "#6E6459", "middle"))
+    s.append(txt(32, a + 100, "柔不打败刚；刚没有自己站住的地方。", 6.9, INK))
+    s.append(txt(32, a + 112, "微不是细小，是没有行迹。", 6.9, "#6E6459"))
+
+    # 二、渊与鱼
+    b = a + 130
+    s.append(box(20, b, 340, 104, fill="#F7F1E3", stroke="#E6D8C2"))
+    s.append(txt(32, b + 18, "鱼不可脱于渊：渊是回水，看不见底", 8.2, INK))
+    s.append(f'<circle cx="82" cy="{b+58}" r="32" fill="#DCE5DF" stroke="#B9C7BE" stroke-width="0.8"/>')
+    for r in (24, 17, 10):
+        s.append(f'<circle cx="82" cy="{b+58}" r="{r}" fill="none" stroke="#9FB0A6" stroke-width="0.5" stroke-dasharray="4 3"/>')
+    s.append(f'<ellipse cx="82" cy="{b+58}" rx="9" ry="4" fill="#F7F1E3" stroke="{INK}" stroke-width="0.8"/>')
+    s.append(f'<path d="M91,{b+58} l7,-4 l0,8 z" fill="#F7F1E3" stroke="{INK}" stroke-width="0.7"/>')
+    s.append(txt(82, b + 98, "在渊：有地方转", 6.6, GREEN, "middle"))
+    s.append(f'<line x1="160" y1="{b+76}" x2="330" y2="{b+76}" stroke="{LINE}" stroke-width="0.9"/>')
+    s.append(f'<ellipse cx="212" cy="{b+70}" rx="10" ry="4.4" fill="#F7F1E3" stroke="{SEAL}" stroke-width="0.8"/>')
+    s.append(f'<path d="M222,{b+70} l8,-4 l0,8 z" fill="#F7F1E3" stroke="{SEAL}" stroke-width="0.7"/>')
+    s.append(f'<path d="M206,{b+64} l-4,-6 M212,{b+63} l0,-7 M218,{b+64} l4,-6" stroke="{SEAL}" stroke-width="0.7"/>')
+    s.append(txt(212, b + 92, "脱渊：鳃里进沙", 6.6, SEAL, "middle"))
+    s.append(txt(168, b + 22, "不是被捉走，是自己跳上岸。", 7.0, INK))
+    s.append(txt(168, b + 36, "鱼是「有」，渊是「无」：", 6.6, "#6E6459"))
+    s.append(txt(168, b + 48, "本事全长在那片「无」上。", 6.6, "#6E6459"))
+
+    # 三、利器
+    c = b + 116
+    s.append(box(20, c, 340, 68, fill="#FBF6EC", stroke="#E6D8C2"))
+    s.append(txt(32, c + 18, "利器：刀可以挂在墙上", 8.2, GREEN))
+    s.append(f'<line x1="40" y1="{c+34}" x2="128" y2="{c+34}" stroke="{LINE}" stroke-width="0.9"/>')
+    s.append(f'<path d="M74,{c+34} l0,4" stroke="{INK}" stroke-width="0.7"/>')
+    s.append(f'<path d="M72,{c+38} l8,0 l2,26 l-8,2 z" fill="#E9DFCC" stroke="{INK}" stroke-width="0.9"/>')
+    s.append(f'<line x1="72" y1="{c+44}" x2="82" y2="{c+43}" stroke="{INK}" stroke-width="0.6"/>')
+    s.append(txt(96, c + 52, "挂起来：看得见，但不随手", 6.6, "#6E6459"))
+    s.append(txt(210, c + 18, "不能挂在嘴上", 8.2, SEAL))
+    s.append(f'<path d="M222,{c+48} q14,8 28,0" fill="none" stroke="{INK}" stroke-width="1"/>')
+    s.append(f'<path d="M232,{c+40} l0,10 l-4,-4" stroke="{SEAL}" stroke-width="0.9"/>')
+    s.append(f'<line x1="248" y1="{c+46}" x2="266" y2="{c+32}" stroke="{SEAL}" stroke-width="0.9"/>')
+    s.append(f'<line x1="262" y1="{c+34}" x2="268" y2="{c+30}" stroke="{SEAL}" stroke-width="1.2"/>')
+    s.append(f'<circle cx="252" cy="{c+42}" r="14" fill="none" stroke="{SEAL}" stroke-width="0.9"/>')
+    s.append(f'<line x1="242" y1="{c+52}" x2="262" y2="{c+32}" stroke="{SEAL}" stroke-width="1"/>')
+    s.append(txt(276, c + 56, "说出来就成了刀", 6.6, "#6E6459"))
+
+    y3 = c + 78
+    s.append(box(20, y3, 340, 40, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, y3 + 17, "藏刀不是为了让你不知道有刀，是为了让你不必怕刀。", 8.0, INK, "middle"))
+    s.append(txt(190, y3 + 32, "这一问，就把本章和权术分开了。", 7.6, "#6E6459", "middle"))
+    s.append(gold(y3 + 48, "ch36b"))
+    s.append('</svg>')
+    return "\n".join(s)
+
+
 
 FIGS = {
     "ch01-wu-you": ("第一章", "无有同出", ch01_wu_you),
@@ -2644,6 +2722,7 @@ FIGS = {
     "ch35a-zhi-yu-chang": ("第三十五章", "执与场", ch35a_zhi_yu_chang),
     "ch35b-dan-bai-shui": ("第三十五章", "淡：一碗白水", ch35b_dan_bai_shui),
     "ch36a-si-dui-jie-lv": ("第三十六章", "四对：一张一阖", ch36a_si_dui_jie_lv),
+    "ch36b-wei-ming-yuan": ("第三十六章", "微明 · 渊 · 利器", ch36b_wei_ming_yuan),
 }
 
 
