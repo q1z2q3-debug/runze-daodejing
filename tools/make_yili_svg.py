@@ -1524,6 +1524,9 @@ GOLD = {
     "ch48c": ["「取天下」的「取」是割耳朵，所以老子换了一个动作：不是割，是不动。"],
     "ch47a": ["透过框看，你看见的每一块都是真的；可你真的没看见框外。"],
     "ch47b": ["其出弥远，其知弥少。"],
+    "ch49a": ["一把尺能定长短，也能把人钉在短的那一格里。"],
+    "ch49b": ["「歙」是吸，「注」是灌；一个往里收，一个往外倒。"],
+    "ch49c": ["「浑」是水声，不是糊涂；水还在流，只是不再一格一格地流。"],
     "ch47c": ["站在路口的人只能选一条路；知道路怎么走的人，不必选。"],
     "ch46b": ["他不是把刀收了，是把刀改成了犁。"],
     "ch46c": ["先站住，才够；先够，永远不够。",
@@ -4495,6 +4498,182 @@ def ch48c_guan_qia():
 
 
 
+# ============ 第四十九章 · 一把尺 ============
+def ch49a_yi_ba_chi():
+    W, H = 380, 646
+    body, y = head(W, H, "常心是一把自己打的尺：一把尺能定长短，也能把人钉在短的那一格里",
+                   "第 四 十 九 章 · 尺", "一把尺", "圣人无常心，以百姓心为心。", H)
+    s = [body]
+
+    s.append(box(20, y + 2, 340, 30, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, y + 14, "「常心」听着像常理，其实是自己打的尺。", 5.6, INK, "middle"))
+    s.append(txt(190, y + 26, "什么该说、谁善谁不善，全由它定——它是「有」，是一条画好的线。", 5.2, "#6E6459", "middle"))
+
+    posts = [(66, 84, "甲", "合格"), (136, 58, "乙", "不合格"), (206, 34, "丙", "不合格")]
+
+    # 一、有常心：一把尺，几道格
+    t1 = y + 46
+    s.append(txt(24, t1, "一、有常心：一把尺横在人头顶", 5.4, SEAL))
+    gy1 = t1 + 104
+    s.append(box(294, gy1 - 100, 10, 100, fill="#EFE6D4", stroke=INK, width=0.8))
+    for k in range(7):
+        ty = gy1 - 13 * (k + 1)
+        s.append(f'<line x1="{286 if k % 2 == 0 else 289}" y1="{ty}" x2="294" y2="{ty}" stroke="{LINE}" stroke-width="0.5"/>')
+    s.append(f'<line x1="40" y1="{gy1-64}" x2="294" y2="{gy1-64}" stroke="{SEAL}" stroke-width="1" stroke-dasharray="5 3"/>')
+    s.append(txt(30, gy1 - 68, "合格线", 4.6, SEAL))
+    for (cx, hh, lab, verdict) in posts:
+        s.append(box(cx - 9, gy1 - hh, 18, hh, fill="#EFE6D4", stroke=INK, width=0.8))
+        s.append(f'<line x1="{cx-9}" y1="{gy1-hh}" x2="{cx+9}" y2="{gy1-hh}" stroke="{INK}" stroke-width="0.9"/>')
+        s.append(f'<line x1="{cx+9}" y1="{gy1-hh}" x2="294" y2="{gy1-hh}" stroke="{LINE2}" stroke-width="0.4" stroke-dasharray="3 3"/>')
+        s.append(txt(cx, gy1 + 11, lab + " · " + verdict, 4.6, GREEN if verdict == "合格" else SEAL, "middle"))
+    s.append(txt(210, gy1 + 26, "尺一横过来，人就成了几格里的一个读数", 4.6, "#6E6459"))
+
+    # 二、无常心：尺放下
+    t2 = gy1 + 46
+    s.append(txt(24, t2, "二、无常心：尺还在，只是不再横在人头顶", 5.4, GREEN))
+    gy2 = t2 + 104
+    for (cx, hh, lab, verdict) in posts:
+        s.append(box(cx - 9, gy2 - hh, 18, hh, fill="#EFE6D4", stroke=INK, width=0.8))
+        s.append(f'<line x1="{cx-9}" y1="{gy2-hh}" x2="{cx+9}" y2="{gy2-hh}" stroke="{INK}" stroke-width="0.9"/>')
+        s.append(txt(cx, gy2 + 11, lab, 4.8, "#6E6459", "middle"))
+    # 尺躺下
+    s.append(f'<rect x="52" y="{gy2 + 40}" width="196" height="11" fill="#EFE6D4" stroke="{GREEN}" stroke-width="0.8"/>')
+    for k in range(9):
+        s.append(f'<line x1="{62 + k * 21}" y1="{gy2+40}" x2="{62 + k * 21}" y2="{gy2+46}" stroke="{GREEN}" stroke-width="0.4"/>')
+    s.append(txt(256, gy2 + 46, "尺躺下了：还在，只是不量人了", 4.6, GREEN))
+    s.append(txt(216, gy2 - 44, "三个人还是三个高度，各自一个尺寸", 4.6, "#6E6459"))
+
+    b = gy2 + 72
+    s.append(txt(24, b, "尺不是天给的：人打尺的时候，多半不知道自己正在打。", 5.6, INK))
+    s.append(txt(24, b + 16, "「以百姓心为心」不是照他们说的做，是不把人划到哪一栏里去。", 5.6, INK))
+    s.append(txt(24, b + 32, "放下尺，不是失去标准，是不再拿它钉人。", 5.4, GREEN))
+
+    c = b + 50
+    s.append(f'<line x1="24" y1="{c}" x2="338" y2="{c}" stroke="{LINE}" stroke-width="0.6"/>')
+    s.append(box(20, c + 8, 340, 40, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, c + 24, "一把尺能定长短，", 6.0, INK, "middle"))
+    s.append(txt(190, c + 36, "也能把人钉在短的那一格里。", 6.0, GREEN, "middle"))
+    s.append(gold(c + 62, "ch49a"))
+    s.append('</svg>')
+    return "\n".join(s)
+
+
+# ============ 第四十九章 · 一吸一灌 ============
+def ch49b_yi_xi_yi_guan():
+    W, H = 380, 560
+    body, y = head(W, H, "百姓把耳目当灌渠往外灌，圣人往里吸",
+                   "第 四 十 九 章 · 吸 与 灌", "一吸一灌", "歙歙焉，为天下浑其心。", H)
+    s = [body]
+
+    s.append(box(20, y + 2, 340, 30, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, y + 14, "「歙」，《说文》「缩鼻也」——鼻子往里一缩，吸气。", 5.6, INK, "middle"))
+    s.append(txt(190, y + 26, "「注」，《说文》「灌也」——水往外灌。全章的对位就在这一呼一吸上。", 5.2, "#6E6459", "middle"))
+
+    # 一、注：灌
+    t1 = y + 46
+    s.append(txt(24, t1, "一、注：耳目是两条灌渠，往外灌", 5.4, SEAL))
+    cy1 = t1 + 64
+    s.append(f'<circle cx="150" cy="{cy1}" r="26" fill="none" stroke="{INK}" stroke-width="0.9"/>')
+    s.append(txt(150, cy1 - 34, "百姓", 5.0, "#6E6459", "middle"))
+    s.append(f'<circle cx="140" cy="{cy1-6}" r="1.7" fill="{INK}"/><circle cx="160" cy="{cy1-6}" r="1.7" fill="{INK}"/>')
+    # 两条渠
+    for (xl, yc) in ((46, cy1), ):
+        pass
+    s.append(f'<rect x="52" y="{cy1+2}" width="72" height="9" fill="#EFE6D4" stroke="{LINE}" stroke-width="0.7"/>')
+    s.append(f'<rect x="176" y="{cy1+2}" width="72" height="9" fill="#EFE6D4" stroke="{LINE}" stroke-width="0.7"/>')
+    s.append(arrow(120, cy1 + 6.5, 56, cy1 + 6.5, SEAL, 0.9, head="arrS"))
+    s.append(arrow(180, cy1 + 6.5, 244, cy1 + 6.5, SEAL, 0.9, head="arrS"))
+    s.append(f'<circle cx="40" cy="{cy1+16}" r="2.2" fill="{SEAL}" opacity="0.55"/>')
+    s.append(f'<circle cx="262" cy="{cy1+16}" r="2.2" fill="{SEAL}" opacity="0.55"/>')
+    s.append(txt(88, cy1 + 26, "眼睛、耳朵：两条朝外的渠", 4.6, SEAL, "middle"))
+    s.append(txt(212, cy1 + 26, "水一开就关不上", 4.6, SEAL, "middle"))
+
+    # 二、歙：吸
+    t2 = cy1 + 52
+    s.append(f'<line x1="24" y1="{t2-8}" x2="338" y2="{t2-8}" stroke="{LINE}" stroke-width="0.6"/>')
+    t2b = t2 + 12
+    s.append(txt(24, t2b, "二、歙：缩鼻，往里收，不往外吐", 5.4, GREEN))
+    cy2 = t2b + 64
+    s.append(f'<circle cx="150" cy="{cy2}" r="26" fill="none" stroke="{INK}" stroke-width="0.9"/>')
+    s.append(txt(150, cy2 - 34, "圣人", 5.0, "#6E6459", "middle"))
+    s.append(f'<circle cx="140" cy="{cy2-6}" r="1.7" fill="{INK}"/><circle cx="160" cy="{cy2-6}" r="1.7" fill="{INK}"/>')
+    s.append(f'<circle cx="150" cy="{cy2+4}" r="1.7" fill="{SEAL}"/>')
+    s.append(arrow(252, cy2 + 4, 178, cy2 + 4, GREEN, 0.9, head="arr2"))
+    s.append(txt(256, cy2 - 2, "一口往里吸", 4.6, GREEN))
+    s.append(txt(256, cy2 + 10, "不出声，不吐气", 4.6, GREEN))
+    s.append(txt(150, cy2 + 42, "吐出去的多是标准、评判、一整套「应该怎样」", 4.6, "#6E6459", "middle"))
+
+    b = cy2 + 58
+    s.append(txt(24, b, "大家都往外灌，就没人吸；没人吸，那个场就干了。", 5.6, INK))
+    s.append(txt(24, b + 16, "注是结构，不是罪状：眼睛看什么，心就在哪儿。", 5.6, INK))
+    s.append(txt(24, b + 32, "所以圣人第一件事不是多说，是把灌口往回收一寸。", 5.4, GREEN))
+
+    c = b + 50
+    s.append(f'<line x1="24" y1="{c}" x2="338" y2="{c}" stroke="{LINE}" stroke-width="0.6"/>')
+    s.append(box(20, c + 8, 340, 40, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, c + 24, "「歙」是吸，「注」是灌；", 6.0, INK, "middle"))
+    s.append(txt(190, c + 36, "一个往里收，一个往外倒。", 6.0, GREEN, "middle"))
+    s.append(gold(c + 62, "ch49b"))
+    s.append('</svg>')
+    return "\n".join(s)
+
+
+# ============ 第四十九章 · 浑 ============
+def ch49c_hun_shui_sheng():
+    W, H = 380, 566
+    body, y = head(W, H, "浑是水混着流的声音：水还在流，只是不再一格一格地流",
+                   "第 四 十 九 章 · 浑", "浑，是水声", "为天下浑其心。", H)
+    s = [body]
+
+    s.append(box(20, y + 2, 340, 30, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, y + 14, "「浑」，《说文》「混流声也」——水混着流的声音。", 5.6, INK, "middle"))
+    s.append(txt(190, y + 26, "不是糊涂，不是把人弄傻：是让被切碎的心重新连成一片。", 5.2, "#6E6459", "middle"))
+
+    # 一、一格一格
+    t1 = y + 46
+    s.append(txt(24, t1, "一、一格一格：每滴都在自己的格子里", 5.4, SEAL))
+    ty, by = t1 + 26, t1 + 78
+    s.append(f'<line x1="30" y1="{by}" x2="350" y2="{by}" stroke="{INK}" stroke-width="0.9"/>')
+    s.append(f'<line x1="30" y1="{ty}" x2="350" y2="{ty}" stroke="{LINE}" stroke-width="0.6"/>')
+    for xv in (30, 94, 158, 222, 286, 350):
+        s.append(f'<line x1="{xv}" y1="{ty}" x2="{xv}" y2="{by}" stroke="{INK}" stroke-width="0.9"/>')
+    cells = [(30, 94), (94, 158), (158, 222), (222, 286), (286, 350)]
+    for (xa, xb) in cells:
+        wy = by - 22
+        s.append(f'<line x1="{xa+6}" y1="{wy}" x2="{xb-6}" y2="{wy}" stroke="{GREEN}" stroke-width="0.8"/>')
+    s.append(txt(30, by + 14, "墙一道一道立着：好坏、得失、敌我，每一刀都切得很准", 4.6, "#6E6459"))
+
+    # 二、浑
+    t2 = by + 34
+    s.append(txt(24, t2, "二、浑：墙软下来，水连成一片", 5.4, GREEN))
+    ty2, by2 = t2 + 26, t2 + 78
+    s.append(f'<line x1="30" y1="{by2}" x2="350" y2="{by2}" stroke="{INK}" stroke-width="0.9"/>')
+    s.append(f'<line x1="30" y1="{ty2}" x2="350" y2="{ty2}" stroke="{LINE2}" stroke-width="0.5" stroke-dasharray="4 3"/>')
+    for xv in (30, 350):
+        s.append(f'<line x1="{xv}" y1="{ty2}" x2="{xv}" y2="{by2}" stroke="{INK}" stroke-width="0.9"/>')
+    for xv in (94, 158, 222, 286):
+        s.append(f'<line x1="{xv}" y1="{ty2}" x2="{xv}" y2="{by2}" stroke="{LINE2}" stroke-width="0.5" stroke-dasharray="3 3"/>')
+    s.append(f'<path d="M34,{by2-22} q16,-9 32,0 q16,9 32,0 q16,-9 32,0 q16,9 32,0 q16,-9 32,0 q16,9 32,0 q16,-9 32,0 q16,9 32,0" '
+             f'fill="none" stroke="{GREEN}" stroke-width="1"/>')
+    s.append(arrow(70, ty2 + 14, 200, ty2 + 14, GREEN, 0.7, head="arr2"))
+    s.append(txt(206, ty2 + 16, "还是有流向", 4.6, GREEN))
+    s.append(txt(30, by2 + 14, "格子软了，水重新连成一片；不是没有分别，是不再一格一格站着", 4.6, "#6E6459"))
+
+    b = by2 + 36
+    s.append(txt(24, b, "一个时代的心被切碎，不是切得不准，是切得太准。", 5.6, INK))
+    s.append(txt(24, b + 16, "每一刀都对，可每个人都站进了一个很小的格子。", 5.6, INK))
+    s.append(txt(24, b + 32, "浑，是把格子的墙软下来——水才又能流到别人那儿去。", 5.4, GREEN))
+
+    c = b + 50
+    s.append(f'<line x1="24" y1="{c}" x2="338" y2="{c}" stroke="{LINE}" stroke-width="0.6"/>')
+    s.append(box(20, c + 8, 340, 40, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, c + 24, "「浑」是水声，不是糊涂；", 6.0, INK, "middle"))
+    s.append(txt(190, c + 36, "水还在流，只是不再一格一格地流。", 6.0, GREEN, "middle"))
+    s.append(gold(c + 62, "ch49c"))
+    s.append('</svg>')
+    return "\n".join(s)
+
+
 FIGS = {
     "ch01-wu-you": ("第一章", "无有同出", ch01_wu_you),
     "ch01-zhi-yue": ("第一章", "指月三境", ch01_zhi_yue),
@@ -4537,6 +4716,9 @@ FIGS = {
     "ch48a-yi-yu-sun": ("第四十八章", "一只器，两只手", ch48a_yi_yu_sun),
     "ch48b-ceng-ke": ("第四十八章", "一图两观", ch48b_ceng_ke),
     "ch48c-guan-qia": ("第四十八章", "一道关，一道关", ch48c_guan_qia),
+    "ch49a-yi-ba-chi": ("第四十九章", "一把尺", ch49a_yi_ba_chi),
+    "ch49b-yi-xi-yi-guan": ("第四十九章", "一吸一灌", ch49b_yi_xi_yi_guan),
+    "ch49c-hun-shui-sheng": ("第四十九章", "浑，是水声", ch49c_hun_shui_sheng),
     "ch12-wu-se": ("第十二章", "门开五处", ch12_wu_se),
     "ch13-chong-ru": ("第十三章", "惊的是我", ch13_chong_ru),
     "ch14-yi-xi-wei": ("第十四章", "三样工具探不到", ch14_yi_xi_wei),

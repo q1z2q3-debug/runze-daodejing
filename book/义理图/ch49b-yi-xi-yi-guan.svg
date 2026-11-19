@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 380 560" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="百姓把耳目当灌渠往外灌，圣人往里吸" font-family="'Noto Serif CJK SC','Noto Serif SC','Songti SC',serif">
+<defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#6E6459"/></marker><marker id="arr2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#4A5C55"/></marker><marker id="arrL" viewBox="0 0 10 10" refX="1" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M10 0 L0 5 L10 10 z" fill="#4A5C55"/></marker><marker id="arrS" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#A2503B"/></marker></defs>
+<rect x="0" y="0" width="380" height="560" fill="#F8F3E6"/>
+<text x="20" y="26" font-size="11" fill="#A2503B" font-family="'Noto Sans CJK SC','Noto Sans SC',sans-serif" letter-spacing="3">第 四 十 九 章 · 吸 与 灌</text>
+<text x="20" y="58" font-size="21" fill="#2F2A24">一吸一灌</text>
+<text x="20" y="78" font-size="10.5" fill="#6E6459">歙歙焉，为天下浑其心。</text>
+<rect x="20" y="102" width="340" height="30" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="190" y="114" font-size="5.6" fill="#2F2A24" text-anchor="middle">「歙」，《说文》「缩鼻也」——鼻子往里一缩，吸气。</text>
+<text x="190" y="126" font-size="5.2" fill="#6E6459" text-anchor="middle">「注」，《说文》「灌也」——水往外灌。全章的对位就在这一呼一吸上。</text>
+<text x="24" y="146" font-size="5.4" fill="#A2503B">一、注：耳目是两条灌渠，往外灌</text>
+<circle cx="150" cy="210" r="26" fill="none" stroke="#2F2A24" stroke-width="0.9"/>
+<text x="150" y="176" font-size="5.0" fill="#6E6459" text-anchor="middle">百姓</text>
+<circle cx="140" cy="204" r="1.7" fill="#2F2A24"/><circle cx="160" cy="204" r="1.7" fill="#2F2A24"/>
+<rect x="52" y="212" width="72" height="9" fill="#EFE6D4" stroke="#DCCBB0" stroke-width="0.7"/>
+<rect x="176" y="212" width="72" height="9" fill="#EFE6D4" stroke="#DCCBB0" stroke-width="0.7"/>
+<line x1="120" y1="216.5" x2="56" y2="216.5" stroke="#A2503B" stroke-width="0.9" marker-end="url(#arrS)"/>
+<line x1="180" y1="216.5" x2="244" y2="216.5" stroke="#A2503B" stroke-width="0.9" marker-end="url(#arrS)"/>
+<circle cx="40" cy="226" r="2.2" fill="#A2503B" opacity="0.55"/>
+<circle cx="262" cy="226" r="2.2" fill="#A2503B" opacity="0.55"/>
+<text x="88" y="236" font-size="4.6" fill="#A2503B" text-anchor="middle">眼睛、耳朵：两条朝外的渠</text>
+<text x="212" y="236" font-size="4.6" fill="#A2503B" text-anchor="middle">水一开就关不上</text>
+<line x1="24" y1="254" x2="338" y2="254" stroke="#DCCBB0" stroke-width="0.6"/>
+<text x="24" y="274" font-size="5.4" fill="#4A5C55">二、歙：缩鼻，往里收，不往外吐</text>
+<circle cx="150" cy="338" r="26" fill="none" stroke="#2F2A24" stroke-width="0.9"/>
+<text x="150" y="304" font-size="5.0" fill="#6E6459" text-anchor="middle">圣人</text>
+<circle cx="140" cy="332" r="1.7" fill="#2F2A24"/><circle cx="160" cy="332" r="1.7" fill="#2F2A24"/>
+<circle cx="150" cy="342" r="1.7" fill="#A2503B"/>
+<line x1="252" y1="342" x2="178" y2="342" stroke="#4A5C55" stroke-width="0.9" marker-end="url(#arr2)"/>
+<text x="256" y="336" font-size="4.6" fill="#4A5C55">一口往里吸</text>
+<text x="256" y="348" font-size="4.6" fill="#4A5C55">不出声，不吐气</text>
+<text x="150" y="380" font-size="4.6" fill="#6E6459" text-anchor="middle">吐出去的多是标准、评判、一整套「应该怎样」</text>
+<text x="24" y="396" font-size="5.6" fill="#2F2A24">大家都往外灌，就没人吸；没人吸，那个场就干了。</text>
+<text x="24" y="412" font-size="5.6" fill="#2F2A24">注是结构，不是罪状：眼睛看什么，心就在哪儿。</text>
+<text x="24" y="428" font-size="5.4" fill="#4A5C55">所以圣人第一件事不是多说，是把灌口往回收一寸。</text>
+<line x1="24" y1="446" x2="338" y2="446" stroke="#DCCBB0" stroke-width="0.6"/>
+<rect x="20" y="454" width="340" height="40" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="190" y="470" font-size="6.0" fill="#2F2A24" text-anchor="middle">「歙」是吸，「注」是灌；</text>
+<text x="190" y="482" font-size="6.0" fill="#4A5C55" text-anchor="middle">一个往里收，一个往外倒。</text>
+<line x1="20" y1="508" x2="360" y2="508" stroke="#E6D8C2" stroke-width="0.8"/>
+<text x="20" y="522" font-size="8.0" fill="#A89577" letter-spacing="1">本 章 金 句</text>
+<text x="20" y="538" font-size="8.4" fill="#2F2A24">「歙」是吸，「注」是灌；一个往里收，一个往外倒。</text>
+</svg>
