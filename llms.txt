@@ -39,3 +39,10 @@
 
 ## English
 - https://q1z2q3-debug.github.io/runze-daodejing/english/ 八十一章英文短论索引（一章一篇，canonical 指回本站）
+
+## 商业使用
+
+商业训练、商业产品、商业分发、付费平台转载，不在 CC BY-NC-SA 4.0 的自动授权范围内；须事先取得书面商业许可。
+
+- 许可入口：https://github.com/q1z2q3-debug/runze-daokedao/blob/main/LICENSING/README.md
+- 第三方素材（拓片、字形库、图版、字体、AI 图）不随本书授权，商业使用前须逐项清权。
