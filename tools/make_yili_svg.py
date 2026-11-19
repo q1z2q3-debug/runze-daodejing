@@ -1518,6 +1518,8 @@ GOLD = {
     "ch23": ["自然不是「不管」，是「不需要管」——差别全在有没有人在使劲。", "信不足，不是话说得不够多，是话后面没有人。"],
     "ch24": ["借来的高度站不住，省下的步子走不远。", "不处不是割掉，是不长——约束是按住它，不处是根本不在那儿站。"],
     "ch25": ["不是它比天地老，是天地离了它不成。", "名是给有边界的东西用的；对没有边界的东西，名只是手指。"],
+    "ch34": ["张开手臂，抱住的只有一抱；手臂垂着，怀里是整个天地。",
+             "世人的大，是把世界收进来；道的大，是让世界不必进来。"],
     "ch33": ["智是识词，明是照见；智越用越熟，明越照越静。",
              "力是筋，越使越少；强是弓，能张能弛。"],
     "ch32": ["知止不是收手不干，是知道地基的边在哪儿——再往外砌，就砌在虚空上了。",
@@ -2228,6 +2230,72 @@ def ch33_zi_zhi_zhe_ming():
     s.append('</svg>')
     return "\n".join(s)
 
+# ============ 第三十四章 · 不主之谓大 ============
+def ch34_bu_zhu_wei_da():
+    W, H = 380, 566
+    body, y = head(W, H, "一主，即落合；不主，方为和", "第 三 十 四 章 · 三 个 本 义",
+                   "不主，故能成其大", "道是场域，不是王座。", H)
+    s = [body]
+
+    r1, r2, r3 = y + 8, y + 108, y + 208
+    for cy, hh in ((r1, 96), (r2, 96), (r3, 124)):
+        s.append(box(20, cy, 340, hh, fill="#FBF6EC", stroke="#E6D8C2"))
+
+    # ---- 一、主＝灯中火主 ----
+    s.append(f'<line x1="44" y1="{r1+70}" x2="76" y2="{r1+70}" stroke="{LINE}" stroke-width="1"/>')
+    s.append(f'<path d="M60,{r1+70} l-6,-8 l12,0 z" fill="#E9DFCC" stroke="{INK}" stroke-width="0.8"/>')
+    s.append(f'<path d="M60,{r1+40} q5,7 0,12 q-5,-5 0,-12 z" fill="{SEAL}" stroke="{SEAL}" stroke-width="0.6"/>')
+    for fy in (r1 + 34, r1 + 46, r1 + 58):
+        s.append(f'<line x1="104" y1="{fy}" x2="66" y2="{r1+46}" stroke="#C9B79A" stroke-width="0.8" stroke-dasharray="4 3"/>')
+        s.append(f'<circle cx="107" cy="{fy}" r="2.2" fill="none" stroke="#8A7C69" stroke-width="0.7"/>')
+    s.append(txt(122, r1 + 26, "主：一个中心，万物向它", 8.6, INK))
+    s.append(txt(122, r1 + 42, "「主」本义是灯芯上那一点火，", 7.4, "#6E6459"))
+    s.append(txt(122, r1 + 56, "一盏灯只有一个火头，光都从那儿出。", 7.4, "#6E6459"))
+    s.append(txt(122, r1 + 78, "做主，就要回答谁合格、谁排第一。", 7.0, SEAL))
+
+    # ---- 二、汎＝浮在水面 ----
+    s.append(f'<path d="M34,{r2+32} q30,-8 60,0 q30,8 60,0 l0,22 q-30,-8 -60,0 q-30,8 -60,0 z" fill="#DCE5DF" stroke="#B9C7BE" stroke-width="0.8"/>')
+    for i in range(3):
+        s.append(f'<path d="M40,{r2+42+i*8} q22,-3 44,0 q22,3 44,0" fill="none" stroke="#9FB0A6" stroke-width="0.7"/>')
+    for gx in (50, 70, 90, 112, 132):
+        s.append(f'<rect x="{gx}" y="{r2+36}" width="8" height="1.5" fill="#D8B27A"/>')
+    s.append(txt(160, r2 + 34, "汎：浮在水面，到处都在", 8.6, GREEN))
+    s.append(txt(160, r2 + 50, "水涨它高，水落它低，贴着整个水面；", 7.4, "#6E6459"))
+    s.append(txt(160, r2 + 64, "没有固定据点，也不分正路与支路。", 7.4, "#6E6459"))
+    s.append(txt(160, r2 + 82, "有中心，就有等级；有等级，就是合。", 7.0, SEAL))
+
+    # ---- 三、大＝一人张两臂 ----
+    # 张臂
+    s.append(f'<circle cx="62" cy="{r3+24}" r="4.2" fill="none" stroke="{INK}" stroke-width="0.9"/>')
+    s.append(f'<line x1="62" y1="{r3+28}" x2="62" y2="{r3+50}" stroke="{INK}" stroke-width="1"/>')
+    s.append(f'<path d="M62,{r3+34} l-22,-5 M62,{r3+34} l22,-5" stroke="{INK}" stroke-width="0.9"/>')
+    s.append(f'<path d="M62,{r3+50} l-9,16 M62,{r3+50} l9,16" stroke="{INK}" stroke-width="0.9"/>')
+    s.append(f'<line x1="34" y1="{r3+24}" x2="90" y2="{r3+24}" stroke="{SEAL}" stroke-width="0.7" stroke-dasharray="3 2"/>')
+    s.append(txt(62, r3 + 88, "张臂：量占多宽", 6.6, SEAL, "middle"))
+    # 垂臂
+    s.append(f'<circle cx="126" cy="{r3+24}" r="4.2" fill="none" stroke="{INK}" stroke-width="0.9"/>')
+    s.append(f'<line x1="126" y1="{r3+28}" x2="126" y2="{r3+50}" stroke="{INK}" stroke-width="1"/>')
+    s.append(f'<path d="M126,{r3+32} l-4,18 M126,{r3+32} l4,18" stroke="{INK}" stroke-width="0.9"/>')
+    s.append(f'<path d="M126,{r3+50} l-9,16 M126,{r3+50} l9,16" stroke="{INK}" stroke-width="0.9"/>')
+    s.append(f'<path d="M104,{r3+18} q22,-16 44,0" fill="none" stroke="{GREEN}" stroke-width="0.9" stroke-dasharray="3 2"/>')
+    s.append(txt(126, r3 + 88, "垂臂：怀里天地", 6.6, GREEN, "middle"))
+    s.append(txt(154, r3 + 22, "「大」本是一人张开两臂的样子，", 7.4, "#6E6459"))
+    s.append(txt(154, r3 + 36, "量的只是占的地方有多宽。", 7.4, "#6E6459"))
+    s.append(txt(154, r3 + 56, "张开，抱住的只有一抱；", 7.6, INK))
+    s.append(txt(154, r3 + 70, "垂着，怀里是整个天地。", 7.6, INK))
+    s.append(txt(154, r3 + 104, "世人的大是把世界收进来，道的大是让它不必进来。", 6.8, SEAL))
+
+    # ---- 收 ----
+    y3 = r3 + 128
+    s.append(box(20, y3, 340, 44, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, y3 + 18, "功成而不名有，万物归焉而不为主。", 8.6, INK, "middle"))
+    s.append(txt(190, y3 + 34, "同一个「不为主」：从它自己看是小，从万物看是大。", 7.8, "#6E6459", "middle"))
+    s.append(gold(y3 + 52, "ch34"))
+    s.append('</svg>')
+    return "\n".join(s)
+
+
+
 
 FIGS = {
     "ch01-wu-you": ("第一章", "无有同出", ch01_wu_you),
@@ -2274,6 +2342,7 @@ FIGS = {
     "ch32a-ming-zhi": ("第三十二章", "名与止", ch32a_ming_zhi),
     "ch32b-chuan-gu": ("第三十二章", "川谷与江海", ch32b_chuan_gu),
     "ch33-zi-zhi-zhe-ming": ("第三十三章", "自知者明", ch33_zi_zhi_zhe_ming),
+    "ch34-bu-zhu": ("第三十四章", "不主故能成其大", ch34_bu_zhu_wei_da),
 }
 
 
