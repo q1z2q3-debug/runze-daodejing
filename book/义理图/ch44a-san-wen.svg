@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 380 520" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="亲是到得了，多是重，病是病上加病" font-family="'Noto Serif CJK SC','Noto Serif SC','Songti SC',serif">
+<defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#6E6459"/></marker><marker id="arr2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#4A5C55"/></marker><marker id="arrL" viewBox="0 0 10 10" refX="1" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M10 0 L0 5 L10 10 z" fill="#4A5C55"/></marker><marker id="arrS" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#A2503B"/></marker></defs>
+<rect x="0" y="0" width="380" height="520" fill="#F8F3E6"/>
+<text x="20" y="26" font-size="11" fill="#A2503B" font-family="'Noto Sans CJK SC','Noto Sans SC',sans-serif" letter-spacing="3">第 四 十 四 章 · 三 问</text>
+<text x="20" y="58" font-size="21" fill="#2F2A24">三问，越问越近</text>
+<text x="20" y="78" font-size="10.5" fill="#6E6459">从别人的眼，到手上的物，到要拿的那个念。</text>
+<rect x="20" y="102" width="340" height="30" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="190" y="115" font-size="6.8" fill="#2F2A24" text-anchor="middle">名与身孰亲？身与货孰多？得与亡孰病？</text>
+<text x="190" y="127" font-size="5.7" fill="#6E6459" text-anchor="middle">三问不是三道并列的选择题，是一次往里剥。</text>
+<text x="24" y="156" font-size="6.2" fill="#2F2A24">一 · 名与身孰亲</text>
+<path d="M42,172 h34 a5,5 0 0 1 5,5 v8 a5,5 0 0 1 -5,5 h-22 l-7,7 v-7 h-5 a5,5 0 0 1 -5,-5 v-8 a5,5 0 0 1 5,-5 z" fill="#F2EADA" stroke="#2F2A24" stroke-width="0.7"/>
+<text x="64" y="183" font-size="5.8" fill="#2F2A24" text-anchor="middle">名</text>
+<line x1="86" y1="182" x2="104" y2="182" stroke="#C9B79A" stroke-width="0.6" stroke-dasharray="4 4"/>
+<circle cx="116" cy="174" r="4.4" fill="none" stroke="#4A5C55" stroke-width="1"/>
+<line x1="116" y1="178" x2="116" y2="188" stroke="#4A5C55" stroke-width="1"/>
+<text x="116" y="198" font-size="5.2" fill="#4A5C55" text-anchor="middle">身</text>
+<text x="150" y="172" font-size="6.0" fill="#2F2A24">名在别人嘴里，落在别人对你的记录上；你摸不到它。</text>
+<text x="150" y="188" font-size="6.0" fill="#6E6459">「亲」，《说文》「至也」——到得了。</text>
+<text x="150" y="206" font-size="6.2" fill="#4A5C55">一个够不着，一个你就在里头。这一问不必回答。</text>
+<text x="24" y="242" font-size="6.2" fill="#2F2A24">二 · 身与货孰多</text>
+<circle cx="80" cy="256" r="4.2" fill="none" stroke="#2F2A24" stroke-width="1"/>
+<line x1="80" y1="260" x2="80" y2="280" stroke="#2F2A24" stroke-width="1"/>
+<line x1="80" y1="280" x2="72" y2="292" stroke="#2F2A24" stroke-width="0.9"/>
+<line x1="80" y1="280" x2="88" y2="292" stroke="#2F2A24" stroke-width="0.9"/>
+<line x1="80" y1="266" x2="62" y2="266" stroke="#2F2A24" stroke-width="0.7"/>
+<rect x="40" y="250" width="20" height="16" fill="#E6D8C2" stroke="#2F2A24" stroke-width="0.6"/>
+<rect x="40" y="268" width="20" height="16" fill="#E6D8C2" stroke="#2F2A24" stroke-width="0.6"/>
+<line x1="50" y1="282" x2="50" y2="294" stroke="#2F2A24" stroke-width="0.6"/>
+<text x="80" y="300" font-size="5.2" fill="#A2503B" text-anchor="middle">压在谁身上</text>
+<text x="150" y="258" font-size="6.0" fill="#2F2A24">「多」，《说文》「重也」——不是数量，是分量。</text>
+<text x="150" y="274" font-size="6.0" fill="#6E6459">货在身外，可它压在身上；要守它，就得一直看着它。</text>
+<text x="150" y="292" font-size="6.2" fill="#2F2A24">一个人囤到一定程度，不是他拥有货，是货拥有他。</text>
+<text x="24" y="330" font-size="6.2" fill="#2F2A24">三 · 得与亡孰病</text>
+<rect x="46" y="340" width="34" height="11" fill="#F0E3D6" stroke="#A2503B" stroke-width="0.6"/>
+<rect x="46" y="353" width="34" height="11" fill="#F0E3D6" stroke="#A2503B" stroke-width="0.6"/>
+<rect x="46" y="366" width="34" height="11" fill="#F0E3D6" stroke="#A2503B" stroke-width="0.6"/>
+<text x="63" y="348" font-size="4.9" fill="#A2503B" text-anchor="middle">争</text>
+<text x="63" y="361" font-size="4.9" fill="#A2503B" text-anchor="middle">守</text>
+<text x="63" y="374" font-size="4.9" fill="#A2503B" text-anchor="middle">怕丢</text>
+<text x="63" y="390" font-size="5.0" fill="#6E6459" text-anchor="middle">一次「得」，背三份工</text>
+<text x="150" y="346" font-size="6.0" fill="#2F2A24">「病」，《说文》「疾加也」——在病上再加一层。</text>
+<text x="150" y="362" font-size="6.0" fill="#6E6459">得到要争，得到要守，守住了还怕丢。</text>
+<text x="150" y="380" font-size="5.9" fill="#A2503B">而「亡」只是把这份工卸了。病重的常是那个一直在得的人。</text>
+<line x1="24" y1="402" x2="338" y2="402" stroke="#DCCBB0" stroke-width="0.6"/>
+<rect x="20" y="412" width="340" height="44" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="190" y="428" font-size="6.8" fill="#2F2A24" text-anchor="middle">三问剥三层：别人的眼、手上的物、要拿的那个念。</text>
+<text x="190" y="442" font-size="6.4" fill="#4A5C55" text-anchor="middle">剥到底，只剩一句：你要的那样东西，正在拿什么换。</text>
+<line x1="20" y1="470" x2="360" y2="470" stroke="#E6D8C2" stroke-width="0.8"/>
+<text x="20" y="484" font-size="8.0" fill="#A89577" letter-spacing="1">本 章 金 句</text>
+<text x="20" y="500" font-size="8.4" fill="#2F2A24">「亲」是「到得了」——名够不着，身够得着；这一问不必回答，字义已经答了。</text>
+<text x="20" y="516" font-size="8.4" fill="#2F2A24">失去是丢东西；不停地得，是把自己也搭进去当本钱。</text>
+</svg>

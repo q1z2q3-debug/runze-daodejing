@@ -1518,6 +1518,12 @@ GOLD = {
     "ch23": ["自然不是「不管」，是「不需要管」——差别全在有没有人在使劲。", "信不足，不是话说得不够多，是话后面没有人。"],
     "ch24": ["借来的高度站不住，省下的步子走不远。", "不处不是割掉，是不长——约束是按住它，不处是根本不在那儿站。"],
     "ch25": ["不是它比天地老，是天地离了它不成。", "名是给有边界的东西用的；对没有边界的东西，名只是手指。"],
+    "ch44c": ["知足不是心态好，是站得稳；站得稳的人不抢，不抢的人不容易被踩。",
+               "忍是拉住自己，止是把脚放下；一个还在跟自己较劲，一个已经不较了。"],
+    "ch44b": ["喜欢是不要钱的，甚爱是要月供的。",
+               "藏是一件件往里搬，亡是一件件往外跑；搬得越多，跑得越勤。"],
+    "ch44a": ["「亲」是「到得了」——名够不着，身够得着；这一问不必回答，字义已经答了。",
+               "失去是丢东西；不停地得，是把自己也搭进去当本钱。"],
     "ch43b": ["撞是把自己的力交出去，跑是把自己的力留着。",
                "它赢的方式，是让「强弱」这场比赛根本不成立。"],
     "ch43a": ["「柔」从木，是能曲能直；「坚」从土，硬成一块。一个还能变，一个已经定了。",
@@ -3602,6 +3608,170 @@ def ch43b_bu_zhuang_shi_pao():
     return "\n".join(s)
 
 
+# ============ 第四十四章 · 三问 ============
+def ch44a_san_wen():
+    W, H = 380, 520
+    body, y = head(W, H, "亲是到得了，多是重，病是病上加病", "第 四 十 四 章 · 三 问",
+                   "三问，越问越近", "从别人的眼，到手上的物，到要拿的那个念。", H)
+    s = [body]
+
+    s.append(box(20, y + 2, 340, 30, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, y + 15, "名与身孰亲？身与货孰多？得与亡孰病？", 6.8, INK, "middle"))
+    s.append(txt(190, y + 27, "三问不是三道并列的选择题，是一次往里剥。", 5.7, "#6E6459", "middle"))
+
+    # 一、名与身
+    a = y + 50
+    s.append(txt(24, a + 6, "一 · 名与身孰亲", 6.2, INK))
+    s.append(f'<path d="M42,{a+22} h34 a5,5 0 0 1 5,5 v8 a5,5 0 0 1 -5,5 h-22 l-7,7 v-7 h-5 a5,5 0 0 1 -5,-5 v-8 a5,5 0 0 1 5,-5 z" '
+             f'fill="#F2EADA" stroke="{INK}" stroke-width="0.7"/>')
+    s.append(txt(64, a + 33, "名", 5.8, INK, "middle"))
+    s.append(f'<line x1="86" y1="{a+32}" x2="104" y2="{a+32}" stroke="#C9B79A" stroke-width="0.6" stroke-dasharray="4 4"/>')
+    s.append(f'<circle cx="116" cy="{a+24}" r="4.4" fill="none" stroke="{GREEN}" stroke-width="1"/>')
+    s.append(f'<line x1="116" y1="{a+28}" x2="116" y2="{a+38}" stroke="{GREEN}" stroke-width="1"/>')
+    s.append(txt(116, a + 48, "身", 5.2, GREEN, "middle"))
+    s.append(txt(150, a + 22, "名在别人嘴里，落在别人对你的记录上；你摸不到它。", 6.0, INK))
+    s.append(txt(150, a + 38, "「亲」，《说文》「至也」——到得了。", 6.0, "#6E6459"))
+    s.append(txt(150, a + 56, "一个够不着，一个你就在里头。这一问不必回答。", 6.2, GREEN))
+
+    # 二、身与货
+    b = a + 86
+    s.append(txt(24, b + 6, "二 · 身与货孰多", 6.2, INK))
+    s.append(f'<circle cx="80" cy="{b+20}" r="4.2" fill="none" stroke="{INK}" stroke-width="1"/>')
+    s.append(f'<line x1="80" y1="{b+24}" x2="80" y2="{b+44}" stroke="{INK}" stroke-width="1"/>')
+    s.append(f'<line x1="80" y1="{b+44}" x2="72" y2="{b+56}" stroke="{INK}" stroke-width="0.9"/>')
+    s.append(f'<line x1="80" y1="{b+44}" x2="88" y2="{b+56}" stroke="{INK}" stroke-width="0.9"/>')
+    s.append(f'<line x1="80" y1="{b+30}" x2="62" y2="{b+30}" stroke="{INK}" stroke-width="0.7"/>')
+    s.append(f'<rect x="40" y="{b+14}" width="20" height="16" fill="#E6D8C2" stroke="{INK}" stroke-width="0.6"/>')
+    s.append(f'<rect x="40" y="{b+32}" width="20" height="16" fill="#E6D8C2" stroke="{INK}" stroke-width="0.6"/>')
+    s.append(f'<line x1="50" y1="{b+46}" x2="50" y2="{b+58}" stroke="{INK}" stroke-width="0.6"/>')
+    s.append(txt(80, b + 64, "压在谁身上", 5.2, SEAL, "middle"))
+    s.append(txt(150, b + 22, "「多」，《说文》「重也」——不是数量，是分量。", 6.0, INK))
+    s.append(txt(150, b + 38, "货在身外，可它压在身上；要守它，就得一直看着它。", 6.0, "#6E6459"))
+    s.append(txt(150, b + 56, "一个人囤到一定程度，不是他拥有货，是货拥有他。", 6.2, INK))
+
+    # 三、得与亡
+    c = b + 88
+    s.append(txt(24, c + 6, "三 · 得与亡孰病", 6.2, INK))
+    for i in range(3):
+        s.append(f'<rect x="46" y="{c+16+i*13}" width="34" height="11" fill="#F0E3D6" stroke="{SEAL}" stroke-width="0.6"/>')
+    s.append(txt(63, c + 24, "争", 4.9, SEAL, "middle"))
+    s.append(txt(63, c + 37, "守", 4.9, SEAL, "middle"))
+    s.append(txt(63, c + 50, "怕丢", 4.9, SEAL, "middle"))
+    s.append(txt(63, c + 66, "一次「得」，背三份工", 5.0, "#6E6459", "middle"))
+    s.append(txt(150, c + 22, "「病」，《说文》「疾加也」——在病上再加一层。", 6.0, INK))
+    s.append(txt(150, c + 38, "得到要争，得到要守，守住了还怕丢。", 6.0, "#6E6459"))
+    s.append(txt(150, c + 56, "而「亡」只是把这份工卸了。病重的常是那个一直在得的人。", 5.9, SEAL))
+
+    y2 = c + 84
+    s.append(f'<line x1="24" y1="{y2-6}" x2="338" y2="{y2-6}" stroke="{LINE}" stroke-width="0.6"/>')
+    s.append(box(20, y2 + 4, 340, 44, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, y2 + 20, "三问剥三层：别人的眼、手上的物、要拿的那个念。", 6.8, INK, "middle"))
+    s.append(txt(190, y2 + 34, "剥到底，只剩一句：你要的那样东西，正在拿什么换。", 6.4, GREEN, "middle"))
+    s.append(gold(y2 + 62, "ch44a"))
+    s.append('</svg>')
+    return "\n".join(s)
+
+
+# ============ 第四十四章 · 月供与逃跑 ============
+def ch44b_yue_gong_yu_tao():
+    W, H = 380, 520
+    body, y = head(W, H, "喜欢不要钱，甚爱要月供；藏得越多，跑得越勤", "第 四 十 四 章 · 费 亡",
+                   "月供与逃跑", "甚爱必大费，多藏必厚亡。", H)
+    s = [body]
+
+    s.append(box(20, y + 2, 340, 30, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, y + 15, "「费」，《说文》「散财用也」，从贝；「亡」，《说文》「逃也」。", 6.2, INK, "middle"))
+    s.append(txt(190, y + 27, "一个说的是花钱，一个说的是跑掉——都不是「伤心」，也不是「死」。", 5.7, "#6E6459", "middle"))
+
+    a = y + 48
+    s.append(txt(24, a + 6, "一 · 甚爱必大费", 6.2, SEAL))
+    s.append(f'<rect x="40" y="{a+20}" width="44" height="40" rx="3" fill="#F7F1E3" stroke="{INK}" stroke-width="0.8"/>')
+    s.append(f'<rect x="52" y="{a+32}" width="20" height="16" fill="#E6D8C2" stroke="{INK}" stroke-width="0.6"/>')
+    s.append(f'<path d="M54,{a+32} v-4 a4,4 0 0 1 8,0 v4" fill="none" stroke="{SEAL}" stroke-width="1"/>')
+    s.append(f'<path d="M64,{a+48} v3 a4,4 0 0 0 8,0 v-3" fill="none" stroke="{SEAL}" stroke-width="1"/>')
+    s.append(txt(42, a + 70, "锁进边界", 5.0, "#6E6459"))
+    for i in range(5):
+        s.append(f'<rect x="{92+i*9}" y="{a+26}" width="7" height="24" fill="#F0E3D6" stroke="{SEAL}" stroke-width="0.4"/>')
+    s.append(txt(108, a + 60, "按天付", 4.6, SEAL))
+    s.append(txt(150, a + 22, "你爱一个名，就要一直维护它：解释、澄清、防误解、应酬。", 5.9, INK))
+    s.append(txt(150, a + 38, "「爱」在这里是锁死：每开一次门，都要付一次费。", 5.9, "#6E6459"))
+    s.append(txt(150, a + 56, "「大费」的「大」，是这费不一次付清，是按天付。", 6.0, SEAL))
+
+    b = a + 96
+    s.append(txt(24, b + 6, "二 · 多藏必厚亡", 6.2, INK))
+    s.append(f'<rect x="36" y="{b+18}" width="52" height="44" fill="#F7F1E3" stroke="{INK}" stroke-width="0.9"/>')
+    s.append(f'<line x1="36" y1="{b+36}" x2="88" y2="{b+36}" stroke="{INK}" stroke-width="0.6"/>')
+    for i in range(3):
+        s.append(f'<rect x="{41+i*15}" y="{b+22}" width="11" height="10" fill="#E6D8C2" stroke="{INK}" stroke-width="0.4"/>')
+    for i in range(3):
+        s.append(f'<rect x="{41+i*15}" y="{b+40}" width="11" height="10" fill="#E6D8C2" stroke="{INK}" stroke-width="0.4"/>')
+    for dx, dy in [(16, -10), (30, 2), (26, 20), (6, 26), (-10, 12)]:
+        s.append(f'<line x1="88" y1="{b+34}" x2="{88+dx}" y2="{b+34+dy}" stroke="{SEAL}" stroke-width="0.6" stroke-dasharray="4 3"/>')
+        s.append(f'<rect x="{88+dx-3}" y="{b+34+dy-3}" width="6" height="6" fill="{SEAL}" opacity="0.85"/>')
+    s.append(txt(30, b + 70, "藏得越多，跑得越勤", 5.0, "#6E6459"))
+    s.append(txt(150, b + 22, "「亡」是「逃也」——跟「死」不是一回事。", 5.9, INK))
+    s.append(txt(150, b + 38, "藏一百样，就有一百样会跑：跑一样疼，跑一样急。", 5.9, "#6E6459"))
+    s.append(txt(150, b + 56, "藏是一件件往里搬，亡是一件件往外跑。", 6.0, INK))
+
+    y2 = b + 102
+    s.append(f'<line x1="24" y1="{y2-6}" x2="338" y2="{y2-6}" stroke="{LINE}" stroke-width="0.6"/>')
+    s.append(box(20, y2 + 4, 340, 44, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, y2 + 20, "这一章不是道德劝谕，是一份成本核算。", 6.8, INK, "middle"))
+    s.append(txt(190, y2 + 34, "每一次向外抓取，都在从身家性命里扣一笔。", 6.4, GREEN, "middle"))
+    s.append(gold(y2 + 62, "ch44b"))
+    s.append('</svg>')
+    return "\n".join(s)
+
+
+# ============ 第四十四章 · 脚与止 ============
+def ch44c_jiao_yu_zhi():
+    W, H = 380, 566
+    body, y = head(W, H, "足是脚，止是脚趾：站住，才长久", "第 四 十 四 章 · 足 止",
+                   "站住，停脚", "知足不是心态好，是站得稳。", H)
+    s = [body]
+
+    s.append(box(20, y + 2, 340, 30, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, y + 15, "「足」，脚；「止」，脚趾。这两个字本来是身体词。", 6.4, INK, "middle"))
+    s.append(txt(190, y + 27, "老子不是在劝人心态，是在说一个人得知道自己站在哪儿、什么时候停脚。", 5.3, "#6E6459", "middle"))
+
+    # 左：脚印
+    a = y + 50
+    s.append(txt(24, a + 6, "一 · 足：站得住的那个地方", 6.0, GREEN))
+    cx, top = 84, a + 24
+    s.append(f'<ellipse cx="{cx}" cy="{top+40}" rx="17" ry="26" fill="#EFE4CF" stroke="{INK}" stroke-width="0.8"/>')
+    for i, (dx, r) in enumerate([(-13, 4.2), (-7, 4.4), (-1, 4.6), (4, 4.2), (9, 3.6)]):
+        s.append(f'<circle cx="{cx+dx}" cy="{top+6+abs(dx)*0.4}" r="{r}" fill="none" stroke="{GREEN}" stroke-width="0.8"/>')
+    s.append(f'<line x1="{cx+22}" y1="{top+2}" x2="{cx+34}" y2="{top-6}" stroke="{GREEN}" stroke-width="0.6"/>')
+    s.append(txt(cx + 38, top - 6, "止", 6.0, GREEN))
+    s.append(txt(cx, top + 76, "足＝脚：站着的地方", 5.2, "#6E6459", "middle"))
+    s.append(txt(150, a + 24, "「足」是脚。知足不是觉得自己够了，", 5.9, INK))
+    s.append(txt(150, a + 40, "是知道自己站在哪儿——站得稳的人不抢，", 5.9, INK))
+    s.append(txt(150, a + 54, "不抢的人不容易被踩。", 5.9, INK))
+
+    # 右：止与忍
+    b = a + 126
+    s.append(txt(24, b + 6, "二 · 止：停住的那个动作", 6.0, SEAL))
+    s.append(f'<path d="M42,{b+78} C62,{b+58} 82,{b+44} 102,{b+42} C118,{b+41} 128,{b+50} 138,{b+64}" fill="none" stroke="{INK}" stroke-width="0.9"/>')
+    s.append(f'<path d="M138,{b+64} C132,{b+72} 124,{b+76} 116,{b+78}" fill="none" stroke="#C9B79A" stroke-width="0.6" stroke-dasharray="4 4"/>')
+    s.append(txt(110, b + 32, "顶点", 4.8, SEAL, "middle"))
+    s.append(f'<line x1="110" y1="{b+36}" x2="110" y2="{b+41}" stroke="{SEAL}" stroke-width="0.5"/>')
+    s.append(f'<circle cx="90" cy="{b+47}" r="4.2" fill="none" stroke="{GREEN}" stroke-width="1"/>')
+    s.append(txt(74, b + 96, "在这里停脚", 4.9, GREEN, "middle"))
+    s.append(txt(144, b + 26, "「止」是脚趾，是落点：", 5.8, INK))
+    s.append(txt(144, b + 40, "把脚放下，就不较劲了。", 5.8, INK))
+    s.append(txt(144, b + 58, "「忍」是拉住自己，还在往前倾。", 5.8, SEAL))
+    s.append(txt(144, b + 78, "一个已经放下，一个还在争。", 5.9, "#6E6459"))
+
+    y2 = b + 110
+    s.append(f'<line x1="24" y1="{y2-6}" x2="338" y2="{y2-6}" stroke="{LINE}" stroke-width="0.6"/>')
+    s.append(box(20, y2 + 4, 340, 46, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, y2 + 20, "长久不是不死，是一直没到那个该翻过来的点。", 6.8, INK, "middle"))
+    s.append(txt(190, y2 + 34, "过了顶点还在迈步，就撞上「物壮则老」。", 6.2, "#6E6459", "middle"))
+    s.append(gold(y2 + 62, "ch44c"))
+    s.append('</svg>')
+    return "\n".join(s)
+
+
 
 FIGS = {
     "ch01-wu-you": ("第一章", "无有同出", ch01_wu_you),
@@ -3630,6 +3800,9 @@ FIGS = {
     "ch42c-zheng-fan-he": ("第四十二章", "正 · 分 · 散 · 和", ch42c_zheng_fan_he),
     "ch43a-rou-bu-shi-ruan": ("第四十三章", "柔不是软", ch43a_rou_bu_shi_ruan),
     "ch43b-bu-zhuang-shi-pao": ("第四十三章", "不撞，是跑", ch43b_bu_zhuang_shi_pao),
+    "ch44a-san-wen": ("第四十四章", "三问，越问越近", ch44a_san_wen),
+    "ch44b-yue-gong-yu-tao": ("第四十四章", "月供与逃跑", ch44b_yue_gong_yu_tao),
+    "ch44c-jiao-yu-zhi": ("第四十四章", "站住，停脚", ch44c_jiao_yu_zhi),
     "ch12-wu-se": ("第十二章", "门开五处", ch12_wu_se),
     "ch13-chong-ru": ("第十三章", "惊的是我", ch13_chong_ru),
     "ch14-yi-xi-wei": ("第十四章", "三样工具探不到", ch14_yi_xi_wei),
