@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 380 500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="一失再失：越往下，越靠作意撑" font-family="'Noto Serif CJK SC','Noto Serif SC','Songti SC',serif">
+<defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#6E6459"/></marker><marker id="arr2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#4A5C55"/></marker><marker id="arrL" viewBox="0 0 10 10" refX="1" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M10 0 L0 5 L10 10 z" fill="#4A5C55"/></marker><marker id="arrS" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#A2503B"/></marker></defs>
+<rect x="0" y="0" width="380" height="500" fill="#F8F3E6"/>
+<text x="20" y="26" font-size="11" fill="#A2503B" font-family="'Noto Sans CJK SC','Noto Sans SC',sans-serif" letter-spacing="3">第 三 十 八 章 · 台 阶</text>
+<text x="20" y="58" font-size="21" fill="#2F2A24">五级台阶</text>
+<text x="20" y="78" font-size="10.5" fill="#6E6459">药可治病，药不是饭；礼可维序，礼不是和。</text>
+<rect x="20" y="102" width="340" height="38" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="190" y="118" font-size="7.4" fill="#2F2A24" text-anchor="middle">上德不德，是以有德；下德不失德，是以无德。</text>
+<text x="190" y="132" font-size="7.4" fill="#2F2A24" text-anchor="middle">失道而后德，失德而后仁，失仁而后义，失义而后礼。</text>
+<path d="M24,162 L82,162 L82,182 L148,182 L148,200 L214,200 L214,218 L280,218 L280,236 L338,236 L338,264 L24,264 Z" fill="#F7F1E3" stroke="#2F2A24" stroke-width="1"/>
+<text x="51" y="182" font-size="9.6" fill="#4A5C55" text-anchor="middle">道</text>
+<text x="113" y="202" font-size="9.6" fill="#2F2A24" text-anchor="middle">德</text>
+<text x="181" y="220" font-size="9.6" fill="#2F2A24" text-anchor="middle">仁</text>
+<text x="247" y="238" font-size="9.6" fill="#A2503B" text-anchor="middle">义</text>
+<text x="309" y="254" font-size="9.6" fill="#A2503B" text-anchor="middle">礼</text>
+<text x="190" y="277" font-size="6.0" fill="#A2503B" text-anchor="middle">四级四失：道失而后德，德失而后仁，仁失而后义，义失而后礼</text>
+<line x1="24" y1="282" x2="338" y2="282" stroke="#DCCBB0" stroke-width="0.6"/>
+<text x="52" y="300" font-size="6.4" fill="#4A5C55" text-anchor="middle">无作意</text>
+<text x="52" y="312" font-size="6.0" fill="#6E6459" text-anchor="middle">万物自化</text>
+<text x="114" y="292" font-size="6.2" fill="#2F2A24" text-anchor="middle">无以为</text>
+<text x="114" y="303" font-size="5.9" fill="#6E6459" text-anchor="middle">不自知有德</text>
+<text x="114" y="319" font-size="6.2" fill="#A2503B" text-anchor="middle">有以为</text>
+<text x="114" y="330" font-size="5.9" fill="#6E6459" text-anchor="middle">守着，怕丢</text>
+<text x="181" y="300" font-size="6.2" fill="#2F2A24" text-anchor="middle">为之</text>
+<text x="181" y="312" font-size="5.9" fill="#6E6459" text-anchor="middle">而无以为</text>
+<text x="247" y="300" font-size="6.2" fill="#2F2A24" text-anchor="middle">为之</text>
+<text x="247" y="312" font-size="5.9" fill="#6E6459" text-anchor="middle">而有以为</text>
+<text x="309" y="300" font-size="6.2" fill="#A2503B" text-anchor="middle">莫之应</text>
+<text x="309" y="312" font-size="5.7" fill="#6E6459" text-anchor="middle">攘臂而扔之</text>
+<line x1="24" y1="340" x2="338" y2="340" stroke="#DCCBB0" stroke-width="0.6"/>
+<rect x="20" y="350" width="340" height="56" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="190" y="368" font-size="7.2" fill="#2F2A24" text-anchor="middle">礼不是不好；它出现在忠信之后——到这一层，前面的都已失掉了。</text>
+<text x="190" y="384" font-size="7.2" fill="#6E6459" text-anchor="middle">这张表不用来给别人分级，用它认出自己此刻站在第几级。</text>
+<text x="190" y="398" font-size="6.8" fill="#A2503B" text-anchor="middle">越往下，越靠作意撑；作意越重，越要靠强制。</text>
+<line x1="20" y1="414" x2="360" y2="414" stroke="#E6D8C2" stroke-width="0.8"/>
+<text x="20" y="428" font-size="8.0" fill="#A89577" letter-spacing="1">本 章 金 句</text>
+<text x="20" y="444" font-size="8.4" fill="#2F2A24">失道而后德，失德而后仁，失仁而后义，失义而后礼。</text>
+<text x="20" y="460" font-size="8.4" fill="#2F2A24">药可治病，药不是饭；礼可维序，礼不是和。</text>
+</svg>

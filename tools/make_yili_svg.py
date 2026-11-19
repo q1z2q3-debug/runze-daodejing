@@ -1518,6 +1518,8 @@ GOLD = {
     "ch23": ["自然不是「不管」，是「不需要管」——差别全在有没有人在使劲。", "信不足，不是话说得不够多，是话后面没有人。"],
     "ch24": ["借来的高度站不住，省下的步子走不远。", "不处不是割掉，是不长——约束是按住它，不处是根本不在那儿站。"],
     "ch25": ["不是它比天地老，是天地离了它不成。", "名是给有边界的东西用的；对没有边界的东西，名只是手指。"],
+    "ch38": ["失道而后德，失德而后仁，失仁而后义，失义而后礼。",
+              "药可治病，药不是饭；礼可维序，礼不是和。"],
     "ch37b": ["压住火的不是更多的柴，是把它从柴上挪开。",
               "静的对立面不是「动」，是「驰」。"],
     "ch37a": ["「为」的原型是一只手牵着象：无为撤掉的不是事，是那只手。",
@@ -2825,6 +2827,60 @@ def ch37b_pu_yu_jing():
     return "\n".join(s)
 
 
+# ============ 第三十八章 · 五级台阶 ============
+def ch38_wu_ji_tai_jie():
+    W, H = 380, 500
+    body, y = head(W, H, "一失再失：越往下，越靠作意撑", "第 三 十 八 章 · 台 阶",
+                   "五级台阶", "药可治病，药不是饭；礼可维序，礼不是和。", H)
+    s = [body]
+
+    s.append(box(20, y + 2, 340, 38, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, y + 18, "上德不德，是以有德；下德不失德，是以无德。", 7.4, INK, "middle"))
+    s.append(txt(190, y + 32, "失道而后德，失德而后仁，失仁而后义，失义而后礼。", 7.4, INK, "middle"))
+
+    a = y + 48
+    base = a + 116
+    treads = [(24, 14), (82, 34), (148, 52), (214, 70), (280, 88)]
+    pts = []
+    for i, (x, off) in enumerate(treads):
+        nxt = treads[i + 1][0] if i + 1 < len(treads) else 338
+        pts.append(f'{nxt},{a+off}')
+        if i + 1 < len(treads):
+            pts.append(f'{nxt},{a+treads[i+1][1]}')
+    d = f'M24,{a+14} L' + ' L'.join(pts) + f' L338,{base} L24,{base} Z'
+    s.append(f'<path d="{d}" fill="#F7F1E3" stroke="{INK}" stroke-width="1"/>')
+    for nm, cx, cy, col in (("道", 51, 34, GREEN), ("德", 113, 54, INK), ("仁", 181, 72, INK),
+                            ("义", 247, 90, SEAL), ("礼", 309, 106, SEAL)):
+        s.append(txt(cx, a + cy, nm, 9.6, col, "middle"))
+
+    s.append(txt(190, base + 13, "四级四失：道失而后德，德失而后仁，仁失而后义，义失而后礼", 6.0, SEAL, "middle"))
+
+    lg = base + 24
+    s.append(f'<line x1="24" y1="{lg-6}" x2="338" y2="{lg-6}" stroke="{LINE}" stroke-width="0.6"/>')
+    s.append(txt(52, lg + 12, "无作意", 6.4, GREEN, "middle"))
+    s.append(txt(52, lg + 24, "万物自化", 6.0, "#6E6459", "middle"))
+    s.append(txt(114, lg + 4, "无以为", 6.2, INK, "middle"))
+    s.append(txt(114, lg + 15, "不自知有德", 5.9, "#6E6459", "middle"))
+    s.append(txt(114, lg + 31, "有以为", 6.2, SEAL, "middle"))
+    s.append(txt(114, lg + 42, "守着，怕丢", 5.9, "#6E6459", "middle"))
+    s.append(txt(181, lg + 12, "为之", 6.2, INK, "middle"))
+    s.append(txt(181, lg + 24, "而无以为", 5.9, "#6E6459", "middle"))
+    s.append(txt(247, lg + 12, "为之", 6.2, INK, "middle"))
+    s.append(txt(247, lg + 24, "而有以为", 5.9, "#6E6459", "middle"))
+    s.append(txt(309, lg + 12, "莫之应", 6.2, SEAL, "middle"))
+    s.append(txt(309, lg + 24, "攘臂而扔之", 5.7, "#6E6459", "middle"))
+    s.append(f'<line x1="24" y1="{lg+52}" x2="338" y2="{lg+52}" stroke="{LINE}" stroke-width="0.6"/>')
+
+    y3 = lg + 62
+    s.append(box(20, y3, 340, 56, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, y3 + 18, "礼不是不好；它出现在忠信之后——到这一层，前面的都已失掉了。", 7.2, INK, "middle"))
+    s.append(txt(190, y3 + 34, "这张表不用来给别人分级，用它认出自己此刻站在第几级。", 7.2, "#6E6459", "middle"))
+    s.append(txt(190, y3 + 48, "越往下，越靠作意撑；作意越重，越要靠强制。", 6.8, SEAL, "middle"))
+    s.append(gold(y3 + 64, "ch38"))
+    s.append('</svg>')
+    return "\n".join(s)
+
+
 
 FIGS = {
     "ch01-wu-you": ("第一章", "无有同出", ch01_wu_you),
@@ -2879,6 +2935,7 @@ FIGS = {
     "ch36b-wei-ming-yuan": ("第三十六章", "微明 · 渊 · 利器", ch36b_wei_ming_yuan),
     "ch37a-wei-shou-xiang": ("第三十七章", "手牵象，与自化", ch37a_wei_shou_xiang),
     "ch37b-pu-yu-jing": ("第三十七章", "朴 · 静 · 自正", ch37b_pu_yu_jing),
+    "ch38-wu-ji-tai-jie": ("第三十八章", "五级台阶", ch38_wu_ji_tai_jie),
 }
 
 
