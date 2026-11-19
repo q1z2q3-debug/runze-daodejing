@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 380 664" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="一笔、一字、一行，写到最后是收笔" font-family="'Noto Serif CJK SC','Noto Serif SC','Songti SC',serif">
+<defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#6E6459"/></marker><marker id="arr2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#4A5C55"/></marker><marker id="arrL" viewBox="0 0 10 10" refX="1" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M10 0 L0 5 L10 10 z" fill="#4A5C55"/></marker><marker id="arrS" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#A2503B"/></marker></defs>
+<rect x="0" y="0" width="380" height="664" fill="#F8F3E6"/>
+<text x="20" y="26" font-size="11" fill="#A2503B" font-family="'Noto Sans CJK SC','Noto Sans SC',sans-serif" letter-spacing="3">第 四 十 五 章 · 笔</text>
+<text x="20" y="58" font-size="21" fill="#2F2A24">写到该停的地方</text>
+<text x="20" y="78" font-size="10.5" fill="#6E6459">大直若屈，大巧若拙，大辩若讷。</text>
+<rect x="20" y="102" width="340" height="30" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="190" y="114" font-size="5.5" fill="#2F2A24" text-anchor="middle">写字全在收：一横不能一路按到底，一字不能让人看出用劲，一行不能写满。</text>
+<text x="190" y="126" font-size="5.6" fill="#6E6459" text-anchor="middle">同一种手：到极处，还留一处没使完的劲。</text>
+<text x="24" y="152" font-size="6.0" fill="#A2503B">一笔 · 大直若屈</text>
+<path d="M38,192 L74,198 L104,198 L104,206 L74,206 L38,212 Z" fill="#2F2A24"/>
+<path d="M104,193 L122,199 L122,205 L104,211 Z" fill="#2F2A24"/>
+<path d="M84,188 l0,-6 M82,184 l2,-3 l2,3" fill="none" stroke="#A2503B" stroke-width="0.5"/>
+<text x="150" y="180" font-size="5.5" fill="#2F2A24">一横若一路按到底，就僵；中间提一下，它才走得远。</text>
+<text x="150" y="196" font-size="5.4" fill="#6E6459">一条直线压下去是死的。</text>
+<text x="24" y="244" font-size="6.0" fill="#A2503B">一字 · 大巧若拙</text>
+<rect x="38" y="278" width="34" height="9" rx="4.5" fill="#2F2A24"/>
+<path d="M38,296 L58,302 L72,302 L72,308 L38,308 Z" fill="#2F2A24" opacity="0.6"/>
+<path d="M38,302 l-6,-2 M38,308 l-6,2" fill="none" stroke="#2F2A24" stroke-width="0.5" opacity="0.6"/>
+<text x="86" y="282" font-size="4.4" fill="#6E6459">露锋</text>
+<text x="86" y="302" font-size="4.4" fill="#4A5C55">藏锋</text>
+<text x="150" y="272" font-size="5.5" fill="#2F2A24">露锋的起收看得出用劲；藏锋的，看不出笔从哪儿来。</text>
+<text x="150" y="288" font-size="5.4" fill="#6E6459">看不出使过劲，才是本事。</text>
+<text x="24" y="336" font-size="6.0" fill="#A2503B">一行 · 大辩若讷</text>
+<rect x="38" y="370" width="6" height="32" fill="#2F2A24" opacity="0.88"/>
+<rect x="55" y="370" width="6" height="32" fill="#2F2A24" opacity="0.72"/>
+<rect x="72" y="370" width="6" height="32" fill="#2F2A24" opacity="0.56"/>
+<line x1="100" y1="368" x2="100" y2="404" stroke="#A2503B" stroke-width="0.5" stroke-dasharray="3 3"/>
+<text x="108" y="388" font-size="4.6" fill="#A2503B">留白</text>
+<text x="150" y="364" font-size="5.5" fill="#2F2A24">字写满、话说满，都不留余地；留白处才是气口。</text>
+<text x="150" y="380" font-size="5.4" fill="#6E6459">不写满，比写得多更要紧。</text>
+<text x="24" y="428" font-size="6.0" fill="#A2503B">收笔 · 清静为正</text>
+<path d="M38,471 L92,476 L110,478 L92,481 L38,486 Z" fill="#2F2A24"/>
+<line x1="112" y1="469" x2="112" y2="487" stroke="#A2503B" stroke-width="0.6"/>
+<text x="120" y="481" font-size="5.0" fill="#A2503B">止</text>
+<text x="150" y="456" font-size="5.5" fill="#2F2A24">笔停不下来会写过界、墨会洇开；停在该停处，字才立得住。</text>
+<text x="150" y="472" font-size="5.4" fill="#6E6459">动治不足，静治有余。</text>
+<line x1="24" y1="510" x2="338" y2="510" stroke="#DCCBB0" stroke-width="0.6"/>
+<rect x="20" y="520" width="340" height="44" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="190" y="536" font-size="6.2" fill="#2F2A24" text-anchor="middle">直、巧、辩，三样都在「收」上见高低。</text>
+<text x="190" y="550" font-size="6.2" fill="#4A5C55" text-anchor="middle">收到该停的地方，就是正。</text>
+<line x1="20" y1="578" x2="360" y2="578" stroke="#E6D8C2" stroke-width="0.8"/>
+<text x="20" y="592" font-size="8.0" fill="#A89577" letter-spacing="1">本 章 金 句</text>
+<text x="20" y="608" font-size="8.4" fill="#2F2A24">直、巧、辩，三样都在「收」上见高低。</text>
+<text x="20" y="624" font-size="8.4" fill="#2F2A24">「正」不是被谁摆正的，是它自己终于站住了。</text>
+</svg>

@@ -1518,7 +1518,10 @@ GOLD = {
     "ch23": ["自然不是「不管」，是「不需要管」——差别全在有没有人在使劲。", "信不足，不是话说得不够多，是话后面没有人。"],
     "ch24": ["借来的高度站不住，省下的步子走不远。", "不处不是割掉，是不长——约束是按住它，不处是根本不在那儿站。"],
     "ch25": ["不是它比天地老，是天地离了它不成。", "名是给有边界的东西用的；对没有边界的东西，名只是手指。"],
-    "ch45c": ["动可以赢一场冷，只有静能了断一场热。",
+    "ch45b_jing": ["满得溢出来的，是在往外倒；满在里面不溢的，是在往里续。"],
+    "ch45c_bi": ["直、巧、辩，三样都在「收」上见高低。",
+                 "「正」不是被谁摆正的，是它自己终于站住了。"],
+    "ch45c_old": ["动可以赢一场冷，只有静能了断一场热。",
                "「正」不是被谁摆正的，是它自己终于站住了。"],
     "ch45b": ["一刀切过去的直，走不了远路；能缩一下的直，才真的到得了。",
                "巧到要人看出巧，那是手艺；巧到看不出使过劲，那才是本事。"],
@@ -3838,124 +3841,107 @@ def ch45a_liu_yi_dao_feng():
 
 
 # ============ 第四十五章 · 五处，一道缝 ============
-def ch45b_wu_chu_liu_bai():
-    W, H = 380, 664
-    body, y = head(W, H, "五处留白，是同一种手，留在不同的地方", "第 四 十 五 章 · 五 若",
-                   "五处，一道缝", "冲到极处，都留一处没补齐。", H)
+# ============ 第四十五章 · 井 ============
+def ch45b_jing_ying_chong():
+    W, H = 380, 468
+    body, y = head(W, H, "越深的井，看下去越像空的", "第 四 十 五 章 · 井",
+                   "井口看着是空的", "大盈若冲，其用不穷。", H)
     s = [body]
 
     s.append(box(20, y + 2, 340, 30, fill="#F2EADA", stroke="#C9B79A"))
-    s.append(txt(190, y + 15, "大成若缺，大盈若冲，大直若屈，大巧若拙，大辩若讷。", 6.2, INK, "middle"))
-    s.append(txt(190, y + 27, "五处不是五个德目，是同一种手：到了头，留一处不补齐。", 5.6, "#6E6459", "middle"))
+    s.append(txt(190, y + 15, "「冲」，虚而不满——里面有东西在动。", 6.4, INK, "middle"))
+    s.append(txt(190, y + 27, "不是空，是满在里面、外面不显。", 5.7, "#6E6459", "middle"))
+
+    a = y + 48
+    ground = a + 34
+    # 井筒剖面
+    s.append(f'<line x1="24" y1="{ground}" x2="200" y2="{ground}" stroke="{INK}" stroke-width="0.7"/>')
+    s.append(f'<path d="M78,{ground} L86,{ground+96} L142,{ground+96} L150,{ground} Z" fill="none" stroke="{INK}" stroke-width="0.9"/>')
+    s.append(f'<path d="M92,{ground+96} L92,{ground+62} L136,{ground+62} L136,{ground+96} Z" fill="#DCE6E0" stroke="{GREEN}" stroke-width="0.5"/>')
+    s.append(f'<line x1="92" y1="{ground+62}" x2="136" y2="{ground+62}" stroke="{GREEN}" stroke-width="0.8"/>')
+    for k in range(2):
+        s.append(f'<path d="M98,{ground+70+k*9} q9,-4 18,0 q9,4 18,0" fill="none" stroke="{GREEN}" stroke-width="0.45" opacity="0.8"/>')
+    s.append(txt(114, ground + 84, "水在下面", 4.6, GREEN, "middle"))
+    # 井口：看下去是空的
+    s.append(f'<ellipse cx="114" cy="{ground}" rx="36" ry="7" fill="#EFE4CF" stroke="{INK}" stroke-width="0.8"/>')
+    s.append(f'<ellipse cx="114" cy="{ground}" rx="26" ry="4.6" fill="#6E6459" opacity="0.55"/>')
+    s.append(f'<line x1="114" y1="{ground-8}" x2="114" y2="{ground-26}" stroke="{SEAL}" stroke-width="0.5" stroke-dasharray="3 3"/>')
+    s.append(txt(114, ground - 32, "看下去，空的", 5.0, SEAL, "middle"))
+
+    # 右：一只满到口沿的杯子作对照
+    s.append(f'<path d="M226,{ground-36} L232,{ground+2} L272,{ground+2} L278,{ground-36}" fill="none" stroke="{INK}" stroke-width="0.8"/>')
+    s.append(f'<ellipse cx="252" cy="{ground-36}" rx="26" ry="5.2" fill="none" stroke="{INK}" stroke-width="0.7"/>')
+    s.append(f'<rect x="231" y="{ground-34}" width="42" height="18" fill="#E8D9C4" stroke="{SEAL}" stroke-width="0.4"/>')
+    s.append(f'<path d="M240,{ground-40} v-3 M252,{ground-40} v-5 M264,{ground-40} v-3" fill="none" stroke="{SEAL}" stroke-width="0.5"/>')
+    s.append(txt(252, ground + 16, "满到口沿，一满就到顶", 4.8, SEAL, "middle"))
+
+    b = ground + 112
+    s.append(txt(24, b + 10, "井：打得越深，口上看着越空。水不在口上，在下面。", 5.9, INK))
+    s.append(txt(24, b + 26, "它不往外倒，所以一直有得打——其用不穷。", 5.9, INK))
+    s.append(txt(24, b + 46, "杯子满到口沿，看着是满的；可它一满就到顶，再多一滴都是溢。", 5.9, SEAL))
+
+    y2 = b + 62
+    s.append(f'<line x1="24" y1="{y2-4}" x2="338" y2="{y2-4}" stroke="{LINE}" stroke-width="0.6"/>')
+    s.append(box(20, y2 + 4, 340, 44, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, y2 + 20, "满得溢出来的，是在往外倒；满在里面不溢的，是在往里续。", 6.2, INK, "middle"))
+    s.append(txt(190, y2 + 34, "真正充盈的在里面，外面永远是虚的。", 6.2, GREEN, "middle"))
+    s.append(gold(y2 + 62, "ch45b_jing"))
+    s.append('</svg>')
+    return "\n".join(s)
+
+
+# ============ 第四十五章 · 笔 ============
+def ch45c_bi_zhi():
+    W, H = 380, 664
+    body, y = head(W, H, "一笔、一字、一行，写到最后是收笔", "第 四 十 五 章 · 笔",
+                   "写到该停的地方", "大直若屈，大巧若拙，大辩若讷。", H)
+    s = [body]
+
+    s.append(box(20, y + 2, 340, 30, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, y + 14, "写字全在收：一横不能一路按到底，一字不能让人看出用劲，一行不能写满。", 5.5, INK, "middle"))
+    s.append(txt(190, y + 26, "同一种手：到极处，还留一处没使完的劲。", 5.6, "#6E6459", "middle"))
 
     rows = [
-        ("一 · 器", 0, "大成若缺", ["口沿缺一段，气从这里出去。", "其用不敝：封死就裂，留口不敝。"]),
-        ("二 · 水", 1, "大盈若冲", ["满在里面，外面仍是虚的；一直在往里续。", "其用不穷：满在外面的，一满就到顶。"]),
-        ("三 · 路", 2, "大直若屈", ["直切撞上障碍；绕一下，仍然到得了。", "屈不是弯，是缩：收短一点，好过去。"]),
-        ("四 · 手", 3, "大巧若拙", ["巧到极处，不再需要「巧」这个动作。", "看不出使过劲，才是本事；「拙」不是装笨。"]),
-        ("五 · 口", 4, "大辩若讷", ["话卡在嘴边；滔滔的是把世界切得顺手。", "说不说满，比说得多更要紧。"]),
+        ("一笔 · 大直若屈", "一横若一路按到底，就僵；中间提一下，它才走得远。", "一条直线压下去是死的。"),
+        ("一字 · 大巧若拙", "露锋的起收看得出用劲；藏锋的，看不出笔从哪儿来。", "看不出使过劲，才是本事。"),
+        ("一行 · 大辩若讷", "字写满、话说满，都不留余地；留白处才是气口。", "不写满，比写得多更要紧。"),
+        ("收笔 · 清静为正", "笔停不下来会写过界、墨会洇开；停在该停处，字才立得住。", "动治不足，静治有余。"),
     ]
     a = y + 46
-    for i, (tag, kind, phrase, lines) in enumerate(rows):
-        r = a + i * 78
-        s.append(txt(24, r + 8, tag, 5.4, "#6E6459"))
-        cx, cy = 56, r + 48
-        if kind == 0:
-            s.append(f'<path d="M{cx-15},{cy-18} L{cx-9},{cy+16} L{cx+9},{cy+16} L{cx+15},{cy-18}" fill="none" stroke="{GREEN}" stroke-width="0.8"/>')
-            s.append(f'<line x1="{cx-15}" y1="{cy-18}" x2="{cx-5}" y2="{cy-18}" stroke="{GREEN}" stroke-width="1"/>')
-            s.append(f'<line x1="{cx+5}" y1="{cy-18}" x2="{cx+15}" y2="{cy-18}" stroke="{GREEN}" stroke-width="1"/>')
-            s.append(f'<path d="M{cx},{cy-30} v-6 M{cx-2},{cy-34} l2,-4 l2,4" fill="none" stroke="{GREEN}" stroke-width="0.5"/>')
-        elif kind == 1:
-            s.append(f'<path d="M{cx-15},{cy-18} L{cx-9},{cy+16} L{cx+9},{cy+16} L{cx+15},{cy-18}" fill="none" stroke="{INK}" stroke-width="0.8"/>')
-            s.append(f'<ellipse cx="{cx}" cy="{cy-18}" rx="15" ry="3.6" fill="none" stroke="{INK}" stroke-width="0.7"/>')
-            s.append(f'<ellipse cx="{cx}" cy="{cy-12}" rx="10" ry="2.6" fill="#DCE6E0" stroke="{GREEN}" stroke-width="0.5"/>')
-        elif kind == 2:
-            s.append(f'<line x1="{cx-18}" y1="{cy+14}" x2="{cx-4}" y2="{cy-2}" stroke="{SEAL}" stroke-width="0.5" stroke-dasharray="4 3"/>')
-            s.append(f'<path d="M{cx-18},{cy+18} C{cx-6},{cy+26} {cx+4},{cy+6} {cx+16},{cy-12}" fill="none" stroke="{GREEN}" stroke-width="1"/>')
-            s.append(f'<circle cx="{cx+16}" cy="{cy-12}" r="2.6" fill="{GREEN}"/>')
-        elif kind == 3:
-            s.append(f'<circle cx="{cx-9}" cy="{cy}" r="12" fill="none" stroke="{INK}" stroke-width="0.8"/>')
-            s.append(f'<circle cx="{cx+11}" cy="{cy}" r="12" fill="none" stroke="{GREEN}" stroke-width="0.8"/>')
+    for i, (tag, l1, l2) in enumerate(rows):
+        r = a + i * 92
+        s.append(txt(24, r + 6, tag, 6.0, SEAL))
+        cy = r + 56
+        if i == 0:
+            s.append(f'<path d="M38,{cy-10} L74,{cy-4} L104,{cy-4} L104,{cy+4} L74,{cy+4} L38,{cy+10} Z" fill="{INK}"/>')
+            s.append(f'<path d="M104,{cy-9} L122,{cy-3} L122,{cy+3} L104,{cy+9} Z" fill="{INK}"/>')
+            s.append(f'<path d="M84,{cy-14} l0,-6 M82,{cy-18} l2,-3 l2,3" fill="none" stroke="{SEAL}" stroke-width="0.5"/>')
+        elif i == 1:
+            s.append(f'<rect x="38" y="{cy-16}" width="34" height="9" rx="4.5" fill="{INK}"/>')
+            s.append(f'<path d="M38,{cy+2} L58,{cy+8} L72,{cy+8} L72,{cy+14} L38,{cy+14} Z" fill="{INK}" opacity="0.6"/>')
+            s.append(f'<path d="M38,{cy+8} l-6,-2 M38,{cy+14} l-6,2" fill="none" stroke="{INK}" stroke-width="0.5" opacity="0.6"/>')
+            s.append(txt(86, cy - 12, "露锋", 4.4, "#6E6459"))
+            s.append(txt(86, cy + 8, "藏锋", 4.4, GREEN))
+        elif i == 2:
+            for k in range(3):
+                s.append(f'<rect x="{38+k*17}" y="{cy-16}" width="6" height="32" fill="{INK}" opacity="{0.88-k*0.16:.2f}"/>')
+            s.append(f'<line x1="100" y1="{cy-18}" x2="100" y2="{cy+18}" stroke="{SEAL}" stroke-width="0.5" stroke-dasharray="3 3"/>')
+            s.append(txt(108, cy + 2, "留白", 4.6, SEAL))
         else:
-            s.append(f'<ellipse cx="{cx-4}" cy="{cy}" rx="9" ry="4.4" fill="none" stroke="{INK}" stroke-width="0.7"/>')
-            s.append(f'<line x1="{cx+8}" y1="{cy-4}" x2="{cx+22}" y2="{cy-4}" stroke="{SEAL}" stroke-width="0.5"/>')
-            s.append(f'<line x1="{cx+8}" y1="{cy+4}" x2="{cx+22}" y2="{cy+4}" stroke="{SEAL}" stroke-width="0.5"/>')
-        s.append(txt(96, r + 30, phrase, 6.6, SEAL))
-        for k, ln in enumerate(lines):
-            s.append(txt(96, r + 48 + k * 13, ln, 5.7, INK if k == 0 else "#6E6459"))
+            s.append(f'<path d="M38,{cy-7} L92,{cy-2} L110,{cy} L92,{cy+3} L38,{cy+8} Z" fill="{INK}"/>')
+            s.append(f'<line x1="112" y1="{cy-9}" x2="112" y2="{cy+9}" stroke="{SEAL}" stroke-width="0.6"/>')
+            s.append(txt(120, cy + 3, "止", 5.0, SEAL))
+        s.append(txt(150, r + 34, l1, 5.5, INK))
+        s.append(txt(150, r + 50, l2, 5.4, "#6E6459"))
 
-    y2 = a + 5 * 78 + 4
+    y2 = a + 4 * 92 + 2
     s.append(f'<line x1="24" y1="{y2-6}" x2="338" y2="{y2-6}" stroke="{LINE}" stroke-width="0.6"/>')
     s.append(box(20, y2 + 4, 340, 44, fill="#F2EADA", stroke="#C9B79A"))
-    s.append(txt(190, y2 + 20, "世俗求显、锐、巧、辩、满；道这边是隐、柔、朴、默、虚。", 6.2, INK, "middle"))
-    s.append(txt(190, y2 + 34, "不是没做到，是做到了，故意不补齐。", 6.2, GREEN, "middle"))
-    s.append(gold(y2 + 62, "ch45b"))
+    s.append(txt(190, y2 + 20, "直、巧、辩，三样都在「收」上见高低。", 6.2, INK, "middle"))
+    s.append(txt(190, y2 + 34, "收到该停的地方，就是正。", 6.2, GREEN, "middle"))
+    s.append(gold(y2 + 62, "ch45c_bi"))
     s.append('</svg>')
     return "\n".join(s)
-
-
-# ============ 第四十五章 · 躁寒静热 ============
-def ch45c_zao_han_jing_re():
-    W, H = 380, 592
-    body, y = head(W, H, "动可以赢一场冷，只有静能了断一场热", "第 四 十 五 章 · 躁 静",
-                   "两种治法", "清静为天下正。", H)
-    s = [body]
-
-    s.append(box(20, y + 2, 340, 30, fill="#F2EADA", stroke="#C9B79A"))
-    s.append(txt(190, y + 15, "躁胜寒，静胜热。", 7.0, INK, "middle"))
-    s.append(txt(190, y + 27, "「躁」是疾动，「寒」是匮乏、撑不住；「热」是亢奋、盈满、那股停不下来的劲。", 5.2, "#6E6459", "middle"))
-
-    a = y + 50
-    # 左：寒
-    s.append(txt(24, a + 6, "一 · 不足时：躁", 6.0, INK))
-    s.append(f'<rect x="36" y="{a+18}" width="88" height="72" fill="{PAPER}" stroke="{LINE2}" stroke-width="0.6"/>')
-    s.append(txt(80, a + 32, "寒 · 不足", 5.2, "#6E6459", "middle"))
-    for i in range(3):
-        x0, x1 = 46 + i * 14, 58 + i * 14
-        s.append(f'<line x1="{x0}" y1="{a+42}" x2="{x1}" y2="{a+62}" stroke="{INK}" stroke-width="0.8"/>')
-        s.append(f'<path d="M{x1},{a+62} l-7,-1 l2,-7 z" fill="{GREEN}"/>')
-    s.append(txt(80, a + 80, "动起来，顶一阵", 5.0, GREEN, "middle"))
-    s.append(txt(150, a + 26, "冷的时候动起来，能顶一阵。这是实话。", 5.9, INK))
-    s.append(txt(150, a + 42, "可它只顶一阵——动要耗，耗完更冷。", 5.9, INK))
-    s.append(txt(150, a + 62, "它说的是「胜」，不是「治」。", 6.0, SEAL))
-
-    # 右：热
-    b = a + 96
-    s.append(txt(24, b + 6, "二 · 有余时：静", 6.0, GREEN))
-    s.append(f'<rect x="36" y="{b+18}" width="88" height="72" fill="{PAPER}" stroke="{LINE2}" stroke-width="0.6"/>')
-    s.append(txt(80, b + 32, "热 · 有余", 5.2, "#6E6459", "middle"))
-    for i, hgt in enumerate([26, 16, 22, 12]):
-        x = 50 + i * 11
-        s.append(f'<line x1="{x}" y1="{b+74}" x2="{x}" y2="{b+38+hgt}" stroke="{SEAL}" stroke-width="0.8"/>')
-        s.append(f'<path d="M{x},{b+34+hgt} l-3,5 l6,0 z" fill="{SEAL}"/>')
-    s.append(f'<line x1="40" y1="{b+46}" x2="94" y2="{b+46}" stroke="{INK}" stroke-width="2.2"/>')
-    s.append(txt(100, b + 49, "定", 5.2, INK))
-    s.append(txt(80, b + 80, "静下来，才退得掉", 5.0, GREEN, "middle"))
-    s.append(txt(150, b + 26, "热的时候静下来，能退。热不只是温度，", 5.9, INK))
-    s.append(txt(150, b + 42, "是亢奋、是盈满、是纷争、是停不下来的劲。", 5.9, INK))
-    s.append(txt(150, b + 62, "动治不足，静治有余：有余只能用定来收。", 6.0, GREEN))
-
-    # 末：正
-    c = b + 96
-    s.append(txt(24, c + 6, "三 · 清静为天下正", 6.0, INK))
-    s.append(f'<ellipse cx="70" cy="{c+50}" rx="14" ry="20" fill="#EFE4CF" stroke="{INK}" stroke-width="0.8"/>')
-    for dx, r in [(-10, 3.4), (-5, 3.6), (0, 3.8), (4, 3.4), (8, 3.0)]:
-        s.append(f'<circle cx="{70+dx}" cy="{c+26}" r="{r}" fill="none" stroke="{GREEN}" stroke-width="0.7"/>')
-    s.append(f'<line x1="70" y1="{c+70}" x2="70" y2="{c+78}" stroke="{INK}" stroke-width="0.8"/>')
-    s.append(txt(70, c + 86, "站住", 5.0, "#6E6459", "middle"))
-    s.append(txt(150, c + 26, "「正」从止：一只脚走到该停的地方。", 5.9, INK))
-    s.append(txt(150, c + 42, "不是被谁摆正的，是它自己终于站住了。", 5.9, INK))
-    s.append(txt(150, c + 62, "清静不是不动，是动到该停的地方就停。", 6.0, GREEN))
-
-    y2 = c + 104
-    s.append(f'<line x1="24" y1="{y2-6}" x2="338" y2="{y2-6}" stroke="{LINE}" stroke-width="0.6"/>')
-    s.append(box(20, y2 + 4, 340, 44, fill="#F2EADA", stroke="#C9B79A"))
-    s.append(txt(190, y2 + 20, "不足可以用动来补，有余只能用定来收。", 6.6, INK, "middle"))
-    s.append(txt(190, y2 + 34, "世人惯用的恰好相反：不足时慌，有余时更冲。", 6.2, SEAL, "middle"))
-    s.append(gold(y2 + 62, "ch45c"))
-    s.append('</svg>')
-    return "\n".join(s)
-
 
 
 FIGS = {
@@ -3989,8 +3975,8 @@ FIGS = {
     "ch44b-yue-gong-yu-tao": ("第四十四章", "月供与逃跑", ch44b_yue_gong_yu_tao),
     "ch44c-jiao-yu-zhi": ("第四十四章", "站住，停脚", ch44c_jiao_yu_zhi),
     "ch45a-liu-yi-dao-feng": ("第四十五章", "留一道缝", ch45a_liu_yi_dao_feng),
-    "ch45b-wu-chu-liu-bai": ("第四十五章", "五处，一道缝", ch45b_wu_chu_liu_bai),
-    "ch45c-zao-han-jing-re": ("第四十五章", "两种治法", ch45c_zao_han_jing_re),
+    "ch45b-jing-ying-chong": ("第四十五章", "井口看着是空的", ch45b_jing_ying_chong),
+    "ch45c-bi-zhi": ("第四十五章", "写到该停的地方", ch45c_bi_zhi),
     "ch12-wu-se": ("第十二章", "门开五处", ch12_wu_se),
     "ch13-chong-ru": ("第十三章", "惊的是我", ch13_chong_ru),
     "ch14-yi-xi-wei": ("第十四章", "三样工具探不到", ch14_yi_xi_wei),
