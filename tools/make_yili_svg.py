@@ -1518,6 +1518,8 @@ GOLD = {
     "ch23": ["自然不是「不管」，是「不需要管」——差别全在有没有人在使劲。", "信不足，不是话说得不够多，是话后面没有人。"],
     "ch24": ["借来的高度站不住，省下的步子走不远。", "不处不是割掉，是不长——约束是按住它，不处是根本不在那儿站。"],
     "ch25": ["不是它比天地老，是天地离了它不成。", "名是给有边界的东西用的；对没有边界的东西，名只是手指。"],
+    "ch33": ["智是识词，明是照见；智越用越熟，明越照越静。",
+             "力是筋，越使越少；强是弓，能张能弛。"],
     "ch32": ["知止不是收手不干，是知道地基的边在哪儿——再往外砌，就砌在虚空上了。",
              "江海之为大，在于它不挑水。"],
     "ch31": ["用是借它一次，处是住在它里面；借一次可以，住进去你就变成那种人了。",
@@ -2147,6 +2149,86 @@ def ch32b_chuan_gu():
 
 
 
+# ============ 第三十三章 · 自知者明 ============
+def ch33_zi_zhi_zhe_ming():
+    W, H = 380, 712
+    body, y = head(W, H, "四对八句：前一半是世人正在追的，后一半才是老子要的", "第 三 十 三 章 · 四 对", "自知者明",
+                   "前面收的是事；这一章收的是那个做事的人。", H)
+    s = [body]
+
+    rows = [
+        ("知人 · 智", ("拿灯照别人", "识词、贴标签"), "自知 · 明", ("灯照到自己", "照见，不是想通")),
+        ("胜人 · 有力", ("筋：一次性的", "越使越少"), "自胜 · 强", ("弓：能张能弛", "越练越熟")),
+        ("知足 · 富", ("备：该有的都有", "缺是单子太长"), "强行 · 有志", ("向外止，向内行", "不肯向内停")),
+        ("不失其所 · 久", ("根扎在原处", "位不失，故久"), "死而不亡 · 寿", ("身可以散", "根不能失")),
+    ]
+
+    for i, (l1, ln1, r1, rn1) in enumerate(rows):
+        cy = y + 2 + i * 122
+        for bx in (20, 198):
+            s.append(box(bx, cy, 162, 112, fill="#FBF6EC", stroke="#E6D8C2"))
+        s.append(txt(32, cy + 20, l1, 8.8, GREEN))
+        s.append(txt(210, cy + 20, r1, 8.8, SEAL))
+        for bx, note in ((20, ln1), (198, rn1)):
+            s.append(txt(bx + 12, cy + 84, note[0], 7.2, "#6E6459"))
+            s.append(txt(bx + 12, cy + 97, note[1], 7.2, "#6E6459"))
+
+    # ---- 图标 ----
+    # 行1
+    c = y + 2
+    for bx in (20, 198):
+        s.append(f'<path d="M{bx+18},{c+62} l6,-11 l6,11 z" fill="#E7C9BE" stroke="{LINE}" stroke-width="0.7"/>')
+        s.append(f'<line x1="{bx+17}" y1="{c+62}" x2="{bx+31}" y2="{c+62}" stroke="{LINE}" stroke-width="0.9"/>')
+    # 左：三道光射向「人」
+    s.append(f'<circle cx="{52}" cy="{c+36}" r="3.6" fill="none" stroke="{INK}" stroke-width="0.8"/>')
+    s.append(txt(58, c + 39, "人", 6.6, "#6E6459"))
+    for a in (-14, 0, 14):
+        s.append(f'<line x1="26" y1="{c+50}" x2="47" y2="{c+38-a/3}" stroke="#C9B79A" stroke-width="0.8"/>')
+    # 右：一道光落到镜
+    s.append(f'<circle cx="{234}" cy="{c+46}" r="11" fill="#F2EADA" stroke="{SEAL}" stroke-width="0.9"/>')
+    s.append(f'<path d="M229,{c+50} q5,-9 10,0" fill="none" stroke="{SEAL}" stroke-width="0.7"/>')
+    s.append(f'<line x1="204" y1="{c+50}" x2="221" y2="{c+46}" stroke="#C9B79A" stroke-width="0.8"/>')
+    s.append(txt(248, c + 50, "我", 6.6, "#6E6459"))
+
+    # 行2 筋 / 弓
+    c2 = c + 122
+    s.append(f'<rect x="34" y="{c2+44}" width="36" height="11" fill="#E9DFCC" stroke="{INK}" stroke-width="0.7"/>')
+    s.append(f'<path d="M30,{c2+49} l-7,0 M74,{c2+49} l7,0" stroke="{SEAL}" stroke-width="0.8"/>')
+    s.append(f'<path d="M214,{c2+32} Q226,{c2+48} 214,{c2+64}" fill="none" stroke="{INK}" stroke-width="1.2"/>')
+    s.append(f'<path d="M226,{c2+32} Q238,{c2+48} 226,{c2+64}" fill="none" stroke="#B9A98F" stroke-width="1.0" stroke-dasharray="3 2"/>')
+    s.append(f'<line x1="227" y1="{c2+32}" x2="227" y2="{c2+64}" stroke="{INK}" stroke-width="0.9"/>')
+
+    # 行3 碗 / 向内
+    c3 = c + 244
+    s.append(f'<path d="M34,{c3+40} q12,24 26,0" fill="#F2EADA" stroke="{INK}" stroke-width="1"/>')
+    s.append(f'<line x1="32" y1="{c3+40}" x2="62" y2="{c3+40}" stroke="{INK}" stroke-width="1"/>')
+    s.append(f'<path d="M38,{c3+48} q11,4 20,0" fill="none" stroke="#9FB0A6" stroke-width="0.8"/>')
+    s.append(f'<circle cx="{238}" cy="{c3+50}" r="12" fill="none" stroke="{INK}" stroke-width="0.9"/>')
+    s.append(txt(238, c3 + 53, "己", 6.6, "#6E6459", "middle"))
+    s.append(arrow(206, c3 + 50, 224, c3 + 50, SEAL, 0.9, head="arrS"))
+
+    # 行4 树 / 倒木与苗
+    c4 = c + 366
+    s.append(f'<line x1="28" y1="{c4+62}" x2="86" y2="{c4+62}" stroke="{LINE}" stroke-width="0.9"/>')
+    s.append(f'<line x1="54" y1="{c4+62}" x2="54" y2="{c4+34}" stroke="{INK}" stroke-width="1.5"/>')
+    s.append(f'<path d="M54,{c4+62} l-9,7 M54,{c4+62} l9,7 M54,{c4+62} l-3,9 M54,{c4+62} l3,9" stroke="{INK}" stroke-width="0.8"/>')
+    s.append(f'<path d="M54,{c4+34} l-8,-9 M54,{c4+34} l8,-9" stroke="{INK}" stroke-width="0.8"/>')
+    s.append(f'<line x1="206" y1="{c4+62}" x2="264" y2="{c4+62}" stroke="{LINE}" stroke-width="0.9"/>')
+    s.append(f'<path d="M206,{c4+60} l38,-16" stroke="#B9A98F" stroke-width="1.6"/>')
+    s.append(f'<path d="M226,{c4+52} l3,-13 M230,{c4+52} l6,-4" stroke="{INK}" stroke-width="0.9"/>')
+    s.append(f'<path d="M246,{c4+44} l2,-14 M248,{c4+44} l6,-5" stroke="{INK}" stroke-width="0.9"/>')
+    s.append(f'<circle cx="258" cy="{c4+58}" r="2.2" fill="{SEAL}"/>')
+
+    # ---- 收 ----
+    y3 = y + 2 + 4 * 122 + 12
+    s.append(box(20, y3, 340, 44, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, y3 + 18, "四对八句：前一半是世人正在追的，后一半才是老子要的。", 8.4, INK, "middle"))
+    s.append(txt(190, y3 + 34, "外面守得住，是因为里面先不争了。", 8.0, "#6E6459", "middle"))
+    s.append(gold(y3 + 52, "ch33"))
+    s.append('</svg>')
+    return "\n".join(s)
+
+
 FIGS = {
     "ch01-wu-you": ("第一章", "无有同出", ch01_wu_you),
     "ch01-zhi-yue": ("第一章", "指月三境", ch01_zhi_yue),
@@ -2191,6 +2273,7 @@ FIGS = {
     "ch31-bing-zhe-bu-xiang": ("第三十一章", "兵者不祥之器", ch31_bing_zhe_bu_xiang),
     "ch32a-ming-zhi": ("第三十二章", "名与止", ch32a_ming_zhi),
     "ch32b-chuan-gu": ("第三十二章", "川谷与江海", ch32b_chuan_gu),
+    "ch33-zi-zhi-zhe-ming": ("第三十三章", "自知者明", ch33_zi_zhi_zhe_ming),
 }
 
 

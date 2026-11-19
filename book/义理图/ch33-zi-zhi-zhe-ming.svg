@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 380 712" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="四对八句：前一半是世人正在追的，后一半才是老子要的" font-family="'Noto Serif CJK SC','Noto Serif SC','Songti SC',serif">
+<defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#6E6459"/></marker><marker id="arr2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#4A5C55"/></marker><marker id="arrL" viewBox="0 0 10 10" refX="1" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M10 0 L0 5 L10 10 z" fill="#4A5C55"/></marker><marker id="arrS" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#A2503B"/></marker></defs>
+<rect x="0" y="0" width="380" height="712" fill="#F8F3E6"/>
+<text x="20" y="26" font-size="11" fill="#A2503B" font-family="'Noto Sans CJK SC','Noto Sans SC',sans-serif" letter-spacing="3">第 三 十 三 章 · 四 对</text>
+<text x="20" y="58" font-size="21" fill="#2F2A24">自知者明</text>
+<text x="20" y="78" font-size="10.5" fill="#6E6459">前面收的是事；这一章收的是那个做事的人。</text>
+<rect x="20" y="102" width="162" height="112" fill="#FBF6EC" stroke="#E6D8C2" stroke-width="1.0"/>
+<rect x="198" y="102" width="162" height="112" fill="#FBF6EC" stroke="#E6D8C2" stroke-width="1.0"/>
+<text x="32" y="122" font-size="8.8" fill="#4A5C55">知人 · 智</text>
+<text x="210" y="122" font-size="8.8" fill="#A2503B">自知 · 明</text>
+<text x="32" y="186" font-size="7.2" fill="#6E6459">拿灯照别人</text>
+<text x="32" y="199" font-size="7.2" fill="#6E6459">识词、贴标签</text>
+<text x="210" y="186" font-size="7.2" fill="#6E6459">灯照到自己</text>
+<text x="210" y="199" font-size="7.2" fill="#6E6459">照见，不是想通</text>
+<rect x="20" y="224" width="162" height="112" fill="#FBF6EC" stroke="#E6D8C2" stroke-width="1.0"/>
+<rect x="198" y="224" width="162" height="112" fill="#FBF6EC" stroke="#E6D8C2" stroke-width="1.0"/>
+<text x="32" y="244" font-size="8.8" fill="#4A5C55">胜人 · 有力</text>
+<text x="210" y="244" font-size="8.8" fill="#A2503B">自胜 · 强</text>
+<text x="32" y="308" font-size="7.2" fill="#6E6459">筋：一次性的</text>
+<text x="32" y="321" font-size="7.2" fill="#6E6459">越使越少</text>
+<text x="210" y="308" font-size="7.2" fill="#6E6459">弓：能张能弛</text>
+<text x="210" y="321" font-size="7.2" fill="#6E6459">越练越熟</text>
+<rect x="20" y="346" width="162" height="112" fill="#FBF6EC" stroke="#E6D8C2" stroke-width="1.0"/>
+<rect x="198" y="346" width="162" height="112" fill="#FBF6EC" stroke="#E6D8C2" stroke-width="1.0"/>
+<text x="32" y="366" font-size="8.8" fill="#4A5C55">知足 · 富</text>
+<text x="210" y="366" font-size="8.8" fill="#A2503B">强行 · 有志</text>
+<text x="32" y="430" font-size="7.2" fill="#6E6459">备：该有的都有</text>
+<text x="32" y="443" font-size="7.2" fill="#6E6459">缺是单子太长</text>
+<text x="210" y="430" font-size="7.2" fill="#6E6459">向外止，向内行</text>
+<text x="210" y="443" font-size="7.2" fill="#6E6459">不肯向内停</text>
+<rect x="20" y="468" width="162" height="112" fill="#FBF6EC" stroke="#E6D8C2" stroke-width="1.0"/>
+<rect x="198" y="468" width="162" height="112" fill="#FBF6EC" stroke="#E6D8C2" stroke-width="1.0"/>
+<text x="32" y="488" font-size="8.8" fill="#4A5C55">不失其所 · 久</text>
+<text x="210" y="488" font-size="8.8" fill="#A2503B">死而不亡 · 寿</text>
+<text x="32" y="552" font-size="7.2" fill="#6E6459">根扎在原处</text>
+<text x="32" y="565" font-size="7.2" fill="#6E6459">位不失，故久</text>
+<text x="210" y="552" font-size="7.2" fill="#6E6459">身可以散</text>
+<text x="210" y="565" font-size="7.2" fill="#6E6459">根不能失</text>
+<path d="M38,164 l6,-11 l6,11 z" fill="#E7C9BE" stroke="#DCCBB0" stroke-width="0.7"/>
+<line x1="37" y1="164" x2="51" y2="164" stroke="#DCCBB0" stroke-width="0.9"/>
+<path d="M216,164 l6,-11 l6,11 z" fill="#E7C9BE" stroke="#DCCBB0" stroke-width="0.7"/>
+<line x1="215" y1="164" x2="229" y2="164" stroke="#DCCBB0" stroke-width="0.9"/>
+<circle cx="52" cy="138" r="3.6" fill="none" stroke="#2F2A24" stroke-width="0.8"/>
+<text x="58" y="141" font-size="6.6" fill="#6E6459">人</text>
+<line x1="26" y1="152" x2="47" y2="144.66666666666666" stroke="#C9B79A" stroke-width="0.8"/>
+<line x1="26" y1="152" x2="47" y2="140.0" stroke="#C9B79A" stroke-width="0.8"/>
+<line x1="26" y1="152" x2="47" y2="135.33333333333334" stroke="#C9B79A" stroke-width="0.8"/>
+<circle cx="234" cy="148" r="11" fill="#F2EADA" stroke="#A2503B" stroke-width="0.9"/>
+<path d="M229,152 q5,-9 10,0" fill="none" stroke="#A2503B" stroke-width="0.7"/>
+<line x1="204" y1="152" x2="221" y2="148" stroke="#C9B79A" stroke-width="0.8"/>
+<text x="248" y="152" font-size="6.6" fill="#6E6459">我</text>
+<rect x="34" y="268" width="36" height="11" fill="#E9DFCC" stroke="#2F2A24" stroke-width="0.7"/>
+<path d="M30,273 l-7,0 M74,273 l7,0" stroke="#A2503B" stroke-width="0.8"/>
+<path d="M214,256 Q226,272 214,288" fill="none" stroke="#2F2A24" stroke-width="1.2"/>
+<path d="M226,256 Q238,272 226,288" fill="none" stroke="#B9A98F" stroke-width="1.0" stroke-dasharray="3 2"/>
+<line x1="227" y1="256" x2="227" y2="288" stroke="#2F2A24" stroke-width="0.9"/>
+<path d="M34,386 q12,24 26,0" fill="#F2EADA" stroke="#2F2A24" stroke-width="1"/>
+<line x1="32" y1="386" x2="62" y2="386" stroke="#2F2A24" stroke-width="1"/>
+<path d="M38,394 q11,4 20,0" fill="none" stroke="#9FB0A6" stroke-width="0.8"/>
+<circle cx="238" cy="396" r="12" fill="none" stroke="#2F2A24" stroke-width="0.9"/>
+<text x="238" y="399" font-size="6.6" fill="#6E6459" text-anchor="middle">己</text>
+<line x1="206" y1="396" x2="224" y2="396" stroke="#A2503B" stroke-width="0.9" marker-end="url(#arrS)"/>
+<line x1="28" y1="530" x2="86" y2="530" stroke="#DCCBB0" stroke-width="0.9"/>
+<line x1="54" y1="530" x2="54" y2="502" stroke="#2F2A24" stroke-width="1.5"/>
+<path d="M54,530 l-9,7 M54,530 l9,7 M54,530 l-3,9 M54,530 l3,9" stroke="#2F2A24" stroke-width="0.8"/>
+<path d="M54,502 l-8,-9 M54,502 l8,-9" stroke="#2F2A24" stroke-width="0.8"/>
+<line x1="206" y1="530" x2="264" y2="530" stroke="#DCCBB0" stroke-width="0.9"/>
+<path d="M206,528 l38,-16" stroke="#B9A98F" stroke-width="1.6"/>
+<path d="M226,520 l3,-13 M230,520 l6,-4" stroke="#2F2A24" stroke-width="0.9"/>
+<path d="M246,512 l2,-14 M248,512 l6,-5" stroke="#2F2A24" stroke-width="0.9"/>
+<circle cx="258" cy="526" r="2.2" fill="#A2503B"/>
+<rect x="20" y="602" width="340" height="44" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="190" y="620" font-size="8.4" fill="#2F2A24" text-anchor="middle">四对八句：前一半是世人正在追的，后一半才是老子要的。</text>
+<text x="190" y="636" font-size="8.0" fill="#6E6459" text-anchor="middle">外面守得住，是因为里面先不争了。</text>
+<line x1="20" y1="654" x2="360" y2="654" stroke="#E6D8C2" stroke-width="0.8"/>
+<text x="20" y="668" font-size="8.0" fill="#A89577" letter-spacing="1">本 章 金 句</text>
+<text x="20" y="684" font-size="8.4" fill="#2F2A24">智是识词，明是照见；智越用越熟，明越照越静。</text>
+<text x="20" y="700" font-size="8.4" fill="#2F2A24">力是筋，越使越少；强是弓，能张能弛。</text>
+</svg>
