@@ -1634,69 +1634,72 @@ def ch24_qi_zhe_bu_li():
 
 
 # ============ 第二十六章 · 重为轻根 ============
+# ============ 第二十六章 · 重为轻根 ============
 def ch26_zhong_wei_qing_gen():
-    W, H = 380, 626
-    body, y = head(W, H, "法地不是学地的形状，是学地的分量", "第 二 十 六 章 · 轻 重", "重为轻根",
-                   "轻车跑得快，正因为它不载重——代价是空。", H)
+    W, H = 380, 600
+    body, y = head(W, H, "线在手，筝才在空", "第 二 十 六 章 · 轻 重", "重为轻根",
+                   "轻能飞高，是因为下面有东西牵着它。", H)
     s = [body]
-    # 重为轻根：有根／失根 两态
-    y0 = y + 8
-    # 有根
-    s.append(box(30, y0 + 34, 96, 26, fill="#D9C7A6", stroke="#B9A98F"))
-    s.append(txt(78, y0 + 51, "重", 9.6, INK, "middle"))
-    s.append(f'<line x1="78" y1="{y0+34}" x2="78" y2="{y0+16}" stroke="{LINE}" stroke-width="1"/>')
-    s.append(f'<circle cx="78" cy="{y0+10}" r="6" fill="#FBF6EC" stroke="{LINE}" stroke-width="1"/>')
-    s.append(txt(78, y0 + 9, "轻", 7, "#6E6459", "middle"))
-    s.append(txt(78, y0 + 76, "有根：轻挂在重上", 8.2, INK, "middle"))
-    # 失根
-    s.append(box(214, y0 + 34, 96, 26, fill="#D9C7A6", stroke="#B9A98F"))
-    s.append(txt(262, y0 + 51, "重", 9.6, INK, "middle"))
-    s.append(f'<circle cx="330" cy="{y0+10}" r="6" fill="#FBF6EC" stroke="{SEAL}" stroke-width="1"/>')
-    s.append(txt(330, y0 + 9, "轻", 7, SEAL, "middle"))
-    s.append(arrow(330, y0 + 18, 330, y0 + 54, color="#A2503B", width=0.9, dash="3 3", head="arrS"))
-    s.append(txt(336, y0 + 40, "落", 7.4, SEAL))
-    s.append(txt(262, y0 + 76, "失根：根一抽，轻就落", 8.2, SEAL, "middle"))
-    # 静为躁君：君是主宰，不是压制——一正一反两态
-    y1 = y0 + 112
-    s.append(txt(20, y1 - 16, "静为躁君：君是统摄，不是压制", 8.8, SEAL))
-    # 一态：有君——动由我出
-    s.append(box(34, y1 + 26, 48, 30, fill="#F2EADA", stroke="#C9B79A"))
-    s.append(txt(58, y1 + 45, "静", 10.4, INK, "middle"))
-    s.append(f'<line x1="58" y1="{y1+26}" x2="58" y2="{y1+8}" stroke="{INK}" stroke-width="1.2"/>')
-    s.append(arrow(58, y1 + 8, 148, y1 + 8, color="#6E6459", width=1.2, head="arr"))
-    s.append(txt(58, y1 + 68, "有君：动由我出", 8.4, INK))
-    s.append(txt(58, y1 + 82, "令从座上发出，往哪去由上定", 7.6, "#8A7C69"))
-    # 一态：失君——座上无人，动自己乱摆
-    s.append(box(210, y1 + 26, 48, 30, dash="4 3", stroke="#C9B79A"))
-    s.append(txt(234, y1 + 45, "空", 8.0, "#B0A18B", "middle"))
-    zz = [(234, y1 + 26), (234, y1 + 8), (256, y1 + 16), (278, y1 + 6), (300, y1 + 18), (322, y1 + 8), (344, y1 + 14)]
+    # ---- 重为轻根：有根／失根 ----
+    y0 = y + 6
+    # 左：有根
+    s.append('<polygon points="96,%d 126,%d 96,%d 66,%d" fill="#F2EADA" stroke="%s" stroke-width="1"/>'
+             % (y0 + 2, y0 + 30, y0 + 58, y0 + 30, LINE))
+    s.append(f'<line x1="66" y1="{y0+30}" x2="126" y2="{y0+30}" stroke="{LINE}" stroke-width="0.9"/>')
+    s.append(f'<line x1="96" y1="{y0+2}" x2="96" y2="{y0+58}" stroke="{LINE}" stroke-width="0.9"/>')
+    s.append(f'<line x1="96" y1="{y0+58}" x2="96" y2="{y0+100}" stroke="{INK}" stroke-width="0.9"/>')
+    s.append(box(78, y0 + 98, 26, 12, fill="#D9C7A6", stroke="#B9A98F"))
+    s.append(f'<circle cx="96" cy="{y0+100}" r="4.6" fill="{PAPER}" stroke="{INK}" stroke-width="0.9"/>')
+    s.append(f'<line x1="40" y1="{y0+112}" x2="160" y2="{y0+112}" stroke="{LINE}" stroke-width="1"/>')
+    s.append(txt(96, y0 + 132, "有根：线在手，筝才在空", 8.2, INK, "middle"))
+    # 右：失根
+    s.append('<polygon points="292,%d 320,%d 292,%d 264,%d" fill="#F2EADA" stroke="%s" stroke-width="1"/>'
+             % (y0 + 8, y0 + 34, y0 + 60, y0 + 34, SEAL))
+    s.append(f'<line x1="264" y1="{y0+34}" x2="320" y2="{y0+34}" stroke="{SEAL}" stroke-width="0.8" stroke-dasharray="3 2"/>')
+    s.append(f'<line x1="292" y1="{y0+8}" x2="292" y2="{y0+60}" stroke="{SEAL}" stroke-width="0.8" stroke-dasharray="3 2"/>')
+    s.append(f'<line x1="292" y1="{y0+60}" x2="294" y2="{y0+78}" stroke="{INK}" stroke-width="0.8"/>')
+    s.append(f'<line x1="298" y1="{y0+88}" x2="302" y2="{y0+100}" stroke="{SEAL}" stroke-width="0.8" stroke-dasharray="3 3"/>')
+    s.append(f'<line x1="288" y1="{y0+82}" x2="296" y2="{y0+88}" stroke="{SEAL}" stroke-width="1.2"/>')
+    s.append(f'<line x1="296" y1="{y0+82}" x2="288" y2="{y0+88}" stroke="{SEAL}" stroke-width="1.2"/>')
+    s.append(f'<circle cx="302" cy="{y0+104}" r="4.6" fill="{PAPER}" stroke="{SEAL}" stroke-width="0.9"/>')
+    s.append(f'<line x1="210" y1="{y0+112}" x2="344" y2="{y0+112}" stroke="{LINE}" stroke-width="1"/>')
+    s.append(txt(272, y0 + 132, "失根：线一断，筝就落", 8.2, SEAL, "middle"))
+
+    # ---- 静为躁君：有君／失君 ----
+    y1 = y0 + 170
+    s.append(txt(20, y1 - 10, "静为躁君：君是统摄，不是压制", 8.8, SEAL))
+    # 有君：手在上，收放由手
+    s.append(box(46, y1 + 24, 42, 24, fill="#D9C7A6", stroke="#B9A98F"))
+    s.append(txt(67, y1 + 40, "线轴", 8.0, INK, "middle"))
+    s.append(f'<circle cx="67" cy="{y1+18}" r="5" fill="{PAPER}" stroke="{INK}" stroke-width="1"/>')
+    s.append(arrow(67, y1 + 12, 34, y1 + 2, color="#6E6459", width=1.0, head="arr"))
+    s.append(arrow(67, y1 + 12, 102, y1 + 2, color="#6E6459", width=1.0, head="arr"))
+    s.append(txt(30, y1 + 0, "收", 7.4, "#6E6459"))
+    s.append(txt(92, y1 + 0, "放", 7.4, "#6E6459"))
+    s.append(txt(20, y1 + 68, "有君：收放由手", 8.4, INK))
+    s.append(txt(20, y1 + 82, "线放多长，手说了算", 7.6, "#8A7C69"))
+    # 失君：手松开，线自己乱摆
+    s.append(f'<circle cx="248" cy="{y1+18}" r="5" fill="{PAPER}" stroke="{SEAL}" stroke-width="1"/>')
+    zz = [(248, y1 + 14), (248, y1 + 2), (268, y1 + 10), (288, y1 - 2), (308, y1 + 10), (328, y1 - 2), (344, y1 + 4)]
     for i in range(len(zz) - 1):
         s.append(f'<line x1="{zz[i][0]}" y1="{zz[i][1]}" x2="{zz[i+1][0]}" y2="{zz[i+1][1]}" stroke="{SEAL}" stroke-width="1.1"/>')
-    s.append(txt(234, y1 + 68, "失君：动自己乱摆", 8.4, SEAL))
-    s.append(txt(234, y1 + 82, "座一空，线就不听令了", 7.6, "#8A7C69"))
+    s.append(txt(216, y1 + 68, "失君：手一松，线自己乱摆", 8.4, SEAL))
+    s.append(txt(216, y1 + 82, "没人下令，筝就成了风的东西", 7.6, "#8A7C69"))
     s.append(txt(20, y1 + 104, "静不是不动，静是动的发令处；躁不是动，是动失了主。", 8.4, "#6E6459"))
-    # 终日行不离辎重
-    y2 = y1 + 120
-    s.append(txt(20, y2 + 4, "终日行，不离辎重：走到哪，根就带到哪。", 8.4, "#6E6459"))
-    s.append(box(160, y2 + 12, 64, 24, fill="#FBF6EC", stroke="#C9B79A"))
-    s.append(txt(192, y2 + 28, "身", 9, INK, "middle"))
-    s.append(box(160, y2 + 40, 64, 24, fill="#E9DFCC", stroke="#C9B79A"))
-    s.append(txt(192, y2 + 56, "辎重", 8.6, INK, "middle"))
-    s.append(f'<line x1="192" y1="{y2+36}" x2="192" y2="{y2+40}" stroke="{LINE}" stroke-width="1"/>')
-    s.append(f'<line x1="30" y1="{y2+70}" x2="340" y2="{y2+70}" stroke="{LINE2}" stroke-width="1" stroke-dasharray="4 3"/>')
-    # 荣观 / 燕处
-    y3 = y2 + 88
-    s.append(box(20, y3, 162, 40, fill="#F6EFE0", stroke="#C9B79A"))
-    s.append(txt(101, y3 + 18, "荣观：外面好看", 8.8, SEAL, "middle"))
-    s.append(txt(101, y3 + 32, "看一眼，不跟着走", 7.8, "#6E6459", "middle"))
-    s.append(box(198, y3, 162, 40, fill="#F6EFE0", stroke="#C9B79A"))
-    s.append(txt(279, y3 + 18, "燕处超然：在场而不随之", 8.4, GREEN, "middle"))
-    s.append(txt(279, y3 + 32, "坐在这里，不搬进里头", 7.8, "#6E6459", "middle"))
-    yc = y3 + 58
-    s.append(box(20, yc, 340, 42, fill="#F2EADA", stroke="#C9B79A"))
+    # ---- 辎重 / 荣观·燕处 ----
+    y2 = y1 + 122
+    s.append(box(20, y2, 162, 44, fill="#F6EFE0", stroke="#C9B79A"))
+    s.append(txt(101, y2 + 17, "辎重：线轴随身", 8.6, GREEN, "middle"))
+    s.append(txt(101, y2 + 32, "走到哪，轴都带着", 7.6, "#6E6459", "middle"))
+    s.append(box(198, y2, 162, 44, fill="#F6EFE0", stroke="#C9B79A"))
+    s.append(txt(279, y2 + 17, "荣观：筝飞得高，好看", 8.4, SEAL, "middle"))
+    s.append(txt(279, y2 + 32, "燕处：脚不离地，手不撒开", 7.6, "#6E6459", "middle"))
+    # ---- 收 ----
+    yc = y2 + 62
+    s.append(box(20, yc, 340, 44, fill="#F2EADA", stroke="#C9B79A"))
     s.append(txt(190, yc + 19, "轻则失根，躁则失君。", 10.4, INK, "middle", spacing="1"))
-    s.append(txt(190, yc + 34, "不是被外面夺了权，是你自己先把位置让出去了。", 8.2, "#6E6459", "middle"))
-    s.append(gold(yc + 50, "ch26"))
+    s.append(txt(190, yc + 34, "线在手，筝才在空；手一松，筝就成了风的东西。", 8.2, "#6E6459", "middle"))
+    s.append(gold(yc + 52, "ch26"))
     s.append('</svg>')
     return "\n".join(s)
 
