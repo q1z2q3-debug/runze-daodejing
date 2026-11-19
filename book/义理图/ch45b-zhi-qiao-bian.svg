@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 380 552" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="最直的缩着，最巧的像笨，最会说的像说不出" font-family="'Noto Serif CJK SC','Noto Serif SC','Songti SC',serif">
+<defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#6E6459"/></marker><marker id="arr2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#4A5C55"/></marker><marker id="arrL" viewBox="0 0 10 10" refX="1" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M10 0 L0 5 L10 10 z" fill="#4A5C55"/></marker><marker id="arrS" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#A2503B"/></marker></defs>
+<rect x="0" y="0" width="380" height="552" fill="#F8F3E6"/>
+<text x="20" y="26" font-size="11" fill="#A2503B" font-family="'Noto Sans CJK SC','Noto Sans SC',sans-serif" letter-spacing="3">第 四 十 五 章 · 直 巧 辩</text>
+<text x="20" y="58" font-size="21" fill="#2F2A24">直、巧、辩</text>
+<text x="20" y="78" font-size="10.5" fill="#6E6459">大直若屈，大巧若拙，大辩若讷。</text>
+<text x="24" y="128" font-size="6.0" fill="#2F2A24">一 · 大直若屈</text>
+<rect x="70" y="154" width="22" height="26" fill="#E6D8C2" stroke="#2F2A24" stroke-width="0.7"/>
+<line x1="34" y1="176" x2="120" y2="142" stroke="#A2503B" stroke-width="0.6" stroke-dasharray="5 4"/>
+<path d="M96,160 l8,8 M104,160 l-8,8" fill="none" stroke="#A2503B" stroke-width="1.1"/>
+<path d="M34,180 C50,200 86,206 112,186 L124,146" fill="none" stroke="#4A5C55" stroke-width="1.2"/>
+<circle cx="124" cy="146" r="3" fill="#4A5C55"/>
+<text x="130" y="148" font-size="5.0" fill="#4A5C55">到</text>
+<text x="24" y="216" font-size="4.9" fill="#6E6459">一刀切过去的直，撞在中间；能缩一下的直，绕过去也到了</text>
+<text x="150" y="150" font-size="5.9" fill="#2F2A24">世俗的直，是直线切割：把挡路的东西都分开。</text>
+<text x="150" y="164" font-size="5.9" fill="#2F2A24">看着利落，代价是它必须一路撞开东西。</text>
+<text x="150" y="184" font-size="6.0" fill="#4A5C55">「屈」不是弯，是缩——把自己收短一点，好过去。</text>
+<text x="24" y="236" font-size="6.0" fill="#2F2A24">二 · 大巧若拙</text>
+<circle cx="46" cy="274" r="16" fill="none" stroke="#2F2A24" stroke-width="0.9"/>
+<line x1="59.0" y1="274.0" x2="63.0" y2="274.0" stroke="#2F2A24" stroke-width="0.4"/>
+<line x1="57.3" y1="280.5" x2="60.7" y2="282.5" stroke="#2F2A24" stroke-width="0.4"/>
+<line x1="52.5" y1="285.3" x2="54.5" y2="288.7" stroke="#2F2A24" stroke-width="0.4"/>
+<line x1="46.0" y1="287.0" x2="46.0" y2="291.0" stroke="#2F2A24" stroke-width="0.4"/>
+<line x1="39.5" y1="285.3" x2="37.5" y2="288.7" stroke="#2F2A24" stroke-width="0.4"/>
+<line x1="34.7" y1="280.5" x2="31.3" y2="282.5" stroke="#2F2A24" stroke-width="0.4"/>
+<line x1="33.0" y1="274.0" x2="29.0" y2="274.0" stroke="#2F2A24" stroke-width="0.4"/>
+<line x1="34.7" y1="267.5" x2="31.3" y2="265.5" stroke="#2F2A24" stroke-width="0.4"/>
+<line x1="39.5" y1="262.7" x2="37.5" y2="259.3" stroke="#2F2A24" stroke-width="0.4"/>
+<line x1="46.0" y1="261.0" x2="46.0" y2="257.0" stroke="#2F2A24" stroke-width="0.4"/>
+<line x1="52.5" y1="262.7" x2="54.5" y2="259.3" stroke="#2F2A24" stroke-width="0.4"/>
+<line x1="57.3" y1="267.5" x2="60.7" y2="265.5" stroke="#2F2A24" stroke-width="0.4"/>
+<text x="46" y="302" font-size="4.9" fill="#6E6459" text-anchor="middle">看得出使过劲</text>
+<circle cx="106" cy="274" r="16" fill="none" stroke="#4A5C55" stroke-width="0.9"/>
+<text x="106" y="302" font-size="4.9" fill="#4A5C55" text-anchor="middle">看不出手</text>
+<text x="150" y="258" font-size="5.9" fill="#2F2A24">巧到了极处，就不再需要「巧」这个动作。</text>
+<text x="150" y="272" font-size="5.9" fill="#2F2A24">要人看出巧，那是手艺；看不出使过劲，才是本事。</text>
+<text x="150" y="292" font-size="6.0" fill="#4A5C55">「拙」不是装笨：是已经没有那个劲可用了。</text>
+<text x="24" y="338" font-size="6.0" fill="#2F2A24">三 · 大辩若讷</text>
+<ellipse cx="46" cy="374" rx="10" ry="6" fill="none" stroke="#2F2A24" stroke-width="0.8"/>
+<text x="46" y="366" font-size="5.0" fill="#2F2A24" text-anchor="middle">讷</text>
+<line x1="66" y1="368" x2="84" y2="368" stroke="#A2503B" stroke-width="0.55"/>
+<line x1="66" y1="373" x2="84" y2="373" stroke="#A2503B" stroke-width="0.55"/>
+<line x1="66" y1="378" x2="80" y2="378" stroke="#A2503B" stroke-width="0.55"/>
+<line x1="66" y1="383" x2="80" y2="383" stroke="#A2503B" stroke-width="0.55"/>
+<text x="74" y="400" font-size="4.8" fill="#6E6459" text-anchor="middle">滔滔</text>
+<line x1="100" y1="374" x2="132" y2="374" stroke="#4A5C55" stroke-width="1.1"/>
+<text x="116" y="400" font-size="4.8" fill="#4A5C55" text-anchor="middle">一句说清</text>
+<text x="150" y="356" font-size="5.9" fill="#2F2A24">「讷」，《说文》「言难也」——话卡在嘴边。</text>
+<text x="150" y="372" font-size="5.9" fill="#2F2A24">不会说的人讷；说得太明白的人也讷。</text>
+<text x="150" y="392" font-size="5.9" fill="#6E6459">中间那批滔滔不绝的，是把世界切得顺手。</text>
+<line x1="24" y1="420" x2="338" y2="420" stroke="#DCCBB0" stroke-width="0.6"/>
+<rect x="20" y="430" width="340" height="44" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="190" y="446" font-size="6.6" fill="#2F2A24" text-anchor="middle">五个「大」，五处留白：缺、冲、屈、拙、讷。</text>
+<text x="190" y="460" font-size="6.4" fill="#4A5C55" text-anchor="middle">不是没做到，是做到了，故意不补齐。</text>
+<line x1="20" y1="488" x2="360" y2="488" stroke="#E6D8C2" stroke-width="0.8"/>
+<text x="20" y="502" font-size="8.0" fill="#A89577" letter-spacing="1">本 章 金 句</text>
+<text x="20" y="518" font-size="8.4" fill="#2F2A24">一刀切过去的直，走不了远路；能缩一下的直，才真的到得了。</text>
+<text x="20" y="534" font-size="8.4" fill="#2F2A24">巧到要人看出巧，那是手艺；巧到看不出使过劲，那才是本事。</text>
+</svg>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 380 592" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="动可以赢一场冷，只有静能了断一场热" font-family="'Noto Serif CJK SC','Noto Serif SC','Songti SC',serif">
+<defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#6E6459"/></marker><marker id="arr2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#4A5C55"/></marker><marker id="arrL" viewBox="0 0 10 10" refX="1" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M10 0 L0 5 L10 10 z" fill="#4A5C55"/></marker><marker id="arrS" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#A2503B"/></marker></defs>
+<rect x="0" y="0" width="380" height="592" fill="#F8F3E6"/>
+<text x="20" y="26" font-size="11" fill="#A2503B" font-family="'Noto Sans CJK SC','Noto Sans SC',sans-serif" letter-spacing="3">第 四 十 五 章 · 躁 静</text>
+<text x="20" y="58" font-size="21" fill="#2F2A24">两种治法</text>
+<text x="20" y="78" font-size="10.5" fill="#6E6459">清静为天下正。</text>
+<rect x="20" y="102" width="340" height="30" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="190" y="115" font-size="7.0" fill="#2F2A24" text-anchor="middle">躁胜寒，静胜热。</text>
+<text x="190" y="127" font-size="5.2" fill="#6E6459" text-anchor="middle">「躁」是疾动，「寒」是匮乏、撑不住；「热」是亢奋、盈满、那股停不下来的劲。</text>
+<text x="24" y="156" font-size="6.0" fill="#2F2A24">一 · 不足时：躁</text>
+<rect x="36" y="168" width="88" height="72" fill="#F8F3E6" stroke="#E6D8C2" stroke-width="0.6"/>
+<text x="80" y="182" font-size="5.2" fill="#6E6459" text-anchor="middle">寒 · 不足</text>
+<line x1="46" y1="192" x2="58" y2="212" stroke="#2F2A24" stroke-width="0.8"/>
+<path d="M58,212 l-7,-1 l2,-7 z" fill="#4A5C55"/>
+<line x1="60" y1="192" x2="72" y2="212" stroke="#2F2A24" stroke-width="0.8"/>
+<path d="M72,212 l-7,-1 l2,-7 z" fill="#4A5C55"/>
+<line x1="74" y1="192" x2="86" y2="212" stroke="#2F2A24" stroke-width="0.8"/>
+<path d="M86,212 l-7,-1 l2,-7 z" fill="#4A5C55"/>
+<text x="80" y="230" font-size="5.0" fill="#4A5C55" text-anchor="middle">动起来，顶一阵</text>
+<text x="150" y="176" font-size="5.9" fill="#2F2A24">冷的时候动起来，能顶一阵。这是实话。</text>
+<text x="150" y="192" font-size="5.9" fill="#2F2A24">可它只顶一阵——动要耗，耗完更冷。</text>
+<text x="150" y="212" font-size="6.0" fill="#A2503B">它说的是「胜」，不是「治」。</text>
+<text x="24" y="252" font-size="6.0" fill="#4A5C55">二 · 有余时：静</text>
+<rect x="36" y="264" width="88" height="72" fill="#F8F3E6" stroke="#E6D8C2" stroke-width="0.6"/>
+<text x="80" y="278" font-size="5.2" fill="#6E6459" text-anchor="middle">热 · 有余</text>
+<line x1="50" y1="320" x2="50" y2="310" stroke="#A2503B" stroke-width="0.8"/>
+<path d="M50,306 l-3,5 l6,0 z" fill="#A2503B"/>
+<line x1="61" y1="320" x2="61" y2="300" stroke="#A2503B" stroke-width="0.8"/>
+<path d="M61,296 l-3,5 l6,0 z" fill="#A2503B"/>
+<line x1="72" y1="320" x2="72" y2="306" stroke="#A2503B" stroke-width="0.8"/>
+<path d="M72,302 l-3,5 l6,0 z" fill="#A2503B"/>
+<line x1="83" y1="320" x2="83" y2="296" stroke="#A2503B" stroke-width="0.8"/>
+<path d="M83,292 l-3,5 l6,0 z" fill="#A2503B"/>
+<line x1="40" y1="292" x2="94" y2="292" stroke="#2F2A24" stroke-width="2.2"/>
+<text x="100" y="295" font-size="5.2" fill="#2F2A24">定</text>
+<text x="80" y="326" font-size="5.0" fill="#4A5C55" text-anchor="middle">静下来，才退得掉</text>
+<text x="150" y="272" font-size="5.9" fill="#2F2A24">热的时候静下来，能退。热不只是温度，</text>
+<text x="150" y="288" font-size="5.9" fill="#2F2A24">是亢奋、是盈满、是纷争、是停不下来的劲。</text>
+<text x="150" y="308" font-size="6.0" fill="#4A5C55">动治不足，静治有余：有余只能用定来收。</text>
+<text x="24" y="348" font-size="6.0" fill="#2F2A24">三 · 清静为天下正</text>
+<ellipse cx="70" cy="392" rx="14" ry="20" fill="#EFE4CF" stroke="#2F2A24" stroke-width="0.8"/>
+<circle cx="60" cy="368" r="3.4" fill="none" stroke="#4A5C55" stroke-width="0.7"/>
+<circle cx="65" cy="368" r="3.6" fill="none" stroke="#4A5C55" stroke-width="0.7"/>
+<circle cx="70" cy="368" r="3.8" fill="none" stroke="#4A5C55" stroke-width="0.7"/>
+<circle cx="74" cy="368" r="3.4" fill="none" stroke="#4A5C55" stroke-width="0.7"/>
+<circle cx="78" cy="368" r="3.0" fill="none" stroke="#4A5C55" stroke-width="0.7"/>
+<line x1="70" y1="412" x2="70" y2="420" stroke="#2F2A24" stroke-width="0.8"/>
+<text x="70" y="428" font-size="5.0" fill="#6E6459" text-anchor="middle">站住</text>
+<text x="150" y="368" font-size="5.9" fill="#2F2A24">「正」从止：一只脚走到该停的地方。</text>
+<text x="150" y="384" font-size="5.9" fill="#2F2A24">不是被谁摆正的，是它自己终于站住了。</text>
+<text x="150" y="404" font-size="6.0" fill="#4A5C55">清静不是不动，是动到该停的地方就停。</text>
+<line x1="24" y1="440" x2="338" y2="440" stroke="#DCCBB0" stroke-width="0.6"/>
+<rect x="20" y="450" width="340" height="44" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="190" y="466" font-size="6.6" fill="#2F2A24" text-anchor="middle">不足可以用动来补，有余只能用定来收。</text>
+<text x="190" y="480" font-size="6.2" fill="#A2503B" text-anchor="middle">世人惯用的恰好相反：不足时慌，有余时更冲。</text>
+<line x1="20" y1="508" x2="360" y2="508" stroke="#E6D8C2" stroke-width="0.8"/>
+<text x="20" y="522" font-size="8.0" fill="#A89577" letter-spacing="1">本 章 金 句</text>
+<text x="20" y="538" font-size="8.4" fill="#2F2A24">动可以赢一场冷，只有静能了断一场热。</text>
+<text x="20" y="554" font-size="8.4" fill="#2F2A24">「正」不是被谁摆正的，是它自己终于站住了。</text>
+</svg>
