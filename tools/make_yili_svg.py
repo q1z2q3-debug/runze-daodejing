@@ -4502,12 +4502,12 @@ def ch48c_guan_qia():
 def ch49a_yi_ba_chi():
     W, H = 380, 646
     body, y = head(W, H, "常心是一把自己打的尺：一把尺能定长短，也能把人钉在短的那一格里",
-                   "第 四 十 九 章 · 尺", "一把尺", "圣人无常心，以百姓心为心。", H)
+                   "第 四 十 九 章 · 尺 与 气", "一把尺，一口气", "圣人无常心，以百姓心为心。", H)
     s = [body]
 
     s.append(box(20, y + 2, 340, 30, fill="#F2EADA", stroke="#C9B79A"))
-    s.append(txt(190, y + 14, "「常心」听着像常理，其实是自己打的尺。", 5.6, INK, "middle"))
-    s.append(txt(190, y + 26, "什么该说、谁善谁不善，全由它定——它是「有」，是一条画好的线。", 5.2, "#6E6459", "middle"))
+    s.append(txt(190, y + 14, "「常心」听着像常理，其实是自己打的尺；尺一伸出去，话就跟着出去。", 5.4, INK, "middle"))
+    s.append(txt(190, y + 26, "量人是一口气往外吐，放下是一口气往里吸——同一件事的两头。", 5.2, "#6E6459", "middle"))
 
     posts = [(66, 84, "甲", "合格"), (136, 58, "乙", "不合格"), (206, 34, "丙", "不合格")]
 
@@ -4527,6 +4527,10 @@ def ch49a_yi_ba_chi():
         s.append(f'<line x1="{cx+9}" y1="{gy1-hh}" x2="294" y2="{gy1-hh}" stroke="{LINE2}" stroke-width="0.4" stroke-dasharray="3 3"/>')
         s.append(txt(cx, gy1 + 11, lab + " · " + verdict, 4.6, GREEN if verdict == "合格" else SEAL, "middle"))
     s.append(txt(210, gy1 + 26, "尺一横过来，人就成了几格里的一个读数", 4.6, "#6E6459"))
+    s.append(arrow(306, gy1 - 50, 336, gy1 - 50, SEAL, 0.9, head="arrS"))
+    s.append(txt(340, gy1 - 48, "吐", 6.2, SEAL))
+    s.append(txt(306, gy1 - 36, "标准、评判", 4.4, SEAL))
+    s.append(txt(306, gy1 - 26, "一整套「应该」", 4.4, SEAL))
 
     # 二、无常心：尺放下
     t2 = gy1 + 46
@@ -4540,13 +4544,17 @@ def ch49a_yi_ba_chi():
     s.append(f'<rect x="52" y="{gy2 + 40}" width="196" height="11" fill="#EFE6D4" stroke="{GREEN}" stroke-width="0.8"/>')
     for k in range(9):
         s.append(f'<line x1="{62 + k * 21}" y1="{gy2+40}" x2="{62 + k * 21}" y2="{gy2+46}" stroke="{GREEN}" stroke-width="0.4"/>')
-    s.append(txt(256, gy2 + 46, "尺躺下了：还在，只是不量人了", 4.6, GREEN))
-    s.append(txt(216, gy2 - 44, "三个人还是三个高度，各自一个尺寸", 4.6, "#6E6459"))
+    s.append(txt(254, gy2 + 42, "尺收回来了：还在，", 4.5, GREEN))
+    s.append(txt(254, gy2 + 52, "只是不量人了", 4.5, GREEN))
+    s.append(arrow(306, gy2 - 34, 236, gy2 - 34, GREEN, 0.9, head="arr2"))
+    s.append(txt(340, gy2 - 32, "吸", 6.2, GREEN))
+    s.append(txt(306, gy2 - 44, "往里收", 4.4, GREEN))
+    s.append(txt(24, gy2 - 46, "三个人还是三个高度，各自一个尺寸", 4.6, "#6E6459"))
 
     b = gy2 + 72
-    s.append(txt(24, b, "尺不是天给的：人打尺的时候，多半不知道自己正在打。", 5.6, INK))
+    s.append(txt(24, b, "量人和吐气是同一个动作：尺一伸出去，话就跟着出去。", 5.6, INK))
     s.append(txt(24, b + 16, "「以百姓心为心」不是照他们说的做，是不把人划到哪一栏里去。", 5.6, INK))
-    s.append(txt(24, b + 32, "放下尺，不是失去标准，是不再拿它钉人。", 5.4, GREEN))
+    s.append(txt(24, b + 32, "把尺收回来，气才收得住——放下尺不是失去标准，是不再拿它钉人。", 5.2, GREEN))
 
     c = b + 50
     s.append(f'<line x1="24" y1="{c}" x2="338" y2="{c}" stroke="{LINE}" stroke-width="0.6"/>')
