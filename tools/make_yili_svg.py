@@ -4377,59 +4377,66 @@ def ch48a_yi_yu_sun():
 
 # ============ 第四十八章 · 一层套一层的壳 ============
 def ch48b_ceng_ke():
-    W, H = 380, 500
-    body, y = head(W, H, "破一层，那一层就从实线变成虚线", "第 四 十 八 章 · 框",
+    W, H = 380, 438
+    body, y = head(W, H, "损，就是把实线损成虚线", "第 四 十 八 章 · 损",
                    "打破框框", "损之又损，以至于无为。", H)
     s = [body]
 
     s.append(box(20, y + 2, 340, 30, fill="#F2EADA", stroke="#C9B79A"))
-    s.append(txt(190, y + 14, "「损」不是扔东西，是破框：那一层边不再硬着了。", 5.8, INK, "middle"))
-    s.append(txt(190, y + 26, "框是自己画的；破一层，那一层就从实线变成虚线。", 5.4, "#6E6459", "middle"))
+    s.append(txt(190, y + 14, "「损」不是扔东西，是把那道边一点点损掉。", 5.8, INK, "middle"))
+    s.append(txt(190, y + 26, "实线是边；损一次，边就淡成虚线；再损，虚线也淡掉。", 5.4, "#6E6459", "middle"))
 
-    a = y + 52
-    cx, cy = 128, a + 84
+    a = y + 56
+    cy = a + 26
+    h = 22
+    xs = (54, 148, 242, 326)
 
-    def sq(h, col, w=0.9, op=1.0, dash=""):
-        d = f' stroke-dasharray="{dash}"' if dash else ""
-        return (f'<rect x="{cx-h}" y="{cy-h}" width="{2*h}" height="{2*h}" fill="none" '
-                f'stroke="{col}" stroke-width="{w}" opacity="{op}"{d}/>')
+    def frame(cx, mode, col=INK, op=1.0):
+        o = []
+        d = {"solid": "", "dashed": ' stroke-dasharray="4 3"', "faint": ' stroke-dasharray="5 4"'}[mode]
+        o.append(f'<rect x="{cx-h}" y="{cy-h}" width="{2*h}" height="{2*h}" fill="none" stroke="{col}" stroke-width="0.9" opacity="{op}"{d}/>')
+        return o
 
-    # 最外一层：已破（全虚线）
-    s.append(sq(68, SEAL, 0.8, 0.9, "4 3"))
-    # 第二层：破口中——实线断开，虚线接上
-    s.append(f'<line x1="{cx-52}" y1="{cy-52}" x2="{cx+2}" y2="{cy-52}" stroke="{INK}" stroke-width="0.9"/>')
-    s.append(f'<line x1="{cx+14}" y1="{cy-52}" x2="{cx+52}" y2="{cy-52}" stroke="{INK}" stroke-width="0.9" stroke-dasharray="3 3"/>')
-    s.append(f'<line x1="{cx+52}" y1="{cy-52}" x2="{cx+52}" y2="{cy+52}" stroke="{INK}" stroke-width="0.9"/>')
-    s.append(f'<line x1="{cx+52}" y1="{cy+52}" x2="{cx-52}" y2="{cy+52}" stroke="{INK}" stroke-width="0.9"/>')
-    s.append(f'<line x1="{cx-52}" y1="{cy+52}" x2="{cx-52}" y2="{cy-52}" stroke="{INK}" stroke-width="0.9"/>')
-    # 破口的两个小楔
-    s.append(f'<path d="M{cx+2},{cy-52} l4,-4 M{cx+2},{cy-52} l4,4" stroke="{SEAL}" stroke-width="0.6" fill="none"/>')
-    s.append(f'<path d="M{cx+14},{cy-52} l-4,-4 M{cx+14},{cy-52} l-4,4" stroke="{SEAL}" stroke-width="0.6" fill="none"/>')
-    # 第三层：还没破（实线，起了裂口）
-    s.append(sq(36, INK, 0.9))
-    s.append(f'<path d="M{cx+24},{cy-36} l8,-8 M{cx+30},{cy-36} l8,8" stroke="{SEAL}" stroke-width="0.5" fill="none"/>')
-    # 最里
-    s.append(sq(18, INK, 0.7, 0.5))
+    # 一：实线
+    for part in frame(xs[0], "solid"):
+        s.append(part)
+    s.append(txt(xs[0], cy + 44, "框是实的", 4.6, "#6E6459", "middle"))
+    # 二：正在损（上半实、下半虚，断口）
+    s.append(f'<line x1="{xs[1]-h}" y1="{cy-h}" x2="{xs[1]+h}" y2="{cy-h}" stroke="{INK}" stroke-width="0.9"/>')
+    s.append(f'<line x1="{xs[1]+h}" y1="{cy-h}" x2="{xs[1]+h}" y2="{cy+2}" stroke="{INK}" stroke-width="0.9"/>')
+    s.append(f'<line x1="{xs[1]+h}" y1="{cy+10}" x2="{xs[1]+h}" y2="{cy+h}" stroke="{SEAL}" stroke-width="0.9" stroke-dasharray="3 3"/>')
+    s.append(f'<line x1="{xs[1]+h}" y1="{cy+h}" x2="{xs[1]-h}" y2="{cy+h}" stroke="{SEAL}" stroke-width="0.9" stroke-dasharray="3 3"/>')
+    s.append(f'<line x1="{xs[1]-h}" y1="{cy+h}" x2="{xs[1]-h}" y2="{cy-2}" stroke="{INK}" stroke-width="0.9"/>')
+    s.append(f'<line x1="{xs[1]-h}" y1="{cy-10}" x2="{xs[1]-h}" y2="{cy-h}" stroke="{INK}" stroke-width="0.9" stroke-dasharray="3 3"/>')
+    s.append(f'<path d="M{xs[1]+h},{cy+2} l4,-3 M{xs[1]+h},{cy+2} l4,3" stroke="{SEAL}" stroke-width="0.6" fill="none"/>')
+    s.append(txt(xs[1], cy + 44, "实线断成虚线", 4.6, SEAL, "middle"))
+    # 三：整圈虚线
+    for part in frame(xs[2], "dashed", SEAL):
+        s.append(part)
+    s.append(txt(xs[2], cy + 44, "损成了虚线", 4.6, SEAL, "middle"))
+    # 四：虚线也淡掉
+    for part in frame(xs[3], "faint", SEAL, 0.4):
+        s.append(part)
+    s.append(txt(xs[3], cy + 44, "虚线也淡掉", 4.6, "#6E6459", "middle"))
 
-    s.append(txt(214, a + 18, "已破：整圈成了虚线", 4.9, SEAL))
-    s.append(f'<line x1="212" y1="{a+22}" x2="{cx+68}" y2="{cy-32}" stroke="{LINE2}" stroke-width="0.4"/>')
-    s.append(txt(214, a + 52, "正在破：实线断处，", 4.9, SEAL))
-    s.append(txt(214, a + 64, "虚线从这里接上", 4.9, GREEN))
-    s.append(f'<line x1="212" y1="{a+56}" x2="{cx+16}" y2="{cy-52}" stroke="{LINE2}" stroke-width="0.4"/>')
-    s.append(txt(214, a + 108, "还没破：还是实线", 4.9, "#6E6459"))
-    s.append(txt(214, a + 120, "只起了一道裂", 4.9, "#6E6459"))
-    s.append(f'<line x1="212" y1="{a+112}" x2="{cx+36}" y2="{cy+12}" stroke="{LINE2}" stroke-width="0.4"/>')
+    for k in range(3):
+        ax = xs[k] + h + 8
+        ax2 = xs[k+1] - h - 8
+        s.append(f'<line x1="{ax}" y1="{cy}" x2="{ax2}" y2="{cy}" stroke="{GREEN}" stroke-width="0.6" marker-end="url(#arr2)"/>')
+    s.append(txt((xs[1] + xs[2]) / 2, cy - 34, "又损", 4.8, GREEN, "middle"))
+    s.append(txt((xs[0] + xs[1]) / 2, cy - 34, "损", 4.8, GREEN, "middle"))
+    s.append(txt((xs[2] + xs[3]) / 2, cy - 20, "再损", 4.8, GREEN, "middle"))
 
-    b = a + 186
-    s.append(txt(24, b, "框不是别人给的，是自己画的：一个概念一道框，一个标准一道框。", 5.6, INK))
-    s.append(txt(24, b + 16, "破一层，那一层就不再硬着；剩下一层还硬着，所以还要再破。", 5.6, INK))
-    s.append(txt(24, b + 32, "这就是「又」：不是同一刀重复，是破完这层，下一层才露出来。", 5.4, GREEN))
+    b = cy + 68
+    s.append(txt(24, b, "框是自己画的：一个概念一道框，一个标准一道框。", 5.6, INK))
+    s.append(txt(24, b + 16, "损不是扔掉框，是让它不再硬着——实线还在，只是不再划人。", 5.6, INK))
+    s.append(txt(24, b + 32, "这就是「又」：损一次不够，因为剩下的那条实线会自己又长硬。", 5.4, GREEN))
 
     c = b + 50
     s.append(f'<line x1="24" y1="{c}" x2="338" y2="{c}" stroke="{LINE}" stroke-width="0.6"/>')
     s.append(box(20, c + 8, 340, 40, fill="#F2EADA", stroke="#C9B79A"))
-    s.append(txt(190, c + 24, "破到极处，不是手里空了，", 6.0, INK, "middle"))
-    s.append(txt(190, c + 36, "是那只画框的手不动了。", 6.0, GREEN, "middle"))
+    s.append(txt(190, c + 24, "损到极处，框还在，", 6.0, INK, "middle"))
+    s.append(txt(190, c + 36, "可它已经不是一座墙了。", 6.0, GREEN, "middle"))
     s.append(gold(c + 62, "ch48b"))
     s.append('</svg>')
     return "\n".join(s)

@@ -1,40 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg viewBox="0 0 380 500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="破一层，那一层就从实线变成虚线" font-family="'Noto Serif CJK SC','Noto Serif SC','Songti SC',serif">
+<svg viewBox="0 0 380 438" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="损，就是把实线损成虚线" font-family="'Noto Serif CJK SC','Noto Serif SC','Songti SC',serif">
 <defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#6E6459"/></marker><marker id="arr2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#4A5C55"/></marker><marker id="arrL" viewBox="0 0 10 10" refX="1" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M10 0 L0 5 L10 10 z" fill="#4A5C55"/></marker><marker id="arrS" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#A2503B"/></marker></defs>
-<rect x="0" y="0" width="380" height="500" fill="#F8F3E6"/>
-<text x="20" y="26" font-size="11" fill="#A2503B" font-family="'Noto Sans CJK SC','Noto Sans SC',sans-serif" letter-spacing="3">第 四 十 八 章 · 框</text>
+<rect x="0" y="0" width="380" height="438" fill="#F8F3E6"/>
+<text x="20" y="26" font-size="11" fill="#A2503B" font-family="'Noto Sans CJK SC','Noto Sans SC',sans-serif" letter-spacing="3">第 四 十 八 章 · 损</text>
 <text x="20" y="58" font-size="21" fill="#2F2A24">打破框框</text>
 <text x="20" y="78" font-size="10.5" fill="#6E6459">损之又损，以至于无为。</text>
 <rect x="20" y="102" width="340" height="30" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
-<text x="190" y="114" font-size="5.8" fill="#2F2A24" text-anchor="middle">「损」不是扔东西，是破框：那一层边不再硬着了。</text>
-<text x="190" y="126" font-size="5.4" fill="#6E6459" text-anchor="middle">框是自己画的；破一层，那一层就从实线变成虚线。</text>
-<rect x="60" y="168" width="136" height="136" fill="none" stroke="#A2503B" stroke-width="0.8" opacity="0.9" stroke-dasharray="4 3"/>
-<line x1="76" y1="184" x2="130" y2="184" stroke="#2F2A24" stroke-width="0.9"/>
-<line x1="142" y1="184" x2="180" y2="184" stroke="#2F2A24" stroke-width="0.9" stroke-dasharray="3 3"/>
-<line x1="180" y1="184" x2="180" y2="288" stroke="#2F2A24" stroke-width="0.9"/>
-<line x1="180" y1="288" x2="76" y2="288" stroke="#2F2A24" stroke-width="0.9"/>
-<line x1="76" y1="288" x2="76" y2="184" stroke="#2F2A24" stroke-width="0.9"/>
-<path d="M130,184 l4,-4 M130,184 l4,4" stroke="#A2503B" stroke-width="0.6" fill="none"/>
-<path d="M142,184 l-4,-4 M142,184 l-4,4" stroke="#A2503B" stroke-width="0.6" fill="none"/>
-<rect x="92" y="200" width="72" height="72" fill="none" stroke="#2F2A24" stroke-width="0.9" opacity="1.0"/>
-<path d="M152,200 l8,-8 M158,200 l8,8" stroke="#A2503B" stroke-width="0.5" fill="none"/>
-<rect x="110" y="218" width="36" height="36" fill="none" stroke="#2F2A24" stroke-width="0.7" opacity="0.5"/>
-<text x="214" y="170" font-size="4.9" fill="#A2503B">已破：整圈成了虚线</text>
-<line x1="212" y1="174" x2="196" y2="204" stroke="#E6D8C2" stroke-width="0.4"/>
-<text x="214" y="204" font-size="4.9" fill="#A2503B">正在破：实线断处，</text>
-<text x="214" y="216" font-size="4.9" fill="#4A5C55">虚线从这里接上</text>
-<line x1="212" y1="208" x2="144" y2="184" stroke="#E6D8C2" stroke-width="0.4"/>
-<text x="214" y="260" font-size="4.9" fill="#6E6459">还没破：还是实线</text>
-<text x="214" y="272" font-size="4.9" fill="#6E6459">只起了一道裂</text>
-<line x1="212" y1="264" x2="164" y2="248" stroke="#E6D8C2" stroke-width="0.4"/>
-<text x="24" y="338" font-size="5.6" fill="#2F2A24">框不是别人给的，是自己画的：一个概念一道框，一个标准一道框。</text>
-<text x="24" y="354" font-size="5.6" fill="#2F2A24">破一层，那一层就不再硬着；剩下一层还硬着，所以还要再破。</text>
-<text x="24" y="370" font-size="5.4" fill="#4A5C55">这就是「又」：不是同一刀重复，是破完这层，下一层才露出来。</text>
-<line x1="24" y1="388" x2="338" y2="388" stroke="#DCCBB0" stroke-width="0.6"/>
-<rect x="20" y="396" width="340" height="40" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
-<text x="190" y="412" font-size="6.0" fill="#2F2A24" text-anchor="middle">破到极处，不是手里空了，</text>
-<text x="190" y="424" font-size="6.0" fill="#4A5C55" text-anchor="middle">是那只画框的手不动了。</text>
-<line x1="20" y1="450" x2="360" y2="450" stroke="#E6D8C2" stroke-width="0.8"/>
-<text x="20" y="464" font-size="8.0" fill="#A89577" letter-spacing="1">本 章 金 句</text>
-<text x="20" y="480" font-size="8.4" fill="#2F2A24">损之又损，以至于无为。</text>
+<text x="190" y="114" font-size="5.8" fill="#2F2A24" text-anchor="middle">「损」不是扔东西，是把那道边一点点损掉。</text>
+<text x="190" y="126" font-size="5.4" fill="#6E6459" text-anchor="middle">实线是边；损一次，边就淡成虚线；再损，虚线也淡掉。</text>
+<rect x="32" y="160" width="44" height="44" fill="none" stroke="#2F2A24" stroke-width="0.9" opacity="1.0"/>
+<text x="54" y="226" font-size="4.6" fill="#6E6459" text-anchor="middle">框是实的</text>
+<line x1="126" y1="160" x2="170" y2="160" stroke="#2F2A24" stroke-width="0.9"/>
+<line x1="170" y1="160" x2="170" y2="184" stroke="#2F2A24" stroke-width="0.9"/>
+<line x1="170" y1="192" x2="170" y2="204" stroke="#A2503B" stroke-width="0.9" stroke-dasharray="3 3"/>
+<line x1="170" y1="204" x2="126" y2="204" stroke="#A2503B" stroke-width="0.9" stroke-dasharray="3 3"/>
+<line x1="126" y1="204" x2="126" y2="180" stroke="#2F2A24" stroke-width="0.9"/>
+<line x1="126" y1="172" x2="126" y2="160" stroke="#2F2A24" stroke-width="0.9" stroke-dasharray="3 3"/>
+<path d="M170,184 l4,-3 M170,184 l4,3" stroke="#A2503B" stroke-width="0.6" fill="none"/>
+<text x="148" y="226" font-size="4.6" fill="#A2503B" text-anchor="middle">实线断成虚线</text>
+<rect x="220" y="160" width="44" height="44" fill="none" stroke="#A2503B" stroke-width="0.9" opacity="1.0" stroke-dasharray="4 3"/>
+<text x="242" y="226" font-size="4.6" fill="#A2503B" text-anchor="middle">损成了虚线</text>
+<rect x="304" y="160" width="44" height="44" fill="none" stroke="#A2503B" stroke-width="0.9" opacity="0.4" stroke-dasharray="5 4"/>
+<text x="326" y="226" font-size="4.6" fill="#6E6459" text-anchor="middle">虚线也淡掉</text>
+<line x1="84" y1="182" x2="118" y2="182" stroke="#4A5C55" stroke-width="0.6" marker-end="url(#arr2)"/>
+<line x1="178" y1="182" x2="212" y2="182" stroke="#4A5C55" stroke-width="0.6" marker-end="url(#arr2)"/>
+<line x1="272" y1="182" x2="296" y2="182" stroke="#4A5C55" stroke-width="0.6" marker-end="url(#arr2)"/>
+<text x="195.0" y="148" font-size="4.8" fill="#4A5C55" text-anchor="middle">又损</text>
+<text x="101.0" y="148" font-size="4.8" fill="#4A5C55" text-anchor="middle">损</text>
+<text x="284.0" y="162" font-size="4.8" fill="#4A5C55" text-anchor="middle">再损</text>
+<text x="24" y="250" font-size="5.6" fill="#2F2A24">框是自己画的：一个概念一道框，一个标准一道框。</text>
+<text x="24" y="266" font-size="5.6" fill="#2F2A24">损不是扔掉框，是让它不再硬着——实线还在，只是不再划人。</text>
+<text x="24" y="282" font-size="5.4" fill="#4A5C55">这就是「又」：损一次不够，因为剩下的那条实线会自己又长硬。</text>
+<line x1="24" y1="300" x2="338" y2="300" stroke="#DCCBB0" stroke-width="0.6"/>
+<rect x="20" y="308" width="340" height="40" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="190" y="324" font-size="6.0" fill="#2F2A24" text-anchor="middle">损到极处，框还在，</text>
+<text x="190" y="336" font-size="6.0" fill="#4A5C55" text-anchor="middle">可它已经不是一座墙了。</text>
+<line x1="20" y1="362" x2="360" y2="362" stroke="#E6D8C2" stroke-width="0.8"/>
+<text x="20" y="376" font-size="8.0" fill="#A89577" letter-spacing="1">本 章 金 句</text>
+<text x="20" y="392" font-size="8.4" fill="#2F2A24">损之又损，以至于无为。</text>
 </svg>
