@@ -990,57 +990,61 @@ def ch10_bao_yi():
 
 # ============ 第三章 · 尚即过度（壁与空） ============
 def ch03_shang_ji_guo_du():
-    W, H = 380, 500
+    W, H = 380, 640
     body, y = head(W, H, "「尚」是把自然的分寸，抬成表态", "第 三 章 · 治 世", "尚即过度",
-                   "壁在，空才用得起；壁过头，腹先空，用也就没了。", H)
+                   "壁在，空才用得起；壁过了头，用也就没了。", H)
     s = [body]
-    # 三个尚
     rows = [("不尚贤", "使民不争", "把长处摆成徽章"),
             ("不贵难得之货", "使民不为盗", "把稀罕标成高价"),
             ("不见可欲", "使民心不乱", "把勾人的摆到眼前")]
     yb = y + 2
     for i, (a, b, note) in enumerate(rows):
-        yy = yb + i * 26
-        s.append(txt(20, yy + 15, a, 10, SEAL))
-        s.append(f'<line x1="116" y1="{yy+10}" x2="138" y2="{yy+10}" stroke="{LINE}" stroke-width="1" marker-end="url(#arr)"/>')
-        s.append(txt(144, yy + 15, b, 9.5, INK))
-        s.append(txt(212, yy + 15, note, 8.8, "#6E6459"))
-    s.append(txt(20, yb + 3 * 26 + 8, "三个动作是同一件：不主动抬它，标尺就不起来。", 9, "#8A7C69"))
-    # 三档壁
-    ys = yb + 3 * 26 + 22
-    s.append(txt(20, ys, "壁之三档：有壁而空在，才叫器", 9.5, "#8A7C69"))
-    cy = ys + 62
-    R = 44
-    specs = [(75, 37, "薄壁", "壁太薄：立不住", "空虽在，器不成"),
-             (190, 18, "中壁", "壁立而空存", "利与用俱"),
-             (305, 0, "实心", "空被挤尽", "用无从生")]
+        yy = yb + i * 24
+        s.append(txt(20, yy + 14, a, 9.5, SEAL))
+        s.append(f'<line x1="112" y1="{yy+9}" x2="132" y2="{yy+9}" stroke="{LINE}" stroke-width="1" marker-end="url(#arr)"/>')
+        s.append(txt(138, yy + 14, b, 9.5, INK))
+        s.append(txt(206, yy + 14, note, 8.5, "#6E6459"))
+    s.append(txt(20, yb + 3 * 24 + 6, "三个动作是同一件：不主动抬它，标尺就不起来。", 9, "#8A7C69"))
+    # 经文四句 ↔ 壁／空
+    ys = yb + 3 * 24 + 30
+    s.append(txt(20, ys, "经文四句，恰好分成壁与空", 9.5, "#8A7C69"))
+    top, bot = ys + 32, ys + 116
+    s.append(f'<rect x="36" y="{top}" width="13" height="{bot-top}" fill="{INK}" opacity="0.55"/>')
+    s.append(f'<rect x="132" y="{top}" width="13" height="{bot-top}" fill="{INK}" opacity="0.55"/>')
+    s.append(f'<line x1="49" y1="{bot}" x2="132" y2="{bot}" stroke="{INK}" stroke-width="1" opacity="0.55"/>')
+    s.append(txt(90, (top + bot) / 2 + 4, "空", 12, "#8A7C69", "middle"))
+    s.append(txt(26, top - 6, "壁", 9, SEAL))
+    s.append(txt(162, top + 2, "实其腹 · 强其骨 → 壁", 9.5, SEAL))
+    s.append(txt(162, top + 18, "厚其壁，是让它立得住", 8.5, "#6E6459"))
+    s.append(txt(162, top + 44, "虚其心 · 弱其志 → 空", 9.5, GREEN))
+    s.append(txt(162, top + 60, "守其空，是让空用得起", 8.5, "#6E6459"))
+    s.append(txt(162, top + 82, "四句不是四件事：两厚壁，两守空", 8.3, "#8A7C69"))
+    # 壁之三档
+    yz = ys + 140
+    s.append(txt(20, yz, "壁之三档：有壁而空在，才叫器", 9.5, "#8A7C69"))
+    cy = yz + 56
+    R = 40
+    specs = [(70, 34, "薄壁", "不及：立不住", "空虽在，器不成"),
+             (190, 17, "中壁", "实其腹的分寸", "壁立而空存，利与用俱"),
+             (310, 0, "实心", "过度：空被挤尽", "用无从生")]
     for cx, ri, name, a, b in specs:
         s.append(f'<circle cx="{cx}" cy="{cy}" r="{R}" fill="{INK}" opacity="0.5"/>')
         if ri:
             s.append(f'<circle cx="{cx}" cy="{cy}" r="{ri}" fill="{PAPER}" stroke="{INK}" stroke-width="0.8"/>')
-            s.append(txt(cx, cy + 4, "空", 10, "#8A7C69", "middle"))
-        s.append(txt(cx, cy + R + 18, name, 10, SEAL if ri else INK, "middle"))
-        s.append(txt(cx, cy + R + 34, a, 8.8, "#6E6459", "middle"))
-        s.append(txt(cx, cy + R + 50, b, 8.8, "#6E6459", "middle"))
-    # 崩：实过头，腹虚
-    yc2 = cy + R + 66
-    import math
-    cxd, cyd, rd = 75, yc2 + 24, 30
-    def pt(deg):
-        a = math.radians(deg)
-        return cxd + rd * math.cos(a), cyd + rd * math.sin(a)
-    for a1, a2 in ((30, 200), (210, 380)):
-        x1, y1 = pt(a1); x2, y2 = pt(a2)
-        s.append(f'<path d="M {x1:.1f} {y1:.1f} A {rd} {rd} 0 0 1 {x2:.1f} {y2:.1f}" fill="none" stroke="{SEAL}" stroke-width="1.6"/>')
-    s.append(txt(cxd, cyd + 4, "虚", 10, SEAL, "middle"))
-    s.append(txt(126, yc2 + 16, "再进一步：实过头，壁崩，腹先虚", 10, SEAL))
-    s.append(txt(126, yc2 + 34, "虚其腹不是「清空」，是壁让得过、先破了。", 9, "#6E6459"))
-    s.append(txt(126, yc2 + 50, "壁一破，腔也守不住，用随之中断。", 9, "#6E6459"))
-    # 收
-    yc = yc2 + 66
-    s.append(box(20, yc, 340, 50, fill="#F2EADA", stroke="#C9B79A"))
-    s.append(txt(190, yc + 22, "有之以为利，无之以为用。", 11.5, INK, "middle", spacing="1"))
-    s.append(txt(190, yc + 42, "过与不及，皆失其用——一个立不住，一个容不下。", 9, "#6E6459", "middle"))
+            s.append(txt(cx, cy + 4, "空", 9.5, "#8A7C69", "middle"))
+        s.append(txt(cx, cy + R + 15, name, 10, SEAL if ri else INK, "middle"))
+        s.append(txt(cx, cy + R + 31, a, 8.4, "#6E6459", "middle"))
+        s.append(txt(cx, cy + R + 46, b, 8.2, "#6E6459", "middle"))
+    # 反推：非经文
+    yr = cy + R + 60
+    s.append(box(20, yr, 340, 62, fill="#F6EFE0", stroke="#C9B79A", dash="4 3"))
+    s.append(txt(32, yr + 17, "反推（非经文，作者举例）：实之过度，腹反虚", 8.8, SEAL))
+    s.append(txt(32, yr + 33, "实过了头，壁先崩；壁一破，腔也守不住，用随之中断。", 8.8, "#6E6459"))
+    s.append(txt(32, yr + 49, "所以「虚其腹」不是另一条口诀，是「实」失了度的样子。", 8.8, "#6E6459"))
+    yc = yr + 76
+    s.append(box(20, yc, 340, 42, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, yc + 20, "有之以为利，无之以为用。", 11.5, INK, "middle", spacing="1"))
+    s.append(txt(190, yc + 36, "过与不及，皆失其用。", 9, "#6E6459", "middle"))
     s.append('</svg>')
     return "\n".join(s)
 

@@ -1,47 +1,56 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg viewBox="0 0 380 500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="「尚」是把自然的分寸，抬成表态" font-family="'Noto Serif CJK SC','Noto Serif SC','Songti SC',serif">
+<svg viewBox="0 0 380 640" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="「尚」是把自然的分寸，抬成表态" font-family="'Noto Serif CJK SC','Noto Serif SC','Songti SC',serif">
 <defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#6E6459"/></marker><marker id="arr2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#4A5C55"/></marker><marker id="arrL" viewBox="0 0 10 10" refX="1" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M10 0 L0 5 L10 10 z" fill="#4A5C55"/></marker><marker id="arrS" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#A2503B"/></marker></defs>
-<rect x="0" y="0" width="380" height="500" fill="#F8F3E6"/>
+<rect x="0" y="0" width="380" height="640" fill="#F8F3E6"/>
 <text x="20" y="26" font-size="11" fill="#A2503B" font-family="'Noto Sans CJK SC','Noto Sans SC',sans-serif" letter-spacing="3">第 三 章 · 治 世</text>
 <text x="20" y="58" font-size="21" fill="#2F2A24">尚即过度</text>
-<text x="20" y="78" font-size="10.5" fill="#6E6459">壁在，空才用得起；壁过头，腹先空，用也就没了。</text>
-<text x="20" y="117" font-size="10" fill="#A2503B">不尚贤</text>
-<line x1="116" y1="112" x2="138" y2="112" stroke="#DCCBB0" stroke-width="1" marker-end="url(#arr)"/>
-<text x="144" y="117" font-size="9.5" fill="#2F2A24">使民不争</text>
-<text x="212" y="117" font-size="8.8" fill="#6E6459">把长处摆成徽章</text>
-<text x="20" y="143" font-size="10" fill="#A2503B">不贵难得之货</text>
-<line x1="116" y1="138" x2="138" y2="138" stroke="#DCCBB0" stroke-width="1" marker-end="url(#arr)"/>
-<text x="144" y="143" font-size="9.5" fill="#2F2A24">使民不为盗</text>
-<text x="212" y="143" font-size="8.8" fill="#6E6459">把稀罕标成高价</text>
-<text x="20" y="169" font-size="10" fill="#A2503B">不见可欲</text>
-<line x1="116" y1="164" x2="138" y2="164" stroke="#DCCBB0" stroke-width="1" marker-end="url(#arr)"/>
-<text x="144" y="169" font-size="9.5" fill="#2F2A24">使民心不乱</text>
-<text x="212" y="169" font-size="8.8" fill="#6E6459">把勾人的摆到眼前</text>
-<text x="20" y="188" font-size="9" fill="#8A7C69">三个动作是同一件：不主动抬它，标尺就不起来。</text>
-<text x="20" y="202" font-size="9.5" fill="#8A7C69">壁之三档：有壁而空在，才叫器</text>
-<circle cx="75" cy="264" r="44" fill="#2F2A24" opacity="0.5"/>
-<circle cx="75" cy="264" r="37" fill="#F8F3E6" stroke="#2F2A24" stroke-width="0.8"/>
-<text x="75" y="268" font-size="10" fill="#8A7C69" text-anchor="middle">空</text>
-<text x="75" y="326" font-size="10" fill="#A2503B" text-anchor="middle">薄壁</text>
-<text x="75" y="342" font-size="8.8" fill="#6E6459" text-anchor="middle">壁太薄：立不住</text>
-<text x="75" y="358" font-size="8.8" fill="#6E6459" text-anchor="middle">空虽在，器不成</text>
-<circle cx="190" cy="264" r="44" fill="#2F2A24" opacity="0.5"/>
-<circle cx="190" cy="264" r="18" fill="#F8F3E6" stroke="#2F2A24" stroke-width="0.8"/>
-<text x="190" y="268" font-size="10" fill="#8A7C69" text-anchor="middle">空</text>
-<text x="190" y="326" font-size="10" fill="#A2503B" text-anchor="middle">中壁</text>
-<text x="190" y="342" font-size="8.8" fill="#6E6459" text-anchor="middle">壁立而空存</text>
-<text x="190" y="358" font-size="8.8" fill="#6E6459" text-anchor="middle">利与用俱</text>
-<circle cx="305" cy="264" r="44" fill="#2F2A24" opacity="0.5"/>
-<text x="305" y="326" font-size="10" fill="#2F2A24" text-anchor="middle">实心</text>
-<text x="305" y="342" font-size="8.8" fill="#6E6459" text-anchor="middle">空被挤尽</text>
-<text x="305" y="358" font-size="8.8" fill="#6E6459" text-anchor="middle">用无从生</text>
-<path d="M 101.0 413.0 A 30 30 0 0 1 46.8 387.7" fill="none" stroke="#A2503B" stroke-width="1.6"/>
-<path d="M 49.0 383.0 A 30 30 0 0 1 103.2 408.3" fill="none" stroke="#A2503B" stroke-width="1.6"/>
-<text x="75" y="402" font-size="10" fill="#A2503B" text-anchor="middle">虚</text>
-<text x="126" y="390" font-size="10" fill="#A2503B">再进一步：实过头，壁崩，腹先虚</text>
-<text x="126" y="408" font-size="9" fill="#6E6459">虚其腹不是「清空」，是壁让得过、先破了。</text>
-<text x="126" y="424" font-size="9" fill="#6E6459">壁一破，腔也守不住，用随之中断。</text>
-<rect x="20" y="440" width="340" height="50" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
-<text x="190" y="462" font-size="11.5" fill="#2F2A24" text-anchor="middle" letter-spacing="1">有之以为利，无之以为用。</text>
-<text x="190" y="482" font-size="9" fill="#6E6459" text-anchor="middle">过与不及，皆失其用——一个立不住，一个容不下。</text>
+<text x="20" y="78" font-size="10.5" fill="#6E6459">壁在，空才用得起；壁过了头，用也就没了。</text>
+<text x="20" y="116" font-size="9.5" fill="#A2503B">不尚贤</text>
+<line x1="112" y1="111" x2="132" y2="111" stroke="#DCCBB0" stroke-width="1" marker-end="url(#arr)"/>
+<text x="138" y="116" font-size="9.5" fill="#2F2A24">使民不争</text>
+<text x="206" y="116" font-size="8.5" fill="#6E6459">把长处摆成徽章</text>
+<text x="20" y="140" font-size="9.5" fill="#A2503B">不贵难得之货</text>
+<line x1="112" y1="135" x2="132" y2="135" stroke="#DCCBB0" stroke-width="1" marker-end="url(#arr)"/>
+<text x="138" y="140" font-size="9.5" fill="#2F2A24">使民不为盗</text>
+<text x="206" y="140" font-size="8.5" fill="#6E6459">把稀罕标成高价</text>
+<text x="20" y="164" font-size="9.5" fill="#A2503B">不见可欲</text>
+<line x1="112" y1="159" x2="132" y2="159" stroke="#DCCBB0" stroke-width="1" marker-end="url(#arr)"/>
+<text x="138" y="164" font-size="9.5" fill="#2F2A24">使民心不乱</text>
+<text x="206" y="164" font-size="8.5" fill="#6E6459">把勾人的摆到眼前</text>
+<text x="20" y="180" font-size="9" fill="#8A7C69">三个动作是同一件：不主动抬它，标尺就不起来。</text>
+<text x="20" y="204" font-size="9.5" fill="#8A7C69">经文四句，恰好分成壁与空</text>
+<rect x="36" y="236" width="13" height="84" fill="#2F2A24" opacity="0.55"/>
+<rect x="132" y="236" width="13" height="84" fill="#2F2A24" opacity="0.55"/>
+<line x1="49" y1="320" x2="132" y2="320" stroke="#2F2A24" stroke-width="1" opacity="0.55"/>
+<text x="90" y="282.0" font-size="12" fill="#8A7C69" text-anchor="middle">空</text>
+<text x="26" y="230" font-size="9" fill="#A2503B">壁</text>
+<text x="162" y="238" font-size="9.5" fill="#A2503B">实其腹 · 强其骨 → 壁</text>
+<text x="162" y="254" font-size="8.5" fill="#6E6459">厚其壁，是让它立得住</text>
+<text x="162" y="280" font-size="9.5" fill="#4A5C55">虚其心 · 弱其志 → 空</text>
+<text x="162" y="296" font-size="8.5" fill="#6E6459">守其空，是让空用得起</text>
+<text x="162" y="318" font-size="8.3" fill="#8A7C69">四句不是四件事：两厚壁，两守空</text>
+<text x="20" y="344" font-size="9.5" fill="#8A7C69">壁之三档：有壁而空在，才叫器</text>
+<circle cx="70" cy="400" r="40" fill="#2F2A24" opacity="0.5"/>
+<circle cx="70" cy="400" r="34" fill="#F8F3E6" stroke="#2F2A24" stroke-width="0.8"/>
+<text x="70" y="404" font-size="9.5" fill="#8A7C69" text-anchor="middle">空</text>
+<text x="70" y="455" font-size="10" fill="#A2503B" text-anchor="middle">薄壁</text>
+<text x="70" y="471" font-size="8.4" fill="#6E6459" text-anchor="middle">不及：立不住</text>
+<text x="70" y="486" font-size="8.2" fill="#6E6459" text-anchor="middle">空虽在，器不成</text>
+<circle cx="190" cy="400" r="40" fill="#2F2A24" opacity="0.5"/>
+<circle cx="190" cy="400" r="17" fill="#F8F3E6" stroke="#2F2A24" stroke-width="0.8"/>
+<text x="190" y="404" font-size="9.5" fill="#8A7C69" text-anchor="middle">空</text>
+<text x="190" y="455" font-size="10" fill="#A2503B" text-anchor="middle">中壁</text>
+<text x="190" y="471" font-size="8.4" fill="#6E6459" text-anchor="middle">实其腹的分寸</text>
+<text x="190" y="486" font-size="8.2" fill="#6E6459" text-anchor="middle">壁立而空存，利与用俱</text>
+<circle cx="310" cy="400" r="40" fill="#2F2A24" opacity="0.5"/>
+<text x="310" y="455" font-size="10" fill="#2F2A24" text-anchor="middle">实心</text>
+<text x="310" y="471" font-size="8.4" fill="#6E6459" text-anchor="middle">过度：空被挤尽</text>
+<text x="310" y="486" font-size="8.2" fill="#6E6459" text-anchor="middle">用无从生</text>
+<rect x="20" y="500" width="340" height="62" fill="#F6EFE0" stroke="#C9B79A" stroke-width="1.0" stroke-dasharray="4 3"/>
+<text x="32" y="517" font-size="8.8" fill="#A2503B">反推（非经文，作者举例）：实之过度，腹反虚</text>
+<text x="32" y="533" font-size="8.8" fill="#6E6459">实过了头，壁先崩；壁一破，腔也守不住，用随之中断。</text>
+<text x="32" y="549" font-size="8.8" fill="#6E6459">所以「虚其腹」不是另一条口诀，是「实」失了度的样子。</text>
+<rect x="20" y="576" width="340" height="42" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="190" y="596" font-size="11.5" fill="#2F2A24" text-anchor="middle" letter-spacing="1">有之以为利，无之以为用。</text>
+<text x="190" y="612" font-size="9" fill="#6E6459" text-anchor="middle">过与不及，皆失其用。</text>
 </svg>
