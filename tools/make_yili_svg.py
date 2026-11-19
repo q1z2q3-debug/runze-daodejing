@@ -1518,6 +1518,10 @@ GOLD = {
     "ch23": ["自然不是「不管」，是「不需要管」——差别全在有没有人在使劲。", "信不足，不是话说得不够多，是话后面没有人。"],
     "ch24": ["借来的高度站不住，省下的步子走不远。", "不处不是割掉，是不长——约束是按住它，不处是根本不在那儿站。"],
     "ch25": ["不是它比天地老，是天地离了它不成。", "名是给有边界的东西用的；对没有边界的东西，名只是手指。"],
+    "ch43b": ["撞是把自己的力交出去，跑是把自己的力留着。",
+               "它赢的方式，是让「强弱」这场比赛根本不成立。"],
+    "ch43a": ["「柔」从木，是能曲能直；「坚」从土，硬成一块。一个还能变，一个已经定了。",
+               "柔不是没有力量，是力量还没有被固定成一个方向。"],
     "ch42c": ["三不是第三样东西，是被二撑开的那道空。",
                "分出去，又合回来；不是一条直线，是一条环。"],
     "ch42b": ["纯阴则死，纯阳则散。",
@@ -3480,6 +3484,124 @@ def ch42c_zheng_fan_he():
     return "\n".join(s)
 
 
+# ============ 第四十三章 · 柔不是软 ============
+def ch43a_rou_bu_shi_ruan():
+    W, H = 380, 500
+    body, y = head(W, H, "柔从木，是能曲能直；坚从土，是硬成一块", "第 四 十 三 章 · 柔 坚",
+                   "柔不是软", "一个还能变，一个已经定了。", H)
+    s = [body]
+
+    s.append(box(20, y + 2, 340, 30, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, y + 15, "天下之至柔，驰骋于天下之至坚。", 7.0, INK, "middle"))
+    s.append(txt(190, y + 27, "「柔」，《说文》「木曲直也」，从木；「坚」，《说文》「刚也」，从土。", 5.6, "#6E6459", "middle"))
+
+    a = y + 52
+    # 左：木
+    s.append(txt(24, a + 6, "一 · 柔：从木", 6.4, GREEN))
+    s.append(f'<path d="M56,{a+30} C86,{a+18} 96,{a+62} 126,{a+48}" fill="none" stroke="{GREEN}" stroke-width="1.6"/>')
+    s.append(f'<path d="M56,{a+54} C90,{a+44} 104,{a+86} 126,{a+72}" fill="none" stroke="{GREEN}" stroke-width="0.7" stroke-dasharray="5 4"/>')
+    s.append(f'<path d="M56,{a+72} C84,{a+66} 100,{a+94} 126,{a+92}" fill="none" stroke="{GREEN}" stroke-width="0.7" stroke-dasharray="2 4"/>')
+    s.append(txt(132, a + 46, "木", 8.4, GREEN))
+    s.append(txt(56, a + 92, "同一根枝，三种姿态：能曲能直，说明它还在活、还有余地。", 5.6, "#6E6459"))
+    s.append(txt(150, a + 22, "「至柔」不是「软到不能再软」，", 6.2, INK))
+    s.append(txt(150, a + 38, "是「变到不能再能变」。", 6.2, INK))
+    s.append(txt(150, a + 58, "柔的尽头不是无力，", 6.2, "#6E6459"))
+    s.append(txt(150, a + 74, "是没有被任何一种形状锁住。", 6.2, "#6E6459"))
+
+    # 右：土
+    b = a + 118
+    s.append(txt(24, b + 6, "二 · 坚：从土", 6.4, SEAL))
+    s.append(f'<rect x="56" y="{b+18}" width="70" height="60" fill="#E6D8C2" stroke="{INK}" stroke-width="1.2"/>')
+    for i in range(1, 6):
+        s.append(f'<line x1="{56+i*11}" y1="{b+18}" x2="{56+i*11}" y2="{b+78}" stroke="{INK}" stroke-width="0.4" opacity="0.45"/>')
+    for j in range(1, 4):
+        s.append(f'<line x1="56" y1="{b+18+j*15}" x2="126" y2="{b+18+j*15}" stroke="{INK}" stroke-width="0.4" opacity="0.45"/>')
+    s.append(txt(150, b + 22, "土是实的、是硬的、是不动的：", 6.2, INK))
+    s.append(txt(150, b + 38, "一硬成一块，就不再变。", 6.2, INK))
+    s.append(txt(150, b + 58, "它的强处是定型，弱处也是定型——", 6.2, "#6E6459"))
+    s.append(txt(150, b + 74, "一旦定了，只能以一种方式存在。", 6.2, "#6E6459"))
+    s.append(txt(91, b + 94, "已经定了", 5.6, SEAL, "middle"))
+
+    y2 = b + 116
+    s.append(f'<line x1="24" y1="{y2-8}" x2="338" y2="{y2-8}" stroke="{LINE}" stroke-width="0.6"/>')
+    s.append(box(20, y2 + 2, 340, 44, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, y2 + 18, "一个从木，一个从土；一个还能变，一个已经定了。", 6.8, INK, "middle"))
+    s.append(txt(190, y2 + 32, "还能变的那个，能穿过已经定的那个。", 6.8, GREEN, "middle"))
+    s.append(gold(y2 + 60, "ch43a"))
+    s.append('</svg>')
+    return "\n".join(s)
+
+
+# ============ 第四十三章 · 不撞，是跑 ============
+def ch43b_bu_zhuang_shi_pao():
+    W, H = 380, 560
+    body, y = head(W, H, "撞是把自己的力交出去，跑是把自己的力留着", "第 四 十 三 章 · 驰 骋",
+                   "不撞，是跑", "至柔在至坚身上「驰骋」——不是撞，是跑。", H)
+    s = [body]
+
+    s.append(box(20, y + 2, 340, 30, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, y + 15, "驰骋，大驱也；骋，直驰也——放马直跑，不绕弯。", 6.4, INK, "middle"))
+    s.append(txt(190, y + 27, "老子把这个战场上的词，安在最软的那样东西身上。", 5.7, "#6E6459", "middle"))
+
+    wx, wy = 104, None
+
+    # 一、撞
+    a = y + 48
+    s.append(txt(24, a + 4, "一 · 撞：力交出去", 6.2, SEAL))
+    wy = a + 16
+    s.append(f'<rect x="{wx}" y="{wy}" width="12" height="64" fill="#E6D8C2" stroke="{INK}" stroke-width="0.8"/>')
+    for j in range(4):
+        s.append(f'<line x1="{wx}" y1="{wy+8+j*16}" x2="{wx+12}" y2="{wy+8+j*16}" stroke="{INK}" stroke-width="0.4" opacity="0.5"/>')
+    s.append(f'<circle cx="76" cy="{wy+30}" r="10" fill="#D9CBB2" stroke="{INK}" stroke-width="0.9"/>')
+    s.append(f'<line x1="56" y1="{wy+30}" x2="64" y2="{wy+30}" stroke="{INK}" stroke-width="0.7"/>')
+    s.append(f'<line x1="50" y1="{wy+26}" x2="58" y2="{wy+26}" stroke="{INK}" stroke-width="0.5" opacity="0.7"/>')
+    s.append(f'<line x1="50" y1="{wy+34}" x2="58" y2="{wy+34}" stroke="{INK}" stroke-width="0.5" opacity="0.7"/>')
+    s.append(f'<path d="M68,{wy+22} l-8,-6 M68,{wy+38} l-8,6" stroke="{SEAL}" stroke-width="0.7" fill="none"/>')
+    s.append(f'<circle cx="92" cy="{wy+16}" r="1.6" fill="{SEAL}"/><circle cx="98" cy="{wy+44}" r="1.4" fill="{SEAL}"/><circle cx="86" cy="{wy+50}" r="1.2" fill="{SEAL}"/>')
+    s.append(txt(64, wy + 74, "硬碰硬：两边同时消耗", 5.4, "#6E6459", "middle"))
+    s.append(txt(140, a + 20, "两方同时消耗，力气花在「证明自己硬」上。", 6.1, INK))
+    s.append(txt(140, a + 36, "赢了也是一身碎屑；输了更不用说。", 6.1, INK))
+    s.append(txt(140, a + 58, "撞的那一下，力已经离手了。", 6.4, SEAL))
+
+    # 二、驰骋
+    b = a + 106
+    s.append(txt(24, b + 4, "二 · 跑：力还留着", 6.2, GREEN))
+    wy = b + 16
+    s.append(f'<rect x="{wx}" y="{wy}" width="12" height="64" fill="#E6D8C2" stroke="{INK}" stroke-width="0.8"/>')
+    for j in range(4):
+        s.append(f'<line x1="{wx}" y1="{wy+8+j*16}" x2="{wx+12}" y2="{wy+8+j*16}" stroke="{INK}" stroke-width="0.4" opacity="0.5"/>')
+    for k, off in enumerate([18, 32, 46]):
+        s.append(f'<path d="M46,{wy+off} C64,{wy+off-6} 82,{wy+off+6} 100,{wy+off} L116,{wy+off} '
+                 f'C126,{wy+off-4} 128,{wy+off+3} 132,{wy+off}" fill="none" stroke="{GREEN}" stroke-width="0.9"/>')
+    s.append(txt(64, wy + 74, "不接触，所以不损耗", 5.4, "#6E6459", "middle"))
+    s.append(txt(140, b + 20, "至柔不与硬碰，消耗只发生在硬的那一方。", 6.1, INK))
+    s.append(txt(140, b + 36, "它从硬的东西里穿过去，自己没碰掉一块。", 6.1, INK))
+    s.append(txt(140, b + 58, "跑的时候，力一直在自己手里。", 6.4, GREEN))
+
+    # 三、无有入无间
+    c = b + 106
+    s.append(txt(24, c + 4, "三 · 无有：不占位，无处不入", 6.2, INK))
+    wy = c + 16
+    s.append(f'<rect x="56" y="{wy+8}" width="86" height="56" fill="#E6D8C2" stroke="{INK}" stroke-width="1"/>')
+    s.append(f'<rect x="62" y="{wy+14}" width="74" height="44" fill="#D9CBB2" stroke="{INK}" stroke-width="0.5"/>')
+    s.append(txt(99, wy + 40, "无间", 6.0, SEAL, "middle"))
+    s.append(txt(99, wy + 54, "连一道门缝都没有", 4.8, "#6E6459", "middle"))
+    s.append(f'<path d="M40,{wy+22} C60,{wy+16} 80,{wy+26} 100,{wy+21} L132,{wy+21}" fill="none" stroke="{GREEN}" '
+             f'stroke-width="0.8" stroke-dasharray="6 4"/>')
+    s.append(txt(150, c + 20, "有形之物要靠别人让出一道缝；无形之物不必。", 6.1, INK))
+    s.append(txt(150, c + 36, "它不占位置，所以没有哪一处是进不去的。", 6.1, INK))
+    s.append(txt(150, c + 58, "它不是凿开缝进去的，它是那扇门本身就有的。", 6.2, INK))
+
+    y2 = c + 100
+    s.append(f'<line x1="24" y1="{y2-6}" x2="338" y2="{y2-6}" stroke="{LINE}" stroke-width="0.6"/>')
+    s.append(box(20, y2 + 4, 340, 46, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, y2 + 20, "一不接触，二不占位，三还能变。", 6.8, INK, "middle"))
+    s.append(txt(190, y2 + 34, "柔之所以胜，不是因为更强，是它不参加那场比赛。", 6.4, "#6E6459", "middle"))
+    s.append(gold(y2 + 62, "ch43b"))
+    s.append('</svg>')
+    return "\n".join(s)
+
+
 
 FIGS = {
     "ch01-wu-you": ("第一章", "无有同出", ch01_wu_you),
@@ -3506,6 +3628,8 @@ FIGS = {
     "ch41d-da-qi-mian-cheng": ("第四十一章", "大器免成", ch41d_da_qi_mian_cheng),
     "ch42b-he-yu-ge": ("第四十二章", "和，不是合", ch42b_he_yu_ge),
     "ch42c-zheng-fan-he": ("第四十二章", "正 · 分 · 散 · 和", ch42c_zheng_fan_he),
+    "ch43a-rou-bu-shi-ruan": ("第四十三章", "柔不是软", ch43a_rou_bu_shi_ruan),
+    "ch43b-bu-zhuang-shi-pao": ("第四十三章", "不撞，是跑", ch43b_bu_zhuang_shi_pao),
     "ch12-wu-se": ("第十二章", "门开五处", ch12_wu_se),
     "ch13-chong-ru": ("第十三章", "惊的是我", ch13_chong_ru),
     "ch14-yi-xi-wei": ("第十四章", "三样工具探不到", ch14_yi_xi_wei),

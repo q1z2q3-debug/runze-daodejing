@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 380 500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="柔从木，是能曲能直；坚从土，是硬成一块" font-family="'Noto Serif CJK SC','Noto Serif SC','Songti SC',serif">
+<defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#6E6459"/></marker><marker id="arr2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#4A5C55"/></marker><marker id="arrL" viewBox="0 0 10 10" refX="1" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M10 0 L0 5 L10 10 z" fill="#4A5C55"/></marker><marker id="arrS" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#A2503B"/></marker></defs>
+<rect x="0" y="0" width="380" height="500" fill="#F8F3E6"/>
+<text x="20" y="26" font-size="11" fill="#A2503B" font-family="'Noto Sans CJK SC','Noto Sans SC',sans-serif" letter-spacing="3">第 四 十 三 章 · 柔 坚</text>
+<text x="20" y="58" font-size="21" fill="#2F2A24">柔不是软</text>
+<text x="20" y="78" font-size="10.5" fill="#6E6459">一个还能变，一个已经定了。</text>
+<rect x="20" y="102" width="340" height="30" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="190" y="115" font-size="7.0" fill="#2F2A24" text-anchor="middle">天下之至柔，驰骋于天下之至坚。</text>
+<text x="190" y="127" font-size="5.6" fill="#6E6459" text-anchor="middle">「柔」，《说文》「木曲直也」，从木；「坚」，《说文》「刚也」，从土。</text>
+<text x="24" y="158" font-size="6.4" fill="#4A5C55">一 · 柔：从木</text>
+<path d="M56,182 C86,170 96,214 126,200" fill="none" stroke="#4A5C55" stroke-width="1.6"/>
+<path d="M56,206 C90,196 104,238 126,224" fill="none" stroke="#4A5C55" stroke-width="0.7" stroke-dasharray="5 4"/>
+<path d="M56,224 C84,218 100,246 126,244" fill="none" stroke="#4A5C55" stroke-width="0.7" stroke-dasharray="2 4"/>
+<text x="132" y="198" font-size="8.4" fill="#4A5C55">木</text>
+<text x="56" y="244" font-size="5.6" fill="#6E6459">同一根枝，三种姿态：能曲能直，说明它还在活、还有余地。</text>
+<text x="150" y="174" font-size="6.2" fill="#2F2A24">「至柔」不是「软到不能再软」，</text>
+<text x="150" y="190" font-size="6.2" fill="#2F2A24">是「变到不能再能变」。</text>
+<text x="150" y="210" font-size="6.2" fill="#6E6459">柔的尽头不是无力，</text>
+<text x="150" y="226" font-size="6.2" fill="#6E6459">是没有被任何一种形状锁住。</text>
+<text x="24" y="276" font-size="6.4" fill="#A2503B">二 · 坚：从土</text>
+<rect x="56" y="288" width="70" height="60" fill="#E6D8C2" stroke="#2F2A24" stroke-width="1.2"/>
+<line x1="67" y1="288" x2="67" y2="348" stroke="#2F2A24" stroke-width="0.4" opacity="0.45"/>
+<line x1="78" y1="288" x2="78" y2="348" stroke="#2F2A24" stroke-width="0.4" opacity="0.45"/>
+<line x1="89" y1="288" x2="89" y2="348" stroke="#2F2A24" stroke-width="0.4" opacity="0.45"/>
+<line x1="100" y1="288" x2="100" y2="348" stroke="#2F2A24" stroke-width="0.4" opacity="0.45"/>
+<line x1="111" y1="288" x2="111" y2="348" stroke="#2F2A24" stroke-width="0.4" opacity="0.45"/>
+<line x1="56" y1="303" x2="126" y2="303" stroke="#2F2A24" stroke-width="0.4" opacity="0.45"/>
+<line x1="56" y1="318" x2="126" y2="318" stroke="#2F2A24" stroke-width="0.4" opacity="0.45"/>
+<line x1="56" y1="333" x2="126" y2="333" stroke="#2F2A24" stroke-width="0.4" opacity="0.45"/>
+<text x="150" y="292" font-size="6.2" fill="#2F2A24">土是实的、是硬的、是不动的：</text>
+<text x="150" y="308" font-size="6.2" fill="#2F2A24">一硬成一块，就不再变。</text>
+<text x="150" y="328" font-size="6.2" fill="#6E6459">它的强处是定型，弱处也是定型——</text>
+<text x="150" y="344" font-size="6.2" fill="#6E6459">一旦定了，只能以一种方式存在。</text>
+<text x="91" y="364" font-size="5.6" fill="#A2503B" text-anchor="middle">已经定了</text>
+<line x1="24" y1="378" x2="338" y2="378" stroke="#DCCBB0" stroke-width="0.6"/>
+<rect x="20" y="388" width="340" height="44" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="190" y="404" font-size="6.8" fill="#2F2A24" text-anchor="middle">一个从木，一个从土；一个还能变，一个已经定了。</text>
+<text x="190" y="418" font-size="6.8" fill="#4A5C55" text-anchor="middle">还能变的那个，能穿过已经定的那个。</text>
+<line x1="20" y1="446" x2="360" y2="446" stroke="#E6D8C2" stroke-width="0.8"/>
+<text x="20" y="460" font-size="8.0" fill="#A89577" letter-spacing="1">本 章 金 句</text>
+<text x="20" y="476" font-size="8.4" fill="#2F2A24">「柔」从木，是能曲能直；「坚」从土，硬成一块。一个还能变，一个已经定了。</text>
+<text x="20" y="492" font-size="8.4" fill="#2F2A24">柔不是没有力量，是力量还没有被固定成一个方向。</text>
+</svg>
