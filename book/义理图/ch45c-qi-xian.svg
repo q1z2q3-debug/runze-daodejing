@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 380 578" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="七弦里，留一根不弹" font-family="'Noto Serif CJK SC','Noto Serif SC','Songti SC',serif">
+<defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#6E6459"/></marker><marker id="arr2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#4A5C55"/></marker><marker id="arrL" viewBox="0 0 10 10" refX="1" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M10 0 L0 5 L10 10 z" fill="#4A5C55"/></marker><marker id="arrS" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#A2503B"/></marker></defs>
+<rect x="0" y="0" width="380" height="578" fill="#F8F3E6"/>
+<text x="20" y="26" font-size="11" fill="#A2503B" font-family="'Noto Sans CJK SC','Noto Sans SC',sans-serif" letter-spacing="3">第 四 十 五 章 · 琴</text>
+<text x="20" y="58" font-size="21" fill="#2F2A24">七弦里，留一根不弹</text>
+<text x="20" y="78" font-size="10.5" fill="#6E6459">大直若屈，大巧若拙，大辩若讷。</text>
+<rect x="20" y="102" width="340" height="30" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="190" y="114" font-size="6.0" fill="#2F2A24" text-anchor="middle">「大音希声」：最响的，往往不是拨得最重的那一根。</text>
+<text x="190" y="126" font-size="5.6" fill="#6E6459" text-anchor="middle">弦、指、弦外、停手——四处各留一分，声音才走得远。</text>
+<path d="M56,172 L324,175 Q332,194 324,213 L56,216 Q48,194 56,172 Z" fill="#E6D8C2" stroke="#2F2A24" stroke-width="0.9"/>
+<line x1="70" y1="174" x2="70" y2="214" stroke="#2F2A24" stroke-width="0.9"/>
+<line x1="312" y1="176" x2="312" y2="212" stroke="#2F2A24" stroke-width="0.7"/>
+<line x1="70" y1="179.0" x2="312" y2="180.6" stroke="#2F2A24" stroke-width="0.3"/>
+<line x1="70" y1="184.0" x2="312" y2="185.6" stroke="#2F2A24" stroke-width="0.3"/>
+<line x1="70" y1="189.0" x2="312" y2="190.6" stroke="#2F2A24" stroke-width="0.3"/>
+<line x1="70" y1="194.0" x2="312" y2="195.6" stroke="#4A5C55" stroke-width="1.3"/>
+<line x1="70" y1="199.0" x2="312" y2="200.6" stroke="#2F2A24" stroke-width="0.3"/>
+<line x1="70" y1="204.0" x2="312" y2="205.6" stroke="#2F2A24" stroke-width="0.3"/>
+<line x1="70" y1="209.0" x2="312" y2="210.6" stroke="#2F2A24" stroke-width="0.3"/>
+<circle cx="100" cy="194" r="1.6" fill="#A2503B" opacity="0.55"/>
+<circle cx="156" cy="194" r="1.6" fill="#A2503B" opacity="0.55"/>
+<circle cx="212" cy="194" r="1.6" fill="#A2503B" opacity="0.55"/>
+<circle cx="268" cy="194" r="1.6" fill="#A2503B" opacity="0.55"/>
+<line x1="96" y1="162" x2="96" y2="171" stroke="#A2503B" stroke-width="0.35" stroke-dasharray="2 2"/>
+<circle cx="96" cy="156" r="5.6" fill="none" stroke="#A2503B" stroke-width="0.6"/>
+<text x="96" y="158.5" font-size="4.6" fill="#A2503B" text-anchor="middle">1</text>
+<line x1="170" y1="162" x2="170" y2="171" stroke="#A2503B" stroke-width="0.35" stroke-dasharray="2 2"/>
+<circle cx="170" cy="156" r="5.6" fill="none" stroke="#A2503B" stroke-width="0.6"/>
+<text x="170" y="158.5" font-size="4.6" fill="#A2503B" text-anchor="middle">2</text>
+<line x1="236" y1="162" x2="236" y2="192" stroke="#A2503B" stroke-width="0.35" stroke-dasharray="2 2"/>
+<circle cx="236" cy="156" r="5.6" fill="none" stroke="#A2503B" stroke-width="0.6"/>
+<text x="250" y="157" font-size="4.4" fill="#4A5C55">不拨</text>
+<text x="236" y="158.5" font-size="4.6" fill="#A2503B" text-anchor="middle">3</text>
+<line x1="298" y1="162" x2="298" y2="171" stroke="#A2503B" stroke-width="0.35" stroke-dasharray="2 2"/>
+<circle cx="298" cy="156" r="5.6" fill="none" stroke="#A2503B" stroke-width="0.6"/>
+<text x="298" y="158.5" font-size="4.6" fill="#A2503B" text-anchor="middle">4</text>
+<path d="M336,206 q8,-4 16,0 q8,4 16,0" fill="none" stroke="#4A5C55" stroke-width="0.5" opacity="0.8"/>
+<text x="352" y="196" font-size="4.4" fill="#4A5C55" text-anchor="middle">余音</text>
+<circle cx="32" cy="252" r="6.2" fill="none" stroke="#E6D8C2" stroke-width="0.5"/>
+<text x="32" y="255" font-size="4.6" fill="#A2503B" text-anchor="middle">1</text>
+<text x="50" y="255" font-size="5.9" fill="#A2503B">弦 · 大直若屈</text>
+<text x="50" y="272" font-size="5.6" fill="#2F2A24">弦看着是直的，其实一直有松；上到尽头，一拨就断。</text>
+<circle cx="32" cy="298" r="6.2" fill="none" stroke="#E6D8C2" stroke-width="0.5"/>
+<text x="32" y="301" font-size="4.6" fill="#A2503B" text-anchor="middle">2</text>
+<text x="50" y="301" font-size="5.9" fill="#A2503B">指 · 大巧若拙</text>
+<text x="50" y="318" font-size="5.6" fill="#2F2A24">好琴人指下看不出使劲，声音却到位。</text>
+<circle cx="32" cy="344" r="6.2" fill="none" stroke="#E6D8C2" stroke-width="0.5"/>
+<text x="32" y="347" font-size="4.6" fill="#A2503B" text-anchor="middle">3</text>
+<text x="50" y="347" font-size="5.9" fill="#A2503B">不弹 · 大辩若讷</text>
+<text x="50" y="364" font-size="5.6" fill="#2F2A24">七弦里留一根不弹：不是没有这根弦，是不拨它。</text>
+<circle cx="32" cy="390" r="6.2" fill="none" stroke="#E6D8C2" stroke-width="0.5"/>
+<text x="32" y="393" font-size="4.6" fill="#A2503B" text-anchor="middle">4</text>
+<text x="50" y="393" font-size="5.9" fill="#A2503B">停手 · 清静为正</text>
+<text x="50" y="410" font-size="5.6" fill="#2F2A24">曲子停在该停处，剩下的让余音自己走完。</text>
+<line x1="24" y1="432" x2="338" y2="432" stroke="#DCCBB0" stroke-width="0.6"/>
+<rect x="20" y="442" width="340" height="44" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="190" y="458" font-size="6.2" fill="#2F2A24" text-anchor="middle">弦留一分松，指留一分拙，话留一分默。</text>
+<text x="190" y="472" font-size="6.2" fill="#4A5C55" text-anchor="middle">最响的一声，常常是没弹出来的那一下。</text>
+<line x1="20" y1="500" x2="360" y2="500" stroke="#E6D8C2" stroke-width="0.8"/>
+<text x="20" y="514" font-size="8.0" fill="#A89577" letter-spacing="1">本 章 金 句</text>
+<text x="20" y="530" font-size="8.4" fill="#2F2A24">最响的一声，常常是没弹出来的那一下。</text>
+</svg>
