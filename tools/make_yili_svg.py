@@ -1635,70 +1635,52 @@ def ch24_qi_zhe_bu_li():
 
 # ============ 第二十六章 · 重为轻根 ============
 def ch26_zhong_wei_qing_gen():
-    W, H = 380, 586
-    body, y = head(W, H, "根重的树，冠再摇也不倒", "第 二 十 六 章 · 轻 重", "重为轻根",
-                   "法地不是学地的形状，是学地的分量。", H)
+    W, H = 380, 556
+    body, y = head(W, H, "法地不是学地的形状，是学地的分量", "第 二 十 六 章 · 轻 重", "重为轻根",
+                   "轻车跑得快，正因为它不载重——代价是空。", H)
     s = [body]
-    gy = y + 158
-    # 地面
-    s.append(f'<line x1="26" y1="{gy}" x2="354" y2="{gy}" stroke="{LINE}" stroke-width="1"/>')
-    # 根：四道往下走
-    roots = [f'M190,{gy} q-16,26 -42,36', f'M190,{gy} q-4,34 -4,50',
-             f'M190,{gy} q18,26 44,34', f'M196,{gy} q26,18 46,20']
-    for r in roots:
-        s.append(f'<path d="{r}" fill="none" stroke="#B9A98F" stroke-width="1.4"/>')
-    # 干：上细下粗
-    s.append(f'<path d="M180,{gy} C178,{gy-40} 176,{gy-70} 174,{gy-92} '
-             f'L206,{gy-92} C204,{gy-70} 202,{gy-40} 200,{gy} Z" '
-             f'fill="#E9DFCC" stroke="{LINE}" stroke-width="1"/>')
-    # 枝
-    br = [(174, gy - 92, 140, gy - 112), (174, gy - 88, 156, gy - 124),
-          (206, gy - 92, 244, gy - 114), (206, gy - 88, 224, gy - 126)]
-    for x1, y1, x2, y2 in br:
-        s.append(f'<line x1="{x1}" y1="{y1}" x2="{x2}" y2="{y2}" stroke="{LINE}" stroke-width="1.1"/>')
-    # 冠：轻
-    for cx, cy, rx, ry in [(138, gy - 122, 26, 14), (160, gy - 134, 22, 12),
-                           (246, gy - 124, 26, 14), (224, gy - 136, 22, 12)]:
-        s.append(f'<ellipse cx="{cx}" cy="{cy}" rx="{rx}" ry="{ry}" fill="#F2EADA" stroke="{LINE}" stroke-width="0.9"/>')
-    # 风
-    for i in range(3):
-        yy = gy - 128 + i * 12
-        s.append(f'<path d="M282,{yy} q14,-6 26,0" fill="none" stroke="{LINE}" stroke-width="0.9"/>')
-    s.append(txt(24, gy - 116, "风来，冠摇，", 8.4, "#8A7C69"))
-    s.append(txt(24, gy - 104, "干不摇。", 8.4, "#8A7C69"))
-    s.append(txt(26, gy - 142, "冠：轻", 8.2, "#6E6459"))
-    # 令：静发令，躁受之
-    s.append(f'<line x1="204" y1="{gy-92}" x2="226" y2="{gy-122}" stroke="{SEAL}" stroke-width="1" stroke-dasharray="3 3"/>')
-    s.append(f'<circle cx="228" cy="{gy-124}" r="2.4" fill="{SEAL}"/>')
-    s.append(txt(230, gy - 96, "令：静发令，躁受之", 8.0, SEAL))
-    # 辎重：绑在干上，走到哪带到哪
-    s.append(box(212, gy - 66, 54, 22, fill="#E9DFCC", stroke="#B9A98F"))
-    s.append(txt(239, gy - 51, "辎重", 8.0, INK, "middle"))
-    s.append(f'<line x1="206" y1="{gy-58}" x2="212" y2="{gy-58}" stroke="{LINE}" stroke-width="1"/>')
-    s.append(txt(212, gy - 36, "走到哪，根都带着", 7.6, "#8A7C69"))
-    # 拔根：小倒树
-    s.append(f'<line x1="28" y1="{gy+34}" x2="92" y2="{gy+34}" stroke="{LINE2}" stroke-width="1"/>')
-    s.append(f'<line x1="40" y1="{gy+30}" x2="86" y2="{gy+12}" stroke="#B9A98F" stroke-width="2"/>')
-    for dx, dy in ((-10, -8), (-4, -12), (2, -6)):
-        s.append(f'<line x1="40" y1="{gy+30}" x2="{40+dx}" y2="{gy+30+dy}" stroke="#B9A98F" stroke-width="1"/>')
-    s.append(txt(96, gy + 20, "拔根", 8.0, SEAL))
-    s.append(txt(96, gy + 32, "轻则失根", 7.6, "#8A7C69"))
-    # 根注
-    s.append(txt(28, gy + 62, "根：重——往下那一截，才是立得住的。", 8.2, INK))
-    s.append(txt(28, gy + 76, "冠再大，根一浅，整棵就倒。", 8.2, "#8A7C69"))
+    # 重为轻根
+    y0 = y + 8
+    s.append(box(60, y0 + 34, 96, 26, fill="#D9C7A6", stroke="#B9A98F"))
+    s.append(txt(108, y0 + 51, "重", 9.6, INK, "middle"))
+    s.append(f'<line x1="108" y1="{y0+34}" x2="108" y2="{y0+14}" stroke="{LINE}" stroke-width="1"/>')
+    s.append(f'<circle cx="108" cy="{y0+10}" r="6" fill="#FBF6EC" stroke="{LINE}" stroke-width="1"/>')
+    s.append(txt(108, y0 + 9, "轻", 7, "#6E6459", "middle"))
+    s.append(txt(176, y0 + 24, "轻要靠根立着", 8.4, "#6E6459"))
+    s.append(txt(176, y0 + 40, "根一抽，轻就倒", 8.2, "#8A7C69"))
     # 静为躁君
-    s.append(txt(28, gy + 100, "静为躁君：静不是不动，静是动的发令处。", 8.6, SEAL))
-    s.append(txt(28, gy + 114, "干是静，枝叶是躁；风一来，先动的总是轻的那头。", 8.2, "#6E6459"))
-    # 收
-    yc = gy + 128
-    s.append(box(20, yc, 340, 46, fill="#F2EADA", stroke="#C9B79A"))
-    s.append(txt(190, yc + 18, "终日行，不离辎重：树长多高，根都在脚下。", 9.4, INK, "middle"))
-    s.append(txt(190, yc + 34, "荣观是花果：好看；燕处是树身：不搬进去。", 8.2, "#6E6459", "middle"))
-    yc2 = yc + 62
-    s.append(box(20, yc2, 340, 42, fill="#F2EADA", stroke="#C9B79A"))
-    s.append(txt(190, yc2 + 18, "轻则失根，躁则失君。", 10.4, INK, "middle", spacing="1"))
-    s.append(txt(190, yc2 + 33, "树一拔根，风还没停，它已经倒了。", 8.2, "#6E6459", "middle"))
-    s.append(gold(yc2 + 50, "ch26"))
+    y1 = y0 + 82
+    s.append(box(20, y1, 52, 26, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(46, y1 + 17, "静", 10.4, INK, "middle", spacing="1"))
+    s.append(arrow(76, y1 + 13, 108, y1 + 13, color="#6E6459", head="arr"))
+    s.append(txt(88, y1 - 6, "发令", 7.6, "#8A7C69", "middle"))
+    zz = [(112, y1 + 4), (140, y1 + 21), (168, y1 + 4), (196, y1 + 21), (224, y1 + 4), (252, y1 + 21)]
+    for i in range(len(zz) - 1):
+        s.append(f'<line x1="{zz[i][0]}" y1="{zz[i][1]}" x2="{zz[i+1][0]}" y2="{zz[i+1][1]}" stroke="{SEAL}" stroke-width="1.1"/>')
+    s.append(txt(296, y1 + 17, "躁", 10.4, SEAL, "middle", spacing="1"))
+    s.append(txt(20, y1 + 44, "君不在，令就乱：静是动的发令处，不是不动。", 8.2, "#8A7C69"))
+    # 终日行不离辎重
+    y2 = y1 + 66
+    s.append(txt(20, y2 + 4, "终日行，不离辎重：走到哪，根就带到哪。", 8.4, "#6E6459"))
+    s.append(box(160, y2 + 12, 64, 24, fill="#FBF6EC", stroke="#C9B79A"))
+    s.append(txt(192, y2 + 28, "身", 9, INK, "middle"))
+    s.append(box(160, y2 + 40, 64, 24, fill="#E9DFCC", stroke="#C9B79A"))
+    s.append(txt(192, y2 + 56, "辎重", 8.6, INK, "middle"))
+    s.append(f'<line x1="192" y1="{y2+36}" x2="192" y2="{y2+40}" stroke="{LINE}" stroke-width="1"/>')
+    s.append(f'<line x1="30" y1="{y2+70}" x2="340" y2="{y2+70}" stroke="{LINE2}" stroke-width="1" stroke-dasharray="4 3"/>')
+    # 荣观 / 燕处
+    y3 = y2 + 88
+    s.append(box(20, y3, 162, 40, fill="#F6EFE0", stroke="#C9B79A"))
+    s.append(txt(101, y3 + 18, "荣观：外面好看", 8.8, SEAL, "middle"))
+    s.append(txt(101, y3 + 32, "看一眼，不跟着走", 7.8, "#6E6459", "middle"))
+    s.append(box(198, y3, 162, 40, fill="#F6EFE0", stroke="#C9B79A"))
+    s.append(txt(279, y3 + 18, "燕处超然：在场而不随之", 8.4, GREEN, "middle"))
+    s.append(txt(279, y3 + 32, "坐在这里，不搬进里头", 7.8, "#6E6459", "middle"))
+    yc = y3 + 58
+    s.append(box(20, yc, 340, 42, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, yc + 19, "轻则失根，躁则失君。", 10.4, INK, "middle", spacing="1"))
+    s.append(txt(190, yc + 34, "不是被外面夺了权，是你自己先把位置让出去了。", 8.2, "#6E6459", "middle"))
+    s.append(gold(yc + 50, "ch26"))
     s.append('</svg>')
     return "\n".join(s)
 
