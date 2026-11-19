@@ -2679,7 +2679,7 @@ def ch36b_wei_ming_yuan():
 def ch37a_wei_shou_xiang():
     W, H = 380, 484
     body, y = head(W, H, "无为撤掉的不是事，是那只手", "第 三 十 七 章 · 为",
-                   "手牵象，与自化", "「为」的原型是一只手牵着象。", H)
+                   "手牵象，与自化", "「为」从爪从象：一只手在上，一只象在下。", H)
     s = [body]
 
     s.append(box(20, y + 2, 340, 30, fill="#F2EADA", stroke="#C9B79A"))
@@ -2689,8 +2689,8 @@ def ch37a_wei_shou_xiang():
     a = y + 44
     s.append(box(20, a, 162, 122, fill="#FBF6EC", stroke="#E6D8C2"))
     s.append(box(198, a, 162, 122, fill="#FBF6EC", stroke="#E6D8C2"))
-    s.append(txt(32, a + 18, "为：一只手牵着象", 8.2, SEAL))
-    s.append(txt(210, a + 18, "无为：手收了", 8.2, GREEN))
+    s.append(txt(32, a + 18, "为：爪在象上", 8.2, SEAL))
+    s.append(txt(210, a + 18, "无为：手撤了", 8.2, GREEN))
 
     # 象（左）
     s.append(f'<ellipse cx="80" cy="{a+76}" rx="23" ry="13" fill="#E9DFCC" stroke="{INK}" stroke-width="0.9"/>')
@@ -2705,7 +2705,7 @@ def ch37a_wei_shou_xiang():
     s.append(f'<path d="M72,{a+32} q7,-5 14,-1" fill="none" stroke="{SEAL}" stroke-width="0.9"/>')
     s.append(f'<path d="M74,{a+33} l0,7 M79,{a+33} l0,7 M85,{a+34} l0,7" stroke="{SEAL}" stroke-width="0.8"/>')
     s.append(f'<path d="M79,{a+40} q14,12 22,22" fill="none" stroke="{SEAL}" stroke-width="0.8"/>')
-    s.append(txt(32, a + 110, "事还在，手也在：这是「为」。", 6.8, "#6E6459"))
+    s.append(txt(32, a + 110, "手一动，象才动。", 6.9, "#6E6459"))
     # 象（右，无人牵）
     s.append(f'<ellipse cx="252" cy="{a+76}" rx="23" ry="13" fill="#E9DFCC" stroke="{INK}" stroke-width="0.9"/>')
     s.append(f'<circle cx="276" cy="{a+66}" r="8.5" fill="#E9DFCC" stroke="{INK}" stroke-width="0.9"/>')
@@ -2718,29 +2718,29 @@ def ch37a_wei_shou_xiang():
     s.append(f'<path d="M236,{a+38} q14,4 26,-2" fill="none" stroke="{SEAL}" stroke-width="0.7" stroke-dasharray="4 3"/>')
     s.append(txt(238, a + 30, "绳落在地上", 6.2, SEAL))
     s.append(arrow(222, a + 62, 206, a + 56, GREEN, 0.8, head="arrS"))
-    s.append(txt(210, a + 110, "事照旧在，只是没人牵。", 6.8, "#6E6459"))
+    s.append(txt(210, a + 110, "象照走：撤的不是事，是手。", 6.9, "#6E6459"))
 
     # 化 / 自化
     b = a + 134
     s.append(box(20, b, 340, 96, fill="#F7F1E3", stroke="#E6D8C2"))
-    s.append(txt(32, b + 18, "化：旁边有一个人在教", 8.2, SEAL))
-    s.append(txt(200, b + 18, "自化：没有那个人", 8.2, GREEN))
+    s.append(txt(32, b + 18, "化：路是别人指的", 8.2, SEAL))
+    s.append(txt(200, b + 18, "自化：方向从内起", 8.2, GREEN))
     for cx, col in ((58, INK), (150, INK), (238, GREEN), (300, GREEN)):
         s.append(f'<circle cx="{cx}" cy="{b+50}" r="4" fill="none" stroke="{col}" stroke-width="0.9"/>')
         s.append(f'<line x1="{cx}" y1="{b+54}" x2="{cx}" y2="{b+68}" stroke="{col}" stroke-width="0.9"/>')
         s.append(f'<path d="M{cx},{b+68} l-4,8 M{cx},{b+68} l4,8" stroke="{col}" stroke-width="0.8"/>')
     s.append(arrow(66, b + 48, 138, b + 48, SEAL, 0.9, head="arrS"))
     s.append(txt(102, b + 42, "教", 7.0, SEAL, "middle"))
-    s.append(txt(104, b + 92, "「化」字本带一个「教」：路是别人指的。", 6.7, "#6E6459", "middle"))
+    s.append(txt(104, b + 92, "「化」本带一个「教」：方向由外给。", 6.7, "#6E6459", "middle"))
     for r in (6, 11):
         s.append(f'<path d="M{300-r},{b+50} a{r},{r} 0 0 1 {2*r},0" fill="none" stroke="{GREEN}" stroke-width="0.6" stroke-dasharray="3 2"/>')
     s.append(txt(300, b + 30, "自", 8.0, GREEN, "middle"))
-    s.append(txt(300, b + 92, "加了一个「自」，方向就反了。", 6.7, "#6E6459", "middle"))
+    s.append(txt(300, b + 92, "加一个「自」：同一条路，掉头走。", 6.7, "#6E6459", "middle"))
 
     y3 = b + 108
     s.append(box(20, y3, 340, 40, fill="#F2EADA", stroke="#C9B79A"))
-    s.append(txt(190, y3 + 17, "「为」是爪加象：手在上，象在下，手一动象才动。", 7.8, INK, "middle"))
-    s.append(txt(190, y3 + 32, "无为不是把象赶走，是把手拿开。", 7.6, "#6E6459", "middle"))
+    s.append(txt(190, y3 + 17, "「为」是那只牵着象的手：象的每一步，都算在它身上。", 7.6, INK, "middle"))
+    s.append(txt(190, y3 + 32, "无为：手拿开，象自己走——事一件没少。", 7.6, "#6E6459", "middle"))
     s.append(gold(y3 + 48, "ch37a"))
     s.append('</svg>')
     return "\n".join(s)
@@ -2760,7 +2760,7 @@ def ch37b_pu_yu_jing():
     # 一、木压火 / 刀压人
     a = y + 44
     s.append(box(20, a, 340, 118, fill="#FBF6EC", stroke="#E6D8C2"))
-    s.append(txt(32, a + 18, "镇：一块原木压住", 8.2, INK))
+    s.append(txt(32, a + 18, "镇：一块原木，不加一文", 8.2, INK))
     s.append(f'<rect x="44" y="{a+62}" width="70" height="16" rx="2" fill="#E9DFCC" stroke="{INK}" stroke-width="0.9"/>')
     s.append(f'<line x1="52" y1="{a+68}" x2="108" y2="{a+66}" stroke="#8A7C69" stroke-width="0.5"/>')
     s.append(f'<line x1="52" y1="{a+74}" x2="106" y2="{a+73}" stroke="#8A7C69" stroke-width="0.5"/>')
@@ -2771,21 +2771,21 @@ def ch37b_pu_yu_jing():
     s.append(f'<line x1="38" y1="{a+98}" x2="74" y2="{a+94}" stroke="{INK}" stroke-width="0.8"/>')
     s.append(f'<line x1="52" y1="{a+94}" x2="116" y2="{a+98}" stroke="{INK}" stroke-width="0.8"/>')
     s.append(txt(40, a + 58, "没上漆、没雕花、没名字", 6.4, "#6E6459"))
-    s.append(txt(126, a + 92, "火自己熄了", 6.8, GREEN))
+    s.append(txt(126, a + 92, "火不靠扑，靠断柴", 6.8, GREEN))
     # 刀压人
     s.append(f'<circle cx="214" cy="{a+78}" r="4.2" fill="none" stroke="{INK}" stroke-width="0.8"/>')
     s.append(f'<line x1="214" y1="{a+82}" x2="214" y2="{a+96}" stroke="{INK}" stroke-width="0.9"/>')
     s.append(f'<line x1="208" y1="{a+62}" x2="222" y2="{a+58}" stroke="{SEAL}" stroke-width="1.1"/>')
     s.append(f'<line x1="222" y1="{a+58}" x2="232" y2="{a+56}" stroke="{SEAL}" stroke-width="0.9"/>')
     s.append(arrow(214, a + 62, 214, a + 52, SEAL, 0.8, head="arrS"))
-    s.append(txt(232, a + 74, "刀压：人会反弹", 6.4, SEAL))
-    s.append(txt(32, a + 110, "那股往外攀的劲，是被「多」喂大的；停它不加东西，只把柴挪开。", 6.8, "#6E6459"))
+    s.append(txt(232, a + 74, "刀压：越压越弹", 6.4, SEAL))
+    s.append(txt(32, a + 110, "「镇」不是压服，是压住那股要起的劲。", 6.9, "#6E6459"))
 
     # 二、静与驰
     b = a + 130
     s.append(box(20, b, 340, 110, fill="#F7F1E3", stroke="#E6D8C2"))
-    s.append(txt(32, b + 18, "静：劲不必往外扯", 8.2, GREEN))
-    s.append(txt(200, b + 18, "驰：人没动，心跑了", 8.2, SEAL))
+    s.append(txt(32, b + 18, "静：心不往外扯", 8.2, GREEN))
+    s.append(txt(200, b + 18, "驰：人坐着，心在跑", 8.2, SEAL))
     s.append(f'<line x1="40" y1="{b+72}" x2="150" y2="{b+72}" stroke="{LINE}" stroke-width="0.9"/>')
     s.append(f'<circle cx="86" cy="{b+46}" r="4" fill="none" stroke="{INK}" stroke-width="0.9"/>')
     s.append(f'<line x1="86" y1="{b+50}" x2="86" y2="{b+66}" stroke="{INK}" stroke-width="0.9"/>')
@@ -2797,29 +2797,29 @@ def ch37b_pu_yu_jing():
     s.append(f'<path d="M236,{b+84} l-8,8 M236,{b+84} l14,8" stroke="{INK}" stroke-width="0.8"/>')
     s.append(f'<path d="M244,{b+58} q26,-20 52,-6" fill="none" stroke="{SEAL}" stroke-width="0.7" stroke-dasharray="4 3"/>')
     s.append(arrow(280, b + 46, 300, b + 54, SEAL, 0.7, head="arrS"))
-    s.append(txt(240, b + 102, "坐着，却躁", 6.6, SEAL, "middle"))
-    s.append(txt(200, b + 34, "静的对立面不是动，是驰。", 6.6, "#6E6459"))
+    s.append(txt(240, b + 102, "坐，也躁", 6.6, SEAL, "middle"))
+    s.append(txt(200, b + 34, "静的反面不是动，是驰。", 6.6, "#6E6459"))
 
     # 三、自正
     c = b + 122
     s.append(box(20, c, 340, 84, fill="#FBF6EC", stroke="#E6D8C2"))
-    s.append(txt(32, c + 18, "自正：脚走到该停的地方", 8.2, INK))
+    s.append(txt(32, c + 18, "自正：各归其位", 8.2, INK))
     s.append(f'<line x1="38" y1="{c+64}" x2="150" y2="{c+64}" stroke="{INK}" stroke-width="0.9"/>')
     s.append(f'<line x1="86" y1="{c+64}" x2="86" y2="{c+56}" stroke="{INK}" stroke-width="0.7"/>')
     s.append(f'<ellipse cx="74" cy="{c+56}" rx="9" ry="5" fill="#E9DFCC" stroke="{INK}" stroke-width="0.8"/>')
     s.append(f'<path d="M80,{c+52} l3,-4" stroke="{INK}" stroke-width="0.7"/>')
-    s.append(txt(104, c + 58, "止：脚落在这儿，就是正", 6.6, "#6E6459"))
-    s.append(txt(190, c + 18, "定：需要第二个人", 8.2, SEAL))
+    s.append(txt(104, c + 58, "止：脚走到该停的地方", 6.5, "#6E6459"))
+    s.append(txt(190, c + 18, "定：要一个人去平", 8.2, SEAL))
     s.append(f'<line x1="188" y1="{c+64}" x2="300" y2="{c+64}" stroke="{INK}" stroke-width="0.6"/>')
     s.append(f'<ellipse cx="228" cy="{c+56}" rx="9" ry="5" fill="#E9DFCC" stroke="{INK}" stroke-width="0.8"/>')
     s.append(f'<path d="M214,{c+46} q14,-8 28,0" fill="none" stroke="{SEAL}" stroke-width="0.9"/>')
-    s.append(txt(252, c + 58, "有人按着才叫定", 6.4, SEAL))
-    s.append(txt(32, c + 78, "「定」是被平定的；「正」是各归其位——自正里没有第二个人的位置。", 6.6, "#6E6459"))
+    s.append(txt(252, c + 58, "有人按着，才叫定", 6.4, SEAL))
+    s.append(txt(32, c + 78, "「正」从止：不是被纠正，是自己走到该停的那一点。", 6.6, "#6E6459"))
 
     y3 = c + 96
     s.append(box(20, y3, 340, 40, fill="#F2EADA", stroke="#C9B79A"))
     s.append(txt(190, y3 + 17, "压住火的不是更多的柴，是把它从柴上挪开。", 7.8, INK, "middle"))
-    s.append(txt(190, y3 + 32, "那块木头什么都不加，所以它压得住。", 7.6, "#6E6459", "middle"))
+    s.append(txt(190, y3 + 32, "木头什么都没加，所以压得住。", 7.6, "#6E6459", "middle"))
     s.append(gold(y3 + 48, "ch37b"))
     s.append('</svg>')
     return "\n".join(s)
