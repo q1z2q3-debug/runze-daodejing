@@ -1,41 +1,52 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg viewBox="0 0 380 460" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="一级比一级低：不是台阶，是滑落" font-family="'Noto Serif CJK SC','Noto Serif SC','Songti SC',serif">
+<svg viewBox="0 0 380 548" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="越往下，越靠作意撑；作意越重，越要强制" font-family="'Noto Serif CJK SC','Noto Serif SC','Songti SC',serif">
 <defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#6E6459"/></marker><marker id="arr2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#4A5C55"/></marker><marker id="arrL" viewBox="0 0 10 10" refX="1" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M10 0 L0 5 L10 10 z" fill="#4A5C55"/></marker><marker id="arrS" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#A2503B"/></marker></defs>
-<rect x="0" y="0" width="380" height="460" fill="#F8F3E6"/>
+<rect x="0" y="0" width="380" height="548" fill="#F8F3E6"/>
 <text x="20" y="26" font-size="11" fill="#A2503B" font-family="'Noto Sans CJK SC','Noto Sans SC',sans-serif" letter-spacing="3">第 三 十 八 章 · 滑 落</text>
 <text x="20" y="58" font-size="21" fill="#2F2A24">五级滑落</text>
-<text x="20" y="78" font-size="10.5" fill="#6E6459">一失再失，靠的不是走，是滑。</text>
-<rect x="20" y="102" width="340" height="34" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
-<text x="190" y="116" font-size="7.2" fill="#2F2A24" text-anchor="middle">上德不德，是以有德；下德不失德，是以无德。</text>
-<text x="190" y="130" font-size="7.2" fill="#2F2A24" text-anchor="middle">失道而后德，失德而后仁，失仁而后义，失义而后礼。</text>
-<path d="M24,154 L76.3,154 L76.3,172 L128.7,172 L128.7,190 L181,190 L181,208 L233.3,208 L233.3,226 L285.7,226 L285.7,240 L338,240 L338,266 L24,266 Z" fill="#F7F1E3" stroke="#2F2A24" stroke-width="1"/>
-<text x="50.15" y="170" font-size="8.4" fill="#4A5C55" text-anchor="middle">道</text>
-<text x="102.5" y="188" font-size="7.8" fill="#2F2A24" text-anchor="middle">上德</text>
-<text x="154.85" y="206" font-size="7.8" fill="#A2503B" text-anchor="middle">下德</text>
-<text x="207.15" y="224" font-size="8.4" fill="#2F2A24" text-anchor="middle">仁</text>
-<text x="259.5" y="242" font-size="8.4" fill="#A2503B" text-anchor="middle">义</text>
-<text x="311.85" y="253" font-size="8.4" fill="#A2503B" text-anchor="middle">礼</text>
-<text x="190" y="280" font-size="5.9" fill="#A2503B" text-anchor="middle">失道而后德，失德而后仁，失仁而后义，失义而后礼</text>
-<line x1="24" y1="282" x2="338" y2="282" stroke="#DCCBB0" stroke-width="0.6"/>
-<text x="50.15" y="297" font-size="6.0" fill="#2F2A24" text-anchor="middle">无</text>
-<text x="50.15" y="309" font-size="5.4" fill="#6E6459" text-anchor="middle">万物自化</text>
-<text x="102.5" y="297" font-size="6.0" fill="#2F2A24" text-anchor="middle">无以为</text>
-<text x="102.5" y="309" font-size="5.4" fill="#6E6459" text-anchor="middle">不自知</text>
-<text x="154.85" y="297" font-size="6.0" fill="#2F2A24" text-anchor="middle">有以为</text>
-<text x="154.85" y="309" font-size="5.4" fill="#6E6459" text-anchor="middle">守着怕丢</text>
-<text x="207.15" y="297" font-size="6.0" fill="#2F2A24" text-anchor="middle">为之</text>
-<text x="207.15" y="309" font-size="5.4" fill="#6E6459" text-anchor="middle">体恤不图报</text>
-<text x="259.5" y="297" font-size="6.0" fill="#2F2A24" text-anchor="middle">为之</text>
-<text x="259.5" y="309" font-size="5.4" fill="#6E6459" text-anchor="middle">带是非立场</text>
-<text x="311.85" y="297" font-size="6.0" fill="#2F2A24" text-anchor="middle">莫之应</text>
-<text x="311.85" y="309" font-size="5.4" fill="#6E6459" text-anchor="middle">强引使从</text>
-<line x1="24" y1="318" x2="338" y2="318" stroke="#DCCBB0" stroke-width="0.6"/>
-<rect x="20" y="326" width="340" height="54" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
-<text x="190" y="343" font-size="7.6" fill="#2F2A24" text-anchor="middle">大丈夫处其厚，不居其薄；处其实，不居其华。</text>
-<text x="190" y="359" font-size="7.0" fill="#6E6459" text-anchor="middle">这张表不是分出谁高谁低，是认出自己此刻站在第几级。</text>
-<text x="190" y="373" font-size="6.6" fill="#A2503B" text-anchor="middle">越往下，越靠作意撑；作意越重，越要靠强制。</text>
-<line x1="20" y1="390" x2="360" y2="390" stroke="#E6D8C2" stroke-width="0.8"/>
-<text x="20" y="404" font-size="8.0" fill="#A89577" letter-spacing="1">本 章 金 句</text>
-<text x="20" y="420" font-size="8.4" fill="#2F2A24">失道而后德，失德而后仁，失仁而后义，失义而后礼。</text>
-<text x="20" y="436" font-size="8.4" fill="#2F2A24">药可治病，药不是饭；礼可维序，礼不是和。</text>
+<text x="20" y="78" font-size="10.5" fill="#6E6459">不是一级一级走下去的，是一失再失滑下来的。</text>
+<rect x="26" y="126" width="110" height="30" fill="#F7F1E3" stroke="#2F2A24" stroke-width="0.9"/>
+<rect x="26" y="126" width="3" height="30" fill="#4A5C55"/>
+<text x="38" y="146" font-size="8.8" fill="#4A5C55">道</text>
+<text x="144" y="139" font-size="6.4" fill="#4A5C55">无</text>
+<text x="144" y="151" font-size="5.8" fill="#6E6459">万物自化</text>
+<line x1="78" y1="159" x2="78" y2="164" stroke="#C9B79A" stroke-width="0.7" marker-end="url(#arrS)"/>
+<rect x="40" y="168" width="110" height="30" fill="#F7F1E3" stroke="#2F2A24" stroke-width="0.9"/>
+<rect x="40" y="168" width="3" height="30" fill="#2F2A24"/>
+<text x="52" y="188" font-size="8.8" fill="#2F2A24">上德</text>
+<text x="158" y="181" font-size="6.4" fill="#2F2A24">无以为</text>
+<text x="158" y="193" font-size="5.8" fill="#6E6459">有德而不自知</text>
+<line x1="92" y1="201" x2="92" y2="206" stroke="#C9B79A" stroke-width="0.7" marker-end="url(#arrS)"/>
+<rect x="54" y="210" width="110" height="30" fill="#F6E9E2" stroke="#2F2A24" stroke-width="0.9"/>
+<rect x="54" y="210" width="3" height="30" fill="#A2503B"/>
+<text x="66" y="230" font-size="8.8" fill="#A2503B">下德</text>
+<text x="172" y="223" font-size="6.4" fill="#A2503B">有以为</text>
+<text x="172" y="235" font-size="5.8" fill="#6E6459">守德而恐失</text>
+<line x1="106" y1="243" x2="106" y2="248" stroke="#C9B79A" stroke-width="0.7" marker-end="url(#arrS)"/>
+<rect x="68" y="252" width="110" height="30" fill="#F7F1E3" stroke="#2F2A24" stroke-width="0.9"/>
+<rect x="68" y="252" width="3" height="30" fill="#2F2A24"/>
+<text x="80" y="272" font-size="8.8" fill="#2F2A24">仁</text>
+<text x="186" y="265" font-size="6.4" fill="#2F2A24">为之而无以为</text>
+<text x="186" y="277" font-size="5.8" fill="#6E6459">体恤不图报</text>
+<line x1="120" y1="285" x2="120" y2="290" stroke="#C9B79A" stroke-width="0.7" marker-end="url(#arrS)"/>
+<rect x="82" y="294" width="110" height="30" fill="#F7F1E3" stroke="#2F2A24" stroke-width="0.9"/>
+<rect x="82" y="294" width="3" height="30" fill="#A2503B"/>
+<text x="94" y="314" font-size="8.8" fill="#A2503B">义</text>
+<text x="200" y="307" font-size="6.4" fill="#A2503B">为之而有以为</text>
+<text x="200" y="319" font-size="5.8" fill="#6E6459">带是非立场</text>
+<line x1="134" y1="327" x2="134" y2="332" stroke="#C9B79A" stroke-width="0.7" marker-end="url(#arrS)"/>
+<rect x="96" y="336" width="110" height="30" fill="#F7F1E3" stroke="#2F2A24" stroke-width="0.9"/>
+<rect x="96" y="336" width="3" height="30" fill="#A2503B"/>
+<text x="108" y="356" font-size="8.8" fill="#A2503B">礼</text>
+<text x="214" y="349" font-size="6.4" fill="#A2503B">攘臂而扔之</text>
+<text x="214" y="361" font-size="5.8" fill="#6E6459">强引使从</text>
+<text x="190" y="392" font-size="6.4" fill="#A2503B" text-anchor="middle">失道而后德，失德而后仁，失仁而后义，失义而后礼。</text>
+<rect x="20" y="406" width="340" height="54" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="190" y="423" font-size="7.6" fill="#2F2A24" text-anchor="middle">大丈夫处其厚，不居其薄；处其实，不居其华。</text>
+<text x="190" y="439" font-size="7.0" fill="#6E6459" text-anchor="middle">不是分出谁高谁低，是认出自己此刻站在第几级。</text>
+<text x="190" y="453" font-size="6.6" fill="#A2503B" text-anchor="middle">压住滑落的，不是往上爬，是不再加那层作意。</text>
+<line x1="20" y1="470" x2="360" y2="470" stroke="#E6D8C2" stroke-width="0.8"/>
+<text x="20" y="484" font-size="8.0" fill="#A89577" letter-spacing="1">本 章 金 句</text>
+<text x="20" y="500" font-size="8.4" fill="#2F2A24">失道而后德，失德而后仁，失仁而后义，失义而后礼。</text>
+<text x="20" y="516" font-size="8.4" fill="#2F2A24">药可治病，药不是饭；礼可维序，礼不是和。</text>
 </svg>

@@ -210,7 +210,7 @@ def ch01_miao_jiao():
 
 # ============ 第二章 · 六组对偶 ============
 def ch02_liu_zu():
-    W, H = 380, 512
+    W, H = 380, 548
     body, y = head(W, H, "六组对偶：执名则生对立", "第 二 章 · 对 照", "六组对偶",
                    "名一立，对面就跟着立；六组全是同一件事。", H)
     s = [body]
@@ -549,7 +549,7 @@ def ch51_sheng_bu_you():
 
 # ============ 第六十七章 · 三宝 ============
 def ch67_san_bao():
-    W, H = 380, 540
+    W, H = 380, 548
     body, y = head(W, H, "慈、俭、不敢为天下先：三条活得久的约束", "第 六 十 七 章 · 三 宝", "三宝",
                    "「长」量的是时间，不是位次：做得成，还要做得久。", H)
     s = [body]
@@ -1453,7 +1453,7 @@ def ch20_wei_zhi_yu_e():
 
 # ============ 第二十一章 · 孔德之容 ============
 def ch21_kong_de():
-    W, H = 380, 512
+    W, H = 380, 548
     body, y = head(W, H, "德不是修出来的，是流出来的", "第 二 十 一 章 · 道 之 为 物", "孔德之容",
                    "道不抓取时是道；被我们抓取时，才成恍兮惚兮。", H)
     s = [body]
@@ -2829,49 +2829,41 @@ def ch37b_pu_yu_jing():
 
 # ============ 第三十八章 · 五级台阶 ============
 def ch38_wu_ji_tai_jie():
-    W, H = 380, 460
-    body, y = head(W, H, "一级比一级低：不是台阶，是滑落", "第 三 十 八 章 · 滑 落",
-                   "五级滑落", "一失再失，靠的不是走，是滑。", H)
+    W, H = 380, 548
+    body, y = head(W, H, "越往下，越靠作意撑；作意越重，越要强制", "第 三 十 八 章 · 滑 落",
+                   "五级滑落", "不是一级一级走下去的，是一失再失滑下来的。", H)
     s = [body]
 
-    s.append(box(20, y + 2, 340, 34, fill="#F2EADA", stroke="#C9B79A"))
-    s.append(txt(190, y + 16, "上德不德，是以有德；下德不失德，是以无德。", 7.2, INK, "middle"))
-    s.append(txt(190, y + 30, "失道而后德，失德而后仁，失仁而后义，失义而后礼。", 7.2, INK, "middle"))
+    rows = [("道", "无", "万物自化", GREEN),
+            ("上德", "无以为", "有德而不自知", INK),
+            ("下德", "有以为", "守德而恐失", SEAL),
+            ("仁", "为之而无以为", "体恤不图报", INK),
+            ("义", "为之而有以为", "带是非立场", SEAL),
+            ("礼", "攘臂而扔之", "强引使从", SEAL)]
 
-    a = y + 44
-    base = a + 122
-    bnd = [24, 76.3, 128.7, 181, 233.3, 285.7, 338]
-    offs = [10, 28, 46, 64, 82, 96]
-    d = f'M{bnd[0]},{a+offs[0]} '
-    for i in range(6):
-        d += f'L{bnd[i+1]},{a+offs[i]} '
+    a = y + 26
+    step = 42
+    w = 110
+    for i, (nm, judge, mark, col) in enumerate(rows):
+        bx = 26 + i * 14
+        by = a + i * step
+        fill = "#F6E9E2" if nm == "下德" else "#F7F1E3"
+        s.append(f'<rect x="{bx}" y="{by}" width="{w}" height="30" fill="{fill}" stroke="{INK}" stroke-width="0.9"/>')
+        s.append(f'<rect x="{bx}" y="{by}" width="3" height="30" fill="{col}"/>')
+        s.append(txt(bx + 12, by + 20, nm, 8.8, col))
+        s.append(txt(bx + w + 8, by + 13, judge, 6.4, col))
+        s.append(txt(bx + w + 8, by + 25, mark, 5.8, "#6E6459"))
         if i < 5:
-            d += f'L{bnd[i+1]},{a+offs[i+1]} '
-    d += f'L{bnd[6]},{base} L{bnd[0]},{base} Z'
-    s.append(f'<path d="{d}" fill="#F7F1E3" stroke="{INK}" stroke-width="1"/>')
+            s.append(arrow(bx + 52, by + 33, bx + 52, by + step - 4, "#C9B79A", 0.7, head="arrS"))
 
-    levels = [("道", GREEN), ("上德", INK), ("下德", SEAL), ("仁", INK), ("义", SEAL), ("礼", SEAL)]
-    for i, (nm, col) in enumerate(levels):
-        cx = (bnd[i] + bnd[i+1]) / 2
-        s.append(txt(cx, a + offs[i] + (16 if i < 5 else 13), nm, 8.4 if len(nm) == 1 else 7.8, col, "middle"))
+    y2 = a + 5 * step + 56
+    s.append(txt(190, y2, "失道而后德，失德而后仁，失仁而后义，失义而后礼。", 6.4, SEAL, "middle"))
 
-    s.append(txt(190, base + 14, "失道而后德，失德而后仁，失仁而后义，失义而后礼", 5.9, SEAL, "middle"))
-
-    lg = base + 20
-    s.append(f'<line x1="24" y1="{lg-4}" x2="338" y2="{lg-4}" stroke="{LINE}" stroke-width="0.6"/>')
-    judges = [("无", "万物自化"), ("无以为", "不自知"), ("有以为", "守着怕丢"),
-              ("为之", "体恤不图报"), ("为之", "带是非立场"), ("莫之应", "强引使从")]
-    for i, (j, mark) in enumerate(judges):
-        cx = (bnd[i] + bnd[i+1]) / 2
-        s.append(txt(cx, lg + 11, j, 6.0, INK, "middle"))
-        s.append(txt(cx, lg + 23, mark, 5.4, "#6E6459", "middle"))
-    s.append(f'<line x1="24" y1="{lg+32}" x2="338" y2="{lg+32}" stroke="{LINE}" stroke-width="0.6"/>')
-
-    y3 = lg + 40
+    y3 = y2 + 14
     s.append(box(20, y3, 340, 54, fill="#F2EADA", stroke="#C9B79A"))
     s.append(txt(190, y3 + 17, "大丈夫处其厚，不居其薄；处其实，不居其华。", 7.6, INK, "middle"))
-    s.append(txt(190, y3 + 33, "这张表不是分出谁高谁低，是认出自己此刻站在第几级。", 7.0, "#6E6459", "middle"))
-    s.append(txt(190, y3 + 47, "越往下，越靠作意撑；作意越重，越要靠强制。", 6.6, SEAL, "middle"))
+    s.append(txt(190, y3 + 33, "不是分出谁高谁低，是认出自己此刻站在第几级。", 7.0, "#6E6459", "middle"))
+    s.append(txt(190, y3 + 47, "压住滑落的，不是往上爬，是不再加那层作意。", 6.6, SEAL, "middle"))
     s.append(gold(y3 + 64, "ch38"))
     s.append('</svg>')
     return "\n".join(s)
