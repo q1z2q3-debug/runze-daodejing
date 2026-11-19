@@ -1524,6 +1524,9 @@ GOLD = {
     "ch48c": ["「取天下」的「取」是割耳朵，所以老子换了一个动作：不是割，是不动。"],
     "ch47a": ["透过框看，你看见的每一块都是真的；可你真的没看见框外。"],
     "ch47b": ["其出弥远，其知弥少。"],
+    "ch53a": ["「径」是步道：快，是因为窄；窄，是因为只打算一个人过。"],
+    "ch53b": ["台阶越高，田越荒，仓越虚；这三句不是三件事，是一件事的三个刻度。"],
+    "ch53c": ["留出来的空能装，抽出来的空只剩响；两个都是空，一个是杯，一个是坑。"],
     "ch52a": ["母生子，是天道；子归母，是功夫；本章讲的，就是这后半圈。"],
     "ch52b": ["「兑」是口，「袭」是袍，「救」是止；三个字，一个在收口，一个在穿衣，一个在刹车。"],
     "ch52c": ["光是照东西的，明是那个照本身；光一直在外面，人就一直在外面。"],
@@ -5211,6 +5214,180 @@ def ch52c_yi_zhan_deng():
     return "\n".join(s)
 
 
+# ============ 第五十三章 · 两条路 ============
+def ch53a_liang_tiao_lu():
+    W, H = 380, 606
+    body, y = head(W, H, "大道甚夷，而人好径：径是步道，窄到只容一个人过",
+                   "第 五 十 三 章 · 路", "两条路", "大道甚夷，而人好径。", H)
+    s = [body]
+
+    s.append(box(20, y + 2, 340, 30, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, y + 14, "「夷」，《说文》「平也」；「径」，《说文》「步道也」——只能步行、容不下车的小路。", 5.2, INK, "middle"))
+    s.append(txt(190, y + 26, "古时路分等级：容得下车马的叫「道」，只容人走的叫「径」。", 5.2, "#6E6459", "middle"))
+
+    # 一、大道
+    t1 = y + 46
+    s.append(txt(24, t1, "一、大道：平、宽，谁都能走，谁也不快", 5.4, GREEN))
+    gy1 = t1 + 78
+    s.append(box(24, gy1 - 46, 332, 46, fill="#FBF6EC", stroke=INK, width=0.9))
+    for k in range(3):
+        s.append(f'<line x1="24" y1="{gy1-46+11*(k+1)}" x2="356" y2="{gy1-46+11*(k+1)}" stroke="{LINE}" stroke-width="0.45"/>')
+    for xx in (70, 130, 200, 268, 320):
+        s.append(f'<circle cx="{xx}" cy="{gy1-36}" r="3.4" fill="none" stroke="{INK}" stroke-width="0.7"/>')
+        s.append(f'<line x1="{xx}" y1="{gy1-33}" x2="{xx}" y2="{gy1-22}" stroke="{INK}" stroke-width="0.7"/>')
+    s.append(txt(190, gy1 - 56, "夷：没有高低，没有转弯，没有一处要你显本事", 4.6, GREEN, "middle"))
+
+    # 二、小径
+    t2 = gy1 + 30
+    s.append(txt(24, t2, "二、小径：放着大道不走，偏去挤那一条", 5.4, SEAL))
+    gy2 = t2 + 86
+    s.append(box(24, gy2 - 46, 332, 46, fill="#FBF6EC", stroke=INK, width=0.9))
+    for k in range(3):
+        s.append(f'<line x1="24" y1="{gy2-46+11*(k+1)}" x2="356" y2="{gy2-46+11*(k+1)}" stroke="{LINE}" stroke-width="0.45"/>')
+    # 斜穿的窄径
+    s.append(f'<path d="M40,{gy2-72} L336,{gy2+16}" stroke="{SEAL}" stroke-width="3.2" opacity="0.55"/>')
+    s.append(f'<path d="M40,{gy2-72} L336,{gy2+16}" stroke="{SEAL}" stroke-width="0.45"/>')
+    s.append(f'<circle cx="196" cy="{gy2-40}" r="3.4" fill="none" stroke="{SEAL}" stroke-width="0.9"/>')
+    s.append(f'<line x1="196" y1="{gy2-37}" x2="196" y2="{gy2-28}" stroke="{SEAL}" stroke-width="0.9"/>')
+    s.append(txt(242, gy2 - 80, "径：只容一人过", 4.8, SEAL, "middle"))
+    s.append(f'<line x1="242" y1="{gy2-76}" x2="242" y2="{gy2-36}" stroke="{SEAL}" stroke-width="0.35" stroke-dasharray="3 3" opacity="0.7"/>')
+    s.append(txt(300, gy2 + 28, "快，是因为窄", 4.6, SEAL))
+    s.append(txt(300, gy2 + 38, "窄，是因为只打算", 4.4, "#6E6459"))
+    s.append(txt(300, gy2 + 47, "一个人过", 4.4, "#6E6459"))
+
+    b = gy2 + 62
+    s.append(txt(24, b, "一条路宽不宽，看的不是石头，是走的人打算带几个一起走。", 5.2, INK))
+    s.append(txt(24, b + 16, "大道是公共的：谁都走得，谁都不快；小路是私的：只容一人，所以快，也只利一人。", 5.0, INK))
+    s.append(txt(24, b + 32, "窄的路走多了，就成了窄的人——这就是「私」的全部形状：不是坏，是窄。", 5.2, GREEN))
+
+    c = b + 50
+    s.append(f'<line x1="24" y1="{c}" x2="338" y2="{c}" stroke="{LINE}" stroke-width="0.6"/>')
+    s.append(box(20, c + 8, 340, 40, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, c + 24, "「径」是步道：快，是因为窄；", 6.0, INK, "middle"))
+    s.append(txt(190, c + 36, "窄，是因为只打算一个人过。", 6.0, GREEN, "middle"))
+    s.append(gold(c + 62, "ch53a"))
+    s.append('</svg>')
+    return "\n".join(s)
+
+
+# ============ 第五十三章 · 一座台 ============
+def ch53b_yi_zuo_tai():
+    W, H = 380, 476
+    body, y = head(W, H, "朝甚除，田甚芜，仓甚虚：三句话，一件事的三个刻度",
+                   "第 五 十 三 章 · 台", "一座台", "朝甚除，田甚芜，仓甚虚。", H)
+    s = [body]
+
+    s.append(box(20, y + 2, 340, 30, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, y + 14, "「除」，《说文》「殿陛也」——不是朝堂很干净，是台阶修得很讲究。", 5.2, INK, "middle"))
+    s.append(txt(190, y + 26, "一个社会的力气是有数的：力气往台阶上使，田里就没有力气。", 5.2, "#6E6459", "middle"))
+
+    t1 = y + 46
+    s.append(txt(24, t1, "同一年的两件事：台在修，田在荒", 5.4, SEAL))
+    gy = t1 + 108
+
+    # 田（荒）
+    s.append(f'<line x1="24" y1="{gy}" x2="130" y2="{gy}" stroke="{INK}" stroke-width="1"/>')
+    for k, xx in enumerate((34, 50, 66, 82, 98, 114)):
+        hh = 14 if k % 2 == 0 else 20
+        s.append(f'<line x1="{xx}" y1="{gy}" x2="{xx-3}" y2="{gy-hh}" stroke="{GREEN}" stroke-width="0.7"/>')
+        s.append(f'<line x1="{xx}" y1="{gy}" x2="{xx+3}" y2="{gy-hh+4}" stroke="{GREEN}" stroke-width="0.7"/>')
+    s.append(txt(74, gy + 14, "田甚芜", 5.0, GREEN, "middle"))
+    s.append(txt(74, gy + 24, "秽也：长满荒草", 4.4, "#6E6459", "middle"))
+
+    # 台阶（三级）
+    for k in range(3):
+        s.append(box(146 + k * 48, gy - 24 * (k + 1), 48, 24 * (k + 1), fill="#EFE6D4" if k == 2 else "#F2EADA", stroke=INK, width=1.0))
+    s.append(txt(194, gy - 78, "朝甚除", 5.0, SEAL, "middle"))
+    # 台上的人：锦衣、佩剑
+    s.append(f'<circle cx="248" cy="{gy-92}" r="4" fill="none" stroke="{INK}" stroke-width="0.8"/>')
+    s.append(f'<line x1="248" y1="{gy-88}" x2="248" y2="{gy-72}" stroke="{INK}" stroke-width="1"/>')
+    s.append(f'<path d="M240,{gy-76} L248,{gy-84} L256,{gy-76}" fill="none" stroke="{INK}" stroke-width="0.7"/>')
+    s.append(f'<line x1="254" y1="{gy-86}" x2="264" y2="{gy-70}" stroke="{SEAL}" stroke-width="0.8"/>')
+
+    # 仓（空）
+    s.append(txt(326, gy - 80, "仓甚虚", 5.0, SEAL, "middle"))
+    s.append(box(300, gy - 62, 52, 62, fill="#FBF6EC", stroke=INK, width=1.0))
+    s.append(f'<path d="M296,{gy-62} L326,{gy-80} L356,{gy-62}" fill="none" stroke="{INK}" stroke-width="1"/>')
+    for k in range(3):
+        s.append(f'<line x1="306" y1="{gy-44+k*12}" x2="346" y2="{gy-44+k*12}" stroke="{LINE2}" stroke-width="0.4" stroke-dasharray="3 3"/>')
+    s.append(txt(326, gy - 18, "空", 5.0, "#8A7E70", "middle"))
+
+    # 力气：往台阶使
+    s.append(arrow(122, gy - 30, 168, gy - 44, SEAL, 1.0, head="arrS"))
+    s.append(txt(126, gy - 46, "力气", 4.6, SEAL))
+    s.append(txt(126, gy - 36, "往这儿使", 4.4, "#6E6459"))
+
+    b = gy + 44
+    s.append(txt(24, b, "三句是一个动作的三处痕迹：台阶往上修，田往下荒，仓往空走。", 5.2, INK))
+    s.append(txt(24, b + 16, "这不是道德问题，是算术问题：力气往台阶上使，田里就没有力气；田里没力气，仓里就空。", 5.0, INK))
+    s.append(txt(24, b + 32, "站在上面的人看不见下面；站在下面的人数得清上面有几级。", 5.2, GREEN))
+
+    c = b + 50
+    s.append(f'<line x1="24" y1="{c}" x2="338" y2="{c}" stroke="{LINE}" stroke-width="0.6"/>')
+    s.append(box(20, c + 8, 340, 40, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, c + 24, "台阶越高，田越荒，仓越虚；", 6.0, INK, "middle"))
+    s.append(txt(190, c + 36, "这三句不是三件事，是一件事的三个刻度。", 6.0, GREEN, "middle"))
+    s.append(gold(c + 62, "ch53b"))
+    s.append('</svg>')
+    return "\n".join(s)
+
+
+# ============ 第五十三章 · 一只杯 ============
+def ch53c_yi_zhi_bei():
+    W, H = 380, 628
+    body, y = head(W, H, "盗夸：把看得见的那面堆到极处，把看不见的那面掏到极处",
+                   "第 五 十 三 章 · 杯", "一只杯", "服文采，带利剑，厌饮食，财货有余；是谓盗夸。", H)
+    s = [body]
+
+    s.append(box(20, y + 2, 340, 30, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, y + 14, "「盗」，《说文》「私利物也」——从次从皿：羡慕人家那件器物；「夸」从大从亏：往大里说，说到亏。", 5.0, INK, "middle"))
+    s.append(txt(190, y + 26, "杯壁越厚，中间越空；可这个空不是有用的空，是被抽干的空。", 5.2, "#6E6459", "middle"))
+
+    # 一、留出来的空
+    t1 = y + 46
+    s.append(txt(24, t1, "一、留出来的空：壁在里面，空能装", 5.4, GREEN))
+    gy1 = t1 + 104
+    s.append(box(96, gy1 - 88, 188, 88, fill="#EFE6D4", stroke=INK, width=1.0))
+    s.append(box(110, gy1 - 74, 160, 66, fill="#FDFAF2", stroke="none", width=0))
+    s.append(box(110, gy1 - 42, 160, 34, fill="#DCE6DE", stroke="none", width=0))
+    s.append(f'<line x1="110" y1="{gy1-42}" x2="270" y2="{gy1-42}" stroke="{GREEN}" stroke-width="0.6"/>')
+    s.append(txt(190, gy1 - 18, "水", 4.8, GREEN, "middle"))
+    s.append(txt(190, gy1 - 68, "空腔", 4.6, "#8A7E70", "middle"))
+    s.append(txt(190, gy1 + 16, "壁：我自己留出来的厚度", 4.6, "#6E6459", "middle"))
+
+    # 二、抽走的空
+    t2 = gy1 + 40
+    s.append(txt(24, t2, "二、抽走的空：壁被掏薄（虚线是原来的腔），底穿了洞", 5.4, SEAL))
+    gy2 = t2 + 100
+    s.append(box(96, gy2 - 88, 188, 88, fill="#FBF6EC", stroke=INK, width=1.0))
+    s.append(box(110, gy2 - 74, 160, 74, fill="none", stroke=SEAL, dash="4 3", width=0.5, ))
+    s.append(f'<polygon points="110,{gy2-74} 270,{gy2-74} 200,{gy2+2} 180,{gy2+2}" fill="#EFE8D8" stroke="{SEAL}" stroke-width="0.8"/>')
+    s.append(f'<line x1="96" y1="{gy2}" x2="176" y2="{gy2}" stroke="{INK}" stroke-width="1.2"/>')
+    s.append(f'<line x1="204" y1="{gy2}" x2="284" y2="{gy2}" stroke="{INK}" stroke-width="1.2"/>')
+    s.append(f'<line x1="180" y1="{gy2+2}" x2="200" y2="{gy2+2}" stroke="{SEAL}" stroke-width="0.5" stroke-dasharray="3 3"/>')
+    s.append(arrow(190, gy2 + 8, 190, gy2 + 34, SEAL, 0.9, head="arrS"))
+    s.append(txt(190, gy2 - 22, "被抽干", 4.6, SEAL, "middle"))
+    s.append(txt(190, gy2 - 36, "看不见的那面：田与仓", 4.4, "#6E6459", "middle"))
+    s.append(txt(300, gy2 - 66, "看得见", 4.4, "#6E6459"))
+    s.append(txt(300, gy2 - 56, "的那面：锦衣", 4.4, "#6E6459"))
+    s.append(txt(300, gy2 - 46, "利剑财货", 4.4, "#6E6459"))
+    s.append(txt(190, gy2 + 46, "底一穿，就只剩响了", 4.6, SEAL, "middle"))
+
+    b = gy2 + 66
+    s.append(txt(24, b, "四样全在明处，两样全在暗处；明处越亮，暗处越黑。", 5.2, INK))
+    s.append(txt(24, b + 16, "同样是空，一种是留出来的，一种是被抽走的：留出来的能装，抽走的那只剩响。", 5.2, INK))
+    s.append(txt(24, b + 32, "一个是杯，一个是坑。", 5.4, GREEN))
+
+    c = b + 50
+    s.append(f'<line x1="24" y1="{c}" x2="338" y2="{c}" stroke="{LINE}" stroke-width="0.6"/>')
+    s.append(box(20, c + 8, 340, 40, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, c + 24, "留出来的空能装，抽出来的空只剩响；", 6.0, INK, "middle"))
+    s.append(txt(190, c + 36, "两个都是空，一个是杯，一个是坑。", 6.0, GREEN, "middle"))
+    s.append(gold(c + 62, "ch53c"))
+    s.append('</svg>')
+    return "\n".join(s)
+
+
 FIGS = {
     "ch01-wu-you": ("第一章", "无有同出", ch01_wu_you),
     "ch01-zhi-yue": ("第一章", "指月三境", ch01_zhi_yue),
@@ -5265,6 +5442,9 @@ FIGS = {
     "ch52a-yi-ge-quan": ("第五十二章", "一个圈", ch52a_yi_ge_quan),
     "ch52b-yi-zhang-lian": ("第五十二章", "一张脸", ch52b_yi_zhang_lian),
     "ch52c-yi-zhan-deng": ("第五十二章", "一盏灯", ch52c_yi_zhan_deng),
+    "ch53a-liang-tiao-lu": ("第五十三章", "两条路", ch53a_liang_tiao_lu),
+    "ch53b-yi-zuo-tai": ("第五十三章", "一座台", ch53b_yi_zuo_tai),
+    "ch53c-yi-zhi-bei": ("第五十三章", "一只杯", ch53c_yi_zhi_bei),
     "ch12-wu-se": ("第十二章", "门开五处", ch12_wu_se),
     "ch13-chong-ru": ("第十三章", "惊的是我", ch13_chong_ru),
     "ch14-yi-xi-wei": ("第十四章", "三样工具探不到", ch14_yi_xi_wei),
