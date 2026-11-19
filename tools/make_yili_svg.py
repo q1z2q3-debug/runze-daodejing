@@ -1519,6 +1519,7 @@ GOLD = {
     "ch24": ["借来的高度站不住，省下的步子走不远。", "不处不是割掉，是不长——约束是按住它，不处是根本不在那儿站。"],
     "ch25": ["不是它比天地老，是天地离了它不成。", "名是给有边界的东西用的；对没有边界的东西，名只是手指。"],
     "ch45b_jing": ["满得溢出来的，是在往外倒；满在里面不溢的，是在往里续。"],
+    "ch45c_gong": ["弓不常张，话不说满，力不使尽。"],
     "ch45c_qin": ["最响的一声，常常是没弹出来的那一下。"],
     "ch45c_dao": ["「正」不是被谁摆正的，是它自己终于站住了。"],
     "ch45c_bi": ["直、巧、辩，三样都在「收」上见高低。",
@@ -3893,67 +3894,61 @@ def ch45b_jing_ying_chong():
 
 
 # ============ 第四十五章 · 笔 ============
-def ch45c_qi_xian():
-    W, H = 380, 578
-    body, y = head(W, H, "七弦里，留一根不弹", "第 四 十 五 章 · 琴",
-                   "七弦里，留一根不弹", "大直若屈，大巧若拙，大辩若讷。", H)
+def ch45c_yin_er_bu_fa():
+    W, H = 380, 650
+    body, y = head(W, H, "引而不发：有话说得出，却不说满", "第 四 十 五 章 · 弓",
+                   "引而不发", "大直若屈，大巧若拙，大辩若讷。", H)
     s = [body]
 
     s.append(box(20, y + 2, 340, 30, fill="#F2EADA", stroke="#C9B79A"))
-    s.append(txt(190, y + 14, "「大音希声」：最响的，往往不是拨得最重的那一根。", 6.0, INK, "middle"))
-    s.append(txt(190, y + 26, "弦、指、弦外、停手——四处各留一分，声音才走得远。", 5.6, "#6E6459", "middle"))
+    s.append(txt(190, y + 14, "弓臂是弯的，箭才走得直；弦拉到「满」，弓臂就折。", 5.8, INK, "middle"))
+    s.append(txt(190, y + 26, "所以好射手引而不发——留一分不给出去。", 5.6, "#6E6459", "middle"))
 
-    a = y + 50
-    top = a + 22
-    # 琴身
-    s.append(f'<path d="M56,{top} L324,{top+3} Q332,{top+22} 324,{top+41} L56,{top+44} Q48,{top+22} 56,{top} Z" fill="#E6D8C2" stroke="{INK}" stroke-width="0.9"/>')
-    # 岳山与龙龈
-    s.append(f'<line x1="70" y1="{top+2}" x2="70" y2="{top+42}" stroke="{INK}" stroke-width="0.9"/>')
-    s.append(f'<line x1="312" y1="{top+4}" x2="312" y2="{top+40}" stroke="{INK}" stroke-width="0.7"/>')
-    # 七弦
-    for k in range(7):
-        sy = top + 7 + k * 5.0
-        col = GREEN if k == 3 else INK
-        w = 0.55 if k == 3 else 0.3
-        s.append(f'<line x1="70" y1="{sy}" x2="312" y2="{sy+1.6}" stroke="{col}" stroke-width="{1.3 if k == 3 else 0.3}"/>')
-    # 徽
-    for k in range(4):
-        s.append(f'<circle cx="{100+k*56}" cy="{top+22}" r="1.6" fill="{SEAL}" opacity="0.55"/>')
+    a = y + 52
+    cy = a + 92
+    # 弓臂（反曲）
+    s.append(f'<path d="M82,{cy-70} Q58,{cy-44} 46,{cy-16} Q42,{cy} 46,{cy+16} Q58,{cy+44} 82,{cy+70}" fill="none" stroke="{INK}" stroke-width="2.2"/>')
+    s.append(f'<path d="M82,{cy-70} l-12,-4 M82,{cy+70} l-12,4" fill="none" stroke="{INK}" stroke-width="1.4"/>')
+    # 弦（未引）
+    s.append(f'<line x1="80" y1="{cy-66}" x2="80" y2="{cy+66}" stroke="{INK}" stroke-width="0.4" opacity="0.45"/>')
+    # 满位置（虚线）
+    s.append(f'<line x1="126" y1="{cy-12}" x2="126" y2="{cy+12}" stroke="{SEAL}" stroke-width="0.5" stroke-dasharray="3 2"/>')
+    s.append(txt(126, cy + 26, "还差一分", 4.6, SEAL, "middle"))
+    # 弦（引而不发）
+    s.append(f'<line x1="80" y1="{cy-66}" x2="108" y2="{cy}" stroke="{INK}" stroke-width="1.1"/>')
+    s.append(f'<line x1="80" y1="{cy+66}" x2="108" y2="{cy}" stroke="{INK}" stroke-width="1.1"/>')
+    s.append(f'<circle cx="108" cy="{cy}" r="2.6" fill="{GREEN}"/>')
+    # 箭
+    s.append(f'<line x1="110" y1="{cy}" x2="246" y2="{cy}" stroke="{INK}" stroke-width="0.9"/>')
+    s.append(f'<path d="M246,{cy} l-7,-3.4 l0,6.8 z" fill="{INK}"/>')
 
-    # 标记 ①②③④
-    marks = [(96, top - 14, "1"), (170, top - 14, "2"), (236, top - 14, "3"), (298, top - 14, "4")]
-    for mx, my, num in marks:
-        y_end = top + 20 if num == "3" else top - 1
-        s.append(f'<line x1="{mx}" y1="{my+4}" x2="{mx}" y2="{y_end}" stroke="{SEAL}" stroke-width="0.35" stroke-dasharray="2 2"/>')
-        s.append(f'<circle cx="{mx}" cy="{my-2}" r="5.6" fill="none" stroke="{SEAL}" stroke-width="0.6"/>')
-        if num == "3":
-            s.append(txt(mx + 14, my - 1, "不拨", 4.4, GREEN))
-        s.append(txt(mx, my + 0.5, num, 4.6, SEAL, "middle"))
+    # 弓臂受力的裂纹（满时）
+    s.append(f'<line x1="72" y1="{cy-74}" x2="66" y2="{cy-62}" stroke="{SEAL}" stroke-width="0.5"/>')
+    s.append(f'<line x1="66" y1="{cy-62}" x2="70" y2="{cy-60}" stroke="{SEAL}" stroke-width="0.5"/>')
+    s.append(txt(58, cy - 86, "拉到满，先折这里", 4.4, SEAL))
+    # 标注箭头
+    s.append(f'<line x1="108" y1="{cy+34}" x2="108" y2="{cy+8}" stroke="{GREEN}" stroke-width="0.4"/>')
+    s.append(txt(108, cy + 44, "引而不发", 5.2, GREEN, "middle"))
 
-    # 余音
-    s.append(f'<path d="M336,{top+34} q8,-4 16,0 q8,4 16,0" fill="none" stroke="{GREEN}" stroke-width="0.5" opacity="0.8"/>')
-    s.append(txt(352, top + 24, "余音", 4.4, GREEN, "middle"))
-
-    b = top + 78
+    b = cy + 84
     rows = [
-        ("1", "弦 · 大直若屈", "弦看着是直的，其实一直有松；上到尽头，一拨就断。"),
-        ("2", "指 · 大巧若拙", "好琴人指下看不出使劲，声音却到位。"),
-        ("3", "不弹 · 大辩若讷", "七弦里留一根不弹：不是没有这根弦，是不拨它。"),
-        ("4", "停手 · 清静为正", "曲子停在该停处，剩下的让余音自己走完。"),
+        ("臂 · 大直若屈", "臂做成直的，一拉就折；弯着，力才存得住，箭才走得直。"),
+        ("弦 · 大巧若拙", "撒放的人只是松手，弦自己出去——看不出使过劲。"),
+        ("不发 · 大辩若讷", "引而不发：话到嘴边、力到弦上，仍留一分不给出去。"),
+        ("收 · 清静为正", "射完就松弦。弓不常张，张久了臂就疲。"),
     ]
-    for k, (num, tag, line) in enumerate(rows):
-        r = b + k * 46
-        s.append(f'<circle cx="32" cy="{r+2}" r="6.2" fill="none" stroke="{LINE2}" stroke-width="0.5"/>')
-        s.append(txt(32, r + 5, num, 4.6, SEAL, "middle"))
-        s.append(txt(50, r + 5, tag, 5.9, SEAL))
-        s.append(txt(50, r + 22, line, 5.6, INK))
+    for k, (tag, line) in enumerate(rows):
+        r = b + k * 44
+        s.append(f'<circle cx="30" cy="{r}" r="2.4" fill="{SEAL}" opacity="0.55"/>')
+        s.append(txt(42, r + 4, tag, 5.9, SEAL))
+        s.append(txt(42, r + 19, line, 5.6, INK))
 
-    y2 = b + 4 * 46 + 4
+    y2 = b + 4 * 44 + 4
     s.append(f'<line x1="24" y1="{y2-6}" x2="338" y2="{y2-6}" stroke="{LINE}" stroke-width="0.6"/>')
     s.append(box(20, y2 + 4, 340, 44, fill="#F2EADA", stroke="#C9B79A"))
-    s.append(txt(190, y2 + 20, "弦留一分松，指留一分拙，话留一分默。", 6.2, INK, "middle"))
-    s.append(txt(190, y2 + 34, "最响的一声，常常是没弹出来的那一下。", 6.2, GREEN, "middle"))
-    s.append(gold(y2 + 62, "ch45c_qin"))
+    s.append(txt(190, y2 + 20, "弓不常张，话不说满，力不使尽。", 6.2, INK, "middle"))
+    s.append(txt(190, y2 + 34, "三样都留着那一分——那一分，才是能再用的。", 6.2, GREEN, "middle"))
+    s.append(gold(y2 + 62, "ch45c_gong"))
     s.append('</svg>')
     return "\n".join(s)
 
@@ -3990,7 +3985,7 @@ FIGS = {
     "ch44c-jiao-yu-zhi": ("第四十四章", "站住，停脚", ch44c_jiao_yu_zhi),
     "ch45a-liu-yi-dao-feng": ("第四十五章", "留一道缝", ch45a_liu_yi_dao_feng),
     "ch45b-jing-ying-chong": ("第四十五章", "井口看着是空的", ch45b_jing_ying_chong),
-    "ch45c-qi-xian": ("第四十五章", "七弦里，留一根不弹", ch45c_qi_xian),
+    "ch45c-yin-er-bu-fa": ("第四十五章", "引而不发", ch45c_yin_er_bu_fa),
     "ch12-wu-se": ("第十二章", "门开五处", ch12_wu_se),
     "ch13-chong-ru": ("第十三章", "惊的是我", ch13_chong_ru),
     "ch14-yi-xi-wei": ("第十四章", "三样工具探不到", ch14_yi_xi_wei),
