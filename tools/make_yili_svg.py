@@ -1519,6 +1519,9 @@ GOLD = {
     "ch24": ["借来的高度站不住，省下的步子走不远。", "不处不是割掉，是不长——约束是按住它，不处是根本不在那儿站。"],
     "ch25": ["不是它比天地老，是天地离了它不成。", "名是给有边界的东西用的；对没有边界的东西，名只是手指。"],
     "ch45b_jing": ["满得溢出来的，是在往外倒；满在里面不溢的，是在往里续。"],
+    "ch48a": ["学问把世界切得越来越细，切得越细越好用；可那条「通」，恰恰不在细处。"],
+    "ch48b": ["损之又损，以至于无为。"],
+    "ch48c": ["「取天下」的「取」是割耳朵，所以老子换了一个动作：不是割，是不动。"],
     "ch47a": ["透过框看，你看见的每一块都是真的；可你真的没看见框外。"],
     "ch47b": ["其出弥远，其知弥少。"],
     "ch47c": ["站在路口的人只能选一条路；知道路怎么走的人，不必选。"],
@@ -4313,6 +4316,166 @@ def ch47c_shi_zi_lu_kou():
     return "\n".join(s)
 
 
+# ============ 第四十八章 · 益与损 ============
+def ch48a_yi_yu_sun():
+    W, H = 380, 500
+    body, y = head(W, H, "学是加法，道是减法", "第 四 十 八 章 · 益损",
+                   "一只器，两只手", "为学日益，为道日损。", H)
+    s = [body]
+
+    s.append(box(20, y + 2, 340, 30, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, y + 14, "「益」，《说文》「饶也」——字形是水在皿上，水满出来了。", 5.8, INK, "middle"))
+    s.append(txt(190, y + 26, "「损」，《说文》「减也」——从手：一只手从器物上把东西拿掉。", 5.4, "#6E6459", "middle"))
+
+    a = y + 48
+    # 左：益（水自己涨出来）
+    s.append(txt(86, a + 8, "一 · 益：水自己往外涨", 5.6, SEAL, "middle"))
+    mx, my = 86, a + 78
+    s.append(f'<path d="M{mx-36},{my-4} L{mx-26},{my+34} Q{mx},{my+44} {mx+26},{my+34} L{mx+36},{my-4} Z" fill="#F0E8D8" stroke="{INK}" stroke-width="0.9"/>')
+    s.append(f'<line x1="{mx-38}" y1="{my-4}" x2="{mx+38}" y2="{my-4}" stroke="{INK}" stroke-width="1.1"/>')
+    s.append(f'<path d="M{mx-36},{my-6} q10,4 20,0 q10,-4 20,0 q10,4 20,0" fill="none" stroke="{GREEN}" stroke-width="0.6"/>')
+    for dx, dy in ((-38, -2), (-34, 8), (36, 0), (32, 10)):
+        s.append(f'<path d="M{mx+dx},{my+dy} q2,5 0,8 q-3,-4 0,-8" fill="none" stroke="{GREEN}" stroke-width="0.5"/>')
+    for k in range(3):
+        s.append(f'<line x1="{mx-20+k*20}" y1="{my-14}" x2="{mx-20+k*20}" y2="{my-26}" stroke="{SEAL}" stroke-width="0.5" marker-end="url(#arrS)"/>')
+    s.append(txt(86, a + 128, "加到一个程度，就不是「有」了", 4.6, "#6E6459", "middle"))
+    s.append(txt(86, a + 140, "是「漫出来」", 4.6, "#6E6459", "middle"))
+
+    # 右：损（一只手往外拿）
+    s.append(txt(274, a + 8, "二 · 损：手把它拿掉", 5.6, GREEN, "middle"))
+    cx = 274
+    s.append(f'<rect x="{cx-30}" y="{a+56}" width="60" height="58" fill="none" stroke="{INK}" stroke-width="0.9"/>')
+    s.append(f'<line x1="{cx-30}" y1="{a+70}" x2="{cx+30}" y2="{a+70}" stroke="{GREEN}" stroke-width="0.5"/>')
+    s.append(f'<path d="M{cx-28},{a+72} q9,3 18,0 q9,-3 18,0 q9,3 18,0" fill="none" stroke="{GREEN}" stroke-width="0.45" opacity="0.8"/>')
+    # 拿走的一块
+    s.append(f'<rect x="{cx-9}" y="{a+30}" width="18" height="13" fill="#DDD5C6" stroke="{INK}" stroke-width="0.6"/>')
+    s.append(f'<line x1="{cx}" y1="{a+30}" x2="{cx}" y2="{a+16}" stroke="{GREEN}" stroke-width="0.5" marker-end="url(#arr2)"/>')
+    # 一只手（伸向杯口，往外拿）
+    s.append(f'<ellipse cx="{cx+34}" cy="{a+34}" rx="12" ry="9" fill="none" stroke="{INK}" stroke-width="0.7"/>')
+    for k in range(4):
+        s.append(f'<line x1="{cx+26}" y1="{a+28+k*4}" x2="{cx+8}" y2="{a+27+k*4}" stroke="{INK}" stroke-width="0.5"/>')
+    s.append(f'<path d="M{cx+42},{a+42} q8,4 6,12" fill="none" stroke="{INK}" stroke-width="0.6"/>')
+    s.append(txt(274, a + 128, "拿掉的是粘在上面的那层", 4.6, "#6E6459", "middle"))
+    s.append(txt(274, a + 140, "不是杯子本身", 4.6, "#6E6459", "middle"))
+
+    s.append(f'<line x1="188" y1="{a+20}" x2="188" y2="{a+120}" stroke="{LINE2}" stroke-width="0.4" stroke-dasharray="4 3"/>')
+
+    b = a + 164
+    s.append(txt(24, b, "益是水自己涨出来，损是手往外拿；涨不由人，拿要人动手。", 5.8, INK))
+    s.append(txt(24, b + 16, "学，是往心里装「有」：一个概念一道边，一个标签一道边。", 5.4, "#6E6459"))
+    s.append(txt(24, b + 32, "损，是把粘在「知道」上面的那层执取拿掉——知识还留着。", 5.4, GREEN))
+
+    c = b + 50
+    s.append(f'<line x1="24" y1="{c}" x2="338" y2="{c}" stroke="{LINE}" stroke-width="0.6"/>')
+    s.append(box(20, c + 8, 340, 40, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, c + 24, "学问把世界切得越来越细，切得越细越好用；", 6.0, INK, "middle"))
+    s.append(txt(190, c + 36, "可那条「通」，恰恰不在细处。", 6.0, GREEN, "middle"))
+    s.append(gold(c + 62, "ch48a"))
+    s.append('</svg>')
+    return "\n".join(s)
+
+
+# ============ 第四十八章 · 一层套一层的壳 ============
+def ch48b_ceng_ke():
+    W, H = 380, 486
+    body, y = head(W, H, "每减掉一层，剩下那层长出新皮", "第 四 十 八 章 · 又",
+                   "损之又损", "损之又损，以至于无为。", H)
+    s = [body]
+
+    s.append(box(20, y + 2, 340, 30, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, y + 14, "「又」不是重复劳动，是一层套一层地剥。", 5.8, INK, "middle"))
+    s.append(txt(190, y + 26, "为什么没有终点？不是路长，是壳会再生。", 5.4, "#6E6459", "middle"))
+
+    a = y + 52
+    cx, cy = 120, a + 74
+    for i, r in enumerate((56, 46, 36, 26, 16)):
+        op = 0.9 - i * 0.12
+        s.append(f'<circle cx="{cx}" cy="{cy}" r="{r}" fill="none" stroke="{INK}" stroke-width="0.8" opacity="{op:.2f}"/>')
+    s.append(f'<circle cx="{cx}" cy="{cy}" r="6" fill="{SEAL}" opacity="0.55"/>')
+    # 最外一层在右上开了口，被掀起一段
+    import math as _m
+    def _pt(r, deg):
+        return (cx + r * _m.cos(_m.radians(deg)), cy + r * _m.sin(_m.radians(deg)))
+    x1, y1 = _pt(56, 25); x2, y2 = _pt(56, 335)
+    s.append(f'<path d="M{x1:.1f},{y1:.1f} A56,56 0 1 1 {x2:.1f},{y2:.1f}" fill="none" stroke="{INK}" stroke-width="0.8" opacity="0.9"/>')
+    px1, py1 = _pt(58, 25); px2, py2 = _pt(64, -18)
+    s.append(f'<path d="M{px1:.1f},{py1:.1f} Q{_pt(72,8)[0]:.1f},{_pt(72,8)[1]:.1f} {px2:.1f},{py2:.1f}" fill="none" stroke="{SEAL}" stroke-width="0.8"/>')
+    s.append(f'<path d="M{px2:.1f},{py2:.1f} q6,2 10,-2" fill="none" stroke="{SEAL}" stroke-width="0.5"/>')
+    s.append(txt(196, a + 26, "掀起的一层", 4.8, SEAL))
+    s.append(f'<line x1="194" y1="{a+30}" x2="{px2+6:.1f}" y2="{py2-2:.1f}" stroke="{LINE2}" stroke-width="0.4"/>')
+    # 刚露出来的新皮
+    nx1, ny1 = _pt(48, -34); nx2, ny2 = _pt(48, 30)
+    s.append(f'<path d="M{nx1:.1f},{ny1:.1f} A48,48 0 0 0 {nx2:.1f},{ny2:.1f}" fill="none" stroke="{GREEN}" stroke-width="0.9" stroke-dasharray="3 2.4"/>')
+    s.append(txt(196, a + 104, "断口这里，又长出一层新皮", 4.8, GREEN))
+    s.append(f'<line x1="194" y1="{a+100}" x2="{cx+44}" y2="{cy+20}" stroke="{LINE2}" stroke-width="0.4"/>')
+    s.append(txt(cx, cy + 76, "减贪，减到最后贪「我已经不贪了」", 4.8, "#6E6459", "middle"))
+
+    b = cy + 96
+    s.append(txt(24, b, "减一次，人就会把「我已经减了」也当成一层新的东西收着。", 5.8, INK))
+    s.append(txt(24, b + 16, "减评判，减到最后评判「他还在评判」。", 5.4, "#6E6459"))
+    s.append(txt(24, b + 32, "所以「又」是剥一层、等它长、再剥一层——不是同一刀重复。", 5.4, GREEN))
+
+    c = b + 50
+    s.append(f'<line x1="24" y1="{c}" x2="338" y2="{c}" stroke="{LINE}" stroke-width="0.6"/>')
+    s.append(box(20, c + 8, 340, 40, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, c + 24, "剥到极处，不是手里空了，", 6.0, INK, "middle"))
+    s.append(txt(190, c + 36, "是那只加边的手不动了。", 6.0, GREEN, "middle"))
+    s.append(gold(c + 62, "ch48b"))
+    s.append('</svg>')
+    return "\n".join(s)
+
+
+# ============ 第四十八章 · 一道关，一道关 ============
+def ch48c_guan_qia():
+    W, H = 380, 512
+    body, y = head(W, H, "不是懒，是勤得太多", "第 四 十 八 章 · 事",
+                   "一道关，一道关", "取天下常以无事，及其有事，不足以取天下。", H)
+    s = [body]
+
+    s.append(box(20, y + 2, 340, 30, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, y + 14, "「事」，《说文》「职也」：无事不是什么都不干，是不给自己加职分。", 5.5, INK, "middle"))
+    s.append(txt(190, y + 26, "「取」，《说文》「捕取也」——从又从耳：割左耳计功的那个取。", 5.4, SEAL, "middle"))
+
+    a = y + 50
+    # 上：有事
+    s.append(txt(24, a + 8, "一 · 有事：一道关、一道关往上加", 5.6, SEAL))
+    gy = a + 56
+    s.append(f'<line x1="24" y1="{gy}" x2="338" y2="{gy}" stroke="{INK}" stroke-width="0.8"/>')
+    for k in range(3):
+        gx = 74 + k * 74
+        s.append(f'<line x1="{gx}" y1="{gy}" x2="{gx}" y2="{gy-26}" stroke="{INK}" stroke-width="0.8"/>')
+        s.append(f'<line x1="{gx+22}" y1="{gy}" x2="{gx+22}" y2="{gy-26}" stroke="{INK}" stroke-width="0.8"/>')
+        s.append(f'<line x1="{gx-3}" y1="{gy-24}" x2="{gx+25}" y2="{gy-24}" stroke="{SEAL}" stroke-width="0.7"/>')
+    s.append(txt(36, gy + 28, "每干一件，就多一道边；守的地方越多，漏的地方越多。", 4.8, "#6E6459"))
+
+    b = gy + 48
+    # 下：无事
+    s.append(txt(24, b + 8, "二 · 无事：一道也不设", 5.6, GREEN))
+    gy2 = b + 56
+    s.append(f'<line x1="24" y1="{gy2}" x2="338" y2="{gy2}" stroke="{INK}" stroke-width="0.8"/>')
+    s.append(f'<line x1="28" y1="{gy2-11}" x2="334" y2="{gy2-11}" stroke="{GREEN}" stroke-width="0.35" stroke-dasharray="6 5" opacity="0.6"/>')
+    for k in range(3):
+        gx = 90 + k * 74
+        s.append(f'<line x1="{gx}" y1="{gy2}" x2="{gx}" y2="{gy2-24}" stroke="{LINE2}" stroke-width="0.4" stroke-dasharray="3 3"/>')
+        s.append(f'<line x1="{gx+22}" y1="{gy2}" x2="{gx+22}" y2="{gy2-24}" stroke="{LINE2}" stroke-width="0.4" stroke-dasharray="3 3"/>')
+        s.append(f'<line x1="{gx-3}" y1="{gy2-22}" x2="{gx+25}" y2="{gy2-22}" stroke="{LINE2}" stroke-width="0.4" stroke-dasharray="3 3"/>')
+    s.append(txt(300, gy2 - 32, "虚线：本该有的关，一道也没设", 4.4, "#6E6459", "middle"))
+    s.append(txt(36, gy2 + 28, "不新立法度，不频出号令，不年年加码。", 4.8, "#6E6459"))
+
+    c = gy2 + 48
+    s.append(txt(24, c, "那个时代最好的治理，是让人感觉不到有人在管。", 5.6, INK))
+    s.append(txt(24, c + 16, "一个上位者最容易犯的，不是懒，是勤——他总想再干点什么。", 5.6, SEAL))
+
+    d = c + 42
+    s.append(f'<line x1="24" y1="{d}" x2="338" y2="{d}" stroke="{LINE}" stroke-width="0.6"/>')
+    s.append(box(20, d + 8, 340, 40, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, d + 24, "「取天下」的「取」是割耳朵，所以老子换了个动作：", 6.0, INK, "middle"))
+    s.append(txt(190, d + 36, "不是割，是不动。", 6.0, SEAL, "middle"))
+    s.append(gold(d + 62, "ch48c"))
+    s.append('</svg>')
+    return "\n".join(s)
+
+
 
 FIGS = {
     "ch01-wu-you": ("第一章", "无有同出", ch01_wu_you),
@@ -4353,6 +4516,9 @@ FIGS = {
     "ch47a-you-ge-de-chuang": ("第四十七章", "一扇有格的窗", ch47a_you_ge_de_chuang),
     "ch47b-wang-yue-mi": ("第四十七章", "网越密，越看不见", ch47b_wang_yue_mi),
     "ch47c-shi-zi-lu-kou": ("第四十七章", "十字路口", ch47c_shi_zi_lu_kou),
+    "ch48a-yi-yu-sun": ("第四十八章", "一只器，两只手", ch48a_yi_yu_sun),
+    "ch48b-ceng-ke": ("第四十八章", "损之又损", ch48b_ceng_ke),
+    "ch48c-guan-qia": ("第四十八章", "一道关，一道关", ch48c_guan_qia),
     "ch12-wu-se": ("第十二章", "门开五处", ch12_wu_se),
     "ch13-chong-ru": ("第十三章", "惊的是我", ch13_chong_ru),
     "ch14-yi-xi-wei": ("第十四章", "三样工具探不到", ch14_yi_xi_wei),
