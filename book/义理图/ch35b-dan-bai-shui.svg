@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 380 556" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="加味的抓人，无味的养人" font-family="'Noto Serif CJK SC','Noto Serif SC','Songti SC',serif">
+<defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#6E6459"/></marker><marker id="arr2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#4A5C55"/></marker><marker id="arrL" viewBox="0 0 10 10" refX="1" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M10 0 L0 5 L10 10 z" fill="#4A5C55"/></marker><marker id="arrS" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#A2503B"/></marker></defs>
+<rect x="0" y="0" width="380" height="556" fill="#F8F3E6"/>
+<text x="20" y="26" font-size="11" fill="#A2503B" font-family="'Noto Sans CJK SC','Noto Sans SC',sans-serif" letter-spacing="3">第 三 十 五 章 · 味</text>
+<text x="20" y="58" font-size="21" fill="#2F2A24">道之出口，淡乎其无味</text>
+<text x="20" y="78" font-size="10.5" fill="#6E6459">整章都在饭桌上：饵是饼，味是滋味，淡是薄味。</text>
+<rect x="20" y="104" width="340" height="28" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="190" y="123" font-size="9.0" fill="#2F2A24" text-anchor="middle">乐与饵，过客止。道之出口，淡乎其无味。</text>
+<rect x="20" y="144" width="162" height="116" fill="#FBF6EC" stroke="#E6D8C2" stroke-width="1.0"/>
+<rect x="198" y="144" width="162" height="116" fill="#FBF6EC" stroke="#E6D8C2" stroke-width="1.0"/>
+<text x="32" y="162" font-size="8.2" fill="#A2503B">乐与饵：有味的</text>
+<text x="210" y="162" font-size="8.2" fill="#4A5C55">道：一碗白水</text>
+<circle cx="60" cy="192" r="17" fill="#E9DFCC" stroke="#2F2A24" stroke-width="0.9"/>
+<line x1="50" y1="184" x2="52" y2="190" stroke="#8A7C69" stroke-width="0.6"/>
+<line x1="58" y1="184" x2="60" y2="190" stroke="#8A7C69" stroke-width="0.6"/>
+<line x1="66" y1="184" x2="68" y2="190" stroke="#8A7C69" stroke-width="0.6"/>
+<path d="M60,209 l0,10 q0,12 9,12 q8,0 8,-8" fill="none" stroke="#2F2A24" stroke-width="1"/>
+<path d="M77,223 l6,4" stroke="#2F2A24" stroke-width="1"/>
+<text x="96" y="228" font-size="6.8" fill="#6E6459">鱼咬住的是钩，不是饼</text>
+<text x="32" y="244" font-size="7.0" fill="#6E6459">饵能让人停，不能让人留。</text>
+<text x="32" y="256" font-size="7.0" fill="#6E6459">留不住的，本来就不是你的。</text>
+<path d="M222,186 q16,30 32,0" fill="#EEF2EE" stroke="#2F2A24" stroke-width="1"/>
+<line x1="218" y1="186" x2="258" y2="186" stroke="#2F2A24" stroke-width="1"/>
+<path d="M225,194 q13,5 24,0" fill="none" stroke="#9FB0A6" stroke-width="0.8"/>
+<text x="238" y="208" font-size="9.0" fill="#4A5C55" text-anchor="middle">淡</text>
+<text x="272" y="194" font-size="6.8" fill="#6E6459">没味，</text>
+<text x="272" y="206" font-size="6.8" fill="#6E6459">离不开</text>
+<text x="210" y="232" font-size="6.9" fill="#6E6459">甜饼吃三块就腻；白水喝一辈子不腻。</text>
+<text x="210" y="248" font-size="7.4" fill="#A2503B">加味的抓人，无味的养人。</text>
+<rect x="20" y="272" width="340" height="74" fill="#F7F1E3" stroke="#E6D8C2" stroke-width="1.0"/>
+<text x="32" y="290" font-size="8.4" fill="#2F2A24">过客止：客是「寄也」——歇脚，不是归</text>
+<line x1="40" y1="334" x2="150" y2="334" stroke="#DCCBB0" stroke-width="0.9"/>
+<circle cx="88" cy="306" r="3.6" fill="none" stroke="#2F2A24" stroke-width="0.8"/>
+<line x1="88" y1="310" x2="88" y2="324" stroke="#2F2A24" stroke-width="0.9"/>
+<path d="M88,324 l-5,10 M88,324 l5,10" stroke="#2F2A24" stroke-width="0.8"/>
+<rect x="104" y="304" width="18" height="30" fill="none" stroke="#A2503B" stroke-width="0.9"/>
+<text x="134" y="318" font-size="6.9" fill="#6E6459">他没有把这儿当家，只是吃了一口饼；客总是要走的。</text>
+<text x="134" y="334" font-size="6.9" fill="#4A5C55">执大象的场里，来的人不是客——那儿没有主客之分。</text>
+<rect x="20" y="358" width="108" height="68" fill="#FBF6EC" stroke="#E6D8C2" stroke-width="1.0"/>
+<text x="74" y="376" font-size="7.6" fill="#2F2A24" text-anchor="middle">视之不足见</text>
+<text x="74" y="394" font-size="6.6" fill="#6E6459" text-anchor="middle">没有形状，没法照着画</text>
+<text x="74" y="414" font-size="6.4" fill="#A2503B" text-anchor="middle">不见其形</text>
+<rect x="136" y="358" width="108" height="68" fill="#FBF6EC" stroke="#E6D8C2" stroke-width="1.0"/>
+<text x="190" y="376" font-size="7.6" fill="#2F2A24" text-anchor="middle">听之不足闻</text>
+<text x="190" y="394" font-size="6.6" fill="#6E6459" text-anchor="middle">没有声调，没法跟着喊</text>
+<text x="190" y="414" font-size="6.4" fill="#A2503B" text-anchor="middle">不闻其声</text>
+<rect x="252" y="358" width="108" height="68" fill="#FBF6EC" stroke="#E6D8C2" stroke-width="1.0"/>
+<text x="306" y="376" font-size="7.6" fill="#2F2A24" text-anchor="middle">用之不足既</text>
+<text x="306" y="394" font-size="6.6" fill="#6E6459" text-anchor="middle">没有底，所以用不完</text>
+<text x="306" y="414" font-size="6.4" fill="#A2503B" text-anchor="middle">不见其底</text>
+<rect x="20" y="438" width="340" height="40" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="190" y="455" font-size="8.2" fill="#2F2A24" text-anchor="middle">能被人一眼看尽的，用不了几回；用不完的，从来看不尽。</text>
+<text x="190" y="470" font-size="7.6" fill="#6E6459" text-anchor="middle">真正靠得住的东西，都不加味。</text>
+<line x1="20" y1="486" x2="360" y2="486" stroke="#E6D8C2" stroke-width="0.8"/>
+<text x="20" y="500" font-size="8.0" fill="#A89577" letter-spacing="1">本 章 金 句</text>
+<text x="20" y="516" font-size="8.4" fill="#2F2A24">客停下来不是归，是歇脚；他没有把这儿当家，只是吃了一口饼。</text>
+<text x="20" y="532" font-size="8.4" fill="#2F2A24">加味的抓人，无味的养人。道是一碗白水：喝不完，也说不浓。</text>
+</svg>

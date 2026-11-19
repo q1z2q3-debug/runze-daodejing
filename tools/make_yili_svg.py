@@ -1518,6 +1518,8 @@ GOLD = {
     "ch23": ["自然不是「不管」，是「不需要管」——差别全在有没有人在使劲。", "信不足，不是话说得不够多，是话后面没有人。"],
     "ch24": ["借来的高度站不住，省下的步子走不远。", "不处不是割掉，是不长——约束是按住它，不处是根本不在那儿站。"],
     "ch25": ["不是它比天地老，是天地离了它不成。", "名是给有边界的东西用的；对没有边界的东西，名只是手指。"],
+    "ch35b": ["客停下来不是归，是歇脚；他没有把这儿当家，只是吃了一口饼。",
+              "加味的抓人，无味的养人。道是一碗白水：喝不完，也说不浓。"],
     "ch35a": ["同一个「执」字，宾语一换，手就转向了——执罪人是抓人，执中是持己。",
               "手一伸出去，场就变成了门槛。"],
     "ch34b": ["能小，是因为它从不伸手；不伸手，才没人能握住它。",
@@ -2456,6 +2458,71 @@ def ch35a_zhi_yu_chang():
     return "\n".join(s)
 
 
+# ============ 第三十五章 · 淡 ============
+def ch35b_dan_bai_shui():
+    W, H = 380, 556
+    body, y = head(W, H, "加味的抓人，无味的养人", "第 三 十 五 章 · 味",
+                   "道之出口，淡乎其无味", "整章都在饭桌上：饵是饼，味是滋味，淡是薄味。", H)
+    s = [body]
+
+    s.append(box(20, y + 4, 340, 28, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, y + 23, "乐与饵，过客止。道之出口，淡乎其无味。", 9.0, INK, "middle"))
+
+    a = y + 44
+    s.append(box(20, a, 162, 116, fill="#FBF6EC", stroke="#E6D8C2"))
+    s.append(box(198, a, 162, 116, fill="#FBF6EC", stroke="#E6D8C2"))
+    s.append(txt(32, a + 18, "乐与饵：有味的", 8.2, SEAL))
+    s.append(txt(210, a + 18, "道：一碗白水", 8.2, GREEN))
+    # 饼与钩
+    s.append(f'<circle cx="60" cy="{a+48}" r="17" fill="#E9DFCC" stroke="{INK}" stroke-width="0.9"/>')
+    for i in range(3):
+        s.append(f'<line x1="{50+i*8}" y1="{a+40}" x2="{52+i*8}" y2="{a+46}" stroke="#8A7C69" stroke-width="0.6"/>')
+    s.append(f'<path d="M60,{a+65} l0,10 q0,12 9,12 q8,0 8,-8" fill="none" stroke="{INK}" stroke-width="1"/>')
+    s.append(f'<path d="M77,{a+79} l6,4" stroke="{INK}" stroke-width="1"/>')
+    s.append(txt(96, a + 84, "鱼咬住的是钩，不是饼", 6.8, "#6E6459"))
+    s.append(txt(32, a + 100, "饵能让人停，不能让人留。", 7.0, "#6E6459"))
+    s.append(txt(32, a + 112, "留不住的，本来就不是你的。", 7.0, "#6E6459"))
+    # 白水碗
+    s.append(f'<path d="M222,{a+42} q16,30 32,0" fill="#EEF2EE" stroke="{INK}" stroke-width="1"/>')
+    s.append(f'<line x1="218" y1="{a+42}" x2="258" y2="{a+42}" stroke="{INK}" stroke-width="1"/>')
+    s.append(f'<path d="M225,{a+50} q13,5 24,0" fill="none" stroke="#9FB0A6" stroke-width="0.8"/>')
+    s.append(txt(238, a + 64, "淡", 9.0, GREEN, "middle"))
+    s.append(txt(272, a + 50, "没味，", 6.8, "#6E6459"))
+    s.append(txt(272, a + 62, "离不开", 6.8, "#6E6459"))
+    s.append(txt(210, a + 88, "甜饼吃三块就腻；白水喝一辈子不腻。", 6.9, "#6E6459"))
+    s.append(txt(210, a + 104, "加味的抓人，无味的养人。", 7.4, SEAL))
+
+    # 过客
+    b = a + 128
+    s.append(box(20, b, 340, 74, fill="#F7F1E3", stroke="#E6D8C2"))
+    s.append(txt(32, b + 18, "过客止：客是「寄也」——歇脚，不是归", 8.4, INK))
+    s.append(f'<line x1="40" y1="{b+62}" x2="150" y2="{b+62}" stroke="{LINE}" stroke-width="0.9"/>')
+    s.append(f'<circle cx="88" cy="{b+34}" r="3.6" fill="none" stroke="{INK}" stroke-width="0.8"/>')
+    s.append(f'<line x1="88" y1="{b+38}" x2="88" y2="{b+52}" stroke="{INK}" stroke-width="0.9"/>')
+    s.append(f'<path d="M88,{b+52} l-5,10 M88,{b+52} l5,10" stroke="{INK}" stroke-width="0.8"/>')
+    s.append(f'<rect x="104" y="{b+32}" width="18" height="30" fill="none" stroke="{SEAL}" stroke-width="0.9"/>')
+
+    s.append(txt(134, b + 46, "他没有把这儿当家，只是吃了一口饼；客总是要走的。", 6.9, "#6E6459"))
+    s.append(txt(134, b + 62, "执大象的场里，来的人不是客——那儿没有主客之分。", 6.9, GREEN))
+
+    # 三不足
+    c = b + 86
+    for i, (k, t) in enumerate((("视之不足见", "没有形状，没法照着画"), ("听之不足闻", "没有声调，没法跟着喊"), ("用之不足既", "没有底，所以用不完"))):
+        bx = 20 + i * 116
+        s.append(box(bx, c, 108, 68, fill="#FBF6EC", stroke="#E6D8C2"))
+        s.append(txt(bx + 54, c + 18, k, 7.6, INK, "middle"))
+        s.append(txt(bx + 54, c + 36, t, 6.6, "#6E6459", "middle"))
+        s.append(txt(bx + 54, c + 56, ["不见其形", "不闻其声", "不见其底"][i], 6.4, SEAL, "middle"))
+    # 收
+    y3 = c + 80
+    s.append(box(20, y3, 340, 40, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, y3 + 17, "能被人一眼看尽的，用不了几回；用不完的，从来看不尽。", 8.2, INK, "middle"))
+    s.append(txt(190, y3 + 32, "真正靠得住的东西，都不加味。", 7.6, "#6E6459", "middle"))
+    s.append(gold(y3 + 48, "ch35b"))
+    s.append('</svg>')
+    return "\n".join(s)
+
+
 
 FIGS = {
     "ch01-wu-you": ("第一章", "无有同出", ch01_wu_you),
@@ -2505,6 +2572,7 @@ FIGS = {
     "ch34-bu-zhu": ("第三十四章", "不主故能成其大", ch34_bu_zhu_wei_da),
     "ch34b-yi-ju-liang-du": ("第三十四章", "一句两读：小与大", ch34b_yi_ju_liang_du),
     "ch35a-zhi-yu-chang": ("第三十五章", "执与场", ch35a_zhi_yu_chang),
+    "ch35b-dan-bai-shui": ("第三十五章", "淡：一碗白水", ch35b_dan_bai_shui),
 }
 
 
