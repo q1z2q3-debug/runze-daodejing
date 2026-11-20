@@ -1,0 +1,43 @@
+<svg viewBox="0 0 760 530" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="子虔版观妙图仿画" font-family="'Noto Serif CJK SC','Noto Serif SC','Songti SC',serif">
+<rect x="0" y="0" width="760" height="530" fill="#F8F3E6"/>
+<text x="20" y="24" font-size="11" fill="#A2503B" font-family="'Noto Sans CJK SC','Noto Sans SC',sans-serif" letter-spacing="3">子 虔 版 原 图 · 仿 画</text>
+<text x="20" y="50" font-size="16" fill="#2F2A24">复杂性—精确度：两条曲线，一张太极</text>
+<text x="20" y="70" font-size="10" fill="#6E6459">横轴：复杂性（小→大）；纵轴：精确度（低→高）。原图见《道德经解（子虔版）》第 23 页。</text>
+<path d="M110,432 L110,150" stroke="#2F2A24" stroke-width="1.1"/><path d="M105,160 L110,146 L115,160" fill="none" stroke="#2F2A24" stroke-width="1.1"/>
+<path d="M110,432 L700,432" stroke="#2F2A24" stroke-width="1.1"/><path d="M690,427 L704,432 L690,437" fill="none" stroke="#2F2A24" stroke-width="1.1"/>
+<text x="86" y="300" font-size="10.5" fill="#2F2A24" transform="rotate(-90 86 300)">精 确 度</text>
+<text x="706" y="458" font-size="10.5" fill="#2F2A24" letter-spacing="1" text-anchor="end">复 杂 性</text>
+<path d="M150,152 C 260,214 340,300 470,362 C 550,396 630,406 690,408" fill="none" stroke="#B5462F" stroke-width="1.9"/>
+<path d="M150,428 C 270,398 390,326 470,278 C 560,224 640,186 700,150" fill="none" stroke="#2E7C8F" stroke-width="1.9"/>
+<text x="168" y="154" font-size="9.6" fill="#2F2A24">量子</text>
+<text x="256" y="216" font-size="9.6" fill="#2F2A24">元素</text>
+<text x="330" y="274" font-size="9.6" fill="#2F2A24">原子</text>
+<text x="386" y="306" font-size="9.6" fill="#2F2A24">分子</text>
+<text x="448" y="354" font-size="9.6" fill="#2F2A24">物质</text>
+<text x="492" y="320" font-size="9.6" fill="#2F2A24">生物大分子</text>
+<text x="552" y="270" font-size="9.6" fill="#2F2A24">生命</text>
+<text x="614" y="224" font-size="9.6" fill="#2F2A24">超智能体</text>
+<text x="666" y="186" font-size="9.6" fill="#2F2A24">生态</text>
+<text x="700" y="160" font-size="9.6" fill="#2F2A24">宇宙</text>
+<text x="150" y="122" font-size="10.5" fill="#B5462F">恒 有 欲</text>
+<text x="662" y="122" font-size="10.5" fill="#2E7C8F">恒 无 欲</text>
+<text x="228" y="196" font-size="25" fill="#2E7C8F">大 而 无 外</text>
+<text x="418" y="196" font-size="25" fill="#B5462F">小 而 无 内</text>
+<circle cx="380" cy="188" r="15" fill="none" stroke="#2F2A24" stroke-width="1"/>
+<path d="M380,173 A15,15 0 0 1 380,203 A7.5,7.5 0 0 1 380,188 A7.5,7.5 0 0 0 380,173" fill="#2F2A24"/>
+<circle cx="380" cy="181" r="2.4" fill="#F8F3E6" stroke="none"/>
+<text x="380" y="484" font-size="17" fill="#2F2A24" text-anchor="middle" letter-spacing="4" font-family="'Noto Sans CJK SC','Noto Sans SC',sans-serif">I  KNOW  THAT  I  KNOW  NOTHING</text>
+<text x="380" y="508" font-size="10.5" fill="#A2503B" text-anchor="middle" letter-spacing="2">太玄之门：玄之又玄　众妙之门</text>
+<rect x="440" y="212" width="232" height="210" fill="#2E7C8F" opacity="0.07"/>
+<line x1="440" y1="212" x2="440" y2="422" stroke="#2E7C8F" stroke-width="0.8" stroke-dasharray="5 4"/>
+<line x1="672" y1="212" x2="672" y2="422" stroke="#2E7C8F" stroke-width="0.8" stroke-dasharray="5 4"/>
+<line x1="440" y1="212" x2="560" y2="212" stroke="#2E7C8F" stroke-width="0.8" stroke-dasharray="5 4"/>
+<line x1="672" y1="212" x2="620" y2="212" stroke="#2E7C8F" stroke-width="0.8" stroke-dasharray="5 4"/>
+<text x="590" y="168" font-size="10" fill="#2E7C8F" text-anchor="middle" letter-spacing="1">肉眼与身体可及的一段</text>
+<path d="M560,178 L560,206" stroke="#2E7C8F" stroke-width="0.7"/>
+<text x="436" y="416" font-size="8.8" fill="#6E6459" text-anchor="end">再往小：只有仪器</text>
+<text x="676" y="416" font-size="8.8" fill="#6E6459">再往大：只有推演</text>
+<circle cx="452" cy="354" r="3" fill="#B5462F"/>
+<circle cx="552" cy="270" r="3" fill="#2E7C8F"/>
+<circle cx="666" cy="186" r="3" fill="#2E7C8F"/>
+</svg>
