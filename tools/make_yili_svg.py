@@ -7922,6 +7922,7 @@ GOLD = {
     "ch38c": ["靠仪节证明的德，撤了仪节就没了。", "厚不是笨重，是不靠外面那层撑着。"],
     "ch39c": ["玉贵而脆，石贱而坚。", "宁做那块被踩着的石头，不做那块被捧着的玉。"],
     "ch40c": ["天下万物生于有，有生于无。", "先把壁立起来，空才有；空有了，用才生。"],
+    "ch43c": ["不是从外面钻进去的——是那扇门本身就有的东西。", "不占地方的，从来不需要谁让。"],
     "ch06b": ["谷神不死，是谓玄牝。", "谷者，两山间之空也；能受故能生，生而不有故不竭——生机不在满处，在空处。"],
     "ch06c": ["玄牝之门，是谓天地根。", "门在开合处，不在门板上；一着手去推，它就成了一堵墙。"],
     "ch05b": ["天地不仁，以万物为刍狗。", "刍者，束草也；刍狗有位而无主——用毕回草堆，不是被弃，是位次用完了。"],
@@ -11720,6 +11721,70 @@ def ch42c_zheng_fan_he():
     s.append(gold(y2 + 62, "ch42c"))
     s.append('</svg>')
     return "\n".join(s)
+
+
+def ch43c_wu_jian():
+    body, y = head(380, 999, "无有入无间：它不是凿开门缝进去的，它是那扇门本身就有的东西",
+                   "第 四 十 三 章 · 其 三", "一 块 石 头",
+                   "无有入无间。", 999)
+    s = [body]
+
+    s.append(box(20, y + 2, 340, 34, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, y + 14, "「间」从门从月：门关着，月光从缝里透进来——那道缝，就是「间」。无间，是连一道缝都没有。", 4.5, INK, "middle"))
+    s.append(txt(190, y + 27, "这是「有」的极致：密合、无缝、外面进不去。", 4.5, "#6E6459"))
+
+    # ---------- 一、无间：外面进不去 ----------
+    s.append(txt(24, y + 52, "一、无间：一块密不透风的石", 5.0, GREEN))
+    gy = y + 64
+    s.append(f'<rect x="26" y="{gy}" width="328" height="136" fill="#FBF6EC" stroke="{LINE}" stroke-width="0.8"/>')
+    s.append(f'<line x1="40" y1="{gy + 112}" x2="340" y2="{gy + 112}" stroke="{LINE}" stroke-width="0.9"/>')
+    s.append(f'<rect x="122" y="{gy + 34}" width="120" height="78" fill="#D9CFBB" stroke="{INK}" stroke-width="1.1"/>')
+    for i in range(7):
+        yy = gy + 40 + i * 11
+        s.append(f'<line x1="126" y1="{yy}" x2="216" y2="{yy + 5}" stroke="#B8AC94" stroke-width="0.4"/>')
+    # 外面的水，停在表面
+    for i, dy in enumerate((-4, 4, 12)):
+        s.append(f'<path d="M104,{gy + 52 + i * 16} q4,-4 8,0 q-4,4 -8,0" fill="#DCE9E3" stroke="#A9C3BC" stroke-width="0.5"/>')
+    s.append(arrow(108, gy + 70, 120, gy + 70, color="#A9C3BC", width=0.8, head="arrS"))
+    s.append(txt(86, gy + 66, "进不去", 4.0, "#7E9A92"))
+    # 门缝见月的小注
+    s.append(f'<rect x="272" y="{gy + 36}" width="46" height="76" fill="#E4D9C0" stroke="{INK}" stroke-width="1.1"/>')
+    s.append(f'<line x1="295" y1="{gy + 42}" x2="295" y2="{gy + 54}" stroke="#B8AC94" stroke-width="0.5"/>')
+    s.append(txt(295, gy + 76, "门", 4.4, "#6E6459", "middle"))
+    s.append(txt(295, gy + 90, "关严", 3.7, "#6E6459", "middle"))
+    s.append(txt(190, gy + 126, "外面有再多水，也只是停在表面上", 4.3, INK, "middle"))
+
+    # ---------- 二、无有：它本来就在里头 ----------
+    s.append(txt(24, gy + 154, "二、无有：里面一直在动", 5.0, GREEN))
+    gy2 = gy + 166
+    s.append(f'<rect x="26" y="{gy2}" width="328" height="146" fill="#FBF6EC" stroke="{LINE}" stroke-width="0.8"/>')
+    s.append(f'<line x1="40" y1="{gy2 + 122}" x2="340" y2="{gy2 + 122}" stroke="{LINE}" stroke-width="0.9"/>')
+    s.append(f'<rect x="122" y="{gy2 + 30}" width="120" height="86" fill="#E9E0CB" stroke="{INK}" stroke-width="1.1"/>')
+    # 内部的动：细纹 + 微箭头
+    for i in range(5):
+        yy = gy2 + 38 + i * 16
+        s.append(f'<path d="M130,{yy} q14,-4 28,0 t28,0 t28,0 t20,0" fill="none" stroke="{SEAL}" stroke-width="0.5" stroke-dasharray="4 3"/>')
+    for i in range(3):
+        yy = gy2 + 50 + i * 24
+        s.append(arrow(150, yy, 168, yy - 6, color=SEAL, width=0.6, head="arrS"))
+    s.append(f'<path d="M100,{gy2 + 74} l14,-4 M100,{gy2 + 78} l14,0" fill="none" stroke="{SEAL}" stroke-width="0.7"/>')
+    s.append(txt(84, gy2 + 72, "变，只是慢", 4.0, SEAL, "middle"))
+    s.append(txt(190, gy2 + 132, "凡是还在变的，里面就有「无」在起作用", 4.3, INK, "middle"))
+    s.append(txt(290, gy2 + 62, "无", 5.0, SEAL))
+    s.append(txt(290, gy2 + 76, "不占位置", 3.9, "#8A7C69"))
+    s.append(f'<path d="M286,{gy2 + 62} l-30,0" stroke="{SEAL}" stroke-width="0.6" stroke-dasharray="3 3"/>')
+
+    # ---------- 收 ----------
+    y3 = gy2 + 156
+    s.append(f'<line x1="24" y1="{y3}" x2="356" y2="{y3}" stroke="{LINE}" stroke-width="0.6"/>')
+    s.append(box(20, y3 + 8, 340, 40, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, y3 + 24, "不是从外面钻进去的——是那扇门本身就有的东西。", 4.8, INK, "middle"))
+    s.append(txt(190, y3 + 37, "占地方的东西要别人让开；不占地方的，从来不需要谁让。", 4.5, GREEN, "middle"))
+    s.append(gold(y3 + 54, "ch43c"))
+    s.append('</svg>')
+    out = "\n".join(s)
+    ys = [float(v) for v in re.findall(r'y="([0-9.]+)"', out)]
+    return out.replace("999", str(int(max(ys) + 26)))
 
 
 # ============ 第四十三章 · 柔不是软 ============
@@ -15918,6 +15983,7 @@ FIGS = {
     "ch38c-hou-yu-bo": ("第三十八章", "厚与薄", ch38c_hou_yu_bo),
     "ch39c-yu-yu-shi": ("第三十九章", "玉与石", ch39c_yu_yu_shi),
     "ch40c-kong-gang": ("第四十章", "一只缸", ch40c_kong_gang),
+    "ch43c-wu-jian": ("第四十三章", "一块石头", ch43c_wu_jian),
     "ch32b-chuan-gu": ("第三十二章", "川谷与江海", ch32b_chuan_gu),
     "ch33-zi-zhi-zhe-ming": ("第三十三章", "自知者明", ch33_zi_zhi_zhe_ming),
     "ch34-bu-zhu": ("第三十四章", "不主故能成其大", ch34_bu_zhu_wei_da),
