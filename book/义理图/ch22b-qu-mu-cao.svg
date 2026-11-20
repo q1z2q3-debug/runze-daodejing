@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 380 828" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="曲不是委屈迎合，是弯出一个能受的弧度" font-family="'Noto Serif CJK SC','Noto Serif SC','Songti SC',serif">
+<defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#6E6459"/></marker><marker id="arr2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#4A5C55"/></marker><marker id="arrL" viewBox="0 0 10 10" refX="1" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M10 0 L0 5 L10 10 z" fill="#4A5C55"/></marker><marker id="arrS" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#A2503B"/></marker></defs>
+<rect x="0" y="0" width="380" height="828" fill="#F8F3E6"/>
+<text x="20" y="26" font-size="11" fill="#A2503B" font-family="'Noto Sans CJK SC','Noto Sans SC',sans-serif" letter-spacing="3">第 二 十 二 章 · 一 只 曲 木 槽</text>
+<text x="20" y="58" font-size="21" fill="#2F2A24">一只曲木槽</text>
+<text x="20" y="78" font-size="10.5" fill="#6E6459">曲，象器曲受物之形。</text>
+<rect x="20" y="102" width="340" height="34" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="190" y="114" font-size="4.8" fill="#2F2A24" text-anchor="middle">「曲」的本义是器物弯而能受：不是委屈自己去迎合别人。</text>
+<text x="190" y="127" font-size="4.8" fill="#6E6459">直木板接不住东西，曲木槽才盛得住水。</text>
+<text x="24" y="152" font-size="5.2" fill="#A2503B">一、直板：水落上去，从两头走光</text>
+<rect x="26" y="164" width="328" height="132" fill="#FBF6EC" stroke="#DCCBB0" stroke-width="0.8"/>
+<rect x="72" y="226" width="180" height="12" fill="#EFE6D4" stroke="#2F2A24" stroke-width="1.1"/>
+<line x1="72" y1="226" x2="72" y2="238" stroke="#2F2A24" stroke-width="1.1"/>
+<line x1="252" y1="226" x2="252" y2="238" stroke="#2F2A24" stroke-width="1.1"/>
+<line x1="126" y1="178" x2="126" y2="212" stroke="#8A7C69" stroke-width="0.7"/>
+<path d="M123,216 q3,4 6,0" fill="none" stroke="#8A7C69" stroke-width="0.7"/>
+<line x1="152" y1="178" x2="152" y2="212" stroke="#8A7C69" stroke-width="0.7"/>
+<path d="M149,216 q3,4 6,0" fill="none" stroke="#8A7C69" stroke-width="0.7"/>
+<line x1="178" y1="178" x2="178" y2="212" stroke="#8A7C69" stroke-width="0.7"/>
+<path d="M175,216 q3,4 6,0" fill="none" stroke="#8A7C69" stroke-width="0.7"/>
+<path d="M74,224 q-14,4 -24,16 M250,224 q14,4 24,16" fill="none" stroke="#A2503B" stroke-width="0.8" stroke-dasharray="4 2"/>
+<text x="190" y="270" font-size="4.2" fill="#A2503B" text-anchor="middle">两头走光：受不住</text>
+<text x="24" y="322" font-size="5.2" fill="#4A5C55">二、曲槽：中间凹下去，水留得住</text>
+<rect x="26" y="334" width="328" height="132" fill="#FBF6EC" stroke="#DCCBB0" stroke-width="0.8"/>
+<path d="M64,384 L110,426 L230,426 L276,384 L278,394 L232,436 L108,436 L62,394 Z" fill="#EFE6D4" stroke="#2F2A24" stroke-width="1.0"/>
+<path d="M74,396 L112,422 L228,422 L266,396 Z" fill="#E9F0E6" stroke="none"/>
+<line x1="128" y1="336" x2="128" y2="380" stroke="#8A7C69" stroke-width="0.7"/>
+<path d="M125,384 q3,4 6,0" fill="none" stroke="#8A7C69" stroke-width="0.7"/>
+<line x1="152" y1="336" x2="152" y2="380" stroke="#8A7C69" stroke-width="0.7"/>
+<path d="M149,384 q3,4 6,0" fill="none" stroke="#8A7C69" stroke-width="0.7"/>
+<line x1="176" y1="336" x2="176" y2="380" stroke="#8A7C69" stroke-width="0.7"/>
+<path d="M173,384 q3,4 6,0" fill="none" stroke="#8A7C69" stroke-width="0.7"/>
+<line x1="92" y1="396" x2="248" y2="396" stroke="#4A5C55" stroke-width="0.6" stroke-dasharray="4 3"/>
+<text x="190" y="364" font-size="3.9" fill="#4A5C55" text-anchor="middle">水位停在槽口，不再往下</text>
+<text x="190" y="446" font-size="4.2" fill="#4A5C55" text-anchor="middle">弯出来的那道槽，就是它「能受」的地方</text>
+<text x="24" y="492" font-size="5.2" fill="#A2503B">三、洼：水不往高处流，这是物理，不是道德</text>
+<rect x="26" y="504" width="328" height="116" fill="#FBF6EC" stroke="#DCCBB0" stroke-width="0.8"/>
+<path d="M40,538 L112,538 Q170,600 228,538 L340,538" fill="none" stroke="#2F2A24" stroke-width="1.2"/>
+<path d="M116,554 L112,538 Q170,600 228,538 L224,554 Q170,588 116,554 Z" fill="#E9F0E6" stroke="none"/>
+<line x1="116" y1="554" x2="224" y2="554" stroke="#4A5C55" stroke-width="0.6" stroke-dasharray="4 3"/>
+<path d="M170,534 L170,566" stroke="#4A5C55" stroke-width="0.8"/>
+<path d="M164,558 L170,566 L176,558" fill="none" stroke="#4A5C55" stroke-width="0.8"/>
+<text x="176" y="604" font-size="4.2" fill="#4A5C55" text-anchor="middle">低处聚水：洼则盈</text>
+<text x="24" y="642" font-size="4.8" fill="#2F2A24">六句是规律，不是策略：一个拿「曲」换「全」，一个在「曲」里，「全」自己到了。</text>
+<text x="24" y="658" font-size="4.8" fill="#2F2A24">「枉」是就木说，木不直，不直才有伸直的可能——屈而后伸。</text>
+<text x="24" y="676" font-size="4.8" fill="#4A5C55">老子把「曲」从姿态的词，改成了容器的词。</text>
+<line x1="24" y1="694" x2="338" y2="694" stroke="#DCCBB0" stroke-width="0.6"/>
+<rect x="20" y="702" width="340" height="40" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="190" y="718" font-size="5.4" fill="#2F2A24" text-anchor="middle">曲则全，枉则直，洼则盈，敝则新。</text>
+<text x="190" y="730" font-size="5.0" fill="#4A5C55" text-anchor="middle">弯的能受，所以能全；低的能聚，所以能盈。</text>
+<line x1="20" y1="756" x2="360" y2="756" stroke="#E6D8C2" stroke-width="0.8"/>
+<text x="20" y="770" font-size="8.0" fill="#A89577" letter-spacing="1">本 章 金 句</text>
+<text x="20" y="786" font-size="8.4" fill="#2F2A24">曲则全，枉则直，洼则盈，敝则新。</text>
+<text x="20" y="802" font-size="8.4" fill="#2F2A24">弯的能受，所以能全；低的能聚，所以能盈。</text>
+</svg>

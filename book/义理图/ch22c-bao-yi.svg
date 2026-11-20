@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 380 744" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="抱一：不是统一别人，是不让自己裂开" font-family="'Noto Serif CJK SC','Noto Serif SC','Songti SC',serif">
+<defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#6E6459"/></marker><marker id="arr2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#4A5C55"/></marker><marker id="arrL" viewBox="0 0 10 10" refX="1" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M10 0 L0 5 L10 10 z" fill="#4A5C55"/></marker><marker id="arrS" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#A2503B"/></marker></defs>
+<rect x="0" y="0" width="380" height="744" fill="#F8F3E6"/>
+<text x="20" y="26" font-size="11" fill="#A2503B" font-family="'Noto Sans CJK SC','Noto Sans SC',sans-serif" letter-spacing="3">第 二 十 二 章 · 抱 一 与 五 牌</text>
+<text x="20" y="58" font-size="21" fill="#2F2A24">抱一与五牌</text>
+<text x="20" y="78" font-size="10.5" fill="#6E6459">圣人抱一，为天下式。</text>
+<rect x="20" y="102" width="340" height="34" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="190" y="114" font-size="4.8" fill="#2F2A24" text-anchor="middle">「抱」不是「守」：守是防它跑掉，抱是它就贴在你身上。</text>
+<text x="190" y="127" font-size="4.8" fill="#6E6459">儒者以仁义礼乐为天下式，圣人以抱一为天下式。</text>
+<text x="24" y="152" font-size="5.2" fill="#4A5C55">一、抱一：一根木简揣在怀里，身上不再挂别的</text>
+<rect x="26" y="164" width="328" height="156" fill="#FBF6EC" stroke="#DCCBB0" stroke-width="0.8"/>
+<circle cx="150" cy="204" r="7" fill="none" stroke="#2F2A24" stroke-width="1.1"/>
+<line x1="150" y1="211" x2="150" y2="260" stroke="#2F2A24" stroke-width="1.3"/>
+<line x1="150" y1="260" x2="139" y2="282" stroke="#2F2A24" stroke-width="1.0"/>
+<line x1="150" y1="260" x2="161" y2="282" stroke="#2F2A24" stroke-width="1.0"/>
+<rect x="144" y="219" width="12" height="26" fill="#F2EADA" stroke="#2F2A24" stroke-width="1.0"/>
+<text x="150" y="237" font-size="5.2" fill="#A2503B" text-anchor="middle">一</text>
+<path d="M136,218 Q138,232 154,234" fill="none" stroke="#2F2A24" stroke-width="1.0"/>
+<path d="M164,218 Q162,232 146,234" fill="none" stroke="#2F2A24" stroke-width="1.0"/>
+<circle cx="154" cy="234" r="1.6" fill="none" stroke="#2F2A24" stroke-width="0.7"/>
+<circle cx="146" cy="234" r="1.6" fill="none" stroke="#2F2A24" stroke-width="0.7"/>
+<text x="150" y="284" font-size="4.2" fill="#4A5C55" text-anchor="middle">揣着的东西，本来就贴着，不必看住</text>
+<line x1="120" y1="304" x2="180" y2="304" stroke="#DCCBB0" stroke-width="0.7"/>
+<text x="24" y="346" font-size="5.2" fill="#A2503B">二、五牌：五套标准各拽一边，人就裂成几截</text>
+<rect x="26" y="358" width="328" height="176" fill="#FBF6EC" stroke="#DCCBB0" stroke-width="0.8"/>
+<circle cx="190" cy="410" r="7" fill="none" stroke="#2F2A24" stroke-width="1.1"/>
+<path d="M190,417 L186,440 L195,456 L187,472 L194,486" fill="none" stroke="#2F2A24" stroke-width="1.2" stroke-dasharray="3 2"/>
+<line x1="188" y1="432" x2="174" y2="450" stroke="#2F2A24" stroke-width="1.0"/>
+<line x1="192" y1="434" x2="208" y2="448" stroke="#2F2A24" stroke-width="1.0"/>
+<line x1="190" y1="486" x2="180" y2="502" stroke="#2F2A24" stroke-width="0.9"/>
+<line x1="190" y1="486" x2="200" y2="502" stroke="#2F2A24" stroke-width="0.9"/>
+<rect x="52" y="392" width="34" height="22" fill="#F2EADA" stroke="#A2503B" stroke-width="0.9"/>
+<text x="69" y="408" font-size="4.6" fill="#A2503B" text-anchor="middle">仁</text>
+<line x1="86" y1="403" x2="174" y2="432" stroke="#A2503B" stroke-width="0.7" stroke-dasharray="4 2"/>
+<rect x="52" y="454" width="34" height="22" fill="#F2EADA" stroke="#A2503B" stroke-width="0.9"/>
+<text x="69" y="470" font-size="4.6" fill="#A2503B" text-anchor="middle">义</text>
+<line x1="86" y1="465" x2="174" y2="432" stroke="#A2503B" stroke-width="0.7" stroke-dasharray="4 2"/>
+<rect x="300" y="392" width="34" height="22" fill="#F2EADA" stroke="#A2503B" stroke-width="0.9"/>
+<text x="317" y="408" font-size="4.6" fill="#A2503B" text-anchor="middle">礼</text>
+<line x1="300" y1="403" x2="208" y2="434" stroke="#A2503B" stroke-width="0.7" stroke-dasharray="4 2"/>
+<rect x="300" y="454" width="34" height="22" fill="#F2EADA" stroke="#A2503B" stroke-width="0.9"/>
+<text x="317" y="470" font-size="4.6" fill="#A2503B" text-anchor="middle">智</text>
+<line x1="300" y1="465" x2="208" y2="434" stroke="#A2503B" stroke-width="0.7" stroke-dasharray="4 2"/>
+<rect x="236" y="364" width="34" height="22" fill="#F2EADA" stroke="#A2503B" stroke-width="0.9"/>
+<text x="253" y="380" font-size="4.6" fill="#A2503B" text-anchor="middle">信</text>
+<line x1="236" y1="375" x2="208" y2="434" stroke="#A2503B" stroke-width="0.7" stroke-dasharray="4 2"/>
+<text x="190" y="490" font-size="4.2" fill="#A2503B" text-anchor="middle">五套标准一齐拽：不是我不够好，是我把自己分成了几套</text>
+<text x="190" y="510" font-size="4.2" fill="#6E6459" text-anchor="middle">「自见、自是、自伐、自矜」，每一个都是把「我」举起来</text>
+<text x="24" y="558" font-size="4.8" fill="#2F2A24">第十章「载营魄抱一」讲身：魂与魄不分成两截；此处讲法：不把自己分成好几套标准。</text>
+<text x="24" y="574" font-size="4.8" fill="#2F2A24">一在内，一在外，说的是同一件事：不裂。身不裂，则神全；法不裂，则不摇摆。</text>
+<text x="24" y="592" font-size="4.8" fill="#4A5C55">儒者教你把举起来的手放低，老子问你为什么非要举。</text>
+<line x1="24" y1="610" x2="338" y2="610" stroke="#DCCBB0" stroke-width="0.6"/>
+<rect x="20" y="618" width="340" height="40" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="190" y="634" font-size="6.0" fill="#2F2A24" text-anchor="middle">圣人抱一，为天下式。</text>
+<text x="190" y="646" font-size="5.0" fill="#4A5C55" text-anchor="middle">夫唯不争，故天下莫能与之争。</text>
+<line x1="20" y1="672" x2="360" y2="672" stroke="#E6D8C2" stroke-width="0.8"/>
+<text x="20" y="686" font-size="8.0" fill="#A89577" letter-spacing="1">本 章 金 句</text>
+<text x="20" y="702" font-size="8.4" fill="#2F2A24">圣人抱一，为天下式。</text>
+<text x="20" y="718" font-size="8.4" fill="#2F2A24">抱一，不是统一别人，是不让自己裂开。</text>
+</svg>
