@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 380 620" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="兆是烧出来的那道裂纹：还没烧，就还读不出来" font-family="'Noto Serif CJK SC','Noto Serif SC','Songti SC',serif">
+<defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#6E6459"/></marker><marker id="arr2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#4A5C55"/></marker><marker id="arrL" viewBox="0 0 10 10" refX="1" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M10 0 L0 5 L10 10 z" fill="#4A5C55"/></marker><marker id="arrS" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#A2503B"/></marker></defs>
+<rect x="0" y="0" width="380" height="620" fill="#F8F3E6"/>
+<text x="20" y="26" font-size="11" fill="#A2503B" font-family="'Noto Sans CJK SC','Noto Sans SC',sans-serif" letter-spacing="3">第 六 十 四 章 · 兆</text>
+<text x="20" y="58" font-size="21" fill="#2F2A24">一片龟甲</text>
+<text x="20" y="78" font-size="10.5" fill="#6E6459">其安易持，其未兆易谋。</text>
+<rect x="20" y="102" width="340" height="30" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="190" y="114" font-size="5.2" fill="#2F2A24" text-anchor="middle">「兆」，《说文》「灼龟坼也」——烧龟甲，烧出来的那道裂纹。</text>
+<text x="190" y="126" font-size="4.9" fill="#6E6459" text-anchor="middle">所以「未兆」不是还没有征兆，是还没烧、还没裂、还读不出来。</text>
+<text x="24" y="148" font-size="4.8" fill="#A2503B">一、这片甲：钻了孔，还没点火</text>
+<path d="M170,188 C118,188 92,218 92,246 C92,278 124,300 170,300 C216,300 248,278 248,246 C248,218 222,188 170,188 Z" fill="#EFE6D4" stroke="#2F2A24" stroke-width="1.4"/>
+<line x1="170" y1="192" x2="170" y2="296" stroke="#DCCBB0" stroke-width="0.9"/>
+<line x1="122" y1="218" x2="218" y2="218" stroke="#DCCBB0" stroke-width="0.7"/>
+<line x1="104" y1="244" x2="236" y2="244" stroke="#DCCBB0" stroke-width="0.7"/>
+<line x1="118" y1="270" x2="222" y2="270" stroke="#DCCBB0" stroke-width="0.7"/>
+<circle cx="170" cy="206" r="5" fill="none" stroke="#2F2A24" stroke-width="1.2"/>
+<circle cx="170" cy="206" r="1.6" fill="#2F2A24"/>
+<path d="M170,210 L160,238 L168,258" fill="none" stroke="#A2503B" stroke-width="1" stroke-dasharray="3 3"/>
+<path d="M170,210 L182,240 L176,262" fill="none" stroke="#A2503B" stroke-width="1" stroke-dasharray="3 3"/>
+<line x1="140" y1="332" x2="200" y2="332" stroke="#2F2A24" stroke-width="1.4"/>
+<path d="M152,331 C148,319 152,311 155,307 C159,313 158,331 156,331 Z" fill="none" stroke="#A2503B" stroke-width="1" stroke-dasharray="2 2"/>
+<path d="M166,331 C162,313 166,305 169,301 C173,307 172,331 170,331 Z" fill="none" stroke="#A2503B" stroke-width="1" stroke-dasharray="2 2"/>
+<path d="M180,331 C176,319 180,311 183,307 C187,313 186,331 184,331 Z" fill="none" stroke="#A2503B" stroke-width="1" stroke-dasharray="2 2"/>
+<text x="200" y="326" font-size="4.2" fill="#A2503B">火还没点</text>
+<text x="258" y="236" font-size="4.6" fill="#2F2A24">钻了孔，</text>
+<text x="258" y="250" font-size="4.6" fill="#2F2A24">还没点火</text>
+<text x="190" y="356" font-size="4.6" fill="#A2503B" text-anchor="middle">火还没点，纹还没裂——所以现在，什么都还不是</text>
+<text x="24" y="378" font-size="4.8" fill="#2F2A24">「兆」是烧出来的那道裂：兆出来了，吉凶才读得出来。</text>
+<text x="24" y="394" font-size="4.9" fill="#2F2A24">「未兆」不是征兆还小，是还没裂——连它自己都还不知道往哪儿走。</text>
+<text x="24" y="412" font-size="5.0" fill="#4A5C55">其未兆易谋：趁它还没裂，还来得及决定它裂成什么样。</text>
+<line x1="24" y1="430" x2="338" y2="430" stroke="#DCCBB0" stroke-width="0.6"/>
+<rect x="20" y="438" width="340" height="40" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="190" y="454" font-size="5.6" fill="#2F2A24" text-anchor="middle">兆是烧出来的那道裂纹；</text>
+<text x="190" y="466" font-size="5.2" fill="#4A5C55" text-anchor="middle">还没烧，就还读不出来——也还来得及。</text>
+<line x1="20" y1="492" x2="360" y2="492" stroke="#E6D8C2" stroke-width="0.8"/>
+<text x="20" y="506" font-size="8.0" fill="#A89577" letter-spacing="1">本 章 金 句</text>
+<text x="20" y="522" font-size="8.4" fill="#2F2A24">兆是烧出来的那道裂纹；还没烧，就还读不出来——也还来得及。</text>
+<text x="20" y="538" font-size="8.4" fill="#2F2A24">未兆不是征兆还小，是还没裂；趁它没裂，才来得及决定它裂成什么样。</text>
+</svg>

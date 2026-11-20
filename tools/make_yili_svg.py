@@ -1505,6 +1505,9 @@ def ch21_kong_de():
 
 
 GOLD = {
+    "ch64a": ["兆是烧出来的那道裂纹；还没烧，就还读不出来——也还来得及。", "未兆不是征兆还小，是还没裂；趁它没裂，才来得及决定它裂成什么样。"],
+    "ch64b": ["九层之台，起于累土；台有多高，等于抬过多少筐。", "千里之行，始于足下：远不是一步跨过去的，是一步一步攒出来的。"],
+    "ch64c": ["牙自己长，骨头只托；辅万物之自然，就是托住，不去捏。", "托得好，牙正；托得歪，牙斜；骨头一动，满口都疼。"],
     "ch63a": ["图是「画计难」：先把难画出来，才有得打算；趁它还小，笔才落得下去。", "味是尝还没熟的，图是先把难画出来——都在事情还没长成的时候动手。"],
     "ch63b": ["细从糸，微也：一根一根，不断；大事是一束，可它只能一根一根抽出来。", "天下大事，必作于细：不是先有大石，是先有一根一根的线。"],
     "ch63c": ["易本是蜥蜴：会变色，会断尾；看得容易，是没看见它会变。", "轻诺必寡信，多易必多难；圣人犹难之，故终无难。"],
@@ -7220,6 +7223,149 @@ def ch63c_yi_tiao_wei_ba():
 
 
 
+# ============ 第六十四章 · 一片龟甲 ============
+def ch64a_yi_pian_gui_jia():
+    W, H = 380, 620
+    body, y = head(W, H, "兆是烧出来的那道裂纹：还没烧，就还读不出来",
+                   "第 六 十 四 章 · 兆", "一片龟甲", "其安易持，其未兆易谋。", H)
+    s = [body]
+
+    s.append(box(20, y + 2, 340, 30, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, y + 14, "「兆」，《说文》「灼龟坼也」——烧龟甲，烧出来的那道裂纹。", 5.2, INK, "middle"))
+    s.append(txt(190, y + 26, "所以「未兆」不是还没有征兆，是还没烧、还没裂、还读不出来。", 4.9, "#6E6459", "middle"))
+
+    s.append(txt(24, y + 48, "一、这片甲：钻了孔，还没点火", 4.8, SEAL))
+    gy = y + 62
+    # 龟腹甲
+    s.append(f'<path d="M170,{gy + 26} C118,{gy + 26} 92,{gy + 56} 92,{gy + 84} C92,{gy + 116} 124,{gy + 138} 170,{gy + 138} '
+             f'C216,{gy + 138} 248,{gy + 116} 248,{gy + 84} C248,{gy + 56} 222,{gy + 26} 170,{gy + 26} Z" '
+             f'fill="#EFE6D4" stroke="{INK}" stroke-width="1.4"/>')
+    s.append(f'<line x1="170" y1="{gy + 30}" x2="170" y2="{gy + 134}" stroke="{LINE}" stroke-width="0.9"/>')
+    for (yy, x0, x1) in ((gy + 56, 122, 218), (gy + 82, 104, 236), (gy + 108, 118, 222)):
+        s.append(f'<line x1="{x0}" y1="{yy}" x2="{x1}" y2="{yy}" stroke="{LINE}" stroke-width="0.7"/>')
+    # 钻孔
+    s.append(f'<circle cx="170" cy="{gy + 44}" r="5" fill="none" stroke="{INK}" stroke-width="1.2"/>')
+    s.append(f'<circle cx="170" cy="{gy + 44}" r="1.6" fill="{INK}"/>')
+    # 还没裂出来的那道纹：虚线
+    s.append(f'<path d="M170,{gy + 48} L160,{gy + 76} L168,{gy + 96}" fill="none" stroke="{SEAL}" stroke-width="1" stroke-dasharray="3 3"/>')
+    s.append(f'<path d="M170,{gy + 48} L182,{gy + 78} L176,{gy + 100}" fill="none" stroke="{SEAL}" stroke-width="1" stroke-dasharray="3 3"/>')
+    # 底下的火：还没点
+    s.append(f'<line x1="140" y1="{gy + 170}" x2="200" y2="{gy + 170}" stroke="{INK}" stroke-width="1.4"/>')
+    for (fx, fh) in ((152, 12), (166, 18), (180, 12)):
+        s.append(f'<path d="M{fx},{gy + 169} C{fx - 4},{gy + 169 - fh} {fx},{gy + 161 - fh} {fx + 3},{gy + 157 - fh} '
+                 f'C{fx + 7},{gy + 163 - fh} {fx + 6},{gy + 169} {fx + 4},{gy + 169} Z" '
+                 f'fill="none" stroke="{SEAL}" stroke-width="1" stroke-dasharray="2 2"/>')
+    s.append(txt(200, gy + 164, "火还没点", 4.2, SEAL))
+
+    s.append(txt(258, gy + 74, "钻了孔，", 4.6, INK))
+    s.append(txt(258, gy + 88, "还没点火", 4.6, INK))
+    s.append(txt(190, gy + 194, "火还没点，纹还没裂——所以现在，什么都还不是", 4.6, SEAL, "middle"))
+
+    a = gy + 216
+    s.append(txt(24, a, "「兆」是烧出来的那道裂：兆出来了，吉凶才读得出来。", 4.8, INK))
+    s.append(txt(24, a + 16, "「未兆」不是征兆还小，是还没裂——连它自己都还不知道往哪儿走。", 4.9, INK))
+    s.append(txt(24, a + 34, "其未兆易谋：趁它还没裂，还来得及决定它裂成什么样。", 5.0, GREEN))
+
+    c = a + 52
+    s.append(f'<line x1="24" y1="{c}" x2="338" y2="{c}" stroke="{LINE}" stroke-width="0.6"/>')
+    s.append(box(20, c + 8, 340, 40, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, c + 24, "兆是烧出来的那道裂纹；", 5.6, INK, "middle"))
+    s.append(txt(190, c + 36, "还没烧，就还读不出来——也还来得及。", 5.2, GREEN, "middle"))
+    s.append(gold(c + 62, "ch64a"))
+    s.append('</svg>')
+    return "\n".join(s)
+
+
+# ============ 第六十四章 · 一筐土 ============
+def ch64b_yi_kuang_tu():
+    W, H = 380, 620
+    body, y = head(W, H, "九层之台，起于累土：台有多高，等于抬过多少筐",
+                   "第 六 十 四 章 · 累", "一筐土", "九层之台，起于累土。", H)
+    s = [body]
+
+    s.append(box(20, y + 2, 340, 30, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, y + 14, "台不是一次垒成的：一筐一筐抬上去，抬过多少筐，就有多少高。", 5.0, INK, "middle"))
+    s.append(txt(190, y + 26, "「累」，《说文》「增也」——一层一层往上加。", 4.9, "#6E6459", "middle"))
+
+    s.append(txt(24, y + 48, "一、一筐，就是一层", 4.8, SEAL))
+    gy = y + 196
+    # 台：一层比一层窄
+    for k in range(6):
+        wy = 150 - k * 12
+        ty = gy - 22 * (k + 1)
+        s.append(f'<rect x="{180 - wy / 2}" y="{ty}" width="{wy}" height="22" fill="{"#EFE6D4" if k % 2 == 0 else "#F6EFE0"}" '
+                 f'stroke="{INK}" stroke-width="1"/>')
+        s.append(f'<line x1="{180 - wy / 2 + 8}" y1="{ty + 11}" x2="{180 + wy / 2 - 8}" y2="{ty + 11}" stroke="{LINE}" stroke-width="0.6"/>')
+    s.append(f'<line x1="88" y1="{gy}" x2="332" y2="{gy}" stroke="{INK}" stroke-width="1.4"/>')
+    # 地上那筐土
+    s.append(f'<path d="M292,{gy - 2} L297,{gy + 20} L319,{gy + 20} L324,{gy - 2}" fill="#EFE6D4" stroke="{INK}" stroke-width="1.1"/>')
+    s.append(f'<path d="M297,{gy - 2} C303,{gy - 10} 313,{gy - 10} 319,{gy - 2}" fill="none" stroke="{INK}" stroke-width="1"/>')
+    s.append(f'<ellipse cx="308" cy="{gy}" rx="13" ry="4" fill="#DBCFB7" stroke="{INK}" stroke-width="0.8"/>')
+    # 抬上去的那一路
+    s.append(arrow(286, gy - 22, 236, gy - 126, GREEN, 1.2, dash="3 2", head="arr2"))
+    s.append(txt(308, gy + 34, "一筐土", 4.4, "#6E6459", "middle"))
+    s.append(txt(246, gy - 142, "抬到顶上，", 4.3, GREEN))
+    s.append(txt(246, gy - 130, "就多一层", 4.3, GREEN))
+
+    a = gy + 44
+    s.append(txt(24, a, "九层之台，起于累土：每一筐都要走那段坡，都要对齐。", 4.8, INK))
+    s.append(txt(24, a + 16, "台的高度，等于抬过的次数——不是等于想过多高。", 4.9, INK))
+    s.append(txt(24, a + 34, "千里之行，始于足下：远不是一步跨过去的，是一步一步攒出来的。", 5.0, GREEN))
+
+    c = a + 52
+    s.append(f'<line x1="24" y1="{c}" x2="338" y2="{c}" stroke="{LINE}" stroke-width="0.6"/>')
+    s.append(box(20, c + 8, 340, 40, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, c + 24, "九层之台，起于累土；", 5.6, INK, "middle"))
+    s.append(txt(190, c + 36, "台有多高，等于抬过多少筐。", 5.2, GREEN, "middle"))
+    s.append(gold(c + 62, "ch64b"))
+    s.append('</svg>')
+    return "\n".join(s)
+
+
+# ============ 第六十四章 · 一块骨头 ============
+def ch64c_yi_kuai_gu_tou():
+    W, H = 380, 610
+    body, y = head(W, H, "辅是颊车：牙自己长，骨头只托——托住，别去捏",
+                   "第 六 十 四 章 · 辅", "一块骨头", "以辅万物之自然而不敢为。", H)
+    s = [body]
+
+    s.append(box(20, y + 2, 340, 30, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, y + 14, "「辅」，《说文》「人颊车也」——脸颊里那块牙床骨。", 5.2, INK, "middle"))
+    s.append(txt(190, y + 26, "牙不是牙床长出来的：牙自己长，骨头只给它一个位置，托住。", 4.9, "#6E6459", "middle"))
+
+    s.append(txt(24, y + 48, "一、牙床托着的那排牙", 4.8, SEAL))
+    gy = y + 196
+    # 牙床
+    s.append(f'<path d="M112,{gy} C124,{gy - 66} 250,{gy - 66} 264,{gy}" fill="none" stroke="{INK}" stroke-width="3.4"/>')
+    s.append(f'<path d="M118,{gy - 4} C130,{gy - 58} 246,{gy - 58} 258,{gy - 4}" fill="none" stroke="{LINE}" stroke-width="0.8"/>')
+    # 一排牙：各按牙床的弧线站
+    for (tx, ty) in ((132, gy - 34), (152, gy - 50), (172, gy - 58), (192, gy - 60), (212, gy - 54), (232, gy - 40)):
+        s.append(f'<rect x="{tx - 6}" y="{ty - 22}" width="12" height="24" rx="3" fill="#FBF6EC" stroke="{INK}" stroke-width="1"/>')
+        s.append(f'<line x1="{tx - 3}" y1="{ty - 18}" x2="{tx - 3}" y2="{ty - 2}" stroke="{LINE}" stroke-width="0.6"/>')
+    # 牙自己往上长：虚线上长的箭头
+    s.append(arrow(182, gy - 96, 182, gy - 128, GREEN, 1.1, dash="3 2", head="arr2"))
+    s.append(arrow(158, gy - 84, 158, gy - 104, GREEN, 1, dash="3 2", head="arr2"))
+    s.append(arrow(208, gy - 84, 208, gy - 104, GREEN, 1, dash="3 2", head="arr2"))
+    s.append(txt(192, gy - 132, "牙自己长", 4.5, GREEN))
+    s.append(txt(258, gy - 38, "骨头只托", 4.5, INK))
+    s.append(txt(120, gy + 22, "托得好，牙正；托得歪，牙斜；骨头一动，满口都疼", 4.6, "#6E6459"))
+
+    a = gy + 48
+    s.append(txt(24, a, "「辅」是颊车，就是牙床骨：它不造牙，只给牙一个位置。", 4.8, INK))
+    s.append(txt(24, a + 16, "以辅万物之自然而不敢为：托住，不捏——捏，就是替它长。", 4.9, INK))
+    s.append(txt(24, a + 34, "《左传》「辅车相依，唇亡齿寒」：辅与车是两块互相靠着的骨头。", 5.0, GREEN))
+
+    c = a + 52
+    s.append(f'<line x1="24" y1="{c}" x2="338" y2="{c}" stroke="{LINE}" stroke-width="0.6"/>')
+    s.append(box(20, c + 8, 340, 40, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, c + 24, "牙自己长，骨头只托；", 5.6, INK, "middle"))
+    s.append(txt(190, c + 36, "辅万物之自然，就是托住，不去捏。", 5.2, GREEN, "middle"))
+    s.append(gold(c + 62, "ch64c"))
+    s.append('</svg>')
+    return "\n".join(s)
+
+
+
 FIGS = {
     "ch01-wu-you": ("第一章", "无有同出", ch01_wu_you),
     "ch01-zhi-yue": ("第一章", "指月三境", ch01_zhi_yue),
@@ -7343,6 +7489,9 @@ FIGS = {
     "ch63a-yi-zhi-bi": ("第六十三章", "一支笔", ch63a_yi_zhi_bi),
     "ch63b-yi-gen-si": ("第六十三章", "一根丝", ch63b_yi_gen_si),
     "ch63c-yi-tiao-wei-ba": ("第六十三章", "一条尾巴", ch63c_yi_tiao_wei_ba),
+    "ch64a-yi-pian-gui-jia": ("第六十四章", "一片龟甲", ch64a_yi_pian_gui_jia),
+    "ch64b-yi-kuang-tu": ("第六十四章", "一筐土", ch64b_yi_kuang_tu),
+    "ch64c-yi-kuai-gu-tou": ("第六十四章", "一块骨头", ch64c_yi_kuai_gu_tou),
 }
 
 
