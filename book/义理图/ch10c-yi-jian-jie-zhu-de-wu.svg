@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 380 754" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="对外做租客，对内做主人——这两句是一句" font-family="'Noto Serif CJK SC','Noto Serif SC','Songti SC',serif">
+<defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#6E6459"/></marker><marker id="arr2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#4A5C55"/></marker><marker id="arrL" viewBox="0 0 10 10" refX="1" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M10 0 L0 5 L10 10 z" fill="#4A5C55"/></marker><marker id="arrS" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#A2503B"/></marker></defs>
+<rect x="0" y="0" width="380" height="754" fill="#F8F3E6"/>
+<text x="20" y="26" font-size="11" fill="#A2503B" font-family="'Noto Sans CJK SC','Noto Sans SC',sans-serif" letter-spacing="3">第 十 章 · 玄 德</text>
+<text x="20" y="58" font-size="21" fill="#2F2A24">一间借住的屋</text>
+<text x="20" y="78" font-size="10.5" fill="#6E6459">生而不有，为而不恃，长而不宰，是谓玄德。</text>
+<rect x="20" y="102" width="340" height="34" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="190" y="114" font-size="4.9" fill="#2F2A24" text-anchor="middle">「爱民治国，能无为乎」：无为不是不做，是不主宰；管理是顺势成全，主宰是强行改造。</text>
+<text x="190" y="128" font-size="4.9" fill="#6E6459" text-anchor="middle">租客也扫地、也浇花、也修瓦——只是知道屋子不是自己的。</text>
+<text x="24" y="152" font-size="5.2" fill="#A2503B">一、当主人：拆房改地，挂牌作主</text>
+<rect x="26" y="164" width="328" height="180" fill="#FBF6EC" stroke="#DCCBB0" stroke-width="0.8"/>
+<path d="M50,226 L112,186 L174,226 z" fill="#EFE6D4" stroke="#2F2A24" stroke-width="1.1"/>
+<rect x="56" y="226" width="112" height="58" fill="#F8F3E6" stroke="#2F2A24" stroke-width="1.1"/>
+<rect x="100" y="252" width="24" height="32" fill="#E4D8BF" stroke="#2F2A24" stroke-width="0.9"/>
+<circle cx="118" cy="268" r="1.6" fill="#2F2A24"/>
+<rect x="68" y="240" width="22" height="18" fill="none" stroke="#2F2A24" stroke-width="0.8"/>
+<line x1="79" y1="240" x2="79" y2="258" stroke="#2F2A24" stroke-width="0.5"/>
+<line x1="68" y1="249" x2="90" y2="249" stroke="#2F2A24" stroke-width="0.5"/>
+<rect x="130" y="238" width="26" height="14" fill="#A2503B" stroke="none" opacity="0.14"/>
+<rect x="130" y="238" width="26" height="14" fill="none" stroke="#A2503B" stroke-width="0.9"/>
+<text x="143" y="248" font-size="4.2" fill="#A2503B" text-anchor="middle">我</text>
+<line x1="156" y1="245" x2="164" y2="245" stroke="#A2503B" stroke-width="0.7"/>
+<path d="M56,266 L100,266 L100,284 L56,284 z" fill="#A2503B" stroke="none" opacity="0.12"/>
+<text x="186" y="208" font-size="4.6" fill="#A2503B">主人三件事</text>
+<text x="186" y="224" font-size="4.3" fill="#A2503B">① 墙上挂牌：「我」</text>
+<text x="186" y="238" font-size="4.3" fill="#A2503B">② 墙刷成我的颜色</text>
+<text x="186" y="252" font-size="4.3" fill="#A2503B">③ 手里攥着契</text>
+<rect x="286" y="246" width="24" height="14" fill="#F8F3E6" stroke="#A2503B" stroke-width="0.9"/>
+<text x="298" y="256" font-size="4.2" fill="#A2503B" text-anchor="middle">契</text>
+<line x1="282" y1="253" x2="252" y2="253" stroke="#E6D8C2" stroke-width="0.5" stroke-dasharray="3 2"/>
+<text x="186" y="268" font-size="4.2" fill="#6E6459">房不是他的，人先被房绑住</text>
+<text x="112" y="310" font-size="4.3" fill="#A2503B" text-anchor="middle">当主人：拆房改地，挂牌作主</text>
+<text x="112" y="324" font-size="4.1" fill="#6E6459" text-anchor="middle">生而不有：你可以建，它不属于你</text>
+<text x="24" y="360" font-size="5.2" fill="#4A5C55">二、当租客：扫、养、修，走时不拆房</text>
+<rect x="26" y="372" width="328" height="176" fill="#FBF6EC" stroke="#DCCBB0" stroke-width="0.8"/>
+<path d="M50,432 L112,392 L174,432 z" fill="#EFE6D4" stroke="#2F2A24" stroke-width="1.1"/>
+<rect x="56" y="432" width="112" height="58" fill="#F8F3E6" stroke="#2F2A24" stroke-width="1.1"/>
+<rect x="100" y="458" width="24" height="32" fill="#E4D8BF" stroke="#2F2A24" stroke-width="0.9"/>
+<circle cx="118" cy="474" r="1.6" fill="#2F2A24"/>
+<rect x="68" y="446" width="22" height="18" fill="none" stroke="#2F2A24" stroke-width="0.8"/>
+<line x1="79" y1="446" x2="79" y2="464" stroke="#2F2A24" stroke-width="0.5"/>
+<line x1="68" y1="455" x2="90" y2="455" stroke="#2F2A24" stroke-width="0.5"/>
+<rect x="130" y="444" width="26" height="14" fill="none" stroke="#E6D8C2" stroke-width="0.6" stroke-dasharray="3 2"/>
+<text x="143" y="454" font-size="4.0" fill="#A89577" text-anchor="middle">空</text>
+<text x="186" y="418" font-size="4.6" fill="#4A5C55">当租客：三样都做</text>
+<text x="186" y="434" font-size="4.3" fill="#4A5C55">扫屋、浇花、修瓦</text>
+<text x="186" y="450" font-size="4.3" fill="#4A5C55">不挂牌、不拆改、不作主</text>
+<text x="186" y="464" font-size="4.2" fill="#6E6459">走时屋还是那间屋</text>
+<text x="112" y="518" font-size="4.3" fill="#4A5C55" text-anchor="middle">当租客：扫、养、修，走时不拆房</text>
+<text x="112" y="532" font-size="4.1" fill="#6E6459" text-anchor="middle">生之畜之：能养，却不作它的主</text>
+<text x="24" y="568" font-size="5.2" fill="#2F2A24">对外当主人，是妄；对内当租客，是逃——同一个病的两头。</text>
+<text x="24" y="584" font-size="5.2" fill="#2F2A24">天地借我们暂住：能做的，是住得好一点，走时别拆房。</text>
+<text x="24" y="602" font-size="5.0" fill="#4A5C55">做得多，占得少：这不是又一套要修成的德，就是那四句本身。</text>
+<line x1="24" y1="620" x2="338" y2="620" stroke="#DCCBB0" stroke-width="0.6"/>
+<rect x="20" y="628" width="340" height="40" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="190" y="644" font-size="6.0" fill="#2F2A24" text-anchor="middle">生它、养它、让它长；</text>
+<text x="190" y="656" font-size="6.0" fill="#4A5C55" text-anchor="middle">不占有、不恃功、不作主。</text>
+<line x1="20" y1="682" x2="360" y2="682" stroke="#E6D8C2" stroke-width="0.8"/>
+<text x="20" y="696" font-size="8.0" fill="#A89577" letter-spacing="1">本 章 金 句</text>
+<text x="20" y="712" font-size="8.4" fill="#2F2A24">生而不有，为而不恃，长而不宰，是谓玄德。</text>
+<text x="20" y="728" font-size="8.4" fill="#2F2A24">做得多，占得少。</text>
+</svg>

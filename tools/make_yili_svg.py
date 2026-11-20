@@ -1813,6 +1813,151 @@ def ch03_shang_ji_guo_du():
     return "\n".join(s)
 
 
+def ch10b_liang_lun_yi_zhou():
+    body, y = head(380, 999, "一根轴，两轮同转；轴一断，两轮各自倒",
+                   "第 十 章 · 抱 一", "两轮一轴", "载营魄抱一，能无离乎？", 999)
+    s = [body]
+
+    s.append(box(20, y + 2, 340, 34, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, y + 14, "「营魄」是魂与魄：魂气轻清，魄重浊；生时二者相合，死则相离。", 4.9, INK, "middle"))
+    s.append(txt(190, y + 28, "「载」是车载之载：一辆车，两根轮子穿在一根轴上，才走得动。", 4.9, "#6E6459", "middle"))
+
+    def wheel(cx, cy, r=15):
+        s.append(f'<circle cx="{cx}" cy="{cy}" r="{r}" fill="none" stroke="{INK}" stroke-width="1.2"/>')
+        s.append(f'<circle cx="{cx}" cy="{cy}" r="3" fill="{PAPER}" stroke="{INK}" stroke-width="0.9"/>')
+        for k in range(4):
+            a = k * 45
+            s.append(f'<line x1="{cx}" y1="{cy}" x2="{cx + r * 0.94:.0f}" y2="{cy}" stroke="{INK}" stroke-width="0.7" transform="rotate({a},{cx},{cy})"/>')
+
+    # 一、抱一
+    s.append(txt(24, y + 52, "一、抱一：一根轴，两轮同转", 5.2, GREEN))
+    gy = y + 64
+    s.append(f'<rect x="26" y="{gy}" width="328" height="180" fill="#FBF6EC" stroke="{LINE}" stroke-width="0.8"/>')
+    cy = gy + 108
+    s.append(f'<line x1="112" y1="{cy}" x2="268" y2="{cy}" stroke="{INK}" stroke-width="1.6"/>')
+    wheel(112, cy)
+    wheel(268, cy)
+    s.append(f'<rect x="104" y="{cy - 44}" width="172" height="24" fill="#EFE6D4" stroke="{INK}" stroke-width="1.0"/>')
+    s.append(f'<line x1="122" y1="{cy - 20}" x2="122" y2="{cy}" stroke="{INK}" stroke-width="0.9"/>')
+    s.append(f'<line x1="258" y1="{cy - 20}" x2="258" y2="{cy}" stroke="{INK}" stroke-width="0.9"/>')
+    s.append(f'<line x1="150" y1="{cy - 44}" x2="150" y2="{cy - 54}" stroke="{INK}" stroke-width="0.9"/>')
+    s.append(f'<line x1="230" y1="{cy - 44}" x2="230" y2="{cy - 54}" stroke="{INK}" stroke-width="0.9"/>')
+    s.append(f'<line x1="142" y1="{cy - 54}" x2="238" y2="{cy - 54}" stroke="{INK}" stroke-width="1.0"/>')
+    s.append(txt(190, cy - 62, "载：车上一副身，轴下一根一", 4.4, INK, "middle"))
+    s.append(txt(112, cy + 30, "魂", 4.6, GREEN, "middle"))
+    s.append(txt(268, cy + 30, "魄", 4.6, "#6E6459", "middle"))
+    s.append(txt(190, cy - 7, "一＝轴", 4.4, GREEN, "middle"))
+    s.append(txt(190, gy + 168, "两轮一轴：魂不出走，魄不自沉，人在此时此地", 4.3, GREEN, "middle"))
+
+    # 二、离
+    s.append(txt(24, gy + 196, "二、离：轴一断，两轮各归其处", 5.2, SEAL))
+    gy2 = gy + 208
+    s.append(f'<rect x="26" y="{gy2}" width="328" height="176" fill="#FBF6EC" stroke="{LINE}" stroke-width="0.8"/>')
+    cy2 = gy2 + 84
+    s.append(f'<line x1="112" y1="{cy2}" x2="176" y2="{cy2}" stroke="{INK}" stroke-width="1.6"/>')
+    s.append(f'<line x1="204" y1="{cy2}" x2="268" y2="{cy2}" stroke="{INK}" stroke-width="1.6"/>')
+    for k in range(3):
+        s.append(f'<line x1="{180 + k * 2}" y1="{cy2 + 5}" x2="{184 + k * 3}" y2="{cy2 - 8}" stroke="{INK}" stroke-width="0.9"/>')
+        s.append(f'<line x1="{198 + k * 2}" y1="{cy2 + 5}" x2="{202 + k * 3}" y2="{cy2 - 8}" stroke="{INK}" stroke-width="0.9"/>')
+    wheel(112, cy2)
+    wheel(268, cy2)
+    s.append(arrow(112, cy2 - 24, 112, cy2 - 46, SEAL, 1.0, None, "arrS"))
+    s.append(arrow(268, cy2 + 24, 268, cy2 + 44, SEAL, 1.0, None, "arrS"))
+    s.append(txt(112, cy2 - 54, "魂：轻清，上归于天", 4.2, SEAL, "middle"))
+    s.append(txt(268, cy2 + 54, "魄：重浊，下归于地", 4.2, SEAL, "middle"))
+    s.append(txt(190, cy2 - 20, "断", 4.4, SEAL, "middle"))
+    s.append(txt(190, gy2 + 160, "轴断了才招魂，人已经走了——老子问的是生前合不合得住", 4.3, "#6E6459", "middle"))
+    s.append(txt(190, gy2 + 172, "《礼记》：「魂气归于天，形魄归于地」", 4.1, "#6E6459", "middle"))
+
+    a = gy2 + 196
+    s.append(txt(24, a, "凡人最大的分裂在这里：肉身活在当下，心神活在别处——活在评判里、活在掌控里。", 5.2, INK))
+    s.append(txt(24, a + 16, "「抱一」不是把两样捏成一样，是让它们回到同一根轴上：身在此时，心也回到此时。", 5.2, INK))
+    s.append(txt(24, a + 34, "一分开，两头都空：身体在做这件事，心已经在算下一件。", 5.0, GREEN))
+
+    c = a + 52
+    s.append(f'<line x1="24" y1="{c}" x2="338" y2="{c}" stroke="{LINE}" stroke-width="0.6"/>')
+    s.append(box(20, c + 8, 340, 40, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, c + 24, "身在此时，心也回到此时；", 6.0, INK, "middle"))
+    s.append(txt(190, c + 36, "一分开，两头都空。", 6.0, GREEN, "middle"))
+    s.append(gold(c + 62, "ch10b"))
+    s.append('</svg>')
+    out = "\n".join(s)
+    ys = [float(v) for v in re.findall(r'y="([0-9.]+)"', out)]
+    return out.replace("999", str(int(max(ys) + 26)))
+
+
+def ch10c_yi_jian_jie_zhu_de_wu():
+    body, y = head(380, 999, "对外做租客，对内做主人——这两句是一句",
+                   "第 十 章 · 玄 德", "一间借住的屋", "生而不有，为而不恃，长而不宰，是谓玄德。", 999)
+    s = [body]
+
+    s.append(box(20, y + 2, 340, 34, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, y + 14, "「爱民治国，能无为乎」：无为不是不做，是不主宰；管理是顺势成全，主宰是强行改造。", 4.9, INK, "middle"))
+    s.append(txt(190, y + 28, "租客也扫地、也浇花、也修瓦——只是知道屋子不是自己的。", 4.9, "#6E6459", "middle"))
+
+    def house(px, py, plaque=False, repaint=False):
+        s.append(f'<path d="M{px - 62},{py} L{px},{py - 40} L{px + 62},{py} z" fill="#EFE6D4" stroke="{INK}" stroke-width="1.1"/>')
+        s.append(f'<rect x="{px - 56}" y="{py}" width="112" height="58" fill="{PAPER}" stroke="{INK}" stroke-width="1.1"/>')
+        s.append(f'<rect x="{px - 12}" y="{py + 26}" width="24" height="32" fill="#E4D8BF" stroke="{INK}" stroke-width="0.9"/>')
+        s.append(f'<circle cx="{px + 6}" cy="{py + 42}" r="1.6" fill="{INK}"/>')
+        s.append(f'<rect x="{px - 44}" y="{py + 14}" width="22" height="18" fill="none" stroke="{INK}" stroke-width="0.8"/>')
+        s.append(f'<line x1="{px - 33}" y1="{py + 14}" x2="{px - 33}" y2="{py + 32}" stroke="{INK}" stroke-width="0.5"/>')
+        s.append(f'<line x1="{px - 44}" y1="{py + 23}" x2="{px - 22}" y2="{py + 23}" stroke="{INK}" stroke-width="0.5"/>')
+        if plaque:
+            s.append(f'<rect x="{px + 18}" y="{py + 12}" width="26" height="14" fill="{SEAL}" stroke="none" opacity="0.14"/>')
+            s.append(f'<rect x="{px + 18}" y="{py + 12}" width="26" height="14" fill="none" stroke="{SEAL}" stroke-width="0.9"/>')
+            s.append(txt(px + 31, py + 22, "我", 4.2, SEAL, "middle"))
+            s.append(f'<line x1="{px + 44}" y1="{py + 19}" x2="{px + 52}" y2="{py + 19}" stroke="{SEAL}" stroke-width="0.7"/>')
+        if repaint:
+            s.append(f'<path d="M{px - 56},{py + 40} L{px - 12},{py + 40} L{px - 12},{py + 58} L{px - 56},{py + 58} z" fill="{SEAL}" stroke="none" opacity="0.12"/>')
+
+    # 一、当主人
+    s.append(txt(24, y + 52, "一、当主人：拆房改地，挂牌作主", 5.2, SEAL))
+    gy = y + 64
+    s.append(f'<rect x="26" y="{gy}" width="328" height="180" fill="#FBF6EC" stroke="{LINE}" stroke-width="0.8"/>')
+    house(112, gy + 62, plaque=True, repaint=True)
+    s.append(txt(186, gy + 44, "主人三件事", 4.6, SEAL))
+    s.append(txt(186, gy + 60, "① 墙上挂牌：「我」", 4.3, SEAL))
+    s.append(txt(186, gy + 74, "② 墙刷成我的颜色", 4.3, SEAL))
+    s.append(txt(186, gy + 88, "③ 手里攥着契", 4.3, SEAL))
+    s.append(f'<rect x="286" y="{gy + 82}" width="24" height="14" fill="{PAPER}" stroke="{SEAL}" stroke-width="0.9"/>')
+    s.append(txt(298, gy + 92, "契", 4.2, SEAL, "middle"))
+    s.append(f'<line x1="282" y1="{gy + 89}" x2="252" y2="{gy + 89}" stroke="{LINE2}" stroke-width="0.5" stroke-dasharray="3 2"/>')
+    s.append(txt(186, gy + 104, "房不是他的，人先被房绑住", 4.2, "#6E6459"))
+    s.append(txt(112, gy + 146, "当主人：拆房改地，挂牌作主", 4.3, SEAL, "middle"))
+    s.append(txt(112, gy + 160, "生而不有：你可以建，它不属于你", 4.1, "#6E6459", "middle"))
+
+    # 二、当租客
+    s.append(txt(24, gy + 196, "二、当租客：扫、养、修，走时不拆房", 5.2, GREEN))
+    gy2 = gy + 208
+    s.append(f'<rect x="26" y="{gy2}" width="328" height="176" fill="#FBF6EC" stroke="{LINE}" stroke-width="0.8"/>')
+    house(112, gy2 + 60)
+    s.append(f'<rect x="130" y="{gy2 + 72}" width="26" height="14" fill="none" stroke="{LINE2}" stroke-width="0.6" stroke-dasharray="3 2"/>')
+    s.append(txt(143, gy2 + 82, "空", 4.0, "#A89577", "middle"))
+    s.append(txt(186, gy2 + 46, "当租客：三样都做", 4.6, GREEN))
+    s.append(txt(186, gy2 + 62, "扫屋、浇花、修瓦", 4.3, GREEN))
+    s.append(txt(186, gy2 + 78, "不挂牌、不拆改、不作主", 4.3, GREEN))
+    s.append(txt(186, gy2 + 92, "走时屋还是那间屋", 4.2, "#6E6459"))
+    s.append(txt(112, gy2 + 146, "当租客：扫、养、修，走时不拆房", 4.3, GREEN, "middle"))
+    s.append(txt(112, gy2 + 160, "生之畜之：能养，却不作它的主", 4.1, "#6E6459", "middle"))
+
+    a = gy2 + 196
+    s.append(txt(24, a, "对外当主人，是妄；对内当租客，是逃——同一个病的两头。", 5.2, INK))
+    s.append(txt(24, a + 16, "天地借我们暂住：能做的，是住得好一点，走时别拆房。", 5.2, INK))
+    s.append(txt(24, a + 34, "做得多，占得少：这不是又一套要修成的德，就是那四句本身。", 5.0, GREEN))
+
+    c = a + 52
+    s.append(f'<line x1="24" y1="{c}" x2="338" y2="{c}" stroke="{LINE}" stroke-width="0.6"/>')
+    s.append(box(20, c + 8, 340, 40, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, c + 24, "生它、养它、让它长；", 6.0, INK, "middle"))
+    s.append(txt(190, c + 36, "不占有、不恃功、不作主。", 6.0, GREEN, "middle"))
+    s.append(gold(c + 62, "ch10c"))
+    s.append('</svg>')
+    out = "\n".join(s)
+    ys = [float(v) for v in re.findall(r'y="([0-9.]+)"', out)]
+    return out.replace("999", str(int(max(ys) + 26)))
+
+
 def ch10_bao_yi():
     W, H = 380, 592
     body, y = head(W, H, "六问一答：对内做主人，对外做租客", "第 十 章 · 勘 验", "载营魄抱一",
@@ -5814,6 +5959,8 @@ GOLD = {
     "ch08c": ["居善地，心善渊，与善仁，言善信，政善治，事善能，动善时。", "七善是一条链，不是七条戒律。"],
     "ch09b": ["持而盈之，不如其已；揣而锐之，不可长保。", "持满则溢，不如早止。"],
     "ch09c": ["金玉满堂，莫之能守；富贵而骄，自遗其咎。", "退的不是事，是恋；收的不是手，是心。"],
+    "ch10b": ["载营魄抱一，能无离乎？", "身在此时，心也回到此时。"],
+    "ch10c": ["生而不有，为而不恃，长而不宰，是谓玄德。", "做得多，占得少。"],
     "ch06b": ["谷神不死，是谓玄牝。", "谷者，两山间之空也；能受故能生，生而不有故不竭——生机不在满处，在空处。"],
     "ch06c": ["玄牝之门，是谓天地根。", "门在开合处，不在门板上；一着手去推，它就成了一堵墙。"],
     "ch05b": ["天地不仁，以万物为刍狗。", "刍者，束草也；刍狗有位而无主——用毕回草堆，不是被弃，是位次用完了。"],
@@ -12067,6 +12214,8 @@ FIGS = {
     "ch09b-yi-zhi-qi-qi": ("第九章", "一只欹器", ch09b_yi_zhi_qi_qi),
     "ch09c-zan-yu-song": ("第九章", "攥与松", ch09c_zan_yu_song),
     "ch10-bao-yi": ("第十章", "载营魄抱一", ch10_bao_yi),
+    "ch10b-liang-lun-yi-zhou": ("第十章", "两轮一轴", ch10b_liang_lun_yi_zhou),
+    "ch10c-yi-jian-jie-zhu-de-wu": ("第十章", "一间借住的屋", ch10c_yi_jian_jie_zhu_de_wu),
     "ch28-zhi-xiong": ("第二十八章", "知其雄", ch28_zhi_xiong),
     "ch29-tian-xia-shen-qi": ("第二十九章", "天下神器", ch29_tian_xia_shen_qi),
     "ch30-wu-zhuang-ze-lao": ("第三十章", "物壮则老", ch30_wu_zhuang_ze_lao),
