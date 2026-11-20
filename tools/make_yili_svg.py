@@ -2504,7 +2504,7 @@ def ch13c_bao_yu_tuo():
     s.append(txt(268, gy2 + 126, "抬起头来，眼里有别人那具身", 4.2, GREEN, "middle"))
     s.append(txt(268, gy2 + 140, "先能自护自明，才不拿标尺去伤别人", 4.2, "#6E6459", "middle"))
 
-    a = gy2 + 188
+    a = gy2 + 196
     s.append(txt(24, a, "向外追荣辱是执，向内抱紧「我要贵身」也是执：前者把壁加厚，后者把壁擦亮再抱住不放。", 5.0, INK))
     s.append(txt(24, a + 16, "贵身是顺其自然的护持，不是刻意的抓取；无身是放下执念，不是厌弃生命。", 5.0, INK))
     s.append(txt(24, a + 34, "能养此身而不据此身的人，天下才敢寄在他手里——他既不拿自己去换什么，也不会拿别人去换什么。", 4.8, GREEN))
@@ -2555,6 +2555,133 @@ def ch14_yi_xi_wei():
 
 
 # ============ 第十五章 · 古之善为道者 ============
+def ch14b_san_zhi_tan_zhen():
+    body, y = head(380, 999, "眼耳手探不到，不等于没有：把标准降回工具",
+                   "第 十 四 章 · 三 样 工 具", "三支探针", "视之不见名曰夷，听之不闻名曰希，搏之不得名曰微。", 999)
+    s = [body]
+
+    s.append(box(20, y + 2, 340, 34, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, y + 14, "人能感知的就算有、感知不到的就算无——这是习惯，不是标准。", 4.9, INK, "middle"))
+    s.append(txt(190, y + 27, "夷：无色；希：无声；微：无质。三样都不是「没有」，是「不及」。", 4.8, "#6E6459", "middle"))
+
+    def field(x, gy, h, cap="道·场：不在三样工具的射程里"):
+        s.append(f'<rect x="{x}" y="{gy + 18}" width="{330 - x}" height="{h - 26}" fill="#F1EDE2" stroke="{LINE}" stroke-width="0.7" stroke-dasharray="5 4"/>')
+        s.append(txt((x + 330) / 2, gy + 32, cap, 3.9, "#8A7C69", "middle"))
+
+    # 一、三支探针
+    s.append(txt(24, y + 52, "一、三支探针伸进去：各探一段，都在半路上断了", 5.2, SEAL))
+    gy = y + 64
+    s.append(f'<rect x="26" y="{gy}" width="328" height="202" fill="#FBF6EC" stroke="{LINE}" stroke-width="0.8"/>')
+    field(150, gy, 196)
+    rows = [("眼", "视之不见：夷", 4), ("耳", "听之不闻：希", 5), ("手", "搏之不得：微", 6)]
+    for i, (g, note, k) in enumerate(rows):
+        yy = gy + 52 + i * 34
+        s.append(f'<circle cx="40" cy="{yy}" r="7" fill="{PAPER}" stroke="{INK}" stroke-width="1.0"/>')
+        s.append(txt(40, yy + 3, g, 4.2, INK, "middle"))
+        s.append(f'<line x1="48" y1="{yy}" x2="{150 + k * 14}" y2="{yy}" stroke="{INK}" stroke-width="1.0"/>')
+        s.append(f'<line x1="{150 + k * 14}" y1="{yy}" x2="{158 + k * 14}" y2="{yy}" stroke="{LINE}" stroke-width="1.0" stroke-dasharray="2 3"/>')
+        s.append(f'<circle cx="{162 + k * 14}" cy="{yy}" r="4.5" fill="none" stroke="{SEAL}" stroke-width="0.8" stroke-dasharray="2 2"/>')
+        s.append(txt(200, yy + 10, note, 4.1, SEAL))
+    s.append(txt(190, gy + 194, "探不到的地方不是空的，是探针够不着", 4.3, SEAL, "middle"))
+
+    # 二、收针归场
+    s.append(txt(24, gy + 216, "二、收针：遇不到，只能归；遇见要伸手，归依要收手", 5.2, GREEN))
+    gy2 = gy + 228
+    s.append(f'<rect x="26" y="{gy2}" width="328" height="176" fill="#FBF6EC" stroke="{LINE}" stroke-width="0.8"/>')
+    field(120, gy2, 150, "道·场")
+    for i in range(3):
+        s.append(f'<line x1="36" y1="{gy2 + 122 + i * 8}" x2="70" y2="{gy2 + 122 + i * 8}" stroke="{LINE}" stroke-width="0.9"/>')
+    s.append(txt(52, gy2 + 154, "三支针搁下", 3.9, "#8A7C69", "middle"))
+    # 人立，一箭向内
+    px, py = 84, gy2 + 54
+    s.append(f'<circle cx="{px}" cy="{py}" r="6" fill="none" stroke="{INK}" stroke-width="1.0"/>')
+    s.append(f'<line x1="{px}" y1="{py + 6}" x2="{px}" y2="{py + 34}" stroke="{INK}" stroke-width="1.3"/>')
+    s.append(f'<line x1="{px}" y1="{py + 34}" x2="{px - 7}" y2="{py + 46}" stroke="{INK}" stroke-width="1.0"/>')
+    s.append(f'<line x1="{px}" y1="{py + 34}" x2="{px + 7}" y2="{py + 46}" stroke="{INK}" stroke-width="1.0"/>')
+    s.append(arrow(px + 14, gy2 + 66, 118, gy2 + 66, GREEN, 1.0, None, "arr2"))
+    s.append(txt(px + 16, gy2 + 60, "归", 4.6, GREEN))
+    s.append(txt(190, gy2 + 168, "物可遇，道只能归：方向不同，姿势也不同", 4.3, GREEN, "middle"))
+
+    a = gy2 + 188
+    s.append(txt(24, a, "眼耳手是工具，不是真理的裁判；探得到的是万象，探不到的是万象的背景。", 5.0, INK))
+    s.append(txt(24, a + 16, "「不可致诘」不是问不出来，是问的人与所问之物本不在一个层面。", 5.0, INK))
+    s.append(txt(24, a + 34, "混而为一的「一」，不是数量的一，是分别还没有生起时的那个整全。", 4.9, GREEN))
+
+    c = a + 52
+    s.append(f'<line x1="24" y1="{c}" x2="338" y2="{c}" stroke="{LINE}" stroke-width="0.6"/>')
+    s.append(box(20, c + 8, 340, 40, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, c + 24, "探不到不等于没有，", 6.0, INK, "middle"))
+    s.append(txt(190, c + 36, "探得到也不等于全部。", 6.0, GREEN, "middle"))
+    s.append(gold(c + 62, "ch14b"))
+    s.append('</svg>')
+    out = "\n".join(s)
+    ys = [float(v) for v in re.findall(r'y="([0-9.]+)"', out)]
+    return out.replace("999", str(int(max(ys) + 26)))
+
+
+def ch14c_gu_sheng_yu_jin():
+    body, y = head(380, 999, "执古之道，以御今之有：一根准绳，量得住今天的手",
+                   "第 十 四 章 · 准 绳", "一根准绳", "执古之道，以御今之有；能知古始，是谓道纪。", 999)
+    s = [body]
+
+    s.append(box(20, y + 2, 340, 34, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, y + 14, "今之尺各说各话：同一样东西，谁量谁是数。", 4.9, INK, "middle"))
+    s.append(txt(190, y + 27, "古始是一切存在共同的源头；执古，是用那根共同的绳去量。", 4.8, "#6E6459", "middle"))
+
+    # 一、三把尺
+    s.append(txt(24, y + 52, "一、三把今尺：同一只箱，量出三个数", 5.2, SEAL))
+    gy = y + 64
+    s.append(f'<rect x="26" y="{gy}" width="328" height="150" fill="#FBF6EC" stroke="{LINE}" stroke-width="0.8"/>')
+    # 箱
+    bx, by = 60, gy + 44
+    s.append(f'<rect x="{bx}" y="{by}" width="56" height="48" fill="#EFE6D4" stroke="{INK}" stroke-width="1.2"/>')
+    s.append(f'<line x1="{bx}" y1="{by + 16}" x2="{bx + 56}" y2="{by + 16}" stroke="{LINE}" stroke-width="0.7"/>')
+    s.append(f'<line x1="{bx}" y1="{by + 32}" x2="{bx + 56}" y2="{by + 32}" stroke="{LINE}" stroke-width="0.7"/>')
+    for i, (L, num, nm) in enumerate([(78, "三", "甲尺"), (94, "五", "乙尺"), (110, "七", "丙尺")]):
+        yy = by + 6 + i * 16
+        s.append(f'<line x1="{bx + 60}" y1="{yy}" x2="{bx + 60 + L}" y2="{yy}" stroke="{INK}" stroke-width="1.0"/>')
+        for k in range(1, 5):
+            xx = bx + 60 + L * k / 5
+            s.append(f'<line x1="{xx}" y1="{yy - 3}" x2="{xx}" y2="{yy + 3}" stroke="{LINE}" stroke-width="0.8"/>')
+        s.append(txt(bx + 74 + L, yy + 2, num, 4.4, SEAL))
+    s.append(txt(190, gy + 138, "甲、乙、丙三把今尺，各有各的刻：同一只箱，量出三个数", 4.3, SEAL, "middle"))
+
+    # 二、一根古绳
+    s.append(txt(24, gy + 166, "二、一根古绳：拉直了，箱子挂上去，只得一个数", 5.2, GREEN))
+    gy2 = gy + 178
+    s.append(f'<rect x="26" y="{gy2}" width="328" height="176" fill="#FBF6EC" stroke="{LINE}" stroke-width="0.8"/>')
+    hy = gy2 + 66
+    s.append(f'<path d="M52,{hy} q140,8 276,0" fill="none" stroke="{INK}" stroke-width="1.6"/>')
+    for k in range(13):
+        xx = 52 + k * 23
+        s.append(f'<circle cx="{xx}" cy="{hy + 3}" r="2.0" fill="none" stroke="{INK}" stroke-width="0.7"/>')
+    s.append(txt(52, gy2 + 56, "古·本始", 4.2, GREEN))
+    s.append(txt(328, gy2 + 56, "今·有", 4.2, GREEN, "end"))
+    # 箱挂在绳上
+    s.append(f'<line x1="166" y1="{hy + 2}" x2="166" y2="{hy + 22}" stroke="{INK}" stroke-width="0.8"/>')
+    s.append(f'<rect x="140" y="{hy + 22}" width="52" height="46" fill="#EFE6D4" stroke="{INK}" stroke-width="1.2"/>')
+    s.append(f'<line x1="140" y1="{hy + 37}" x2="192" y2="{hy + 37}" stroke="{LINE}" stroke-width="0.7"/>')
+    s.append(f'<line x1="140" y1="{hy + 53}" x2="192" y2="{hy + 53}" stroke="{LINE}" stroke-width="0.7"/>')
+    s.append(txt(196, hy + 44, "一个数：同一根绳上的同一个结", 4.1, GREEN))
+    s.append(txt(52, gy2 + 164, "绳绳兮不可名：它一直在起作用，却始终没有名字", 4.3, GREEN))
+
+    a = gy2 + 196
+    s.append(txt(24, a, "古不是过去，是本始：一切存在共同的源头。执古不是复古，是拿那根共同的绳来量今天。", 4.9, INK))
+    s.append(txt(24, a + 16, "御不是驭世，是安己：手里的物有了定数，人就不必再拿自己的尺去争一个高低。", 4.9, INK))
+    s.append(txt(24, a + 34, "能知古始，是谓道纪——知道了万物的来处，才有一根不被风向吹弯的准绳。", 4.9, GREEN))
+
+    c = a + 52
+    s.append(f'<line x1="24" y1="{c}" x2="338" y2="{c}" stroke="{LINE}" stroke-width="0.6"/>')
+    s.append(box(20, c + 8, 340, 40, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, c + 24, "执古之道，以御今之有；", 6.0, INK, "middle"))
+    s.append(txt(190, c + 36, "不是驭世，是安己。", 6.0, GREEN, "middle"))
+    s.append(gold(c + 62, "ch14c"))
+    s.append('</svg>')
+    out = "\n".join(s)
+    ys = [float(v) for v in re.findall(r'y="([0-9.]+)"', out)]
+    return out.replace("999", str(int(max(ys) + 26)))
+
+
 def ch15_shan_wei_dao():
     W, H = 380, 460
     body, y = head(W, H, "七喻不是七种美德，是七种「不」", "第 十 五 章 · 体 道", "七个比喻",
@@ -6423,6 +6550,8 @@ GOLD = {
     "ch12c": ["是以圣人为腹不为目，故去彼取此。", "为腹者，以物养己；为目者，以物役己。"],
     "ch13b": ["宠为下，得之若惊，失之若惊。", "钉子一拔，风还在吹，壁不晃了。"],
     "ch13c": ["故贵以身为天下，若可寄天下；爱以身为天下，若可托天下。", "养身如养器，护壁不据壁。"],
+    "ch14b": ["视之不见名曰夷，听之不闻名曰希，搏之不得名曰微。", "探不到的地方不是空的，是探针够不着。"],
+    "ch14c": ["执古之道，以御今之有；能知古始，是谓道纪。", "古不是过去，是本始：一根不被风向吹弯的准绳。"],
     "ch06b": ["谷神不死，是谓玄牝。", "谷者，两山间之空也；能受故能生，生而不有故不竭——生机不在满处，在空处。"],
     "ch06c": ["玄牝之门，是谓天地根。", "门在开合处，不在门板上；一着手去推，它就成了一堵墙。"],
     "ch05b": ["天地不仁，以万物为刍狗。", "刍者，束草也；刍狗有位而无主——用毕回草堆，不是被弃，是位次用完了。"],
@@ -12576,6 +12705,8 @@ FIGS = {
     "ch12c-wei-fu-bu-wei-mu": ("第十二章", "为腹不为目", ch12c_wei_fu_bu_wei_mu),
     "ch13b-ding-zai-bi-shang": ("第十三章", "一枚钉", ch13b_ding_zai_bi_shang),
     "ch13c-bao-yu-tuo": ("第十三章", "抱与托", ch13c_bao_yu_tuo),
+    "ch14b-san-zhi-tan-zhen": ("第十四章", "三支探针", ch14b_san_zhi_tan_zhen),
+    "ch14c-gu-sheng-yu-jin": ("第十四章", "一根准绳", ch14c_gu_sheng_yu_jin),
     "ch24-qi-zhe-bu-li": ("第二十四章", "企者不立", ch24_qi_zhe_bu_li),
     "ch23-xi-yan-zi-ran": ("第二十三章", "希言自然", ch23_xi_yan_zi_ran),
     "ch22-qu-ze-quan": ("第二十二章", "曲则全", ch22_qu_ze_quan),

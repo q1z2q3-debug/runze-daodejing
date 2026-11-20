@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 380 766" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="眼耳手探不到，不等于没有：把标准降回工具" font-family="'Noto Serif CJK SC','Noto Serif SC','Songti SC',serif">
+<defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#6E6459"/></marker><marker id="arr2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#4A5C55"/></marker><marker id="arrL" viewBox="0 0 10 10" refX="1" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M10 0 L0 5 L10 10 z" fill="#4A5C55"/></marker><marker id="arrS" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#A2503B"/></marker></defs>
+<rect x="0" y="0" width="380" height="766" fill="#F8F3E6"/>
+<text x="20" y="26" font-size="11" fill="#A2503B" font-family="'Noto Sans CJK SC','Noto Sans SC',sans-serif" letter-spacing="3">第 十 四 章 · 三 样 工 具</text>
+<text x="20" y="58" font-size="21" fill="#2F2A24">三支探针</text>
+<text x="20" y="78" font-size="10.5" fill="#6E6459">视之不见名曰夷，听之不闻名曰希，搏之不得名曰微。</text>
+<rect x="20" y="102" width="340" height="34" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="190" y="114" font-size="4.9" fill="#2F2A24" text-anchor="middle">人能感知的就算有、感知不到的就算无——这是习惯，不是标准。</text>
+<text x="190" y="127" font-size="4.8" fill="#6E6459" text-anchor="middle">夷：无色；希：无声；微：无质。三样都不是「没有」，是「不及」。</text>
+<text x="24" y="152" font-size="5.2" fill="#A2503B">一、三支探针伸进去：各探一段，都在半路上断了</text>
+<rect x="26" y="164" width="328" height="202" fill="#FBF6EC" stroke="#DCCBB0" stroke-width="0.8"/>
+<rect x="150" y="182" width="180" height="170" fill="#F1EDE2" stroke="#DCCBB0" stroke-width="0.7" stroke-dasharray="5 4"/>
+<text x="240.0" y="196" font-size="3.9" fill="#8A7C69" text-anchor="middle">道·场：不在三样工具的射程里</text>
+<circle cx="40" cy="216" r="7" fill="#F8F3E6" stroke="#2F2A24" stroke-width="1.0"/>
+<text x="40" y="219" font-size="4.2" fill="#2F2A24" text-anchor="middle">眼</text>
+<line x1="48" y1="216" x2="206" y2="216" stroke="#2F2A24" stroke-width="1.0"/>
+<line x1="206" y1="216" x2="214" y2="216" stroke="#DCCBB0" stroke-width="1.0" stroke-dasharray="2 3"/>
+<circle cx="218" cy="216" r="4.5" fill="none" stroke="#A2503B" stroke-width="0.8" stroke-dasharray="2 2"/>
+<text x="200" y="226" font-size="4.1" fill="#A2503B">视之不见：夷</text>
+<circle cx="40" cy="250" r="7" fill="#F8F3E6" stroke="#2F2A24" stroke-width="1.0"/>
+<text x="40" y="253" font-size="4.2" fill="#2F2A24" text-anchor="middle">耳</text>
+<line x1="48" y1="250" x2="220" y2="250" stroke="#2F2A24" stroke-width="1.0"/>
+<line x1="220" y1="250" x2="228" y2="250" stroke="#DCCBB0" stroke-width="1.0" stroke-dasharray="2 3"/>
+<circle cx="232" cy="250" r="4.5" fill="none" stroke="#A2503B" stroke-width="0.8" stroke-dasharray="2 2"/>
+<text x="200" y="260" font-size="4.1" fill="#A2503B">听之不闻：希</text>
+<circle cx="40" cy="284" r="7" fill="#F8F3E6" stroke="#2F2A24" stroke-width="1.0"/>
+<text x="40" y="287" font-size="4.2" fill="#2F2A24" text-anchor="middle">手</text>
+<line x1="48" y1="284" x2="234" y2="284" stroke="#2F2A24" stroke-width="1.0"/>
+<line x1="234" y1="284" x2="242" y2="284" stroke="#DCCBB0" stroke-width="1.0" stroke-dasharray="2 3"/>
+<circle cx="246" cy="284" r="4.5" fill="none" stroke="#A2503B" stroke-width="0.8" stroke-dasharray="2 2"/>
+<text x="200" y="294" font-size="4.1" fill="#A2503B">搏之不得：微</text>
+<text x="190" y="358" font-size="4.3" fill="#A2503B" text-anchor="middle">探不到的地方不是空的，是探针够不着</text>
+<text x="24" y="380" font-size="5.2" fill="#4A5C55">二、收针：遇不到，只能归；遇见要伸手，归依要收手</text>
+<rect x="26" y="392" width="328" height="176" fill="#FBF6EC" stroke="#DCCBB0" stroke-width="0.8"/>
+<rect x="120" y="410" width="210" height="124" fill="#F1EDE2" stroke="#DCCBB0" stroke-width="0.7" stroke-dasharray="5 4"/>
+<text x="225.0" y="424" font-size="3.9" fill="#8A7C69" text-anchor="middle">道·场</text>
+<line x1="36" y1="514" x2="70" y2="514" stroke="#DCCBB0" stroke-width="0.9"/>
+<line x1="36" y1="522" x2="70" y2="522" stroke="#DCCBB0" stroke-width="0.9"/>
+<line x1="36" y1="530" x2="70" y2="530" stroke="#DCCBB0" stroke-width="0.9"/>
+<text x="52" y="546" font-size="3.9" fill="#8A7C69" text-anchor="middle">三支针搁下</text>
+<circle cx="84" cy="446" r="6" fill="none" stroke="#2F2A24" stroke-width="1.0"/>
+<line x1="84" y1="452" x2="84" y2="480" stroke="#2F2A24" stroke-width="1.3"/>
+<line x1="84" y1="480" x2="77" y2="492" stroke="#2F2A24" stroke-width="1.0"/>
+<line x1="84" y1="480" x2="91" y2="492" stroke="#2F2A24" stroke-width="1.0"/>
+<line x1="98" y1="458" x2="118" y2="458" stroke="#4A5C55" stroke-width="1.0" marker-end="url(#arr2)"/>
+<text x="100" y="452" font-size="4.6" fill="#4A5C55">归</text>
+<text x="190" y="560" font-size="4.3" fill="#4A5C55" text-anchor="middle">物可遇，道只能归：方向不同，姿势也不同</text>
+<text x="24" y="580" font-size="5.0" fill="#2F2A24">眼耳手是工具，不是真理的裁判；探得到的是万象，探不到的是万象的背景。</text>
+<text x="24" y="596" font-size="5.0" fill="#2F2A24">「不可致诘」不是问不出来，是问的人与所问之物本不在一个层面。</text>
+<text x="24" y="614" font-size="4.9" fill="#4A5C55">混而为一的「一」，不是数量的一，是分别还没有生起时的那个整全。</text>
+<line x1="24" y1="632" x2="338" y2="632" stroke="#DCCBB0" stroke-width="0.6"/>
+<rect x="20" y="640" width="340" height="40" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="190" y="656" font-size="6.0" fill="#2F2A24" text-anchor="middle">探不到不等于没有，</text>
+<text x="190" y="668" font-size="6.0" fill="#4A5C55" text-anchor="middle">探得到也不等于全部。</text>
+<line x1="20" y1="694" x2="360" y2="694" stroke="#E6D8C2" stroke-width="0.8"/>
+<text x="20" y="708" font-size="8.0" fill="#A89577" letter-spacing="1">本 章 金 句</text>
+<text x="20" y="724" font-size="8.4" fill="#2F2A24">视之不见名曰夷，听之不闻名曰希，搏之不得名曰微。</text>
+<text x="20" y="740" font-size="8.4" fill="#2F2A24">探不到的地方不是空的，是探针够不着。</text>
+</svg>
