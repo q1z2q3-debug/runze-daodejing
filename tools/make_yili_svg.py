@@ -3888,6 +3888,181 @@ def ch77c_liang_zhi_shou():
     return "\n".join(s)
 
 
+def ch78a_yi_zhi_qi():
+    W, H = 380, 744
+    body, y = head(W, H, "器可以换，水不倒：形易万次，体未尝一易",
+                   "第 七 十 八 章 · 易", "一只器", "以其无以易之。", H)
+    s = [body]
+
+    s.append(box(20, y + 2, 340, 32, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, y + 14, "易，《说文》曰「蜥蜴」，一说象两器倾水之形。", 4.7, INK, "middle"))
+    s.append(txt(190, y + 27, "倾水者非变也，移也：自此器倒之彼器——器换了，水还是那水。", 4.7, "#6E6459", "middle"))
+
+    s.append(txt(24, y + 50, "一、倒过来：器换了，水没换", 4.8, SEAL))
+    gy = y + 62
+    s.append(f'<rect x="26" y="{gy}" width="328" height="152" fill="#FBF6EC" stroke="{LINE}" stroke-width="0.8"/>')
+    s.append(f'<line x1="34" y1="{gy + 132}" x2="330" y2="{gy + 132}" stroke="{INK}" stroke-width="1"/>')
+    # 左器：矮口陶罐（倾斜）
+    s.append(f'<path d="M96,{gy + 62} Q74,{gy + 104} 96,{gy + 128}" fill="#EFE6D4" stroke="{INK}" stroke-width="1.2"/>')
+    s.append(f'<path d="M96,{gy + 62} L130,{gy + 50} Q146,{gy + 92} 130,{gy + 118} L96,{gy + 128}" fill="#EFE6D4" stroke="{INK}" stroke-width="1.2"/>')
+    s.append(f'<line x1="96" y1="{gy + 62}" x2="130" y2="{gy + 50}" stroke="{INK}" stroke-width="1.2"/>')
+    # 水：从罐口倾出
+    s.append(f'<path d="M132,{gy + 56} Q170,{gy + 70} 206,{gy + 64}" fill="none" stroke="#4A5C55" stroke-width="2"/>')
+    s.append(f'<path d="M206,{gy + 64} Q214,{gy + 84} 214,{gy + 104}" fill="none" stroke="#4A5C55" stroke-width="2"/>')
+    s.append(txt(150, gy + 46, "水在倒", 4.3, "#4A5C55"))
+    # 右器：细高瓶（另一个形）
+    s.append(f'<path d="M200,{gy + 60} Q186,{gy + 92} 196,{gy + 130}" fill="#EFE6D4" stroke="{INK}" stroke-width="1.2"/>')
+    s.append(f'<path d="M232,{gy + 60} Q246,{gy + 92} 236,{gy + 130}" fill="#EFE6D4" stroke="{INK}" stroke-width="1.2"/>')
+    s.append(f'<path d="M196,{gy + 130} Q216,{gy + 140} 236,{gy + 130}" fill="#EFE6D4" stroke="{INK}" stroke-width="1.2"/>')
+    s.append(f'<line x1="200" y1="{gy + 60}" x2="232" y2="{gy + 60}" stroke="{INK}" stroke-width="1.2"/>')
+    s.append(txt(216, gy + 150, "另一只器", 4.2, "#6E6459", "middle"))
+    s.append(txt(190, gy + 172, "器可易，水不可易：器者形也，水者体也", 4.6, GREEN, "middle"))
+
+    s.append(txt(24, gy + 196, "二、都破了：水还在那里", 4.8, GREEN))
+    gy2 = gy + 208
+    s.append(f'<rect x="26" y="{gy2}" width="328" height="152" fill="#FBF6EC" stroke="{LINE}" stroke-width="0.8"/>')
+    s.append(f'<line x1="34" y1="{gy2 + 132}" x2="330" y2="{gy2 + 132}" stroke="{INK}" stroke-width="1"/>')
+    # 碎了的陶片
+    s.append(f'<path d="M66,{gy2 + 128} l14,-16 l12,6 l-2,10 Z" fill="#EFE6D4" stroke="{INK}" stroke-width="1.1"/>')
+    s.append(f'<path d="M100,{gy2 + 130} l10,-18 l14,10 l-6,8 Z" fill="#EFE6D4" stroke="{INK}" stroke-width="1.1"/>')
+    s.append(f'<path d="M124,{gy2 + 118} l6,-14 l10,8 Z" fill="#EFE6D4" stroke="{INK}" stroke-width="1.1"/>')
+    s.append(txt(96, gy2 + 100, "器碎了", 4.2, SEAL))
+    # 地上那滩水：形状随地
+    s.append(f'<path d="M150,{gy2 + 132} Q196,{gy2 + 112} 250,{gy2 + 132} Q200,{gy2 + 142} 150,{gy2 + 132} Z" fill="#4A5C55" fill-opacity="0.25" stroke="#4A5C55" stroke-width="1"/>')
+    s.append(txt(200, gy2 + 96, "还是那滩水", 4.3, "#4A5C55", "middle"))
+    s.append(txt(190, gy2 + 172, "形易万次，体未尝一易", 4.6, GREEN, "middle"))
+
+    a = gy2 + 196
+    s.append(txt(24, a, "故「无以易之」者，非不可变也，乃不可倒也。", 4.8, INK))
+    s.append(txt(24, a + 16, "器一次就碎，水一次也不倒：这就是「莫之能胜」的意思。", 4.8, INK))
+    s.append(txt(24, a + 34, "弱者非无力，是不可倒。", 5.0, GREEN))
+
+    c = a + 52
+    s.append(f'<line x1="24" y1="{c}" x2="338" y2="{c}" stroke="{LINE}" stroke-width="0.6"/>')
+    s.append(box(20, c + 8, 340, 40, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, c + 23, "天下莫柔弱于水，而攻坚强者莫之能胜，以其无以易之。", 5.0, INK, "middle"))
+    s.append(txt(190, c + 36, "器可易，水不可易。", 4.7, GREEN, "middle"))
+    s.append(gold(c + 64, "ch78a"))
+    s.append('</svg>')
+    return "\n".join(s)
+
+
+def ch78b_yi_peng_tu():
+    W, H = 380, 726
+    body, y = head(W, H, "受垢者三步：接之、沉之、复清之",
+                   "第 七 十 八 章 · 垢", "一捧土", "受国之垢，是谓社稷主。", H)
+    s = [body]
+
+    s.append(box(20, y + 2, 340, 32, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, y + 14, "垢，《说文》「浊也」，从土——垢即土也。", 4.7, INK, "middle"))
+    s.append(txt(190, y + 27, "水土相遇则浑，静则土沉，土沉则水清。", 4.7, "#6E6459", "middle"))
+
+    s.append(txt(24, y + 50, "一、接住：一捧土落进水里", 4.8, SEAL))
+    gy = y + 62
+    s.append(f'<rect x="26" y="{gy}" width="328" height="152" fill="#FBF6EC" stroke="{LINE}" stroke-width="0.8"/>')
+    s.append(f'<line x1="34" y1="{gy + 134}" x2="330" y2="{gy + 134}" stroke="{INK}" stroke-width="1"/>')
+    # 杯
+    s.append(f'<path d="M148,{gy + 56} Q148,{gy + 122} 190,{gy + 126} Q232,{gy + 122} 232,{gy + 56}" fill="#EFE6D4" stroke="{INK}" stroke-width="1.3"/>')
+    s.append(f'<line x1="148" y1="{gy + 56}" x2="232" y2="{gy + 56}" stroke="{INK}" stroke-width="1.3"/>')
+    # 浑水
+    s.append(f'<path d="M150,{gy + 58} L230,{gy + 58} L228,{gy + 100} Q190,{gy + 110} 152,{gy + 100} Z" fill="#4A5C55" fill-opacity="0.3" stroke="#4A5C55" stroke-width="0.7"/>')
+    # 一捧土：从上方撒下
+    s.append(f'<path d="M150,{gy + 18} Q190,{gy + 38} 230,{gy + 18}" fill="#DED2B8" stroke="{INK}" stroke-width="1"/>')
+    for i in range(4):
+        s.append(f'<circle cx="{162 + i * 20}" cy="{gy + 46 + (i % 2) * 6}" r="1.6" fill="#B9A98F"/>')
+        s.append(f'<circle cx="{168 + i * 18}" cy="{gy + 56 + (i % 2) * 5}" r="1.4" fill="#B9A98F"/>')
+    s.append(txt(196, gy + 10, "土落下来", 4.3, SEAL, "middle"))
+    s.append(txt(190, gy + 168, "接住：土落进来，水不拒——拒的，就不是受", 4.6, GREEN, "middle"))
+
+    s.append(txt(24, gy + 192, "二、沉之，复清之", 4.8, GREEN))
+    gy2 = gy + 204
+    s.append(f'<rect x="26" y="{gy2}" width="328" height="152" fill="#FBF6EC" stroke="{LINE}" stroke-width="0.8"/>')
+    s.append(f'<line x1="34" y1="{gy2 + 134}" x2="330" y2="{gy2 + 134}" stroke="{INK}" stroke-width="1"/>')
+    s.append(f'<path d="M148,{gy2 + 56} Q148,{gy2 + 122} 190,{gy2 + 126} Q232,{gy2 + 122} 232,{gy2 + 56}" fill="#EFE6D4" stroke="{INK}" stroke-width="1.3"/>')
+    s.append(f'<line x1="148" y1="{gy2 + 56}" x2="232" y2="{gy2 + 56}" stroke="{INK}" stroke-width="1.3"/>')
+    # 清水在上
+    s.append(f'<path d="M150,{gy2 + 58} L230,{gy2 + 58} L228,{gy2 + 104} Q190,{gy2 + 112} 152,{gy2 + 104} Z" fill="#4A5C55" fill-opacity="0.16" stroke="#4A5C55" stroke-width="0.7"/>')
+    # 沉土在下
+    s.append(f'<path d="M152,{gy2 + 104} Q190,{gy2 + 112} 228,{gy2 + 104} Q228,{gy2 + 118} 190,{gy2 + 122} Q152,{gy2 + 118} 152,{gy2 + 104} Z" fill="#DED2B8" stroke="{INK}" stroke-width="0.8"/>')
+    s.append(txt(252, gy2 + 74, "上：清", 4.3, "#4A5C55"))
+    s.append(txt(252, gy2 + 116, "下：土沉了", 4.3, SEAL))
+    s.append(f'<line x1="240" y1="{gy2 + 110}" x2="248" y2="{gy2 + 114}" stroke="#B9A98F" stroke-width="0.7"/>')
+    s.append(txt(190, gy2 + 168, "土沉了，水自己就清了：不是吞土，是放土", 4.6, GREEN, "middle"))
+
+    a = gy2 + 192
+    s.append(txt(24, a, "故受垢者三步：接之、沉之、复清之。非吞土也，乃放土也。", 4.8, INK))
+    s.append(txt(24, a + 16, "能受者，非力大也，其体不倒也——水不清，是因为它一直在晃。", 4.8, INK))
+    s.append(txt(24, a + 34, "垢从土，社亦从土：一污一神，一土之两面。", 5.0, GREEN))
+
+    c = a + 52
+    s.append(f'<line x1="24" y1="{c}" x2="338" y2="{c}" stroke="{LINE}" stroke-width="0.6"/>')
+    s.append(box(20, c + 8, 340, 40, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, c + 23, "受国之垢，是谓社稷主。", 5.4, INK, "middle"))
+    s.append(txt(190, c + 36, "垢者，浊也，从土：垢即土也。", 4.7, GREEN, "middle"))
+    s.append(gold(c + 64, "ch78b"))
+    s.append('</svg>')
+    return "\n".join(s)
+
+
+def ch78c_yi_kuai_pai_wei():
+    W, H = 380, 726
+    body, y = head(W, H, "接过土的，才配当它的主",
+                   "第 七 十 八 章 · 社", "一块牌位", "受国不祥，是为天下王。", H)
+    s = [body]
+
+    s.append(box(20, y + 2, 340, 32, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, y + 14, "社，《说文》「地主也」，从示土——土神也。", 4.7, INK, "middle"))
+    s.append(txt(190, y + 27, "垢从土，社亦从土：一污一神；以污之一面自受，而后为神之一面之主。", 4.4, "#6E6459", "middle"))
+
+    s.append(txt(24, y + 50, "一、土：先是一捧土", 4.8, SEAL))
+    gy = y + 62
+    s.append(f'<rect x="26" y="{gy}" width="328" height="152" fill="#FBF6EC" stroke="{LINE}" stroke-width="0.8"/>')
+    s.append(f'<line x1="34" y1="{gy + 134}" x2="330" y2="{gy + 134}" stroke="{INK}" stroke-width="1"/>')
+    # 土堆
+    s.append(f'<path d="M96,{gy + 134} Q120,{gy + 96} 150,{gy + 92} Q182,{gy + 96} 206,{gy + 134} Z" fill="#DED2B8" stroke="{INK}" stroke-width="1.2"/>')
+    for i in range(6):
+        s.append(f'<circle cx="{112 + i * 14}" cy="{gy + 120 - (i % 3) * 10}" r="1.3" fill="#B9A98F"/>')
+    # 两只手捧起
+    s.append(f'<path d="M84,{gy + 112} Q100,{gy + 126} 116,{gy + 112}" fill="#EFE6D4" stroke="{INK}" stroke-width="1"/>')
+    s.append(f'<path d="M190,{gy + 112} Q206,{gy + 126} 222,{gy + 112}" fill="#EFE6D4" stroke="{INK}" stroke-width="1"/>')
+    for i in range(2):
+        s.append(f'<line x1="{92 + i * 8}" y1="{gy + 114}" x2="{91 + i * 8}" y2="{gy + 106}" stroke="{INK}" stroke-width="0.8"/>')
+        s.append(f'<line x1="{198 + i * 8}" y1="{gy + 114}" x2="{197 + i * 8}" y2="{gy + 106}" stroke="{INK}" stroke-width="0.8"/>')
+    s.append(txt(150, gy + 78, "一捧土", 4.4, SEAL, "middle"))
+    s.append(txt(252, gy + 104, "垢就是土：", 4.3, SEAL))
+    s.append(txt(252, gy + 116, "最脏的那一面", 4.3, "#6E6459"))
+    s.append(txt(190, gy + 168, "土是最贱的东西：踩在脚下，也落在衣上", 4.6, GREEN, "middle"))
+
+    s.append(txt(24, gy + 192, "二、同一捧土，立成社主", 4.8, GREEN))
+    gy2 = gy + 204
+    s.append(f'<rect x="26" y="{gy2}" width="328" height="152" fill="#FBF6EC" stroke="{LINE}" stroke-width="0.8"/>')
+    s.append(f'<line x1="34" y1="{gy2 + 134}" x2="330" y2="{gy2 + 134}" stroke="{INK}" stroke-width="1"/>')
+    # 牌位：底座＋竖牌
+    s.append(f'<rect x="128" y="{gy2 + 126}" width="64" height="9" fill="#DED2B8" stroke="{INK}" stroke-width="1"/>')
+    s.append(f'<rect x="144" y="{gy2 + 46}" width="32" height="80" fill="#EFE6D4" stroke="{INK}" stroke-width="1.2"/>')
+    s.append(f'<rect x="150" y="{gy2 + 40}" width="20" height="7" fill="#DED2B8" stroke="{INK}" stroke-width="1"/>')
+    s.append(txt(160, gy2 + 92, "社", 15, SEAL, "middle"))
+    # 一抹土色贴在牌上
+    s.append(f'<path d="M144,{gy2 + 116} q16,-6 32,0" fill="none" stroke="#B9A98F" stroke-width="1"/>')
+    s.append(txt(196, gy2 + 66, "接过土的，", 4.3, SEAL))
+    s.append(txt(196, gy2 + 78, "才配当它的主", 4.3, SEAL))
+    s.append(txt(190, gy2 + 168, "土神不是另请一位：是把接过的那捧土立起来", 4.6, GREEN, "middle"))
+
+    a = gy2 + 192
+    s.append(txt(24, a, "受垢者不是不脏：是脏过之后还立得住，于是那块土立成了他的位。", 4.8, INK))
+    s.append(txt(24, a + 16, "受不祥者，自置于羊之位也：羊在神主之前，先被牵去。", 4.8, INK))
+    s.append(txt(24, a + 34, "垢从土，社从土：一污一神，同一块土。", 5.0, GREEN))
+
+    c = a + 52
+    s.append(f'<line x1="24" y1="{c}" x2="338" y2="{c}" stroke="{LINE}" stroke-width="0.6"/>')
+    s.append(box(20, c + 8, 340, 40, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, c + 23, "受国不祥，是为天下王。", 5.4, INK, "middle"))
+    s.append(txt(190, c + 36, "社者，地主也，从示土。", 4.7, GREEN, "middle"))
+    s.append(gold(c + 64, "ch78c"))
+    s.append('</svg>')
+    return "\n".join(s)
+
+
 GOLD = {
     "ch74a": ["常有司杀者杀。", "司者，《说文》曰「臣司事于外者，从反后」；"],
     "ch74b": ["夫代司杀者杀，是谓代大匠斫。", "斫者，《说文》曰「击也」，从斤——一下而断，不可复也。"],
@@ -3901,6 +4076,9 @@ GOLD = {
     "ch77a": ["天之道，其犹张弓与？", "张者，《说文》曰「施弓弦也」——非拉弓也，上弦也。"],
     "ch77b": ["有余者损之，不足者补之。", "补者，《说文》曰「完衣也」——缝也，非给也。"],
     "ch77c": ["人之道则不然，损不足以奉有余。", "奉者，《说文》曰「承也」，从手从廾——两手捧而献之。"],
+    "ch78a": ["天下莫柔弱于水，而攻坚强者莫之能胜，以其无以易之。", "易者，《说文》曰「蜥蜴」，一说象两器倾水之形。"],
+    "ch78b": ["受国之垢，是谓社稷主。", "垢者，《说文》曰「浊也」，从土——垢即土也。"],
+    "ch78c": ["受国不祥，是为天下王。", "社者，《说文》曰「地主也」，从示土——土神也。"],
     "ch73a": ["勇于敢则杀，勇于不敢则活。", "气无方向，向由敢定；"],
     "ch73b": ["繟者，《说文》曰「带缓也」，从糸——带系之松也。", "人之谋也系紧，紧则勒，勒处即崩处；"],
     "ch73c": ["天网恢恢，疏而不失。", "疏者，《说文》曰「通也」，非稀也；"],
@@ -10132,6 +10310,9 @@ FIGS = {
     "ch77a-yi-zhang-xian": ("第七十七章", "一张弦", ch77a_yi_zhang_xian),
     "ch77b-yi-jian-po-yi": ("第七十七章", "一件破衣", ch77b_yi_jian_po_yi),
     "ch77c-liang-zhi-shou": ("第七十七章", "两只捧起的手", ch77c_liang_zhi_shou),
+    "ch78a-yi-zhi-qi": ("第七十八章", "一只器", ch78a_yi_zhi_qi),
+    "ch78b-yi-peng-tu": ("第七十八章", "一捧土", ch78b_yi_peng_tu),
+    "ch78c-yi-kuai-pai-wei": ("第七十八章", "一块牌位", ch78c_yi_kuai_pai_wei),
 }
 
 
