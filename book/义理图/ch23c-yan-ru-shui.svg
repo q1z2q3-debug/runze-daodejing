@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 380 714" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="同于道者，道亦乐得之：你把自己放进什么里，就被什么收下" font-family="'Noto Serif CJK SC','Noto Serif SC','Songti SC',serif">
+<defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#6E6459"/></marker><marker id="arr2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#4A5C55"/></marker><marker id="arrL" viewBox="0 0 10 10" refX="1" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M10 0 L0 5 L10 10 z" fill="#4A5C55"/></marker><marker id="arrS" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#A2503B"/></marker></defs>
+<rect x="0" y="0" width="380" height="714" fill="#F8F3E6"/>
+<text x="20" y="26" font-size="11" fill="#A2503B" font-family="'Noto Sans CJK SC','Noto Sans SC',sans-serif" letter-spacing="3">第 二 十 三 章 · 一 撮 盐</text>
+<text x="20" y="58" font-size="21" fill="#2F2A24">一撮盐</text>
+<text x="20" y="78" font-size="10.5" fill="#6E6459">同于道者，道亦乐得之；同于失者，失亦乐得之。</text>
+<rect x="20" y="102" width="340" height="34" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="190" y="114" font-size="4.8" fill="#2F2A24" text-anchor="middle">「从事于道者，同于道」：你实行什么，就与什么同类。</text>
+<text x="190" y="127" font-size="4.8" fill="#6E6459">同类的东西互相收留，不必去求它收。</text>
+<text x="24" y="152" font-size="5.1" fill="#4A5C55">一、盐入水：化开，看不见了——水把它收下</text>
+<rect x="26" y="164" width="328" height="152" fill="#FBF6EC" stroke="#DCCBB0" stroke-width="0.8"/>
+<path d="M96,198 L104,276 L218,276 L226,198 Z" fill="#E9F0E6" stroke="#2F2A24" stroke-width="1.1"/>
+<ellipse cx="161.0" cy="198" rx="65.0" ry="7" fill="#F8F3E6" stroke="#2F2A24" stroke-width="1.0"/>
+<line x1="102" y1="216" x2="220" y2="216" stroke="#4A5C55" stroke-width="0.6" stroke-dasharray="4 3"/>
+<text x="161.0" y="212" font-size="3.7" fill="#4A5C55" text-anchor="middle">水面</text>
+<path d="M126,242 q22,-8 44,2 q22,10 46,0" fill="none" stroke="#4A5C55" stroke-width="0.6" opacity="0.6"/>
+<path d="M122,256 q24,-8 48,2 q22,10 44,-1" fill="none" stroke="#4A5C55" stroke-width="0.6" opacity="0.4"/>
+<text x="161.0" y="268" font-size="3.8" fill="#4A5C55" text-anchor="middle">盐已化尽，颗粒不在</text>
+<line x1="130" y1="176" x2="126" y2="192" stroke="#2F2A24" stroke-width="0.8"/>
+<path d="M122,194 q6,5 12,0" fill="none" stroke="#2F2A24" stroke-width="0.8"/>
+<text x="116" y="170" font-size="3.9" fill="#2F2A24">一撮盐</text>
+<text x="190" y="296" font-size="4.2" fill="#4A5C55" text-anchor="middle">化在水里：不是消失，是归到同类那儿去了</text>
+<text x="24" y="342" font-size="5.1" fill="#A2503B">二、盐上石：不进，就堆在面上；风一过，也留不住</text>
+<rect x="26" y="354" width="328" height="152" fill="#FBF6EC" stroke="#DCCBB0" stroke-width="0.8"/>
+<path d="M66,470 Q78,416 128,400 Q186,384 214,416 Q232,442 244,470 Z" fill="#EFE6D4" stroke="#2F2A24" stroke-width="1.2"/>
+<path d="M96,458 Q120,420 150,410 M140,464 Q170,430 196,424" fill="none" stroke="#E6D8C2" stroke-width="0.7"/>
+<circle cx="152" cy="394" r="1.6" fill="#8A7C69"/>
+<circle cx="161" cy="394" r="1.6" fill="#8A7C69"/>
+<circle cx="170" cy="394" r="1.6" fill="#8A7C69"/>
+<circle cx="152" cy="389" r="1.6" fill="#8A7C69"/>
+<circle cx="161" cy="389" r="1.6" fill="#8A7C69"/>
+<circle cx="170" cy="389" r="1.6" fill="#8A7C69"/>
+<text x="182" y="384" font-size="3.9" fill="#A2503B">盐堆在石面上，进不去</text>
+<line x1="92" y1="374" x2="168" y2="374" stroke="#B7A99A" stroke-width="0.7"/>
+<line x1="101" y1="374" x2="177" y2="374" stroke="#B7A99A" stroke-width="0.7"/>
+<line x1="110" y1="374" x2="186" y2="374" stroke="#B7A99A" stroke-width="0.7"/>
+<line x1="196" y1="374" x2="224" y2="374" stroke="#B7A99A" stroke-width="0.7" marker-end="url(#arr2)"/>
+<text x="228" y="369" font-size="3.8" fill="#8A7C69">风过，盐散</text>
+<circle cx="226" cy="386" r="1.2" fill="#8A7C69" opacity="0.6"/>
+<circle cx="234" cy="391" r="1.2" fill="#8A7C69" opacity="0.48"/>
+<circle cx="242" cy="386" r="1.2" fill="#8A7C69" opacity="0.36"/>
+<circle cx="250" cy="391" r="1.2" fill="#8A7C69" opacity="0.24"/>
+<text x="190" y="486" font-size="4.2" fill="#A2503B" text-anchor="middle">「信不足焉，有不信焉」：没进到那一处，就谈不上信</text>
+<text x="24" y="528" font-size="4.8" fill="#2F2A24">盐入水则化，入石则堆：同一撮盐，收不收在它落的地方。</text>
+<text x="24" y="544" font-size="4.8" fill="#2F2A24">「同于失者，失亦乐得之」：不是惩罚，是你站在哪儿，哪儿就把你计入。</text>
+<text x="24" y="562" font-size="4.8" fill="#4A5C55">所以要紧的不是求它收，是先看清自己落在哪一层。</text>
+<line x1="24" y1="580" x2="338" y2="580" stroke="#DCCBB0" stroke-width="0.6"/>
+<rect x="20" y="588" width="340" height="40" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="190" y="604" font-size="6.0" fill="#2F2A24" text-anchor="middle">同于道者，道亦乐得之。</text>
+<text x="190" y="616" font-size="5.0" fill="#4A5C55" text-anchor="middle">信不足焉，有不信焉。</text>
+<line x1="20" y1="642" x2="360" y2="642" stroke="#E6D8C2" stroke-width="0.8"/>
+<text x="20" y="656" font-size="8.0" fill="#A89577" letter-spacing="1">本 章 金 句</text>
+<text x="20" y="672" font-size="8.4" fill="#2F2A24">同于道者，道亦乐得之。</text>
+<text x="20" y="688" font-size="8.4" fill="#2F2A24">你把自己放进什么里，就被什么收下。</text>
+</svg>

@@ -7608,6 +7608,8 @@ GOLD = {
     "ch21c": ["自今及古，其名不去，以阅众甫。", "不是知道得多，是站对了地方。"],
     "ch22b": ["曲则全，枉则直，洼则盈，敝则新。", "弯的能受，所以能全；低的能聚，所以能盈。"],
     "ch22c": ["圣人抱一，为天下式。", "抱一，不是统一别人，是不让自己裂开。"],
+    "ch23b": ["希言自然。飘风不终朝，骤雨不终日。", "天地做不出一场长雨，人也做不出一段长言。"],
+    "ch23c": ["同于道者，道亦乐得之。", "你把自己放进什么里，就被什么收下。"],
     "ch06b": ["谷神不死，是谓玄牝。", "谷者，两山间之空也；能受故能生，生而不有故不竭——生机不在满处，在空处。"],
     "ch06c": ["玄牝之门，是谓天地根。", "门在开合处，不在门板上；一着手去推，它就成了一堵墙。"],
     "ch05b": ["天地不仁，以万物为刍狗。", "刍者，束草也；刍狗有位而无主——用毕回草堆，不是被弃，是位次用完了。"],
@@ -7828,6 +7830,136 @@ def gold(y, key):
 
 
 # ============ 第二十三章 · 希言自然 ============
+def ch23b_zhou_yu():
+    body, y = head(380, 999, "飘风不终朝，骤雨不终日：天地的力气也撑不久",
+                   "第 二 十 三 章 · 一 场 骤 雨", "一场骤雨", "孰为此者？天地。天地尚不能久，而况于人乎？", 999)
+    s = [body]
+
+    s.append(box(20, y + 2, 340, 34, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, y + 14, "「希言自然」：话少，才合乎自然的走法；多言即用力，用力必不久。", 4.7, INK, "middle"))
+    s.append(txt(190, y + 27, "先把「不久」这件事，交给天地自己演一遍。", 4.7, "#6E6459"))
+
+    # 一、骤雨
+    s.append(txt(24, y + 52, "一、骤雨：来得猛，走得也快；旁边的更漏只走了一小格", 5.1, SEAL))
+    gy = y + 64
+    s.append(f'<rect x="26" y="{gy}" width="328" height="140" fill="#FBF6EC" stroke="{LINE}" stroke-width="0.8"/>')
+    for k in range(14):
+        x = 44 + k * 13
+        s.append(f'<line x1="{x}" y1="{gy + 16}" x2="{x - 9}" y2="{gy + 62}" stroke="#8A7C69" stroke-width="0.8" opacity="0.75"/>')
+    s.append(f'<ellipse cx="150" cy="{gy + 14}" rx="112" ry="14" fill="#EFE6D4" opacity="0.75" stroke="none"/>')
+    s.append(f'<ellipse cx="96" cy="{gy + 12}" rx="52" ry="11" fill="#EFE6D4" opacity="0.6" stroke="none"/>')
+    s.append(f'<ellipse cx="206" cy="{gy + 12}" rx="46" ry="10" fill="#EFE6D4" opacity="0.6" stroke="none"/>')
+    s.append(f'<path d="M36,{gy + 68} q40,8 84,2 q46,-6 92,2 q44,8 86,-1" fill="none" stroke="{LINE2}" stroke-width="1.0"/>')
+    s.append(txt(70, gy + 84, "一阵就过", 4.0, "#8A7C69"))
+    # 更漏
+    s.append(f'<path d="M232,{gy + 30} L268,{gy + 30} L262,{gy + 46} L252,{gy + 78} L248,{gy + 78} L238,{gy + 46} Z" fill="none" stroke="{INK}" stroke-width="1.1"/>')
+    s.append(f'<line x1="232" y1="{gy + 30}" x2="268" y2="{gy + 30}" stroke="{INK}" stroke-width="1.1"/>')
+    s.append(f'<path d="M238,{gy + 52} L262,{gy + 52} L256,{gy + 74} L244,{gy + 74} Z" fill="#EFE6D4" stroke="none"/>')
+    for yy in [gy + 40, gy + 46, gy + 52]:
+        s.append(f'<line x1="236" y1="{yy}" x2="240" y2="{yy}" stroke="{LINE}" stroke-width="0.6"/>')
+    s.append(txt(292, gy + 44, "只走一格", 3.9, SEAL))
+    s.append(f'<line x1="286" y1="{gy + 48}" x2="256" y2="{gy + 48}" stroke="{LINE}" stroke-width="0.5"/>')
+    s.append(f'<path d="M232,{gy + 100} L272,{gy + 100}" stroke="none"/>')
+    s.append(txt(250, gy + 104, "更漏：量时之物，此处只量到一小段", 3.8, "#8A7C69", "middle"))
+    s.append(txt(150, gy + 124, "飘风不终朝，骤雨不终日：连天地也做不出一场长雨", 4.2, SEAL, "middle"))
+
+    # 二、多言
+    s.append(txt(24, gy + 164, "二、多言即用力：一口气喊出去，声圈越散越淡", 5.1, GREEN))
+    gy2 = gy + 176
+    s.append(f'<rect x="26" y="{gy2}" width="328" height="150" fill="#FBF6EC" stroke="{LINE}" stroke-width="0.8"/>')
+    px, py = 104, gy2 + 54
+    s.append(f'<circle cx="{px}" cy="{py}" r="6.4" fill="none" stroke="{INK}" stroke-width="1.0"/>')
+    s.append(f'<line x1="{px}" y1="{py + 7}" x2="{px}" y2="{py + 44}" stroke="{INK}" stroke-width="1.2"/>')
+    s.append(f'<line x1="{px}" y1="{py + 44}" x2="{px - 8}" y2="{py + 62}" stroke="{INK}" stroke-width="0.9"/>')
+    s.append(f'<line x1="{px}" y1="{py + 44}" x2="{px + 8}" y2="{py + 62}" stroke="{INK}" stroke-width="0.9"/>')
+    s.append(f'<line x1="{px}" y1="{py + 20}" x2="{px + 16}" y2="{py + 12}" stroke="{INK}" stroke-width="0.9"/>')
+    s.append(f'<line x1="{px}" y1="{py + 22}" x2="{px - 14}" y2="{py + 30}" stroke="{INK}" stroke-width="0.9"/>')
+    s.append(f'<path d="M{px + 12},{py - 2} q10,6 0,12" fill="none" stroke="{SEAL}" stroke-width="0.8"/>')
+    for k, (rx, ry, op) in enumerate([(16, 10, 0.9), (30, 18, 0.6), (44, 26, 0.35), (58, 34, 0.2)]):
+        s.append(f'<ellipse cx="{px + 26 + k * 6}" cy="{py + 4}" rx="{rx}" ry="{ry}" fill="none" stroke="{SEAL}" stroke-width="0.8" opacity="{op}"/>')
+    s.append(txt(px + 96, py - 22, "越散越淡", 4.0, SEAL))
+    for k in range(3):
+        s.append(f'<line x1="{286 + k * 14}" y1="{gy2 + 34}" x2="{300 + k * 14}" y2="{gy2 + 34}" stroke="#DCCFBB" stroke-width="0.6"/>')
+    s.append(txt(300, gy2 + 26, "风已经停了", 3.8, "#8A7C69", "middle"))
+    s.append(txt(190, gy2 + 132, "话一多，就得一直用力把它撑着；一停，就不见了", 4.2, GREEN, "middle"))
+
+    a = gy2 + 174
+    s.append(txt(24, a, "天地做不出一场长雨，人也做不出一段长言：这不是悲观，是把力的限度先量清。", 4.8, INK))
+    s.append(txt(24, a + 16, "「希言」不是不说话，是不拿话去替代那件要长久的事。", 4.8, INK))
+    s.append(txt(24, a + 34, "飘风骤雨之后，地还是干的；话说尽之后，事还是没动。", 4.8, GREEN))
+
+    c = a + 52
+    s.append(f'<line x1="24" y1="{c}" x2="338" y2="{c}" stroke="{LINE}" stroke-width="0.6"/>')
+    s.append(box(20, c + 8, 340, 40, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, c + 24, "希言自然。飘风不终朝，骤雨不终日。", 5.4, INK, "middle"))
+    s.append(txt(190, c + 36, "天地尚不能久，而况于人乎？", 5.0, GREEN, "middle"))
+    s.append(gold(c + 62, "ch23b"))
+    s.append('</svg>')
+    out = "\n".join(s)
+    ys = [float(v) for v in re.findall(r'y="([0-9.]+)"', out)]
+    return out.replace("999", str(int(max(ys) + 26)))
+
+
+def ch23c_yan_ru_shui():
+    body, y = head(380, 999, "同于道者，道亦乐得之：你把自己放进什么里，就被什么收下",
+                   "第 二 十 三 章 · 一 撮 盐", "一撮盐", "同于道者，道亦乐得之；同于失者，失亦乐得之。", 999)
+    s = [body]
+
+    s.append(box(20, y + 2, 340, 34, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, y + 14, "「从事于道者，同于道」：你实行什么，就与什么同类。", 4.8, INK, "middle"))
+    s.append(txt(190, y + 27, "同类的东西互相收留，不必去求它收。", 4.8, "#6E6459"))
+
+    # 一、盐入水
+    s.append(txt(24, y + 52, "一、盐入水：化开，看不见了——水把它收下", 5.1, GREEN))
+    gy = y + 64
+    s.append(f'<rect x="26" y="{gy}" width="328" height="152" fill="#FBF6EC" stroke="{LINE}" stroke-width="0.8"/>')
+    bx, by, bw, bh = 96, gy + 34, 130, 78
+    s.append(f'<path d="M{bx},{by} L{bx + 8},{by + bh} L{bx + bw - 8},{by + bh} L{bx + bw},{by} Z" fill="#E9F0E6" stroke="{INK}" stroke-width="1.1"/>')
+    s.append(f'<ellipse cx="{bx + bw / 2}" cy="{by}" rx="{bw / 2}" ry="7" fill="{PAPER}" stroke="{INK}" stroke-width="1.0"/>')
+    s.append(f'<line x1="{bx + 6}" y1="{by + 18}" x2="{bx + bw - 6}" y2="{by + 18}" stroke="{GREEN}" stroke-width="0.6" stroke-dasharray="4 3"/>')
+    s.append(txt(bx + bw / 2, by + 14, "水面", 3.7, GREEN, "middle"))
+    s.append(f'<path d="M{bx + 30},{by + 44} q22,-8 44,2 q22,10 46,0" fill="none" stroke="{GREEN}" stroke-width="0.6" opacity="0.6"/>')
+    s.append(f'<path d="M{bx + 26},{by + 58} q24,-8 48,2 q22,10 44,-1" fill="none" stroke="{GREEN}" stroke-width="0.6" opacity="0.4"/>')
+    s.append(txt(bx + bw / 2, by + 70, "盐已化尽，颗粒不在", 3.8, GREEN, "middle"))
+    s.append(f'<line x1="{bx + 34}" y1="{by - 22}" x2="{bx + 30}" y2="{by - 6}" stroke="{INK}" stroke-width="0.8"/>')
+    s.append(f'<path d="M{bx + 26},{by - 4} q6,5 12,0" fill="none" stroke="{INK}" stroke-width="0.8"/>')
+    s.append(txt(bx + 20, by - 28, "一撮盐", 3.9, INK))
+    s.append(txt(190, gy + 132, "化在水里：不是消失，是归到同类那儿去了", 4.2, GREEN, "middle"))
+
+    # 二、盐上石
+    s.append(txt(24, gy + 178, "二、盐上石：不进，就堆在面上；风一过，也留不住", 5.1, SEAL))
+    gy2 = gy + 190
+    s.append(f'<rect x="26" y="{gy2}" width="328" height="152" fill="#FBF6EC" stroke="{LINE}" stroke-width="0.8"/>')
+    s.append(f'<path d="M66,{gy2 + 116} Q78,{gy2 + 62} 128,{gy2 + 46} Q186,{gy2 + 30} 214,{gy2 + 62} Q232,{gy2 + 88} 244,{gy2 + 116} Z" fill="#EFE6D4" stroke="{INK}" stroke-width="1.2"/>')
+    s.append(f'<path d="M96,{gy2 + 104} Q120,{gy2 + 66} 150,{gy2 + 56} M140,{gy2 + 110} Q170,{gy2 + 76} 196,{gy2 + 70}" fill="none" stroke="{LINE2}" stroke-width="0.7"/>')
+    for k in range(6):
+        s.append(f'<circle cx="{152 + (k % 3) * 9}" cy="{gy2 + 40 - (k // 3) * 5}" r="1.6" fill="#8A7C69"/>')
+    s.append(txt(182, gy2 + 30, "盐堆在石面上，进不去", 3.9, SEAL))
+    for k in range(3):
+        s.append(f'<line x1="{92 + k * 9}" y1="{gy2 + 20}" x2="{168 + k * 9}" y2="{gy2 + 20}" stroke="#B7A99A" stroke-width="0.7"/>')
+    s.append(arrow(196, gy2 + 20, 224, gy2 + 20, "#B7A99A", 0.7, None, "arr2"))
+    s.append(txt(228, gy2 + 15, "风过，盐散", 3.8, "#8A7C69"))
+    for k in range(4):
+        s.append(f'<circle cx="{226 + k * 8}" cy="{gy2 + 32 + (k % 2) * 5}" r="1.2" fill="#8A7C69" opacity="{0.6 - k * 0.12}"/>')
+    s.append(txt(190, gy2 + 132, "「信不足焉，有不信焉」：没进到那一处，就谈不上信", 4.2, SEAL, "middle"))
+
+    a = gy2 + 174
+    s.append(txt(24, a, "盐入水则化，入石则堆：同一撮盐，收不收在它落的地方。", 4.8, INK))
+    s.append(txt(24, a + 16, "「同于失者，失亦乐得之」：不是惩罚，是你站在哪儿，哪儿就把你计入。", 4.8, INK))
+    s.append(txt(24, a + 34, "所以要紧的不是求它收，是先看清自己落在哪一层。", 4.8, GREEN))
+
+    c = a + 52
+    s.append(f'<line x1="24" y1="{c}" x2="338" y2="{c}" stroke="{LINE}" stroke-width="0.6"/>')
+    s.append(box(20, c + 8, 340, 40, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, c + 24, "同于道者，道亦乐得之。", 6.0, INK, "middle"))
+    s.append(txt(190, c + 36, "信不足焉，有不信焉。", 5.0, GREEN, "middle"))
+    s.append(gold(c + 62, "ch23c"))
+    s.append('</svg>')
+    out = "\n".join(s)
+    ys = [float(v) for v in re.findall(r'y="([0-9.]+)"', out)]
+    return out.replace("999", str(int(max(ys) + 26)))
+
+
 def ch23_xi_yan_zi_ran():
     W, H = 380, 486
     body, y = head(W, H, "多言本身就是用力，用力过猛的东西撑不久", "第 二 十 三 章 · 自 然", "希言自然",
@@ -13779,6 +13911,8 @@ FIGS = {
     "ch21c-men-nei-dian-shu": ("第二十一章", "门内点数", ch21c_men_nei_dian_shu),
     "ch22b-qu-mu-cao": ("第二十二章", "一只曲木槽", ch22b_qu_mu_cao),
     "ch22c-bao-yi": ("第二十二章", "抱一与五牌", ch22c_bao_yi),
+    "ch23b-zhou-yu": ("第二十三章", "一场骤雨", ch23b_zhou_yu),
+    "ch23c-yan-ru-shui": ("第二十三章", "一撮盐", ch23c_yan_ru_shui),
     "ch24-qi-zhe-bu-li": ("第二十四章", "企者不立", ch24_qi_zhe_bu_li),
     "ch23-xi-yan-zi-ran": ("第二十三章", "希言自然", ch23_xi_yan_zi_ran),
     "ch22-qu-ze-quan": ("第二十二章", "曲则全", ch22_qu_ze_quan),
