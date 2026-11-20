@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 380 728" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="顺着走，禾就下来；逆着走，刀就卡" font-family="'Noto Serif CJK SC','Noto Serif SC','Songti SC',serif">
+<defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#6E6459"/></marker><marker id="arr2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#4A5C55"/></marker><marker id="arrL" viewBox="0 0 10 10" refX="1" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M10 0 L0 5 L10 10 z" fill="#4A5C55"/></marker><marker id="arrS" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#A2503B"/></marker></defs>
+<rect x="0" y="0" width="380" height="728" fill="#F8F3E6"/>
+<text x="20" y="26" font-size="11" fill="#A2503B" font-family="'Noto Sans CJK SC','Noto Sans SC',sans-serif" letter-spacing="3">第 八 十 一 章 · 刀</text>
+<text x="20" y="58" font-size="21" fill="#2F2A24">一把刀</text>
+<text x="20" y="78" font-size="10.5" fill="#6E6459">天之道，利而不害；圣人之道，为而不争。</text>
+<rect x="20" y="102" width="340" height="32" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="190" y="114" font-size="4.7" fill="#2F2A24" text-anchor="middle">它不砍，只是顺着禾走：顺着走，禾就下来。</text>
+<text x="190" y="127" font-size="4.5" fill="#6E6459" text-anchor="middle">刀是「不害」的做法：利者，顺也，不是加力。</text>
+<text x="24" y="150" font-size="4.8" fill="#A2503B">一、顺着走：禾下来</text>
+<rect x="26" y="162" width="328" height="152" fill="#FBF6EC" stroke="#DCCBB0" stroke-width="0.8"/>
+<line x1="34" y1="288" x2="330" y2="288" stroke="#2F2A24" stroke-width="1"/>
+<line x1="110" y1="288" x2="110" y2="228" stroke="#4A5C55" stroke-width="1.4"/>
+<line x1="150" y1="288" x2="150" y2="214" stroke="#4A5C55" stroke-width="1.4"/>
+<line x1="190" y1="288" x2="190" y2="234" stroke="#4A5C55" stroke-width="1.4"/>
+<path d="M110,230 q7,9 1,17" fill="none" stroke="#4A5C55" stroke-width="1"/>
+<circle cx="107" cy="235" r="1.4" fill="#4A5C55"/>
+<circle cx="107" cy="239" r="1.4" fill="#4A5C55"/>
+<circle cx="107" cy="243" r="1.4" fill="#4A5C55"/>
+<path d="M150,216 q7,9 1,17" fill="none" stroke="#4A5C55" stroke-width="1"/>
+<circle cx="147" cy="221" r="1.4" fill="#4A5C55"/>
+<circle cx="147" cy="225" r="1.4" fill="#4A5C55"/>
+<circle cx="147" cy="229" r="1.4" fill="#4A5C55"/>
+<path d="M190,236 q7,9 1,17" fill="none" stroke="#4A5C55" stroke-width="1"/>
+<circle cx="187" cy="241" r="1.4" fill="#4A5C55"/>
+<circle cx="187" cy="245" r="1.4" fill="#4A5C55"/>
+<circle cx="187" cy="249" r="1.4" fill="#4A5C55"/>
+<path d="M228,206 L282,258" stroke="#2F2A24" stroke-width="3"/>
+<path d="M282,258 L288,254 L284,262 Z" fill="#2F2A24" stroke="none"/>
+<line x1="228" y1="206" x2="222" y2="200" stroke="#A2503B" stroke-width="2"/>
+<path d="M244,210 L286,244" stroke="#A2503B" stroke-width="0.7" stroke-dasharray="3 3"/>
+<path d="M281,238 l7,5 l-8,1" fill="none" stroke="#A2503B" stroke-width="0.7"/>
+<text x="252" y="198" font-size="4.6" fill="#A2503B" text-anchor="middle">顺</text>
+<text x="190" y="310" font-size="4.6" fill="#4A5C55" text-anchor="middle">刀顺着禾走，禾就下来</text>
+<text x="24" y="354" font-size="4.8" fill="#4A5C55">二、逆着走：刀卡住</text>
+<rect x="26" y="366" width="328" height="152" fill="#FBF6EC" stroke="#DCCBB0" stroke-width="0.8"/>
+<line x1="34" y1="492" x2="330" y2="492" stroke="#2F2A24" stroke-width="1"/>
+<line x1="110" y1="492" x2="110" y2="424" stroke="#4A5C55" stroke-width="1.4"/>
+<line x1="150" y1="492" x2="150" y2="424" stroke="#4A5C55" stroke-width="1.4"/>
+<line x1="190" y1="492" x2="190" y2="424" stroke="#4A5C55" stroke-width="1.4"/>
+<path d="M124,462 L182,462" stroke="#2F2A24" stroke-width="3"/>
+<line x1="124" y1="462" x2="116" y2="462" stroke="#A2503B" stroke-width="2"/>
+<line x1="140" y1="456" x2="140" y2="468" stroke="#A2503B" stroke-width="1"/>
+<line x1="164" y1="456" x2="164" y2="468" stroke="#A2503B" stroke-width="1"/>
+<path d="M186,462 L200,462" stroke="#A2503B" stroke-width="0.8" stroke-dasharray="3 2"/>
+<line x1="200" y1="455" x2="200" y2="469" stroke="#A2503B" stroke-width="1.1"/>
+<text x="196" y="448" font-size="4.4" fill="#A2503B" text-anchor="middle">卡住</text>
+<text x="190" y="514" font-size="4.6" fill="#4A5C55" text-anchor="middle">逆着走，刀就卡：力加在刃上，不在禾上</text>
+<text x="24" y="558" font-size="4.8" fill="#2F2A24">刀不砍，只是顺着禾走：顺是「不害」的做法。</text>
+<text x="24" y="574" font-size="4.8" fill="#2F2A24">逆着走，禾没下来，刀先卡住——力用在自己身上了。</text>
+<text x="24" y="592" font-size="5.0" fill="#4A5C55">天之道，利而不害；圣人之道，为而不争。</text>
+<line x1="24" y1="610" x2="338" y2="610" stroke="#DCCBB0" stroke-width="0.6"/>
+<rect x="20" y="618" width="340" height="40" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="190" y="633" font-size="4.8" fill="#2F2A24" text-anchor="middle">天之道，利而不害；圣人之道，为而不争。</text>
+<text x="190" y="646" font-size="4.7" fill="#4A5C55" text-anchor="middle">刀顺着禾走，禾才下来。</text>
+<line x1="20" y1="674" x2="360" y2="674" stroke="#E6D8C2" stroke-width="0.8"/>
+<text x="20" y="688" font-size="8.0" fill="#A89577" letter-spacing="1">本 章 金 句</text>
+<text x="20" y="704" font-size="8.4" fill="#2F2A24">天之道，利而不害；圣人之道，为而不争。</text>
+<text x="20" y="720" font-size="8.4" fill="#2F2A24">利者，顺也；不害者，不逆也。</text>
+</svg>
