@@ -1327,6 +1327,146 @@ def ch07c_yi_shan_zhai_men():
     return out.replace("999", str(int(max(ys) + 26)))
 
 
+def ch08b_yi_chu_di_chu():
+    body, y = head(380, 999, "位置低一点，对它没有分别——因为它有别的东西可以立",
+                   "第 八 章 · 低 处", "一处低处", "处众人之所恶，故几于道。", 999)
+    s = [body]
+
+    s.append(box(20, y + 2, 340, 34, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, y + 14, "「处众人之所恶」不是自苦，是把自己放在别人不要的位置上，而且安。", 4.9, INK, "middle"))
+    s.append(txt(190, y + 28, "一处是争来的位，一处是流到的位——位次要用力气守，归宿不必。", 4.9, "#6E6459", "middle"))
+
+    # 一、争高与就下
+    s.append(txt(24, y + 52, "一、争高与就下：人往上挤，水往下流", 5.2, GREEN))
+    gy = y + 64
+    s.append(f'<rect x="26" y="{gy}" width="328" height="180" fill="#FBF6EC" stroke="{LINE}" stroke-width="0.8"/>')
+    s.append(f'<line x1="190" y1="{gy + 12}" x2="190" y2="{gy + 168}" stroke="{LINE}" stroke-width="0.5" stroke-dasharray="2 3"/>')
+    # 左：一道坡，三个人往上走
+    sx0, sy0, sx1, sy1 = 36, gy + 152, 168, gy + 78
+    s.append(f'<line x1="{sx0}" y1="{sy0}" x2="{sx1}" y2="{sy1}" stroke="{INK}" stroke-width="1.2"/>')
+    s.append(f'<line x1="{sx1}" y1="{sy1}" x2="{sx1}" y2="{sy0}" stroke="{LINE}" stroke-width="0.6" stroke-dasharray="2 3"/>')
+    for fx in (66, 98, 130):
+        fy = sy0 - (fx - sx0) * (sy0 - sy1) / (sx1 - sx0)
+        s.append(f'<circle cx="{fx}" cy="{fy - 13}" r="2.6" fill="none" stroke="{INK}" stroke-width="0.8"/>')
+        s.append(f'<line x1="{fx}" y1="{fy - 10.4}" x2="{fx}" y2="{fy - 3}" stroke="{INK}" stroke-width="0.9"/>')
+        s.append(f'<line x1="{fx}" y1="{fy - 3}" x2="{fx - 3.5}" y2="{fy}" stroke="{INK}" stroke-width="0.8"/>')
+        s.append(f'<line x1="{fx}" y1="{fy - 3}" x2="{fx + 3.5}" y2="{fy}" stroke="{INK}" stroke-width="0.8"/>')
+        s.append(f'<line x1="{fx - 4}" y1="{fy - 7}" x2="{fx + 4}" y2="{fy - 9}" stroke="{INK}" stroke-width="0.7"/>')
+    s.append(arrow(48, sy0 - 6, 84, sy0 - 27, SEAL, 0.9, None, "arr2"))
+    s.append(txt(172, gy + 42, "争高", 4.6, SEAL, "end"))
+    s.append(txt(172, gy + 54, "位越高，越要守", 4.2, "#6E6459", "end"))
+    s.append(txt(100, gy + 168, "越往上，站的人越少，扶的人也越少", 4.2, "#6E6459", "middle"))
+    # 右：一谷，两股水往下流
+    s.append(f'<path d="M204,{gy + 58} L266,{gy + 134} L328,{gy + 58}" fill="none" stroke="{INK}" stroke-width="1.1"/>')
+    s.append(f'<path d="M238,{gy + 128} q14,-4 28,0 q14,4 28,0" fill="none" stroke="{INK}" stroke-width="0.9"/>')
+    s.append(f'<rect x="240" y="{gy + 129}" width="52" height="4.5" fill="#E4EAE0" stroke="none"/>')
+    s.append(arrow(212, gy + 48, 254, gy + 112, GREEN, 1.0, None, "arr2"))
+    s.append(arrow(320, gy + 48, 278, gy + 112, GREEN, 1.0, None, "arr2"))
+    s.append(txt(266, gy + 34, "就下", 4.6, GREEN, "middle"))
+    s.append(txt(266, gy + 152, "众人所恶：没人要的低处", 4.2, "#6E6459", "middle"))
+    s.append(txt(266, gy + 166, "安得住，是因为不靠位置定义自己", 4.2, GREEN, "middle"))
+
+    # 二、江海为百谷王
+    s.append(txt(24, gy + 196, "二、江海：把自己放在最低处，百川自来", 5.2, GREEN))
+    gy2 = gy + 208
+    s.append(f'<rect x="26" y="{gy2}" width="328" height="176" fill="#FBF6EC" stroke="{LINE}" stroke-width="0.8"/>')
+    # 水面
+    s.append(f'<rect x="40" y="{gy2 + 120}" width="300" height="40" fill="#E4EAE0" stroke="none"/>')
+    s.append(f'<path d="M40,{gy2 + 120} q20,-5 40,0 q20,5 40,0 q20,-5 40,0 q20,5 40,0 q20,-5 40,0 q20,5 40,0 q20,-5 40,0" fill="none" stroke="{INK}" stroke-width="0.9"/>')
+    s.append(f'<line x1="40" y1="{gy2 + 160}" x2="340" y2="{gy2 + 160}" stroke="{LINE}" stroke-width="0.6"/>')
+    # 五条川，自高处归下
+    for rx in (66, 124, 190, 256, 314):
+        s.append(f'<path d="M{rx},{gy2 + 18} C {rx + 8},{gy2 + 56} {rx + 4},{gy2 + 92} {rx},{gy2 + 116}" fill="none" stroke="{GREEN}" stroke-width="1.0"/>')
+        s.append(arrow(rx, gy2 + 92, rx, gy2 + 114, GREEN, 0.9, None, "arr2"))
+        s.append(f'<line x1="{rx - 8}" y1="{gy2 + 24}" x2="{rx + 8}" y2="{gy2 + 24}" stroke="{LINE}" stroke-width="0.5"/>')
+    s.append(txt(54, gy2 + 146, "江海", 5.4, INK))
+    s.append(txt(334, gy2 + 146, "百川归之", 4.4, GREEN, "end"))
+    s.append(txt(190, gy2 + 168, "它不召、不催、不争——只在最低处，水自然来", 4.2, "#6E6459", "middle"))
+
+    a = gy2 + 196
+    s.append(txt(24, a, "「恶」读 wù：厌弃、嫌弃。低处是人人躲开的地方，水偏偏在那里聚。", 5.2, INK))
+    s.append(txt(24, a + 16, "它能安，是因为不靠位置来定义自己：位置高一点低一点，对它没有分别。", 5.2, INK))
+    s.append(txt(24, a + 34, "学水不是学它的德，是学它把自己放到哪儿——先挪身，再谈修德。", 5.0, GREEN))
+
+    c = a + 52
+    s.append(f'<line x1="24" y1="{c}" x2="338" y2="{c}" stroke="{LINE}" stroke-width="0.6"/>')
+    s.append(box(20, c + 8, 340, 40, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, c + 24, "低处不是惩罚，是不必守的位置；", 6.0, INK, "middle"))
+    s.append(txt(190, c + 36, "水往那里去，是不争。", 6.0, GREEN, "middle"))
+    s.append(gold(c + 62, "ch08b"))
+    s.append('</svg>')
+    out = "\n".join(s)
+    ys = [float(v) for v in re.findall(r'y="([0-9.]+)"', out)]
+    return out.replace("999", str(int(max(ys) + 26)))
+
+
+def ch08c_qi_jie_tong_guan():
+    body, y = head(380, 999, "七善是一条链：不是七条戒律；链底是同一个本体",
+                   "第 八 章 · 七 善", "一根七节管", "居善地，心善渊，与善仁，言善信，政善治，事善能，动善时。", 999)
+    s = [body]
+
+    s.append(box(20, y + 2, 340, 34, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, y + 14, "七句常被读成七条并列的品德，各自打分。不是：它有次序，也有同一个底。", 4.9, INK, "middle"))
+    s.append(txt(190, y + 28, "先安身，再安心；心安了才有仁、有信；仁信立住，才谈得上理事、处事、动止。", 4.9, "#6E6459", "middle"))
+
+    # 一、七只并排的短管
+    s.append(txt(24, y + 52, "一、劈成七节：各盛一点，各打一个勾", 5.2, SEAL))
+    gy = y + 64
+    s.append(f'<rect x="26" y="{gy}" width="328" height="180" fill="#FBF6EC" stroke="{LINE}" stroke-width="0.8"/>')
+    names = ["地", "渊", "仁", "信", "治", "能", "时"]
+    for i, nm in enumerate(names):
+        cx = 26 + 24 + i * 45.5
+        s.append(f'<rect x="{cx - 15:.0f}" y="{gy + 66}" width="30" height="46" fill="{PAPER}" stroke="{INK}" stroke-width="1.0"/>')
+        s.append(f'<rect x="{cx - 13:.0f}" y="{gy + 82}" width="26" height="28" fill="#E4EAE0" stroke="none"/>')
+        s.append(f'<line x1="{cx - 13:.0f}" y1="{gy + 82}" x2="{cx + 13:.0f}" y2="{gy + 82}" stroke="{LINE}" stroke-width="0.6"/>')
+        s.append(f'<line x1="{cx - 3:.0f}" y1="{gy + 40}" x2="{cx + 1:.0f}" y2="{gy + 50}" stroke="{SEAL}" stroke-width="1.0"/>')
+        s.append(f'<line x1="{cx + 1:.0f}" y1="{gy + 50}" x2="{cx + 9:.0f}" y2="{gy + 34}" stroke="{SEAL}" stroke-width="1.1"/>')
+        s.append(txt(cx, gy + 130, nm, 4.4, INK, "middle"))
+        s.append(txt(cx, gy + 142, "一勾", 3.9, "#6E6459", "middle"))
+    s.append(txt(190, gy + 166, "分开摆：各自打分，水在每一节停着——七善成了七条互不相干的戒律", 4.3, SEAL, "middle"))
+
+    # 二、一根七节通管
+    s.append(txt(24, gy + 196, "二、接成一根：一节通了，下一节才满", 5.2, GREEN))
+    gy2 = gy + 208
+    s.append(f'<rect x="26" y="{gy2}" width="328" height="176" fill="#FBF6EC" stroke="{LINE}" stroke-width="0.8"/>')
+    tx0, tx1 = 40, 340
+    ty0, ty1 = gy2 + 54, gy2 + 78
+    s.append(f'<rect x="{tx0}" y="{ty0}" width="{tx1 - tx0}" height="{ty1 - ty0}" fill="#E4EAE0" stroke="{INK}" stroke-width="1.2"/>')
+    seg = (tx1 - tx0) / 7.0
+    for i in range(1, 7):
+        nx = tx0 + seg * i
+        s.append(f'<line x1="{nx:.0f}" y1="{ty0 - 3}" x2="{nx:.0f}" y2="{ty1 + 3}" stroke="{INK}" stroke-width="1.6"/>')
+        s.append(f'<line x1="{nx + 3:.0f}" y1="{ty0 - 3}" x2="{nx + 3:.0f}" y2="{ty1 + 3}" stroke="{INK}" stroke-width="1.0"/>')
+    for i, nm in enumerate(names):
+        cx = tx0 + seg * (i + 0.5)
+        s.append(txt(cx, ty0 - 12, nm, 4.4, INK, "middle"))
+        s.append(arrow(cx - 8, ty0 + 11, cx + 10, ty0 + 11, GREEN, 0.8, None, "arr2"))
+    s.append(arrow(tx0 - 12, ty0 + 11, tx0 - 2, ty0 + 11, GREEN, 1.0, None, "arr2"))
+    s.append(arrow(tx1 + 2, ty0 + 11, tx1 + 12, ty0 + 11, GREEN, 1.0, None, "arr2"))
+    s.append(txt(30, ty0 - 12, "身", 4.2, SEAL))
+    s.append(txt(350, ty0 - 12, "事", 4.2, SEAL, "end"))
+    s.append(f'<rect x="30" y="{gy2 + 126}" width="320" height="26" fill="#E4EAE0" stroke="{LINE}" stroke-width="0.8"/>')
+    s.append(f'<line x1="{tx0 + 6}" y1="{ty1 + 4}" x2="{tx0 + 6}" y2="{gy2 + 126}" stroke="{GREEN}" stroke-width="0.8" stroke-dasharray="2 2"/>')
+    s.append(f'<line x1="{tx1 - 6}" y1="{ty1 + 4}" x2="{tx1 - 6}" y2="{gy2 + 126}" stroke="{GREEN}" stroke-width="0.8" stroke-dasharray="2 2"/>')
+    s.append(txt(190, gy2 + 144, "同一底层：本体不变，才随缘应化", 4.5, INK, "middle"))
+    s.append(txt(190, gy2 + 166, "不跟容器较劲的不是没原则，是先把身、心、存心摆正，手段才接得上", 4.2, "#6E6459", "middle"))
+
+    a = gy2 + 196
+    s.append(txt(24, a, "第一组居与心，一外一内；第二组与与言，存心与兑现；第三组政、事、动，落地的一环。", 5.0, INK))
+    s.append(txt(24, a + 16, "三者互相咬合：事与能互为支撑，动与时互为约束，政与治互为表里。", 5.0, INK))
+    s.append(txt(24, a + 34, "存心不正而先学手段，学到的只是技巧——七善不是七处各自使劲。", 4.9, GREEN))
+
+    c = a + 52
+    s.append(f'<line x1="24" y1="{c}" x2="338" y2="{c}" stroke="{LINE}" stroke-width="0.6"/>')
+    s.append(box(20, c + 8, 340, 40, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, c + 24, "七善是一条链，不是七条戒律；", 6.0, INK, "middle"))
+    s.append(txt(190, c + 36, "链底是同一个本体：不变，才随缘。", 6.0, GREEN, "middle"))
+    s.append(gold(c + 62, "ch08c"))
+    s.append('</svg>')
+    out = "\n".join(s)
+    ys = [float(v) for v in re.findall(r'y="([0-9.]+)"', out)]
+    return out.replace("999", str(int(max(ys) + 26)))
+
 # ============ 第八章 · 上善若水 ============
 def ch08_shang_shan():
     W, H = 380, 478
@@ -5512,6 +5652,8 @@ def ch04c_si_bu():
 GOLD = {
     "ch07b": ["天地所以能长且久者，以其不自生，故能长生。", "为己者，取而入，入而塞；不为己者，生而出，出而复——差别不在善恶，在闭环。"],
     "ch07c": ["是以圣人后其身而身先，外其身而身存。", "先不是争来的，是人心自归的；退不是姿态，是把手松开。"],
+    "ch08b": ["处众人之所恶，故几于道。", "低处不是惩罚，是不必守的位置。"],
+    "ch08c": ["居善地，心善渊，与善仁，言善信，政善治，事善能，动善时。", "七善是一条链，不是七条戒律。"],
     "ch06b": ["谷神不死，是谓玄牝。", "谷者，两山间之空也；能受故能生，生而不有故不竭——生机不在满处，在空处。"],
     "ch06c": ["玄牝之门，是谓天地根。", "门在开合处，不在门板上；一着手去推，它就成了一堵墙。"],
     "ch05b": ["天地不仁，以万物为刍狗。", "刍者，束草也；刍狗有位而无主——用毕回草堆，不是被弃，是位次用完了。"],
@@ -11759,6 +11901,8 @@ FIGS = {
     "ch07c-yi-shan-zhai-men": ("第七章", "一扇窄门", ch07c_yi_shan_zhai_men),
     "ch07-bu-zi-sheng": ("第七章", "不自生", ch07_bu_zi_sheng),
     "ch08-shang-shan": ("第八章", "上善若水", ch08_shang_shan),
+    "ch08b-yi-chu-di-chu": ("第八章", "一处低处", ch08b_yi_chu_di_chu),
+    "ch08c-qi-jie-tong-guan": ("第八章", "一根七节管", ch08c_qi_jie_tong_guan),
     "ch09-ying-man": ("第九章", "持而盈之", ch09_ying_man),
     "ch10-bao-yi": ("第十章", "载营魄抱一", ch10_bao_yi),
     "ch28-zhi-xiong": ("第二十八章", "知其雄", ch28_zhi_xiong),
