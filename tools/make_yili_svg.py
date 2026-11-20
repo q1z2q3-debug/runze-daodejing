@@ -7745,6 +7745,7 @@ GOLD = {
     "ch32c": ["人做的均是拉平，天做的均是刚好。", "不调度，而各处都够——那是自均。"],
     "ch33b": ["智是识词，明是照见。", "同一个镜子，转个方向，照的东西全变了。"],
     "ch33c": ["力是筋，越使越少；强是弓，能张能弛。", "松了它还在，那才是强。"],
+    "ch34c": ["功成了不取名，也不记在自己名下。", "万物归焉而弗为主：归是真的归，主是不做主。"],
     "ch06b": ["谷神不死，是谓玄牝。", "谷者，两山间之空也；能受故能生，生而不有故不竭——生机不在满处，在空处。"],
     "ch06c": ["玄牝之门，是谓天地根。", "门在开合处，不在门板上；一着手去推，它就成了一堵墙。"],
     "ch05b": ["天地不仁，以万物为刍狗。", "刍者，束草也；刍狗有位而无主——用毕回草堆，不是被弃，是位次用完了。"],
@@ -10000,6 +10001,73 @@ def ch33_zi_zhi_zhe_ming():
     s.append(gold(y3 + 52, "ch33"))
     s.append('</svg>')
     return "\n".join(s)
+
+def ch34c_gong_ce():
+    body, y = head(380, 999, "功成而不名有：天下最大的一件事，册子上没有登记",
+                   "第 三 十 四 章 · 其 三", "功 劳 册",
+                   "万物恃之而生而不辞，功成不名有。", 999)
+    s = [body]
+
+    s.append(box(20, y + 2, 340, 34, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, y + 14, "《周礼·夏官·司勋》：「掌六乡赏地之法，以等其功。」——王功曰勋，国功曰功，民功曰庸，", 4.5, INK, "middle"))
+    s.append(txt(190, y + 27, "事功曰劳，治功曰力，战功曰多。功成了，就要取名、就要认领——这是当时的通则。", 4.5, "#6E6459"))
+
+    # ---------- 一、有册 ----------
+    s.append(txt(24, y + 52, "一、有册：功成，则名之、有之", 5.1, GREEN))
+    gy = y + 64
+    s.append(f'<rect x="26" y="{gy}" width="328" height="132" fill="#FBF6EC" stroke="{LINE}" stroke-width="0.8"/>')
+    # 册子
+    s.append(f'<rect x="64" y="{gy + 20}" width="252" height="86" fill="#F6EFE0" stroke="{INK}" stroke-width="1.0"/>')
+    s.append(f'<line x1="190" y1="{gy + 20}" x2="190" y2="{gy + 106}" stroke="{INK}" stroke-width="0.8"/>')
+    names = [("勋", "王功"), ("功", "国功"), ("庸", "民功"), ("劳", "事功"), ("力", "治功"), ("多", "战功")]
+    for i, (t, sub) in enumerate(names):
+        col, row = i % 3, i // 3
+        cx = 78 + col * 38
+        cy = gy + 30 + row * 32
+        s.append(box(cx, cy, 32, 24, fill="#FBEFE7", stroke=SEAL, width=0.6))
+        s.append(txt(cx + 16, cy + 11, t, 4.8, SEAL, "middle"))
+        s.append(txt(cx + 16, cy + 20, sub, 3.4, "#A87C6C", "middle"))
+        s.append(f'<line x1="{cx + 6}" y1="{cy + 27}" x2="{cx + 26}" y2="{cy + 27}" stroke="{SEAL}" stroke-width="0.5"/>')
+    # 右页：记名
+    for i in range(4):
+        s.append(f'<line x1="202" y1="{gy + 36 + i * 16}" x2="302" y2="{gy + 36 + i * 16}" stroke="{LINE2}" stroke-width="0.5"/>')
+        s.append(f'<line x1="202" y1="{gy + 40 + i * 16}" x2="302" y2="{gy + 40 + i * 16}" stroke="{LINE2}" stroke-width="0.4" stroke-dasharray="2 3"/>')
+    s.append(txt(252, gy + 30, "记名 · 领有", 4.0, "#8A7C69", "middle"))
+    # 一方印：司勋
+    s.append(box(322, gy + 78, 22, 22, fill="#FBEFE7", stroke=SEAL, width=0.9))
+    s.append(txt(333, gy + 93, "勋", 4.4, SEAL, "middle"))
+    s.append(txt(190, gy + 124, "记了名，就认领了；认领了，就成了「有」", 4.3, INK, "middle"))
+
+    # ---------- 二、无记 ----------
+    s.append(txt(24, gy + 146, "二、无记：最大那件事，册上空着", 5.1, GREEN))
+    gy2 = gy + 158
+    s.append(f'<rect x="26" y="{gy2}" width="328" height="132" fill="#FBF6EC" stroke="{LINE}" stroke-width="0.8"/>')
+    s.append(f'<rect x="64" y="{gy2 + 20}" width="252" height="86" fill="#F6EFE0" stroke="{INK}" stroke-width="1.0"/>')
+    s.append(f'<line x1="190" y1="{gy2 + 20}" x2="190" y2="{gy2 + 106}" stroke="{INK}" stroke-width="0.8"/>')
+    for i in range(6):
+        col, row = i % 3, i // 3
+        cx = 78 + col * 38
+        cy = gy2 + 30 + row * 32
+        s.append(box(cx, cy, 32, 24, fill="none", stroke="#BEB2A0", dash="3 3", width=0.6))
+    s.append(txt(252, gy2 + 40, "万物恃之而生", 4.6, GREEN, "middle"))
+    s.append(txt(252, gy2 + 54, "而不辞", 4.4, GREEN, "middle"))
+    s.append(txt(252, gy2 + 72, "功成 · 不名有", 3.9, "#8A7C69", "middle"))
+    s.append(f'<line x1="202" y1="{gy2 + 84}" x2="302" y2="{gy2 + 84}" stroke="{SEAL}" stroke-width="0.6"/>')
+    s.append(txt(252, gy2 + 96, "此页无姓名", 4.2, SEAL, "middle"))
+    s.append(txt(190, gy2 + 124, "事成了、走通了——道不给它取名，也不把它记在自己名下", 4.3, INK, "middle"))
+
+    # ---------- 收 ----------
+    y3 = gy2 + 144
+    s.append(f'<line x1="24" y1="{y3}" x2="356" y2="{y3}" stroke="{LINE}" stroke-width="0.6"/>')
+    s.append(box(20, y3 + 8, 340, 40, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, y3 + 24, "居功，是求合的第一块砖：我成就你，所以你属于我，所以我能够定义你。", 4.7, INK, "middle"))
+    s.append(txt(190, y3 + 37, "道把这块砖抽掉了——万物归焉，而弗为主。", 4.6, GREEN, "middle"))
+    s.append(gold(y3 + 54, "ch34c"))
+    s.append('</svg>')
+    out = "\n".join(s)
+    ys = [float(v) for v in re.findall(r'y="([0-9.]+)"', out)]
+    return out.replace("999", str(int(max(ys) + 26)))
+
 
 # ============ 第三十四章 · 不主之谓大 ============
 def ch34_bu_zhu_wei_da():
@@ -15403,6 +15471,7 @@ FIGS = {
     "ch32c-mo-ling-zi-jun": ("第三十二章", "甘露与自均", ch32c_mo_ling_zi_jun),
     "ch33b-zhi-yu-ming": ("第三十三章", "镜子", ch33b_zhi_yu_ming),
     "ch33c-jin-yu-gong": ("第三十三章", "筋与弓", ch33c_jin_yu_gong),
+    "ch34c-gong-ce": ("第三十四章", "功劳册", ch34c_gong_ce),
     "ch32b-chuan-gu": ("第三十二章", "川谷与江海", ch32b_chuan_gu),
     "ch33-zi-zhi-zhe-ming": ("第三十三章", "自知者明", ch33_zi_zhi_zhe_ming),
     "ch34-bu-zhu": ("第三十四章", "不主故能成其大", ch34_bu_zhu_wei_da),
