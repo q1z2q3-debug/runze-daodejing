@@ -73,7 +73,7 @@ def vline(x, y1, y2, color=LINE, width=1):
 
 # ============ 第一章 · 无有同出 ============
 def ch01_wu_you():
-    W, H = 380, 698
+    W, H = 380, 660
     body, y = head(W, H, "无与有同出而异名：一个场，两种取景", "第 一 章 · 总 纲", "无、有同出",
                    "不是两个东西，是同一个场的两种取景。", H)
     s = [body]
@@ -96,9 +96,9 @@ def ch01_wu_you():
     s.append(box(210, yb, 150, 96, fill="#FBF6EC"))
     s.append(txt(220, yb + 24, "有", 18, SEAL))
     s.append(txt(242, yb + 24, "名万物之母", 10.5, "#6E6459"))
-    s.append(txt(220, yb + 48, "取其已成形的那一面", 10.5, INK))
+    s.append(txt(220, yb + 48, "取其显化流动的那一面", 10.5, INK))
     s.append(txt(220, yb + 68, "观其徼：显而有界", 10.5, GREEN))
-    s.append(txt(220, yb + 86, "——不是「永远在场」", 10, "#6E6459"))
+    s.append(txt(220, yb + 86, "——不是一个静止的「有物」", 9.2, "#6E6459"))
 
     # 相生环
     yc = yb + 96 + 18
@@ -107,10 +107,11 @@ def ch01_wu_you():
     s.append(f'<path d="M 260 {yc + 14} Q 190 {yc + 34} 120 {yc + 14}" fill="none" stroke="{GREEN}" stroke-width="1.1" '
              f'marker-end="url(#arr2)"/>')
     s.append(txt(190, yc + 2, "相 生", 11, GREEN, "middle", spacing="2"))
-    s.append(txt(190, yc + 52, "无生有，有归无；一环不居", 10.5, "#6E6459", "middle"))
+    s.append(txt(190, yc + 52, "无托有生，有载无藏", 11, GREEN, "middle", spacing="1"))
+    s.append(txt(190, yc + 68, "不是先后两个东西，是同一实相的两面", 9.2, "#6E6459", "middle"))
 
     # 同出而异名
-    yd = yc + 66
+    yd = yc + 84
     s.append(vline(190, yd - 6, yd + 10, "#C9B79A"))
     s.append(box(70, yd + 10, 240, 40, fill="#F2EADA", stroke="#C9B79A"))
     s.append(txt(190, yd + 36, "同 出 而 异 名", 13, INK, "middle", spacing="2"))
@@ -119,9 +120,12 @@ def ch01_wu_you():
     yx = yd + 66
     s.append(arrow(190, yx - 16, 190, yx + 6))
     s.append(f'<circle cx="190" cy="{yx + 46}" r="40" fill="none" stroke="{LINE}" stroke-width="1"/>')
-    s.append(txt(190, yx + 42, "玄", 22, SEAL, "middle"))
-    s.append(txt(190, yx + 62, "又 玄", 10, "#6E6459", "middle", spacing="1"))
-    s.append(txt(190, yx + 104, "名是取景，不是东西；取景一换，名就换。", 10.5, "#6E6459", "middle"))
+    s.append(txt(190, yx + 38, "玄", 20, SEAL, "middle"))
+    s.append(f'<path d="M158 {yx + 58} C 172 {yx + 44} 178 {yx + 62} 190 {yx + 53} C 202 {yx + 44} 208 {yx + 62} 222 {yx + 53}" fill="none" stroke="{SEAL}" stroke-width="0.8"/>')
+    s.append(f'<path d="M158 {yx + 58} C 172 {yx + 62} 178 {yx + 44} 190 {yx + 53} C 202 {yx + 62} 208 {yx + 44} 222 {yx + 53}" fill="none" stroke="{SEAL}" stroke-width="0.8"/>')
+    s.append(txt(190, yx + 80, "两股丝交织", 8.4, "#6E6459", "middle", spacing="1"))
+    s.append(txt(190, yx + 98, "执一则蔽，交织乃玄", 9.4, SEAL, "middle", spacing="1"))
+    s.append(txt(190, yx + 116, "名是取景，不是东西；取景一换，名就换。", 10.5, "#6E6459", "middle"))
     s.append(gold(H - 68, "ch01b"))
     s.append('</svg>')
     return "\n".join(s)
@@ -129,7 +133,7 @@ def ch01_wu_you():
 
 # ============ 第一章 · 指月三境 ============
 def ch01_zhi_yue():
-    W, H = 380, 710
+    W, H = 380, 650
     body, y = head(W, H, "指月三境：执字、会心、入境", "第 一 章 · 读 法", "指月三境",
                    "手指指月，人常盯着手指。三层就是把手指松开。", H)
     s = [body]
@@ -187,7 +191,7 @@ def ch01_miao_jiao():
     s.append(arrow(cx, bot, cx, bot + 6, "#6E6459", 1.2))
     # 上：徼
     s.append(txt(cx + 22, top + 16, "徼 · 已显", 11, GREEN))
-    s.append(txt(cx + 22, top + 34, "层层显化：星系 · 生命 · 社群 · 乐", 10, "#6E6459"))
+    s.append(txt(cx + 22, top + 34, "层层显化：星系 · 生命 · 社群", 10, "#6E6459"))
     for i, lab in enumerate(["星系", "生命", "社群"]):
         yy = top + 58 + i * 30
         s.append(f'<line x1="{cx - 26}" y1="{yy}" x2="{cx - 4}" y2="{yy}" stroke="{LINE}" stroke-width="1"/>')

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg viewBox="0 0 380 696" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="无与有同出而异名：一个场，两种取景" font-family="'Noto Serif CJK SC','Noto Serif SC','Songti SC',serif">
+<svg viewBox="0 0 380 660" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="无与有同出而异名：一个场，两种取景" font-family="'Noto Serif CJK SC','Noto Serif SC','Songti SC',serif">
 <defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#6E6459"/></marker><marker id="arr2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#4A5C55"/></marker><marker id="arrL" viewBox="0 0 10 10" refX="1" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M10 0 L0 5 L10 10 z" fill="#4A5C55"/></marker><marker id="arrS" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#A2503B"/></marker></defs>
-<rect x="0" y="0" width="380" height="696" fill="#F8F3E6"/>
+<rect x="0" y="0" width="380" height="660" fill="#F8F3E6"/>
 <text x="20" y="26" font-size="11" fill="#A2503B" font-family="'Noto Sans CJK SC','Noto Sans SC',sans-serif" letter-spacing="3">第 一 章 · 总 纲</text>
 <text x="20" y="58" font-size="21" fill="#2F2A24">无、有同出</text>
 <text x="20" y="78" font-size="10.5" fill="#6E6459">不是两个东西，是同一个场的两种取景。</text>
@@ -19,23 +19,27 @@
 <rect x="210" y="188" width="150" height="96" fill="#FBF6EC" stroke="#DCCBB0" stroke-width="1.0"/>
 <text x="220" y="212" font-size="18" fill="#A2503B">有</text>
 <text x="242" y="212" font-size="10.5" fill="#6E6459">名万物之母</text>
-<text x="220" y="236" font-size="10.5" fill="#2F2A24">取其已成形的那一面</text>
+<text x="220" y="236" font-size="10.5" fill="#2F2A24">取其显化流动的那一面</text>
 <text x="220" y="256" font-size="10.5" fill="#4A5C55">观其徼：显而有界</text>
-<text x="220" y="274" font-size="10" fill="#6E6459">——不是「永远在场」</text>
+<text x="220" y="274" font-size="9.2" fill="#6E6459">——不是一个静止的「有物」</text>
 <path d="M 120 296 Q 190 276 260 296" fill="none" stroke="#4A5C55" stroke-width="1.1" marker-end="url(#arr)"/>
 <path d="M 260 316 Q 190 336 120 316" fill="none" stroke="#4A5C55" stroke-width="1.1" marker-end="url(#arr2)"/>
 <text x="190" y="304" font-size="11" fill="#4A5C55" text-anchor="middle" letter-spacing="2">相 生</text>
-<text x="190" y="354" font-size="10.5" fill="#6E6459" text-anchor="middle">无生有，有归无；一环不居</text>
-<line x1="190" y1="362" x2="190" y2="378" stroke="#C9B79A" stroke-width="1"/>
-<rect x="70" y="378" width="240" height="40" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
-<text x="190" y="404" font-size="13" fill="#2F2A24" text-anchor="middle" letter-spacing="2">同 出 而 异 名</text>
-<line x1="190" y1="418" x2="190" y2="440" stroke="#6E6459" stroke-width="1.2" marker-end="url(#arr)"/>
-<circle cx="190" cy="480" r="40" fill="none" stroke="#DCCBB0" stroke-width="1"/>
-<text x="190" y="476" font-size="22" fill="#A2503B" text-anchor="middle">玄</text>
-<text x="190" y="496" font-size="10" fill="#6E6459" text-anchor="middle" letter-spacing="1">又 玄</text>
-<text x="190" y="538" font-size="10.5" fill="#6E6459" text-anchor="middle">名是取景，不是东西；取景一换，名就换。</text>
-<line x1="20" y1="644" x2="360" y2="644" stroke="#E6D8C2" stroke-width="0.8"/>
-<text x="20" y="658" font-size="8.0" fill="#A89577" letter-spacing="1">本 章 金 句</text>
-<text x="20" y="674" font-size="8.4" fill="#2F2A24">无，名天地之始；有，名万物之母。</text>
-<text x="20" y="690" font-size="8.4" fill="#2F2A24">不是两个东西，是同一个场的两种取景。</text>
+<text x="190" y="354" font-size="11" fill="#4A5C55" text-anchor="middle" letter-spacing="1">无托有生，有载无藏</text>
+<text x="190" y="370" font-size="9.2" fill="#6E6459" text-anchor="middle">不是先后两个东西，是同一实相的两面</text>
+<line x1="190" y1="380" x2="190" y2="396" stroke="#C9B79A" stroke-width="1"/>
+<rect x="70" y="396" width="240" height="40" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="190" y="422" font-size="13" fill="#2F2A24" text-anchor="middle" letter-spacing="2">同 出 而 异 名</text>
+<line x1="190" y1="436" x2="190" y2="458" stroke="#6E6459" stroke-width="1.2" marker-end="url(#arr)"/>
+<circle cx="190" cy="498" r="40" fill="none" stroke="#DCCBB0" stroke-width="1"/>
+<text x="190" y="490" font-size="20" fill="#A2503B" text-anchor="middle">玄</text>
+<path d="M158 510 C 172 496 178 514 190 505 C 202 496 208 514 222 505" fill="none" stroke="#A2503B" stroke-width="0.8"/>
+<path d="M158 510 C 172 514 178 496 190 505 C 202 514 208 496 222 505" fill="none" stroke="#A2503B" stroke-width="0.8"/>
+<text x="190" y="532" font-size="8.4" fill="#6E6459" text-anchor="middle" letter-spacing="1">两股丝交织</text>
+<text x="190" y="550" font-size="9.4" fill="#A2503B" text-anchor="middle" letter-spacing="1">执一则蔽，交织乃玄</text>
+<text x="190" y="568" font-size="10.5" fill="#6E6459" text-anchor="middle">名是取景，不是东西；取景一换，名就换。</text>
+<line x1="20" y1="592" x2="360" y2="592" stroke="#E6D8C2" stroke-width="0.8"/>
+<text x="20" y="606" font-size="8.0" fill="#A89577" letter-spacing="1">本 章 金 句</text>
+<text x="20" y="622" font-size="8.4" fill="#2F2A24">无，名天地之始；有，名万物之母。</text>
+<text x="20" y="638" font-size="8.4" fill="#2F2A24">不是两个东西，是同一个场的两种取景。</text>
 </svg>
