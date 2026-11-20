@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 380 684" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="慈不是盾，是墙：盾挡一面，墙围一圈" font-family="'Noto Serif CJK SC','Noto Serif SC','Songti SC',serif">
+<defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#6E6459"/></marker><marker id="arr2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#4A5C55"/></marker><marker id="arrL" viewBox="0 0 10 10" refX="1" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M10 0 L0 5 L10 10 z" fill="#4A5C55"/></marker><marker id="arrS" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#A2503B"/></marker></defs>
+<rect x="0" y="0" width="380" height="684" fill="#F8F3E6"/>
+<text x="20" y="26" font-size="11" fill="#A2503B" font-family="'Noto Sans CJK SC','Noto Sans SC',sans-serif" letter-spacing="3">第 六 十 七 章 · 卫</text>
+<text x="20" y="58" font-size="21" fill="#2F2A24">一圈墙</text>
+<text x="20" y="78" font-size="10.5" fill="#6E6459">天将救之，以慈卫之。</text>
+<rect x="20" y="102" width="340" height="30" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="190" y="114" font-size="4.9" fill="#2F2A24" text-anchor="middle">「卫」，《说文》「宿卫也」，从行、从帀——帀是「周也」，绕一圈。</text>
+<text x="190" y="126" font-size="4.9" fill="#6E6459" text-anchor="middle">帛书作「如以慈垣之」：垣是墙。挡是一面盾，围是一圈墙。</text>
+<text x="24" y="148" font-size="4.8" fill="#A2503B">一、一面盾：只挡得住一面</text>
+<rect x="26" y="160" width="328" height="132" fill="#FBF6EC" stroke="#DCCBB0" stroke-width="0.8"/>
+<circle cx="200" cy="208" r="6.2" fill="none" stroke="#2F2A24" stroke-width="1"/>
+<rect x="193" y="216" width="14" height="34" fill="#EFE6D4" stroke="#2F2A24" stroke-width="1.0"/>
+<line x1="196" y1="250" x2="195" y2="276" stroke="#2F2A24" stroke-width="1.2"/>
+<line x1="204" y1="250" x2="205" y2="276" stroke="#2F2A24" stroke-width="1.2"/>
+<path d="M170,194 L184,194 L184,260 L177,272 L170,260 Z" fill="#DED2B8" stroke="#2F2A24" stroke-width="1"/>
+<line x1="58" y1="198" x2="166" y2="198" stroke="#B9A98F" stroke-width="1.0" marker-end="url(#arr)"/>
+<line x1="58" y1="214" x2="166" y2="214" stroke="#B9A98F" stroke-width="1.0" marker-end="url(#arr)"/>
+<line x1="58" y1="230" x2="166" y2="230" stroke="#B9A98F" stroke-width="1.0" marker-end="url(#arr)"/>
+<line x1="330" y1="204" x2="216" y2="208" stroke="#A2503B" stroke-width="1.0" marker-end="url(#arrS)"/>
+<line x1="330" y1="252" x2="212" y2="248" stroke="#A2503B" stroke-width="1.0" marker-end="url(#arrS)"/>
+<text x="64" y="190" font-size="4.2" fill="#A89577">挡得住</text>
+<text x="300" y="274" font-size="4.2" fill="#A2503B" text-anchor="middle">挡不住</text>
+<text x="190" y="308" font-size="4.6" fill="#A2503B" text-anchor="middle">一面盾只有一面：其余三面都空着</text>
+<text x="24" y="328" font-size="4.8" fill="#4A5C55">二、一圈墙：四面八方都在里面</text>
+<rect x="26" y="340" width="328" height="132" fill="#FBF6EC" stroke="#DCCBB0" stroke-width="0.8"/>
+<circle cx="190" cy="392" r="6.2" fill="none" stroke="#2F2A24" stroke-width="1"/>
+<rect x="183" y="400" width="14" height="30" fill="#EFE6D4" stroke="#2F2A24" stroke-width="1.0"/>
+<line x1="186" y1="430" x2="185" y2="452" stroke="#2F2A24" stroke-width="1.2"/>
+<line x1="194" y1="430" x2="195" y2="452" stroke="#2F2A24" stroke-width="1.2"/>
+<circle cx="190" cy="406" r="58" fill="none" stroke="#4A5C55" stroke-width="1.4"/>
+<circle cx="190" cy="406" r="62" fill="none" stroke="#4A5C55" stroke-width="0.5" opacity="0.5"/>
+<line x1="249.39696961967" y1="465.39696961967" x2="235.25483399593904" y2="451.25483399593907" stroke="#A2503B" stroke-width="1.0" marker-end="url(#arrS)"/>
+<line x1="130.60303038033" y1="465.39696961967" x2="144.74516600406096" y2="451.25483399593907" stroke="#A2503B" stroke-width="1.0" marker-end="url(#arrS)"/>
+<line x1="130.60303038032998" y1="346.60303038033" x2="144.74516600406093" y2="360.74516600406093" stroke="#A2503B" stroke-width="1.0" marker-end="url(#arrS)"/>
+<line x1="249.39696961966996" y1="346.60303038033" x2="235.25483399593904" y2="360.74516600406093" stroke="#A2503B" stroke-width="1.0" marker-end="url(#arrS)"/>
+<text x="190" y="488" font-size="4.6" fill="#4A5C55" text-anchor="middle">围住的里面，伤不着：以战则胜，以守则固</text>
+<text x="24" y="506" font-size="4.8" fill="#2F2A24">天将救之，不是天伸一只手来拉他，是天让他自己被慈围住。</text>
+<text x="24" y="522" font-size="4.8" fill="#2F2A24">战是把这圈往前推，守是把这圈收紧——都不是打，是围。</text>
+<text x="24" y="540" font-size="5.0" fill="#4A5C55">挡是防着一个方向，围是四面都在里面。</text>
+<line x1="24" y1="556" x2="338" y2="556" stroke="#DCCBB0" stroke-width="0.6"/>
+<rect x="20" y="564" width="340" height="40" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="190" y="579" font-size="5.4" fill="#2F2A24" text-anchor="middle">慈是围墙，不是盾牌；</text>
+<text x="190" y="592" font-size="4.9" fill="#4A5C55" text-anchor="middle">盾挡一面，墙围一圈。</text>
+<line x1="20" y1="618" x2="360" y2="618" stroke="#E6D8C2" stroke-width="0.8"/>
+<text x="20" y="632" font-size="8.0" fill="#A89577" letter-spacing="1">本 章 金 句</text>
+<text x="20" y="648" font-size="8.4" fill="#2F2A24">衛从行从帀，帀者周也；慈是围墙不是盾牌，盾挡一面，墙围一圈。</text>
+<text x="20" y="664" font-size="8.4" fill="#2F2A24">天将救之，以慈卫之：不是外面拉一把，是自己被围住，伤不着。</text>
+</svg>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 380 684" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="俭是约，约是绳缠束：收十处为一束，一束可推千里" font-family="'Noto Serif CJK SC','Noto Serif SC','Songti SC',serif">
+<defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#6E6459"/></marker><marker id="arr2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#4A5C55"/></marker><marker id="arrL" viewBox="0 0 10 10" refX="1" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M10 0 L0 5 L10 10 z" fill="#4A5C55"/></marker><marker id="arrS" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#A2503B"/></marker></defs>
+<rect x="0" y="0" width="380" height="684" fill="#F8F3E6"/>
+<text x="20" y="26" font-size="11" fill="#A2503B" font-family="'Noto Sans CJK SC','Noto Sans SC',sans-serif" letter-spacing="3">第 六 十 七 章 · 俭</text>
+<text x="20" y="58" font-size="21" fill="#2F2A24">一束绳</text>
+<text x="20" y="78" font-size="10.5" fill="#6E6459">俭，故能广。</text>
+<rect x="20" y="102" width="340" height="30" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="190" y="114" font-size="4.9" fill="#2F2A24" text-anchor="middle">「俭」，《说文》「约也」——约是绳缠束：把散着的收拢成一束。</text>
+<text x="190" y="126" font-size="4.9" fill="#6E6459" text-anchor="middle">俭的反面不是奢侈，是散：语言散出去收不回，心神散出去聚不拢。</text>
+<text x="24" y="148" font-size="4.8" fill="#A2503B">一、散在十处：十处都不深</text>
+<rect x="26" y="160" width="328" height="132" fill="#FBF6EC" stroke="#DCCBB0" stroke-width="0.8"/>
+<path d="M68,252 L150,194" fill="none" stroke="#B9A98F" stroke-width="0.9" stroke-dasharray="3 3"/>
+<circle cx="150" cy="194" r="2" fill="#B9A98F" stroke="none"/>
+<path d="M68,252 L171,208" fill="none" stroke="#B9A98F" stroke-width="0.9" stroke-dasharray="3 3"/>
+<circle cx="171" cy="208" r="2" fill="#B9A98F" stroke="none"/>
+<path d="M68,252 L192,194" fill="none" stroke="#B9A98F" stroke-width="0.9" stroke-dasharray="3 3"/>
+<circle cx="192" cy="194" r="2" fill="#B9A98F" stroke="none"/>
+<path d="M68,252 L213,208" fill="none" stroke="#B9A98F" stroke-width="0.9" stroke-dasharray="3 3"/>
+<circle cx="213" cy="208" r="2" fill="#B9A98F" stroke="none"/>
+<path d="M68,252 L234,194" fill="none" stroke="#B9A98F" stroke-width="0.9" stroke-dasharray="3 3"/>
+<circle cx="234" cy="194" r="2" fill="#B9A98F" stroke="none"/>
+<path d="M68,252 L255,208" fill="none" stroke="#B9A98F" stroke-width="0.9" stroke-dasharray="3 3"/>
+<circle cx="255" cy="208" r="2" fill="#B9A98F" stroke="none"/>
+<path d="M68,252 L276,194" fill="none" stroke="#B9A98F" stroke-width="0.9" stroke-dasharray="3 3"/>
+<circle cx="276" cy="194" r="2" fill="#B9A98F" stroke="none"/>
+<path d="M68,252 L297,208" fill="none" stroke="#B9A98F" stroke-width="0.9" stroke-dasharray="3 3"/>
+<circle cx="297" cy="208" r="2" fill="#B9A98F" stroke="none"/>
+<path d="M68,252 L318,194" fill="none" stroke="#B9A98F" stroke-width="0.9" stroke-dasharray="3 3"/>
+<circle cx="318" cy="194" r="2" fill="#B9A98F" stroke="none"/>
+<circle cx="68" cy="252" r="4.2" fill="#A2503B" stroke="none"/>
+<text x="68" y="270" font-size="4.2" fill="#A2503B" text-anchor="middle">一处力气</text>
+<text x="190" y="308" font-size="4.6" fill="#A2503B" text-anchor="middle">散在十处：每一处都只落一点</text>
+<text x="24" y="328" font-size="4.8" fill="#4A5C55">二、收成一束：一股能推很远</text>
+<rect x="26" y="340" width="328" height="132" fill="#FBF6EC" stroke="#DCCBB0" stroke-width="0.8"/>
+<line x1="66" y1="389.96" x2="200" y2="392.84" stroke="#C9B79A" stroke-width="1"/>
+<line x1="66" y1="392.76800000000003" x2="200" y2="395.072" stroke="#C9B79A" stroke-width="1"/>
+<line x1="66" y1="395.57599999999996" x2="200" y2="397.304" stroke="#C9B79A" stroke-width="1"/>
+<line x1="66" y1="398.384" x2="200" y2="399.536" stroke="#C9B79A" stroke-width="1"/>
+<line x1="66" y1="401.192" x2="200" y2="401.768" stroke="#C9B79A" stroke-width="1"/>
+<line x1="66" y1="404.0" x2="200" y2="404.0" stroke="#C9B79A" stroke-width="1"/>
+<line x1="66" y1="406.808" x2="200" y2="406.232" stroke="#C9B79A" stroke-width="1"/>
+<line x1="66" y1="409.616" x2="200" y2="408.464" stroke="#C9B79A" stroke-width="1"/>
+<line x1="66" y1="412.42400000000004" x2="200" y2="410.696" stroke="#C9B79A" stroke-width="1"/>
+<line x1="66" y1="415.23199999999997" x2="200" y2="412.928" stroke="#C9B79A" stroke-width="1"/>
+<rect x="96" y="382" width="7" height="38" rx="2" fill="none" stroke="#A2503B" stroke-width="1.2"/>
+<rect x="128" y="382" width="7" height="38" rx="2" fill="none" stroke="#A2503B" stroke-width="1.2"/>
+<rect x="160" y="382" width="7" height="38" rx="2" fill="none" stroke="#A2503B" stroke-width="1.2"/>
+<text x="90" y="436" font-size="4.4" fill="#A2503B">绳缠束：约</text>
+<line x1="210" y1="404" x2="320" y2="404" stroke="#4A5C55" stroke-width="1.2" marker-end="url(#arr2)"/>
+<text x="316" y="392" font-size="4.4" fill="#4A5C55" text-anchor="end">推千里</text>
+<text x="190" y="488" font-size="4.6" fill="#4A5C55" text-anchor="middle">收得越紧，铺得越开：广不是多，是有余地</text>
+<text x="24" y="506" font-size="4.8" fill="#2F2A24">收得紧，不是省着不花，是知道什么值得攥住。</text>
+<text x="24" y="522" font-size="4.8" fill="#2F2A24">多言数穷，多藏厚亡——都不是骂奢侈，是说散。</text>
+<text x="24" y="540" font-size="5.0" fill="#4A5C55">俭是第一等的节流：它存的不是钱，是精气神。</text>
+<line x1="24" y1="556" x2="338" y2="556" stroke="#DCCBB0" stroke-width="0.6"/>
+<rect x="20" y="564" width="340" height="40" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="190" y="579" font-size="5.4" fill="#2F2A24" text-anchor="middle">俭者约也，约者绳缠束；</text>
+<text x="190" y="592" font-size="4.9" fill="#4A5C55" text-anchor="middle">收十处为一束，一束可推千里。</text>
+<line x1="20" y1="618" x2="360" y2="618" stroke="#E6D8C2" stroke-width="0.8"/>
+<text x="20" y="632" font-size="8.0" fill="#A89577" letter-spacing="1">本 章 金 句</text>
+<text x="20" y="648" font-size="8.4" fill="#2F2A24">俭者约也，约者绳缠束；收十处为一束，一束可推千里。</text>
+<text x="20" y="664" font-size="8.4" fill="#2F2A24">俭不是怕花钱，是怕散：散在十处，十处都不深。</text>
+</svg>

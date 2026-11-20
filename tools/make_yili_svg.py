@@ -1717,7 +1717,197 @@ def ch66c_yi_kou_qi():
 
 
 
+# ============ 第六十七章 · 一丛草 ============
+def ch67a_yi_cong_cao():
+    W, H = 380, 684
+    body, y = head(W, H, "慈从心兹，兹是草木多益：心里长草，草不问落在哪儿",
+                   "第 六 十 七 章 · 慈", "一丛草", "一曰慈，二曰俭，三曰不敢为天下先。", H)
+    s = [body]
+
+    s.append(box(20, y + 2, 340, 30, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, y + 14, "「慈」，《说文》「爱也」，从心、兹声；兹是「草木多益」——草越长越多。", 4.9, INK, "middle"))
+    s.append(txt(190, y + 26, "爱有对象，慈没有：它是那片草，草长出来，不管落在哪儿。", 4.9, "#6E6459", "middle"))
+
+    s.append(txt(24, y + 48, "一、心里长草：不圈、不指，四面都长", 4.8, GREEN))
+    gy = y + 60
+    s.append(f'<rect x="26" y="{gy}" width="328" height="132" fill="#FBF6EC" stroke="{LINE}" stroke-width="0.8"/>')
+    cx, cy = 190, gy + 66
+    s.append(f'<circle cx="{cx}" cy="{cy}" r="30" fill="#EFE6D4" stroke="{INK}" stroke-width="1"/>')
+    s.append(txt(cx, cy + 3, "心", 9.5, INK, "middle"))
+    # 心里的草：从心里长出去
+    for bx, by, bh, dx in ((-8, -4, 30, -6), (0, -8, 40, 0), (7, -5, 28, 6)):
+        s.append(f'<path d="M{cx + bx},{cy + by} Q{cx + bx + dx * 0.6},{cy + by - bh * 0.55} {cx + bx + dx},{cy + by - bh}" '
+                 f'fill="none" stroke="{GREEN}" stroke-width="1.3"/>')
+        my = cy + by - bh * 0.5
+        s.append(f'<path d="M{cx + bx + dx * 0.35},{my} q{dx * 0.9 - 4},-5 {dx * 2 - 6},-9" fill="none" '
+                 f'stroke="{GREEN}" stroke-width="0.8" opacity="0.8"/>')
+    # 四面也长：贴着圆边再冒几丛
+    for (bx, by, ang) in ((-30, -6, -1), (-26, 14, -1), (30, -6, 1), (26, 14, 1), (-8, 30, 0), (10, 30, 0)):
+        for k in (-3, 3):
+            s.append(f'<path d="M{cx + bx},{cy + by} Q{cx + bx + ang * 10 + k},{cy + by + (8 if ang == 0 else -8)} '
+                     f'{cx + bx + ang * 16 + k},{cy + by + (18 if ang == 0 else -16)}" '
+                     f'fill="none" stroke="{GREEN}" stroke-width="1.0" opacity="0.75"/>')
+    s.append(txt(190, gy + 148, "草往外长，四面都有：不圈定一个对象", 4.6, GREEN, "middle"))
+
+    s.append(txt(24, y + 228, "二、圈住一棵：那是爱，不是慈", 4.8, SEAL))
+    gy2 = y + 240
+    s.append(f'<rect x="26" y="{gy2}" width="328" height="132" fill="#FBF6EC" stroke="{LINE}" stroke-width="0.8"/>')
+    s.append(f'<line x1="40" y1="{gy2 + 104}" x2="340" y2="{gy2 + 104}" stroke="{INK}" stroke-width="1"/>')
+    for i, px in enumerate((100, 190, 280)):
+        for k in (-6, 0, 6):
+            s.append(f'<path d="M{px + k},{gy2 + 104} Q{px + k + 3},{gy2 + 74} {px + k - 2},{gy2 + 52 + abs(k) * 2}" '
+                     f'fill="none" stroke="{GREEN}" stroke-width="1.1" opacity="{0.85 if px == 190 else 0.45}"/>')
+    s.append(f'<circle cx="190" cy="{gy2 + 80}" r="34" fill="none" stroke="{SEAL}" stroke-width="1" stroke-dasharray="3 3"/>')
+    s.append(txt(190, gy2 + 40, "圈住这一棵", 4.4, SEAL, "middle"))
+    s.append(txt(100, gy2 + 120, "其余在外", 4.2, "#A89577", "middle"))
+    s.append(txt(280, gy2 + 120, "其余在外", 4.2, "#A89577", "middle"))
+    s.append(txt(190, gy2 + 148, "爱护一棵，护不住就拼命；慈护一片，护的时候极稳", 4.6, "#6E6459", "middle"))
+
+    a = gy2 + 166
+    s.append(txt(24, a, "慈不是「心里有个喜欢的人」，是「心里有一片自己在长的东西」。", 4.8, INK))
+    s.append(txt(24, a + 16, "草不会因为护一棵，就把别的拔掉。", 4.8, INK))
+    s.append(txt(24, a + 34, "慈故能勇：护的是一片生机，不用拼命，反而极稳。", 5.0, GREEN))
+
+    c = a + 50
+    s.append(f'<line x1="24" y1="{c}" x2="338" y2="{c}" stroke="{LINE}" stroke-width="0.6"/>')
+    s.append(box(20, c + 8, 340, 40, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, c + 23, "慈从心兹，兹者草木多益；", 5.4, INK, "middle"))
+    s.append(txt(190, c + 36, "心中自有草长，不问其落于何处。", 4.9, GREEN, "middle"))
+    s.append(gold(c + 62, "ch67a"))
+    s.append('</svg>')
+    return "\n".join(s)
+
+
+# ============ 第六十七章 · 一束绳 ============
+def ch67b_yi_shu_sheng():
+    W, H = 380, 684
+    body, y = head(W, H, "俭是约，约是绳缠束：收十处为一束，一束可推千里",
+                   "第 六 十 七 章 · 俭", "一束绳", "俭，故能广。", H)
+    s = [body]
+
+    s.append(box(20, y + 2, 340, 30, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, y + 14, "「俭」，《说文》「约也」——约是绳缠束：把散着的收拢成一束。", 4.9, INK, "middle"))
+    s.append(txt(190, y + 26, "俭的反面不是奢侈，是散：语言散出去收不回，心神散出去聚不拢。", 4.9, "#6E6459", "middle"))
+
+    s.append(txt(24, y + 48, "一、散在十处：十处都不深", 4.8, SEAL))
+    gy = y + 60
+    s.append(f'<rect x="26" y="{gy}" width="328" height="132" fill="#FBF6EC" stroke="{LINE}" stroke-width="0.8"/>')
+    # 十根散线，从一处散开
+    for i in range(9):
+        ex = 150 + i * 21
+        ey = gy + 34 + (14 if i % 2 else 0)
+        s.append(f'<path d="M68,{gy + 92} L{ex},{ey}" fill="none" stroke="#B9A98F" stroke-width="0.9" stroke-dasharray="3 3"/>')
+        s.append(f'<circle cx="{ex}" cy="{ey}" r="2" fill="#B9A98F" stroke="none"/>')
+    s.append(f'<circle cx="68" cy="{gy + 92}" r="4.2" fill="{SEAL}" stroke="none"/>')
+    s.append(txt(68, gy + 110, "一处力气", 4.2, SEAL, "middle"))
+    s.append(txt(190, gy + 148, "散在十处：每一处都只落一点", 4.6, SEAL, "middle"))
+
+    s.append(txt(24, y + 228, "二、收成一束：一股能推很远", 4.8, GREEN))
+    gy2 = y + 240
+    s.append(f'<rect x="26" y="{gy2}" width="328" height="132" fill="#FBF6EC" stroke="{LINE}" stroke-width="0.8"/>')
+    # 一束：十根并拢 + 三道缠绳
+    mid = gy2 + 64
+    for i in range(10):
+        yy = gy2 + 46 + i * 3.6
+        s.append(f'<line x1="66" y1="{mid + (yy - mid) * 0.78}" x2="200" y2="{mid + (yy - mid) * 0.62}" '
+                 f'stroke="#C9B79A" stroke-width="1"/>')
+    for k in range(3):
+        xx = 96 + k * 32
+        s.append(f'<rect x="{xx}" y="{gy2 + 42}" width="7" height="38" rx="2" fill="none" stroke="{SEAL}" stroke-width="1.2"/>')
+    s.append(txt(90, gy2 + 96, "绳缠束：约", 4.4, SEAL))
+    # 推得很远
+    s.append(arrow(210, gy2 + 64, 320, gy2 + 64, GREEN, 1.2, head="arr2"))
+    s.append(txt(316, gy2 + 52, "推千里", 4.4, GREEN, "end"))
+    s.append(txt(190, gy2 + 148, "收得越紧，铺得越开：广不是多，是有余地", 4.6, GREEN, "middle"))
+
+    a = gy2 + 166
+    s.append(txt(24, a, "收得紧，不是省着不花，是知道什么值得攥住。", 4.8, INK))
+    s.append(txt(24, a + 16, "多言数穷，多藏厚亡——都不是骂奢侈，是说散。", 4.8, INK))
+    s.append(txt(24, a + 34, "俭是第一等的节流：它存的不是钱，是精气神。", 5.0, GREEN))
+
+    c = a + 50
+    s.append(f'<line x1="24" y1="{c}" x2="338" y2="{c}" stroke="{LINE}" stroke-width="0.6"/>')
+    s.append(box(20, c + 8, 340, 40, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, c + 23, "俭者约也，约者绳缠束；", 5.4, INK, "middle"))
+    s.append(txt(190, c + 36, "收十处为一束，一束可推千里。", 4.9, GREEN, "middle"))
+    s.append(gold(c + 62, "ch67b"))
+    s.append('</svg>')
+    return "\n".join(s)
+
+
+# ============ 第六十七章 · 一圈墙 ============
+def ch67c_yi_quan_qiang():
+    W, H = 380, 684
+    body, y = head(W, H, "慈不是盾，是墙：盾挡一面，墙围一圈",
+                   "第 六 十 七 章 · 卫", "一圈墙", "天将救之，以慈卫之。", H)
+    s = [body]
+
+    s.append(box(20, y + 2, 340, 30, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, y + 14, "「卫」，《说文》「宿卫也」，从行、从帀——帀是「周也」，绕一圈。", 4.9, INK, "middle"))
+    s.append(txt(190, y + 26, "帛书作「如以慈垣之」：垣是墙。挡是一面盾，围是一圈墙。", 4.9, "#6E6459", "middle"))
+
+    s.append(txt(24, y + 48, "一、一面盾：只挡得住一面", 4.8, SEAL))
+    gy = y + 60
+    s.append(f'<rect x="26" y="{gy}" width="328" height="132" fill="#FBF6EC" stroke="{LINE}" stroke-width="0.8"/>')
+    pxx, pyy = 200, gy + 74
+    s.append(f'<circle cx="{pxx}" cy="{pyy - 26}" r="6.2" fill="none" stroke="{INK}" stroke-width="1"/>')
+    s.append(box(pxx - 7, pyy - 18, 14, 34, fill="#EFE6D4", stroke=INK))
+    s.append(f'<line x1="{pxx - 4}" y1="{pyy + 16}" x2="{pxx - 5}" y2="{pyy + 42}" stroke="{INK}" stroke-width="1.2"/>')
+    s.append(f'<line x1="{pxx + 4}" y1="{pyy + 16}" x2="{pxx + 5}" y2="{pyy + 42}" stroke="{INK}" stroke-width="1.2"/>')
+    # 盾在左侧
+    s.append(f'<path d="M{pxx - 30},{pyy - 40} L{pxx - 16},{pyy - 40} L{pxx - 16},{pyy + 26} L{pxx - 23},{pyy + 38} '
+             f'L{pxx - 30},{pyy + 26} Z" fill="#DED2B8" stroke="{INK}" stroke-width="1"/>')
+    # 左边的箭被挡住
+    for k in (-1, 0, 1):
+        s.append(arrow(58, pyy - 20 + k * 16, pxx - 34, pyy - 20 + k * 16, "#B9A98F", 1.0, head="arr"))
+    # 右边、后面的箭打到身上
+    s.append(arrow(330, pyy - 30, pxx + 16, pyy - 26, SEAL, 1.0, head="arrS"))
+    s.append(arrow(330, pyy + 18, pxx + 12, pyy + 14, SEAL, 1.0, head="arrS"))
+    s.append(txt(64, pyy - 44, "挡得住", 4.2, "#A89577"))
+    s.append(txt(300, pyy + 40, "挡不住", 4.2, SEAL, "middle"))
+    s.append(txt(190, gy + 148, "一面盾只有一面：其余三面都空着", 4.6, SEAL, "middle"))
+
+    s.append(txt(24, y + 228, "二、一圈墙：四面八方都在里面", 4.8, GREEN))
+    gy2 = y + 240
+    s.append(f'<rect x="26" y="{gy2}" width="328" height="132" fill="#FBF6EC" stroke="{LINE}" stroke-width="0.8"/>')
+    qx, qy = 190, gy2 + 72
+    s.append(f'<circle cx="{qx}" cy="{qy - 20}" r="6.2" fill="none" stroke="{INK}" stroke-width="1"/>')
+    s.append(box(qx - 7, qy - 12, 14, 30, fill="#EFE6D4", stroke=INK))
+    s.append(f'<line x1="{qx - 4}" y1="{qy + 18}" x2="{qx - 5}" y2="{qy + 40}" stroke="{INK}" stroke-width="1.2"/>')
+    s.append(f'<line x1="{qx + 4}" y1="{qy + 18}" x2="{qx + 5}" y2="{qy + 40}" stroke="{INK}" stroke-width="1.2"/>')
+    s.append(f'<circle cx="{qx}" cy="{qy - 6}" r="58" fill="none" stroke="{GREEN}" stroke-width="1.4"/>')
+    s.append(f'<circle cx="{qx}" cy="{qy - 6}" r="62" fill="none" stroke="{GREEN}" stroke-width="0.5" opacity="0.5"/>')
+    # 四面来的箭，都停在墙上
+    for k in range(4):
+        a0 = k * 90 + 45
+        import math
+        dx = math.cos(math.radians(a0))
+        dy = math.sin(math.radians(a0))
+        sx, sy = qx + dx * 84, qy - 6 + dy * 84
+        ex, ey = qx + dx * 64, qy - 6 + dy * 64
+        s.append(arrow(sx, sy, ex, ey, SEAL, 1.0, head="arrS"))
+    s.append(txt(190, gy2 + 148, "围住的里面，伤不着：以战则胜，以守则固", 4.6, GREEN, "middle"))
+
+    a = gy2 + 166
+    s.append(txt(24, a, "天将救之，不是天伸一只手来拉他，是天让他自己被慈围住。", 4.8, INK))
+    s.append(txt(24, a + 16, "战是把这圈往前推，守是把这圈收紧——都不是打，是围。", 4.8, INK))
+    s.append(txt(24, a + 34, "挡是防着一个方向，围是四面都在里面。", 5.0, GREEN))
+
+    c = a + 50
+    s.append(f'<line x1="24" y1="{c}" x2="338" y2="{c}" stroke="{LINE}" stroke-width="0.6"/>')
+    s.append(box(20, c + 8, 340, 40, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, c + 23, "慈是围墙，不是盾牌；", 5.4, INK, "middle"))
+    s.append(txt(190, c + 36, "盾挡一面，墙围一圈。", 4.9, GREEN, "middle"))
+    s.append(gold(c + 62, "ch67c"))
+    s.append('</svg>')
+    return "\n".join(s)
+
+
+
 GOLD = {
+    "ch67a": ["慈从心兹，兹者草木多益；心中自有草长，不问其落于何处。", "爱护一棵，慈护一片：护的时候不拼命，反而极稳。"],
+    "ch67b": ["俭者约也，约者绳缠束；收十处为一束，一束可推千里。", "俭不是怕花钱，是怕散：散在十处，十处都不深。"],
+    "ch67c": ["衛从行从帀，帀者周也；慈是围墙不是盾牌，盾挡一面，墙围一圈。", "天将救之，以慈卫之：不是外面拉一把，是自己被围住，伤不着。"],
     "ch66a": ["谷不是山的凹，是水的路；不是谷招水，是水自己往低处走。", "王是天下所归往：往者自至，非呼而来；海以纳百川名，不以大名。"],
     "ch66b": ["重者，人背一囊；害者，旗下取物。", "处上而民不重：不是不上，是上了让人不觉得沉。"],
     "ch66c": ["厭从厂从猒，饱兽压崖；非嫌其人也，乃觉其沉。", "天下乐推而不厌：送上去，不觉得沉。"],
@@ -7895,6 +8085,9 @@ FIGS = {
     "ch66a-yi-tiao-shui-lu": ("第六十六章", "一条水路", ch66a_yi_tiao_shui_lu),
     "ch66b-yi-zhi-kou-dai": ("第六十六章", "一只口袋", ch66b_yi_zhi_kou_dai),
     "ch66c-yi-kou-qi": ("第六十六章", "一口气", ch66c_yi_kou_qi),
+    "ch67a-yi-cong-cao": ("第六十七章", "一丛草", ch67a_yi_cong_cao),
+    "ch67b-yi-shu-sheng": ("第六十七章", "一束绳", ch67b_yi_shu_sheng),
+    "ch67c-yi-quan-qiang": ("第六十七章", "一圈墙", ch67c_yi_quan_qiang),
 }
 
 
