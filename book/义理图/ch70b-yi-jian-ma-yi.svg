@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 380 692" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="褐是贱者之服；披上它不是穷，是不打算靠这个说话" font-family="'Noto Serif CJK SC','Noto Serif SC','Songti SC',serif">
+<defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#6E6459"/></marker><marker id="arr2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#4A5C55"/></marker><marker id="arrL" viewBox="0 0 10 10" refX="1" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M10 0 L0 5 L10 10 z" fill="#4A5C55"/></marker><marker id="arrS" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#A2503B"/></marker></defs>
+<rect x="0" y="0" width="380" height="692" fill="#F8F3E6"/>
+<text x="20" y="26" font-size="11" fill="#A2503B" font-family="'Noto Sans CJK SC','Noto Sans SC',sans-serif" letter-spacing="3">第 七 十 章 · 褐</text>
+<text x="20" y="58" font-size="21" fill="#2F2A24">一件麻衣</text>
+<text x="20" y="78" font-size="10.5" fill="#6E6459">是以圣人被褐而怀玉。</text>
+<rect x="20" y="102" width="340" height="32" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="190" y="114" font-size="4.7" fill="#2F2A24" text-anchor="middle">「褐」，《说文》「编枲袜也，一曰粗衣」——麻编的粗衣，贱者的衣裳。</text>
+<text x="190" y="127" font-size="4.7" fill="#6E6459" text-anchor="middle">「被」读为「披」：是穿上去的动作，不是落到身上的境遇。</text>
+<text x="24" y="150" font-size="4.8" fill="#A2503B">一、褐：麻编的粗衣，面上没有话</text>
+<rect x="26" y="162" width="328" height="142" fill="#FBF6EC" stroke="#DCCBB0" stroke-width="0.8"/>
+<line x1="102" y1="186" x2="194" y2="186" stroke="#2F2A24" stroke-width="1.1"/>
+<line x1="104" y1="186" x2="110" y2="198" stroke="#2F2A24" stroke-width="0.9"/>
+<line x1="192" y1="186" x2="186" y2="198" stroke="#2F2A24" stroke-width="0.9"/>
+<line x1="148" y1="186" x2="148" y2="196" stroke="#2F2A24" stroke-width="1"/>
+<path d="M138,196 L148,210 L158,196 L167,204 L172,232 L163,232 L165,274 L131,274 L133,232 L124,232 L129,204 Z" fill="#EFE6D4" stroke="#2F2A24" stroke-width="1"/>
+<line x1="134" y1="220" x2="162" y2="220" stroke="#7A6E60" stroke-width="0.5" opacity="0.75"/>
+<line x1="134" y1="231" x2="162" y2="231" stroke="#7A6E60" stroke-width="0.5" opacity="0.75"/>
+<line x1="134" y1="242" x2="162" y2="242" stroke="#7A6E60" stroke-width="0.5" opacity="0.75"/>
+<line x1="134" y1="253" x2="162" y2="253" stroke="#7A6E60" stroke-width="0.5" opacity="0.75"/>
+<line x1="134" y1="264" x2="162" y2="264" stroke="#7A6E60" stroke-width="0.5" opacity="0.75"/>
+<line x1="139" y1="226" x2="139" y2="231" stroke="#7A6E60" stroke-width="0.5" opacity="0.55"/>
+<line x1="157" y1="226" x2="157" y2="231" stroke="#7A6E60" stroke-width="0.5" opacity="0.55"/>
+<line x1="139" y1="239" x2="139" y2="244" stroke="#7A6E60" stroke-width="0.5" opacity="0.55"/>
+<line x1="157" y1="239" x2="157" y2="244" stroke="#7A6E60" stroke-width="0.5" opacity="0.55"/>
+<line x1="139" y1="252" x2="139" y2="257" stroke="#7A6E60" stroke-width="0.5" opacity="0.55"/>
+<line x1="157" y1="252" x2="157" y2="257" stroke="#7A6E60" stroke-width="0.5" opacity="0.55"/>
+<line x1="139" y1="265" x2="139" y2="270" stroke="#7A6E60" stroke-width="0.5" opacity="0.55"/>
+<line x1="157" y1="265" x2="157" y2="270" stroke="#7A6E60" stroke-width="0.5" opacity="0.55"/>
+<text x="188" y="216" font-size="4.4" fill="#4A5C55">褐：编枲，</text>
+<text x="188" y="228" font-size="4.4" fill="#4A5C55">贱者之服</text>
+<text x="188" y="248" font-size="4.4" fill="#6E6459">面上没有话</text>
+<text x="190" y="318" font-size="4.6" fill="#4A5C55" text-anchor="middle">麻衣不亮，也不拦：它只是让人看不出他带着什么</text>
+<text x="24" y="338" font-size="4.8" fill="#A2503B">二、被：主动披上，不是穷得只剩这件</text>
+<rect x="26" y="350" width="328" height="150" fill="#FBF6EC" stroke="#DCCBB0" stroke-width="0.8"/>
+<line x1="60" y1="380" x2="132" y2="380" stroke="#2F2A24" stroke-width="1.1"/>
+<line x1="96" y1="380" x2="96" y2="386" stroke="#2F2A24" stroke-width="1"/>
+<path d="M86,386 L96,400 L106,386 L116,394 L121,422 L112,422 L114,474 L78,474 L80,422 L71,422 L76,394 Z" fill="#A2503B" fill-opacity="0.14" stroke="#A2503B" stroke-width="1.1"/>
+<path d="M84,416 q6,-5 12,0 q6,5 12,0" fill="none" stroke="#A2503B" stroke-width="0.7" opacity="0.8"/>
+<path d="M84,434 q6,-5 12,0 q6,5 12,0" fill="none" stroke="#A2503B" stroke-width="0.7" opacity="0.8"/>
+<path d="M84,452 q6,-5 12,0 q6,5 12,0" fill="none" stroke="#A2503B" stroke-width="0.7" opacity="0.8"/>
+<text x="96" y="490" font-size="4.2" fill="#A2503B" text-anchor="middle">锦：挂出来说话</text>
+<line x1="126" y1="412" x2="158" y2="434" stroke="#A2503B" stroke-width="1" stroke-dasharray="4 3"/>
+<polygon points="158,434 150,432 153,440" fill="#A2503B"/>
+<text x="142" y="450" font-size="4.0" fill="#A2503B" text-anchor="middle">脱下</text>
+<circle cx="246" cy="402" r="7" fill="none" stroke="#2F2A24" stroke-width="1"/>
+<path d="M234,412 L258,412 L260,450 L232,450 Z" fill="#EFE6D4" stroke="#2F2A24" stroke-width="1"/>
+<line x1="236" y1="418" x2="256" y2="418" stroke="#7A6E60" stroke-width="0.5" opacity="0.7"/>
+<line x1="236" y1="426" x2="256" y2="426" stroke="#7A6E60" stroke-width="0.5" opacity="0.7"/>
+<line x1="236" y1="434" x2="256" y2="434" stroke="#7A6E60" stroke-width="0.5" opacity="0.7"/>
+<line x1="236" y1="442" x2="256" y2="442" stroke="#7A6E60" stroke-width="0.5" opacity="0.7"/>
+<line x1="234" y1="416" x2="226" y2="438" stroke="#2F2A24" stroke-width="1"/>
+<line x1="258" y1="416" x2="266" y2="438" stroke="#2F2A24" stroke-width="1"/>
+<line x1="240" y1="450" x2="233" y2="474" stroke="#2F2A24" stroke-width="1"/>
+<line x1="252" y1="450" x2="259" y2="474" stroke="#2F2A24" stroke-width="1"/>
+<text x="246" y="490" font-size="4.2" fill="#4A5C55" text-anchor="middle">被褐：跟他一样</text>
+<text x="190" y="512" font-size="4.6" fill="#4A5C55" text-anchor="middle">披上麻衣，是不靠衣裳说话；站进同一排，才听得见同一句话</text>
+<text x="24" y="528" font-size="4.8" fill="#2F2A24">褐不是穷的记号。穷是只剩这件，被褐是还有别的，故意不穿出来。</text>
+<text x="24" y="544" font-size="4.8" fill="#2F2A24">老子那个时代，多得是只做到前半句的人：一身麻衣，走得很响。</text>
+<text x="24" y="562" font-size="5.0" fill="#4A5C55">所以下一句才要紧：衣是贱者的，怀里那块是贵者的。</text>
+<line x1="24" y1="578" x2="338" y2="578" stroke="#DCCBB0" stroke-width="0.6"/>
+<rect x="20" y="586" width="340" height="40" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="190" y="601" font-size="5.4" fill="#2F2A24" text-anchor="middle">褐是贱者之服，被是主动披上。</text>
+<text x="190" y="614" font-size="4.7" fill="#4A5C55" text-anchor="middle">外面一样，是「跟他们一样」；不一样的那一点，揣着。</text>
+<line x1="20" y1="640" x2="360" y2="640" stroke="#E6D8C2" stroke-width="0.8"/>
+<text x="20" y="654" font-size="8.0" fill="#A89577" letter-spacing="1">本 章 金 句</text>
+<text x="20" y="670" font-size="8.4" fill="#2F2A24">吾言甚易知，甚易行；天下莫能知，莫能行。</text>
+<text x="20" y="686" font-size="8.4" fill="#2F2A24">易者，非浅也，直也；无仪式，无秘传，无门槛——而无人走，故难不在道。</text>
+</svg>

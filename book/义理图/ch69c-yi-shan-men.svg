@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 380 720" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="闵是吊者站在门：哀是站在那儿，不进去，也不走" font-family="'Noto Serif CJK SC','Noto Serif SC','Songti SC',serif">
+<defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#6E6459"/></marker><marker id="arr2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#4A5C55"/></marker><marker id="arrL" viewBox="0 0 10 10" refX="1" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M10 0 L0 5 L10 10 z" fill="#4A5C55"/></marker><marker id="arrS" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#A2503B"/></marker></defs>
+<rect x="0" y="0" width="380" height="720" fill="#F8F3E6"/>
+<text x="20" y="26" font-size="11" fill="#A2503B" font-family="'Noto Sans CJK SC','Noto Sans SC',sans-serif" letter-spacing="3">第 六 十 九 章 · 哀</text>
+<text x="20" y="58" font-size="21" fill="#2F2A24">一扇门</text>
+<text x="20" y="78" font-size="10.5" fill="#6E6459">故抗兵相若，哀者胜矣。</text>
+<rect x="20" y="102" width="340" height="30" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="190" y="114" font-size="4.9" fill="#2F2A24" text-anchor="middle">「哀」，《说文》「闵也」；闵，又解「吊者在门也」——吊丧的人站在门口。</text>
+<text x="190" y="126" font-size="4.9" fill="#6E6459" text-anchor="middle">不是「我很伤心」，是「我看见有人死了，我站在他家门口」。</text>
+<text x="24" y="148" font-size="4.8" fill="#A2503B">一、站在门外：不进去，也不走</text>
+<rect x="26" y="160" width="328" height="146" fill="#FBF6EC" stroke="#DCCBB0" stroke-width="0.8"/>
+<line x1="40" y1="288" x2="340" y2="288" stroke="#2F2A24" stroke-width="1"/>
+<path d="M214,288 L214,190 L296,190 L296,288" fill="none" stroke="#2F2A24" stroke-width="1.2"/>
+<rect x="222" y="198" width="66" height="90" fill="none" stroke="#DCCBB0" stroke-width="0.8"/>
+<line x1="255" y1="198" x2="255" y2="288" stroke="#DCCBB0" stroke-width="0.6" stroke-dasharray="3 3"/>
+<text x="255" y="184" font-size="4.8" fill="#2F2A24" text-anchor="middle">门</text>
+<circle cx="196" cy="212" r="6.4" fill="none" stroke="#2F2A24" stroke-width="1"/>
+<path d="M190,220 L202,219 L204,264 L190,265 Z" fill="#EFE6D4" stroke="#2F2A24" stroke-width="1"/>
+<line x1="192" y1="265" x2="190" y2="288" stroke="#2F2A24" stroke-width="1.2"/>
+<line x1="202" y1="265" x2="204" y2="288" stroke="#2F2A24" stroke-width="1.2"/>
+<line x1="204" y1="226" x2="218" y2="224" stroke="#2F2A24" stroke-width="1.1"/>
+<circle cx="190" cy="218" r="1.2" fill="#A2503B" stroke="none" opacity="0.8"/>
+<circle cx="188" cy="223" r="1.2" fill="#A2503B" stroke="none" opacity="0.8"/>
+<circle cx="186" cy="228" r="1.2" fill="#A2503B" stroke="none" opacity="0.8"/>
+<text x="180" y="206" font-size="4.2" fill="#A2503B">吊者</text>
+<text x="190" y="304" font-size="4.6" fill="#A2503B" text-anchor="middle">立在庭墙边哭：不进门，也不离开</text>
+<text x="24" y="366" font-size="4.8" fill="#4A5C55">二、门里：还有人活着</text>
+<rect x="26" y="378" width="328" height="140" fill="#FBF6EC" stroke="#DCCBB0" stroke-width="0.8"/>
+<line x1="40" y1="500" x2="340" y2="500" stroke="#2F2A24" stroke-width="1"/>
+<path d="M50,428 L120,400 L190,428 L190,500 L50,500 Z" fill="none" stroke="#2F2A24" stroke-width="1"/>
+<rect x="174" y="446" width="16" height="54" fill="#FBF6EC" stroke="none"/>
+<rect x="174" y="446" width="16" height="54" fill="none" stroke="#A2503B" stroke-width="0.6" stroke-dasharray="2 2"/>
+<path d="M106,444 L122,444 L119,436 L109,436 Z" fill="#EFE6D4" stroke="#2F2A24" stroke-width="1"/>
+<circle cx="114" cy="440" r="3" fill="#A2503B" stroke="none" opacity="0.7"/>
+<circle cx="76" cy="452" r="4.6" fill="none" stroke="#2F2A24" stroke-width="0.9"/>
+<rect x="71.5" y="457" width="9" height="18" fill="#EFE6D4" stroke="#2F2A24" stroke-width="1.0"/>
+<line x1="74" y1="475" x2="73" y2="492" stroke="#2F2A24" stroke-width="1"/>
+<line x1="78" y1="475" x2="79" y2="492" stroke="#2F2A24" stroke-width="1"/>
+<circle cx="150" cy="452" r="4.6" fill="none" stroke="#2F2A24" stroke-width="0.9"/>
+<rect x="145.5" y="457" width="9" height="18" fill="#EFE6D4" stroke="#2F2A24" stroke-width="1.0"/>
+<line x1="148" y1="475" x2="147" y2="492" stroke="#2F2A24" stroke-width="1"/>
+<line x1="152" y1="475" x2="153" y2="492" stroke="#2F2A24" stroke-width="1"/>
+<path d="M206,500 L206,466 Q206,454 214,452 Q222,454 222,466 L222,500" fill="none" stroke="#A2503B" stroke-width="1" stroke-dasharray="3 2"/>
+<circle cx="214" cy="444" r="6" fill="none" stroke="#A2503B" stroke-width="1" stroke-dasharray="3 2"/>
+<text x="214" y="514" font-size="4.2" fill="#A2503B" text-anchor="middle">门外</text>
+<text x="190" y="534" font-size="4.6" fill="#4A5C55" text-anchor="middle">哭不是为打赢，是为存亡：门里的人还活着</text>
+<text x="24" y="552" font-size="4.8" fill="#2F2A24">申包胥立依于庭墙而哭，日夜不绝声，七日不入口：秦哀公因此出兵。</text>
+<text x="24" y="568" font-size="4.8" fill="#2F2A24">哀兵必胜把老子说反了：哀不是憋着一口气，是不忍。</text>
+<text x="24" y="586" font-size="5.0" fill="#4A5C55">怒是气往外烧，哀是把眼睛留在那个还活着的人身上。</text>
+<line x1="24" y1="602" x2="338" y2="602" stroke="#DCCBB0" stroke-width="0.6"/>
+<rect x="20" y="610" width="340" height="40" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="190" y="625" font-size="5.4" fill="#2F2A24" text-anchor="middle">哀者，闵也；闵者，吊者在门。</text>
+<text x="190" y="638" font-size="4.7" fill="#4A5C55" text-anchor="middle">不是悲愤的一方胜，是还肯站在门口的一方胜。</text>
+<line x1="20" y1="664" x2="360" y2="664" stroke="#E6D8C2" stroke-width="0.8"/>
+<text x="20" y="678" font-size="8.0" fill="#A89577" letter-spacing="1">本 章 金 句</text>
+<text x="20" y="694" font-size="8.4" fill="#2F2A24">哀者，闵也；闵者，吊者在门。</text>
+<text x="20" y="710" font-size="8.4" fill="#2F2A24">哀不是憋着一口气，是不忍：看见门里还有人活着。</text>
+</svg>
