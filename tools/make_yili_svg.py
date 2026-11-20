@@ -1524,6 +1524,9 @@ GOLD = {
     "ch48c": ["「取天下」的「取」是割耳朵，所以老子换了一个动作：不是割，是不动。"],
     "ch47a": ["透过框看，你看见的每一块都是真的；可你真的没看见框外。"],
     "ch47b": ["其出弥远，其知弥少。"],
+    "ch60a": ["烹小鲜的诀是不翻；这一章不教人怎么把事做成，教人做成了之后别再去动它。"],
+    "ch60b": ["莅是草长到那个位置，不是人坐上去发令；一个到，一个管。"],
+    "ch60c": ["交是两条腿交叉，不是两股绳拧成一股；各让一条腿，才各回各家。"],
     "ch59a": ["啬不是舍不得给，是把收下来的拢回仓里；这一章不是讲节俭，是讲收成。"],
     "ch59b": ["克是肩，不是刀；「无不克」不是打遍天下，是天下事都担得起。"],
     "ch59c": ["根是横着铺的，柢是竖着扎的；铺满一层挡不住风，扎死一根才挡得住。"],
@@ -6473,6 +6476,188 @@ def ch59c_yi_ke_shu():
     return "\n".join(s)
 
 
+# ============ 第六十章 · 一口锅 ============
+def ch60a_yi_kou_guo():
+    W, H = 380, 700
+    body, y = head(W, H, "治大国若烹小鲜：鲜是新杀之鱼，最嫩，也最经不起翻",
+                   "第 六 十 章 · 烹", "一口锅", "治大国，若烹小鲜。", H)
+    s = [body]
+
+    s.append(box(20, y + 2, 340, 30, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, y + 14, "「鲜」，《说文》「鱼名」；先秦用「鲜」多取「新」义——新杀之鱼。", 5.2, INK, "middle"))
+    s.append(txt(190, y + 26, "所以「小鲜」不是小鱼干，是刚下锅的那条；它最嫩，最经不起翻。", 5.0, "#6E6459", "middle"))
+
+    def pot(cx, gy, w=96):
+        o = []
+        o.append(f'<path d="M{cx-w/2},{gy-40} L{cx+w/2},{gy-40} L{cx+w/2-10},{gy} L{cx-w/2+10},{gy} Z" fill="#EFE6D4" stroke="{INK}" stroke-width="1.2"/>')
+        o.append(f'<path d="M{cx-w/2},{gy-40} C{cx-12},{gy-46} {cx+12},{gy-46} {cx+w/2},{gy-40}" fill="none" stroke="{INK}" stroke-width="1.2"/>')
+        o.append(f'<path d="M{cx-w/2-14},{gy-32} C{cx-w/2-20},{gy-24} {cx-w/2-8},{gy-18} {cx-w/2},{gy-20}" fill="none" stroke="{INK}" stroke-width="1"/>')
+        o.append(f'<path d="M{cx+w/2+14},{gy-32} C{cx+w/2+20},{gy-24} {cx+w/2+8},{gy-18} {cx+w/2},{gy-20}" fill="none" stroke="{INK}" stroke-width="1"/>')
+        for dx in (-22, 0, 22):
+            o.append(f'<path d="M{cx+dx},{gy+2} C{cx+dx-7},{gy+10} {cx+dx-2},{gy+18} {cx+dx},{gy+22} C{cx+dx+4},{gy+14} {cx+dx+6},{gy+8} {cx+dx},{gy+2} Z" fill="none" stroke="{SEAL}" stroke-width="0.9"/>')
+        return o
+
+    def fish(cx, cy, col, split=0):
+        o = []
+        o.append(f'<path d="M{cx-16},{cy} C{cx-8},{cy-7} {cx+10},{cy-7} {cx+18},{cy} C{cx+10},{cy+7} {cx-8},{cy+7} {cx-16},{cy} Z" fill="#FBF6EC" stroke="{col}" stroke-width="1"/>')
+        o.append(f'<path d="M{cx-16},{cy} L{cx-24},{cy-6} L{cx-24},{cy+6} Z" fill="none" stroke="{col}" stroke-width="0.9"/>')
+        o.append(f'<circle cx="{cx+10}" cy="{cy-1}" r="1.2" fill="{col}"/>')
+        if split:
+            o.append(f'<line x1="{cx-2}" y1="{cy-8}" x2="{cx-2}" y2="{cy+8}" stroke="{col}" stroke-width="0.5" stroke-dasharray="2 2"/>')
+        return o
+
+    # 一、翻
+    t1 = y + 46
+    s.append(txt(24, t1, "一、翻：铲子一搅，鱼断成两截", 5.4, SEAL))
+    gy1 = t1 + 128
+    s += pot(112, gy1)
+    s += fish(108, gy1 - 32, SEAL, split=1)
+    s.append(f'<line x1="150" y1="{gy1-64}" x2="126" y2="{gy1-30}" stroke="{INK}" stroke-width="1.6"/>')
+    s.append(f'<rect x="140" y="{gy1-70}" width="16" height="9" fill="#EFE6D4" stroke="{INK}" stroke-width="0.8"/>')
+    s.append(txt(178, gy1 - 72, "铲子在锅里搅", 4.8, SEAL))
+    s.append(txt(178, gy1 - 60, "翻一遍，断一处", 4.4, "#6E6459"))
+    s.append(txt(112, gy1 + 40, "锅是敞的：谁都想伸一铲子", 4.6, "#6E6459", "middle"))
+
+    # 二、不翻
+    t2 = gy1 + 62
+    s.append(txt(24, t2, "二、不翻：盖子盖着，火自己稳", 5.4, GREEN))
+    gy2 = t2 + 118
+    s += pot(112, gy2)
+    s.append(f'<path d="M{112-52},{gy2-44} C{112-20},{gy2-62} {112+20},{gy2-62} {112+52},{gy2-44}" fill="none" stroke="{INK}" stroke-width="1.4"/>')
+    s.append(f'<circle cx="112" cy="{gy2-60}" r="4" fill="#EFE6D4" stroke="{INK}" stroke-width="0.9"/>')
+    s.append(txt(196, gy2 - 64, "盖着：看不见，也别揭", 4.8, GREEN))
+    s.append(txt(196, gy2 - 52, "鱼在里头熟，不用管", 4.4, "#6E6459"))
+    s.append(txt(112, gy2 + 40, "火候够了，自己就熟", 4.6, "#6E6459", "middle"))
+
+    b = gy2 + 62
+    s.append(txt(24, b, "烹小鲜的诀是不翻：新鱼最嫩，翻一遍就断一处。", 5.0, INK))
+    s.append(txt(24, b + 16, "大国万民的生机也一样：政令反复，就是锅里的铲子。", 5.0, INK))
+    s.append(txt(24, b + 32, "上一章攒得住，这一章才敢不动；仓里有粮的人，才熬得住不揭锅盖。", 4.8, GREEN))
+
+    c = b + 50
+    s.append(f'<line x1="24" y1="{c}" x2="338" y2="{c}" stroke="{LINE}" stroke-width="0.6"/>')
+    s.append(box(20, c + 8, 340, 40, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, c + 24, "治大国，若烹小鲜：", 6.2, INK, "middle"))
+    s.append(txt(190, c + 36, "诀只有一个字——不翻。", 6.0, GREEN, "middle"))
+    s.append(gold(c + 62, "ch60a"))
+    s.append('</svg>')
+    return "\n".join(s)
+
+
+# ============ 第六十章 · 一片草 ============
+def ch60b_yi_pian_cao():
+    W, H = 380, 672
+    body, y = head(W, H, "以道莅天下：莅从艸从位，是草长到那个位置",
+                   "第 六 十 章 · 莅", "一片草", "以道莅天下，其鬼不神。", H)
+    s = [body]
+
+    s.append(box(20, y + 2, 340, 30, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, y + 14, "「莅」，《说文》「临也」，从艸、从位——是草长到那个位置上去了。", 5.2, INK, "middle"))
+    s.append(txt(190, y + 26, "所以莅是「到」，不是「坐上去发令」；一个到，一个管。", 5.2, "#6E6459", "middle"))
+
+    def blade(cx, gy, hgt, col=GREEN, lean=0):
+        o = [f'<path d="M{cx},{gy} C{cx+lean*0.3},{gy-hgt*0.5} {cx+lean},{gy-hgt*0.8} {cx+lean*1.2},{gy-hgt}" fill="none" stroke="{col}" stroke-width="1.1"/>']
+        return o
+
+    # 一、压着长
+    t1 = y + 46
+    s.append(txt(24, t1, "一、压着长：草被压到那个位置", 5.4, SEAL))
+    gy1 = t1 + 124
+    s.append(f'<line x1="24" y1="{gy1}" x2="250" y2="{gy1}" stroke="{INK}" stroke-width="1"/>')
+    s.append(f'<line x1="30" y1="{gy1-88}" x2="240" y2="{gy1-88}" stroke="{LINE}" stroke-width="0.6" stroke-dasharray="5 3"/>')
+    for k, cx in enumerate((58, 74, 90, 106, 122)):
+        s += blade(cx, gy1, 74 + k % 2 * 6, SEAL, lean=-30)
+    s.append(box(150, gy1 - 118, 44, 26, fill="#EFE6D4", stroke=INK, width=0.9))
+    s.append(txt(172, gy1 - 100, "令", 4.8, INK, "middle"))
+    s.append(arrow(172, gy1 - 90, 172, gy1 - 74, SEAL, 0.9, head="arrS"))
+    s.append(txt(196, gy1 - 60, "压到这么高", 4.6, SEAL))
+    s.append(txt(58, gy1 + 14, "草被压弯：长不到它自己的高度", 4.6, "#6E6459"))
+
+    # 二、自然长
+    t2 = gy1 + 36
+    s.append(txt(24, t2, "二、自己长：长到那位置，就不动了", 5.4, GREEN))
+    gy2 = t2 + 124
+    s.append(f'<line x1="24" y1="{gy2}" x2="250" y2="{gy2}" stroke="{INK}" stroke-width="1"/>')
+    s.append(f'<line x1="30" y1="{gy2-94}" x2="240" y2="{gy2-94}" stroke="{GREEN}" stroke-width="0.6" stroke-dasharray="5 3"/>')
+    for k, cx in enumerate((58, 74, 90, 106, 122)):
+        s += blade(cx, gy2, 86 - k % 2 * 5, GREEN, lean=2)
+    for k, cx in enumerate((58, 74, 90, 106, 122)):
+        s.append(f'<ellipse cx="{cx+1}" cy="{gy2-86-k%2*5}" rx="2" ry="3.4" fill="none" stroke="{GREEN}" stroke-width="0.7"/>')
+    s.append(txt(160, gy2 - 102, "就长到这儿，不再往上", 4.6, GREEN))
+    s.append(txt(58, gy2 + 14, "莅：草到了它该到的位置", 4.6, "#6E6459"))
+
+    b = gy2 + 40
+    s.append(txt(24, b, "「莅」从艸从位：是草长到那个位置上，不是人坐上去发令。", 4.9, INK))
+    s.append(txt(24, b + 16, "压着长的草，长不到自己的高度；长到位的草，不再往上争。", 5.0, INK))
+    s.append(txt(24, b + 32, "一个「到」，一个「管」：到了，就不用管了。", 5.2, GREEN))
+
+    c = b + 50
+    s.append(f'<line x1="24" y1="{c}" x2="338" y2="{c}" stroke="{LINE}" stroke-width="0.6"/>')
+    s.append(box(20, c + 8, 340, 40, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, c + 24, "莅是草长到那个位置，不是人坐上去发令；", 5.4, INK, "middle"))
+    s.append(txt(190, c + 36, "一个到，一个管。", 6.0, GREEN, "middle"))
+    s.append(gold(c + 62, "ch60b"))
+    s.append('</svg>')
+    return "\n".join(s)
+
+
+# ============ 第六十章 · 两条腿 ============
+def ch60c_liang_tiao_tui():
+    W, H = 380, 650
+    body, y = head(W, H, "夫两不相伤，故德交归焉：交从交胫，是两条腿交叉",
+                   "第 六 十 章 · 交", "两条腿", "夫两不相伤，故德交归焉。", H)
+    s = [body]
+
+    s.append(box(20, y + 2, 340, 30, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, y + 14, "「交」，《说文》「交胫也」——两条腿交叉；「归」，「女嫁也」，各回各家。", 5.0, INK, "middle"))
+    s.append(txt(190, y + 26, "所以「德交归」不是把德交上去，是两边各让一条腿，各自回家。", 5.0, "#6E6459", "middle"))
+
+    def leg(x0, y0, x1, y1, col=INK, dashed=False):
+        d = ' stroke-dasharray="4 3"' if dashed else ''
+        return f'<line x1="{x0}" y1="{y0}" x2="{x1}" y2="{y1}" stroke="{col}" stroke-width="3"{d}/>'
+
+
+    def footplan(cx, cy, col, dirn=1):
+        return (f'<path d="M{cx},{cy-9} C{cx-dirn*6},{cy-4} {cx-dirn*6},{cy+5} {cx-dirn*2},{cy+9} C{cx+dirn*3},{cy+12} {cx+dirn*6},{cy+6} {cx+dirn*5},{cy-1} C{cx+dirn*5},{cy-8} {cx+dirn*2},{cy-12} {cx},{cy-9} Z" fill="#EFE6D4" stroke="{col}" stroke-width="0.9"/>')
+
+    # 交叉处
+    cx, cy = 150, y + 168
+    s.append(leg(78, cy - 70, 200, cy + 28))
+    s.append(leg(222, cy - 70, 100, cy + 28))
+    s.append(footplan(206, cy + 34, INK, 1))
+    s.append(footplan(94, cy + 34, INK, -1))
+    s.append(txt(150, cy - 88, "两条腿交叉，各让一条", 5.0, SEAL, "middle"))
+    s.append(arrow(96, cy + 56, 52, cy + 56, GREEN, 0.9, head="arrL"))
+    s.append(arrow(204, cy + 56, 248, cy + 56, GREEN, 0.9, head="arr2"))
+    s.append(txt(96, cy + 72, "各回各家", 4.8, GREEN))
+    s.append(txt(212, cy + 72, "各回各家", 4.8, GREEN, "start"))
+
+    # 反例：拧成一股
+    t2 = cy + 84
+    s.append(f'<line x1="24" y1="{t2}" x2="338" y2="{t2}" stroke="{LINE}" stroke-width="0.6"/>')
+    s.append(txt(24, t2 + 18, "不是拧成一股：拧起来，谁都走不了", 5.4, SEAL))
+    cy2 = t2 + 72
+    s.append(f'<line x1="56" y1="{cy2-34}" x2="244" y2="{cy2-34}" stroke="{SEAL}" stroke-width="3"/>')
+    s.append(f'<line x1="56" y1="{cy2-24}" x2="244" y2="{cy2-24}" stroke="{SEAL}" stroke-width="3"/>')
+    for k in range(6):
+        x = 62 + k * 30
+        s.append(f'<line x1="{x}" y1="{cy2-38}" x2="{x+14}" y2="{cy2-20}" stroke="{SEAL}" stroke-width="0.7"/>')
+    s.append(txt(190, cy2 - 48, "两股拧成一根绳：拆不开了", 4.6, SEAL, "middle"))
+
+    b = cy2 + 24
+    s.append(txt(24, b, "「交」是交胫：两条腿交叉，各让一条；「归」是女嫁，各回各家。", 4.9, INK))
+    s.append(txt(24, b + 16, "拧成一股，成了绳，谁都走不了；交叉一下，两边都回得去。", 4.9, INK))
+    s.append(txt(24, b + 32, "太平是没有声音，交归是各有各的地方；前者靠压，后者靠让。", 4.7, GREEN))
+
+    c = b + 50
+    s.append(box(20, c + 8, 340, 40, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, c + 24, "交是两条腿交叉，不是两股绳拧成一股；", 5.4, INK, "middle"))
+    s.append(txt(190, c + 36, "各让一条腿，才各回各家。", 5.6, GREEN, "middle"))
+    s.append(gold(c + 62, "ch60c"))
+    s.append('</svg>')
+    return "\n".join(s)
+
+
 FIGS = {
     "ch01-wu-you": ("第一章", "无有同出", ch01_wu_you),
     "ch01-zhi-yue": ("第一章", "指月三境", ch01_zhi_yue),
@@ -6548,6 +6733,9 @@ FIGS = {
     "ch59a-yi-kou-dun": ("第五十九章", "一口囤", ch59a_yi_kou_dun),
     "ch59b-yi-gen-bian-dan": ("第五十九章", "一根扁担", ch59b_yi_gen_bian_dan),
     "ch59c-yi-ke-shu": ("第五十九章", "一棵树", ch59c_yi_ke_shu),
+    "ch60a-yi-kou-guo": ("第六十章", "一口锅", ch60a_yi_kou_guo),
+    "ch60b-yi-pian-cao": ("第六十章", "一片草", ch60b_yi_pian_cao),
+    "ch60c-liang-tiao-tui": ("第六十章", "两条腿", ch60c_liang_tiao_tui),
     "ch12-wu-se": ("第十二章", "门开五处", ch12_wu_se),
     "ch13-chong-ru": ("第十三章", "惊的是我", ch13_chong_ru),
     "ch14-yi-xi-wei": ("第十四章", "三样工具探不到", ch14_yi_xi_wei),
