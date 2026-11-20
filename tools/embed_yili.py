@@ -66,6 +66,8 @@ def read_style():
 def main():
     meta = read_style()
     files = sorted(f[:-4] for f in os.listdir(FIGS) if f.endswith(".svg"))
+    # 章主图（无字母后缀，如 ch05-tuo-yue）排在前，带后缀的补图依字母次第排后
+    files.sort(key=lambda k: (0 if re.match(r"^ch\d\d-", k) else 1, k))
     by_ch = {}
     for k in files:
         m = re.match(r"^ch(\d\d)", k)
