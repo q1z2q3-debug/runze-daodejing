@@ -7748,6 +7748,7 @@ GOLD = {
     "ch34c": ["功成了不取名，也不记在自己名下。", "万物归焉而弗为主：归是真的归，主是不做主。"],
     "ch35c": ["手一伸出去，场就变成了门槛。", "安是有地方待，平是没人压你，泰是气走得通。"],
     "ch36c": ["不是柔把刚打败了，是刚撑不住自己，柔撑得住。", "刚强是固定形状，柔弱是保持可塑。"],
+    "ch37c": ["它什么也没做，可没有一样东西没被照到。", "不做的那个，恰恰成全了所有的做。"],
     "ch06b": ["谷神不死，是谓玄牝。", "谷者，两山间之空也；能受故能生，生而不有故不竭——生机不在满处，在空处。"],
     "ch06c": ["玄牝之门，是谓天地根。", "门在开合处，不在门板上；一着手去推，它就成了一堵墙。"],
     "ch05b": ["天地不仁，以万物为刍狗。", "刍者，束草也；刍狗有位而无主——用毕回草堆，不是被弃，是位次用完了。"],
@@ -10636,6 +10637,68 @@ def ch36b_wei_ming_yuan():
     s.append(gold(y3 + 48, "ch36b"))
     s.append('</svg>')
     return "\n".join(s)
+
+
+def ch37c_yi_zhan_deng():
+    body, y = head(380, 999, "它什么也没做，可没有一样东西没被照到",
+                   "第 三 十 七 章 · 其 三", "一 盏 灯",
+                   "道恒无为而无不为。", 999)
+    s = [body]
+
+    s.append(box(20, y + 2, 340, 34, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, y + 14, "「为」从爪从象，是一只手在上面；无为，撤的不是事，是那只手。", 4.6, INK, "middle"))
+    s.append(txt(190, y + 27, "灯不推任何东西，可满室皆明——不做的那个，恰恰成全了所有的做。", 4.6, "#6E6459"))
+
+    def room(gy, lit):
+        o = [f'<rect x="40" y="{gy + 16}" width="300" height="104" fill="{"#F7F1DE" if lit else "#D6CFBD"}" stroke="{INK}" stroke-width="0.9"/>']
+        # 陶罐
+        o.append(f'<path d="M96,{gy + 94} q-4,-22 12,-22 q16,0 12,22 Z" fill="#E4D9C0" stroke="{INK}" stroke-width="0.8"/>')
+        # 桌
+        o.append(f'<rect x="150" y="{gy + 84}" width="86" height="7" fill="#E4D9C0" stroke="{INK}" stroke-width="0.8"/>')
+        o.append(f'<line x1="158" y1="{gy + 91}" x2="158" y2="{gy + 118}" stroke="{INK}" stroke-width="0.9"/>')
+        o.append(f'<line x1="228" y1="{gy + 91}" x2="228" y2="{gy + 118}" stroke="{INK}" stroke-width="0.9"/>')
+        # 书
+        for k, dy in enumerate((0, 6, 12)):
+            o.append(f'<rect x="{270 - (2 - k) * 2}" y="{gy + 96 + dy}" width="22" height="5" fill="#E4D9C0" stroke="{INK}" stroke-width="0.7"/>')
+        return "\n".join(o)
+
+    # ---------- 一、有为：一件一件照 ----------
+    s.append(txt(24, y + 52, "一、有为：一件一件来", 5.0, GREEN))
+    gy = y + 64
+    s.append(room(gy, False))
+    s.append(f'<circle cx="78" cy="{gy + 58}" r="50" fill="#F7F1DE" stroke="none"/>')
+    # 提灯的人
+    s.append(f'<circle cx="66" cy="{gy + 62}" r="5" fill="none" stroke="{INK}" stroke-width="0.9"/>')
+    s.append(f'<line x1="66" y1="{gy + 67}" x2="66" y2="{gy + 94}" stroke="{INK}" stroke-width="1.0"/>')
+    s.append(f'<line x1="66" y1="{gy + 94}" x2="58" y2="{gy + 108}" stroke="{INK}" stroke-width="1.0"/>')
+    s.append(f'<line x1="66" y1="{gy + 94}" x2="75" y2="{gy + 108}" stroke="{INK}" stroke-width="1.0"/>')
+    s.append(f'<line x1="66" y1="{gy + 78}" x2="88" y2="{gy + 70}" stroke="{INK}" stroke-width="1.0"/>')
+    s.append(f'<path d="M86,{gy + 68} l6,0 M89,{gy + 68} l0,6" stroke="{INK}" stroke-width="0.8"/>')
+    s.append(f'<path d="M85,{gy + 74} q4,9 1,14 q-5,-5 -1,-14" fill="#F3E6C0" stroke="{SEAL}" stroke-width="0.7"/>')
+    s.append(txt(190, gy + 132, "照完这头，那头还黑；事一件一件做，总有照不到的地方", 4.3, INK, "middle"))
+
+    # ---------- 二、无为：灯挂在当中 ----------
+    s.append(txt(24, gy + 158, "二、无为：灯挂在屋子当中", 5.0, GREEN))
+    gy2 = gy + 170
+    s.append(room(gy2, True))
+    s.append(f'<line x1="190" y1="{gy2 + 16}" x2="190" y2="{gy2 + 40}" stroke="{INK}" stroke-width="0.8"/>')
+    s.append(f'<path d="M173,{gy2 + 58} q17,-22 34,0 Z" fill="#F3E6C0" stroke="{INK}" stroke-width="0.9"/>')
+    s.append(f'<ellipse cx="190" cy="{gy2 + 58}" rx="17" ry="3" fill="#F8EBC4" stroke="{INK}" stroke-width="0.6"/>')
+    for a in (-44, -22, 0, 22, 44):
+        s.append(f'<line x1="{190 + a * 0.55}" y1="{gy2 + 61}" x2="{190 + a}" y2="{gy2 + 82}" stroke="{SEAL}" stroke-width="0.5" stroke-dasharray="3 4" opacity="0.55"/>')
+    s.append(txt(190, gy2 + 132, "它不推任何一件东西，可没有一样没被照到", 4.3, INK, "middle"))
+
+    # ---------- 收 ----------
+    y3 = gy2 + 146
+    s.append(f'<line x1="24" y1="{y3}" x2="356" y2="{y3}" stroke="{LINE}" stroke-width="0.6"/>')
+    s.append(box(20, y3 + 8, 340, 40, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, y3 + 24, "无为而无不为：不做的那个，恰恰成全了所有的做。", 4.9, INK, "middle"))
+    s.append(txt(190, y3 + 37, "手撤了，事一件没少——象照走。", 4.6, GREEN, "middle"))
+    s.append(gold(y3 + 54, "ch37c"))
+    s.append('</svg>')
+    out = "\n".join(s)
+    ys = [float(v) for v in re.findall(r'y="([0-9.]+)"', out)]
+    return out.replace("999", str(int(max(ys) + 26)))
 
 
 # ============ 第三十七章 · 手与象 ============
@@ -15612,6 +15675,7 @@ FIGS = {
     "ch34c-gong-ce": ("第三十四章", "功劳册", ch34c_gong_ce),
     "ch35c-an-ping-tai": ("第三十五章", "安·平·泰", ch35c_an_ping_tai),
     "ch36c-bian-dan": ("第三十六章", "竹扁担", ch36c_bian_dan),
+    "ch37c-yi-zhan-deng": ("第三十七章", "一盏灯", ch37c_yi_zhan_deng),
     "ch32b-chuan-gu": ("第三十二章", "川谷与江海", ch32b_chuan_gu),
     "ch33-zi-zhi-zhe-ming": ("第三十三章", "自知者明", ch33_zi_zhi_zhe_ming),
     "ch34-bu-zhu": ("第三十四章", "不主故能成其大", ch34_bu_zhu_wei_da),
