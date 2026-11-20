@@ -3515,6 +3515,183 @@ def ch75c_yi_gan_cheng():
     return "\n".join(s)
 
 
+def ch76a_yi_gen_zhi_tiao():
+    W, H = 380, 724
+    body, y = head(W, H, "柔的失败是变形，强的失败是断",
+                   "第 七 十 六 章 · 柔", "一根枝条", "人之生也柔弱，其死也坚强。", H)
+    s = [body]
+
+    s.append(box(20, y + 2, 340, 32, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, y + 14, "柔，《说文》「木曲直也」——曲者可直，直者可曲。", 4.7, INK, "middle"))
+    s.append(txt(190, y + 27, "柔不是软，是可逆；弱不是无力，是桡——曲而能直。", 4.7, "#6E6459", "middle"))
+
+    s.append(txt(24, y + 50, "一、被风弯了，风过了它回来", 4.8, SEAL))
+    gy = y + 62
+    s.append(f'<rect x="26" y="{gy}" width="328" height="152" fill="#FBF6EC" stroke="{LINE}" stroke-width="0.8"/>')
+    s.append(f'<line x1="34" y1="{gy + 132}" x2="330" y2="{gy + 132}" stroke="{INK}" stroke-width="1"/>')
+    # 风
+    for i in range(3):
+        s.append(f'<path d="M40,{gy + 40 + i * 22} q26,-6 52,0" fill="none" stroke="#B9A98F" stroke-width="0.9"/>')
+    s.append(f'<polygon points="96,{gy + 40} 84,{gy + 36} 86,{gy + 46}" fill="#B9A98F"/>')
+    # 弯着的枝条
+    s.append(f'<path d="M136,{gy + 132} Q140,{gy + 96} 168,{gy + 78} Q196,{gy + 62} 206,{gy + 40}" fill="none" stroke="{INK}" stroke-width="1.6"/>')
+
+    s.append(f'<path d="M146,{gy + 108} q-16,-2 -22,-12" fill="none" stroke="{INK}" stroke-width="1"/>')
+    s.append(txt(214, gy + 66, "弯", 4.4, SEAL))
+    # 回：虚线回到直立
+    s.append(f'<path d="M206,{gy + 40} Q198,{gy + 26} 176,{gy + 28}" fill="none" stroke="#4A5C55" stroke-width="1" stroke-dasharray="4 3"/>')
+    s.append(f'<polygon points="176,{gy + 28} 186,{gy + 24} 186,{gy + 34}" fill="#4A5C55"/>')
+    s.append(txt(176, gy + 18, "风过了：回来", 4.3, "#4A5C55", "middle"))
+    s.append(txt(190, gy + 166, "枝条被风弯，风过了它回来：柔的失败，只是变形", 4.6, GREEN, "middle"))
+
+    s.append(txt(24, gy + 190, "二、同一根枝，被折断了", 4.8, GREEN))
+    gy2 = gy + 202
+    s.append(f'<rect x="26" y="{gy2}" width="328" height="152" fill="#FBF6EC" stroke="{LINE}" stroke-width="0.8"/>')
+    s.append(f'<line x1="34" y1="{gy2 + 132}" x2="330" y2="{gy2 + 132}" stroke="{INK}" stroke-width="1"/>')
+    # 断枝：根上留着断口，梢落在一边
+    s.append(f'<path d="M136,{gy2 + 132} L140,{gy2 + 78}" fill="none" stroke="{INK}" stroke-width="1.6"/>')
+    s.append(f'<path d="M140,{gy2 + 78} l-6,-10 l8,-2 l-6,-9" fill="none" stroke="{SEAL}" stroke-width="1.2"/>')
+    s.append(f'<path d="M142,{gy2 + 76} Q176,{gy2 + 92} 196,{gy2 + 128}" fill="none" stroke="{INK}" stroke-width="1.4"/>')
+    s.append(f'<line x1="196" y1="{gy2 + 128}" x2="214" y2="{gy2 + 130}" stroke="{INK}" stroke-width="1.2"/>')
+    s.append(txt(228, gy2 + 96, "断口：", 4.3, SEAL))
+    s.append(txt(228, gy2 + 108, "接不回去", 4.3, "#6E6459"))
+    s.append(txt(228, gy2 + 128, "梢落在地上", 4.2, "#6E6459"))
+    s.append(txt(190, gy2 + 166, "同样一个力：弯的回来了，断的回不来", 4.6, GREEN, "middle"))
+
+    a = gy2 + 190
+    s.append(txt(24, a, "所以柔非软也，可逆也；弱非无力也，桡也——曲而能直。", 4.8, INK))
+    s.append(txt(24, a + 16, "坚强则异：坚者土之刚，硬而不动；强者弓有力，满而将断。", 4.8, INK))
+    s.append(txt(24, a + 34, "柔的失败是变形，强的失败是断。", 5.0, GREEN))
+
+    c = a + 52
+    s.append(f'<line x1="24" y1="{c}" x2="338" y2="{c}" stroke="{LINE}" stroke-width="0.6"/>')
+    s.append(box(20, c + 8, 340, 40, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, c + 23, "人之生也柔弱，其死也坚强。", 5.4, INK, "middle"))
+    s.append(txt(190, c + 36, "曲者可直，直者可曲。", 4.7, GREEN, "middle"))
+    s.append(gold(c + 64, "ch76a"))
+    s.append('</svg>')
+    return "\n".join(s)
+
+
+def ch76b_yi_zhang_gong():
+    W, H = 380, 726
+    body, y = head(W, H, "一张弓最强之时，即其最危之时",
+                   "第 七 十 六 章 · 强", "一张弓", "故坚强者死之徒，柔弱者生之徒。", H)
+    s = [body]
+
+    s.append(box(20, y + 2, 340, 32, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, y + 14, "强者，弓有力：满而将断。满不是力量，是离断点只剩一分。", 4.7, INK, "middle"))
+    s.append(txt(190, y + 27, "弓的用处全在「能回」：回弹是放箭，不回就是崩。", 4.7, "#6E6459", "middle"))
+
+    s.append(txt(24, y + 50, "一、拉满：两头都顶到极限", 4.8, SEAL))
+    gy = y + 62
+    s.append(f'<rect x="26" y="{gy}" width="328" height="154" fill="#FBF6EC" stroke="{LINE}" stroke-width="0.8"/>')
+    # 弓臂
+    s.append(f'<path d="M136,{gy + 28} Q104,{gy + 80} 136,{gy + 132}" fill="none" stroke="{INK}" stroke-width="2.4"/>')
+    # 弦拉满
+    s.append(f'<line x1="136" y1="{gy + 28}" x2="228" y2="{gy + 80}" stroke="{INK}" stroke-width="1.2"/>')
+    s.append(f'<line x1="136" y1="{gy + 132}" x2="228" y2="{gy + 80}" stroke="{INK}" stroke-width="1.2"/>')
+    s.append(f'<line x1="228" y1="{gy + 72}" x2="262" y2="{gy + 72}" stroke="{SEAL}" stroke-width="1" stroke-dasharray="4 3"/>')
+    s.append(f'<polygon points="262,{gy + 72} 250,{gy + 67} 250,{gy + 77}" fill="{SEAL}"/>')
+    s.append(txt(250, gy + 92, "满", 4.6, SEAL, "middle"))
+    # 断点：上下弓梢赭色
+    s.append(f'<circle cx="136" cy="{gy + 28}" r="3.2" fill="none" stroke="{SEAL}" stroke-width="1.2"/>')
+    s.append(f'<circle cx="136" cy="{gy + 132}" r="3.2" fill="none" stroke="{SEAL}" stroke-width="1.2"/>')
+    s.append(txt(104, gy + 22, "断点", 4.2, SEAL))
+    s.append(txt(104, gy + 146, "断点", 4.2, SEAL))
+    s.append(txt(190, gy + 168, "满到极处只有两条路：回弹，或者崩断", 4.6, GREEN, "middle"))
+
+    s.append(txt(24, gy + 192, "二、崩断：落下来的那一下", 4.8, GREEN))
+    gy2 = gy + 204
+    s.append(f'<rect x="26" y="{gy2}" width="328" height="154" fill="#FBF6EC" stroke="{LINE}" stroke-width="0.8"/>')
+    # 断了的上梢
+    s.append(f'<path d="M136,{gy2 + 66} Q118,{gy2 + 44} 132,{gy2 + 22}" fill="none" stroke="{INK}" stroke-width="2.4"/>')
+    s.append(f'<path d="M136,{gy2 + 66} Q116,{gy2 + 96} 130,{gy2 + 132}" fill="none" stroke="{INK}" stroke-width="2.4"/>')
+    s.append(f'<path d="M136,{gy2 + 66} l-8,-4 l3,-8 l-9,-2" fill="none" stroke="{SEAL}" stroke-width="1.4"/>')
+    # 弦松垂
+    s.append(f'<path d="M132,{gy2 + 22} Q186,{gy2 + 84} 130,{gy2 + 132}" fill="none" stroke="{INK}" stroke-width="1" stroke-dasharray="4 3"/>')
+    s.append(txt(168, gy2 + 96, "弦松了，箭射不出去", 4.3, "#6E6459"))
+    s.append(txt(104, gy2 + 76, "断在这里", 4.2, SEAL))
+    s.append(txt(190, gy2 + 168, "一张弓最强之时，即其最危之时", 4.6, GREEN, "middle"))
+
+    a = gy2 + 192
+    s.append(txt(24, a, "弓的用处全在「能回」：弯是力存在库里，回才是力放出去。", 4.8, INK))
+    s.append(txt(24, a + 16, "断了的弓，力气一分不少，只是再也回不去了。", 4.8, INK))
+    s.append(txt(24, a + 34, "强不是力大，是离断点近。", 5.0, GREEN))
+
+    c = a + 52
+    s.append(f'<line x1="24" y1="{c}" x2="338" y2="{c}" stroke="{LINE}" stroke-width="0.6"/>')
+    s.append(box(20, c + 8, 340, 40, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, c + 23, "故坚强者死之徒，柔弱者生之徒。", 5.4, INK, "middle"))
+    s.append(txt(190, c + 36, "徒者，步行也——两条路，不是一个类。", 4.7, GREEN, "middle"))
+    s.append(gold(c + 64, "ch76b"))
+    s.append('</svg>')
+    return "\n".join(s)
+
+
+def ch76c_yi_ba_fu():
+    W, H = 380, 726
+    body, y = head(W, H, "折是从斤断艸：斧落下来，草弯，木断",
+                   "第 七 十 六 章 · 折", "一把斧", "是以兵强则灭，木强则折。", H)
+    s = [body]
+
+    s.append(box(20, y + 2, 340, 32, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, y + 14, "折，《说文》「断也，从斤断艸」——这个字画的就是斧落于草。", 4.7, INK, "middle"))
+    s.append(txt(190, y + 27, "帛书作「兵强则不勝」：至强之兵，是一支不能输的兵。", 4.7, "#6E6459", "middle"))
+
+    s.append(txt(24, y + 50, "一、字：从斤断艸", 4.8, SEAL))
+    gy = y + 62
+    s.append(f'<rect x="26" y="{gy}" width="328" height="152" fill="#FBF6EC" stroke="{LINE}" stroke-width="0.8"/>')
+    s.append(f'<line x1="34" y1="{gy + 132}" x2="330" y2="{gy + 132}" stroke="{INK}" stroke-width="1"/>')
+    # 艸：一丛草，草尖断在地上
+    for i in range(4):
+        cx = 74 + i * 16
+        s.append(f'<path d="M{cx},{gy + 132} q-3,-30 2,-46" fill="none" stroke="{INK}" stroke-width="1.3"/>')
+        s.append(f'<path d="M{cx + 2},{gy + 86} q6,-4 10,-2" fill="none" stroke="{INK}" stroke-width="1"/>')
+    # 断落的草尖
+    s.append(f'<path d="M112,{gy + 116} q10,-4 18,-10" fill="none" stroke="#B9A98F" stroke-width="1" stroke-dasharray="3 2"/>')
+    s.append(txt(150, gy + 124, "断落的草尖", 4.2, "#6E6459"))
+    # 斤：横向压下来的斧
+    s.append(f'<path d="M112,{gy + 72} L174,{gy + 74} L180,{gy + 86} L118,{gy + 88} Z" fill="#DED2B8" stroke="{INK}" stroke-width="1"/>')
+    s.append(f'<line x1="118" y1="{gy + 88}" x2="180" y2="{gy + 86}" stroke="{INK}" stroke-width="1.2"/>')
+    s.append(f'<line x1="174" y1="{gy + 74}" x2="240" y2="{gy + 24}" stroke="{INK}" stroke-width="2"/>')
+    s.append(txt(196, gy + 100, "斤：斧", 4.3, SEAL))
+    s.append(txt(88, gy + 146, "艸：草", 4.3, "#6E6459"))
+    s.append(txt(190, gy + 166, "折：斧落下来，断了的那一丛草", 4.6, GREEN, "middle"))
+
+    s.append(txt(24, gy + 190, "二、同一个力，落在草上／落在木上", 4.8, GREEN))
+    gy2 = gy + 202
+    s.append(f'<rect x="26" y="{gy2}" width="328" height="152" fill="#FBF6EC" stroke="{LINE}" stroke-width="0.8"/>')
+    s.append(f'<line x1="34" y1="{gy2 + 136}" x2="330" y2="{gy2 + 136}" stroke="{INK}" stroke-width="1"/>')
+    # 左：风推草，草弯而不断
+    s.append(f'<path d="M40,{gy2 + 70} q26,-8 52,0" fill="none" stroke="#4A5C55" stroke-width="0.9"/>')
+    s.append(f'<polygon points="96,{gy2 + 70} 84,{gy2 + 65} 84,{gy2 + 75}" fill="#4A5C55"/>')
+    for i in range(4):
+        cx = 108 + i * 12
+        s.append(f'<path d="M{cx},{gy2 + 136} Q{cx + 8},{gy2 + 104} {cx + 34},{gy2 + 86}" fill="none" stroke="{INK}" stroke-width="1.3"/>')
+    s.append(txt(132, gy2 + 66, "草弯了，没断", 4.3, "#4A5C55", "middle"))
+    # 右：木被折断成两截
+    s.append(f'<rect x="228" y="{gy2 + 106}" width="52" height="30" fill="#EFE6D4" stroke="{INK}" stroke-width="1"/>')
+    s.append(f'<rect x="290" y="{gy2 + 110}" width="40" height="26" fill="#EFE6D4" stroke="{INK}" stroke-width="1"/>')
+    s.append(f'<path d="M282,{gy2 + 106} l8,8 l-8,8 l8,8" fill="none" stroke="{SEAL}" stroke-width="1.3"/>')
+    s.append(txt(282, gy2 + 92, "木断了", 4.3, SEAL, "middle"))
+    s.append(txt(190, gy2 + 168, "柔者见弯，强者见断：弯可复，断不可复", 4.6, GREEN, "middle"))
+
+    a = gy2 + 192
+    s.append(txt(24, a, "柔的失败是变形——弯了还能直回来；强的失败是断——断口没有第二种可能。", 4.8, INK))
+    s.append(txt(24, a + 16, "至强之兵，是不能输的兵：一不能赢，则全输——非败于人也，无第二途也。", 4.8, INK))
+    s.append(txt(24, a + 34, "故强大处下，柔弱处上。", 5.0, GREEN))
+
+    c = a + 52
+    s.append(f'<line x1="24" y1="{c}" x2="338" y2="{c}" stroke="{LINE}" stroke-width="0.6"/>')
+    s.append(box(20, c + 8, 340, 40, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, c + 23, "是以兵强则灭，木强则折。", 5.4, INK, "middle"))
+    s.append(txt(190, c + 36, "强者见断，柔者见弯。", 4.7, GREEN, "middle"))
+    s.append(gold(c + 64, "ch76c"))
+    s.append('</svg>')
+    return "\n".join(s)
+
+
 GOLD = {
     "ch74a": ["常有司杀者杀。", "司者，《说文》曰「臣司事于外者，从反后」；"],
     "ch74b": ["夫代司杀者杀，是谓代大匠斫。", "斫者，《说文》曰「击也」，从斤——一下而断，不可复也。"],
@@ -3522,6 +3699,9 @@ GOLD = {
     "ch75a": ["民之饥，以其上食税之多，是以饥。", "飢者，《说文》曰「饿也」，腹空也；饑者，「谷不熟」也。"],
     "ch75b": ["民之难治，以其上之有为，是以难治。", "治者，《说文》曰「治，水，出东莱曲城阳丘山，南入海」——本为水名。"],
     "ch75c": ["夫唯无以生为者，是贤于贵生。", "贤者，《说文》曰「多才也」，从贝——本与财相关。"],
+    "ch76a": ["人之生也柔弱，其死也坚强。", "柔者，《说文》曰「木曲直也」——曲者可直，直者可曲。"],
+    "ch76b": ["故坚强者死之徒，柔弱者生之徒。", "徒者，《说文》曰「步行也」，从辵从土——其字本在走。"],
+    "ch76c": ["是以兵强则灭，木强则折。", "折者，《说文》曰「断也，从斤断艸」——斧落于草。"],
     "ch73a": ["勇于敢则杀，勇于不敢则活。", "气无方向，向由敢定；"],
     "ch73b": ["繟者，《说文》曰「带缓也」，从糸——带系之松也。", "人之谋也系紧，紧则勒，勒处即崩处；"],
     "ch73c": ["天网恢恢，疏而不失。", "疏者，《说文》曰「通也」，非稀也；"],
@@ -9747,6 +9927,9 @@ FIGS = {
     "ch75a-yi-zhi-kong-wan": ("第七十五章", "一只空碗", ch75a_yi_zhi_kong_wan),
     "ch75b-yi-tiao-he": ("第七十五章", "一条河", ch75b_yi_tiao_he),
     "ch75c-yi-gan-cheng": ("第七十五章", "一杆秤", ch75c_yi_gan_cheng),
+    "ch76a-yi-gen-zhi-tiao": ("第七十六章", "一根枝条", ch76a_yi_gen_zhi_tiao),
+    "ch76b-yi-zhang-gong": ("第七十六章", "一张弓", ch76b_yi_zhang_gong),
+    "ch76c-yi-ba-fu": ("第七十六章", "一把斧", ch76c_yi_ba_fu),
 }
 
 
