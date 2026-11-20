@@ -7716,63 +7716,73 @@ def ch48c_guan_qia():
 
 # ============ 第四十九章 · 一把尺 ============
 def ch49a_yi_ba_chi():
-    W, H = 380, 646
-    body, y = head(W, H, "常心是一把自己打的尺：一把尺能定长短，也能把人钉在短的那一格里",
-                   "第 四 十 九 章 · 尺 与 气", "一把尺，一口气", "圣人无常心，以百姓心为心。", H)
+    W, H = 380, 700
+    body, y = head(W, H, "常心是一把自己打的尺：尺一横在人头顶，人就只剩一个读数",
+                   "第 四 十 九 章 · 尺", "一把尺", "圣人无常心，以百姓心为心。", H)
     s = [body]
 
-    s.append(box(20, y + 2, 340, 30, fill="#F2EADA", stroke="#C9B79A"))
-    s.append(txt(190, y + 14, "「常心」听着像常理，其实是自己打的尺；尺一伸出去，话就跟着出去。", 5.4, INK, "middle"))
-    s.append(txt(190, y + 26, "量人是一口气往外吐，放下是一口气往里吸——同一件事的两头。", 5.2, "#6E6459", "middle"))
+    s.append(box(20, y + 2, 340, 32, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, y + 14, "「常」这个字最骗人：它听着像天理，其实是你自己的习惯。", 5.2, INK, "middle"))
+    s.append(txt(190, y + 27, "一把尺在手，万物皆有长短；放下尺，不是没有标准，是不再拿它钉人。", 5.0, "#6E6459", "middle"))
 
-    posts = [(66, 84, "甲", "合格"), (136, 58, "乙", "不合格"), (206, 34, "丙", "不合格")]
+    def person(cx, base, hh):
+        top = base - hh
+        s.append(f'<circle cx="{cx}" cy="{top + 6}" r="5.6" fill="none" stroke="{INK}" stroke-width="1"/>')
+        s.append(f'<line x1="{cx}" y1="{top + 12}" x2="{cx}" y2="{base - 18}" stroke="{INK}" stroke-width="1.2"/>')
+        s.append(f'<line x1="{cx}" y1="{top + 22}" x2="{cx - 7}" y2="{top + 32}" stroke="{INK}" stroke-width="0.9"/>')
+        s.append(f'<line x1="{cx}" y1="{top + 22}" x2="{cx + 7}" y2="{top + 32}" stroke="{INK}" stroke-width="0.9"/>')
+        s.append(f'<line x1="{cx}" y1="{base - 18}" x2="{cx - 6}" y2="{base}" stroke="{INK}" stroke-width="1"/>')
+        s.append(f'<line x1="{cx}" y1="{base - 18}" x2="{cx + 6}" y2="{base}" stroke="{INK}" stroke-width="1"/>')
+        return top
 
-    # 一、有常心：一把尺，几道格
-    t1 = y + 46
-    s.append(txt(24, t1, "一、有常心：一把尺横在人头顶", 5.4, SEAL))
-    gy1 = t1 + 104
-    s.append(box(294, gy1 - 100, 10, 100, fill="#EFE6D4", stroke=INK, width=0.8))
-    for k in range(7):
-        ty = gy1 - 13 * (k + 1)
-        s.append(f'<line x1="{286 if k % 2 == 0 else 289}" y1="{ty}" x2="294" y2="{ty}" stroke="{LINE}" stroke-width="0.5"/>')
-    s.append(f'<line x1="40" y1="{gy1-64}" x2="294" y2="{gy1-64}" stroke="{SEAL}" stroke-width="1" stroke-dasharray="5 3"/>')
-    s.append(txt(30, gy1 - 68, "合格线", 4.6, SEAL))
-    for (cx, hh, lab, verdict) in posts:
-        s.append(box(cx - 9, gy1 - hh, 18, hh, fill="#EFE6D4", stroke=INK, width=0.8))
-        s.append(f'<line x1="{cx-9}" y1="{gy1-hh}" x2="{cx+9}" y2="{gy1-hh}" stroke="{INK}" stroke-width="0.9"/>')
-        s.append(f'<line x1="{cx+9}" y1="{gy1-hh}" x2="294" y2="{gy1-hh}" stroke="{LINE2}" stroke-width="0.4" stroke-dasharray="3 3"/>')
-        s.append(txt(cx, gy1 + 11, lab + " · " + verdict, 4.6, GREEN if verdict == "合格" else SEAL, "middle"))
-    s.append(txt(210, gy1 + 26, "尺一横过来，人就成了几格里的一个读数", 4.6, "#6E6459"))
-    s.append(arrow(306, gy1 - 50, 336, gy1 - 50, SEAL, 0.9, head="arrS"))
-    s.append(txt(340, gy1 - 48, "吐", 6.2, SEAL))
-    s.append(txt(306, gy1 - 36, "标准、评判", 4.4, SEAL))
-    s.append(txt(306, gy1 - 26, "一整套「应该」", 4.4, SEAL))
-
-    # 二、无常心：尺放下
-    t2 = gy1 + 46
-    s.append(txt(24, t2, "二、无常心：尺还在，只是不再横在人头顶", 5.4, GREEN))
-    gy2 = t2 + 104
-    for (cx, hh, lab, verdict) in posts:
-        s.append(box(cx - 9, gy2 - hh, 18, hh, fill="#EFE6D4", stroke=INK, width=0.8))
-        s.append(f'<line x1="{cx-9}" y1="{gy2-hh}" x2="{cx+9}" y2="{gy2-hh}" stroke="{INK}" stroke-width="0.9"/>')
-        s.append(txt(cx, gy2 + 11, lab, 4.8, "#6E6459", "middle"))
-    # 尺躺下
-    s.append(f'<rect x="52" y="{gy2 + 40}" width="196" height="11" fill="#EFE6D4" stroke="{GREEN}" stroke-width="0.8"/>')
+    # 一、有常心：一把尺压在头顶
+    s.append(txt(24, y + 50, "一、有常心：一把尺压在头顶", 5.2, SEAL))
+    gy = y + 62
+    s.append(f'<rect x="26" y="{gy}" width="328" height="168" fill="#FBF6EC" stroke="{LINE}" stroke-width="0.8"/>')
+    base = gy + 128
+    s.append(f'<line x1="40" y1="{base}" x2="330" y2="{base}" stroke="{INK}" stroke-width="1"/>')
+    ruler_y = gy + 22
+    s.append(box(44, ruler_y, 244, 9, fill="#EFE6D4", stroke=INK, width=1))
     for k in range(9):
-        s.append(f'<line x1="{62 + k * 21}" y1="{gy2+40}" x2="{62 + k * 21}" y2="{gy2+46}" stroke="{GREEN}" stroke-width="0.4"/>')
-    s.append(txt(254, gy2 + 42, "尺收回来了：还在，", 4.5, GREEN))
-    s.append(txt(254, gy2 + 52, "只是不量人了", 4.5, GREEN))
-    s.append(arrow(306, gy2 - 34, 236, gy2 - 34, GREEN, 0.9, head="arr2"))
-    s.append(txt(340, gy2 - 32, "吸", 6.2, GREEN))
-    s.append(txt(306, gy2 - 44, "往里收", 4.4, GREEN))
-    s.append(txt(24, gy2 - 46, "三个人还是三个高度，各自一个尺寸", 4.6, "#6E6459"))
+        s.append(f'<line x1="{58 + k * 27}" y1="{ruler_y}" x2="{58 + k * 27}" y2="{ruler_y + 3.2}" stroke="{INK}" stroke-width="0.5"/>')
+    s.append(f'<line x1="44" y1="{ruler_y + 9}" x2="288" y2="{ruler_y + 9}" stroke="{SEAL}" stroke-width="1.1" stroke-dasharray="6 3"/>')
+    s.append(txt(296, ruler_y + 8, "合格线", 4.4, SEAL))
+    for cx, hh, lab, pass_it in [(86, 96, "甲", True), (148, 72, "乙", False), (210, 48, "丙", False)]:
+        top = person(cx, base, hh)
+        if pass_it:
+            s.append(f'<line x1="{cx}" y1="{top + 0.4}" x2="{cx}" y2="{ruler_y + 9}" stroke="{GREEN}" stroke-width="0.6" stroke-dasharray="3 2"/>')
+            s.append(txt(cx, base + 14, "甲：够得到", 4.3, GREEN, "middle"))
+        else:
+            s.append(f'<line x1="{cx}" y1="{top + 0.4}" x2="{cx}" y2="{top - 20}" stroke="{SEAL}" stroke-width="0.6" stroke-dasharray="3 2"/>')
+            s.append(txt(cx, base + 14, lab + ("：差一截" if hh == 72 else "：差两截"), 4.3, SEAL, "middle"))
+    s.append(txt(190, gy + 156, "尺一压下来，人就成了刻度上的一个读数", 4.5, GREEN, "middle"))
+    s.append(txt(190, gy + 184, "尺一伸出去，话就跟着出去；尺压在头顶，人就被钉住", 4.6, GREEN, "middle"))
 
-    b = gy2 + 72
-    s.append(txt(24, b, "量人和吐气是同一个动作：尺一伸出去，话就跟着出去。", 5.6, INK))
-    s.append(txt(24, b + 16, "「以百姓心为心」不是照他们说的做，是不把人划到哪一栏里去。", 5.6, INK))
-    s.append(txt(24, b + 32, "把尺收回来，气才收得住——放下尺不是失去标准，是不再拿它钉人。", 5.2, GREEN))
+    # 二、无常心：尺插回腰间
+    s.append(txt(24, gy + 208, "二、无常心：尺收回腰间，人还是三个人", 5.2, GREEN))
+    gy2 = gy + 220
+    s.append(f'<rect x="26" y="{gy2}" width="328" height="168" fill="#FBF6EC" stroke="{LINE}" stroke-width="0.8"/>')
+    base2 = gy2 + 128
+    s.append(f'<line x1="40" y1="{base2}" x2="330" y2="{base2}" stroke="{INK}" stroke-width="1"/>')
+    for cx, hh, lab in [(86, 96, "甲"), (148, 72, "乙"), (210, 48, "丙")]:
+        top = person(cx, base2, hh)
+        s.append(txt(cx, base2 + 14, lab, 4.5, "#6E6459", "middle"))
+    # 甲的腰间一道带，尺斜插在里面，露出半截
+    s.append(f'<path d="M79,{base2 - 44} q7,3 14,0" fill="none" stroke="{INK}" stroke-width="1"/>')
+    s.append(f'<line x1="92" y1="{base2 - 42}" x2="124" y2="{base2 - 54}" stroke="#EFE6D4" stroke-width="3.4"/>')
+    s.append(f'<line x1="92" y1="{base2 - 42}" x2="124" y2="{base2 - 54}" stroke="{GREEN}" stroke-width="1.4"/>')
+    for k in range(3):
+        s.append(f'<line x1="{100 + k * 8}" y1="{base2 - 44 - k * 3}" x2="{100 + k * 8}" y2="{base2 - 40 - k * 3}" stroke="{INK}" stroke-width="0.5"/>')
+    s.append(txt(238, gy2 + 44, "尺插回腰间：还在，", 4.4, GREEN))
+    s.append(txt(238, gy2 + 56, "不横在人头顶", 4.4, GREEN))
+    s.append(txt(190, gy2 + 184, "头顶那道虚线没有了：不把人划到哪一栏里去", 4.6, GREEN, "middle"))
 
-    c = b + 50
+    a = gy2 + 208
+    s.append(txt(24, a, "尺量长短，是它本分；尺压在头顶，它就把人钉住了。", 5.4, INK))
+    s.append(txt(24, a + 16, "「以百姓心为心」不是照他们说的做，是不把他们划到哪一栏里去。", 5.4, INK))
+    s.append(txt(24, a + 34, "这一章不是教人宽容，是教人把自己那把尺认出来，然后松开手。", 5.2, GREEN))
+
+    c = a + 52
     s.append(f'<line x1="24" y1="{c}" x2="338" y2="{c}" stroke="{LINE}" stroke-width="0.6"/>')
     s.append(box(20, c + 8, 340, 40, fill="#F2EADA", stroke="#C9B79A"))
     s.append(txt(190, c + 24, "一把尺能定长短，", 6.0, INK, "middle"))
@@ -7782,57 +7792,76 @@ def ch49a_yi_ba_chi():
     return "\n".join(s)
 
 
-# ============ 第四十九章 · 一吸一灌 ============
-def ch49b_yi_xi_yi_guan():
-    W, H = 380, 560
-    body, y = head(W, H, "百姓把耳目当灌渠往外灌，圣人往里吸",
-                   "第 四 十 九 章 · 吸 与 灌", "一吸一灌", "歙歙焉，为天下浑其心。", H)
+def ch49b_yi_tiao_qu():
+    W, H = 380, 690
+    body, y = head(W, H, "百姓把耳目当灌渠往外灌，圣人把渠口收一寸",
+                   "第 四 十 九 章 · 渠", "一条渠", "歙歙焉，为天下浑其心。", H)
     s = [body]
 
-    s.append(box(20, y + 2, 340, 30, fill="#F2EADA", stroke="#C9B79A"))
-    s.append(txt(190, y + 14, "「歙」，《说文》「缩鼻也」——鼻子往里一缩，吸气。", 5.6, INK, "middle"))
-    s.append(txt(190, y + 26, "「注」，《说文》「灌也」——水往外灌。全章的对位就在这一呼一吸上。", 5.2, "#6E6459", "middle"))
+    s.append(box(20, y + 2, 340, 32, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, y + 14, "「注」，《说文》「灌也」——水往一处灌；「歙」，「缩鼻也」——鼻子往里一缩。", 5.0, INK, "middle"))
+    s.append(txt(190, y + 27, "全章的对位就在这一出一入：往外灌的是耳目，往里收的是那口气。", 5.0, "#6E6459", "middle"))
 
-    # 一、注：灌
-    t1 = y + 46
-    s.append(txt(24, t1, "一、注：耳目是两条灌渠，往外灌", 5.4, SEAL))
-    cy1 = t1 + 64
-    s.append(f'<circle cx="150" cy="{cy1}" r="26" fill="none" stroke="{INK}" stroke-width="0.9"/>')
-    s.append(txt(150, cy1 - 34, "百姓", 5.0, "#6E6459", "middle"))
-    s.append(f'<circle cx="140" cy="{cy1-6}" r="1.7" fill="{INK}"/><circle cx="160" cy="{cy1-6}" r="1.7" fill="{INK}"/>')
-    # 两条渠
-    for (xl, yc) in ((46, cy1), ):
-        pass
-    s.append(f'<rect x="52" y="{cy1+2}" width="72" height="9" fill="#EFE6D4" stroke="{LINE}" stroke-width="0.7"/>')
-    s.append(f'<rect x="176" y="{cy1+2}" width="72" height="9" fill="#EFE6D4" stroke="{LINE}" stroke-width="0.7"/>')
-    s.append(arrow(120, cy1 + 6.5, 56, cy1 + 6.5, SEAL, 0.9, head="arrS"))
-    s.append(arrow(180, cy1 + 6.5, 244, cy1 + 6.5, SEAL, 0.9, head="arrS"))
-    s.append(f'<circle cx="40" cy="{cy1+16}" r="2.2" fill="{SEAL}" opacity="0.55"/>')
-    s.append(f'<circle cx="262" cy="{cy1+16}" r="2.2" fill="{SEAL}" opacity="0.55"/>')
-    s.append(txt(88, cy1 + 26, "眼睛、耳朵：两条朝外的渠", 4.6, SEAL, "middle"))
-    s.append(txt(212, cy1 + 26, "水一开就关不上", 4.6, SEAL, "middle"))
+    def head_at(cx, cy, lab):
+        s.append(f'<circle cx="{cx}" cy="{cy}" r="19" fill="none" stroke="{INK}" stroke-width="1.1"/>')
+        s.append(f'<circle cx="{cx - 6.5}" cy="{cy - 4}" r="1.6" fill="{INK}"/>')
+        s.append(f'<circle cx="{cx + 6.5}" cy="{cy - 4}" r="1.6" fill="{INK}"/>')
+        s.append(txt(cx, cy - 27, lab, 4.6, "#6E6459", "middle"))
 
-    # 二、歙：吸
-    t2 = cy1 + 52
-    s.append(f'<line x1="24" y1="{t2-8}" x2="338" y2="{t2-8}" stroke="{LINE}" stroke-width="0.6"/>')
-    t2b = t2 + 12
-    s.append(txt(24, t2b, "二、歙：缩鼻，往里收，不往外吐", 5.4, GREEN))
-    cy2 = t2b + 64
-    s.append(f'<circle cx="150" cy="{cy2}" r="26" fill="none" stroke="{INK}" stroke-width="0.9"/>')
-    s.append(txt(150, cy2 - 34, "圣人", 5.0, "#6E6459", "middle"))
-    s.append(f'<circle cx="140" cy="{cy2-6}" r="1.7" fill="{INK}"/><circle cx="160" cy="{cy2-6}" r="1.7" fill="{INK}"/>')
-    s.append(f'<circle cx="150" cy="{cy2+4}" r="1.7" fill="{SEAL}"/>')
-    s.append(arrow(252, cy2 + 4, 178, cy2 + 4, GREEN, 0.9, head="arr2"))
-    s.append(txt(256, cy2 - 2, "一口往里吸", 4.6, GREEN))
-    s.append(txt(256, cy2 + 10, "不出声，不吐气", 4.6, GREEN))
-    s.append(txt(150, cy2 + 42, "吐出去的多是标准、评判、一整套「应该怎样」", 4.6, "#6E6459", "middle"))
+    def ditch(x0, y0, x1, water_dir, gate=False):
+        """一条渠的剖面：两道岸、渠底、渠里的水。"""
+        s.append(f'<line x1="{x0}" y1="{y0}" x2="{x1}" y2="{y0}" stroke="{INK}" stroke-width="1.1"/>')
+        s.append(f'<line x1="{x0}" y1="{y0 + 22}" x2="{x1}" y2="{y0 + 22}" stroke="{INK}" stroke-width="1.1"/>')
+        s.append(f'<rect x="{x0 + 3}" y="{y0 + 12}" width="{x1 - x0 - 6}" height="7" fill="{GREEN}" opacity="0.35"/>')
+        # 水纹
+        s.append(f'<path d="M{x0 + 6},{y0 + 12} h{x1 - x0 - 12}" stroke="{GREEN}" stroke-width="0.8"/>')
+        if water_dir > 0:
+            for k in range(4):
+                xx = x0 + 30 + k * 44
+                s.append(arrow(xx, y0 + 15, xx + 26, y0 + 15, SEAL, 0.7, head="arrS"))
+        else:
+            for k in range(3):
+                xx = x1 - 40 - k * 46
+                s.append(arrow(xx, y0 + 15, xx - 26, y0 + 15, GREEN, 0.7, head="arr2"))
+        if gate:
+            s.append(f'<line x1="{x1}" y1="{y0 - 2}" x2="{x1}" y2="{y0 + 24}" stroke="{SEAL}" stroke-width="1.6"/>')
+            s.append(f'<line x1="{x1 - 8}" y1="{y0}" x2="{x1 - 8}" y2="{y0 + 22}" stroke="{SEAL}" stroke-width="1"/>')
 
-    b = cy2 + 58
-    s.append(txt(24, b, "大家都往外灌，就没人吸；没人吸，那个场就干了。", 5.6, INK))
-    s.append(txt(24, b + 16, "注是结构，不是罪状：眼睛看什么，心就在哪儿。", 5.6, INK))
-    s.append(txt(24, b + 32, "所以圣人第一件事不是多说，是把灌口往回收一寸。", 5.4, GREEN))
+    # 一、注：两条渠，口都朝外
+    s.append(txt(24, y + 50, "一、注：耳目两条渠，口都朝外", 5.2, SEAL))
+    gy = y + 62
+    s.append(f'<rect x="26" y="{gy}" width="328" height="168" fill="#FBF6EC" stroke="{LINE}" stroke-width="0.8"/>')
+    s.append(f'<line x1="40" y1="{gy + 130}" x2="330" y2="{gy + 130}" stroke="{INK}" stroke-width="1"/>')
+    head_at(74, gy + 66, "百姓")
+    ditch(96, gy + 44, 300, +1)
+    ditch(96, gy + 88, 300, +1)
+    # 渠口断了岸，水淌出去
+    for k in range(3):
+        s.append(f'<circle cx="{306 + k * 6}" cy="{gy + 78 + k * 7}" r="1.9" fill="{SEAL}" opacity="0.5"/>')
+    s.append(txt(150, gy + 36, "眼睛一条渠", 4.2, "#6E6459"))
+    s.append(txt(150, gy + 126, "耳朵一条渠", 4.2, "#6E6459"))
+    s.append(txt(302, gy + 40, "口朝外", 4.2, SEAL))
+    s.append(txt(190, gy + 156, "看见什么、听见什么，心就在哪儿：水一开就关不上", 4.5, GREEN, "middle"))
+    s.append(txt(190, gy + 184, "百姓把耳目当灌渠，往外灌", 4.6, GREEN, "middle"))
 
-    c = b + 50
+    # 二、歙：把口收一寸
+    s.append(txt(24, gy + 208, "二、歙：把口收一寸，不堵死", 5.2, GREEN))
+    gy2 = gy + 220
+    s.append(f'<rect x="26" y="{gy2}" width="328" height="168" fill="#FBF6EC" stroke="{LINE}" stroke-width="0.8"/>')
+    s.append(f'<line x1="40" y1="{gy2 + 130}" x2="330" y2="{gy2 + 130}" stroke="{INK}" stroke-width="1"/>')
+    head_at(74, gy2 + 66, "圣人")
+    ditch(96, gy2 + 44, 292, -1, gate=True)
+    ditch(96, gy2 + 88, 292, -1, gate=True)
+    s.append(txt(296, gy2 + 36, "口收窄", 4.2, SEAL))
+    s.append(txt(190, gy2 + 156, "收住不是堵死：堵死是「防民之口」，收住是自己不往外灌", 4.4, GREEN, "middle"))
+    s.append(txt(190, gy2 + 184, "圣人做的事，是把灌口往回收一寸", 4.6, GREEN, "middle"))
+
+    a = gy2 + 208
+    s.append(txt(24, a, "大家都往外灌，就没人吸；没人吸，那个场就干了。", 5.4, INK))
+    s.append(txt(24, a + 16, "注是结构，不是罪状：眼睛看什么，心就在哪儿。", 5.4, INK))
+    s.append(txt(24, a + 34, "所以圣人第一件事不是多说，是把灌口往回收一寸。", 5.2, GREEN))
+
+    c = a + 52
     s.append(f'<line x1="24" y1="{c}" x2="338" y2="{c}" stroke="{LINE}" stroke-width="0.6"/>')
     s.append(box(20, c + 8, 340, 40, fill="#F2EADA", stroke="#C9B79A"))
     s.append(txt(190, c + 24, "「歙」是吸，「注」是灌；", 6.0, INK, "middle"))
@@ -7842,53 +7871,59 @@ def ch49b_yi_xi_yi_guan():
     return "\n".join(s)
 
 
-# ============ 第四十九章 · 浑 ============
 def ch49c_hun_shui_sheng():
-    W, H = 380, 566
+    W, H = 380, 660
     body, y = head(W, H, "浑是水混着流的声音：水还在流，只是不再一格一格地流",
                    "第 四 十 九 章 · 浑", "浑，是水声", "为天下浑其心。", H)
     s = [body]
 
-    s.append(box(20, y + 2, 340, 30, fill="#F2EADA", stroke="#C9B79A"))
-    s.append(txt(190, y + 14, "「浑」，《说文》「混流声也」——水混着流的声音。", 5.6, INK, "middle"))
-    s.append(txt(190, y + 26, "不是糊涂，不是把人弄傻：是让被切碎的心重新连成一片。", 5.2, "#6E6459", "middle"))
+    s.append(box(20, y + 2, 340, 32, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, y + 14, "「浑」，《说文》「混流声也」——水混着流的声音。", 5.2, INK, "middle"))
+    s.append(txt(190, y + 27, "不是糊涂，不是把人弄傻：是让被切碎的心重新连成一片。", 5.0, "#6E6459", "middle"))
 
-    # 一、一格一格
-    t1 = y + 46
-    s.append(txt(24, t1, "一、一格一格：每滴都在自己的格子里", 5.4, SEAL))
-    ty, by = t1 + 26, t1 + 78
-    s.append(f'<line x1="30" y1="{by}" x2="350" y2="{by}" stroke="{INK}" stroke-width="0.9"/>')
-    s.append(f'<line x1="30" y1="{ty}" x2="350" y2="{ty}" stroke="{LINE}" stroke-width="0.6"/>')
-    for xv in (30, 94, 158, 222, 286, 350):
-        s.append(f'<line x1="{xv}" y1="{ty}" x2="{xv}" y2="{by}" stroke="{INK}" stroke-width="0.9"/>')
-    cells = [(30, 94), (94, 158), (158, 222), (222, 286), (286, 350)]
-    for (xa, xb) in cells:
-        wy = by - 22
-        s.append(f'<line x1="{xa+6}" y1="{wy}" x2="{xb-6}" y2="{wy}" stroke="{GREEN}" stroke-width="0.8"/>')
-    s.append(txt(30, by + 14, "墙一道一道立着：好坏、得失、敌我，每一刀都切得很准", 4.6, "#6E6459"))
+    # 一、一格一格：五格死水
+    s.append(txt(24, y + 50, "一、一格一格：每滴都在自己的格子里", 5.2, SEAL))
+    gy = y + 62
+    s.append(f'<rect x="26" y="{gy}" width="328" height="152" fill="#FBF6EC" stroke="{LINE}" stroke-width="0.8"/>')
+    ty, by = gy + 46, gy + 118
+    for xv in (40, 104, 168, 232, 296, 330):
+        s.append(f'<line x1="{xv}" y1="{ty}" x2="{xv}" y2="{by}" stroke="{INK}" stroke-width="1"/>')
+    s.append(f'<line x1="40" y1="{ty}" x2="330" y2="{ty}" stroke="{LINE}" stroke-width="0.6"/>')
+    s.append(f'<line x1="40" y1="{by}" x2="330" y2="{by}" stroke="{INK}" stroke-width="1"/>')
+    for (xa, xb) in [(40, 104), (104, 168), (168, 232), (232, 296), (296, 330)]:
+        wy = by - 26
+        s.append(f'<line x1="{xa + 6}" y1="{wy}" x2="{xb - 6}" y2="{wy}" stroke="{GREEN}" stroke-width="0.9"/>')
+    s.append(txt(190, gy + 136, "五格，五潭死水：一格不流到另一格", 4.5, SEAL, "middle"))
+    s.append(txt(190, gy + 174, "墙一道一道立着：好坏、得失、敌我，每一刀都切得很准", 4.5, GREEN, "middle"))
 
-    # 二、浑
-    t2 = by + 34
-    s.append(txt(24, t2, "二、浑：墙软下来，水连成一片", 5.4, GREEN))
-    ty2, by2 = t2 + 26, t2 + 78
-    s.append(f'<line x1="30" y1="{by2}" x2="350" y2="{by2}" stroke="{INK}" stroke-width="0.9"/>')
-    s.append(f'<line x1="30" y1="{ty2}" x2="350" y2="{ty2}" stroke="{LINE2}" stroke-width="0.5" stroke-dasharray="4 3"/>')
-    for xv in (30, 350):
-        s.append(f'<line x1="{xv}" y1="{ty2}" x2="{xv}" y2="{by2}" stroke="{INK}" stroke-width="0.9"/>')
-    for xv in (94, 158, 222, 286):
+    # 二、浑：墙软下来，水连成一片，并出声
+    s.append(txt(24, gy + 192, "二、浑：墙软下来，水连成一片，也出了声", 5.2, GREEN))
+    gy2 = gy + 204
+    s.append(f'<rect x="26" y="{gy2}" width="328" height="152" fill="#FBF6EC" stroke="{LINE}" stroke-width="0.8"/>')
+    ty2, by2 = gy2 + 46, gy2 + 118
+    s.append(f'<line x1="40" y1="{by2}" x2="330" y2="{by2}" stroke="{INK}" stroke-width="1"/>')
+    s.append(f'<line x1="40" y1="{ty2}" x2="330" y2="{ty2}" stroke="{LINE2}" stroke-width="0.5" stroke-dasharray="4 3"/>')
+    for xv in (40, 330):
+        s.append(f'<line x1="{xv}" y1="{ty2}" x2="{xv}" y2="{by2}" stroke="{INK}" stroke-width="1"/>')
+    for xv in (104, 168, 232, 296):
         s.append(f'<line x1="{xv}" y1="{ty2}" x2="{xv}" y2="{by2}" stroke="{LINE2}" stroke-width="0.5" stroke-dasharray="3 3"/>')
-    s.append(f'<path d="M34,{by2-22} q16,-9 32,0 q16,9 32,0 q16,-9 32,0 q16,9 32,0 q16,-9 32,0 q16,9 32,0 q16,-9 32,0 q16,9 32,0" '
-             f'fill="none" stroke="{GREEN}" stroke-width="1"/>')
-    s.append(arrow(70, ty2 + 14, 200, ty2 + 14, GREEN, 0.7, head="arr2"))
-    s.append(txt(206, ty2 + 16, "还是有流向", 4.6, GREEN))
-    s.append(txt(30, by2 + 14, "格子软了，水重新连成一片；不是没有分别，是不再一格一格站着", 4.6, "#6E6459"))
+    s.append(f'<path d="M44,{by2 - 26} q16,-9 32,0 q16,9 32,0 q16,-9 32,0 q16,9 32,0 q16,-9 32,0 q16,9 32,0 q16,-9 32,0 q16,9 32,0 q14,-7 28,-1" '
+             f'fill="none" stroke="{GREEN}" stroke-width="1.1"/>')
+    s.append(arrow(60, ty2 + 12, 168, ty2 + 12, GREEN, 0.7, head="arr2"))
+    s.append(txt(174, ty2 + 14, "还是有流向", 4.5, GREEN))
+    # 水声：从水面升起的三道弧
+    for k, (cx, ry, op) in enumerate([(222, 9, 0.85), (246, 7, 0.6), (270, 5, 0.4)]):
+        s.append(f'<path d="M{cx},{by2 - 56} q8,-{ry} 16,0" fill="none" stroke="{GREEN}" stroke-width="0.9" opacity="{op}"/>')
+    s.append(txt(246, by2 - 66, "混流声也", 4.4, GREEN, "middle"))
+    s.append(txt(190, gy2 + 136, "格子软了，水重新连成一片", 4.5, GREEN, "middle"))
+    s.append(txt(190, gy2 + 174, "不是没有分别，是不再一格一格站着", 4.5, GREEN, "middle"))
 
-    b = by2 + 36
-    s.append(txt(24, b, "一个时代的心被切碎，不是切得不准，是切得太准。", 5.6, INK))
-    s.append(txt(24, b + 16, "每一刀都对，可每个人都站进了一个很小的格子。", 5.6, INK))
-    s.append(txt(24, b + 32, "浑，是把格子的墙软下来——水才又能流到别人那儿去。", 5.4, GREEN))
+    a = gy2 + 192
+    s.append(txt(24, a, "一个时代的心被切碎，不是切得不准，是切得太准。", 5.4, INK))
+    s.append(txt(24, a + 16, "每一刀都对，可每个人都站进了一个很小的格子。", 5.4, INK))
+    s.append(txt(24, a + 34, "浑，是把格子的墙软下来——水才又能流到别人那儿去，也才重新有声。", 5.2, GREEN))
 
-    c = b + 50
+    c = a + 52
     s.append(f'<line x1="24" y1="{c}" x2="338" y2="{c}" stroke="{LINE}" stroke-width="0.6"/>')
     s.append(box(20, c + 8, 340, 40, fill="#F2EADA", stroke="#C9B79A"))
     s.append(txt(190, c + 24, "「浑」是水声，不是糊涂；", 6.0, INK, "middle"))
@@ -10758,7 +10793,7 @@ FIGS = {
     "ch48b-ceng-ke": ("第四十八章", "一图两观", ch48b_ceng_ke),
     "ch48c-guan-qia": ("第四十八章", "一道关，一道关", ch48c_guan_qia),
     "ch49a-yi-ba-chi": ("第四十九章", "一把尺", ch49a_yi_ba_chi),
-    "ch49b-yi-xi-yi-guan": ("第四十九章", "一吸一灌", ch49b_yi_xi_yi_guan),
+    "ch49b-yi-tiao-qu": ("第四十九章", "一条渠", ch49b_yi_tiao_qu),
     "ch49c-hun-shui-sheng": ("第四十九章", "浑，是水声", ch49c_hun_shui_sheng),
     "ch50a-yi-tiao-lu": ("第五十章", "一条路的两头", ch50a_yi_tiao_lu),
     "ch50b-yi-ba-tu": ("第五十章", "一把土", ch50b_yi_ba_tu),
