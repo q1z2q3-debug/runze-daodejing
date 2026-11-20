@@ -2527,8 +2527,212 @@ def ch70c_yi_kuai_hui_yu():
     s.append('</svg>')
     return "\n".join(s)
 
+def ch71a_yi_zhi_jian():
+    W, H = 380, 708
+    body, y = head(W, H, "知从矢从口：箭出而中，报之于口；箭还在弦上，不叫知",
+                   "第 七 十 一 章 · 知", "一支箭", "知不知，尚矣；不知知，病也。", H)
+    s = [body]
+
+    s.append(box(20, y + 2, 340, 32, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, y + 14, "「知」从矢从口：矢是箭，口是报靶的那个口——射中了，喊一声，才叫知。", 4.7, INK, "middle"))
+    s.append(txt(190, y + 27, "所以知是「命中」这件事，不是一个揣在胸里的「有」。", 4.7, "#6E6459", "middle"))
+
+    s.append(txt(24, y + 50, "一、未出弦：箭在手，靶还没验", 4.8, SEAL))
+    gy = y + 62
+    s.append(f'<rect x="26" y="{gy}" width="328" height="140" fill="#FBF6EC" stroke="{LINE}" stroke-width="0.8"/>')
+    cy = gy + 66
+    # 弓
+    s.append(f'<path d="M78,{cy - 38} Q110,{cy} 78,{cy + 38}" fill="none" stroke="{INK}" stroke-width="1.3"/>')
+    s.append(f'<line x1="78" y1="{cy - 38}" x2="78" y2="{cy + 38}" stroke="{INK}" stroke-width="0.9" opacity="0.85"/>')
+    # 箭在弦上
+    s.append(f'<line x1="60" y1="{cy}" x2="158" y2="{cy}" stroke="{INK}" stroke-width="1.2"/>')
+    s.append(f'<polygon points="158,{cy} 148,{cy - 4} 148,{cy + 4}" fill="{INK}"/>')
+    for fx in (64, 70):
+        s.append(f'<line x1="{fx}" y1="{cy - 6}" x2="{fx + 6}" y2="{cy}" stroke="{INK}" stroke-width="0.8"/>')
+        s.append(f'<line x1="{fx}" y1="{cy + 6}" x2="{fx + 6}" y2="{cy}" stroke="{INK}" stroke-width="0.8"/>')
+    # 远处的靶（虚线，还没验）
+    s.append(f'<circle cx="290" cy="{cy}" r="16" fill="none" stroke="#B9A98F" stroke-width="0.9" stroke-dasharray="3 3"/>')
+    s.append(f'<circle cx="290" cy="{cy}" r="7" fill="none" stroke="#B9A98F" stroke-width="0.7" stroke-dasharray="3 3"/>')
+    s.append(txt(290, cy + 30, "靶还在远处", 4.2, "#6E6459", "middle"))
+    s.append(txt(118, cy - 14, "箭搭在弦上", 4.4, SEAL))
+    s.append(txt(190, gy + 156, "没射出去的，是打算，不是知：靶还没说话", 4.6, GREEN, "middle"))
+
+    s.append(txt(24, gy + 178, "二、已出弦：箭在靶上，这一下才叫知", 4.8, SEAL))
+    gy2 = gy + 190
+    s.append(f'<rect x="26" y="{gy2}" width="328" height="146" fill="#FBF6EC" stroke="{LINE}" stroke-width="0.8"/>')
+    cy2 = gy2 + 68
+    # 松了的弓
+    s.append(f'<path d="M72,{cy2 - 34} Q104,{cy2} 72,{cy2 + 34}" fill="none" stroke="{INK}" stroke-width="1.3"/>')
+    s.append(f'<line x1="72" y1="{cy2 - 34}" x2="72" y2="{cy2 + 34}" stroke="{INK}" stroke-width="0.9" opacity="0.85"/>')
+    s.append(txt(84, cy2 + 34, "弦松了", 4.2, "#6E6459"))
+    # 靶
+    tx = 264
+    s.append(f'<circle cx="{tx}" cy="{cy2}" r="26" fill="#EFE6D4" stroke="{INK}" stroke-width="1.1"/>')
+    s.append(f'<circle cx="{tx}" cy="{cy2}" r="17" fill="none" stroke="{INK}" stroke-width="0.8"/>')
+    s.append(f'<circle cx="{tx}" cy="{cy2}" r="7" fill="{SEAL}" fill-opacity="0.35" stroke="{SEAL}" stroke-width="0.8"/>')
+    # 扎进去的箭
+    s.append(f'<line x1="196" y1="{cy2 - 6}" x2="{tx - 4}" y2="{cy2 + 1}" stroke="{INK}" stroke-width="1.3"/>')
+    for fx in (202, 208):
+        s.append(f'<line x1="{fx}" y1="{cy2 - 12}" x2="{fx + 6}" y2="{cy2 - 6}" stroke="{INK}" stroke-width="0.8"/>')
+        s.append(f'<line x1="{fx}" y1="{cy2}" x2="{fx + 6}" y2="{cy2 - 6}" stroke="{INK}" stroke-width="0.8"/>')
+    s.append(txt(tx, cy2 + 40, "靶", 4.4, INK, "middle"))
+    s.append(txt(150, cy2 - 22, "箭出而中", 4.4, SEAL))
+    s.append(txt(190, gy2 + 164, "射中了才知道中没中：知是箭与靶碰上的那一下，不是想出来的", 4.6, GREEN, "middle"))
+
+    a = gy2 + 180
+    s.append(txt(24, a, "所以「知不知」不是谦虚话：他知道自己这一箭偏了——偏在哪儿，也说得出来。", 4.8, INK))
+    s.append(txt(24, a + 16, "而「不知知」是另一回事：箭在靶外，他嘴上说中。", 4.8, INK))
+    s.append(txt(24, a + 34, "《说文》「病，疾加也」：疾是小病，病是加重了的——报错靶，是会加重的。", 5.0, GREEN))
+
+    c = a + 50
+    s.append(f'<line x1="24" y1="{c}" x2="338" y2="{c}" stroke="{LINE}" stroke-width="0.6"/>')
+    s.append(box(20, c + 8, 340, 40, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, c + 23, "知从矢从口：箭出去，中了，才报得出口。", 5.4, INK, "middle"))
+    s.append(txt(190, c + 36, "胸中之知不必有靶；矢口之知，先得有一张靶。", 4.7, GREEN, "middle"))
+    s.append(gold(c + 62, "ch71a"))
+    s.append('</svg>')
+    return "\n".join(s)
+
+
+def ch71b_yi_zhang_ba():
+    W, H = 380, 714
+    body, y = head(W, H, "靶在那儿，不由你说：有环才有落点，没环说什么都不算",
+                   "第 七 十 一 章 · 靶", "一张靶", "知不知，尚矣；不知知，病也。", H)
+    s = [body]
+
+    s.append(box(20, y + 2, 340, 32, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, y + 14, "靶不在你手里：它立在那儿，环纹是它自己带的，箭落在几环由它说。", 4.7, INK, "middle"))
+    s.append(txt(190, y + 27, "这是「知」可验的全部理由——靶一挪，就没有靶了。", 4.7, "#6E6459", "middle"))
+
+    s.append(txt(24, y + 50, "一、有环：落点由靶说", 4.8, SEAL))
+    gy = y + 62
+    s.append(f'<rect x="26" y="{gy}" width="328" height="142" fill="#FBF6EC" stroke="{LINE}" stroke-width="0.8"/>')
+    tx, cy = 176, gy + 62
+    s.append(f'<circle cx="{tx}" cy="{cy}" r="40" fill="#EFE6D4" stroke="{INK}" stroke-width="1.1"/>')
+    s.append(f'<circle cx="{tx}" cy="{cy}" r="27" fill="none" stroke="{INK}" stroke-width="0.9"/>')
+    s.append(f'<circle cx="{tx}" cy="{cy}" r="14" fill="#F2EADA" stroke="{INK}" stroke-width="0.8"/>')
+    s.append(f'<circle cx="{tx}" cy="{cy}" r="4.4" fill="{SEAL}" stroke="none"/>')
+    s.append(txt(tx + 54, cy - 6, "环是靶自带的", 4.2, "#6E6459"))
+    # 箭落在二环外
+    s.append(f'<line x1="90" y1="{cy + 34}" x2="{tx - 26}" y2="{cy + 28}" stroke="{INK}" stroke-width="1.3"/>')
+    s.append(f'<polygon points="{tx - 26},{cy + 28} {tx - 36},{cy + 22} {tx - 32},{cy + 31}" fill="{INK}"/>')
+    for fx in (98, 104):
+        s.append(f'<line x1="{fx}" y1="{cy + 28}" x2="{fx + 6}" y2="{cy + 34}" stroke="{INK}" stroke-width="0.8"/>')
+        s.append(f'<line x1="{fx}" y1="{cy + 40}" x2="{fx + 6}" y2="{cy + 34}" stroke="{INK}" stroke-width="0.8"/>')
+    s.append(txt(116, cy + 50, "箭在二环外", 4.4, SEAL))
+    s.append(f'<line x1="{tx + 44}" y1="{cy}" x2="{tx + 40}" y2="{cy}" stroke="{GREEN}" stroke-width="0.1"/>')
+    s.append(txt(190, gy + 158, "靶不动，箭动：中不中，是靶说的，不是射的人说的", 4.6, GREEN, "middle"))
+
+    s.append(txt(24, gy + 180, "二、无环：说什么都不算数", 4.8, SEAL))
+    gy2 = gy + 192
+    s.append(f'<rect x="26" y="{gy2}" width="328" height="146" fill="#FBF6EC" stroke="{LINE}" stroke-width="0.8"/>')
+    tx2, cy2 = 176, gy2 + 64
+    s.append(f'<circle cx="{tx2}" cy="{cy2}" r="40" fill="#EFE6D4" stroke="{INK}" stroke-width="1.1"/>')
+    s.append(f'<line x1="{tx2 - 28}" y1="{cy2 - 28}" x2="{tx2 + 28}" y2="{cy2 + 28}" stroke="{LINE}" stroke-width="0.9" stroke-dasharray="4 4"/>')
+    s.append(f'<line x1="{tx2 + 28}" y1="{cy2 - 28}" x2="{tx2 - 28}" y2="{cy2 + 28}" stroke="{LINE}" stroke-width="0.9" stroke-dasharray="4 4"/>')
+    s.append(f'<circle cx="{tx2}" cy="{cy2}" r="41" fill="none" stroke="#B9A98F" stroke-width="0.8"/>')
+    # 箭乱落在各处（三支）
+    for (ex, ey, hx, hy) in ((tx2 - 20, cy2 - 12, -4, -2), (tx2 + 18, cy2 + 6, 3, 4), (tx2 - 4, cy2 + 24, -1, 5)):
+        s.append(f'<line x1="{ex - 34}" y1="{ey - 10}" x2="{ex}" y2="{ey}" stroke="{INK}" stroke-width="1"/>')
+        s.append(f'<polygon points="{ex},{ey} {ex - 8},{ey - 5} {ex - 7},{ey + 3}" fill="{INK}"/>')
+    s.append(txt(tx2 + 54, cy2 - 10, "没有环", 4.4, SEAL))
+    s.append(txt(tx2 + 54, cy2 + 4, "落在哪儿都", 4.2, "#6E6459"))
+    s.append(txt(tx2 + 54, cy2 + 16, "可以叫「中」", 4.2, "#6E6459"))
+    s.append(txt(190, gy2 + 164, "环是靶的，不是你画的：环一擦掉，箭就成了自己给自己判的", 4.6, GREEN, "middle"))
+
+    a = gy2 + 180
+    s.append(txt(24, a, "所以「知不知」的「不知」，是有靶可对的不知：他知道自己偏了，靶还在。", 4.8, INK))
+    s.append(txt(24, a + 16, "而「不知知」先把环擦掉，再说「都在里圈」。", 4.8, INK))
+    s.append(txt(24, a + 34, "靶一旦成了随身之物，箭就再也没有偏过——这不是本事，是病。", 5.0, GREEN))
+
+    c = a + 50
+    s.append(f'<line x1="24" y1="{c}" x2="338" y2="{c}" stroke="{LINE}" stroke-width="0.6"/>')
+    s.append(box(20, c + 8, 340, 40, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, c + 23, "靶在彼，不由我说。", 5.4, INK, "middle"))
+    s.append(txt(190, c + 36, "验证的意思是：有一件东西，你说不动它。", 4.7, GREEN, "middle"))
+    s.append(gold(c + 62, "ch71b"))
+    s.append('</svg>')
+    return "\n".join(s)
+
+
+def ch71c_yi_bao_ba():
+    W, H = 380, 720
+    body, y = head(W, H, "报靶的三种人：不报、照实报、把靶画在箭落的地方",
+                   "第 七 十 一 章 · 病", "一个报靶的人", "圣人不病，以其病病。", H)
+    s = [body]
+
+    s.append(box(20, y + 2, 340, 32, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, y + 14, "「病」，《说文》「疾加也」：疾是小病，病是加重了的——报错一次，往后每箭都「中」。", 4.7, INK, "middle"))
+    s.append(txt(190, y + 27, "不报的还没射；照实报的说偏了；报错的，把靶画在箭落的地方。", 4.7, "#6E6459", "middle"))
+
+    s.append(txt(24, y + 50, "一、照实报：箭在靶外，曰「偏矣」——此为上等", 4.8, GREEN))
+    gy = y + 62
+    s.append(f'<rect x="26" y="{gy}" width="328" height="142" fill="#FBF6EC" stroke="{LINE}" stroke-width="0.8"/>')
+    tx, cy = 232, gy + 58
+    s.append(f'<circle cx="{tx}" cy="{cy}" r="32" fill="#EFE6D4" stroke="{INK}" stroke-width="1"/>')
+    s.append(f'<circle cx="{tx}" cy="{cy}" r="20" fill="none" stroke="{INK}" stroke-width="0.8"/>')
+    s.append(f'<circle cx="{tx}" cy="{cy}" r="6" fill="{SEAL}" fill-opacity="0.35" stroke="{SEAL}" stroke-width="0.8"/>')
+    # 箭落在靶外的地上
+    s.append(f'<line x1="124" y1="{gy + 110}" x2="176" y2="{gy + 112}" stroke="{INK}" stroke-width="1.2"/>')
+    s.append(f'<polygon points="176,{gy + 112} 166,{gy + 108} 166,{gy + 116}" fill="{INK}"/>')
+    s.append(f'<line x1="128" y1="{gy + 106}" x2="134" y2="{gy + 110}" stroke="{INK}" stroke-width="0.7"/>')
+    s.append(f'<line x1="128" y1="{gy + 114}" x2="134" y2="{gy + 110}" stroke="{INK}" stroke-width="0.7"/>')
+    s.append(f'<line x1="70" y1="{gy + 118}" x2="330" y2="{gy + 118}" stroke="{INK}" stroke-width="1"/>')
+    s.append(txt(214, gy + 106, "箭落在靶外", 4.2, GREEN))
+    # 报靶人
+    px = 84
+    s.append(f'<circle cx="{px}" cy="{gy + 62}" r="7" fill="none" stroke="{INK}" stroke-width="1"/>')
+    s.append(f'<path d="M{px - 11},{gy + 72} L{px + 11},{gy + 72} L{px + 12},{gy + 104} L{px - 12},{gy + 104} Z" fill="#EFE6D4" stroke="{INK}" stroke-width="1"/>')
+    s.append(f'<line x1="{px - 12}" y1="{gy + 76}" x2="{px - 26}" y2="{gy + 96}" stroke="{INK}" stroke-width="1"/>')
+    s.append(f'<line x1="{px + 12}" y1="{gy + 76}" x2="{px + 26}" y2="{gy + 66}" stroke="{INK}" stroke-width="1"/>')
+    s.append(f'<line x1="{px - 5}" y1="{gy + 104}" x2="{px - 8}" y2="{gy + 118}" stroke="{INK}" stroke-width="1"/>')
+    s.append(f'<line x1="{px + 5}" y1="{gy + 104}" x2="{px + 8}" y2="{gy + 118}" stroke="{INK}" stroke-width="1"/>')
+    s.append(txt(px + 44, gy + 56, "「偏矣」", 5.0, GREEN))
+    s.append(txt(190, gy + 158, "他不改靶，只改口：说偏，就是把自己的箭让给靶去判", 4.6, GREEN, "middle"))
+
+    s.append(txt(24, gy + 180, "二、报错：把靶套在箭落处，曰「中矣」——此为病", 4.8, SEAL))
+    gy2 = gy + 192
+    s.append(f'<rect x="26" y="{gy2}" width="328" height="150" fill="#FBF6EC" stroke="{LINE}" stroke-width="0.8"/>')
+    # 靶已被提起来，套在箭落处
+    ex, ey = 196, gy2 + 52
+    s.append(f'<circle cx="{ex}" cy="{ey}" r="30" fill="#FBF6EC" fill-opacity="0.6" stroke="{SEAL}" stroke-width="1" stroke-dasharray="4 3"/>')
+    s.append(f'<circle cx="{ex}" cy="{ey}" r="4" fill="{SEAL}" fill-opacity="0.4" stroke="{SEAL}" stroke-width="0.7"/>')
+    s.append(f'<line x1="{ex - 34}" y1="{ey + 4}" x2="{ex + 4}" y2="{ey}" stroke="{INK}" stroke-width="1.2"/>')
+    s.append(txt(ex - 40, ey - 34, "箭", 4.0, INK))
+    s.append(txt(ex + 40, ey - 34, "靶被拎过来", 4.2, SEAL))
+    # 原来的靶位（虚线空位）
+    s.append(f'<circle cx="292" cy="{gy2 + 44}" r="20" fill="none" stroke="#B9A98F" stroke-width="0.8" stroke-dasharray="3 3"/>')
+    s.append(txt(292, gy2 + 76, "原位空了", 4.0, "#6E6459", "middle"))
+    # 报靶人，双手把靶托在箭落处
+    px2 = 120
+    s.append(f'<circle cx="{px2}" cy="{gy2 + 52}" r="7" fill="none" stroke="{INK}" stroke-width="1"/>')
+    s.append(f'<path d="M{px2 - 11},{gy2 + 62} L{px2 + 11},{gy2 + 62} L{px2 + 12},{gy2 + 96} L{px2 - 12},{gy2 + 96} Z" fill="#EFE6D4" stroke="{INK}" stroke-width="1"/>')
+    s.append(f'<line x1="{px2 + 11}" y1="{gy2 + 66}" x2="{ex - 26}" y2="{ey + 14}" stroke="{INK}" stroke-width="1"/>')
+    s.append(f'<line x1="{px2 - 6}" y1="{gy2 + 96}" x2="{px2 - 9}" y2="{gy2 + 124}" stroke="{INK}" stroke-width="1"/>')
+    s.append(f'<line x1="{px2 + 6}" y1="{gy2 + 96}" x2="{px2 + 9}" y2="{gy2 + 124}" stroke="{INK}" stroke-width="1"/>')
+    s.append(txt(px2 + 6, gy2 + 44, "「中矣」", 5.0, SEAL))
+    s.append(txt(190, gy2 + 168, "靶一挪，箭就永远中：此后每一箭都由他这双手判", 4.6, GREEN, "middle"))
+
+    a = gy2 + 184
+    s.append(txt(24, a, "第三种最危险，不是因为他撒谎。撒谎的人知道自己撒。", 4.8, INK))
+    s.append(txt(24, a + 16, "病是另一种：眼里看见靶外的箭，胸里那支还在靶心——两样都在，他信后者。", 4.8, INK))
+    s.append(txt(24, a + 34, "「病病」不是治病，是认病：把「自以为知」当成病来盯，才不染这个病。", 5.0, GREEN))
+
+    c = a + 50
+    s.append(f'<line x1="24" y1="{c}" x2="338" y2="{c}" stroke="{LINE}" stroke-width="0.6"/>')
+    s.append(box(20, c + 8, 340, 40, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, c + 23, "病病者，以之为病也，非治之也，乃认之也。", 5.4, INK, "middle"))
+    s.append(txt(190, c + 36, "先认这一句「我可能报错了」，靶才回得来。", 4.7, GREEN, "middle"))
+    s.append(gold(c + 62, "ch71c"))
+    s.append('</svg>')
+    return "\n".join(s)
+
+
 
 GOLD = {
+    "ch71a": ["知不知，尚矣；不知知，病也。", "知从矢从口：箭出而中，报之于口。"],
+    "ch71b": ["知不知，尚矣；不知知，病也。", "知者，命中之事，非胸中之有。"],
+    "ch71c": ["《说文》曰：病，疾加也。", "病者，目中见靶外之箭，胸中箭犹在靶。"],
     "ch70a": ["吾言甚易知，甚易行；天下莫能知，莫能行。", "易者，非浅也，直也；无仪式，无秘传，无门槛——而无人走，故难不在道。"],
     "ch70b": ["吾言甚易知，甚易行；天下莫能知，莫能行。", "易者，非浅也，直也；无仪式，无秘传，无门槛——而无人走，故难不在道。"],
     "ch70c": ["吾言甚易知，甚易行；天下莫能知，莫能行。", "易者，非浅也，直也；无仪式，无秘传，无门槛——而无人走，故难不在道。"],
@@ -8730,6 +8934,9 @@ FIGS = {
     "ch70a-yi-dao-ke-xian": ("第七十章", "一道刻线", ch70a_yi_dao_ke_xian),
     "ch70b-yi-jian-ma-yi": ("第七十章", "一件麻衣", ch70b_yi_jian_ma_yi),
     "ch70c-yi-kuai-hui-yu": ("第七十章", "一块揣着的玉", ch70c_yi_kuai_hui_yu),
+    "ch71a-yi-zhi-jian": ("第七十一章", "一支箭", ch71a_yi_zhi_jian),
+    "ch71b-yi-zhang-ba": ("第七十一章", "一张靶", ch71b_yi_zhang_ba),
+    "ch71c-yi-bao-ba": ("第七十一章", "一个报靶的人", ch71c_yi_bao_ba),
 }
 
 
