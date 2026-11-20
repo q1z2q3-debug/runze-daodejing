@@ -7747,6 +7747,7 @@ GOLD = {
     "ch33c": ["力是筋，越使越少；强是弓，能张能弛。", "松了它还在，那才是强。"],
     "ch34c": ["功成了不取名，也不记在自己名下。", "万物归焉而弗为主：归是真的归，主是不做主。"],
     "ch35c": ["手一伸出去，场就变成了门槛。", "安是有地方待，平是没人压你，泰是气走得通。"],
+    "ch36c": ["不是柔把刚打败了，是刚撑不住自己，柔撑得住。", "刚强是固定形状，柔弱是保持可塑。"],
     "ch06b": ["谷神不死，是谓玄牝。", "谷者，两山间之空也；能受故能生，生而不有故不竭——生机不在满处，在空处。"],
     "ch06c": ["玄牝之门，是谓天地根。", "门在开合处，不在门板上；一着手去推，它就成了一堵墙。"],
     "ch05b": ["天地不仁，以万物为刍狗。", "刍者，束草也；刍狗有位而无主——用毕回草堆，不是被弃，是位次用完了。"],
@@ -10422,6 +10423,75 @@ def ch35b_dan_bai_shui():
     s.append(gold(y3 + 48, "ch35b"))
     s.append('</svg>')
     return "\n".join(s)
+
+
+def ch36c_bian_dan():
+    body, y = head(380, 999, "柔不是软塌塌，是可塑；胜不是打败，是担得起",
+                   "第 三 十 六 章 · 其 三", "竹 扁 担",
+                   "柔弱胜刚强。", 999)
+    s = [body]
+
+    s.append(box(20, y + 2, 340, 34, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, y + 14, "「柔」，《说文》「木曲直也」——可曲可直；「胜」，《说文》「任也」——担得起、负荷得住。", 4.6, INK, "middle"))
+    s.append(txt(190, y + 27, "所以这一句不是「软的打败硬的」，是「可塑的担得起定形的」。", 4.6, "#6E6459"))
+
+    # ---------- 一、木杠 ----------
+    s.append(txt(24, y + 52, "一、木杠：形状定死了，就担不起变", 5.0, GREEN))
+    gy = y + 64
+    s.append(f'<rect x="26" y="{gy}" width="328" height="146" fill="#FBF6EC" stroke="{LINE}" stroke-width="0.8"/>')
+    s.append(f'<line x1="40" y1="{gy + 126}" x2="340" y2="{gy + 126}" stroke="{LINE}" stroke-width="0.9"/>')
+    # 中柱
+    s.append(f'<line x1="190" y1="{gy + 126}" x2="190" y2="{gy + 46}" stroke="{INK}" stroke-width="1.2"/>')
+    s.append(f'<path d="M180,{gy + 126} L200,{gy + 126}" stroke="{INK}" stroke-width="1.2"/>')
+    # 木杠：直，中段裂
+    s.append(f'<rect x="78" y="{gy + 38}" width="224" height="8" fill="#DED3BC" stroke="{INK}" stroke-width="0.9"/>')
+    s.append(f'<path d="M178,{gy + 38} l8,8 M186,{gy + 38} l8,8" stroke="{SEAL}" stroke-width="1.2"/>')
+    # 左桶（好）
+    s.append(f'<line x1="86" y1="{gy + 46}" x2="86" y2="{gy + 72}" stroke="{INK}" stroke-width="0.7"/>')
+    s.append(f'<path d="M70,{gy + 72} L102,{gy + 72} L98,{gy + 100} L74,{gy + 100} Z" fill="#EFE6D4" stroke="{INK}" stroke-width="0.9"/>')
+    s.append(f'<path d="M74,{gy + 84} L98,{gy + 84} L98,{gy + 100} L74,{gy + 100} Z" fill="#DDE9E1" stroke="none"/>')
+    # 右桶：绳断，桶歪，水洒
+    s.append(f'<line x1="294" y1="{gy + 46}" x2="294" y2="{gy + 58}" stroke="{INK}" stroke-width="0.7"/>')
+    s.append(f'<path d="M294,{gy + 58} l5,4 M294,{gy + 58} l-5,4" stroke="{SEAL}" stroke-width="1.0"/>')
+    s.append(f'<path d="M280,{gy + 78} L310,{gy + 66} L314,{gy + 92} L284,{gy + 104} Z" fill="#EFE6D4" stroke="{INK}" stroke-width="0.9"/>')
+    s.append(f'<path d="M282,{gy + 104} q10,10 22,2 q-6,10 -18,4" fill="#DDE9E1" stroke="none"/>')
+    s.append(txt(258, gy + 20, "杠从当中断了", 4.2, SEAL))
+    s.append(txt(190, gy + 140, "固定形状的东西担不起变：一压，就在自己断掉的那一处断", 4.3, INK, "middle"))
+
+    # ---------- 二、竹扁担 ----------
+    s.append(txt(24, gy + 164, "二、竹扁担：可曲可直，弯下去也担得住", 5.0, GREEN))
+    gy2 = gy + 176
+    s.append(f'<rect x="26" y="{gy2}" width="328" height="146" fill="#FBF6EC" stroke="{LINE}" stroke-width="0.8"/>')
+    s.append(f'<line x1="40" y1="{gy2 + 126}" x2="340" y2="{gy2 + 126}" stroke="{LINE}" stroke-width="0.9"/>')
+    s.append(f'<line x1="190" y1="{gy2 + 126}" x2="190" y2="{gy2 + 65}" stroke="{INK}" stroke-width="1.2"/>')
+    s.append(f'<path d="M180,{gy2 + 126} L200,{gy2 + 126}" stroke="{INK}" stroke-width="1.2"/>')
+    # 竹担：弯
+    s.append(f'<path d="M78,{gy2 + 40} Q190,{gy2 + 66} 302,{gy2 + 40}" fill="none" stroke="{GREEN}" stroke-width="3.0"/>')
+    s.append(f'<path d="M78,{gy2 + 40} Q190,{gy2 + 66} 302,{gy2 + 40}" fill="none" stroke="#CBDDCB" stroke-width="1.0" stroke-dasharray="2 4"/>')
+    # 两桶都平
+    for cx in (86, 294):
+        yy = gy2 + 46
+        s.append(f'<line x1="{cx}" y1="{yy}" x2="{cx}" y2="{gy2 + 72}" stroke="{INK}" stroke-width="0.7"/>')
+        s.append(f'<path d="M{cx - 16},{gy2 + 72} L{cx + 16},{gy2 + 72} L{cx + 12},{gy2 + 100} L{cx - 12},{gy2 + 100} Z" fill="#EFE6D4" stroke="{INK}" stroke-width="0.9"/>')
+        s.append(f'<path d="M{cx - 12},{gy2 + 84} L{cx + 12},{gy2 + 84} L{cx + 12},{gy2 + 100} L{cx - 12},{gy2 + 100} Z" fill="#DDE9E1" stroke="none"/>')
+        s.append(f'<line x1="{cx - 14}" y1="{gy2 + 84}" x2="{cx + 14}" y2="{gy2 + 84}" stroke="{LINE2}" stroke-width="0.5"/>')
+    # 回弹小弧
+    s.append(f'<path d="M160,{gy2 + 74} q30,12 60,0" fill="none" stroke="{GREEN}" stroke-width="0.8" stroke-dasharray="3 3"/>')
+    s.append(arrow(214, gy2 + 80, 220, gy2 + 66, color=GREEN, width=0.7, head="arr2"))
+    s.append(txt(126, gy2 + 84, "弯了还回来", 4.0, GREEN, "middle"))
+    s.append(txt(190, gy2 + 140, "可曲可直的东西担得起变：弯下去，力就散到整根上", 4.3, INK, "middle"))
+
+    # ---------- 收 ----------
+    y3 = gy2 + 162
+    s.append(f'<line x1="24" y1="{y3}" x2="356" y2="{y3}" stroke="{LINE}" stroke-width="0.6"/>')
+    s.append(box(20, y3 + 8, 340, 40, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, y3 + 24, "不是柔把刚打败了，是刚撑不住自己，柔撑得住。", 4.9, INK, "middle"))
+    s.append(txt(190, y3 + 37, "刚强是固定形状，柔弱是保持可塑。", 4.6, GREEN, "middle"))
+    s.append(gold(y3 + 54, "ch36c"))
+    s.append('</svg>')
+    out = "\n".join(s)
+    ys = [float(v) for v in re.findall(r'y="([0-9.]+)"', out)]
+    return out.replace("999", str(int(max(ys) + 26)))
 
 
 # ============ 第三十六章 · 四对节律 ============
@@ -15541,6 +15611,7 @@ FIGS = {
     "ch33c-jin-yu-gong": ("第三十三章", "筋与弓", ch33c_jin_yu_gong),
     "ch34c-gong-ce": ("第三十四章", "功劳册", ch34c_gong_ce),
     "ch35c-an-ping-tai": ("第三十五章", "安·平·泰", ch35c_an_ping_tai),
+    "ch36c-bian-dan": ("第三十六章", "竹扁担", ch36c_bian_dan),
     "ch32b-chuan-gu": ("第三十二章", "川谷与江海", ch32b_chuan_gu),
     "ch33-zi-zhi-zhe-ming": ("第三十三章", "自知者明", ch33_zi_zhi_zhe_ming),
     "ch34-bu-zhu": ("第三十四章", "不主故能成其大", ch34_bu_zhu_wei_da),
