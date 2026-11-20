@@ -7858,6 +7858,7 @@ GOLD = {
     "ch37c": ["它什么也没做，可没有一样东西没被照到。", "不做的那个，恰恰成全了所有的做。"],
     "ch38b": ["上德做完就完，下德做完还要记一笔。", "给自己看的那一笔，恰恰是要紧处。"],
     "ch38c": ["靠仪节证明的德，撤了仪节就没了。", "厚不是笨重，是不靠外面那层撑着。"],
+    "ch39c": ["玉贵而脆，石贱而坚。", "宁做那块被踩着的石头，不做那块被捧着的玉。"],
     "ch06b": ["谷神不死，是谓玄牝。", "谷者，两山间之空也；能受故能生，生而不有故不竭——生机不在满处，在空处。"],
     "ch06c": ["玄牝之门，是谓天地根。", "门在开合处，不在门板上；一着手去推，它就成了一堵墙。"],
     "ch05b": ["天地不仁，以万物为刍狗。", "刍者，束草也；刍狗有位而无主——用毕回草堆，不是被弃，是位次用完了。"],
@@ -11000,6 +11001,71 @@ def ch38_wu_ji_tai_jie():
     s.append(gold(y3 + 64, "ch38"))
     s.append('</svg>')
     return "\n".join(s)
+
+
+def ch39c_yu_yu_shi():
+    body, y = head(380, 999, "不欲琭琭如玉，珞珞如石",
+                   "第 三 十 九 章 · 其 三", "玉 与 石",
+                   "其致之：天无以清将恐裂，地无以宁将恐发。", 999)
+    s = [body]
+
+    s.append(box(20, y + 2, 340, 34, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, y + 14, "「琭琭」，玉有光泽的样子；「珞珞」，石坚硬粗砺的样子。全书末一句落到这两样东西上。", 4.5, INK, "middle"))
+    s.append(txt(190, y + 27, "玉贵而脆，石贱而坚：一个被捧着，一个被用着。", 4.5, "#6E6459"))
+
+    # ---------- 一、玉 ----------
+    s.append(txt(24, y + 52, "一、如玉：被供着，也怕碎", 5.0, GREEN))
+    gy = y + 64
+    s.append(f'<rect x="26" y="{gy}" width="328" height="140" fill="#FBF6EC" stroke="{LINE}" stroke-width="0.8"/>')
+    s.append(f'<line x1="40" y1="{gy + 112}" x2="340" y2="{gy + 112}" stroke="{LINE}" stroke-width="0.9"/>')
+    # 案
+    s.append(f'<rect x="112" y="{gy + 84}" width="112" height="8" fill="#E4D9C0" stroke="{INK}" stroke-width="0.8"/>')
+    s.append(f'<line x1="120" y1="{gy + 92}" x2="120" y2="{gy + 112}" stroke="{INK}" stroke-width="0.9"/>')
+    s.append(f'<line x1="216" y1="{gy + 92}" x2="216" y2="{gy + 112}" stroke="{INK}" stroke-width="0.9"/>')
+    # 锦垫
+    s.append(f'<path d="M126,{gy + 84} q8,-6 16,0 q8,-6 16,0 q8,-6 16,0 q8,-6 16,0 q8,-6 16,0" fill="none" stroke="#C69E8A" stroke-width="0.8"/>')
+    # 玉
+    s.append(f'<path d="M142,{gy + 82} q-8,-40 26,-46 q34,-6 26,46 Z" fill="#E3EEE6" stroke="{INK}" stroke-width="1.0"/>')
+    s.append(f'<path d="M150,{gy + 74} q-4,-26 18,-30" fill="none" stroke="#FFFFFF" stroke-width="1.4"/>')
+    s.append(txt(154, gy + 66, "玉", 5.0, "#6E8C78", "middle"))
+    # 一道裂
+    s.append(f'<path d="M182,{gy + 44} l-6,14 l5,10 l-4,12" fill="none" stroke="{SEAL}" stroke-width="0.9" stroke-dasharray="3 3"/>')
+    s.append(txt(58, gy + 50, "一碰就裂", 4.0, SEAL))
+    s.append(txt(272, gy + 58, "贵", 4.4, SEAL))
+    s.append(txt(272, gy + 70, "人人捧你", 4.0, "#8A7C69"))
+    s.append(txt(272, gy + 82, "也人人怕你碎", 4.0, "#8A7C69"))
+    s.append(txt(190, gy + 128, "琭琭：光滑、体面、不能落地——它的贵，是不敢碰", 4.3, INK, "middle"))
+
+    # ---------- 二、石 ----------
+    s.append(txt(24, gy + 158, "二、如石：被踩着，可承得住", 5.0, GREEN))
+    gy2 = gy + 170
+    s.append(f'<rect x="26" y="{gy2}" width="328" height="140" fill="#FBF6EC" stroke="{LINE}" stroke-width="0.8"/>')
+    s.append(f'<line x1="40" y1="{gy2 + 116}" x2="340" y2="{gy2 + 116}" stroke="{LINE}" stroke-width="0.9"/>')
+    # 柱压在石上
+    s.append(f'<rect x="150" y="{gy2 + 20}" width="56" height="66" fill="#EFE6D4" stroke="{INK}" stroke-width="1.0"/>')
+    s.append(f'<line x1="163" y1="{gy2 + 24}" x2="163" y2="{gy2 + 82}" stroke="#C9B79A" stroke-width="0.5"/>')
+    s.append(f'<line x1="193" y1="{gy2 + 24}" x2="193" y2="{gy2 + 82}" stroke="#C9B79A" stroke-width="0.5"/>')
+    # 石（础）
+    s.append(f'<path d="M134,{gy2 + 86} L222,{gy2 + 86} L228,{gy2 + 116} L128,{gy2 + 116} Z" fill="#D9CFBB" stroke="{INK}" stroke-width="1.0"/>')
+    s.append(f'<path d="M142,{gy2 + 96} q10,4 20,-2 M186,{gy2 + 100} q10,4 22,-3 M150,{gy2 + 108} q16,4 30,-2" fill="none" stroke="#B4A78D" stroke-width="0.5"/>')
+    s.append(txt(178, gy2 + 106, "础", 4.6, "#8A7C69", "middle"))
+    # 柱上向下压的箭头
+    s.append(arrow(178, gy2 + 34, 178, gy2 + 82, color="#8A7C69", width=0.7, dash="3 3"))
+    s.append(txt(246, gy2 + 40, "整座屋", 4.0, "#8A7C69"))
+    s.append(txt(246, gy2 + 52, "都压在它身上", 4.0, "#8A7C69"))
+    s.append(txt(190, gy2 + 132, "珞珞：粗、硬、被踩着——它的贱，是承得住", 4.3, INK, "middle"))
+
+    # ---------- 收 ----------
+    y3 = gy2 + 148
+    s.append(f'<line x1="24" y1="{y3}" x2="356" y2="{y3}" stroke="{LINE}" stroke-width="0.6"/>')
+    s.append(box(20, y3 + 8, 340, 40, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, y3 + 24, "贵以贱为本，高以下为基——最底下那一块，撑着上面全部。", 4.8, INK, "middle"))
+    s.append(txt(190, y3 + 37, "宁做那块被踩着的石头，不做那块被捧着的玉。", 4.6, GREEN, "middle"))
+    s.append(gold(y3 + 54, "ch39c"))
+    s.append('</svg>')
+    out = "\n".join(s)
+    ys = [float(v) for v in re.findall(r'y="([0-9.]+)"', out)]
+    return out.replace("999", str(int(max(ys) + 26)))
 
 
 # ============ 第三十九章 · 六得一无以 ============
@@ -15787,6 +15853,7 @@ FIGS = {
     "ch37c-yi-zhan-deng": ("第三十七章", "一盏灯", ch37c_yi_zhan_deng),
     "ch38b-na-ben-zhang": ("第三十八章", "那本账", ch38b_na_ben_zhang),
     "ch38c-hou-yu-bo": ("第三十八章", "厚与薄", ch38c_hou_yu_bo),
+    "ch39c-yu-yu-shi": ("第三十九章", "玉与石", ch39c_yu_yu_shi),
     "ch32b-chuan-gu": ("第三十二章", "川谷与江海", ch32b_chuan_gu),
     "ch33-zi-zhi-zhe-ming": ("第三十三章", "自知者明", ch33_zi_zhi_zhe_ming),
     "ch34-bu-zhu": ("第三十四章", "不主故能成其大", ch34_bu_zhu_wei_da),
