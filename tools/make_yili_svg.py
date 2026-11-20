@@ -7732,6 +7732,8 @@ GOLD = {
     "ch25c": ["人法地，地法天，天法道，道法自然。", "道法自然：它上面没有更高的东西命令它，它只是自己如此。"],
     "ch26b": ["重为轻根，静为躁君。", "轻失的是根，躁失的是主。"],
     "ch26c": ["静为躁君。", "静下来，才照得见自己；不是修养，是水面本来的功能。"],
+    "ch27b": ["不是不做，是做到了不必做。", "工具一件一件撤掉，里头的东西一件一件长出来。"],
+    "ch27c": ["无弃人，无弃物：是谓袭明。", "不是他心肠软，是他看见的分类不成立。"],
     "ch06b": ["谷神不死，是谓玄牝。", "谷者，两山间之空也；能受故能生，生而不有故不竭——生机不在满处，在空处。"],
     "ch06c": ["玄牝之门，是谓天地根。", "门在开合处，不在门板上；一着手去推，它就成了一堵墙。"],
     "ch05b": ["天地不仁，以万物为刍狗。", "刍者，束草也；刍狗有位而无主——用毕回草堆，不是被弃，是位次用完了。"],
@@ -8585,6 +8587,156 @@ def ch27_shan_xing_wu_zhe_ji():
     s.append(gold(yc + 50, "ch27"))
     s.append('</svg>')
     return "\n".join(s)
+
+
+def ch27b_gong_ju_xiang():
+    body, y = head(380, 999, "善数不用筹策：不是不做，是做到了不必做",
+                   "第 二 十 七 章 · 一 只 工 具 箱", "一只工具箱",
+                   "工具一件一件撤掉，里头的东西一件一件长出来。", 999)
+    s = [body]
+
+    s.append(box(20, y + 2, 340, 34, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, y + 14, "「筹策」是计数的竹签；「关」是横闩，「楗」是竖插门后之木；「约」是绳缠。", 4.7, INK, "middle"))
+    s.append(txt(190, y + 27, "三样都是工具；三句话都在说：到了那个地方，工具不必带。", 4.7, "#6E6459"))
+
+    # 一、摊开的工具
+    s.append(txt(24, y + 52, "一、摊开：数要签、闭要闩、结要绳", 5.1, GREEN))
+    gy = y + 64
+    s.append(f'<rect x="26" y="{gy}" width="328" height="152" fill="#FBF6EC" stroke="{LINE}" stroke-width="0.8"/>')
+    # 桌
+    s.append(f'<line x1="44" y1="{gy + 104}" x2="316" y2="{gy + 104}" stroke="{INK}" stroke-width="1.1"/>')
+    s.append(f'<line x1="58" y1="{gy + 104}" x2="58" y2="{gy + 126}" stroke="{INK}" stroke-width="0.9"/>')
+    s.append(f'<line x1="302" y1="{gy + 104}" x2="302" y2="{gy + 126}" stroke="{INK}" stroke-width="0.9"/>')
+    s.append(f'<line x1="44" y1="{gy + 126}" x2="316" y2="{gy + 126}" stroke="{LINE2}" stroke-width="0.6"/>')
+    # 筹策：一把竹签
+    for i in range(7):
+        xx = 66 + i * 6
+        s.append(f'<line x1="{xx}" y1="{gy + 104}" x2="{xx}" y2="{gy + 70}" stroke="{INK}" stroke-width="0.8"/>')
+    s.append(f'<line x1="63" y1="{gy + 92}" x2="108" y2="{gy + 92}" stroke="{LINE2}" stroke-width="0.5"/>')
+    # 关楗：门框 + 横闩 + 竖楗
+    s.append(f'<rect x="152" y="{gy + 40}" width="46" height="64" fill="none" stroke="{INK}" stroke-width="1.0"/>')
+    s.append(f'<line x1="152" y1="{gy + 80}" x2="214" y2="{gy + 80}" stroke="{INK}" stroke-width="1.5"/>')
+    s.append(f'<rect x="206" y="{gy + 66}" width="7" height="28" fill="#EFE6D4" stroke="{INK}" stroke-width="0.8"/>')
+    # 绳约：一圈绳
+    s.append(f'<ellipse cx="270" cy="{gy + 86}" rx="26" ry="16" fill="none" stroke="{INK}" stroke-width="1.0"/>')
+    s.append(f'<ellipse cx="270" cy="{gy + 86}" rx="18" ry="10" fill="none" stroke="{LINE2}" stroke-width="0.6"/>')
+    s.append(f'<path d="M296,{gy + 86} q14,4 10,14" fill="none" stroke="{INK}" stroke-width="0.9"/>')
+    s.append(txt(84, gy + 140, "筹策·数", 4.1, "#8A7C69", "middle"))
+    s.append(txt(178, gy + 140, "关楗·闭", 4.1, "#8A7C69", "middle"))
+    s.append(txt(270, gy + 140, "绳约·结", 4.1, "#8A7C69", "middle"))
+    s.append(txt(190, gy + 30, "工具摊一桌：样样都在，样样都要先取", 4.3, SEAL, "middle"))
+
+    # 二、收进箱子，空手过路
+    s.append(txt(24, gy + 174, "二、收进箱子：桌空了，路也平了", 5.1, SEAL))
+    gy2 = gy + 186
+    s.append(f'<rect x="26" y="{gy2}" width="328" height="152" fill="#FBF6EC" stroke="{LINE}" stroke-width="0.8"/>')
+    s.append(f'<line x1="44" y1="{gy2 + 126}" x2="316" y2="{gy2 + 126}" stroke="{INK}" stroke-width="1.1"/>')
+
+    # 木箱
+    s.append(f'<rect x="212" y="{gy2 + 84}" width="92" height="42" fill="#EFE6D4" stroke="{INK}" stroke-width="1.1"/>')
+    s.append(f'<line x1="212" y1="{gy2 + 96}" x2="304" y2="{gy2 + 96}" stroke="{INK}" stroke-width="0.9"/>')
+    s.append(f'<line x1="258" y1="{gy2 + 96}" x2="258" y2="{gy2 + 126}" stroke="{LINE2}" stroke-width="0.6"/>')
+    s.append(txt(258, gy2 + 114, "收", 4.4, SEAL, "middle"))
+    # 空手的人
+    px, py = 108, gy2 + 80
+    s.append(f'<circle cx="{px}" cy="{py}" r="6" fill="none" stroke="{INK}" stroke-width="1.0"/>')
+    s.append(f'<line x1="{px}" y1="{py + 6}" x2="{px}" y2="{py + 34}" stroke="{INK}" stroke-width="1.2"/>')
+    s.append(f'<line x1="{px}" y1="{py + 34}" x2="{px - 7}" y2="{py + 46}" stroke="{INK}" stroke-width="1.0"/>')
+    s.append(f'<line x1="{px}" y1="{py + 34}" x2="{px + 7}" y2="{py + 46}" stroke="{INK}" stroke-width="1.0"/>')
+    s.append(f'<line x1="{px}" y1="{py + 16}" x2="{px - 8}" y2="{py + 32}" stroke="{INK}" stroke-width="0.9"/>')
+    s.append(f'<line x1="{px}" y1="{py + 16}" x2="{px + 8}" y2="{py + 32}" stroke="{INK}" stroke-width="0.9"/>')
+    s.append(txt(px, gy2 + 148, "空手过路，路面是平的", 4.1, GREEN, "middle"))
+    s.append(txt(258, gy2 + 148, "工具在箱里", 4.1, GREEN, "middle"))
+    s.append(txt(190, gy2 + 34, "路上有印子，箱里没声息", 4.3, "#8A7C69", "middle"))
+
+    a = gy2 + 170
+    s.append(txt(24, a, "「善行无辙迹」：载着很重的东西走过去，路上却不留沟。", 4.8, INK))
+    s.append(txt(24, a + 16, "「善言无瑕谪」：话说完就收，没有把柄留在人手里。", 4.8, INK))
+    s.append(txt(24, a + 34, "五善练到极处，就成了「不用」——不是不做，是做到了不必做。", 4.8, GREEN))
+
+    c = a + 52
+    s.append(f'<line x1="24" y1="{c}" x2="338" y2="{c}" stroke="{LINE}" stroke-width="0.6"/>')
+    s.append(box(20, c + 8, 340, 40, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, c + 24, "不是不做，是做到了不必做。", 6.0, INK, "middle"))
+    s.append(txt(190, c + 36, "五善是手，师资是眼，无弃是心。", 5.0, GREEN, "middle"))
+    s.append(gold(c + 62, "ch27b"))
+    s.append('</svg>')
+    out = "\n".join(s)
+    ys = [float(v) for v in re.findall(r'y="([0-9.]+)"', out)]
+    return out.replace("999", str(int(max(ys) + 26)))
+
+
+def ch27c_fen_jian_ji():
+    body, y = head(380, 999, "不是他心肠软，是他看见的分类不成立",
+                   "第 二 十 七 章 · 一 架 分 拣 机", "一架分拣机",
+                   "常善救人，故无弃人；常善救物，故无弃物。", 999)
+    s = [body]
+
+    s.append(box(20, y + 2, 340, 34, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, y + 14, "「救」不是施恩，是成全：把它本来该有的样子还给它。", 4.7, INK, "middle"))
+    s.append(txt(190, y + 27, "而「无弃」是说：没有一个人被判为无用，没有一件物被判为多余。", 4.6, "#6E6459"))
+
+    # 一、分拣机开着
+    s.append(txt(24, y + 52, "一、机器开着：一直分，一直筛，一直淘汰", 5.1, SEAL))
+    gy = y + 64
+    s.append(f'<rect x="26" y="{gy}" width="328" height="152" fill="#FBF6EC" stroke="{LINE}" stroke-width="0.8"/>')
+    # 漏斗
+    s.append(f'<path d="M148,{gy + 22} L232,{gy + 22} L214,{gy + 44} L166,{gy + 44} Z" fill="#EFE6D4" stroke="{INK}" stroke-width="1.0"/>')
+    # 机身
+    s.append(f'<rect x="140" y="{gy + 44}" width="100" height="30" fill="#EFE6D4" stroke="{INK}" stroke-width="1.1"/>')
+    s.append(txt(190, gy + 62, "分", 4.6, SEAL, "middle"))
+    # 两条滑道
+    s.append(f'<line x1="146" y1="{gy + 74}" x2="98" y2="{gy + 104}" stroke="{INK}" stroke-width="1.0"/>')
+    s.append(f'<line x1="234" y1="{gy + 74}" x2="282" y2="{gy + 104}" stroke="{INK}" stroke-width="1.0"/>')
+    # 两只筐
+    s.append(f'<path d="M52,{gy + 108} L128,{gy + 108} L122,{gy + 132} L58,{gy + 132} Z" fill="#E9F0E6" stroke="{INK}" stroke-width="1.0"/>')
+    s.append(f'<path d="M252,{gy + 108} L328,{gy + 108} L322,{gy + 132} L258,{gy + 132} Z" fill="#F1EADA" stroke="{INK}" stroke-width="1.0"/>')
+    s.append(txt(90, gy + 124, "善", 4.4, GREEN, "middle"))
+    s.append(txt(290, gy + 124, "不善", 4.2, "#8A7C69", "middle"))
+    # 分流的人与物
+    s.append(f'<circle cx="126" cy="{gy + 90}" r="2.8" fill="none" stroke="{INK}" stroke-width="0.7"/>')
+    s.append(f'<circle cx="112" cy="{gy + 98}" r="2.8" fill="none" stroke="{INK}" stroke-width="0.7"/>')
+    s.append(f'<rect x="258" y="{gy + 94}" width="6" height="6" fill="none" stroke="{INK}" stroke-width="0.7"/>')
+    s.append(f'<rect x="246" y="{gy + 100}" width="6" height="6" fill="none" stroke="{INK}" stroke-width="0.7"/>')
+    s.append(txt(190, gy + 144, "人被分成君子小人，物被分成贵贱有用无用", 4.1, "#8A7C69", "middle"))
+
+    # 二、机器关了
+    s.append(txt(24, gy + 174, "二、关了机器：人还在，物还在，一只也没被推出去", 5.1, GREEN))
+    gy2 = gy + 186
+    s.append(f'<rect x="26" y="{gy2}" width="328" height="152" fill="#FBF6EC" stroke="{LINE}" stroke-width="0.8"/>')
+    s.append(f'<rect x="140" y="{gy2 + 30}" width="100" height="44" fill="#EDE7DB" stroke="#9C9182" stroke-width="1.0"/>')
+    s.append(f'<line x1="136" y1="{gy2 + 26}" x2="244" y2="{gy2 + 26}" stroke="#9C9182" stroke-width="1.0"/>')
+    s.append(f'<line x1="140" y1="{gy2 + 30}" x2="136" y2="{gy2 + 26}" stroke="#9C9182" stroke-width="0.8"/>')
+    s.append(f'<line x1="240" y1="{gy2 + 30}" x2="244" y2="{gy2 + 26}" stroke="#9C9182" stroke-width="0.8"/>')
+    s.append(txt(190, gy2 + 58, "关", 4.6, "#9C9182", "middle"))
+    s.append(f'<path d="M128,{gy2 + 96} q10,-6 20,0 M262,{gy2 + 96} q10,-6 20,0" fill="none" stroke="#C9B79A" stroke-width="0.6" stroke-dasharray="3 2"/>')
+    s.append(txt(190, gy2 + 92, "滑道撤了，筐也并了", 4.1, "#8A7C69", "middle"))
+    # 一列人，一堆物，都在同一处
+    s.append(f'<line x1="52" y1="{gy2 + 130}" x2="328" y2="{gy2 + 130}" stroke="{LINE}" stroke-width="0.9"/>')
+    for i in range(8):
+        xx = 78 + i * 32
+        if i % 2 == 0:
+            s.append(f'<circle cx="{xx}" cy="{gy2 + 112}" r="3.4" fill="none" stroke="{INK}" stroke-width="0.8"/>')
+            s.append(f'<line x1="{xx}" y1="{gy2 + 116}" x2="{xx}" y2="{gy2 + 130}" stroke="{INK}" stroke-width="0.9"/>')
+        else:
+            s.append(f'<rect x="{xx - 4.5}" y="{gy2 + 121}" width="9" height="9" fill="none" stroke="{INK}" stroke-width="0.8"/>')
+    s.append(txt(190, gy2 + 144, "都在一处：无一弃人，无一弃物", 4.1, GREEN, "middle"))
+
+    a = gy2 + 170
+    s.append(txt(24, a, "「常善救人」救的不是「好人」：只救值得救的，那还是在分类。", 4.8, INK))
+    s.append(txt(24, a + 16, "能救不值得救的，才叫无弃；不是心肠软，是分类本身不成立。", 4.8, INK))
+    s.append(txt(24, a + 34, "圣人不在这台机器前排队，也不去操作它——他把机器关了。", 4.8, GREEN))
+
+    c = a + 52
+    s.append(f'<line x1="24" y1="{c}" x2="338" y2="{c}" stroke="{LINE}" stroke-width="0.6"/>')
+    s.append(box(20, c + 8, 340, 40, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, c + 24, "无弃人，无弃物：是谓袭明。", 6.0, INK, "middle"))
+    s.append(txt(190, c + 36, "不是他心肠软，是他看见的分类不成立。", 5.0, GREEN, "middle"))
+    s.append(gold(c + 62, "ch27c"))
+    s.append('</svg>')
+    out = "\n".join(s)
+    ys = [float(v) for v in re.findall(r'y="([0-9.]+)"', out)]
+    return out.replace("999", str(int(max(ys) + 26)))
 
 
 # ============ 第二十八章 · 知其雄 ============
@@ -14327,6 +14479,8 @@ FIGS = {
     "ch25b-hun-cheng": ("第二十五章", "一段未剖的原木", ch25b_hun_cheng),
     "ch25c-shun-wen": ("第二十五章", "顺纹而刨", ch25c_shun_wen),
     "ch26b-zi-zhong": ("第二十六章", "一辆辎重车", ch26b_zi_zhong),
+    "ch27b-gong-ju-xiang": ("第二十七章", "一只工具箱", ch27b_gong_ju_xiang),
+    "ch27c-fen-jian-ji": ("第二十七章", "一架分拣机", ch27c_fen_jian_ji),
     "ch26c-jing-shui": ("第二十六章", "一盆水", ch26c_jing_shui),
     "ch24-qi-zhe-bu-li": ("第二十四章", "企者不立", ch24_qi_zhe_bu_li),
     "ch23-xi-yan-zi-ran": ("第二十三章", "希言自然", ch23_xi_yan_zi_ran),
