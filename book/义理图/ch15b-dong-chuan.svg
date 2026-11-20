@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 380 758" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="豫兮若冬涉川：不是不敢过，是不肯踏碎它" font-family="'Noto Serif CJK SC','Noto Serif SC','Songti SC',serif">
+<defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#6E6459"/></marker><marker id="arr2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#4A5C55"/></marker><marker id="arrL" viewBox="0 0 10 10" refX="1" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M10 0 L0 5 L10 10 z" fill="#4A5C55"/></marker><marker id="arrS" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#A2503B"/></marker></defs>
+<rect x="0" y="0" width="380" height="758" fill="#F8F3E6"/>
+<text x="20" y="26" font-size="11" fill="#A2503B" font-family="'Noto Sans CJK SC','Noto Sans SC',sans-serif" letter-spacing="3">第 十 五 章 · 涉 川</text>
+<text x="20" y="58" font-size="21" fill="#2F2A24">冬涉川</text>
+<text x="20" y="78" font-size="10.5" fill="#6E6459">豫兮若冬涉川，犹兮若畏四邻。</text>
+<rect x="20" y="102" width="340" height="34" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="190" y="114" font-size="4.9" fill="#2F2A24" text-anchor="middle">七喻皆是一「不」：不抢先、不逼近、不占满。</text>
+<text x="190" y="127" font-size="4.8" fill="#6E6459" text-anchor="middle">冰薄，脚重；心一急，先碎的是脚下的路。</text>
+<text x="24" y="152" font-size="5.2" fill="#A2503B">一、一步试：脚尖先点一下，冰上裂一圈</text>
+<rect x="26" y="164" width="328" height="184" fill="#FBF6EC" stroke="#DCCBB0" stroke-width="0.8"/>
+<rect x="26" y="260" width="328" height="52" fill="#EDEFEA" stroke="none"/>
+<line x1="26" y1="260" x2="354" y2="260" stroke="#8A9A92" stroke-width="0.9"/>
+<line x1="44" y1="264" x2="38" y2="282" stroke="#B9C4BC" stroke-width="0.6"/>
+<line x1="80" y1="264" x2="74" y2="282" stroke="#B9C4BC" stroke-width="0.6"/>
+<line x1="116" y1="264" x2="110" y2="282" stroke="#B9C4BC" stroke-width="0.6"/>
+<line x1="152" y1="264" x2="146" y2="282" stroke="#B9C4BC" stroke-width="0.6"/>
+<line x1="188" y1="264" x2="182" y2="282" stroke="#B9C4BC" stroke-width="0.6"/>
+<line x1="224" y1="264" x2="218" y2="282" stroke="#B9C4BC" stroke-width="0.6"/>
+<line x1="260" y1="264" x2="254" y2="282" stroke="#B9C4BC" stroke-width="0.6"/>
+<line x1="296" y1="264" x2="290" y2="282" stroke="#B9C4BC" stroke-width="0.6"/>
+<line x1="332" y1="264" x2="326" y2="282" stroke="#B9C4BC" stroke-width="0.6"/>
+<text x="40" y="328" font-size="4.1" fill="#6E6459">冬河·薄冰</text>
+<line x1="172" y1="190" x2="175" y2="252" stroke="#2F2A24" stroke-width="1.8"/>
+<path d="M165,252 q12,-3 21,2 q7,3 3,6 q-12,3 -24,1 z" fill="#F8F3E6" stroke="#2F2A24" stroke-width="1.0"/>
+<line x1="154" y1="261" x2="150" y2="271" stroke="#A2503B" stroke-width="0.7"/>
+<line x1="162" y1="261" x2="158" y2="271" stroke="#A2503B" stroke-width="0.7"/>
+<line x1="171" y1="261" x2="167" y2="271" stroke="#A2503B" stroke-width="0.7"/>
+<line x1="182" y1="261" x2="186" y2="271" stroke="#A2503B" stroke-width="0.7"/>
+<line x1="191" y1="261" x2="195" y2="271" stroke="#A2503B" stroke-width="0.7"/>
+<text x="220" y="250" font-size="4.1" fill="#A2503B">点一下：听它响不响</text>
+<text x="190" y="340" font-size="4.3" fill="#A2503B" text-anchor="middle">豫：不是慢，是先把脚下的实虚探清</text>
+<text x="24" y="364" font-size="5.2" fill="#4A5C55">二、轻步过：人到了对岸，冰面还是完的</text>
+<rect x="26" y="376" width="328" height="176" fill="#FBF6EC" stroke="#DCCBB0" stroke-width="0.8"/>
+<rect x="26" y="472" width="328" height="52" fill="#EDEFEA" stroke="none"/>
+<line x1="26" y1="472" x2="354" y2="472" stroke="#8A9A92" stroke-width="0.9"/>
+<line x1="44" y1="476" x2="38" y2="494" stroke="#B9C4BC" stroke-width="0.6"/>
+<line x1="80" y1="476" x2="74" y2="494" stroke="#B9C4BC" stroke-width="0.6"/>
+<line x1="116" y1="476" x2="110" y2="494" stroke="#B9C4BC" stroke-width="0.6"/>
+<line x1="152" y1="476" x2="146" y2="494" stroke="#B9C4BC" stroke-width="0.6"/>
+<line x1="188" y1="476" x2="182" y2="494" stroke="#B9C4BC" stroke-width="0.6"/>
+<line x1="224" y1="476" x2="218" y2="494" stroke="#B9C4BC" stroke-width="0.6"/>
+<line x1="260" y1="476" x2="254" y2="494" stroke="#B9C4BC" stroke-width="0.6"/>
+<line x1="296" y1="476" x2="290" y2="494" stroke="#B9C4BC" stroke-width="0.6"/>
+<line x1="332" y1="476" x2="326" y2="494" stroke="#B9C4BC" stroke-width="0.6"/>
+<text x="40" y="540" font-size="4.1" fill="#6E6459">冬河·薄冰</text>
+<ellipse cx="84" cy="472" rx="4" ry="1.8" fill="#C9D2CA" stroke="none"/>
+<ellipse cx="108" cy="472" rx="4" ry="1.8" fill="#C9D2CA" stroke="none"/>
+<ellipse cx="132" cy="472" rx="4" ry="1.8" fill="#C9D2CA" stroke="none"/>
+<ellipse cx="156" cy="472" rx="4" ry="1.8" fill="#C9D2CA" stroke="none"/>
+<ellipse cx="180" cy="472" rx="4" ry="1.8" fill="#C9D2CA" stroke="none"/>
+<path d="M26,472 L64,472 L64,454 L26,458 z" fill="#E4E7E0" stroke="#DCCBB0" stroke-width="0.8"/>
+<path d="M296,472 L354,472 L354,450 L296,456 z" fill="#E4E7E0" stroke="#DCCBB0" stroke-width="0.8"/>
+<circle cx="322" cy="416" r="6" fill="none" stroke="#2F2A24" stroke-width="1.0"/>
+<line x1="322" y1="422" x2="322" y2="450" stroke="#2F2A24" stroke-width="1.3"/>
+<line x1="322" y1="450" x2="315" y2="462" stroke="#2F2A24" stroke-width="1.0"/>
+<line x1="322" y1="450" x2="329" y2="462" stroke="#2F2A24" stroke-width="1.0"/>
+<line x1="312" y1="458" x2="274" y2="458" stroke="#4A5C55" stroke-width="0.9" stroke-dasharray="5 3" marker-end="url(#arrL)"/>
+<text x="150" y="452" font-size="4.1" fill="#4A5C55">一路轻过：冰面不留痕</text>
+<text x="190" y="542" font-size="4.3" fill="#4A5C55" text-anchor="middle">犹兮若畏四邻：畏不是怕，是不肯把路走成别人的路</text>
+<text x="24" y="572" font-size="5.0" fill="#2F2A24">豫与犹，都是「先看后动」：先探实虚，再定脚步；不是迟疑，是不莽撞。</text>
+<text x="24" y="588" font-size="5.0" fill="#2F2A24">冰薄，脚重；心一急，先碎的是脚下的路，摔的是自己。</text>
+<text x="24" y="606" font-size="4.9" fill="#4A5C55">善为道者，走路像过冬河：每一步都自带敬意。</text>
+<line x1="24" y1="624" x2="338" y2="624" stroke="#DCCBB0" stroke-width="0.6"/>
+<rect x="20" y="632" width="340" height="40" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="190" y="648" font-size="6.0" fill="#2F2A24" text-anchor="middle">豫兮若冬涉川，</text>
+<text x="190" y="660" font-size="6.0" fill="#4A5C55" text-anchor="middle">犹兮若畏四邻。</text>
+<line x1="20" y1="686" x2="360" y2="686" stroke="#E6D8C2" stroke-width="0.8"/>
+<text x="20" y="700" font-size="8.0" fill="#A89577" letter-spacing="1">本 章 金 句</text>
+<text x="20" y="716" font-size="8.4" fill="#2F2A24">豫兮若冬涉川，犹兮若畏四邻。</text>
+<text x="20" y="732" font-size="8.4" fill="#2F2A24">善为道者，走路像过冬河：每一步都自带敬意。</text>
+</svg>

@@ -2721,6 +2721,137 @@ def ch15_shan_wei_dao():
 
 
 # ============ 第十六章 · 致虚极，守静笃 ============
+def ch15b_dong_chuan():
+    body, y = head(380, 999, "豫兮若冬涉川：不是不敢过，是不肯踏碎它",
+                   "第 十 五 章 · 涉 川", "冬涉川", "豫兮若冬涉川，犹兮若畏四邻。", 999)
+    s = [body]
+
+    s.append(box(20, y + 2, 340, 34, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, y + 14, "七喻皆是一「不」：不抢先、不逼近、不占满。", 4.9, INK, "middle"))
+    s.append(txt(190, y + 27, "冰薄，脚重；心一急，先碎的是脚下的路。", 4.8, "#6E6459", "middle"))
+
+    def ice(gy):
+        s.append(f'<rect x="26" y="{gy + 96}" width="328" height="52" fill="#EDEFEA" stroke="none"/>')
+        s.append(f'<line x1="26" y1="{gy + 96}" x2="354" y2="{gy + 96}" stroke="#8A9A92" stroke-width="0.9"/>')
+        for k in range(9):
+            xx = 44 + k * 36
+            s.append(f'<line x1="{xx}" y1="{gy + 100}" x2="{xx - 6}" y2="{gy + 118}" stroke="#B9C4BC" stroke-width="0.6"/>')
+        s.append(txt(40, gy + 164, "冬河·薄冰", 4.1, "#6E6459"))
+
+    # 一、一步试
+    s.append(txt(24, y + 52, "一、一步试：脚尖先点一下，冰上裂一圈", 5.2, SEAL))
+    gy = y + 64
+    s.append(f'<rect x="26" y="{gy}" width="328" height="184" fill="#FBF6EC" stroke="{LINE}" stroke-width="0.8"/>')
+    ice(gy)
+    # 一条腿自上方来，脚尖点在冰上
+    fx, fy = 176, gy + 96
+    s.append(f'<line x1="{fx - 4}" y1="{gy + 26}" x2="{fx - 1}" y2="{fy - 8}" stroke="{INK}" stroke-width="1.8"/>')
+    s.append(f'<path d="M{fx - 11},{fy - 8} q12,-3 21,2 q7,3 3,6 q-12,3 -24,1 z" fill="{PAPER}" stroke="{INK}" stroke-width="1.0"/>')
+    for dx in (-22, -14, -5, 6, 15):
+        s.append(f'<line x1="{fx + dx}" y1="{fy + 1}" x2="{fx + dx + (4 if dx > 0 else -4)}" y2="{fy + 11}" stroke="{SEAL}" stroke-width="0.7"/>')
+    s.append(txt(fx + 44, fy - 10, "点一下：听它响不响", 4.1, SEAL))
+    s.append(txt(190, gy + 176, "豫：不是慢，是先把脚下的实虚探清", 4.3, SEAL, "middle"))
+
+    # 二、轻步过
+    s.append(txt(24, gy + 200, "二、轻步过：人到了对岸，冰面还是完的", 5.2, GREEN))
+    gy2 = gy + 212
+    s.append(f'<rect x="26" y="{gy2}" width="328" height="176" fill="#FBF6EC" stroke="{LINE}" stroke-width="0.8"/>')
+    ice(gy2)
+    for k in range(5):
+        s.append(f'<ellipse cx="{84 + k * 24}" cy="{gy2 + 96}" rx="4" ry="1.8" fill="#C9D2CA" stroke="none"/>')
+    # 两岸：左小滩、右岸
+    s.append(f'<path d="M26,{gy2 + 96} L64,{gy2 + 96} L64,{gy2 + 78} L26,{gy2 + 82} z" fill="#E4E7E0" stroke="{LINE}" stroke-width="0.8"/>')
+    s.append(f'<path d="M296,{gy2 + 96} L354,{gy2 + 96} L354,{gy2 + 74} L296,{gy2 + 80} z" fill="#E4E7E0" stroke="{LINE}" stroke-width="0.8"/>')
+    px, py = 322, gy2 + 40
+    s.append(f'<circle cx="{px}" cy="{py}" r="6" fill="none" stroke="{INK}" stroke-width="1.0"/>')
+    s.append(f'<line x1="{px}" y1="{py + 6}" x2="{px}" y2="{py + 34}" stroke="{INK}" stroke-width="1.3"/>')
+    s.append(f'<line x1="{px}" y1="{py + 34}" x2="{px - 7}" y2="{py + 46}" stroke="{INK}" stroke-width="1.0"/>')
+    s.append(f'<line x1="{px}" y1="{py + 34}" x2="{px + 7}" y2="{py + 46}" stroke="{INK}" stroke-width="1.0"/>')
+    s.append(arrow(px - 10, gy2 + 82, 274, gy2 + 82, GREEN, 0.9, "5 3", "arrL"))
+    s.append(txt(150, gy2 + 76, "一路轻过：冰面不留痕", 4.1, GREEN))
+    s.append(txt(190, gy2 + 166, "犹兮若畏四邻：畏不是怕，是不肯把路走成别人的路", 4.3, GREEN, "middle"))
+
+    a = gy2 + 196
+    s.append(txt(24, a, "豫与犹，都是「先看后动」：先探实虚，再定脚步；不是迟疑，是不莽撞。", 5.0, INK))
+    s.append(txt(24, a + 16, "冰薄，脚重；心一急，先碎的是脚下的路，摔的是自己。", 5.0, INK))
+    s.append(txt(24, a + 34, "善为道者，走路像过冬河：每一步都自带敬意。", 4.9, GREEN))
+
+    c = a + 52
+    s.append(f'<line x1="24" y1="{c}" x2="338" y2="{c}" stroke="{LINE}" stroke-width="0.6"/>')
+    s.append(box(20, c + 8, 340, 40, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, c + 24, "豫兮若冬涉川，", 6.0, INK, "middle"))
+    s.append(txt(190, c + 36, "犹兮若畏四邻。", 6.0, GREEN, "middle"))
+    s.append(gold(c + 62, "ch15b"))
+    s.append('</svg>')
+    out = "\n".join(s)
+    ys = [float(v) for v in re.findall(r'y="([0-9.]+)"', out)]
+    return out.replace("999", str(int(max(ys) + 26)))
+
+
+def ch15c_bu_yu_ying():
+    body, y = head(380, 999, "夫唯不盈，故能蔽而新成：旧罐不满，反而常新",
+                   "第 十 五 章 · 不 欲 盈", "旧罐", "夫唯不盈，故能蔽而新成。", 999)
+    s = [body]
+
+    s.append(box(20, y + 2, 340, 34, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, y + 14, "盈不是「多」，是「没有再往里的余地」。", 4.9, INK, "middle"))
+    s.append(txt(190, y + 27, "不盈：留一处空，器物才换得动、久得住。", 4.8, "#6E6459", "middle"))
+
+    def jar(cx, top, w, h, fill, crack=False, muddy=False):
+        body_cy = top + 26 + (h - 26) / 2
+        s.append(f'<ellipse cx="{cx}" cy="{body_cy}" rx="{w}" ry="{(h - 26) / 2}" fill="{fill}" stroke="{INK}" stroke-width="1.2"/>')
+        s.append(f'<rect x="{cx - w * 0.58}" y="{top}" width="{w * 1.16}" height="28" fill="{fill}" stroke="{INK}" stroke-width="1.0"/>')
+        s.append(f'<ellipse cx="{cx}" cy="{top}" rx="{w * 0.58}" ry="4" fill="#EFE6D4" stroke="{INK}" stroke-width="1.0"/>')
+        s.append(f'<path d="M{cx - w},{body_cy + (h - 26) / 2} a{w},9 0 0 0 {w * 2},0" fill="none" stroke="{INK}" stroke-width="0.0"/>')
+        if crack:
+            s.append(f'<path d="M{cx + 6},{top + 30} l5,12 l-4,9 l6,10" fill="none" stroke="{SEAL}" stroke-width="0.9"/>')
+        if muddy:
+            s.append(f'<circle cx="{cx - 9}" cy="{top + 40}" r="1.6" fill="#C9B79A"/>')
+            s.append(f'<circle cx="{cx + 7}" cy="{top + 54}" r="1.4" fill="#C9B79A"/>')
+
+    # 一、新罐盛满
+    s.append(txt(24, y + 52, "一、新罐盛满：一次就要盛到头，罐口溢、罐身裂", 5.2, SEAL))
+    gy = y + 64
+    s.append(f'<rect x="26" y="{gy}" width="328" height="172" fill="#FBF6EC" stroke="{LINE}" stroke-width="0.8"/>')
+    cx = 110
+    jar(cx, gy + 54, 30, 74, PAPER, crack=True)
+    # 水溢
+    s.append(f'<path d="M{cx - 16},{gy + 58} q-5,8 -8,13 M{cx + 16},{gy + 58} q5,8 8,13" fill="none" stroke="{GREEN}" stroke-width="0.8"/>')
+    s.append(f'<circle cx="{cx - 26}" cy="{gy + 74}" r="1.6" fill="{GREEN}"/>')
+    s.append(f'<circle cx="{cx + 26}" cy="{gy + 74}" r="1.6" fill="{GREEN}"/>')
+    s.append(txt(cx, gy + 150, "满到没处可加：脆", 4.2, SEAL, "middle"))
+    s.append(txt(258, gy + 92, "新的、满的、不碰就裂的", 4.2, SEAL, "middle"))
+    s.append(txt(258, gy + 112, "盈则无余地：换不动，也久不住", 4.1, "#6E6459", "middle"))
+
+    # 二、旧罐七分
+    s.append(txt(24, gy + 190, "二、旧罐七分：斑驳却完好，留三口空在里头", 5.2, GREEN))
+    gy2 = gy + 202
+    s.append(f'<rect x="26" y="{gy2}" width="328" height="168" fill="#FBF6EC" stroke="{LINE}" stroke-width="0.8"/>')
+    jar(cx, gy2 + 50, 27, 70, "#EFE6D4", muddy=True)
+    # 内壁水位线
+    s.append(f'<line x1="{cx - 24}" y1="{gy2 + 84}" x2="{cx + 24}" y2="{gy2 + 84}" stroke="{GREEN}" stroke-width="0.7" stroke-dasharray="3 2"/>')
+    s.append(txt(cx + 30, gy2 + 84, "只到七分：留三口空", 4.0, GREEN))
+    s.append(txt(cx, gy2 + 148, "旧而不坏：蔽而新成", 4.2, GREEN, "middle"))
+    s.append(txt(262, gy2 + 90, "旧了、不满、还在用", 4.2, GREEN, "middle"))
+    s.append(txt(262, gy2 + 110, "留白处换得动气，故常新", 4.1, "#6E6459", "middle"))
+
+    a = gy2 + 188
+    s.append(txt(24, a, "「蔽」是旧、是覆着的那层旧相；「新成」是它仍能成事。留一处不满，旧物就还在生长。", 4.9, INK))
+    s.append(txt(24, a + 16, "人不肯留空，是怕不够；越怕不够，越先裂。", 4.9, INK))
+    s.append(txt(24, a + 34, "不欲盈：不是不要，是不肯盛到没有余地的那一步。", 4.9, GREEN))
+
+    c = a + 52
+    s.append(f'<line x1="24" y1="{c}" x2="338" y2="{c}" stroke="{LINE}" stroke-width="0.6"/>')
+    s.append(box(20, c + 8, 340, 40, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, c + 24, "夫唯不盈，", 6.0, INK, "middle"))
+    s.append(txt(190, c + 36, "故能蔽而新成。", 6.0, GREEN, "middle"))
+    s.append(gold(c + 62, "ch15c"))
+    s.append('</svg>')
+    out = "\n".join(s)
+    ys = [float(v) for v in re.findall(r'y="([0-9.]+)"', out)]
+    return out.replace("999", str(int(max(ys) + 26)))
+
+
 def ch16_zhi_xu_ji():
     W, H = 380, 478
     body, y = head(W, H, "观不是往外看，是看它回到哪里", "第 十 六 章 · 修 法", "归根",
@@ -6552,6 +6683,8 @@ GOLD = {
     "ch13c": ["故贵以身为天下，若可寄天下；爱以身为天下，若可托天下。", "养身如养器，护壁不据壁。"],
     "ch14b": ["视之不见名曰夷，听之不闻名曰希，搏之不得名曰微。", "探不到的地方不是空的，是探针够不着。"],
     "ch14c": ["执古之道，以御今之有；能知古始，是谓道纪。", "古不是过去，是本始：一根不被风向吹弯的准绳。"],
+    "ch15b": ["豫兮若冬涉川，犹兮若畏四邻。", "善为道者，走路像过冬河：每一步都自带敬意。"],
+    "ch15c": ["夫唯不盈，故能蔽而新成。", "留一处不满，旧物就还在生长。"],
     "ch06b": ["谷神不死，是谓玄牝。", "谷者，两山间之空也；能受故能生，生而不有故不竭——生机不在满处，在空处。"],
     "ch06c": ["玄牝之门，是谓天地根。", "门在开合处，不在门板上；一着手去推，它就成了一堵墙。"],
     "ch05b": ["天地不仁，以万物为刍狗。", "刍者，束草也；刍狗有位而无主——用毕回草堆，不是被弃，是位次用完了。"],
@@ -12707,6 +12840,8 @@ FIGS = {
     "ch13c-bao-yu-tuo": ("第十三章", "抱与托", ch13c_bao_yu_tuo),
     "ch14b-san-zhi-tan-zhen": ("第十四章", "三支探针", ch14b_san_zhi_tan_zhen),
     "ch14c-gu-sheng-yu-jin": ("第十四章", "一根准绳", ch14c_gu_sheng_yu_jin),
+    "ch15b-dong-chuan": ("第十五章", "冬涉川", ch15b_dong_chuan),
+    "ch15c-bu-yu-ying": ("第十五章", "旧罐", ch15c_bu_yu_ying),
     "ch24-qi-zhe-bu-li": ("第二十四章", "企者不立", ch24_qi_zhe_bu_li),
     "ch23-xi-yan-zi-ran": ("第二十三章", "希言自然", ch23_xi_yan_zi_ran),
     "ch22-qu-ze-quan": ("第二十二章", "曲则全", ch22_qu_ze_quan),
