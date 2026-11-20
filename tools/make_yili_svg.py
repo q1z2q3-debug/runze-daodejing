@@ -1505,6 +1505,9 @@ def ch21_kong_de():
 
 
 GOLD = {
+    "ch65a": ["明是打光，不是自己亮；灯照路，不照人。", "明民是打光：光一打，位置就显出来；看得清，就生比较。"],
+    "ch65b": ["愚从心从禺：禺是猴，猴不蠢，是停不住；心跟着猴跑，才是那个愚字。", "收心是把猴从肩上放下来：放下来它还在，只是不再拽着心跑。"],
+    "ch65c": ["稽式是木工弹的那道线：它不评价，只显出来；常知稽式，是谓玄德。", "线一响，歪的木头自己就显出来了。"],
     "ch64a": ["兆是烧出来的那道裂纹；还没烧，就还读不出来——也还来得及。", "未兆不是征兆还小，是还没裂；趁它没裂，才来得及决定它裂成什么样。"],
     "ch64b": ["九层之台，起于累土；台有多高，等于抬过多少筐。", "千里之行，始于足下：远不是一步跨过去的，是一步一步攒出来的。"],
     "ch64c": ["牙自己长，骨头只托；辅万物之自然，就是托住，不去捏。", "托得好，牙正；托得歪，牙斜；骨头一动，满口都疼。"],
@@ -7366,6 +7369,184 @@ def ch64c_yi_kuai_gu_tou():
 
 
 
+# ============ 第六十五章 · 一盏灯 ============
+def ch65a_yi_zhan_deng():
+    W, H = 380, 690
+    body, y = head(W, H, "明是月光从窗格照进屋：照，是打光，不是自己亮",
+                   "第 六 十 五 章 · 明", "一盏灯", "非以明民，将以愚之。", H)
+    s = [body]
+
+    s.append(box(20, y + 2, 340, 30, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, y + 14, "「明」，《说文》「照也」，从月、从囧——囧是窗格。", 5.2, INK, "middle"))
+    s.append(txt(190, y + 26, "明民就是打光：把光打到人身上，人彼此就看得清长短了。", 5.0, "#6E6459", "middle"))
+
+    s.append(txt(24, y + 48, "一、灯挂在屋子正中：影子都落在脚下", 4.8, SEAL))
+    gy = y + 62
+    s.append(f'<rect x="96" y="{gy}" width="188" height="156" fill="#FBF6EC" stroke="{LINE}" stroke-width="0.8"/>')
+    # 灯：一根绳吊在正中
+    s.append(f'<line x1="190" y1="{gy}" x2="190" y2="{gy + 22}" stroke="{INK}" stroke-width="0.8"/>')
+    s.append(f'<path d="M180,{gy + 32} L200,{gy + 32} L196,{gy + 22} L184,{gy + 22} Z" fill="#EFE6D4" stroke="{INK}" stroke-width="1"/>')
+    s.append(f'<polygon points="182,{gy + 42} 198,{gy + 42} 272,{gy + 142} 108,{gy + 142}" fill="#EADFC2" opacity="0.5" stroke="none"/>')
+    s.append(f'<circle cx="190" cy="{gy + 38}" r="4.2" fill="{SEAL}" stroke="{SEAL}" stroke-width="0.8"/>')
+    # 三个人，影子长短不一
+    for (px, sl, dirn) in ((132, 24, -1), (190, 7, 1), (250, 34, 1)):
+        s.append(f'<path d="M{px},{gy + 138} L{px + dirn * sl},{gy + 144} L{px + dirn * sl},{gy + 149} '
+                 f'L{px},{gy + 142} Z" fill="#CFC3A8" stroke="none"/>')
+        s.append(f'<circle cx="{px}" cy="{gy + 104}" r="5" fill="none" stroke="{INK}" stroke-width="1"/>')
+        s.append(f'<rect x="{px - 5}" y="{gy + 110}" width="10" height="16" rx="2" fill="#EFE6D4" stroke="{INK}" stroke-width="1"/>')
+        s.append(f'<line x1="{px - 3}" y1="{gy + 126}" x2="{px - 4}" y2="{gy + 138}" stroke="{INK}" stroke-width="1"/>')
+        s.append(f'<line x1="{px + 3}" y1="{gy + 126}" x2="{px + 4}" y2="{gy + 138}" stroke="{INK}" stroke-width="1"/>')
+    s.append(txt(190, gy + 172, "灯在当中：影子有长有短，谁都在看谁的影子", 4.6, SEAL, "middle"))
+
+    s.append(txt(24, y + 250, "二、灯挪到门边：光只照路", 4.8, GREEN))
+    gy2 = y + 260
+    s.append(f'<rect x="96" y="{gy2}" width="188" height="118" fill="#FBF6EC" stroke="{LINE}" stroke-width="0.8"/>')
+    # 门在左墙
+    s.append(f'<line x1="104" y1="{gy2 + 90}" x2="104" y2="{gy2 + 20}" stroke="{INK}" stroke-width="2.4" opacity="0.6"/>')
+    # 灯挂在门边
+    s.append(f'<line x1="118" y1="{gy2 + 40}" x2="118" y2="{gy2 + 20}" stroke="{INK}" stroke-width="0.8"/>')
+    s.append(f'<path d="M110,{gy2 + 20} L126,{gy2 + 20} L124,{gy2 + 10} L112,{gy2 + 10} Z" fill="#EFE6D4" stroke="{INK}" stroke-width="1"/>')
+    s.append(f'<circle cx="118" cy="{gy2 + 24}" r="3.4" fill="{GREEN}" stroke="{GREEN}" stroke-width="0.8"/>')
+    # 路：一条横带
+    s.append(f'<rect x="110" y="{gy2 + 84}" width="164" height="26" fill="#F0E7D5" stroke="none"/>')
+    s.append(f'<line x1="110" y1="{gy2 + 84}" x2="274" y2="{gy2 + 84}" stroke="{LINE}" stroke-width="0.7"/>')
+    s.append(f'<line x1="110" y1="{gy2 + 110}" x2="274" y2="{gy2 + 110}" stroke="{LINE}" stroke-width="0.7"/>')
+    # 光落在路上的一段
+    s.append(f'<ellipse cx="162" cy="{gy2 + 97}" rx="46" ry="13" fill="#EADFC2" opacity="0.9" stroke="none"/>')
+    s.append(txt(250, gy2 + 100, "路", 4.4, "#6E6459", "middle"))
+    s.append(txt(152, gy2 + 74, "照亮的是路", 4.4, GREEN, "middle"))
+    s.append(txt(190, gy2 + 134, "灯靠门：照亮路，不照亮人——不吹灯，是把灯挪开", 4.6, GREEN, "middle"))
+
+    a = gy2 + 154
+    s.append(txt(24, a, "明民，是打光：光一打，位置就看得清；看得清，就生比较。", 4.8, INK))
+    s.append(txt(24, a + 16, "这一照亮，给的是路还是靶子？老子问的是这一句。", 4.9, INK))
+    s.append(txt(24, a + 34, "他说的不是吹灯，是不把灯挂到人头顶上。", 5.0, GREEN))
+
+    c = a + 52
+    s.append(f'<line x1="24" y1="{c}" x2="338" y2="{c}" stroke="{LINE}" stroke-width="0.6"/>')
+    s.append(box(20, c + 8, 340, 40, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, c + 24, "明是打光，不是自己亮；", 5.6, INK, "middle"))
+    s.append(txt(190, c + 36, "灯照路，不照人。", 5.2, GREEN, "middle"))
+    s.append(gold(c + 62, "ch65a"))
+    s.append('</svg>')
+    return "\n".join(s)
+
+
+# ============ 第六十五章 · 一只猴 ============
+def ch65b_yi_zhi_hou():
+    W, H = 380, 690
+    body, y = head(W, H, "愚从心从禺：禺是猴，猴不蠢，是停不住",
+                   "第 六 十 五 章 · 愚", "一只猴", "民之难治，以其智多。", H)
+    s = [body]
+
+    s.append(box(20, y + 2, 340, 30, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, y + 14, "「愚」，《说文》「戆也」，从心从禺——禺是猴，兽之愚者。", 5.2, INK, "middle"))
+    s.append(txt(190, y + 26, "猴不蠢，猴是躁：一刻不停，见什么抓什么。愚，是心跟着猴跑。", 4.8, "#6E6459", "middle"))
+
+    def monkey(cx, cy, col, k=1.0):
+        o = []
+        o.append(f'<ellipse cx="{cx}" cy="{cy}" rx="{9 * k}" ry="{12 * k}" fill="#EFE6D4" stroke="{col}" stroke-width="1"/>')
+        o.append(f'<circle cx="{cx}" cy="{cy - 18 * k}" r="{7 * k}" fill="#EFE6D4" stroke="{col}" stroke-width="1"/>')
+        o.append(f'<circle cx="{cx - 6.6 * k}" cy="{cy - 22 * k}" r="{2.4 * k}" fill="none" stroke="{col}" stroke-width="0.9"/>')
+        o.append(f'<circle cx="{cx + 6.6 * k}" cy="{cy - 22 * k}" r="{2.4 * k}" fill="none" stroke="{col}" stroke-width="0.9"/>')
+        o.append(f'<circle cx="{cx - 1.6 * k}" cy="{cy - 19 * k}" r="{0.8 * k}" fill="{col}"/>')
+        o.append(f'<circle cx="{cx + 1.6 * k}" cy="{cy - 19 * k}" r="{0.8 * k}" fill="{col}"/>')
+        o.append(f'<line x1="{cx}" y1="{cy - 15 * k}" x2="{cx}" y2="{cy - 12 * k}" stroke="{col}" stroke-width="0.7"/>')
+        o.append(f'<path d="M{cx - 8 * k},{cy + 4 * k} C{cx - 18 * k},{cy + 8 * k} {cx - 20 * k},{cy - 4 * k} {cx - 13 * k},{cy - 9 * k}" '
+                 f'fill="none" stroke="{col}" stroke-width="1"/>')
+        o.append(f'<path d="M{cx + 8 * k},{cy + 4 * k} C{cx + 18 * k},{cy + 9 * k} {cx + 23 * k},{cy + 1 * k} {cx + 18 * k},{cy - 7 * k}" '
+                 f'fill="none" stroke="{col}" stroke-width="1"/>')
+        return o
+
+    def person(cx, gy, col):
+        o = []
+        o.append(f'<line x1="{cx - 6}" y1="{gy - 16}" x2="{cx - 9}" y2="{gy}" stroke="{col}" stroke-width="1.2"/>')
+        o.append(f'<line x1="{cx + 6}" y1="{gy - 16}" x2="{cx + 9}" y2="{gy}" stroke="{col}" stroke-width="1.2"/>')
+        o.append(f'<rect x="{cx - 12}" y="{gy - 46}" width="24" height="30" rx="3" fill="#EFE6D4" stroke="{col}" stroke-width="1.2"/>')
+        o.append(f'<circle cx="{cx}" cy="{gy - 56}" r="8" fill="none" stroke="{col}" stroke-width="1.2"/>')
+        return o
+
+    s.append(txt(24, y + 48, "一、猴在肩上：心跟着猴跑", 4.8, SEAL))
+    gy = y + 180
+    s += person(182, gy, INK)
+    s += monkey(206, gy - 62, SEAL, 0.78)
+    s.append(f'<path d="M170,{gy - 44} C160,{gy - 54} 152,{gy - 66} 156,{gy - 74}" fill="none" stroke="{SEAL}" stroke-width="1" stroke-dasharray="3 2"/>')
+    s.append(f'<circle cx="158" cy="{gy - 80}" r="6" fill="none" stroke="{SEAL}" stroke-width="1"/>')
+    s.append(txt(158, gy - 94, "心", 4.4, SEAL, "middle"))
+    s.append(txt(216, gy - 30, "猴", 4.4, SEAL, "middle"))
+    s.append(txt(190, gy + 24, "心跟着猴跑：一刻不停，见什么抓什么", 4.6, SEAL, "middle"))
+
+    s.append(txt(24, gy + 52, "二、把猴放下来：它蹲在地上，心才落回身上", 4.8, GREEN))
+    gy2 = gy + 120
+    s += person(182, gy2, INK)
+    s.append(f'<circle cx="182" cy="{gy2 - 34}" r="5.5" fill="none" stroke="{GREEN}" stroke-width="1.2"/>')
+    s.append(txt(196, gy2 - 36, "心落回身上", 4.4, GREEN))
+    s += monkey(240, gy2 - 16, SEAL, 0.66)
+    s.append(f'<line x1="240" y1="{gy2 - 2}" x2="240" y2="{gy2}" stroke="{SEAL}" stroke-width="0.8" stroke-dasharray="2 2"/>')
+    s.append(txt(240, gy2 + 16, "猴放着，不打它", 4.4, SEAL, "middle"))
+
+    a = gy2 + 40
+    s.append(txt(24, a, "愚不是蠢：禺是猴，心跟着猴跑，才叫愚。", 4.8, INK))
+    s.append(txt(24, a + 16, "民之难治，以其智多——多的不是本事，是这份停不住。", 4.9, INK))
+    s.append(txt(24, a + 34, "收心，是把猴从肩上放下来；放下来它还在，只是不再拽着心跑。", 5.0, GREEN))
+
+    c = a + 52
+    s.append(f'<line x1="24" y1="{c}" x2="338" y2="{c}" stroke="{LINE}" stroke-width="0.6"/>')
+    s.append(box(20, c + 8, 340, 40, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, c + 24, "愚从心从禺：禺是猴，猴不蠢，是停不住；", 5.4, INK, "middle"))
+    s.append(txt(190, c + 36, "心跟着猴跑，才是那个愚字。", 5.2, GREEN, "middle"))
+    s.append(gold(c + 62, "ch65b"))
+    s.append('</svg>')
+    return "\n".join(s)
+
+
+# ============ 第六十五章 · 一道墨线 ============
+def ch65c_yi_dao_mo_xian():
+    W, H = 380, 586
+    body, y = head(W, H, "稽式是木工弹的那道线：它不评价木头，只让木头看见自己",
+                   "第 六 十 五 章 · 稽", "一道墨线", "知此两者亦稽式。", H)
+    s = [body]
+
+    s.append(box(20, y + 2, 340, 30, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, y + 14, "「稽」，《说文》「留止也」，又有「考」义：稽式，是拿来校量的那个样式。", 5.0, INK, "middle"))
+    s.append(txt(190, y + 26, "木工弹墨线：线一响，歪的木头自己就显出来了。", 4.9, "#6E6459", "middle"))
+
+    s.append(txt(24, y + 48, "一、木上一道线，木头自己看见自己", 4.8, SEAL))
+    gy = y + 150
+    # 木板：上缘歪，下面厚
+    s.append(f'<path d="M120,{gy} L160,{gy - 6} L200,{gy + 4} L240,{gy - 6} L252,{gy} L252,{gy + 32} L120,{gy + 32} Z" '
+             f'fill="#EFE6D4" stroke="{INK}" stroke-width="1.2"/>')
+    s.append(f'<line x1="116" y1="{gy + 32}" x2="256" y2="{gy + 32}" stroke="{INK}" stroke-width="1.2"/>')
+    for k in range(3):
+        yy = gy + 12 + k * 7
+        s.append(f'<line x1="128" y1="{yy}" x2="244" y2="{yy}" stroke="{LINE}" stroke-width="0.5"/>')
+    # 弹出来的那道直墨线
+    s.append(f'<line x1="106" y1="{gy - 22}" x2="266" y2="{gy - 22}" stroke="{INK}" stroke-width="1.6"/>')
+    # 两端的墨斗
+    s.append(f'<rect x="98" y="{gy - 28}" width="14" height="12" fill="#F6EFE0" stroke="{INK}" stroke-width="1"/>')
+    s.append(f'<rect x="260" y="{gy - 28}" width="14" height="12" fill="#F6EFE0" stroke="{INK}" stroke-width="1"/>')
+    # 线到木之间的距离，用虚线标出两处
+    s.append(f'<line x1="160" y1="{gy - 22}" x2="160" y2="{gy - 6}" stroke="{SEAL}" stroke-width="0.9" stroke-dasharray="2 2"/>')
+    s.append(f'<line x1="240" y1="{gy - 22}" x2="240" y2="{gy - 6}" stroke="{SEAL}" stroke-width="0.9" stroke-dasharray="2 2"/>')
+    s.append(txt(186, gy - 34, "线是直的，木是歪的——差多少，一眼看见", 4.6, SEAL, "middle"))
+    s.append(txt(186, gy + 50, "线不评价这块木头，它只把差处显出来", 4.6, "#6E6459", "middle"))
+
+    a = gy + 72
+    s.append(txt(24, a, "稽式不是尺子上的刻度，是弹出来的那一道线：留在木上，木头自己就看见了。", 4.8, INK))
+    s.append(txt(24, a + 16, "知此两者亦稽式——「以智治国」与「不以智治国」，就是这一道线。", 4.9, INK))
+    s.append(txt(24, a + 34, "常知稽式，是谓玄德：常拿它量自己，不拿它去量别人。", 5.0, GREEN))
+
+    c = a + 52
+    s.append(f'<line x1="24" y1="{c}" x2="338" y2="{c}" stroke="{LINE}" stroke-width="0.6"/>')
+    s.append(box(20, c + 8, 340, 40, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, c + 24, "稽式是木工弹的那道线：它不评价，只显出来；", 5.4, INK, "middle"))
+    s.append(txt(190, c + 36, "常知稽式，是谓玄德。", 5.2, GREEN, "middle"))
+    s.append(gold(c + 62, "ch65c"))
+    s.append('</svg>')
+    return "\n".join(s)
+
+
+
 FIGS = {
     "ch01-wu-you": ("第一章", "无有同出", ch01_wu_you),
     "ch01-zhi-yue": ("第一章", "指月三境", ch01_zhi_yue),
@@ -7492,6 +7673,9 @@ FIGS = {
     "ch64a-yi-pian-gui-jia": ("第六十四章", "一片龟甲", ch64a_yi_pian_gui_jia),
     "ch64b-yi-kuang-tu": ("第六十四章", "一筐土", ch64b_yi_kuang_tu),
     "ch64c-yi-kuai-gu-tou": ("第六十四章", "一块骨头", ch64c_yi_kuai_gu_tou),
+    "ch65a-yi-zhan-deng": ("第六十五章", "一盏灯", ch65a_yi_zhan_deng),
+    "ch65b-yi-zhi-hou": ("第六十五章", "一只猴", ch65b_yi_zhi_hou),
+    "ch65c-yi-dao-mo-xian": ("第六十五章", "一道墨线", ch65c_yi_dao_mo_xian),
 }
 
 
