@@ -7746,6 +7746,7 @@ GOLD = {
     "ch33b": ["智是识词，明是照见。", "同一个镜子，转个方向，照的东西全变了。"],
     "ch33c": ["力是筋，越使越少；强是弓，能张能弛。", "松了它还在，那才是强。"],
     "ch34c": ["功成了不取名，也不记在自己名下。", "万物归焉而弗为主：归是真的归，主是不做主。"],
+    "ch35c": ["手一伸出去，场就变成了门槛。", "安是有地方待，平是没人压你，泰是气走得通。"],
     "ch06b": ["谷神不死，是谓玄牝。", "谷者，两山间之空也；能受故能生，生而不有故不竭——生机不在满处，在空处。"],
     "ch06c": ["玄牝之门，是谓天地根。", "门在开合处，不在门板上；一着手去推，它就成了一堵墙。"],
     "ch05b": ["天地不仁，以万物为刍狗。", "刍者，束草也；刍狗有位而无主——用毕回草堆，不是被弃，是位次用完了。"],
@@ -10208,6 +10209,73 @@ def ch34b_yi_ju_liang_du():
     s.append(gold(yc + 52, "ch34b"))
     s.append('</svg>')
     return "\n".join(s)
+
+
+def ch35c_an_ping_tai():
+    body, y = head(380, 999, "看一个场和不和，不看它多热闹，看里面的人有没有互相伤",
+                   "第 三 十 五 章 · 其 三", "安 · 平 · 泰",
+                   "执大象，天下往；往而不害，安平泰。", 999)
+    s = [body]
+
+    s.append(box(20, y + 2, 340, 34, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, y + 14, "「害」，《说文》「伤也」；「安」，从宀从女，人在屋下曰安；「平」，不倾斜、不压；「泰」，《序卦》「通也」。", 4.5, INK, "middle"))
+    s.append(txt(190, y + 27, "三字连起来：有处可居、没有压迫、气息通畅——这就是「和」最具体的样貌。", 4.5, "#6E6459"))
+
+    # ---------- 一、害：进门先量尺寸 ----------
+    s.append(txt(24, y + 52, "一、有框：进门第一件事，先量你合不合尺寸", 5.0, GREEN))
+    gy = y + 64
+    s.append(f'<rect x="26" y="{gy}" width="328" height="140" fill="#FBF6EC" stroke="{LINE}" stroke-width="0.8"/>')
+    s.append(f'<line x1="40" y1="{gy + 112}" x2="340" y2="{gy + 112}" stroke="{LINE}" stroke-width="0.9"/>')
+    # 尺寸框
+    s.append(box(150, gy + 22, 150, 90, fill="none", stroke=SEAL, width=1.0))
+    for i in range(6):
+        s.append(f'<line x1="150" y1="{gy + 30 + i * 14}" x2="157" y2="{gy + 30 + i * 14}" stroke="{SEAL}" stroke-width="0.5"/>')
+    s.append(txt(120, gy + 18, "尺寸框", 3.9, SEAL, "end"))
+    # 三个不同的人：高的顶框、矮的悬空、宽的侧挤
+    s.append(person(186, gy + 110, 0, load=False, s=1.62))
+    s.append(txt(212, gy + 22, "×", 5.0, SEAL, "middle"))
+    s.append(person(268, gy + 112, 0, load=False, s=1.0))
+    s.append(f'<path d="M268,{gy + 74} l-30,4 M268,{gy + 74} l30,4" fill="none" stroke="{INK}" stroke-width="1.1"/>')
+    s.append(txt(300, gy + 80, "×", 4.8, SEAL, "middle"))
+    s.append(txt(96, gy + 56, "高一分，撞头", 4.0, "#8A7C69", "middle"))
+    s.append(txt(96, gy + 68, "宽一分，侧挤", 4.0, "#8A7C69", "middle"))
+    s.append(txt(96, gy + 84, "尺寸先于人间", 4.0, SEAL, "middle"))
+    s.append(txt(190, gy + 128, "伸手的场，进门第一件事是先量你合不合尺寸", 4.3, INK, "middle"))
+
+    # ---------- 二、往而不害：安、平、泰 ----------
+    s.append(txt(24, gy + 158, "二、无框：同一个场，三样东西", 5.0, GREEN))
+    gy2 = gy + 170
+    s.append(f'<rect x="26" y="{gy2}" width="328" height="140" fill="#FBF6EC" stroke="{LINE}" stroke-width="0.8"/>')
+    s.append(f'<line x1="40" y1="{gy2 + 112}" x2="340" y2="{gy2 + 112}" stroke="{LINE}" stroke-width="0.9"/>')
+    # 框撤了
+    s.append(box(150, gy2 + 22, 150, 90, fill="none", stroke="#BEB2A0", dash="4 4", width=0.7))
+    s.append(txt(228, gy2 + 18, "框撤了", 3.8, "#8A7C69", "middle"))
+    # 屋檐
+    s.append(f'<path d="M46,{gy2 + 14} L126,{gy2 + 14} L118,{gy2 + 24} L54,{gy2 + 24} Z" fill="#E6DCC6" stroke="{INK}" stroke-width="0.8"/>')
+    # 三个人，还是原来三个，各按自己的样子站着
+    s.append(person(84, gy2 + 112, 0, load=False, s=1.32))
+    s.append(person(190, gy2 + 112, 0, load=False, s=1.0))
+    s.append(person(286, gy2 + 112, 0, load=False, s=0.78))
+    # 风穿堂
+    for yy in (gy2 + 34, gy2 + 46, gy2 + 58):
+        s.append(f'<path d="M206,{yy} q20,-4 40,0 t40,0" fill="none" stroke="#9EB3A8" stroke-width="0.7" stroke-dasharray="6 4"/>')
+    s.append(txt(246, gy2 + 26, "风", 4.0, "#9EB3A8", "middle"))
+    # 三标
+    s.append(txt(84, gy2 + 126, "安：有处可居", 4.1, GREEN, "middle"))
+    s.append(txt(190, gy2 + 126, "平：没有谁被压", 4.1, GREEN, "middle"))
+    s.append(txt(286, gy2 + 126, "泰：气走得通", 4.1, GREEN, "middle"))
+
+    # ---------- 收 ----------
+    y3 = gy2 + 146
+    s.append(f'<line x1="24" y1="{y3}" x2="356" y2="{y3}" stroke="{LINE}" stroke-width="0.6"/>')
+    s.append(box(20, y3 + 8, 340, 40, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, y3 + 24, "手一伸出去，场就变成了门槛；手不伸，场才容得下别人带着自己的样子进来。", 4.6, INK, "middle"))
+    s.append(txt(190, y3 + 37, "安是有地方待，平是没人压你，泰是气走得通。", 4.6, GREEN, "middle"))
+    s.append(gold(y3 + 54, "ch35c"))
+    s.append('</svg>')
+    out = "\n".join(s)
+    ys = [float(v) for v in re.findall(r'y="([0-9.]+)"', out)]
+    return out.replace("999", str(int(max(ys) + 26)))
 
 
 # ============ 第三十五章 · 执与场 ============
@@ -15472,6 +15540,7 @@ FIGS = {
     "ch33b-zhi-yu-ming": ("第三十三章", "镜子", ch33b_zhi_yu_ming),
     "ch33c-jin-yu-gong": ("第三十三章", "筋与弓", ch33c_jin_yu_gong),
     "ch34c-gong-ce": ("第三十四章", "功劳册", ch34c_gong_ce),
+    "ch35c-an-ping-tai": ("第三十五章", "安·平·泰", ch35c_an_ping_tai),
     "ch32b-chuan-gu": ("第三十二章", "川谷与江海", ch32b_chuan_gu),
     "ch33-zi-zhi-zhe-ming": ("第三十三章", "自知者明", ch33_zi_zhi_zhe_ming),
     "ch34-bu-zhu": ("第三十四章", "不主故能成其大", ch34_bu_zhu_wei_da),
