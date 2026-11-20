@@ -1194,6 +1194,139 @@ def ch07_bu_zi_sheng():
     return "\n".join(s)
 
 
+# ============ 第七章 · 一个环 ============
+def ch07b_yi_ge_huan():
+    body, y = head(380, 999, "为己是一条通道，尽头是枯；不为己是一个环，通了就能久",
+                   "第 七 章 · 环", "一个环", "天地所以能长且久者，以其不自生，故能长生。", 999)
+    s = [body]
+
+    s.append(box(20, y + 2, 340, 34, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, y + 14, "两种活法的差别不在善恶，在闭环：为己的是一条单向通道，不为己的是一个循环。", 5.0, INK, "middle"))
+    s.append(txt(190, y + 28, "取进来、堵在里头，越堵越紧；生出去、收回来、再出去，通了就能久。", 5.0, "#6E6459", "middle"))
+
+    # 一、为己：一条通道
+    s.append(txt(24, y + 52, "一、为己：取进来，堵在里头", 5.2, SEAL))
+    gy = y + 64
+    s.append(f'<rect x="26" y="{gy}" width="328" height="164" fill="#FBF6EC" stroke="{LINE}" stroke-width="0.8"/>')
+    cy = gy + 84
+    s.append(f'<line x1="52" y1="{cy - 26}" x2="286" y2="{cy - 26}" stroke="{INK}" stroke-width="1.1"/>')
+    s.append(f'<line x1="52" y1="{cy + 26}" x2="286" y2="{cy + 26}" stroke="{INK}" stroke-width="1.1"/>')
+    s.append(f'<line x1="286" y1="{cy - 26}" x2="286" y2="{cy + 26}" stroke="{INK}" stroke-width="3.0"/>')
+    for k in range(4):
+        s.append(f'<line x1="{238 + k * 10}" y1="{cy - 22}" x2="{238 + k * 10}" y2="{cy + 22}" stroke="#B9A98F" stroke-width="0.6"/>')
+    s.append(arrow(66, cy, 128, cy, SEAL, 1.2, None, "arrS"))
+    s.append(txt(74, cy - 34, "取", 5.0, SEAL))
+    s.append(arrow(140, cy, 196, cy, SEAL, 1.0, None, "arrS"))
+    s.append(txt(214, cy - 34, "堵", 5.0, SEAL, "middle"))
+    s.append(txt(304, cy - 6, "尽头", 4.4, SEAL, "end"))
+    s.append(txt(304, cy + 6, "是枯", 4.4, SEAL, "end"))
+    s.append(txt(190, gy + 154, "通道只进不出：越堵越紧，紧到某处就尽", 4.5, SEAL, "middle"))
+
+    # 二、不为己：一个环
+    s.append(txt(24, gy + 192, "二、不为己：生出去，再回来", 5.2, GREEN))
+    gy2 = gy + 204
+    s.append(f'<rect x="26" y="{gy2}" width="328" height="164" fill="#FBF6EC" stroke="{LINE}" stroke-width="0.8"/>')
+    cx, ccy, rx, ry = 190, gy2 + 84, 92, 54
+    s.append(f'<ellipse cx="{cx}" cy="{ccy}" rx="{rx}" ry="{ry}" fill="none" stroke="{GREEN}" stroke-width="1.4"/>')
+    for k in range(4):
+        ang = -90 + k * 90
+        import math
+        px = cx + rx * math.cos(math.radians(ang))
+        py = ccy + ry * math.sin(math.radians(ang))
+        s.append(f'<circle cx="{px}" cy="{py}" r="2.2" fill="{GREEN}"/>')
+    s.append(f'<path d="M{cx-80:.0f},{ccy-27:.0f} Q{cx},{ccy-72:.0f} {cx+80:.0f},{ccy-27:.0f}" fill="none" stroke="{GREEN}" stroke-width="1.3" marker-end="url(#arr2)"/>')
+    s.append(f'<path d="M{cx+80:.0f},{ccy+27:.0f} Q{cx},{ccy+72:.0f} {cx-80:.0f},{ccy+27:.0f}" fill="none" stroke="{GREEN}" stroke-width="1.3" marker-end="url(#arr2)"/>')
+    s.append(txt(cx, ccy - 6, "空", 5.0, GREEN, "middle"))
+    s.append(txt(cx + 104, ccy - 44, "生出去", 4.4, GREEN))
+    s.append(txt(cx - 104, ccy + 52, "收回来", 4.4, GREEN, "end"))
+    s.append(txt(190, gy2 + 154, "环里始终空着：不占住哪一段，才转得下去", 4.5, GREEN, "middle"))
+
+    a = gy2 + 192
+    s.append(txt(24, a, "天地没有一颗「为我」的心，所以不被「取—耗」这条闭环困住。", 5.4, INK))
+    s.append(txt(24, a + 16, "生发与归根往复流通，不滞一处，所以长久——这叫长生，不是求来的。", 5.4, INK))
+    s.append(txt(24, a + 34, "不是先有一个长久的目标再去不自生；是先不自生，长久自己来。", 5.2, GREEN))
+
+    c = a + 52
+    s.append(f'<line x1="24" y1="{c}" x2="338" y2="{c}" stroke="{LINE}" stroke-width="0.6"/>')
+    s.append(box(20, c + 8, 340, 40, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, c + 24, "为己者，取而入，入而塞；", 6.0, INK, "middle"))
+    s.append(txt(190, c + 36, "不为己者，生而出，出而复。", 6.0, GREEN, "middle"))
+    s.append(gold(c + 62, "ch07b"))
+    s.append('</svg>')
+    out = "\n".join(s)
+    ys = [float(v) for v in re.findall(r'y="([0-9.]+)"', out)]
+    return out.replace("999", str(int(max(ys) + 26)))
+
+
+# ============ 第七章 · 一扇窄门 ============
+def ch07c_yi_shan_zhai_men():
+    body, y = head(380, 999, "后其身而身先：不是让出位置，是先让开门口",
+                   "第 七 章 · 窄 门", "一扇窄门", "是以圣人后其身而身先，外其身而身存。", 999)
+    s = [body]
+
+    s.append(box(20, y + 2, 340, 34, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, y + 14, "窄门只容一人：两头同时挤，谁也过不去。", 5.0, INK, "middle"))
+    s.append(txt(190, y + 28, "后其身不是退到队尾等着后来居上，是先把门口让开——这一让，两个人都过去了。", 5.0, "#6E6459", "middle"))
+
+    def gate(gx, gtop, gbot):
+        out = []
+        out.append(f'<rect x="{gx - 30}" y="{gtop}" width="9" height="{gbot - gtop}" fill="#E4D8BF" stroke="{INK}" stroke-width="0.9"/>')
+        out.append(f'<rect x="{gx + 21}" y="{gtop}" width="9" height="{gbot - gtop}" fill="#E4D8BF" stroke="{INK}" stroke-width="0.9"/>')
+        out.append(f'<line x1="{gx - 30}" y1="{gtop}" x2="{gx + 30}" y2="{gtop}" stroke="{INK}" stroke-width="1.6"/>')
+        out.append(f'<line x1="{gx - 21}" y1="{gtop}" x2="{gx - 21}" y2="{gbot}" stroke="{INK}" stroke-width="0.7" stroke-dasharray="3 3"/>')
+        out.append(f'<line x1="{gx + 12}" y1="{gtop}" x2="{gx + 12}" y2="{gbot}" stroke="{INK}" stroke-width="0.7" stroke-dasharray="3 3"/>')
+        return "".join(out)
+
+    # 一、挤
+    s.append(txt(24, y + 52, "一、挤：两头同时抢，门卡住了", 5.2, SEAL))
+    gy = y + 64
+    s.append(f'<rect x="26" y="{gy}" width="328" height="168" fill="#FBF6EC" stroke="{LINE}" stroke-width="0.8"/>')
+    gx = 190
+    s.append(gate(gx, gy + 40, gy + 128))
+    s.append(f'<line x1="{gx - 21}" y1="{gy + 40}" x2="{gx - 21}" y2="{gy + 128}" stroke="{SEAL}" stroke-width="1.6"/>')
+    s.append(f'<line x1="{gx + 12}" y1="{gy + 40}" x2="{gx + 12}" y2="{gy + 128}" stroke="{SEAL}" stroke-width="1.6"/>')
+    # 两只手同时抓门
+    for hx in (gx - 34, gx + 26):
+        s.append(f'<rect x="{hx - 8}" y="{gy + 92}" width="16" height="13" rx="4" fill="#EFE6D4" stroke="{SEAL}" stroke-width="0.9"/>')
+        for k in range(3):
+            s.append(f'<rect x="{hx - 7 + k * 5}" y="{gy + 85}" width="3.4" height="8" rx="1.6" fill="#EFE6D4" stroke="{SEAL}" stroke-width="0.7"/>')
+    s.append(arrow(gx - 76, gy + 70, gx - 34, gy + 96, SEAL, 0.9, None, "arrS"))
+    s.append(arrow(gx + 76, gy + 70, gx + 34, gy + 96, SEAL, 0.9, None, "arrS"))
+    s.append(txt(gx, gy + 150, "门只有一扇的宽：两人同时抓，谁也进不去", 4.5, SEAL, "middle"))
+
+    # 二、让
+    s.append(txt(24, gy + 196, "二、让：一人先松手，两个人都过去了", 5.2, GREEN))
+    gy2 = gy + 208
+    s.append(f'<rect x="26" y="{gy2}" width="328" height="168" fill="#FBF6EC" stroke="{LINE}" stroke-width="0.8"/>')
+    s.append(gate(gx, gy2 + 40, gy2 + 128))
+    # 一人退半步（把门口让开）
+    s.append(f'<path d="M{gx - 60},{gy2 + 128} q-16,4 -20,-12 q-3,-14 12,-16" fill="none" stroke="{GREEN}" stroke-width="1.0" marker-end="url(#arr2)"/>')
+    s.append(txt(gx - 52, gy2 + 136, "退半步", 4.4, GREEN, "middle"))
+    # 另一人先过
+    s.append(arrow(gx - 100, gy2 + 90, gx + 74, gy2 + 90, GREEN, 1.1, None, "arr2"))
+    s.append(txt(gx + 104, gy2 + 82, "先过", 4.4, GREEN, "middle"))
+    # 让的人随后跟上
+    s.append(arrow(gx - 100, gy2 + 112, gx + 46, gy2 + 112, GREEN, 1.0, None, "arr2"))
+    s.append(txt(gx + 104, gy2 + 108, "跟上", 4.4, GREEN, "middle"))
+    s.append(txt(190, gy2 + 150, "让开的不是位置，是门口：一让，路就通了", 4.5, GREEN, "middle"))
+
+    a = gy2 + 196
+    s.append(txt(24, a, "「后其身」不是装出一副退让的样子、心里等着后来居上——那是另一种抢。", 5.4, INK))
+    s.append(txt(24, a + 16, "它说的是放下「我要争先、我要凸显」的那只手；手一松，门口就通了。", 5.4, INK))
+    s.append(txt(24, a + 34, "这个「先」不是争来的，是人心自归的：争来的位置要守，推上来的位置不必守。", 5.2, GREEN))
+
+    c = a + 52
+    s.append(f'<line x1="24" y1="{c}" x2="338" y2="{c}" stroke="{LINE}" stroke-width="0.6"/>')
+    s.append(box(20, c + 8, 340, 40, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, c + 24, "退不是姿态，是把手松开；", 6.0, INK, "middle"))
+    s.append(txt(190, c + 36, "松开了，位置在哪，看势。", 6.0, GREEN, "middle"))
+    s.append(gold(c + 62, "ch07c"))
+    s.append('</svg>')
+    out = "\n".join(s)
+    ys = [float(v) for v in re.findall(r'y="([0-9.]+)"', out)]
+    return out.replace("999", str(int(max(ys) + 26)))
+
+
 # ============ 第八章 · 上善若水 ============
 def ch08_shang_shan():
     W, H = 380, 478
@@ -5377,6 +5510,8 @@ def ch04c_si_bu():
 
 
 GOLD = {
+    "ch07b": ["天地所以能长且久者，以其不自生，故能长生。", "为己者，取而入，入而塞；不为己者，生而出，出而复——差别不在善恶，在闭环。"],
+    "ch07c": ["是以圣人后其身而身先，外其身而身存。", "先不是争来的，是人心自归的；退不是姿态，是把手松开。"],
     "ch06b": ["谷神不死，是谓玄牝。", "谷者，两山间之空也；能受故能生，生而不有故不竭——生机不在满处，在空处。"],
     "ch06c": ["玄牝之门，是谓天地根。", "门在开合处，不在门板上；一着手去推，它就成了一堵墙。"],
     "ch05b": ["天地不仁，以万物为刍狗。", "刍者，束草也；刍狗有位而无主——用毕回草堆，不是被弃，是位次用完了。"],
@@ -11620,6 +11755,8 @@ FIGS = {
     "ch06b-yi-kou-gu": ("第六章", "一口谷", ch06b_yi_kou_gu),
     "ch06c-yi-shan-men-zhou": ("第六章", "一扇门轴", ch06c_yi_shan_men_zhou),
     "ch06-gu-shen": ("第六章", "谷神不死", ch06_gu_shen),
+    "ch07b-yi-ge-huan": ("第七章", "一个环", ch07b_yi_ge_huan),
+    "ch07c-yi-shan-zhai-men": ("第七章", "一扇窄门", ch07c_yi_shan_zhai_men),
     "ch07-bu-zi-sheng": ("第七章", "不自生", ch07_bu_zi_sheng),
     "ch08-shang-shan": ("第八章", "上善若水", ch08_shang_shan),
     "ch09-ying-man": ("第九章", "持而盈之", ch09_ying_man),
