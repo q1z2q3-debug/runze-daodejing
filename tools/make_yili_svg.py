@@ -10762,6 +10762,9 @@ FIGS = {
     "ch26-zhong-wei-qing-gen": ("第二十六章", "重为轻根", ch26_zhong_wei_qing_gen),
     "ch27-shan-xing-wu-zhe-ji": ("第二十七章", "善行无辙迹", ch27_shan_xing_wu_zhe_ji),
     "ch25-dao-fa": ("第二十五章", "道法自然", ch25_dao_fa),
+    # ── 已撤旧稿（用户否决／被三图取代）：ch38-wu-ji（滑落版）、ch51-sheng-bu-you、
+    #    ch67-san-bao、ch77-zhang-gong、ch81-bu-ji。件存 book/义理图/old/，仅供追溯；
+    #    全量重生成会把它们写回 book/义理图/，务必删净后再嵌阅读版。
     "ch38-wu-ji": ("第三十八章", "五级滑落", ch38_wu_ji),
     "ch40-fan-zhe": ("第四十章", "反向的机器", ch40_fan_zhe),
     "ch42-dao-sheng": ("第四十二章", "生发总图", ch42_dao_sheng),

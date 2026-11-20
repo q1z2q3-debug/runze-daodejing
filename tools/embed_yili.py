@@ -43,12 +43,14 @@ def read_style():
                 stem = c2
                 cells_tail = cells[i + 1:]
                 break
-        if not stem:
+        if not stem or not cells_tail:
             continue
-        if stem.startswith("ch0") or stem.startswith("ch1"):
-            pass
         # 题 = stem 之后第一列；一句 = 描述里「读图一句：」
-        title = cells_tail[0] if cells_tail else stem
+        title = cells_tail[0]
+        if re.match(r"^ch\d\d", title.strip("`")):
+            continue                      # 清点表等旁表：stem 后无题，跳过
+        if stem in out and out[stem][0] != stem:
+            continue                      # 已取到正条，后出之表不得覆盖
         desc = " ".join(cells_tail[1:]) if len(cells_tail) > 1 else ""
         m = re.search(r"读图一句：(.+?)\.?\s*\|?$", desc)
         one = m.group(1).strip().rstrip("。") if m else ""
