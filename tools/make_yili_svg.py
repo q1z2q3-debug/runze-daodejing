@@ -7743,6 +7743,8 @@ GOLD = {
     "ch31b": ["刀没有错，刀的用处有错——而刀的用处，就是刀的本相。", "用，是借它一次；处，是住在它里面。"],
     "ch31c": ["这一幕不该是甜的；甜，是你自己加进去的。", "止乱是事的果，美之是心的赘。"],
     "ch32c": ["人做的均是拉平，天做的均是刚好。", "不调度，而各处都够——那是自均。"],
+    "ch33b": ["智是识词，明是照见。", "同一个镜子，转个方向，照的东西全变了。"],
+    "ch33c": ["力是筋，越使越少；强是弓，能张能弛。", "松了它还在，那才是强。"],
     "ch06b": ["谷神不死，是谓玄牝。", "谷者，两山间之空也；能受故能生，生而不有故不竭——生机不在满处，在空处。"],
     "ch06c": ["玄牝之门，是谓天地根。", "门在开合处，不在门板上；一着手去推，它就成了一堵墙。"],
     "ch05b": ["天地不仁，以万物为刍狗。", "刍者，束草也；刍狗有位而无主——用毕回草堆，不是被弃，是位次用完了。"],
@@ -9777,6 +9779,143 @@ def ch32c_mo_ling_zi_jun():
     s.append(txt(190, y3 + 19, "天地相合，以降甘露，民莫之令而自均。", 4.8, INK, "middle"))
     s.append(txt(190, y3 + 33, "人做的均是拉平，天做的均是刚好；兵压边界，露敬边界。", 4.4, "#6E6459", "middle"))
     s.append(gold(y3 + 50, "ch32c"))
+    s.append('</svg>')
+    out = "\n".join(s)
+    ys = [float(v) for v in re.findall(r'y="([0-9.]+)"', out)]
+    return out.replace("999", str(int(max(ys) + 26)))
+
+
+def person(x, base, bend=0.0, load=True, color=INK, s=1.0):
+    """一个背石头的人。bend 0 直立，1 弯到底。"""
+    o = [f'<circle cx="{x}" cy="{base - 54 * s}" r="{6 * s}" fill="none" stroke="{color}" stroke-width="1.0"/>']
+    hip = base - 30 * s
+    o.append(f'<path d="M{x},{(base - 48 * s)} Q{x + 6 * s},{hip + 4 * s} {x - 2 * s},{hip}" fill="none" stroke="{color}" stroke-width="1.1"/>')
+    o.append(f'<path d="M{x - 2 * s},{hip} L{x - 10 * s},{base}" stroke="{color}" stroke-width="1.1"/>')
+    o.append(f'<path d="M{x - 2 * s},{hip} L{x + 9 * s},{base}" stroke="{color}" stroke-width="1.1"/>')
+    o.append(f'<path d="M{x + 1 * s},{base - 46 * s} L{x + 12 * s},{base - 36 * s} M{x - 1 * s},{base - 46 * s} L{x - 9 * s},{base - 34 * s}" fill="none" stroke="{color}" stroke-width="1.0"/>')
+    return "\n".join(o)
+
+
+def ch33b_zhi_yu_ming():
+    body, y = head(380, 999, "智是拿灯照别人，明是灯照到了自己",
+                   "第 三 十 三 章 · 其 二", "镜 子",
+                   "知人者智，自知者明。", 999)
+    s = [body]
+
+    s.append(box(20, y + 2, 340, 34, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, y + 14, "「智」，《说文》「识词也」——识别，并且能把它说出来；它离开名就无法工作。", 4.6, INK, "middle"))
+    s.append(txt(190, y + 27, "「明」，《说文》「照也」，从月从囧——本义是光照。明不是想通的，是被照亮的。", 4.6, "#6E6459"))
+
+    # ---------- 一、照人：贴满签 ----------
+    s.append(txt(24, y + 52, "一、智：把词贴到别人身上", 5.1, GREEN))
+    gy = y + 64
+    s.append(f'<rect x="26" y="{gy}" width="328" height="128" fill="#FBF6EC" stroke="{LINE}" stroke-width="0.8"/>')
+    # 镜
+    s.append(f'<ellipse cx="150" cy="{gy + 60}" rx="34" ry="44" fill="#F4EEDF" stroke="{INK}" stroke-width="1.2"/>')
+    s.append(f'<ellipse cx="150" cy="{gy + 60}" rx="29" ry="39" fill="#EDF1EA" stroke="#CBD6C8" stroke-width="0.6"/>')
+    s.append(f'<line x1="150" y1="{gy + 104}" x2="150" y2="{gy + 120}" stroke="{INK}" stroke-width="1.4"/>')
+    s.append(f'<path d="M138,{gy + 120} L162,{gy + 120}" stroke="{INK}" stroke-width="1.2"/>')
+    # 镜面上的签
+    for tx, ty, t in ((132, gy + 34, "善"), (154, gy + 50, "能"), (136, gy + 68, "庸")):
+        s.append(f'<rect x="{tx}" y="{ty}" width="20" height="11" fill="#FBEFE7" stroke="{SEAL}" stroke-width="0.6"/>')
+        s.append(txt(tx + 10, ty + 8, t, 4.0, SEAL, "middle"))
+    # 被照的人
+    s.append(person(276, gy + 106, 0, load=False))
+    s.append(txt(276, gy + 118, "人", 4.4, "#6E6459", "middle"))
+    s.append(arrow(190, gy + 60, 240, gy + 60, color=LINE, width=0.8, dash="3 3"))
+    s.append(txt(196, gy + 52, "照", 4.2, "#8A7C69"))
+    s.append(txt(190, gy + 140, "智靠标签运转：先有词，才认得出", 4.3, INK, "middle"))
+
+    # ---------- 二、照己：镜子里只有一样东西 ----------
+    s.append(txt(24, gy + 158, "二、明：镜子转过来，照的人是自己", 5.1, GREEN))
+    gy2 = gy + 170
+    s.append(f'<rect x="26" y="{gy2}" width="328" height="128" fill="#FBF6EC" stroke="{LINE}" stroke-width="0.8"/>')
+    s.append(f'<ellipse cx="230" cy="{gy2 + 60}" rx="34" ry="44" fill="#F4EEDF" stroke="{INK}" stroke-width="1.2"/>')
+    s.append(f'<ellipse cx="230" cy="{gy2 + 60}" rx="29" ry="39" fill="#E9F0E6" stroke="#A9C3BC" stroke-width="0.6"/>')
+    s.append(f'<line x1="230" y1="{gy2 + 104}" x2="230" y2="{gy2 + 120}" stroke="{INK}" stroke-width="1.4"/>')
+    s.append(f'<path d="M218,{gy2 + 120} L242,{gy2 + 120}" stroke="{INK}" stroke-width="1.2"/>')
+    # 镜里：没有签，只有一团
+    s.append(f'<path d="M215,{gy2 + 76} C219,{gy2 + 44} 243,{gy2 + 44} 247,{gy2 + 76} C240,{gy2 + 88} 222,{gy2 + 88} 215,{gy2 + 76} Z" fill="#DCE6DE" stroke="none"/>')
+    s.append(txt(231, gy2 + 64, "我", 6.2, GREEN, "middle"))
+    s.append(txt(231, gy2 + 80, "想赢", 4.2, GREEN, "middle"))
+    # 照的人
+    s.append(person(104, gy2 + 106, 0, load=False, color=GREEN))
+    s.append(txt(104, gy2 + 118, "自己", 4.4, "#6E6459", "middle"))
+    s.append(arrow(190, gy2 + 60, 140, gy2 + 60, color=GREEN, width=0.8, dash="3 3", head="arrL"))
+    s.append(txt(196, gy2 + 52, "照", 4.2, "#8A7C69"))
+    s.append(txt(190, gy2 + 140, "照别人有好处，照自己只看见一件不体面的事", 4.3, INK, "middle"))
+
+    # ---------- 收 ----------
+    y3 = gy2 + 146
+    s.append(f'<line x1="24" y1="{y3}" x2="356" y2="{y3}" stroke="{LINE}" stroke-width="0.6"/>')
+    s.append(box(20, y3 + 8, 340, 40, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, y3 + 24, "智是识词，明是照见；智越用越熟，明越照越静。", 5.0, INK, "middle"))
+    s.append(txt(190, y3 + 37, "同一个镜子，转个方向，照的东西全变了。", 4.6, GREEN, "middle"))
+    s.append(gold(y3 + 54, "ch33b"))
+    s.append('</svg>')
+    out = "\n".join(s)
+    ys = [float(v) for v in re.findall(r'y="([0-9.]+)"', out)]
+    return out.replace("999", str(int(max(ys) + 26)))
+
+
+def ch33c_jin_yu_gong():
+    body, y = head(380, 999, "力是筋，越使越少；强是弓，能张能弛",
+                   "第 三 十 三 章 · 其 三", "筋 与 弓",
+                   "胜人者有力，自胜者强。", 999)
+    s = [body]
+
+    s.append(box(20, y + 2, 340, 34, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, y + 14, "「力」，《说文》「筋也，象人筋之形」——力是筋的事，用一次少一分。", 4.6, INK, "middle"))
+    s.append(txt(190, y + 27, "「强」，古字作「彊」，《说文》「弓有力也」——弓的本事在能张能弛。", 4.6, "#6E6459"))
+
+    # ---------- 一、力：越使越少 ----------
+    s.append(txt(24, y + 52, "一、胜人者有力：越使越少", 5.1, GREEN))
+    gy = y + 64
+    s.append(f'<rect x="26" y="{gy}" width="328" height="140" fill="#FBF6EC" stroke="{LINE}" stroke-width="0.8"/>')
+    s.append(f'<line x1="40" y1="{gy + 112}" x2="340" y2="{gy + 112}" stroke="{LINE}" stroke-width="0.9"/>')
+    for px, sw, sh in ((74, 14, 10), (150, 18, 12), (232, 24, 15)):
+        s.append(person(px, gy + 112, 0, load=False))
+        s.append(f'<rect x="{px - sw / 2}" y="{gy + 112 - 27 - sh}" width="{sw}" height="{sh}" fill="#DED3BC" stroke="{INK}" stroke-width="0.7"/>')
+        s.append(f'<path d="M{px - 9},{gy + 112 - 30} q{sw / 2 + 6},6 {sw + 8},-2 M{px + 9},{gy + 112 - 30} q-{sw / 2 + 4},8 -{sw + 2},2" fill="none" stroke="{INK}" stroke-width="1.0"/>')
+    s.append(arrow(96, gy + 100, 122, gy + 100, color=LINE, width=0.8))
+    s.append(arrow(174, gy + 98, 200, gy + 98, color=LINE, width=0.8))
+    s.append(txt(300, gy + 96, "二十岁", 4.0, "#8A7C69", "middle"))
+    s.append(txt(300, gy + 106, "扛二百斤", 4.0, "#8A7C69", "middle"))
+    s.append(txt(300, gy + 124, "四十岁", 4.0, "#8A7C69", "middle"))
+    s.append(txt(300, gy + 134, "扛不动", 4.0, "#8A7C69", "middle"))
+    s.append(txt(190, gy + 128, "一次一次地使，筋就一次一次地少", 4.3, INK, "middle"))
+
+    # ---------- 二、强：能张能弛 ----------
+    s.append(txt(24, gy + 170, "二、自胜者强：能张能弛，松了它还在", 5.1, GREEN))
+    gy2 = gy + 182
+    s.append(f'<rect x="26" y="{gy2}" width="328" height="140" fill="#FBF6EC" stroke="{LINE}" stroke-width="0.8"/>')
+    s.append(f'<line x1="40" y1="{gy2 + 112}" x2="340" y2="{gy2 + 112}" stroke="{LINE}" stroke-width="0.9"/>')
+    # 弓一：张
+    s.append(f'<path d="M96,{gy2 + 40} Q64,{gy2 + 72} 96,{gy2 + 104}" fill="none" stroke="{INK}" stroke-width="1.8"/>')
+    s.append(f'<line x1="96" y1="{gy2 + 40}" x2="150" y2="{gy2 + 72}" stroke="{INK}" stroke-width="0.8"/>')
+    s.append(f'<line x1="96" y1="{gy2 + 104}" x2="150" y2="{gy2 + 72}" stroke="{INK}" stroke-width="0.8"/>')
+    s.append(txt(96, gy2 + 122, "张", 4.6, INK, "middle"))
+    # 弓二：弛（虚线，同样的弓）
+    s.append(f'<path d="M186,{gy2 + 44} Q160,{gy2 + 72} 186,{gy2 + 100}" fill="none" stroke="#9EB3A8" stroke-width="1.4" stroke-dasharray="5 3"/>')
+    s.append(f'<line x1="186" y1="{gy2 + 44}" x2="186" y2="{gy2 + 100}" stroke="#9EB3A8" stroke-width="0.8" stroke-dasharray="5 3"/>')
+    s.append(txt(186, gy2 + 72, "弦松", 3.8, "#9EB3A8", "middle"))
+    s.append(txt(186, gy2 + 122, "弛", 4.6, "#8A7C69", "middle"))
+    # 弓三：还张得开
+    s.append(f'<path d="M264,{gy2 + 40} Q232,{gy2 + 72} 264,{gy2 + 104}" fill="none" stroke="{INK}" stroke-width="1.8"/>')
+    s.append(f'<line x1="264" y1="{gy2 + 40}" x2="318" y2="{gy2 + 72}" stroke="{INK}" stroke-width="0.8"/>')
+    s.append(f'<line x1="264" y1="{gy2 + 104}" x2="318" y2="{gy2 + 72}" stroke="{INK}" stroke-width="0.8"/>')
+    s.append(txt(264, gy2 + 122, "还是那张弓", 4.6, INK, "middle"))
+    s.append(arrow(112, gy2 + 72, 158, gy2 + 72, color=LINE, width=0.8))
+    s.append(arrow(200, gy2 + 72, 226, gy2 + 72, color=LINE, width=0.8))
+    s.append(txt(190, gy2 + 134, "张满了不放，弦会疲；放了再张，弓还是那张弓", 4.3, INK, "middle"))
+
+    # ---------- 收 ----------
+    y3 = gy2 + 158
+    s.append(f'<line x1="24" y1="{y3}" x2="356" y2="{y3}" stroke="{LINE}" stroke-width="0.6"/>')
+    s.append(box(20, y3 + 8, 340, 40, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, y3 + 24, "向外压人的力量，永远是拉满的状态——你一松，他就回来了。", 4.8, INK, "middle"))
+    s.append(txt(190, y3 + 37, "向内降服的力量可以松：松了，它还在。", 4.6, GREEN, "middle"))
+    s.append(gold(y3 + 54, "ch33c"))
     s.append('</svg>')
     out = "\n".join(s)
     ys = [float(v) for v in re.findall(r'y="([0-9.]+)"', out)]
@@ -15262,6 +15401,8 @@ FIGS = {
     "ch31-bing-zhe-bu-xiang": ("第三十一章", "兵者不祥之器", ch31_bing_zhe_bu_xiang),
     "ch32a-ming-zhi": ("第三十二章", "名与止", ch32a_ming_zhi),
     "ch32c-mo-ling-zi-jun": ("第三十二章", "甘露与自均", ch32c_mo_ling_zi_jun),
+    "ch33b-zhi-yu-ming": ("第三十三章", "镜子", ch33b_zhi_yu_ming),
+    "ch33c-jin-yu-gong": ("第三十三章", "筋与弓", ch33c_jin_yu_gong),
     "ch32b-chuan-gu": ("第三十二章", "川谷与江海", ch32b_chuan_gu),
     "ch33-zi-zhi-zhe-ming": ("第三十三章", "自知者明", ch33_zi_zhi_zhe_ming),
     "ch34-bu-zhu": ("第三十四章", "不主故能成其大", ch34_bu_zhu_wei_da),

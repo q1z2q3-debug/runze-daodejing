@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 380 606" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="智是拿灯照别人，明是灯照到了自己" font-family="'Noto Serif CJK SC','Noto Serif SC','Songti SC',serif">
+<defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#6E6459"/></marker><marker id="arr2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#4A5C55"/></marker><marker id="arrL" viewBox="0 0 10 10" refX="1" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M10 0 L0 5 L10 10 z" fill="#4A5C55"/></marker><marker id="arrS" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#A2503B"/></marker></defs>
+<rect x="0" y="0" width="380" height="606" fill="#F8F3E6"/>
+<text x="20" y="26" font-size="11" fill="#A2503B" font-family="'Noto Sans CJK SC','Noto Sans SC',sans-serif" letter-spacing="3">第 三 十 三 章 · 其 二</text>
+<text x="20" y="58" font-size="21" fill="#2F2A24">镜 子</text>
+<text x="20" y="78" font-size="10.5" fill="#6E6459">知人者智，自知者明。</text>
+<rect x="20" y="102" width="340" height="34" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="190" y="114" font-size="4.6" fill="#2F2A24" text-anchor="middle">「智」，《说文》「识词也」——识别，并且能把它说出来；它离开名就无法工作。</text>
+<text x="190" y="127" font-size="4.6" fill="#6E6459">「明」，《说文》「照也」，从月从囧——本义是光照。明不是想通的，是被照亮的。</text>
+<text x="24" y="152" font-size="5.1" fill="#4A5C55">一、智：把词贴到别人身上</text>
+<rect x="26" y="164" width="328" height="128" fill="#FBF6EC" stroke="#DCCBB0" stroke-width="0.8"/>
+<ellipse cx="150" cy="224" rx="34" ry="44" fill="#F4EEDF" stroke="#2F2A24" stroke-width="1.2"/>
+<ellipse cx="150" cy="224" rx="29" ry="39" fill="#EDF1EA" stroke="#CBD6C8" stroke-width="0.6"/>
+<line x1="150" y1="268" x2="150" y2="284" stroke="#2F2A24" stroke-width="1.4"/>
+<path d="M138,284 L162,284" stroke="#2F2A24" stroke-width="1.2"/>
+<rect x="132" y="198" width="20" height="11" fill="#FBEFE7" stroke="#A2503B" stroke-width="0.6"/>
+<text x="142" y="206" font-size="4.0" fill="#A2503B" text-anchor="middle">善</text>
+<rect x="154" y="214" width="20" height="11" fill="#FBEFE7" stroke="#A2503B" stroke-width="0.6"/>
+<text x="164" y="222" font-size="4.0" fill="#A2503B" text-anchor="middle">能</text>
+<rect x="136" y="232" width="20" height="11" fill="#FBEFE7" stroke="#A2503B" stroke-width="0.6"/>
+<text x="146" y="240" font-size="4.0" fill="#A2503B" text-anchor="middle">庸</text>
+<circle cx="276" cy="216.0" r="6.0" fill="none" stroke="#2F2A24" stroke-width="1.0"/>
+<path d="M276,222.0 Q282.0,244.0 274.0,240.0" fill="none" stroke="#2F2A24" stroke-width="1.1"/>
+<path d="M274.0,240.0 L266.0,270" stroke="#2F2A24" stroke-width="1.1"/>
+<path d="M274.0,240.0 L285.0,270" stroke="#2F2A24" stroke-width="1.1"/>
+<path d="M277.0,224.0 L288.0,234.0 M275.0,224.0 L267.0,236.0" fill="none" stroke="#2F2A24" stroke-width="1.0"/>
+<text x="276" y="282" font-size="4.4" fill="#6E6459" text-anchor="middle">人</text>
+<line x1="190" y1="224" x2="240" y2="224" stroke="#DCCBB0" stroke-width="0.8" stroke-dasharray="3 3" marker-end="url(#arr)"/>
+<text x="196" y="216" font-size="4.2" fill="#8A7C69">照</text>
+<text x="190" y="304" font-size="4.3" fill="#2F2A24" text-anchor="middle">智靠标签运转：先有词，才认得出</text>
+<text x="24" y="322" font-size="5.1" fill="#4A5C55">二、明：镜子转过来，照的人是自己</text>
+<rect x="26" y="334" width="328" height="128" fill="#FBF6EC" stroke="#DCCBB0" stroke-width="0.8"/>
+<ellipse cx="230" cy="394" rx="34" ry="44" fill="#F4EEDF" stroke="#2F2A24" stroke-width="1.2"/>
+<ellipse cx="230" cy="394" rx="29" ry="39" fill="#E9F0E6" stroke="#A9C3BC" stroke-width="0.6"/>
+<line x1="230" y1="438" x2="230" y2="454" stroke="#2F2A24" stroke-width="1.4"/>
+<path d="M218,454 L242,454" stroke="#2F2A24" stroke-width="1.2"/>
+<path d="M215,410 C219,378 243,378 247,410 C240,422 222,422 215,410 Z" fill="#DCE6DE" stroke="none"/>
+<text x="231" y="398" font-size="6.2" fill="#4A5C55" text-anchor="middle">我</text>
+<text x="231" y="414" font-size="4.2" fill="#4A5C55" text-anchor="middle">想赢</text>
+<circle cx="104" cy="386.0" r="6.0" fill="none" stroke="#4A5C55" stroke-width="1.0"/>
+<path d="M104,392.0 Q110.0,414.0 102.0,410.0" fill="none" stroke="#4A5C55" stroke-width="1.1"/>
+<path d="M102.0,410.0 L94.0,440" stroke="#4A5C55" stroke-width="1.1"/>
+<path d="M102.0,410.0 L113.0,440" stroke="#4A5C55" stroke-width="1.1"/>
+<path d="M105.0,394.0 L116.0,404.0 M103.0,394.0 L95.0,406.0" fill="none" stroke="#4A5C55" stroke-width="1.0"/>
+<text x="104" y="452" font-size="4.4" fill="#6E6459" text-anchor="middle">自己</text>
+<line x1="190" y1="394" x2="140" y2="394" stroke="#4A5C55" stroke-width="0.8" stroke-dasharray="3 3" marker-end="url(#arrL)"/>
+<text x="196" y="386" font-size="4.2" fill="#8A7C69">照</text>
+<text x="190" y="474" font-size="4.3" fill="#2F2A24" text-anchor="middle">照别人有好处，照自己只看见一件不体面的事</text>
+<line x1="24" y1="480" x2="356" y2="480" stroke="#DCCBB0" stroke-width="0.6"/>
+<rect x="20" y="488" width="340" height="40" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="190" y="504" font-size="5.0" fill="#2F2A24" text-anchor="middle">智是识词，明是照见；智越用越熟，明越照越静。</text>
+<text x="190" y="517" font-size="4.6" fill="#4A5C55" text-anchor="middle">同一个镜子，转个方向，照的东西全变了。</text>
+<line x1="20" y1="534" x2="360" y2="534" stroke="#E6D8C2" stroke-width="0.8"/>
+<text x="20" y="548" font-size="8.0" fill="#A89577" letter-spacing="1">本 章 金 句</text>
+<text x="20" y="564" font-size="8.4" fill="#2F2A24">智是识词，明是照见。</text>
+<text x="20" y="580" font-size="8.4" fill="#2F2A24">同一个镜子，转个方向，照的东西全变了。</text>
+</svg>
