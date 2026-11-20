@@ -607,6 +607,122 @@ def ch22_qu_ze_quan():
 
 
 # ============ 第二十五章 · 有物混成 ============
+def ch25b_hun_cheng():
+    body, y = head(380, 999, "混成：不是零件拼起来的，是先于一切分割的一整块",
+                   "第 二 十 五 章 · 一 段 未 剖 的 原 木", "一段未剖的原木", "有物混成，先天地生。", 999)
+    s = [body]
+
+    s.append(box(20, y + 2, 340, 34, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, y + 14, "「混成」：混然一体，没有分割、没有对立、没有形色、没有边界。", 4.7, INK, "middle"))
+    s.append(txt(190, y + 27, "「先天地生」的「先」，不是比天地早多少年，是天地得以显现靠它。", 4.7, "#6E6459"))
+
+    # 一、原木
+    s.append(txt(24, y + 52, "一、原木：年轮一圈套一圈，还没被剖开", 5.1, SEAL))
+    gy = y + 64
+    s.append(f'<rect x="26" y="{gy}" width="328" height="180" fill="#FBF6EC" stroke="{LINE}" stroke-width="0.8"/>')
+    cx, cy = 128, gy + 82
+    s.append(f'<ellipse cx="{cx}" cy="{cy}" rx="76" ry="52" fill="#EFE6D4" stroke="{INK}" stroke-width="1.3"/>')
+    for r in [46, 36, 26, 16]:
+        s.append(f'<ellipse cx="{cx}" cy="{cy}" rx="{r}" ry="{int(r * 0.68)}" fill="none" stroke="#B7A99A" stroke-width="0.8"/>')
+    s.append(f'<ellipse cx="{cx}" cy="{cy}" rx="6" ry="4" fill="none" stroke="{INK}" stroke-width="0.8"/>')
+    s.append(txt(cx, cy + 62, "一段原木：圆、整、未分", 4.1, "#8A7C69", "middle"))
+    s.append(txt(252, gy + 44, "年轮同心", 4.1, SEAL))
+    s.append(txt(252, gy + 60, "一圈套一圈", 3.9, "#8A7C69"))
+    s.append(f'<line x1="248" y1="{gy + 76}" x2="{cx + 44}" y2="{gy + 68}" stroke="{LINE}" stroke-width="0.5"/>')
+    s.append(txt(190, gy + 166, "寂兮寥兮：无声，无形——正面说不出来，只能一直说它不是什么", 4.1, SEAL, "middle"))
+
+    # 二、剖开
+    s.append(txt(24, gy + 206, "二、剖开之后：才有板、有器、有名字", 5.1, GREEN))
+    gy2 = gy + 218
+    s.append(f'<rect x="26" y="{gy2}" width="328" height="150" fill="#FBF6EC" stroke="{LINE}" stroke-width="0.8"/>')
+    s.append(f'<rect x="54" y="{gy2 + 60}" width="86" height="14" fill="#EFE6D4" stroke="{INK}" stroke-width="0.9"/>')
+    s.append(f'<rect x="54" y="{gy2 + 78}" width="86" height="14" fill="#EFE6D4" stroke="{INK}" stroke-width="0.9"/>')
+    s.append(f'<rect x="54" y="{gy2 + 96}" width="86" height="14" fill="#EFE6D4" stroke="{INK}" stroke-width="0.9"/>')
+    s.append(arrow(150, gy2 + 84, 182, gy2 + 84, GREEN, 0.9, None, "arr2"))
+    s.append(f'<path d="M206,{gy2 + 74} L212,{gy2 + 102} L244,{gy2 + 102} L250,{gy2 + 74}" fill="none" stroke="{INK}" stroke-width="1.1"/>')
+    s.append(f'<ellipse cx="228" cy="{gy2 + 74}" rx="22" ry="5" fill="{PAPER}" stroke="{INK}" stroke-width="1.0"/>')
+    s.append(f'<rect x="272" y="{gy2 + 74}" width="34" height="20" fill="#F2EADA" stroke="{INK}" stroke-width="0.9"/>')
+    s.append(txt(289, gy2 + 88, "名", 4.4, SEAL, "middle"))
+    s.append(txt(97, gy2 + 128, "板", 4.2, INK, "middle"))
+    s.append(txt(228, gy2 + 128, "器", 4.2, INK, "middle"))
+    s.append(txt(289, gy2 + 128, "名", 4.0, SEAL, "middle"))
+    s.append(txt(190, gy2 + 148, "分割之后，才有板、有器、有名字；名字是给有边界的东西用的", 4.1, GREEN, "middle"))
+
+    a = gy2 + 174
+    s.append(txt(24, a, "混成不是混沌：混沌是乱的，混成是还没分——它不靠零件凑，也不靠拼装成立。", 4.8, INK))
+    s.append(txt(24, a + 16, "「独立而不改」：草木荣枯、王朝兴废全在账上，它不在账上。", 4.8, INK))
+    s.append(txt(24, a + 34, "先立得住，才转得动：一个东西要靠不停运转来证明自己存在，那它其实立不住。", 4.8, GREEN))
+
+    c = a + 52
+    s.append(f'<line x1="24" y1="{c}" x2="338" y2="{c}" stroke="{LINE}" stroke-width="0.6"/>')
+    s.append(box(20, c + 8, 340, 40, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, c + 24, "有物混成，先天地生。", 6.0, INK, "middle"))
+    s.append(txt(190, c + 36, "独立而不改，周行而不殆。", 5.0, GREEN, "middle"))
+    s.append(gold(c + 62, "ch25b"))
+    s.append('</svg>')
+    out = "\n".join(s)
+    ys = [float(v) for v in re.findall(r'y="([0-9.]+)"', out)]
+    return out.replace("999", str(int(max(ys) + 26)))
+
+
+def ch25c_shun_wen():
+    body, y = head(380, 999, "道法自然：它上面没有更高的东西命令它，它只是自己如此",
+                   "第 二 十 五 章 · 顺 纹 而 刨", "顺纹而刨", "道法自然。", 999)
+    s = [body]
+
+    s.append(box(20, y + 2, 340, 34, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, y + 14, "「自然」不是今语「自然界」：自，自身；然，如是——自己如此。", 4.7, INK, "middle"))
+    s.append(txt(190, y + 27, "道之上没有更高的主宰，它不靠着谁的命令运转。", 4.7, "#6E6459"))
+
+    # 一、顺纹
+    s.append(txt(24, y + 52, "一、顺纹：刨子沿着木自己长出来的纹走", 5.1, GREEN))
+    gy = y + 64
+    s.append(f'<rect x="26" y="{gy}" width="328" height="152" fill="#FBF6EC" stroke="{LINE}" stroke-width="0.8"/>')
+    s.append(f'<rect x="52" y="{gy + 56}" width="212" height="56" fill="#EFE6D4" stroke="{INK}" stroke-width="1.0"/>')
+    for k in range(6):
+        yy = gy + 62 + k * 9
+        s.append(f'<path d="M56,{yy} q40,-4 78,0 q42,4 126,0" fill="none" stroke="#B7A99A" stroke-width="0.7"/>')
+    s.append(f'<rect x="80" y="{gy + 42}" width="32" height="14" fill="#F2EADA" stroke="{INK}" stroke-width="1.0"/>')
+    s.append(f'<line x1="106" y1="{gy + 44}" x2="96" y2="{gy + 56}" stroke="{INK}" stroke-width="1.0"/>')
+    s.append(f'<circle cx="84" cy="{gy + 39}" r="3.4" fill="none" stroke="{INK}" stroke-width="0.8"/>')
+    s.append(arrow(110, gy + 84, 152, gy + 84, GREEN, 0.9, None, "arr2"))
+    s.append(txt(130, gy + 76, "顺着", 4.0, GREEN, "middle"))
+    s.append(txt(190, gy + 130, "刨面光、出长花：木顺着自己走，手也省力", 4.1, GREEN, "middle"))
+
+    # 二、逆纹
+    s.append(txt(24, gy + 178, "二、逆纹：硬扳着它走，刨不下去，只起毛刺", 5.1, SEAL))
+    gy2 = gy + 190
+    s.append(f'<rect x="26" y="{gy2}" width="328" height="152" fill="#FBF6EC" stroke="{LINE}" stroke-width="0.8"/>')
+    s.append(f'<rect x="52" y="{gy2 + 56}" width="212" height="56" fill="#EFE6D4" stroke="{INK}" stroke-width="1.0"/>')
+    for k in range(6):
+        yy = gy2 + 62 + k * 9
+        s.append(f'<path d="M56,{yy} q40,-4 78,0 q42,4 126,0" fill="none" stroke="#B7A99A" stroke-width="0.7"/>')
+    for k in range(6):
+        s.append(f'<path d="M{120 + k * 16},{gy2 + 56} q-3,-5 -7,-7" fill="none" stroke="{SEAL}" stroke-width="0.6"/>')
+    s.append(f'<rect x="134" y="{gy2 + 42}" width="32" height="14" fill="#F2EADA" stroke="{SEAL}" stroke-width="1.0"/>')
+    s.append(f'<line x1="160" y1="{gy2 + 44}" x2="150" y2="{gy2 + 56}" stroke="{SEAL}" stroke-width="1.0"/>')
+    s.append(f'<circle cx="138" cy="{gy2 + 39}" r="3.4" fill="none" stroke="{SEAL}" stroke-width="0.8"/>')
+    s.append(arrow(158, gy2 + 88, 200, gy2 + 88, SEAL, 0.9, None, "arr2"))
+    s.append(txt(178, gy2 + 80, "逆着", 4.0, SEAL, "middle"))
+    s.append(txt(190, gy2 + 130, "刃口被纹理顶住：越用力，越不平", 4.1, SEAL, "middle"))
+
+    a = gy2 + 174
+    s.append(txt(24, a, "道法自然：四层取法到此为止——地之上是天，天之上是道，道之上没有了。", 4.8, INK))
+    s.append(txt(24, a + 16, "不是道去效法一个更大的「自然界」，是它自己如此，不由谁命令。", 4.8, INK))
+    s.append(txt(24, a + 34, "所以学它，不是学一套规矩，是学着不硬扳。", 4.8, GREEN))
+
+    c = a + 52
+    s.append(f'<line x1="24" y1="{c}" x2="338" y2="{c}" stroke="{LINE}" stroke-width="0.6"/>')
+    s.append(box(20, c + 8, 340, 40, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, c + 24, "人法地，地法天，天法道，道法自然。", 5.4, INK, "middle"))
+    s.append(txt(190, c + 36, "道之上没有更高的东西命令它。", 5.0, GREEN, "middle"))
+    s.append(gold(c + 62, "ch25c"))
+    s.append('</svg>')
+    out = "\n".join(s)
+    ys = [float(v) for v in re.findall(r'y="([0-9.]+)"', out)]
+    return out.replace("999", str(int(max(ys) + 26)))
+
+
 def ch25_dao_fa():
     W, H = 380, 562
     body, y = head(W, H, "名只是手指，四大只到自然为止", "第 二 十 五 章 · 总 纲", "道法自然",
@@ -7612,6 +7728,8 @@ GOLD = {
     "ch23c": ["同于道者，道亦乐得之。", "你把自己放进什么里，就被什么收下。"],
     "ch24b": ["企者不立，跨者不行。", "举起来的那一点，就是脚下垫的那一寸。"],
     "ch24c": ["余食赘行，物或恶之，故有道者不处。", "不处，不是忍住不做，是看清它本来就不该在那儿。"],
+    "ch25b": ["有物混成，先天地生。", "不是它比天地老，是天地离了它不成。"],
+    "ch25c": ["人法地，地法天，天法道，道法自然。", "道法自然：它上面没有更高的东西命令它，它只是自己如此。"],
     "ch06b": ["谷神不死，是谓玄牝。", "谷者，两山间之空也；能受故能生，生而不有故不竭——生机不在满处，在空处。"],
     "ch06c": ["玄牝之门，是谓天地根。", "门在开合处，不在门板上；一着手去推，它就成了一堵墙。"],
     "ch05b": ["天地不仁，以万物为刍狗。", "刍者，束草也；刍狗有位而无主——用毕回草堆，不是被弃，是位次用完了。"],
@@ -14077,6 +14195,8 @@ FIGS = {
     "ch23c-yan-ru-shui": ("第二十三章", "一撮盐", ch23c_yan_ru_shui),
     "ch24b-qi-zhe-bu-li": ("第二十四章", "踮脚与跨步", ch24b_qi_zhe_bu_li),
     "ch24c-yu-shi-zhui": ("第二十四章", "余食与赘", ch24c_yu_shi_zhui),
+    "ch25b-hun-cheng": ("第二十五章", "一段未剖的原木", ch25b_hun_cheng),
+    "ch25c-shun-wen": ("第二十五章", "顺纹而刨", ch25c_shun_wen),
     "ch24-qi-zhe-bu-li": ("第二十四章", "企者不立", ch24_qi_zhe_bu_li),
     "ch23-xi-yan-zi-ran": ("第二十三章", "希言自然", ch23_xi_yan_zi_ran),
     "ch22-qu-ze-quan": ("第二十二章", "曲则全", ch22_qu_ze_quan),
