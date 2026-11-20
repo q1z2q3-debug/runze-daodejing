@@ -1504,7 +1504,223 @@ def ch21_kong_de():
 
 
 
+# ============ 第六十六章 · 一条水路 ============
+def ch66a_yi_tiao_shui_lu():
+    W, H = 380, 656
+    body, y = head(W, H, "谷是水的路，不是山的凹：低处的好处不在低，在水都往这儿走",
+                   "第 六 十 六 章 · 谷", "一条水路", "以其善下之，故能为百谷王。", H)
+    s = [body]
+
+    s.append(box(20, y + 2, 340, 30, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, y + 14, "「谷」，《说文》「泉出通川为谷」——泉水出地，流出去通到川，这一段叫谷。", 4.9, INK, "middle"))
+    s.append(txt(190, y + 26, "谷不吸引水：谷只是低，水自己往低处走。", 4.9, "#6E6459", "middle"))
+
+    s.append(txt(24, y + 48, "一、剖开看：泉出来，沿低处走，通到川", 4.8, SEAL))
+    gy = y + 60
+    s.append(f'<rect x="26" y="{gy}" width="328" height="126" fill="#FBF6EC" stroke="{LINE}" stroke-width="0.8"/>')
+    s.append(f'<path d="M26,{gy + 24} L92,{gy + 24} L154,{gy + 60} L236,{gy + 94} L354,{gy + 94} L354,{gy + 126} L26,{gy + 126} Z" fill="#F2EADA" stroke="none"/>')
+    s.append(f'<path d="M26,{gy + 24} L92,{gy + 24} L154,{gy + 60} L236,{gy + 94} L354,{gy + 94}" fill="none" stroke="{INK}" stroke-width="1"/>')
+    # 泉
+    s.append(f'<circle cx="58" cy="{gy + 26}" r="3.4" fill="none" stroke="{GREEN}" stroke-width="1.1"/>')
+    for k in range(3):
+        s.append(f'<line x1="{52 + k * 5}" y1="{gy + 14}" x2="{52 + k * 5}" y2="{gy + 7}" stroke="{GREEN}" stroke-width="0.8"/>')
+    s.append(txt(76, gy + 16, "泉", 4.4, GREEN))
+    # 水路：贴着地面往下走
+    s.append(f'<path d="M62,{gy + 23} Q78,{gy + 20} 92,{gy + 21} L150,{gy + 57} L232,{gy + 90} L318,{gy + 90}" '
+             f'fill="none" stroke="{GREEN}" stroke-width="1.6"/>')
+    s.append(arrow(302, gy + 90, 324, gy + 90, GREEN, 1.2, head="arr2"))
+    # 川
+    s.append(f'<path d="M236,{gy + 94} L354,{gy + 94} L354,{gy + 104} L236,{gy + 104} Z" fill="{GREEN}" opacity="0.18" stroke="none"/>')
+    s.append(txt(330, gy + 88, "川", 4.6, GREEN, "middle"))
+    s.append(txt(126, gy + 34, "谷：水走的那一段", 4.4, SEAL))
+    s.append(f'<line x1="168" y1="{gy + 38}" x2="150" y2="{gy + 56}" stroke="{SEAL}" stroke-width="0.6" stroke-dasharray="2 2"/>')
+    s.append(txt(190, gy + 118, "谷不是两山夹出的凹：是水往下走的那一段路", 4.6, "#6E6459", "middle"))
+
+    s.append(txt(24, y + 204, "二、俯看：百条水路，各自往一处走", 4.8, GREEN))
+    gy2 = y + 216
+    s.append(f'<rect x="26" y="{gy2}" width="328" height="126" fill="#FBF6EC" stroke="{LINE}" stroke-width="0.8"/>')
+    xs = [58, 108, 162, 222, 282, 326]
+    for i, xx in enumerate(xs):
+        s.append(f'<path d="M{xx},{gy2 + 10} Q{xx + 4},{gy2 + 30} {xx},{gy2 + 48} Q{xx - 4},{gy2 + 62} '
+                 f'{190 + (xx - 190) * 0.45},{gy2 + 74}" fill="none" stroke="{GREEN}" stroke-width="1.1" stroke-dasharray="3 2"/>')
+    s.append(f'<path d="M44,{gy2 + 80} L336,{gy2 + 80} L306,{gy2 + 118} L74,{gy2 + 118} Z" fill="{GREEN}" opacity="0.16" stroke="{GREEN}" stroke-width="0.9"/>')
+    s.append(txt(190, gy2 + 104, "江 海", 6.4, GREEN, "middle", spacing="3"))
+    s.append(txt(190, gy2 + 40, "百 谷", 4.8, "#6E6459", "middle", spacing="2"))
+    s.append(arrow(190, gy2 + 58, 190, gy2 + 74, GREEN, 1.0, head="arr2"))
+    s.append(txt(190, gy2 + 52, "王：天下所归往", 4.4, SEAL, "middle"))
+    s.append(txt(190, gy2 + 140, "海不以大名，以纳百川：低处的好处，在所有的水都往这儿走", 4.6, "#6E6459", "middle"))
+
+    a = gy2 + 158
+    s.append(txt(24, a, "「王」，《说文》「天下所归往也」：往，不是管。", 4.9, INK))
+    s.append(txt(24, a + 16, "江海能王百谷，不是因为管着百川，是因为百川往它那儿去。", 4.9, INK))
+    s.append(txt(24, a + 34, "水不是被叫来的，是自己走来的。", 5.0, GREEN))
+
+    c = a + 52
+    s.append(f'<line x1="24" y1="{c}" x2="338" y2="{c}" stroke="{LINE}" stroke-width="0.6"/>')
+    s.append(box(20, c + 8, 340, 40, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, c + 23, "谷不是山的凹，是水的路；", 5.4, INK, "middle"))
+    s.append(txt(190, c + 36, "不是谷招水，是水自己往低处走。", 5.0, GREEN, "middle"))
+    s.append(gold(c + 62, "ch66a"))
+    s.append('</svg>')
+    return "\n".join(s)
+
+
+# ============ 第六十六章 · 一只口袋 ============
+def ch66b_yi_zhi_kou_dai():
+    W, H = 380, 724
+    body, y = head(W, H, "重不是东西多，是压在身上：上位者最容易变成那只口袋",
+                   "第 六 十 六 章 · 重", "一只口袋", "处上而民不重。", H)
+    s = [body]
+
+    s.append(box(20, y + 2, 340, 30, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, y + 14, "「重」，《说文》「厚也」，金文从人从东——东是两头扎起的囊橐。", 4.9, INK, "middle"))
+    s.append(txt(190, y + 26, "一个人背着口袋，这就是重：不是东西多，是压在身上。", 4.9, "#6E6459", "middle"))
+
+    s.append(txt(24, y + 48, "一、背着：每加一件，背上沉一分", 4.8, SEAL))
+    gy = y + 60
+    s.append(f'<rect x="26" y="{gy}" width="328" height="160" fill="#FBF6EC" stroke="{LINE}" stroke-width="0.8"/>')
+    s.append(f'<line x1="34" y1="{gy + 148}" x2="346" y2="{gy + 148}" stroke="{INK}" stroke-width="1.1"/>')
+    # 侧身的人：向前倾
+    s.append(f'<circle cx="176" cy="{gy + 40}" r="6.4" fill="none" stroke="{INK}" stroke-width="1"/>')
+    s.append(f'<path d="M170,{gy + 47} L184,{gy + 45} L196,{gy + 104} L176,{gy + 108} Z" fill="#EFE6D4" stroke="{INK}" stroke-width="1"/>')
+    s.append(f'<line x1="182" y1="{gy + 108}" x2="186" y2="{gy + 148}" stroke="{INK}" stroke-width="1.2"/>')
+    s.append(f'<line x1="192" y1="{gy + 106}" x2="200" y2="{gy + 148}" stroke="{INK}" stroke-width="1.2"/>')
+    # 背后的口袋：两头扎起
+    s.append(f'<path d="M164,{gy + 56} Q148,{gy + 58} 150,{gy + 76} Q152,{gy + 94} 166,{gy + 94} '
+             f'Q180,{gy + 94} 182,{gy + 76} Q184,{gy + 58} 168,{gy + 56} Z" fill="#EFE6D4" stroke="{INK}" stroke-width="1"/>')
+    s.append(f'<circle cx="166" cy="{gy + 53}" r="4.6" fill="none" stroke="{INK}" stroke-width="0.9"/>')
+    s.append(f'<circle cx="166" cy="{gy + 97}" r="4.6" fill="none" stroke="{INK}" stroke-width="0.9"/>')
+    # 压：三条短下箭头
+    for k in range(3):
+        xx = 158 + k * 5
+        s.append(arrow(xx, gy + 36, xx, gy + 50, SEAL, 0.9, head="arrS"))
+    s.append(txt(120, gy + 138, "东：两头扎起的囊橐", 4.4, SEAL, "middle"))
+    # 右：加的东西
+    labs = ["赋税", "劳役", "仪仗"]
+    for i, lb in enumerate(labs):
+        yy = gy + 84 - i * 14
+        s.append(box(250, yy, 58, 12, fill="#F2EADA", stroke="#C9B79A"))
+        s.append(txt(279, yy + 8.4, lb, 4.0, INK, "middle"))
+    s.append(txt(279, gy + 40, "每加一件", 4.2, SEAL, "middle"))
+    s.append(txt(279, gy + 50, "背上沉一分", 4.2, SEAL, "middle"))
+    s.append(arrow(246, gy + 72, 186, gy + 60, SEAL, 0.9, dash="3 3", head="arrS"))
+    s.append(txt(190, gy + 174, "背上的东西越多，底下越觉得沉", 4.6, SEAL, "middle"))
+
+    s.append(txt(24, y + 254, "二、放下：背着空，底下就不觉得沉", 4.8, GREEN))
+    gy2 = y + 266
+    s.append(f'<rect x="26" y="{gy2}" width="328" height="140" fill="#FBF6EC" stroke="{LINE}" stroke-width="0.8"/>')
+    s.append(f'<line x1="34" y1="{gy2 + 128}" x2="346" y2="{gy2 + 128}" stroke="{INK}" stroke-width="1.1"/>')
+    # 站直的人，背空
+    s.append(f'<circle cx="176" cy="{gy2 + 30}" r="6.4" fill="none" stroke="{INK}" stroke-width="1"/>')
+    s.append(box(169, gy2 + 38, 14, 58, fill="#EFE6D4", stroke=INK))
+    s.append(f'<line x1="172" y1="{gy2 + 96}" x2="170" y2="{gy2 + 128}" stroke="{INK}" stroke-width="1.2"/>')
+    s.append(f'<line x1="180" y1="{gy2 + 96}" x2="182" y2="{gy2 + 128}" stroke="{INK}" stroke-width="1.2"/>')
+    # 口袋放在地上
+    s.append(f'<path d="M236,{gy2 + 92} Q226,{gy2 + 94} 228,{gy2 + 108} Q230,{gy2 + 122} 242,{gy2 + 122} '
+             f'Q254,{gy2 + 122} 256,{gy2 + 108} Q258,{gy2 + 94} 248,{gy2 + 92} Z" fill="#EFE6D4" stroke="{INK}" stroke-width="1" stroke-dasharray="2 2"/>')
+    s.append(f'<circle cx="242" cy="{gy2 + 89}" r="4.2" fill="none" stroke="{INK}" stroke-width="0.8" stroke-dasharray="2 2"/>')
+    s.append(f'<circle cx="242" cy="{gy2 + 125}" r="4.2" fill="none" stroke="{INK}" stroke-width="0.8" stroke-dasharray="2 2"/>')
+    s.append(txt(306, gy2 + 112, "口袋放在地上", 4.4, GREEN, "middle"))
+    s.append(f'<circle cx="176" cy="{gy2 + 66}" r="13" fill="none" stroke="{GREEN}" stroke-width="0.9" opacity="0.7"/>')
+    s.append(txt(176, gy2 + 68, "背空", 4.2, GREEN, "middle"))
+    s.append(txt(190, gy2 + 154, "民不重：背上不多一个口袋", 4.6, GREEN, "middle"))
+
+    a = gy2 + 174
+    s.append(txt(24, a, "重不是东西多，是压在身上：赋税、劳役、仪仗、供应，每加一件沉一分。", 4.8, INK))
+    s.append(txt(24, a + 16, "害是抢走本该属于他的：一手举旗，一手在旗下取物。", 4.8, INK))
+    s.append(txt(24, a + 34, "处上不重，管的是压；处前不害，管的是抢。", 5.0, GREEN))
+
+    c = a + 50
+    s.append(f'<line x1="24" y1="{c}" x2="338" y2="{c}" stroke="{LINE}" stroke-width="0.6"/>')
+    s.append(box(20, c + 8, 340, 40, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, c + 23, "重者，人背一囊；害者，旗下取物。", 5.2, INK, "middle"))
+    s.append(txt(190, c + 36, "上位者最该怕的，就这两件。", 4.8, GREEN, "middle"))
+    s.append(gold(c + 62, "ch66b"))
+    s.append('</svg>')
+    return "\n".join(s)
+
+
+# ============ 第六十六章 · 一口气 ============
+def ch66c_yi_kou_qi():
+    W, H = 380, 706
+    body, y = head(W, H, "厌是又撑又压，不是嫌弃：一只吃饱的兽，被压在崖底下",
+                   "第 六 十 六 章 · 厌", "一口气", "天下乐推而不厌。", H)
+    s = [body]
+
+    s.append(box(20, y + 2, 340, 30, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, y + 14, "「厌」，《说文》「笮也」，笮是压；从厂从猒——厂是山崖，猒是「饱也」。", 4.9, INK, "middle"))
+    s.append(txt(190, y + 26, "一只吃饱的兽，被压在崖底下：又撑，又压。", 4.9, "#6E6459", "middle"))
+
+    s.append(txt(24, y + 48, "一、压在崖下：先觉闷，后觉满", 4.8, SEAL))
+    gy = y + 60
+    s.append(f'<rect x="26" y="{gy}" width="328" height="152" fill="#FBF6EC" stroke="{LINE}" stroke-width="0.8"/>')
+    # 崖：厂形
+    s.append(f'<path d="M58,{gy + 12} L312,{gy + 12} L312,{gy + 44} L96,{gy + 44} L58,{gy + 72} Z" fill="#DED2B8" stroke="{INK}" stroke-width="1"/>')
+    s.append(txt(76, gy + 32, "厂 · 崖", 4.6, INK))
+    for k in range(3):
+        s.append(f'<line x1="{112 + k * 34}" y1="{gy + 20}" x2="{132 + k * 34}" y2="{gy + 34}" stroke="{INK}" stroke-width="0.6" opacity="0.5"/>')
+    # 兽：饱腹
+    s.append(f'<ellipse cx="182" cy="{gy + 84}" rx="34" ry="20" fill="#EFE6D4" stroke="{INK}" stroke-width="1.1"/>')
+    s.append(f'<path d="M158,{gy + 92} Q182,{gy + 80} 206,{gy + 92} Q182,{gy + 100} 158,{gy + 92} Z" fill="#DED2B8" stroke="none"/>')
+    s.append(f'<circle cx="222" cy="{gy + 66}" r="9" fill="#EFE6D4" stroke="{INK}" stroke-width="1"/>')
+    s.append(f'<path d="M218,{gy + 57} Q222,{gy + 51} 226,{gy + 57}" fill="none" stroke="{INK}" stroke-width="0.9"/>')
+    s.append(f'<circle cx="228" cy="{gy + 63}" r="1.4" fill="{INK}" stroke="none"/>')
+    s.append(f'<path d="M228,{gy + 72} L236,{gy + 70}" stroke="{INK}" stroke-width="0.7" fill="none"/>')
+    for xx in (162, 176, 190, 204):
+        s.append(f'<line x1="{xx}" y1="{gy + 102}" x2="{xx}" y2="{gy + 122}" stroke="{INK}" stroke-width="1.1"/>')
+
+    # 压：三条箭头下来
+    for k in range(3):
+        xx = 164 + k * 20
+        s.append(arrow(xx, gy + 46, xx, gy + 62, SEAL, 1.0, head="arrS"))
+    s.append(txt(176, gy + 79, "饱", 4.4, SEAL, "middle"))
+    s.append(txt(104, gy + 58, "压", 4.4, SEAL, "middle"))
+    s.append(txt(190, gy + 140, "又撑又压，动弹不得：连话都不想说", 4.6, SEAL, "middle"))
+
+    s.append(txt(24, y + 234, "二、出到崖外：那口气还喘得动", 4.8, GREEN))
+    gy2 = y + 246
+    s.append(f'<rect x="26" y="{gy2}" width="328" height="140" fill="#FBF6EC" stroke="{LINE}" stroke-width="0.8"/>')
+    s.append(f'<line x1="34" y1="{gy2 + 124}" x2="346" y2="{gy2 + 124}" stroke="{INK}" stroke-width="1.1"/>')
+    # 兽站着，腹仍饱
+    s.append(f'<ellipse cx="156" cy="{gy2 + 76}" rx="30" ry="19" fill="#EFE6D4" stroke="{INK}" stroke-width="1.1"/>')
+    s.append(f'<circle cx="194" cy="{gy2 + 56}" r="9" fill="#EFE6D4" stroke="{INK}" stroke-width="1"/>')
+    s.append(f'<circle cx="200" cy="{gy2 + 53}" r="1.4" fill="{INK}" stroke="none"/>')
+    for xx in (140, 152, 166, 178):
+        s.append(f'<line x1="{xx}" y1="{gy2 + 93}" x2="{xx}" y2="{gy2 + 124}" stroke="{INK}" stroke-width="1.1"/>')
+    # 一口气：从嘴出来，往上散
+    s.append(f'<path d="M204,{gy2 + 60} Q224,{gy2 + 52} 240,{gy2 + 44} Q258,{gy2 + 36} 276,{gy2 + 38}" fill="none" stroke="{GREEN}" stroke-width="1.0"/>')
+    s.append(f'<path d="M206,{gy2 + 64} Q226,{gy2 + 62} 246,{gy2 + 56} Q264,{gy2 + 50} 282,{gy2 + 52}" fill="none" stroke="{GREEN}" stroke-width="0.8" opacity="0.7"/>')
+    s.append(txt(290, gy2 + 36, "一口气", 4.4, GREEN, "middle"))
+    for k in range(3):
+        s.append(f'<circle cx="{286 + k * 7}" cy="{gy2 + 50 + k * 3}" r="1.3" fill="{GREEN}" stroke="none" opacity="0.7"/>')
+    # 推：几只手往上送
+    for k in range(3):
+        xx = 96 + k * 0
+        pass
+    s.append(txt(56, gy2 + 44, "乐推：不是被挤上去", 4.3, GREEN))
+    s.append(txt(56, gy2 + 54, "是自己愿意送他上去", 4.3, GREEN))
+    s.append(txt(190, gy2 + 150, "不厌：不觉得他压得慌，气还喘得动", 4.6, GREEN, "middle"))
+
+    a = gy2 + 170
+    s.append(txt(24, a, "厌不是情绪，是体感：一个上位者好不好，看底下人觉得轻不觉得轻。", 4.8, INK))
+    s.append(txt(24, a + 16, "乐推的推，《说文》「排也」——用手往外送：不是被挤上去，是自己愿意送上去。", 4.8, INK))
+    s.append(txt(24, a + 34, "不争不是打赢所有人，是对手不存在：他不拽那件东西。", 5.0, GREEN))
+
+    c = a + 50
+    s.append(f'<line x1="24" y1="{c}" x2="338" y2="{c}" stroke="{LINE}" stroke-width="0.6"/>')
+    s.append(box(20, c + 8, 340, 40, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, c + 23, "厭从厂从猒，饱兽压崖；", 5.4, INK, "middle"))
+    s.append(txt(190, c + 36, "非嫌其人也，乃觉其沉。", 4.9, GREEN, "middle"))
+    s.append(gold(c + 62, "ch66c"))
+    s.append('</svg>')
+    return "\n".join(s)
+
+
+
 GOLD = {
+    "ch66a": ["谷不是山的凹，是水的路；不是谷招水，是水自己往低处走。", "王是天下所归往：往者自至，非呼而来；海以纳百川名，不以大名。"],
+    "ch66b": ["重者，人背一囊；害者，旗下取物。", "处上而民不重：不是不上，是上了让人不觉得沉。"],
+    "ch66c": ["厭从厂从猒，饱兽压崖；非嫌其人也，乃觉其沉。", "天下乐推而不厌：送上去，不觉得沉。"],
     "ch65a": ["明是打光，不是自己亮；灯照路，不照人。", "明民是打光：光一打，位置就显出来；看得清，就生比较。"],
     "ch65b": ["愚从心从禺：禺是猴，猴不蠢，是停不住；心跟着猴跑，才是那个愚字。", "收心是把猴从肩上放下来：放下来它还在，只是不再拽着心跑。"],
     "ch65c": ["稽式是木工弹的那道线：它不评价，只显出来；常知稽式，是谓玄德。", "线一响，歪的木头自己就显出来了。"],
@@ -7676,6 +7892,9 @@ FIGS = {
     "ch65a-yi-zhan-deng": ("第六十五章", "一盏灯", ch65a_yi_zhan_deng),
     "ch65b-yi-zhi-hou": ("第六十五章", "一只猴", ch65b_yi_zhi_hou),
     "ch65c-yi-dao-mo-xian": ("第六十五章", "一道墨线", ch65c_yi_dao_mo_xian),
+    "ch66a-yi-tiao-shui-lu": ("第六十六章", "一条水路", ch66a_yi_tiao_shui_lu),
+    "ch66b-yi-zhi-kou-dai": ("第六十六章", "一只口袋", ch66b_yi_zhi_kou_dai),
+    "ch66c-yi-kou-qi": ("第六十六章", "一口气", ch66c_yi_kou_qi),
 }
 
 
