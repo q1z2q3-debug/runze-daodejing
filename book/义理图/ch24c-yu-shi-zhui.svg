@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 380 722" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="余食赘行：吃剩的饭，与多长出来的那一块" font-family="'Noto Serif CJK SC','Noto Serif SC','Songti SC',serif">
+<defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#6E6459"/></marker><marker id="arr2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#4A5C55"/></marker><marker id="arrL" viewBox="0 0 10 10" refX="1" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M10 0 L0 5 L10 10 z" fill="#4A5C55"/></marker><marker id="arrS" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#A2503B"/></marker></defs>
+<rect x="0" y="0" width="380" height="722" fill="#F8F3E6"/>
+<text x="20" y="26" font-size="11" fill="#A2503B" font-family="'Noto Sans CJK SC','Noto Sans SC',sans-serif" letter-spacing="3">第 二 十 四 章 · 余 食 与 赘</text>
+<text x="20" y="58" font-size="21" fill="#2F2A24">余食与赘</text>
+<text x="20" y="78" font-size="10.5" fill="#6E6459">其在道也，曰余食赘行，物或恶之。</text>
+<rect x="20" y="102" width="340" height="34" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="190" y="114" font-size="4.8" fill="#2F2A24" text-anchor="middle">余食：饱了还往里添；赘行：身上多出一块不干活的东西。</text>
+<text x="190" y="127" font-size="4.8" fill="#6E6459">物或恶之：不是人讨厌它，是它本来就不该在那儿。</text>
+<text x="24" y="152" font-size="5.1" fill="#A2503B">一、余食：碗底剩着，不是不够，是多了</text>
+<rect x="26" y="164" width="328" height="152" fill="#FBF6EC" stroke="#DCCBB0" stroke-width="0.8"/>
+<path d="M78,204 L88,264 L136,264 L146,204" fill="none" stroke="#2F2A24" stroke-width="1.1"/>
+<ellipse cx="112" cy="204" rx="34" ry="6" fill="#F8F3E6" stroke="#2F2A24" stroke-width="1.0"/>
+<path d="M90,252 L90,260 L134,260 L134,252 Z" fill="#E9DFCC" stroke="none"/>
+<path d="M222,204 L232,264 L280,264 L290,204" fill="none" stroke="#2F2A24" stroke-width="1.1"/>
+<ellipse cx="256" cy="204" rx="34" ry="6" fill="#F8F3E6" stroke="#2F2A24" stroke-width="1.0"/>
+<path d="M228,234 L234,260 L278,260 L284,234 Z" fill="#E9DFCC" stroke="none"/>
+<line x1="228" y1="234" x2="284" y2="234" stroke="#A2503B" stroke-width="0.7" stroke-dasharray="4 2"/>
+<text x="112" y="284" font-size="4.0" fill="#4A5C55" text-anchor="middle">吃到见底：够用</text>
+<text x="256" y="284" font-size="4.0" fill="#A2503B" text-anchor="middle">还剩半碗：余食</text>
+<text x="190" y="304" font-size="4.2" fill="#A2503B" text-anchor="middle">饱了还往里添：多出来的那口，谁也不吃</text>
+<text x="24" y="342" font-size="5.1" fill="#4A5C55">二、赘：手上多长一指，握物时反倒夹不住</text>
+<rect x="26" y="354" width="328" height="158" fill="#FBF6EC" stroke="#DCCBB0" stroke-width="0.8"/>
+<ellipse cx="112" cy="446" rx="20" ry="12" fill="#F1EADA" stroke="#2F2A24" stroke-width="1.0"/>
+<path d="M100,438 Q98,424 99,416" fill="none" stroke="#2F2A24" stroke-width="0.9"/>
+<circle cx="99" cy="415" r="1.7" fill="none" stroke="#2F2A24" stroke-width="0.6"/>
+<path d="M108,438 Q106,424 107,416" fill="none" stroke="#2F2A24" stroke-width="0.9"/>
+<circle cx="107" cy="415" r="1.7" fill="none" stroke="#2F2A24" stroke-width="0.6"/>
+<path d="M116,438 Q114,424 115,416" fill="none" stroke="#2F2A24" stroke-width="0.9"/>
+<circle cx="115" cy="415" r="1.7" fill="none" stroke="#2F2A24" stroke-width="0.6"/>
+<path d="M124,438 Q122,424 123,416" fill="none" stroke="#2F2A24" stroke-width="0.9"/>
+<circle cx="123" cy="415" r="1.7" fill="none" stroke="#2F2A24" stroke-width="0.6"/>
+<path d="M93,442 Q84,434 83,426" fill="none" stroke="#2F2A24" stroke-width="0.9"/>
+<ellipse cx="111" cy="410" rx="11" ry="5" fill="#F1EADA" stroke="#2F2A24" stroke-width="0.9"/>
+<path d="M100,410 q11,10 22,0" fill="none" stroke="#2F2A24" stroke-width="0.7"/>
+<text x="112" y="480" font-size="4.0" fill="#4A5C55" text-anchor="middle">五指：握得住</text>
+<ellipse cx="262" cy="446" rx="20" ry="12" fill="#F1EADA" stroke="#2F2A24" stroke-width="1.0"/>
+<path d="M250,438 Q248,424 249,416" fill="none" stroke="#2F2A24" stroke-width="0.9"/>
+<circle cx="249" cy="415" r="1.7" fill="none" stroke="#2F2A24" stroke-width="0.6"/>
+<path d="M258,438 Q256,424 257,416" fill="none" stroke="#2F2A24" stroke-width="0.9"/>
+<circle cx="257" cy="415" r="1.7" fill="none" stroke="#2F2A24" stroke-width="0.6"/>
+<path d="M266,438 Q264,424 265,416" fill="none" stroke="#2F2A24" stroke-width="0.9"/>
+<circle cx="265" cy="415" r="1.7" fill="none" stroke="#2F2A24" stroke-width="0.6"/>
+<path d="M274,438 Q272,424 273,416" fill="none" stroke="#2F2A24" stroke-width="0.9"/>
+<circle cx="273" cy="415" r="1.7" fill="none" stroke="#2F2A24" stroke-width="0.6"/>
+<path d="M243,442 Q234,434 233,426" fill="none" stroke="#2F2A24" stroke-width="0.9"/>
+<path d="M281,440 Q292,430 293,420" fill="none" stroke="#A2503B" stroke-width="0.9" stroke-dasharray="3 2"/>
+<circle cx="293" cy="419" r="1.7" fill="none" stroke="#A2503B" stroke-width="0.7"/>
+<ellipse cx="261" cy="410" rx="11" ry="5" fill="#F1EADA" stroke="#A2503B" stroke-width="0.9"/>
+<path d="M250,410 q11,10 22,0" fill="none" stroke="#A2503B" stroke-width="0.7"/>
+<text x="262" y="480" font-size="4.0" fill="#A2503B" text-anchor="middle">六指：多出来的那一指，夹在一边</text>
+<text x="190" y="500" font-size="4.2" fill="#4A5C55" text-anchor="middle">赘不是坏，是多余：它不帮忙，只占位</text>
+<text x="24" y="536" font-size="4.8" fill="#2F2A24">余食、赘行，都是「多出来的那一点」；自见、自是、自伐、自矜，也正是这一点。</text>
+<text x="24" y="552" font-size="4.8" fill="#2F2A24">「其在道也」：从道的角度看，这些东西不属于它，所以「有道者不处」。</text>
+<text x="24" y="570" font-size="4.8" fill="#4A5C55">不处，不是忍住不做，是看清它本来就不该在那儿。</text>
+<line x1="24" y1="588" x2="338" y2="588" stroke="#DCCBB0" stroke-width="0.6"/>
+<rect x="20" y="596" width="340" height="40" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="190" y="612" font-size="6.0" fill="#2F2A24" text-anchor="middle">余食赘行，物或恶之。</text>
+<text x="190" y="624" font-size="5.0" fill="#4A5C55" text-anchor="middle">故有道者不处。</text>
+<line x1="20" y1="650" x2="360" y2="650" stroke="#E6D8C2" stroke-width="0.8"/>
+<text x="20" y="664" font-size="8.0" fill="#A89577" letter-spacing="1">本 章 金 句</text>
+<text x="20" y="680" font-size="8.4" fill="#2F2A24">余食赘行，物或恶之，故有道者不处。</text>
+<text x="20" y="696" font-size="8.4" fill="#2F2A24">不处，不是忍住不做，是看清它本来就不该在那儿。</text>
+</svg>

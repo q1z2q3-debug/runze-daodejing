@@ -7610,6 +7610,8 @@ GOLD = {
     "ch22c": ["圣人抱一，为天下式。", "抱一，不是统一别人，是不让自己裂开。"],
     "ch23b": ["希言自然。飘风不终朝，骤雨不终日。", "天地做不出一场长雨，人也做不出一段长言。"],
     "ch23c": ["同于道者，道亦乐得之。", "你把自己放进什么里，就被什么收下。"],
+    "ch24b": ["企者不立，跨者不行。", "举起来的那一点，就是脚下垫的那一寸。"],
+    "ch24c": ["余食赘行，物或恶之，故有道者不处。", "不处，不是忍住不做，是看清它本来就不该在那儿。"],
     "ch06b": ["谷神不死，是谓玄牝。", "谷者，两山间之空也；能受故能生，生而不有故不竭——生机不在满处，在空处。"],
     "ch06c": ["玄牝之门，是谓天地根。", "门在开合处，不在门板上；一着手去推，它就成了一堵墙。"],
     "ch05b": ["天地不仁，以万物为刍狗。", "刍者，束草也；刍狗有位而无主——用毕回草堆，不是被弃，是位次用完了。"],
@@ -8005,6 +8007,166 @@ def ch23_xi_yan_zi_ran():
 
 
 # ============ 第二十四章 · 企者不立 ============
+def ch24b_qi_zhe_bu_li():
+    body, y = head(380, 999, "企者不立，跨者不行：踮得越高，越站不稳",
+                   "第 二 十 四 章 · 踮 脚 与 跨 步", "踮脚与跨步", "企者不立，跨者不行。", 999)
+    s = [body]
+
+    s.append(box(20, y + 2, 340, 34, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, y + 14, "两个动作，一个心思：踮脚求高，跨步求速。", 4.8, INK, "middle"))
+    s.append(txt(190, y + 27, "求高与求速，都是在自己脚下多垫了一寸。", 4.8, "#6E6459"))
+
+    # 一、踮脚
+    s.append(txt(24, y + 52, "一、踮脚：脚跟离了地，身就靠脚尖撑着", 5.1, SEAL))
+    gy = y + 64
+    s.append(f'<rect x="26" y="{gy}" width="328" height="158" fill="#FBF6EC" stroke="{LINE}" stroke-width="0.8"/>')
+    # 左：踮脚
+    lx = 108
+    s.append(f'<line x1="46" y1="{gy + 118}" x2="176" y2="{gy + 118}" stroke="{LINE}" stroke-width="0.9"/>')
+    s.append(f'<circle cx="{lx}" cy="{gy + 44}" r="7" fill="none" stroke="{INK}" stroke-width="1.1"/>')
+    s.append(f'<line x1="{lx}" y1="{gy + 51}" x2="{lx}" y2="{gy + 78}" stroke="{INK}" stroke-width="1.3"/>')
+    s.append(f'<line x1="{lx}" y1="{gy + 78}" x2="{lx}" y2="{gy + 94}" stroke="{INK}" stroke-width="1.2"/>')
+    s.append(f'<line x1="{lx}" y1="{gy + 94}" x2="{lx + 10}" y2="{gy + 116}" stroke="{INK}" stroke-width="1.1"/>')
+    s.append(f'<line x1="{lx + 10}" y1="{gy + 116}" x2="{lx + 22}" y2="{gy + 118}" stroke="{INK}" stroke-width="1.1"/>')
+    s.append(f'<line x1="{lx - 15}" y1="{gy + 66}" x2="{lx}" y2="{gy + 72}" stroke="{INK}" stroke-width="0.9"/>')
+    s.append(f'<line x1="{lx + 15}" y1="{gy + 66}" x2="{lx}" y2="{gy + 72}" stroke="{INK}" stroke-width="0.9"/>')
+    s.append(f'<line x1="{lx - 2}" y1="{gy + 118}" x2="{lx - 2}" y2="{gy + 112}" stroke="{SEAL}" stroke-width="0.7" stroke-dasharray="2 2"/>')
+    s.append(f'<line x1="{lx - 18}" y1="{gy + 118}" x2="{lx - 18}" y2="{gy + 52}" stroke="{SEAL}" stroke-width="0.6" stroke-dasharray="4 3"/>')
+    s.append(f'<line x1="{lx - 18}" y1="{gy + 118}" x2="{lx - 26}" y2="{gy + 110}" stroke="{SEAL}" stroke-width="0.6"/>')
+    s.append(f'<line x1="{lx - 18}" y1="{gy + 118}" x2="{lx - 26}" y2="{gy + 126}" stroke="{SEAL}" stroke-width="0.6"/>')
+    s.append(txt(lx - 34, gy + 96, "重心线", 3.6, SEAL, "middle"))
+    s.append(txt(lx + 6, gy + 136, "脚跟悬空，全身靠一点脚尖", 3.9, SEAL, "middle"))
+    # 右：平站
+    rx = 262
+    s.append(f'<circle cx="{rx}" cy="{gy + 44}" r="7" fill="none" stroke="{INK}" stroke-width="1.1"/>')
+    s.append(f'<line x1="{rx}" y1="{gy + 51}" x2="{rx}" y2="{gy + 104}" stroke="{INK}" stroke-width="1.3"/>')
+    s.append(f'<line x1="{rx}" y1="{gy + 104}" x2="{rx - 9}" y2="{gy + 118}" stroke="{INK}" stroke-width="1.1"/>')
+    s.append(f'<line x1="{rx}" y1="{gy + 104}" x2="{rx + 9}" y2="{gy + 118}" stroke="{INK}" stroke-width="1.1"/>')
+    s.append(f'<path d="M{rx - 9},{gy + 118} l-7,2 M{rx + 9},{gy + 118} l7,2" fill="none" stroke="{INK}" stroke-width="1.0"/>')
+    s.append(f'<line x1="{rx}" y1="{gy + 70}" x2="{rx - 14}" y2="{gy + 92}" stroke="{INK}" stroke-width="0.9"/>')
+    s.append(f'<line x1="{rx}" y1="{gy + 70}" x2="{rx + 14}" y2="{gy + 92}" stroke="{INK}" stroke-width="0.9"/>')
+    s.append(f'<line x1="{rx - 20}" y1="{gy + 118}" x2="{rx + 20}" y2="{gy + 118}" stroke="{LINE}" stroke-width="0.9"/>')
+    s.append(txt(rx, gy + 136, "整只脚落地，重心在中间", 3.9, GREEN, "middle"))
+    s.append(txt(190, gy + 150, "企者不立：高出来的那一寸，是从站住里借的", 4.2, SEAL, "middle"))
+
+    # 二、跨步
+    s.append(txt(24, gy + 184, "二、跨步：一步迈得太远，落点就接不上", 5.1, GREEN))
+    gy2 = gy + 196
+    s.append(f'<rect x="26" y="{gy2}" width="328" height="156" fill="#FBF6EC" stroke="{LINE}" stroke-width="0.8"/>')
+    s.append(f'<line x1="44" y1="{gy2 + 120}" x2="336" y2="{gy2 + 120}" stroke="{LINE}" stroke-width="0.9"/>')
+    # 正常步伐：小足迹
+    for k in range(4):
+        x = 66 + k * 24
+        s.append(f'<ellipse cx="{x}" cy="{gy2 + 116}" rx="6" ry="3" fill="none" stroke="{LINE2}" stroke-width="0.8"/>')
+    s.append(txt(110, gy2 + 132, "平常一步", 3.8, "#8A7C69", "middle"))
+    # 跨步：大步距 + 跨出的轨迹
+    s.append(f'<ellipse cx="206" cy="{gy2 + 116}" rx="8" ry="3.4" fill="none" stroke="{SEAL}" stroke-width="0.9"/>')
+    s.append(f'<ellipse cx="290" cy="{gy2 + 116}" rx="8" ry="3.4" fill="none" stroke="{SEAL}" stroke-width="0.9"/>')
+    s.append(f'<path d="M206,{gy2 + 112} Q248,{gy2 + 84} 290,{gy2 + 112}" fill="none" stroke="{SEAL}" stroke-width="0.8" stroke-dasharray="5 3"/>')
+    s.append(txt(248, gy2 + 78, "一步跨出这么远", 3.8, SEAL, "middle"))
+    # 跨步的人（歪着）
+    mx = 206
+    s.append(f'<circle cx="{mx - 4}" cy="{gy2 + 44}" r="6.4" fill="none" stroke="{INK}" stroke-width="1.0"/>')
+    s.append(f'<path d="M{mx - 2},{gy2 + 50} L{mx + 8},{gy2 + 88}" fill="none" stroke="{INK}" stroke-width="1.2"/>')
+    s.append(f'<line x1="{mx + 8}" y1="{gy2 + 88}" x2="{mx - 2}" y2="{gy2 + 114}" stroke="{INK}" stroke-width="1.0"/>')
+    s.append(f'<line x1="{mx + 8}" y1="{gy2 + 88}" x2="{mx + 26}" y2="{gy2 + 112}" stroke="{INK}" stroke-width="1.0"/>')
+    s.append(f'<line x1="{mx + 4}" y1="{gy2 + 62}" x2="{mx + 20}" y2="{gy2 + 74}" stroke="{INK}" stroke-width="0.9"/>')
+    s.append(f'<line x1="{mx + 4}" y1="{gy2 + 62}" x2="{mx - 14}" y2="{gy2 + 74}" stroke="{INK}" stroke-width="0.9"/>')
+    s.append(txt(190, gy2 + 146, "跨者不行：腿张得开，身子却先歪了", 4.2, GREEN, "middle"))
+
+    a = gy2 + 180
+    s.append(txt(24, a, "踮脚是为高一寸，跨步是为快一步；一寸一步都在脚下垫着。", 4.8, INK))
+    s.append(txt(24, a + 16, "自见、自是、自伐、自矜，四个动作同出一处：把「我」举起来一点。", 4.8, INK))
+    s.append(txt(24, a + 34, "举起来的那一点，就是脚下垫的那一寸。", 4.8, GREEN))
+
+    c = a + 52
+    s.append(f'<line x1="24" y1="{c}" x2="338" y2="{c}" stroke="{LINE}" stroke-width="0.6"/>')
+    s.append(box(20, c + 8, 340, 40, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, c + 24, "企者不立，跨者不行。", 6.0, INK, "middle"))
+    s.append(txt(190, c + 36, "自见者不明，自是者不彰。", 5.0, GREEN, "middle"))
+    s.append(gold(c + 62, "ch24b"))
+    s.append('</svg>')
+    out = "\n".join(s)
+    ys = [float(v) for v in re.findall(r'y="([0-9.]+)"', out)]
+    return out.replace("999", str(int(max(ys) + 26)))
+
+
+def ch24c_yu_shi_zhui():
+    body, y = head(380, 999, "余食赘行：吃剩的饭，与多长出来的那一块",
+                   "第 二 十 四 章 · 余 食 与 赘", "余食与赘", "其在道也，曰余食赘行，物或恶之。", 999)
+    s = [body]
+
+    s.append(box(20, y + 2, 340, 34, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, y + 14, "余食：饱了还往里添；赘行：身上多出一块不干活的东西。", 4.8, INK, "middle"))
+    s.append(txt(190, y + 27, "物或恶之：不是人讨厌它，是它本来就不该在那儿。", 4.8, "#6E6459"))
+
+    # 一、余食
+    s.append(txt(24, y + 52, "一、余食：碗底剩着，不是不够，是多了", 5.1, SEAL))
+    gy = y + 64
+    s.append(f'<rect x="26" y="{gy}" width="328" height="152" fill="#FBF6EC" stroke="{LINE}" stroke-width="0.8"/>')
+
+    def bowl(x, gy_, filled):
+        top, bot, w = gy_ + 40, gy_ + 100, 34
+        s.append(f'<path d="M{x - w},{top} L{x - w + 10},{bot} L{x + w - 10},{bot} L{x + w},{top}" fill="none" stroke="{INK}" stroke-width="1.1"/>')
+        s.append(f'<ellipse cx="{x}" cy="{top}" rx="{w}" ry="6" fill="{PAPER}" stroke="{INK}" stroke-width="1.0"/>')
+        if filled == "thin":
+            s.append(f'<path d="M{x - w + 12},{bot - 12} L{x - w + 12},{bot - 4} L{x + w - 12},{bot - 4} L{x + w - 12},{bot - 12} Z" fill="#E9DFCC" stroke="none"/>')
+        elif filled == "full":
+            s.append(f'<ellipse cx="{x}" cy="{top + 4}" rx="{w - 4}" ry="5" fill="#E9DFCC" stroke="none"/>')
+            s.append(f'<path d="M{x - w + 4},{top + 6} L{x - w + 12},{bot - 4} L{x + w - 12},{bot - 4} L{x + w - 4},{top + 6} Z" fill="#E9DFCC" stroke="none"/>')
+        else:
+            s.append(f'<path d="M{x - w + 6},{top + 30} L{x - w + 12},{bot - 4} L{x + w - 12},{bot - 4} L{x + w - 6},{top + 30} Z" fill="#E9DFCC" stroke="none"/>')
+            s.append(f'<line x1="{x - w + 6}" y1="{top + 30}" x2="{x + w - 6}" y2="{top + 30}" stroke="{SEAL}" stroke-width="0.7" stroke-dasharray="4 2"/>')
+
+    bowl(112, gy, "thin")
+    bowl(256, gy, "leave")
+    s.append(txt(112, gy + 120, "吃到见底：够用", 4.0, GREEN, "middle"))
+    s.append(txt(256, gy + 120, "还剩半碗：余食", 4.0, SEAL, "middle"))
+    s.append(txt(190, gy + 140, "饱了还往里添：多出来的那口，谁也不吃", 4.2, SEAL, "middle"))
+
+    # 二、赘
+    s.append(txt(24, gy + 178, "二、赘：手上多长一指，握物时反倒夹不住", 5.1, GREEN))
+    gy2 = gy + 190
+    s.append(f'<rect x="26" y="{gy2}" width="328" height="158" fill="#FBF6EC" stroke="{LINE}" stroke-width="0.8"/>')
+    # 正常手
+    def hand(x, extra):
+        s.append(f'<ellipse cx="{x}" cy="{gy2 + 92}" rx="20" ry="12" fill="#F1EADA" stroke="{INK}" stroke-width="1.0"/>')
+        for k in range(4):
+            fx = x - 12 + k * 8
+            s.append(f'<path d="M{fx},{gy2 + 84} Q{fx - 2},{gy2 + 70} {fx - 1},{gy2 + 62}" fill="none" stroke="{INK}" stroke-width="0.9"/>')
+            s.append(f'<circle cx="{fx - 1}" cy="{gy2 + 61}" r="1.7" fill="none" stroke="{INK}" stroke-width="0.6"/>')
+        s.append(f'<path d="M{x - 19},{gy2 + 88} Q{x - 28},{gy2 + 80} {x - 29},{gy2 + 72}" fill="none" stroke="{INK}" stroke-width="0.9"/>')
+        if extra:
+            s.append(f'<path d="M{x + 19},{gy2 + 86} Q{x + 30},{gy2 + 76} {x + 31},{gy2 + 66}" fill="none" stroke="{SEAL}" stroke-width="0.9" stroke-dasharray="3 2"/>')
+            s.append(f'<circle cx="{x + 31}" cy="{gy2 + 65}" r="1.7" fill="none" stroke="{SEAL}" stroke-width="0.7"/>')
+
+    hand(112, False)
+    s.append(f'<ellipse cx="111" cy="{gy2 + 56}" rx="11" ry="5" fill="#F1EADA" stroke="{INK}" stroke-width="0.9"/>')
+    s.append(f'<path d="M100,{gy2 + 56} q11,10 22,0" fill="none" stroke="{INK}" stroke-width="0.7"/>')
+    s.append(txt(112, gy2 + 126, "五指：握得住", 4.0, GREEN, "middle"))
+    hand(262, True)
+    s.append(f'<ellipse cx="261" cy="{gy2 + 56}" rx="11" ry="5" fill="#F1EADA" stroke="{SEAL}" stroke-width="0.9"/>')
+    s.append(f'<path d="M250,{gy2 + 56} q11,10 22,0" fill="none" stroke="{SEAL}" stroke-width="0.7"/>')
+    s.append(txt(262, gy2 + 126, "六指：多出来的那一指，夹在一边", 4.0, SEAL, "middle"))
+    s.append(txt(190, gy2 + 146, "赘不是坏，是多余：它不帮忙，只占位", 4.2, GREEN, "middle"))
+
+    a = gy2 + 182
+    s.append(txt(24, a, "余食、赘行，都是「多出来的那一点」；自见、自是、自伐、自矜，也正是这一点。", 4.8, INK))
+    s.append(txt(24, a + 16, "「其在道也」：从道的角度看，这些东西不属于它，所以「有道者不处」。", 4.8, INK))
+    s.append(txt(24, a + 34, "不处，不是忍住不做，是看清它本来就不该在那儿。", 4.8, GREEN))
+
+    c = a + 52
+    s.append(f'<line x1="24" y1="{c}" x2="338" y2="{c}" stroke="{LINE}" stroke-width="0.6"/>')
+    s.append(box(20, c + 8, 340, 40, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, c + 24, "余食赘行，物或恶之。", 6.0, INK, "middle"))
+    s.append(txt(190, c + 36, "故有道者不处。", 5.0, GREEN, "middle"))
+    s.append(gold(c + 62, "ch24c"))
+    s.append('</svg>')
+    out = "\n".join(s)
+    ys = [float(v) for v in re.findall(r'y="([0-9.]+)"', out)]
+    return out.replace("999", str(int(max(ys) + 26)))
+
+
 def ch24_qi_zhe_bu_li():
     W, H = 380, 460
     body, y = head(W, H, "两个动作，一个方向：想越过自己本来的位置", "第 二 十 四 章 · 余 食 赘 行", "企者不立",
@@ -13913,6 +14075,8 @@ FIGS = {
     "ch22c-bao-yi": ("第二十二章", "抱一与五牌", ch22c_bao_yi),
     "ch23b-zhou-yu": ("第二十三章", "一场骤雨", ch23b_zhou_yu),
     "ch23c-yan-ru-shui": ("第二十三章", "一撮盐", ch23c_yan_ru_shui),
+    "ch24b-qi-zhe-bu-li": ("第二十四章", "踮脚与跨步", ch24b_qi_zhe_bu_li),
+    "ch24c-yu-shi-zhui": ("第二十四章", "余食与赘", ch24c_yu_shi_zhui),
     "ch24-qi-zhe-bu-li": ("第二十四章", "企者不立", ch24_qi_zhe_bu_li),
     "ch23-xi-yan-zi-ran": ("第二十三章", "希言自然", ch23_xi_yan_zi_ran),
     "ch22-qu-ze-quan": ("第二十二章", "曲则全", ch22_qu_ze_quan),
