@@ -3115,8 +3115,212 @@ def ch73c_yi_zhang_wang():
     return "\n".join(s)
 
 
+def ch74a_yi_ge_fan_zi():
+    W, H = 380, 720
+    body, y = head(W, H, "司从反后：把君这个字翻过来，才是办事的那一位",
+                   "第 七 十 四 章 · 司", "一个翻过来的字", "常有司杀者杀。", H)
+    s = [body]
+
+    s.append(box(20, y + 2, 340, 32, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, y + 14, "「司」，《说文》「臣司事于外者，从反后」——后是君；君翻过来，才是司。", 4.7, INK, "middle"))
+    s.append(txt(190, y + 27, "所以「司杀者」不是坐堂的那位，是在外面按规矩办事的那位。", 4.7, "#6E6459", "middle"))
+
+    s.append(txt(24, y + 50, "一、后：君坐堂上", 4.8, SEAL))
+    gy = y + 62
+    s.append(f'<rect x="26" y="{gy}" width="328" height="148" fill="#FBF6EC" stroke="{LINE}" stroke-width="0.8"/>')
+    # 堂：一块台，简立在台上
+    s.append(f'<rect x="66" y="{gy + 112}" width="200" height="9" fill="#DED2B8" stroke="{INK}" stroke-width="0.7"/>')
+    s.append(f'<line x1="34" y1="{gy + 121}" x2="330" y2="{gy + 121}" stroke="{INK}" stroke-width="1"/>')
+    # 竹简
+    s.append(f'<rect x="118" y="{gy + 26}" width="86" height="86" fill="#FBF6EC" stroke="{INK}" stroke-width="1.1" rx="3"/>')
+    s.append(f'<line x1="130" y1="{gy + 38}" x2="192" y2="{gy + 38}" stroke="#DCCBB0" stroke-width="0.6"/>')
+    s.append(f'<line x1="130" y1="{gy + 100}" x2="192" y2="{gy + 100}" stroke="#DCCBB0" stroke-width="0.6"/>')
+    s.append(txt(161, gy + 92, "后", 38, INK, "middle"))
+    s.append(txt(161, gy + 138, "君：坐堂发令", 4.4, "#6E6459", "middle"))
+    s.append(txt(252, gy + 52, "后：一人持口，", 4.3, "#6E6459"))
+    s.append(txt(252, gy + 64, "坐而发令", 4.3, "#6E6459"))
+    s.append(txt(190, gy + 164, "君在堂上：他发令，不办事", 4.6, GREEN, "middle"))
+
+    s.append(txt(24, gy + 186, "二、司：同一个人翻过来，站到外面办事", 4.8, GREEN))
+    gy2 = gy + 198
+    s.append(f'<rect x="26" y="{gy2}" width="328" height="150" fill="#FBF6EC" stroke="{LINE}" stroke-width="0.8"/>')
+    # 简翻过来
+    s.append(f'<rect x="104" y="{gy2 + 22}" width="86" height="86" fill="#FBF6EC" stroke="{INK}" stroke-width="1.1" rx="3"/>')
+    s.append(txt(147, gy2 + 88, "司", 40, SEAL, "middle"))
+    # 翻的箭头
+    s.append(f'<path d="M198,{gy2 + 38} Q222,{gy2 + 60} 200,{gy2 + 88}" fill="none" stroke="{SEAL}" stroke-width="1" stroke-dasharray="4 3"/>')
+    s.append(f'<polygon points="200,{gy2 + 88} 206,{gy2 + 78} 194,{gy2 + 78}" fill="{SEAL}"/>')
+    s.append(txt(232, gy2 + 60, "翻过来", 4.3, SEAL))
+    # 在外面办事的人
+    px = 282
+    s.append(f'<circle cx="{px}" cy="{gy2 + 62}" r="6" fill="none" stroke="{INK}" stroke-width="1"/>')
+    s.append(f'<path d="M{px - 9},{gy2 + 70} L{px + 9},{gy2 + 70} L{px + 10},{gy2 + 100} L{px - 10},{gy2 + 100} Z" fill="#EFE6D4" stroke="{INK}" stroke-width="1"/>')
+    s.append(f'<line x1="{px + 9}" y1="{gy2 + 74}" x2="{px + 22}" y2="{gy2 + 84}" stroke="{INK}" stroke-width="0.9"/>')
+    s.append(f'<line x1="{px - 5}" y1="{gy2 + 100}" x2="{px - 8}" y2="{gy2 + 118}" stroke="{INK}" stroke-width="0.9"/>')
+    s.append(f'<line x1="{px + 5}" y1="{gy2 + 100}" x2="{px + 8}" y2="{gy2 + 118}" stroke="{INK}" stroke-width="0.9"/>')
+    s.append(txt(px, gy2 + 128, "在外办事", 4.2, GREEN, "middle"))
+    s.append(f'<line x1="34" y1="{gy2 + 118}" x2="330" y2="{gy2 + 118}" stroke="{INK}" stroke-width="1"/>')
+    s.append(txt(190, gy2 + 166, "同一个字翻过来，堂上就没人了：发令的变成了办事的", 4.6, GREEN, "middle"))
+
+    a = gy2 + 182
+    s.append(txt(24, a, "所以「司杀者」这个称呼本身就排除了坐堂的人：他不是掌生杀的，是按规矩办事的。", 4.8, INK))
+    s.append(txt(24, a + 16, "人想「代」他，先得把自己那一面翻过来——翻过来，就不是君了。", 4.8, INK))
+    s.append(txt(24, a + 34, "字翻过来，堂就空出来：这才是这一章开头那一问的底。", 5.0, GREEN))
+
+    c = a + 50
+    s.append(f'<line x1="24" y1="{c}" x2="338" y2="{c}" stroke="{LINE}" stroke-width="0.6"/>')
+    s.append(box(20, c + 8, 340, 40, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, c + 23, "司者，《说文》曰「臣司事于外者，从反后」；", 5.4, INK, "middle"))
+    s.append(txt(190, c + 36, "后者，君也——君翻其身，乃为司。", 4.7, GREEN, "middle"))
+    s.append(gold(c + 62, "ch74a"))
+    s.append('</svg>')
+    return "\n".join(s)
+
+
+def ch74b_yi_ba_fu():
+    W, H = 380, 722
+    body, y = head(W, H, "斫从斤，一击而断：这把斧在匠人手里是「成」，在代班人手里是「断」",
+                   "第 七 十 四 章 · 斫", "一把斧", "夫代司杀者杀，是谓代大匠斫。", H)
+    s = [body]
+
+    s.append(box(20, y + 2, 340, 32, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, y + 14, "「斫」，《说文》「击也」，从斤——一下而断，断了就不能复。", 4.7, INK, "middle"))
+    s.append(txt(190, y + 27, "「代」，《说文》「更也」，是换班：替班的人手上没有那把斧的本事。", 4.7, "#6E6459", "middle"))
+
+    s.append(txt(24, y + 50, "一、匠人：斧落在木上，削出一件东西", 4.8, GREEN))
+    gy = y + 62
+    s.append(f'<rect x="26" y="{gy}" width="328" height="148" fill="#FBF6EC" stroke="{LINE}" stroke-width="0.8"/>')
+    s.append(f'<line x1="34" y1="{gy + 128}" x2="330" y2="{gy + 128}" stroke="{INK}" stroke-width="1"/>')
+    # 木料
+    s.append(f'<rect x="146" y="{gy + 96}" width="154" height="32" fill="#EFE6D4" stroke="{INK}" stroke-width="1"/>')
+    s.append(f'<line x1="146" y1="{gy + 96}" x2="300" y2="{gy + 96}" stroke="{INK}" stroke-width="1.4"/>')
+    # 削出的一片
+    s.append(f'<path d="M196,{gy + 96} Q210,{gy + 84} 228,{gy + 88}" fill="none" stroke="{SEAL}" stroke-width="1.1"/>')
+    s.append(f'<path d="M228,{gy + 88} L242,{gy + 94} L228,{gy + 98} Z" fill="{SEAL}" fill-opacity="0.3" stroke="{SEAL}" stroke-width="0.9"/>')
+    # 匠人
+    px = 90
+    s.append(f'<circle cx="{px}" cy="{gy + 48}" r="7" fill="none" stroke="{INK}" stroke-width="1"/>')
+    s.append(f'<path d="M{px - 11},{gy + 58} L{px + 11},{gy + 58} L{px + 13},{gy + 96} L{px - 13},{gy + 96} Z" fill="#EFE6D4" stroke="{INK}" stroke-width="1"/>')
+    s.append(f'<line x1="{px - 6}" y1="{gy + 96}" x2="{px - 9}" y2="{gy + 128}" stroke="{INK}" stroke-width="1"/>')
+    s.append(f'<line x1="{px + 6}" y1="{gy + 96}" x2="{px + 9}" y2="{gy + 128}" stroke="{INK}" stroke-width="1"/>')
+    # 臂与斧
+    s.append(f'<line x1="{px + 11}" y1="{gy + 64}" x2="{px + 48}" y2="{gy + 78}" stroke="{INK}" stroke-width="1"/>')
+    s.append(f'<line x1="{px + 48}" y1="{gy + 78}" x2="176" y2="{gy + 100}" stroke="{INK}" stroke-width="1.4"/>')
+    s.append(f'<path d="M176,{gy + 100} L188,{gy + 86} Q198,{gy + 98} 190,{gy + 110} L174,{gy + 106} Z" fill="#DED2B8" stroke="{INK}" stroke-width="1"/>')
+    s.append(txt(px, gy + 142, "匠人", 4.2, "#6E6459", "middle"))
+    s.append(txt(272, gy + 78, "只削一片", 4.3, GREEN))
+    s.append(txt(272, gy + 90, "器由此成", 4.3, "#6E6459"))
+    s.append(txt(190, gy + 164, "斧在匠人手里，是「成」的工具：他知道这一刀要落多深", 4.6, GREEN, "middle"))
+
+    s.append(txt(24, gy + 186, "二、代班的人：同一把斧，一落就断，断不可复", 4.8, SEAL))
+    gy2 = gy + 198
+    s.append(f'<rect x="26" y="{gy2}" width="328" height="152" fill="#FBF6EC" stroke="{LINE}" stroke-width="0.8"/>')
+    s.append(f'<line x1="34" y1="{gy2 + 130}" x2="330" y2="{gy2 + 130}" stroke="{INK}" stroke-width="1"/>')
+    # 木断成两截
+    s.append(f'<rect x="150" y="{gy2 + 98}" width="72" height="32" fill="#EFE6D4" stroke="{INK}" stroke-width="1"/>')
+    s.append(f'<rect x="240" y="{gy2 + 102}" width="72" height="28" fill="#EFE6D4" stroke="{INK}" stroke-width="1"/>')
+    s.append(f'<path d="M222,{gy2 + 98} L232,{gy2 + 114} L222,{gy2 + 130}" fill="none" stroke="{SEAL}" stroke-width="1.1"/>')
+    s.append(f'<path d="M240,{gy2 + 102} L250,{gy2 + 116} L240,{gy2 + 130}" fill="none" stroke="{SEAL}" stroke-width="1.1"/>')
+    s.append(txt(240, gy2 + 144, "断了，接不回去", 4.2, SEAL, "middle"))
+    # 代班人：同一把斧高举
+    px2 = 92
+    s.append(f'<circle cx="{px2}" cy="{gy2 + 44}" r="7" fill="none" stroke="{INK}" stroke-width="1"/>')
+    s.append(f'<path d="M{px2 - 11},{gy2 + 54} L{px2 + 11},{gy2 + 54} L{px2 + 13},{gy2 + 94} L{px2 - 13},{gy2 + 94} Z" fill="#FBF6EC" stroke="{INK}" stroke-width="1"/>')
+    s.append(f'<line x1="{px2 - 6}" y1="{gy2 + 94}" x2="{px2 - 9}" y2="{gy2 + 128}" stroke="{INK}" stroke-width="1"/>')
+    s.append(f'<line x1="{px2 + 6}" y1="{gy2 + 94}" x2="{px2 + 9}" y2="{gy2 + 128}" stroke="{INK}" stroke-width="1"/>')
+    s.append(f'<line x1="{px2 + 11}" y1="{gy2 + 60}" x2="{px2 + 34}" y2="{gy2 + 36}" stroke="{INK}" stroke-width="1"/>')
+    s.append(f'<line x1="{px2 + 34}" y1="{gy2 + 36}" x2="{px2 + 46}" y2="{gy2 + 18}" stroke="{INK}" stroke-width="1.4"/>')
+    s.append(f'<path d="M{px2 + 46},{gy2 + 18} L{px2 + 62},{gy2 + 8} Q{px2 + 70},{gy2 + 22} {px2 + 56},{gy2 + 34} L{px2 + 40},{gy2 + 28} Z" fill="{SEAL}" fill-opacity="0.3" stroke="{SEAL}" stroke-width="1"/>')
+    s.append(txt(px2, gy2 + 144, "代班", 4.2, SEAL, "middle"))
+    s.append(txt(276, gy2 + 70, "未观其性", 4.3, SEAL))
+    s.append(txt(276, gy2 + 82, "先加其手", 4.3, "#6E6459"))
+    s.append(txt(190, gy2 + 168, "梓庆斋七日才敢加手；代班的人，一刀下去就断了", 4.6, GREEN, "middle"))
+
+    a = gy2 + 184
+    s.append(txt(24, a, "所差的不在力气，在那七日：先看清楚这木头要成什么，才落斧。", 4.8, INK))
+    s.append(txt(24, a + 16, "代班的人没有这七日——他手上没有这把斧的本事，只有这道令。", 4.8, INK))
+    s.append(txt(24, a + 34, "所以「代大匠斫」不是夺权，是替班；替班的人，先输在手上。", 5.0, GREEN))
+
+    c = a + 50
+    s.append(f'<line x1="24" y1="{c}" x2="338" y2="{c}" stroke="{LINE}" stroke-width="0.6"/>')
+    s.append(box(20, c + 8, 340, 40, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, c + 23, "代者，《说文》曰「更也」，换班也；斫者，击也，从斤。", 5.0, INK, "middle"))
+    s.append(txt(190, c + 36, "一下而断，不可复也。", 4.7, GREEN, "middle"))
+    s.append(gold(c + 62, "ch74b"))
+    s.append('</svg>')
+    return "\n".join(s)
+
+
+def ch74c_yi_zhi_shou():
+    W, H = 380, 726
+    body, y = head(W, H, "斧断的那一下，账不从天上收，从手上收",
+                   "第 七 十 四 章 · 手", "一只被斫的手", "希有不伤其手矣。", H)
+    s = [body]
+
+    s.append(box(20, y + 2, 340, 32, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, y + 14, "「伤其手」——这一章把账算在手上：不是天来罚，是斧自己回头。", 4.7, INK, "middle"))
+    s.append(txt(190, y + 27, "不曰「必伤」，曰「希有不伤」：全书最不留余地的一句。", 4.7, "#6E6459", "middle"))
+
+    s.append(txt(24, y + 50, "一、斧落偏了：刃回头，落在握斧的手上", 4.8, SEAL))
+    gy = y + 62
+    s.append(f'<rect x="26" y="{gy}" width="328" height="150" fill="#FBF6EC" stroke="{LINE}" stroke-width="0.8"/>')
+    # 木
+    s.append(f'<rect x="112" y="{gy + 100}" width="140" height="30" fill="#EFE6D4" stroke="{INK}" stroke-width="1"/>')
+    s.append(f'<line x1="112" y1="{gy + 100}" x2="252" y2="{gy + 100}" stroke="{INK}" stroke-width="1.4"/>')
+    # 柄与刃：柄从手上垂到木面，刃口咬进木里
+    s.append(f'<line x1="154" y1="{gy + 46}" x2="152" y2="{gy + 96}" stroke="{INK}" stroke-width="1.6"/>')
+    s.append(f'<path d="M149,{gy + 88} L166,{gy + 90} L172,{gy + 104} L162,{gy + 113} L145,{gy + 108} Z" fill="#DED2B8" stroke="{INK}" stroke-width="1"/>')
+    s.append(f'<line x1="145" y1="{gy + 108}" x2="162" y2="{gy + 113}" stroke="{INK}" stroke-width="1.2"/>')
+    # 握柄的手：掌压住柄，四指扣过来
+    s.append(f'<line x1="112" y1="{gy + 46}" x2="134" y2="{gy + 46}" stroke="{INK}" stroke-width="1"/>')
+    s.append(f'<rect x="132" y="{gy + 34}" width="42" height="24" rx="9" fill="#EFE6D4" stroke="{INK}" stroke-width="1"/>')
+    for i in range(3):
+        s.append(f'<line x1="{142 + i * 11}" y1="{gy + 56}" x2="{141 + i * 11}" y2="{gy + 64}" stroke="{INK}" stroke-width="0.7"/>')
+    # 刃返：赭色虚线弧回到手背
+    s.append(f'<path d="M152,{gy + 116} Q196,{gy + 116} 188,{gy + 78} Q182,{gy + 56} 164,{gy + 48}" fill="none" stroke="{SEAL}" stroke-width="1.1" stroke-dasharray="4 3"/>')
+    s.append(f'<polygon points="164,{gy + 44} 172,{gy + 52} 160,{gy + 56}" fill="{SEAL}"/>')
+    s.append(f'<line x1="148" y1="{gy + 42}" x2="159" y2="{gy + 47}" stroke="{SEAL}" stroke-width="2"/>')
+    s.append(txt(200, gy + 80, "刃回头", 4.2, SEAL))
+    s.append(txt(190, gy + 168, "砍不准的那一下，斧不认人：哪里近，就回哪里", 4.6, GREEN, "middle"))
+
+    s.append(txt(24, gy + 190, "二、账在手上：一道口子，收也收不回去", 4.8, GREEN))
+    gy2 = gy + 202
+    s.append(f'<rect x="26" y="{gy2}" width="328" height="152" fill="#FBF6EC" stroke="{LINE}" stroke-width="0.8"/>')
+    # 一只摊开的手：掌＋四指＋拇指
+    s.append(f'<rect x="144" y="{gy2 + 54}" width="58" height="46" rx="7" fill="#EFE6D4" stroke="{INK}" stroke-width="1"/>')
+    for i in range(4):
+        s.append(f'<rect x="{148 + i * 13}" y="{gy2 + 24}" width="9" height="34" rx="4" fill="#EFE6D4" stroke="{INK}" stroke-width="1"/>')
+    s.append(f'<ellipse cx="140" cy="{gy2 + 66}" rx="15" ry="7" fill="#EFE6D4" stroke="{INK}" stroke-width="1" transform="rotate(-26 140 {gy2 + 66})"/>')
+    # 口子：掌上一道斜口
+    s.append(f'<line x1="152" y1="{gy2 + 62}" x2="190" y2="{gy2 + 90}" stroke="{SEAL}" stroke-width="1.8"/>')
+    s.append(f'<circle cx="161" cy="{gy2 + 70}" r="1.8" fill="{SEAL}"/>')
+    s.append(f'<circle cx="182" cy="{gy2 + 84}" r="1.5" fill="{SEAL}"/>')
+    s.append(txt(212, gy2 + 60, "这道口子", 4.3, SEAL))
+    s.append(txt(212, gy2 + 72, "是自己的账", 4.3, "#6E6459"))
+    # 天：远处一道弧，不动手
+    s.append(f'<path d="M80,{gy2 + 120} Q190,{gy2 + 102} 300,{gy2 + 120}" fill="none" stroke="#B9A98F" stroke-width="0.9" stroke-dasharray="4 3"/>')
+    s.append(txt(190, gy2 + 136, "天不与你争这把斧：它只让斧落在你手上", 4.4, "#6E6459", "middle"))
+    s.append(txt(190, gy2 + 170, "伤不在天上记，在手上记：这就是「希有不伤」的分量", 4.6, GREEN, "middle"))
+
+    a = gy2 + 188
+    s.append(txt(24, a, "「希」不是「少」，是「稀」；稀者疏也：上一章的疏在天为不漏，这里的疏在人必伤。", 4.8, INK))
+    s.append(txt(24, a + 16, "所以这一句不说「必伤」，说「希有不伤」——留的那一点余地，是留给匠人的。", 4.8, INK))
+    s.append(txt(24, a + 34, "代班的人没有那七日，斧就先替天把账记在他手上。", 5.0, GREEN))
+
+    c = a + 52
+    s.append(f'<line x1="24" y1="{c}" x2="338" y2="{c}" stroke="{LINE}" stroke-width="0.6"/>')
+    s.append(box(20, c + 8, 340, 40, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, c + 23, "夫代大匠斫者，希有不伤其手矣。", 5.4, INK, "middle"))
+    s.append(txt(190, c + 36, "斧不认人，账认手。", 4.7, GREEN, "middle"))
+    s.append(gold(c + 64, "ch74c"))
+    s.append('</svg>')
+    return "\n".join(s)
+
 
 GOLD = {
+    "ch74a": ["常有司杀者杀。", "司者，《说文》曰「臣司事于外者，从反后」；"],
+    "ch74b": ["夫代司杀者杀，是谓代大匠斫。", "斫者，《说文》曰「击也」，从斤——一下而断，不可复也。"],
+    "ch74c": ["夫代大匠斫者，希有不伤其手矣。", "希者，稀也，稀者疏也；"],
     "ch73a": ["勇于敢则杀，勇于不敢则活。", "气无方向，向由敢定；"],
     "ch73b": ["繟者，《说文》曰「带缓也」，从糸——带系之松也。", "人之谋也系紧，紧则勒，勒处即崩处；"],
     "ch73c": ["天网恢恢，疏而不失。", "疏者，《说文》曰「通也」，非稀也；"],
@@ -9336,6 +9540,9 @@ FIGS = {
     "ch73a-yi-gu-qi": ("第七十三章", "一股气", ch73a_yi_gu_qi),
     "ch73b-yi-gen-dai-zi": ("第七十三章", "一根松带子", ch73b_yi_gen_dai_zi),
     "ch73c-yi-zhang-wang": ("第七十三章", "一张通着的网", ch73c_yi_zhang_wang),
+    "ch74a-yi-ge-fan-zi": ("第七十四章", "一个翻过来的字", ch74a_yi_ge_fan_zi),
+    "ch74b-yi-ba-fu": ("第七十四章", "一把斧", ch74b_yi_ba_fu),
+    "ch74c-yi-zhi-shou": ("第七十四章", "一只被斫的手", ch74c_yi_zhi_shou),
 }
 
 
