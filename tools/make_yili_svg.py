@@ -240,6 +240,141 @@ def ch02_liu_zu():
 
 
 # ============ 第十一章 · 三容器：利与用 ============
+def ch11b_san_shi_fu_yi_gu():
+    body, y = head(380, 999, "辐条再漂亮，毂是实心木坨，也转不起来",
+                   "第 十 一 章 · 毂", "三十辐共一毂", "三十辐共一毂，当其无，有车之用。", 999)
+    s = [body]
+    import math
+
+    s.append(box(20, y + 2, 340, 34, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, y + 14, "辐、毂，全是「有」：木料、骨架、硬边界；毂心那处虚位，才是「用」。", 4.9, INK, "middle"))
+    s.append(txt(190, y + 28, "不是先造一个空，再堆辐条；是用一圈骨架，把一个能转的虚场放出来。", 4.9, "#6E6459", "middle"))
+
+    def wheel(cx, cy, r, solid=False, hole=True):
+        for k in range(20):
+            a = math.radians(k * 18)
+            s.append(f'<line x1="{cx + 9 * math.cos(a):.1f}" y1="{cy + 9 * math.sin(a):.1f}" x2="{cx + (r - 2) * math.cos(a):.1f}" y2="{cy + (r - 2) * math.sin(a):.1f}" stroke="{INK}" stroke-width="0.7"/>')
+        s.append(f'<circle cx="{cx}" cy="{cy}" r="{r}" fill="none" stroke="{INK}" stroke-width="1.6"/>')
+        s.append(f'<circle cx="{cx}" cy="{cy}" r="{r - 4}" fill="none" stroke="{LINE}" stroke-width="0.6"/>')
+        if solid:
+            s.append(f'<circle cx="{cx}" cy="{cy}" r="9" fill="#B9A98F" stroke="{INK}" stroke-width="1.0"/>')
+            for k in range(3):
+                s.append(f'<line x1="{cx - 6}" y1="{cy - 4 + k * 4}" x2="{cx + 6}" y2="{cy - 6 + k * 4}" stroke="{INK}" stroke-width="0.4"/>')
+        else:
+            s.append(f'<circle cx="{cx}" cy="{cy}" r="9" fill="{PAPER}" stroke="{INK}" stroke-width="1.0"/>')
+            if hole:
+                s.append(f'<circle cx="{cx}" cy="{cy}" r="3.4" fill="#F6EFE0" stroke="{INK}" stroke-width="0.8"/>')
+
+    # 一、实心毂
+    s.append(txt(24, y + 52, "一、毂是实心的：辐条再多，轴穿不进去", 5.2, SEAL))
+    gy = y + 64
+    s.append(f'<rect x="26" y="{gy}" width="328" height="180" fill="#FBF6EC" stroke="{LINE}" stroke-width="0.8"/>')
+    cy = gy + 80
+    wheel(132, cy, 44, solid=True)
+    s.append(f'<line x1="34" y1="{cy}" x2="116" y2="{cy}" stroke="{SEAL}" stroke-width="1.4"/>')
+    s.append(arrow(116, cy, 126, cy, SEAL, 1.4, None, "arrS"))
+    s.append(txt(40, cy - 7, "轴", 4.2, SEAL))
+    s.append(txt(200, gy + 44, "辐：二十根都在这儿", 4.3, "#6E6459"))
+    s.append(f'<line x1="196" y1="{gy + 48}" x2="176" y2="{cy - 32}" stroke="{LINE2}" stroke-width="0.5" stroke-dasharray="3 2"/>')
+    s.append(txt(132, cy + 56, "毂心填实：木坨一块", 4.5, SEAL, "middle"))
+    s.append(txt(36, gy + 152, "辐条是「利」：给骨架、给定型、给抓手", 4.3, "#6E6459"))
+    s.append(txt(36, gy + 166, "毂心是「用」：填实了，转动的可能就没了", 4.3, SEAL))
+
+    # 二、空毂
+    s.append(txt(24, gy + 196, "二、毂心留虚：轴一穿进去，轮就转了", 5.2, GREEN))
+    gy2 = gy + 208
+    s.append(f'<rect x="26" y="{gy2}" width="328" height="176" fill="#FBF6EC" stroke="{LINE}" stroke-width="0.8"/>')
+    cy2 = gy2 + 76
+    wheel(132, cy2, 44, solid=False, hole=True)
+    s.append(f'<line x1="40" y1="{cy2}" x2="226" y2="{cy2}" stroke="{INK}" stroke-width="1.4"/>')
+    s.append(txt(46, cy2 - 8, "轴穿过", 4.2, GREEN))
+    s.append(f'<path d="M168,{cy2 + 16} A 40 40 0 0 1 144,{cy2 + 38}" fill="none" stroke="{GREEN}" stroke-width="1.1" marker-end="url(#arr2)"/>')
+    s.append(txt(178, cy2 + 32, "转", 4.8, GREEN))
+    s.append(txt(132, cy2 + 52, "毂心空着，轴才进得去，轮才滚得动", 4.4, GREEN, "middle"))
+    s.append(txt(190, gy2 + 156, "同一圈骨架，只差中间那处空：有给利，无给用", 4.3, "#6E6459", "middle"))
+
+    a = gy2 + 196
+    s.append(txt(24, a, "「当其无」，不是毂里有一团空气，是毂中心留出的那个虚位——轴进得去，力传得开。", 5.2, INK))
+    s.append(txt(24, a + 16, "骨架不是为了堆木头，是为了撑开一个可以流转的虚场；骨架越定，虚场越清。", 5.2, INK))
+    s.append(txt(24, a + 34, "所以利不是目的，是条件：有立得住，无才用得起来。", 5.0, GREEN))
+
+    c = a + 52
+    s.append(f'<line x1="24" y1="{c}" x2="338" y2="{c}" stroke="{LINE}" stroke-width="0.6"/>')
+    s.append(box(20, c + 8, 340, 40, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, c + 24, "辐聚而成毂，毂虚而轴可穿；", 6.0, INK, "middle"))
+    s.append(txt(190, c + 36, "有给你抓手，无给你生机。", 6.0, GREEN, "middle"))
+    s.append(gold(c + 62, "ch11b"))
+    s.append('</svg>')
+    out = "\n".join(s)
+    ys = [float(v) for v in re.findall(r'y="([0-9.]+)"', out)]
+    return out.replace("999", str(int(max(ys) + 26)))
+
+
+def ch11c_zao_hu_you():
+    body, y = head(380, 999, "墙再厚再华丽，封死填满，就只是一座土堆",
+                   "第 十 一 章 · 室", "凿户牖", "凿户牖以为室，当其无，有室之用。", 999)
+    s = [body]
+
+    s.append(box(20, y + 2, 340, 34, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, y + 14, "户是门，牖是窗；墙、梁、屋顶、地基，全部是「有」。", 4.9, INK, "middle"))
+    s.append(txt(190, y + 28, "房子的目标不是墙，是墙围出来那一片能让人活在里面的空间。", 4.9, "#6E6459", "middle"))
+
+    # 一、封死
+    s.append(txt(24, y + 52, "一、封死：四面墙，一堵不漏", 5.2, SEAL))
+    gy = y + 64
+    s.append(f'<rect x="26" y="{gy}" width="328" height="180" fill="#FBF6EC" stroke="{LINE}" stroke-width="0.8"/>')
+    px, py = 150, gy + 84
+    s.append(f'<path d="M{px - 58},{py} L{px},{py - 34} L{px + 58},{py} z" fill="#E4D8BF" stroke="{INK}" stroke-width="1.2"/>')
+    s.append(f'<rect x="{px - 54}" y="{py}" width="108" height="46" fill="#E4D8BF" stroke="{INK}" stroke-width="1.2"/>')
+    for k in range(3):
+        s.append(f'<line x1="{px - 54}" y1="{py + 12 + k * 14}" x2="{px + 54}" y2="{py + 12 + k * 14}" stroke="{INK}" stroke-width="0.4" opacity="0.5"/>')
+    s.append(txt(px, py + 28, "无门无窗", 4.6, SEAL, "middle"))
+    s.append(arrow(232, py + 24, 208, py + 24, SEAL, 0.9, None, "arrS"))
+    s.append(txt(236, py + 28, "进不去", 4.3, SEAL))
+    s.append(txt(px, gy + 160, "墙立着，屋子却没生出来：只剩一座土堆", 4.3, SEAL, "middle"))
+
+    # 二、开
+    s.append(txt(24, gy + 196, "二、开户牖：门窗是那两处「无」", 5.2, GREEN))
+    gy2 = gy + 208
+    s.append(f'<rect x="26" y="{gy2}" width="328" height="176" fill="#FBF6EC" stroke="{LINE}" stroke-width="0.8"/>')
+    px2, py2 = 150, gy2 + 62
+    s.append(f'<path d="M{px2 - 58},{py2} L{px2},{py2 - 34} L{px2 + 58},{py2} z" fill="#EFE6D4" stroke="{INK}" stroke-width="1.2"/>')
+    s.append(f'<rect x="{px2 - 54}" y="{py2}" width="108" height="52" fill="{PAPER}" stroke="{INK}" stroke-width="1.2"/>')
+    # 户（门，开着的口）与牖（窗）
+    s.append(f'<rect x="{px2 - 26}" y="{py2 + 20}" width="30" height="32" fill="#E4EAE0" stroke="{INK}" stroke-width="1.0"/>')
+    s.append(f'<line x1="{px2 - 11}" y1="{py2 + 20}" x2="{px2 - 11}" y2="{py2 + 52}" stroke="{LINE}" stroke-width="0.5"/>')
+    s.append(f'<rect x="{px2 + 18}" y="{py2 + 14}" width="28" height="20" fill="#E4EAE0" stroke="{INK}" stroke-width="1.0"/>')
+    s.append(f'<line x1="{px2 + 32}" y1="{py2 + 14}" x2="{px2 + 32}" y2="{py2 + 34}" stroke="{LINE}" stroke-width="0.5"/>')
+    s.append(txt(px2 - 30, py2 + 26, "户", 3.9, GREEN, "end"))
+    s.append(txt(px2 + 32, py2 + 8, "牖", 3.9, GREEN, "middle"))
+    # 人立在堂中
+    hx, hy = px2 - 4, py2 + 30
+    s.append(f'<circle cx="{hx}" cy="{hy - 12}" r="2.8" fill="none" stroke="{INK}" stroke-width="0.9"/>')
+    s.append(f'<line x1="{hx}" y1="{hy - 9}" x2="{hx}" y2="{hy + 2}" stroke="{INK}" stroke-width="1.0"/>')
+    s.append(f'<line x1="{hx}" y1="{hy + 2}" x2="{hx - 3}" y2="{hy + 10}" stroke="{INK}" stroke-width="0.9"/>')
+    s.append(f'<line x1="{hx}" y1="{hy + 2}" x2="{hx + 3}" y2="{hy + 10}" stroke="{INK}" stroke-width="0.9"/>')
+    s.append(arrow(px2 - 68, py2 + 40, px2 - 28, py2 + 40, GREEN, 0.9, None, "arr2"))
+    s.append(txt(px2 - 70, py2 + 33, "人", 4.2, GREEN, "end"))
+    s.append(txt(px2, gy2 + 152, "门窗不是墙的缺口，是「无」被开出来的地方", 4.3, GREEN, "middle"))
+    s.append(txt(px2, gy2 + 166, "人在里面住、呼吸、往来——用，就发生在这片空里", 4.3, "#6E6459", "middle"))
+
+    a = gy2 + 196
+    s.append(txt(24, a, "墙、梁、门窗框是「有」：划出领地、遮风挡雨、给一个稳定框架——这是「利」。", 5.2, INK))
+    s.append(txt(24, a + 16, "室内那片虚空是「无」：居住、停留、往来、生活发生的地方——这才是「用」。", 5.2, INK))
+    s.append(txt(24, a + 34, "所以先立界，再开门；介不是墙，是墙围出来的那口空。", 5.0, GREEN))
+
+    c = a + 52
+    s.append(f'<line x1="24" y1="{c}" x2="338" y2="{c}" stroke="{LINE}" stroke-width="0.6"/>')
+    s.append(box(20, c + 8, 340, 40, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, c + 24, "墙立而成室，室空而人可居；", 6.0, INK, "middle"))
+    s.append(txt(190, c + 36, "封死填满，就只是一座土堆。", 6.0, GREEN, "middle"))
+    s.append(gold(c + 62, "ch11c"))
+    s.append('</svg>')
+    out = "\n".join(s)
+    ys = [float(v) for v in re.findall(r'y="([0-9.]+)"', out)]
+    return out.replace("999", str(int(max(ys) + 26)))
+
+
 def ch11_li_yong():
     W, H = 380, 596
     body, y = head(W, H, "车、器、室三容器：有给利，无给用", "第 十 一 章 · 器 喻", "利与用",
@@ -5961,6 +6096,8 @@ GOLD = {
     "ch09c": ["金玉满堂，莫之能守；富贵而骄，自遗其咎。", "退的不是事，是恋；收的不是手，是心。"],
     "ch10b": ["载营魄抱一，能无离乎？", "身在此时，心也回到此时。"],
     "ch10c": ["生而不有，为而不恃，长而不宰，是谓玄德。", "做得多，占得少。"],
+    "ch11b": ["三十辐共一毂，当其无，有车之用。", "有给你抓手，无给你生机。"],
+    "ch11c": ["凿户牖以为室，当其无，有室之用。", "封死填满，就只是一座土堆。"],
     "ch06b": ["谷神不死，是谓玄牝。", "谷者，两山间之空也；能受故能生，生而不有故不竭——生机不在满处，在空处。"],
     "ch06c": ["玄牝之门，是谓天地根。", "门在开合处，不在门板上；一着手去推，它就成了一堵墙。"],
     "ch05b": ["天地不仁，以万物为刍狗。", "刍者，束草也；刍狗有位而无主——用毕回草堆，不是被弃，是位次用完了。"],
@@ -12108,6 +12245,8 @@ FIGS = {
     "ch04c-si-bu": ("第四章", "四步", ch04c_si_bu),
     "ch02-liu-zu": ("第二章", "六组对偶", ch02_liu_zu),
     "ch11-li-yong": ("第十一章", "利与用", ch11_li_yong),
+    "ch11b-san-shi-fu-yi-gu": ("第十一章", "三十辐共一毂", ch11b_san_shi_fu_yi_gu),
+    "ch11c-zao-hu-you": ("第十一章", "凿户牖", ch11c_zao_hu_you),
     "ch24-qi-zhe-bu-li": ("第二十四章", "企者不立", ch24_qi_zhe_bu_li),
     "ch23-xi-yan-zi-ran": ("第二十三章", "希言自然", ch23_xi_yan_zi_ran),
     "ch22-qu-ze-quan": ("第二十二章", "曲则全", ch22_qu_ze_quan),
