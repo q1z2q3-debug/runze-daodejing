@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 380 886" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="天平求静止，风箱求不断：守中不是把轴钉在 0.5" font-family="'Noto Serif CJK SC','Noto Serif SC','Songti SC',serif">
+<defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#6E6459"/></marker><marker id="arr2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#4A5C55"/></marker><marker id="arrL" viewBox="0 0 10 10" refX="1" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M10 0 L0 5 L10 10 z" fill="#4A5C55"/></marker><marker id="arrS" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#A2503B"/></marker></defs>
+<rect x="0" y="0" width="380" height="886" fill="#F8F3E6"/>
+<text x="20" y="26" font-size="11" fill="#A2503B" font-family="'Noto Sans CJK SC','Noto Sans SC',sans-serif" letter-spacing="3">第 五 章 · 天 平</text>
+<text x="20" y="58" font-size="21" fill="#2F2A24">一架天平</text>
+<text x="20" y="78" font-size="10.5" fill="#6E6459">多言数穷，不如守中。</text>
+<rect x="20" y="102" width="340" height="34" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="190" y="114" font-size="5.0" fill="#2F2A24" text-anchor="middle">天平的两边一配平，看着就稳；可它是死平衡——哪边多一钱，它就歪。</text>
+<text x="190" y="128" font-size="5.0" fill="#6E6459" text-anchor="middle">风箱的轴不钉在刻度上，它在开合里一直走——那才是「中」。</text>
+<text x="24" y="152" font-size="5.2" fill="#A2503B">一、平：两边配平，轴钉死了</text>
+<rect x="26" y="164" width="328" height="176" fill="#FBF6EC" stroke="#DCCBB0" stroke-width="0.8"/>
+<line x1="190" y1="216" x2="116" y2="216.0" stroke="#2F2A24" stroke-width="1.1"/><line x1="190" y1="216" x2="264" y2="216.0" stroke="#2F2A24" stroke-width="1.1"/><path d="M178,232 L190,216 L202,232 z" fill="#EFE6D4" stroke="#2F2A24" stroke-width="0.9"/><line x1="190" y1="232" x2="190" y2="312" stroke="#2F2A24" stroke-width="1.1"/><path d="M164,312 L216,312 L210,320 L170,320 z" fill="#E4D8BF" stroke="#2F2A24" stroke-width="0.9"/><line x1="116" y1="216.0" x2="116" y2="232.0" stroke="#E6D8C2" stroke-width="0.6" stroke-dasharray="3 2"/><path d="M100,232.0 L132,232.0 L127,242.0 L105,242.0 z" fill="none" stroke="#2F2A24" stroke-width="0.9"/><rect x="111" y="233.0" width="9" height="7" fill="#EFE6D4" stroke="#A2503B" stroke-width="0.6"/><line x1="264" y1="216.0" x2="264" y2="232.0" stroke="#E6D8C2" stroke-width="0.6" stroke-dasharray="3 2"/><path d="M248,232.0 L280,232.0 L275,242.0 L253,242.0 z" fill="none" stroke="#2F2A24" stroke-width="0.9"/><rect x="259" y="233.0" width="9" height="7" fill="#EFE6D4" stroke="#A2503B" stroke-width="0.6"/>
+<text x="190" y="190" font-size="5.0" fill="#4A5C55" text-anchor="middle">平</text>
+<text x="190" y="332" font-size="4.5" fill="#4A5C55" text-anchor="middle">看着最稳的一刻，也是最脆的一刻：只靠两边恰好相等</text>
+<text x="24" y="360" font-size="5.2" fill="#A2503B">二、加一钱：钉死了，就没得挪</text>
+<rect x="26" y="372" width="328" height="188" fill="#FBF6EC" stroke="#DCCBB0" stroke-width="0.8"/>
+<line x1="190" y1="424" x2="116" y2="412.16" stroke="#2F2A24" stroke-width="1.1"/><line x1="190" y1="424" x2="264" y2="435.84" stroke="#2F2A24" stroke-width="1.1"/><path d="M178,440 L190,424 L202,440 z" fill="#EFE6D4" stroke="#2F2A24" stroke-width="0.9"/><line x1="190" y1="440" x2="190" y2="520" stroke="#2F2A24" stroke-width="1.1"/><path d="M164,520 L216,520 L210,528 L170,528 z" fill="#E4D8BF" stroke="#2F2A24" stroke-width="0.9"/><line x1="116" y1="412.16" x2="116" y2="428.16" stroke="#E6D8C2" stroke-width="0.6" stroke-dasharray="3 2"/><path d="M100,428.16 L132,428.16 L127,438.16 L105,438.16 z" fill="none" stroke="#2F2A24" stroke-width="0.9"/><rect x="111" y="429.16" width="9" height="7" fill="#EFE6D4" stroke="#A2503B" stroke-width="0.6"/><line x1="264" y1="435.84" x2="264" y2="451.84" stroke="#E6D8C2" stroke-width="0.6" stroke-dasharray="3 2"/><path d="M248,451.84 L280,451.84 L275,461.84 L253,461.84 z" fill="none" stroke="#2F2A24" stroke-width="0.9"/><rect x="259" y="452.84" width="9" height="7" fill="#EFE6D4" stroke="#A2503B" stroke-width="0.6"/><rect x="261" y="455.84" width="9" height="7" fill="#EFE6D4" stroke="#A2503B" stroke-width="0.6"/><rect x="184" y="442" width="12" height="9" fill="#A2503B" stroke="#A2503B" stroke-width="0.8"/><path d="M187,442 q3,-7 6,0" fill="none" stroke="#A2503B" stroke-width="0.8"/>
+<text x="268" y="424" font-size="4.4" fill="#A2503B">多一钱就歪</text>
+<line x1="264" y1="422" x2="246" y2="414" stroke="#E6D8C2" stroke-width="0.6" stroke-dasharray="3 2"/>
+<text x="152" y="474" font-size="4.4" fill="#A2503B" text-anchor="end">轴钉死</text>
+<line x1="156" y1="472" x2="182" y2="456" stroke="#E6D8C2" stroke-width="0.6" stroke-dasharray="3 2"/>
+<text x="190" y="552" font-size="4.5" fill="#4A5C55" text-anchor="middle">器还在，机死了：钉死即穷——穷不是没钱，是路走到头</text>
+<text x="24" y="580" font-size="5.2" fill="#A2503B">三、两器对看</text>
+<rect x="26" y="592" width="328" height="86" fill="#FBF6EC" stroke="#DCCBB0" stroke-width="0.8"/>
+<line x1="26" y1="635" x2="354" y2="635" stroke="#DCCBB0" stroke-width="0.6"/>
+<line x1="190" y1="592" x2="190" y2="678" stroke="#DCCBB0" stroke-width="0.6"/>
+<text x="108" y="608" font-size="5.2" fill="#A2503B" text-anchor="middle">天平</text>
+<text x="108" y="622" font-size="4.4" fill="#6E6459" text-anchor="middle">轴固定，目标静止</text>
+<text x="272" y="608" font-size="5.2" fill="#4A5C55" text-anchor="middle">风箱</text>
+<text x="272" y="622" font-size="4.4" fill="#6E6459" text-anchor="middle">轴游走，目标不断</text>
+<text x="108" y="650" font-size="4.4" fill="#2F2A24" text-anchor="middle">求持平：加一点就歪</text>
+<text x="108" y="664" font-size="4.4" fill="#8A7C69" text-anchor="middle">守的是一个值</text>
+<text x="272" y="650" font-size="4.4" fill="#2F2A24" text-anchor="middle">求不断：一直能开合</text>
+<text x="272" y="664" font-size="4.4" fill="#8A7C69" text-anchor="middle">守的是一个余地</text>
+<text x="24" y="700" font-size="5.4" fill="#2F2A24">「中」不是 0 与 1 之间的 0.5：0.5 是天平的静止点，靠两边配得刚好。</text>
+<text x="24" y="716" font-size="5.4" fill="#2F2A24">「中」是两极之间可以往复的活支点：不滞在 0 的空寂，也不逐在 1 的驰求。</text>
+<text x="24" y="734" font-size="5.2" fill="#4A5C55">钉死当下看着安稳，过一阵就僵——守中不是找到好位置站住，是随时肯挪。</text>
+<line x1="24" y1="752" x2="338" y2="752" stroke="#DCCBB0" stroke-width="0.6"/>
+<rect x="20" y="760" width="340" height="40" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="190" y="776" font-size="6.0" fill="#2F2A24" text-anchor="middle">中不是 0.5 的天平，</text>
+<text x="190" y="788" font-size="6.0" fill="#4A5C55" text-anchor="middle">是风箱里那根一直在走的轴。</text>
+<line x1="20" y1="814" x2="360" y2="814" stroke="#E6D8C2" stroke-width="0.8"/>
+<text x="20" y="828" font-size="8.0" fill="#A89577" letter-spacing="1">本 章 金 句</text>
+<text x="20" y="844" font-size="8.4" fill="#2F2A24">多言数穷，不如守中。</text>
+<text x="20" y="860" font-size="8.4" fill="#2F2A24">中者，非 0 与 1 之间之 0.5；天平的轴固定，风箱的轴在开合里走——钉死即穷。</text>
+</svg>

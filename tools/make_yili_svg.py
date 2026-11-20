@@ -825,6 +825,174 @@ def ch05_tuo_yue():
     return "\n".join(s)
 
 
+# ============ 第五章 · 一只刍狗 ============
+def ch05b_yi_zhi_chu_gou():
+    body, y = head(380, 999, "刍狗祭时陈设、祭毕回草堆：天地没有那本账，用完就归位",
+                   "第 五 章 · 刍 狗", "一只刍狗", "天地不仁，以万物为刍狗。", 999)
+    s = [body]
+
+    s.append(box(20, y + 2, 340, 34, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, y + 14, "刍狗是束草扎成的狗：祭时郑重陈设，事毕回草堆，任人践踏或当柴烧。", 5.0, INK, "middle"))
+    s.append(txt(190, y + 28, "天地不记账：不因你敬它而应，也不因你不敬而罚——它只是让万物各复其位。", 5.0, "#6E6459", "middle"))
+
+    def dog(cx, cy, rot=0, w=54):
+        out = [f'<g transform="translate({cx},{cy}) rotate({rot})">']
+        out.append(f'<rect x="{-w / 2}" y="-13" width="{w}" height="15" rx="4" fill="#EFE6D4" stroke="{INK}" stroke-width="0.9"/>')
+        out.append(f'<rect x="{w / 2 - 2}" y="-20" width="9" height="13" rx="2" fill="#EFE6D4" stroke="{INK}" stroke-width="0.8"/>')
+        out.append(f'<rect x="{w / 2 + 6}" y="-25" width="15" height="10" rx="2" fill="#EFE6D4" stroke="{INK}" stroke-width="0.9"/>')
+        out.append(f'<path d="M{w / 2 + 8},-25 l-2,-6 l6,3" fill="#EFE6D4" stroke="{INK}" stroke-width="0.7"/>')
+        out.append(f'<line x1="{w / 2 + 21}" y1="-21" x2="{w / 2 + 26}" y2="-21" stroke="{INK}" stroke-width="0.7"/>')
+        out.append(f'<circle cx="{w / 2 + 15}" cy="-22" r="1.1" fill="{INK}"/>')
+        for k in range(4):
+            xk = -w / 2 + 9 + k * 12
+            out.append(f'<line x1="{xk}" y1="2" x2="{xk}" y2="10" stroke="{INK}" stroke-width="0.9"/>')
+        out.append(f'<path d="M{-w / 2},-10 q-8,-3 -10,-9" fill="none" stroke="{INK}" stroke-width="0.8"/>')
+        for k in range(8):
+            xk = -w / 2 + 4 + k * 6.2
+            out.append(f'<line x1="{xk}" y1="-11" x2="{xk + 1.6}" y2="-2" stroke="#B9A98F" stroke-width="0.5"/>')
+        out.append('</g>')
+        return "".join(out)
+
+    # 一、陈：有位次
+    s.append(txt(24, y + 52, "一、陈：祭时它有位次，被郑重摆着", 5.2, SEAL))
+    gy = y + 64
+    s.append(f'<rect x="26" y="{gy}" width="328" height="152" fill="#FBF6EC" stroke="{LINE}" stroke-width="0.8"/>')
+    table = gy + 104
+    s.append(f'<line x1="76" y1="{table}" x2="304" y2="{table}" stroke="{INK}" stroke-width="1.3"/>')
+    s.append(f'<line x1="100" y1="{table}" x2="94" y2="{gy + 142}" stroke="{INK}" stroke-width="1.0"/>')
+    s.append(f'<line x1="280" y1="{table}" x2="286" y2="{gy + 142}" stroke="{INK}" stroke-width="1.0"/>')
+    s.append(f'<path d="M160,{table} L164,{table - 12} L216,{table - 12} L220,{table} z" fill="#E4D8BF" stroke="{INK}" stroke-width="0.9"/>')
+    s.append(f'<path d="M156,{table - 12} L224,{table - 12} L230,{table - 7} L150,{table - 7} z" fill="#EFE6D4" stroke="{SEAL}" stroke-width="0.8"/>')
+    s.append(dog(190, table - 20, rot=0))
+    for hx in (106, 274):
+        s.append(f'<line x1="{hx}" y1="{table}" x2="{hx}" y2="{table - 26}" stroke="{INK}" stroke-width="1.0"/>')
+        s.append(f'<circle cx="{hx}" cy="{table - 26}" r="1.6" fill="{SEAL}"/>')
+        s.append(f'<path d="M{hx},{table - 30} q6,-9 0,-17" fill="none" stroke="#B9A98F" stroke-width="0.6"/>')
+    s.append(txt(190, gy + 26, "陈：有位次", 4.6, GREEN, "middle"))
+    s.append(f'<line x1="190" y1="{gy + 30}" x2="190" y2="{table - 34}" stroke="{LINE2}" stroke-width="0.6" stroke-dasharray="3 2"/>')
+    s.append(txt(250, table - 40, "被恭敬摆着的还是那把草", 4.4, "#6E6459"))
+    s.append(txt(190, gy + 142, "天地给的只是位次，没给主人", 4.5, GREEN, "middle"))
+
+    # 二、复归
+    s.append(txt(24, gy + 172, "二、复归：祭毕回草堆，还是那把草", 5.2, SEAL))
+    gy2 = gy + 184
+    s.append(f'<rect x="26" y="{gy2}" width="328" height="152" fill="#FBF6EC" stroke="{LINE}" stroke-width="0.8"/>')
+    base = gy2 + 116
+    s.append(f'<line x1="40" y1="{base}" x2="330" y2="{base}" stroke="{INK}" stroke-width="1"/>')
+    s.append(f'<path d="M98,{base} q24,-26 54,-24 q30,4 44,24 z" fill="#E4D8BF" stroke="{INK}" stroke-width="0.9"/>')
+    for k in range(8):
+        s.append(f'<line x1="{104 + k * 11}" y1="{base - 3}" x2="{100 + k * 12}" y2="{base - 16 + (k % 3) * 5}" stroke="#B9A98F" stroke-width="0.5"/>')
+    s.append(dog(154, base - 28, rot=-16, w=48))
+    s.append(f'<ellipse cx="168" cy="{base - 22}" rx="4.2" ry="2.4" fill="none" stroke="{SEAL}" stroke-width="0.7"/>')
+    s.append(f'<ellipse cx="180" cy="{base - 20}" rx="4.2" ry="2.4" fill="none" stroke="{SEAL}" stroke-width="0.7"/>')
+    s.append(txt(208, base - 40, "践其首脊", 4.4, SEAL))
+    # 柴捆：一束草，中间一道红绳
+    for k in range(5):
+        s.append(f'<line x1="{262 + k * 5}" y1="{base - 26 + k}" x2="{282 + k * 5}" y2="{base - 6 + k}" stroke="{INK}" stroke-width="0.7"/>')
+    s.append(f'<line x1="{270}" y1="{base - 22}" x2="{290}" y2="{base - 8}" stroke="{SEAL}" stroke-width="1.0"/>')
+    s.append(f'<line x1="{268}" y1="{base - 20}" x2="{276}" y2="{base - 26}" stroke="{SEAL}" stroke-width="0.6"/>')
+    s.append(txt(300, base - 38, "取而爨之", 4.4, SEAL, "end"))
+    s.append(txt(190, gy2 + 140, "位次用完了，它就回草堆——不是被弃，是用完了", 4.5, GREEN, "middle"))
+
+    a = gy2 + 168
+    s.append(txt(24, a, "「不仁」不是狠心，是天地根本没有「我敬了你，你就该应我」那一本账。", 5.4, INK))
+    s.append(txt(24, a + 16, "祭祀有定时，祷无定时；人一祷就记账，天地却只按自己的节律转。", 5.4, INK))
+    s.append(txt(24, a + 34, "刍狗在祭时被敬、祭毕被践，不是天在赏罚它，是它该回草堆了。", 5.2, GREEN))
+
+    c = a + 52
+    s.append(f'<line x1="24" y1="{c}" x2="338" y2="{c}" stroke="{LINE}" stroke-width="0.6"/>')
+    s.append(box(20, c + 8, 340, 40, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, c + 24, "天地不仁，", 6.0, INK, "middle"))
+    s.append(txt(190, c + 36, "不是不慈，是不替你作主。", 6.0, GREEN, "middle"))
+    s.append(gold(c + 62, "ch05b"))
+    s.append('</svg>')
+    out = "\n".join(s)
+    ys = [float(v) for v in re.findall(r'y="([0-9.]+)"', out)]
+    return out.replace("999", str(int(max(ys) + 26)))
+
+
+# ============ 第五章 · 一架天平 ============
+def ch05c_yi_jia_tian_ping():
+    body, y = head(380, 999, "天平求静止，风箱求不断：守中不是把轴钉在 0.5",
+                   "第 五 章 · 天 平", "一架天平", "多言数穷，不如守中。", 999)
+    s = [body]
+
+    s.append(box(20, y + 2, 340, 34, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, y + 14, "天平的两边一配平，看着就稳；可它是死平衡——哪边多一钱，它就歪。", 5.0, INK, "middle"))
+    s.append(txt(190, y + 28, "风箱的轴不钉在刻度上，它在开合里一直走——那才是「中」。", 5.0, "#6E6459", "middle"))
+
+    def balance(cx, cy, tilt=0.0, weights=(1, 1), lock=False):
+        out = []
+        half = 74
+        ly = cy - 40
+        out.append(f'<line x1="{cx}" y1="{ly}" x2="{cx - half}" y2="{ly - tilt * half}" stroke="{INK}" stroke-width="1.1"/>')
+        out.append(f'<line x1="{cx}" y1="{ly}" x2="{cx + half}" y2="{ly + tilt * half}" stroke="{INK}" stroke-width="1.1"/>')
+        out.append(f'<path d="M{cx - 12},{ly + 16} L{cx},{ly} L{cx + 12},{ly + 16} z" fill="#EFE6D4" stroke="{INK}" stroke-width="0.9"/>')
+        out.append(f'<line x1="{cx}" y1="{ly + 16}" x2="{cx}" y2="{cy + 56}" stroke="{INK}" stroke-width="1.1"/>')
+        out.append(f'<path d="M{cx - 26},{cy + 56} L{cx + 26},{cy + 56} L{cx + 20},{cy + 64} L{cx - 20},{cy + 64} z" fill="#E4D8BF" stroke="{INK}" stroke-width="0.9"/>')
+        for side, w in ((-1, weights[0]), (1, weights[1])):
+            ex = cx + side * half
+            ey = ly - tilt * half if side < 0 else ly + tilt * half
+            out.append(f'<line x1="{ex}" y1="{ey}" x2="{ex}" y2="{ey + 16}" stroke="{LINE2}" stroke-width="0.6" stroke-dasharray="3 2"/>')
+            out.append(f'<path d="M{ex - 16},{ey + 16} L{ex + 16},{ey + 16} L{ex + 11},{ey + 26} L{ex - 11},{ey + 26} z" fill="none" stroke="{INK}" stroke-width="0.9"/>')
+            for k in range(w):
+                out.append(f'<rect x="{ex - 5 + k * 2}" y="{ey + 17 + k * 3}" width="9" height="7" fill="#EFE6D4" stroke="{SEAL}" stroke-width="0.6"/>')
+        if lock:
+            out.append(f'<rect x="{cx - 6}" y="{ly + 18}" width="12" height="9" fill="{SEAL}" stroke="{SEAL}" stroke-width="0.8"/>')
+            out.append(f'<path d="M{cx - 3},{ly + 18} q3,-7 6,0" fill="none" stroke="{SEAL}" stroke-width="0.8"/>')
+        return "".join(out)
+
+    # 一、平
+    s.append(txt(24, y + 52, "一、平：两边配平，轴钉死了", 5.2, SEAL))
+    gy = y + 64
+    s.append(f'<rect x="26" y="{gy}" width="328" height="176" fill="#FBF6EC" stroke="{LINE}" stroke-width="0.8"/>')
+    s.append(balance(190, gy + 92, tilt=0.0, weights=(1, 1)))
+    s.append(txt(190, gy + 26, "平", 5.0, GREEN, "middle"))
+    s.append(txt(190, gy + 168, "看着最稳的一刻，也是最脆的一刻：只靠两边恰好相等", 4.5, GREEN, "middle"))
+
+    # 二、歪与钉
+    s.append(txt(24, gy + 196, "二、加一钱：钉死了，就没得挪", 5.2, SEAL))
+    gy2 = gy + 208
+    s.append(f'<rect x="26" y="{gy2}" width="328" height="188" fill="#FBF6EC" stroke="{LINE}" stroke-width="0.8"/>')
+    s.append(balance(190, gy2 + 92, tilt=0.16, weights=(1, 2), lock=True))
+    s.append(txt(268, gy2 + 52, "多一钱就歪", 4.4, SEAL))
+    s.append(f'<line x1="264" y1="{gy2 + 50}" x2="246" y2="{gy2 + 42}" stroke="{LINE2}" stroke-width="0.6" stroke-dasharray="3 2"/>')
+    s.append(txt(152, gy2 + 102, "轴钉死", 4.4, SEAL, "end"))
+    s.append(f'<line x1="156" y1="{gy2 + 100}" x2="182" y2="{gy2 + 84}" stroke="{LINE2}" stroke-width="0.6" stroke-dasharray="3 2"/>')
+    s.append(txt(190, gy2 + 180, "器还在，机死了：钉死即穷——穷不是没钱，是路走到头", 4.5, GREEN, "middle"))
+
+    # 三、对照
+    s.append(txt(24, gy2 + 208, "三、两器对看", 5.2, SEAL))
+    gy3 = gy2 + 220
+    s.append(f'<rect x="26" y="{gy3}" width="328" height="86" fill="#FBF6EC" stroke="{LINE}" stroke-width="0.8"/>')
+    s.append(f'<line x1="26" y1="{gy3 + 43}" x2="354" y2="{gy3 + 43}" stroke="{LINE}" stroke-width="0.6"/>')
+    s.append(f'<line x1="190" y1="{gy3}" x2="190" y2="{gy3 + 86}" stroke="{LINE}" stroke-width="0.6"/>')
+    s.append(txt(108, gy3 + 16, "天平", 5.2, SEAL, "middle"))
+    s.append(txt(108, gy3 + 30, "轴固定，目标静止", 4.4, "#6E6459", "middle"))
+    s.append(txt(272, gy3 + 16, "风箱", 5.2, GREEN, "middle"))
+    s.append(txt(272, gy3 + 30, "轴游走，目标不断", 4.4, "#6E6459", "middle"))
+    s.append(txt(108, gy3 + 58, "求持平：加一点就歪", 4.4, INK, "middle"))
+    s.append(txt(108, gy3 + 72, "守的是一个值", 4.4, "#8A7C69", "middle"))
+    s.append(txt(272, gy3 + 58, "求不断：一直能开合", 4.4, INK, "middle"))
+    s.append(txt(272, gy3 + 72, "守的是一个余地", 4.4, "#8A7C69", "middle"))
+
+    a = gy3 + 108
+    s.append(txt(24, a, "「中」不是 0 与 1 之间的 0.5：0.5 是天平的静止点，靠两边配得刚好。", 5.4, INK))
+    s.append(txt(24, a + 16, "「中」是两极之间可以往复的活支点：不滞在 0 的空寂，也不逐在 1 的驰求。", 5.4, INK))
+    s.append(txt(24, a + 34, "钉死当下看着安稳，过一阵就僵——守中不是找到好位置站住，是随时肯挪。", 5.2, GREEN))
+
+    c = a + 52
+    s.append(f'<line x1="24" y1="{c}" x2="338" y2="{c}" stroke="{LINE}" stroke-width="0.6"/>')
+    s.append(box(20, c + 8, 340, 40, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, c + 24, "中不是 0.5 的天平，", 6.0, INK, "middle"))
+    s.append(txt(190, c + 36, "是风箱里那根一直在走的轴。", 6.0, GREEN, "middle"))
+    s.append(gold(c + 62, "ch05c"))
+    s.append('</svg>')
+    out = "\n".join(s)
+    ys = [float(v) for v in re.findall(r'y="([0-9.]+)"', out)]
+    return out.replace("999", str(int(max(ys) + 26)))
+
+
 # ============ 第六章 · 谷神 ============
 def ch06_gu_shen():
     W, H = 380, 484
@@ -5083,6 +5251,8 @@ def ch04c_si_bu():
 
 
 GOLD = {
+    "ch05b": ["天地不仁，以万物为刍狗。", "刍者，束草也；刍狗有位而无主——用毕回草堆，不是被弃，是位次用完了。"],
+    "ch05c": ["多言数穷，不如守中。", "中者，非 0 与 1 之间之 0.5；天平的轴固定，风箱的轴在开合里走——钉死即穷。"],
     "ch02b": ["天下皆知美之为美，斯恶已。", "立美那一刻，丑才成立——不是先有丑，再立美。"],
     "ch02c": ["音声相和，前后相随。", "和者，《说文》「相应也」；龢从龠从禾，训「调」——一唱一应，各自成声。"],
     "ch03b": ["不尚贤，使民不争；不贵难得之货，使民不为盗。", "尚者，抬之使高也；贵者，标之使重也——三个「不」，是一个动作：不主动起标。"],
@@ -11316,6 +11486,8 @@ FIGS = {
     "ch21-kong-de": ("第二十一章", "由粗到细", ch21_kong_de),
     "ch03-shang-ji-guo-du": ("第三章", "尚即过度", ch03_shang_ji_guo_du),
     "ch04-dao-chong": ("第四章", "装不满的空", ch04_dao_chong),
+    "ch05b-yi-zhi-chu-gou": ("第五章", "一只刍狗", ch05b_yi_zhi_chu_gou),
+    "ch05c-yi-jia-tian-ping": ("第五章", "一架天平", ch05c_yi_jia_tian_ping),
     "ch05-tuo-yue": ("第五章", "中不是点，是枢", ch05_tuo_yue),
     "ch06-gu-shen": ("第六章", "谷神不死", ch06_gu_shen),
     "ch07-bu-zi-sheng": ("第七章", "不自生", ch07_bu_zi_sheng),
