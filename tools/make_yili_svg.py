@@ -978,6 +978,147 @@ def ch05c_yi_ba_suo():
 
 
 
+# ============ 第六章 · 一口谷 ============
+def ch06b_yi_kou_gu():
+    body, y = head(380, 999, "生机不在满处，在空处：满缸不受，空谷能受",
+                   "第 六 章 · 谷", "一口谷", "谷神不死，是谓玄牝。", 999)
+    s = [body]
+
+    s.append(box(20, y + 2, 340, 34, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, y + 14, "「谷」不是稻谷，是山谷：两山之间的空处，水深所归，风所过，草木所生。", 5.0, INK, "middle"))
+    s.append(txt(190, y + 28, "谷不生产什么，它只是深、只是空；正因为空，水才往那里走。", 5.0, "#6E6459", "middle"))
+
+    # 一、满缸：不受
+    s.append(txt(24, y + 52, "一、满缸：装满了，再倒就往外淌", 5.2, SEAL))
+    gy = y + 64
+    s.append(f'<rect x="26" y="{gy}" width="328" height="176" fill="#FBF6EC" stroke="{LINE}" stroke-width="0.8"/>')
+    base = gy + 148
+    s.append(f'<line x1="60" y1="{base}" x2="320" y2="{base}" stroke="{INK}" stroke-width="1"/>')
+    cx = 190
+    ym = base - 92
+    s.append(f'<path d="M{cx - 58},{ym} q6,58 14,74 q30,16 74,0 q8,-16 14,-74 z" fill="#D8CBAC" stroke="{INK}" stroke-width="1.2"/>')
+    s.append(f'<ellipse cx="{cx}" cy="{ym}" rx="58" ry="9" fill="#D8CBAC" stroke="{INK}" stroke-width="1"/>')
+    for k in range(3):
+        s.append(f'<path d="M{cx - 44 + k * 10},{ym + 4} q14,-6 28,0" fill="none" stroke="#B39A72" stroke-width="0.6"/>')
+    # 溢
+    s.append(f'<path d="M{cx + 58},{ym + 3} q13,20 6,38" fill="none" stroke="{SEAL}" stroke-width="1.0"/>')
+    s.append(f'<path d="M{cx - 58},{ym + 3} q-13,18 -6,34" fill="none" stroke="{SEAL}" stroke-width="1.0"/>')
+    s.append(txt(cx + 80, ym + 26, "倒不进", 4.4, SEAL))
+    s.append(txt(cx - 80, ym + 26, "往下淌", 4.4, SEAL, "end"))
+    # 勺与注水
+    s.append(f'<path d="M{cx - 6},{ym - 52} q-14,10 0,14 q14,-4 0,-14 z" fill="{PAPER}" stroke="{INK}" stroke-width="0.9"/>')
+    s.append(f'<line x1="{cx - 6}" y1="{ym - 52}" x2="{cx + 12}" y2="{ym - 68}" stroke="{INK}" stroke-width="1.1"/>')
+    s.append(f'<path d="M{cx - 2},{ym - 40} q3,10 2,16" fill="none" stroke="{LINE2}" stroke-width="0.8"/>')
+    s.append(txt(190, gy + 168, "满了就是满了：再多一勺，也只是从口沿淌下去", 4.5, GREEN, "middle"))
+
+    # 二、空谷：能受
+    s.append(txt(24, gy + 196, "二、空谷：它什么都不装，水自来聚", 5.2, GREEN))
+    gy2 = gy + 208
+    s.append(f'<rect x="26" y="{gy2}" width="328" height="176" fill="#FBF6EC" stroke="{LINE}" stroke-width="0.8"/>')
+    gb = gy2 + 150
+    s.append(f'<path d="M26,{gb} q56,-96 118,-30 q18,12 32,30 z" fill="#EFE6D4" stroke="{INK}" stroke-width="1.0"/>')
+    s.append(f'<path d="M354,{gb} q-56,-96 -118,-30 q-18,12 -32,30 z" fill="#EFE6D4" stroke="{INK}" stroke-width="1.0"/>')
+    s.append(f'<line x1="26" y1="{gb}" x2="354" y2="{gb}" stroke="{INK}" stroke-width="1"/>')
+    # 谷底水与草
+    s.append(f'<path d="M150,{gb} q40,-8 80,0" fill="none" stroke="#8FA6A0" stroke-width="2.0" opacity="0.5"/>')
+    for k in range(4):
+        xk = 166 + k * 14
+        s.append(f'<path d="M{xk},{gb - 2} q3,-10 7,-14" fill="none" stroke="{GREEN}" stroke-width="0.7"/>')
+    # 水自上入谷
+    for k in range(3):
+        s.append(f'<line x1="{176 + k * 12}" y1="{gy2 + 4}" x2="{176 + k * 12 + 2}" y2="{gy2 + 78 + k * 8}" stroke="#8FA6A0" stroke-width="0.9" opacity="0.8"/>')
+    s.append(arrow(190, gy2 + 96, 190, gb - 8, "#8FA6A0", 1.0, None, "arr2"))
+    s.append(txt(254, gy2 + 34, "水往低处走", 4.4, "#6E6459"))
+    # 风在谷里回
+    for k in range(2):
+        s.append(f'<path d="M96,{gy2 + 70 + k * 10} q40,-8 78,-2" fill="none" stroke="#B9A98F" stroke-width="0.6"/>')
+    s.append(txt(96, gy2 + 58, "风在谷里回", 4.4, "#8A7C69"))
+    s.append(txt(190, gy2 + 168, "谷不去装，也不去留：能受，所以能生", 4.5, GREEN, "middle"))
+
+    a = gy2 + 196
+    s.append(txt(24, a, "生机不在满处，在空处；不在取处，在受处——这是全章第一句的落点。", 5.4, INK))
+    s.append(txt(24, a + 16, "谷填平了就没有谷；能让它一直生的，不是哪一汪水，是那处空一直在。", 5.4, INK))
+    s.append(txt(24, a + 34, "「不死」不是哪一样东西活得久，是「空而能受」这个结构从来不断。", 5.2, GREEN))
+
+    c = a + 52
+    s.append(f'<line x1="24" y1="{c}" x2="338" y2="{c}" stroke="{LINE}" stroke-width="0.6"/>')
+    s.append(box(20, c + 8, 340, 40, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, c + 24, "满的，倒不进；", 6.0, INK, "middle"))
+    s.append(txt(190, c + 36, "空的，水自来。", 6.0, GREEN, "middle"))
+    s.append(gold(c + 62, "ch06b"))
+    s.append('</svg>')
+    out = "\n".join(s)
+    ys = [float(v) for v in re.findall(r'y="([0-9.]+)"', out)]
+    return out.replace("999", str(int(max(ys) + 26)))
+
+
+# ============ 第六章 · 一扇门轴 ============
+def ch06c_yi_shan_men_zhou():
+    body, y = head(380, 999, "门在开合处，不在门板上；一着手去推，它就成了一堵墙",
+                   "第 六 章 · 门", "一扇门轴", "玄牝之门，是谓天地根。", 999)
+    s = [body]
+
+    s.append(box(20, y + 2, 340, 34, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, y + 14, "「门」不是门框门扇：门是出入处，在开合之间。", 5.0, INK, "middle"))
+    s.append(txt(190, y + 28, "玄牝之门不是某个固定点位，是牡牝两端交互出入的那处枢机。", 5.0, "#6E6459", "middle"))
+
+    # 一、门在开合处
+    s.append(txt(24, y + 52, "一、开：门缝里出得来东西", 5.2, GREEN))
+    gy = y + 64
+    s.append(f'<rect x="26" y="{gy}" width="328" height="180" fill="#FBF6EC" stroke="{LINE}" stroke-width="0.8"/>')
+    ft, fb = gy + 30, gy + 150
+    s.append(f'<rect x="126" y="{ft}" width="128" height="{fb - ft}" fill="{PAPER}" stroke="{INK}" stroke-width="1.4"/>')
+    # 左扇稍开，右扇合着；缝中是光
+    s.append(f'<path d="M126,{ft} L186,{ft + 6} L186,{fb - 6} L126,{fb} z" fill="#EBD9CE" stroke="{INK}" stroke-width="0.9"/>')
+    s.append(f'<path d="M254,{ft} L200,{ft + 6} L200,{fb - 6} L254,{fb} z" fill="#EFE6D4" stroke="{INK}" stroke-width="0.9"/>')
+    for k in range(3):
+        s.append(f'<line x1="{384 + 0}" y1="0" x2="0" y2="0" stroke="none"/>')
+    s.append(f'<path d="M193,{ft + 8} L193,{fb - 8} L200,{fb - 6} L200,{ft + 6} z" fill="#F6E9BF" stroke="none"/>')
+    # 光与出物
+    for k in range(3):
+        s.append(f'<line x1="202" y1="{ft + 44 + k * 30}" x2="222" y2="{ft + 40 + k * 30}" stroke="#D9C07A" stroke-width="0.8" opacity="0.85"/>')
+    s.append(f'<circle cx="232" cy="{ft + 58}" r="2.6" fill="none" stroke="{GREEN}" stroke-width="0.6"/>')
+    s.append(f'<circle cx="240" cy="{ft + 92}" r="2.0" fill="none" stroke="{GREEN}" stroke-width="0.6"/>')
+    s.append(txt(300, ft + 16, "门缝：显化从这里出去", 4.3, GREEN, "end"))
+    s.append(txt(190, gy + 168, "门不在门板上，在两扇之间那道还没合死的缝", 4.5, GREEN, "middle"))
+
+    # 二、推它，就成了墙
+    s.append(txt(24, gy + 200, "二、推：一着手去定位，缝就没了", 5.2, SEAL))
+    gy2 = gy + 212
+    s.append(f'<rect x="26" y="{gy2}" width="328" height="180" fill="#FBF6EC" stroke="{LINE}" stroke-width="0.8"/>')
+    ft2, fb2 = gy2 + 30, gy2 + 150
+    s.append(f'<rect x="126" y="{ft2}" width="128" height="{fb2 - ft2}" fill="#E4D8BF" stroke="{INK}" stroke-width="1.4"/>')
+    s.append(f'<line x1="190" y1="{ft2}" x2="190" y2="{fb2}" stroke="{INK}" stroke-width="0.6" stroke-dasharray="2 3"/>')
+    for k in range(5):
+        s.append(f'<line x1="{132 + k * 24}" y1="{ft2}" x2="{132 + k * 24}" y2="{fb2}" stroke="#B9A98F" stroke-width="0.4"/>')
+    # 手：掌＋四指＋拇指
+    hx, hy = 216, gy2 + 100
+    s.append(f'<rect x="{hx - 12}" y="{hy - 9}" width="24" height="18" rx="5" fill="#EFE6D4" stroke="{INK}" stroke-width="1.0"/>')
+    for k in range(4):
+        s.append(f'<rect x="{hx - 10 + k * 5.6}" y="{hy - 20 - (1 - abs(1.5 - k)) * 2}" width="4" height="12" rx="2" fill="#EFE6D4" stroke="{INK}" stroke-width="0.8"/>')
+    s.append(f'<rect x="{hx - 18}" y="{hy - 6}" width="9" height="4.4" rx="2" fill="#EFE6D4" stroke="{INK}" stroke-width="0.8"/>')
+    s.append(f'<line x1="{hx + 12}" y1="{hy + 2}" x2="{hx + 24}" y2="{hy + 10}" stroke="{INK}" stroke-width="0.8"/>')
+    s.append(txt(258, hy - 26, "推住了", 4.4, SEAL))
+    s.append(f'<line x1="254" y1="{hy - 24}" x2="236" y2="{hy - 16}" stroke="{LINE2}" stroke-width="0.6" stroke-dasharray="3 2"/>')
+    s.append(txt(190, gy2 + 168, "一遇定位、占有，门当场变成了墙：通道闭塞", 4.5, SEAL, "middle"))
+
+    a = gy2 + 196
+    s.append(txt(24, a, "门是出入处：不在门板，在开合。所以「玄牝之门」不是可找到、可占住的地方。", 5.4, INK))
+    s.append(txt(24, a + 16, "凡从隐到显、从无到有，都经由这道门流出；可它不在天地之外，就在冲虚本身。", 5.4, INK))
+    s.append(txt(24, a + 34, "「绵绵若存」的「若」，正是不许你把「存」把持成一个可守的东西——一守，就没了。", 5.2, GREEN))
+
+    c = a + 52
+    s.append(f'<line x1="24" y1="{c}" x2="338" y2="{c}" stroke="{LINE}" stroke-width="0.6"/>')
+    s.append(box(20, c + 8, 340, 40, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, c + 24, "门在开合处，不在门板上；", 6.0, INK, "middle"))
+    s.append(txt(190, c + 36, "一着手去推，它就成了一堵墙。", 6.0, GREEN, "middle"))
+    s.append(gold(c + 62, "ch06c"))
+    s.append('</svg>')
+    out = "\n".join(s)
+    ys = [float(v) for v in re.findall(r'y="([0-9.]+)"', out)]
+    return out.replace("999", str(int(max(ys) + 26)))
+
+
 # ============ 第六章 · 谷神 ============
 def ch06_gu_shen():
     W, H = 380, 484
@@ -5236,6 +5377,8 @@ def ch04c_si_bu():
 
 
 GOLD = {
+    "ch06b": ["谷神不死，是谓玄牝。", "谷者，两山间之空也；能受故能生，生而不有故不竭——生机不在满处，在空处。"],
+    "ch06c": ["玄牝之门，是谓天地根。", "门在开合处，不在门板上；一着手去推，它就成了一堵墙。"],
     "ch05b": ["天地不仁，以万物为刍狗。", "刍者，束草也；刍狗有位而无主——用毕回草堆，不是被弃，是位次用完了。"],
     "ch05c": ["多言数穷，不如守中。", "穷者，路走到头也；锁在 0、锁在 1、锁在自以为稳的中间——枢不动，机就死。"],
     "ch02b": ["天下皆知美之为美，斯恶已。", "立美那一刻，丑才成立——不是先有丑，再立美。"],
@@ -11474,6 +11617,8 @@ FIGS = {
     "ch05b-yi-zhi-chu-gou": ("第五章", "一只刍狗", ch05b_yi_zhi_chu_gou),
     "ch05c-yi-ba-suo": ("第五章", "一把锁", ch05c_yi_ba_suo),
     "ch05-tuo-yue": ("第五章", "中不是点，是枢", ch05_tuo_yue),
+    "ch06b-yi-kou-gu": ("第六章", "一口谷", ch06b_yi_kou_gu),
+    "ch06c-yi-shan-men-zhou": ("第六章", "一扇门轴", ch06c_yi_shan_men_zhou),
     "ch06-gu-shen": ("第六章", "谷神不死", ch06_gu_shen),
     "ch07-bu-zi-sheng": ("第七章", "不自生", ch07_bu_zi_sheng),
     "ch08-shang-shan": ("第八章", "上善若水", ch08_shang_shan),
