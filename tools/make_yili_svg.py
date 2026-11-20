@@ -180,43 +180,40 @@ def ch01_zhi_yue():
 
 # ============ 第一章 · 妙徼两层 ============
 def ch01_miao_jiao():
-    W, H = 380, 710
-    body, y = head(W, H, "观妙与观徼：向下探未形，向上看见界", "第 一 章 · 观 法", "观妙 · 观徼",
-                   "同一件事，向下看是「妙」，向上看是「徼」。", H)
+    W, H = 380, 436
+    body, y = head(W, H, "观妙与观徼：同一条链，两头读", "第 一 章 · 观 法", "观妙 · 观徼",
+                   "不是上下两层，是同一条存在的链，两种读法。", H)
     s = [body]
-    cx = 168
-    top, bot = y + 10, y + 424
-    s.append(vline(cx, top, bot, "#C9B79A", 1.2))
-    s.append(arrow(cx, top, cx, top - 6, "#6E6459", 1.2))
-    s.append(arrow(cx, bot, cx, bot + 6, "#6E6459", 1.2))
-    # 上：徼
-    s.append(txt(cx + 22, top + 16, "徼 · 已显", 11, GREEN))
-    s.append(txt(cx + 22, top + 34, "层层显化：星系 · 生命 · 社群", 10, "#6E6459"))
-    for i, lab in enumerate(["星系", "生命", "社群"]):
-        yy = top + 58 + i * 30
-        s.append(f'<line x1="{cx - 26}" y1="{yy}" x2="{cx - 4}" y2="{yy}" stroke="{LINE}" stroke-width="1"/>')
-        s.append(txt(cx - 32, yy + 4, lab, 9.5, "#8A7C69", "end"))
-    # 中：界
-    ymid = top + 196
-    s.append(f'<ellipse cx="{cx}" cy="{ymid}" rx="88" ry="20" fill="none" stroke="{LINE}" stroke-width="1" stroke-dasharray="3 3"/>')
-    s.append(txt(cx, ymid + 4, "显 界", 10.5, "#6E6459", "middle", spacing="2"))
-    s.append(txt(cx, ymid + 36, "界之内是「有」；界之外不是空，是未显。", 10, "#6E6459", "middle"))
-    # 下：妙
-    yb2 = top + 292
-    s.append(txt(cx + 22, yb2, "妙 · 未形", 11, SEAL))
-    s.append(txt(cx + 22, yb2 + 18, "未定形处：量子 · 势能 · 未有之势", 10, "#6E6459"))
-    s.append(txt(cx + 22, yb2 + 38, "不是没有，是还没显", 10, "#6E6459"))
-    for i, lab in enumerate(["量子", "势能", "未发"]):
-        yy = yb2 + 62 + i * 26
-        s.append(f'<line x1="{cx - 26}" y1="{yy}" x2="{cx - 4}" y2="{yy}" stroke="{LINE}" stroke-width="1" stroke-dasharray="2 3"/>')
-        s.append(txt(cx - 32, yy + 4, lab, 9.5, "#8A7C69", "end"))
-    s.append(txt(cx, bot + 40, "两头都是同一件事：说「有」或说「无」，只在你站界内还是界外。", 10.5, "#6E6459", "middle"))
+    s.append(box(20, y, 340, 200, fill="#FBF6EC"))
+    # 轴
+    ya = y + 156
+    s.append(arrow(36, ya, 338, ya, color="#C9B79A", width=0.7, head="arrL"))
+    s.append(txt(38, ya + 16, "小", 8.0, "#6E6459"))
+    s.append(txt(336, ya + 16, "大", 8.0, "#6E6459", "end"))
+    # 层级刻度
+    for x, name in ((64, "量子"), (108, "原子"), (152, "分子"), (200, "生命"), (250, "社群"), (306, "星系")):
+        s.append(f'<line x1="{x}" y1="{ya - 3}" x2="{x}" y2="{ya + 3}" stroke="#C9B79A" stroke-width="0.5"/>')
+        s.append(txt(x, ya + 16, name, 7.4, "#6E6459", "middle"))
+    # 两条曲线：赭为妙（越小越厚），青为徼（越大越明）
+    s.append(f'<path d="M40,{y + 40} C 150,{y + 66} 250,{y + 120} 340,{y + 150}" fill="none" stroke="{SEAL}" stroke-width="1.2"/>')
+    s.append(f'<path d="M40,{y + 150} C 140,{y + 150} 240,{y + 72} 296,{y + 40}" fill="none" stroke="{GREEN}" stroke-width="1.2"/>')
+    # 交点：玄
+    s.append(f'<circle cx="216" cy="{y + 92}" r="14" fill="#FBF6EC" stroke="{SEAL}" stroke-width="0.7"/>')
+    s.append(txt(216, y + 96, "玄", 11, SEAL, "middle"))
+    # 两端标注
+    s.append(txt(44, y + 24, "妙 · 未显", 9.4, SEAL))
+    s.append(txt(44, y + 84, "越往小，生机越厚", 7.8, "#6E6459"))
+    s.append(txt(336, y + 24, "徼 · 已显", 9.4, GREEN, "end"))
+    s.append(txt(336, y + 62, "越往大，分际越明", 7.8, "#6E6459", "end"))
+    # 结论
+    s.append(txt(190, y + 222, "小而无内，大而无外；两头是同一件事。", 10.5, INK, "middle", spacing="1"))
+    s.append(txt(190, y + 244, "说「有」还是说「无」，只在你读它显了几分——", 10, "#6E6459", "middle"))
+    s.append(txt(190, y + 260, "不是两个东西，是同一条链的两端。", 10, GREEN, "middle"))
     s.append(gold(H - 68, "ch01a"))
     s.append('</svg>')
     return "\n".join(s)
 
 
-# ============ 第二章 · 六组对偶 ============
 def ch02_liu_zu():
     W, H = 380, 622
     body, y = head(W, H, "六组对偶：执名则生对立", "第 二 章 · 对 照", "六组对偶",
