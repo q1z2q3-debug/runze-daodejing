@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 380 726" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="天道无亲：它不进门，就挂在门口" font-family="'Noto Serif CJK SC','Noto Serif SC','Songti SC',serif">
+<defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#6E6459"/></marker><marker id="arr2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#4A5C55"/></marker><marker id="arrL" viewBox="0 0 10 10" refX="1" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M10 0 L0 5 L10 10 z" fill="#4A5C55"/></marker><marker id="arrS" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#A2503B"/></marker></defs>
+<rect x="0" y="0" width="380" height="726" fill="#F8F3E6"/>
+<text x="20" y="26" font-size="11" fill="#A2503B" font-family="'Noto Sans CJK SC','Noto Sans SC',sans-serif" letter-spacing="3">第 七 十 九 章 · 亲</text>
+<text x="20" y="58" font-size="21" fill="#2F2A24">一杆秤</text>
+<text x="20" y="78" font-size="10.5" fill="#6E6459">天道无亲，常与善人。</text>
+<rect x="20" y="102" width="340" height="32" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="190" y="114" font-size="4.7" fill="#2F2A24" text-anchor="middle">它不挑东西，什么都称；它不进门，就挂在门口。</text>
+<text x="190" y="127" font-size="4.7" fill="#6E6459" text-anchor="middle">「无亲」不是无情，是不认人：两边一样重，它才平。</text>
+<text x="24" y="150" font-size="4.8" fill="#A2503B">一、什么都称：不分亲疏</text>
+<rect x="26" y="162" width="328" height="152" fill="#FBF6EC" stroke="#DCCBB0" stroke-width="0.8"/>
+<line x1="72" y1="218" x2="308" y2="218" stroke="#2F2A24" stroke-width="2.2"/>
+<polygon points="182,216 192,216 187,188" fill="#DED2B8" stroke="#2F2A24" stroke-width="1"/>
+<line x1="34" y1="258" x2="330" y2="258" stroke="#DCCBB0" stroke-width="0.8"/>
+<line x1="72" y1="218" x2="56" y2="240" stroke="#2F2A24" stroke-width="0.8"/>
+<line x1="72" y1="218" x2="88" y2="240" stroke="#2F2A24" stroke-width="0.8"/>
+<path d="M54,240 Q72,260 90,240" fill="#EFE6D4" stroke="#2F2A24" stroke-width="1"/>
+<rect x="62" y="224" width="20" height="14" fill="#DED2B8" stroke="#2F2A24" stroke-width="0.9"/>
+<line x1="308" y1="218" x2="292" y2="240" stroke="#2F2A24" stroke-width="0.8"/>
+<line x1="308" y1="218" x2="324" y2="240" stroke="#2F2A24" stroke-width="0.8"/>
+<path d="M290,240 Q308,260 326,240" fill="#EFE6D4" stroke="#2F2A24" stroke-width="1"/>
+<path d="M292,240 q16,-14 32,0" fill="#DED2B8" stroke="#2F2A24" stroke-width="0.9"/>
+<text x="72" y="278" font-size="4.2" fill="#6E6459" text-anchor="middle">一块石</text>
+<text x="308" y="278" font-size="4.2" fill="#6E6459" text-anchor="middle">一捧谷</text>
+<text x="190" y="278" font-size="4.3" fill="#A2503B" text-anchor="middle">什么都称</text>
+<text x="190" y="330" font-size="4.6" fill="#4A5C55" text-anchor="middle">它不挑东西：石与谷，两盘一样重就平</text>
+<text x="24" y="354" font-size="4.8" fill="#4A5C55">二、不进门：挂在门口</text>
+<rect x="26" y="366" width="328" height="152" fill="#FBF6EC" stroke="#DCCBB0" stroke-width="0.8"/>
+<line x1="34" y1="498" x2="330" y2="498" stroke="#2F2A24" stroke-width="1"/>
+<rect x="86" y="406" width="96" height="92" fill="#F2EADA" stroke="#2F2A24" stroke-width="1.2"/>
+<line x1="134" y1="406" x2="134" y2="498" stroke="#2F2A24" stroke-width="1"/>
+<circle cx="126" cy="454" r="2" fill="#2F2A24"/>
+<circle cx="142" cy="454" r="2" fill="#2F2A24"/>
+<text x="134" y="516" font-size="4.2" fill="#6E6459" text-anchor="middle">门里</text>
+<line x1="238" y1="394" x2="238" y2="418" stroke="#2F2A24" stroke-width="1.2"/>
+<line x1="214" y1="418" x2="262" y2="418" stroke="#2F2A24" stroke-width="2"/>
+<polygon points="232,416 242,416 237,396" fill="#DED2B8" stroke="#2F2A24" stroke-width="1"/>
+<line x1="212" y1="418" x2="206" y2="450" stroke="#2F2A24" stroke-width="0.8"/>
+<line x1="216" y1="418" x2="222" y2="450" stroke="#2F2A24" stroke-width="0.8"/>
+<line x1="260" y1="418" x2="254" y2="450" stroke="#2F2A24" stroke-width="0.8"/>
+<line x1="264" y1="418" x2="270" y2="450" stroke="#2F2A24" stroke-width="0.8"/>
+<path d="M204,450 Q214,464 224,450" fill="#EFE6D4" stroke="#2F2A24" stroke-width="1"/>
+<path d="M252,450 Q262,464 272,450" fill="#EFE6D4" stroke="#2F2A24" stroke-width="1"/>
+<text x="238" y="476" font-size="4.2" fill="#A2503B" text-anchor="middle">挂在门外</text>
+<text x="190" y="534" font-size="4.6" fill="#4A5C55" text-anchor="middle">不入门者，与善人居：它不进谁家，才称得平</text>
+<text x="24" y="558" font-size="4.8" fill="#2F2A24">「无亲」不是无情：亲是偏向，无亲是不偏向。</text>
+<text x="24" y="574" font-size="4.8" fill="#2F2A24">天道不进谁家门，所以它称谁家的东西都一样重。</text>
+<text x="24" y="592" font-size="5.0" fill="#4A5C55">天道无亲，故不入门；不入门者，与善人居。</text>
+<line x1="24" y1="610" x2="338" y2="610" stroke="#DCCBB0" stroke-width="0.6"/>
+<rect x="20" y="618" width="340" height="40" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="190" y="633" font-size="5.4" fill="#2F2A24" text-anchor="middle">天道无亲，常与善人。</text>
+<text x="190" y="646" font-size="4.7" fill="#4A5C55" text-anchor="middle">无亲者，不偏向也。</text>
+<line x1="20" y1="674" x2="360" y2="674" stroke="#E6D8C2" stroke-width="0.8"/>
+<text x="20" y="688" font-size="8.0" fill="#A89577" letter-spacing="1">本 章 金 句</text>
+<text x="20" y="704" font-size="8.4" fill="#2F2A24">天道无亲，常与善人。</text>
+<text x="20" y="720" font-size="8.4" fill="#2F2A24">亲者，近也；无亲者，不偏向也。</text>
+</svg>

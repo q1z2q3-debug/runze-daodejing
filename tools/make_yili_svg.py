@@ -4063,6 +4063,198 @@ def ch78c_yi_kuai_pai_wei():
     return "\n".join(s)
 
 
+def ch79a_ban_pian_mu():
+    W, H = 380, 728
+    body, y = head(W, H, "契剖开了，所以只剩一半；它不响，但它一直在",
+                   "第 七 十 九 章 · 契", "半片木", "是以圣人执左契，而不责于人。", H)
+    s = [body]
+
+    s.append(box(20, y + 2, 340, 32, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, y + 14, "契，刻木为信：一剖两半，债权人执左，负债者执右。", 4.7, INK, "middle"))
+    s.append(txt(190, y + 27, "两半只有并起来才看得出齿；分开时，各自只是一块木。", 4.7, "#6E6459", "middle"))
+
+    s.append(txt(24, y + 50, "一、一剖两半：齿要对得上", 4.8, SEAL))
+    gy = y + 62
+    s.append(f'<rect x="26" y="{gy}" width="328" height="152" fill="#FBF6EC" stroke="{LINE}" stroke-width="0.8"/>')
+    # 两片木，中间剖线
+    s.append(f'<rect x="86" y="{gy + 44}" width="46" height="88" rx="2" fill="#EFE6D4" stroke="{INK}" stroke-width="1.2"/>')
+    s.append(f'<rect x="150" y="{gy + 44}" width="46" height="88" rx="2" fill="#EFE6D4" stroke="{INK}" stroke-width="1.2"/>')
+    s.append(f'<line x1="134" y1="{gy + 44}" x2="134" y2="{gy + 132}" stroke="{SEAL}" stroke-width="1" stroke-dasharray="4 3"/>')
+    for i in range(4):
+        yy = gy + 58 + i * 20
+        s.append(f'<line x1="132" y1="{yy}" x2="118" y2="{yy}" stroke="{INK}" stroke-width="1.4"/>')
+        s.append(f'<line x1="136" y1="{yy}" x2="150" y2="{yy}" stroke="{INK}" stroke-width="1.4"/>')
+    s.append(txt(108, gy + 30, "左契", 4.3, SEAL, "middle"))
+    s.append(txt(172, gy + 30, "右契", 4.3, "#6E6459", "middle"))
+    s.append(txt(216, gy + 74, "齿对得上，", 4.3, SEAL))
+    s.append(txt(216, gy + 86, "才认得出这一份", 4.3, "#6E6459"))
+    s.append(txt(190, gy + 168, "剖开过，所以只剩一半：它记得住，是靠那道齿", 4.6, GREEN, "middle"))
+
+    s.append(txt(24, gy + 192, "二、执在手上，但不伸出去", 4.8, GREEN))
+    gy2 = gy + 204
+    s.append(f'<rect x="26" y="{gy2}" width="328" height="152" fill="#FBF6EC" stroke="{LINE}" stroke-width="0.8"/>')
+    s.append(f'<line x1="34" y1="{gy2 + 134}" x2="330" y2="{gy2 + 134}" stroke="{INK}" stroke-width="1"/>')
+    # 人：执左契于胸前
+    s.append(f'<circle cx="120" cy="{gy2 + 44}" r="8" fill="none" stroke="{INK}" stroke-width="1"/>')
+    s.append(f'<path d="M110,{gy2 + 58} L130,{gy2 + 58} L132,{gy2 + 104} L108,{gy2 + 104} Z" fill="#EFE6D4" stroke="{INK}" stroke-width="1"/>')
+    s.append(f'<line x1="110" y1="{gy2 + 104}" x2="108" y2="{gy2 + 132}" stroke="{INK}" stroke-width="1.2"/>')
+    s.append(f'<line x1="130" y1="{gy2 + 104}" x2="132" y2="{gy2 + 132}" stroke="{INK}" stroke-width="1.2"/>')
+    # 那片木，握在手中
+    s.append(f'<rect x="122" y="{gy2 + 70}" width="26" height="34" rx="2" fill="#DED2B8" stroke="{INK}" stroke-width="1.1"/>')
+    for i in range(3):
+        s.append(f'<line x1="122" y1="{gy2 + 76 + i * 9}" x2="134" y2="{gy2 + 76 + i * 9}" stroke="{INK}" stroke-width="0.9"/>')
+    s.append(txt(136, gy2 + 66, "左契在手上", 4.2, SEAL))
+    # 对面的人（虚影）
+    s.append(f'<circle cx="272" cy="{gy2 + 48}" r="7" fill="none" stroke="#B9A98F" stroke-width="1"/>')
+    s.append(f'<path d="M264,{gy2 + 60} L280,{gy2 + 60} L282,{gy2 + 100} L262,{gy2 + 100} Z" fill="none" stroke="#B9A98F" stroke-width="1"/>')
+    s.append(txt(272, gy2 + 118, "欠他的人", 4.2, "#B9A98F", "middle"))
+    # 虚线伸出去又停住
+    s.append(f'<path d="M150,{gy2 + 88} L204,{gy2 + 88}" fill="none" stroke="{SEAL}" stroke-width="1" stroke-dasharray="4 3"/>')
+    s.append(f'<line x1="204" y1="{gy2 + 82}" x2="204" y2="{gy2 + 94}" stroke="{SEAL}" stroke-width="1.2"/>')
+    s.append(txt(204, gy2 + 106, "停在这里", 4.2, SEAL, "middle"))
+    s.append(txt(190, gy2 + 168, "执而不责：有凭据，却不用它去索", 4.6, GREEN, "middle"))
+
+    a = gy2 + 192
+    s.append(txt(24, a, "大怨既成，和亦有痕；善者不待其成。", 4.8, INK))
+    s.append(txt(24, a + 16, "契不响，账出声：一个只存着，一个天天在算。", 4.8, INK))
+    s.append(txt(24, a + 34, "有而不取，是为有德。", 5.0, GREEN))
+
+    c = a + 52
+    s.append(f'<line x1="24" y1="{c}" x2="338" y2="{c}" stroke="{LINE}" stroke-width="0.6"/>')
+    s.append(box(20, c + 8, 340, 40, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, c + 23, "是以圣人执左契，而不责于人。", 5.2, INK, "middle"))
+    s.append(txt(190, c + 36, "执契而不责。", 4.7, GREEN, "middle"))
+    s.append(gold(c + 64, "ch79a"))
+    s.append('</svg>')
+    return "\n".join(s)
+
+
+def ch79b_yi_zhang_zhang():
+    W, H = 380, 728
+    body, y = head(W, H, "契只存着，账天天在算",
+                   "第 七 十 九 章 · 彻", "一张账", "有德司契，无德司彻。", H)
+    s = [body]
+
+    s.append(box(20, y + 2, 340, 32, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, y + 14, "彻，通也：通篇算过的账。它每月重算，所以永远有新数。", 4.7, INK, "middle"))
+    s.append(txt(190, y + 27, "契刻着齿，账写着数：一个记得住，一个算得清。", 4.7, "#6E6459", "middle"))
+
+    s.append(txt(24, y + 50, "一、账摊开着：天天在算", 4.8, SEAL))
+    gy = y + 62
+    s.append(f'<rect x="26" y="{gy}" width="328" height="152" fill="#FBF6EC" stroke="{LINE}" stroke-width="0.8"/>')
+    # 摊开的账册：两页
+    s.append(f'<path d="M92,{gy + 44} L188,{gy + 52} L188,{gy + 118} L92,{gy + 110} Z" fill="#EFE6D4" stroke="{INK}" stroke-width="1.2"/>')
+    s.append(f'<path d="M284,{gy + 44} L188,{gy + 52} L188,{gy + 118} L284,{gy + 110} Z" fill="#EFE6D4" stroke="{INK}" stroke-width="1.2"/>')
+    for i in range(5):
+        s.append(f'<line x1="102" y1="{gy + 58 + i * 11}" x2="176" y2="{gy + 62 + i * 11}" stroke="#B9A98F" stroke-width="0.7"/>')
+        s.append(f'<line x1="200" y1="{gy + 62 + i * 11}" x2="274" y2="{gy + 58 + i * 11}" stroke="#B9A98F" stroke-width="0.7"/>')
+    # 一支笔
+    s.append(f'<line x1="228" y1="{gy + 34}" x2="240" y2="{gy + 92}" stroke="{INK}" stroke-width="1.6"/>')
+    s.append(f'<path d="M240,{gy + 92} l-4,8 l6,-1" fill="#DED2B8" stroke="{INK}" stroke-width="1"/>')
+    s.append(txt(190, gy + 136, "彻：通篇算过，条条都记得", 4.3, SEAL, "middle"))
+    s.append(txt(190, gy + 168, "它不出声，但它天天在动", 4.6, GREEN, "middle"))
+
+    s.append(txt(24, gy + 192, "二、账合上了：只存那一块木", 4.8, GREEN))
+    gy2 = gy + 204
+    s.append(f'<rect x="26" y="{gy2}" width="328" height="152" fill="#FBF6EC" stroke="{LINE}" stroke-width="0.8"/>')
+    # 合起的册子，绳子系住
+    s.append(f'<rect x="112" y="{gy2 + 60}" width="60" height="56" rx="3" fill="#EFE6D4" stroke="{INK}" stroke-width="1.2"/>')
+    s.append(f'<line x1="112" y1="{gy2 + 74}" x2="172" y2="{gy2 + 74}" stroke="#B9A98F" stroke-width="0.7"/>')
+    s.append(f'<line x1="156" y1="{gy2 + 60}" x2="156" y2="{gy2 + 116}" stroke="{INK}" stroke-width="1.4"/>')
+    s.append(f'<path d="M112,{gy2 + 88} q-12,4 -6,14 q8,-6 6,-14" fill="none" stroke="{SEAL}" stroke-width="1"/>')
+    s.append(txt(142, gy2 + 136, "账合了，绳子系上", 4.2, "#6E6459", "middle"))
+    # 旁边那块契木
+    s.append(f'<rect x="222" y="{gy2 + 52}" width="30" height="70" rx="2" fill="#DED2B8" stroke="{INK}" stroke-width="1.1"/>')
+    for i in range(3):
+        s.append(f'<line x1="222" y1="{gy2 + 62 + i * 12}" x2="236" y2="{gy2 + 62 + i * 12}" stroke="{INK}" stroke-width="0.9"/>')
+    s.append(txt(252, gy2 + 136, "只剩这块木", 4.2, SEAL, "middle"))
+    s.append(txt(190, gy2 + 168, "司契者只存凭据，不算那一遍", 4.6, GREEN, "middle"))
+
+    a = gy2 + 192
+    s.append(txt(24, a, "账每算一遍，就多一遍的数；契不重算，齿还是那道齿。", 4.8, INK))
+    s.append(txt(24, a + 16, "无德司彻：不是算错了，是算得太勤。", 4.8, INK))
+    s.append(txt(24, a + 34, "有德司契，无德司彻。", 5.0, GREEN))
+
+    c = a + 52
+    s.append(f'<line x1="24" y1="{c}" x2="338" y2="{c}" stroke="{LINE}" stroke-width="0.6"/>')
+    s.append(box(20, c + 8, 340, 40, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, c + 23, "有德司契，无德司彻。", 5.4, INK, "middle"))
+    s.append(txt(190, c + 36, "契记齿，账记数。", 4.7, GREEN, "middle"))
+    s.append(gold(c + 64, "ch79b"))
+    s.append('</svg>')
+    return "\n".join(s)
+
+
+def ch79c_yi_gan_cheng():
+    W, H = 380, 726
+    body, y = head(W, H, "天道无亲：它不进门，就挂在门口",
+                   "第 七 十 九 章 · 亲", "一杆秤", "天道无亲，常与善人。", H)
+    s = [body]
+
+    s.append(box(20, y + 2, 340, 32, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, y + 14, "它不挑东西，什么都称；它不进门，就挂在门口。", 4.7, INK, "middle"))
+    s.append(txt(190, y + 27, "「无亲」不是无情，是不认人：两边一样重，它才平。", 4.7, "#6E6459", "middle"))
+
+    s.append(txt(24, y + 50, "一、什么都称：不分亲疏", 4.8, SEAL))
+    gy = y + 62
+    s.append(f'<rect x="26" y="{gy}" width="328" height="152" fill="#FBF6EC" stroke="{LINE}" stroke-width="0.8"/>')
+    # 秤：杆、提纽
+    s.append(f'<line x1="72" y1="{gy + 56}" x2="308" y2="{gy + 56}" stroke="{INK}" stroke-width="2.2"/>')
+    s.append(f'<polygon points="182,{gy + 54} 192,{gy + 54} 187,{gy + 26}" fill="#DED2B8" stroke="{INK}" stroke-width="1"/>')
+    s.append(f'<line x1="34" y1="{gy + 96}" x2="330" y2="{gy + 96}" stroke="{LINE}" stroke-width="0.8"/>')
+    # 左盘：一块石
+    s.append(f'<line x1="72" y1="{gy + 56}" x2="56" y2="{gy + 78}" stroke="{INK}" stroke-width="0.8"/>')
+    s.append(f'<line x1="72" y1="{gy + 56}" x2="88" y2="{gy + 78}" stroke="{INK}" stroke-width="0.8"/>')
+    s.append(f'<path d="M54,{gy + 78} Q72,{gy + 98} 90,{gy + 78}" fill="#EFE6D4" stroke="{INK}" stroke-width="1"/>')
+    s.append(f'<rect x="62" y="{gy + 62}" width="20" height="14" fill="#DED2B8" stroke="{INK}" stroke-width="0.9"/>')
+    # 右盘：一捧谷
+    s.append(f'<line x1="308" y1="{gy + 56}" x2="292" y2="{gy + 78}" stroke="{INK}" stroke-width="0.8"/>')
+    s.append(f'<line x1="308" y1="{gy + 56}" x2="324" y2="{gy + 78}" stroke="{INK}" stroke-width="0.8"/>')
+    s.append(f'<path d="M290,{gy + 78} Q308,{gy + 98} 326,{gy + 78}" fill="#EFE6D4" stroke="{INK}" stroke-width="1"/>')
+    s.append(f'<path d="M292,{gy + 78} q16,-14 32,0" fill="#DED2B8" stroke="{INK}" stroke-width="0.9"/>')
+    s.append(txt(72, gy + 116, "一块石", 4.2, "#6E6459", "middle"))
+    s.append(txt(308, gy + 116, "一捧谷", 4.2, "#6E6459", "middle"))
+    s.append(txt(190, gy + 116, "什么都称", 4.3, SEAL, "middle"))
+    s.append(txt(190, gy + 168, "它不挑东西：石与谷，两盘一样重就平", 4.6, GREEN, "middle"))
+
+    s.append(txt(24, gy + 192, "二、不进门：挂在门口", 4.8, GREEN))
+    gy2 = gy + 204
+    s.append(f'<rect x="26" y="{gy2}" width="328" height="152" fill="#FBF6EC" stroke="{LINE}" stroke-width="0.8"/>')
+    s.append(f'<line x1="34" y1="{gy2 + 132}" x2="330" y2="{gy2 + 132}" stroke="{INK}" stroke-width="1"/>')
+    # 门：门框＋门内
+    s.append(f'<rect x="86" y="{gy2 + 40}" width="96" height="92" fill="#F2EADA" stroke="{INK}" stroke-width="1.2"/>')
+    s.append(f'<line x1="134" y1="{gy2 + 40}" x2="134" y2="{gy2 + 132}" stroke="{INK}" stroke-width="1"/>')
+    s.append(f'<circle cx="126" cy="{gy2 + 88}" r="2" fill="{INK}"/>')
+    s.append(f'<circle cx="142" cy="{gy2 + 88}" r="2" fill="{INK}"/>')
+    s.append(txt(134, gy2 + 150, "门里", 4.2, "#6E6459", "middle"))
+    # 秤挂在门外
+    s.append(f'<line x1="238" y1="{gy2 + 28}" x2="238" y2="{gy2 + 52}" stroke="{INK}" stroke-width="1.2"/>')
+    s.append(f'<line x1="214" y1="{gy2 + 52}" x2="262" y2="{gy2 + 52}" stroke="{INK}" stroke-width="2"/>')
+    s.append(f'<polygon points="232,{gy2 + 50} 242,{gy2 + 50} 237,{gy2 + 30}" fill="#DED2B8" stroke="{INK}" stroke-width="1"/>')
+    s.append(f'<line x1="212" y1="{gy2 + 52}" x2="206" y2="{gy2 + 84}" stroke="{INK}" stroke-width="0.8"/>')
+    s.append(f'<line x1="216" y1="{gy2 + 52}" x2="222" y2="{gy2 + 84}" stroke="{INK}" stroke-width="0.8"/>')
+    s.append(f'<line x1="260" y1="{gy2 + 52}" x2="254" y2="{gy2 + 84}" stroke="{INK}" stroke-width="0.8"/>')
+    s.append(f'<line x1="264" y1="{gy2 + 52}" x2="270" y2="{gy2 + 84}" stroke="{INK}" stroke-width="0.8"/>')
+    s.append(f'<path d="M204,{gy2 + 84} Q214,{gy2 + 98} 224,{gy2 + 84}" fill="#EFE6D4" stroke="{INK}" stroke-width="1"/>')
+    s.append(f'<path d="M252,{gy2 + 84} Q262,{gy2 + 98} 272,{gy2 + 84}" fill="#EFE6D4" stroke="{INK}" stroke-width="1"/>')
+    s.append(txt(238, gy2 + 110, "挂在门外", 4.2, SEAL, "middle"))
+    s.append(txt(190, gy2 + 168, "不入门者，与善人居：它不进谁家，才称得平", 4.6, GREEN, "middle"))
+
+    a = gy2 + 192
+    s.append(txt(24, a, "「无亲」不是无情：亲是偏向，无亲是不偏向。", 4.8, INK))
+    s.append(txt(24, a + 16, "天道不进谁家门，所以它称谁家的东西都一样重。", 4.8, INK))
+    s.append(txt(24, a + 34, "天道无亲，故不入门；不入门者，与善人居。", 5.0, GREEN))
+
+    c = a + 52
+    s.append(f'<line x1="24" y1="{c}" x2="338" y2="{c}" stroke="{LINE}" stroke-width="0.6"/>')
+    s.append(box(20, c + 8, 340, 40, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, c + 23, "天道无亲，常与善人。", 5.4, INK, "middle"))
+    s.append(txt(190, c + 36, "无亲者，不偏向也。", 4.7, GREEN, "middle"))
+    s.append(gold(c + 64, "ch79c"))
+    s.append('</svg>')
+    return "\n".join(s)
+
+
 GOLD = {
     "ch74a": ["常有司杀者杀。", "司者，《说文》曰「臣司事于外者，从反后」；"],
     "ch74b": ["夫代司杀者杀，是谓代大匠斫。", "斫者，《说文》曰「击也」，从斤——一下而断，不可复也。"],
@@ -4079,6 +4271,9 @@ GOLD = {
     "ch78a": ["天下莫柔弱于水，而攻坚强者莫之能胜，以其无以易之。", "易者，《说文》曰「蜥蜴」，一说象两器倾水之形。"],
     "ch78b": ["受国之垢，是谓社稷主。", "垢者，《说文》曰「浊也」，从土——垢即土也。"],
     "ch78c": ["受国不祥，是为天下王。", "社者，《说文》曰「地主也」，从示土——土神也。"],
+    "ch79a": ["是以圣人执左契，而不责于人。", "契者，刻木为信，一剖两半；左契在债权人手，右契在负债者手。"],
+    "ch79b": ["有德司契，无德司彻。", "彻者，通也；司彻者，通篇算之，故其数日新。"],
+    "ch79c": ["天道无亲，常与善人。", "亲者，近也；无亲者，不偏向也。"],
     "ch73a": ["勇于敢则杀，勇于不敢则活。", "气无方向，向由敢定；"],
     "ch73b": ["繟者，《说文》曰「带缓也」，从糸——带系之松也。", "人之谋也系紧，紧则勒，勒处即崩处；"],
     "ch73c": ["天网恢恢，疏而不失。", "疏者，《说文》曰「通也」，非稀也；"],
@@ -10313,6 +10508,9 @@ FIGS = {
     "ch78a-yi-zhi-qi": ("第七十八章", "一只器", ch78a_yi_zhi_qi),
     "ch78b-yi-peng-tu": ("第七十八章", "一捧土", ch78b_yi_peng_tu),
     "ch78c-yi-kuai-pai-wei": ("第七十八章", "一块牌位", ch78c_yi_kuai_pai_wei),
+    "ch79a-ban-pian-mu": ("第七十九章", "半片木", ch79a_ban_pian_mu),
+    "ch79b-yi-zhang-zhang": ("第七十九章", "一张账", ch79b_yi_zhang_zhang),
+    "ch79c-yi-gan-cheng": ("第七十九章", "一杆秤", ch79c_yi_gan_cheng),
 }
 
 
