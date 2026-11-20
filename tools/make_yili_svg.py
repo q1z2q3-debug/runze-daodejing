@@ -1904,7 +1904,205 @@ def ch67c_yi_quan_qiang():
 
 
 
+# ============ 第六十八章 · 一只脚 ============
+def ch68a_yi_zhi_jiao():
+    W, H = 380, 690
+    body, y = head(W, H, "武从止从戈：不是扔下戈，是脚停在戈前",
+                   "第 六 十 八 章 · 武", "一只脚", "善为士者，不武。", H)
+    s = [body]
+
+    s.append(box(20, y + 2, 340, 30, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, y + 14, "「武」，《说文》引楚庄王「夫武，定功戢兵。故止戈为武」。", 4.9, INK, "middle"))
+    s.append(txt(190, y + 26, "止是脚：脚走到戈跟前，停住——不是把戈扔了。", 4.9, "#6E6459", "middle"))
+
+    s.append(txt(24, y + 48, "一、脚停在戈前：有戈，脚不动", 4.8, SEAL))
+    gy = y + 60
+    s.append(f'<rect x="26" y="{gy}" width="328" height="140" fill="#FBF6EC" stroke="{LINE}" stroke-width="0.8"/>')
+    # 戈：竖柲 + 横刃
+    s.append(f'<line x1="236" y1="{gy + 24}" x2="236" y2="{gy + 126}" stroke="{INK}" stroke-width="1.6"/>')
+    s.append(f'<path d="M236,{gy + 22} L168,{gy + 30} L236,{gy + 37} Z" fill="#DED2B8" stroke="{INK}" stroke-width="1"/>')
+    s.append(f'<rect x="228" y="{gy + 37}" width="8" height="18" fill="#DED2B8" stroke="{INK}" stroke-width="1"/>')
+    s.append(f'<circle cx="236" cy="{gy + 118}" r="2.6" fill="{SEAL}" stroke="none"/>')
+    s.append(txt(214, gy + 18, "戈", 5.0, INK))
+    # 脚：脚掌 + 四趾，趾尖朝右，停在戈前
+    s.append(f'<path d="M176,{gy + 120} Q174,{gy + 111} 184,{gy + 109} L202,{gy + 108} '
+             f'Q212,{gy + 108} 213,{gy + 116} Q214,{gy + 125} 202,{gy + 126} L184,{gy + 126} Q176,{gy + 126} 176,{gy + 120} Z" '
+             f'fill="#EFE6D4" stroke="{INK}" stroke-width="1"/>')
+    for dy in (-7, -3, 1, 5):
+        s.append(f'<line x1="213" y1="{gy + 118 + dy}" x2="220" y2="{gy + 118 + dy}" stroke="{INK}" stroke-width="1" stroke-linecap="round"/>')
+    s.append(txt(176, gy + 136, "脚", 5.0, SEAL))
+    # 停住的那条界
+    s.append(f'<line x1="222" y1="{gy + 96}" x2="222" y2="{gy + 128}" stroke="{SEAL}" stroke-width="0.8" stroke-dasharray="3 3"/>')
+    s.append(txt(222, gy + 92, "停", 4.4, SEAL, "middle"))
+    s.append(f'<line x1="40" y1="{gy + 126}" x2="340" y2="{gy + 126}" stroke="{INK}" stroke-width="1"/>')
+    s.append(txt(190, gy + 156, "不是没有戈，是脚不动：趾尖离柲一寸，停在那儿", 4.6, SEAL, "middle"))
+
+    s.append(txt(24, y + 258, "二、戈收进鞘：功定，兵戢", 4.8, GREEN))
+    gy2 = y + 270
+    s.append(f'<rect x="26" y="{gy2}" width="328" height="130" fill="#FBF6EC" stroke="{LINE}" stroke-width="0.8"/>')
+    s.append(f'<line x1="40" y1="{gy2 + 116}" x2="340" y2="{gy2 + 116}" stroke="{INK}" stroke-width="1"/>')
+    # 鞘：包住刃
+    s.append(f'<path d="M236,{gy2 + 22} L168,{gy2 + 30} L236,{gy2 + 37} Z" fill="#EFE6D4" stroke="{INK}" stroke-width="0.8" stroke-dasharray="2 2"/>')
+    s.append(f'<rect x="150" y="{gy2 + 20}" width="94" height="18" rx="9" fill="{GREEN}" opacity="0.18" stroke="{GREEN}" stroke-width="1"/>')
+    for xx in (176, 216):
+        s.append(f'<rect x="{xx}" y="{gy2 + 24}" width="4" height="16" rx="1.5" fill="none" stroke="{SEAL}" stroke-width="1"/>')
+    s.append(f'<line x1="236" y1="{gy2 + 32}" x2="236" y2="{gy2 + 116}" stroke="{INK}" stroke-width="1.6"/>')
+    s.append(txt(196, gy2 + 18, "鞘", 4.8, GREEN))
+    # 脚仍停在原处
+    s.append(f'<path d="M176,{gy2 + 110} Q174,{gy2 + 101} 184,{gy2 + 99} L202,{gy2 + 98} '
+             f'Q212,{gy2 + 98} 213,{gy2 + 106} Q214,{gy2 + 115} 202,{gy2 + 116} L184,{gy2 + 116} Q176,{gy2 + 116} 176,{gy2 + 110} Z" '
+             f'fill="#EFE6D4" stroke="{INK}" stroke-width="1"/>')
+    for dy in (-7, -3, 1, 5):
+        s.append(f'<line x1="213" y1="{gy2 + 108 + dy}" x2="220" y2="{gy2 + 108 + dy}" stroke="{INK}" stroke-width="1" stroke-linecap="round"/>')
+    s.append(txt(190, gy2 + 132, "刃收进鞘，脚还在原地：这就是止戈", 4.6, GREEN, "middle"))
+
+    a = gy2 + 150
+    s.append(txt(24, a, "邲之战后潘党要筑京观，楚庄王不肯：打赢的人先说的是「戢兵」。", 4.8, INK))
+    s.append(txt(24, a + 16, "定功戢兵——功先定，刀后收；胜而不收者，犹未胜也。", 4.8, INK))
+    s.append(txt(24, a + 34, "打输的人说收刀，是自慰；打赢的人说收刀，才算赢。", 5.0, GREEN))
+
+    c = a + 50
+    s.append(f'<line x1="24" y1="{c}" x2="338" y2="{c}" stroke="{LINE}" stroke-width="0.6"/>')
+    s.append(box(20, c + 8, 340, 40, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, c + 23, "武从止从戈，止者足也；", 5.4, INK, "middle"))
+    s.append(txt(190, c + 36, "非扔其戈，乃停其足。", 4.9, GREEN, "middle"))
+    s.append(gold(c + 62, "ch68a"))
+    s.append('</svg>')
+    return "\n".join(s)
+
+
+# ============ 第六十八章 · 一道缝 ============
+def ch68b_yi_dao_feng():
+    W, H = 380, 706
+    body, y = head(W, H, "与是党与：四手抬一物就成一对；不与，是留住那条缝",
+                   "第 六 十 八 章 · 与", "一道缝", "善胜敌者，不与。", H)
+    s = [body]
+
+    s.append(box(20, y + 2, 340, 30, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, y + 14, "「与」，《说文》「党与也」；争是两手引一物——两个动作都要有一个对手。", 4.9, INK, "middle"))
+    s.append(txt(190, y + 26, "不给对手，就没有争：不与不是避战，是不成对。", 4.9, "#6E6459", "middle"))
+
+    s.append(txt(24, y + 48, "一、四手抬一物：成了对，就只剩输赢", 4.8, SEAL))
+    gy = y + 60
+    s.append(f'<rect x="26" y="{gy}" width="328" height="140" fill="#FBF6EC" stroke="{LINE}" stroke-width="0.8"/>')
+    # 中间一件物
+    s.append(box(160, gy + 52, 60, 42, fill="#EFE6D4", stroke=INK))
+    s.append(txt(190, gy + 78, "一物", 4.8, INK, "middle"))
+    # 四只手：左二右二
+    for yy in (gy + 46, gy + 84):
+        s.append(f'<line x1="56" y1="{yy + 12}" x2="138" y2="{yy + 2}" stroke="{INK}" stroke-width="1.2"/>')
+        s.append(f'<path d="M138,{yy + 2} q6,-6 14,0 q4,4 0,8 q-8,5 -14,0 Z" fill="#EFE6D4" stroke="{INK}" stroke-width="0.9"/>')
+        for k in range(3):
+            s.append(f'<line x1="{138 + k * 1}" y1="{yy - 2 + k * 3}" x2="{144 + k * 1}" y2="{yy - 3 + k * 3}" stroke="{INK}" stroke-width="0.8"/>')
+        s.append(f'<line x1="324" y1="{yy + 12}" x2="242" y2="{yy + 2}" stroke="{INK}" stroke-width="1.2"/>')
+        s.append(f'<path d="M242,{yy + 2} q-6,-6 -14,0 q-4,4 0,8 q8,5 14,0 Z" fill="#EFE6D4" stroke="{INK}" stroke-width="0.9"/>')
+        for k in range(3):
+            s.append(f'<line x1="{242 - k * 1}" y1="{yy - 2 + k * 3}" x2="{236 - k * 1}" y2="{yy - 3 + k * 3}" stroke="{INK}" stroke-width="0.8"/>')
+    s.append(txt(96, gy + 40, "我们", 4.4, "#6E6459", "middle"))
+    s.append(txt(284, gy + 40, "他们", 4.4, "#6E6459", "middle"))
+    s.append(txt(190, gy + 156, "四手抬一物：两边成了一对，中间没有缝", 4.6, SEAL, "middle"))
+
+    s.append(txt(24, y + 244, "二、手收回来：缝留着，两边才还是两边", 4.8, GREEN))
+    gy2 = y + 256
+    s.append(f'<rect x="26" y="{gy2}" width="328" height="140" fill="#FBF6EC" stroke="{LINE}" stroke-width="0.8"/>')
+    # 中间：缝（一条留白的通道）
+    s.append(f'<rect x="178" y="{gy2 + 26}" width="24" height="86" fill="#F2EADA" stroke="none"/>')
+    s.append(f'<line x1="178" y1="{gy2 + 26}" x2="178" y2="{gy2 + 112}" stroke="{SEAL}" stroke-width="0.8" stroke-dasharray="4 3"/>')
+    s.append(f'<line x1="202" y1="{gy2 + 26}" x2="202" y2="{gy2 + 112}" stroke="{SEAL}" stroke-width="0.8" stroke-dasharray="4 3"/>')
+    for yy in (gy2 + 46, gy2 + 84):
+        s.append(f'<line x1="60" y1="{yy + 10}" x2="116" y2="{yy + 2}" stroke="{INK}" stroke-width="1.2"/>')
+        s.append(f'<ellipse cx="124" cy="{yy + 1}" rx="8" ry="5" fill="none" stroke="{INK}" stroke-width="0.9" stroke-dasharray="2 2"/>')
+        s.append(f'<line x1="320" y1="{yy + 10}" x2="264" y2="{yy + 2}" stroke="{INK}" stroke-width="1.2"/>')
+        s.append(f'<ellipse cx="256" cy="{yy + 1}" rx="8" ry="5" fill="none" stroke="{INK}" stroke-width="0.9" stroke-dasharray="2 2"/>')
+    s.append(txt(190, gy2 + 124, "缝", 4.6, SEAL, "middle"))
+    s.append(txt(96, gy2 + 40, "我们", 4.4, "#6E6459", "middle"))
+    s.append(txt(284, gy2 + 40, "他们", 4.4, "#6E6459", "middle"))
+    s.append(txt(190, gy2 + 156, "手停在半路，缝里没有东西：谁也拽不进谁", 4.6, GREEN, "middle"))
+
+    a = gy2 + 174
+    s.append(txt(24, a, "争要成对，与也要成对：两个动作的前提，是有一个对手。", 4.8, INK))
+    s.append(txt(24, a + 16, "不给对手，就没有争；没有争，才谈得上胜。", 4.8, INK))
+    s.append(txt(24, a + 34, "不跟敌人配对，却跟天配上了：是谓配天。", 5.0, GREEN))
+
+    c = a + 50
+    s.append(f'<line x1="24" y1="{c}" x2="338" y2="{c}" stroke="{LINE}" stroke-width="0.6"/>')
+    s.append(box(20, c + 8, 340, 40, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, c + 23, "与者党与，四手抬一物；", 5.4, INK, "middle"))
+    s.append(txt(190, c + 36, "缝留着，两边才还是两边。", 4.9, GREEN, "middle"))
+    s.append(gold(c + 62, "ch68b"))
+    s.append('</svg>')
+    return "\n".join(s)
+
+
+# ============ 第六十八章 · 一根筋 ============
+def ch68c_yi_gen_jin():
+    W, H = 380, 706
+    body, y = head(W, H, "力是筋：筋不使劲，筋是连——连上了，劲自然传过去",
+                   "第 六 十 八 章 · 力", "一根筋", "善用人者，为之下。", H)
+    s = [body]
+
+    s.append(box(20, y + 2, 340, 30, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, y + 14, "「力」，《说文》「筋也」——筋连骨，不使劲；力是传过去的，不是攒出来的。", 4.9, INK, "middle"))
+    s.append(txt(190, y + 26, "「为之下」：站到下面，筋才连得上。", 4.9, "#6E6459", "middle"))
+
+    s.append(txt(24, y + 48, "一、各站各的高处：筋搭不上", 4.8, SEAL))
+    gy = y + 60
+    s.append(f'<rect x="26" y="{gy}" width="328" height="140" fill="#FBF6EC" stroke="{LINE}" stroke-width="0.8"/>')
+    # 两根骨，一高一低
+    s.append(box(78, gy + 34, 26, 12, fill="#EFE6D4", stroke=INK))
+    s.append(box(78, gy + 108, 26, 12, fill="#EFE6D4", stroke=INK))
+    # 两段筋，断着
+    s.append(f'<path d="M104,{gy + 40} Q136,{gy + 52} 150,{gy + 62}" fill="none" stroke="{SEAL}" stroke-width="1.3"/>')
+    s.append(f'<path d="M104,{gy + 114} Q136,{gy + 100} 150,{gy + 88}" fill="none" stroke="{SEAL}" stroke-width="1.3"/>')
+    s.append(f'<line x1="152" y1="{gy + 58}" x2="152" y2="{gy + 92}" stroke="{SEAL}" stroke-width="0.8" stroke-dasharray="3 3"/>')
+    s.append(txt(160, gy + 78, "断", 4.4, SEAL))
+    s.append(txt(60, gy + 40, "骨", 4.4, "#6E6459", "end"))
+    s.append(txt(60, gy + 114, "骨", 4.4, "#6E6459", "end"))
+    s.append(txt(230, gy + 46, "一人站高", 4.4, "#6E6459"))
+    s.append(txt(230, gy + 112, "一人站低", 4.4, "#6E6459"))
+    s.append(arrow(300, gy + 60, 300, gy + 96, "#B9A98F", 1.0))
+    s.append(txt(190, gy + 156, "高低差着，筋搭不上：各使各的劲，谁也不传", 4.6, SEAL, "middle"))
+
+    s.append(txt(24, y + 244, "二、站到下面：两端齐了，筋一连，劲就传过去", 4.8, GREEN))
+    gy2 = y + 256
+    s.append(f'<rect x="26" y="{gy2}" width="328" height="140" fill="#FBF6EC" stroke="{LINE}" stroke-width="0.8"/>')
+    # 两骨在一线上
+    s.append(box(50, gy2 + 64, 26, 12, fill="#EFE6D4", stroke=INK))
+    s.append(box(304, gy2 + 64, 26, 12, fill="#EFE6D4", stroke=INK))
+    s.append(txt(44, gy2 + 70, "骨", 4.2, "#6E6459", "end"))
+    s.append(txt(336, gy2 + 70, "骨", 4.2, "#6E6459", "end"))
+    # 筋：一根绷直的线
+    s.append(f'<line x1="76" y1="{gy2 + 70}" x2="304" y2="{gy2 + 70}" stroke="{GREEN}" stroke-width="1.8"/>')
+    # 支点在下面
+    s.append(f'<path d="M172,{gy2 + 108} L190,{gy2 + 74} L208,{gy2 + 108} Z" fill="none" stroke="{INK}" stroke-width="1"/>')
+    s.append(f'<line x1="164" y1="{gy2 + 108}" x2="216" y2="{gy2 + 108}" stroke="{INK}" stroke-width="1"/>')
+    s.append(txt(190, gy2 + 124, "为之下：支点在下面", 4.4, GREEN, "middle"))
+    # 劲两头传开
+    s.append(arrow(190, gy2 + 64, 96, gy2 + 64, GREEN, 1.0, head="arrL"))
+    s.append(arrow(190, gy2 + 64, 284, gy2 + 64, GREEN, 1.0, head="arr2"))
+    s.append(txt(190, gy2 + 156, "一端在下面托住，筋才绷得直：两头的劲接上了", 4.6, GREEN, "middle"))
+
+
+    a = gy2 + 174
+    s.append(txt(24, a, "力不是攒出来的，是传过去的：士是推十合一，不是一人当十。", 4.8, INK))
+    s.append(txt(24, a + 16, "烛之武推辞，郑伯认错「是寡人之过也」——一句低头，换回一国。", 4.8, INK))
+    s.append(txt(24, a + 34, "站低一处，众人的劲才连成一根筋。", 5.0, GREEN))
+
+    c = a + 50
+    s.append(f'<line x1="24" y1="{c}" x2="338" y2="{c}" stroke="{LINE}" stroke-width="0.6"/>')
+    s.append(box(20, c + 8, 340, 40, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, c + 23, "力者，筋也；筋不使劲，筋是连。", 5.4, INK, "middle"))
+    s.append(txt(190, c + 36, "连上了，劲自然传过去。", 4.9, GREEN, "middle"))
+    s.append(gold(c + 62, "ch68c"))
+    s.append('</svg>')
+    return "\n".join(s)
+
+
+
 GOLD = {
+    "ch68a": ["武从止从戈，止者足也；非扔其戈，乃停其足。", "定功戢兵——功先定，刀后收；胜而不收者，犹未胜也。"],
+    "ch68b": ["与者党与，四手抬一物；争者两手引一物，皆须有对。", "不与：不给对手，就没有争；不跟敌人配对，却跟天配上了。"],
+    "ch68c": ["力者，筋也；筋不使劲，筋是连。", "善用人者为之下：站低一处，众人的劲才连成一根筋。"],
     "ch67a": ["慈从心兹，兹者草木多益；心中自有草长，不问其落于何处。", "爱护一棵，慈护一片：护的时候不拼命，反而极稳。"],
     "ch67b": ["俭者约也，约者绳缠束；收十处为一束，一束可推千里。", "俭不是怕花钱，是怕散：散在十处，十处都不深。"],
     "ch67c": ["衛从行从帀，帀者周也；慈是围墙不是盾牌，盾挡一面，墙围一圈。", "天将救之，以慈卫之：不是外面拉一把，是自己被围住，伤不着。"],
@@ -8088,6 +8286,9 @@ FIGS = {
     "ch67a-yi-cong-cao": ("第六十七章", "一丛草", ch67a_yi_cong_cao),
     "ch67b-yi-shu-sheng": ("第六十七章", "一束绳", ch67b_yi_shu_sheng),
     "ch67c-yi-quan-qiang": ("第六十七章", "一圈墙", ch67c_yi_quan_qiang),
+    "ch68a-yi-zhi-jiao": ("第六十八章", "一只脚", ch68a_yi_zhi_jiao),
+    "ch68b-yi-dao-feng": ("第六十八章", "一道缝", ch68b_yi_dao_feng),
+    "ch68c-yi-gen-jin": ("第六十八章", "一根筋", ch68c_yi_gen_jin),
 }
 
 

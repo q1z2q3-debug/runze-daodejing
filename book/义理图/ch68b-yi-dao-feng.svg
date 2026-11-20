@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 380 706" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="与是党与：四手抬一物就成一对；不与，是留住那条缝" font-family="'Noto Serif CJK SC','Noto Serif SC','Songti SC',serif">
+<defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#6E6459"/></marker><marker id="arr2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#4A5C55"/></marker><marker id="arrL" viewBox="0 0 10 10" refX="1" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M10 0 L0 5 L10 10 z" fill="#4A5C55"/></marker><marker id="arrS" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#A2503B"/></marker></defs>
+<rect x="0" y="0" width="380" height="706" fill="#F8F3E6"/>
+<text x="20" y="26" font-size="11" fill="#A2503B" font-family="'Noto Sans CJK SC','Noto Sans SC',sans-serif" letter-spacing="3">第 六 十 八 章 · 与</text>
+<text x="20" y="58" font-size="21" fill="#2F2A24">一道缝</text>
+<text x="20" y="78" font-size="10.5" fill="#6E6459">善胜敌者，不与。</text>
+<rect x="20" y="102" width="340" height="30" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="190" y="114" font-size="4.9" fill="#2F2A24" text-anchor="middle">「与」，《说文》「党与也」；争是两手引一物——两个动作都要有一个对手。</text>
+<text x="190" y="126" font-size="4.9" fill="#6E6459" text-anchor="middle">不给对手，就没有争：不与不是避战，是不成对。</text>
+<text x="24" y="148" font-size="4.8" fill="#A2503B">一、四手抬一物：成了对，就只剩输赢</text>
+<rect x="26" y="160" width="328" height="140" fill="#FBF6EC" stroke="#DCCBB0" stroke-width="0.8"/>
+<rect x="160" y="212" width="60" height="42" fill="#EFE6D4" stroke="#2F2A24" stroke-width="1.0"/>
+<text x="190" y="238" font-size="4.8" fill="#2F2A24" text-anchor="middle">一物</text>
+<line x1="56" y1="218" x2="138" y2="208" stroke="#2F2A24" stroke-width="1.2"/>
+<path d="M138,208 q6,-6 14,0 q4,4 0,8 q-8,5 -14,0 Z" fill="#EFE6D4" stroke="#2F2A24" stroke-width="0.9"/>
+<line x1="138" y1="204" x2="144" y2="203" stroke="#2F2A24" stroke-width="0.8"/>
+<line x1="139" y1="207" x2="145" y2="206" stroke="#2F2A24" stroke-width="0.8"/>
+<line x1="140" y1="210" x2="146" y2="209" stroke="#2F2A24" stroke-width="0.8"/>
+<line x1="324" y1="218" x2="242" y2="208" stroke="#2F2A24" stroke-width="1.2"/>
+<path d="M242,208 q-6,-6 -14,0 q-4,4 0,8 q8,5 14,0 Z" fill="#EFE6D4" stroke="#2F2A24" stroke-width="0.9"/>
+<line x1="242" y1="204" x2="236" y2="203" stroke="#2F2A24" stroke-width="0.8"/>
+<line x1="241" y1="207" x2="235" y2="206" stroke="#2F2A24" stroke-width="0.8"/>
+<line x1="240" y1="210" x2="234" y2="209" stroke="#2F2A24" stroke-width="0.8"/>
+<line x1="56" y1="256" x2="138" y2="246" stroke="#2F2A24" stroke-width="1.2"/>
+<path d="M138,246 q6,-6 14,0 q4,4 0,8 q-8,5 -14,0 Z" fill="#EFE6D4" stroke="#2F2A24" stroke-width="0.9"/>
+<line x1="138" y1="242" x2="144" y2="241" stroke="#2F2A24" stroke-width="0.8"/>
+<line x1="139" y1="245" x2="145" y2="244" stroke="#2F2A24" stroke-width="0.8"/>
+<line x1="140" y1="248" x2="146" y2="247" stroke="#2F2A24" stroke-width="0.8"/>
+<line x1="324" y1="256" x2="242" y2="246" stroke="#2F2A24" stroke-width="1.2"/>
+<path d="M242,246 q-6,-6 -14,0 q-4,4 0,8 q8,5 14,0 Z" fill="#EFE6D4" stroke="#2F2A24" stroke-width="0.9"/>
+<line x1="242" y1="242" x2="236" y2="241" stroke="#2F2A24" stroke-width="0.8"/>
+<line x1="241" y1="245" x2="235" y2="244" stroke="#2F2A24" stroke-width="0.8"/>
+<line x1="240" y1="248" x2="234" y2="247" stroke="#2F2A24" stroke-width="0.8"/>
+<text x="96" y="200" font-size="4.4" fill="#6E6459" text-anchor="middle">我们</text>
+<text x="284" y="200" font-size="4.4" fill="#6E6459" text-anchor="middle">他们</text>
+<text x="190" y="316" font-size="4.6" fill="#A2503B" text-anchor="middle">四手抬一物：两边成了一对，中间没有缝</text>
+<text x="24" y="344" font-size="4.8" fill="#4A5C55">二、手收回来：缝留着，两边才还是两边</text>
+<rect x="26" y="356" width="328" height="140" fill="#FBF6EC" stroke="#DCCBB0" stroke-width="0.8"/>
+<rect x="178" y="382" width="24" height="86" fill="#F2EADA" stroke="none"/>
+<line x1="178" y1="382" x2="178" y2="468" stroke="#A2503B" stroke-width="0.8" stroke-dasharray="4 3"/>
+<line x1="202" y1="382" x2="202" y2="468" stroke="#A2503B" stroke-width="0.8" stroke-dasharray="4 3"/>
+<line x1="60" y1="412" x2="116" y2="404" stroke="#2F2A24" stroke-width="1.2"/>
+<ellipse cx="124" cy="403" rx="8" ry="5" fill="none" stroke="#2F2A24" stroke-width="0.9" stroke-dasharray="2 2"/>
+<line x1="320" y1="412" x2="264" y2="404" stroke="#2F2A24" stroke-width="1.2"/>
+<ellipse cx="256" cy="403" rx="8" ry="5" fill="none" stroke="#2F2A24" stroke-width="0.9" stroke-dasharray="2 2"/>
+<line x1="60" y1="450" x2="116" y2="442" stroke="#2F2A24" stroke-width="1.2"/>
+<ellipse cx="124" cy="441" rx="8" ry="5" fill="none" stroke="#2F2A24" stroke-width="0.9" stroke-dasharray="2 2"/>
+<line x1="320" y1="450" x2="264" y2="442" stroke="#2F2A24" stroke-width="1.2"/>
+<ellipse cx="256" cy="441" rx="8" ry="5" fill="none" stroke="#2F2A24" stroke-width="0.9" stroke-dasharray="2 2"/>
+<text x="190" y="480" font-size="4.6" fill="#A2503B" text-anchor="middle">缝</text>
+<text x="96" y="396" font-size="4.4" fill="#6E6459" text-anchor="middle">我们</text>
+<text x="284" y="396" font-size="4.4" fill="#6E6459" text-anchor="middle">他们</text>
+<text x="190" y="512" font-size="4.6" fill="#4A5C55" text-anchor="middle">手停在半路，缝里没有东西：谁也拽不进谁</text>
+<text x="24" y="530" font-size="4.8" fill="#2F2A24">争要成对，与也要成对：两个动作的前提，是有一个对手。</text>
+<text x="24" y="546" font-size="4.8" fill="#2F2A24">不给对手，就没有争；没有争，才谈得上胜。</text>
+<text x="24" y="564" font-size="5.0" fill="#4A5C55">不跟敌人配对，却跟天配上了：是谓配天。</text>
+<line x1="24" y1="580" x2="338" y2="580" stroke="#DCCBB0" stroke-width="0.6"/>
+<rect x="20" y="588" width="340" height="40" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="190" y="603" font-size="5.4" fill="#2F2A24" text-anchor="middle">与者党与，四手抬一物；</text>
+<text x="190" y="616" font-size="4.9" fill="#4A5C55" text-anchor="middle">缝留着，两边才还是两边。</text>
+<line x1="20" y1="642" x2="360" y2="642" stroke="#E6D8C2" stroke-width="0.8"/>
+<text x="20" y="656" font-size="8.0" fill="#A89577" letter-spacing="1">本 章 金 句</text>
+<text x="20" y="672" font-size="8.4" fill="#2F2A24">与者党与，四手抬一物；争者两手引一物，皆须有对。</text>
+<text x="20" y="688" font-size="8.4" fill="#2F2A24">不与：不给对手，就没有争；不跟敌人配对，却跟天配上了。</text>
+</svg>
