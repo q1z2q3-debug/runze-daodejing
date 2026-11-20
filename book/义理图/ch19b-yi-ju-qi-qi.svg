@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 380 736" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="刮掉三层漆，才见木头本色" font-family="'Noto Serif CJK SC','Noto Serif SC','Songti SC',serif">
+<defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#6E6459"/></marker><marker id="arr2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#4A5C55"/></marker><marker id="arrL" viewBox="0 0 10 10" refX="1" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M10 0 L0 5 L10 10 z" fill="#4A5C55"/></marker><marker id="arrS" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#A2503B"/></marker></defs>
+<rect x="0" y="0" width="380" height="736" fill="#F8F3E6"/>
+<text x="20" y="26" font-size="11" fill="#A2503B" font-family="'Noto Sans CJK SC','Noto Sans SC',sans-serif" letter-spacing="3">第 十 九 章 · 漆 与 素</text>
+<text x="20" y="58" font-size="21" fill="#2F2A24">一具漆器</text>
+<text x="20" y="78" font-size="10.5" fill="#6E6459">见素抱朴，少私寡欲。</text>
+<rect x="20" y="102" width="340" height="34" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="190" y="114" font-size="4.9" fill="#2F2A24" text-anchor="middle">漆不是脏东西；只是漆久了，人就忘了底下是木头。</text>
+<text x="190" y="127" font-size="4.8" fill="#6E6459">绝圣弃智、绝仁弃义、绝巧弃利：刮的是漆，不是木头。</text>
+<text x="24" y="152" font-size="5.2" fill="#A2503B">一、三层漆：一层一层刷上去，越刷越亮，也越厚</text>
+<rect x="26" y="164" width="328" height="168" fill="#FBF6EC" stroke="#DCCBB0" stroke-width="0.8"/>
+<rect x="70" y="258" width="130" height="52" fill="#E8DCC4" stroke="#2F2A24" stroke-width="1.0"/>
+<text x="135.0" y="288" font-size="6.4" fill="#2F2A24" text-anchor="middle">木</text>
+<rect x="70" y="238" width="130" height="20" fill="#D9C7A8" stroke="#2F2A24" stroke-width="0.8"/>
+<text x="80" y="253" font-size="4.4" fill="#2F2A24">圣智</text>
+<rect x="70" y="220" width="130" height="18" fill="#C9B79A" stroke="#2F2A24" stroke-width="0.8"/>
+<text x="80" y="233" font-size="4.4" fill="#2F2A24">仁义</text>
+<rect x="70" y="204" width="130" height="16" fill="#B7A184" stroke="#2F2A24" stroke-width="0.8"/>
+<text x="80" y="215" font-size="4.4" fill="#2F2A24">巧利</text>
+<text x="212" y="226" font-size="4.2" fill="#A2503B">三层漆：光可鉴人</text>
+<text x="212" y="240" font-size="4.1" fill="#6E6459">漆越厚，越看不见木</text>
+<text x="190" y="322" font-size="4.3" fill="#A2503B" text-anchor="middle">漆是一层层加上去的：加得越多，本色越埋得深</text>
+<text x="24" y="350" font-size="5.2" fill="#4A5C55">二、刮漆：刮到木头，才叫见素抱朴</text>
+<rect x="26" y="362" width="328" height="168" fill="#FBF6EC" stroke="#DCCBB0" stroke-width="0.8"/>
+<rect x="70" y="456" width="130" height="52" fill="#E8DCC4" stroke="#2F2A24" stroke-width="1.0"/>
+<text x="135.0" y="486" font-size="6.0" fill="#4A5C55" text-anchor="middle">素木</text>
+<rect x="166" y="436" width="34" height="20" fill="#C9B79A" stroke="#2F2A24" stroke-width="0.8"/>
+<text x="183" y="450" font-size="3.9" fill="#2F2A24" text-anchor="middle">余漆</text>
+<path d="M76,422 l54,-6 l0,8 l-54,6 z" fill="#F8F3E6" stroke="#2F2A24" stroke-width="0.9"/>
+<line x1="130" y1="424" x2="166" y2="418" stroke="#2F2A24" stroke-width="1.2"/>
+<line x1="170" y1="418" x2="226" y2="418" stroke="#4A5C55" stroke-width="0.9" marker-end="url(#arr2)"/>
+<text x="230" y="414" font-size="4.0" fill="#4A5C55">刮下来的漆</text>
+<text x="212" y="486" font-size="4.1" fill="#4A5C55">木在，器还在用</text>
+<text x="212" y="500" font-size="4.0" fill="#6E6459">少一层漆，多一分真</text>
+<text x="190" y="520" font-size="4.3" fill="#4A5C55" text-anchor="middle">见素：不必再刷；抱朴：木本来就够用</text>
+<text x="24" y="550" font-size="4.9" fill="#2F2A24">「绝」「弃」不是焚书毁器，是刮漆：把后来刷上去的那几层剥下来。</text>
+<text x="24" y="566" font-size="4.9" fill="#2F2A24">少私寡欲：不是不要，是不再把「多一层」当成本事。</text>
+<text x="24" y="584" font-size="4.9" fill="#4A5C55">素不是简陋，是不必再靠外加的东西来证明自己。</text>
+<line x1="24" y1="602" x2="338" y2="602" stroke="#DCCBB0" stroke-width="0.6"/>
+<rect x="20" y="610" width="340" height="40" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="190" y="626" font-size="6.0" fill="#2F2A24" text-anchor="middle">见素抱朴，</text>
+<text x="190" y="638" font-size="6.0" fill="#4A5C55" text-anchor="middle">少私寡欲。</text>
+<line x1="20" y1="664" x2="360" y2="664" stroke="#E6D8C2" stroke-width="0.8"/>
+<text x="20" y="678" font-size="8.0" fill="#A89577" letter-spacing="1">本 章 金 句</text>
+<text x="20" y="694" font-size="8.4" fill="#2F2A24">见素抱朴，少私寡欲。</text>
+<text x="20" y="710" font-size="8.4" fill="#2F2A24">素不是简陋，是不必再靠外加的东西来证明自己。</text>
+</svg>

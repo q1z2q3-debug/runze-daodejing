@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 380 760" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="太上，下知有之：最好的管法，是让人几乎忘了你在" font-family="'Noto Serif CJK SC','Noto Serif SC','Songti SC',serif">
+<defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#6E6459"/></marker><marker id="arr2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#4A5C55"/></marker><marker id="arrL" viewBox="0 0 10 10" refX="1" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M10 0 L0 5 L10 10 z" fill="#4A5C55"/></marker><marker id="arrS" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#A2503B"/></marker></defs>
+<rect x="0" y="0" width="380" height="760" fill="#F8F3E6"/>
+<text x="20" y="26" font-size="11" fill="#A2503B" font-family="'Noto Sans CJK SC','Noto Sans SC',sans-serif" letter-spacing="3">第 十 七 章 · 四 扇 门</text>
+<text x="20" y="58" font-size="21" fill="#2F2A24">四扇门</text>
+<text x="20" y="78" font-size="10.5" fill="#6E6459">太上，下知有之；其次亲而誉之；其次畏之；其次侮之。</text>
+<rect x="20" y="102" width="340" height="34" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="190" y="114" font-size="4.9" fill="#2F2A24" text-anchor="middle">四级不是四种人，是同一件事的四个火候：越用力，越往下走。</text>
+<text x="190" y="127" font-size="4.8" fill="#6E6459">信不足焉，有不信焉：话多了，信就薄了。</text>
+<text x="24" y="152" font-size="5.2" fill="#A2503B">一、四扇门：从「知有」到「侮之」，痕迹一路加重</text>
+<rect x="26" y="164" width="328" height="186" fill="#FBF6EC" stroke="#DCCBB0" stroke-width="0.8"/>
+<rect x="38" y="204" width="42" height="82" fill="none" stroke="#2F2A24" stroke-width="1.2"/>
+<line x1="70" y1="245.0" x2="70" y2="245.0" stroke="#2F2A24" stroke-width="1"/>
+<circle cx="71" cy="245.0" r="1.6" fill="#2F2A24"/>
+<text x="59" y="300" font-size="3.9" fill="#8A7C69" text-anchor="middle">太上</text>
+<text x="59" y="312" font-size="4.1" fill="#2F2A24" text-anchor="middle">下知有之</text>
+<rect x="116" y="204" width="42" height="82" fill="none" stroke="#2F2A24" stroke-width="1.2"/>
+<line x1="148" y1="245.0" x2="148" y2="245.0" stroke="#2F2A24" stroke-width="1"/>
+<circle cx="149" cy="245.0" r="1.6" fill="#2F2A24"/>
+<text x="137" y="300" font-size="3.9" fill="#8A7C69" text-anchor="middle">其次</text>
+<text x="137" y="312" font-size="4.1" fill="#2F2A24" text-anchor="middle">亲而誉之</text>
+<rect x="194" y="204" width="42" height="82" fill="none" stroke="#2F2A24" stroke-width="1.2"/>
+<line x1="226" y1="245.0" x2="226" y2="245.0" stroke="#2F2A24" stroke-width="1"/>
+<circle cx="227" cy="245.0" r="1.6" fill="#2F2A24"/>
+<text x="215" y="300" font-size="3.9" fill="#8A7C69" text-anchor="middle">其次</text>
+<text x="215" y="312" font-size="4.1" fill="#2F2A24" text-anchor="middle">畏之</text>
+<rect x="272" y="204" width="42" height="82" fill="none" stroke="#2F2A24" stroke-width="1.2"/>
+<line x1="304" y1="245.0" x2="304" y2="245.0" stroke="#2F2A24" stroke-width="1"/>
+<circle cx="305" cy="245.0" r="1.6" fill="#2F2A24"/>
+<text x="293" y="300" font-size="3.9" fill="#8A7C69" text-anchor="middle">其次</text>
+<text x="293" y="312" font-size="4.1" fill="#2F2A24" text-anchor="middle">侮之</text>
+<ellipse cx="59" cy="292" rx="7" ry="2.4" fill="#DCD2BF" stroke="none"/>
+<rect x="112" y="190" width="50" height="12" fill="#EFE6D4" stroke="#2F2A24" stroke-width="0.7"/>
+<text x="137" y="199" font-size="4.2" fill="#2F2A24" text-anchor="middle">誉</text>
+<line x1="215" y1="256" x2="215" y2="290" stroke="#2F2A24" stroke-width="1.4"/>
+<path d="M211,256 l4,-10 l4,10 z" fill="#F8F3E6" stroke="#2F2A24" stroke-width="0.8"/>
+<path d="M290,288 l4,6 l-4,6" fill="none" stroke="#A2503B" stroke-width="0.8"/>
+<path d="M298,288 l4,6 l-4,6" fill="none" stroke="#A2503B" stroke-width="0.8"/>
+<path d="M306,288 l4,6 l-4,6" fill="none" stroke="#A2503B" stroke-width="0.8"/>
+<text x="190" y="336" font-size="4.3" fill="#A2503B" text-anchor="middle">同一件事的四个火候：越插手，越往下掉</text>
+<text x="24" y="366" font-size="5.2" fill="#4A5C55">二、贵言：话少的门都开着，话多的门全关上</text>
+<rect x="26" y="378" width="328" height="176" fill="#FBF6EC" stroke="#DCCBB0" stroke-width="0.8"/>
+<circle cx="70" cy="432" r="7" fill="none" stroke="#2F2A24" stroke-width="1.0"/>
+<path d="M64,432 q6,3 12,0" fill="none" stroke="#2F2A24" stroke-width="0.8"/>
+<line x1="70" y1="439" x2="70" y2="464" stroke="#2F2A24" stroke-width="1.2"/>
+<line x1="70" y1="464" x2="63" y2="476" stroke="#2F2A24" stroke-width="0.9"/>
+<line x1="70" y1="464" x2="77" y2="476" stroke="#2F2A24" stroke-width="0.9"/>
+<circle cx="84" cy="428" r="1.5" fill="#A2503B"/>
+<circle cx="93" cy="424" r="1.5" fill="#A2503B"/>
+<circle cx="102" cy="420" r="1.5" fill="#A2503B"/>
+<circle cx="111" cy="416" r="1.5" fill="#A2503B"/>
+<rect x="112" y="424" width="34" height="56" fill="none" stroke="#DCCBB0" stroke-width="1.0"/>
+<line x1="112" y1="438" x2="146" y2="452" stroke="#A2503B" stroke-width="1.4"/>
+<line x1="146" y1="438" x2="112" y2="452" stroke="#A2503B" stroke-width="1.4"/>
+<text x="70" y="498" font-size="4.1" fill="#A2503B" text-anchor="middle">话多：门一道道关上</text>
+<text x="70" y="512" font-size="4.1" fill="#A2503B" text-anchor="middle">信不足，有不信</text>
+<line x1="190" y1="408" x2="190" y2="526" stroke="#DCCBB0" stroke-width="0.7" stroke-dasharray="6 5"/>
+<circle cx="238" cy="432" r="7" fill="none" stroke="#2F2A24" stroke-width="1.0"/>
+<line x1="238" y1="439" x2="238" y2="464" stroke="#2F2A24" stroke-width="1.2"/>
+<line x1="238" y1="464" x2="231" y2="476" stroke="#2F2A24" stroke-width="0.9"/>
+<line x1="238" y1="464" x2="245" y2="476" stroke="#2F2A24" stroke-width="0.9"/>
+<rect x="286" y="424" width="34" height="56" fill="none" stroke="#2F2A24" stroke-width="1.0"/>
+<path d="M286,424 L302,430 L302,474 L286,480" fill="#F8F3E6" stroke="#2F2A24" stroke-width="1.0"/>
+<circle cx="317" cy="452" r="1.6" fill="#2F2A24"/>
+<text x="238" y="498" font-size="4.1" fill="#4A5C55" text-anchor="middle">话少：门开着，人自己走</text>
+<text x="238" y="512" font-size="4.1" fill="#4A5C55" text-anchor="middle">悠兮其贵言</text>
+<text x="24" y="574" font-size="4.8" fill="#2F2A24">太上不是最高明的手腕，是最少的手：下知有之——百姓只知道有这么一个人，日子是自己的。</text>
+<text x="24" y="590" font-size="4.8" fill="#2F2A24">亲而誉之，已经有恩情在；畏之，已经有刀在；侮之，连刀都不管用了。</text>
+<text x="24" y="608" font-size="4.8" fill="#4A5C55">贵言：不是不说，是不拿话去替代事。</text>
+<line x1="24" y1="626" x2="338" y2="626" stroke="#DCCBB0" stroke-width="0.6"/>
+<rect x="20" y="634" width="340" height="40" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="190" y="650" font-size="6.0" fill="#2F2A24" text-anchor="middle">太上，下知有之；</text>
+<text x="190" y="662" font-size="6.0" fill="#4A5C55" text-anchor="middle">悠兮其贵言。</text>
+<line x1="20" y1="688" x2="360" y2="688" stroke="#E6D8C2" stroke-width="0.8"/>
+<text x="20" y="702" font-size="8.0" fill="#A89577" letter-spacing="1">本 章 金 句</text>
+<text x="20" y="718" font-size="8.4" fill="#2F2A24">太上，下知有之；其次亲而誉之；其次畏之；其次侮之。</text>
+<text x="20" y="734" font-size="8.4" fill="#2F2A24">贵言：不是不说，是不拿话去替代事。</text>
+</svg>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 380 758" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="把三样搬到门外，屋里才空得下饭香" font-family="'Noto Serif CJK SC','Noto Serif SC','Songti SC',serif">
+<defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#6E6459"/></marker><marker id="arr2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#4A5C55"/></marker><marker id="arrL" viewBox="0 0 10 10" refX="1" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M10 0 L0 5 L10 10 z" fill="#4A5C55"/></marker><marker id="arrS" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#A2503B"/></marker></defs>
+<rect x="0" y="0" width="380" height="758" fill="#F8F3E6"/>
+<text x="20" y="26" font-size="11" fill="#A2503B" font-family="'Noto Sans CJK SC','Noto Sans SC',sans-serif" letter-spacing="3">第 十 九 章 · 搬 出 去</text>
+<text x="20" y="58" font-size="21" fill="#2F2A24">搬出去</text>
+<text x="20" y="78" font-size="10.5" fill="#6E6459">绝圣弃智，民利百倍；绝仁弃义，民复孝慈；绝巧弃利，盗贼无有。</text>
+<rect x="20" y="102" width="340" height="34" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="190" y="114" font-size="4.9" fill="#2F2A24" text-anchor="middle">三句「绝弃」，都是往外搬，不是往里加。</text>
+<text x="190" y="127" font-size="4.8" fill="#6E6459">搬空了，人自己会坐下来吃饭。</text>
+<text x="24" y="152" font-size="5.2" fill="#A2503B">一、屋里三样：书简、牌位、巧器，堆在正中</text>
+<rect x="26" y="164" width="328" height="182" fill="#FBF6EC" stroke="#DCCBB0" stroke-width="0.8"/>
+<path d="M40,188 L40,306 L340,306 L340,188 L300,176 L80,174 z" fill="#FBF6EC" stroke="#DCCBB0" stroke-width="0.9"/>
+<line x1="40" y1="306" x2="340" y2="306" stroke="#2F2A24" stroke-width="1.0"/>
+<rect x="140" y="260" width="46" height="30" fill="#EFE6D4" stroke="#2F2A24" stroke-width="0.9"/>
+<line x1="140" y1="270" x2="186" y2="270" stroke="#DCCBB0" stroke-width="0.6"/>
+<text x="163" y="284" font-size="4.0" fill="#2F2A24" text-anchor="middle">简</text>
+<rect x="196" y="248" width="26" height="42" fill="#EFE6D4" stroke="#2F2A24" stroke-width="0.9"/>
+<text x="209" y="274" font-size="4.0" fill="#2F2A24" text-anchor="middle">牌</text>
+<circle cx="238" cy="276" r="9" fill="#EFE6D4" stroke="#2F2A24" stroke-width="0.9"/>
+<line x1="238" y1="270" x2="238" y2="282" stroke="#2F2A24" stroke-width="0.6"/>
+<text x="238" y="296" font-size="3.9" fill="#2F2A24" text-anchor="middle">巧器</text>
+<text x="190" y="336" font-size="4.3" fill="#A2503B" text-anchor="middle">屋里满满当当，人却没地方坐</text>
+<text x="24" y="364" font-size="5.2" fill="#4A5C55">二、搬到门外：屋里只剩一张素几、一只碗</text>
+<rect x="26" y="376" width="328" height="176" fill="#FBF6EC" stroke="#DCCBB0" stroke-width="0.8"/>
+<path d="M40,400 L40,518 L340,518 L340,400 L300,388 L80,386 z" fill="#FBF6EC" stroke="#DCCBB0" stroke-width="0.9"/>
+<line x1="40" y1="518" x2="340" y2="518" stroke="#2F2A24" stroke-width="1.0"/>
+<rect x="130" y="482" width="80" height="8" fill="#EFE6D4" stroke="#2F2A24" stroke-width="0.9"/>
+<line x1="140" y1="490" x2="140" y2="508" stroke="#2F2A24" stroke-width="0.8"/>
+<line x1="200" y1="490" x2="200" y2="508" stroke="#2F2A24" stroke-width="0.8"/>
+<ellipse cx="222" cy="480" rx="9" ry="3.4" fill="#EFE6D4" stroke="#2F2A24" stroke-width="0.9"/>
+<path d="M213,480 q9,12 18,0" fill="none" stroke="#2F2A24" stroke-width="0.8"/>
+<text x="145" y="472" font-size="3.9" fill="#4A5C55">素几</text>
+<text x="244" y="484" font-size="3.9" fill="#4A5C55">一碗饭</text>
+<rect x="236" y="524" width="46" height="16" fill="#EFE6D4" stroke="#2F2A24" stroke-width="0.8"/>
+<text x="259" y="535" font-size="3.4" fill="#6E6459" text-anchor="middle">简·牌·器</text>
+<line x1="196" y1="532" x2="230" y2="532" stroke="#4A5C55" stroke-width="0.8" marker-end="url(#arr2)"/>
+<text x="196" y="546" font-size="4.0" fill="#4A5C55">搬出门外</text>
+<text x="24" y="572" font-size="4.9" fill="#2F2A24">搬出去不是为了苦修，是为了腾出地方：地方一空，人就坐得下、吃得香。</text>
+<text x="24" y="588" font-size="4.9" fill="#2F2A24">民利百倍、民复孝慈、盗贼无有——不是靠加法，是靠把多余的那几层搬走。</text>
+<text x="24" y="606" font-size="4.9" fill="#4A5C55">绝弃是减法：减到够用，事就成了。</text>
+<line x1="24" y1="624" x2="338" y2="624" stroke="#DCCBB0" stroke-width="0.6"/>
+<rect x="20" y="632" width="340" height="40" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="190" y="648" font-size="6.0" fill="#2F2A24" text-anchor="middle">绝圣弃智，民利百倍；</text>
+<text x="190" y="660" font-size="6.0" fill="#4A5C55" text-anchor="middle">绝巧弃利，盗贼无有。</text>
+<line x1="20" y1="686" x2="360" y2="686" stroke="#E6D8C2" stroke-width="0.8"/>
+<text x="20" y="700" font-size="8.0" fill="#A89577" letter-spacing="1">本 章 金 句</text>
+<text x="20" y="716" font-size="8.4" fill="#2F2A24">绝圣弃智，民利百倍；绝巧弃利，盗贼无有。</text>
+<text x="20" y="732" font-size="8.4" fill="#2F2A24">绝弃是减法：减到够用，事就成了。</text>
+</svg>

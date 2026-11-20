@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 380 730" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="大道废，有仁义：补丁不是坏东西，是布破了才需要它" font-family="'Noto Serif CJK SC','Noto Serif SC','Songti SC',serif">
+<defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#6E6459"/></marker><marker id="arr2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#4A5C55"/></marker><marker id="arrL" viewBox="0 0 10 10" refX="1" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M10 0 L0 5 L10 10 z" fill="#4A5C55"/></marker><marker id="arrS" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#A2503B"/></marker></defs>
+<rect x="0" y="0" width="380" height="730" fill="#F8F3E6"/>
+<text x="20" y="26" font-size="11" fill="#A2503B" font-family="'Noto Sans CJK SC','Noto Sans SC',sans-serif" letter-spacing="3">第 十 八 章 · 补 丁</text>
+<text x="20" y="58" font-size="21" fill="#2F2A24">一块补丁</text>
+<text x="20" y="78" font-size="10.5" fill="#6E6459">大道废，有仁义；智慧出，有大伪。</text>
+<rect x="20" y="102" width="340" height="34" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="190" y="114" font-size="4.9" fill="#2F2A24" text-anchor="middle">补丁本身是好的；它出现，说明衣裳已经破了。</text>
+<text x="190" y="127" font-size="4.8" fill="#6E6459">夸补丁的人，往往不肯说布是怎么破的。</text>
+<text x="24" y="152" font-size="5.2" fill="#A2503B">一、一匹完整的布：没有人需要被称赞</text>
+<rect x="26" y="164" width="328" height="152" fill="#FBF6EC" stroke="#DCCBB0" stroke-width="0.8"/>
+<rect x="64.0" y="194" width="252" height="96" fill="#EFE6D4" stroke="#2F2A24" stroke-width="1.1"/>
+<line x1="70.0" y1="204" x2="310.0" y2="204" stroke="#DCC9A8" stroke-width="0.5"/>
+<line x1="70.0" y1="218" x2="310.0" y2="218" stroke="#DCC9A8" stroke-width="0.5"/>
+<line x1="70.0" y1="232" x2="310.0" y2="232" stroke="#DCC9A8" stroke-width="0.5"/>
+<line x1="70.0" y1="246" x2="310.0" y2="246" stroke="#DCC9A8" stroke-width="0.5"/>
+<line x1="70.0" y1="260" x2="310.0" y2="260" stroke="#DCC9A8" stroke-width="0.5"/>
+<line x1="70.0" y1="274" x2="310.0" y2="274" stroke="#DCC9A8" stroke-width="0.5"/>
+<text x="190" y="310" font-size="4.3" fill="#A2503B" text-anchor="middle">大道行：父慈子孝是日常，不必立名</text>
+<text x="24" y="336" font-size="5.2" fill="#4A5C55">二、布破了，才打上三块补丁</text>
+<rect x="26" y="348" width="328" height="176" fill="#FBF6EC" stroke="#DCCBB0" stroke-width="0.8"/>
+<rect x="64.0" y="378" width="252" height="96" fill="#EFE6D4" stroke="#2F2A24" stroke-width="1.1"/>
+<line x1="70.0" y1="388" x2="310.0" y2="388" stroke="#DCC9A8" stroke-width="0.5"/>
+<line x1="70.0" y1="402" x2="310.0" y2="402" stroke="#DCC9A8" stroke-width="0.5"/>
+<line x1="70.0" y1="416" x2="310.0" y2="416" stroke="#DCC9A8" stroke-width="0.5"/>
+<line x1="70.0" y1="430" x2="310.0" y2="430" stroke="#DCC9A8" stroke-width="0.5"/>
+<line x1="70.0" y1="444" x2="310.0" y2="444" stroke="#DCC9A8" stroke-width="0.5"/>
+<line x1="70.0" y1="458" x2="310.0" y2="458" stroke="#DCC9A8" stroke-width="0.5"/>
+<path d="M126.0,386 l5,9 l-6,8 l6,9 l-5,9 l4,10" fill="none" stroke="#A2503B" stroke-width="1.4"/>
+<rect x="104.0" y="394" width="44" height="34" fill="#E4EAE0" stroke="#4A5C55" stroke-width="0.9"/>
+<line x1="108.0" y1="401" x2="144.0" y2="401" stroke="#CBD8CB" stroke-width="0.5"/>
+<line x1="108.0" y1="408" x2="144.0" y2="408" stroke="#CBD8CB" stroke-width="0.5"/>
+<line x1="108.0" y1="415" x2="144.0" y2="415" stroke="#CBD8CB" stroke-width="0.5"/>
+<line x1="108.0" y1="422" x2="144.0" y2="422" stroke="#CBD8CB" stroke-width="0.5"/>
+<text x="126.0" y="422" font-size="5.4" fill="#4A5C55" text-anchor="middle">仁</text>
+<path d="M202.0,402 l5,9 l-6,8 l6,9 l-5,9 l4,10" fill="none" stroke="#A2503B" stroke-width="1.4"/>
+<rect x="182.0" y="410" width="40" height="30" fill="#E4EAE0" stroke="#4A5C55" stroke-width="0.9"/>
+<line x1="186.0" y1="417" x2="218.0" y2="417" stroke="#CBD8CB" stroke-width="0.5"/>
+<line x1="186.0" y1="424" x2="218.0" y2="424" stroke="#CBD8CB" stroke-width="0.5"/>
+<line x1="186.0" y1="431" x2="218.0" y2="431" stroke="#CBD8CB" stroke-width="0.5"/>
+<line x1="186.0" y1="438" x2="218.0" y2="438" stroke="#CBD8CB" stroke-width="0.5"/>
+<text x="202.0" y="434" font-size="5.4" fill="#4A5C55" text-anchor="middle">孝</text>
+<path d="M278.0,384 l5,9 l-6,8 l6,9 l-5,9 l4,10" fill="none" stroke="#A2503B" stroke-width="1.4"/>
+<rect x="258.0" y="392" width="40" height="34" fill="#E4EAE0" stroke="#4A5C55" stroke-width="0.9"/>
+<line x1="262.0" y1="399" x2="294.0" y2="399" stroke="#CBD8CB" stroke-width="0.5"/>
+<line x1="262.0" y1="406" x2="294.0" y2="406" stroke="#CBD8CB" stroke-width="0.5"/>
+<line x1="262.0" y1="413" x2="294.0" y2="413" stroke="#CBD8CB" stroke-width="0.5"/>
+<line x1="262.0" y1="420" x2="294.0" y2="420" stroke="#CBD8CB" stroke-width="0.5"/>
+<text x="278.0" y="420" font-size="5.4" fill="#4A5C55" text-anchor="middle">忠</text>
+<text x="190" y="508" font-size="4.3" fill="#4A5C55" text-anchor="middle">补得再好，也还是补丁；布上的口子才是真事</text>
+<text x="24" y="544" font-size="4.8" fill="#2F2A24">老子不是骂仁义，是提醒：当仁义要被大张旗鼓地表彰，说明它已经不平常了。</text>
+<text x="24" y="560" font-size="4.8" fill="#2F2A24">智慧出，有大伪：越是需要机巧，越说明正路走不通了。</text>
+<text x="24" y="578" font-size="4.8" fill="#4A5C55">六亲不和才有孝慈，国家昏乱才有忠臣——名号越亮，底子越薄。</text>
+<line x1="24" y1="596" x2="338" y2="596" stroke="#DCCBB0" stroke-width="0.6"/>
+<rect x="20" y="604" width="340" height="40" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="190" y="620" font-size="6.0" fill="#2F2A24" text-anchor="middle">大道废，有仁义；</text>
+<text x="190" y="632" font-size="6.0" fill="#4A5C55" text-anchor="middle">智慧出，有大伪。</text>
+<line x1="20" y1="658" x2="360" y2="658" stroke="#E6D8C2" stroke-width="0.8"/>
+<text x="20" y="672" font-size="8.0" fill="#A89577" letter-spacing="1">本 章 金 句</text>
+<text x="20" y="688" font-size="8.4" fill="#2F2A24">大道废，有仁义；智慧出，有大伪。</text>
+<text x="20" y="704" font-size="8.4" fill="#2F2A24">补丁越响，破处越深。</text>
+</svg>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 380 600" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="孝慈、忠臣、仁义：三块补丁，各补一处破" font-family="'Noto Serif CJK SC','Noto Serif SC','Songti SC',serif">
+<defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#6E6459"/></marker><marker id="arr2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#4A5C55"/></marker><marker id="arrL" viewBox="0 0 10 10" refX="1" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M10 0 L0 5 L10 10 z" fill="#4A5C55"/></marker><marker id="arrS" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#A2503B"/></marker></defs>
+<rect x="0" y="0" width="380" height="600" fill="#F8F3E6"/>
+<text x="20" y="26" font-size="11" fill="#A2503B" font-family="'Noto Sans CJK SC','Noto Sans SC',sans-serif" letter-spacing="3">第 十 八 章 · 三 处 破</text>
+<text x="20" y="58" font-size="21" fill="#2F2A24">三处破</text>
+<text x="20" y="78" font-size="10.5" fill="#6E6459">六亲不和，有孝慈；国家昏乱，有忠臣。</text>
+<rect x="20" y="102" width="340" height="34" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="190" y="114" font-size="4.9" fill="#2F2A24" text-anchor="middle">每一块补丁，都对应一个具体的破处；先看破处，再看补丁。</text>
+<text x="190" y="127" font-size="4.8" fill="#6E6459">补丁的名字越响，破口就越深。</text>
+<text x="24" y="166" font-size="5.2" fill="#A2503B">破处：六亲不和</text>
+<rect x="30" y="178" width="130" height="56" fill="#EFE6D4" stroke="#2F2A24" stroke-width="1.0"/>
+<path d="M84,178 l6,14 l-8,12 l7,16 l-9,14" fill="none" stroke="#A2503B" stroke-width="1.2"/>
+<line x1="166" y1="206" x2="196" y2="206" stroke="#4A5C55" stroke-width="0.9" marker-end="url(#arr2)"/>
+<rect x="200" y="182" width="66" height="48" fill="#E4EAE0" stroke="#4A5C55" stroke-width="1.0"/>
+<text x="233" y="212" font-size="6.4" fill="#4A5C55" text-anchor="middle">孝慈</text>
+<text x="272" y="202" font-size="4.0" fill="#6E6459">补上</text>
+<text x="272" y="213" font-size="3.8" fill="#6E6459">一家子冷了，才需要有人出来做孝子</text>
+<text x="24" y="250" font-size="5.2" fill="#A2503B">破处：国家昏乱</text>
+<rect x="30" y="262" width="130" height="56" fill="#EFE6D4" stroke="#2F2A24" stroke-width="1.0"/>
+<path d="M84,262 l6,14 l-8,12 l7,16 l-9,14" fill="none" stroke="#A2503B" stroke-width="1.2"/>
+<line x1="166" y1="290" x2="196" y2="290" stroke="#4A5C55" stroke-width="0.9" marker-end="url(#arr2)"/>
+<rect x="200" y="266" width="66" height="48" fill="#E4EAE0" stroke="#4A5C55" stroke-width="1.0"/>
+<text x="233" y="296" font-size="6.4" fill="#4A5C55" text-anchor="middle">忠臣</text>
+<text x="272" y="286" font-size="4.0" fill="#6E6459">补上</text>
+<text x="272" y="297" font-size="3.8" fill="#6E6459">朝堂乱了，才需要有人出来做忠臣</text>
+<text x="24" y="334" font-size="5.2" fill="#A2503B">破处：大道废</text>
+<rect x="30" y="346" width="130" height="56" fill="#EFE6D4" stroke="#2F2A24" stroke-width="1.0"/>
+<path d="M84,346 l6,14 l-8,12 l7,16 l-9,14" fill="none" stroke="#A2503B" stroke-width="1.2"/>
+<line x1="166" y1="374" x2="196" y2="374" stroke="#4A5C55" stroke-width="0.9" marker-end="url(#arr2)"/>
+<rect x="200" y="350" width="66" height="48" fill="#E4EAE0" stroke="#4A5C55" stroke-width="1.0"/>
+<text x="233" y="380" font-size="6.4" fill="#4A5C55" text-anchor="middle">仁义</text>
+<text x="272" y="370" font-size="4.0" fill="#6E6459">补上</text>
+<text x="272" y="381" font-size="3.8" fill="#6E6459">路走不通了，才需要有人出来讲仁义</text>
+<text x="24" y="426" font-size="4.8" fill="#2F2A24">三处破，三种补：不是三件德目，是同一件事在人情、朝堂、大道上的三次显影。</text>
+<text x="24" y="442" font-size="4.8" fill="#2F2A24">补丁可以救命，却不能代替布——把补丁当成布，破处就永远好不了。</text>
+<line x1="24" y1="466" x2="338" y2="466" stroke="#DCCBB0" stroke-width="0.6"/>
+<rect x="20" y="474" width="340" height="40" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="190" y="490" font-size="6.0" fill="#2F2A24" text-anchor="middle">六亲不和，有孝慈；</text>
+<text x="190" y="502" font-size="6.0" fill="#4A5C55" text-anchor="middle">国家昏乱，有忠臣。</text>
+<line x1="20" y1="528" x2="360" y2="528" stroke="#E6D8C2" stroke-width="0.8"/>
+<text x="20" y="542" font-size="8.0" fill="#A89577" letter-spacing="1">本 章 金 句</text>
+<text x="20" y="558" font-size="8.4" fill="#2F2A24">六亲不和，有孝慈；国家昏乱，有忠臣。</text>
+<text x="20" y="574" font-size="8.4" fill="#2F2A24">补丁可以救命，却不能代替布。</text>
+</svg>
