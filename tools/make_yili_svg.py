@@ -1505,6 +1505,9 @@ def ch21_kong_de():
 
 
 GOLD = {
+    "ch62a": ["奥是那个不见光的西南角；坐进，是坐着往上走。", "奥是最尊又最暗的那个角；尊，是没人敢坐；暗，是光进不去。"],
+    "ch62b": ["宝是自己收着的，保是背着孩子的；一个揣在怀里，一个驮在背上。", "收留是给个地方，背着是驮在身上——走到哪儿带到哪儿。"],
+    "ch62c": ["坐是停，进是登；这条路上的「进」，脚一步也不用迈。", "拱是两手收起来往前献，坐是手放开往下停；一个送一次，一个待一辈子。"],
     "ch12": ["五色不盲人，逐色者自盲；五音不聋人，溺音者自聋。", "去彼取此，去的是执，取的是定。"],
     "ch13": ["杯壁承一气，珍重莫轻伤；不缚荣辱相，中空纳天光。", "壁不可碎，执壁为我才碎；养身如养器，护壁不据壁。"],
     "ch14": ["视之不见非无，是目不及；听之不闻非寂，是耳不及。", "执古御今，不是驭世，是安己。"],
@@ -6852,6 +6855,220 @@ def ch61c_yi_zhi_shou():
     return "\n".join(s)
 
 
+# ============ 第六十二章 · 一个墙角 ============
+def ch62a_yi_ge_qiang_jiao():
+    W, H = 380, 706
+    body, y = head(W, H, "奥是室之西南隅：最尊，也最暗；不是深奥，是那个角",
+                   "第 六 十 二 章 · 奥", "一个墙角", "道者，万物之奥。", H)
+    s = [body]
+
+    s.append(box(20, y + 2, 340, 30, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, y + 14, "「奥」，《说文》「宛也，室之西南隅」——就是屋里西南那个角。", 5.2, INK, "middle"))
+    s.append(txt(190, y + 26, "那个角，古人祭神、尊长坐；也最暗——「不见户明」。", 5.0, "#6E6459", "middle"))
+
+    s.append(txt(24, y + 48, "一、屋里那个角：最尊，也最暗", 4.8, SEAL))
+
+    gy = y + 66
+    rx0, rx1 = 56, 322
+    ry0, ry1 = gy, gy + 176
+
+    # 地板
+    s.append(f'<rect x="{rx0}" y="{ry0}" width="{rx1 - rx0}" height="{ry1 - ry0}" fill="#FBF6EC" stroke="none"/>')
+    # 光楔：门在南墙右段，光往里走一程就停
+    s.append(f'<polygon points="242,{ry1 - 4} 276,{ry1 - 4} 300,{ry0 + 48} 160,{ry0 + 26}" '
+             f'fill="#EADFC2" opacity="0.6" stroke="none"/>')
+    s.append(f'<path d="M160,{ry0 + 26} Q230,{ry0 + 32} 300,{ry0 + 48}" fill="none" stroke="{SEAL}" '
+             f'stroke-width="1" stroke-dasharray="4 3"/>')
+    # 西南角：暗（加点竖纹，显出暗）
+    s.append(f'<rect x="{rx0 + 4}" y="{ry1 - 48}" width="54" height="44" fill="#DBCFB7" stroke="none"/>')
+    for k in range(5):
+        s.append(f'<line x1="{rx0 + 10 + k * 10}" y1="{ry1 - 46}" x2="{rx0 + 10 + k * 10}" y2="{ry1 - 6}" '
+                 f'stroke="#C6B79B" stroke-width="0.6"/>')
+    # 席
+    s.append(f'<rect x="{rx0 + 18}" y="{ry1 - 38}" width="26" height="25" fill="none" stroke="{INK}" stroke-width="1"/>')
+    for k in range(3):
+        s.append(f'<line x1="{rx0 + 18}" y1="{ry1 - 30 + k * 8}" x2="{rx0 + 44}" y2="{ry1 - 30 + k * 8}" '
+                 f'stroke="{LINE}" stroke-width="0.5"/>')
+    # 四壁
+    s.append(f'<rect x="{rx0}" y="{ry0 - 5}" width="{rx1 - rx0}" height="5" fill="#E6DCC6" stroke="{INK}" stroke-width="0.8"/>')
+    s.append(f'<rect x="{rx0 - 5}" y="{ry0 - 5}" width="5" height="{ry1 - ry0 + 10}" fill="#E6DCC6" stroke="{INK}" stroke-width="0.8"/>')
+    s.append(f'<rect x="{rx1}" y="{ry0 - 5}" width="5" height="{ry1 - ry0 + 10}" fill="#E6DCC6" stroke="{INK}" stroke-width="0.8"/>')
+    s.append(f'<rect x="{rx0 - 5}" y="{ry1}" width="247 - {rx0}" height="5" fill="#E6DCC6" stroke="{INK}" stroke-width="0.8"/>')
+    s.append(f'<rect x="276" y="{ry1}" width="{rx1 + 5 - 276}" height="5" fill="#E6DCC6" stroke="{INK}" stroke-width="0.8"/>')
+    # 门扇弧
+    s.append(f'<path d="M242,{ry1} A36,36 0 0 1 278,{ry1 - 36}" fill="none" stroke="{LINE}" '
+             f'stroke-width="0.8" stroke-dasharray="2 2"/>')
+
+    s.append(txt(259, ry1 + 18, "门：光从这儿进来", 4.6, SEAL, "middle"))
+    s.append(txt(296, ry0 + 62, "光只到这儿", 4.4, SEAL, "end"))
+    s.append(txt(120, ry1 - 34, "西南角：最尊", 4.8, INK))
+    s.append(txt(120, ry1 - 20, "也最暗——光进不去", 4.6, "#6E6459"))
+
+    s.append(txt(190, ry1 + 38, "万物归到这儿：不是归到光亮的台上被审判，", 4.6, SEAL, "middle"))
+    s.append(txt(190, ry1 + 52, "是归到一个连光都进不去的角里，被收着。", 4.6, SEAL, "middle"))
+
+    s.append(txt(24, ry1 + 74, "二、帛书作「注」：水往一处流", 4.8, GREEN))
+    gy2 = ry1 + 92
+    s.append(arrow(96, gy2 + 2, 178, gy2 + 38, GREEN, 1, head="arr2"))
+    s.append(arrow(190, gy2 - 14, 190, gy2 + 44, GREEN, 1, head="arr2"))
+    s.append(arrow(284, gy2 + 2, 202, gy2 + 38, GREEN, 1, head="arr2"))
+    s.append(f'<ellipse cx="190" cy="{gy2 + 54}" rx="30" ry="9" fill="#EFE6D4" stroke="{GREEN}" stroke-width="1"/>')
+    s.append(txt(190, gy2 + 56, "一处", 4.2, GREEN, "middle"))
+    s.append(txt(190, gy2 + 80, "注：水往一处流——奥讲屋，注讲水，讲的是同一件事", 4.6, "#6E6459", "middle"))
+
+    a = gy2 + 98
+    s.append(txt(24, a, "「注」是水往一处流，「奥」是屋里的那个角：一个讲水，一个讲屋，", 4.8, INK))
+    s.append(txt(24, a + 16, "讲的却是同一件事——有个地方，东西都往那儿去。", 4.9, INK))
+    s.append(txt(24, a + 34, "尊，是因为没人敢坐；暗，是因为光进不去——暗，才是它能容的原因。", 5.0, GREEN))
+
+    c = a + 52
+    s.append(f'<line x1="24" y1="{c}" x2="338" y2="{c}" stroke="{LINE}" stroke-width="0.6"/>')
+    s.append(box(20, c + 8, 340, 40, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, c + 24, "奥是最尊又最暗的那个角；", 5.8, INK, "middle"))
+    s.append(txt(190, c + 36, "不是归到光亮的台上，是归到一个角落被收着。", 5.2, GREEN, "middle"))
+    s.append(gold(c + 62, "ch62a"))
+    s.append('</svg>')
+    return "\n".join(s)
+
+
+# ============ 第六十二章 · 一副背带 ============
+def ch62b_yi_fu_bei_dai():
+    W, H = 380, 700
+    body, y = head(W, H, "保是从人从孚：不是给个地方，是驮在身上走",
+                   "第 六 十 二 章 · 保", "一副背带", "善人之宝，不善人之所保。", H)
+    s = [body]
+
+    s.append(box(20, y + 2, 340, 30, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, y + 14, "「保」，《说文》「养也」，从人从孚——孚，是一只被抱住的孩子。", 5.2, INK, "middle"))
+    s.append(txt(190, y + 26, "本义是背着孩子：驮在背上，两只手还要腾出来干活。", 5.0, "#6E6459", "middle"))
+
+    def child(cx, gy, col, k=1.0):
+        o = []
+        o.append(f'<circle cx="{cx}" cy="{gy - 34 * k}" r="{5 * k}" fill="none" stroke="{col}" stroke-width="1"/>')
+        o.append(f'<rect x="{cx - 6 * k}" y="{gy - 28 * k}" width="{12 * k}" height="{16 * k}" rx="2" '
+                 f'fill="#EFE6D4" stroke="{col}" stroke-width="1"/>')
+        o.append(f'<line x1="{cx - 3 * k}" y1="{gy - 12 * k}" x2="{cx - 4 * k}" y2="{gy}" stroke="{col}" stroke-width="1"/>')
+        o.append(f'<line x1="{cx + 3 * k}" y1="{gy - 12 * k}" x2="{cx + 4 * k}" y2="{gy}" stroke="{col}" stroke-width="1"/>')
+        return o
+
+    s.append(txt(24, y + 48, "一、收留：给一个地方", 4.8, "#6E6459"))
+    gy1 = y + 172
+    # 门框
+    s.append(f'<rect x="126" y="{gy1 - 64}" width="6" height="64" fill="#E6DCC6" stroke="{INK}" stroke-width="0.9"/>')
+    s.append(f'<rect x="208" y="{gy1 - 64}" width="6" height="64" fill="#E6DCC6" stroke="{INK}" stroke-width="0.9"/>')
+    s.append(f'<path d="M126,{gy1 - 64} Q170,{gy1 - 82} 214,{gy1 - 64}" fill="none" stroke="{INK}" stroke-width="1.2"/>')
+    # 给的那块地方
+    s.append(f'<rect x="152" y="{gy1}" width="36" height="7" fill="#EFE6D4" stroke="{INK}" stroke-width="0.9"/>')
+    s += child(170, gy1, INK)
+    s.append(txt(190, gy1 + 26, "收留：给一个地方", 4.8, "#6E6459", "middle"))
+    s.append(txt(190, gy1 + 40, "地方是死的，人在地方里", 4.4, "#6E6459", "middle"))
+
+    s.append(txt(24, gy1 + 66, "二、背着：驮在身上，走到哪儿带到哪儿", 4.8, SEAL))
+    gy2 = gy1 + 190
+    # 背上驮着的包袱：孩子的小脑袋从包袱口露出来
+    s.append(f'<path d="M174,{gy2 - 48} Q174,{gy2 - 56} 182,{gy2 - 56} L190,{gy2 - 56} Q196,{gy2 - 56} 196,{gy2 - 47} '
+             f'L196,{gy2 - 26} L174,{gy2 - 26} Z" fill="#F6EFE0" stroke="{SEAL}" stroke-width="1"/>')
+    s.append(f'<circle cx="185" cy="{gy2 - 60}" r="5" fill="#F6EFE0" stroke="{SEAL}" stroke-width="1"/>')
+    s.append(f'<line x1="182" y1="{gy2 - 66}" x2="188" y2="{gy2 - 66}" stroke="{SEAL}" stroke-width="0.8"/>')
+    # 大人：侧身，背朝左
+    s.append(f'<line x1="200" y1="{gy2 - 26}" x2="197" y2="{gy2}" stroke="{INK}" stroke-width="1.2"/>')
+    s.append(f'<line x1="213" y1="{gy2 - 26}" x2="216" y2="{gy2}" stroke="{INK}" stroke-width="1.2"/>')
+    s.append(f'<rect x="194" y="{gy2 - 54}" width="22" height="28" rx="3" fill="#EFE6D4" stroke="{INK}" stroke-width="1.2"/>')
+    s.append(f'<circle cx="208" cy="{gy2 - 64}" r="8" fill="none" stroke="{INK}" stroke-width="1.2"/>')
+    s.append(f'<line x1="194" y1="{gy2 - 52}" x2="209" y2="{gy2 - 34}" stroke="{SEAL}" stroke-width="1" stroke-dasharray="2.4 1.8"/>')
+    # 前手与篮
+    s.append(f'<line x1="216" y1="{gy2 - 48}" x2="232" y2="{gy2 - 30}" stroke="{INK}" stroke-width="1.1"/>')
+    s.append(f'<path d="M224,{gy2 - 26} A10,8 0 0 0 244,{gy2 - 26}" fill="none" stroke="{INK}" stroke-width="0.9"/>')
+    s.append(f'<path d="M223,{gy2 - 26} L225,{gy2 - 8} L243,{gy2 - 8} L245,{gy2 - 26}" fill="#EFE6D4" stroke="{INK}" stroke-width="1"/>')
+    s.append(txt(252, gy2 - 32, "手还空着", 4.2, "#6E6459"))
+    s.append(txt(190, gy2 + 26, "背着：驮在背上，手还腾着提篮", 4.8, SEAL, "middle"))
+    s.append(txt(190, gy2 + 40, "人走到哪儿，孩子就到哪儿", 4.4, "#6E6459", "middle"))
+
+    a = gy2 + 62
+    s.append(txt(24, a, "宝是自己收着的，保是背着孩子的：一个揣在怀里，一个驮在背上。", 4.8, INK))
+    s.append(txt(24, a + 16, "收留是给个地方，人得待在那儿；背着是带在身上，走到哪儿带到哪儿。", 4.9, INK))
+    s.append(txt(24, a + 34, "「太保」做的就是这件事；道对不善之人做的事，就是太保做的事。", 5.0, GREEN))
+
+    c = a + 52
+    s.append(f'<line x1="24" y1="{c}" x2="338" y2="{c}" stroke="{LINE}" stroke-width="0.6"/>')
+    s.append(box(20, c + 8, 340, 40, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, c + 24, "宝是自己收着的，保是背着孩子的；", 5.8, INK, "middle"))
+    s.append(txt(190, c + 36, "一个揣在怀里，一个驮在背上。", 5.2, GREEN, "middle"))
+    s.append(gold(c + 62, "ch62b"))
+    s.append('</svg>')
+    return "\n".join(s)
+
+
+# ============ 第六十二章 · 一个坐姿 ============
+def ch62c_yi_ge_zuo_zi():
+    W, H = 380, 686
+    body, y = head(W, H, "坐训止，进训登：停住，却往上走——这条路上不用脚",
+                   "第 六 十 二 章 · 坐", "一个坐姿", "虽有拱璧以先驷马，不如坐进此道。", H)
+    s = [body]
+
+    s.append(box(20, y + 2, 340, 30, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, y + 14, "「坐」，《说文》「止也」——停下来；「进」，《说文》「登也」——往上走。", 5.2, INK, "middle"))
+    s.append(txt(190, y + 26, "两个字摆在一起，是一对矛盾：停住，却往上走。", 5.0, "#6E6459", "middle"))
+
+    def tread(cx, cy, col, sc=0.78):
+        inner = [f'<path d="M-9,-12 C-11,-2 -10,9 -4,14 C2,18 8,10 9,-2 C10,-11 6,-17 -1,-17 C-6,-17 -8,-16 -9,-12 Z" '
+                 f'fill="none" stroke="{col}" stroke-width="1.3"/>',
+                 f'<circle cx="-6" cy="-20" r="2.3" fill="none" stroke="{col}" stroke-width="1"/>',
+                 f'<circle cx="-1.5" cy="-23" r="2.0" fill="none" stroke="{col}" stroke-width="1"/>',
+                 f'<circle cx="2.5" cy="-22" r="1.7" fill="none" stroke="{col}" stroke-width="1"/>',
+                 f'<circle cx="6" cy="-19" r="1.5" fill="none" stroke="{col}" stroke-width="1"/>']
+        return [f'<g transform="translate({cx},{cy}) scale({sc})">' + "".join(inner) + '</g>']
+
+    s.append(txt(24, y + 48, "一、用脚：一步一阶", 4.8, "#6E6459"))
+    gy1 = y + 196
+    # 俯看的台阶：一级一级往上收
+    for k in range(7):
+        ty = gy1 - 14 - k * 14
+        col = "#EFE6D4" if k % 2 == 0 else "#F6EFE0"
+        s.append(f'<rect x="132" y="{ty}" width="112" height="14" fill="{col}" stroke="{INK}" stroke-width="0.8"/>')
+    s += tread(170, gy1 - 36, INK, 0.66)
+    s += tread(206, gy1 - 78, INK, 0.66)
+    s.append(arrow(124, gy1 - 4, 124, gy1 - 104, "#6E6459", 1, dash="3 2"))
+    s.append(txt(124, gy1 - 110, "往上", 4.2, "#6E6459", "middle"))
+    s.append(txt(190, gy1 + 24, "用脚：一步一阶，两个脚印隔着一阶", 4.8, "#6E6459", "middle"))
+
+    s.append(txt(24, gy1 + 52, "二、不用脚：坐在这儿，就往上走", 4.8, SEAL))
+    gy2 = gy1 + 150
+    # 盘坐
+    s.append(f'<line x1="120" y1="{gy2}" x2="262" y2="{gy2}" stroke="{INK}" stroke-width="1.2"/>')
+    s.append(f'<line x1="176" y1="{gy2 - 26}" x2="158" y2="{gy2 - 8}" stroke="{INK}" stroke-width="1.1"/>')
+    s.append(f'<line x1="204" y1="{gy2 - 26}" x2="222" y2="{gy2 - 8}" stroke="{INK}" stroke-width="1.1"/>')
+    s.append(f'<line x1="158" y1="{gy2 - 8}" x2="198" y2="{gy2 - 2}" stroke="{INK}" stroke-width="1.1"/>')
+    s.append(f'<line x1="222" y1="{gy2 - 8}" x2="182" y2="{gy2 - 2}" stroke="{INK}" stroke-width="1.1"/>')
+    s.append(f'<path d="M178,{gy2 - 54} L202,{gy2 - 54} L206,{gy2 - 24} L174,{gy2 - 24} Z" '
+             f'fill="#EFE6D4" stroke="{INK}" stroke-width="1.2"/>')
+    s.append(f'<circle cx="190" cy="{gy2 - 64}" r="7.5" fill="none" stroke="{INK}" stroke-width="1.2"/>')
+    s.append(f'<line x1="180" y1="{gy2 - 50} " x2="164" y2="{gy2 - 16}" stroke="{INK}" stroke-width="1"/>')
+    s.append(f'<line x1="200" y1="{gy2 - 50}" x2="216" y2="{gy2 - 16}" stroke="{INK}" stroke-width="1"/>')
+    s.append(f'<ellipse cx="163" cy="{gy2 - 14}" rx="4" ry="3" fill="#EFE6D4" stroke="{INK}" stroke-width="0.9"/>')
+    s.append(f'<ellipse cx="217" cy="{gy2 - 14}" rx="4" ry="3" fill="#EFE6D4" stroke="{INK}" stroke-width="0.9"/>')
+    # 止：压地的那条线
+    s.append(f'<line x1="146" y1="{gy2 + 8}" x2="234" y2="{gy2 + 8}" stroke="{LINE}" stroke-width="0.8" stroke-dasharray="4 3"/>')
+    s.append(arrow(190, gy2 - 80, 190, gy2 - 120, GREEN, 1.2, dash="3 2", head="arr2"))
+    s.append(txt(200, gy2 - 110, "进：往上走", 4.6, GREEN))
+    s.append(txt(146, gy2 + 26, "坐：停住，脚不用迈", 4.6, SEAL))
+
+    a = gy2 + 50
+    s.append(txt(24, a, "第一条路上，「进」是脚的事；这一条路上，「进」是坐的事。", 4.8, INK))
+    s.append(txt(24, a + 16, "往外走要开路，往里走只要坐下：停了，才升得起来。", 4.9, INK))
+    s.append(txt(24, a + 34, "帛书作「坐而进此」——多一个「而」字：先停，再进。", 5.0, GREEN))
+
+    c = a + 52
+    s.append(f'<line x1="24" y1="{c}" x2="338" y2="{c}" stroke="{LINE}" stroke-width="0.6"/>')
+    s.append(box(20, c + 8, 340, 40, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, c + 24, "坐是停，进是登；", 5.8, INK, "middle"))
+    s.append(txt(190, c + 36, "这条路上的「进」，脚一步也不用迈。", 5.2, GREEN, "middle"))
+    s.append(gold(c + 62, "ch62c"))
+    s.append('</svg>')
+    return "\n".join(s)
+
+
+
 FIGS = {
     "ch01-wu-you": ("第一章", "无有同出", ch01_wu_you),
     "ch01-zhi-yue": ("第一章", "指月三境", ch01_zhi_yue),
@@ -6969,6 +7186,9 @@ FIGS = {
     "ch38-wu-ji-tai-jie": ("第三十八章", "五级滑落", ch38_wu_ji_tai_jie),
     "ch39a-liu-de-yi": ("第三十九章", "六样东西，各自不裂", ch39a_liu_de_yi),
     "ch39b-di-xia-san-zhi-jiao": ("第三十九章", "底下那三只脚", ch39b_di_xia_san_zhi_jiao),
+    "ch62a-yi-ge-qiang-jiao": ("第六十二章", "一个墙角", ch62a_yi_ge_qiang_jiao),
+    "ch62b-yi-fu-bei-dai": ("第六十二章", "一副背带", ch62b_yi_fu_bei_dai),
+    "ch62c-yi-ge-zuo-zi": ("第六十二章", "一个坐姿", ch62c_yi_ge_zuo_zi),
 }
 
 
