@@ -3317,10 +3317,211 @@ def ch74c_yi_zhi_shou():
     return "\n".join(s)
 
 
+def ch75a_yi_zhi_kong_wan():
+    W, H = 380, 706
+    body, y = head(W, H, "同是饿，一个字归天，一个字归人",
+                   "第 七 十 五 章 · 飢", "一只空碗", "民之饥，以其上食税之多，是以饥。", H)
+    s = [body]
+
+    s.append(box(20, y + 2, 340, 32, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, y + 14, "飢，《说文》「饿也」——肚子空；饑，《说文》「谷不熟」——年成不好。", 4.7, INK, "middle"))
+    s.append(txt(190, y + 27, "本章用的是飢：老子不给天灾留位置。", 4.7, "#6E6459", "middle"))
+
+    s.append(txt(24, y + 50, "一、饑：谷不熟，账在天上", 4.8, SEAL))
+    gy = y + 62
+    s.append(f'<rect x="26" y="{gy}" width="328" height="152" fill="#FBF6EC" stroke="{LINE}" stroke-width="0.8"/>')
+    # 田垄
+    s.append(f'<line x1="34" y1="{gy + 124}" x2="330" y2="{gy + 124}" stroke="{INK}" stroke-width="1"/>')
+    for i in range(3):
+        s.append(f'<line x1="44" y1="{gy + 104 + i * 7}" x2="160" y2="{gy + 102 + i * 7}" stroke="#DCCBB0" stroke-width="0.7"/>')
+    # 一株倒伏的禾：秆子折了，穗空着垂在地上
+    s.append(f'<path d="M76,{gy + 122} Q84,{gy + 94} 102,{gy + 92} Q120,{gy + 94} 134,{gy + 120}" stroke="{INK}" stroke-width="1.3" fill="none"/>')
+    s.append(f'<line x1="96" y1="{gy + 96}" x2="82" y2="{gy + 84}" stroke="{INK}" stroke-width="1"/>')
+    s.append(f'<line x1="110" y1="{gy + 92}" x2="116" y2="{gy + 78}" stroke="{INK}" stroke-width="0.8"/>')
+    s.append(f'<ellipse cx="136" cy="{gy + 120}" rx="7" ry="4" fill="none" stroke="{SEAL}" stroke-width="1" stroke-dasharray="3 2"/>')
+    # 一株立着，穗也是空的
+    s.append(f'<line x1="228" y1="{gy + 122}" x2="228" y2="{gy + 52}" stroke="{INK}" stroke-width="1.3"/>')
+    s.append(f'<line x1="228" y1="{gy + 74}" x2="212" y2="{gy + 64}" stroke="{INK}" stroke-width="1"/>')
+    s.append(f'<line x1="228" y1="{gy + 62}" x2="244" y2="{gy + 52}" stroke="{INK}" stroke-width="1"/>')
+    s.append(f'<path d="M228,{gy + 52} q-6,-14 0,-22 q6,8 0,22" fill="none" stroke="{SEAL}" stroke-width="1" stroke-dasharray="3 2"/>')
+    s.append(txt(272, gy + 62, "饑：谷不熟", 4.4, SEAL))
+    s.append(txt(272, gy + 74, "穗是空的", 4.4, "#6E6459"))
+    s.append(txt(190, gy + 168, "饑是天灾：年成不好，怨不到人身上", 4.6, GREEN, "middle"))
+
+    s.append(txt(24, gy + 192, "二、飢：肚子空，账在人身上", 4.8, GREEN))
+    gy2 = gy + 204
+    s.append(f'<rect x="26" y="{gy2}" width="328" height="152" fill="#FBF6EC" stroke="{LINE}" stroke-width="0.8"/>')
+    s.append(f'<line x1="34" y1="{gy2 + 138}" x2="330" y2="{gy2 + 138}" stroke="{INK}" stroke-width="1"/>')
+    # 碗：空着
+    s.append(f'<path d="M64,{gy2 + 74} Q92,{gy2 + 130} 120,{gy2 + 74}" fill="#EFE6D4" stroke="{INK}" stroke-width="1.3"/>')
+    s.append(f'<line x1="62" y1="{gy2 + 74}" x2="122" y2="{gy2 + 74}" stroke="{INK}" stroke-width="1.3"/>')
+    s.append(f'<ellipse cx="92" cy="{gy2 + 74}" rx="30" ry="5" fill="none" stroke="#B9A98F" stroke-width="0.6" stroke-dasharray="2 2"/>')
+    s.append(txt(92, gy2 + 120, "碗里什么也没有", 4.3, "#6E6459", "middle"))
+    # 斗：满得冒尖
+    s.append(f'<path d="M224,{gy2 + 46} L286,{gy2 + 46} L276,{gy2 + 112} L234,{gy2 + 112} Z" fill="#EFE6D4" stroke="{INK}" stroke-width="1.2"/>')
+    s.append(f'<path d="M224,{gy2 + 46} q31,-22 62,0" fill="#DED2B8" stroke="{INK}" stroke-width="1.1"/>')
+    for i in range(3):
+        s.append(f'<line x1="{228 + i * 4}" y1="{gy2 + 60 + i * 14}" x2="{282 - i * 4}" y2="{gy2 + 60 + i * 14}" stroke="#B9A98F" stroke-width="0.6"/>')
+    s.append(txt(255, gy2 + 84, "食税之多", 4.3, SEAL, "middle"))
+    # 从碗到斗：一只手
+    s.append(f'<path d="M126,{gy2 + 96} Q168,{gy2 + 82} 220,{gy2 + 62}" fill="none" stroke="{SEAL}" stroke-width="1" stroke-dasharray="4 3"/>')
+    s.append(f'<polygon points="220,{gy2 + 62} 208,{gy2 + 60} 212,{gy2 + 70}" fill="{SEAL}"/>')
+    s.append(txt(166, gy2 + 108, "取之于下", 4.2, SEAL))
+    s.append(txt(190, gy2 + 168, "碗是空的，斗是满的：这一空一满，都在人的账上", 4.6, GREEN, "middle"))
+
+    a = gy2 + 192
+    s.append(txt(24, a, "《说文》「飢，饿也」，肚子空；「饑，谷不熟」，年成不好——两个字从来不混。", 4.8, INK))
+    s.append(txt(24, a + 16, "老子不说「民之饑」，说「民之飢」：他把天灾这个变量拿掉了。", 4.8, INK))
+    s.append(txt(24, a + 34, "天灾不在账上，账上只有人。", 5.0, GREEN))
+
+    c = a + 52
+    s.append(f'<line x1="24" y1="{c}" x2="338" y2="{c}" stroke="{LINE}" stroke-width="0.6"/>')
+    s.append(box(20, c + 8, 340, 40, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, c + 23, "民之饥，以其上食税之多，是以饥。", 5.4, INK, "middle"))
+    s.append(txt(190, c + 36, "饿，不是天给的。", 4.7, GREEN, "middle"))
+    s.append(gold(c + 64, "ch75a"))
+    s.append('</svg>')
+    return "\n".join(s)
+
+
+def ch75b_yi_tiao_he():
+    W, H = 380, 742
+    body, y = head(W, H, "治本来是水名：治水的要诀是疏，不是堵",
+                   "第 七 十 五 章 · 治", "一条河", "民之难治，以其上之有为，是以难治。", H)
+    s = [body]
+
+    s.append(box(20, y + 2, 340, 32, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, y + 14, "治，《说文》「治，水。出东莱曲城阳丘山，南入海」——它先是一条河的名字。", 4.7, INK, "middle"))
+    s.append(txt(190, y + 27, "由河到治水，由治水到治理：治这个字的核心，不是管，是疏。", 4.7, "#6E6459", "middle"))
+
+    s.append(txt(24, y + 50, "一、一条河：它自己会走", 4.8, SEAL))
+    gy = y + 62
+    s.append(f'<rect x="26" y="{gy}" width="328" height="150" fill="#FBF6EC" stroke="{LINE}" stroke-width="0.8"/>')
+    s.append(f'<path d="M40,{gy + 74} Q120,{gy + 66} 200,{gy + 74} Q280,{gy + 82} 340,{gy + 76}" fill="none" stroke="{INK}" stroke-width="1.2"/>')
+    s.append(f'<path d="M40,{gy + 112} Q120,{gy + 104} 200,{gy + 112} Q280,{gy + 120} 340,{gy + 114}" fill="none" stroke="{INK}" stroke-width="1.2"/>')
+    s.append(f'<path d="M46,{gy + 93} q18,6 36,0 q18,-6 36,0 q18,6 36,0 q18,-6 36,0 q18,6 36,0 q18,-6 36,0 q18,6 36,0 q18,-6 36,0" fill="none" stroke="{'#4A5C55'}" stroke-width="1"/>')
+    s.append(f'<polygon points="332,{gy + 92} 322,{gy + 87} 322,{gy + 97}" fill="{'#4A5C55'}"/>')
+    s.append(txt(190, gy + 46, "水在两岸之间，自己往下走", 4.3, "#6E6459", "middle"))
+    s.append(txt(190, gy + 164, "治者，水名：一条河不需要人来管它", 4.6, GREEN, "middle"))
+
+    s.append(txt(24, gy + 188, "二、筑堤：堵一次，水就找一次缝", 4.8, GREEN))
+    gy2 = gy + 200
+    s.append(f'<rect x="26" y="{gy2}" width="328" height="152" fill="#FBF6EC" stroke="{LINE}" stroke-width="0.8"/>')
+    # 河的两岸
+    s.append(f'<path d="M40,{gy2 + 56} Q190,{gy2 + 48} 340,{gy2 + 58}" fill="none" stroke="{INK}" stroke-width="1.2"/>')
+    s.append(f'<path d="M40,{gy2 + 116} Q190,{gy2 + 108} 340,{gy2 + 118}" fill="none" stroke="{INK}" stroke-width="1.2"/>')
+    # 水：被拦住，涨起来了
+    s.append(f'<path d="M46,{gy2 + 78} q20,6 40,0 q20,-6 40,0 q20,6 40,0 q20,-6 40,0 q20,6 40,0" fill="none" stroke="#4A5C55" stroke-width="1"/>')
+    s.append(txt(64, gy2 + 94, "水涨上来了", 4.2, "#4A5C55"))
+    # 三道堤：横在河上，一层比一层高
+    for i in range(3):
+        cx = 108 + i * 66
+        s.append(f'<rect x="{cx}" y="{gy2 + 62}" width="13" height="{56 - i * 4}" fill="#DED2B8" stroke="{INK}" stroke-width="1"/>')
+    # 漫过去：越过堤顶
+    s.append(f'<path d="M120,{gy2 + 60} Q134,{gy2 + 34} 152,{gy2 + 52}" fill="none" stroke="{SEAL}" stroke-width="1" stroke-dasharray="4 3"/>')
+    s.append(f'<polygon points="152,{gy2 + 56} 144,{gy2 + 46} 158,{gy2 + 44}" fill="{SEAL}"/>')
+    s.append(txt(196, gy2 + 34, "漫过去：乱", 4.2, SEAL))
+    # 钻出去：从堤底穿出
+    s.append(f'<path d="M178,{gy2 + 118} Q192,{gy2 + 140} 214,{gy2 + 126}" fill="none" stroke="{SEAL}" stroke-width="1" stroke-dasharray="4 3"/>')
+    s.append(f'<polygon points="214,{gy2 + 128} 202,{gy2 + 122} 206,{gy2 + 136}" fill="{SEAL}"/>')
+    s.append(txt(196, gy2 + 148, "钻出去：逃", 4.2, SEAL, "middle"))
+    s.append(txt(258, gy2 + 84, "一层政令", 4.2, "#6E6459"))
+    s.append(txt(258, gy2 + 96, "一道堤", 4.2, "#6E6459"))
+    s.append(txt(190, gy2 + 168, "堵得越多，水越要找缝：堵出来的难，不叫难治", 4.6, GREEN, "middle"))
+
+    a = gy2 + 192
+    s.append(txt(24, a, "帛书作「民之不治」：不是难，是根本治不了——因为病根就在「治」这个动作上。", 4.8, INK))
+    s.append(txt(24, a + 16, "一个治水的人，不会去怪水。", 4.8, INK))
+    s.append(txt(24, a + 34, "水没有去处，只有两个反应：要么漫过去，要么从底下钻出去。", 5.0, GREEN))
+
+    c = a + 52
+    s.append(f'<line x1="24" y1="{c}" x2="338" y2="{c}" stroke="{LINE}" stroke-width="0.6"/>')
+    s.append(box(20, c + 8, 340, 40, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, c + 23, "民之难治，以其上之有为，是以难治。", 5.4, INK, "middle"))
+    s.append(txt(190, c + 36, "难治者，堵之所致也。", 4.7, GREEN, "middle"))
+    s.append(gold(c + 64, "ch75b"))
+    s.append('</svg>')
+    return "\n".join(s)
+
+
+def ch75c_yi_gan_cheng():
+    W, H = 380, 742
+    body, y = head(W, H, "两个从贝的字：一个算账，一个算反账",
+                   "第 七 十 五 章 · 贤", "一杆秤", "夫唯无以生为者，是贤于贵生。", H)
+    s = [body]
+
+    s.append(box(20, y + 2, 340, 32, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, y + 14, "厚是加量，贵是抬价：贵从贝，贤也从贝。", 4.7, INK, "middle"))
+    s.append(txt(190, y + 27, "老子用一个从贝的字，比较两种活法——在贝的字根上把账算反了。", 4.7, "#6E6459", "middle"))
+
+    # ---------- 一 ----------
+    s.append(txt(24, y + 50, "一、一头堆高，一头空落", 4.8, SEAL))
+    gy = y + 62
+    s.append(f'<rect x="26" y="{gy}" width="328" height="156" fill="#FBF6EC" stroke="{LINE}" stroke-width="0.8"/>')
+    s.append(f'<line x1="40" y1="{gy + 112}" x2="330" y2="{gy + 112}" stroke="{LINE}" stroke-width="0.8"/>')
+    # 秤杆：左沉（堆厚）右翘（空）
+    s.append(f'<line x1="72" y1="{gy + 86}" x2="308" y2="{gy + 56}" stroke="{INK}" stroke-width="2.2"/>')
+    s.append(f'<polygon points="182,{gy + 68} 192,{gy + 69} 187,{gy + 108}" fill="#DED2B8" stroke="{INK}" stroke-width="1"/>')
+    # 左盘：盛着往上堆的砝码
+    s.append(f'<line x1="72" y1="{gy + 86}" x2="54" y2="{gy + 96}" stroke="{INK}" stroke-width="0.8"/>')
+    s.append(f'<line x1="72" y1="{gy + 86}" x2="90" y2="{gy + 96}" stroke="{INK}" stroke-width="0.8"/>')
+    s.append(f'<path d="M52,{gy + 96} Q72,{gy + 118} 92,{gy + 96}" fill="#EFE6D4" stroke="{INK}" stroke-width="1"/>')
+    for i in range(3):
+        w = 24 - i * 4
+        s.append(f'<rect x="{72 - w / 2}" y="{gy + 96 - i * 10}" width="{w}" height="9" fill="#DED2B8" stroke="{INK}" stroke-width="0.8"/>')
+    s.append(txt(40, gy + 132, "求生之厚：往上堆", 4.2, SEAL))
+    # 右盘：空
+    s.append(f'<line x1="308" y1="{gy + 56}" x2="292" y2="{gy + 72}" stroke="{INK}" stroke-width="0.8"/>')
+    s.append(f'<line x1="308" y1="{gy + 56}" x2="324" y2="{gy + 72}" stroke="{INK}" stroke-width="0.8"/>')
+    s.append(f'<path d="M290,{gy + 72} Q308,{gy + 94} 326,{gy + 72}" fill="#EFE6D4" stroke="{INK}" stroke-width="1"/>')
+    s.append(txt(308, gy + 108, "民之飢：空下去", 4.2, "#6E6459", "middle"))
+    s.append(txt(190, gy + 172, "堆高其一端，空落其另一端：肥与飢，一豕之两头", 4.6, GREEN, "middle"))
+
+    # ---------- 二 ----------
+    s.append(txt(24, gy + 196, "二、同一杆秤，反过来称一次", 4.8, GREEN))
+    gy2 = gy + 208
+    s.append(f'<rect x="26" y="{gy2}" width="328" height="156" fill="#FBF6EC" stroke="{LINE}" stroke-width="0.8"/>')
+    s.append(f'<line x1="40" y1="{gy2 + 116}" x2="330" y2="{gy2 + 116}" stroke="{LINE}" stroke-width="0.8"/>')
+    # 秤杆：左沉（空的那头胜）
+    s.append(f'<line x1="72" y1="{gy2 + 88}" x2="308" y2="{gy2 + 58}" stroke="{INK}" stroke-width="2.2"/>')
+    s.append(f'<polygon points="182,{gy2 + 70} 192,{gy2 + 71} 187,{gy2 + 110}" fill="#DED2B8" stroke="{INK}" stroke-width="1"/>')
+    # 左盘：空着
+    s.append(f'<line x1="72" y1="{gy2 + 88}" x2="54" y2="{gy2 + 98}" stroke="{INK}" stroke-width="0.8"/>')
+    s.append(f'<line x1="72" y1="{gy2 + 88}" x2="90" y2="{gy2 + 98}" stroke="{INK}" stroke-width="0.8"/>')
+    s.append(f'<path d="M52,{gy2 + 98} Q72,{gy2 + 120} 92,{gy2 + 98}" fill="#EFE6D4" stroke="{INK}" stroke-width="1"/>')
+    s.append(txt(40, gy2 + 138, "无以生为：空着", 4.2, "#4A5C55"))
+    # 右盘：一张价签
+    s.append(f'<line x1="308" y1="{gy2 + 58}" x2="292" y2="{gy2 + 74}" stroke="{INK}" stroke-width="0.8"/>')
+    s.append(f'<line x1="308" y1="{gy2 + 58}" x2="324" y2="{gy2 + 74}" stroke="{INK}" stroke-width="0.8"/>')
+    s.append(f'<path d="M290,{gy2 + 74} Q308,{gy2 + 96} 326,{gy2 + 74}" fill="#EFE6D4" stroke="{INK}" stroke-width="1"/>')
+    s.append(f'<rect x="296" y="{gy2 + 60}" width="24" height="15" fill="#EFE6D4" stroke="{SEAL}" stroke-width="0.9"/>')
+    s.append(f'<circle cx="303" cy="{gy2 + 65}" r="1.6" fill="none" stroke="{SEAL}" stroke-width="0.6"/>')
+    s.append(txt(308, gy2 + 110, "贵生：给命标价", 4.2, SEAL, "middle"))
+    s.append(txt(190, gy2 + 140, "贤：从贝而作「胜」用——空的那头，胜了", 4.4, "#4A5C55", "middle"))
+    s.append(txt(190, gy2 + 172, "不反对活，反对把活当成一桩事业", 4.6, GREEN, "middle"))
+
+    a = gy2 + 196
+    s.append(txt(24, a, "「无以生为」不是不要活，是不拿「生」当一件事去经营：活着是自然，经营活是项目。", 4.8, INK))
+    s.append(txt(24, a + 16, "所以这一句不劝人饿着，也不劝人轻生——它反对的是「厚」，不是「生」。", 4.8, INK))
+    s.append(txt(24, a + 34, "于贝之字根上，算了一笔反账。", 5.0, GREEN))
+
+    c = a + 52
+    s.append(f'<line x1="24" y1="{c}" x2="338" y2="{c}" stroke="{LINE}" stroke-width="0.6"/>')
+    s.append(box(20, c + 8, 340, 40, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, c + 23, "夫唯无以生为者，是贤于贵生。", 5.4, INK, "middle"))
+    s.append(txt(190, c + 36, "生者自然也，为生者项目也。", 4.7, GREEN, "middle"))
+    s.append(gold(c + 64, "ch75c"))
+    s.append('</svg>')
+    return "\n".join(s)
+
+
 GOLD = {
     "ch74a": ["常有司杀者杀。", "司者，《说文》曰「臣司事于外者，从反后」；"],
     "ch74b": ["夫代司杀者杀，是谓代大匠斫。", "斫者，《说文》曰「击也」，从斤——一下而断，不可复也。"],
     "ch74c": ["夫代大匠斫者，希有不伤其手矣。", "希者，稀也，稀者疏也；"],
+    "ch75a": ["民之饥，以其上食税之多，是以饥。", "飢者，《说文》曰「饿也」，腹空也；饑者，「谷不熟」也。"],
+    "ch75b": ["民之难治，以其上之有为，是以难治。", "治者，《说文》曰「治，水，出东莱曲城阳丘山，南入海」——本为水名。"],
+    "ch75c": ["夫唯无以生为者，是贤于贵生。", "贤者，《说文》曰「多才也」，从贝——本与财相关。"],
     "ch73a": ["勇于敢则杀，勇于不敢则活。", "气无方向，向由敢定；"],
     "ch73b": ["繟者，《说文》曰「带缓也」，从糸——带系之松也。", "人之谋也系紧，紧则勒，勒处即崩处；"],
     "ch73c": ["天网恢恢，疏而不失。", "疏者，《说文》曰「通也」，非稀也；"],
@@ -9543,6 +9744,9 @@ FIGS = {
     "ch74a-yi-ge-fan-zi": ("第七十四章", "一个翻过来的字", ch74a_yi_ge_fan_zi),
     "ch74b-yi-ba-fu": ("第七十四章", "一把斧", ch74b_yi_ba_fu),
     "ch74c-yi-zhi-shou": ("第七十四章", "一只被斫的手", ch74c_yi_zhi_shou),
+    "ch75a-yi-zhi-kong-wan": ("第七十五章", "一只空碗", ch75a_yi_zhi_kong_wan),
+    "ch75b-yi-tiao-he": ("第七十五章", "一条河", ch75b_yi_tiao_he),
+    "ch75c-yi-gan-cheng": ("第七十五章", "一杆秤", ch75c_yi_gan_cheng),
 }
 
 
