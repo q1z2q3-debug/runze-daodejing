@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg viewBox="0 0 380 520" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="道生一，一生二，二生三，三生万物" font-family="'Noto Serif CJK SC','Noto Serif SC','Songti SC',serif">
+<svg viewBox="0 0 380 594" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="道生一，一生二，二生三，三生万物" font-family="'Noto Serif CJK SC','Noto Serif SC','Songti SC',serif">
 <defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#6E6459"/></marker><marker id="arr2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#4A5C55"/></marker><marker id="arrL" viewBox="0 0 10 10" refX="1" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M10 0 L0 5 L10 10 z" fill="#4A5C55"/></marker><marker id="arrS" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#A2503B"/></marker></defs>
-<rect x="0" y="0" width="380" height="520" fill="#F8F3E6"/>
+<rect x="0" y="0" width="380" height="594" fill="#F8F3E6"/>
 <text x="20" y="26" font-size="11" fill="#A2503B" font-family="'Noto Sans CJK SC','Noto Sans SC',sans-serif" letter-spacing="3">第 四 十 二 章 · 生 发</text>
 <text x="20" y="58" font-size="21" fill="#2F2A24">生发总图</text>
 <text x="20" y="78" font-size="10.5" fill="#6E6459">三是被二撑出来的那道空，不是阴阳之外的第三样东西。</text>
@@ -30,4 +30,8 @@
 <text x="30" y="400" font-size="11" fill="#2F2A24">三生万物：负阴而抱阳，冲气以为和。</text>
 <text x="30" y="420" font-size="9.5" fill="#6E6459">配比不同、节律不同，遂显为万千物类。</text>
 <text x="190" y="456" font-size="10" fill="#6E6459" text-anchor="middle">填实了那道空，生发即止——这是全书对「生」的唯一定义。</text>
+<line x1="20" y1="526" x2="360" y2="526" stroke="#E6D8C2" stroke-width="0.8"/>
+<text x="20" y="540" font-size="8.0" fill="#A89577" letter-spacing="1">本 章 金 句</text>
+<text x="20" y="556" font-size="8.4" fill="#2F2A24">道生一，一生二，二生三，三生万物。</text>
+<text x="20" y="572" font-size="8.4" fill="#2F2A24">三是被二撑出来的那道空，不是阴阳之外的第三样东西。</text>
 </svg>

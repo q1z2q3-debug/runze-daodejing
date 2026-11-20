@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg viewBox="0 0 380 636" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="观妙与观徼：向下探未形，向上看见界" font-family="'Noto Serif CJK SC','Noto Serif SC','Songti SC',serif">
+<svg viewBox="0 0 380 710" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="观妙与观徼：向下探未形，向上看见界" font-family="'Noto Serif CJK SC','Noto Serif SC','Songti SC',serif">
 <defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#6E6459"/></marker><marker id="arr2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#4A5C55"/></marker><marker id="arrL" viewBox="0 0 10 10" refX="1" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M10 0 L0 5 L10 10 z" fill="#4A5C55"/></marker><marker id="arrS" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#A2503B"/></marker></defs>
-<rect x="0" y="0" width="380" height="636" fill="#F8F3E6"/>
+<rect x="0" y="0" width="380" height="710" fill="#F8F3E6"/>
 <text x="20" y="26" font-size="11" fill="#A2503B" font-family="'Noto Sans CJK SC','Noto Sans SC',sans-serif" letter-spacing="3">第 一 章 · 观 法</text>
 <text x="20" y="58" font-size="21" fill="#2F2A24">观妙 · 观徼</text>
 <text x="20" y="78" font-size="10.5" fill="#6E6459">同一件事，向下看是「妙」，向上看是「徼」。</text>
@@ -29,4 +29,8 @@
 <line x1="142" y1="516" x2="164" y2="516" stroke="#DCCBB0" stroke-width="1" stroke-dasharray="2 3"/>
 <text x="136" y="520" font-size="9.5" fill="#8A7C69" text-anchor="end">未发</text>
 <text x="168" y="564" font-size="10.5" fill="#6E6459" text-anchor="middle">两头都是同一件事：说「有」或说「无」，只在你站界内还是界外。</text>
+<line x1="20" y1="642" x2="360" y2="642" stroke="#E6D8C2" stroke-width="0.8"/>
+<text x="20" y="656" font-size="8.0" fill="#A89577" letter-spacing="1">本 章 金 句</text>
+<text x="20" y="672" font-size="8.4" fill="#2F2A24">此两者同出而异名，同谓之玄。</text>
+<text x="20" y="688" font-size="8.4" fill="#2F2A24">往下看是未形，往上看见界；两边是同一件事的两个取景。</text>
 </svg>
