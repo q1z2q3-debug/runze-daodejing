@@ -7742,6 +7742,7 @@ GOLD = {
     "ch30c": ["不是天在罚你，是你推出去的那股劲儿回来了。", "压得越紧，回来的越直。"],
     "ch31b": ["刀没有错，刀的用处有错——而刀的用处，就是刀的本相。", "用，是借它一次；处，是住在它里面。"],
     "ch31c": ["这一幕不该是甜的；甜，是你自己加进去的。", "止乱是事的果，美之是心的赘。"],
+    "ch32c": ["人做的均是拉平，天做的均是刚好。", "不调度，而各处都够——那是自均。"],
     "ch06b": ["谷神不死，是谓玄牝。", "谷者，两山间之空也；能受故能生，生而不有故不竭——生机不在满处，在空处。"],
     "ch06c": ["玄牝之门，是谓天地根。", "门在开合处，不在门板上；一着手去推，它就成了一堵墙。"],
     "ch05b": ["天地不仁，以万物为刍狗。", "刍者，束草也；刍狗有位而无主——用毕回草堆，不是被弃，是位次用完了。"],
@@ -9695,6 +9696,91 @@ def ch32b_chuan_gu():
     s.append('</svg>')
     return "\n".join(s)
 
+
+
+def sprout(x, base, color=GREEN, w=1.0, droop=False):
+    """一株苗：茎加两片叶。droop=True 时叶下垂，表示旱伤。"""
+    s = [f'<line x1="{x}" y1="{base}" x2="{x}" y2="{base - 24}" stroke="{color}" stroke-width="{w + 0.2}"/>']
+    if droop:
+        s.append(f'<path d="M{x},{base - 14} q-8,4 -10,10 M{x},{base - 19} q8,4 10,9" fill="none" stroke="{color}" stroke-width="{w}"/>')
+    else:
+        s.append(f'<path d="M{x},{base - 12} q-10,-4 -11,4 M{x},{base - 18} q10,-5 11,3" fill="none" stroke="{color}" stroke-width="{w}"/>')
+    return "\n".join(s)
+
+
+def ch32c_mo_ling_zi_jun():
+    body, y = head(380, 999, "一杯一样多不等于各得其分：人做的均是拉平，天做的均是刚好",
+                   "第 三 十 二 章 · 其 三", "甘 露 与 自 均",
+                   "民莫之令而自均。", 999)
+    s = [body]
+
+    s.append(box(20, y + 2, 340, 34, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, y + 14, "「令」，《说文》「发号也」；「均」，《说文》「平也」——均的本义是各得其分，不是削成一样。", 4.6, INK, "middle"))
+    s.append(txt(190, y + 27, "同样的水落在山上和洼地，山上流走的多，洼地积下的多；可草木各有各的长法。", 4.6, "#6E6459"))
+
+    # ---------------- 一、令：一杯一样多 ----------------
+    s.append(txt(24, y + 52, "一、有令：一杯一样多", 5.1, GREEN))
+    gy = y + 64
+    s.append(f'<rect x="26" y="{gy}" width="328" height="150" fill="#FBF6EC" stroke="{LINE}" stroke-width="0.8"/>')
+    # 三只量杯，水位一样高
+    for cx in (90, 190, 290):
+        s.append(f'<path d="M{cx - 13},{gy + 16} L{cx - 11},{gy + 46} L{cx + 11},{gy + 46} L{cx + 13},{gy + 16} Z" fill="#F6EFE0" stroke="{INK}" stroke-width="0.9"/>')
+        s.append(f'<path d="M{cx - 11},{gy + 30} L{cx + 11},{gy + 30} L{cx + 11},{gy + 46} L{cx - 11},{gy + 46} Z" fill="#DDE9E1" stroke="none"/>')
+        s.append(f'<line x1="{cx - 12}" y1="{gy + 30}" x2="{cx + 12}" y2="{gy + 30}" stroke="{LINE2}" stroke-width="0.6"/>')
+    s.append(txt(190, gy + 10, "同一把斗，同一道水位", 4.2, "#8A7C69", "middle"))
+    s.append(txt(60, gy + 60, "令", 5.0, SEAL))
+    s.append(txt(70, gy + 60, "：发号，按人头分", 4.1, "#8A7C69"))
+
+    # 三块地：坡、平、洼
+    # 坡
+    s.append(f'<path d="M48,{gy + 118} L132,{gy + 94} L132,{gy + 112} L48,{gy + 124} Z" fill="#E6DCC6" stroke="{INK}" stroke-width="0.7"/>')
+    s.append(sprout(102, gy + 100, "#A89A80", 0.9, droop=True))
+    # 平
+    s.append(f'<rect x="148" y="{gy + 104}" width="84" height="12" fill="#E6DCC6" stroke="{INK}" stroke-width="0.7"/>')
+    s.append(sprout(190, gy + 104, GREEN, 1.0))
+    # 洼
+    s.append(f'<path d="M248,{gy + 100} Q290,{gy + 122} 332,{gy + 100} L332,{gy + 112} Q290,{gy + 134} 248,{gy + 112} Z" fill="#DDE9E1" stroke="{INK}" stroke-width="0.7"/>')
+    s.append(f'<path d="M251,{gy + 106} Q290,{gy + 126} 329,{gy + 106} L329,{gy + 109} Q290,{gy + 129} 251,{gy + 109} Z" fill="#C9DCD4" stroke="none"/>')
+    s.append(sprout(290, gy + 110, "#8FA99F", 1.0, droop=True))
+    for x, t in ((90, "坡上旱"), (190, "平地足"), (290, "洼地淹")):
+        s.append(txt(x, gy + 144, t, 4.0, "#8A7C69", "middle"))
+    s.append(txt(190, gy + 164, "分得一样，未必长成一样", 4.2, SEAL, "middle"))
+
+
+    # ---------------- 二、莫之令而自均 ----------------
+    s.append(txt(24, gy + 184, "二、无令：夜露落下来", 5.1, GREEN))
+    gy2 = gy + 196
+    s.append(f'<rect x="26" y="{gy2}" width="328" height="150" fill="#FBF6EC" stroke="{LINE}" stroke-width="0.8"/>')
+    # 月
+    s.append(f'<circle cx="300" cy="{gy2 + 22}" r="13" fill="#F0E7D2" stroke="none"/>')
+    s.append(f'<circle cx="306" cy="{gy2 + 18}" r="11" fill="#FBF6EC" stroke="none"/>')
+    s.append(txt(108, gy2 + 20, "夜里，天上没有发号的人", 4.2, "#8A7C69"))
+    # 三块地照旧，但都湿了
+    s.append(f'<path d="M48,{gy2 + 110} L132,{gy2 + 88} L132,{gy2 + 108} L48,{gy2 + 120} Z" fill="#DDE2CE" stroke="{INK}" stroke-width="0.7"/>')
+    s.append(f'<rect x="148" y="{gy2 + 98}" width="84" height="12" fill="#DDE2CE" stroke="{INK}" stroke-width="0.7"/>')
+    s.append(f'<path d="M248,{gy2 + 96} Q290,{gy2 + 124} 332,{gy2 + 96} L332,{gy2 + 110} Q290,{gy2 + 138} 248,{gy2 + 110} Z" fill="#DDE2CE" stroke="{INK}" stroke-width="0.7"/>')
+    # 三株都直、都带露珠
+    for x, gy3 in ((96, gy2 + 98), (190, gy2 + 98), (290, gy2 + 110)):
+        s.append(sprout(x, gy3, GREEN, 1.0))
+        for dx, dy in ((-6, -18), (3, -22), (8, -13)):
+            s.append(f'<circle cx="{x + dx}" cy="{gy3 + dy}" r="1.4" fill="#A9C3BC" stroke="none"/>')
+    # 落露的虚线
+    for x in (60, 150, 214, 262, 320):
+        s.append(f'<line x1="{x}" y1="{gy2 + 30}" x2="{x}" y2="{gy2 + 62}" stroke="#A9C3BC" stroke-width="0.5" stroke-dasharray="2 4"/>')
+        s.append(f'<circle cx="{x}" cy="{gy2 + 66}" r="2.2" fill="#A9C3BC" stroke="none"/>')
+    s.append(txt(190, gy2 + 122, "莫之令而自均：各得其分", 4.2, GREEN, "middle"))
+    s.append(txt(190, gy2 + 138, "天不分配，只落下；各处自己够", 4.0, "#8A7C69", "middle"))
+
+    # ---------------- 收 ----------------
+    y3 = gy2 + 160
+    s.append(box(20, y3, 340, 42, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, y3 + 19, "天地相合，以降甘露，民莫之令而自均。", 4.8, INK, "middle"))
+    s.append(txt(190, y3 + 33, "人做的均是拉平，天做的均是刚好；兵压边界，露敬边界。", 4.4, "#6E6459", "middle"))
+    s.append(gold(y3 + 50, "ch32c"))
+    s.append('</svg>')
+    out = "\n".join(s)
+    ys = [float(v) for v in re.findall(r'y="([0-9.]+)"', out)]
+    return out.replace("999", str(int(max(ys) + 26)))
 
 
 # ============ 第三十三章 · 自知者明 ============
@@ -15175,6 +15261,7 @@ FIGS = {
     "ch30-wu-zhuang-ze-lao": ("第三十章", "物壮则老", ch30_wu_zhuang_ze_lao),
     "ch31-bing-zhe-bu-xiang": ("第三十一章", "兵者不祥之器", ch31_bing_zhe_bu_xiang),
     "ch32a-ming-zhi": ("第三十二章", "名与止", ch32a_ming_zhi),
+    "ch32c-mo-ling-zi-jun": ("第三十二章", "甘露与自均", ch32c_mo_ling_zi_jun),
     "ch32b-chuan-gu": ("第三十二章", "川谷与江海", ch32b_chuan_gu),
     "ch33-zi-zhi-zhe-ming": ("第三十三章", "自知者明", ch33_zi_zhi_zhe_ming),
     "ch34-bu-zhu": ("第三十四章", "不主故能成其大", ch34_bu_zhu_wei_da),
