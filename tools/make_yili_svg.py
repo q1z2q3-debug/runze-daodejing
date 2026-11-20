@@ -2931,8 +2931,195 @@ def ch72c_yi_gan_cheng():
     return "\n".join(s)
 
 
+def ch73a_yi_gu_qi():
+    W, H = 380, 712
+    body, y = head(W, H, "勇从力，是一股气；气没有方向，方向由敢给",
+                   "第 七 十 三 章 · 勇", "一股气", "勇于敢则杀，勇于不敢则活。", H)
+    s = [body]
+
+    s.append(box(20, y + 2, 340, 32, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, y + 14, "「勇」，《说文》「气也」，从力；「敢」，「进取也」——气是力气，敢是往前拿。", 4.7, INK, "middle"))
+    s.append(txt(190, y + 27, "同一股气：冲出去叫勇于敢，按住不放叫勇于不敢。", 4.7, "#6E6459", "middle"))
+
+    s.append(txt(24, y + 50, "一、气本身：没有方向，四下都吹", 4.8, SEAL))
+    gy = y + 62
+    s.append(f'<rect x="26" y="{gy}" width="328" height="146" fill="#FBF6EC" stroke="{LINE}" stroke-width="0.8"/>')
+    cx, cy = 150, gy + 66
+    # 人
+    s.append(f'<circle cx="{cx}" cy="{gy + 32}" r="8" fill="none" stroke="{INK}" stroke-width="1"/>')
+    s.append(f'<path d="M{cx - 14},{gy + 44} L{cx + 14},{gy + 44} L{cx + 16},{gy + 92} L{cx - 16},{gy + 92} Z" fill="#EFE6D4" stroke="{INK}" stroke-width="1"/>')
+    s.append(f'<line x1="{cx - 7}" y1="{gy + 92}" x2="{cx - 11}" y2="{gy + 124}" stroke="{INK}" stroke-width="1"/>')
+    s.append(f'<line x1="{cx + 7}" y1="{gy + 92}" x2="{cx + 11}" y2="{gy + 124}" stroke="{INK}" stroke-width="1"/>')
+    s.append(f'<circle cx="{cx}" cy="{cy}" r="6" fill="{SEAL}" fill-opacity="0.3" stroke="{SEAL}" stroke-width="0.8"/>')
+    # 四下吹的气
+    for deg, ln in ((-150, 46), (-90, 40), (-30, 46), (150, 40), (30, 40), (90, 44)):
+        import math
+        dx = math.cos(math.radians(deg)) * ln
+        dy = math.sin(math.radians(deg)) * ln
+        sx, sy2 = cx + dx * 0.34, cy + dy * 0.34
+        s.append(f'<path d="M{sx},{sy2} Q{cx + dx * 0.7},{cy + dy * 0.45} {cx + dx},{cy + dy}" fill="none" stroke="{SEAL}" stroke-width="0.9" opacity="0.75"/>')
+    s.append(txt(190, gy + 162, "气在胸中，四面都吹：它有力气，没有去处", 4.6, GREEN, "middle"))
+
+    s.append(txt(24, gy + 184, "二、同一股气，两个去处：冲出去，或按住", 4.8, GREEN))
+    gy2 = gy + 196
+    s.append(f'<rect x="26" y="{gy2}" width="328" height="150" fill="#FBF6EC" stroke="{LINE}" stroke-width="0.8"/>')
+    px, py = 106, gy2 + 66
+    s.append(f'<circle cx="{px}" cy="{gy2 + 32}" r="8" fill="none" stroke="{INK}" stroke-width="1"/>')
+    s.append(f'<path d="M{px - 14},{gy2 + 44} L{px + 14},{gy2 + 44} L{px + 16},{gy2 + 92} L{px - 16},{gy2 + 92} Z" fill="#EFE6D4" stroke="{INK}" stroke-width="1"/>')
+    s.append(f'<line x1="{px - 7}" y1="{gy2 + 92}" x2="{px - 11}" y2="{gy2 + 124}" stroke="{INK}" stroke-width="1"/>')
+    s.append(f'<line x1="{px + 7}" y1="{gy2 + 92}" x2="{px + 11}" y2="{gy2 + 124}" stroke="{INK}" stroke-width="1"/>')
+    s.append(f'<circle cx="{px}" cy="{py}" r="5" fill="{SEAL}" fill-opacity="0.3" stroke="{SEAL}" stroke-width="0.8"/>')
+    # 一股冲出去
+    s.append(f'<path d="M{px + 6},{py - 6} Q{px + 60},{py - 34} {px + 132},{py - 40}" fill="none" stroke="{SEAL}" stroke-width="1.1"/>')
+    s.append(f'<polygon points="{px + 132},{py - 40} {px + 120},{py - 46} {px + 122},{py - 34}" fill="{SEAL}"/>')
+    s.append(txt(px + 78, py - 52, "勇于敢：冲出去", 4.3, SEAL))
+    # 一股按住：挡板与回卷
+    s.append(f'<ellipse cx="{px + 54}" cy="{py + 22}" rx="15" ry="7" fill="#EFE6D4" stroke="{INK}" stroke-width="1"/>')
+    for i in range(4):
+        s.append(f'<line x1="{px + 42}" y1="{py + 16 + i * 4}" x2="{px + 32}" y2="{py + 16 + i * 4}" stroke="{INK}" stroke-width="0.7"/>')
+    s.append(f'<path d="M{px + 6},{py + 10} Q{px + 22},{py + 16} {px + 31},{py + 20}" fill="none" stroke="{GREEN}" stroke-width="1.1"/>')
+    s.append(f'<path d="M{px + 31},{py + 24} Q{px + 20},{py + 34} {px + 12},{py + 30}" fill="none" stroke="{GREEN}" stroke-width="1" stroke-dasharray="4 3"/>')
+    s.append(f'<polygon points="{px + 14},{py + 30} {px + 24},{py + 26} {px + 22},{py + 34}" fill="{GREEN}"/>')
+    s.append(txt(px + 4, py + 50, "勇于不敢：按住，气回旋", 4.3, GREEN))
+    s.append(txt(190, gy2 + 166, "按住不比冲出省力：同一股气，只是没有往前拿", 4.6, GREEN, "middle"))
+
+    a = gy2 + 182
+    s.append(txt(24, a, "所以「勇于不敢」四个字，勇字不可省：缩手的人不必费这个力。", 4.8, INK))
+    s.append(txt(24, a + 16, "敢是方向：冲出去是一个方向，按住也是一个方向——都用这股气。", 4.8, INK))
+    s.append(txt(24, a + 34, "气无方向，向由敢定；按亦须力，按错其处，气则白按。", 5.0, GREEN))
+
+    c = a + 50
+    s.append(f'<line x1="24" y1="{c}" x2="338" y2="{c}" stroke="{LINE}" stroke-width="0.6"/>')
+    s.append(box(20, c + 8, 340, 40, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, c + 23, "勇者，气也，从力甬声；敢者，进取也，从攴。", 5.4, INK, "middle"))
+    s.append(txt(190, c + 36, "气留着，方向自己给；不给方向的气，只是乱撞。", 4.7, GREEN, "middle"))
+    s.append(gold(c + 62, "ch73a"))
+    s.append('</svg>')
+    return "\n".join(s)
+
+
+def ch73b_yi_gen_dai_zi():
+    W, H = 380, 728
+    body, y = head(W, H, "繟是带缓：松着，衣服照样在；系紧，勒出痕",
+                   "第 七 十 三 章 · 繟", "一根松带子", "繟然而善谋。", H)
+    s = [body]
+
+    s.append(box(20, y + 2, 340, 32, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, y + 14, "「繟」，《说文》「带缓也」，从糸——带子系得松。", 4.7, INK, "middle"))
+    s.append(txt(190, y + 27, "松着不掉，紧着就勒；勒的那一处，就是崩的那一处。", 4.7, "#6E6459", "middle"))
+
+    s.append(txt(24, y + 50, "一、松：带垂着，衣服还在身上", 4.8, GREEN))
+    gy = y + 62
+    s.append(f'<rect x="26" y="{gy}" width="328" height="146" fill="#FBF6EC" stroke="{LINE}" stroke-width="0.8"/>')
+    cx, top = 150, gy + 26
+    s.append(f'<path d="M{cx - 26},{top} L{cx + 26},{top} L{cx + 30},{gy + 96} L{cx - 30},{gy + 96} Z" fill="#EFE6D4" stroke="{INK}" stroke-width="1"/>')
+    s.append(f'<path d="M{cx - 8},{top} L{cx},{top + 14} L{cx + 8},{top}" fill="none" stroke="{INK}" stroke-width="0.9"/>')
+    # 松带：两道下垂弧
+    s.append(f'<path d="M{cx - 27},{gy + 52} Q{cx},{gy + 66} {cx + 27},{gy + 52}" fill="none" stroke="{SEAL}" stroke-width="1.4"/>')
+    s.append(f'<path d="M{cx - 2},{gy + 58} q4,10 -2,18" fill="none" stroke="{SEAL}" stroke-width="1.2"/>')
+    s.append(f'<path d="M{cx + 10},{gy + 57} q5,8 1,16" fill="none" stroke="{SEAL}" stroke-width="1.1" opacity="0.8"/>')
+    s.append(txt(cx + 58, gy + 58, "带缓：" , 4.4, SEAL))
+    s.append(txt(cx + 58, gy + 70, "垂着，不掉", 4.4, "#6E6459"))
+    s.append(txt(190, gy + 162, "松不是散：衣还在身上，气还在腰里", 4.6, GREEN, "middle"))
+
+    s.append(txt(24, gy + 184, "二、紧：带子勒进去，那一处先崩", 4.8, SEAL))
+    gy2 = gy + 196
+    s.append(f'<rect x="26" y="{gy2}" width="328" height="150" fill="#FBF6EC" stroke="{LINE}" stroke-width="0.8"/>')
+    p2 = gy2 + 26
+    s.append(f'<path d="M{cx - 26},{p2} L{cx + 26},{p2} L{cx + 30},{gy2 + 96} L{cx - 30},{gy2 + 96} Z" fill="#EFE6D4" stroke="{INK}" stroke-width="1"/>')
+    s.append(f'<path d="M{cx - 8},{p2} L{cx},{p2 + 14} L{cx + 8},{p2}" fill="none" stroke="{INK}" stroke-width="0.9"/>')
+    # 紧带：直线勒在腰间，两侧压痕
+    s.append(f'<line x1="{cx - 27}" y1="{gy2 + 54}" x2="{cx + 27}" y2="{gy2 + 54}" stroke="{SEAL}" stroke-width="1.6"/>')
+    for dx in (-27, 27):
+        s.append(f'<line x1="{cx + dx}" y1="{gy2 + 48}" x2="{cx + dx}" y2="{gy2 + 62}" stroke="{SEAL}" stroke-width="1"/>')
+    s.append(f'<path d="M{cx - 27},{gy2 + 44} q-6,10 0,20" fill="none" stroke="#B9A98F" stroke-width="0.8"/>')
+    s.append(f'<path d="M{cx + 27},{gy2 + 44} q6,10 0,20" fill="none" stroke="#B9A98F" stroke-width="0.8"/>')
+    s.append(txt(cx + 58, gy2 + 50, "系紧：", 4.4, SEAL))
+    s.append(txt(cx + 58, gy2 + 62, "勒出痕", 4.4, "#6E6459"))
+    s.append(txt(190, gy2 + 166, "紧处就是崩处：一处勒死，四下都跟着断", 4.6, GREEN, "middle"))
+
+    a = gy2 + 182
+    s.append(txt(24, a, "人之谋也系紧：把每一步都钉住，钉不住的那一步就是全盘。", 4.8, INK))
+    s.append(txt(24, a + 16, "天之谋也系松：松而不掉——掉不下来，是因为它不靠一处系着。", 4.8, INK))
+    s.append(txt(24, a + 34, "故善谋者，使人不觉其谋：带子松着，衣服自己就在。", 5.0, GREEN))
+
+    c = a + 50
+    s.append(f'<line x1="24" y1="{c}" x2="338" y2="{c}" stroke="{LINE}" stroke-width="0.6"/>')
+    s.append(box(20, c + 8, 340, 40, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, c + 23, "繟者，《说文》曰「带缓也」，从糸——带系之松也。", 5.4, INK, "middle"))
+    s.append(txt(190, c + 36, "松着，是让每一处都留一点回旋的余地。", 4.7, GREEN, "middle"))
+    s.append(gold(c + 62, "ch73b"))
+    s.append('</svg>')
+    return "\n".join(s)
+
+
+def ch73c_yi_zhang_wang():
+    W, H = 380, 716
+    body, y = head(W, H, "疏是通，不失是不漏：网眼大，但网有方向",
+                   "第 七 十 三 章 · 网", "一张通着的网", "天网恢恢，疏而不失。", H)
+    s = [body]
+
+    s.append(box(20, y + 2, 340, 32, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, y + 14, "「疏」，《说文》「通也」，不是稀：网眼大，所以穿得过去。", 4.7, INK, "middle"))
+    s.append(txt(190, y + 27, "而「不失」：该过的过去，不该过的落在网里——网有方向。", 4.7, "#6E6459", "middle"))
+
+    s.append(txt(24, y + 50, "一、疏：网眼大，不拦一切", 4.8, GREEN))
+    gy = y + 62
+    s.append(f'<rect x="26" y="{gy}" width="328" height="148" fill="#FBF6EC" stroke="{LINE}" stroke-width="0.8"/>')
+    x0, y0, w, h = 76, gy + 26, 216, 96
+    for i in range(5):
+        xx = x0 + i * (w / 4)
+        s.append(f'<line x1="{xx}" y1="{y0}" x2="{xx}" y2="{y0 + h}" stroke="#B9A98F" stroke-width="0.9"/>')
+    for j in range(3):
+        yy = y0 + j * (h / 2)
+        s.append(f'<line x1="{x0}" y1="{yy}" x2="{x0 + w}" y2="{yy}" stroke="#B9A98F" stroke-width="0.9"/>')
+    # 一只小东西从网眼穿过
+    bx, by = x0 + w * 0.375, y0 + h * 0.5
+    s.append(f'<ellipse cx="{bx}" cy="{by}" rx="9" ry="5.5" fill="{GREEN}" fill-opacity="0.25" stroke="{GREEN}" stroke-width="0.9"/>')
+    s.append(f'<line x1="{bx + 9}" y1="{by}" x2="{bx + 26}" y2="{by - 14}" stroke="{GREEN}" stroke-width="1"/>')
+    s.append(f'<polygon points="{bx + 26},{by - 14} {bx + 16},{by - 12} {bx + 20},{by - 3}" fill="{GREEN}"/>')
+    s.append(txt(bx + 34, by + 10, "穿过去", 4.2, GREEN))
+    s.append(txt(190, gy + 164, "网眼大得能穿过：疏不是拦，是先让人有路", 4.6, GREEN, "middle"))
+
+    s.append(txt(24, gy + 186, "二、不失：过的过去，过界的那一个落在网里", 4.8, SEAL))
+    gy2 = gy + 198
+    s.append(f'<rect x="26" y="{gy2}" width="328" height="150" fill="#FBF6EC" stroke="{LINE}" stroke-width="0.8"/>')
+    # 一张斜罩的网
+    s.append(f'<path d="M70,{gy2 + 26} L300,{gy2 + 20} L286,{gy2 + 108} L84,{gy2 + 112} Z" fill="none" stroke="#B9A98F" stroke-width="1.1"/>')
+    for i in range(1, 5):
+        t = i / 5
+        s.append(f'<line x1="{70 + 230 * t}" y1="{gy2 + 26 - 6 * t}" x2="{84 + 202 * t}" y2="{gy2 + 112 - 4 * t}" stroke="#DCCBB0" stroke-width="0.8"/>')
+    for j in range(1, 3):
+        t2 = j / 3
+        s.append(f'<line x1="{70 + 14 * t2}" y1="{gy2 + 26 + 86 * t2}" x2="{300 - 14 * t2}" y2="{gy2 + 20 + 88 * t2}" stroke="#DCCBB0" stroke-width="0.8"/>')
+    # 网内一个（过界者）
+    s.append(f'<ellipse cx="176" cy="{gy2 + 74}" rx="10" ry="6" fill="{SEAL}" fill-opacity="0.3" stroke="{SEAL}" stroke-width="1"/>')
+    s.append(txt(176, gy2 + 96, "过者：入网", 4.2, SEAL, "middle"))
+    # 网眼穿过的另一个
+    s.append(f'<ellipse cx="248" cy="{gy2 + 56}" rx="8" ry="5" fill="{GREEN}" fill-opacity="0.25" stroke="{GREEN}" stroke-width="0.9"/>')
+    s.append(txt(232, gy2 + 44, "不过者自网眼去", 4.0, GREEN))
+    s.append(txt(190, gy2 + 166, "同是一张网：该留的留下，该走的从眼子里走", 4.6, GREEN, "middle"))
+
+    a = gy2 + 182
+    s.append(txt(24, a, "「天网恢恢」：网是大的，不是密的；大才容得下走。", 4.8, INK))
+    s.append(txt(24, a + 16, "「疏而不失」：疏的那一半让它通，不失的那一半让它有方向。", 4.8, INK))
+    s.append(txt(24, a + 34, "通而不漏，两者兼有，才叫网；只剩一边的，是筛，或者墙。", 5.0, GREEN))
+
+    c = a + 50
+    s.append(f'<line x1="24" y1="{c}" x2="338" y2="{c}" stroke="{LINE}" stroke-width="0.6"/>')
+    s.append(box(20, c + 8, 340, 40, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, c + 23, "疏者，《说文》曰「通也」，非稀也；", 5.4, INK, "middle"))
+    s.append(txt(190, c + 36, "通者必漏，不漏者必不通，而天兼之。", 4.7, GREEN, "middle"))
+    s.append(gold(c + 62, "ch73c"))
+    s.append('</svg>')
+    return "\n".join(s)
+
+
 
 GOLD = {
+    "ch73a": ["勇于敢则杀，勇于不敢则活。", "气无方向，向由敢定；"],
+    "ch73b": ["繟者，《说文》曰「带缓也」，从糸——带系之松也。", "人之谋也系紧，紧则勒，勒处即崩处；"],
+    "ch73c": ["天网恢恢，疏而不失。", "疏者，《说文》曰「通也」，非稀也；"],
     "ch72a": ["威从女从戌，戌者斧也；《说文》曰「姑也」——姑者，妇之尊长。", "斧备而不用，用则威亡；用斧者为人所还，还则堂不能安。"],
     "ch72b": ["无狎其所居，无厌其所生。", "狎者，犬可习也，熟而贴人；非屋之窄，乃无距也。"],
     "ch72c": ["自知不自见，自爱不自贵。", "故去彼取此。"],
@@ -9146,6 +9333,9 @@ FIGS = {
     "ch72a-yi-wei-po-po": ("第七十二章", "一位坐堂的婆婆", ch72a_yi_wei_po_po),
     "ch72b-yi-wo-gou": ("第七十二章", "一窝挤着的狗", ch72b_yi_wo_gou),
     "ch72c-yi-gan-cheng": ("第七十二章", "一杆秤", ch72c_yi_gan_cheng),
+    "ch73a-yi-gu-qi": ("第七十三章", "一股气", ch73a_yi_gu_qi),
+    "ch73b-yi-gen-dai-zi": ("第七十三章", "一根松带子", ch73b_yi_gen_dai_zi),
+    "ch73c-yi-zhang-wang": ("第七十三章", "一张通着的网", ch73c_yi_zhang_wang),
 }
 
 

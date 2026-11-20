@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 380 716" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="疏是通，不失是不漏：网眼大，但网有方向" font-family="'Noto Serif CJK SC','Noto Serif SC','Songti SC',serif">
+<defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#6E6459"/></marker><marker id="arr2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#4A5C55"/></marker><marker id="arrL" viewBox="0 0 10 10" refX="1" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M10 0 L0 5 L10 10 z" fill="#4A5C55"/></marker><marker id="arrS" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#A2503B"/></marker></defs>
+<rect x="0" y="0" width="380" height="716" fill="#F8F3E6"/>
+<text x="20" y="26" font-size="11" fill="#A2503B" font-family="'Noto Sans CJK SC','Noto Sans SC',sans-serif" letter-spacing="3">第 七 十 三 章 · 网</text>
+<text x="20" y="58" font-size="21" fill="#2F2A24">一张通着的网</text>
+<text x="20" y="78" font-size="10.5" fill="#6E6459">天网恢恢，疏而不失。</text>
+<rect x="20" y="102" width="340" height="32" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="190" y="114" font-size="4.7" fill="#2F2A24" text-anchor="middle">「疏」，《说文》「通也」，不是稀：网眼大，所以穿得过去。</text>
+<text x="190" y="127" font-size="4.7" fill="#6E6459" text-anchor="middle">而「不失」：该过的过去，不该过的落在网里——网有方向。</text>
+<text x="24" y="150" font-size="4.8" fill="#4A5C55">一、疏：网眼大，不拦一切</text>
+<rect x="26" y="162" width="328" height="148" fill="#FBF6EC" stroke="#DCCBB0" stroke-width="0.8"/>
+<line x1="76.0" y1="188" x2="76.0" y2="284" stroke="#B9A98F" stroke-width="0.9"/>
+<line x1="130.0" y1="188" x2="130.0" y2="284" stroke="#B9A98F" stroke-width="0.9"/>
+<line x1="184.0" y1="188" x2="184.0" y2="284" stroke="#B9A98F" stroke-width="0.9"/>
+<line x1="238.0" y1="188" x2="238.0" y2="284" stroke="#B9A98F" stroke-width="0.9"/>
+<line x1="292.0" y1="188" x2="292.0" y2="284" stroke="#B9A98F" stroke-width="0.9"/>
+<line x1="76" y1="188.0" x2="292" y2="188.0" stroke="#B9A98F" stroke-width="0.9"/>
+<line x1="76" y1="236.0" x2="292" y2="236.0" stroke="#B9A98F" stroke-width="0.9"/>
+<line x1="76" y1="284.0" x2="292" y2="284.0" stroke="#B9A98F" stroke-width="0.9"/>
+<ellipse cx="157.0" cy="236.0" rx="9" ry="5.5" fill="#4A5C55" fill-opacity="0.25" stroke="#4A5C55" stroke-width="0.9"/>
+<line x1="166.0" y1="236.0" x2="183.0" y2="222.0" stroke="#4A5C55" stroke-width="1"/>
+<polygon points="183.0,222.0 173.0,224.0 177.0,233.0" fill="#4A5C55"/>
+<text x="191.0" y="246.0" font-size="4.2" fill="#4A5C55">穿过去</text>
+<text x="190" y="326" font-size="4.6" fill="#4A5C55" text-anchor="middle">网眼大得能穿过：疏不是拦，是先让人有路</text>
+<text x="24" y="348" font-size="4.8" fill="#A2503B">二、不失：过的过去，过界的那一个落在网里</text>
+<rect x="26" y="360" width="328" height="150" fill="#FBF6EC" stroke="#DCCBB0" stroke-width="0.8"/>
+<path d="M70,386 L300,380 L286,468 L84,472 Z" fill="none" stroke="#B9A98F" stroke-width="1.1"/>
+<line x1="116.0" y1="384.8" x2="124.4" y2="471.2" stroke="#DCCBB0" stroke-width="0.8"/>
+<line x1="162.0" y1="383.6" x2="164.8" y2="470.4" stroke="#DCCBB0" stroke-width="0.8"/>
+<line x1="208.0" y1="382.4" x2="205.2" y2="469.6" stroke="#DCCBB0" stroke-width="0.8"/>
+<line x1="254.0" y1="381.2" x2="245.60000000000002" y2="468.8" stroke="#DCCBB0" stroke-width="0.8"/>
+<line x1="74.66666666666667" y1="414.6666666666667" x2="295.3333333333333" y2="409.3333333333333" stroke="#DCCBB0" stroke-width="0.8"/>
+<line x1="79.33333333333333" y1="443.3333333333333" x2="290.6666666666667" y2="438.6666666666667" stroke="#DCCBB0" stroke-width="0.8"/>
+<ellipse cx="176" cy="434" rx="10" ry="6" fill="#A2503B" fill-opacity="0.3" stroke="#A2503B" stroke-width="1"/>
+<text x="176" y="456" font-size="4.2" fill="#A2503B" text-anchor="middle">过者：入网</text>
+<ellipse cx="248" cy="416" rx="8" ry="5" fill="#4A5C55" fill-opacity="0.25" stroke="#4A5C55" stroke-width="0.9"/>
+<text x="232" y="404" font-size="4.0" fill="#4A5C55">不过者自网眼去</text>
+<text x="190" y="526" font-size="4.6" fill="#4A5C55" text-anchor="middle">同是一张网：该留的留下，该走的从眼子里走</text>
+<text x="24" y="542" font-size="4.8" fill="#2F2A24">「天网恢恢」：网是大的，不是密的；大才容得下走。</text>
+<text x="24" y="558" font-size="4.8" fill="#2F2A24">「疏而不失」：疏的那一半让它通，不失的那一半让它有方向。</text>
+<text x="24" y="576" font-size="5.0" fill="#4A5C55">通而不漏，两者兼有，才叫网；只剩一边的，是筛，或者墙。</text>
+<line x1="24" y1="592" x2="338" y2="592" stroke="#DCCBB0" stroke-width="0.6"/>
+<rect x="20" y="600" width="340" height="40" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="190" y="615" font-size="5.4" fill="#2F2A24" text-anchor="middle">疏者，《说文》曰「通也」，非稀也；</text>
+<text x="190" y="628" font-size="4.7" fill="#4A5C55" text-anchor="middle">通者必漏，不漏者必不通，而天兼之。</text>
+<line x1="20" y1="654" x2="360" y2="654" stroke="#E6D8C2" stroke-width="0.8"/>
+<text x="20" y="668" font-size="8.0" fill="#A89577" letter-spacing="1">本 章 金 句</text>
+<text x="20" y="684" font-size="8.4" fill="#2F2A24">天网恢恢，疏而不失。</text>
+<text x="20" y="700" font-size="8.4" fill="#2F2A24">疏者，《说文》曰「通也」，非稀也；</text>
+</svg>
