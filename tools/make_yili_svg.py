@@ -1524,6 +1524,9 @@ GOLD = {
     "ch48c": ["「取天下」的「取」是割耳朵，所以老子换了一个动作：不是割，是不动。"],
     "ch47a": ["透过框看，你看见的每一块都是真的；可你真的没看见框外。"],
     "ch47b": ["其出弥远，其知弥少。"],
+    "ch61a": ["下游不是被推下去的，它本来就在那儿；不往上争的水，上游非来不可。"],
+    "ch61b": ["「胜」是担得起，不是打得赢；母畜担得起，因为后面那一群都是它生的。"],
+    "ch61c": ["取本义带刀；加一个「下」，刀就翻成了手——不是去割，是去接。"],
     "ch60a": ["烹小鲜的诀是不翻；这一章不教人怎么把事做成，教人做成了之后别再去动它。"],
     "ch60b": ["莅是草长到那个位置，不是人坐上去发令；一个到，一个管。"],
     "ch60c": ["交是两条腿交叉，不是两股绳拧成一股；各让一条腿，才各回各家。"],
@@ -6658,6 +6661,197 @@ def ch60c_liang_tiao_tui():
     return "\n".join(s)
 
 
+# ============ 第六十一章 · 一条河 ============
+def ch61a_yi_tiao_he():
+    W, H = 380, 664
+    body, y = head(W, H, "大国者下流：下流不是品行低下，是水走到底的那一段",
+                   "第 六 十 一 章 · 下流", "一条河", "大国者下流，天下之牝，天下之交也。", H)
+    s = [body]
+
+    s.append(box(20, y + 2, 340, 30, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, y + 14, "「流」，《说文》「水行也」——水在走；「下流」是水走到底的那一段。", 5.2, INK, "middle"))
+    s.append(txt(190, y + 26, "江河的下游，是所有上游都往那儿去的地方。", 5.2, "#6E6459", "middle"))
+
+    t1 = y + 46
+    s.append(txt(24, t1, "上游都往下走，走到低处汇成一处", 5.4, GREEN))
+    ty = t1 + 66
+
+    # 上游支流
+    for x0 in (52, 104):
+        s.append(f'<path d="M{x0},{ty} C{x0+16},{ty+40} {x0+34},{ty+62} {150},{ty+80}" fill="none" stroke="{GREEN}" stroke-width="1.4"/>')
+        s.append(arrow(x0 + 6, ty + 8, x0 + 20, ty + 32, GREEN, 0.7, head="arr2"))
+    for x0 in (196, 248):
+        s.append(f'<path d="M{x0},{ty} C{x0-16},{ty+40} {x0-34},{ty+62} {150},{ty+80}" fill="none" stroke="{GREEN}" stroke-width="1.4"/>')
+        s.append(arrow(x0 - 6, ty + 8, x0 - 20, ty + 32, GREEN, 0.7, head="arr2"))
+    s.append(txt(150, ty - 12, "上游：水从高处来", 4.6, "#6E6459", "middle"))
+
+    # 主河道 + 下游水潭
+    s.append(f'<path d="M138,{ty+76} C132,{ty+110} 128,{ty+140} 122,{ty+168}" fill="none" stroke="{GREEN}" stroke-width="1.2"/>')
+    s.append(f'<path d="M162,{ty+76} C168,{ty+110} 172,{ty+140} 178,{ty+168}" fill="none" stroke="{GREEN}" stroke-width="1.2"/>')
+    s.append(arrow(150, ty + 100, 150, ty + 130, GREEN, 0.8, head="arr2"))
+    s.append(f'<ellipse cx="150" cy="{ty+194}" rx="74" ry="26" fill="#EFE6D4" stroke="{GREEN}" stroke-width="1"/>')
+    for k in range(3):
+        s.append(f'<path d="M{96+k*8},{ty+186+k*6} C{126},{ty+180+k*6} {174},{ty+180+k*6} {204-k*8},{ty+186+k*6}" fill="none" stroke="{LINE2}" stroke-width="0.5"/>')
+    s.append(txt(150, ty + 232, "下游：所有水都到这儿", 4.8, GREEN, "middle"))
+    s.append(txt(150, ty + 246, "不是被推下去的，它本来就在那儿", 4.8, "#6E6459", "middle"))
+
+    b = ty + 272
+    s.append(txt(24, b, "「下流」是水走到底的那一段，不是品行低下。", 5.2, INK))
+    s.append(txt(24, b + 16, "不往上争的水，上游非来不可——它不用抢，位置就在那里。", 5.0, INK))
+    s.append(txt(24, b + 32, "大国把自己放在那一段上，天下的水自己就往这儿流。", 4.9, GREEN))
+
+    c = b + 50
+    s.append(f'<line x1="24" y1="{c}" x2="338" y2="{c}" stroke="{LINE}" stroke-width="0.6"/>')
+    s.append(box(20, c + 8, 340, 40, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, c + 24, "下游不是被推下去的，它本来就在那儿；", 5.6, INK, "middle"))
+    s.append(txt(190, c + 36, "不往上争的水，上游非来不可。", 5.6, GREEN, "middle"))
+    s.append(gold(c + 62, "ch61a"))
+    s.append('</svg>')
+    return "\n".join(s)
+
+
+# ============ 第六十一章 · 一只母畜 ============
+def ch61b_yi_zhi_mu_chu():
+    W, H = 380, 620
+    body, y = head(W, H, "牝常以静胜牡：胜是担得起，不是打得赢",
+                   "第 六 十 一 章 · 牝", "一只母鸡", "牝常以静胜牡，以静为下。", H)
+    s = [body]
+
+    s.append(box(20, y + 2, 340, 30, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, y + 14, "「牝」是雌，「牡」是雄；「胜」训「肩」——是担得起，不是打得赢。", 5.2, INK, "middle"))
+    s.append(txt(190, y + 26, "母鸡不争，可脚边那一群，都是它孵出来的。", 5.2, "#6E6459", "middle"))
+
+    def bird(cx, gy, col, scale=1.0, male=False, lying=False):
+        o = []
+        bw, bh = 26 * scale, 17 * scale
+        cy_ = gy - (9 * scale if lying else 20 * scale)
+        o.append(f'<ellipse cx="{cx}" cy="{cy_}" rx="{bw}" ry="{bh}" fill="#EFE6D4" stroke="{col}" stroke-width="1"/>')
+        hx, hy = cx + bw - 2 * scale, cy_ - (14 * scale if male else 9 * scale)
+        o.append(f'<line x1="{cx+bw-6*scale}" y1="{cy_-4*scale}" x2="{hx}" y2="{hy}" stroke="{col}" stroke-width="1.2"/>')
+        o.append(f'<circle cx="{hx+3*scale}" cy="{hy-3*scale}" r="{5*scale}" fill="none" stroke="{col}" stroke-width="1"/>')
+        for k in range(3):
+            o.append(f'<path d="M{hx+1*scale+k*2.4*scale},{hy-8*scale} C{hx+1*scale+k*2.4*scale},{hy-12*scale} {hx+3*scale+k*2.4*scale},{hy-12*scale} {hx+3*scale+k*2.4*scale},{hy-9*scale}" fill="none" stroke="{col}" stroke-width="0.8"/>')
+        o.append(f'<path d="M{hx+8*scale},{hy-3*scale} L{hx+13*scale},{hy-1*scale} L{hx+8*scale},{hy+1*scale} Z" fill="none" stroke="{col}" stroke-width="0.7"/>')
+        for d in (-6, -2):
+            o.append(f'<line x1="{cx-bw-2*scale}" y1="{cy_-6*scale+d*2}" x2="{cx-bw-14*scale}" y2="{cy_-14*scale+d*2}" stroke="{col}" stroke-width="0.8"/>')
+        if lying:
+            o.append(f'<line x1="{cx-8*scale}" y1="{gy}" x2="{cx+12*scale}" y2="{gy}" stroke="{col}" stroke-width="0.9"/>')
+        else:
+            for dx in (-8 * scale, 10 * scale):
+                o.append(f'<line x1="{cx+dx}" y1="{cy_+bh-2}" x2="{cx+dx}" y2="{gy}" stroke="{col}" stroke-width="1"/>')
+        return o
+
+    def chick(cx, gy, col):
+        o = [f'<circle cx="{cx}" cy="{gy-9}" r="7" fill="#EFE6D4" stroke="{col}" stroke-width="0.9"/>']
+        o.append(f'<circle cx="{cx+6}" cy="{gy-15}" r="4" fill="none" stroke="{col}" stroke-width="0.9"/>')
+        o.append(f'<path d="M{cx+10},{gy-16} L{cx+14},{gy-15} L{cx+10},{gy-14} Z" fill="none" stroke="{col}" stroke-width="0.6"/>')
+        o.append(f'<line x1="{cx-2}" y1="{gy-2}" x2="{cx-2}" y2="{gy}" stroke="{col}" stroke-width="0.8"/>')
+        o.append(f'<line x1="{cx+3}" y1="{gy-2}" x2="{cx+3}" y2="{gy}" stroke="{col}" stroke-width="0.8"/>')
+        return o
+
+    # 一、牡
+    t1 = y + 46
+    s.append(txt(24, t1, "一、牡：昂着头，争那一步", 5.4, SEAL))
+    gy1 = t1 + 112
+    s.append(f'<line x1="24" y1="{gy1}" x2="240" y2="{gy1}" stroke="{INK}" stroke-width="1"/>')
+    s += bird(86, gy1, SEAL, 1.15, male=True)
+    s.append(txt(160, gy1 - 52, "一只，站着", 4.8, SEAL))
+    s.append(txt(160, gy1 - 40, "冠最高，脚边没有别的", 4.4, "#6E6459"))
+    s.append(txt(86, gy1 + 14, "牡：以力相争", 4.6, SEAL, "middle"))
+
+    # 二、牝
+    t2 = gy1 + 34
+    s.append(txt(24, t2, "二、牝：静着卧下，脚边一群", 5.4, GREEN))
+    gy2 = t2 + 118
+    s.append(f'<line x1="24" y1="{gy2}" x2="240" y2="{gy2}" stroke="{INK}" stroke-width="1"/>')
+    s += bird(70, gy2, GREEN, 1.1, male=False, lying=True)
+    for dx in (120, 152, 184):
+        s += chick(dx, gy2, GREEN)
+    s.append(txt(70, gy2 + 14, "牝：静着，不动", 4.6, GREEN, "middle"))
+    s.append(txt(168, gy2 + 14, "跟着的那群，都是它孵的", 4.4, "#6E6459", "middle"))
+
+    b = gy2 + 40
+    s.append(txt(24, b, "「胜」是担得起，不是打得赢：母鸡不争，脚边那一群都是它的。", 4.8, INK))
+    s.append(txt(24, b + 16, "静不是不动，是不必动；下不是低人一等，是让水自己流过来。", 4.9, INK))
+    s.append(txt(24, b + 32, "以静为下：静到那个位置，就有人来。", 5.1, GREEN))
+
+    c = b + 50
+    s.append(f'<line x1="24" y1="{c}" x2="338" y2="{c}" stroke="{LINE}" stroke-width="0.6"/>')
+    s.append(box(20, c + 8, 340, 40, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, c + 24, "「胜」是担得起，不是打得赢；", 5.8, INK, "middle"))
+    s.append(txt(190, c + 36, "母畜担得起，因为后面那一群都是它生的。", 5.2, GREEN, "middle"))
+    s.append(gold(c + 62, "ch61b"))
+    s.append('</svg>')
+    return "\n".join(s)
+
+
+# ============ 第六十一章 · 一只手 ============
+def ch61c_yi_zhi_shou():
+    W, H = 380, 656
+    body, y = head(W, H, "或下以取：取本义带刀，加一个「下」，刀就翻成了手",
+                   "第 六 十 一 章 · 取", "一只手", "故或下以取，或下而取。", H)
+    s = [body]
+
+    s.append(box(20, y + 2, 340, 30, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, y + 14, "「取」从又从耳：杀敌之后割左耳计功——本义带刀。", 5.2, INK, "middle"))
+    s.append(txt(190, y + 26, "前面加一个「下」，刀就翻成了手：不是去割，是去接。", 5.0, "#6E6459", "middle"))
+
+    def ear(cx, cy, col):
+        o = [f'<path d="M{cx},{cy+12} C{cx+9},{cy+8} {cx+11},{cy-4} {cx+4},{cy-10} C{cx-2},{cy-15} {cx-9},{cy-10} {cx-6},{cy-2} C{cx-3},{cy+5} {cx+2},{cy+6} {cx+3},{cy}" fill="none" stroke="{col}" stroke-width="1.1"/>']
+        o.append(f'<path d="M{cx+1},{cy+2} C{cx+4},{cy-2} {cx+2},{cy-6} {cx-1},{cy-7}" fill="none" stroke="{col}" stroke-width="0.6"/>')
+        return o
+
+    def knife(x, y, col):
+        o = [f'<rect x="{x-3}" y="{y}" width="6" height="16" rx="2" fill="none" stroke="{col}" stroke-width="0.8"/>']
+        o.append(f'<path d="M{x-2},{y} L{x-2},{y-34} C{x+10},{y-30} {x+14},{y-20} {x+12},{y-6} L{x+2},{y}" fill="#EFE6D4" stroke="{col}" stroke-width="1"/>')
+        return o
+
+    def hand(cx, cy, col):
+        o = [f'<rect x="{cx-19}" y="{cy-8}" width="38" height="22" rx="8" fill="#EFE6D4" stroke="{col}" stroke-width="1.1"/>']
+        for k in range(4):
+            o.append(f'<rect x="{cx-17+k*9}" y="{cy-24+k*0.9}" width="6" height="16" rx="3" fill="#EFE6D4" stroke="{col}" stroke-width="0.9"/>')
+        o.append(f'<rect x="{cx-27}" y="{cy-2}" width="12" height="6" rx="3" fill="#EFE6D4" stroke="{col}" stroke-width="0.9"/>')
+        return o
+
+    # 一、刀
+    t1 = y + 46
+    s.append(txt(24, t1, "一、带刀：取本义，是割", 5.4, SEAL))
+    cy1 = t1 + 116
+    s.append(f'<line x1="118" y1="{cy1-88}" x2="118" y2="{cy1-72}" stroke="{LINE}" stroke-width="0.7"/>')
+    s += ear(118, cy1 - 60, INK)
+    s += knife(168, cy1 - 40, SEAL)
+    s.append(arrow(186, cy1 - 82, 162, cy1 - 62, SEAL, 0.8, head="arrS"))
+    s.append(txt(118, cy1 - 84, "一只耳，挂在这儿", 4.4, INK, "middle"))
+    s.append(txt(118, cy1 + 8, "割下来计功：这是「取」的老底子", 4.6, SEAL, "middle"))
+    s.append(txt(196, cy1 - 34, "刀落下去：割", 4.6, SEAL))
+
+    # 二、手
+    t2 = cy1 + 76
+    s.append(txt(24, t2, "二、加一个「下」：掌心翻上来，去接", 5.2, GREEN))
+    cy2 = t2 + 106
+    s += hand(120, cy2, GREEN)
+    s.append(f'<line x1="146" y1="{cy2-34}" x2="158" y2="{cy2-22}" stroke="{GREEN}" stroke-width="0.6" stroke-dasharray="3 2"/>')
+    s += ear(160, cy2 - 14, GREEN)
+    s.append(arrow(168, cy2 - 44, 160, cy2 - 26, GREEN, 0.7, head="arr2"))
+    s.append(txt(196, cy2 - 40, "来归的，落下来", 4.6, GREEN))
+    s.append(txt(196, cy2 - 28, "手在下面接着", 4.4, "#6E6459"))
+    s.append(txt(120, cy2 + 34, "刀口还在，只是翻过去了", 4.6, GREEN, "middle"))
+
+    b = cy2 + 52
+    s.append(txt(24, b, "「取」从又从耳，本义带刀：割左耳计功。", 4.9, INK))
+    s.append(txt(24, b + 16, "前面加一个「下」，刀就翻成了手——不是去割，是去接。", 4.9, INK))
+    s.append(txt(24, b + 32, "刀口还在，只是翻过去了；翻过去的刀，就成了接的手。", 4.9, GREEN))
+
+    c = b + 50
+    s.append(f'<line x1="24" y1="{c}" x2="338" y2="{c}" stroke="{LINE}" stroke-width="0.6"/>')
+    s.append(box(20, c + 8, 340, 40, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, c + 24, "取本义带刀；加一个「下」，刀就翻成了手——", 5.2, INK, "middle"))
+    s.append(txt(190, c + 36, "不是去割，是去接。", 6.0, GREEN, "middle"))
+    s.append(gold(c + 62, "ch61c"))
+    s.append('</svg>')
+    return "\n".join(s)
+
+
 FIGS = {
     "ch01-wu-you": ("第一章", "无有同出", ch01_wu_you),
     "ch01-zhi-yue": ("第一章", "指月三境", ch01_zhi_yue),
@@ -6736,6 +6930,9 @@ FIGS = {
     "ch60a-yi-kou-guo": ("第六十章", "一口锅", ch60a_yi_kou_guo),
     "ch60b-yi-pian-cao": ("第六十章", "一片草", ch60b_yi_pian_cao),
     "ch60c-liang-tiao-tui": ("第六十章", "两条腿", ch60c_liang_tiao_tui),
+    "ch61a-yi-tiao-he": ("第六十一章", "一条河", ch61a_yi_tiao_he),
+    "ch61b-yi-zhi-mu-chu": ("第六十一章", "一只母畜", ch61b_yi_zhi_mu_chu),
+    "ch61c-yi-zhi-shou": ("第六十一章", "一只手", ch61c_yi_zhi_shou),
     "ch12-wu-se": ("第十二章", "门开五处", ch12_wu_se),
     "ch13-chong-ru": ("第十三章", "惊的是我", ch13_chong_ru),
     "ch14-yi-xi-wei": ("第十四章", "三样工具探不到", ch14_yi_xi_wei),
