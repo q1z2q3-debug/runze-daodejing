@@ -2900,6 +2900,134 @@ def ch16_zhi_xu_ji():
 
 
 # ============ 第十七章 · 太上，下知有之 ============
+def ch16b_yi_gang_shui():
+    body, y = head(380, 999, "归根曰静：水一动就浑，一静就清",
+                   "第 十 六 章 · 守 静", "一缸浊水", "致虚极，守静笃；万物并作，吾以观复。", 999)
+    s = [body]
+
+    s.append(box(20, y + 2, 340, 34, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, y + 14, "虚不是空掉，是把搅动的那只手先放下。", 4.9, INK, "middle"))
+    s.append(txt(190, y + 27, "静不是不动，是不再自己去搅。", 4.8, "#6E6459", "middle"))
+
+    def vat(cx, top, w, h, water, murk=0):
+        s.append(f'<path d="M{cx - w},{top} L{cx - w * 0.68},{top + h} q{w * 0.68},{6} {w * 1.36},0 L{cx + w},{top} z" fill="{water}" stroke="{INK}" stroke-width="1.2"/>')
+        s.append(f'<ellipse cx="{cx}" cy="{top}" rx="{w}" ry="5" fill="#EFE6D4" stroke="{INK}" stroke-width="1.0"/>')
+        s.append(f'<ellipse cx="{cx}" cy="{top}" rx="{w - 3}" ry="3.6" fill="{water}" stroke="none"/>')
+        span = w * 1.2
+        if murk:
+            for k in range(14):
+                s.append(f'<circle cx="{cx - w * 0.6 + (k * 29) % int(span)}" cy="{top + 12 + (k * 15) % int(h - 20)}" r="1.5" fill="#B7ADA0"/>')
+        else:
+            for k in range(9):
+                s.append(f'<circle cx="{cx - w * 0.55 + (k * 27) % int(span)}" cy="{top + h - 10 - (k % 2) * 3}" r="1.5" fill="#A8A091"/>')
+
+    # 一、搅：浑
+    s.append(txt(24, y + 52, "一、搅：手一搅，沙全浮起来，水就浑了", 5.2, SEAL))
+    gy = y + 64
+    s.append(f'<rect x="26" y="{gy}" width="328" height="172" fill="#FBF6EC" stroke="{LINE}" stroke-width="0.8"/>')
+    cx = 132
+    vat(cx, gy + 46, 40, 74, "#D9D3C6", murk=1)
+    # 搅棒与回旋
+    s.append(f'<line x1="{cx}" y1="{gy + 20}" x2="{cx + 8}" y2="{gy + 74}" stroke="{INK}" stroke-width="1.4"/>')
+    s.append(f'<path d="M{cx - 34},{gy + 58} q34,26 68,0" fill="none" stroke="{SEAL}" stroke-width="0.8" stroke-dasharray="4 3"/>')
+    s.append(f'<path d="M{cx + 34},{gy + 66} q-34,26 -68,0" fill="none" stroke="{SEAL}" stroke-width="0.8" stroke-dasharray="4 3"/>')
+    s.append(txt(cx, gy + 152, "搅动：沙起，水浊，看不见底", 4.2, SEAL, "middle"))
+    s.append(txt(266, gy + 90, "不知常，妄作凶", 4.5, SEAL, "middle"))
+    s.append(txt(266, gy + 108, "越搅越浑，越急越看不见", 4.1, "#6E6459", "middle"))
+
+    # 二、静：清
+    s.append(txt(24, gy + 190, "二、静：手放下，沙自己沉，水自己清", 5.2, GREEN))
+    gy2 = gy + 202
+    s.append(f'<rect x="26" y="{gy2}" width="328" height="168" fill="#FBF6EC" stroke="{LINE}" stroke-width="0.8"/>')
+    vat(cx, gy2 + 40, 40, 74, "#DCEAE2", murk=0)
+    # 沉沙层
+    s.append(f'<path d="M{cx - 26},{gy2 + 106} q26,8 52,0" fill="none" stroke="#A8A091" stroke-width="1.2"/>')
+    s.append(txt(cx + 54, gy2 + 108, "沙沉到底：根在这里", 4.0, GREEN))
+    s.append(f'<line x1="{cx - 44}" y1="{gy2 + 66}" x2="{cx + 44}" y2="{gy2 + 66}" stroke="{GREEN}" stroke-width="0.7" stroke-dasharray="3 2"/>')
+    s.append(txt(cx + 54, gy2 + 68, "水自清：上面那层不用管", 4.0, GREEN))
+    s.append(txt(cx, gy2 + 150, "静曰复命：浑是暂时的，清是本来的", 4.2, GREEN, "middle"))
+
+    a = gy2 + 188
+    s.append(txt(24, a, "万物并作，吾以观复：不去推动，只看着它自己回去。", 5.0, INK))
+    s.append(txt(24, a + 16, "归根曰静——静不是把人按住，是把那只搅动的手放下。", 5.0, INK))
+    s.append(txt(24, a + 34, "知常曰明：知道它会自己清，就不必急着去搅。", 4.9, GREEN))
+
+    c = a + 52
+    s.append(f'<line x1="24" y1="{c}" x2="338" y2="{c}" stroke="{LINE}" stroke-width="0.6"/>')
+    s.append(box(20, c + 8, 340, 40, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, c + 24, "归根曰静，静曰复命；", 6.0, INK, "middle"))
+    s.append(txt(190, c + 36, "知常曰明，不知常妄作凶。", 6.0, GREEN, "middle"))
+    s.append(gold(c + 62, "ch16b"))
+    s.append('</svg>')
+    out = "\n".join(s)
+    ys = [float(v) for v in re.findall(r'y="([0-9.]+)"', out)]
+    return out.replace("999", str(int(max(ys) + 26)))
+
+
+def ch16c_luo_ye_gui_gen():
+    body, y = head(380, 999, "万物并作，吾以观复：长出去，都要落回来",
+                   "第 十 六 章 · 归 根", "落叶归根", "万物并作，吾以观复；夫物芸芸，各复归其根。", 999)
+    s = [body]
+
+    s.append(box(20, y + 2, 340, 34, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, y + 14, "「复」不是回到原样，是回到那个能再长出来的地方。", 4.9, INK, "middle"))
+    s.append(txt(190, y + 27, "看的是循环，不是终点。", 4.8, "#6E6459"))
+
+    def ground(gy):
+        s.append(f'<line x1="26" y1="{gy + 138}" x2="354" y2="{gy + 138}" stroke="{INK}" stroke-width="1.0"/>')
+        s.append(f'<rect x="26" y="{gy + 138}" width="328" height="12" fill="#EFE9DA" stroke="none"/>')
+
+    def root(cx, gy):
+        s.append(f'<line x1="{cx}" y1="{gy + 138}" x2="{cx}" y2="{gy + 96}" stroke="{INK}" stroke-width="2.0"/>')
+        s.append(f'<path d="M{cx},{gy + 138} q-14,10 -22,12 M{cx},{gy + 138} q14,10 22,12 M{cx},{gy + 138} l0,14" fill="none" stroke="{INK}" stroke-width="1.0"/>')
+
+    # 一、并作
+    s.append(txt(24, y + 52, "一、并作：一时齐发，各往各的方向长", 5.2, SEAL))
+    gy = y + 64
+    s.append(f'<rect x="26" y="{gy}" width="328" height="160" fill="#FBF6EC" stroke="{LINE}" stroke-width="0.8"/>')
+    ground(gy)
+    cx = 150
+    root(cx, gy)
+    for k, (dx, up, lab) in enumerate([(-44, 34, "枝"), (-20, 52, "花"), (6, 66, "实"), (30, 44, "叶"), (52, 26, "")]):
+        x2, y2 = cx + dx, gy + 96 - up
+        s.append(f'<line x1="{cx}" y1="{gy + 96}" x2="{x2}" y2="{y2}" stroke="{INK}" stroke-width="1.1"/>')
+        s.append(f'<ellipse cx="{x2}" cy="{y2 - 3}" rx="4.4" ry="6.4" fill="#E4EAE0" stroke="{GREEN}" stroke-width="0.6"/>')
+        if lab:
+            s.append(txt(x2, y2 - 14, lab, 3.9, GREEN, "middle"))
+        s.append(arrow(x2, y2 - 12, x2 + (6 if dx > 0 else -6), y2 - 26, GREEN, 0.7, None, "arr2"))
+
+    # 二、复归
+    s.append(txt(24, gy + 176, "二、观复：看久了，叶子还是要落回脚下", 5.2, GREEN))
+    gy2 = gy + 188
+    s.append(f'<rect x="26" y="{gy2}" width="328" height="160" fill="#FBF6EC" stroke="{LINE}" stroke-width="0.8"/>')
+    ground(gy2)
+    root(cx, gy2)
+    s.append(f'<line x1="{cx}" y1="{gy2 + 96}" x2="{cx}" y2="{gy2 + 50}" stroke="{INK}" stroke-width="1.1"/>')
+    s.append(f'<line x1="{cx}" y1="{gy2 + 74}" x2="{cx - 18}" y2="{gy2 + 62}" stroke="{INK}" stroke-width="0.9"/>')
+    s.append(f'<line x1="{cx}" y1="{gy2 + 66}" x2="{cx + 20}" y2="{gy2 + 56}" stroke="{INK}" stroke-width="0.9"/>')
+    for dx, hy in [(-46, 122), (-32, 112), (-14, 126), (2, 118), (20, 124), (38, 114)]:
+        lx = cx + dx
+        s.append(f'<ellipse cx="{lx}" cy="{gy2 + hy + 8}" rx="4.2" ry="2.4" fill="#E4EAE0" stroke="{GREEN}" stroke-width="0.6"/>')
+        s.append(arrow(lx, gy2 + hy - 8, lx, gy2 + hy + 3, GREEN, 0.7, None, "arr2"))
+    s.append(txt(cx + 56, gy2 + 74, "各自落回脚下", 4.0, GREEN))
+
+    a = gy2 + 180
+    s.append(txt(24, a, "生发是「作」，回收是「复」；只看见作，看不见复，人就以为一直往前是对的。", 4.9, INK))
+    s.append(txt(24, a + 16, "复归其根，不是退步，是把今年长出来的、重新变成明年的底。", 4.9, INK))
+    s.append(txt(24, a + 34, "观复的人不急：他知道每一轮落下来的，都在根那里等着。", 4.9, GREEN))
+
+    c = a + 52
+    s.append(f'<line x1="24" y1="{c}" x2="338" y2="{c}" stroke="{LINE}" stroke-width="0.6"/>')
+    s.append(box(20, c + 8, 340, 40, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, c + 24, "万物并作，吾以观复；", 6.0, INK, "middle"))
+    s.append(txt(190, c + 36, "夫物芸芸，各复归其根。", 6.0, GREEN, "middle"))
+    s.append(gold(c + 62, "ch16c"))
+    s.append('</svg>')
+    out = "\n".join(s)
+    ys = [float(v) for v in re.findall(r'y="([0-9.]+)"', out)]
+    return out.replace("999", str(int(max(ys) + 26)))
+
+
 def ch17_tai_shang():
     W, H = 380, 432
     body, y = head(W, H, "四级不是四种人，是同一件事的四次退化", "第 十 七 章 · 治 道", "四级台阶",
@@ -6685,6 +6813,8 @@ GOLD = {
     "ch14c": ["执古之道，以御今之有；能知古始，是谓道纪。", "古不是过去，是本始：一根不被风向吹弯的准绳。"],
     "ch15b": ["豫兮若冬涉川，犹兮若畏四邻。", "善为道者，走路像过冬河：每一步都自带敬意。"],
     "ch15c": ["夫唯不盈，故能蔽而新成。", "留一处不满，旧物就还在生长。"],
+    "ch16b": ["致虚极，守静笃；万物并作，吾以观复。", "静不是把人按住，是把那只搅动的手放下。"],
+    "ch16c": ["夫物芸芸，各复归其根。", "复归其根，是把今年长出来的、重新变成明年的底。"],
     "ch06b": ["谷神不死，是谓玄牝。", "谷者，两山间之空也；能受故能生，生而不有故不竭——生机不在满处，在空处。"],
     "ch06c": ["玄牝之门，是谓天地根。", "门在开合处，不在门板上；一着手去推，它就成了一堵墙。"],
     "ch05b": ["天地不仁，以万物为刍狗。", "刍者，束草也；刍狗有位而无主——用毕回草堆，不是被弃，是位次用完了。"],
@@ -12842,6 +12972,8 @@ FIGS = {
     "ch14c-gu-sheng-yu-jin": ("第十四章", "一根准绳", ch14c_gu_sheng_yu_jin),
     "ch15b-dong-chuan": ("第十五章", "冬涉川", ch15b_dong_chuan),
     "ch15c-bu-yu-ying": ("第十五章", "旧罐", ch15c_bu_yu_ying),
+    "ch16b-yi-gang-shui": ("第十六章", "一缸浊水", ch16b_yi_gang_shui),
+    "ch16c-luo-ye-gui-gen": ("第十六章", "落叶归根", ch16c_luo_ye_gui_gen),
     "ch24-qi-zhe-bu-li": ("第二十四章", "企者不立", ch24_qi_zhe_bu_li),
     "ch23-xi-yan-zi-ran": ("第二十三章", "希言自然", ch23_xi_yan_zi_ran),
     "ch22-qu-ze-quan": ("第二十二章", "曲则全", ch22_qu_ze_quan),

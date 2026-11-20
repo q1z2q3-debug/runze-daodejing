@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 380 718" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="万物并作，吾以观复：长出去，都要落回来" font-family="'Noto Serif CJK SC','Noto Serif SC','Songti SC',serif">
+<defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#6E6459"/></marker><marker id="arr2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#4A5C55"/></marker><marker id="arrL" viewBox="0 0 10 10" refX="1" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M10 0 L0 5 L10 10 z" fill="#4A5C55"/></marker><marker id="arrS" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#A2503B"/></marker></defs>
+<rect x="0" y="0" width="380" height="718" fill="#F8F3E6"/>
+<text x="20" y="26" font-size="11" fill="#A2503B" font-family="'Noto Sans CJK SC','Noto Sans SC',sans-serif" letter-spacing="3">第 十 六 章 · 归 根</text>
+<text x="20" y="58" font-size="21" fill="#2F2A24">落叶归根</text>
+<text x="20" y="78" font-size="10.5" fill="#6E6459">万物并作，吾以观复；夫物芸芸，各复归其根。</text>
+<rect x="20" y="102" width="340" height="34" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="190" y="114" font-size="4.9" fill="#2F2A24" text-anchor="middle">「复」不是回到原样，是回到那个能再长出来的地方。</text>
+<text x="190" y="127" font-size="4.8" fill="#6E6459">看的是循环，不是终点。</text>
+<text x="24" y="152" font-size="5.2" fill="#A2503B">一、并作：一时齐发，各往各的方向长</text>
+<rect x="26" y="164" width="328" height="160" fill="#FBF6EC" stroke="#DCCBB0" stroke-width="0.8"/>
+<line x1="26" y1="302" x2="354" y2="302" stroke="#2F2A24" stroke-width="1.0"/>
+<rect x="26" y="302" width="328" height="12" fill="#EFE9DA" stroke="none"/>
+<line x1="150" y1="302" x2="150" y2="260" stroke="#2F2A24" stroke-width="2.0"/>
+<path d="M150,302 q-14,10 -22,12 M150,302 q14,10 22,12 M150,302 l0,14" fill="none" stroke="#2F2A24" stroke-width="1.0"/>
+<line x1="150" y1="260" x2="106" y2="226" stroke="#2F2A24" stroke-width="1.1"/>
+<ellipse cx="106" cy="223" rx="4.4" ry="6.4" fill="#E4EAE0" stroke="#4A5C55" stroke-width="0.6"/>
+<text x="106" y="212" font-size="3.9" fill="#4A5C55" text-anchor="middle">枝</text>
+<line x1="106" y1="214" x2="100" y2="200" stroke="#4A5C55" stroke-width="0.7" marker-end="url(#arr2)"/>
+<line x1="150" y1="260" x2="130" y2="208" stroke="#2F2A24" stroke-width="1.1"/>
+<ellipse cx="130" cy="205" rx="4.4" ry="6.4" fill="#E4EAE0" stroke="#4A5C55" stroke-width="0.6"/>
+<text x="130" y="194" font-size="3.9" fill="#4A5C55" text-anchor="middle">花</text>
+<line x1="130" y1="196" x2="124" y2="182" stroke="#4A5C55" stroke-width="0.7" marker-end="url(#arr2)"/>
+<line x1="150" y1="260" x2="156" y2="194" stroke="#2F2A24" stroke-width="1.1"/>
+<ellipse cx="156" cy="191" rx="4.4" ry="6.4" fill="#E4EAE0" stroke="#4A5C55" stroke-width="0.6"/>
+<text x="156" y="180" font-size="3.9" fill="#4A5C55" text-anchor="middle">实</text>
+<line x1="156" y1="182" x2="162" y2="168" stroke="#4A5C55" stroke-width="0.7" marker-end="url(#arr2)"/>
+<line x1="150" y1="260" x2="180" y2="216" stroke="#2F2A24" stroke-width="1.1"/>
+<ellipse cx="180" cy="213" rx="4.4" ry="6.4" fill="#E4EAE0" stroke="#4A5C55" stroke-width="0.6"/>
+<text x="180" y="202" font-size="3.9" fill="#4A5C55" text-anchor="middle">叶</text>
+<line x1="180" y1="204" x2="186" y2="190" stroke="#4A5C55" stroke-width="0.7" marker-end="url(#arr2)"/>
+<line x1="150" y1="260" x2="202" y2="234" stroke="#2F2A24" stroke-width="1.1"/>
+<ellipse cx="202" cy="231" rx="4.4" ry="6.4" fill="#E4EAE0" stroke="#4A5C55" stroke-width="0.6"/>
+<line x1="202" y1="222" x2="208" y2="208" stroke="#4A5C55" stroke-width="0.7" marker-end="url(#arr2)"/>
+<text x="24" y="340" font-size="5.2" fill="#4A5C55">二、观复：看久了，叶子还是要落回脚下</text>
+<rect x="26" y="352" width="328" height="160" fill="#FBF6EC" stroke="#DCCBB0" stroke-width="0.8"/>
+<line x1="26" y1="490" x2="354" y2="490" stroke="#2F2A24" stroke-width="1.0"/>
+<rect x="26" y="490" width="328" height="12" fill="#EFE9DA" stroke="none"/>
+<line x1="150" y1="490" x2="150" y2="448" stroke="#2F2A24" stroke-width="2.0"/>
+<path d="M150,490 q-14,10 -22,12 M150,490 q14,10 22,12 M150,490 l0,14" fill="none" stroke="#2F2A24" stroke-width="1.0"/>
+<line x1="150" y1="448" x2="150" y2="402" stroke="#2F2A24" stroke-width="1.1"/>
+<line x1="150" y1="426" x2="132" y2="414" stroke="#2F2A24" stroke-width="0.9"/>
+<line x1="150" y1="418" x2="170" y2="408" stroke="#2F2A24" stroke-width="0.9"/>
+<ellipse cx="104" cy="482" rx="4.2" ry="2.4" fill="#E4EAE0" stroke="#4A5C55" stroke-width="0.6"/>
+<line x1="104" y1="466" x2="104" y2="477" stroke="#4A5C55" stroke-width="0.7" marker-end="url(#arr2)"/>
+<ellipse cx="118" cy="472" rx="4.2" ry="2.4" fill="#E4EAE0" stroke="#4A5C55" stroke-width="0.6"/>
+<line x1="118" y1="456" x2="118" y2="467" stroke="#4A5C55" stroke-width="0.7" marker-end="url(#arr2)"/>
+<ellipse cx="136" cy="486" rx="4.2" ry="2.4" fill="#E4EAE0" stroke="#4A5C55" stroke-width="0.6"/>
+<line x1="136" y1="470" x2="136" y2="481" stroke="#4A5C55" stroke-width="0.7" marker-end="url(#arr2)"/>
+<ellipse cx="152" cy="478" rx="4.2" ry="2.4" fill="#E4EAE0" stroke="#4A5C55" stroke-width="0.6"/>
+<line x1="152" y1="462" x2="152" y2="473" stroke="#4A5C55" stroke-width="0.7" marker-end="url(#arr2)"/>
+<ellipse cx="170" cy="484" rx="4.2" ry="2.4" fill="#E4EAE0" stroke="#4A5C55" stroke-width="0.6"/>
+<line x1="170" y1="468" x2="170" y2="479" stroke="#4A5C55" stroke-width="0.7" marker-end="url(#arr2)"/>
+<ellipse cx="188" cy="474" rx="4.2" ry="2.4" fill="#E4EAE0" stroke="#4A5C55" stroke-width="0.6"/>
+<line x1="188" y1="458" x2="188" y2="469" stroke="#4A5C55" stroke-width="0.7" marker-end="url(#arr2)"/>
+<text x="206" y="426" font-size="4.0" fill="#4A5C55">各自落回脚下</text>
+<text x="24" y="532" font-size="4.9" fill="#2F2A24">生发是「作」，回收是「复」；只看见作，看不见复，人就以为一直往前是对的。</text>
+<text x="24" y="548" font-size="4.9" fill="#2F2A24">复归其根，不是退步，是把今年长出来的、重新变成明年的底。</text>
+<text x="24" y="566" font-size="4.9" fill="#4A5C55">观复的人不急：他知道每一轮落下来的，都在根那里等着。</text>
+<line x1="24" y1="584" x2="338" y2="584" stroke="#DCCBB0" stroke-width="0.6"/>
+<rect x="20" y="592" width="340" height="40" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="190" y="608" font-size="6.0" fill="#2F2A24" text-anchor="middle">万物并作，吾以观复；</text>
+<text x="190" y="620" font-size="6.0" fill="#4A5C55" text-anchor="middle">夫物芸芸，各复归其根。</text>
+<line x1="20" y1="646" x2="360" y2="646" stroke="#E6D8C2" stroke-width="0.8"/>
+<text x="20" y="660" font-size="8.0" fill="#A89577" letter-spacing="1">本 章 金 句</text>
+<text x="20" y="676" font-size="8.4" fill="#2F2A24">夫物芸芸，各复归其根。</text>
+<text x="20" y="692" font-size="8.4" fill="#2F2A24">复归其根，是把今年长出来的、重新变成明年的底。</text>
+</svg>
