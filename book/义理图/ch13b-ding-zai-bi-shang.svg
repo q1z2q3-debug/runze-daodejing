@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 380 746" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="惊的不是宠辱，是那个钉在壁上的我" font-family="'Noto Serif CJK SC','Noto Serif SC','Songti SC',serif">
+<defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#6E6459"/></marker><marker id="arr2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#4A5C55"/></marker><marker id="arrL" viewBox="0 0 10 10" refX="1" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M10 0 L0 5 L10 10 z" fill="#4A5C55"/></marker><marker id="arrS" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#A2503B"/></marker></defs>
+<rect x="0" y="0" width="380" height="746" fill="#F8F3E6"/>
+<text x="20" y="26" font-size="11" fill="#A2503B" font-family="'Noto Sans CJK SC','Noto Sans SC',sans-serif" letter-spacing="3">第 十 三 章 · 壁 与 钉</text>
+<text x="20" y="58" font-size="21" fill="#2F2A24">一枚钉</text>
+<text x="20" y="78" font-size="10.5" fill="#6E6459">宠辱皆外影，忧患由执我，根在此身藏。</text>
+<rect x="20" y="102" width="340" height="34" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="190" y="114" font-size="4.9" fill="#2F2A24" text-anchor="middle">标签本无力量；它要惊动人，先得人自己把它接上身。</text>
+<text x="190" y="127" font-size="4.8" fill="#6E6459" text-anchor="middle">「宠为下」：一求它，评判的权柄就交到别人手里了。</text>
+<text x="24" y="152" font-size="5.2" fill="#A2503B">一、钉在壁上：牌子挂在钉上，风一吹就两头摇</text>
+<rect x="26" y="164" width="328" height="184" fill="#FBF6EC" stroke="#DCCBB0" stroke-width="0.8"/>
+<path d="M140,190 Q116,252.0 140,314" fill="none" stroke="#2F2A24" stroke-width="2.0"/>
+<path d="M154,190 Q130,252.0 154,314" fill="none" stroke="#DCCBB0" stroke-width="1.0" stroke-dasharray="4 3"/>
+<text x="164" y="206" font-size="4.1" fill="#8A7C69">壁＝身</text>
+<text x="164" y="216" font-size="3.6" fill="#8A7C69">血肉之身，也是执念之我</text>
+<circle cx="150" cy="242" r="2.3" fill="#2F2A24"/>
+<line x1="150" y1="242" x2="156" y2="248" stroke="#8A7C69" stroke-width="0.7"/>
+<rect x="154" y="248" width="34" height="40" fill="#F8F3E6" stroke="#2F2A24" stroke-width="1.2"/>
+<text x="171" y="275" font-size="9.2" fill="#A2503B" text-anchor="middle">我</text>
+<path d="M154,288 q-12,7 -15,-4" fill="none" stroke="#A2503B" stroke-width="0.7" stroke-dasharray="3 2"/>
+<path d="M188,288 q12,7 15,-4" fill="none" stroke="#A2503B" stroke-width="0.7" stroke-dasharray="3 2"/>
+<line x1="42" y1="226" x2="152" y2="258" stroke="#4A5C55" stroke-width="0.9" marker-end="url(#arr2)"/>
+<line x1="42" y1="286" x2="152" y2="276" stroke="#4A5C55" stroke-width="0.9" marker-end="url(#arr2)"/>
+<line x1="338" y1="226" x2="190" y2="258" stroke="#A2503B" stroke-width="0.9" marker-end="url(#arrS)"/>
+<line x1="338" y1="286" x2="190" y2="276" stroke="#A2503B" stroke-width="0.9" marker-end="url(#arrS)"/>
+<text x="44" y="222" font-size="4.3" fill="#4A5C55">宠·得</text>
+<text x="44" y="300" font-size="4.3" fill="#4A5C55">宠·失</text>
+<text x="336" y="222" font-size="4.3" fill="#A2503B" text-anchor="end">辱·加</text>
+<text x="336" y="300" font-size="4.3" fill="#A2503B" text-anchor="end">辱·夺</text>
+<text x="190" y="342" font-size="4.4" fill="#A2503B" text-anchor="middle">得也惊，失也惊：同一根钉，两头都晃</text>
+<text x="24" y="364" font-size="5.2" fill="#4A5C55">二、揭下来：钉子拔了，壁还在，人不跟着晃</text>
+<rect x="26" y="376" width="328" height="168" fill="#FBF6EC" stroke="#DCCBB0" stroke-width="0.8"/>
+<path d="M140,394 Q116,447.0 140,500" fill="none" stroke="#2F2A24" stroke-width="2.0"/>
+<path d="M154,394 Q130,447.0 154,500" fill="none" stroke="#DCCBB0" stroke-width="1.0" stroke-dasharray="4 3"/>
+<line x1="148" y1="454" x2="154" y2="454" stroke="#A89577" stroke-width="0.7"/>
+<circle cx="154" cy="454" r="3.4" fill="none" stroke="#A89577" stroke-width="0.7" stroke-dasharray="2 2"/>
+<text x="162" y="458" font-size="3.9" fill="#8A7C69">钉孔还在，钉子不在了</text>
+<ellipse cx="216" cy="500" rx="27" ry="3.4" fill="#E6D8C2" stroke="none"/>
+<rect x="196" y="482" width="40" height="14" fill="#F8F3E6" stroke="#2F2A24" stroke-width="1.0"/>
+<text x="216" y="493" font-size="6.0" fill="#A2503B" text-anchor="middle">我</text>
+<text x="244" y="494" font-size="4.1" fill="#6E6459">牌子搁下了，壁不动</text>
+<text x="190" y="526" font-size="4.4" fill="#4A5C55" text-anchor="middle">壁不可碎，执壁为我才碎；身不可弃，执身为我方困</text>
+<text x="24" y="560" font-size="5.1" fill="#2F2A24">宠辱是外影，随光而变；忧患由执我，因壁而立。</text>
+<text x="24" y="576" font-size="5.1" fill="#2F2A24">养这个身，不据这个身：壁要养厚，却不必把「我」钉在上面。</text>
+<text x="24" y="594" font-size="5.0" fill="#4A5C55">钉子一拔，风还在吹，壁不晃了——荣辱找不到落脚的地方。</text>
+<line x1="24" y1="612" x2="338" y2="612" stroke="#DCCBB0" stroke-width="0.6"/>
+<rect x="20" y="620" width="340" height="40" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="190" y="636" font-size="6.0" fill="#2F2A24" text-anchor="middle">壁不可碎，执壁为我才碎；</text>
+<text x="190" y="648" font-size="6.0" fill="#4A5C55" text-anchor="middle">身不可弃，执身为我方困。</text>
+<line x1="20" y1="674" x2="360" y2="674" stroke="#E6D8C2" stroke-width="0.8"/>
+<text x="20" y="688" font-size="8.0" fill="#A89577" letter-spacing="1">本 章 金 句</text>
+<text x="20" y="704" font-size="8.4" fill="#2F2A24">宠为下，得之若惊，失之若惊。</text>
+<text x="20" y="720" font-size="8.4" fill="#2F2A24">钉子一拔，风还在吹，壁不晃了。</text>
+</svg>

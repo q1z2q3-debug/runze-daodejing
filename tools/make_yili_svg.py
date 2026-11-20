@@ -2378,6 +2378,149 @@ def ch13_chong_ru():
 
 
 
+def ch13b_ding_zai_bi_shang():
+    body, y = head(380, 999, "惊的不是宠辱，是那个钉在壁上的我",
+                   "第 十 三 章 · 壁 与 钉", "一枚钉", "宠辱皆外影，忧患由执我，根在此身藏。", 999)
+    s = [body]
+
+    s.append(box(20, y + 2, 340, 34, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, y + 14, "标签本无力量；它要惊动人，先得人自己把它接上身。", 4.9, INK, "middle"))
+    s.append(txt(190, y + 27, "「宠为下」：一求它，评判的权柄就交到别人手里了。", 4.8, "#6E6459", "middle"))
+
+    def wall(gy, label=True, top=26, bot=150):
+        s.append(f'<path d="M140,{gy + top} Q116,{gy + (top + bot) / 2} 140,{gy + bot}" fill="none" stroke="{INK}" stroke-width="2.0"/>')
+        s.append(f'<path d="M154,{gy + top} Q130,{gy + (top + bot) / 2} 154,{gy + bot}" fill="none" stroke="{LINE}" stroke-width="1.0" stroke-dasharray="4 3"/>')
+        if label:
+            s.append(txt(164, gy + 42, "壁＝身", 4.1, "#8A7C69"))
+            s.append(txt(164, gy + 52, "血肉之身，也是执念之我", 3.6, "#8A7C69"))
+
+    # 一、钉在壁上
+    s.append(txt(24, y + 52, "一、钉在壁上：牌子挂在钉上，风一吹就两头摇", 5.2, SEAL))
+    gy = y + 64
+    s.append(f'<rect x="26" y="{gy}" width="328" height="184" fill="#FBF6EC" stroke="{LINE}" stroke-width="0.8"/>')
+    wall(gy)
+    # 钉 + 牌
+    px0, py0 = 146, gy + 78
+    s.append(f'<circle cx="{px0 + 4}" cy="{py0}" r="2.3" fill="{INK}"/>')
+    s.append(f'<line x1="{px0 + 4}" y1="{py0}" x2="{px0 + 10}" y2="{py0 + 6}" stroke="#8A7C69" stroke-width="0.7"/>')
+    s.append(f'<rect x="{px0 + 8}" y="{py0 + 6}" width="34" height="40" fill="{PAPER}" stroke="{INK}" stroke-width="1.2"/>')
+    s.append(txt(px0 + 25, py0 + 33, "我", 9.2, SEAL, "middle"))
+    # 摆动虚弧
+    s.append(f'<path d="M{px0 + 8},{py0 + 46} q-12,7 -15,-4" fill="none" stroke="{SEAL}" stroke-width="0.7" stroke-dasharray="3 2"/>')
+    s.append(f'<path d="M{px0 + 42},{py0 + 46} q12,7 15,-4" fill="none" stroke="{SEAL}" stroke-width="0.7" stroke-dasharray="3 2"/>')
+    # 宠（左）/ 辱（右），各得、失两箭，直抵牌缘
+    s.append(arrow(42, gy + 62, px0 + 6, py0 + 16, GREEN, 0.9, None, "arr2"))
+    s.append(arrow(42, gy + 122, px0 + 6, py0 + 34, GREEN, 0.9, None, "arr2"))
+    s.append(arrow(338, gy + 62, px0 + 44, py0 + 16, SEAL, 0.9, None, "arrS"))
+    s.append(arrow(338, gy + 122, px0 + 44, py0 + 34, SEAL, 0.9, None, "arrS"))
+    s.append(txt(44, gy + 58, "宠·得", 4.3, GREEN))
+    s.append(txt(44, gy + 136, "宠·失", 4.3, GREEN))
+    s.append(txt(336, gy + 58, "辱·加", 4.3, SEAL, "end"))
+    s.append(txt(336, gy + 136, "辱·夺", 4.3, SEAL, "end"))
+    s.append(txt(190, gy + 178, "得也惊，失也惊：同一根钉，两头都晃", 4.4, SEAL, "middle"))
+
+    # 二、揭下来
+    s.append(txt(24, gy + 200, "二、揭下来：钉子拔了，壁还在，人不跟着晃", 5.2, GREEN))
+    gy2 = gy + 212
+    s.append(f'<rect x="26" y="{gy2}" width="328" height="168" fill="#FBF6EC" stroke="{LINE}" stroke-width="0.8"/>')
+    wall(gy2, label=False, top=18, bot=124)
+    s.append(f'<line x1="{px0 + 2}" y1="{py0 - gy + gy2}" x2="{px0 + 8}" y2="{py0 - gy + gy2}" stroke="#A89577" stroke-width="0.7"/>')
+    s.append(f'<circle cx="{px0 + 8}" cy="{py0 - gy + gy2}" r="3.4" fill="none" stroke="#A89577" stroke-width="0.7" stroke-dasharray="2 2"/>')
+    s.append(txt(px0 + 16, py0 - gy + gy2 + 4, "钉孔还在，钉子不在了", 3.9, "#8A7C69"))
+    # 牌子搁在地上
+    s.append(f'<ellipse cx="216" cy="{gy2 + 124}" rx="27" ry="3.4" fill="#E6D8C2" stroke="none"/>')
+    s.append(f'<rect x="196" y="{gy2 + 106}" width="40" height="14" fill="{PAPER}" stroke="{INK}" stroke-width="1.0"/>')
+    s.append(txt(216, gy2 + 117, "我", 6.0, SEAL, "middle"))
+    s.append(txt(244, gy2 + 118, "牌子搁下了，壁不动", 4.1, "#6E6459"))
+    s.append(txt(190, gy2 + 150, "壁不可碎，执壁为我才碎；身不可弃，执身为我方困", 4.4, GREEN, "middle"))
+
+    a = gy2 + 184
+    s.append(txt(24, a, "宠辱是外影，随光而变；忧患由执我，因壁而立。", 5.1, INK))
+    s.append(txt(24, a + 16, "养这个身，不据这个身：壁要养厚，却不必把「我」钉在上面。", 5.1, INK))
+    s.append(txt(24, a + 34, "钉子一拔，风还在吹，壁不晃了——荣辱找不到落脚的地方。", 5.0, GREEN))
+
+    c = a + 52
+    s.append(f'<line x1="24" y1="{c}" x2="338" y2="{c}" stroke="{LINE}" stroke-width="0.6"/>')
+    s.append(box(20, c + 8, 340, 40, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, c + 24, "壁不可碎，执壁为我才碎；", 6.0, INK, "middle"))
+    s.append(txt(190, c + 36, "身不可弃，执身为我方困。", 6.0, GREEN, "middle"))
+    s.append(gold(c + 62, "ch13b"))
+    s.append('</svg>')
+    out = "\n".join(s)
+    ys = [float(v) for v in re.findall(r'y="([0-9.]+)"', out)]
+    return out.replace("999", str(int(max(ys) + 26)))
+
+
+def ch13c_bao_yu_tuo():
+    body, y = head(380, 999, "养这个身，不据这个身：抱紧了是执，托平了才是器",
+                   "第 十 三 章 · 抱 与 托", "抱与托", "贵以身为天下，若可寄天下；爱以身为天下，若可托天下。", 999)
+    s = [body]
+
+    s.append(box(20, y + 2, 340, 34, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, y + 14, "「若」旧训为「乃」，作「才能」解，不是「好像」。", 4.9, INK, "middle"))
+    s.append(txt(190, y + 27, "天下不是交给他去占有，是寄放、托付。", 4.8, "#6E6459", "middle"))
+
+    def bowl(cx, cy, w):
+        s.append(f'<path d="M{cx - w},{cy} q{w},32 {w * 2},0 z" fill="{PAPER}" stroke="{INK}" stroke-width="1.2"/>')
+        s.append(f'<ellipse cx="{cx}" cy="{cy}" rx="{w}" ry="5" fill="#EFE6D4" stroke="{INK}" stroke-width="0.9"/>')
+
+    def man(hx, hy, look=0):
+        """简笔人：hx,hy 为颈根；look>0 头偏右（抬头向前），look<0 头偏左（低头）。"""
+        s.append(f'<circle cx="{hx + look}" cy="{hy - 8}" r="6" fill="none" stroke="{INK}" stroke-width="1.0"/>')
+        s.append(f'<line x1="{hx + look}" y1="{hy - 2}" x2="{hx}" y2="{hy + 28}" stroke="{INK}" stroke-width="1.3"/>')
+        s.append(f'<line x1="{hx}" y1="{hy + 28}" x2="{hx - 7}" y2="{hy + 40}" stroke="{INK}" stroke-width="1.0"/>')
+        s.append(f'<line x1="{hx}" y1="{hy + 28}" x2="{hx + 7}" y2="{hy + 40}" stroke="{INK}" stroke-width="1.0"/>')
+
+    # 一、抱：执身
+    s.append(txt(24, y + 52, "一、抱：双臂环住往里收，杯子被挤得变形", 5.2, SEAL))
+    gy = y + 64
+    s.append(f'<rect x="26" y="{gy}" width="328" height="176" fill="#FBF6EC" stroke="{LINE}" stroke-width="0.8"/>')
+    cx, cy = 128, gy + 52
+    bowl(cx, cy, 26)
+    # 双臂：自两侧收拢、在杯下交抱的一道弧
+    s.append(f'<path d="M{cx - 50},{cy + 2} Q{cx - 54},{cy + 40} {cx},{cy + 46} Q{cx + 54},{cy + 40} {cx + 50},{cy + 2}" fill="none" stroke="{INK}" stroke-width="1.6"/>')
+    # 挤压：两侧小箭头向内
+    s.append(arrow(cx - 24, cy + 12, cx - 10, cy + 12, SEAL, 0.8, None, "arrS"))
+    s.append(arrow(cx + 24, cy + 12, cx + 10, cy + 12, SEAL, 0.8, None, "arrS"))
+    s.append(txt(cx, gy + 132, "抱得越紧，杯壁越薄：越怕失，越易碎", 4.2, SEAL, "middle"))
+    man(292, gy + 60, look=-5)
+    s.append(txt(292, gy + 132, "低着头，只看见自己这一只", 4.2, SEAL, "middle"))
+    s.append(txt(292, gy + 146, "贵身成了执身：又落回攀缘", 4.2, "#6E6459", "middle"))
+
+    # 二、托：器不自贵
+    s.append(txt(24, gy + 192, "二、托：双手摊平往上承，杯子立在掌心，人抬头看前头", 5.2, GREEN))
+    gy2 = gy + 204
+    s.append(f'<rect x="26" y="{gy2}" width="328" height="168" fill="#FBF6EC" stroke="{LINE}" stroke-width="0.8"/>')
+    cx2, cy2 = 122, gy2 + 44
+    bowl(cx2, cy2, 24)
+    # 掌：一片摊平的手，杯立在掌心
+    py0 = cy2 + 34
+    s.append(f'<path d="M{cx2 - 40},{py0 - 4} Q{cx2},{py0 + 18} {cx2 + 40},{py0 - 4}" fill="none" stroke="{INK}" stroke-width="1.8"/>')
+    s.append(f'<path d="M{cx2 - 40},{py0 - 4} q-6,-8 0,-12 M{cx2 + 40},{py0 - 4} q6,-8 0,-12" fill="none" stroke="{INK}" stroke-width="0.9"/>')
+    s.append(txt(cx2, py0 + 34, "器不自贵，才能受重", 4.2, GREEN, "middle"))
+    man(268, gy2 + 42, look=6)
+    s.append(arrow(300, gy2 + 22, 324, gy2 + 22, GREEN, 0.9, None, "arr2"))
+    s.append(txt(326, gy2 + 25, "天下", 4.0, GREEN))
+    s.append(txt(268, gy2 + 126, "抬起头来，眼里有别人那具身", 4.2, GREEN, "middle"))
+    s.append(txt(268, gy2 + 140, "先能自护自明，才不拿标尺去伤别人", 4.2, "#6E6459", "middle"))
+
+    a = gy2 + 188
+    s.append(txt(24, a, "向外追荣辱是执，向内抱紧「我要贵身」也是执：前者把壁加厚，后者把壁擦亮再抱住不放。", 5.0, INK))
+    s.append(txt(24, a + 16, "贵身是顺其自然的护持，不是刻意的抓取；无身是放下执念，不是厌弃生命。", 5.0, INK))
+    s.append(txt(24, a + 34, "能养此身而不据此身的人，天下才敢寄在他手里——他既不拿自己去换什么，也不会拿别人去换什么。", 4.8, GREEN))
+
+    c = a + 52
+    s.append(f'<line x1="24" y1="{c}" x2="338" y2="{c}" stroke="{LINE}" stroke-width="0.6"/>')
+    s.append(box(20, c + 8, 340, 40, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, c + 24, "养身如养器，护壁不据壁；", 6.0, INK, "middle"))
+    s.append(txt(190, c + 36, "惜命不惜执，空心不弃生。", 6.0, GREEN, "middle"))
+    s.append(gold(c + 62, "ch13c"))
+    s.append('</svg>')
+    out = "\n".join(s)
+    ys = [float(v) for v in re.findall(r'y="([0-9.]+)"', out)]
+    return out.replace("999", str(int(max(ys) + 26)))
+
+
 # ============ 第十四章 · 视之不见 ============
 def ch14_yi_xi_wei():
     W, H = 380, 418
@@ -6278,6 +6421,8 @@ GOLD = {
     "ch11c": ["凿户牖以为室，当其无，有室之用。", "封死填满，就只是一座土堆。"],
     "ch12b": ["五色令人目盲；五音令人耳聋；五味令人口爽。", "门照开，权收回：五样都进来，人就成了货架。"],
     "ch12c": ["是以圣人为腹不为目，故去彼取此。", "为腹者，以物养己；为目者，以物役己。"],
+    "ch13b": ["宠为下，得之若惊，失之若惊。", "钉子一拔，风还在吹，壁不晃了。"],
+    "ch13c": ["故贵以身为天下，若可寄天下；爱以身为天下，若可托天下。", "养身如养器，护壁不据壁。"],
     "ch06b": ["谷神不死，是谓玄牝。", "谷者，两山间之空也；能受故能生，生而不有故不竭——生机不在满处，在空处。"],
     "ch06c": ["玄牝之门，是谓天地根。", "门在开合处，不在门板上；一着手去推，它就成了一堵墙。"],
     "ch05b": ["天地不仁，以万物为刍狗。", "刍者，束草也；刍狗有位而无主——用毕回草堆，不是被弃，是位次用完了。"],
@@ -12429,6 +12574,8 @@ FIGS = {
     "ch11c-zao-hu-you": ("第十一章", "凿户牖", ch11c_zao_hu_you),
     "ch12b-tian-men-wu-lu": ("第十二章", "五路进门", ch12b_tian_men_wu_lu),
     "ch12c-wei-fu-bu-wei-mu": ("第十二章", "为腹不为目", ch12c_wei_fu_bu_wei_mu),
+    "ch13b-ding-zai-bi-shang": ("第十三章", "一枚钉", ch13b_ding_zai_bi_shang),
+    "ch13c-bao-yu-tuo": ("第十三章", "抱与托", ch13c_bao_yu_tuo),
     "ch24-qi-zhe-bu-li": ("第二十四章", "企者不立", ch24_qi_zhe_bu_li),
     "ch23-xi-yan-zi-ran": ("第二十三章", "希言自然", ch23_xi_yan_zi_ran),
     "ch22-qu-ze-quan": ("第二十二章", "曲则全", ch22_qu_ze_quan),
