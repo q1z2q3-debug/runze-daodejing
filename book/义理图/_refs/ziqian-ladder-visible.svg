@@ -1,0 +1,93 @@
+<svg viewBox="0 0 1000 640" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="从量子到宇宙的涌现阶梯，妙徼两曲线" font-family="'Noto Serif CJK SC','Noto Serif SC','Songti SC',serif">
+<rect x="0" y="0" width="1000" height="640" fill="#F8F3E6"/>
+<text x="24" y="26" font-size="11" fill="#A2503B" font-family="'Noto Sans CJK SC','Noto Sans SC',sans-serif" letter-spacing="3">子 虔 版 骨 架 · 补 全 涌 现 阶 梯</text>
+<text x="24" y="54" font-size="17" fill="#2F2A24">从量子到宇宙：十九级涌现，两条曲线</text>
+<text x="24" y="74" font-size="10" fill="#6E6459">横轴：复杂性（小→大）；纵轴：精确度（低→高）。交叉处落在「人体」——人恰在交会点。</text>
+<rect x="213.0" y="150" width="237.33333333333337" height="320" fill="#2E7C8F" opacity="0.06"/>
+<line x1="213.0" y1="150" x2="213.0" y2="470" stroke="#2E7C8F" stroke-width="0.7" stroke-dasharray="5 4"/>
+<line x1="450.33333333333337" y1="150" x2="450.33333333333337" y2="470" stroke="#2E7C8F" stroke-width="0.7" stroke-dasharray="5 4"/>
+<text x="331.6666666666667" y="168" font-size="9.6" fill="#2E7C8F" text-anchor="middle" letter-spacing="1">须知仪器</text>
+<rect x="454.6666666666667" y="150" width="334.00000000000006" height="320" fill="#B5462F" opacity="0.06"/>
+<line x1="454.6666666666667" y1="150" x2="454.6666666666667" y2="470" stroke="#B5462F" stroke-width="0.7" stroke-dasharray="5 4"/>
+<line x1="788.6666666666667" y1="150" x2="788.6666666666667" y2="470" stroke="#B5462F" stroke-width="0.7" stroke-dasharray="5 4"/>
+<text x="621.6666666666667" y="168" font-size="9.6" fill="#B5462F" text-anchor="middle" letter-spacing="1">肉眼与身体可及</text>
+<rect x="793.0" y="150" width="189.0" height="320" fill="#8A7C69" opacity="0.06"/>
+<line x1="793.0" y1="150" x2="793.0" y2="470" stroke="#8A7C69" stroke-width="0.7" stroke-dasharray="5 4"/>
+<line x1="982.0" y1="150" x2="982.0" y2="470" stroke="#8A7C69" stroke-width="0.7" stroke-dasharray="5 4"/>
+<text x="887.5" y="168" font-size="9.6" fill="#8A7C69" text-anchor="middle" letter-spacing="1">可见而不可及</text>
+<path d="M90,470 L90,150" stroke="#2F2A24" stroke-width="1.1"/><path d="M85,161 L90,147 L95,161" fill="none" stroke="#2F2A24" stroke-width="1.1"/>
+<path d="M90,470 L975,470" stroke="#2F2A24" stroke-width="1.1"/><path d="M964,465 L978,470 L964,475" fill="none" stroke="#2F2A24" stroke-width="1.1"/>
+<text x="72" y="300" font-size="10.5" fill="#2F2A24" transform="rotate(-90 72 300)" text-anchor="middle">精 确 度</text>
+<text x="975" y="444" font-size="10.5" fill="#2F2A24" text-anchor="end" letter-spacing="1">复 杂 性</text>
+<line x1="90.0" y1="466" x2="90.0" y2="474" stroke="#C9B79A" stroke-width="0.5"/>
+<line x1="90.0" y1="475" x2="90.0" y2="487" stroke="#DCCBB0" stroke-width="0.4"/>
+<text x="90.0" y="496" font-size="8.6" fill="#6E6459" text-anchor="middle">量子</text>
+<line x1="138.33333333333334" y1="466" x2="138.33333333333334" y2="474" stroke="#C9B79A" stroke-width="0.5"/>
+<line x1="138.33333333333334" y1="475" x2="138.33333333333334" y2="505" stroke="#DCCBB0" stroke-width="0.4"/>
+<text x="138.33333333333334" y="514" font-size="8.6" fill="#6E6459" text-anchor="middle">元素</text>
+<line x1="186.66666666666669" y1="466" x2="186.66666666666669" y2="474" stroke="#C9B79A" stroke-width="0.5"/>
+<line x1="186.66666666666669" y1="475" x2="186.66666666666669" y2="487" stroke="#DCCBB0" stroke-width="0.4"/>
+<text x="186.66666666666669" y="496" font-size="8.6" fill="#6E6459" text-anchor="middle">原子</text>
+<line x1="235.0" y1="466" x2="235.0" y2="474" stroke="#C9B79A" stroke-width="0.5"/>
+<line x1="235.0" y1="475" x2="235.0" y2="505" stroke="#DCCBB0" stroke-width="0.4"/>
+<text x="235.0" y="514" font-size="8.6" fill="#6E6459" text-anchor="middle">无机小分子</text>
+<line x1="283.33333333333337" y1="466" x2="283.33333333333337" y2="474" stroke="#C9B79A" stroke-width="0.5"/>
+<line x1="283.33333333333337" y1="475" x2="283.33333333333337" y2="487" stroke="#DCCBB0" stroke-width="0.4"/>
+<text x="283.33333333333337" y="496" font-size="8.6" fill="#6E6459" text-anchor="middle">有机大分子</text>
+<line x1="331.6666666666667" y1="466" x2="331.6666666666667" y2="474" stroke="#C9B79A" stroke-width="0.5"/>
+<line x1="331.6666666666667" y1="475" x2="331.6666666666667" y2="505" stroke="#DCCBB0" stroke-width="0.4"/>
+<text x="331.6666666666667" y="514" font-size="8.6" fill="#6E6459" text-anchor="middle">蛋白质</text>
+<line x1="380.0" y1="466" x2="380.0" y2="474" stroke="#C9B79A" stroke-width="0.5"/>
+<line x1="380.0" y1="475" x2="380.0" y2="487" stroke="#DCCBB0" stroke-width="0.4"/>
+<text x="380.0" y="496" font-size="8.6" fill="#6E6459" text-anchor="middle">细胞</text>
+<line x1="428.33333333333337" y1="466" x2="428.33333333333337" y2="474" stroke="#C9B79A" stroke-width="0.5"/>
+<line x1="428.33333333333337" y1="475" x2="428.33333333333337" y2="505" stroke="#DCCBB0" stroke-width="0.4"/>
+<text x="428.33333333333337" y="514" font-size="8.6" fill="#6E6459" text-anchor="middle">组织</text>
+<line x1="476.6666666666667" y1="466" x2="476.6666666666667" y2="474" stroke="#C9B79A" stroke-width="0.5"/>
+<line x1="476.6666666666667" y1="475" x2="476.6666666666667" y2="487" stroke="#DCCBB0" stroke-width="0.4"/>
+<text x="476.6666666666667" y="496" font-size="8.6" fill="#6E6459" text-anchor="middle">器官</text>
+<line x1="525.0" y1="466" x2="525.0" y2="474" stroke="#C9B79A" stroke-width="0.5"/>
+<line x1="525.0" y1="475" x2="525.0" y2="505" stroke="#DCCBB0" stroke-width="0.4"/>
+<text x="525.0" y="514" font-size="8.6" fill="#6E6459" text-anchor="middle">五脏六腑</text>
+<line x1="573.3333333333334" y1="466" x2="573.3333333333334" y2="474" stroke="#C9B79A" stroke-width="0.5"/>
+<line x1="573.3333333333334" y1="475" x2="573.3333333333334" y2="487" stroke="#DCCBB0" stroke-width="0.4"/>
+<text x="573.3333333333334" y="496" font-size="8.6" fill="#6E6459" text-anchor="middle">人体</text>
+<line x1="621.6666666666667" y1="466" x2="621.6666666666667" y2="474" stroke="#C9B79A" stroke-width="0.5"/>
+<line x1="621.6666666666667" y1="475" x2="621.6666666666667" y2="505" stroke="#DCCBB0" stroke-width="0.4"/>
+<text x="621.6666666666667" y="514" font-size="8.6" fill="#6E6459" text-anchor="middle">家庭</text>
+<line x1="670.0" y1="466" x2="670.0" y2="474" stroke="#C9B79A" stroke-width="0.5"/>
+<line x1="670.0" y1="475" x2="670.0" y2="487" stroke="#DCCBB0" stroke-width="0.4"/>
+<text x="670.0" y="496" font-size="8.6" fill="#6E6459" text-anchor="middle">团体·企业</text>
+<line x1="718.3333333333334" y1="466" x2="718.3333333333334" y2="474" stroke="#C9B79A" stroke-width="0.5"/>
+<line x1="718.3333333333334" y1="475" x2="718.3333333333334" y2="505" stroke="#DCCBB0" stroke-width="0.4"/>
+<text x="718.3333333333334" y="514" font-size="8.6" fill="#6E6459" text-anchor="middle">国家</text>
+<line x1="766.6666666666667" y1="466" x2="766.6666666666667" y2="474" stroke="#C9B79A" stroke-width="0.5"/>
+<line x1="766.6666666666667" y1="475" x2="766.6666666666667" y2="487" stroke="#DCCBB0" stroke-width="0.4"/>
+<text x="766.6666666666667" y="496" font-size="8.6" fill="#6E6459" text-anchor="middle">文明</text>
+<line x1="815.0" y1="466" x2="815.0" y2="474" stroke="#C9B79A" stroke-width="0.5"/>
+<line x1="815.0" y1="475" x2="815.0" y2="505" stroke="#DCCBB0" stroke-width="0.4"/>
+<text x="815.0" y="514" font-size="8.6" fill="#6E6459" text-anchor="middle">生态圈</text>
+<line x1="863.3333333333334" y1="466" x2="863.3333333333334" y2="474" stroke="#C9B79A" stroke-width="0.5"/>
+<line x1="863.3333333333334" y1="475" x2="863.3333333333334" y2="487" stroke="#DCCBB0" stroke-width="0.4"/>
+<text x="863.3333333333334" y="496" font-size="8.6" fill="#6E6459" text-anchor="middle">地球</text>
+<line x1="911.6666666666667" y1="466" x2="911.6666666666667" y2="474" stroke="#C9B79A" stroke-width="0.5"/>
+<line x1="911.6666666666667" y1="475" x2="911.6666666666667" y2="505" stroke="#DCCBB0" stroke-width="0.4"/>
+<text x="911.6666666666667" y="514" font-size="8.6" fill="#6E6459" text-anchor="middle">星系</text>
+<line x1="960.0" y1="466" x2="960.0" y2="474" stroke="#C9B79A" stroke-width="0.5"/>
+<line x1="960.0" y1="475" x2="960.0" y2="487" stroke="#DCCBB0" stroke-width="0.4"/>
+<text x="960.0" y="496" font-size="8.6" fill="#6E6459" text-anchor="middle">宇宙</text>
+<path d="M94,182 C 300,270 483.33333333333337,322 573.3333333333334,330 C 693.3333333333334,340 800,395 960,422" fill="none" stroke="#B5462F" stroke-width="1.9"/>
+<path d="M94,422 C 300,342 483.33333333333337,338 573.3333333333334,330 C 693.3333333333334,322 800,258 960,182" fill="none" stroke="#2E7C8F" stroke-width="1.9"/>
+<circle cx="573.3333333333334" cy="330" r="7" fill="#F8F3E6" stroke="#2F2A24" stroke-width="0.9"/>
+<text x="573.3333333333334" y="312" font-size="10" fill="#2F2A24" text-anchor="middle">玄</text>
+<text x="573.3333333333334" y="352" font-size="9.2" fill="#6E6459" text-anchor="middle">人在这里</text>
+<text x="100" y="146" font-size="10.5" fill="#B5462F">恒 有 欲</text>
+<text x="940" y="146" font-size="10.5" fill="#2E7C8F" text-anchor="end">恒 无 欲</text>
+<text x="468.0" y="126" font-size="21" fill="#2E7C8F" text-anchor="end">大 而 无 外</text>
+<text x="532.0" y="126" font-size="21" fill="#B5462F">小 而 无 内</text>
+<circle cx="500.0" cy="118" r="13" fill="none" stroke="#2F2A24" stroke-width="1"/>
+<path d="M500.0,105 A13,13 0 0 1 500.0,131 A6.5,6.5 0 0 1 500.0,118 A6.5,6.5 0 0 0 500.0,105" fill="#2F2A24"/>
+<circle cx="500.0" cy="111.5" r="2" fill="#F8F3E6"/>
+<text x="500.0" y="562" font-size="16" fill="#2F2A24" text-anchor="middle" letter-spacing="4" font-family="'Noto Sans CJK SC','Noto Sans SC',sans-serif">I  KNOW  THAT  I  KNOW  NOTHING</text>
+<text x="500.0" y="596" font-size="10.5" fill="#A2503B" text-anchor="middle" letter-spacing="2">太玄之门：玄之又玄　众妙之门</text>
+</svg>
