@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 380 606" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="处其厚，不居其薄；处其实，不居其华" font-family="'Noto Serif CJK SC','Noto Serif SC','Songti SC',serif">
+<defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#6E6459"/></marker><marker id="arr2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#4A5C55"/></marker><marker id="arrL" viewBox="0 0 10 10" refX="1" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M10 0 L0 5 L10 10 z" fill="#4A5C55"/></marker><marker id="arrS" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#A2503B"/></marker></defs>
+<rect x="0" y="0" width="380" height="606" fill="#F8F3E6"/>
+<text x="20" y="26" font-size="11" fill="#A2503B" font-family="'Noto Sans CJK SC','Noto Sans SC',sans-serif" letter-spacing="3">第 三 十 八 章 · 其 三</text>
+<text x="20" y="58" font-size="21" fill="#2F2A24">厚 与 薄</text>
+<text x="20" y="78" font-size="10.5" fill="#6E6459">大丈夫处其厚，不居其薄；处其实，不居其华。</text>
+<rect x="20" y="102" width="340" height="34" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="190" y="114" font-size="4.5" fill="#2F2A24" text-anchor="middle">「厚」，道与上德；「薄」，仁义礼这类次生代偿；「实」是内在本真，「华」是外在文饰与排场。</text>
+<text x="190" y="127" font-size="4.5" fill="#6E6459">靠仪节证明的德，撤了仪节就没了；从里面长出来的德，撤了什么都还在。</text>
+<text x="24" y="152" font-size="5.0" fill="#4A5C55">一、薄：一层彩绘，后面是空的</text>
+<rect x="26" y="164" width="328" height="140" fill="#FBF6EC" stroke="#DCCBB0" stroke-width="0.8"/>
+<rect x="120" y="186" width="10" height="92" fill="#EFE6D4" stroke="#2F2A24" stroke-width="0.8"/>
+<rect x="120" y="186" width="3" height="92" fill="#E7C9B8" stroke="none"/>
+<rect x="130" y="186" width="140" height="92" fill="#FAF5E9" stroke="#DCCBB0" stroke-width="0.6"/>
+<rect x="136" y="192" width="128" height="80" fill="none" stroke="#C9B79A" stroke-width="0.5" stroke-dasharray="3 4"/>
+<text x="200" y="230" font-size="4.4" fill="#A2977F" text-anchor="middle">里面是空的</text>
+<text x="200" y="244" font-size="4.0" fill="#BEB2A0" text-anchor="middle">看得见的只有外面那层彩</text>
+<path d="M120,224 l10,6 M120,236 l10,6" stroke="#A2503B" stroke-width="1.0"/>
+<line x1="70" y1="232" x2="108" y2="232" stroke="#A2503B" stroke-width="1.3" marker-end="url(#arrS)"/>
+<text x="64" y="228" font-size="4.4" fill="#A2503B">撞</text>
+<text x="200" y="292" font-size="4.3" fill="#2F2A24" text-anchor="middle">板薄、里面空：一撞，彩皮先裂</text>
+<text x="24" y="322" font-size="5.0" fill="#4A5C55">二、厚：素面，撞上去只闷响</text>
+<rect x="26" y="334" width="328" height="140" fill="#FBF6EC" stroke="#DCCBB0" stroke-width="0.8"/>
+<rect x="120" y="356" width="96" height="92" fill="#E4D9C0" stroke="#2F2A24" stroke-width="0.9"/>
+<line x1="124" y1="362" x2="212" y2="368" stroke="#C9B79A" stroke-width="0.5"/>
+<line x1="124" y1="372" x2="212" y2="378" stroke="#C9B79A" stroke-width="0.5"/>
+<line x1="124" y1="382" x2="212" y2="388" stroke="#C9B79A" stroke-width="0.5"/>
+<line x1="124" y1="392" x2="212" y2="398" stroke="#C9B79A" stroke-width="0.5"/>
+<line x1="124" y1="402" x2="212" y2="408" stroke="#C9B79A" stroke-width="0.5"/>
+<line x1="124" y1="412" x2="212" y2="418" stroke="#C9B79A" stroke-width="0.5"/>
+<line x1="124" y1="422" x2="212" y2="428" stroke="#C9B79A" stroke-width="0.5"/>
+<line x1="124" y1="432" x2="212" y2="438" stroke="#C9B79A" stroke-width="0.5"/>
+<line x1="124" y1="442" x2="212" y2="448" stroke="#C9B79A" stroke-width="0.5"/>
+<line x1="70" y1="402" x2="114" y2="402" stroke="#2F2A24" stroke-width="1.0" marker-end="url(#arr)"/>
+<text x="64" y="398" font-size="4.4" fill="#6E6459">撞</text>
+<path d="M216,394 q10,-3 18,0 M216,406 q12,-3 20,0" fill="none" stroke="#BEB2A0" stroke-width="0.6"/>
+<text x="200" y="462" font-size="4.3" fill="#2F2A24" text-anchor="middle">整木厚料，不上一道漆：力走进去，散在里头</text>
+<line x1="24" y1="480" x2="356" y2="480" stroke="#DCCBB0" stroke-width="0.6"/>
+<rect x="20" y="488" width="340" height="40" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="190" y="504" font-size="4.8" fill="#2F2A24" text-anchor="middle">去彼取此：舍浮华的表层，归道与素朴。</text>
+<text x="190" y="517" font-size="4.6" fill="#4A5C55" text-anchor="middle">厚不是笨重，是不靠外面那层撑着。</text>
+<line x1="20" y1="534" x2="360" y2="534" stroke="#E6D8C2" stroke-width="0.8"/>
+<text x="20" y="548" font-size="8.0" fill="#A89577" letter-spacing="1">本 章 金 句</text>
+<text x="20" y="564" font-size="8.4" fill="#2F2A24">靠仪节证明的德，撤了仪节就没了。</text>
+<text x="20" y="580" font-size="8.4" fill="#2F2A24">厚不是笨重，是不靠外面那层撑着。</text>
+</svg>

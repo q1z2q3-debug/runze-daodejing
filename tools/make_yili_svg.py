@@ -780,6 +780,113 @@ def ch25_dao_fa():
 
 
 
+def ch38b_na_ben_zhang():
+    body, y = head(380, 999, "两者都不乱动，差别只在心里有没有那本账",
+                   "第 三 十 八 章 · 其 二", "那 本 账",
+                   "上德无为而无以为；下德无为而有以为。", 999)
+    s = [body]
+
+    s.append(box(20, y + 2, 340, 34, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, y + 14, "「不德」不是没有德，是不把德当一个东西去持有；一持有，德就从身上变成了手里的一件物什。", 4.5, INK, "middle"))
+    s.append(txt(190, y + 27, "手里有物，就得时时看住它别掉了。", 4.5, "#6E6459"))
+
+    def scene(gy, book):
+        o = [f'<rect x="26" y="{gy}" width="328" height="140" fill="#FBF6EC" stroke="{LINE}" stroke-width="0.8"/>',
+             f'<line x1="40" y1="{gy + 112}" x2="340" y2="{gy + 112}" stroke="{LINE}" stroke-width="0.9"/>']
+        # 左人递，右人接，中间一只桶
+        o.append(person(112, gy + 112, 0, load=False))
+        o.append(person(268, gy + 112, 0, load=False, color="#8A7C69"))
+        o.append(f'<path d="M120,{gy + 78} l38,7" stroke="{INK}" stroke-width="1.0"/>')
+        o.append(f'<path d="M260,{gy + 78} l-32,7" stroke="#8A7C69" stroke-width="1.0"/>')
+        o.append(f'<path d="M156,{gy + 76} L200,{gy + 76} L196,{gy + 98} L160,{gy + 98} Z" fill="#EFE6D4" stroke="{INK}" stroke-width="0.9"/>')
+        o.append(f'<path d="M160,{gy + 84} L196,{gy + 84} L196,{gy + 98} L160,{gy + 98} Z" fill="#DDE9E1" stroke="none"/>')
+        o.append(f'<line x1="158" y1="{gy + 84}" x2="198" y2="{gy + 84}" stroke="{LINE2}" stroke-width="0.5"/>')
+        if book:
+            o.append(f'<path d="M104,{gy + 74} l-26,12" stroke="{INK}" stroke-width="1.0"/>')
+            o.append(f'<rect x="60" y="{gy + 60}" width="19" height="27" fill="#FBEFE7" stroke="{SEAL}" stroke-width="0.8"/>')
+            o.append(f'<line x1="69.5" y1="{gy + 62}" x2="69.5" y2="{gy + 85}" stroke="{SEAL}" stroke-width="0.4"/>')
+            o.append(f'<line x1="64" y1="{gy + 70}" x2="76" y2="{gy + 70}" stroke="{SEAL}" stroke-width="0.4"/>')
+            o.append(txt(69.5, gy + 82, "德", 3.8, SEAL, "middle"))
+        return "\n".join(o)
+
+    # ---------- 一、上德 ----------
+    s.append(txt(24, y + 52, "一、上德：做完就完，手上没有东西", 5.0, GREEN))
+    gy = y + 64
+    s.append(scene(gy, False))
+    s.append(txt(190, gy + 128, "水递过去，手就空了——事做完，事就完了", 4.3, INK, "middle"))
+
+    # ---------- 二、下德 ----------
+    s.append(txt(24, gy + 158, "二、下德：另一只手里，攥着一本账", 5.0, GREEN))
+    gy2 = gy + 170
+    s.append(scene(gy2, True))
+    s.append(txt(190, gy2 + 128, "事一样做完了，可还记了一笔——这一笔是记给自己看的", 4.3, INK, "middle"))
+
+    # ---------- 收 ----------
+    y3 = gy2 + 146
+    s.append(f'<line x1="24" y1="{y3}" x2="356" y2="{y3}" stroke="{LINE}" stroke-width="0.6"/>')
+    s.append(box(20, y3 + 8, 340, 40, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, y3 + 24, "上德做事，做完就完；下德做事，做完还要记一笔。", 4.8, INK, "middle"))
+    s.append(txt(190, y3 + 37, "给自己看的那一笔，恰恰是要紧处。", 4.6, GREEN, "middle"))
+    s.append(gold(y3 + 54, "ch38b"))
+    s.append('</svg>')
+    out = "\n".join(s)
+    ys = [float(v) for v in re.findall(r'y="([0-9.]+)"', out)]
+    return out.replace("999", str(int(max(ys) + 26)))
+
+
+def ch38c_hou_yu_bo():
+    body, y = head(380, 999, "处其厚，不居其薄；处其实，不居其华",
+                   "第 三 十 八 章 · 其 三", "厚 与 薄",
+                   "大丈夫处其厚，不居其薄；处其实，不居其华。", 999)
+    s = [body]
+
+    s.append(box(20, y + 2, 340, 34, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, y + 14, "「厚」，道与上德；「薄」，仁义礼这类次生代偿；「实」是内在本真，「华」是外在文饰与排场。", 4.5, INK, "middle"))
+    s.append(txt(190, y + 27, "靠仪节证明的德，撤了仪节就没了；从里面长出来的德，撤了什么都还在。", 4.5, "#6E6459"))
+
+    # ---------- 一、薄：一层彩，一撞就破 ----------
+    s.append(txt(24, y + 52, "一、薄：一层彩绘，后面是空的", 5.0, GREEN))
+    gy = y + 64
+    s.append(f'<rect x="26" y="{gy}" width="328" height="140" fill="#FBF6EC" stroke="{LINE}" stroke-width="0.8"/>')
+    # 剖面：薄板 + 空腔
+    s.append(f'<rect x="120" y="{gy + 22}" width="10" height="92" fill="#EFE6D4" stroke="{INK}" stroke-width="0.8"/>')
+    s.append(f'<rect x="120" y="{gy + 22}" width="3" height="92" fill="#E7C9B8" stroke="none"/>')
+    s.append(f'<rect x="130" y="{gy + 22}" width="140" height="92" fill="#FAF5E9" stroke="{LINE}" stroke-width="0.6"/>')
+    s.append(box(136, gy + 28, 128, 80, fill="none", stroke="#C9B79A", dash="3 4", width=0.5))
+    s.append(txt(200, gy + 66, "里面是空的", 4.4, "#A2977F", "middle"))
+    s.append(txt(200, gy + 80, "看得见的只有外面那层彩", 4.0, "#BEB2A0", "middle"))
+    s.append(f'<path d="M120,{gy + 60} l10,6 M120,{gy + 72} l10,6" stroke="{SEAL}" stroke-width="1.0"/>')
+    # 撞
+    s.append(arrow(70, gy + 68, 108, gy + 68, color=SEAL, width=1.3, head="arrS"))
+    s.append(txt(64, gy + 64, "撞", 4.4, SEAL))
+    s.append(txt(200, gy + 128, "板薄、里面空：一撞，彩皮先裂", 4.3, INK, "middle"))
+
+    # ---------- 二、厚：素面，撞上去只闷响 ----------
+    s.append(txt(24, gy + 158, "二、厚：素面，撞上去只闷响", 5.0, GREEN))
+    gy2 = gy + 170
+    s.append(f'<rect x="26" y="{gy2}" width="328" height="140" fill="#FBF6EC" stroke="{LINE}" stroke-width="0.8"/>')
+    s.append(f'<rect x="120" y="{gy2 + 22}" width="96" height="92" fill="#E4D9C0" stroke="{INK}" stroke-width="0.9"/>')
+    for i in range(9):
+        yy = gy2 + 28 + i * 10
+        s.append(f'<line x1="124" y1="{yy}" x2="212" y2="{yy + 6}" stroke="#C9B79A" stroke-width="0.5"/>')
+    s.append(arrow(70, gy2 + 68, 114, gy2 + 68, color=INK, width=1.0, head="arr"))
+    s.append(txt(64, gy2 + 64, "撞", 4.4, "#6E6459"))
+    s.append(f'<path d="M216,{gy2 + 60} q10,-3 18,0 M216,{gy2 + 72} q12,-3 20,0" fill="none" stroke="#BEB2A0" stroke-width="0.6"/>')
+    s.append(txt(200, gy2 + 128, "整木厚料，不上一道漆：力走进去，散在里头", 4.3, INK, "middle"))
+
+    # ---------- 收 ----------
+    y3 = gy2 + 146
+    s.append(f'<line x1="24" y1="{y3}" x2="356" y2="{y3}" stroke="{LINE}" stroke-width="0.6"/>')
+    s.append(box(20, y3 + 8, 340, 40, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, y3 + 24, "去彼取此：舍浮华的表层，归道与素朴。", 4.8, INK, "middle"))
+    s.append(txt(190, y3 + 37, "厚不是笨重，是不靠外面那层撑着。", 4.6, GREEN, "middle"))
+    s.append(gold(y3 + 54, "ch38c"))
+    s.append('</svg>')
+    out = "\n".join(s)
+    ys = [float(v) for v in re.findall(r'y="([0-9.]+)"', out)]
+    return out.replace("999", str(int(max(ys) + 26)))
+
+
 # ============ 第三十八章 · 五级滑落 ============
 def ch38_wu_ji():
     W, H = 380, 652
@@ -7749,6 +7856,8 @@ GOLD = {
     "ch35c": ["手一伸出去，场就变成了门槛。", "安是有地方待，平是没人压你，泰是气走得通。"],
     "ch36c": ["不是柔把刚打败了，是刚撑不住自己，柔撑得住。", "刚强是固定形状，柔弱是保持可塑。"],
     "ch37c": ["它什么也没做，可没有一样东西没被照到。", "不做的那个，恰恰成全了所有的做。"],
+    "ch38b": ["上德做完就完，下德做完还要记一笔。", "给自己看的那一笔，恰恰是要紧处。"],
+    "ch38c": ["靠仪节证明的德，撤了仪节就没了。", "厚不是笨重，是不靠外面那层撑着。"],
     "ch06b": ["谷神不死，是谓玄牝。", "谷者，两山间之空也；能受故能生，生而不有故不竭——生机不在满处，在空处。"],
     "ch06c": ["玄牝之门，是谓天地根。", "门在开合处，不在门板上；一着手去推，它就成了一堵墙。"],
     "ch05b": ["天地不仁，以万物为刍狗。", "刍者，束草也；刍狗有位而无主——用毕回草堆，不是被弃，是位次用完了。"],
@@ -15676,6 +15785,8 @@ FIGS = {
     "ch35c-an-ping-tai": ("第三十五章", "安·平·泰", ch35c_an_ping_tai),
     "ch36c-bian-dan": ("第三十六章", "竹扁担", ch36c_bian_dan),
     "ch37c-yi-zhan-deng": ("第三十七章", "一盏灯", ch37c_yi_zhan_deng),
+    "ch38b-na-ben-zhang": ("第三十八章", "那本账", ch38b_na_ben_zhang),
+    "ch38c-hou-yu-bo": ("第三十八章", "厚与薄", ch38c_hou_yu_bo),
     "ch32b-chuan-gu": ("第三十二章", "川谷与江海", ch32b_chuan_gu),
     "ch33-zi-zhi-zhe-ming": ("第三十三章", "自知者明", ch33_zi_zhi_zhe_ming),
     "ch34-bu-zhu": ("第三十四章", "不主故能成其大", ch34_bu_zhu_wei_da),
