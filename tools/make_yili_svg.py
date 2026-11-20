@@ -1505,6 +1505,164 @@ def ch08_shang_shan():
     return "\n".join(s)
 
 
+def ch09b_yi_zhi_qi_qi():
+    body, y = head(380, 999, "同一只器，只随水量改姿态——不是器坏，是水多了",
+                   "第 九 章 · 欹 器", "一只欹器", "持而盈之，不如其已；揣而锐之，不可长保。", 999)
+    s = [body]
+    import math
+
+    s.append(box(20, y + 2, 340, 34, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, y + 14, "鲁桓公之庙有一只器：虚则欹，中则正，满则覆。孔子叹：「恶有满而不覆者哉！」", 4.9, INK, "middle"))
+    s.append(txt(190, y + 28, "器没有变，水也没有变——只是水多了一点，姿态就翻了。", 4.9, "#6E6459", "middle"))
+
+    def vessel(px, py, ang, level, pour=False):
+        """画一只挂在横梁上的欹器：ang 为倾角，level 为水量（0-26）。"""
+        s.append(f'<g transform="rotate({ang},{px},{py})">')
+        s.append(f'<path d="M{px - 16},{py - 14} L{px + 16},{py - 14} L{px + 10},{py + 12} L{px - 10},{py + 12} z" fill="{PAPER}" stroke="{INK}" stroke-width="1.0"/>')
+        s.append(f'<line x1="{px - 16}" y1="{py - 14}" x2="{px + 16}" y2="{py - 14}" stroke="{INK}" stroke-width="1.4"/>')
+        if level:
+            wy = py + 12 - level
+            half = 10 + (wy - (py + 12)) / -26 * 6
+            s.append(f'<path d="M{px - half:.1f},{wy:.1f} L{px + half:.1f},{wy:.1f} L{px + 10},{py + 12} L{px - 10},{py + 12} z" fill="#E4EAE0" stroke="none"/>')
+            s.append(f'<line x1="{px - half:.1f}" y1="{wy:.1f}" x2="{px + half:.1f}" y2="{wy:.1f}" stroke="{LINE}" stroke-width="0.7"/>')
+        s.append(f'<circle cx="{px - 16}" cy="{py - 2}" r="2.2" fill="none" stroke="{INK}" stroke-width="0.8"/>')
+        s.append(f'<circle cx="{px + 16}" cy="{py - 2}" r="2.2" fill="none" stroke="{INK}" stroke-width="0.8"/>')
+        s.append('</g>')
+        s.append(f'<line x1="{px}" y1="{py - 45}" x2="{px}" y2="{py - 2}" stroke="{INK}" stroke-width="0.6"/>')
+        s.append(f'<line x1="{px - 7}" y1="{py - 2}" x2="{px + 7}" y2="{py - 2}" stroke="{INK}" stroke-width="1.2"/>')
+        if pour:
+            a = math.radians(ang)
+            lx, ly = 16, -14
+            mx = px + lx * math.cos(a) - ly * math.sin(a)
+            my = py + lx * math.sin(a) + ly * math.cos(a)
+            s.append(f'<path d="M{mx:.0f},{my:.0f} C {mx + 3:.0f},{my + 4:.0f} {mx - 1:.0f},{my + 7:.0f} {mx - 4:.0f},{my + 11:.0f}" fill="none" stroke="{GREEN}" stroke-width="1.0"/>')
+
+    # 一、三态
+    s.append(txt(24, y + 52, "一、一只器，三种量", 5.2, GREEN))
+    gy = y + 64
+    s.append(f'<rect x="26" y="{gy}" width="328" height="180" fill="#FBF6EC" stroke="{LINE}" stroke-width="0.8"/>')
+    s.append(f'<line x1="42" y1="{gy + 28}" x2="348" y2="{gy + 28}" stroke="{INK}" stroke-width="1.2"/>')
+    for k in range(1, 8):
+        s.append(f'<line x1="{42 + k * 40}" y1="{gy + 28}" x2="{42 + k * 40}" y2="{gy + 32}" stroke="{INK}" stroke-width="0.5"/>')
+    vessel(88, gy + 104, -32, 0)
+    vessel(190, gy + 104, 0, 13)
+    vessel(292, gy + 104, 104, 26, True)
+    s.append(txt(88, gy + 154, "虚则欹", 4.8, "#6E6459", "middle"))
+    s.append(txt(190, gy + 154, "中则正", 4.8, INK, "middle"))
+    s.append(txt(292, gy + 154, "满则覆", 4.8, SEAL, "middle"))
+    s.append(txt(88, gy + 170, "空着，它自己斜", 4.1, "#6E6459", "middle"))
+    s.append(txt(190, gy + 170, "半下，它自己正", 4.1, "#6E6459", "middle"))
+    s.append(txt(292, gy + 170, "多一点，它就翻", 4.1, SEAL, "middle"))
+
+    # 二、儒守道退
+    s.append(txt(24, gy + 196, "二、同一只器，两种做法", 5.2, GREEN))
+    gy2 = gy + 208
+    s.append(f'<rect x="26" y="{gy2}" width="328" height="176" fill="#FBF6EC" stroke="{LINE}" stroke-width="0.8"/>')
+    s.append(f'<line x1="190" y1="{gy2 + 12}" x2="190" y2="{gy2 + 164}" stroke="{LINE}" stroke-width="0.5" stroke-dasharray="2 3"/>')
+    # 左：守——一手扶壁，水只到半
+    s.append(f'<line x1="48" y1="{gy2 + 28}" x2="170" y2="{gy2 + 28}" stroke="{INK}" stroke-width="1.2"/>')
+    vessel(96, gy2 + 104, 0, 13)
+    s.append(f'<rect x="112" y="{gy2 + 84}" width="22" height="15" rx="5" fill="#EFE6D4" stroke="{INK}" stroke-width="0.9"/>')
+    s.append(f'<line x1="126" y1="{gy2 + 88}" x2="134" y2="{gy2 + 92}" stroke="{INK}" stroke-width="0.7"/>')
+    s.append(txt(96, gy2 + 138, "守：扶着它别倒", 4.6, INK, "middle"))
+    s.append(txt(96, gy2 + 152, "水不加，手不松——日日用力", 4.2, "#6E6459", "middle"))
+    # 右：退——手撤开，器自斜
+    s.append(f'<line x1="210" y1="{gy2 + 28}" x2="332" y2="{gy2 + 28}" stroke="{INK}" stroke-width="1.2"/>')
+    vessel(258, gy2 + 104, -30, 0)
+    s.append(f'<rect x="300" y="{gy2 + 96}" width="22" height="15" rx="5" fill="#EFE6D4" stroke="{INK}" stroke-width="0.9"/>')
+    s.append(arrow(296, gy2 + 104, 322, gy2 + 104, SEAL, 0.9, None, "arrS"))
+    s.append(txt(258, gy2 + 138, "退：不扶，也不加满", 4.6, SEAL, "middle"))
+    s.append(txt(258, gy2 + 152, "空着，就自己斜着——一次决心", 4.2, "#6E6459", "middle"))
+
+    a = gy2 + 196
+    s.append(txt(24, a, "「持」是攥住不放，「盈」是填到饱和：不是不能积累，是非要抵达圆满。", 5.2, INK))
+    s.append(txt(24, a + 16, "虚，才有继续容纳的余地；满，就是循环的终点，紧跟着是散。", 5.2, INK))
+    s.append(txt(24, a + 34, "孔子在庙里说要守，老子看着同一只器说要走——守是扶着别倒，退是根本不去扶。", 5.0, GREEN))
+
+    c = a + 52
+    s.append(f'<line x1="24" y1="{c}" x2="338" y2="{c}" stroke="{LINE}" stroke-width="0.6"/>')
+    s.append(box(20, c + 8, 340, 40, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, c + 24, "持满则溢，不如早止；", 6.0, INK, "middle"))
+    s.append(txt(190, c + 36, "揣锐则折，难以长保。", 6.0, GREEN, "middle"))
+    s.append(gold(c + 62, "ch09b"))
+    s.append('</svg>')
+    out = "\n".join(s)
+    ys = [float(v) for v in re.findall(r'y="([0-9.]+)"', out)]
+    return out.replace("999", str(int(max(ys) + 26)))
+
+
+def ch09c_zan_yu_song():
+    body, y = head(380, 999, "攥着，就先被它绑住；松开，功还是功",
+                   "第 九 章 · 攥 与 松", "攥与松", "金玉满堂，莫之能守；富贵而骄，自遗其咎。", 999)
+    s = [body]
+
+    s.append(box(20, y + 2, 340, 34, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, y + 14, "四样东西都不是你的错，攥才是：攥着满的，满会溢；攥着锋的，锋会折。", 4.9, INK, "middle"))
+    s.append(txt(190, y + 28, "「功」是向外显的果，「身」是向内的根——退的不是事，是把根挪出果的那一下。", 4.9, "#6E6459", "middle"))
+
+    # 一、攥
+    s.append(txt(24, y + 52, "一、攥：越攥越紧，指节都白了", 5.2, SEAL))
+    gy = y + 64
+    s.append(f'<rect x="26" y="{gy}" width="328" height="180" fill="#FBF6EC" stroke="{LINE}" stroke-width="0.8"/>')
+    cx, cy = 190, gy + 84
+    # 印（被攥住的功）
+    s.append(f'<rect x="{cx - 10}" y="{cy - 10}" width="20" height="15" fill="#E4D8BF" stroke="{INK}" stroke-width="0.9"/>')
+    s.append(f'<rect x="{cx - 4}" y="{cy - 17}" width="8" height="7" fill="#E4D8BF" stroke="{INK}" stroke-width="0.8"/>')
+    # 拳：掌＋四指横叠＋拇指
+    s.append(f'<rect x="{cx - 17}" y="{cy - 12}" width="34" height="34" rx="7" fill="#EFE6D4" stroke="{INK}" stroke-width="1.0"/>')
+    for k in range(4):
+        s.append(f'<rect x="{cx - 14}" y="{cy - 6 + k * 8}" width="28" height="6" rx="3" fill="#EFE6D4" stroke="{INK}" stroke-width="0.8"/>')
+    s.append(f'<rect x="{cx - 22}" y="{cy - 4}" width="10" height="6" rx="3" fill="#EFE6D4" stroke="{INK}" stroke-width="0.9"/>')
+    s.append(f'<line x1="{cx + 17}" y1="{cy + 2}" x2="{cx + 26}" y2="{cy + 10}" stroke="{INK}" stroke-width="0.8"/>')
+    # 用力痕
+    for k in range(2):
+        s.append(f'<path d="M{cx + 30},{cy - 14 + k * 10} q6,4 0,8" fill="none" stroke="{SEAL}" stroke-width="0.7"/>')
+    s.append(txt(cx + 30, cy - 20, "印", 4.4, SEAL))
+    s.append(f'<line x1="{cx + 28}" y1="{cy - 18}" x2="{cx + 12}" y2="{cy - 14}" stroke="{LINE2}" stroke-width="0.5" stroke-dasharray="3 2"/>')
+    s.append(arrow(cx - 70, cy + 2, cx - 40, cy + 2, SEAL, 0.9, None, "arrS"))
+    s.append(txt(cx - 74, cy + 2, "攥", 5.0, SEAL, "end"))
+    s.append(txt(190, gy + 128, "攥住的是印，绑住的是手", 4.6, SEAL, "middle"))
+    s.append(txt(190, gy + 146, "金玉满堂，莫之能守：相会散，守着它的人先被它锁住", 4.2, "#6E6459", "middle"))
+    s.append(txt(190, gy + 160, "富贵而骄，自遗其咎：咎不是外面给的，是心里那口气招的", 4.2, "#6E6459", "middle"))
+
+    # 二、松
+    s.append(txt(24, gy + 196, "二、松：手摊开，印还在", 5.2, GREEN))
+    gy2 = gy + 208
+    s.append(f'<rect x="26" y="{gy2}" width="328" height="176" fill="#FBF6EC" stroke="{LINE}" stroke-width="0.8"/>')
+    hx, hy = 190, gy2 + 104
+    # 摊开的手掌：掌＋四指向上＋拇指
+    s.append(f'<rect x="{hx - 24}" y="{hy - 8}" width="48" height="26" rx="8" fill="#EFE6D4" stroke="{INK}" stroke-width="1.0"/>')
+    for k in range(4):
+        fx = hx - 18 + k * 11
+        s.append(f'<rect x="{fx}" y="{hy - 32}" width="8" height="26" rx="4" fill="#EFE6D4" stroke="{INK}" stroke-width="0.8"/>')
+    s.append(f'<rect x="{hx + 24}" y="{hy - 14}" width="14" height="8" rx="4" fill="#EFE6D4" stroke="{INK}" stroke-width="0.9"/>')
+    # 印落在掌上
+    s.append(f'<rect x="{hx - 10}" y="{hy - 14}" width="20" height="15" fill="#E4D8BF" stroke="{INK}" stroke-width="0.9"/>')
+    s.append(f'<rect x="{hx - 4}" y="{hy - 21}" width="8" height="7" fill="#E4D8BF" stroke="{INK}" stroke-width="0.8"/>')
+    s.append(txt(hx + 26, hy - 16, "印", 4.4, GREEN))
+    s.append(arrow(hx + 76, hy - 40, hx + 40, hy - 30, GREEN, 0.9, None, "arr2"))
+    s.append(txt(hx + 80, hy - 42, "松开", 4.4, GREEN))
+    s.append(txt(190, gy2 + 128, "功还是功，人还是人：印没掉，手也不抖", 4.6, GREEN, "middle"))
+    s.append(txt(190, gy2 + 146, "退的不是事，是恋；收的不是手，是心", 4.2, "#6E6459", "middle"))
+    s.append(txt(190, gy2 + 160, "先功遂，再身退——没做成而先退，多半是给退缩找个好名字", 4.2, "#6E6459", "middle"))
+
+    a = gy2 + 196
+    s.append(txt(24, a, "「退」，旧注多解作隐居避世。这一章不是：功成了，心不跟着功走，才是退。", 5.2, INK))
+    s.append(txt(24, a + 16, "能进也能退，能显也能藏：下一段因缘来了，照样出来做事。", 5.2, INK))
+    s.append(txt(24, a + 34, "四时春生夏长、秋收冬藏——收不是失败，是节律；只生不收，才是逆天。", 5.0, GREEN))
+
+    c = a + 52
+    s.append(f'<line x1="24" y1="{c}" x2="338" y2="{c}" stroke="{LINE}" stroke-width="0.6"/>')
+    s.append(box(20, c + 8, 340, 40, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, c + 24, "退的不是事，是恋；", 6.0, INK, "middle"))
+    s.append(txt(190, c + 36, "收的不是手，是心。", 6.0, GREEN, "middle"))
+    s.append(gold(c + 62, "ch09c"))
+    s.append('</svg>')
+    out = "\n".join(s)
+    ys = [float(v) for v in re.findall(r'y="([0-9.]+)"', out)]
+    return out.replace("999", str(int(max(ys) + 26)))
+
+
 # ============ 第九章 · 持而盈之（进与退，同一根尺子） ============
 def ch09_ying_man():
     W, H = 380, 648
@@ -5654,6 +5812,8 @@ GOLD = {
     "ch07c": ["是以圣人后其身而身先，外其身而身存。", "先不是争来的，是人心自归的；退不是姿态，是把手松开。"],
     "ch08b": ["处众人之所恶，故几于道。", "低处不是惩罚，是不必守的位置。"],
     "ch08c": ["居善地，心善渊，与善仁，言善信，政善治，事善能，动善时。", "七善是一条链，不是七条戒律。"],
+    "ch09b": ["持而盈之，不如其已；揣而锐之，不可长保。", "持满则溢，不如早止。"],
+    "ch09c": ["金玉满堂，莫之能守；富贵而骄，自遗其咎。", "退的不是事，是恋；收的不是手，是心。"],
     "ch06b": ["谷神不死，是谓玄牝。", "谷者，两山间之空也；能受故能生，生而不有故不竭——生机不在满处，在空处。"],
     "ch06c": ["玄牝之门，是谓天地根。", "门在开合处，不在门板上；一着手去推，它就成了一堵墙。"],
     "ch05b": ["天地不仁，以万物为刍狗。", "刍者，束草也；刍狗有位而无主——用毕回草堆，不是被弃，是位次用完了。"],
@@ -11904,6 +12064,8 @@ FIGS = {
     "ch08b-yi-chu-di-chu": ("第八章", "一处低处", ch08b_yi_chu_di_chu),
     "ch08c-qi-jie-tong-guan": ("第八章", "一根七节管", ch08c_qi_jie_tong_guan),
     "ch09-ying-man": ("第九章", "持而盈之", ch09_ying_man),
+    "ch09b-yi-zhi-qi-qi": ("第九章", "一只欹器", ch09b_yi_zhi_qi_qi),
+    "ch09c-zan-yu-song": ("第九章", "攥与松", ch09c_zan_yu_song),
     "ch10-bao-yi": ("第十章", "载营魄抱一", ch10_bao_yi),
     "ch28-zhi-xiong": ("第二十八章", "知其雄", ch28_zhi_xiong),
     "ch29-tian-xia-shen-qi": ("第二十九章", "天下神器", ch29_tian_xia_shen_qi),
