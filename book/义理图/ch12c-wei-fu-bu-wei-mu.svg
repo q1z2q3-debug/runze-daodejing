@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 380 754" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="为腹者，以物养己；为目者，以物役己" font-family="'Noto Serif CJK SC','Noto Serif SC','Songti SC',serif">
+<defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#6E6459"/></marker><marker id="arr2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#4A5C55"/></marker><marker id="arrL" viewBox="0 0 10 10" refX="1" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M10 0 L0 5 L10 10 z" fill="#4A5C55"/></marker><marker id="arrS" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#A2503B"/></marker></defs>
+<rect x="0" y="0" width="380" height="754" fill="#F8F3E6"/>
+<text x="20" y="26" font-size="11" fill="#A2503B" font-family="'Noto Sans CJK SC','Noto Sans SC',sans-serif" letter-spacing="3">第 十 二 章 · 腹 与 目</text>
+<text x="20" y="58" font-size="21" fill="#2F2A24">为腹不为目</text>
+<text x="20" y="78" font-size="10.5" fill="#6E6459">是以圣人为腹不为目，故去彼取此。</text>
+<rect x="20" y="102" width="340" height="34" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="190" y="114" font-size="4.9" fill="#2F2A24" text-anchor="middle">王弼注：为腹者，以物养己；为目者，以物役己。</text>
+<text x="190" y="127" font-size="4.8" fill="#6E6459" text-anchor="middle">同一件外物，可以养你，也可以役你；分别不在物，在谁牵着谁。</text>
+<text x="24" y="152" font-size="5.2" fill="#A2503B">一、为目：一只眼占满，人被一条线牵着往前跑</text>
+<rect x="26" y="164" width="328" height="180" fill="#FBF6EC" stroke="#DCCBB0" stroke-width="0.8"/>
+<rect x="34" y="210" width="26" height="14" fill="#EFE6D4" stroke="#2F2A24" stroke-width="0.7"/>
+<text x="47" y="220.4" font-size="3.9" fill="#2F2A24" text-anchor="middle">色</text>
+<line x1="64" y1="218" x2="108" y2="232" stroke="#A2503B" stroke-width="0.8" marker-end="url(#arrS)"/>
+<rect x="34" y="238" width="26" height="14" fill="#EFE6D4" stroke="#2F2A24" stroke-width="0.7"/>
+<text x="47" y="248.4" font-size="3.9" fill="#2F2A24" text-anchor="middle">声</text>
+<line x1="64" y1="246" x2="108" y2="248" stroke="#A2503B" stroke-width="0.8" marker-end="url(#arrS)"/>
+<rect x="34" y="266" width="26" height="14" fill="#EFE6D4" stroke="#2F2A24" stroke-width="0.7"/>
+<text x="47" y="276.4" font-size="3.9" fill="#2F2A24" text-anchor="middle">货</text>
+<line x1="64" y1="274" x2="108" y2="264" stroke="#A2503B" stroke-width="0.8" marker-end="url(#arrS)"/>
+<path d="M108,248 Q150,221 192,248 Q150,275 108,248 z" fill="#F8F3E6" stroke="#2F2A24" stroke-width="1.3"/>
+<circle cx="150" cy="248" r="11" fill="none" stroke="#2F2A24" stroke-width="1.1"/>
+<circle cx="150" cy="248" r="5" fill="#A2503B" stroke="#2F2A24" stroke-width="0.7"/>
+<text x="150" y="292" font-size="4.2" fill="#A2503B" text-anchor="middle">眼越大，越看不见</text>
+<circle cx="284" cy="222" r="6" fill="none" stroke="#2F2A24" stroke-width="1.0"/>
+<line x1="284" y1="228" x2="298" y2="258" stroke="#2F2A24" stroke-width="1.3"/>
+<line x1="296" y1="258" x2="289" y2="270" stroke="#2F2A24" stroke-width="1.0"/>
+<line x1="296" y1="258" x2="303" y2="270" stroke="#2F2A24" stroke-width="1.0"/>
+<path d="M190,248 Q242,222 288,231" fill="none" stroke="#A2503B" stroke-width="0.8" stroke-dasharray="4 3"/>
+<circle cx="288" cy="231" r="2.3" fill="none" stroke="#A2503B" stroke-width="0.8"/>
+<text x="282" y="316" font-size="4.2" fill="#A2503B" text-anchor="middle">人被牵着，脚在动，眼不在自己</text>
+<text x="282" y="330" font-size="4.2" fill="#6E6459" text-anchor="middle">以物役己：他是物的奴</text>
+<text x="24" y="360" font-size="5.2" fill="#4A5C55">二、为腹：一点食进了肚，人立定不动</text>
+<rect x="26" y="372" width="328" height="176" fill="#FBF6EC" stroke="#DCCBB0" stroke-width="0.8"/>
+<path d="M82,458 q30,32 60,0 z" fill="#F8F3E6" stroke="#2F2A24" stroke-width="1.1"/>
+<ellipse cx="112" cy="458" rx="30" ry="6" fill="#E4EAE0" stroke="#2F2A24" stroke-width="0.9"/>
+<circle cx="103" cy="456" r="2.6" fill="#D8C6A0" stroke="#2F2A24" stroke-width="0.5"/>
+<circle cx="119" cy="455" r="2.2" fill="#D8C6A0" stroke="#2F2A24" stroke-width="0.5"/>
+<text x="112" y="496" font-size="4.2" fill="#4A5C55" text-anchor="middle">甘其食：安于本味</text>
+<circle cx="288" cy="426" r="6" fill="none" stroke="#2F2A24" stroke-width="1.0"/>
+<line x1="288" y1="432" x2="288" y2="462" stroke="#2F2A24" stroke-width="1.3"/>
+<line x1="288" y1="462" x2="281" y2="474" stroke="#2F2A24" stroke-width="1.0"/>
+<line x1="288" y1="462" x2="295" y2="474" stroke="#2F2A24" stroke-width="1.0"/>
+<circle cx="288" cy="450" r="6" fill="#E4EAE0" stroke="#4A5C55" stroke-width="0.9"/>
+<line x1="144" y1="456" x2="276" y2="450" stroke="#4A5C55" stroke-width="0.9" marker-end="url(#arr2)"/>
+<line x1="40" y1="476" x2="302" y2="476" stroke="#DCCBB0" stroke-width="0.7"/>
+<text x="288" y="520" font-size="4.2" fill="#4A5C55" text-anchor="middle">养身：一口够了，心不必跟着食跑</text>
+<text x="288" y="534" font-size="4.2" fill="#6E6459" text-anchor="middle">以物养己：东西进来，人还在自己这儿</text>
+<text x="24" y="568" font-size="5.0" fill="#2F2A24">「为腹」不是不吃不喝，是重心放在内里的足；「为目」不是不要眼睛，是把重心交给不断变化的外表。</text>
+<text x="24" y="584" font-size="5.0" fill="#2F2A24">外物只给短暂刺激，刺激会钝化，钝化就要求加码——加到最后，人被牵着跑，成了物的奴。</text>
+<text x="24" y="602" font-size="4.9" fill="#4A5C55">所以不是拒绝刺激，是换一个主人：外物来，坦然接纳；外物去，安然放手。</text>
+<line x1="24" y1="620" x2="338" y2="620" stroke="#DCCBB0" stroke-width="0.6"/>
+<rect x="20" y="628" width="340" height="40" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="190" y="644" font-size="6.0" fill="#2F2A24" text-anchor="middle">为腹者，以物养己；</text>
+<text x="190" y="656" font-size="6.0" fill="#4A5C55" text-anchor="middle">为目者，以物役己。</text>
+<line x1="20" y1="682" x2="360" y2="682" stroke="#E6D8C2" stroke-width="0.8"/>
+<text x="20" y="696" font-size="8.0" fill="#A89577" letter-spacing="1">本 章 金 句</text>
+<text x="20" y="712" font-size="8.4" fill="#2F2A24">是以圣人为腹不为目，故去彼取此。</text>
+<text x="20" y="728" font-size="8.4" fill="#2F2A24">为腹者，以物养己；为目者，以物役己。</text>
+</svg>

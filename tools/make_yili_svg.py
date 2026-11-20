@@ -2166,7 +2166,185 @@ def ch12_wu_se():
     return "\n".join(s)
 
 
-# ============ 第十三章 · 宠辱若惊 ============
+
+def ch12b_tian_men_wu_lu():
+    body, y = head(380, 999, "门照开，权收回：受于身，不如治于身",
+                   "第 十 二 章 · 天 门", "五路进门", "五色令人目盲；五音令人耳聋；五味令人口爽。", 999)
+    s = [body]
+
+    s.append(box(20, y + 2, 340, 34, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, y + 14, "失守不是外物打进来，是接收那一头自己垮了：色、声、味本无善恶。", 4.9, INK, "middle"))
+    s.append(txt(190, y + 28, "「天门」是耳目口鼻那道门；门可以开，权要在自己手里。", 4.9, "#6E6459", "middle"))
+
+    names = ["色", "声", "味", "驰", "货"]
+
+    def goods(x, gy):
+        for i, nm in enumerate(names):
+            yy = gy + 46 + i * 19
+            s.append(f'<rect x="{x}" y="{yy}" width="26" height="13" fill="#EFE6D4" stroke="{INK}" stroke-width="0.7"/>')
+            s.append(txt(x + 13, yy + 9.6, nm, 3.9, INK, "middle"))
+
+    def door(gy):
+        s.append(f'<line x1="74" y1="{gy + 28}" x2="74" y2="{gy + 150}" stroke="{INK}" stroke-width="1.6"/>')
+        s.append(f'<line x1="98" y1="{gy + 28}" x2="98" y2="{gy + 150}" stroke="{INK}" stroke-width="1.6"/>')
+        s.append(f'<line x1="66" y1="{gy + 26}" x2="106" y2="{gy + 26}" stroke="{INK}" stroke-width="1.2"/>')
+        s.append(txt(86, gy + 20, "天门", 4.0, "#A89577", "middle"))
+
+    def boundary(gy):
+        s.append(f'<line x1="216" y1="{gy + 22}" x2="216" y2="{gy + 158}" stroke="{LINE2}" stroke-width="0.7" stroke-dasharray="4 3"/>')
+        s.append(txt(216, gy + 16, "内", 4.0, "#A89577", "middle"))
+
+    # 一、受于身：身内塞满
+    s.append(txt(24, y + 52, "一、受于身：五样一律进到身里，人成了货架", 5.2, SEAL))
+    gy = y + 64
+    s.append(f'<rect x="26" y="{gy}" width="328" height="180" fill="#FBF6EC" stroke="{LINE}" stroke-width="0.8"/>')
+    door(gy)
+    goods(32, gy)
+    boundary(gy)
+    for i in range(5):
+        yy = gy + 52 + i * 19
+        s.append(arrow(104, yy + 6, 252, yy + 6, SEAL, 0.8, None, "arrS"))
+    # 身：一个框，里面挤满
+    sx, sy = 258, gy + 40
+    s.append(f'<rect x="{sx}" y="{sy}" width="60" height="80" rx="4" fill="{PAPER}" stroke="{INK}" stroke-width="1.2"/>')
+    for k in range(5):
+        xx = sx + 4 + (k % 2) * 30
+        yy = sy + 4 + (k // 2) * 15
+        if k == 4:
+            xx, yy = sx + 16, sy + 64
+        s.append(f'<rect x="{xx}" y="{yy}" width="26" height="13" fill="#EFE6D4" stroke="{INK}" stroke-width="0.6"/>')
+        s.append(txt(xx + 13, yy + 9.4, names[k], 3.6, INK, "middle"))
+    s.append(txt(sx + 30, sy + 94, "身", 4.4, INK, "middle"))
+    s.append(txt(292, gy + 160, "塞满了：里头没有一处是自己的", 4.2, SEAL, "middle"))
+    s.append(txt(292, gy + 172, "以物役己：他被物占着", 4.2, "#6E6459", "middle"))
+
+    # 二、治于身：门口过一手
+    s.append(txt(24, gy + 196, "二、治于身：门照开，东西先在门口过一手", 5.2, GREEN))
+    gy2 = gy + 208
+    s.append(f'<rect x="26" y="{gy2}" width="328" height="176" fill="#FBF6EC" stroke="{LINE}" stroke-width="0.8"/>')
+    door(gy2)
+    goods(32, gy2)
+    boundary(gy2)
+    # 手
+    hx, hy = 106, gy2 + 92
+    s.append(f'<rect x="{hx}" y="{hy - 8}" width="19" height="17" rx="5" fill="#EFE6D4" stroke="{INK}" stroke-width="1.0"/>')
+    for k in range(4):
+        s.append(f'<rect x="{hx + 2 + k * 4.4}" y="{hy - 17}" width="3.4" height="10" rx="1.7" fill="#EFE6D4" stroke="{INK}" stroke-width="0.7"/>')
+    s.append(txt(120, hy - 20, "接住", 4.0, GREEN, "middle"))
+    # 架：两层
+    for k in range(2):
+        yy = gy2 + 58 + k * 38
+        s.append(f'<line x1="132" y1="{yy}" x2="206" y2="{yy}" stroke="{INK}" stroke-width="0.9"/>')
+        s.append(f'<line x1="134" y1="{yy}" x2="134" y2="{yy + 16}" stroke="{LINE}" stroke-width="0.6"/>')
+        s.append(f'<line x1="204" y1="{yy}" x2="204" y2="{yy + 16}" stroke="{LINE}" stroke-width="0.6"/>')
+    for k, nm in enumerate(["色", "味", "声"]):
+        xx = 138 + k * 24
+        yy = gy2 + 44 if k < 2 else gy2 + 82
+        if k == 2:
+            xx = 152
+        s.append(f'<rect x="{xx}" y="{yy}" width="22" height="13" fill="#EFE6D4" stroke="{INK}" stroke-width="0.7"/>')
+        s.append(txt(xx + 11, yy + 9.4, nm, 3.6, INK, "middle"))
+    # 身：空
+    sx2, sy2 = 262, gy2 + 40
+    s.append(f'<rect x="{sx2}" y="{sy2}" width="56" height="80" rx="4" fill="{PAPER}" stroke="{INK}" stroke-width="1.2"/>')
+    s.append(f'<circle cx="{sx2 + 28}" cy="{sy2 + 42}" r="9" fill="none" stroke="{GREEN}" stroke-width="0.9"/>')
+    s.append(txt(sx2 + 28, sy2 + 45, "心", 3.8, GREEN, "middle"))
+    s.append(txt(sx2 + 28, sy2 + 94, "身", 4.4, INK, "middle"))
+    s.append(txt(292, gy2 + 148, "身上是空的，心口那一处是静的", 4.2, GREEN, "middle"))
+    s.append(txt(292, gy2 + 162, "以物养己：拿它养身，不让它役心", 4.2, "#6E6459", "middle"))
+
+    a = gy2 + 196
+    s.append(txt(24, a, "「受于身」，是外物到来、感官被动接住，这一步不由人做主；「治于身」是接住之后怎么办。", 5.1, INK))
+    s.append(txt(24, a + 16, "门照开，权收回：色、声、味是天地本来就有的景致，可以欣赏，不可以占有、绑架。", 5.1, INK))
+    s.append(txt(24, a + 34, "一旦把「体验」变成「我要留住、独享」，就从观物变成了执物——明明还在看，其实已经看不见。", 5.0, GREEN))
+
+    c = a + 52
+    s.append(f'<line x1="24" y1="{c}" x2="338" y2="{c}" stroke="{LINE}" stroke-width="0.6"/>')
+    s.append(box(20, c + 8, 340, 40, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, c + 24, "色不盲人，逐色者自盲；", 6.0, INK, "middle"))
+    s.append(txt(190, c + 36, "门照开，权收回。", 6.0, GREEN, "middle"))
+    s.append(gold(c + 62, "ch12b"))
+    s.append('</svg>')
+    out = "\n".join(s)
+    ys = [float(v) for v in re.findall(r'y="([0-9.]+)"', out)]
+    return out.replace("999", str(int(max(ys) + 26)))
+
+
+def ch12c_wei_fu_bu_wei_mu():
+    body, y = head(380, 999, "为腹者，以物养己；为目者，以物役己",
+                   "第 十 二 章 · 腹 与 目", "为腹不为目", "是以圣人为腹不为目，故去彼取此。", 999)
+    s = [body]
+
+    s.append(box(20, y + 2, 340, 34, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, y + 14, "王弼注：为腹者，以物养己；为目者，以物役己。", 4.9, INK, "middle"))
+    s.append(txt(190, y + 27, "同一件外物，可以养你，也可以役你；分别不在物，在谁牵着谁。", 4.8, "#6E6459", "middle"))
+
+    def stick(hx, hy, lean=0):
+        """一个不带脸的简笔身：hx,hy 为颈根，lean>0 则头偏向左侧。"""
+        s.append(f'<circle cx="{hx - lean}" cy="{hy - 8}" r="6" fill="none" stroke="{INK}" stroke-width="1.0"/>')
+        s.append(f'<line x1="{hx - lean}" y1="{hy - 2}" x2="{hx + (2 if lean else 0)}" y2="{hy + 28}" stroke="{INK}" stroke-width="1.3"/>')
+        s.append(f'<line x1="{hx}" y1="{hy + 28}" x2="{hx - 7}" y2="{hy + 40}" stroke="{INK}" stroke-width="1.0"/>')
+        s.append(f'<line x1="{hx}" y1="{hy + 28}" x2="{hx + 7}" y2="{hy + 40}" stroke="{INK}" stroke-width="1.0"/>')
+
+    # 一、为目：以物役己
+    s.append(txt(24, y + 52, "一、为目：一只眼占满，人被一条线牵着往前跑", 5.2, SEAL))
+    gy = y + 64
+    s.append(f'<rect x="26" y="{gy}" width="328" height="180" fill="#FBF6EC" stroke="{LINE}" stroke-width="0.8"/>')
+    for k, nm in enumerate(["色", "声", "货"]):
+        yy = gy + 46 + k * 28
+        s.append(f'<rect x="34" y="{yy}" width="26" height="14" fill="#EFE6D4" stroke="{INK}" stroke-width="0.7"/>')
+        s.append(txt(47, yy + 10.4, nm, 3.9, INK, "middle"))
+        s.append(arrow(64, yy + 8, 108, gy + 84 + (k - 1) * 16, SEAL, 0.8, None, "arrS"))
+    # 大眼
+    ex, ey = 150, gy + 84
+    s.append(f'<path d="M{ex - 42},{ey} Q{ex},{ey - 27} {ex + 42},{ey} Q{ex},{ey + 27} {ex - 42},{ey} z" fill="{PAPER}" stroke="{INK}" stroke-width="1.3"/>')
+    s.append(f'<circle cx="{ex}" cy="{ey}" r="11" fill="none" stroke="{INK}" stroke-width="1.1"/>')
+    s.append(f'<circle cx="{ex}" cy="{ey}" r="5" fill="{SEAL}" stroke={'"' + INK + '"'} stroke-width="0.7"/>')
+    s.append(txt(ex, ey + 44, "眼越大，越看不见", 4.2, SEAL, "middle"))
+    # 人：颈上系线，身子前倾
+    px, py = 296, gy + 66
+    stick(px, py, lean=12)
+    s.append(f'<path d="M{ex + 40},{ey} Q{ex + 92},{ey - 26} {px - 8},{py + 1}" fill="none" stroke="{SEAL}" stroke-width="0.8" stroke-dasharray="4 3"/>')
+    s.append(f'<circle cx="{px - 8}" cy="{py + 1}" r="2.3" fill="none" stroke="{SEAL}" stroke-width="0.8"/>')
+    s.append(txt(px - 14, gy + 152, "人被牵着，脚在动，眼不在自己", 4.2, SEAL, "middle"))
+    s.append(txt(px - 14, gy + 166, "以物役己：他是物的奴", 4.2, "#6E6459", "middle"))
+
+    # 二、为腹：以物养己
+    s.append(txt(24, gy + 196, "二、为腹：一点食进了肚，人立定不动", 5.2, GREEN))
+    gy2 = gy + 208
+    s.append(f'<rect x="26" y="{gy2}" width="328" height="176" fill="#FBF6EC" stroke="{LINE}" stroke-width="0.8"/>')
+    bx, by = 112, gy2 + 86
+    s.append(f'<path d="M{bx - 30},{by} q30,32 60,0 z" fill="{PAPER}" stroke="{INK}" stroke-width="1.1"/>')
+    s.append(f'<ellipse cx="{bx}" cy="{by}" rx="30" ry="6" fill="#E4EAE0" stroke="{INK}" stroke-width="0.9"/>')
+    s.append(f'<circle cx="{bx - 9}" cy="{by - 2}" r="2.6" fill="#D8C6A0" stroke="{INK}" stroke-width="0.5"/>')
+    s.append(f'<circle cx="{bx + 7}" cy="{by - 3}" r="2.2" fill="#D8C6A0" stroke="{INK}" stroke-width="0.5"/>')
+    s.append(txt(bx, by + 38, "甘其食：安于本味", 4.2, GREEN, "middle"))
+    # 人：立定，腹有一点
+    px2, py2 = 288, gy2 + 62
+    stick(px2, py2, lean=0)
+    s.append(f'<circle cx="{px2}" cy="{py2 + 16}" r="6" fill="#E4EAE0" stroke="{GREEN}" stroke-width="0.9"/>')
+    s.append(arrow(bx + 32, by - 2, px2 - 12, py2 + 16, GREEN, 0.9, None, "arr2"))
+    s.append(f'<line x1="40" y1="{gy2 + 104}" x2="302" y2="{gy2 + 104}" stroke="{LINE}" stroke-width="0.7"/>')
+    s.append(txt(px2, gy2 + 148, "养身：一口够了，心不必跟着食跑", 4.2, GREEN, "middle"))
+    s.append(txt(px2, gy2 + 162, "以物养己：东西进来，人还在自己这儿", 4.2, "#6E6459", "middle"))
+
+    a = gy2 + 196
+    s.append(txt(24, a, "「为腹」不是不吃不喝，是重心放在内里的足；「为目」不是不要眼睛，是把重心交给不断变化的外表。", 5.0, INK))
+    s.append(txt(24, a + 16, "外物只给短暂刺激，刺激会钝化，钝化就要求加码——加到最后，人被牵着跑，成了物的奴。", 5.0, INK))
+    s.append(txt(24, a + 34, "所以不是拒绝刺激，是换一个主人：外物来，坦然接纳；外物去，安然放手。", 4.9, GREEN))
+
+    c = a + 52
+    s.append(f'<line x1="24" y1="{c}" x2="338" y2="{c}" stroke="{LINE}" stroke-width="0.6"/>')
+    s.append(box(20, c + 8, 340, 40, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, c + 24, "为腹者，以物养己；", 6.0, INK, "middle"))
+    s.append(txt(190, c + 36, "为目者，以物役己。", 6.0, GREEN, "middle"))
+    s.append(gold(c + 62, "ch12c"))
+    s.append('</svg>')
+    out = "\n".join(s)
+    ys = [float(v) for v in re.findall(r'y="([0-9.]+)"', out)]
+    return out.replace("999", str(int(max(ys) + 26)))
+
+
 def ch13_chong_ru():
     W, H = 380, 442
     body, y = head(W, H, "惊的不是宠辱，是那个钉在壁上的我", "第 十 三 章 · 荣 辱", "惊的是我",
@@ -6098,6 +6276,8 @@ GOLD = {
     "ch10c": ["生而不有，为而不恃，长而不宰，是谓玄德。", "做得多，占得少。"],
     "ch11b": ["三十辐共一毂，当其无，有车之用。", "有给你抓手，无给你生机。"],
     "ch11c": ["凿户牖以为室，当其无，有室之用。", "封死填满，就只是一座土堆。"],
+    "ch12b": ["五色令人目盲；五音令人耳聋；五味令人口爽。", "门照开，权收回：五样都进来，人就成了货架。"],
+    "ch12c": ["是以圣人为腹不为目，故去彼取此。", "为腹者，以物养己；为目者，以物役己。"],
     "ch06b": ["谷神不死，是谓玄牝。", "谷者，两山间之空也；能受故能生，生而不有故不竭——生机不在满处，在空处。"],
     "ch06c": ["玄牝之门，是谓天地根。", "门在开合处，不在门板上；一着手去推，它就成了一堵墙。"],
     "ch05b": ["天地不仁，以万物为刍狗。", "刍者，束草也；刍狗有位而无主——用毕回草堆，不是被弃，是位次用完了。"],
@@ -12247,6 +12427,8 @@ FIGS = {
     "ch11-li-yong": ("第十一章", "利与用", ch11_li_yong),
     "ch11b-san-shi-fu-yi-gu": ("第十一章", "三十辐共一毂", ch11b_san_shi_fu_yi_gu),
     "ch11c-zao-hu-you": ("第十一章", "凿户牖", ch11c_zao_hu_you),
+    "ch12b-tian-men-wu-lu": ("第十二章", "五路进门", ch12b_tian_men_wu_lu),
+    "ch12c-wei-fu-bu-wei-mu": ("第十二章", "为腹不为目", ch12c_wei_fu_bu_wei_mu),
     "ch24-qi-zhe-bu-li": ("第二十四章", "企者不立", ch24_qi_zhe_bu_li),
     "ch23-xi-yan-zi-ran": ("第二十三章", "希言自然", ch23_xi_yan_zi_ran),
     "ch22-qu-ze-quan": ("第二十二章", "曲则全", ch22_qu_ze_quan),
