@@ -2728,8 +2728,214 @@ def ch71c_yi_bao_ba():
     return "\n".join(s)
 
 
+def ch72a_yi_wei_po_po():
+    W, H = 380, 712
+    body, y = head(W, H, "威从女从戌：一位坐堂的婆婆，斧备着不用；斧一落下，威就没了",
+                   "第 七 十 二 章 · 威", "一位坐堂的婆婆", "民不畏威，则大威至。", H)
+    s = [body]
+
+    s.append(box(20, y + 2, 340, 32, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, y + 14, "「威」，《说文》「姑也」，从女从戌——戌是斧：一个女人，手里备着一把斧。", 4.7, INK, "middle"))
+    s.append(txt(190, y + 27, "她不说话，全家不敢出声：这就是威的原型。", 4.7, "#6E6459", "middle"))
+
+    s.append(txt(24, y + 50, "一、备而不用：堂上不动，屋里自静", 4.8, GREEN))
+    gy = y + 62
+    s.append(f'<rect x="26" y="{gy}" width="328" height="146" fill="#FBF6EC" stroke="{LINE}" stroke-width="0.8"/>')
+    # 堂：三级台阶
+    for i in range(3):
+        s.append(f'<rect x="{88 - i * 10}" y="{gy + 106 - i * 8}" width="{110 + i * 20}" height="8" fill="#DED2B8" stroke="{INK}" stroke-width="0.7"/>')
+    # 坐者
+    cx, top = 148, gy + 56
+    s.append(f'<circle cx="{cx}" cy="{top}" r="7" fill="none" stroke="{INK}" stroke-width="1"/>')
+    s.append(f'<path d="M{cx - 12},{top + 10} L{cx + 12},{top + 10} L{cx + 14},{top + 40} L{cx - 14},{top + 40} Z" fill="#EFE6D4" stroke="{INK}" stroke-width="1"/>')
+    s.append(txt(150, gy + 136, "坐堂", 4.2, "#6E6459", "middle"))
+    # 斧：备着，拄在堂上
+    ax = 212
+    s.append(f'<line x1="{ax}" y1="{gy + 116}" x2="{ax}" y2="{gy + 60}" stroke="{INK}" stroke-width="1.4"/>')
+    s.append(f'<path d="M{ax - 2},{gy + 52} L{ax + 20},{gy + 48} Q{ax + 32},{gy + 62} {ax + 20},{gy + 80} L{ax - 2},{gy + 74} Z" '
+             f'fill="#DED2B8" stroke="{INK}" stroke-width="1"/>')
+    s.append(f'<line x1="{ax + 18}" y1="{gy + 50}" x2="{ax + 18}" y2="{gy + 78}" stroke="{INK}" stroke-width="0.6" opacity="0.7"/>')
+    s.append(txt(ax + 4, gy + 138, "斧备着", 4.2, SEAL, "middle"))
+    # 堂下三人，低头静着
+    for px in (238, 268, 298):
+        s.append(f'<circle cx="{px}" cy="{gy + 84}" r="5" fill="none" stroke="{INK}" stroke-width="0.9"/>')
+        s.append(f'<path d="M{px - 8},{gy + 91} L{px + 8},{gy + 91} L{px + 9},{gy + 112} L{px - 9},{gy + 112} Z" fill="#EFE6D4" stroke="{INK}" stroke-width="0.9"/>')
+    s.append(txt(286, gy + 132, "不出一声", 4.2, "#6E6459", "middle"))
+    s.append(f'<line x1="34" y1="{gy + 116}" x2="330" y2="{gy + 116}" stroke="{INK}" stroke-width="1"/>')
+    s.append(txt(190, gy + 162, "斧没动，声先低：不说话的那位，才让满屋的人不敢出声", 4.6, GREEN, "middle"))
+
+    s.append(txt(24, gy + 184, "二、斧一落：就只剩打人，威也就没了", 4.8, SEAL))
+    gy2 = gy + 196
+    s.append(f'<rect x="26" y="{gy2}" width="328" height="150" fill="#FBF6EC" stroke="{LINE}" stroke-width="0.8"/>')
+    for i in range(3):
+        s.append(f'<rect x="{88 - i * 10}" y="{gy2 + 106 - i * 8}" width="{110 + i * 20}" height="8" fill="#DED2B8" stroke="{INK}" stroke-width="0.7"/>')
+    # 站起来、举斧的人
+    cx2, top2 = 148, gy2 + 44
+    s.append(f'<circle cx="{cx2}" cy="{top2}" r="7" fill="none" stroke="{INK}" stroke-width="1"/>')
+    s.append(f'<path d="M{cx2 - 12},{top2 + 10} L{cx2 + 12},{top2 + 10} L{cx2 + 14},{top2 + 40} L{cx2 - 14},{top2 + 40} Z" fill="#EFE6D4" stroke="{INK}" stroke-width="1"/>')
+    s.append(f'<line x1="{cx2 + 12}" y1="{top2 + 14}" x2="{cx2 + 34}" y2="{top2 - 6}" stroke="{INK}" stroke-width="1"/>')
+    s.append(f'<line x1="{cx2 + 34}" y1="{top2 - 6}" x2="{cx2 + 40}" y2="{top2 - 30}" stroke="{INK}" stroke-width="1.4"/>')
+    s.append(f'<path d="M{cx2 + 38},{top2 - 36} L{cx2 + 58},{top2 - 40} Q{cx2 + 72},{top2 - 24} {cx2 + 58},{top2 - 8} L{cx2 + 38},{top2 - 14} Z" '
+             f'fill="{SEAL}" fill-opacity="0.3" stroke="{SEAL}" stroke-width="1"/>')
+    # 台下的人散开、回头
+    for px, dx in ((236, -1), (274, 1), (306, 1)):
+        s.append(f'<circle cx="{px}" cy="{gy2 + 80}" r="5" fill="none" stroke="{INK}" stroke-width="0.9"/>')
+        s.append(f'<path d="M{px - 8},{gy2 + 87} L{px + 8},{gy2 + 87} L{px + 9},{gy2 + 108} L{px - 9},{gy2 + 108} Z" fill="#EFE6D4" stroke="{INK}" stroke-width="0.9"/>')
+        s.append(f'<line x1="{px + dx * 12}" y1="{gy2 + 92}" x2="{px + dx * 22}" y2="{gy2 + 84}" stroke="{INK}" stroke-width="0.9"/>')
+    s.append(arrow(220, gy2 + 62, 232, gy2 + 54, SEAL, 1.0, head="arrS"))
+    s.append(f'<line x1="34" y1="{gy2 + 112}" x2="330" y2="{gy2 + 112}" stroke="{INK}" stroke-width="1"/>')
+    s.append(txt(190, gy2 + 168, "斧一落下，屋里就只剩躲与还手：被怕的那位，不再坐得住", 4.6, GREEN, "middle"))
+
+    a = gy2 + 184
+    s.append(txt(24, a, "「民不畏威，则大威至」：不是他们要来打，是那个家自己在散。", 4.8, INK))
+    s.append(txt(24, a + 16, "威靠的是「我在这儿」这一件事；一动手，就换成「我打得过你」。", 4.8, INK))
+    s.append(txt(24, a + 34, "前者不用斧，后者只剩斧——所以威亡在用斧那一年。", 5.0, GREEN))
+
+    c = a + 50
+    s.append(f'<line x1="24" y1="{c}" x2="338" y2="{c}" stroke="{LINE}" stroke-width="0.6"/>')
+    s.append(box(20, c + 8, 340, 40, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, c + 23, "威从女从戌，戌者斧也；斧备而不用，用则威亡。", 5.4, INK, "middle"))
+    s.append(txt(190, c + 36, "坐在那儿不动的那位，才叫威；一动，就只剩打。", 4.7, GREEN, "middle"))
+    s.append(gold(c + 62, "ch72a"))
+    s.append('</svg>')
+    return "\n".join(s)
+
+
+def ch72b_yi_wo_gou():
+    W, H = 380, 716
+    body, y = head(W, H, "狎是犬可习——熟到贴人；不是屋窄，是没有了距离",
+                   "第 七 十 二 章 · 狎", "一窝挤着的狗", "无狎其所居，无厌其所生。", H)
+    s = [body]
+
+    s.append(box(20, y + 2, 340, 32, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, y + 14, "「狎」，《说文》「犬可习也」——狗熟到能贴在人身上，就是狎。", 4.7, INK, "middle"))
+    s.append(txt(190, y + 27, "所以狎不是说屋子小，是说人跟人之间没有一寸距离。", 4.7, "#6E6459", "middle"))
+
+    s.append(txt(24, y + 50, "一、贴成一窝：屋子不小，都挤在一个角上", 4.8, SEAL))
+    gy = y + 62
+    s.append(f'<rect x="26" y="{gy}" width="328" height="150" fill="#FBF6EC" stroke="{LINE}" stroke-width="0.8"/>')
+    # 屋
+    s.append(f'<path d="M46,{gy + 42} L176,{gy + 10} L306,{gy + 42} L306,{gy + 122} L46,{gy + 122} Z" fill="none" stroke="{INK}" stroke-width="1"/>')
+    s.append(f'<line x1="46" y1="{gy + 122}" x2="330" y2="{gy + 122}" stroke="{INK}" stroke-width="1"/>')
+    # 一个人蹲着
+    px = 96
+    s.append(f'<circle cx="{px}" cy="{gy + 56}" r="6" fill="none" stroke="{INK}" stroke-width="1"/>')
+    s.append(f'<path d="M{px - 10},{gy + 64} L{px + 10},{gy + 64} L{px + 12},{gy + 96} L{px - 12},{gy + 96} Z" fill="#EFE6D4" stroke="{INK}" stroke-width="1"/>')
+    # 四只狗挤贴
+    for i, (dx, dy) in enumerate(((18, 84), (26, 98), (-4, 94), (12, 110))):
+        s.append(f'<ellipse cx="{px + dx}" cy="{gy + dy}" rx="15" ry="8" fill="#DED2B8" stroke="{INK}" stroke-width="0.9"/>')
+        s.append(f'<circle cx="{px + dx - 15}" cy="{gy + dy - 5}" r="4.6" fill="#DED2B8" stroke="{INK}" stroke-width="0.9"/>')
+    s.append(txt(214, gy + 82, "一窝挤在一角", 4.4, SEAL))
+    s.append(txt(214, gy + 94, "屋还空着大半", 4.2, "#6E6459"))
+    s.append(txt(190, gy + 166, "房子并没变小：是身与身之间先没了空", 4.6, GREEN, "middle"))
+
+    s.append(txt(24, gy + 188, "二、让开一线：狗各归一处，人才住得下", 4.8, GREEN))
+    gy2 = gy + 200
+    s.append(f'<rect x="26" y="{gy2}" width="328" height="150" fill="#FBF6EC" stroke="{LINE}" stroke-width="0.8"/>')
+    s.append(f'<path d="M46,{gy2 + 42} L176,{gy2 + 10} L306,{gy2 + 42} L306,{gy2 + 122} L46,{gy2 + 122} Z" fill="none" stroke="{INK}" stroke-width="1"/>')
+    s.append(f'<line x1="46" y1="{gy2 + 122}" x2="330" y2="{gy2 + 122}" stroke="{INK}" stroke-width="1"/>')
+    s.append(f'<circle cx="96" cy="{gy2 + 56}" r="6" fill="none" stroke="{INK}" stroke-width="1"/>')
+    s.append(f'<path d="M86,{gy2 + 64} L106,{gy2 + 64} L108,{gy2 + 96} L84,{gy2 + 96} Z" fill="#EFE6D4" stroke="{INK}" stroke-width="1"/>')
+    for (dx, dy) in ((64, 96), (104, 104), (154, 96), (128, 110)):
+        s.append(f'<ellipse cx="{dx}" cy="{gy2 + dy}" rx="14" ry="7.5" fill="#DED2B8" stroke="{INK}" stroke-width="0.9"/>')
+        s.append(f'<circle cx="{dx - 14}" cy="{gy2 + dy - 4}" r="4.4" fill="#DED2B8" stroke="{INK}" stroke-width="0.9"/>')
+    s.append(txt(214, gy2 + 82, "各归一处", 4.4, GREEN))
+    s.append(txt(214, gy2 + 94, "中间留出一条", 4.2, "#6E6459"))
+    s.append(txt(190, gy2 + 166, "不狎不是赶走谁，是让每一头都有一处自己的地方", 4.6, GREEN, "middle"))
+
+    a = gy2 + 182
+    s.append(txt(24, a, "「无狎其所居」：住的地方，先得留出一寸不属于任何人的空。", 4.8, INK))
+    s.append(txt(24, a + 16, "挤到贴人，看着是亲，其实是没处可退：退无可退，话就不好说。", 4.8, INK))
+    s.append(txt(24, a + 34, "所以这一句跟上一句连着：威要有堂上的距离，居要有身间的距离。", 5.0, GREEN))
+
+    c = a + 50
+    s.append(f'<line x1="24" y1="{c}" x2="338" y2="{c}" stroke="{LINE}" stroke-width="0.6"/>')
+    s.append(box(20, c + 8, 340, 40, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, c + 23, "狎者，犬可习也，熟而贴人；非屋之窄，乃无距也。", 5.4, INK, "middle"))
+    s.append(txt(190, c + 36, "让开一寸，人才住得下去。", 4.7, GREEN, "middle"))
+    s.append(gold(c + 62, "ch72b"))
+    s.append('</svg>')
+    return "\n".join(s)
+
+
+def ch72c_yi_gan_cheng():
+    W, H = 380, 716
+    body, y = head(W, H, "贵从贝，是价钱：自贵是给自己贴价签，自爱是不把自己当货",
+                   "第 七 十 二 章 · 贵", "一杆秤", "自知不自见，自爱不自贵。", H)
+    s = [body]
+
+    s.append(box(20, y + 2, 340, 32, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, y + 14, "「贵」，《说文》「物不贱也」，从贝——贵是价钱，不是德性。", 4.7, INK, "middle"))
+    s.append(txt(190, y + 27, "自爱是同一杆秤的另一头：不把自己贱卖。", 4.7, "#6E6459", "middle"))
+
+    s.append(txt(24, y + 50, "一、自贵：先给自己贴一张价签", 4.8, SEAL))
+    gy = y + 62
+    s.append(f'<rect x="26" y="{gy}" width="328" height="150" fill="#FBF6EC" stroke="{LINE}" stroke-width="0.8"/>')
+    # 秤
+    pole = 196
+    s.append(f'<line x1="{pole}" y1="{gy + 34}" x2="{pole}" y2="{gy + 120}" stroke="{INK}" stroke-width="1.6"/>')
+    s.append(f'<line x1="{pole - 46}" y1="{gy + 30}" x2="{pole + 52}" y2="{gy + 38}" stroke="{INK}" stroke-width="1.2"/>')
+    s.append(f'<line x1="{pole - 46}" y1="{gy + 30}" x2="{pole - 46}" y2="{gy + 40}" stroke="{INK}" stroke-width="0.8"/>')
+    # 秤钩与货
+    s.append(f'<path d="M{pole - 46},{gy + 40} q0,6 -6,8 q6,2 6,8" fill="none" stroke="{INK}" stroke-width="0.9"/>')
+    s.append(f'<rect x="{pole - 62}" y="{gy + 56}" width="34" height="30" fill="#EFE6D4" stroke="{INK}" stroke-width="1"/>')
+    s.append(txt(pole - 45, gy + 68, "我", 5.6, INK, "middle"))
+    # 价签（大）
+    s.append(f'<rect x="{pole + 6}" y="{gy + 52}" width="46" height="26" fill="{SEAL}" fill-opacity="0.16" stroke="{SEAL}" stroke-width="1"/>')
+    s.append(txt(pole + 29, gy + 62, "价签", 4.2, SEAL, "middle"))
+    s.append(txt(pole + 29, gy + 72, "很贵", 4.2, SEAL, "middle"))
+    s.append(f'<line x1="{pole - 30}" y1="{gy + 56}" x2="{pole + 6}" y2="{gy + 56}" stroke="{SEAL}" stroke-width="0.8" stroke-dasharray="3 3"/>')
+    # 秤砣
+    s.append(f'<path d="M{pole + 52},{gy + 34} l8,10 l-16,0 Z" fill="{INK}" fill-opacity="0.4" stroke="{INK}" stroke-width="0.8"/>')
+    s.append(f'<line x1="60" y1="{gy + 120}" x2="322" y2="{gy + 120}" stroke="{INK}" stroke-width="1"/>')
+    s.append(txt(190, gy + 166, "货上贴价签，秤就只称价钱：先标了，剩下的都是比价", 4.6, GREEN, "middle"))
+
+    s.append(txt(24, gy + 188, "二、自爱：不上秤盘，不把自己当货", 4.8, GREEN))
+    gy2 = gy + 200
+    s.append(f'<rect x="26" y="{gy2}" width="328" height="150" fill="#FBF6EC" stroke="{LINE}" stroke-width="0.8"/>')
+    s.append(f'<line x1="{pole}" y1="{gy2 + 34}" x2="{pole}" y2="{gy2 + 120}" stroke="{INK}" stroke-width="1.6"/>')
+    s.append(f'<line x1="{pole - 46}" y1="{gy2 + 30}" x2="{pole + 52}" y2="{gy2 + 38}" stroke="{INK}" stroke-width="1.2"/>')
+    s.append(f'<path d="M{pole - 46},{gy2 + 38} q0,6 -6,8 q6,2 6,8" fill="none" stroke="{INK}" stroke-width="0.9"/>')
+    s.append(f'<path d="M{pole + 52},{gy2 + 34} l8,10 l-16,0 Z" fill="{INK}" fill-opacity="0.4" stroke="{INK}" stroke-width="0.8"/>')
+    # 空秤盘
+    s.append(f'<path d="M{pole - 62},{gy2 + 54} Q{pole - 46},{gy2 + 66} {pole - 30},{gy2 + 54}" fill="none" stroke="{INK}" stroke-width="1"/>')
+    s.append(f'<line x1="{pole - 62}" y1="{gy2 + 54}" x2="{pole - 46}" y2="{gy2 + 52}" stroke="#B9A98F" stroke-width="0.6"/>')
+    s.append(f'<line x1="{pole - 30}" y1="{gy2 + 54}" x2="{pole - 46}" y2="{gy2 + 52}" stroke="#B9A98F" stroke-width="0.6"/>')
+    s.append(txt(pole - 46, gy2 + 74, "空盘", 4.0, "#6E6459", "middle"))
+    # 人站在秤旁，手摊开
+    px = 108
+    s.append(f'<circle cx="{px}" cy="{gy2 + 46}" r="7" fill="none" stroke="{INK}" stroke-width="1"/>')
+    s.append(f'<path d="M{px - 12},{gy2 + 56} L{px + 12},{gy2 + 56} L{px + 14},{gy2 + 96} L{px - 14},{gy2 + 96} Z" fill="#EFE6D4" stroke="{INK}" stroke-width="1"/>')
+    s.append(f'<line x1="{px + 12}" y1="{gy2 + 62}" x2="{px + 26}" y2="{gy2 + 82}" stroke="{INK}" stroke-width="1"/>')
+    s.append(f'<line x1="{px + 22}" y1="{gy2 + 82}" x2="{px + 38}" y2="{gy2 + 82}" stroke="{INK}" stroke-width="1"/>')
+    s.append(f'<line x1="{px + 22}" y1="{gy2 + 86}" x2="{px + 36}" y2="{gy2 + 86}" stroke="{INK}" stroke-width="0.6" opacity="0.6"/>')
+    s.append(txt(px + 2, gy2 + 30, "手摊着，不上秤", 4.2, GREEN))
+    s.append(f'<line x1="{px - 5}" y1="{gy2 + 96}" x2="{px - 9}" y2="{gy2 + 120}" stroke="{INK}" stroke-width="1"/>')
+    s.append(f'<line x1="{px + 5}" y1="{gy2 + 96}" x2="{px + 9}" y2="{gy2 + 120}" stroke="{INK}" stroke-width="1"/>')
+
+    s.append(f'<line x1="60" y1="{gy2 + 120}" x2="322" y2="{gy2 + 120}" stroke="{INK}" stroke-width="1"/>')
+    s.append(txt(190, gy2 + 166, "自爱不是抬价，是不把自己挂上去：不上盘，就不必被人称", 4.6, GREEN, "middle"))
+
+    a = gy2 + 182
+    s.append(txt(24, a, "自见是把自己摆出来给人看；自知是知道自己在哪儿。", 4.8, INK))
+    s.append(txt(24, a + 16, "自贵是贴价签；自爱是惜身。一杆秤，两头的话不一样。", 4.8, INK))
+    s.append(txt(24, a + 34, "「去彼取此」：把价签取下，把身子留住。", 5.0, GREEN))
+
+    c = a + 50
+    s.append(f'<line x1="24" y1="{c}" x2="338" y2="{c}" stroke="{LINE}" stroke-width="0.6"/>')
+    s.append(box(20, c + 8, 340, 40, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, c + 23, "自知不自见，自爱不自贵；故去彼取此。", 5.4, INK, "middle"))
+    s.append(txt(190, c + 36, "取的是身子，去的是那张价签。", 4.7, GREEN, "middle"))
+    s.append(gold(c + 62, "ch72c"))
+    s.append('</svg>')
+    return "\n".join(s)
+
+
 
 GOLD = {
+    "ch72a": ["威从女从戌，戌者斧也；《说文》曰「姑也」——姑者，妇之尊长。", "斧备而不用，用则威亡；用斧者为人所还，还则堂不能安。"],
+    "ch72b": ["无狎其所居，无厌其所生。", "狎者，犬可习也，熟而贴人；非屋之窄，乃无距也。"],
+    "ch72c": ["自知不自见，自爱不自贵。", "故去彼取此。"],
     "ch71a": ["知不知，尚矣；不知知，病也。", "知从矢从口：箭出而中，报之于口。"],
     "ch71b": ["知不知，尚矣；不知知，病也。", "知者，命中之事，非胸中之有。"],
     "ch71c": ["《说文》曰：病，疾加也。", "病者，目中见靶外之箭，胸中箭犹在靶。"],
@@ -8937,6 +9143,9 @@ FIGS = {
     "ch71a-yi-zhi-jian": ("第七十一章", "一支箭", ch71a_yi_zhi_jian),
     "ch71b-yi-zhang-ba": ("第七十一章", "一张靶", ch71b_yi_zhang_ba),
     "ch71c-yi-bao-ba": ("第七十一章", "一个报靶的人", ch71c_yi_bao_ba),
+    "ch72a-yi-wei-po-po": ("第七十二章", "一位坐堂的婆婆", ch72a_yi_wei_po_po),
+    "ch72b-yi-wo-gou": ("第七十二章", "一窝挤着的狗", ch72b_yi_wo_gou),
+    "ch72c-yi-gan-cheng": ("第七十二章", "一杆秤", ch72c_yi_gan_cheng),
 }
 
 
