@@ -914,6 +914,68 @@ def ch38_wu_ji():
     return "\n".join(s)
 
 
+def ch40c_kong_gang():
+    body, y = head(380, 999, "万物生于有，有生于无：先有那只空缸，才有这一缸活物",
+                   "第 四 十 章 · 其 三", "一 只 缸",
+                   "天下万物生于有，有生于无。", 999)
+    s = [body]
+
+    s.append(box(20, y + 2, 340, 34, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, y + 14, "「反」是翻转，「弱」是柔曲——两者合起来才生出东西：翻转给出位，柔曲填得住那个位。", 4.5, INK, "middle"))
+    s.append(txt(190, y + 27, "而这一切的根，在空处：壁围出空，空才生得出用。", 4.5, "#6E6459"))
+
+    def gang(gy, water):
+        o = [f'<rect x="26" y="{gy}" width="328" height="146" fill="#FBF6EC" stroke="{LINE}" stroke-width="0.8"/>',
+             f'<line x1="40" y1="{gy + 124}" x2="340" y2="{gy + 124}" stroke="{LINE}" stroke-width="0.9"/>']
+        # 缸（剖面：两壁一底）
+        o.append(f'<path d="M132,{gy + 26} L126,{gy + 110} L264,{gy + 110} L258,{gy + 26} Z" fill="#F6EFE0" stroke="{INK}" stroke-width="1.0"/>')
+        o.append(f'<rect x="126" y="{gy + 102}" width="138" height="10" fill="#E4D9C0" stroke="{INK}" stroke-width="0.9"/>')
+        if water:
+            o.append(f'<path d="M129,{gy + 56} L127,{gy + 102} L263,{gy + 102} L261,{gy + 56} Z" fill="#DCE9E3" stroke="none"/>')
+            o.append(f'<line x1="129" y1="{gy + 56}" x2="261" y2="{gy + 56}" stroke="{LINE2}" stroke-width="0.7"/>')
+            # 水草
+            for x, h in ((150, 26), (162, 34), (176, 22)):
+                o.append(f'<path d="M{x},{gy + 100} q-4,-{h // 2} 1,-{h} q5,{h // 2} -1,{h}" fill="none" stroke="{GREEN}" stroke-width="1.0"/>')
+            # 两尾鱼
+            o.append(f'<path d="M196,{gy + 74} q10,-7 20,0 q-10,7 -20,0 Z" fill="#E7C9B8" stroke="{SEAL}" stroke-width="0.7"/>')
+            o.append(f'<path d="M216,{gy + 74} l7,-4 l0,8 Z" fill="#E7C9B8" stroke="{SEAL}" stroke-width="0.7"/>')
+            o.append(f'<path d="M222,{gy + 92} q-9,-6 -18,0 q9,6 18,0 Z" fill="#E7C9B8" stroke="{SEAL}" stroke-width="0.7"/>')
+            o.append(f'<path d="M204,{gy + 92} l-7,-4 l0,8 Z" fill="#E7C9B8" stroke="{SEAL}" stroke-width="0.7"/>')
+            o.append(txt(196, gy + 48, "有：水先落进来", 4.1, "#6E6459", "middle"))
+            o.append(f'<path d="M150,{gy + 20} l6,20" stroke="#A9C3BC" stroke-width="0.5" stroke-dasharray="2 3"/>')
+            o.append(f'<circle cx="152" cy="{gy + 22}" r="2.0" fill="#A9C3BC" stroke="none"/>')
+            o.append(f'<circle cx="155" cy="{gy + 30}" r="1.6" fill="#A9C3BC" stroke="none"/>')
+        else:
+            o.append(box(140, gy + 40, 108, 58, fill="none", stroke="#C9B79A", dash="3 4", width=0.5))
+            o.append(txt(194, gy + 72, "空", 8.0, "#B8AC94", "middle"))
+            o.append(txt(194, gy + 44, "无：壁围出来的那块", 4.2, "#6E6459", "middle"))
+        return "\n".join(o)
+
+    # ---------- 一、空缸 ----------
+    s.append(txt(24, y + 52, "一、无：还没有东西进来", 5.0, GREEN))
+    gy = y + 64
+    s.append(gang(gy, False))
+    s.append(txt(190, gy + 138, "缸先有了壁，壁围出一块空——万物还没有，位置已经有了", 4.3, INK, "middle"))
+
+    # ---------- 二、满缸 ----------
+    s.append(txt(24, gy + 164, "二、有：水落进来，活物跟着生", 5.0, GREEN))
+    gy2 = gy + 176
+    s.append(gang(gy2, True))
+    s.append(txt(190, gy2 + 138, "水至柔，却盛得住鱼与水草——弱者的用，就在这儿", 4.3, INK, "middle"))
+
+    # ---------- 收 ----------
+    y3 = gy2 + 154
+    s.append(f'<line x1="24" y1="{y3}" x2="356" y2="{y3}" stroke="{LINE}" stroke-width="0.6"/>')
+    s.append(box(20, y3 + 8, 340, 40, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, y3 + 24, "天下万物生于有，有生于无。", 5.0, INK, "middle"))
+    s.append(txt(190, y3 + 37, "先把壁立起来，空才有；空有了，用才生。", 4.6, GREEN, "middle"))
+    s.append(gold(y3 + 54, "ch40c"))
+    s.append('</svg>')
+    out = "\n".join(s)
+    ys = [float(v) for v in re.findall(r'y="([0-9.]+)"', out)]
+    return out.replace("999", str(int(max(ys) + 26)))
+
+
 # ============ 第四十章 · 反者道之动 ============
 def ch40_fan_zhe():
     W, H = 380, 536
@@ -7859,6 +7921,7 @@ GOLD = {
     "ch38b": ["上德做完就完，下德做完还要记一笔。", "给自己看的那一笔，恰恰是要紧处。"],
     "ch38c": ["靠仪节证明的德，撤了仪节就没了。", "厚不是笨重，是不靠外面那层撑着。"],
     "ch39c": ["玉贵而脆，石贱而坚。", "宁做那块被踩着的石头，不做那块被捧着的玉。"],
+    "ch40c": ["天下万物生于有，有生于无。", "先把壁立起来，空才有；空有了，用才生。"],
     "ch06b": ["谷神不死，是谓玄牝。", "谷者，两山间之空也；能受故能生，生而不有故不竭——生机不在满处，在空处。"],
     "ch06c": ["玄牝之门，是谓天地根。", "门在开合处，不在门板上；一着手去推，它就成了一堵墙。"],
     "ch05b": ["天地不仁，以万物为刍狗。", "刍者，束草也；刍狗有位而无主——用毕回草堆，不是被弃，是位次用完了。"],
@@ -15854,6 +15917,7 @@ FIGS = {
     "ch38b-na-ben-zhang": ("第三十八章", "那本账", ch38b_na_ben_zhang),
     "ch38c-hou-yu-bo": ("第三十八章", "厚与薄", ch38c_hou_yu_bo),
     "ch39c-yu-yu-shi": ("第三十九章", "玉与石", ch39c_yu_yu_shi),
+    "ch40c-kong-gang": ("第四十章", "一只缸", ch40c_kong_gang),
     "ch32b-chuan-gu": ("第三十二章", "川谷与江海", ch32b_chuan_gu),
     "ch33-zi-zhi-zhe-ming": ("第三十三章", "自知者明", ch33_zi_zhi_zhe_ming),
     "ch34-bu-zhu": ("第三十四章", "不主故能成其大", ch34_bu_zhu_wei_da),
