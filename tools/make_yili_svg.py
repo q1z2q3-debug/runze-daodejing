@@ -3692,6 +3692,202 @@ def ch76c_yi_ba_fu():
     return "\n".join(s)
 
 
+def ch77a_yi_zhang_xian():
+    W, H = 380, 726
+    body, y = head(W, H, "校准是两个方向的：高则抑，低则举",
+                   "第 七 十 七 章 · 张", "一张弦", "天之道，其犹张弓与？", H)
+    s = [body]
+
+    s.append(box(20, y + 2, 340, 32, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, y + 14, "张，《说文》「施弓弦也」——不是拉弓，是上弦：把两端调齐。", 4.7, INK, "middle"))
+    s.append(txt(190, y + 27, "拉满者只一个方向；调弦者两个方向：高则下之，低则上之。", 4.7, "#6E6459", "middle"))
+
+    s.append(txt(24, y + 50, "一、一头高了：抑之", 4.8, SEAL))
+    gy = y + 62
+    s.append(f'<rect x="26" y="{gy}" width="328" height="150" fill="#FBF6EC" stroke="{LINE}" stroke-width="0.8"/>')
+    # 水平线（校准的准头）
+    s.append(f'<line x1="60" y1="{gy + 78}" x2="320" y2="{gy + 78}" stroke="#B9A98F" stroke-width="0.7" stroke-dasharray="5 3"/>')
+    s.append(txt(60, gy + 92, "准头", 4.0, "#B9A98F"))
+    # 弓臂：左梢高、右梢低
+    s.append(f'<path d="M146,{gy + 50} Q92,{gy + 84} 258,{gy + 96}" fill="none" stroke="{INK}" stroke-width="2.6"/>')
+    s.append(f'<line x1="146" y1="{gy + 50}" x2="258" y2="{gy + 96}" stroke="#B9A98F" stroke-width="0.9"/>')
+    s.append(f'<circle cx="146" cy="{gy + 50}" r="3" fill="none" stroke="{SEAL}" stroke-width="1.2"/>')
+    s.append(f'<circle cx="258" cy="{gy + 96}" r="3" fill="none" stroke="#B9A98F" stroke-width="1"/>')
+    s.append(txt(196, gy + 46, "左梢高了：弦是斜的", 4.3, SEAL))
+    # 一只手按下
+    s.append(f'<path d="M104,{gy + 26} Q122,{gy + 36} 140,{gy + 26}" fill="#EFE6D4" stroke="{INK}" stroke-width="1"/>')
+    for i in range(3):
+        s.append(f'<line x1="{114 + i * 7}" y1="{gy + 28}" x2="{114 + i * 7}" y2="{gy + 20}" stroke="{INK}" stroke-width="0.8"/>')
+    s.append(f'<line x1="118" y1="{gy + 44}" x2="118" y2="{gy + 34}" stroke="{SEAL}" stroke-width="1" stroke-dasharray="3 2"/>')
+    s.append(f'<polygon points="118,{gy + 44} 113,{gy + 34} 123,{gy + 34}" fill="{SEAL}"/>')
+    s.append(txt(190, gy + 34, "抑：一手按下", 4.3, SEAL, "middle"))
+    s.append(txt(190, gy + 116, "抑者，《说文》曰「按也」——一手可矣", 4.4, "#6E6459", "middle"))
+    s.append(txt(190, gy + 166, "高者抑之：高处只需一只手按住", 4.6, GREEN, "middle"))
+
+    s.append(txt(24, gy + 190, "二、一头低了：举之", 4.8, GREEN))
+    gy2 = gy + 202
+    s.append(f'<rect x="26" y="{gy2}" width="328" height="150" fill="#FBF6EC" stroke="{LINE}" stroke-width="0.8"/>')
+    s.append(f'<line x1="60" y1="{gy2 + 84}" x2="320" y2="{gy2 + 84}" stroke="#B9A98F" stroke-width="0.7" stroke-dasharray="5 3"/>')
+    s.append(f'<path d="M146,{gy2 + 56} Q92,{gy2 + 90} 258,{gy2 + 116}" fill="none" stroke="{INK}" stroke-width="2.6"/>')
+    s.append(f'<line x1="146" y1="{gy2 + 56}" x2="258" y2="{gy2 + 116}" stroke="#B9A98F" stroke-width="0.9"/>')
+    s.append(f'<circle cx="146" cy="{gy2 + 56}" r="3" fill="none" stroke="#B9A98F" stroke-width="1"/>')
+    s.append(f'<circle cx="258" cy="{gy2 + 116}" r="3" fill="none" stroke="{SEAL}" stroke-width="1.2"/>')
+    s.append(txt(196, gy2 + 72, "右梢低了：弦还是斜的", 4.3, SEAL))
+    # 两只手往上托
+    s.append(f'<path d="M244,{gy2 + 132} Q262,{gy2 + 142} 280,{gy2 + 132}" fill="#EFE6D4" stroke="{INK}" stroke-width="1"/>')
+    s.append(f'<path d="M244,{gy2 + 118} Q262,{gy2 + 128} 280,{gy2 + 118}" fill="#EFE6D4" stroke="{INK}" stroke-width="1"/>')
+    s.append(f'<line x1="262" y1="{gy2 + 110}" x2="262" y2="{gy2 + 98}" stroke="{SEAL}" stroke-width="1" stroke-dasharray="3 2"/>')
+    s.append(f'<polygon points="262,{gy2 + 94} 257,{gy2 + 104} 267,{gy2 + 104}" fill="{SEAL}"/>')
+    s.append(txt(176, gy2 + 146, "举：须两手托", 4.3, SEAL, "middle"))
+    s.append(txt(190, gy2 + 166, "举者，《说文》曰「对举也」——必须两只手", 4.6, GREEN, "middle"))
+
+    a = gy2 + 190
+    s.append(txt(24, a, "故天道之力，大半费于「举」：损有余易，补不足难。", 4.8, INK))
+    s.append(txt(24, a + 16, "抑只需一手按住，举则要两只手托起来——这就是「补」的代价。", 4.8, INK))
+    s.append(txt(24, a + 34, "不是加总，是配平。", 5.0, GREEN))
+
+    c = a + 52
+    s.append(f'<line x1="24" y1="{c}" x2="338" y2="{c}" stroke="{LINE}" stroke-width="0.6"/>')
+    s.append(box(20, c + 8, 340, 40, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, c + 23, "高者抑之，下者举之。", 5.4, INK, "middle"))
+    s.append(txt(190, c + 36, "损有余易，补不足难。", 4.7, GREEN, "middle"))
+    s.append(gold(c + 64, "ch77a"))
+    s.append('</svg>')
+    return "\n".join(s)
+
+
+def ch77b_yi_jian_po_yi():
+    W, H = 380, 726
+    body, y = head(W, H, "补是完衣：缝，不是给",
+                   "第 七 十 七 章 · 补", "一件破衣", "有余者损之，不足者补之。", H)
+    s = [body]
+
+    s.append(box(20, y + 2, 340, 32, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, y + 14, "补，《说文》「完衣也」——缝，不是给。", 4.7, INK, "middle"))
+    s.append(txt(190, y + 27, "给者移之，缝者复之：移者变其多寡，复者使其可衣。", 4.7, "#6E6459", "middle"))
+
+    s.append(txt(24, y + 50, "一、一布两处：一处有余，一处有阙", 4.8, SEAL))
+    gy = y + 62
+    s.append(f'<rect x="26" y="{gy}" width="328" height="152" fill="#FBF6EC" stroke="{LINE}" stroke-width="0.8"/>')
+    # 衣：身、两袖、交领
+    s.append(f'<rect x="152" y="{gy + 52}" width="76" height="58" rx="4" fill="#EFE6D4" stroke="{INK}" stroke-width="1.1"/>')
+    s.append(f'<line x1="176" y1="{gy + 52}" x2="190" y2="{gy + 70}" stroke="{INK}" stroke-width="0.9"/>')
+    s.append(f'<line x1="204" y1="{gy + 52}" x2="190" y2="{gy + 70}" stroke="{INK}" stroke-width="0.9"/>')
+    s.append(f'<rect x="118" y="{gy + 54}" width="34" height="26" rx="3" fill="#EFE6D4" stroke="{INK}" stroke-width="1.1"/>')
+    s.append(f'<rect x="228" y="{gy + 54}" width="34" height="40" rx="3" fill="#EFE6D4" stroke="{INK}" stroke-width="1.1"/>')
+    # 阙：左肩一道口子
+    s.append(f'<path d="M150,{gy + 56} l-6,8 l6,6 l-4,8" fill="none" stroke="{SEAL}" stroke-width="1.4"/>')
+    s.append(txt(112, gy + 44, "阙：破了", 4.3, SEAL))
+    # 余：右袖长出一截
+    s.append(f'<rect x="262" y="{gy + 56}" width="22" height="34" rx="2" fill="#DED2B8" stroke="{SEAL}" stroke-width="1" stroke-dasharray="3 2"/>')
+    s.append(txt(292, gy + 84, "余：多出一块", 4.2, SEAL))
+    s.append(txt(190, gy + 148, "同一块布，两处挂着：不缝，则两处皆废", 4.4, GREEN, "middle"))
+    s.append(txt(190, gy + 168, "此天之算术也：非加总也，配平也", 4.6, GREEN, "middle"))
+
+    s.append(txt(24, gy + 192, "二、剪此补彼：一件衣，两处都好", 4.8, GREEN))
+    gy2 = gy + 204
+    s.append(f'<rect x="26" y="{gy2}" width="328" height="152" fill="#FBF6EC" stroke="{LINE}" stroke-width="0.8"/>')
+    s.append(f'<rect x="152" y="{gy2 + 52}" width="76" height="58" rx="4" fill="#EFE6D4" stroke="{INK}" stroke-width="1.1"/>')
+    s.append(f'<line x1="176" y1="{gy2 + 52}" x2="190" y2="{gy2 + 70}" stroke="{INK}" stroke-width="0.9"/>')
+    s.append(f'<line x1="204" y1="{gy2 + 52}" x2="190" y2="{gy2 + 70}" stroke="{INK}" stroke-width="0.9"/>')
+    s.append(f'<rect x="118" y="{gy2 + 54}" width="34" height="26" rx="3" fill="#EFE6D4" stroke="{INK}" stroke-width="1.1"/>')
+    s.append(f'<rect x="228" y="{gy2 + 54}" width="34" height="26" rx="3" fill="#EFE6D4" stroke="{INK}" stroke-width="1.1"/>')
+    # 缝：针脚
+    for i in range(5):
+        s.append(f'<line x1="{144 + i * 5}" y1="{gy2 + 54}" x2="{140 + i * 5}" y2="{gy2 + 68}" stroke="{SEAL}" stroke-width="1"/>')
+    s.append(txt(120, gy2 + 44, "缝上了", 4.3, SEAL))
+    # 虚线：那一块布挪过来
+    s.append(f'<path d="M262,{gy2 + 70} Q222,{gy2 + 40} 176,{gy2 + 48}" fill="none" stroke="{SEAL}" stroke-width="1" stroke-dasharray="4 3"/>')
+    s.append(f'<polygon points="176,{gy2 + 48} 186,{gy2 + 44} 186,{gy2 + 54}" fill="{SEAL}"/>')
+    s.append(txt(272, gy2 + 92, "袖口不再多出", 4.2, "#6E6459"))
+    s.append(txt(190, gy2 + 148, "一布两处：一处有余，一处有阙；缝之，两处皆可用", 4.4, GREEN, "middle"))
+    s.append(txt(190, gy2 + 168, "补不是给它添，是让它重新穿得上", 4.6, GREEN, "middle"))
+
+    a = gy2 + 192
+    s.append(txt(24, a, "有余者，同衣之上多出之布也；一布而两处：一处有余，一处有阙。", 4.8, INK))
+    s.append(txt(24, a + 16, "给者移之，移完还是两件破的；缝者复之，复完是一件可穿的。", 4.8, INK))
+    s.append(txt(24, a + 34, "此天之算术也：非加总也，配平也。", 5.0, GREEN))
+
+    c = a + 52
+    s.append(f'<line x1="24" y1="{c}" x2="338" y2="{c}" stroke="{LINE}" stroke-width="0.6"/>')
+    s.append(box(20, c + 8, 340, 40, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, c + 23, "有余者损之，不足者补之。", 5.4, INK, "middle"))
+    s.append(txt(190, c + 36, "补者，完衣也：缝也，非给也。", 4.7, GREEN, "middle"))
+    s.append(gold(c + 64, "ch77b"))
+    s.append('</svg>')
+    return "\n".join(s)
+
+
+def ch77c_liang_zhi_shou():
+    W, H = 380, 726
+    body, y = head(W, H, "人之道：自空碗里刮其余，捧献于满碗",
+                   "第 七 十 七 章 · 奉", "两只捧起的手", "人之道则不然，损不足以奉有余。", H)
+    s = [body]
+
+    s.append(box(20, y + 2, 340, 32, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, y + 14, "奉，《说文》「承也」，从手从廾——两手捧而献之。", 4.7, INK, "middle"))
+    s.append(txt(190, y + 27, "其象非被夺也，乃自空碗中刮其余，捧而献于满碗。", 4.7, "#6E6459", "middle"))
+
+    s.append(txt(24, y + 50, "一、人之道：从空的那只刮", 4.8, SEAL))
+    gy = y + 62
+    s.append(f'<rect x="26" y="{gy}" width="328" height="152" fill="#FBF6EC" stroke="{LINE}" stroke-width="0.8"/>')
+    s.append(f'<line x1="34" y1="{gy + 130}" x2="330" y2="{gy + 130}" stroke="{INK}" stroke-width="1"/>')
+    # 空碗
+    s.append(f'<path d="M56,{gy + 82} Q78,{gy + 126} 100,{gy + 82}" fill="#EFE6D4" stroke="{INK}" stroke-width="1.2"/>')
+    s.append(f'<line x1="54" y1="{gy + 82}" x2="102" y2="{gy + 82}" stroke="{INK}" stroke-width="1.2"/>')
+    s.append(txt(78, gy + 144, "不足", 4.3, "#6E6459", "middle"))
+    # 满碗
+    s.append(f'<path d="M262,{gy + 64} Q288,{gy + 116} 314,{gy + 64}" fill="#EFE6D4" stroke="{INK}" stroke-width="1.2"/>')
+    s.append(f'<line x1="258" y1="{gy + 64}" x2="318" y2="{gy + 64}" stroke="{INK}" stroke-width="1.2"/>')
+    s.append(f'<path d="M258,{gy + 64} q30,-14 60,0" fill="#DED2B8" stroke="{INK}" stroke-width="1"/>')
+    s.append(txt(288, gy + 144, "有余", 4.3, SEAL, "middle"))
+    # 两只手：从空碗刮起，捧向满碗
+    s.append(f'<path d="M98,{gy + 52} Q118,{gy + 66} 138,{gy + 52}" fill="#EFE6D4" stroke="{INK}" stroke-width="1"/>')
+    for i in range(3):
+        s.append(f'<line x1="{108 + i * 9}" y1="{gy + 54}" x2="{107 + i * 9}" y2="{gy + 44}" stroke="{INK}" stroke-width="0.8"/>')
+
+    s.append(f'<path d="M140,{gy + 52} Q200,{gy + 26} 258,{gy + 46}" fill="none" stroke="{SEAL}" stroke-width="1" stroke-dasharray="4 3"/>')
+    s.append(f'<polygon points="258,{gy + 46} 246,{gy + 42} 248,{gy + 52}" fill="{SEAL}"/>')
+    s.append(txt(190, gy + 24, "捧而献之", 4.3, SEAL, "middle"))
+    s.append(txt(190, gy + 166, "夺者含恨，献者含敬；而最冷者，献者自愿也", 4.6, GREEN, "middle"))
+
+    s.append(txt(24, gy + 190, "二、唯有道者：倒过来捧", 4.8, GREEN))
+    gy2 = gy + 202
+    s.append(f'<rect x="26" y="{gy2}" width="328" height="152" fill="#FBF6EC" stroke="{LINE}" stroke-width="0.8"/>')
+    s.append(f'<line x1="34" y1="{gy2 + 130}" x2="330" y2="{gy2 + 130}" stroke="{INK}" stroke-width="1"/>')
+    # 满碗（源）
+    s.append(f'<path d="M56,{gy2 + 64} Q82,{gy2 + 116} 108,{gy2 + 64}" fill="#EFE6D4" stroke="{INK}" stroke-width="1.2"/>')
+    s.append(f'<line x1="52" y1="{gy2 + 64}" x2="112" y2="{gy2 + 64}" stroke="{INK}" stroke-width="1.2"/>')
+    s.append(f'<path d="M52,{gy2 + 64} q30,-14 60,0" fill="#DED2B8" stroke="{INK}" stroke-width="1"/>')
+    s.append(txt(82, gy2 + 144, "有余", 4.3, SEAL, "middle"))
+    # 空碗（受）
+    s.append(f'<path d="M262,{gy2 + 82} Q288,{gy2 + 126} 314,{gy2 + 82}" fill="#EFE6D4" stroke="{INK}" stroke-width="1.2"/>')
+    s.append(f'<line x1="260" y1="{gy2 + 82}" x2="316" y2="{gy2 + 82}" stroke="{INK}" stroke-width="1.2"/>')
+    s.append(txt(288, gy2 + 144, "不足", 4.3, "#6E6459", "middle"))
+    s.append(f'<path d="M120,{gy2 + 48} Q200,{gy2 + 26} 260,{gy2 + 62}" fill="none" stroke="#4A5C55" stroke-width="1" stroke-dasharray="4 3"/>')
+    s.append(f'<polygon points="260,{gy2 + 62} 248,{gy2 + 58} 250,{gy2 + 68}" fill="#4A5C55"/>')
+    s.append(f'<path d="M178,{gy2 + 38} Q200,{gy2 + 54} 222,{gy2 + 38}" fill="#EFE6D4" stroke="{INK}" stroke-width="1"/>')
+    for i in range(3):
+        s.append(f'<line x1="{187 + i * 8}" y1="{gy2 + 40}" x2="{186 + i * 8}" y2="{gy2 + 30}" stroke="{INK}" stroke-width="0.8"/>')
+
+    s.append(txt(196, gy2 + 26, "有余以奉天下", 4.3, "#4A5C55", "middle"))
+    s.append(txt(190, gy2 + 166, "孰能有余以奉天下？唯有道者", 4.6, GREEN, "middle"))
+
+    a = gy2 + 190
+    s.append(txt(24, a, "人之道非「有人夺我」，乃「令被夺者自捧而献，且以为当然」。", 4.8, INK))
+    s.append(txt(24, a + 16, "同一双手，两个方向：向上献，是人之道；向下倒，是道者。", 4.8, INK))
+    s.append(txt(24, a + 34, "不欲见贤者，不欲使人见其所有余也。", 5.0, GREEN))
+
+    c = a + 52
+    s.append(f'<line x1="24" y1="{c}" x2="338" y2="{c}" stroke="{LINE}" stroke-width="0.6"/>')
+    s.append(box(20, c + 8, 340, 40, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, c + 23, "人之道则不然，损不足以奉有余。", 5.4, INK, "middle"))
+    s.append(txt(190, c + 36, "奉者，承也：两手捧而献之。", 4.7, GREEN, "middle"))
+    s.append(gold(c + 64, "ch77c"))
+    s.append('</svg>')
+    return "\n".join(s)
+
+
 GOLD = {
     "ch74a": ["常有司杀者杀。", "司者，《说文》曰「臣司事于外者，从反后」；"],
     "ch74b": ["夫代司杀者杀，是谓代大匠斫。", "斫者，《说文》曰「击也」，从斤——一下而断，不可复也。"],
@@ -3702,6 +3898,9 @@ GOLD = {
     "ch76a": ["人之生也柔弱，其死也坚强。", "柔者，《说文》曰「木曲直也」——曲者可直，直者可曲。"],
     "ch76b": ["故坚强者死之徒，柔弱者生之徒。", "徒者，《说文》曰「步行也」，从辵从土——其字本在走。"],
     "ch76c": ["是以兵强则灭，木强则折。", "折者，《说文》曰「断也，从斤断艸」——斧落于草。"],
+    "ch77a": ["天之道，其犹张弓与？", "张者，《说文》曰「施弓弦也」——非拉弓也，上弦也。"],
+    "ch77b": ["有余者损之，不足者补之。", "补者，《说文》曰「完衣也」——缝也，非给也。"],
+    "ch77c": ["人之道则不然，损不足以奉有余。", "奉者，《说文》曰「承也」，从手从廾——两手捧而献之。"],
     "ch73a": ["勇于敢则杀，勇于不敢则活。", "气无方向，向由敢定；"],
     "ch73b": ["繟者，《说文》曰「带缓也」，从糸——带系之松也。", "人之谋也系紧，紧则勒，勒处即崩处；"],
     "ch73c": ["天网恢恢，疏而不失。", "疏者，《说文》曰「通也」，非稀也；"],
@@ -9930,6 +10129,9 @@ FIGS = {
     "ch76a-yi-gen-zhi-tiao": ("第七十六章", "一根枝条", ch76a_yi_gen_zhi_tiao),
     "ch76b-yi-zhang-gong": ("第七十六章", "一张弓", ch76b_yi_zhang_gong),
     "ch76c-yi-ba-fu": ("第七十六章", "一把斧", ch76c_yi_ba_fu),
+    "ch77a-yi-zhang-xian": ("第七十七章", "一张弦", ch77a_yi_zhang_xian),
+    "ch77b-yi-jian-po-yi": ("第七十七章", "一件破衣", ch77b_yi_jian_po_yi),
+    "ch77c-liang-zhi-shou": ("第七十七章", "两只捧起的手", ch77c_liang_zhi_shou),
 }
 
 
