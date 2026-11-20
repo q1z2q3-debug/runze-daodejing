@@ -3539,6 +3539,141 @@ def ch20_wei_zhi_yu_e():
 
 
 # ============ 第二十一章 · 孔德之容 ============
+def ch20b_shi_ji_yu_jiao_luo():
+    body, y = head(380, 999, "众人熙熙，我独泊兮：不是不合群，是不必挤进去",
+                   "第 二 十 章 · 两 种 站 法", "市集与角落", "众人熙熙，如享太牢，如春登台；我独泊兮其未兆。", 999)
+    s = [body]
+
+    s.append(box(20, y + 2, 340, 34, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, y + 14, "同一套标准之前，有两种站法：一种是挤进去，一种是站在外头看。", 4.9, INK, "middle"))
+    s.append(txt(190, y + 27, "「泊」不是冷，是停在没起念的那一处。", 4.8, "#6E6459"))
+
+    # 一、市集
+    s.append(txt(24, y + 52, "一、熙熙：众人举杯、争先，谁也不肯落后", 5.2, SEAL))
+    gy = y + 64
+    s.append(f'<rect x="26" y="{gy}" width="328" height="172" fill="#FBF6EC" stroke="{LINE}" stroke-width="0.8"/>')
+    s.append(f'<rect x="54" y="{gy + 100}" width="272" height="9" fill="#EFE6D4" stroke="{INK}" stroke-width="0.9"/>')
+    s.append(f'<line x1="70" y1="{gy + 109}" x2="70" y2="{gy + 128}" stroke="{INK}" stroke-width="0.8"/>')
+    s.append(f'<line x1="310" y1="{gy + 109}" x2="310" y2="{gy + 128}" stroke="{INK}" stroke-width="0.8"/>')
+    for k in range(6):
+        x = 82 + k * 42
+        s.append(f'<ellipse cx="{x}" cy="{gy + 98}" rx="8" ry="3" fill="#EFE6D4" stroke="{INK}" stroke-width="0.7"/>')
+        s.append(f'<path d="M{x - 8},{gy + 98} q8,10 16,0" fill="none" stroke="{INK}" stroke-width="0.7"/>')
+    for x in [70, 118, 166, 226, 292]:
+        s.append(f'<circle cx="{x}" cy="{gy + 54}" r="5" fill="none" stroke="{INK}" stroke-width="0.9"/>')
+        s.append(f'<line x1="{x}" y1="{gy + 59}" x2="{x}" y2="{gy + 82}" stroke="{INK}" stroke-width="1.1"/>')
+        s.append(f'<line x1="{x}" y1="{gy + 82}" x2="{x - 6}" y2="{gy + 94}" stroke="{INK}" stroke-width="0.9"/>')
+        s.append(f'<line x1="{x}" y1="{gy + 82}" x2="{x + 6}" y2="{gy + 94}" stroke="{INK}" stroke-width="0.9"/>')
+        s.append(f'<line x1="{x}" y1="{gy + 64}" x2="{x + 15}" y2="{gy + 58}" stroke="{INK}" stroke-width="0.9"/>')
+        s.append(f'<path d="M{x + 15},{gy + 52.6} L{x + 23},{gy + 52.6} L{x + 21.4},{gy + 59.4} L{x + 16.6},{gy + 59.4} Z" fill="#EFE6D4" stroke="{INK}" stroke-width="0.7"/>')
+    s.append(txt(190, gy + 162, "如享太牢，如春登台：人人都在席上", 4.3, SEAL, "middle"))
+
+    # 二、角落
+    s.append(txt(24, gy + 190, "二、独泊：同席之外，一个人停在没起念处", 5.2, GREEN))
+    gy2 = gy + 202
+    s.append(f'<rect x="26" y="{gy2}" width="328" height="172" fill="#FBF6EC" stroke="{LINE}" stroke-width="0.8"/>')
+    for x in [64, 104, 144, 184]:
+        s.append(f'<circle cx="{x}" cy="{gy2 + 62}" r="3.4" fill="none" stroke="{LINE}" stroke-width="0.7"/>')
+        s.append(f'<line x1="{x}" y1="{gy2 + 65}" x2="{x}" y2="{gy2 + 88}" stroke="{LINE}" stroke-width="0.7"/>')
+    s.append(f'<rect x="50" y="{gy2 + 100}" width="152" height="6" fill="#F1EADA" stroke="{LINE}" stroke-width="0.6"/>')
+    s.append(txt(126, gy2 + 124, "远处的席，与自己无关了", 3.9, "#8A7C69", "middle"))
+    px, py = 258, gy2 + 56
+    s.append(f'<circle cx="{px}" cy="{py}" r="5.4" fill="none" stroke="{INK}" stroke-width="1.0"/>')
+    s.append(f'<line x1="{px}" y1="{py + 6}" x2="{px}" y2="{py + 30}" stroke="{INK}" stroke-width="1.2"/>')
+    s.append(f'<line x1="{px}" y1="{py + 30}" x2="{px - 9}" y2="{py + 38}" stroke="{INK}" stroke-width="1.0"/>')
+    s.append(f'<line x1="{px - 9}" y1="{py + 38}" x2="{px + 6}" y2="{py + 40}" stroke="{INK}" stroke-width="1.0"/>')
+    s.append(f'<line x1="{px}" y1="{py + 30}" x2="{px + 10}" y2="{py + 38}" stroke="{INK}" stroke-width="1.0"/>')
+    s.append(f'<line x1="{px + 10}" y1="{py + 38}" x2="{px + 20}" y2="{py + 40}" stroke="{INK}" stroke-width="1.0"/>')
+    s.append(f'<line x1="{px}" y1="{py + 12}" x2="{px - 12}" y2="{py + 24}" stroke="{INK}" stroke-width="0.9"/>')
+    s.append(f'<line x1="{px}" y1="{py + 12}" x2="{px + 12}" y2="{py + 24}" stroke="{INK}" stroke-width="0.9"/>')
+    s.append(f'<line x1="{px - 34}" y1="{py + 42}" x2="{px + 34}" y2="{py + 42}" stroke="{LINE}" stroke-width="0.8"/>')
+    s.append(f'<path d="M{px - 26},{py + 42} q10,-5 20,0 M{px - 6},{py + 42} q10,-5 20,0" fill="none" stroke="{LINE}" stroke-width="0.5"/>')
+    s.append(txt(px, gy2 + 154, "泊兮其未兆：水面未起波，念还未动", 4.2, GREEN, "middle"))
+
+    a = gy2 + 190
+    s.append(txt(24, a, "「熙熙」不是错，只是热闹有个尽头：散席之后，还是各自回家。", 4.9, INK))
+    s.append(txt(24, a + 16, "「独泊」也不是清高：是知道自己在哪一处不必挤，就不挤了。", 4.9, INK))
+    s.append(txt(24, a + 34, "未兆：念头还没有起，就先把脚收住。", 4.9, GREEN))
+
+    c = a + 52
+    s.append(f'<line x1="24" y1="{c}" x2="338" y2="{c}" stroke="{LINE}" stroke-width="0.6"/>')
+    s.append(box(20, c + 8, 340, 40, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, c + 24, "众人熙熙，如享太牢；", 6.0, INK, "middle"))
+    s.append(txt(190, c + 36, "我独泊兮其未兆。", 6.0, GREEN, "middle"))
+    s.append(gold(c + 62, "ch20b"))
+    s.append('</svg>')
+    out = "\n".join(s)
+    ys = [float(v) for v in re.findall(r'y="([0-9.]+)"', out)]
+    return out.replace("999", str(int(max(ys) + 26)))
+
+
+def ch20c_kong_dai():
+    body, y = head(380, 999, "众人皆有余，而我独若遗",
+                   "第 二 十 章 · 有 余 与 若 遗", "一只空袋", "众人皆有余，而我独若遗。我愚人之心也哉！", 999)
+    s = [body]
+
+    s.append(box(20, y + 2, 340, 34, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, y + 14, "「有余」是袋里装满，「若遗」是袋空着。", 4.9, INK, "middle"))
+    s.append(txt(190, y + 27, "不是没有，是不必什么都带着。", 4.8, "#6E6459"))
+
+    def man(x, gy, bag=None):
+        s.append(f'<circle cx="{x}" cy="{gy + 30}" r="6" fill="none" stroke="{INK}" stroke-width="1.0"/>')
+        s.append(f'<line x1="{x}" y1="{gy + 36}" x2="{x}" y2="{gy + 64}" stroke="{INK}" stroke-width="1.2"/>')
+        s.append(f'<line x1="{x}" y1="{gy + 64}" x2="{x - 7}" y2="{gy + 78}" stroke="{INK}" stroke-width="0.9"/>')
+        s.append(f'<line x1="{x}" y1="{gy + 64}" x2="{x + 7}" y2="{gy + 78}" stroke="{INK}" stroke-width="0.9"/>')
+        s.append(f'<line x1="{x}" y1="{gy + 44}" x2="{x - 14}" y2="{gy + 56}" stroke="{INK}" stroke-width="0.9"/>')
+        if bag == "full":
+            s.append(f'<path d="M{x + 6},{gy + 42} q16,2 13,18 q-2,11 -13,9 z" fill="#EFE6D4" stroke="{INK}" stroke-width="0.9"/>')
+            for k in range(3):
+                s.append(f'<circle cx="{x + 10 + k * 3}" cy="{gy + 56}" r="1.6" fill="#C9B79A"/>')
+        elif bag == "empty":
+            s.append(f'<path d="M{x + 4},{gy + 46} q16,2 14,18 q-2,12 -14,10 z" fill="none" stroke="{INK}" stroke-width="0.9" stroke-dasharray="3 2"/>')
+            s.append(f'<line x1="{x + 26}" y1="{gy + 44}" x2="{x + 40}" y2="{gy + 56}" stroke="{GREEN}" stroke-width="0.8"/>')
+
+    # 一、皆有余
+    s.append(txt(24, y + 52, "一、皆有余：人人挎一只鼓囊，走一步都带着全部家当", 5.2, SEAL))
+    gy = y + 64
+    s.append(f'<rect x="26" y="{gy}" width="328" height="120" fill="#FBF6EC" stroke="{LINE}" stroke-width="0.8"/>')
+    for x in [80, 152, 224, 296]:
+        man(x, gy, "full")
+    s.append(f'<line x1="46" y1="{gy + 80}" x2="336" y2="{gy + 80}" stroke="{LINE}" stroke-width="0.8"/>')
+    s.append(txt(190, gy + 104, "袋满，肩沉：没有人是空手来的", 4.2, SEAL, "middle"))
+
+    # 二、独若遗
+    s.append(txt(24, gy + 142, "二、独若遗：一只空袋，风穿得过去", 5.2, GREEN))
+    gy2 = gy + 154
+    s.append(f'<rect x="26" y="{gy2}" width="328" height="124" fill="#FBF6EC" stroke="{LINE}" stroke-width="0.8"/>')
+    man(160, gy2, None)
+    s.append(f'<path d="M182,{gy2 + 34} q-8,26 2,44 q10,4 22,-2 q10,-20 2,-42 z" fill="none" stroke="{INK}" stroke-width="0.9" stroke-dasharray="4 2.5"/>')
+    s.append(f'<path d="M184,{gy2 + 36} q10,-4 20,0" fill="none" stroke="{LINE}" stroke-width="0.7"/>')
+    for k in range(3):
+        yy = gy2 + 50 + k * 8
+        s.append(f'<line x1="206" y1="{yy}" x2="246" y2="{yy}" stroke="{GREEN}" stroke-width="0.6"/>')
+        s.append(f'<line x1="206" y1="{yy}" x2="246" y2="{yy}" stroke="none"/>')
+    s.append(arrow(212, gy2 + 74, 252, gy2 + 74, GREEN, 0.7, None, "arr2"))
+    s.append(txt(254, gy2 + 50, "风穿过去，什么都不留在里面", 4.0, GREEN))
+    s.append(txt(196, gy2 + 100, "空袋", 4.1, INK, "middle"))
+    s.append(f'<line x1="60" y1="{gy2 + 80}" x2="320" y2="{gy2 + 80}" stroke="{LINE}" stroke-width="0.8"/>')
+    s.append(txt(150, gy2 + 100, "袋空，肩轻", 4.2, GREEN, "middle"))
+    s.append(txt(160, gy2 + 116, "留下的地方，装得下别的事；我愚人之心也哉，沌沌兮", 4.1, "#6E6459", "middle"))
+
+    a = gy2 + 146
+    s.append(txt(24, a, "「有余」的人，走着走着就被自己的家当拖住；「若遗」的人，反倒走得远。", 4.9, INK))
+    s.append(txt(24, a + 16, "沌沌不是糊涂，是不把每件事都先算成得失。", 4.9, INK))
+    s.append(txt(24, a + 34, "空着的那只袋，看上去是缺，其实是余地。", 4.9, GREEN))
+
+    c = a + 52
+    s.append(f'<line x1="24" y1="{c}" x2="338" y2="{c}" stroke="{LINE}" stroke-width="0.6"/>')
+    s.append(box(20, c + 8, 340, 40, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, c + 24, "众人皆有余，而我独若遗；", 6.0, INK, "middle"))
+    s.append(txt(190, c + 36, "我愚人之心也哉！", 6.0, GREEN, "middle"))
+    s.append(gold(c + 62, "ch20c"))
+    s.append('</svg>')
+    out = "\n".join(s)
+    ys = [float(v) for v in re.findall(r'y="([0-9.]+)"', out)]
+    return out.replace("999", str(int(max(ys) + 26)))
+
+
 def ch21_kong_de():
     W, H = 380, 548
     body, y = head(W, H, "德不是修出来的，是流出来的", "第 二 十 一 章 · 道 之 为 物", "孔德之容",
@@ -7195,6 +7330,8 @@ GOLD = {
     "ch18c": ["六亲不和，有孝慈；国家昏乱，有忠臣。", "补丁可以救命，却不能代替布。"],
     "ch19b": ["见素抱朴，少私寡欲。", "素不是简陋，是不必再靠外加的东西来证明自己。"],
     "ch19c": ["绝圣弃智，民利百倍；绝巧弃利，盗贼无有。", "绝弃是减法：减到够用，事就成了。"],
+    "ch20b": ["众人熙熙，如享太牢；我独泊兮其未兆。", "不必挤的那一处，站定了，人就轻了。"],
+    "ch20c": ["众人皆有余，而我独若遗。", "空着的那只袋，看上去是缺，其实是余地。"],
     "ch06b": ["谷神不死，是谓玄牝。", "谷者，两山间之空也；能受故能生，生而不有故不竭——生机不在满处，在空处。"],
     "ch06c": ["玄牝之门，是谓天地根。", "门在开合处，不在门板上；一着手去推，它就成了一堵墙。"],
     "ch05b": ["天地不仁，以万物为刍狗。", "刍者，束草也；刍狗有位而无主——用毕回草堆，不是被弃，是位次用完了。"],
@@ -13360,6 +13497,8 @@ FIGS = {
     "ch18c-san-kuai-bu-ding": ("第十八章", "三处破", ch18c_san_kuai_bu_ding),
     "ch19b-yi-ju-qi-qi": ("第十九章", "一具漆器", ch19b_yi_ju_qi_qi),
     "ch19c-ban-chu-qu": ("第十九章", "搬出去", ch19c_ban_chu_qu),
+    "ch20b-shi-ji-yu-jiao-luo": ("第二十章", "市集与角落", ch20b_shi_ji_yu_jiao_luo),
+    "ch20c-kong-dai": ("第二十章", "一只空袋", ch20c_kong_dai),
     "ch24-qi-zhe-bu-li": ("第二十四章", "企者不立", ch24_qi_zhe_bu_li),
     "ch23-xi-yan-zi-ran": ("第二十三章", "希言自然", ch23_xi_yan_zi_ran),
     "ch22-qu-ze-quan": ("第二十二章", "曲则全", ch22_qu_ze_quan),

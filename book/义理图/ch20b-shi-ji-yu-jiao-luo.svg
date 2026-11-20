@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 380 742" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="众人熙熙，我独泊兮：不是不合群，是不必挤进去" font-family="'Noto Serif CJK SC','Noto Serif SC','Songti SC',serif">
+<defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#6E6459"/></marker><marker id="arr2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#4A5C55"/></marker><marker id="arrL" viewBox="0 0 10 10" refX="1" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M10 0 L0 5 L10 10 z" fill="#4A5C55"/></marker><marker id="arrS" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#A2503B"/></marker></defs>
+<rect x="0" y="0" width="380" height="742" fill="#F8F3E6"/>
+<text x="20" y="26" font-size="11" fill="#A2503B" font-family="'Noto Sans CJK SC','Noto Sans SC',sans-serif" letter-spacing="3">第 二 十 章 · 两 种 站 法</text>
+<text x="20" y="58" font-size="21" fill="#2F2A24">市集与角落</text>
+<text x="20" y="78" font-size="10.5" fill="#6E6459">众人熙熙，如享太牢，如春登台；我独泊兮其未兆。</text>
+<rect x="20" y="102" width="340" height="34" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="190" y="114" font-size="4.9" fill="#2F2A24" text-anchor="middle">同一套标准之前，有两种站法：一种是挤进去，一种是站在外头看。</text>
+<text x="190" y="127" font-size="4.8" fill="#6E6459">「泊」不是冷，是停在没起念的那一处。</text>
+<text x="24" y="152" font-size="5.2" fill="#A2503B">一、熙熙：众人举杯、争先，谁也不肯落后</text>
+<rect x="26" y="164" width="328" height="172" fill="#FBF6EC" stroke="#DCCBB0" stroke-width="0.8"/>
+<rect x="54" y="264" width="272" height="9" fill="#EFE6D4" stroke="#2F2A24" stroke-width="0.9"/>
+<line x1="70" y1="273" x2="70" y2="292" stroke="#2F2A24" stroke-width="0.8"/>
+<line x1="310" y1="273" x2="310" y2="292" stroke="#2F2A24" stroke-width="0.8"/>
+<ellipse cx="82" cy="262" rx="8" ry="3" fill="#EFE6D4" stroke="#2F2A24" stroke-width="0.7"/>
+<path d="M74,262 q8,10 16,0" fill="none" stroke="#2F2A24" stroke-width="0.7"/>
+<ellipse cx="124" cy="262" rx="8" ry="3" fill="#EFE6D4" stroke="#2F2A24" stroke-width="0.7"/>
+<path d="M116,262 q8,10 16,0" fill="none" stroke="#2F2A24" stroke-width="0.7"/>
+<ellipse cx="166" cy="262" rx="8" ry="3" fill="#EFE6D4" stroke="#2F2A24" stroke-width="0.7"/>
+<path d="M158,262 q8,10 16,0" fill="none" stroke="#2F2A24" stroke-width="0.7"/>
+<ellipse cx="208" cy="262" rx="8" ry="3" fill="#EFE6D4" stroke="#2F2A24" stroke-width="0.7"/>
+<path d="M200,262 q8,10 16,0" fill="none" stroke="#2F2A24" stroke-width="0.7"/>
+<ellipse cx="250" cy="262" rx="8" ry="3" fill="#EFE6D4" stroke="#2F2A24" stroke-width="0.7"/>
+<path d="M242,262 q8,10 16,0" fill="none" stroke="#2F2A24" stroke-width="0.7"/>
+<ellipse cx="292" cy="262" rx="8" ry="3" fill="#EFE6D4" stroke="#2F2A24" stroke-width="0.7"/>
+<path d="M284,262 q8,10 16,0" fill="none" stroke="#2F2A24" stroke-width="0.7"/>
+<circle cx="70" cy="218" r="5" fill="none" stroke="#2F2A24" stroke-width="0.9"/>
+<line x1="70" y1="223" x2="70" y2="246" stroke="#2F2A24" stroke-width="1.1"/>
+<line x1="70" y1="246" x2="64" y2="258" stroke="#2F2A24" stroke-width="0.9"/>
+<line x1="70" y1="246" x2="76" y2="258" stroke="#2F2A24" stroke-width="0.9"/>
+<line x1="70" y1="228" x2="85" y2="222" stroke="#2F2A24" stroke-width="0.9"/>
+<path d="M85,216.6 L93,216.6 L91.4,223.4 L86.6,223.4 Z" fill="#EFE6D4" stroke="#2F2A24" stroke-width="0.7"/>
+<circle cx="118" cy="218" r="5" fill="none" stroke="#2F2A24" stroke-width="0.9"/>
+<line x1="118" y1="223" x2="118" y2="246" stroke="#2F2A24" stroke-width="1.1"/>
+<line x1="118" y1="246" x2="112" y2="258" stroke="#2F2A24" stroke-width="0.9"/>
+<line x1="118" y1="246" x2="124" y2="258" stroke="#2F2A24" stroke-width="0.9"/>
+<line x1="118" y1="228" x2="133" y2="222" stroke="#2F2A24" stroke-width="0.9"/>
+<path d="M133,216.6 L141,216.6 L139.4,223.4 L134.6,223.4 Z" fill="#EFE6D4" stroke="#2F2A24" stroke-width="0.7"/>
+<circle cx="166" cy="218" r="5" fill="none" stroke="#2F2A24" stroke-width="0.9"/>
+<line x1="166" y1="223" x2="166" y2="246" stroke="#2F2A24" stroke-width="1.1"/>
+<line x1="166" y1="246" x2="160" y2="258" stroke="#2F2A24" stroke-width="0.9"/>
+<line x1="166" y1="246" x2="172" y2="258" stroke="#2F2A24" stroke-width="0.9"/>
+<line x1="166" y1="228" x2="181" y2="222" stroke="#2F2A24" stroke-width="0.9"/>
+<path d="M181,216.6 L189,216.6 L187.4,223.4 L182.6,223.4 Z" fill="#EFE6D4" stroke="#2F2A24" stroke-width="0.7"/>
+<circle cx="226" cy="218" r="5" fill="none" stroke="#2F2A24" stroke-width="0.9"/>
+<line x1="226" y1="223" x2="226" y2="246" stroke="#2F2A24" stroke-width="1.1"/>
+<line x1="226" y1="246" x2="220" y2="258" stroke="#2F2A24" stroke-width="0.9"/>
+<line x1="226" y1="246" x2="232" y2="258" stroke="#2F2A24" stroke-width="0.9"/>
+<line x1="226" y1="228" x2="241" y2="222" stroke="#2F2A24" stroke-width="0.9"/>
+<path d="M241,216.6 L249,216.6 L247.4,223.4 L242.6,223.4 Z" fill="#EFE6D4" stroke="#2F2A24" stroke-width="0.7"/>
+<circle cx="292" cy="218" r="5" fill="none" stroke="#2F2A24" stroke-width="0.9"/>
+<line x1="292" y1="223" x2="292" y2="246" stroke="#2F2A24" stroke-width="1.1"/>
+<line x1="292" y1="246" x2="286" y2="258" stroke="#2F2A24" stroke-width="0.9"/>
+<line x1="292" y1="246" x2="298" y2="258" stroke="#2F2A24" stroke-width="0.9"/>
+<line x1="292" y1="228" x2="307" y2="222" stroke="#2F2A24" stroke-width="0.9"/>
+<path d="M307,216.6 L315,216.6 L313.4,223.4 L308.6,223.4 Z" fill="#EFE6D4" stroke="#2F2A24" stroke-width="0.7"/>
+<text x="190" y="326" font-size="4.3" fill="#A2503B" text-anchor="middle">如享太牢，如春登台：人人都在席上</text>
+<text x="24" y="354" font-size="5.2" fill="#4A5C55">二、独泊：同席之外，一个人停在没起念处</text>
+<rect x="26" y="366" width="328" height="172" fill="#FBF6EC" stroke="#DCCBB0" stroke-width="0.8"/>
+<circle cx="64" cy="428" r="3.4" fill="none" stroke="#DCCBB0" stroke-width="0.7"/>
+<line x1="64" y1="431" x2="64" y2="454" stroke="#DCCBB0" stroke-width="0.7"/>
+<circle cx="104" cy="428" r="3.4" fill="none" stroke="#DCCBB0" stroke-width="0.7"/>
+<line x1="104" y1="431" x2="104" y2="454" stroke="#DCCBB0" stroke-width="0.7"/>
+<circle cx="144" cy="428" r="3.4" fill="none" stroke="#DCCBB0" stroke-width="0.7"/>
+<line x1="144" y1="431" x2="144" y2="454" stroke="#DCCBB0" stroke-width="0.7"/>
+<circle cx="184" cy="428" r="3.4" fill="none" stroke="#DCCBB0" stroke-width="0.7"/>
+<line x1="184" y1="431" x2="184" y2="454" stroke="#DCCBB0" stroke-width="0.7"/>
+<rect x="50" y="466" width="152" height="6" fill="#F1EADA" stroke="#DCCBB0" stroke-width="0.6"/>
+<text x="126" y="490" font-size="3.9" fill="#8A7C69" text-anchor="middle">远处的席，与自己无关了</text>
+<circle cx="258" cy="422" r="5.4" fill="none" stroke="#2F2A24" stroke-width="1.0"/>
+<line x1="258" y1="428" x2="258" y2="452" stroke="#2F2A24" stroke-width="1.2"/>
+<line x1="258" y1="452" x2="249" y2="460" stroke="#2F2A24" stroke-width="1.0"/>
+<line x1="249" y1="460" x2="264" y2="462" stroke="#2F2A24" stroke-width="1.0"/>
+<line x1="258" y1="452" x2="268" y2="460" stroke="#2F2A24" stroke-width="1.0"/>
+<line x1="268" y1="460" x2="278" y2="462" stroke="#2F2A24" stroke-width="1.0"/>
+<line x1="258" y1="434" x2="246" y2="446" stroke="#2F2A24" stroke-width="0.9"/>
+<line x1="258" y1="434" x2="270" y2="446" stroke="#2F2A24" stroke-width="0.9"/>
+<line x1="224" y1="464" x2="292" y2="464" stroke="#DCCBB0" stroke-width="0.8"/>
+<path d="M232,464 q10,-5 20,0 M252,464 q10,-5 20,0" fill="none" stroke="#DCCBB0" stroke-width="0.5"/>
+<text x="258" y="520" font-size="4.2" fill="#4A5C55" text-anchor="middle">泊兮其未兆：水面未起波，念还未动</text>
+<text x="24" y="556" font-size="4.9" fill="#2F2A24">「熙熙」不是错，只是热闹有个尽头：散席之后，还是各自回家。</text>
+<text x="24" y="572" font-size="4.9" fill="#2F2A24">「独泊」也不是清高：是知道自己在哪一处不必挤，就不挤了。</text>
+<text x="24" y="590" font-size="4.9" fill="#4A5C55">未兆：念头还没有起，就先把脚收住。</text>
+<line x1="24" y1="608" x2="338" y2="608" stroke="#DCCBB0" stroke-width="0.6"/>
+<rect x="20" y="616" width="340" height="40" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="190" y="632" font-size="6.0" fill="#2F2A24" text-anchor="middle">众人熙熙，如享太牢；</text>
+<text x="190" y="644" font-size="6.0" fill="#4A5C55" text-anchor="middle">我独泊兮其未兆。</text>
+<line x1="20" y1="670" x2="360" y2="670" stroke="#E6D8C2" stroke-width="0.8"/>
+<text x="20" y="684" font-size="8.0" fill="#A89577" letter-spacing="1">本 章 金 句</text>
+<text x="20" y="700" font-size="8.4" fill="#2F2A24">众人熙熙，如享太牢；我独泊兮其未兆。</text>
+<text x="20" y="716" font-size="8.4" fill="#2F2A24">不必挤的那一处，站定了，人就轻了。</text>
+</svg>
