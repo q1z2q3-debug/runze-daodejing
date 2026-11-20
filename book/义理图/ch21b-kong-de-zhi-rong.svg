@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 380 730" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="孔德之容，惟道是从：德不占地方，道才进得来" font-family="'Noto Serif CJK SC','Noto Serif SC','Songti SC',serif">
+<defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#6E6459"/></marker><marker id="arr2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#4A5C55"/></marker><marker id="arrL" viewBox="0 0 10 10" refX="1" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M10 0 L0 5 L10 10 z" fill="#4A5C55"/></marker><marker id="arrS" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#A2503B"/></marker></defs>
+<rect x="0" y="0" width="380" height="730" fill="#F8F3E6"/>
+<text x="20" y="26" font-size="11" fill="#A2503B" font-family="'Noto Sans CJK SC','Noto Sans SC',sans-serif" letter-spacing="3">第 二 十 一 章 · 一 枚 带 孔 的 璧</text>
+<text x="20" y="58" font-size="21" fill="#2F2A24">一枚带孔的璧</text>
+<text x="20" y="78" font-size="10.5" fill="#6E6459">孔，大也、空也、通也：三读各异，落处是一处。</text>
+<rect x="20" y="102" width="340" height="34" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="190" y="114" font-size="4.8" fill="#2F2A24" text-anchor="middle">「孔」有三读：河上公读「大」，王弼读「空」，《说文》本义是「通」。</text>
+<text x="190" y="127" font-size="4.8" fill="#6E6459">三个读法落在一件东西上：一枚中间穿孔的玉璧。</text>
+<text x="24" y="152" font-size="5.2" fill="#A2503B">一、璧：环体是「大」，孔里是「空」，孔穿过去是「通」</text>
+<rect x="26" y="164" width="328" height="176" fill="#FBF6EC" stroke="#DCCBB0" stroke-width="0.8"/>
+<circle cx="150" cy="252" r="62" fill="#F6EEE0" stroke="#2F2A24" stroke-width="1.4"/>
+<circle cx="150" cy="252" r="16" fill="#F8F3E6" stroke="#2F2A24" stroke-width="1.4"/>
+<circle cx="150" cy="252" r="52" fill="none" stroke="#E6D8C2" stroke-width="0.6"/>
+<circle cx="184.0" cy="252.0" r="1.6" fill="#C9B79A"/>
+<circle cx="182.8" cy="260.8" r="1.6" fill="#C9B79A"/>
+<circle cx="179.4" cy="269.0" r="1.6" fill="#C9B79A"/>
+<circle cx="174.0" cy="276.0" r="1.6" fill="#C9B79A"/>
+<circle cx="167.0" cy="281.4" r="1.6" fill="#C9B79A"/>
+<circle cx="158.8" cy="284.8" r="1.6" fill="#C9B79A"/>
+<circle cx="150.0" cy="286.0" r="1.6" fill="#C9B79A"/>
+<circle cx="141.2" cy="284.8" r="1.6" fill="#C9B79A"/>
+<circle cx="133.0" cy="281.4" r="1.6" fill="#C9B79A"/>
+<circle cx="126.0" cy="276.0" r="1.6" fill="#C9B79A"/>
+<circle cx="120.6" cy="269.0" r="1.6" fill="#C9B79A"/>
+<circle cx="117.2" cy="260.8" r="1.6" fill="#C9B79A"/>
+<circle cx="116.0" cy="252.0" r="1.6" fill="#C9B79A"/>
+<circle cx="117.2" cy="243.2" r="1.6" fill="#C9B79A"/>
+<circle cx="120.6" cy="235.0" r="1.6" fill="#C9B79A"/>
+<circle cx="126.0" cy="228.0" r="1.6" fill="#C9B79A"/>
+<circle cx="133.0" cy="222.6" r="1.6" fill="#C9B79A"/>
+<circle cx="141.2" cy="219.2" r="1.6" fill="#C9B79A"/>
+<circle cx="150.0" cy="218.0" r="1.6" fill="#C9B79A"/>
+<circle cx="158.8" cy="219.2" r="1.6" fill="#C9B79A"/>
+<circle cx="167.0" cy="222.6" r="1.6" fill="#C9B79A"/>
+<circle cx="174.0" cy="228.0" r="1.6" fill="#C9B79A"/>
+<circle cx="179.4" cy="235.0" r="1.6" fill="#C9B79A"/>
+<circle cx="182.8" cy="243.2" r="1.6" fill="#C9B79A"/>
+<text x="252" y="204" font-size="4.3" fill="#A2503B">环体宽厚：大</text>
+<text x="252" y="220" font-size="4.3" fill="#4A5C55">孔里虚着：空</text>
+<text x="252" y="236" font-size="4.3" fill="#2F2A24">孔能穿过：通</text>
+<line x1="262" y1="208" x2="170" y2="246" stroke="#DCCBB0" stroke-width="0.6"/>
+<line x1="262" y1="224" x2="168" y2="254" stroke="#DCCBB0" stroke-width="0.6"/>
+<line x1="262" y1="240" x2="172" y2="264" stroke="#DCCBB0" stroke-width="0.6"/>
+<text x="150" y="332" font-size="4.2" fill="#A2503B" text-anchor="middle">三句话说的是同一件事：德之所以能容，正因它不占地方</text>
+<text x="24" y="358" font-size="5.2" fill="#4A5C55">二、一只杯：壁若自己占满了，水就进不来</text>
+<rect x="26" y="370" width="328" height="152" fill="#FBF6EC" stroke="#DCCBB0" stroke-width="0.8"/>
+<path d="M90,404 L98,466 L142,466 L150,404" fill="none" stroke="#2F2A24" stroke-width="1.1"/>
+<path d="M92,406 L96,463 L144,463 L148,406" fill="#D9CBAA" stroke="none"/>
+<text x="120" y="434" font-size="4.2" fill="#2F2A24" text-anchor="middle">德占满</text>
+<ellipse cx="120" cy="404" rx="30" ry="5" fill="#F8F3E6" stroke="#2F2A24" stroke-width="1.0"/>
+<path d="M228,404 L236,466 L280,466 L288,404" fill="none" stroke="#2F2A24" stroke-width="1.1"/>
+<path d="M230,406 L234,463 L282,463 L286,406" fill="#E4EFE4" stroke="none"/>
+<line x1="231" y1="414" x2="285" y2="414" stroke="#4A5C55" stroke-width="0.7"/>
+<ellipse cx="258" cy="404" rx="30" ry="5" fill="#F8F3E6" stroke="#2F2A24" stroke-width="1.0"/>
+<line x1="108" y1="378" x2="108" y2="394" stroke="#8A7C69" stroke-width="0.7" stroke-dasharray="3 2"/>
+<line x1="120" y1="378" x2="120" y2="394" stroke="#8A7C69" stroke-width="0.7" stroke-dasharray="3 2"/>
+<line x1="132" y1="378" x2="132" y2="394" stroke="#8A7C69" stroke-width="0.7" stroke-dasharray="3 2"/>
+<path d="M100,376 q8,-8 16,0 M132,376 q8,-8 16,0" fill="none" stroke="#8A7C69" stroke-width="0.6"/>
+<text x="120" y="488" font-size="4.1" fill="#8A7C69" text-anchor="middle">水在口上打住</text>
+<line x1="246" y1="378" x2="246" y2="396" stroke="#4A5C55" stroke-width="0.7"/>
+<line x1="258" y1="378" x2="258" y2="396" stroke="#4A5C55" stroke-width="0.7"/>
+<line x1="270" y1="378" x2="270" y2="396" stroke="#4A5C55" stroke-width="0.7"/>
+<text x="258" y="488" font-size="4.1" fill="#4A5C55" text-anchor="middle">水一直进得去</text>
+<text x="190" y="510" font-size="4.2" fill="#2F2A24" text-anchor="middle">空不是没有，是留出可以进的那处</text>
+<text x="24" y="544" font-size="4.8" fill="#2F2A24">「孔德之容」：不是先修出一份德、再去从道；是德的一切呈现，本来就只从道出。</text>
+<text x="24" y="560" font-size="4.8" fill="#2F2A24">「容」是描摹，不是定义——第十五章「强为之容」也是描摹。</text>
+<text x="24" y="578" font-size="4.8" fill="#4A5C55">德若自己占满了，道就进不来。</text>
+<line x1="24" y1="596" x2="338" y2="596" stroke="#DCCBB0" stroke-width="0.6"/>
+<rect x="20" y="604" width="340" height="40" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="190" y="620" font-size="6.0" fill="#2F2A24" text-anchor="middle">孔德之容，惟道是从。</text>
+<text x="190" y="632" font-size="5.0" fill="#4A5C55" text-anchor="middle">德之所以能容，正因它不占地方。</text>
+<line x1="20" y1="658" x2="360" y2="658" stroke="#E6D8C2" stroke-width="0.8"/>
+<text x="20" y="672" font-size="8.0" fill="#A89577" letter-spacing="1">本 章 金 句</text>
+<text x="20" y="688" font-size="8.4" fill="#2F2A24">孔德之容，惟道是从。</text>
+<text x="20" y="704" font-size="8.4" fill="#2F2A24">德之所以能容，正因它不占地方。</text>
+</svg>

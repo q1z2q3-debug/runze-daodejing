@@ -3674,6 +3674,150 @@ def ch20c_kong_dai():
     return out.replace("999", str(int(max(ys) + 26)))
 
 
+def ch21b_kong_de_zhi_rong():
+    body, y = head(380, 999, "孔德之容，惟道是从：德不占地方，道才进得来",
+                   "第 二 十 一 章 · 一 枚 带 孔 的 璧", "一枚带孔的璧", "孔，大也、空也、通也：三读各异，落处是一处。", 999)
+    s = [body]
+
+    s.append(box(20, y + 2, 340, 34, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, y + 14, "「孔」有三读：河上公读「大」，王弼读「空」，《说文》本义是「通」。", 4.8, INK, "middle"))
+    s.append(txt(190, y + 27, "三个读法落在一件东西上：一枚中间穿孔的玉璧。", 4.8, "#6E6459"))
+
+    # 一、璧
+    s.append(txt(24, y + 52, "一、璧：环体是「大」，孔里是「空」，孔穿过去是「通」", 5.2, SEAL))
+    gy = y + 64
+    s.append(f'<rect x="26" y="{gy}" width="328" height="176" fill="#FBF6EC" stroke="{LINE}" stroke-width="0.8"/>')
+    cx, cy = 150, gy + 88
+    s.append(f'<circle cx="{cx}" cy="{cy}" r="62" fill="#F6EEE0" stroke="{INK}" stroke-width="1.4"/>')
+    s.append(f'<circle cx="{cx}" cy="{cy}" r="16" fill="{PAPER}" stroke="{INK}" stroke-width="1.4"/>')
+    s.append(f'<circle cx="{cx}" cy="{cy}" r="52" fill="none" stroke="{LINE2}" stroke-width="0.6"/>')
+    for k in range(24):
+        import math as _m
+        a = k * 15 * _m.pi / 180
+        s.append(f'<circle cx="{cx + 34 * _m.cos(a):.1f}" cy="{cy + 34 * _m.sin(a):.1f}" r="1.6" fill="#C9B79A"/>')
+    s.append(txt(252, gy + 40, "环体宽厚：大", 4.3, SEAL))
+    s.append(txt(252, gy + 56, "孔里虚着：空", 4.3, GREEN))
+    s.append(txt(252, gy + 72, "孔能穿过：通", 4.3, INK))
+    s.append(f'<line x1="262" y1="{gy + 44}" x2="{cx + 20}" y2="{cy - 6}" stroke="{LINE}" stroke-width="0.6"/>')
+    s.append(f'<line x1="262" y1="{gy + 60}" x2="{cx + 18}" y2="{cy + 2}" stroke="{LINE}" stroke-width="0.6"/>')
+    s.append(f'<line x1="262" y1="{gy + 76}" x2="{cx + 22}" y2="{cy + 12}" stroke="{LINE}" stroke-width="0.6"/>')
+    s.append(txt(150, gy + 168, "三句话说的是同一件事：德之所以能容，正因它不占地方", 4.2, SEAL, "middle"))
+
+    # 二、杯
+    s.append(txt(24, gy + 194, "二、一只杯：壁若自己占满了，水就进不来", 5.2, GREEN))
+    gy2 = gy + 206
+    s.append(f'<rect x="26" y="{gy2}" width="328" height="152" fill="#FBF6EC" stroke="{LINE}" stroke-width="0.8"/>')
+
+    def cup(x, solid):
+        top, bot, w = gy2 + 34, gy2 + 96, 30
+        s.append(f'<path d="M{x - w},{top} L{x - w + 8},{bot} L{x + w - 8},{bot} L{x + w},{top}" fill="none" stroke="{INK}" stroke-width="1.1"/>')
+        if solid:
+            s.append(f'<path d="M{x - w + 2},{top + 2} L{x - w + 6},{bot - 3} L{x + w - 6},{bot - 3} L{x + w - 2},{top + 2}" fill="#D9CBAA" stroke="none"/>')
+            s.append(txt(x, top + 30, "德占满", 4.2, INK, "middle"))
+        else:
+            s.append(f'<path d="M{x - w + 2},{top + 2} L{x - w + 6},{bot - 3} L{x + w - 6},{bot - 3} L{x + w - 2},{top + 2}" fill="#E4EFE4" stroke="none"/>')
+            s.append(f'<line x1="{x - w + 3}" y1="{top + 10}" x2="{x + w - 3}" y2="{top + 10}" stroke="{GREEN}" stroke-width="0.7"/>')
+        s.append(f'<ellipse cx="{x}" cy="{top}" rx="{w}" ry="5" fill="{PAPER}" stroke="{INK}" stroke-width="1.0"/>')
+
+    cup(120, True)
+    cup(258, False)
+    for k in range(3):
+        s.append(f'<line x1="{108 + k * 12}" y1="{gy2 + 8}" x2="{108 + k * 12}" y2="{gy2 + 24}" stroke="#8A7C69" stroke-width="0.7" stroke-dasharray="3 2"/>')
+    s.append(f'<path d="M100,{gy2 + 6} q8,-8 16,0 M132,{gy2 + 6} q8,-8 16,0" fill="none" stroke="#8A7C69" stroke-width="0.6"/>')
+    s.append(txt(120, gy2 + 118, "水在口上打住", 4.1, "#8A7C69", "middle"))
+    for k in range(3):
+        s.append(f'<line x1="{246 + k * 12}" y1="{gy2 + 8}" x2="{246 + k * 12}" y2="{gy2 + 26}" stroke="{GREEN}" stroke-width="0.7"/>')
+    s.append(txt(258, gy2 + 118, "水一直进得去", 4.1, GREEN, "middle"))
+    s.append(txt(190, gy2 + 140, "空不是没有，是留出可以进的那处", 4.2, INK, "middle"))
+
+    a = gy2 + 174
+    s.append(txt(24, a, "「孔德之容」：不是先修出一份德、再去从道；是德的一切呈现，本来就只从道出。", 4.8, INK))
+    s.append(txt(24, a + 16, "「容」是描摹，不是定义——第十五章「强为之容」也是描摹。", 4.8, INK))
+    s.append(txt(24, a + 34, "德若自己占满了，道就进不来。", 4.8, GREEN))
+
+    c = a + 52
+    s.append(f'<line x1="24" y1="{c}" x2="338" y2="{c}" stroke="{LINE}" stroke-width="0.6"/>')
+    s.append(box(20, c + 8, 340, 40, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, c + 24, "孔德之容，惟道是从。", 6.0, INK, "middle"))
+    s.append(txt(190, c + 36, "德之所以能容，正因它不占地方。", 5.0, GREEN, "middle"))
+    s.append(gold(c + 62, "ch21b"))
+    s.append('</svg>')
+    out = "\n".join(s)
+    ys = [float(v) for v in re.findall(r'y="([0-9.]+)"', out)]
+    return out.replace("999", str(int(max(ys) + 26)))
+
+
+def ch21c_men_nei_dian_shu():
+    body, y = head(380, 999, "以阅众甫：在门内把万物的开端一一点过",
+                   "第 二 十 一 章 · 门 内 点 数", "门内点数", "阅，具数于门中也。", 999)
+    s = [body]
+
+    s.append(box(20, y + 2, 340, 34, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, y + 14, "「名」是指向实相的符号，不是实相；符号留得住，地方留不住。", 4.8, INK, "middle"))
+    s.append(txt(190, y + 27, "「阅」是门里逐个点数——比空说的「观照」具体得多。", 4.8, "#6E6459"))
+
+    # 一、路标
+    s.append(txt(24, y + 52, "一、路标：名不去，是路标一直在；路标不是那个地方", 5.2, SEAL))
+    gy = y + 64
+    s.append(f'<rect x="26" y="{gy}" width="328" height="164" fill="#FBF6EC" stroke="{LINE}" stroke-width="0.8"/>')
+    s.append(f'<path d="M40,{gy + 132} q60,-6 120,4 q60,10 120,2 q40,-5 52,0" fill="none" stroke="{LINE2}" stroke-width="1.0"/>')
+    s.append(f'<line x1="120" y1="{gy + 128}" x2="120" y2="{gy + 62}" stroke="{INK}" stroke-width="1.6"/>')
+    s.append(f'<path d="M92,{gy + 40} L150,{gy + 40} L166,{gy + 54} L150,{gy + 68} L92,{gy + 68} Z" fill="#F2EADA" stroke="{INK}" stroke-width="1.1"/>')
+    s.append(txt(122, gy + 56, "道", 5.6, SEAL, "middle"))
+    s.append(f'<line x1="170" y1="{gy + 54}" x2="196" y2="{gy + 54}" stroke="{SEAL}" stroke-width="0.9" stroke-dasharray="4 2"/>')
+    s.append(arrow(198, gy + 54, 222, gy + 54, SEAL, 0.9, None, "arr2"))
+    s.append(txt(224, gy + 48, "所指：那边", 4.1, SEAL))
+    for k, (rx, ry, op) in enumerate([(48, 26, 0.5), (38, 20, 0.6), (28, 14, 0.7)]):
+        s.append(f'<ellipse cx="288" cy="{gy + 70}" rx="{rx}" ry="{ry}" fill="#F3EBDD" opacity="{op}" stroke="none"/>')
+    for yy in [gy + 60, gy + 70, gy + 80]:
+        s.append(f'<path d="M262,{yy} q13,-4 26,0 q13,4 26,0" fill="none" stroke="#DCCFBB" stroke-width="0.6"/>')
+    s.append(txt(286, gy + 108, "那处本身，看不见也说不全", 3.9, "#8A7C69", "middle"))
+    s.append(txt(127, gy + 148, "路标写着名，不等于名就是那处", 4.1, "#8A7C69", "middle"))
+    # 二、门内点数
+    s.append(txt(24, gy + 182, "二、门内点数：一器一器点过，点名的是开端，不是器物", 5.2, GREEN))
+    gy2 = gy + 194
+    s.append(f'<rect x="26" y="{gy2}" width="328" height="176" fill="#FBF6EC" stroke="{LINE}" stroke-width="0.8"/>')
+    s.append(f'<line x1="70" y1="{gy2 + 26}" x2="70" y2="{gy2 + 150}" stroke="{INK}" stroke-width="1.2"/>')
+    s.append(f'<line x1="310" y1="{gy2 + 26}" x2="310" y2="{gy2 + 150}" stroke="{INK}" stroke-width="1.2"/>')
+    s.append(f'<line x1="70" y1="{gy2 + 26}" x2="310" y2="{gy2 + 26}" stroke="{INK}" stroke-width="1.4"/>')
+    s.append(f'<line x1="70" y1="{gy2 + 150}" x2="310" y2="{gy2 + 150}" stroke="{INK}" stroke-width="1.2"/>')
+    s.append(f'<rect x="140" y="{gy2 + 16}" width="100" height="14" fill="#F2EADA" stroke="{LINE}" stroke-width="0.8"/>')
+    s.append(txt(190, gy2 + 26, "道", 4.4, SEAL, "middle"))
+    s.append(txt(252, gy2 + 12, "名不去：路标一直在", 3.9, "#8A7C69"))
+    for k, w in enumerate([16, 22, 14, 18, 12]):
+        x = 92 + k * 44
+        s.append(f'<line x1="{x}" y1="{gy2 + 150}" x2="{x}" y2="{gy2 + 116}" stroke="{INK}" stroke-width="1.0"/>')
+        if k % 2 == 0:
+            s.append(f'<path d="M{x - w / 2},{gy2 + 116} q{w / 2},-14 {w},0 q-{w / 2},6 -{w},0" fill="none" stroke="{INK}" stroke-width="1.0"/>')
+        else:
+            s.append(f'<rect x="{x - w / 2}" y="{gy2 + 104}" width="{w}" height="12" fill="none" stroke="{INK}" stroke-width="1.0"/>')
+        s.append(txt(x, gy2 + 166, ["一", "二", "三", "四", "五"][k], 3.6, GREEN, "middle"))
+    s.append(f'<circle cx="200" cy="{gy2 + 78}" r="5" fill="none" stroke="{INK}" stroke-width="0.9"/>')
+    s.append(f'<line x1="200" y1="{gy2 + 83}" x2="200" y2="{gy2 + 108}" stroke="{INK}" stroke-width="1.1"/>')
+    s.append(f'<line x1="200" y1="{gy2 + 108}" x2="194" y2="{gy2 + 128}" stroke="{INK}" stroke-width="0.9"/>')
+    s.append(f'<line x1="200" y1="{gy2 + 108}" x2="206" y2="{gy2 + 128}" stroke="{INK}" stroke-width="0.9"/>')
+    s.append(f'<line x1="200" y1="{gy2 + 90}" x2="230" y2="{gy2 + 96}" stroke="{INK}" stroke-width="0.9"/>')
+    s.append(f'<line x1="200" y1="{gy2 + 90}" x2="170" y2="{gy2 + 96}" stroke="{INK}" stroke-width="0.9"/>')
+    s.append(arrow(236, gy2 + 98, 268, gy2 + 98, GREEN, 0.8, None, "arr2"))
+    s.append(txt(190, gy2 + 44, "自今及古，其名不去", 4.0, "#8A7C69", "middle"))
+
+    a = gy2 + 200
+    s.append(txt(24, a, "「阅」的本义是在门内逐一点数：不是抽象地观照万物的开端，是把开端一一点过。", 4.8, INK))
+    s.append(txt(24, a + 16, "自今及古：从当下回溯上古，这个可以被名为「道」的存在，从来不曾消失。", 4.8, INK))
+    s.append(txt(24, a + 34, "「以此」二字，把「知」的来源说尽了：不是知道得多，是站对了地方。", 4.8, GREEN))
+
+    c = a + 52
+    s.append(f'<line x1="24" y1="{c}" x2="338" y2="{c}" stroke="{LINE}" stroke-width="0.6"/>')
+    s.append(box(20, c + 8, 340, 40, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, c + 24, "惚兮恍兮，其中有象；恍兮惚兮，其中有物。", 5.4, INK, "middle"))
+    s.append(txt(190, c + 36, "吾何以知众甫之状哉？以此。", 5.4, GREEN, "middle"))
+    s.append(gold(c + 62, "ch21c"))
+    s.append('</svg>')
+    out = "\n".join(s)
+    ys = [float(v) for v in re.findall(r'y="([0-9.]+)"', out)]
+    return out.replace("999", str(int(max(ys) + 26)))
+
+
 def ch21_kong_de():
     W, H = 380, 548
     body, y = head(W, H, "德不是修出来的，是流出来的", "第 二 十 一 章 · 道 之 为 物", "孔德之容",
@@ -7332,6 +7476,8 @@ GOLD = {
     "ch19c": ["绝圣弃智，民利百倍；绝巧弃利，盗贼无有。", "绝弃是减法：减到够用，事就成了。"],
     "ch20b": ["众人熙熙，如享太牢；我独泊兮其未兆。", "不必挤的那一处，站定了，人就轻了。"],
     "ch20c": ["众人皆有余，而我独若遗。", "空着的那只袋，看上去是缺，其实是余地。"],
+    "ch21b": ["孔德之容，惟道是从。", "德之所以能容，正因它不占地方。"],
+    "ch21c": ["自今及古，其名不去，以阅众甫。", "不是知道得多，是站对了地方。"],
     "ch06b": ["谷神不死，是谓玄牝。", "谷者，两山间之空也；能受故能生，生而不有故不竭——生机不在满处，在空处。"],
     "ch06c": ["玄牝之门，是谓天地根。", "门在开合处，不在门板上；一着手去推，它就成了一堵墙。"],
     "ch05b": ["天地不仁，以万物为刍狗。", "刍者，束草也；刍狗有位而无主——用毕回草堆，不是被弃，是位次用完了。"],
@@ -13499,6 +13645,8 @@ FIGS = {
     "ch19c-ban-chu-qu": ("第十九章", "搬出去", ch19c_ban_chu_qu),
     "ch20b-shi-ji-yu-jiao-luo": ("第二十章", "市集与角落", ch20b_shi_ji_yu_jiao_luo),
     "ch20c-kong-dai": ("第二十章", "一只空袋", ch20c_kong_dai),
+    "ch21b-kong-de-zhi-rong": ("第二十一章", "一枚带孔的璧", ch21b_kong_de_zhi_rong),
+    "ch21c-men-nei-dian-shu": ("第二十一章", "门内点数", ch21c_men_nei_dian_shu),
     "ch24-qi-zhe-bu-li": ("第二十四章", "企者不立", ch24_qi_zhe_bu_li),
     "ch23-xi-yan-zi-ran": ("第二十三章", "希言自然", ch23_xi_yan_zi_ran),
     "ch22-qu-ze-quan": ("第二十二章", "曲则全", ch22_qu_ze_quan),
