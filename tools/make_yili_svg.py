@@ -7734,6 +7734,8 @@ GOLD = {
     "ch26c": ["静为躁君。", "静下来，才照得见自己；不是修养，是水面本来的功能。"],
     "ch27b": ["不是不做，是做到了不必做。", "工具一件一件撤掉，里头的东西一件一件长出来。"],
     "ch27c": ["无弃人，无弃物：是谓袭明。", "不是他心肠软，是他看见的分类不成立。"],
+    "ch28b": ["散是必然，认下这个散，在散里用。", "制字带刀，割字带刀，而大制不割。"],
+    "ch28c": ["溪是众水所归，谷是泉水所出；一个受，一个出。", "守的是位置，不是人格。"],
     "ch06b": ["谷神不死，是谓玄牝。", "谷者，两山间之空也；能受故能生，生而不有故不竭——生机不在满处，在空处。"],
     "ch06c": ["玄牝之门，是谓天地根。", "门在开合处，不在门板上；一着手去推，它就成了一堵墙。"],
     "ch05b": ["天地不仁，以万物为刍狗。", "刍者，束草也；刍狗有位而无主——用毕回草堆，不是被弃，是位次用完了。"],
@@ -8805,6 +8807,152 @@ def ch28_zhi_xiong():
     s.append('</svg>')
     return "\n".join(s)
 
+
+
+def ch28b_dao_luo():
+    body, y = head(380, 999, "朴散则为器：散是必然，认下这个散，在散里用",
+                   "第 二 十 八 章 · 一 段 原 木", "一段原木",
+                   "朴散则为器，圣人用之，则为官长。故大制不割。", 999)
+    s = [body]
+
+    s.append(box(20, y + 2, 340, 34, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, y + 14, "「朴」是未斫的原木；「器」是剖开、削琢之后各有其用的东西。", 4.7, INK, "middle"))
+    s.append(txt(190, y + 27, "「制」是裁，「割」从刀——两个带刀的字，老子偏说不割。", 4.7, "#6E6459"))
+
+    # 一、刀落
+    s.append(txt(24, y + 52, "一、刀落：一段原木，剖成四件器", 5.1, SEAL))
+    gy = y + 64
+    s.append(f'<rect x="26" y="{gy}" width="328" height="152" fill="#FBF6EC" stroke="{LINE}" stroke-width="0.8"/>')
+    s.append(f'<line x1="40" y1="{gy + 108}" x2="336" y2="{gy + 108}" stroke="{LINE}" stroke-width="0.9"/>')
+    # 原木
+    s.append(f'<rect x="44" y="{gy + 78}" width="76" height="26" rx="11" fill="#D9C7A6" stroke="{INK}" stroke-width="1.0"/>')
+    s.append(f'<ellipse cx="120" cy="{gy + 91}" rx="7" ry="13" fill="#E4D3B2" stroke="{INK}" stroke-width="0.9"/>')
+    s.append(f'<path d="M60,{gy + 84} q16,4 30,0 M58,{gy + 92} q18,4 34,0" fill="none" stroke="{LINE2}" stroke-width="0.6"/>')
+    s.append(txt(82, gy + 120, "朴：未斫之材", 4.1, "#8A7C69", "middle"))
+    # 刀
+    s.append(f'<rect x="152" y="{gy + 28}" width="12" height="10" rx="2" fill="#E4D3B2" stroke="{INK}" stroke-width="0.8"/>')
+    s.append(f'<line x1="158" y1="{gy + 38}" x2="158" y2="{gy + 62}" stroke="{INK}" stroke-width="1.2"/>')
+    s.append(f'<path d="M152,{gy + 62} L164,{gy + 62} L158,{gy + 80} Z" fill="#EFE6D4" stroke="{INK}" stroke-width="0.9"/>')
+    s.append(arrow(176, gy + 52, 196, gy + 52, color=SEAL, width=0.9, head="arrS"))
+    # 四件器
+    # 正方体
+    s.append(f'<rect x="206" y="{gy + 44}" width="30" height="30" fill="#EFE6D4" stroke="{INK}" stroke-width="0.9"/>')
+    s.append(f'<path d="M206,{gy + 44} L216,{gy + 36} L246,{gy + 36} L236,{gy + 44} Z" fill="#F6EFE0" stroke="{INK}" stroke-width="0.9"/>')
+    s.append(f'<path d="M236,{gy + 44} L246,{gy + 36} L246,{gy + 66} L236,{gy + 74} Z" fill="#E4D3B2" stroke="{INK}" stroke-width="0.9"/>')
+    # 长方体
+    s.append(f'<rect x="272" y="{gy + 52}" width="48" height="20" fill="#EFE6D4" stroke="{INK}" stroke-width="0.9"/>')
+    s.append(f'<path d="M272,{gy + 52} L280,{gy + 45} L328,{gy + 45} L320,{gy + 52} Z" fill="#F6EFE0" stroke="{INK}" stroke-width="0.8"/>')
+    s.append(f'<line x1="280" y1="{gy + 45}" x2="280" y2="{gy + 65}" stroke="{INK}" stroke-width="0.7"/>')
+    # 圆柱
+    s.append(f'<rect x="206" y="{gy + 88}" width="26" height="20" fill="#EFE6D4" stroke="{INK}" stroke-width="0.9"/>')
+    s.append(f'<ellipse cx="219" cy="{gy + 88}" rx="13" ry="4.4" fill="#F6EFE0" stroke="{INK}" stroke-width="0.9"/>')
+    # 小木鸟
+    s.append(f'<ellipse cx="288" cy="{gy + 100}" rx="18" ry="9" fill="#E4D3B2" stroke="{INK}" stroke-width="0.9"/>')
+    s.append(f'<circle cx="304" cy="{gy + 92}" r="5.2" fill="#EFE6D4" stroke="{INK}" stroke-width="0.9"/>')
+    s.append(f'<path d="M309,{gy + 91} l7,2 l-7,2 Z" fill="#EFE6D4" stroke="{INK}" stroke-width="0.7"/>')
+    s.append(f'<path d="M282,{gy + 94} q8,-7 16,-1" fill="none" stroke="{INK}" stroke-width="0.7"/>')
+    s.append(txt(288, gy + 118, "四件各有用", 4.1, "#8A7C69", "middle"))
+    s.append(txt(190, gy + 22, "刀一落，木就分成了一件一件", 4.3, SEAL, "middle"))
+
+    # 二、刀不落
+    s.append(txt(24, gy + 174, "二、刀不落：木还在，器也还在", 5.1, GREEN))
+    gy2 = gy + 186
+    s.append(f'<rect x="26" y="{gy2}" width="328" height="152" fill="#FBF6EC" stroke="{LINE}" stroke-width="0.8"/>')
+    s.append(f'<line x1="40" y1="{gy2 + 108}" x2="336" y2="{gy2 + 108}" stroke="{LINE}" stroke-width="0.9"/>')
+    # 原木整段
+    s.append(f'<rect x="44" y="{gy2 + 78}" width="76" height="26" rx="11" fill="#D9C7A6" stroke="{INK}" stroke-width="1.0"/>')
+    s.append(f'<ellipse cx="120" cy="{gy2 + 91}" rx="7" ry="13" fill="#E4D3B2" stroke="{INK}" stroke-width="0.9"/>')
+    # 刀悬着不落
+    s.append(f'<line x1="82" y1="{gy2 + 30}" x2="82" y2="{gy2 + 52}" stroke="#9C9182" stroke-width="1.0" stroke-dasharray="4 3"/>')
+    s.append(f'<path d="M76,{gy2 + 52} L88,{gy2 + 52} L82,{gy2 + 68} Z" fill="#F1EADA" stroke="#9C9182" stroke-width="0.9"/>')
+    s.append(txt(118, gy2 + 56, "刀悬在木上，不落", 4.1, "#8A7C69"))
+    # 四件还在
+    s.append(f'<rect x="176" y="{gy2 + 48}" width="24" height="24" fill="#EFE6D4" stroke="{LINE2}" stroke-width="0.8"/>')
+    s.append(f'<rect x="212" y="{gy2 + 56}" width="40" height="15" fill="#EFE6D4" stroke="{LINE2}" stroke-width="0.8"/>')
+    s.append(f'<rect x="176" y="{gy2 + 86}" width="20" height="16" fill="#EFE6D4" stroke="{LINE2}" stroke-width="0.8"/>')
+    s.append(f'<ellipse cx="234" cy="{gy2 + 94}" rx="14" ry="7" fill="#E4D3B2" stroke="{LINE2}" stroke-width="0.8"/>')
+    s.append(f'<circle cx="246" cy="{gy2 + 88}" r="4" fill="#EFE6D4" stroke="{LINE2}" stroke-width="0.7"/>')
+    s.append(txt(208, gy2 + 126, "器在人手里，成色不变", 4.1, "#8A7C69", "middle"))
+    s.append(txt(280, gy2 + 56, "不砸器回朴：", 4.1, GREEN))
+    s.append(txt(280, gy2 + 70, "砸也是造作，", 4.1, GREEN))
+    s.append(txt(280, gy2 + 84, "还要用刀毁刀。", 4.1, GREEN))
+    s.append(txt(190, gy2 + 22, "刀收了，木没有被剖尽，器也没有被推翻", 4.3, GREEN, "middle"))
+
+    a = gy2 + 170
+    s.append(txt(24, a, "「朴散则为器」：散是必然，万物各有形状、各有边界、各有限度。", 4.8, INK))
+    s.append(txt(24, a + 16, "「圣人用之」：不是他能造器，是他认得每一件器本来是什么。", 4.8, INK))
+    s.append(txt(24, a + 34, "「大制不割」：分是看清，割是定性——看清可以，定性不行。", 4.8, GREEN))
+
+    c = a + 52
+    s.append(f'<line x1="24" y1="{c}" x2="338" y2="{c}" stroke="{LINE}" stroke-width="0.6"/>')
+    s.append(box(20, c + 8, 340, 40, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, c + 24, "散是必然，认下这个散，在散里用。", 5.8, INK, "middle"))
+    s.append(txt(190, c + 36, "制字带刀，割字带刀，而大制不割。", 5.0, GREEN, "middle"))
+    s.append(gold(c + 62, "ch28b"))
+    s.append('</svg>')
+    out = "\n".join(s)
+    ys = [float(v) for v in re.findall(r'y="([0-9.]+)"', out)]
+    return out.replace("999", str(int(max(ys) + 26)))
+
+
+def ch28c_xi_yu_gu():
+    body, y = head(380, 999, "溪是众水所归，谷是泉水所出；一个受，一个出",
+                   "第 二 十 八 章 · 溪 与 谷", "溪与谷",
+                   "知其雄，守其雌，为天下溪；知其荣，守其辱，为天下谷。", 999)
+    s = [body]
+
+    s.append(box(20, y + 2, 340, 34, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, y + 14, "「溪」是山谷间的水道，「谷」是泉出通川之处；溪受，谷出。", 4.7, INK, "middle"))
+    s.append(txt(190, y + 27, "守雌守辱不是认输，是选址：这两处都是水会来的地方。", 4.7, "#6E6459"))
+
+    # 一、溪：众水所归
+    s.append(txt(24, y + 52, "一、溪：众水所归，受", 5.1, GREEN))
+    gy = y + 64
+    s.append(f'<rect x="26" y="{gy}" width="328" height="152" fill="#FBF6EC" stroke="{LINE}" stroke-width="0.8"/>')
+    s.append(f'<path d="M52,{gy + 30} L156,{gy + 106} M328,{gy + 30} L224,{gy + 106}" fill="none" stroke="{INK}" stroke-width="1.0"/>')
+    s.append(f'<path d="M156,{gy + 106} L224,{gy + 106} L219,{gy + 92} L161,{gy + 92} Z" fill="#E9F0E6" stroke="{INK}" stroke-width="0.9"/>')
+    # 三股水汇下来（都落在谷内，不压坡线）
+    s.append(arrow(112, gy + 42, 158, gy + 88, color="#6E8A6E", width=0.9, head="arrS"))
+    s.append(arrow(190, gy + 34, 190, gy + 88, color="#6E8A6E", width=0.9, head="arrS"))
+    s.append(arrow(268, gy + 42, 222, gy + 88, color="#6E8A6E", width=0.9, head="arrS"))
+    s.append(txt(190, gy + 138, "低处不索取，高处的水自己下来", 4.1, GREEN, "middle"))
+    s.append(txt(190, gy + 20, "溪", 5.2, "#8A7C69", "middle"))
+
+    # 二、谷：泉水所出
+    s.append(txt(24, gy + 174, "二、谷：泉水所出，虚而能出", 5.1, SEAL))
+    gy2 = gy + 186
+    s.append(f'<rect x="26" y="{gy2}" width="328" height="152" fill="#FBF6EC" stroke="{LINE}" stroke-width="0.8"/>')
+    s.append(f'<path d="M52,{gy2 + 30} L150,{gy2 + 96} M328,{gy2 + 30} L232,{gy2 + 96}" fill="none" stroke="{INK}" stroke-width="1.0"/>')
+    s.append(f'<line x1="150" y1="{gy2 + 96}" x2="232" y2="{gy2 + 96}" stroke="{INK}" stroke-width="1.0"/>')
+    # 泉眼
+    s.append(f'<ellipse cx="180" cy="{gy2 + 88}" rx="24" ry="8" fill="#E9F0E6" stroke="{INK}" stroke-width="0.9"/>')
+    s.append(f'<ellipse cx="180" cy="{gy2 + 88}" rx="11" ry="4" fill="none" stroke="#6E8A6E" stroke-width="0.7"/>')
+    # 泉往上涌
+    s.append(arrow(180, gy2 + 80, 180, gy2 + 46, color="#6E8A6E", width=0.9, head="arrS"))
+    s.append(arrow(158, gy2 + 82, 158, gy2 + 56, color="#6E8A6E", width=0.7, head="arrS"))
+    s.append(arrow(202, gy2 + 82, 202, gy2 + 56, color="#6E8A6E", width=0.7, head="arrS"))
+    # 顺着谷口出去（在坡线之下，不出框）
+    s.append(arrow(226, gy2 + 108, 322, gy2 + 108, color="#6E8A6E", width=0.9, head="arrS"))
+    s.append(f'<path d="M244,{gy2 + 112} q10,5 20,0 M276,{gy2 + 112} q10,5 20,0" fill="none" stroke="{LINE2}" stroke-width="0.6"/>')
+    s.append(txt(190, gy2 + 124, "谷口", 3.9, "#8A7C69", "middle"))
+    s.append(txt(190, gy2 + 20, "谷", 5.2, "#8A7C69", "middle"))
+    s.append(txt(190, gy2 + 140, "空而能出，才是谷；空而无出，那只是个坑", 4.1, SEAL, "middle"))
+
+    a = gy2 + 170
+    s.append(txt(24, a, "「知其雄，守其雌，为天下溪」：守住那个低处，低处就成了你的位置。", 4.8, INK))
+    s.append(txt(24, a + 16, "「知其荣，守其辱，为天下谷」：空而能出，德到这里才「足」。", 4.8, INK))
+    s.append(txt(24, a + 34, "不离、不忒、乃足：从守住，到守稳，到守出余量。", 4.8, GREEN))
+
+    c = a + 52
+    s.append(f'<line x1="24" y1="{c}" x2="338" y2="{c}" stroke="{LINE}" stroke-width="0.6"/>')
+    s.append(box(20, c + 8, 340, 40, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, c + 24, "溪是众水所归，谷是泉水所出；一个受，一个出。", 5.4, INK, "middle"))
+    s.append(txt(190, c + 36, "守的是位置，不是人格。", 5.0, GREEN, "middle"))
+    s.append(gold(c + 62, "ch28c"))
+    s.append('</svg>')
+    out = "\n".join(s)
+    ys = [float(v) for v in re.findall(r'y="([0-9.]+)"', out)]
+    return out.replace("999", str(int(max(ys) + 26)))
 
 
 # ============ 第二十九章 · 天下神器 ============
@@ -14481,6 +14629,8 @@ FIGS = {
     "ch26b-zi-zhong": ("第二十六章", "一辆辎重车", ch26b_zi_zhong),
     "ch27b-gong-ju-xiang": ("第二十七章", "一只工具箱", ch27b_gong_ju_xiang),
     "ch27c-fen-jian-ji": ("第二十七章", "一架分拣机", ch27c_fen_jian_ji),
+    "ch28b-dao-luo": ("第二十八章", "一段原木", ch28b_dao_luo),
+    "ch28c-xi-yu-gu": ("第二十八章", "溪与谷", ch28c_xi_yu_gu),
     "ch26c-jing-shui": ("第二十六章", "一盆水", ch26c_jing_shui),
     "ch24-qi-zhe-bu-li": ("第二十四章", "企者不立", ch24_qi_zhe_bu_li),
     "ch23-xi-yan-zi-ran": ("第二十三章", "希言自然", ch23_xi_yan_zi_ran),
