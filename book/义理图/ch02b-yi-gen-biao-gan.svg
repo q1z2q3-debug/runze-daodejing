@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 380 706" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="一根标杆立起来，两侧的影子同时落地：丑不是先有的，是立美那一刻才有的" font-family="'Noto Serif CJK SC','Noto Serif SC','Songti SC',serif">
+<defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#6E6459"/></marker><marker id="arr2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#4A5C55"/></marker><marker id="arrL" viewBox="0 0 10 10" refX="1" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M10 0 L0 5 L10 10 z" fill="#4A5C55"/></marker><marker id="arrS" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#A2503B"/></marker></defs>
+<rect x="0" y="0" width="380" height="706" fill="#F8F3E6"/>
+<text x="20" y="26" font-size="11" fill="#A2503B" font-family="'Noto Sans CJK SC','Noto Sans SC',sans-serif" letter-spacing="3">第 二 章 · 标</text>
+<text x="20" y="58" font-size="21" fill="#2F2A24">一根标杆</text>
+<text x="20" y="78" font-size="10.5" fill="#6E6459">天下皆知美之为美，斯恶已。</text>
+<rect x="20" y="102" width="340" height="34" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="190" y="114" font-size="5.0" fill="#2F2A24" text-anchor="middle">「美」不是东西的性质，是一句评语；评语要有刻度，刻度先要立一根杆。</text>
+<text x="190" y="128" font-size="5.0" fill="#6E6459" text-anchor="middle">杆一立，量得到的叫美，量不到的当场成了恶——恶是被这一杆造出来的，不是原来就有。</text>
+<text x="24" y="152" font-size="5.2" fill="#A2503B">一、未立标：地上只有东西</text>
+<rect x="26" y="164" width="328" height="132" fill="#FBF6EC" stroke="#DCCBB0" stroke-width="0.8"/>
+<line x1="40" y1="260" x2="330" y2="260" stroke="#2F2A24" stroke-width="1"/>
+<rect x="78" y="240" width="26" height="20" fill="#EFE6D4" stroke="#B9A98F" stroke-width="0.8"/>
+<rect x="150" y="246" width="34" height="14" fill="#EFE6D4" stroke="#B9A98F" stroke-width="0.8"/>
+<rect x="226" y="234" width="22" height="26" fill="#EFE6D4" stroke="#B9A98F" stroke-width="0.8"/>
+<line x1="60" y1="260" x2="57" y2="253" stroke="#B9A98F" stroke-width="0.7"/>
+<line x1="60" y1="260" x2="63" y2="254" stroke="#B9A98F" stroke-width="0.7"/>
+<line x1="118" y1="260" x2="115" y2="253" stroke="#B9A98F" stroke-width="0.7"/>
+<line x1="118" y1="260" x2="121" y2="254" stroke="#B9A98F" stroke-width="0.7"/>
+<line x1="196" y1="260" x2="193" y2="253" stroke="#B9A98F" stroke-width="0.7"/>
+<line x1="196" y1="260" x2="199" y2="254" stroke="#B9A98F" stroke-width="0.7"/>
+<line x1="262" y1="260" x2="259" y2="253" stroke="#B9A98F" stroke-width="0.7"/>
+<line x1="262" y1="260" x2="265" y2="254" stroke="#B9A98F" stroke-width="0.7"/>
+<line x1="306" y1="260" x2="303" y2="253" stroke="#B9A98F" stroke-width="0.7"/>
+<line x1="306" y1="260" x2="309" y2="254" stroke="#B9A98F" stroke-width="0.7"/>
+<text x="190" y="280" font-size="4.5" fill="#4A5C55" text-anchor="middle">东西都在，只是没人给它排位：没有「美」，也就没有「恶」</text>
+<text x="190" y="292" font-size="4.3" fill="#8A7C69" text-anchor="middle">空地一片</text>
+<text x="24" y="314" font-size="5.2" fill="#A2503B">二、立标：一杆落地，两侧同时有了名字</text>
+<rect x="26" y="326" width="328" height="170" fill="#FBF6EC" stroke="#DCCBB0" stroke-width="0.8"/>
+<line x1="40" y1="442" x2="330" y2="442" stroke="#2F2A24" stroke-width="1"/>
+<line x1="190" y1="442" x2="190" y2="350" stroke="#2F2A24" stroke-width="1.6"/>
+<rect x="177" y="338" width="26" height="12" fill="#2F2A24" stroke="#2F2A24" stroke-width="0.8"/>
+<line x1="190" y1="352" x2="190" y2="352" stroke="#2F2A24" stroke-width="0.4"/>
+<line x1="190" y1="354" x2="190" y2="354" stroke="#2F2A24" stroke-width="0.4"/>
+<line x1="190" y1="356" x2="190" y2="356" stroke="#2F2A24" stroke-width="0.4"/>
+<line x1="190" y1="358" x2="190" y2="358" stroke="#2F2A24" stroke-width="0.4"/>
+<line x1="190" y1="358" x2="197" y2="349" stroke="#B9A98F" stroke-width="0.5"/>
+<line x1="190" y1="376" x2="197" y2="367" stroke="#B9A98F" stroke-width="0.5"/>
+<line x1="190" y1="394" x2="197" y2="385" stroke="#B9A98F" stroke-width="0.5"/>
+<line x1="190" y1="412" x2="197" y2="403" stroke="#B9A98F" stroke-width="0.5"/>
+<line x1="190" y1="430" x2="197" y2="421" stroke="#B9A98F" stroke-width="0.5"/>
+<path d="M178,442 L76,442 L84,428 L178,420 z" fill="#E8DCC2" stroke="none"/>
+<line x1="170" y1="439" x2="170" y2="430" stroke="#CDBA97" stroke-width="0.5"/>
+<line x1="150" y1="439" x2="150" y2="430" stroke="#CDBA97" stroke-width="0.5"/>
+<line x1="130" y1="439" x2="130" y2="430" stroke="#CDBA97" stroke-width="0.5"/>
+<line x1="110" y1="439" x2="110" y2="430" stroke="#CDBA97" stroke-width="0.5"/>
+<line x1="90" y1="439" x2="90" y2="430" stroke="#CDBA97" stroke-width="0.5"/>
+<path d="M202,442 L304,442 L296,428 L202,420 z" fill="#D8CBAC" stroke="none"/>
+<line x1="210" y1="439" x2="210" y2="430" stroke="#BFA77F" stroke-width="0.5"/>
+<line x1="230" y1="439" x2="230" y2="430" stroke="#BFA77F" stroke-width="0.5"/>
+<line x1="250" y1="439" x2="250" y2="430" stroke="#BFA77F" stroke-width="0.5"/>
+<line x1="270" y1="439" x2="270" y2="430" stroke="#BFA77F" stroke-width="0.5"/>
+<line x1="290" y1="439" x2="290" y2="430" stroke="#BFA77F" stroke-width="0.5"/>
+<text x="128" y="412" font-size="8.0" fill="#A2503B" text-anchor="middle">美</text>
+<text x="128" y="456" font-size="4.4" fill="#A2503B" text-anchor="middle">量得到的</text>
+<text x="252" y="412" font-size="8.0" fill="#6E6459" text-anchor="middle">恶</text>
+<text x="252" y="456" font-size="4.4" fill="#6E6459" text-anchor="middle">量不到的</text>
+<text x="190" y="494" font-size="4.5" fill="#4A5C55" text-anchor="middle">两侧的影子同时落地：杆立之前，一片影子也没有</text>
+<text x="190" y="508" font-size="4.3" fill="#8A7C69" text-anchor="middle">影子不是原本就有的</text>
+<text x="24" y="520" font-size="5.4" fill="#2F2A24">标尺一立，另一半就被判了罪——罪的来处，是那把尺，不是那个人。</text>
+<text x="24" y="536" font-size="5.4" fill="#2F2A24">所以「斯恶已」不是骂人，是记账：这一杆立下去，账上同时记了一笔善、一笔恶。</text>
+<text x="24" y="554" font-size="5.2" fill="#4A5C55">要收的不是恶人，是那一杆——杆收了，账才平。</text>
+<line x1="24" y1="572" x2="338" y2="572" stroke="#DCCBB0" stroke-width="0.6"/>
+<rect x="20" y="580" width="340" height="40" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="190" y="596" font-size="6.0" fill="#2F2A24" text-anchor="middle">不是先有丑，再立美；</text>
+<text x="190" y="608" font-size="6.0" fill="#4A5C55" text-anchor="middle">是立美那一刻，丑才成立。</text>
+<line x1="20" y1="634" x2="360" y2="634" stroke="#E6D8C2" stroke-width="0.8"/>
+<text x="20" y="648" font-size="8.0" fill="#A89577" letter-spacing="1">本 章 金 句</text>
+<text x="20" y="664" font-size="8.4" fill="#2F2A24">天下皆知美之为美，斯恶已。</text>
+<text x="20" y="680" font-size="8.4" fill="#2F2A24">立美那一刻，丑才成立——不是先有丑，再立美。</text>
+</svg>

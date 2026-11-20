@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 380 890" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="三个「不」是一个动作：不主动起标。价牌一挂，力气都朝牌子去" font-family="'Noto Serif CJK SC','Noto Serif SC','Songti SC',serif">
+<defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#6E6459"/></marker><marker id="arr2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#4A5C55"/></marker><marker id="arrL" viewBox="0 0 10 10" refX="1" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M10 0 L0 5 L10 10 z" fill="#4A5C55"/></marker><marker id="arrS" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#A2503B"/></marker></defs>
+<rect x="0" y="0" width="380" height="890" fill="#F8F3E6"/>
+<text x="20" y="26" font-size="11" fill="#A2503B" font-family="'Noto Sans CJK SC','Noto Sans SC',sans-serif" letter-spacing="3">第 三 章 · 价 牌</text>
+<text x="20" y="58" font-size="21" fill="#2F2A24">一块价牌</text>
+<text x="20" y="78" font-size="10.5" fill="#6E6459">不尚贤，使民不争；不贵难得之货，使民不为盗。</text>
+<rect x="20" y="102" width="340" height="34" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="190" y="114" font-size="5.0" fill="#2F2A24" text-anchor="middle">「尚」是把东西抬到上面去，「贵」是给它标个高价，「见」是把它摆到明处。</text>
+<text x="190" y="128" font-size="5.0" fill="#6E6459" text-anchor="middle">三个字，三种抬举；三个「不」，是同一个动作：不主动起标。</text>
+<text x="24" y="152" font-size="5.2" fill="#A2503B">一、挂牌：三块牌挂出来，力气全朝牌子去</text>
+<rect x="26" y="164" width="328" height="180" fill="#FBF6EC" stroke="#DCCBB0" stroke-width="0.8"/>
+<line x1="40" y1="210" x2="330" y2="210" stroke="#2F2A24" stroke-width="1"/>
+<rect x="92" y="210" width="30" height="26" fill="#EFE6D4" stroke="#B9A98F" stroke-width="0.8"/>
+<line x1="107.0" y1="236" x2="107.0" y2="248" stroke="#B9A98F" stroke-width="0.6"/>
+<rect x="95.0" y="248" width="24" height="13" fill="#EBD9CE" stroke="#A2503B" stroke-width="0.9"/>
+<text x="107.0" y="257" font-size="4.2" fill="#A2503B" text-anchor="middle">价</text>
+<rect x="168" y="210" width="36" height="20" fill="#EFE6D4" stroke="#B9A98F" stroke-width="0.8"/>
+<line x1="186.0" y1="230" x2="186.0" y2="242" stroke="#B9A98F" stroke-width="0.6"/>
+<rect x="174.0" y="242" width="24" height="13" fill="#EBD9CE" stroke="#A2503B" stroke-width="0.9"/>
+<text x="186.0" y="251" font-size="4.2" fill="#A2503B" text-anchor="middle">价</text>
+<rect x="244" y="210" width="26" height="30" fill="#EFE6D4" stroke="#B9A98F" stroke-width="0.8"/>
+<line x1="257.0" y1="240" x2="257.0" y2="252" stroke="#B9A98F" stroke-width="0.6"/>
+<rect x="245.0" y="252" width="24" height="13" fill="#EBD9CE" stroke="#A2503B" stroke-width="0.9"/>
+<text x="257.0" y="261" font-size="4.2" fill="#A2503B" text-anchor="middle">价</text>
+<circle cx="92" cy="334" r="3.2" fill="none" stroke="#B9A98F" stroke-width="0.7"/>
+<circle cx="186" cy="334" r="3.2" fill="none" stroke="#B9A98F" stroke-width="0.7"/>
+<circle cx="266" cy="334" r="3.2" fill="none" stroke="#B9A98F" stroke-width="0.7"/>
+<line x1="92" y1="332" x2="156" y2="230" stroke="#A2503B" stroke-width="1.0" marker-end="url(#arrS)"/>
+<line x1="186" y1="332" x2="186" y2="232" stroke="#A2503B" stroke-width="1.0" marker-end="url(#arrS)"/>
+<line x1="266" y1="332" x2="216" y2="230" stroke="#A2503B" stroke-width="1.0" marker-end="url(#arrS)"/>
+<text x="304" y="254" font-size="8.4" fill="#A2503B" text-anchor="middle">争</text>
+<text x="190" y="364" font-size="4.5" fill="#4A5C55" text-anchor="middle">争的不是货，是牌子上的名次</text>
+<text x="190" y="400" font-size="4.4" fill="#8A7C69" text-anchor="middle">挂牌：三样货，三块价牌，三处力气都朝牌子去</text>
+<text x="24" y="428" font-size="5.2" fill="#A2503B">二、撤牌：牌子摘了，货还在，力气各回各处</text>
+<rect x="26" y="440" width="328" height="180" fill="#FBF6EC" stroke="#DCCBB0" stroke-width="0.8"/>
+<line x1="40" y1="486" x2="330" y2="486" stroke="#2F2A24" stroke-width="1"/>
+<rect x="92" y="486" width="30" height="26" fill="#EFE6D4" stroke="#B9A98F" stroke-width="0.8"/>
+<line x1="107.0" y1="512" x2="107.0" y2="520" stroke="#E6D8C2" stroke-width="0.6" stroke-dasharray="2 2"/>
+<rect x="95.0" y="520" width="24" height="13" fill="none" stroke="#E6D8C2" stroke-width="0.7" stroke-dasharray="3 3"/>
+<text x="107.0" y="529" font-size="4.1" fill="#B9A98F" text-anchor="middle">空</text>
+<rect x="168" y="486" width="36" height="20" fill="#EFE6D4" stroke="#B9A98F" stroke-width="0.8"/>
+<line x1="186.0" y1="506" x2="186.0" y2="514" stroke="#E6D8C2" stroke-width="0.6" stroke-dasharray="2 2"/>
+<rect x="174.0" y="514" width="24" height="13" fill="none" stroke="#E6D8C2" stroke-width="0.7" stroke-dasharray="3 3"/>
+<text x="186.0" y="523" font-size="4.1" fill="#B9A98F" text-anchor="middle">空</text>
+<rect x="244" y="486" width="26" height="30" fill="#EFE6D4" stroke="#B9A98F" stroke-width="0.8"/>
+<line x1="257.0" y1="516" x2="257.0" y2="524" stroke="#E6D8C2" stroke-width="0.6" stroke-dasharray="2 2"/>
+<rect x="245.0" y="524" width="24" height="13" fill="none" stroke="#E6D8C2" stroke-width="0.7" stroke-dasharray="3 3"/>
+<text x="257.0" y="533" font-size="4.1" fill="#B9A98F" text-anchor="middle">空</text>
+<text x="322" y="480" font-size="4.2" fill="#4A5C55" text-anchor="end">牌子撤了</text>
+<circle cx="92" cy="614" r="3.2" fill="none" stroke="#B9A98F" stroke-width="0.7"/>
+<circle cx="186" cy="614" r="3.2" fill="none" stroke="#B9A98F" stroke-width="0.7"/>
+<circle cx="272" cy="614" r="3.2" fill="none" stroke="#B9A98F" stroke-width="0.7"/>
+<line x1="92" y1="610" x2="104" y2="516" stroke="#4A5C55" stroke-width="0.9" marker-end="url(#arr2)"/>
+<line x1="186" y1="614" x2="184" y2="510" stroke="#4A5C55" stroke-width="0.9" marker-end="url(#arr2)"/>
+<line x1="272" y1="610" x2="256" y2="516" stroke="#4A5C55" stroke-width="0.9" marker-end="url(#arr2)"/>
+<text x="190" y="640" font-size="4.5" fill="#4A5C55" text-anchor="middle">各取各自要的：本然之欲还在，攀缘之欲没了根</text>
+<text x="190" y="676" font-size="4.4" fill="#8A7C69" text-anchor="middle">撤牌：三块空位还在，只是不再挂东西</text>
+<text x="24" y="704" font-size="5.4" fill="#2F2A24">老子不否贤，不否货，也不否欲——他否的是那把尺。</text>
+<text x="24" y="720" font-size="5.4" fill="#2F2A24">尺一收，争、盗、乱三样一起没了根：不是压住了，是没处长出来。</text>
+<text x="24" y="738" font-size="5.2" fill="#4A5C55">所以三句话不是三道禁令，是一个动作：不主动起标。</text>
+<line x1="24" y1="756" x2="338" y2="756" stroke="#DCCBB0" stroke-width="0.6"/>
+<rect x="20" y="764" width="340" height="40" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="190" y="780" font-size="6.0" fill="#2F2A24" text-anchor="middle">不尚，不是不用贤；</text>
+<text x="190" y="792" font-size="6.0" fill="#4A5C55" text-anchor="middle">是不把贤摆成一把尺。</text>
+<line x1="20" y1="818" x2="360" y2="818" stroke="#E6D8C2" stroke-width="0.8"/>
+<text x="20" y="832" font-size="8.0" fill="#A89577" letter-spacing="1">本 章 金 句</text>
+<text x="20" y="848" font-size="8.4" fill="#2F2A24">不尚贤，使民不争；不贵难得之货，使民不为盗。</text>
+<text x="20" y="864" font-size="8.4" fill="#2F2A24">尚者，抬之使高也；贵者，标之使重也——三个「不」，是一个动作：不主动起标。</text>
+</svg>
