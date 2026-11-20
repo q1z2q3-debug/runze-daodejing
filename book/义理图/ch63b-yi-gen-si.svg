@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 380 592" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="细从糸：一根一根，不断；大事是一束，细是那一根" font-family="'Noto Serif CJK SC','Noto Serif SC','Songti SC',serif">
+<defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#6E6459"/></marker><marker id="arr2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#4A5C55"/></marker><marker id="arrL" viewBox="0 0 10 10" refX="1" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M10 0 L0 5 L10 10 z" fill="#4A5C55"/></marker><marker id="arrS" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#A2503B"/></marker></defs>
+<rect x="0" y="0" width="380" height="592" fill="#F8F3E6"/>
+<text x="20" y="26" font-size="11" fill="#A2503B" font-family="'Noto Sans CJK SC','Noto Sans SC',sans-serif" letter-spacing="3">第 六 十 三 章 · 细</text>
+<text x="20" y="58" font-size="21" fill="#2F2A24">一根丝</text>
+<text x="20" y="78" font-size="10.5" fill="#6E6459">天下大事，必作于细。</text>
+<rect x="20" y="102" width="340" height="30" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="190" y="114" font-size="5.2" fill="#2F2A24" text-anchor="middle">「细」，《说文》「微也」，从糸——糸是丝，一根一根。</text>
+<text x="190" y="126" font-size="4.9" fill="#6E6459" text-anchor="middle">大事不是一块石头，是一束线：它只能一根一根抽出来。</text>
+<text x="24" y="148" font-size="4.8" fill="#A2503B">一、一束，还是一根</text>
+<line x1="112" y1="162" x2="252" y2="162" stroke="#2F2A24" stroke-width="1.6"/>
+<line x1="112" y1="156" x2="112" y2="168" stroke="#2F2A24" stroke-width="1"/>
+<line x1="252" y1="156" x2="252" y2="168" stroke="#2F2A24" stroke-width="1"/>
+<line x1="120.0" y1="164" x2="119.0" y2="252" stroke="#B9AA95" stroke-width="0.9"/>
+<line x1="129.5" y1="164" x2="128.5" y2="249" stroke="#B9AA95" stroke-width="0.9"/>
+<line x1="139.0" y1="164" x2="138.0" y2="246" stroke="#B9AA95" stroke-width="0.9"/>
+<line x1="148.5" y1="164" x2="147.5" y2="252" stroke="#B9AA95" stroke-width="0.9"/>
+<line x1="158.0" y1="164" x2="157.0" y2="246" stroke="#B9AA95" stroke-width="0.9"/>
+<line x1="167.5" y1="164" x2="166.5" y2="249" stroke="#B9AA95" stroke-width="0.9"/>
+<line x1="177.0" y1="164" x2="176.0" y2="252" stroke="#B9AA95" stroke-width="0.9"/>
+<line x1="186.5" y1="164" x2="185.5" y2="246" stroke="#B9AA95" stroke-width="0.9"/>
+<line x1="196.0" y1="164" x2="195.0" y2="246" stroke="#B9AA95" stroke-width="0.9"/>
+<line x1="205.5" y1="164" x2="204.5" y2="255" stroke="#B9AA95" stroke-width="0.9"/>
+<line x1="215.0" y1="164" x2="214.0" y2="246" stroke="#B9AA95" stroke-width="0.9"/>
+<line x1="224.5" y1="164" x2="223.5" y2="246" stroke="#B9AA95" stroke-width="0.9"/>
+<line x1="234.0" y1="164" x2="233.0" y2="252" stroke="#B9AA95" stroke-width="0.9"/>
+<path d="M230,168 C252,184 268,200 316,194" fill="none" stroke="#4A5C55" stroke-width="1.6"/>
+<text x="186" y="274" font-size="4.5" fill="#6E6459" text-anchor="middle">一束：看着是一件事</text>
+<text x="266" y="170" font-size="4.4" fill="#4A5C55" text-anchor="middle">抽这一根出来，一直不断</text>
+<text x="24" y="298" font-size="4.8" fill="#2F2A24">「细」从糸：丝是一根一根的，抽不断，才织得成整幅。</text>
+<text x="24" y="314" font-size="4.9" fill="#2F2A24">天下大事，必作于细——不是先有大石，是先有一根一根的线。</text>
+<text x="24" y="332" font-size="5.0" fill="#4A5C55">一束看着是一件事，可它只能一根一根地往下抽。</text>
+<line x1="24" y1="350" x2="338" y2="350" stroke="#DCCBB0" stroke-width="0.6"/>
+<rect x="20" y="358" width="340" height="40" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="190" y="374" font-size="5.6" fill="#2F2A24" text-anchor="middle">细从糸，微也：一根一根，不断；</text>
+<text x="190" y="386" font-size="5.2" fill="#4A5C55" text-anchor="middle">大事是一束，可它只能一根一根抽出来。</text>
+<line x1="20" y1="412" x2="360" y2="412" stroke="#E6D8C2" stroke-width="0.8"/>
+<text x="20" y="426" font-size="8.0" fill="#A89577" letter-spacing="1">本 章 金 句</text>
+<text x="20" y="442" font-size="8.4" fill="#2F2A24">细从糸，微也：一根一根，不断；大事是一束，可它只能一根一根抽出来。</text>
+<text x="20" y="458" font-size="8.4" fill="#2F2A24">天下大事，必作于细：不是先有大石，是先有一根一根的线。</text>
+</svg>

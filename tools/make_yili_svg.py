@@ -1505,6 +1505,9 @@ def ch21_kong_de():
 
 
 GOLD = {
+    "ch63a": ["图是「画计难」：先把难画出来，才有得打算；趁它还小，笔才落得下去。", "味是尝还没熟的，图是先把难画出来——都在事情还没长成的时候动手。"],
+    "ch63b": ["细从糸，微也：一根一根，不断；大事是一束，可它只能一根一根抽出来。", "天下大事，必作于细：不是先有大石，是先有一根一根的线。"],
+    "ch63c": ["易本是蜥蜴：会变色，会断尾；看得容易，是没看见它会变。", "轻诺必寡信，多易必多难；圣人犹难之，故终无难。"],
     "ch62a": ["奥是那个不见光的西南角；坐进，是坐着往上走。", "奥是最尊又最暗的那个角；尊，是没人敢坐；暗，是光进不去。"],
     "ch62b": ["宝是自己收着的，保是背着孩子的；一个揣在怀里，一个驮在背上。", "收留是给个地方，背着是驮在身上——走到哪儿带到哪儿。"],
     "ch62c": ["坐是停，进是登；这条路上的「进」，脚一步也不用迈。", "拱是两手收起来往前献，坐是手放开往下停；一个送一次，一个待一辈子。"],
@@ -7069,6 +7072,154 @@ def ch62c_yi_ge_zuo_zi():
 
 
 
+# ============ 第六十三章 · 一支笔 ============
+def ch63a_yi_zhi_bi():
+    W, H = 380, 606
+    body, y = head(W, H, "图训画计难：先把那个难画出来，才有得打算",
+                   "第 六 十 三 章 · 图", "一支笔", "图难于其易，为大于其细。", H)
+    s = [body]
+
+    s.append(box(20, y + 2, 340, 30, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, y + 14, "「图」，《说文》「画计难也」——先把难处画出来，再打算。", 5.2, INK, "middle"))
+    s.append(txt(190, y + 26, "所以「图难于其易」，不是趁容易时解决难，是趁它还容易，先把难画出来。", 4.9, "#6E6459", "middle"))
+
+    s.append(txt(24, y + 48, "一、木牍上那道山：先画，还没发生", 4.8, SEAL))
+    gy = y + 58
+    # 木牍
+    s.append(f'<rect x="100" y="{gy}" width="150" height="196" fill="#EFE6D4" stroke="{INK}" stroke-width="1.2"/>')
+    s.append(f'<rect x="104" y="{gy + 4}" width="142" height="188" fill="none" stroke="{LINE}" stroke-width="0.6"/>')
+    # 山形：一道还没长成的难
+    s.append(f'<path d="M116,{gy + 172} L140,{gy + 96} L158,{gy + 128} L182,{gy + 72} L206,{gy + 120} L230,{gy + 172}" '
+             f'fill="none" stroke="{INK}" stroke-width="1.4"/>')
+    s.append(f'<path d="M116,{gy + 172} L230,{gy + 172}" stroke="{LINE}" stroke-width="0.8"/>')
+    # 山脚那株苗
+    s.append(f'<line x1="214" y1="{gy + 172}" x2="214" y2="{gy + 150}" stroke="{GREEN}" stroke-width="1.3"/>')
+    s.append(f'<line x1="214" y1="{gy + 158}" x2="204" y2="{gy + 147}" stroke="{GREEN}" stroke-width="1.1"/>')
+    s.append(f'<line x1="214" y1="{gy + 153}" x2="224" y2="{gy + 142}" stroke="{GREEN}" stroke-width="1.1"/>')
+    s.append(f'<path d="M204,{gy + 147} l-3,-1" stroke="{GREEN}" stroke-width="1"/>')
+    s.append(f'<path d="M224,{gy + 142} l3,-1" stroke="{GREEN}" stroke-width="1"/>')
+    # 笔：杆长，笔尖点在苗边
+    s.append(f'<line x1="308" y1="{gy + 26}" x2="236" y2="{gy + 150}" stroke="{INK}" stroke-width="2"/>')
+    s.append(f'<line x1="308" y1="{gy + 18}" x2="308" y2="{gy + 28}" stroke="{INK}" stroke-width="1"/>')
+    s.append(f'<path d="M236,{gy + 148} L244,{gy + 162} L226,{gy + 158} Z" fill="{SEAL}" stroke="{SEAL}" stroke-width="0.8"/>')
+
+    s.append(txt(190, gy + 214, "牍上先画：山是难，山脚那株苗，是它现在的样子", 4.6, "#6E6459", "middle"))
+
+    a = gy + 236
+    s.append(txt(24, a, "「图」是「画计难」：难还没来时，先把它画在牍上，才知道往哪儿下手。", 4.8, INK))
+    s.append(txt(24, a + 16, "等它长成一座山，就只剩对着山叹气；趁它还是那株苗，才画得动。", 4.9, INK))
+    s.append(txt(24, a + 34, "为大于其细：大不是从大处做起的，是从那一笔点得下去的地方做起的。", 5.0, GREEN))
+
+    c = a + 52
+    s.append(f'<line x1="24" y1="{c}" x2="338" y2="{c}" stroke="{LINE}" stroke-width="0.6"/>')
+    s.append(box(20, c + 8, 340, 40, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, c + 24, "图是「画计难」：先把难画出来，才有得打算；", 5.6, INK, "middle"))
+    s.append(txt(190, c + 36, "趁它还小，笔才落得下去。", 5.2, GREEN, "middle"))
+    s.append(gold(c + 62, "ch63a"))
+    s.append('</svg>')
+    return "\n".join(s)
+
+
+# ============ 第六十三章 · 一根丝 ============
+def ch63b_yi_gen_si():
+    W, H = 380, 592
+    body, y = head(W, H, "细从糸：一根一根，不断；大事是一束，细是那一根",
+                   "第 六 十 三 章 · 细", "一根丝", "天下大事，必作于细。", H)
+    s = [body]
+
+    s.append(box(20, y + 2, 340, 30, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, y + 14, "「细」，《说文》「微也」，从糸——糸是丝，一根一根。", 5.2, INK, "middle"))
+    s.append(txt(190, y + 26, "大事不是一块石头，是一束线：它只能一根一根抽出来。", 4.9, "#6E6459", "middle"))
+
+    s.append(txt(24, y + 48, "一、一束，还是一根", 4.8, SEAL))
+    gy = y + 62
+    # 挂线的那根杆
+    s.append(f'<line x1="112" y1="{gy}" x2="252" y2="{gy}" stroke="{INK}" stroke-width="1.6"/>')
+    s.append(f'<line x1="112" y1="{gy - 6}" x2="112" y2="{gy + 6}" stroke="{INK}" stroke-width="1"/>')
+    s.append(f'<line x1="252" y1="{gy - 6}" x2="252" y2="{gy + 6}" stroke="{INK}" stroke-width="1"/>')
+    # 一束：十几根垂着的丝
+    for i in range(13):
+        x0 = 120 + i * 9.5
+        end = gy + 84 + (6 if i % 3 == 0 else 0) + (3 if i % 4 == 1 else 0)
+        s.append(f'<line x1="{x0}" y1="{gy + 2}" x2="{x0 - 1}" y2="{end}" stroke="#B9AA95" stroke-width="0.9"/>')
+    # 从束里抽出来的一根，往右一直延出去
+    s.append(f'<path d="M230,{gy + 6} C252,{gy + 22} 268,{gy + 38} 316,{gy + 32}" fill="none" stroke="{GREEN}" stroke-width="1.6"/>')
+    s.append(txt(186, gy + 112, "一束：看着是一件事", 4.5, "#6E6459", "middle"))
+    s.append(txt(266, gy + 8, "抽这一根出来，一直不断", 4.4, GREEN, "middle"))
+
+    a = gy + 136
+    s.append(txt(24, a, "「细」从糸：丝是一根一根的，抽不断，才织得成整幅。", 4.8, INK))
+    s.append(txt(24, a + 16, "天下大事，必作于细——不是先有大石，是先有一根一根的线。", 4.9, INK))
+    s.append(txt(24, a + 34, "一束看着是一件事，可它只能一根一根地往下抽。", 5.0, GREEN))
+
+    c = a + 52
+    s.append(f'<line x1="24" y1="{c}" x2="338" y2="{c}" stroke="{LINE}" stroke-width="0.6"/>')
+    s.append(box(20, c + 8, 340, 40, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, c + 24, "细从糸，微也：一根一根，不断；", 5.6, INK, "middle"))
+    s.append(txt(190, c + 36, "大事是一束，可它只能一根一根抽出来。", 5.2, GREEN, "middle"))
+    s.append(gold(c + 62, "ch63b"))
+    s.append('</svg>')
+    return "\n".join(s)
+
+
+# ============ 第六十三章 · 一条尾巴 ============
+def ch63c_yi_tiao_wei_ba():
+    W, H = 380, 604
+    body, y = head(W, H, "易本是蜥蜴：会变色，会断尾——看得容易，是没看见它会变",
+                   "第 六 十 三 章 · 易", "一条尾巴", "夫轻诺必寡信，多易必多难。", H)
+    s = [body]
+
+    s.append(box(20, y + 2, 340, 30, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, y + 14, "「易」本义是蜥蜴：会变色，会断尾——不是「容易」那个易。", 5.2, INK, "middle"))
+    s.append(txt(190, y + 26, "你看它趴着不动，就当它不会变；一拉，尾巴先没了。", 4.9, "#6E6459", "middle"))
+
+    s.append(txt(24, y + 48, "一、会变色、会断尾的那条尾巴", 4.8, SEAL))
+    gy = y + 196
+    # 地
+    s.append(f'<line x1="76" y1="{gy + 18}" x2="318" y2="{gy + 18}" stroke="{LINE}" stroke-width="0.7" stroke-dasharray="4 3"/>')
+    # 身子：半青半赭，显出会变色
+    s.append(f'<ellipse cx="184" cy="{gy - 34}" rx="44" ry="16" fill="#EFE6D4" stroke="{INK}" stroke-width="1.2"/>')
+    s.append(f'<path d="M184,{gy - 50} A44,16 0 0 0 184,{gy - 18} L184,{gy - 18} Z" fill="#CFD8CD" stroke="none"/>')
+    s.append(f'<path d="M184,{gy - 50} A44,16 0 0 1 228,{gy - 34} L184,{gy - 34} Z" fill="#E3D2C6" stroke="none"/>')
+    s.append(f'<ellipse cx="184" cy="{gy - 34}" rx="44" ry="16" fill="none" stroke="{INK}" stroke-width="1.2"/>')
+    # 头与口
+    s.append(f'<path d="M146,{gy - 44} C132,{gy - 42} 112,{gy - 38} 102,{gy - 34} C112,{gy - 29} 132,{gy - 24} 146,{gy - 22}" '
+             f'fill="#EFE6D4" stroke="{INK}" stroke-width="1.1"/>')
+    s.append(f'<circle cx="126" cy="{gy - 34}" r="1.7" fill="{INK}"/>')
+    s.append(f'<path d="M102,{gy - 34} L116,{gy - 32}" stroke="{INK}" stroke-width="0.8"/>')
+    # 四足：折一下，带趾
+    for (ax, ay, bx2, by2, tx, ty) in ((156, gy - 20, 150, gy - 4, 146, gy + 16),
+                                       (176, gy - 18, 174, gy - 2, 172, gy + 16),
+                                       (204, gy - 18, 208, gy - 2, 212, gy + 16),
+                                       (220, gy - 22, 226, gy - 6, 232, gy + 14)):
+        s.append(f'<path d="M{ax},{ay} L{bx2},{by2} L{tx},{ty}" fill="none" stroke="{INK}" stroke-width="1.1"/>')
+        s.append(f'<line x1="{tx}" y1="{ty}" x2="{tx - 4}" y2="{ty}" stroke="{INK}" stroke-width="0.7"/>')
+    # 尾：连着的这一段，断口在这儿
+    s.append(f'<path d="M226,{gy - 40} C248,{gy - 42} 264,{gy - 30} 270,{gy - 18}" fill="none" stroke="{INK}" stroke-width="1.4"/>')
+    s.append(f'<line x1="272" y1="{gy - 22}" x2="278" y2="{gy - 16}" stroke="{SEAL}" stroke-width="1.6"/>')
+    s.append(f'<line x1="268" y1="{gy - 18}" x2="274" y2="{gy - 12}" stroke="{SEAL}" stroke-width="1.6"/>')
+    # 断下来的那一截，落在地上
+    s.append(f'<path d="M278,{gy - 8} C292,{gy + 2} 302,{gy + 8} 310,{gy + 16}" fill="none" stroke="{INK}" '
+             f'stroke-width="1.2" stroke-dasharray="2 1.6"/>')
+    s.append(txt(300, gy + 34, "断了的那一截", 4.2, SEAL, "middle"))
+    s.append(txt(120, gy + 34, "半青半赭：它会变色", 4.4, "#6E6459", "middle"))
+
+    a = gy + 58
+    s.append(txt(24, a, "「易」本是蜥蜴的名字：会变色，尾巴一拉就断，断了自己再长。", 4.8, INK))
+    s.append(txt(24, a + 16, "轻诺、多易，错在把趴着不动的当成了不会动的。", 4.9, INK))
+    s.append(txt(24, a + 34, "圣人犹难之：连看得容易的，也先当它会变，所以终无难。", 5.0, GREEN))
+
+    c = a + 52
+    s.append(f'<line x1="24" y1="{c}" x2="338" y2="{c}" stroke="{LINE}" stroke-width="0.6"/>')
+    s.append(box(20, c + 8, 340, 40, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, c + 24, "易本是蜥蜴：会变色，会断尾；", 5.6, INK, "middle"))
+    s.append(txt(190, c + 36, "看得容易，是没看见它会变。", 5.2, GREEN, "middle"))
+    s.append(gold(c + 62, "ch63c"))
+    s.append('</svg>')
+    return "\n".join(s)
+
+
+
 FIGS = {
     "ch01-wu-you": ("第一章", "无有同出", ch01_wu_you),
     "ch01-zhi-yue": ("第一章", "指月三境", ch01_zhi_yue),
@@ -7189,6 +7340,9 @@ FIGS = {
     "ch62a-yi-ge-qiang-jiao": ("第六十二章", "一个墙角", ch62a_yi_ge_qiang_jiao),
     "ch62b-yi-fu-bei-dai": ("第六十二章", "一副背带", ch62b_yi_fu_bei_dai),
     "ch62c-yi-ge-zuo-zi": ("第六十二章", "一个坐姿", ch62c_yi_ge_zuo_zi),
+    "ch63a-yi-zhi-bi": ("第六十三章", "一支笔", ch63a_yi_zhi_bi),
+    "ch63b-yi-gen-si": ("第六十三章", "一根丝", ch63b_yi_gen_si),
+    "ch63c-yi-tiao-wei-ba": ("第六十三章", "一条尾巴", ch63c_yi_tiao_wei_ba),
 }
 
 
