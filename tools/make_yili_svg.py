@@ -7740,6 +7740,8 @@ GOLD = {
     "ch29c": ["去是拿走，不是添加。", "去的是过度的冲动，不是正常的需求。"],
     "ch30b": ["荒地先长刺，因为刺不需要人养。", "一个统一的样子，和一片长刺的地。"],
     "ch30c": ["不是天在罚你，是你推出去的那股劲儿回来了。", "压得越紧，回来的越直。"],
+    "ch31b": ["刀没有错，刀的用处有错——而刀的用处，就是刀的本相。", "用，是借它一次；处，是住在它里面。"],
+    "ch31c": ["这一幕不该是甜的；甜，是你自己加进去的。", "止乱是事的果，美之是心的赘。"],
     "ch06b": ["谷神不死，是谓玄牝。", "谷者，两山间之空也；能受故能生，生而不有故不竭——生机不在满处，在空处。"],
     "ch06c": ["玄牝之门，是谓天地根。", "门在开合处，不在门板上；一着手去推，它就成了一堵墙。"],
     "ch05b": ["天地不仁，以万物为刍狗。", "刍者，束草也；刍狗有位而无主——用毕回草堆，不是被弃，是位次用完了。"],
@@ -9458,6 +9460,135 @@ def ch31_bing_zhe_bu_xiang():
     s.append('</svg>')
     return "\n".join(s)
 
+
+
+def ch31b_wan_yu_dao():
+    body, y = head(380, 999, "别的器用其虚以容，兵用其锋以断",
+                   "第 三 十 一 章 · 碗 与 刀", "一只碗与一把刀",
+                   "兵者不祥之器，非君子之器。", 999)
+    s = [body]
+
+    s.append(box(20, y + 2, 340, 34, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, y + 14, "「兵」，《说文》「兵，械也」——本义是器械，故本章反复说「器」。", 4.7, INK, "middle"))
+    s.append(txt(190, y + 27, "器之为用，在它的虚：车用其空，器用其腔，室用其空间。", 4.7, "#6E6459"))
+
+    # 一、碗：虚以容
+    s.append(txt(24, y + 52, "一、碗：用它的空处，所以能装", 5.1, GREEN))
+    gy = y + 64
+    s.append(f'<rect x="26" y="{gy}" width="328" height="152" fill="#FBF6EC" stroke="{LINE}" stroke-width="0.8"/>')
+    s.append(f'<line x1="44" y1="{gy + 112}" x2="332" y2="{gy + 112}" stroke="{LINE}" stroke-width="0.9"/>')
+    s.append(f'<path d="M128,{gy + 50} C132,{gy + 104} 252,{gy + 104} 256,{gy + 50} Z" fill="#F6EFE0" stroke="{INK}" stroke-width="1.1"/>')
+    s.append(f'<ellipse cx="192" cy="{gy + 50}" rx="64" ry="11" fill="{PAPER}" stroke="{INK}" stroke-width="1.0"/>')
+    # 空腔标注
+    s.append(f'<ellipse cx="192" cy="{gy + 50}" rx="58" ry="9" fill="#E9F0E6" stroke="{LINE2}" stroke-width="0.4"/>')
+    s.append(f'<path d="M146,{gy + 56} C152,{gy + 96} 234,{gy + 96} 240,{gy + 56} Z" fill="none" stroke="{LINE2}" stroke-width="0.5"/>')
+    s.append(txt(192, gy + 70, "空", 4.6, GREEN, "middle"))
+    # 里面装的东西
+    s.append(f'<circle cx="176" cy="{gy + 90}" r="3.2" fill="#D9C7A6" stroke="{INK}" stroke-width="0.6"/>')
+    s.append(f'<circle cx="192" cy="{gy + 92}" r="3.2" fill="#D9C7A6" stroke="{INK}" stroke-width="0.6"/>')
+    s.append(f'<circle cx="206" cy="{gy + 88}" r="3.2" fill="#D9C7A6" stroke="{INK}" stroke-width="0.6"/>')
+    s.append(txt(192, gy + 128, "秋毫不动其形，装什么都行", 4.1, GREEN, "middle"))
+    s.append(txt(300, gy + 62, "有之以为利", 4.2, "#8A7C69"))
+    s.append(txt(300, gy + 76, "无之以为用", 4.2, "#8A7C69"))
+
+    # 二、刀：锋以断
+    s.append(txt(24, gy + 174, "二、刀：用它的锋，所以只能断", 5.1, SEAL))
+    gy2 = gy + 186
+    s.append(f'<rect x="26" y="{gy2}" width="328" height="152" fill="#FBF6EC" stroke="{LINE}" stroke-width="0.8"/>')
+    s.append(f'<line x1="44" y1="{gy2 + 112}" x2="332" y2="{gy2 + 112}" stroke="{LINE}" stroke-width="0.9"/>')
+    # 刀：柄 + 身
+    s.append(f'<rect x="66" y="{gy2 + 62}" width="42" height="15" rx="4" fill="#D9C7A6" stroke="{INK}" stroke-width="0.9"/>')
+    s.append(f'<polygon points="108,{gy2 + 76} 108,{gy2 + 54} 196,{gy2 + 40} 190,{gy2 + 58}" fill="#EFE6D4" stroke="{INK}" stroke-width="1.1"/>')
+    s.append(f'<line x1="110" y1="{gy2 + 76}" x2="190" y2="{gy2 + 58}" stroke="{LINE2}" stroke-width="0.5"/>')
+    s.append(txt(150, gy2 + 96, "锋：越利，断得越多", 4.1, SEAL, "middle"))
+    # 被断开的一段绳
+    s.append(f'<path d="M206,{gy2 + 72} l32,4 l0,-7 l-32,-3 Z" fill="#E4D3B2" stroke="{INK}" stroke-width="0.8"/>')
+    s.append(f'<path d="M240,{gy2 + 84} l32,4 l0,-7 l-32,-3 Z" fill="#E4D3B2" stroke="{INK}" stroke-width="0.8"/>')
+    s.append(f'<path d="M206,{gy2 + 72} l-4,-3 M206,{gy2 + 68} l-4,3 M270,{gy2 + 82} l4,-3 M270,{gy2 + 78} l4,3" fill="none" stroke="{INK}" stroke-width="0.6"/>')
+    s.append(arrow(238, gy2 + 70, 250, gy2 + 80, color="#A2503B", width=0.7, head="arrS"))
+    s.append(txt(240, gy2 + 108, "一刀两段", 4.0, "#8A7C69", "middle"))
+    s.append(txt(300, gy2 + 60, "断", 5.2, SEAL))
+    s.append(txt(300, gy2 + 76, "不留别的用", 4.0, "#8A7C69"))
+
+    a = gy2 + 170
+    s.append(txt(24, a, "照第十一章那把尺子：别的器用其虚以容；兵，用其锋以断。", 4.8, INK))
+    s.append(txt(24, a + 16, "它的「用」整个翻转：越是锋利、越是好用，断掉的生机越多。", 4.8, INK))
+    s.append(txt(24, a + 34, "全书只有这一件器被判为「不祥」：别的器，老子只说人不会用。", 4.8, GREEN))
+
+    c = a + 52
+    s.append(f'<line x1="24" y1="{c}" x2="338" y2="{c}" stroke="{LINE}" stroke-width="0.6"/>')
+    s.append(box(20, c + 8, 340, 40, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, c + 24, "刀没有错，刀的用处有错——而刀的用处，就是刀的本相。", 5.2, INK, "middle"))
+    s.append(txt(190, c + 36, "用，是借它一次；处，是住在它里面。", 5.0, GREEN, "middle"))
+    s.append(gold(c + 62, "ch31b"))
+    s.append('</svg>')
+    out = "\n".join(s)
+    ys = [float(v) for v in re.findall(r'y="([0-9.]+)"', out)]
+    return out.replace("999", str(int(max(ys) + 26)))
+
+
+def ch31c_dan_tang():
+    body, y = head(380, 999, "恬淡为上：同一件事，可以尝出淡，也可以尝出甜",
+                   "第 三 十 一 章 · 一 碗 淡 汤", "一碗淡汤",
+                   "胜而不美，而美之者，是乐杀人。", 999)
+    s = [body]
+
+    s.append(box(20, y + 2, 340, 34, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, y + 14, "「恬」，《说文》「安也」；「淡」，《说文》「薄味也」——淡不是无味，是味薄。", 4.6, INK, "middle"))
+    s.append(txt(190, y + 27, "「美」，《说文》「甘也」——美，本义是味甘。一个减味，一个加味。", 4.7, "#6E6459"))
+
+    # 一、淡
+    s.append(txt(24, y + 52, "一、淡：不添盐，不加糖，不勾芡", 5.1, GREEN))
+    gy = y + 64
+    s.append(f'<rect x="26" y="{gy}" width="328" height="152" fill="#FBF6EC" stroke="{LINE}" stroke-width="0.8"/>')
+    s.append(f'<line x1="44" y1="{gy + 112}" x2="332" y2="{gy + 112}" stroke="{LINE}" stroke-width="0.9"/>')
+    s.append(f'<path d="M128,{gy + 52} C132,{gy + 100} 252,{gy + 100} 256,{gy + 52} Z" fill="#F6EFE0" stroke="{INK}" stroke-width="1.1"/>')
+    s.append(f'<ellipse cx="192" cy="{gy + 52}" rx="64" ry="11" fill="{PAPER}" stroke="{INK}" stroke-width="1.0"/>')
+    s.append(f'<path d="M132,{gy + 58} C138,{gy + 94} 246,{gy + 94} 252,{gy + 58} Z" fill="#F0F2EC" stroke="{LINE2}" stroke-width="0.5"/>')
+    s.append(f'<path d="M144,{gy + 66} q14,4 28,0" fill="none" stroke="#B9B29E" stroke-width="0.6"/>')
+    s.append(txt(192, gy + 78, "薄味", 4.2, "#8A7C69", "middle"))
+    # 旁边：一罐糖未开、一碟盐未动
+    s.append(f'<rect x="282" y="{gy + 84}" width="20" height="28" fill="#EFE6D4" stroke="{INK}" stroke-width="0.8"/>')
+    s.append(f'<line x1="282" y1="{gy + 90}" x2="302" y2="{gy + 90}" stroke="{INK}" stroke-width="0.8"/>')
+    s.append(f'<rect x="292" y="{gy + 78}" width="9" height="6" fill="none" stroke="{INK}" stroke-width="0.7"/>')
+    s.append(txt(292, gy + 124, "糖未开", 3.9, "#8A7C69", "middle"))
+    s.append(f'<path d="M316,{gy + 104} q4,8 10,8 q6,0 10,-8 Z" fill="none" stroke="{INK}" stroke-width="0.8"/>')
+    s.append(f'<ellipse cx="326" cy="{gy + 104}" rx="10" ry="3" fill="none" stroke="{INK}" stroke-width="0.6"/>')
+    s.append(txt(326, gy + 124, "盐未动", 3.9, "#8A7C69", "middle"))
+    s.append(txt(192, gy + 128, "战事已止，心里那一口不添甜", 4.1, GREEN, "middle"))
+
+    # 二、甜
+    s.append(txt(24, gy + 174, "二、甜：往里加一勺，味就变了", 5.1, SEAL))
+    gy2 = gy + 186
+    s.append(f'<rect x="26" y="{gy2}" width="328" height="152" fill="#FBF6EC" stroke="{LINE}" stroke-width="0.8"/>')
+    s.append(f'<line x1="44" y1="{gy2 + 112}" x2="332" y2="{gy2 + 112}" stroke="{LINE}" stroke-width="0.9"/>')
+    s.append(f'<path d="M128,{gy2 + 52} C132,{gy2 + 100} 252,{gy2 + 100} 256,{gy2 + 52} Z" fill="#F6EFE0" stroke="{INK}" stroke-width="1.1"/>')
+    s.append(f'<ellipse cx="192" cy="{gy2 + 52}" rx="64" ry="11" fill="{PAPER}" stroke="{INK}" stroke-width="1.0"/>')
+    s.append(f'<path d="M132,{gy2 + 58} C138,{gy2 + 94} 246,{gy2 + 94} 252,{gy2 + 58} Z" fill="#F7EAD8" stroke="{LINE2}" stroke-width="0.5"/>')
+    # 一柄勺，舀着糖往下倒
+    s.append(f'<line x1="196" y1="{gy2 + 14}" x2="216" y2="{gy2 + 26}" stroke="{INK}" stroke-width="1.4"/>')
+    s.append(f'<ellipse cx="222" cy="{gy2 + 30}" rx="11" ry="6" fill="#F6EFE0" stroke="{INK}" stroke-width="0.9"/>')
+    s.append(f'<path d="M222,{gy2 + 36} l1,16" stroke="{INK}" stroke-width="0.7"/>')
+    s.append(txt(238, gy2 + 26, "一勺糖", 3.9, "#8A7C69"))
+    s.append(txt(192, gy2 + 128, "赢了，还觉得甜——那个人是我在觉得", 4.1, SEAL, "middle"))
+    s.append(txt(300, gy2 + 62, "美", 5.2, SEAL))
+    s.append(txt(300, gy2 + 76, "甘也", 4.0, "#8A7C69"))
+
+    a = gy2 + 170
+    s.append(txt(24, a, "「胜而不美」：这件事的味道本来就不该是甜的；甜，是你自己加的。", 4.8, INK))
+    s.append(txt(24, a + 16, "「美」一加，句子的主语就换了：从「我们止住了乱」换到「我们打得多漂亮」。", 4.5, INK))
+    s.append(txt(24, a + 34, "止乱是事的果，美之是心的赘——胜负只是灾祸的暂停，不是成就。", 4.7, GREEN))
+
+    c = a + 52
+    s.append(f'<line x1="24" y1="{c}" x2="338" y2="{c}" stroke="{LINE}" stroke-width="0.6"/>')
+    s.append(box(20, c + 8, 340, 40, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, c + 24, "这一幕不该是甜的；甜，是你自己加进去的。", 5.4, INK, "middle"))
+    s.append(txt(190, c + 36, "止乱是事的果，美之是心的赘。", 5.0, GREEN, "middle"))
+    s.append(gold(c + 62, "ch31c"))
+    s.append('</svg>')
+    out = "\n".join(s)
+    ys = [float(v) for v in re.findall(r'y="([0-9.]+)"', out)]
+    return out.replace("999", str(int(max(ys) + 26)))
 
 
 # ============ 第三十二章（候选一） · 名与止 ============
@@ -14928,6 +15059,8 @@ FIGS = {
     "ch29c-yi-zhi-wan": ("第二十九章", "一只碗", ch29c_yi_zhi_wan),
     "ch30b-huang-tian": ("第三十章", "一片荒田", ch30b_huang_tian),
     "ch30c-hui-li-biao": ("第三十章", "一只回力镖", ch30c_hui_li_biao),
+    "ch31b-wan-yu-dao": ("第三十一章", "一只碗与一把刀", ch31b_wan_yu_dao),
+    "ch31c-dan-tang": ("第三十一章", "一碗淡汤", ch31c_dan_tang),
     "ch26c-jing-shui": ("第二十六章", "一盆水", ch26c_jing_shui),
     "ch24-qi-zhe-bu-li": ("第二十四章", "企者不立", ch24_qi_zhe_bu_li),
     "ch23-xi-yan-zi-ran": ("第二十三章", "希言自然", ch23_xi_yan_zi_ran),

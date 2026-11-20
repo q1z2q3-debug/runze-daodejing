@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 380 706" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="别的器用其虚以容，兵用其锋以断" font-family="'Noto Serif CJK SC','Noto Serif SC','Songti SC',serif">
+<defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#6E6459"/></marker><marker id="arr2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#4A5C55"/></marker><marker id="arrL" viewBox="0 0 10 10" refX="1" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M10 0 L0 5 L10 10 z" fill="#4A5C55"/></marker><marker id="arrS" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#A2503B"/></marker></defs>
+<rect x="0" y="0" width="380" height="706" fill="#F8F3E6"/>
+<text x="20" y="26" font-size="11" fill="#A2503B" font-family="'Noto Sans CJK SC','Noto Sans SC',sans-serif" letter-spacing="3">第 三 十 一 章 · 碗 与 刀</text>
+<text x="20" y="58" font-size="21" fill="#2F2A24">一只碗与一把刀</text>
+<text x="20" y="78" font-size="10.5" fill="#6E6459">兵者不祥之器，非君子之器。</text>
+<rect x="20" y="102" width="340" height="34" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="190" y="114" font-size="4.7" fill="#2F2A24" text-anchor="middle">「兵」，《说文》「兵，械也」——本义是器械，故本章反复说「器」。</text>
+<text x="190" y="127" font-size="4.7" fill="#6E6459">器之为用，在它的虚：车用其空，器用其腔，室用其空间。</text>
+<text x="24" y="152" font-size="5.1" fill="#4A5C55">一、碗：用它的空处，所以能装</text>
+<rect x="26" y="164" width="328" height="152" fill="#FBF6EC" stroke="#DCCBB0" stroke-width="0.8"/>
+<line x1="44" y1="276" x2="332" y2="276" stroke="#DCCBB0" stroke-width="0.9"/>
+<path d="M128,214 C132,268 252,268 256,214 Z" fill="#F6EFE0" stroke="#2F2A24" stroke-width="1.1"/>
+<ellipse cx="192" cy="214" rx="64" ry="11" fill="#F8F3E6" stroke="#2F2A24" stroke-width="1.0"/>
+<ellipse cx="192" cy="214" rx="58" ry="9" fill="#E9F0E6" stroke="#E6D8C2" stroke-width="0.4"/>
+<path d="M146,220 C152,260 234,260 240,220 Z" fill="none" stroke="#E6D8C2" stroke-width="0.5"/>
+<text x="192" y="234" font-size="4.6" fill="#4A5C55" text-anchor="middle">空</text>
+<circle cx="176" cy="254" r="3.2" fill="#D9C7A6" stroke="#2F2A24" stroke-width="0.6"/>
+<circle cx="192" cy="256" r="3.2" fill="#D9C7A6" stroke="#2F2A24" stroke-width="0.6"/>
+<circle cx="206" cy="252" r="3.2" fill="#D9C7A6" stroke="#2F2A24" stroke-width="0.6"/>
+<text x="192" y="292" font-size="4.1" fill="#4A5C55" text-anchor="middle">秋毫不动其形，装什么都行</text>
+<text x="300" y="226" font-size="4.2" fill="#8A7C69">有之以为利</text>
+<text x="300" y="240" font-size="4.2" fill="#8A7C69">无之以为用</text>
+<text x="24" y="338" font-size="5.1" fill="#A2503B">二、刀：用它的锋，所以只能断</text>
+<rect x="26" y="350" width="328" height="152" fill="#FBF6EC" stroke="#DCCBB0" stroke-width="0.8"/>
+<line x1="44" y1="462" x2="332" y2="462" stroke="#DCCBB0" stroke-width="0.9"/>
+<rect x="66" y="412" width="42" height="15" rx="4" fill="#D9C7A6" stroke="#2F2A24" stroke-width="0.9"/>
+<polygon points="108,426 108,404 196,390 190,408" fill="#EFE6D4" stroke="#2F2A24" stroke-width="1.1"/>
+<line x1="110" y1="426" x2="190" y2="408" stroke="#E6D8C2" stroke-width="0.5"/>
+<text x="150" y="446" font-size="4.1" fill="#A2503B" text-anchor="middle">锋：越利，断得越多</text>
+<path d="M206,422 l32,4 l0,-7 l-32,-3 Z" fill="#E4D3B2" stroke="#2F2A24" stroke-width="0.8"/>
+<path d="M240,434 l32,4 l0,-7 l-32,-3 Z" fill="#E4D3B2" stroke="#2F2A24" stroke-width="0.8"/>
+<path d="M206,422 l-4,-3 M206,418 l-4,3 M270,432 l4,-3 M270,428 l4,3" fill="none" stroke="#2F2A24" stroke-width="0.6"/>
+<line x1="238" y1="420" x2="250" y2="430" stroke="#A2503B" stroke-width="0.7" marker-end="url(#arrS)"/>
+<text x="240" y="458" font-size="4.0" fill="#8A7C69" text-anchor="middle">一刀两段</text>
+<text x="300" y="410" font-size="5.2" fill="#A2503B">断</text>
+<text x="300" y="426" font-size="4.0" fill="#8A7C69">不留别的用</text>
+<text x="24" y="520" font-size="4.8" fill="#2F2A24">照第十一章那把尺子：别的器用其虚以容；兵，用其锋以断。</text>
+<text x="24" y="536" font-size="4.8" fill="#2F2A24">它的「用」整个翻转：越是锋利、越是好用，断掉的生机越多。</text>
+<text x="24" y="554" font-size="4.8" fill="#4A5C55">全书只有这一件器被判为「不祥」：别的器，老子只说人不会用。</text>
+<line x1="24" y1="572" x2="338" y2="572" stroke="#DCCBB0" stroke-width="0.6"/>
+<rect x="20" y="580" width="340" height="40" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="190" y="596" font-size="5.2" fill="#2F2A24" text-anchor="middle">刀没有错，刀的用处有错——而刀的用处，就是刀的本相。</text>
+<text x="190" y="608" font-size="5.0" fill="#4A5C55" text-anchor="middle">用，是借它一次；处，是住在它里面。</text>
+<line x1="20" y1="634" x2="360" y2="634" stroke="#E6D8C2" stroke-width="0.8"/>
+<text x="20" y="648" font-size="8.0" fill="#A89577" letter-spacing="1">本 章 金 句</text>
+<text x="20" y="664" font-size="8.4" fill="#2F2A24">刀没有错，刀的用处有错——而刀的用处，就是刀的本相。</text>
+<text x="20" y="680" font-size="8.4" fill="#2F2A24">用，是借它一次；处，是住在它里面。</text>
+</svg>

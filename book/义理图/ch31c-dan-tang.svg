@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 380 706" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="恬淡为上：同一件事，可以尝出淡，也可以尝出甜" font-family="'Noto Serif CJK SC','Noto Serif SC','Songti SC',serif">
+<defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#6E6459"/></marker><marker id="arr2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#4A5C55"/></marker><marker id="arrL" viewBox="0 0 10 10" refX="1" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M10 0 L0 5 L10 10 z" fill="#4A5C55"/></marker><marker id="arrS" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#A2503B"/></marker></defs>
+<rect x="0" y="0" width="380" height="706" fill="#F8F3E6"/>
+<text x="20" y="26" font-size="11" fill="#A2503B" font-family="'Noto Sans CJK SC','Noto Sans SC',sans-serif" letter-spacing="3">第 三 十 一 章 · 一 碗 淡 汤</text>
+<text x="20" y="58" font-size="21" fill="#2F2A24">一碗淡汤</text>
+<text x="20" y="78" font-size="10.5" fill="#6E6459">胜而不美，而美之者，是乐杀人。</text>
+<rect x="20" y="102" width="340" height="34" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="190" y="114" font-size="4.6" fill="#2F2A24" text-anchor="middle">「恬」，《说文》「安也」；「淡」，《说文》「薄味也」——淡不是无味，是味薄。</text>
+<text x="190" y="127" font-size="4.7" fill="#6E6459">「美」，《说文》「甘也」——美，本义是味甘。一个减味，一个加味。</text>
+<text x="24" y="152" font-size="5.1" fill="#4A5C55">一、淡：不添盐，不加糖，不勾芡</text>
+<rect x="26" y="164" width="328" height="152" fill="#FBF6EC" stroke="#DCCBB0" stroke-width="0.8"/>
+<line x1="44" y1="276" x2="332" y2="276" stroke="#DCCBB0" stroke-width="0.9"/>
+<path d="M128,216 C132,264 252,264 256,216 Z" fill="#F6EFE0" stroke="#2F2A24" stroke-width="1.1"/>
+<ellipse cx="192" cy="216" rx="64" ry="11" fill="#F8F3E6" stroke="#2F2A24" stroke-width="1.0"/>
+<path d="M132,222 C138,258 246,258 252,222 Z" fill="#F0F2EC" stroke="#E6D8C2" stroke-width="0.5"/>
+<path d="M144,230 q14,4 28,0" fill="none" stroke="#B9B29E" stroke-width="0.6"/>
+<text x="192" y="242" font-size="4.2" fill="#8A7C69" text-anchor="middle">薄味</text>
+<rect x="282" y="248" width="20" height="28" fill="#EFE6D4" stroke="#2F2A24" stroke-width="0.8"/>
+<line x1="282" y1="254" x2="302" y2="254" stroke="#2F2A24" stroke-width="0.8"/>
+<rect x="292" y="242" width="9" height="6" fill="none" stroke="#2F2A24" stroke-width="0.7"/>
+<text x="292" y="288" font-size="3.9" fill="#8A7C69" text-anchor="middle">糖未开</text>
+<path d="M316,268 q4,8 10,8 q6,0 10,-8 Z" fill="none" stroke="#2F2A24" stroke-width="0.8"/>
+<ellipse cx="326" cy="268" rx="10" ry="3" fill="none" stroke="#2F2A24" stroke-width="0.6"/>
+<text x="326" y="288" font-size="3.9" fill="#8A7C69" text-anchor="middle">盐未动</text>
+<text x="192" y="292" font-size="4.1" fill="#4A5C55" text-anchor="middle">战事已止，心里那一口不添甜</text>
+<text x="24" y="338" font-size="5.1" fill="#A2503B">二、甜：往里加一勺，味就变了</text>
+<rect x="26" y="350" width="328" height="152" fill="#FBF6EC" stroke="#DCCBB0" stroke-width="0.8"/>
+<line x1="44" y1="462" x2="332" y2="462" stroke="#DCCBB0" stroke-width="0.9"/>
+<path d="M128,402 C132,450 252,450 256,402 Z" fill="#F6EFE0" stroke="#2F2A24" stroke-width="1.1"/>
+<ellipse cx="192" cy="402" rx="64" ry="11" fill="#F8F3E6" stroke="#2F2A24" stroke-width="1.0"/>
+<path d="M132,408 C138,444 246,444 252,408 Z" fill="#F7EAD8" stroke="#E6D8C2" stroke-width="0.5"/>
+<line x1="196" y1="364" x2="216" y2="376" stroke="#2F2A24" stroke-width="1.4"/>
+<ellipse cx="222" cy="380" rx="11" ry="6" fill="#F6EFE0" stroke="#2F2A24" stroke-width="0.9"/>
+<path d="M222,386 l1,16" stroke="#2F2A24" stroke-width="0.7"/>
+<text x="238" y="376" font-size="3.9" fill="#8A7C69">一勺糖</text>
+<text x="192" y="478" font-size="4.1" fill="#A2503B" text-anchor="middle">赢了，还觉得甜——那个人是我在觉得</text>
+<text x="300" y="412" font-size="5.2" fill="#A2503B">美</text>
+<text x="300" y="426" font-size="4.0" fill="#8A7C69">甘也</text>
+<text x="24" y="520" font-size="4.8" fill="#2F2A24">「胜而不美」：这件事的味道本来就不该是甜的；甜，是你自己加的。</text>
+<text x="24" y="536" font-size="4.5" fill="#2F2A24">「美」一加，句子的主语就换了：从「我们止住了乱」换到「我们打得多漂亮」。</text>
+<text x="24" y="554" font-size="4.7" fill="#4A5C55">止乱是事的果，美之是心的赘——胜负只是灾祸的暂停，不是成就。</text>
+<line x1="24" y1="572" x2="338" y2="572" stroke="#DCCBB0" stroke-width="0.6"/>
+<rect x="20" y="580" width="340" height="40" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="190" y="596" font-size="5.4" fill="#2F2A24" text-anchor="middle">这一幕不该是甜的；甜，是你自己加进去的。</text>
+<text x="190" y="608" font-size="5.0" fill="#4A5C55" text-anchor="middle">止乱是事的果，美之是心的赘。</text>
+<line x1="20" y1="634" x2="360" y2="634" stroke="#E6D8C2" stroke-width="0.8"/>
+<text x="20" y="648" font-size="8.0" fill="#A89577" letter-spacing="1">本 章 金 句</text>
+<text x="20" y="664" font-size="8.4" fill="#2F2A24">这一幕不该是甜的；甜，是你自己加进去的。</text>
+<text x="20" y="680" font-size="8.4" fill="#2F2A24">止乱是事的果，美之是心的赘。</text>
+</svg>
