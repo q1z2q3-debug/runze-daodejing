@@ -1308,39 +1308,66 @@ def ch03_bu_zao_biao():
 
 # ============ 第四章 · 道冲不盈 ============
 def ch04_dao_chong():
-    W, H = 720, 690
-    body, y = head(W, H, "道冲：一个没有边界的空", "第 四 章 · 本 体", "装不满的空",
-                   "冲是它的体：空，而且没有边界。往上推不到头，往下看不到底。", H)
+    W, H = 720, 762
+    body, y = head(W, H, "井之喻：冲是空，不盈是从来不溢出", "第 四 章 · 本 体", "井：一直在用，从不溢出",
+                   "冲是中空；用之或不盈，就是这口井——取不尽，也从不漫出来。", H)
     s = [body]
-    gx0, gy0, gx1, gy1 = 40, y + 18, W - 40, y + 330
-    s.append(f'<rect x="{gx0}" y="{gy0}" width="{gx1-gx0}" height="{gy1-gy0}" fill="#FBF6EC" stroke="{LINE2}" stroke-width="0.7"/>')
-    for i, xx in enumerate(range(gx0 + 12, gx1 - 6, 24)):
-        for yy in range(gy0 + 12, gy1 - 6, 24):
-            ox = 12 if (yy // 24) % 2 else 0
-            s.append(f'<circle cx="{xx+ox}" cy="{yy}" r="0.85" fill="{LINE}"/>')
-    cx = (gx0 + gx1) / 2 - 60
-    top, bot = gy0 + 80, gy0 + 268
-    hw_t, hw_b = 118, 88
-    s.append(f'<path d="M {cx-hw_t} {top} L {cx-hw_b} {bot} Q {cx} {bot+30} {cx+hw_b} {bot} L {cx+hw_t} {top}" fill="none" stroke="{INK}" stroke-width="1.4"/>')
-    s.append(f'<line x1="{cx-hw_t-10}" y1="{top}" x2="{cx+hw_t+10}" y2="{top}" stroke="{INK}" stroke-width="1"/>')
-    s.append(txt(cx - hw_t - 8, top - 12, "冲 · 虚", 9.5, "#8A7C69", "end", spacing="1"))
-    s.append(f'<line x1="{cx}" y1="{gy0+4}" x2="{cx}" y2="{top}" stroke="{SEAL}" stroke-width="0.8" stroke-dasharray="4 4"/>')
-    s.append(f'<line x1="{cx}" y1="{bot+34}" x2="{cx}" y2="{gy1-4}" stroke="{SEAL}" stroke-width="0.8" stroke-dasharray="4 4"/>')
-    s.append(txt(cx + 10, gy0 + 26, "往外推：推不到头", 8.6, SEAL))
-    s.append(txt(cx + 10, gy1 - 12, "往里看：看不到底", 8.6, SEAL))
-    xa = gx1 - 208
-    s.append(txt(xa, gy0 + 88, "杯里的空，", 9.6, INK))
-    s.append(txt(xa, gy0 + 106, "与包着杯子的太虚，", 9.6, INK))
-    s.append(txt(xa, gy0 + 124, "是同一片空。", 9.6, SEAL))
-    s.append(txt(xa, gy0 + 150, "中间没有隔——", 8.8, "#6E6459"))
-    s.append(txt(xa, gy0 + 166, "一道壁，只是一个记号。", 8.8, "#6E6459"))
-    ya = gy1 + 34
-    s.append(txt(W/2, ya, "我们能填满一个器皿，却填不满遍布一切的冲虚。", 10.6, INK, "middle"))
-    s.append(txt(W/2, ya + 22, "塞满一处，道在这一处的生发就停了。", 9.4, "#6E6459", "middle"))
-    yc = ya + 48
-    s.append(box(90, yc, W - 180, 58, fill="#F2EADA", stroke="#C9B79A"))
-    s.append(txt(W/2, yc + 24, "湛兮，似或存；吾不知谁之子，象帝之先。", 10.4, INK, "middle"))
-    s.append(txt(W/2, yc + 44, "它先于一切被命名者——连「谁生的」都问不到它头上。", 9, "#6E6459", "middle"))
+    gx0, gx1 = 60, W - 60
+    ty = int(y) + 96
+    yb = ty + 292
+    cx = (gx0 + gx1) // 2
+    xl, xr = cx - 74, cx + 74
+    s.append(f'<rect x="{gx0}" y="{ty}" width="{gx1-gx0}" height="{yb-ty+40}" fill="#EFE6D3"/>')
+    s.append(f'<line x1="{gx0}" y1="{ty}" x2="{gx1}" y2="{ty}" stroke="{INK}" stroke-width="1.2"/>')
+    s.append(txt(gx0 + 8, ty - 9, "地面", 8.4, "#8A7C69"))
+    for lx in (xl - 18, xr - 2):
+        s.append(f'<rect x="{lx}" y="{ty-13}" width="20" height="13" fill="#DBCCB1" stroke="#BEA98A" stroke-width="0.6"/>')
+    s.append(f'<rect x="{xl}" y="{ty}" width="{xr-xl}" height="{yb-ty}" fill="#FBF6EC"/>')
+    s.append(txt(cx, ty + 74, "冲 · 虚", 9.4, "#8A7C69", "middle", spacing="1"))
+    for xx in (xl - 9, xr):
+        s.append(f'<rect x="{xx}" y="{ty}" width="9" height="{yb-ty}" fill="#DBCCB1" stroke="#BEA98A" stroke-width="0.5"/>')
+        yy = ty + 18
+        while yy < yb - 8:
+            s.append(f'<line x1="{xx}" y1="{yy}" x2="{xx+9}" y2="{yy}" stroke="#BEA98A" stroke-width="0.5"/>')
+            yy += 22
+    s.append(f'<line x1="{xl}" y1="{yb}" x2="{xr}" y2="{yb}" stroke="#BEA98A" stroke-width="1.4"/>')
+    wtop = ty + 170
+    s.append(f'<rect x="{xl}" y="{wtop}" width="{xr-xl}" height="{yb-wtop}" fill="#D6DED5"/>')
+    for k in range(3):
+        wy = wtop + 26 + k * 36
+        if wy < yb - 10:
+            s.append(vline(xl + 8, wy, xr - 8, "#C6CFC4", 0.6))
+    s.append(f'<line x1="{xl}" y1="{wtop}" x2="{xr}" y2="{wtop}" stroke="{GREEN}" stroke-width="1.6"/>')
+    s.append(arrow(cx, wtop - 24, cx, wtop + 2, SEAL, 0.9))
+    s.append(arrow(cx, wtop + 42, cx, wtop + 14, SEAL, 0.9))
+    s.append(txt(cx + 9, wtop + 42, "随取随落", 8.4, SEAL))
+    lim_hi, lim_lo = ty + 116, ty + 252
+    for ly, lb in ((lim_hi, "到此便止：不漫口"), (lim_lo, "到此便回：不干涸")):
+        s.append(f'<line x1="{xl-46}" y1="{ly}" x2="{xr+46}" y2="{ly}" stroke="{SEAL}" stroke-width="0.8" stroke-dasharray="3 5"/>')
+        s.append(txt(xl - 52, ly + 3, lb, 8.4, SEAL, "end"))
+    s.append(f'<line x1="{gx0}" y1="{yb-22}" x2="{xl-15}" y2="{yb-22}" stroke="#8FA8A1" stroke-width="0.8" stroke-dasharray="5 4"/>')
+    s.append(f'<line x1="{xr+15}" y1="{yb-22}" x2="{gx1}" y2="{yb-22}" stroke="#8FA8A1" stroke-width="0.8" stroke-dasharray="5 4"/>')
+    s.append(arrow(xl - 51, yb - 22, xl - 10, yb - 22, "#6E8C86", 1))
+    s.append(arrow(xr + 51, yb - 22, xr + 10, yb - 22, "#6E8C86", 1))
+    s.append(txt(cx, yb + 28, "水从脉来：取走多少，补回多少", 8.8, "#5E7368", "middle"))
+    s.append(f'<line x1="{cx}" y1="{ty-86}" x2="{cx}" y2="{ty-24}" stroke="#9C8B72" stroke-width="1"/>')
+    s.append(f'<path d="M {cx-16} {ty-24} L {cx+16} {ty-24} L {cx+12} {ty-2} L {cx-12} {ty-2} Z" fill="none" stroke="{INK}" stroke-width="1.1"/>')
+    s.append(f'<path d="M {cx-15} {ty-24} Q {cx} {ty-36} {cx+15} {ty-24}" fill="none" stroke="{INK}" stroke-width="0.9"/>')
+    s.append(arrow(cx + 46, ty - 18, cx + 46, ty - 68, SEAL, 1))
+    s.append(txt(cx + 58, ty - 42, "越取，越出", 9.4, SEAL))
+    xa = xr + 30
+    s.append(txt(xa, ty + 42, "井不因取用而浅，", 9.2, INK))
+    s.append(txt(xa, ty + 62, "也不因无人取用而满。", 9.2, INK))
+    s.append(txt(xa, ty + 94, "水到某处便止，", 9.2, "#6E6459"))
+    s.append(txt(xa, ty + 114, "取到某处便回。", 9.2, "#6E6459"))
+    s.append(txt(xa, ty + 148, "壁只是界，", 9.2, GREEN))
+    s.append(txt(xa, ty + 168, "空才是器。", 9.2, GREEN))
+    ya = yb + 60
+    s.append(txt(W / 2, ya, "它一直在用，从不溢出——这就是「用之或不盈」。", 10.6, INK, "middle"))
+    s.append(txt(W / 2, ya + 24, "帛书作「有弗盈」：不是有时不满，是从来不满。井口朝天，井底通脉，中间没有隔。", 9.2, "#6E6459", "middle"))
+    yc = ya + 52
+    s.append(box(78, yc, W - 156, 54, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(W / 2, yc + 32, "湛兮，似或存；吾不知谁之子，象帝之先。", 10.4, INK, "middle"))
     s.append(gold(H - 68, "ch04a"))
     s.append('</svg>')
     return "\n".join(s)
@@ -7939,7 +7966,7 @@ GOLD = {
     "ch01c": ["道可道，非常道。", "手指指月，人常盯着手指；三层就是把手指松开。"],
     "ch02a": ["有无相生，难易相成。", "六句六字，不是六次同义；认准是哪一种关系，才知该护哪一处。"],
     "ch03a": ["不尚贤，使民不争。", "壁在，空才用得起；壁胀了，空就用不上。"],
-    "ch04a": ["道冲而用之或不盈。", "不满不是缺，是它的本然——所以用不完。"],
+    "ch04a": ["道冲而用之或不盈。", "井一直在用，从不溢出——用不完，也不漫出来。"],
     "ch05a": ["虚而不屈，动而愈出。", "读成点就成了折中；读成枢，才知道它一直在动。"],
     "ch06a": ["谷神不死，是谓玄牝。", "虚能受，受而能生，生而不竭——三级说的是一件事。"],
     "ch07a": ["非以其无私邪？故能成其私。", "那个「私」是被成全的，不是被交换的。"],
@@ -16097,7 +16124,7 @@ FIGS = {
     "ch20-wei-zhi-yu-e": ("第二十章", "两把尺子", ch20_wei_zhi_yu_e),
     "ch21-kong-de": ("第二十一章", "由粗到细", ch21_kong_de),
     "ch03-shang-ji-guo-du": ("第三章", "尚即过度", ch03_shang_ji_guo_du),
-    "ch04-dao-chong": ("第四章", "装不满的空", ch04_dao_chong),
+    "ch04-dao-chong": ("第四章", "井：一直在用，从不溢出", ch04_dao_chong),
     "ch05b-yi-zhi-chu-gou": ("第五章", "一只刍狗", ch05b_yi_zhi_chu_gou),
     "ch05c-yi-ba-suo": ("第五章", "一把锁", ch05c_yi_ba_suo),
     "ch05-tuo-yue": ("第五章", "中不是点，是枢", ch05_tuo_yue),

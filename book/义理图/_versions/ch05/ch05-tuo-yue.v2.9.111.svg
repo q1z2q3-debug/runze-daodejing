@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 380 598" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="橐籥：中不是点，是枢" font-family="'Noto Serif CJK SC','Noto Serif SC','Songti SC',serif">
+<defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#6E6459"/></marker><marker id="arr2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#4A5C55"/></marker><marker id="arrL" viewBox="0 0 10 10" refX="1" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M10 0 L0 5 L10 10 z" fill="#4A5C55"/></marker><marker id="arrS" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#A2503B"/></marker></defs>
+<rect x="0" y="0" width="380" height="598" fill="#F8F3E6"/>
+<text x="20" y="26" font-size="11" fill="#A2503B" font-family="'Noto Sans CJK SC','Noto Sans SC',sans-serif" letter-spacing="3">第 五 章 · 用 之</text>
+<text x="20" y="58" font-size="21" fill="#2F2A24">中不是点，是枢</text>
+<text x="20" y="78" font-size="10.5" fill="#6E6459">读成点，就成了折中、和稀泥；读成枢，才知道它一直在动。</text>
+<rect x="40" y="130" width="200" height="102" fill="#FBF6EC" stroke="{INK}" stroke-width="1.2"/>
+<rect x="96" y="138" width="12" height="86" fill="#2F2A24" opacity="0.5"/>
+<line x1="102" y1="134" x2="102" y2="114" stroke="#2F2A24" stroke-width="1.2"/>
+<path d="M 90 106 h24" stroke="#2F2A24" stroke-width="1.2"/>
+<line x1="136" y1="202" x2="196" y2="202" stroke="#4A5C55" stroke-width="1.2" marker-end="url(#arr2)"/>
+<line x1="196" y1="214" x2="136" y2="214" stroke="#4A5C55" stroke-width="1.2" marker-end="url(#arrL)"/>
+<text x="136" y="240" font-size="8.8" fill="#4A5C55">往复：不是停在中，是穿过中</text>
+<text x="52" y="104" font-size="8.8" fill="#8A7C69">两端闭合与拉开</text>
+<rect x="246" y="160" width="96" height="26" fill="#F6EFE0" stroke="{LINE2}" stroke-width="1.0"/>
+<text x="294" y="177" font-size="9.5" fill="#A2503B" text-anchor="middle">出风</text>
+<line x1="240" y1="173" x2="244" y2="173" stroke="#C9B79A" stroke-width="0.8" marker-end="url(#arr)"/>
+<rect x="20" y="268" width="62" height="30" fill="#FBF6EC" stroke="{LINE2}" stroke-width="1.0"/>
+<text x="51" y="288" font-size="11" fill="#A2503B" text-anchor="middle">不仁</text>
+<text x="92" y="288" font-size="9.5" fill="#6E6459">自持：顺自性运行，不添私情</text>
+<line x1="51" y1="298" x2="51" y2="312" stroke="#C9B79A" stroke-width="1"/>
+<rect x="20" y="314" width="62" height="30" fill="#FBF6EC" stroke="{LINE2}" stroke-width="1.0"/>
+<text x="51" y="334" font-size="11" fill="#A2503B" text-anchor="middle">橐籥</text>
+<text x="92" y="334" font-size="9.5" fill="#6E6459">开合：生机在中间那个支点</text>
+<line x1="51" y1="344" x2="51" y2="358" stroke="#C9B79A" stroke-width="1"/>
+<rect x="20" y="360" width="62" height="30" fill="#FBF6EC" stroke="{LINE2}" stroke-width="1.0"/>
+<text x="51" y="380" font-size="11" fill="#A2503B" text-anchor="middle">守中</text>
+<text x="92" y="380" font-size="9.5" fill="#6E6459">守枢：守住那个一直在动的位置</text>
+<rect x="20" y="412" width="340" height="42" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="190" y="438" font-size="11" fill="#2F2A24" text-anchor="middle">多言数穷，不如守中</text>
+<text x="190" y="470" font-size="9.5" fill="#6E6459" text-anchor="middle">「中」不是 0 与 1 之间的 0.5，是天平求不到的静止。</text>
+<text x="190" y="486" font-size="9.5" fill="#6E6459" text-anchor="middle">它是那台机器里，一直在来回穿过的支点。</text>
+<line x1="20" y1="530" x2="360" y2="530" stroke="#E6D8C2" stroke-width="0.8"/>
+<text x="20" y="544" font-size="8.0" fill="#A89577" letter-spacing="1">本 章 金 句</text>
+<text x="20" y="560" font-size="8.4" fill="#2F2A24">虚而不屈，动而愈出。</text>
+<text x="20" y="576" font-size="8.4" fill="#2F2A24">读成点就成了折中；读成枢，才知道它一直在动。</text>
+</svg>
