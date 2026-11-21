@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 380 754" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="生机不在满处，在空处：满缸不受，空谷能受" font-family="'Noto Serif CJK SC','Noto Serif SC','Songti SC',serif">
+<defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#6E6459"/></marker><marker id="arr2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#4A5C55"/></marker><marker id="arrL" viewBox="0 0 10 10" refX="1" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M10 0 L0 5 L10 10 z" fill="#4A5C55"/></marker><marker id="arrS" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#A2503B"/></marker></defs>
+<rect x="0" y="0" width="380" height="754" fill="#F8F3E6"/>
+<text x="20" y="26" font-size="11" fill="#A2503B" font-family="'Noto Sans CJK SC','Noto Sans SC',sans-serif" letter-spacing="3">第 六 章 · 谷</text>
+<text x="20" y="58" font-size="21" fill="#2F2A24">一口谷</text>
+<text x="20" y="78" font-size="10.5" fill="#6E6459">谷神不死，是谓玄牝。</text>
+<rect x="20" y="102" width="340" height="34" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="190" y="114" font-size="5.0" fill="#2F2A24" text-anchor="middle">「谷」不是稻谷，是山谷：两山之间的空处，水深所归，风所过，草木所生。</text>
+<text x="190" y="128" font-size="5.0" fill="#6E6459" text-anchor="middle">谷不生产什么，它只是深、只是空；正因为空，水才往那里走。</text>
+<text x="24" y="152" font-size="5.2" fill="#A2503B">一、满缸：装满了，再倒就往外淌</text>
+<rect x="26" y="164" width="328" height="176" fill="#FBF6EC" stroke="#DCCBB0" stroke-width="0.8"/>
+<line x1="60" y1="312" x2="320" y2="312" stroke="#2F2A24" stroke-width="1"/>
+<path d="M132,220 q6,58 14,74 q30,16 74,0 q8,-16 14,-74 z" fill="#D8CBAC" stroke="#2F2A24" stroke-width="1.2"/>
+<ellipse cx="190" cy="220" rx="58" ry="9" fill="#D8CBAC" stroke="#2F2A24" stroke-width="1"/>
+<path d="M146,224 q14,-6 28,0" fill="none" stroke="#B39A72" stroke-width="0.6"/>
+<path d="M156,224 q14,-6 28,0" fill="none" stroke="#B39A72" stroke-width="0.6"/>
+<path d="M166,224 q14,-6 28,0" fill="none" stroke="#B39A72" stroke-width="0.6"/>
+<path d="M248,223 q13,20 6,38" fill="none" stroke="#A2503B" stroke-width="1.0"/>
+<path d="M132,223 q-13,18 -6,34" fill="none" stroke="#A2503B" stroke-width="1.0"/>
+<text x="270" y="246" font-size="4.4" fill="#A2503B">倒不进</text>
+<text x="110" y="246" font-size="4.4" fill="#A2503B" text-anchor="end">往下淌</text>
+<path d="M184,168 q-14,10 0,14 q14,-4 0,-14 z" fill="#F8F3E6" stroke="#2F2A24" stroke-width="0.9"/>
+<line x1="184" y1="168" x2="202" y2="152" stroke="#2F2A24" stroke-width="1.1"/>
+<path d="M188,180 q3,10 2,16" fill="none" stroke="#E6D8C2" stroke-width="0.8"/>
+<text x="190" y="332" font-size="4.5" fill="#4A5C55" text-anchor="middle">满了就是满了：再多一勺，也只是从口沿淌下去</text>
+<text x="24" y="360" font-size="5.2" fill="#4A5C55">二、空谷：它什么都不装，水自来聚</text>
+<rect x="26" y="372" width="328" height="176" fill="#FBF6EC" stroke="#DCCBB0" stroke-width="0.8"/>
+<path d="M26,522 q56,-96 118,-30 q18,12 32,30 z" fill="#EFE6D4" stroke="#2F2A24" stroke-width="1.0"/>
+<path d="M354,522 q-56,-96 -118,-30 q-18,12 -32,30 z" fill="#EFE6D4" stroke="#2F2A24" stroke-width="1.0"/>
+<line x1="26" y1="522" x2="354" y2="522" stroke="#2F2A24" stroke-width="1"/>
+<path d="M150,522 q40,-8 80,0" fill="none" stroke="#8FA6A0" stroke-width="2.0" opacity="0.5"/>
+<path d="M166,520 q3,-10 7,-14" fill="none" stroke="#4A5C55" stroke-width="0.7"/>
+<path d="M180,520 q3,-10 7,-14" fill="none" stroke="#4A5C55" stroke-width="0.7"/>
+<path d="M194,520 q3,-10 7,-14" fill="none" stroke="#4A5C55" stroke-width="0.7"/>
+<path d="M208,520 q3,-10 7,-14" fill="none" stroke="#4A5C55" stroke-width="0.7"/>
+<rect x="180" y="376" width="20" height="136" fill="#8FA6A0" opacity="0.18"/>
+<line x1="182" y1="376" x2="184" y2="452" stroke="#7E9A93" stroke-width="1.6" opacity="0.9"/>
+<line x1="190" y1="376" x2="192" y2="460" stroke="#7E9A93" stroke-width="1.6" opacity="0.9"/>
+<line x1="198" y1="376" x2="200" y2="468" stroke="#7E9A93" stroke-width="1.6" opacity="0.9"/>
+<line x1="190" y1="468" x2="190" y2="514" stroke="#8FA6A0" stroke-width="1.0" marker-end="url(#arr2)"/>
+<text x="254" y="406" font-size="4.4" fill="#6E6459">水往低处走</text>
+<path d="M96,442 q40,-8 78,-2" fill="none" stroke="#B9A98F" stroke-width="0.6"/>
+<path d="M96,452 q40,-8 78,-2" fill="none" stroke="#B9A98F" stroke-width="0.6"/>
+<text x="96" y="430" font-size="4.4" fill="#8A7C69">风在谷里回</text>
+<text x="190" y="540" font-size="4.5" fill="#4A5C55" text-anchor="middle">谷不去装，也不去留：能受，所以能生</text>
+<text x="24" y="568" font-size="5.4" fill="#2F2A24">生机不在满处，在空处；不在取处，在受处——这是全章第一句的落点。</text>
+<text x="24" y="584" font-size="5.4" fill="#2F2A24">谷填平了就没有谷；能让它一直生的，不是哪一汪水，是那处空一直在。</text>
+<text x="24" y="602" font-size="5.2" fill="#4A5C55">「不死」不是哪一样东西活得久，是「空而能受」这个结构从来不断。</text>
+<line x1="24" y1="620" x2="338" y2="620" stroke="#DCCBB0" stroke-width="0.6"/>
+<rect x="20" y="628" width="340" height="40" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="190" y="644" font-size="6.0" fill="#2F2A24" text-anchor="middle">满的，倒不进；</text>
+<text x="190" y="656" font-size="6.0" fill="#4A5C55" text-anchor="middle">空的，水自来。</text>
+<line x1="20" y1="682" x2="360" y2="682" stroke="#E6D8C2" stroke-width="0.8"/>
+<text x="20" y="696" font-size="8.0" fill="#A89577" letter-spacing="1">本 章 金 句</text>
+<text x="20" y="712" font-size="8.4" fill="#2F2A24">谷神不死，是谓玄牝。</text>
+<text x="20" y="728" font-size="8.4" fill="#2F2A24">谷者，两山间之空也；能受故能生，生而不有故不竭——生机不在满处，在空处。</text>
+</svg>

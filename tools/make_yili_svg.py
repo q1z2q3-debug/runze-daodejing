@@ -1603,8 +1603,9 @@ def ch06b_yi_kou_gu():
         xk = 166 + k * 14
         s.append(f'<path d="M{xk},{gb - 2} q3,-10 7,-14" fill="none" stroke="{GREEN}" stroke-width="0.7"/>')
     # 水自上入谷
+    s.append(f'<rect x="180" y="{gy2 + 4}" width="20" height="{gb - gy2 - 14}" fill="#8FA6A0" opacity="0.18"/>')
     for k in range(3):
-        s.append(f'<line x1="{176 + k * 12}" y1="{gy2 + 4}" x2="{176 + k * 12 + 2}" y2="{gy2 + 78 + k * 8}" stroke="#8FA6A0" stroke-width="0.9" opacity="0.8"/>')
+        s.append(f'<line x1="{182 + k * 8}" y1="{gy2 + 4}" x2="{184 + k * 8}" y2="{gy2 + 80 + k * 8}" stroke="#7E9A93" stroke-width="1.6" opacity="0.9"/>')
     s.append(arrow(190, gy2 + 96, 190, gb - 8, "#8FA6A0", 1.0, None, "arr2"))
     s.append(txt(254, gy2 + 34, "水往低处走", 4.4, "#6E6459"))
     # 风在谷里回
@@ -1647,16 +1648,18 @@ def ch06c_yi_shan_men_zhou():
     ft, fb = gy + 30, gy + 150
     s.append(f'<rect x="126" y="{ft}" width="128" height="{fb - ft}" fill="{PAPER}" stroke="{INK}" stroke-width="1.4"/>')
     # 左扇稍开，右扇合着；缝中是光
-    s.append(f'<path d="M126,{ft} L186,{ft + 6} L186,{fb - 6} L126,{fb} z" fill="#EBD9CE" stroke="{INK}" stroke-width="0.9"/>')
+    s.append(f'<path d="M126,{ft} L186,{ft + 6} L186,{fb - 6} L126,{fb} z" fill="#E4D8BF" stroke="{INK}" stroke-width="0.9"/>')
     s.append(f'<path d="M254,{ft} L200,{ft + 6} L200,{fb - 6} L254,{fb} z" fill="#EFE6D4" stroke="{INK}" stroke-width="0.9"/>')
-    for k in range(3):
-        s.append(f'<line x1="{384 + 0}" y1="0" x2="0" y2="0" stroke="none"/>')
     s.append(f'<path d="M193,{ft + 8} L193,{fb - 8} L200,{fb - 6} L200,{ft + 6} z" fill="#F6E9BF" stroke="none"/>')
     # 光与出物
     for k in range(3):
         s.append(f'<line x1="202" y1="{ft + 44 + k * 30}" x2="222" y2="{ft + 40 + k * 30}" stroke="#D9C07A" stroke-width="0.8" opacity="0.85"/>')
-    s.append(f'<circle cx="232" cy="{ft + 58}" r="2.6" fill="none" stroke="{GREEN}" stroke-width="0.6"/>')
-    s.append(f'<circle cx="240" cy="{ft + 92}" r="2.0" fill="none" stroke="{GREEN}" stroke-width="0.6"/>')
+    for k in range(2):
+        s.append(f'<line x1="224" y1="{ft + 50 + k * 34}" x2="252" y2="{ft + 44 + k * 34}" stroke="#D9C07A" stroke-width="0.7" opacity="0.6"/>')
+    for ay in (ft + 20, fb - 34):
+        s.append(f'<rect x="117" y="{ay}" width="9" height="12" fill="#BEA98A" stroke="{INK}" stroke-width="0.5"/>')
+        s.append(f'<rect x="254" y="{ay}" width="9" height="12" fill="#BEA98A" stroke="{INK}" stroke-width="0.5"/>')
+    s.append(txt(112, ft + 16, "轴", 4.4, SEAL, "end"))
     s.append(txt(300, ft + 16, "门缝：显化从这里出去", 4.3, GREEN, "end"))
     s.append(txt(190, gy + 168, "门不在门板上，在两扇之间那道还没合死的缝", 4.5, GREEN, "middle"))
 
@@ -1670,7 +1673,7 @@ def ch06c_yi_shan_men_zhou():
     for k in range(5):
         s.append(f'<line x1="{132 + k * 24}" y1="{ft2}" x2="{132 + k * 24}" y2="{fb2}" stroke="#B9A98F" stroke-width="0.4"/>')
     # 手：掌＋四指＋拇指
-    hx, hy = 216, gy2 + 100
+    hx, hy = 190, gy2 + 100
     s.append(f'<rect x="{hx - 12}" y="{hy - 9}" width="24" height="18" rx="5" fill="#EFE6D4" stroke="{INK}" stroke-width="1.0"/>')
     for k in range(4):
         s.append(f'<rect x="{hx - 10 + k * 5.6}" y="{hy - 20 - (1 - abs(1.5 - k)) * 2}" width="4" height="12" rx="2" fill="#EFE6D4" stroke="{INK}" stroke-width="0.8"/>')
@@ -1718,14 +1721,16 @@ def ch06_gu_shen():
     s.append(f'<line x1="68" y1="{yd+14}" x2="68" y2="{yd+62}" stroke="{INK}" stroke-width="1.6"/>')
     s.append(f'<line x1="124" y1="{yd+14}" x2="124" y2="{yd+62}" stroke="{INK}" stroke-width="1.6"/>')
     s.append(f'<line x1="56" y1="{yd+14}" x2="136" y2="{yd+14}" stroke="{INK}" stroke-width="1"/>')
-    s.append(f'<line x1="70" y1="{yd+42}" x2="88" y2="{yd+42}" stroke="{GREEN}" stroke-width="1" marker-end="url(#arr2)"/>')
-    s.append(f'<line x1="122" y1="{yd+52}" x2="104" y2="{yd+52}" stroke="{GREEN}" stroke-width="1" marker-end="url(#arrL)"/>')
-    s.append(txt(158, yd + 30, "天地根：出也从此，入也从此", 9, "#6E6459"))
-    s.append(txt(158, yd + 48, "门不装东西，只给一个进出的口", 9, "#6E6459"))
+    s.append(f'<line x1="26" y1="{yd+40}" x2="50" y2="{yd+40}" stroke="{GREEN}" stroke-width="1" marker-end="url(#arr2)"/>')
+    s.append(txt(26, yd + 31, "入", 8.4, GREEN))
+    s.append(f'<line x1="130" y1="{yd+40}" x2="154" y2="{yd+40}" stroke="{GREEN}" stroke-width="1" marker-end="url(#arr2)"/>')
+    s.append(txt(146, yd + 31, "出", 8.4, GREEN))
+    s.append(txt(166, yd + 30, "天地根：出也从此，入也从此", 9, "#6E6459"))
+    s.append(txt(166, yd + 48, "门不装东西，只给一个进出的口", 9, "#6E6459"))
     # 绵绵
     yl = yd + 96
     s.append(txt(20, yl, "绵绵若存，用之不勤", 9, "#8A7C69"))
-    s.append(f'<path d="M {40} {yl+34} Q {90} {yl+8} {140} {yl+34} Q {190} {yl+60} {240} {yl+34} Q {290} {yl+8} {340} {yl+34}" fill="none" stroke="{SEAL}" stroke-width="1.1" opacity="0.8"/>')
+    s.append(f'<path d="M {40} {yl+34} Q {90} {yl+24} {140} {yl+34} Q {190} {yl+44} {240} {yl+34} Q {290} {yl+26} {340} {yl+34}" fill="none" stroke="{SEAL}" stroke-width="1.1" opacity="0.8"/>')
     s.append(txt(190, yl + 62, "细得几乎看不见，却一直没断", 9, "#6E6459", "middle"))
     # 收
     yc = yl + 82

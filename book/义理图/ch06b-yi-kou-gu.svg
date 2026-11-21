@@ -34,9 +34,10 @@
 <path d="M180,520 q3,-10 7,-14" fill="none" stroke="#4A5C55" stroke-width="0.7"/>
 <path d="M194,520 q3,-10 7,-14" fill="none" stroke="#4A5C55" stroke-width="0.7"/>
 <path d="M208,520 q3,-10 7,-14" fill="none" stroke="#4A5C55" stroke-width="0.7"/>
-<line x1="176" y1="376" x2="178" y2="450" stroke="#8FA6A0" stroke-width="0.9" opacity="0.8"/>
-<line x1="188" y1="376" x2="190" y2="458" stroke="#8FA6A0" stroke-width="0.9" opacity="0.8"/>
-<line x1="200" y1="376" x2="202" y2="466" stroke="#8FA6A0" stroke-width="0.9" opacity="0.8"/>
+<rect x="180" y="376" width="20" height="136" fill="#8FA6A0" opacity="0.18"/>
+<line x1="182" y1="376" x2="184" y2="452" stroke="#7E9A93" stroke-width="1.6" opacity="0.9"/>
+<line x1="190" y1="376" x2="192" y2="460" stroke="#7E9A93" stroke-width="1.6" opacity="0.9"/>
+<line x1="198" y1="376" x2="200" y2="468" stroke="#7E9A93" stroke-width="1.6" opacity="0.9"/>
 <line x1="190" y1="468" x2="190" y2="514" stroke="#8FA6A0" stroke-width="1.0" marker-end="url(#arr2)"/>
 <text x="254" y="406" font-size="4.4" fill="#6E6459">水往低处走</text>
 <path d="M96,442 q40,-8 78,-2" fill="none" stroke="#B9A98F" stroke-width="0.6"/>

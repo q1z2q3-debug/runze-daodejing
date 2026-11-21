@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 380 556" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="谷、门、一线：玄牝三级" font-family="'Noto Serif CJK SC','Noto Serif SC','Songti SC',serif">
+<defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#6E6459"/></marker><marker id="arr2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#4A5C55"/></marker><marker id="arrL" viewBox="0 0 10 10" refX="1" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M10 0 L0 5 L10 10 z" fill="#4A5C55"/></marker><marker id="arrS" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#A2503B"/></marker></defs>
+<rect x="0" y="0" width="380" height="556" fill="#F8F3E6"/>
+<text x="20" y="26" font-size="11" fill="#A2503B" font-family="'Noto Sans CJK SC','Noto Sans SC',sans-serif" letter-spacing="3">第 六 章 · 生 生</text>
+<text x="20" y="58" font-size="21" fill="#2F2A24">谷神不死</text>
+<text x="20" y="78" font-size="10.5" fill="#6E6459">虚能受，受而能生，生而不竭——三级说的是一件事。</text>
+<path d="M 40 172 Q 60 122 96 172" fill="none" stroke="#2F2A24" stroke-width="1.3"/>
+<path d="M 96 172 Q 132 122 152 172" fill="none" stroke="#2F2A24" stroke-width="1.3"/>
+<line x1="30" y1="172" x2="162" y2="172" stroke="#DCCBB0" stroke-width="0.8"/>
+<text x="96" y="156" font-size="11" fill="#4A5C55" text-anchor="middle">谷</text>
+<text x="178" y="136" font-size="9" fill="#6E6459">两山之间的凹陷</text>
+<text x="178" y="152" font-size="9" fill="#6E6459">虚而能受；不是被填满的坑</text>
+<text x="178" y="170" font-size="9.5" fill="#A2503B">谷神不死</text>
+<text x="20" y="208" font-size="9" fill="#8A7C69">玄牝之门：它从哪里出入</text>
+<line x1="68" y1="222" x2="68" y2="270" stroke="#2F2A24" stroke-width="1.6"/>
+<line x1="124" y1="222" x2="124" y2="270" stroke="#2F2A24" stroke-width="1.6"/>
+<line x1="56" y1="222" x2="136" y2="222" stroke="#2F2A24" stroke-width="1"/>
+<line x1="70" y1="250" x2="88" y2="250" stroke="#4A5C55" stroke-width="1" marker-end="url(#arr2)"/>
+<line x1="122" y1="260" x2="104" y2="260" stroke="#4A5C55" stroke-width="1" marker-end="url(#arrL)"/>
+<text x="158" y="238" font-size="9" fill="#6E6459">天地根：出也从此，入也从此</text>
+<text x="158" y="256" font-size="9" fill="#6E6459">门不装东西，只给一个进出的口</text>
+<text x="20" y="304" font-size="9" fill="#8A7C69">绵绵若存，用之不勤</text>
+<path d="M 40 338 Q 90 312 140 338 Q 190 364 240 338 Q 290 312 340 338" fill="none" stroke="#A2503B" stroke-width="1.1" opacity="0.8"/>
+<text x="190" y="366" font-size="9" fill="#6E6459" text-anchor="middle">细得几乎看不见，却一直没断</text>
+<rect x="20" y="386" width="340" height="62" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="32" y="408" font-size="9" fill="#2F2A24">「神」不是人格神：是「申」，闪电屈曲之象，虚中不测的势能。</text>
+<text x="32" y="426" font-size="9" fill="#2F2A24">「玄牝」不是性别：是牡牝往复的整套本能，不归男女。</text>
+<text x="32" y="444" font-size="9" fill="#A2503B">读成神灵，多一个主宰；读成肉身，少一半天地。</text>
+<line x1="20" y1="504" x2="360" y2="504" stroke="#E6D8C2" stroke-width="0.8"/>
+<text x="20" y="518" font-size="8.0" fill="#A89577" letter-spacing="1">本 章 金 句</text>
+<text x="20" y="534" font-size="8.4" fill="#2F2A24">谷神不死，是谓玄牝。</text>
+<text x="20" y="550" font-size="8.4" fill="#2F2A24">虚能受，受而能生，生而不竭——三级说的是一件事。</text>
+</svg>
