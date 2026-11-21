@@ -12,9 +12,17 @@
 <rect x="26" y="164" width="328" height="180" fill="#FBF6EC" stroke="#DCCBB0" stroke-width="0.8"/>
 <path d="M92,248 L150,214 L208,248 z" fill="#E4D8BF" stroke="#2F2A24" stroke-width="1.2"/>
 <rect x="96" y="248" width="108" height="46" fill="#E4D8BF" stroke="#2F2A24" stroke-width="1.2"/>
-<line x1="96" y1="260" x2="204" y2="260" stroke="#2F2A24" stroke-width="0.4" opacity="0.5"/>
-<line x1="96" y1="274" x2="204" y2="274" stroke="#2F2A24" stroke-width="0.4" opacity="0.5"/>
-<line x1="96" y1="288" x2="204" y2="288" stroke="#2F2A24" stroke-width="0.4" opacity="0.5"/>
+<line x1="96" y1="294" x2="109" y2="248" stroke="#2F2A24" stroke-width="0.35" opacity="0.45"/>
+<line x1="107" y1="294" x2="120" y2="248" stroke="#2F2A24" stroke-width="0.35" opacity="0.45"/>
+<line x1="118" y1="294" x2="131" y2="248" stroke="#2F2A24" stroke-width="0.35" opacity="0.45"/>
+<line x1="129" y1="294" x2="142" y2="248" stroke="#2F2A24" stroke-width="0.35" opacity="0.45"/>
+<line x1="140" y1="294" x2="153" y2="248" stroke="#2F2A24" stroke-width="0.35" opacity="0.45"/>
+<line x1="151" y1="294" x2="164" y2="248" stroke="#2F2A24" stroke-width="0.35" opacity="0.45"/>
+<line x1="162" y1="294" x2="175" y2="248" stroke="#2F2A24" stroke-width="0.35" opacity="0.45"/>
+<line x1="173" y1="294" x2="186" y2="248" stroke="#2F2A24" stroke-width="0.35" opacity="0.45"/>
+<line x1="184" y1="294" x2="197" y2="248" stroke="#2F2A24" stroke-width="0.35" opacity="0.45"/>
+<line x1="195" y1="294" x2="204" y2="248" stroke="#2F2A24" stroke-width="0.35" opacity="0.45"/>
+<line x1="88" y1="294" x2="212" y2="294" stroke="#2F2A24" stroke-width="1.4"/>
 <text x="150" y="276" font-size="4.6" fill="#A2503B" text-anchor="middle">无门无窗</text>
 <line x1="232" y1="272" x2="208" y2="272" stroke="#A2503B" stroke-width="0.9" marker-end="url(#arrS)"/>
 <text x="236" y="276" font-size="4.3" fill="#A2503B">进不去</text>
@@ -26,11 +34,17 @@
 <rect x="124" y="454" width="30" height="32" fill="#E4EAE0" stroke="#2F2A24" stroke-width="1.0"/>
 <line x1="139" y1="454" x2="139" y2="486" stroke="#DCCBB0" stroke-width="0.5"/>
 <rect x="168" y="448" width="28" height="20" fill="#E4EAE0" stroke="#2F2A24" stroke-width="1.0"/>
-<line x1="182" y1="448" x2="182" y2="468" stroke="#DCCBB0" stroke-width="0.5"/>
+<line x1="182" y1="448" x2="182" y2="468" stroke="#2F2A24" stroke-width="0.5"/>
+<line x1="168" y1="458" x2="196" y2="458" stroke="#2F2A24" stroke-width="0.5"/>
 <text x="120" y="460" font-size="3.9" fill="#4A5C55" text-anchor="end">户</text>
 <text x="182" y="442" font-size="3.9" fill="#4A5C55" text-anchor="middle">牖</text>
+<line x1="198" y1="458" x2="216" y2="452" stroke="#4A5C55" stroke-width="0.5" stroke-dasharray="3 2" opacity="0.8"/>
+<line x1="198" y1="458" x2="216" y2="458" stroke="#4A5C55" stroke-width="0.5" stroke-dasharray="3 2" opacity="0.8"/>
+<line x1="198" y1="458" x2="216" y2="464" stroke="#4A5C55" stroke-width="0.5" stroke-dasharray="3 2" opacity="0.8"/>
 <circle cx="146" cy="452" r="2.8" fill="none" stroke="#2F2A24" stroke-width="0.9"/>
 <line x1="146" y1="455" x2="146" y2="466" stroke="#2F2A24" stroke-width="1.0"/>
+<line x1="146" y1="459" x2="142" y2="465" stroke="#2F2A24" stroke-width="0.9"/>
+<line x1="146" y1="459" x2="150" y2="465" stroke="#2F2A24" stroke-width="0.9"/>
 <line x1="146" y1="466" x2="143" y2="474" stroke="#2F2A24" stroke-width="0.9"/>
 <line x1="146" y1="466" x2="149" y2="474" stroke="#2F2A24" stroke-width="0.9"/>
 <line x1="82" y1="474" x2="122" y2="474" stroke="#4A5C55" stroke-width="0.9" marker-end="url(#arr2)"/>

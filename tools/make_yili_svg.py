@@ -259,11 +259,11 @@ def ch11b_san_shi_fu_yi_gu():
     s.append(txt(190, y + 28, "不是先造一个空，再堆辐条；是用一圈骨架，把一个能转的虚场放出来。", 4.9, "#6E6459", "middle"))
 
     def wheel(cx, cy, r, solid=False, hole=True):
-        for k in range(20):
-            a = math.radians(k * 18)
-            s.append(f'<line x1="{cx + 9 * math.cos(a):.1f}" y1="{cy + 9 * math.sin(a):.1f}" x2="{cx + (r - 2) * math.cos(a):.1f}" y2="{cy + (r - 2) * math.sin(a):.1f}" stroke="{INK}" stroke-width="0.7"/>')
-        s.append(f'<circle cx="{cx}" cy="{cy}" r="{r}" fill="none" stroke="{INK}" stroke-width="1.6"/>')
-        s.append(f'<circle cx="{cx}" cy="{cy}" r="{r - 4}" fill="none" stroke="{LINE}" stroke-width="0.6"/>')
+        for k in range(30):
+            a = math.radians(k * 12)
+            s.append(f'<line x1="{cx + 11 * math.cos(a):.1f}" y1="{cy + 11 * math.sin(a):.1f}" x2="{cx + (r - 2) * math.cos(a):.1f}" y2="{cy + (r - 2) * math.sin(a):.1f}" stroke="{INK}" stroke-width="0.5"/>')
+        s.append(f'<circle cx="{cx}" cy="{cy}" r="{r}" fill="none" stroke="{INK}" stroke-width="1.3"/>')
+        s.append(f'<circle cx="{cx}" cy="{cy}" r="{r - 4}" fill="none" stroke="{LINE}" stroke-width="0.5"/>')
         if solid:
             s.append(f'<circle cx="{cx}" cy="{cy}" r="9" fill="#B9A98F" stroke="{INK}" stroke-width="1.0"/>')
             for k in range(3):
@@ -282,7 +282,7 @@ def ch11b_san_shi_fu_yi_gu():
     s.append(f'<line x1="34" y1="{cy}" x2="116" y2="{cy}" stroke="{SEAL}" stroke-width="1.4"/>')
     s.append(arrow(116, cy, 126, cy, SEAL, 1.4, None, "arrS"))
     s.append(txt(40, cy - 7, "轴", 4.2, SEAL))
-    s.append(txt(200, gy + 44, "辐：二十根都在这儿", 4.3, "#6E6459"))
+    s.append(txt(200, gy + 44, "辐：三十根都在这儿", 4.3, "#6E6459"))
     s.append(f'<line x1="196" y1="{gy + 48}" x2="176" y2="{cy - 32}" stroke="{LINE2}" stroke-width="0.5" stroke-dasharray="3 2"/>')
     s.append(txt(132, cy + 56, "毂心填实：木坨一块", 4.5, SEAL, "middle"))
     s.append(txt(36, gy + 152, "辐条是「利」：给骨架、给定型、给抓手", 4.3, "#6E6459"))
@@ -334,8 +334,12 @@ def ch11c_zao_hu_you():
     px, py = 150, gy + 84
     s.append(f'<path d="M{px - 58},{py} L{px},{py - 34} L{px + 58},{py} z" fill="#E4D8BF" stroke="{INK}" stroke-width="1.2"/>')
     s.append(f'<rect x="{px - 54}" y="{py}" width="108" height="46" fill="#E4D8BF" stroke="{INK}" stroke-width="1.2"/>')
-    for k in range(3):
-        s.append(f'<line x1="{px - 54}" y1="{py + 12 + k * 14}" x2="{px + 54}" y2="{py + 12 + k * 14}" stroke="{INK}" stroke-width="0.4" opacity="0.5"/>')
+    clipn = 0
+    for k in range(10):
+        xx = px - 54 + k * 11
+        ex = min(xx + 13, px + 54)
+        s.append(f'<line x1="{xx}" y1="{py + 46}" x2="{ex}" y2="{py}" stroke="{INK}" stroke-width="0.35" opacity="0.45"/>')
+    s.append(f'<line x1="{px - 62}" y1="{py + 46}" x2="{px + 62}" y2="{py + 46}" stroke="{INK}" stroke-width="1.4"/>')
     s.append(txt(px, py + 28, "无门无窗", 4.6, SEAL, "middle"))
     s.append(arrow(232, py + 24, 208, py + 24, SEAL, 0.9, None, "arrS"))
     s.append(txt(236, py + 28, "进不去", 4.3, SEAL))
@@ -352,13 +356,18 @@ def ch11c_zao_hu_you():
     s.append(f'<rect x="{px2 - 26}" y="{py2 + 20}" width="30" height="32" fill="#E4EAE0" stroke="{INK}" stroke-width="1.0"/>')
     s.append(f'<line x1="{px2 - 11}" y1="{py2 + 20}" x2="{px2 - 11}" y2="{py2 + 52}" stroke="{LINE}" stroke-width="0.5"/>')
     s.append(f'<rect x="{px2 + 18}" y="{py2 + 14}" width="28" height="20" fill="#E4EAE0" stroke="{INK}" stroke-width="1.0"/>')
-    s.append(f'<line x1="{px2 + 32}" y1="{py2 + 14}" x2="{px2 + 32}" y2="{py2 + 34}" stroke="{LINE}" stroke-width="0.5"/>')
+    s.append(f'<line x1="{px2 + 32}" y1="{py2 + 14}" x2="{px2 + 32}" y2="{py2 + 34}" stroke="{INK}" stroke-width="0.5"/>')
+    s.append(f'<line x1="{px2 + 18}" y1="{py2 + 24}" x2="{px2 + 46}" y2="{py2 + 24}" stroke="{INK}" stroke-width="0.5"/>')
     s.append(txt(px2 - 30, py2 + 26, "户", 3.9, GREEN, "end"))
     s.append(txt(px2 + 32, py2 + 8, "牖", 3.9, GREEN, "middle"))
+    for k, dy2 in enumerate([18, 24, 30]):
+        s.append(f'<line x1="{px2 + 48}" y1="{py2 + 24}" x2="{px2 + 66}" y2="{py2 + dy2}" stroke="{GREEN}" stroke-width="0.5" stroke-dasharray="3 2" opacity="0.8"/>')
     # 人立在堂中
     hx, hy = px2 - 4, py2 + 30
     s.append(f'<circle cx="{hx}" cy="{hy - 12}" r="2.8" fill="none" stroke="{INK}" stroke-width="0.9"/>')
     s.append(f'<line x1="{hx}" y1="{hy - 9}" x2="{hx}" y2="{hy + 2}" stroke="{INK}" stroke-width="1.0"/>')
+    s.append(f'<line x1="{hx}" y1="{hy - 5}" x2="{hx - 4}" y2="{hy + 1}" stroke="{INK}" stroke-width="0.9"/>')
+    s.append(f'<line x1="{hx}" y1="{hy - 5}" x2="{hx + 4}" y2="{hy + 1}" stroke="{INK}" stroke-width="0.9"/>')
     s.append(f'<line x1="{hx}" y1="{hy + 2}" x2="{hx - 3}" y2="{hy + 10}" stroke="{INK}" stroke-width="0.9"/>')
     s.append(f'<line x1="{hx}" y1="{hy + 2}" x2="{hx + 3}" y2="{hy + 10}" stroke="{INK}" stroke-width="0.9"/>')
     s.append(arrow(px2 - 68, py2 + 40, px2 - 28, py2 + 40, GREEN, 0.9, None, "arr2"))
@@ -384,7 +393,7 @@ def ch11c_zao_hu_you():
 
 
 def ch11_li_yong():
-    W, H = 380, 670
+    W, H = 380, 999
     body, y = head(W, H, "车、器、室三容器：有给利，无给用", "第 十 一 章 · 器 喻", "利与用",
                    "三件东西，一个道理：有形给依托，虚空给功能。", H)
     s = [body]
@@ -394,44 +403,49 @@ def ch11_li_yong():
         ("室", "墙、户、牖", "室中之虚", "居而能通", "室之用"),
     ]
     yb = y + 2
+    h = 108
     for i, (icon, you, wu, act, use) in enumerate(rows):
-        h = 106
         s.append(box(20, yb, 340, h, fill="#FBF6EC" if i % 2 == 0 else "#F6EFE0"))
-        # 图标
-        cx, cy = 56, yb + 50
+        cx, cy = 58, yb + 50
         if i == 0:
             import math
-            s.append(f'<circle cx="{cx}" cy="{cy}" r="20" fill="none" stroke="{INK}" stroke-width="1.1"/>')
-            for k in range(12):
-                a = math.radians(k * 30)
-                s.append(f'<line x1="{cx + 7*math.cos(a):.1f}" y1="{cy + 7*math.sin(a):.1f}" '
-                         f'x2="{cx + 20*math.cos(a):.1f}" y2="{cy + 20*math.sin(a):.1f}" stroke="{INK}" stroke-width="0.7"/>')
-            s.append(f'<circle cx="{cx}" cy="{cy}" r="7" fill="none" stroke="{SEAL}" stroke-width="1"/>')
+            s.append(f'<line x1="{cx - 26}" y1="{cy}" x2="{cx + 26}" y2="{cy}" stroke="{INK}" stroke-width="0.8"/>')
+            s.append(f'<circle cx="{cx}" cy="{cy}" r="19" fill="none" stroke="{INK}" stroke-width="1.1"/>')
+            for k in range(30):
+                a = math.radians(k * 12)
+                s.append(f'<line x1="{cx + 7 * math.cos(a):.1f}" y1="{cy + 7 * math.sin(a):.1f}" '
+                         f'x2="{cx + 18 * math.cos(a):.1f}" y2="{cy + 18 * math.sin(a):.1f}" stroke="{INK}" stroke-width="0.4"/>')
+            s.append(f'<circle cx="{cx}" cy="{cy}" r="6" fill="{PAPER}" stroke="{SEAL}" stroke-width="0.9"/>')
         elif i == 1:
-            s.append(f'<path d="M {cx-22} {cy-14} Q {cx} {cy+22} {cx+22} {cy-14}" fill="none" stroke="{INK}" stroke-width="1.1"/>')
-            s.append(f'<line x1="{cx-24}" y1="{cy-14}" x2="{cx+24}" y2="{cy-14}" stroke="{INK}" stroke-width="0.9"/>')
-            s.append(f'<line x1="{cx-22}" y1="{cy-14}" x2="{cx+22}" y2="{cy-14}" stroke="{SEAL}" stroke-width="0.5" opacity="0.6"/>')
+            s.append(f'<path d="M {cx-22} {cy-12} Q {cx} {cy+22} {cx+22} {cy-12} Z" fill="#E9F0E6" stroke="none"/>')
+            s.append(f'<path d="M {cx-22} {cy-12} Q {cx} {cy+22} {cx+22} {cy-12}" fill="none" stroke="{INK}" stroke-width="1.1"/>')
+            s.append(f'<line x1="{cx-23}" y1="{cy-12}" x2="{cx+23}" y2="{cy-12}" stroke="{INK}" stroke-width="1.0"/>')
+            s.append(f'<path d="M {cx-18} {cy-11} Q {cx} {cy+15} {cx+18} {cy-11}" fill="none" stroke="{INK}" stroke-width="0.45" opacity="0.7"/>')
         else:
-            s.append(box(cx - 24, cy - 14, 48, 30, "none", INK, None, 1.1))
-            s.append(f'<line x1="{cx-8}" y1="{cy-14}" x2="{cx-8}" y2="{cy+16}" stroke="{SEAL}" stroke-width="1"/>')
-        s.append(txt(cx, yb + 88, icon, 10, "#8A7C69", "middle"))
-        # 文字两列
+            s.append(f'<path d="M {cx-22} {cy-6} L {cx} {cy-20} L {cx+22} {cy-6} z" fill="#EFE6D4" stroke="{INK}" stroke-width="1.0"/>')
+            s.append(box(cx - 20, cy - 6, 40, 22, "none", INK, None, 1.0))
+            s.append(f'<rect x="{cx-14}" y="{cy+4}" width="9" height="12" fill="#E4EAE0" stroke="{INK}" stroke-width="0.8"/>')
+            s.append(f'<rect x="{cx+2}" y="{cy-2}" width="10" height="7" fill="#E4EAE0" stroke="{INK}" stroke-width="0.8"/>')
+            s.append(f'<line x1="{cx+7}" y1="{cy-2}" x2="{cx+7}" y2="{cy+5}" stroke="{INK}" stroke-width="0.4"/>')
+        s.append(txt(cx, yb + 90, icon, 10, "#8A7C69", "middle"))
         s.append(txt(96, yb + 28, you, 11, SEAL))
         s.append(txt(96, yb + 46, "有 · 立界", 10, "#6E6459"))
-        s.append(txt(96, yb + 72, wu, 11, GREEN))
-        s.append(txt(96, yb + 90, "无 · 让位", 10, "#6E6459"))
-        s.append(txt(248, yb + 44, act, 11, INK))
-        s.append(txt(248, yb + 62, use, 10.5, "#6E6459"))
+        s.append(txt(96, yb + 74, wu, 11, GREEN))
+        s.append(txt(96, yb + 92, "无 · 留虚", 10, "#6E6459"))
+        s.append(txt(250, yb + 46, act, 11, INK))
+        s.append(txt(250, yb + 64, use, 10.5, "#6E6459"))
         yb += h + 8
-    # 结语
+
     yc = yb + 6
     s.append(box(20, yc, 340, 58, fill="#F2EADA", stroke="#C9B79A"))
     s.append(txt(190, yc + 24, "有之以为利，无之以为用", 13, INK, "middle", spacing="1"))
     s.append(txt(190, yc + 44, "不是先有器壁再补一个空，是器壁把那个空撑出来。", 10, "#6E6459", "middle"))
     s.append(txt(190, yc + 78, "该立多少界，该留多少空——这是一份分寸表，不是技巧。", 10.5, "#6E6459", "middle"))
-    s.append(gold(H - 68, "ch11a"))
+    s.append(gold(yc + 100, "ch11a"))
     s.append('</svg>')
-    return "\n".join(s)
+    out = "\n".join(s)
+    ys = [float(v) for v in re.findall(r'y="([0-9.]+)"', out)]
+    return out.replace("999", str(int(max(ys) + 26)))
 
 
 # ============ 第二十二章 · 曲则全 ============
