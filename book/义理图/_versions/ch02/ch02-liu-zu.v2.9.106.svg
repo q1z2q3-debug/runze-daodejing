@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 380 622" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="六组对偶：执名则生对立" font-family="'Noto Serif CJK SC','Noto Serif SC','Songti SC',serif">
+<defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#6E6459"/></marker><marker id="arr2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#4A5C55"/></marker><marker id="arrL" viewBox="0 0 10 10" refX="1" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M10 0 L0 5 L10 10 z" fill="#4A5C55"/></marker><marker id="arrS" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#A2503B"/></marker></defs>
+<rect x="0" y="0" width="380" height="622" fill="#F8F3E6"/>
+<text x="20" y="26" font-size="11" fill="#A2503B" font-family="'Noto Sans CJK SC','Noto Sans SC',sans-serif" letter-spacing="3">第 二 章 · 对 照</text>
+<text x="20" y="58" font-size="21" fill="#2F2A24">六组对偶</text>
+<text x="20" y="78" font-size="10.5" fill="#6E6459">名一立，对面就跟着立；六组全是同一件事。</text>
+<rect x="20" y="104" width="150" height="32" fill="#FBF6EC" stroke="#E6D8C2"/>
+<rect x="210" y="104" width="150" height="32" fill="#FBF6EC" stroke="#E6D8C2"/>
+<text x="95" y="127" font-size="12" fill="#A2503B" text-anchor="middle">有</text>
+<text x="285" y="127" font-size="12" fill="#A2503B" text-anchor="middle">无</text>
+<path d="M 178 120 L 202 120" stroke="#4A5C55" stroke-width="1" marker-start="url(#arrL)" marker-end="url(#arr)"/>
+<rect x="20" y="144" width="150" height="32" fill="#FBF6EC" stroke="#E6D8C2"/>
+<rect x="210" y="144" width="150" height="32" fill="#FBF6EC" stroke="#E6D8C2"/>
+<text x="95" y="167" font-size="12" fill="#A2503B" text-anchor="middle">难</text>
+<text x="285" y="167" font-size="12" fill="#A2503B" text-anchor="middle">易</text>
+<path d="M 178 160 L 202 160" stroke="#4A5C55" stroke-width="1" marker-start="url(#arrL)" marker-end="url(#arr)"/>
+<rect x="20" y="184" width="150" height="32" fill="#FBF6EC" stroke="#E6D8C2"/>
+<rect x="210" y="184" width="150" height="32" fill="#FBF6EC" stroke="#E6D8C2"/>
+<text x="95" y="207" font-size="12" fill="#A2503B" text-anchor="middle">长</text>
+<text x="285" y="207" font-size="12" fill="#A2503B" text-anchor="middle">短</text>
+<path d="M 178 200 L 202 200" stroke="#4A5C55" stroke-width="1" marker-start="url(#arrL)" marker-end="url(#arr)"/>
+<rect x="20" y="224" width="150" height="32" fill="#FBF6EC" stroke="#E6D8C2"/>
+<rect x="210" y="224" width="150" height="32" fill="#FBF6EC" stroke="#E6D8C2"/>
+<text x="95" y="247" font-size="12" fill="#A2503B" text-anchor="middle">高</text>
+<text x="285" y="247" font-size="12" fill="#A2503B" text-anchor="middle">下</text>
+<path d="M 178 240 L 202 240" stroke="#4A5C55" stroke-width="1" marker-start="url(#arrL)" marker-end="url(#arr)"/>
+<rect x="20" y="264" width="150" height="32" fill="#FBF6EC" stroke="#E6D8C2"/>
+<rect x="210" y="264" width="150" height="32" fill="#FBF6EC" stroke="#E6D8C2"/>
+<text x="95" y="287" font-size="12" fill="#A2503B" text-anchor="middle">音</text>
+<text x="285" y="287" font-size="12" fill="#A2503B" text-anchor="middle">声</text>
+<path d="M 178 280 L 202 280" stroke="#4A5C55" stroke-width="1" marker-start="url(#arrL)" marker-end="url(#arr)"/>
+<rect x="20" y="304" width="150" height="32" fill="#FBF6EC" stroke="#E6D8C2"/>
+<rect x="210" y="304" width="150" height="32" fill="#FBF6EC" stroke="#E6D8C2"/>
+<text x="95" y="327" font-size="12" fill="#A2503B" text-anchor="middle">前</text>
+<text x="285" y="327" font-size="12" fill="#A2503B" text-anchor="middle">后</text>
+<path d="M 178 320 L 202 320" stroke="#4A5C55" stroke-width="1" marker-start="url(#arrL)" marker-end="url(#arr)"/>
+<text x="190" y="96" font-size="10" fill="#6E6459" text-anchor="middle" letter-spacing="1">名 之 一 侧</text>
+<text x="190" y="362" font-size="10.5" fill="#4A5C55" text-anchor="middle" letter-spacing="1">相 生 相 成：无此则无彼</text>
+<rect x="20" y="378" width="340" height="76" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="32" y="404" font-size="12.5" fill="#2F2A24">是以圣人处无为之事</text>
+<text x="32" y="426" font-size="10.5" fill="#6E6459">不立这把尺，故不随之起倒；行不言之教，事成而不居。</text>
+<text x="32" y="444" font-size="10.5" fill="#A2503B">执一岸，必被另一岸牵着走。</text>
+<line x1="20" y1="554" x2="360" y2="554" stroke="#E6D8C2" stroke-width="0.8"/>
+<text x="20" y="568" font-size="8.0" fill="#A89577" letter-spacing="1">本 章 金 句</text>
+<text x="20" y="584" font-size="8.4" fill="#2F2A24">有无相生，难易相成。</text>
+<text x="20" y="600" font-size="8.4" fill="#2F2A24">名一立，对面就跟着立；六组全是同一件事。</text>
+</svg>

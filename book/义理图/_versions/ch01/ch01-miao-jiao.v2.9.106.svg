@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 380 436" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="观妙与观徼：同一条链，两头读" font-family="'Noto Serif CJK SC','Noto Serif SC','Songti SC',serif">
+<defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#6E6459"/></marker><marker id="arr2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#4A5C55"/></marker><marker id="arrL" viewBox="0 0 10 10" refX="1" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M10 0 L0 5 L10 10 z" fill="#4A5C55"/></marker><marker id="arrS" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#A2503B"/></marker></defs>
+<rect x="0" y="0" width="380" height="436" fill="#F8F3E6"/>
+<text x="20" y="26" font-size="11" fill="#A2503B" font-family="'Noto Sans CJK SC','Noto Sans SC',sans-serif" letter-spacing="3">第 一 章 · 观 法</text>
+<text x="20" y="58" font-size="21" fill="#2F2A24">观妙 · 观徼</text>
+<text x="20" y="78" font-size="10.5" fill="#6E6459">不是上下两层，是同一条存在的链，两种读法。</text>
+<rect x="20" y="100" width="340" height="200" fill="#FBF6EC" stroke="#DCCBB0" stroke-width="1.0"/>
+<line x1="36" y1="256" x2="338" y2="256" stroke="#C9B79A" stroke-width="0.7" marker-end="url(#arrL)"/>
+<text x="38" y="272" font-size="8.0" fill="#6E6459">小</text>
+<text x="336" y="272" font-size="8.0" fill="#6E6459" text-anchor="end">大</text>
+<line x1="64" y1="253" x2="64" y2="259" stroke="#C9B79A" stroke-width="0.5"/>
+<text x="64" y="272" font-size="7.4" fill="#6E6459" text-anchor="middle">量子</text>
+<line x1="108" y1="253" x2="108" y2="259" stroke="#C9B79A" stroke-width="0.5"/>
+<text x="108" y="272" font-size="7.4" fill="#6E6459" text-anchor="middle">原子</text>
+<line x1="152" y1="253" x2="152" y2="259" stroke="#C9B79A" stroke-width="0.5"/>
+<text x="152" y="272" font-size="7.4" fill="#6E6459" text-anchor="middle">分子</text>
+<line x1="200" y1="253" x2="200" y2="259" stroke="#C9B79A" stroke-width="0.5"/>
+<text x="200" y="272" font-size="7.4" fill="#6E6459" text-anchor="middle">生命</text>
+<line x1="250" y1="253" x2="250" y2="259" stroke="#C9B79A" stroke-width="0.5"/>
+<text x="250" y="272" font-size="7.4" fill="#6E6459" text-anchor="middle">社群</text>
+<line x1="306" y1="253" x2="306" y2="259" stroke="#C9B79A" stroke-width="0.5"/>
+<text x="306" y="272" font-size="7.4" fill="#6E6459" text-anchor="middle">星系</text>
+<path d="M40,140 C 150,166 250,220 340,250" fill="none" stroke="#A2503B" stroke-width="1.2"/>
+<path d="M40,250 C 140,250 240,172 296,140" fill="none" stroke="#4A5C55" stroke-width="1.2"/>
+<circle cx="216" cy="192" r="14" fill="#FBF6EC" stroke="#A2503B" stroke-width="0.7"/>
+<text x="216" y="196" font-size="11" fill="#A2503B" text-anchor="middle">玄</text>
+<text x="44" y="124" font-size="9.4" fill="#A2503B">妙 · 未显</text>
+<text x="44" y="184" font-size="7.8" fill="#6E6459">越往小，生机越厚</text>
+<text x="336" y="124" font-size="9.4" fill="#4A5C55" text-anchor="end">徼 · 已显</text>
+<text x="336" y="162" font-size="7.8" fill="#6E6459" text-anchor="end">越往大，分际越明</text>
+<text x="190" y="322" font-size="10.5" fill="#2F2A24" text-anchor="middle" letter-spacing="1">小而无内，大而无外；两头是同一件事。</text>
+<text x="190" y="344" font-size="10" fill="#6E6459" text-anchor="middle">说「有」还是说「无」，只在你读它显了几分——</text>
+<text x="190" y="360" font-size="10" fill="#4A5C55" text-anchor="middle">不是两个东西，是同一条链的两端。</text>
+<line x1="20" y1="368" x2="360" y2="368" stroke="#E6D8C2" stroke-width="0.8"/>
+<text x="20" y="382" font-size="8.0" fill="#A89577" letter-spacing="1">本 章 金 句</text>
+<text x="20" y="398" font-size="8.4" fill="#2F2A24">此两者同出而异名，同谓之玄。</text>
+<text x="20" y="414" font-size="8.4" fill="#2F2A24">往下看是未形，往上看见界；两边是同一件事的两个取景。</text>
+</svg>
