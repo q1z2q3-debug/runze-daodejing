@@ -7879,6 +7879,8 @@ def ch04c_si_bu():
 
 
 GOLD = {
+    "ch01d": ["常有欲以观其徼。", "观徼是划界：界线在细胞之前，不在蛋白质之后。"],
+    "ch01e": ["常无欲以观其妙。", "观妙是见空：每一级先造出一个空，新性质住在那里。"],
     "ch07b": ["天地所以能长且久者，以其不自生，故能长生。", "为己者，取而入，入而塞；不为己者，生而出，出而复——差别不在善恶，在闭环。"],
     "ch07c": ["是以圣人后其身而身先，外其身而身存。", "先不是争来的，是人心自归的；退不是姿态，是把手松开。"],
     "ch08b": ["处众人之所恶，故几于道。", "低处不是惩罚，是不必守的位置。"],
@@ -15835,10 +15837,127 @@ def ch65c_yi_dao_mo_xian():
 
 
 
+# ============ 第一章补图 · 涌现判据 / 有无双观 ============
+def ch01d_yong_xian_pan_ju():
+    W,H=1000,886
+    INK,SEAL,GREEN,LINE,LINE2,PAPER="#2F2A24","#A2503B","#4A5C55","#DCCBB0","#E6D8C2","#F8F3E6"
+    RED,BLUE,GREY="#B5462F","#2E7C8F","#8A7C69"
+    SERIF="'Noto Serif CJK SC','Noto Serif SC','Songti SC',serif"
+    SANS="'Noto Sans CJK SC','Noto Sans SC',sans-serif"
+    BH=72; X0=110; SW_=100; RISE=56; BASE=700
+    ROWS=[("原子","化合价","化学键"),
+    ("小分子","反应性","分子的形状"),
+    ("有机大分子","长链稳定","自组织"),
+    ("蛋白质","催化（酶）","构象 · 识别"),
+    ("细胞","代谢 · 自我维持","复制 · 边界"),
+    ("组织","分工","协同"),
+    ("器官","功能","系统里的角色"),
+    ("人体","意识","自省")]
+    def by(i): return BASE-BH-i*RISE
+    s=[f'<svg viewBox="0 0 {W} {H}" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="涌现判据：八级台阶与生命门槛" font-family="{SERIF}">',
+       f'<rect x="0" y="0" width="{W}" height="{H}" fill="{PAPER}"/>',
+       f'<text x="24" y="30" font-size="11" fill="{SEAL}" font-family="{SANS}" letter-spacing="3">义 理 图 · 涌 现 判 据</text>',
+       f'<text x="24" y="66" font-size="18" fill="{INK}">涌现不在某一点开始，它每一级都在发生</text>',
+       f'<text x="24" y="92" font-size="10.4" fill="#6E6459">而「生命」这一属性，起点在细胞 —— 蛋白质是材料，不是命。</text>']
+    for i,(name,p1,p2) in enumerate(ROWS):
+        c = GREEN if i==3 else (SEAL if i>=4 else GREY)
+        x=X0+i*SW_; y=by(i)
+        s.append(f'<rect x="{x}" y="{y}" width="{SW_}" height="{BH}" fill="{c}" opacity="0.07"/>')
+        s.append(f'<rect x="{x}" y="{y}" width="{SW_}" height="{BH}" fill="none" stroke="{c}" stroke-width="0.9"/>')
+        s.append(f'<path d="M{x},{y} H{x+SW_}" stroke="{c}" stroke-width="2"/>')
+        s.append(f'<text x="{x+9}" y="{y+23}" font-size="9.6" fill="{INK}" font-weight="600">{name}</text>')
+        s.append(f'<text x="{x+9}" y="{y+42}" font-size="7.9" fill="{c}">{p1}</text>')
+        s.append(f'<text x="{x+9}" y="{y+57}" font-size="7.9" fill="{c}">{p2}</text>')
+    # 生命门槛
+    xm=X0+4*SW_
+    s.append(f'<line x1="{xm}" y1="208" x2="{xm}" y2="712" stroke="{RED}" stroke-width="1" stroke-dasharray="6 5"/>')
+    s.append(f'<text x="{xm-12}" y="200" font-size="9.2" fill="{GREY}" text-anchor="end">此前都是「物」</text>')
+    s.append(f'<text x="{xm+12}" y="200" font-size="9.6" fill="{RED}" letter-spacing="0.6">生命门槛 · 越此线才叫「活」</text>')
+    # 底部判据
+    lines=[("判据","涌现 = 下层单独不具备、且无法由下层线性加总得出的性质。",INK),
+           ("检验","把上层拆回下层，新性质随即消失；而在拆开的下层里，找不到它的影子。","#6E6459"),
+           ("两向","蛋白质离体即失活、不复制；细胞拆散即不代谢 —— 两头都拆得住，故「生命」属于细胞，不属于蛋白质。",SEAL)]
+    for k,(tag,txt,c) in enumerate(lines):
+        y=748+k*26
+        s.append(f'<text x="{X0}" y="{y}" font-size="8.4" fill="{c}" font-family="{SANS}" letter-spacing="2">{tag}</text>')
+        s.append(f'<text x="{X0+40}" y="{y}" font-size="9.8" fill="{c}">{txt}</text>')
+    gy=H-64
+    s.append(f'<line x1="90" y1="{gy}" x2="{W-90}" y2="{gy}" stroke="{LINE2}" stroke-width="0.8"/>')
+    s.append(f'<text x="90" y="{gy+16}" font-size="8.4" fill="#A89577" font-family="{SANS}" letter-spacing="2">本 章 金 句</text>')
+    for i,l in enumerate(GOLD["ch01d"]):
+        s.append(f'<text x="{W/2}" y="{gy+16+(i+1)*18}" font-size="10" fill="{INK}" text-anchor="middle">{l}</text>')
+    s.append("</svg>")
+    return "".join(s)
+
+
+def ch01e_you_wu_shuang_guan():
+    W,H=1000,1072
+    INK,SEAL,GREEN,LINE,LINE2,PAPER="#2F2A24","#A2503B","#4A5C55","#DCCBB0","#E6D8C2","#F8F3E6"
+    RED,BLUE,GREY="#B5462F","#2E7C8F","#8A7C69"
+    SERIF="'Noto Serif CJK SC','Noto Serif SC','Songti SC',serif"
+    SANS="'Noto Sans CJK SC','Noto Sans SC',sans-serif"
+    TOP=170; BOT=854; AX=290
+    ROWS=["量子|「无可再分」，它没有里面|一切精确性的底",
+    "元素|同一元素，千万种样子|同一种料，到处可用",
+    "原子|空轨道：价住在空处|能成键，才有万物",
+    "无机小分子|晶格之间的间隙|能溶、能渗",
+    "有机大分子|链与链之间的折叠空间|能存信息、能自组装",
+    "蛋白质|活性口袋：口袋空了才装下底物|能催化，成为酶",
+    "细胞|膜围出的「内」——第一次有里面|能代谢、能自持",
+    "组织|细胞之间的缝|能输送、能连接",
+    "器官|腔与管：胃腔、血管腔、心腔|能收纳、能流通",
+    "五脏六腑|系统之间的循环回路|能生化、能平衡",
+    "人体|意识：心里那个空，装得下万物|能观、能知",
+    "家庭|成员之间的位份：人不在，位还空着|能承继、能相处",
+    "团体·企业|岗位：职位是空位，人填进去|能分工、能协作",
+    "国家|制度：一个空框，人处其中|能治、能序",
+    "文明|生死之间的传递：人没了，话还在|能积累、能超越个体",
+    "生态圈|物质循环的回路|能自养、能再生",
+    "地球|圈层界面：地壳与大气之间|能承载",
+    "星系|引力势阱：看不见的坑，星在其中|能聚、能成形",
+    "宇宙|大而无外：连「外」也没有|能容一切"]
+    N=len(ROWS)
+    def y_of(i): return BOT-i*((BOT-TOP)/(N-1))
+    s=[f'<svg viewBox="0 0 {W} {H}" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="以有观无与以无观有：十九级的空与用" font-family="{SERIF}">',
+       f'<rect x="0" y="0" width="{W}" height="{H}" fill="{PAPER}"/>',
+       f'<text x="110" y="30" font-size="11" fill="{SEAL}" font-family="{SANS}" letter-spacing="3">义 理 图 · 有 无 双 观</text>',
+       f'<text x="110" y="66" font-size="18" fill="{INK}">以有观无，一路上到宇宙；以无观有，一路下到量子</text>',
+       f'<text x="110" y="92" font-size="10.4" fill="#6E6459">每一级都先造出一个「空」，新的性质就住在那个空里 —— 有之以为利，无之以为用。</text>']
+    # 列头
+    s.append(f'<text x="{AX-20}" y="112" font-size="8.6" fill="{GREY}" text-anchor="end" font-family="{SANS}" letter-spacing="2">级</text>')
+    s.append(f'<text x="{AX+32}" y="112" font-size="8.6" fill="{RED}" font-family="{SANS}" letter-spacing="2">它造出的「无」（空）</text>')
+    s.append(f'<text x="950" y="112" font-size="8.6" fill="{GREEN}" text-anchor="end" font-family="{SANS}" letter-spacing="2">因此之「用」</text>')
+    # 轴：上箭头 / 下箭头
+    s.append(f'<path d="M{AX},{BOT+2} L{AX},{TOP-2}" stroke="{LINE}" stroke-width="0.9"/>')
+    s.append(f'<path d="M{AX-5},{TOP-14} L{AX},{TOP-52} L{AX+5},{TOP-14}" fill="none" stroke="{RED}" stroke-width="1.3"/>')
+    s.append(f'<text x="{AX-16}" y="{TOP-46}" font-size="9" fill="{RED}" letter-spacing="1" text-anchor="end">以有观无 · 涌现在上</text>')
+    s.append(f'<path d="M{AX-5},{BOT+14} L{AX},{BOT+52} L{AX+5},{BOT+14}" fill="none" stroke="{BLUE}" stroke-width="1.3"/>')
+    s.append(f'<text x="{AX-16}" y="{BOT+48}" font-size="9" fill="{BLUE}" letter-spacing="1" text-anchor="end">以无观有 · 还原在下</text>')
+    for i,row in enumerate(ROWS):
+        lv,void,use=row.split("|")
+        y=y_of(i)
+        s.append(f'<line x1="{AX-10}" y1="{y-4}" x2="{AX+10}" y2="{y-4}" stroke="{INK}" stroke-width="1"/>')
+        s.append(f'<text x="{AX-24}" y="{y}" font-size="10" fill="{INK}" font-weight="600" text-anchor="end">{lv}</text>')
+        s.append(f'<text x="{AX+30}" y="{y}" font-size="9" fill="{SEAL}">{void}</text>')
+        s.append(f'<text x="950" y="{y}" font-size="9" fill="{GREEN}" text-anchor="end">{use}</text>')
+    s.append(f'<text x="{W/2}" y="932" font-size="11" fill="{INK}" text-anchor="middle">此两者同出而异名，同谓之玄 —— 不是两条路，是同一实相的两面。</text>')
+    s.append(f'<text x="{W/2}" y="960" font-size="9.6" fill="#6E6459" text-anchor="middle">向上看得越远，看见的是更大的空；向下看得越深，看见的是更细的实。</text>')
+    s.append(f'<text x="{W/2}" y="984" font-size="9.6" fill="{SEAL}" text-anchor="middle">空不是没有，是被「有」围出来的那一处可用之处。</text>')
+    gy=H-64
+    s.append(f'<line x1="90" y1="{gy}" x2="{W-90}" y2="{gy}" stroke="{LINE2}" stroke-width="0.8"/>')
+    s.append(f'<text x="90" y="{gy+16}" font-size="8.4" fill="#A89577" font-family="{SANS}" letter-spacing="2">本 章 金 句</text>')
+    for i,l in enumerate(GOLD["ch01e"]):
+        s.append(f'<text x="{W/2}" y="{gy+16+(i+1)*18}" font-size="10" fill="{INK}" text-anchor="middle">{l}</text>')
+    s.append("</svg>")
+    return "".join(s)
+
+
 FIGS = {
     "ch01-wu-you": ("第一章", "无有同出", ch01_wu_you),
     "ch01-zhi-yue": ("第一章", "指月三境", ch01_zhi_yue),
     "ch01-miao-jiao": ("第一章", "观妙观徼", ch01_miao_jiao),
+    "ch01d-yong-xian-pan-ju": ("第一章", "涌现判据", ch01d_yong_xian_pan_ju),
+    "ch01e-you-wu-shuang-guan": ("第一章", "有无双观", ch01e_you_wu_shuang_guan),
     "ch02b-yi-gen-biao-gan": ("第二章", "一根标杆", ch02b_yi_gen_biao_gan),
     "ch02c-liang-zhi-guan": ("第二章", "两只管子", ch02c_liang_zhi_guan),
     "ch03b-yi-kuai-jia-pai": ("第三章", "一块价牌", ch03b_yi_kuai_jia_pai),

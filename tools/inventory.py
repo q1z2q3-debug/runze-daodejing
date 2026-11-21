@@ -29,9 +29,7 @@ REF_NOTE = {
  "ziqian/ziqian-ch01-visible": ("仿画叠「物质→生态」可见可感色带", "参照·仿画"),
  "ziqian/ziqian-ladder": ("补全十九级涌现阶梯，两曲线交点落「人体」", "参照·骨架"),
  "ziqian/ziqian-ladder-visible": ("阶梯叠三段色面：须知仪器／肉眼与身体可及／可见而不可及", "参照·骨架"),
- "models/emergence-threshold": ("涌现判据：八级台阶、生命门槛在细胞之前", "待入册·拟 ch01d"),
- "models/you-wu-two-gaze": ("有无双观：十九级各自造出的「空」与因此之「用」", "待入册·拟 ch01e"),
- "models/dao-sheng-yi-er-san": ("生成之序：无·一·二·三·万，反者道之动为引擎", "待入册·拟 ch01f"),
+ "models/dao-sheng-yi-er-san": ("生成之序：无·一·二·三·万，反者道之动为引擎", "待定·拟 ch01f"),
 }
 OLD_NOTE = {
  "ch38-wu-ji": "五级滑落旧稿，被同章新图取代",
@@ -72,7 +70,18 @@ def build():
     L.append("\n图分三类，不可混：**正册**（一章三图，计入 243）／**参照稿**（学习与待入册，不计入）／**存疑旧稿**（被否，留档不销毁）。\n")
 
     # 甲 正册
-    L.append("\n## 甲 正册 · 243 幅（八十一章 × 三幅）\n")
+    # 主图/补图按「每章前三幅」定，不按字母：既有章从 b 起编（如第四十一章 b/c/d），
+    # 只看字母会误判。同章排序：无字母在前，带字母按字典序。
+    from collections import defaultdict as _dd
+    per = _dd(list)
+    for k, v in figs.items():
+        per[v[0]].append(k)
+    extra_n = 0
+    for ch, ks in per.items():
+        ks.sort(key=lambda k: (0 if re.match(r"^ch\d\d-", k) else 1, k))
+        extra_n += max(0, len(ks) - 3)
+    main_n = len(figs) - extra_n
+    L.append(f"\n## 甲 正册 · {len(figs)} 幅（八十一章：主图 {main_n} 幅，补图 {extra_n} 幅）\n")
     L.append("| 章 | 文件 | 题 | 金句（首句） |\n|---|---|---|---|")
     rows = []
     for k, v in figs.items():
@@ -84,7 +93,7 @@ def build():
     rows.sort(key=lambda r: (r[0], r[1]))
     for _, k, ch, title, first in rows:
         L.append(f"| {ch} | `{k}.svg` | {title} | {first} |")
-    L.append(f"\n合计 **{len(figs)}** 幅；章覆盖 {len(set(r[2] for r in rows))} 章；每章 {len(figs)/len(set(r[2] for r in rows)):.0f} 幅。\n")
+    L.append(f"\n合计 **{len(figs)}** 幅：八十一章各三幅主图（{main_n}），第一章另有补图 {extra_n} 幅（d／e）。\n")
 
     # 乙 参照稿
     L.append("\n## 乙 参照稿 · 不计入正册\n")
@@ -108,7 +117,7 @@ def build():
 
     # 丁 统计
     L.append("\n## 丁 统计与规矩\n")
-    L.append(f"- 正册 {len(figs)} 幅（svg＋png 各一份）；参照稿 {n_ref} 组；旧稿 {n_old} 幅。")
+    L.append(f"- 正册 {len(figs)} 幅（svg＋png 各一份，含第一章补图 {extra_n}）；参照稿 {n_ref} 组；旧稿 {n_old} 幅。")
     L.append("- 命名：正册 `chNNx-短题.svg`（NN 章号两位，x 为 a/b/c 序号，短题为汉语拼音连写）；参照稿 `_refs/<来源>/<名>.svg`；旧稿原键不动，便于追溯被谁取代。")
     L.append("- 只认 `tools/make_yili_svg.py` 的 FIG 键为「正册」；`_refs/` 与 `old/` 一律不计入 243。")
     L.append("- 出图：`python3 tools/make_yili_svg.py <完整键名>`；参照稿：`python3 tools/refs/refs_*.py`。")

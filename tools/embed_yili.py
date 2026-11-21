@@ -11,7 +11,7 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 REPO = os.path.dirname(HERE)
 BOOK = os.path.join(REPO, "book", "道可道·道德经心法读本.html")
 FIGS = os.path.join(REPO, "book", "义理图")
-STYLE = os.path.join(REPO, "book", "义理图-体例.md")
+STYLE = os.path.join(REPO, "book", "义理图-总目.md")
 
 NUM = "一二三四五六七八九"
 
