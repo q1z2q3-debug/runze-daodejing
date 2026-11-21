@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 380 550" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="上善若水：几于道，不等于道" font-family="'Noto Serif CJK SC','Noto Serif SC','Songti SC',serif">
+<defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#6E6459"/></marker><marker id="arr2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#4A5C55"/></marker><marker id="arrL" viewBox="0 0 10 10" refX="1" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M10 0 L0 5 L10 10 z" fill="#4A5C55"/></marker><marker id="arrS" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#A2503B"/></marker></defs>
+<rect x="0" y="0" width="380" height="550" fill="#F8F3E6"/>
+<text x="20" y="26" font-size="11" fill="#A2503B" font-family="'Noto Sans CJK SC','Noto Sans SC',sans-serif" letter-spacing="3">第 八 章 · 取 象</text>
+<text x="20" y="58" font-size="21" fill="#2F2A24">上善若水</text>
+<text x="20" y="78" font-size="10.5" fill="#6E6459">「若」是像，不是是；「善」是取向，不是标签。</text>
+<path d="M 30 120 Q 90 150 150 140 Q 210 130 260 166 Q 290 186 340 180" fill="none" stroke="#2F2A24" stroke-width="1.2" opacity="0.75"/>
+<ellipse cx="150" cy="152" rx="14" ry="8" fill="#E6D8C2" stroke="#DCCBB0" stroke-width="0.8"/>
+<text x="150" y="154" font-size="8" fill="#8A7C69" text-anchor="middle">石</text>
+<text x="300" y="140" font-size="9" fill="#A2503B">处众人之所恶</text>
+<text x="300" y="156" font-size="8.5" fill="#6E6459">往低处走，不挑地方</text>
+<text x="20" y="194" font-size="9.5" fill="#4A5C55">利万物</text>
+<text x="86" y="194" font-size="9" fill="#6E6459">先给，不等回报</text>
+<text x="20" y="216" font-size="9.5" fill="#4A5C55">而不争</text>
+<text x="86" y="216" font-size="9" fill="#6E6459">不与所利者争位</text>
+<text x="20" y="238" font-size="9.5" fill="#4A5C55">故几于道</text>
+<text x="86" y="238" font-size="9" fill="#6E6459">是接近，不是等同</text>
+<text x="20" y="272" font-size="9.5" fill="#8A7C69">七善：七处取向，一句话落到一处</text>
+<text x="20" y="306" font-size="9.5" fill="#2F2A24">居善地</text>
+<text x="64" y="306" font-size="8.5" fill="#6E6459">择下不择高</text>
+<text x="196" y="306" font-size="9.5" fill="#2F2A24">心善渊</text>
+<text x="240" y="306" font-size="8.5" fill="#6E6459">心似深潭，不浅不躁</text>
+<text x="20" y="332" font-size="9.5" fill="#2F2A24">与善仁</text>
+<text x="64" y="332" font-size="8.5" fill="#6E6459">给不图还</text>
+<text x="196" y="332" font-size="9.5" fill="#2F2A24">言善信</text>
+<text x="240" y="332" font-size="8.5" fill="#6E6459">话可验</text>
+<text x="20" y="358" font-size="9.5" fill="#2F2A24">政善治</text>
+<text x="64" y="358" font-size="8.5" fill="#6E6459">事理顺</text>
+<text x="196" y="358" font-size="9.5" fill="#2F2A24">事善能</text>
+<text x="240" y="358" font-size="8.5" fill="#6E6459">做得到</text>
+<text x="20" y="384" font-size="9.5" fill="#2F2A24">动善时</text>
+<text x="64" y="384" font-size="8.5" fill="#6E6459">动在时上</text>
+<rect x="20" y="414" width="340" height="44" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="190" y="440" font-size="11.5" fill="#2F2A24" text-anchor="middle">夫唯不争，故无尤</text>
+<text x="190" y="474" font-size="9.5" fill="#6E6459" text-anchor="middle">水不与石争路，绕过去，仍到低处。</text>
+<line x1="20" y1="498" x2="360" y2="498" stroke="#E6D8C2" stroke-width="0.8"/>
+<text x="20" y="512" font-size="8.0" fill="#A89577" letter-spacing="1">本 章 金 句</text>
+<text x="20" y="528" font-size="8.4" fill="#2F2A24">上善若水，水善利万物而不争。</text>
+<text x="20" y="544" font-size="8.4" fill="#2F2A24">「若」是像，不是是；「善」是取向，不是标签。</text>
+</svg>

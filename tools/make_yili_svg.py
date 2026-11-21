@@ -1997,7 +1997,7 @@ def ch08c_qi_jie_tong_guan():
     s.append(txt(190, y + 28, "先安身，再安心；心安了才有仁、有信；仁信立住，才谈得上理事、处事、动止。", 4.9, "#6E6459", "middle"))
 
     # 一、七只并排的短管
-    s.append(txt(24, y + 52, "一、劈成七节：各盛一点，各打一个勾", 5.2, SEAL))
+    s.append(txt(24, y + 52, "反例·劈成七节：各盛一点，各打一个勾", 5.2, SEAL))
     gy = y + 64
     s.append(f'<rect x="26" y="{gy}" width="328" height="180" fill="#FBF6EC" stroke="{LINE}" stroke-width="0.8"/>')
     names = ["地", "渊", "仁", "信", "治", "能", "时"]
@@ -2056,41 +2056,40 @@ def ch08c_qi_jie_tong_guan():
 
 # ============ 第八章 · 上善若水 ============
 def ch08_shang_shan():
-    W, H = 380, 552
-    body, y = head(W, H, "上善若水：几于道，不等于道", "第 八 章 · 取 象", "上善若水",
+    W, H = 760, 600
+    body, y = head(W, H, "上善若水：四个字拆开读，一条象落到底", "第 八 章 · 取 象", "上善若水",
                    "「若」是像，不是是；「善」是取向，不是标签。", H)
     s = [body]
-    # 水
-    yw = y + 10
-    s.append(f'<path d="M 30 {yw+10} Q 90 {yw+40} 150 {yw+30} Q 210 {yw+20} 260 {yw+56} Q 290 {yw+76} 340 {yw+70}" fill="none" stroke="{INK}" stroke-width="1.2" opacity="0.75"/>')
-    s.append(f'<ellipse cx="150" cy="{yw+42}" rx="14" ry="8" fill="{LINE2}" stroke="{LINE}" stroke-width="0.8"/>')
-    s.append(txt(150, yw + 44, "石", 8, "#8A7C69", "middle"))
-    s.append(txt(300, yw + 30, "处众人之所恶", 9, SEAL))
-    s.append(txt(300, yw + 46, "往低处走，不挑地方", 8.5, "#6E6459"))
-    # 三理由
-    yb = yw + 70
-    rs = [("利万物", "先给，不等回报"), ("而不争", "不与所利者争位"), ("故几于道", "是接近，不是等同")]
-    for i, (a, b) in enumerate(rs):
-        s.append(txt(20, yb + 14 + i * 22, a, 9.5, GREEN))
-        s.append(txt(86, yb + 14 + i * 22, b, 9, "#6E6459"))
-    # 七善
-    ys = yb + 92
-    s.append(txt(20, ys, "七善：七处取向，一句话落到一处", 9.5, "#8A7C69"))
-    seven = [("居善地", "择下不择高"), ("心善渊", "心似深潭，不浅不躁"), ("与善仁", "给不图还"),
-             ("言善信", "话可验"), ("政善治", "事理顺"), ("事善能", "做得到"), ("动善时", "动在时上")]
-    for i, (a, b) in enumerate(seven):
-        col, row = i % 2, i // 2
-        x = 20 + col * 176
-        yy = ys + 18 + row * 26
-        s.append(txt(x, yy + 16, a, 9.5, INK))
-        s.append(txt(x + 44, yy + 16, b, 8.5, "#6E6459"))
-    yc = ys + 18 + 4 * 26 + 20
-    s.append(box(20, yc, 340, 44, fill="#F2EADA", stroke="#C9B79A"))
-    s.append(txt(190, yc + 26, "夫唯不争，故无尤", 11.5, INK, "middle"))
-    s.append(txt(190, yc + 60, "水不与石争路，绕过去，仍到低处。", 9.5, "#6E6459", "middle"))
+    y0 = y + 40
+    cells = (("上", "是方向，不是位置", "往道的方向靠"), ("善", "是取向，不是标签", "选择顺道而行"),
+             ("若", "是像它，不是是它", "所以后文只说几于道"), ("水", "一个看得见的参照", "天天在脚边"))
+    for i, (ch, l1, l2) in enumerate(cells):
+        x = 50 + i * 168
+        s.append(box(x, y0, 160, 96, fill="#FBF6EC", stroke=LINE))
+        s.append(txt(x + 80, y0 + 38, ch, 22, INK if i < 3 else GREEN, "middle"))
+        s.append(txt(x + 80, y0 + 62, l1, 8.4, "#6E6459", "middle"))
+        s.append(txt(x + 80, y0 + 78, l2, 8.4, "#6E6459", "middle"))
+    x4 = 50 + 3 * 168
+    s.append(f'<path d="M{x4 + 14},{y0 + 84} q16,8 28,1 q13,-8 22,2 q11,9 24,0" fill="none" stroke="{GREEN}" stroke-width="1.2"/>')
+    yt = y0 + 132
+    for k, (lab, desc) in enumerate((
+            ("利 万 物", "托着它生，也接着它朽；全程在场，自性不改"),
+            ("不  争", "不夺位，不居功；为而不抓"),
+            ("处  下", "安在众人不要的地方；不靠位置定义自己"))):
+        yy = yt + k * 46
+        s.append(txt(58, yy, lab, 12.5, SEAL, "start", spacing="1"))
+        s.append(txt(196, yy, desc, 9.8, "#5F564C", "start"))
+        if k < 2:
+            s.append(f'<line x1="52" y1="{yy + 22}" x2="708" y2="{yy + 22}" stroke="{LINE2}" stroke-width="0.8"/>')
+    yb = yt + 148
+    s.append(box(52, yb, 656, 78, fill="#F6EFE0", stroke="#C9B79A"))
+    s.append(txt(380, yb + 26, "几 于 道 —— 是接近，不是等同", 11, SEAL, "middle", spacing="1"))
+    s.append(txt(380, yb + 48, "水有形，道无体。学水学得再像，也只是靠近。", 9.4, "#5F564C", "middle"))
+    s.append(txt(380, yb + 66, "把参照物当成终点，就又多了一尊像。", 9.4, "#5F564C", "middle"))
     s.append(gold(H - 68, "ch08a"))
     s.append('</svg>')
     return "\n".join(s)
+
 
 
 def ch09b_yi_zhi_qi_qi():
