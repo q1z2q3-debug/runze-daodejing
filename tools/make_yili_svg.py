@@ -4235,36 +4235,222 @@ def ch17c_gong_cheng():
     return out.replace("999", str(int(max(ys) + 26)))
 
 
-def ch18_da_dao_fei():
-    W, H = 380, 464
-    body, y = head(W, H, "先有缺口，才有那个被举起来的名字", "第 十 八 章 · 世 相", "四对因果",
-                   "四句同一个句式：先废，才有一个被标举的名字。", H)
-    s = [body]
-    rows = [("大道废", "有仁义", "补丁"),
-            ("慧智出", "有大伪", "更精致的仿制品"),
-            ("六亲不和", "有孝慈", "关系破了，才讲孝慈"),
-            ("国家昏乱", "有忠臣", "朝廷乱了，才显忠臣")]
-    y0 = y + 8
-    for i, (a, b, note) in enumerate(rows):
-        yy = y0 + i * 34
-        s.append(txt(20, yy + 16, a, 9.6, SEAL))
-        s.append(arrow(96, yy + 11, 122, yy + 11, color="#C9B79A", head="arr"))
-        s.append(txt(128, yy + 16, b, 9.6, INK))
-        s.append(txt(196, yy + 16, note, 8.2, "#6E6459"))
-    y1 = y0 + 4 * 34 + 8
-    s.append(txt(20, y1, "名字本身不坏；坏在补丁被当成了原因。", 8.6, "#8A7C69"))
-    y2 = y1 + 16
-    s.append(box(20, y2, 340, 52, fill="#F6EFE0", stroke="#C9B79A"))
-    s.append(txt(190, y2 + 20, "一个东西要被单独提出、大力宣扬、由衷赞颂，", 8.8, INK, "middle"))
-    s.append(txt(190, y2 + 36, "本身就是信号：它原来所在的那处，已经有了缺口。", 8.8, INK, "middle"))
-    yc = y2 + 70
-    s.append(box(20, yc, 340, 40, fill="#F2EADA", stroke="#C9B79A"))
-    s.append(txt(190, yc + 18, "大道废，有仁义。", 11, INK, "middle", spacing="1"))
-    s.append(txt(190, yc + 34, "不是骂仁义：是给仁义记一笔来处。", 8.4, "#6E6459", "middle"))
-    s.append(gold(yc + 52, "ch18"))
-    s.append('</svg>')
-    return "\n".join(s)
 
+def ch18_lu_fei_bian_li():
+    body, y = head(380, 999, "大道废，有仁义：路断了，才立起这块匾",
+                   "第 十 八 章 · 世 相", "路废了，匾立起来",
+                   "先有亏，后有名：不是名带来了亏，是亏引出了名。", 999)
+    s = [body]
+
+    s.append(box(20, y + 2, 340, 34, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, y + 14, "路还通着的时候，没有人立这块匾。", 4.9, INK, "middle"))
+    s.append(txt(190, y + 27, "匾立得越高，路荒得越彻底。", 4.8, "#6E6459", "middle"))
+
+    # 一、路通，无匾
+    p0 = y + 50
+    h = 96
+    s.append(box(26, p0, 328, h, fill="#FBF6EC", stroke=LINE, width=0.8))
+    rl = p0 + 46
+    s.append(f'<rect x="40" y="{rl - 19}" width="300" height="38" fill="#EFE6D4" stroke="none"/>')
+    s.append(f'<line x1="40" y1="{rl - 19}" x2="340" y2="{rl - 19}" stroke="{INK}" stroke-width="1.1"/>')
+    s.append(f'<line x1="40" y1="{rl + 19}" x2="340" y2="{rl + 19}" stroke="{INK}" stroke-width="1.1"/>')
+    for k in range(8):
+        x = 62 + k * 34
+        s.append(f'<line x1="{x}" y1="{rl}" x2="{x + 14}" y2="{rl}" stroke="{LINE2}" stroke-width="0.9"/>')
+    s.append(txt(190, p0 + h - 12, "走的人自自然然，不必抬头看谁立的牌子", 4.4, "#8A7C69", "middle"))
+    s.append(txt(24, p0 + h + 13, "一、道在：一条路，没有匾，也没有人称赞走过它的人", 5.0, GREEN))
+
+    # 二、路废，匾立
+    p1 = p0 + h + 26
+    h2 = 152
+    s.append(box(26, p1, 328, h2, fill="#FBF6EC", stroke=LINE, width=0.8))
+    rl2 = p1 + 100
+    s.append(f'<rect x="40" y="{rl2 - 19}" width="142" height="38" fill="#EFE6D4" stroke="none"/>')
+    s.append(f'<line x1="40" y1="{rl2 - 19}" x2="182" y2="{rl2 - 19}" stroke="{INK}" stroke-width="1.1"/>')
+    s.append(f'<line x1="40" y1="{rl2 + 19}" x2="182" y2="{rl2 + 19}" stroke="{INK}" stroke-width="1.1"/>')
+    s.append(f'<rect x="226" y="{rl2 - 19}" width="114" height="38" fill="#EFE6D4" stroke="none"/>')
+    s.append(f'<line x1="226" y1="{rl2 - 19}" x2="340" y2="{rl2 - 19}" stroke="{INK}" stroke-width="1.1"/>')
+    s.append(f'<line x1="226" y1="{rl2 + 19}" x2="340" y2="{rl2 + 19}" stroke="{INK}" stroke-width="1.1"/>')
+    # 断口两侧的土沿
+    s.append(f'<path d="M182,{rl2 - 19} q6,10 3,38" fill="none" stroke="{SEAL}" stroke-width="0.9"/>')
+    s.append(f'<path d="M226,{rl2 - 19} q-6,10 -3,38" fill="none" stroke="{SEAL}" stroke-width="0.9"/>')
+    s.append(f'<rect x="182" y="{rl2 - 19}" width="44" height="38" fill="{PAPER}" stroke="none"/>')
+    s.append(f'<line x1="182" y1="{rl2 + 19}" x2="226" y2="{rl2 + 19}" stroke="{LINE}" stroke-width="0.9" stroke-dasharray="3 3"/>')
+    for x in (185, 223):
+        s.append(f'<line x1="{x}" y1="{rl2 + 19}" x2="{x - 1}" y2="{rl2 + 12}" stroke="{GREEN}" stroke-width="0.7"/>')
+        s.append(f'<line x1="{x}" y1="{rl2 + 19}" x2="{x + 4}" y2="{rl2 + 13}" stroke="{GREEN}" stroke-width="0.6"/>')
+        s.append(f'<line x1="{x}" y1="{rl2 + 19}" x2="{x - 5}" y2="{rl2 + 14}" stroke="{GREEN}" stroke-width="0.6"/>')
+    # 匾：插在断口里
+    s.append(f'<rect x="185" y="{rl2 - 86}" width="38" height="64" fill="#F2EADA" stroke="{INK}" stroke-width="1.2"/>')
+    s.append(txt(204, rl2 - 64, "仁", 7.0, SEAL, "middle"))
+    s.append(txt(204, rl2 - 38, "义", 7.0, SEAL, "middle"))
+    s.append(f'<line x1="192" y1="{rl2 - 22}" x2="192" y2="{rl2 + 17}" stroke="{INK}" stroke-width="1.8"/>')
+    s.append(f'<line x1="216" y1="{rl2 - 22}" x2="216" y2="{rl2 + 17}" stroke="{INK}" stroke-width="1.8"/>')
+    s.append(txt(204, rl2 - 96, "新立的匾", 4.4, "#8A7C69", "middle"))
+    s.append(txt(262, rl2 - 44, "匾是新的：刚立起来", 4.5, "#6E6459"))
+    s.append(txt(262, rl2 - 30, "路是旧的：已经没人走", 4.5, "#6E6459"))
+    s.append(txt(190, p1 + h2 - 12, "匾长出来的地方，正是路不长的那一处", 4.4, "#8A7C69", "middle"))
+    s.append(txt(24, p1 + h2 + 13, "二、道废：路断了，才立起「仁义」这块匾", 5.0, SEAL))
+
+    a = p1 + h2 + 32
+    s.append(txt(24, a, "「废」是隐而不行，不是道没了：道恒存，只是人不再依它走。", 4.9, INK))
+    s.append(txt(24, a + 16, "能提出仁义，说明人还知道该往哪儿走；要提出来，说明它已不在原位。", 4.9, INK))
+    s.append(txt(24, a + 34, "名号是被缺口造出来的：缺口越大，名号越亮。", 4.9, GREEN))
+
+    c = a + 52
+    s.append(f'<line x1="24" y1="{c}" x2="338" y2="{c}" stroke="{LINE}" stroke-width="0.6"/>')
+    s.append(box(20, c + 8, 340, 40, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, c + 24, "大道废，有仁义；", 6.2, INK, "middle"))
+    s.append(txt(190, c + 36, "不是骂仁义，是给仁义记一笔来处。", 5.2, GREEN, "middle"))
+    s.append(gold(c + 62, "ch18"))
+    s.append('</svg>')
+    out = "\n".join(s)
+    ys = [float(v) for v in re.findall(r'y="([0-9.]+)"', out)]
+    return out.replace("999", str(int(max(ys) + 26)))
+
+
+def ch18b_ke():
+    body, y = head(380, 999, "慧智出，有大伪：壳一圈圈加厚，里面还是那块原样",
+                   "第 十 八 章 · 大 伪", "壳",
+                   "「伪」不是欺骗，是人为：成套而精巧的饰作。", 999)
+    s = [body]
+
+    s.append(box(20, y + 2, 340, 34, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, y + 14, "慧智向外分别、算计、修饰；明向内照见。", 4.9, INK, "middle"))
+    s.append(txt(190, y + 27, "一个越用越细，一个越用越静——两条路相反。", 4.8, "#6E6459", "middle"))
+
+    cx = 118
+
+    # 一、素匣
+    p0 = y + 50
+    h = 112
+    s.append(box(26, p0, 328, h, fill="#FBF6EC", stroke=LINE, width=0.8))
+    bs = p0 + 92
+    s.append(f'<rect x="{cx - 42}" y="{bs - 52}" width="84" height="52" fill="#EFE6D4" stroke="{INK}" stroke-width="1.2"/>')
+    for k in range(3):
+        s.append(f'<line x1="{cx - 36}" y1="{bs - 42 + k * 10}" x2="{cx + 36}" y2="{bs - 42 + k * 10}" stroke="{LINE2}" stroke-width="0.6"/>')
+    s.append(txt(cx + 58, bs - 40, "木纹在外，里头也是它", 4.7, GREEN))
+    s.append(txt(cx + 58, bs - 26, "智未出时，不必包一层", 4.6, "#6E6459"))
+    s.append(txt(24, p0 + h + 13, "一、无壳：慧智未出，一件东西就是它自己", 5.0, GREEN))
+
+    # 二、一层层包上去
+    p1 = p0 + h + 26
+    h2 = 138
+    s.append(box(26, p1, 328, h2, fill="#FBF6EC", stroke=LINE, width=0.8))
+    bs2 = p1 + 114
+    w0, hh0 = 58, 36
+    s.append(f'<rect x="{cx - w0 / 2}" y="{bs2 - hh0}" width="{w0}" height="{hh0}" fill="#EFE6D4" stroke="{INK}" stroke-width="1.2"/>')
+    for k in range(2):
+        s.append(f'<line x1="{cx - w0 / 2 + 5}" y1="{bs2 - hh0 + 9 + k * 9}" x2="{cx + w0 / 2 - 5}" y2="{bs2 - hh0 + 9 + k * 9}" stroke="{LINE2}" stroke-width="0.6"/>')
+    for k, (w, hh) in enumerate(((84, 52), (110, 68))):
+        s.append(box(cx - w / 2, bs2 - hh, w, hh, fill="none", stroke=INK, width=1.0))
+    s.append(box(cx - 68, bs2 - 84, 136, 84, fill="none", stroke=LINE, dash="6 4", width=1.0))
+    s.append(txt(cx, bs2 - 98, "还在往上包", 4.3, "#8A7C69", "middle"))
+    # 最外层贴签
+    s.append(f'<rect x="{cx + 62}" y="{bs2 - 94}" width="40" height="16" fill="#F2EADA" stroke="{SEAL}" stroke-width="0.9"/>')
+    s.append(txt(cx + 82, bs2 - 82, "道义", 4.7, SEAL, "middle"))
+    s.append(txt(cx + 62, bs2 - 104, "最外一层贴一枚签：说得最像", 4.4, "#8A7C69"))
+    s.append(txt(204, bs2 - 4, "里面还是那一只匣", 4.4, "#6E6459"))
+    s.append(txt(24, p1 + h2 + 13, "二、有壳：一圈圈包上去，里面那块原样越来越看不见", 5.0, SEAL))
+
+    a = p1 + h2 + 32
+    s.append(txt(24, a, "壳不是坏东西：壳是「人为」——成套、精巧、合乎道义的饰作。", 4.9, INK))
+    s.append(txt(24, a + 16, "用它博名、避罚、包私，大伪就成型；壳越厚，里面越难对上外面。", 4.9, INK))
+    s.append(txt(24, a + 34, "慧智与明，路径相反：一个向外分，一个向内照，不可混同。", 4.9, GREEN))
+
+    c = a + 52
+    s.append(f'<line x1="24" y1="{c}" x2="338" y2="{c}" stroke="{LINE}" stroke-width="0.6"/>')
+    s.append(box(20, c + 8, 340, 40, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, c + 24, "慧智息，则大伪不生。", 6.0, INK, "middle"))
+    s.append(txt(190, c + 36, "壳越像，越难看见里面那块原样。", 5.2, GREEN, "middle"))
+    s.append(gold(c + 62, "ch18b"))
+    s.append('</svg>')
+    out = "\n".join(s)
+    ys = [float(v) for v in re.findall(r'y="([0-9.]+)"', out)]
+    return out.replace("999", str(int(max(ys) + 26)))
+
+
+def ch18c_yi_tie_yao():
+    body, y = head(380, 999, "六亲不和，有孝慈；国家昏乱，有忠臣：药能已病，药不是身子",
+                   "第 十 八 章 · 药", "一帖药",
+                   "孝慈者，亲之药也；忠臣者，国之药也。", 999)
+    s = [body]
+
+    s.append(box(20, y + 2, 340, 34, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, y + 14, "夸一帖药好，先得承认有了病。", 4.9, INK, "middle"))
+    s.append(txt(190, y + 27, "药能已病，药不是身子。", 4.8, "#6E6459", "middle"))
+
+    cx, pw = 108, 58
+
+    def pot(bx, by, sealed):
+        # by = 罐底
+        s.append(f'<path d="M{bx - pw / 2},{by - 62} C{bx - pw / 2 - 5},{by - 40} {bx - pw / 2 + 3},{by - 12} {bx - pw / 2 + 6},{by} '
+                 f'Q{bx},{by + 5} {bx + pw / 2 - 6},{by} C{bx + pw / 2 - 3},{by - 12} {bx + pw / 2 + 5},{by - 40} {bx + pw / 2},{by - 62} Z" '
+                 f'fill="#EFE6D4" stroke="{INK}" stroke-width="1.1"/>')
+        s.append(f'<ellipse cx="{bx}" cy="{by - 62}" rx="{pw / 2}" ry="5" fill="#E4D8BF" stroke="{INK}" stroke-width="1.0"/>')
+        if sealed:
+            s.append(f'<path d="M{bx - pw / 2 + 1},{by - 62} q{pw / 2 - 1},{7} {pw - 2},{0}" fill="none" stroke="{INK}" stroke-width="0.7"/>')
+            s.append(f'<rect x="{bx - 9}" y="{by - 71}" width="18" height="12" fill="#F2EADA" stroke="{SEAL}" stroke-width="0.8"/>')
+            s.append(txt(bx, by - 62, "封", 4.3, SEAL, "middle"))
+
+    # 一、未病：罐子封着，搁在架上
+    p0 = y + 50
+    h = 118
+    s.append(box(26, p0, 328, h, fill="#FBF6EC", stroke=LINE, width=0.8))
+    shelf = p0 + 92
+    s.append(f'<line x1="{cx - 46}" y1="{shelf}" x2="{cx + 46}" y2="{shelf}" stroke="{INK}" stroke-width="1.3"/>')
+    s.append(f'<line x1="{cx - 46}" y1="{shelf}" x2="{cx - 46}" y2="{shelf + 18}" stroke="{INK}" stroke-width="0.9"/>')
+    s.append(f'<line x1="{cx + 46}" y1="{shelf}" x2="{cx + 46}" y2="{shelf + 18}" stroke="{INK}" stroke-width="0.9"/>')
+    pot(cx, shelf, True)
+    s.append(txt(cx + 62, shelf - 44, "没病：药封在罐里，不煎", 4.6, GREEN))
+    s.append(txt(cx + 62, shelf - 30, "家里不必天天讲孝", 4.4, "#6E6459"))
+    s.append(txt(cx + 62, shelf - 16, "国里没有忠臣可称", 4.4, "#6E6459"))
+    s.append(txt(24, p0 + h + 13, "一、本和：药在罐里，谁也不必被称赞", 5.0, GREEN))
+
+    # 二、有病：上炉，煎
+    p1 = p0 + h + 26
+    h2 = 150
+    s.append(box(26, p1, 328, h2, fill="#FBF6EC", stroke=LINE, width=0.8))
+    fb = p1 + 132   # 炉底
+    s.append(f'<path d="M{cx - 32},{fb - 30} L{cx - 23},{fb} L{cx + 23},{fb} L{cx + 32},{fb - 30} Z" fill="#EFE6D4" stroke="{INK}" stroke-width="1.0"/>')
+    s.append(f'<line x1="{cx - 32}" y1="{fb - 30}" x2="{cx + 32}" y2="{fb - 30}" stroke="{INK}" stroke-width="1.1"/>')
+    # 炉门与火：看得见火，才读得出「上了炉」
+    s.append(f'<rect x="{cx - 14}" y="{fb - 24}" width="28" height="18" fill="{PAPER}" stroke="{INK}" stroke-width="0.7"/>')
+    for k in range(3):
+        x = cx - 8 + k * 8
+        s.append(f'<path d="M{x},{fb - 7} q-3,-5 0,-9 q3,4 0,9" fill="none" stroke="{SEAL}" stroke-width="0.8"/>')
+    pot(cx, fb - 30, False)
+    for k in range(3):
+        x = cx - 12 + k * 12
+        s.append(f'<path d="M{x},{fb - 104} q5,-7 0,-14 q-5,-7 0,-12" fill="none" stroke="{GREEN}" stroke-width="0.6" opacity="{0.7 - k * 0.15}"/>')
+    # 药碗
+    bx = 252
+    table = fb - 34
+    s.append(f'<line x1="{bx - 28}" y1="{table}" x2="{bx + 28}" y2="{table}" stroke="{INK}" stroke-width="1.1"/>')
+    s.append(f'<line x1="{bx - 28}" y1="{table}" x2="{bx - 28}" y2="{table + 12}" stroke="{INK}" stroke-width="0.8"/>')
+    s.append(f'<line x1="{bx + 28}" y1="{table}" x2="{bx + 28}" y2="{table + 12}" stroke="{INK}" stroke-width="0.8"/>')
+    s.append(f'<path d="M{bx - 20},{table - 1} q20,22 40,0 Z" fill="#E9F0E6" stroke="{INK}" stroke-width="1.0"/>')
+    s.append(f'<ellipse cx="{bx}" cy="{table - 1}" rx="20" ry="4" fill="#E4D8BF" stroke="{INK}" stroke-width="0.9"/>')
+    s.append(txt(bx + 46, table - 58, "煎得满屋药气", 4.4, SEAL))
+    s.append(txt(bx + 46, table - 44, "人人夸这药好", 4.4, "#6E6459"))
+    s.append(txt(bx + 46, table - 30, "夸的是药，病还在", 4.4, "#6E6459"))
+    s.append(txt(24, p1 + h2 + 13, "二、有病：上了炉，才煎得出孝慈与忠臣", 5.0, SEAL))
+
+    a = p1 + h2 + 32
+    s.append(txt(24, a, "孝慈是医治不和的药，不是本来无病的常态。", 4.9, INK))
+    s.append(txt(24, a + 16, "忠臣是昏乱中扶危的人，不是乱因；次序不可倒：先有缺口，才有名号。", 4.9, INK))
+    s.append(txt(24, a + 34, "药有用，但药不是健康；理想是无需用药而自然安康。", 4.9, GREEN))
+
+    c = a + 52
+    s.append(f'<line x1="24" y1="{c}" x2="338" y2="{c}" stroke="{LINE}" stroke-width="0.6"/>')
+    s.append(box(20, c + 8, 340, 40, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, c + 24, "孝慈者，亲之药也；", 5.8, INK, "middle"))
+    s.append(txt(190, c + 36, "忠臣者，国之药也。", 5.8, GREEN, "middle"))
+    s.append(gold(c + 62, "ch18c"))
+    s.append('</svg>')
+    out = "\n".join(s)
+    ys = [float(v) for v in re.findall(r'y="([0-9.]+)"', out)]
+    return out.replace("999", str(int(max(ys) + 26)))
 
 # ============ 第十九章 · 绝圣弃智 ============
 def ch18b_yi_kuai_bu():
@@ -8505,8 +8691,8 @@ GOLD = {
     "ch17a": ["上焉者，人知其有，不知其功；", "信不足，则令繁；令繁，则愈不信。"],
     "ch17b": ["贵言者，非不言，是不以言夺人之自性。", "言不在多：一句按下去，就是一道坑。"],
     "ch17c": ["功成事遂，百姓皆谓我自然。", "从中间退到边上，让事自己站着。"],
-    "ch18b": ["大道废，有仁义；智慧出，有大伪。", "补丁越响，破处越深。"],
-    "ch18c": ["六亲不和，有孝慈；国家昏乱，有忠臣。", "补丁可以救命，却不能代替布。"],
+    "ch18b": ["慧智息，则大伪不生。", "壳越像，越难看见里面那块原样。"],
+    "ch18c": ["孝慈者，亲之药也；忠臣者，国之药也。", "药能已病，药不是身子。"],
     "ch19b": ["见素抱朴，少私寡欲。", "素不是简陋，是不必再靠外加的东西来证明自己。"],
     "ch19c": ["绝圣弃智，民利百倍；绝巧弃利，盗贼无有。", "绝弃是减法：减到够用，事就成了。"],
     "ch20b": ["众人熙熙，如享太牢；我独泊兮其未兆。", "不必挤的那一处，站定了，人就轻了。"],
@@ -8640,7 +8826,8 @@ GOLD = {
     "ch15": ["盈则封，封则死；不盈则虚，虚则生。", "浊不须搅，静之自清；根不须催，安之自生。"],
     "ch16": ["万物并作，观其归；归根曰静，静曰复命。", "妄作者凶，顺常者久；没身不殆者，非命长，是险少。"],
     "ch17": ["贵言者，非不言，是不以言夺人之自性。", "功成事遂，百姓曰「我自然」——此谓善治。"],
-    "ch18": ["药能已病，药不是身子。", "凡被标举者，皆是缺口的形状。"],
+    "ch18": ["大道废，有仁义；", "不是骂仁义，是给仁义记一笔来处。"],
+    "ch18a": ["大道行，则仁义不名。", "名号是被缺口造出来的：缺口越大，名号越亮。"],
     "ch19": ["所绝者名，所复者实；文不足以为治，令有所属乃安。", "破其外饰，守其本根；破而不立，台面自有人填。"],
     "ch20": ["唯之与阿，相去几何——尺子定的，不是事定的。", "众人贵末，我贵食母；末可争，母不可争。"],
     "ch21": ["孔德之容，惟道是从：德不是修出来的，是流出来的。", "名不去，是路标一直在；路标在，不等于路标就是那个地方。"],
@@ -16584,8 +16771,8 @@ FIGS = {
     "ch16c-yi-quan-tui-yi-quan": ("第十六章", "一圈推一圈", ch16c_yi_quan_tui_yi_quan),
     "ch17b-an-yi-xia": ("第十七章", "按一下", ch17b_an_yi_xia),
     "ch17c-gong-cheng": ("第十七章", "功成之后", ch17c_gong_cheng),
-    "ch18b-yi-kuai-bu": ("第十八章", "一块补丁", ch18b_yi_kuai_bu),
-    "ch18c-san-kuai-bu-ding": ("第十八章", "三处破", ch18c_san_kuai_bu_ding),
+    "ch18b-ke": ("第十八章", "壳", ch18b_ke),
+    "ch18c-yi-tie-yao": ("第十八章", "一帖药", ch18c_yi_tie_yao),
     "ch19b-yi-ju-qi-qi": ("第十九章", "一具漆器", ch19b_yi_ju_qi_qi),
     "ch19c-ban-chu-qu": ("第十九章", "搬出去", ch19c_ban_chu_qu),
     "ch20b-shi-ji-yu-jiao-luo": ("第二十章", "市集与角落", ch20b_shi_ji_yu_jiao_luo),
@@ -16691,7 +16878,7 @@ FIGS = {
     "ch15-bu-wang-qian-zhan": ("第十五章", "不肯往前站一步", ch15_bu_wang_qian_zhan),
     "ch16-yi-ke-shu-de-yi-nian": ("第十六章", "一棵树的一年", ch16_yi_ke_shu_de_yi_nian),
     "ch17-yi-gen-sheng": ("第十七章", "一根绳", ch17_yi_gen_sheng),
-    "ch18-da-dao-fei": ("第十八章", "四对因果", ch18_da_dao_fei),
+    "ch18-lu-fei-bian-li": ("第十八章", "路废了，匾立起来", ch18_lu_fei_bian_li),
     "ch19-jue-sheng": ("第十九章", "三绝三弃", ch19_jue_sheng),
     "ch20-wei-zhi-yu-e": ("第二十章", "两把尺子", ch20_wei_zhi_yu_e),
     "ch21-kong-de": ("第二十一章", "由粗到细", ch21_kong_de),
