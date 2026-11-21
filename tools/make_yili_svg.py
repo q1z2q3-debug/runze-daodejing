@@ -7880,7 +7880,7 @@ def ch04c_si_bu():
 
 GOLD = {
     "ch01d": ["常有欲以观其徼。", "观徼是划界：界线在细胞之前，不在蛋白质之后。"],
-    "ch01e": ["常无欲以观其妙。", "观妙是见空：每一级先造出一个空，新性质住在那里。"],
+    "ch01e": ["常无欲以观其妙。", "观妙是见势：空是「徼」围出来的，妙住在空里。"],
     "ch07b": ["天地所以能长且久者，以其不自生，故能长生。", "为己者，取而入，入而塞；不为己者，生而出，出而复——差别不在善恶，在闭环。"],
     "ch07c": ["是以圣人后其身而身先，外其身而身存。", "先不是争来的，是人心自归的；退不是姿态，是把手松开。"],
     "ch08b": ["处众人之所恶，故几于道。", "低处不是惩罚，是不必守的位置。"],
@@ -15844,7 +15844,7 @@ def ch01d_yong_xian_pan_ju():
     RED,BLUE,GREY="#B5462F","#2E7C8F","#8A7C69"
     SERIF="'Noto Serif CJK SC','Noto Serif SC','Songti SC',serif"
     SANS="'Noto Sans CJK SC','Noto Sans SC',sans-serif"
-    BH=72; X0=110; SW_=100; RISE=56; BASE=700
+    BH=72; X0=110; SW_=100; RISE=56; BASE=676
     ROWS=[("原子","化合价","化学键"),
     ("小分子","反应性","分子的形状"),
     ("有机大分子","长链稳定","自组织"),
@@ -15867,12 +15867,13 @@ def ch01d_yong_xian_pan_ju():
         s.append(f'<path d="M{x},{y} H{x+SW_}" stroke="{c}" stroke-width="2"/>')
         s.append(f'<text x="{x+9}" y="{y+23}" font-size="9.6" fill="{INK}" font-weight="600">{name}</text>')
         s.append(f'<text x="{x+9}" y="{y+42}" font-size="7.9" fill="{c}">{p1}</text>')
-        s.append(f'<text x="{x+9}" y="{y+57}" font-size="7.9" fill="{c}">{p2}</text>')
+        s.append(f'<text x="{x+9}" y="{y+51}" font-size="7.9" fill="{c}">{p2}</text>')
     # 生命门槛
     xm=X0+4*SW_
-    s.append(f'<line x1="{xm}" y1="208" x2="{xm}" y2="712" stroke="{RED}" stroke-width="1" stroke-dasharray="6 5"/>')
-    s.append(f'<text x="{xm-12}" y="200" font-size="9.2" fill="{GREY}" text-anchor="end">此前都是「物」</text>')
-    s.append(f'<text x="{xm+12}" y="200" font-size="9.6" fill="{RED}" letter-spacing="0.6">生命门槛 · 越此线才叫「活」</text>')
+    s.append(f'<line x1="{xm}" y1="196" x2="{xm}" y2="690" stroke="{RED}" stroke-width="1" stroke-dasharray="6 5"/>')
+    s.append(f'<text x="{xm-12}" y="196" font-size="9.2" fill="{GREY}" text-anchor="end">此前都是「物」</text>')
+    s.append(f'<text x="{xm+12}" y="196" font-size="9.6" fill="{RED}" font-family="{SANS}" letter-spacing="1.4">生命门槛</text>')
+    s.append(f'<text x="{xm+12}" y="212" font-size="8.8" fill="{RED}" letter-spacing="0.3">第一道「徼」：一层膜划开内与外，生命的自主性就在这里亮起</text>')
     # 底部判据
     lines=[("判据","涌现 = 下层单独不具备、且无法由下层线性加总得出的性质。",INK),
            ("检验","把上层拆回下层，新性质随即消失；而在拆开的下层里，找不到它的影子。","#6E6459"),
@@ -15891,7 +15892,7 @@ def ch01d_yong_xian_pan_ju():
 
 
 def ch01e_you_wu_shuang_guan():
-    W,H=1000,1072
+    W,H=1000,1152
     INK,SEAL,GREEN,LINE,LINE2,PAPER="#2F2A24","#A2503B","#4A5C55","#DCCBB0","#E6D8C2","#F8F3E6"
     RED,BLUE,GREY="#B5462F","#2E7C8F","#8A7C69"
     SERIF="'Noto Serif CJK SC','Noto Serif SC','Songti SC',serif"
@@ -15922,15 +15923,14 @@ def ch01e_you_wu_shuang_guan():
        f'<rect x="0" y="0" width="{W}" height="{H}" fill="{PAPER}"/>',
        f'<text x="110" y="30" font-size="11" fill="{SEAL}" font-family="{SANS}" letter-spacing="3">义 理 图 · 有 无 双 观</text>',
        f'<text x="110" y="66" font-size="18" fill="{INK}">以有观无，一路上到宇宙；以无观有，一路下到量子</text>',
-       f'<text x="110" y="92" font-size="10.4" fill="#6E6459">每一级都先造出一个「空」，新的性质就住在那个空里 —— 有之以为利，无之以为用。</text>']
+       f'<text x="110" y="88" font-size="10.4" fill="#6E6459">每一级先空出一处，那一层的「妙」就住在里头 —— 空是「徼」围出来的，不是第一章那个「无」。</text>']
     # 列头
-    s.append(f'<text x="{AX-20}" y="112" font-size="8.6" fill="{GREY}" text-anchor="end" font-family="{SANS}" letter-spacing="2">级</text>')
-    s.append(f'<text x="{AX+32}" y="112" font-size="8.6" fill="{RED}" font-family="{SANS}" letter-spacing="2">它造出的「无」（空）</text>')
-    s.append(f'<text x="950" y="112" font-size="8.6" fill="{GREEN}" text-anchor="end" font-family="{SANS}" letter-spacing="2">因此之「用」</text>')
+    s.append(f'<text x="{AX-20}" y="124" font-size="8.6" fill="{GREY}" text-anchor="end" font-family="{SANS}" letter-spacing="2">级</text>')
+    s.append(f'<text x="{AX+32}" y="124" font-size="8.6" fill="{RED}" font-family="{SANS}" letter-spacing="2">它空出的那一处（妙所寓）</text>')
+    s.append(f'<text x="950" y="124" font-size="8.6" fill="{GREEN}" text-anchor="end" font-family="{SANS}" letter-spacing="2">因此之「用」</text>')
     # 轴：上箭头 / 下箭头
     s.append(f'<path d="M{AX},{BOT+2} L{AX},{TOP-2}" stroke="{LINE}" stroke-width="0.9"/>')
     s.append(f'<path d="M{AX-5},{TOP-14} L{AX},{TOP-52} L{AX+5},{TOP-14}" fill="none" stroke="{RED}" stroke-width="1.3"/>')
-    s.append(f'<text x="{AX-16}" y="{TOP-46}" font-size="9" fill="{RED}" letter-spacing="1" text-anchor="end">以有观无 · 涌现在上</text>')
     s.append(f'<path d="M{AX-5},{BOT+14} L{AX},{BOT+52} L{AX+5},{BOT+14}" fill="none" stroke="{BLUE}" stroke-width="1.3"/>')
     s.append(f'<text x="{AX-16}" y="{BOT+48}" font-size="9" fill="{BLUE}" letter-spacing="1" text-anchor="end">以无观有 · 还原在下</text>')
     for i,row in enumerate(ROWS):
@@ -15943,6 +15943,8 @@ def ch01e_you_wu_shuang_guan():
     s.append(f'<text x="{W/2}" y="932" font-size="11" fill="{INK}" text-anchor="middle">此两者同出而异名，同谓之玄 —— 不是两条路，是同一实相的两面。</text>')
     s.append(f'<text x="{W/2}" y="960" font-size="9.6" fill="#6E6459" text-anchor="middle">向上看得越远，看见的是更大的空；向下看得越深，看见的是更细的实。</text>')
     s.append(f'<text x="{W/2}" y="984" font-size="9.6" fill="{SEAL}" text-anchor="middle">空不是没有，是被「有」围出来的那一处可用之处。</text>')
+    s.append(f'<text x="{W/2}" y="1010" font-size="9.4" fill="#6E6459" text-anchor="middle">而空之所以有用，不在空本身，在里头住着那一层的妙 —— 无形之势。</text>')
+    s.append(f'<text x="{W/2}" y="1040" font-size="9.4" fill="{RED}" text-anchor="middle">「无」与「空」二字分用：无是尚未分化处，空是已有形之后围出来的未占处。</text>')
     gy=H-64
     s.append(f'<line x1="90" y1="{gy}" x2="{W-90}" y2="{gy}" stroke="{LINE2}" stroke-width="0.8"/>')
     s.append(f'<text x="90" y="{gy+16}" font-size="8.4" fill="#A89577" font-family="{SANS}" letter-spacing="2">本 章 金 句</text>')
