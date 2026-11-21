@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 380 754" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="七善是一条链：不是七条戒律；链底是同一个本体" font-family="'Noto Serif CJK SC','Noto Serif SC','Songti SC',serif">
+<defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#6E6459"/></marker><marker id="arr2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#4A5C55"/></marker><marker id="arrL" viewBox="0 0 10 10" refX="1" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M10 0 L0 5 L10 10 z" fill="#4A5C55"/></marker><marker id="arrS" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#A2503B"/></marker></defs>
+<rect x="0" y="0" width="380" height="754" fill="#F8F3E6"/>
+<text x="20" y="26" font-size="11" fill="#A2503B" font-family="'Noto Sans CJK SC','Noto Sans SC',sans-serif" letter-spacing="3">第 八 章 · 七 善</text>
+<text x="20" y="58" font-size="21" fill="#2F2A24">一根七节管</text>
+<text x="20" y="78" font-size="10.5" fill="#6E6459">居善地，心善渊，与善仁，言善信，政善治，事善能，动善时。</text>
+<rect x="20" y="102" width="340" height="34" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="190" y="114" font-size="4.9" fill="#2F2A24" text-anchor="middle">七句常被读成七条并列的品德，各自打分。不是：它有次序，也有同一个底。</text>
+<text x="190" y="128" font-size="4.9" fill="#6E6459" text-anchor="middle">先安身，再安心；心安了才有仁、有信；仁信立住，才谈得上理事、处事、动止。</text>
+<text x="24" y="152" font-size="5.2" fill="#A2503B">反例·劈成七节：各盛一点，各打一个勾</text>
+<rect x="26" y="164" width="328" height="180" fill="#FBF6EC" stroke="#DCCBB0" stroke-width="0.8"/>
+<rect x="35" y="230" width="30" height="46" fill="#F8F3E6" stroke="#2F2A24" stroke-width="1.0"/>
+<rect x="37" y="246" width="26" height="28" fill="#E4EAE0" stroke="none"/>
+<line x1="37" y1="246" x2="63" y2="246" stroke="#DCCBB0" stroke-width="0.6"/>
+<line x1="47" y1="204" x2="51" y2="214" stroke="#A2503B" stroke-width="1.0"/>
+<line x1="51" y1="214" x2="59" y2="198" stroke="#A2503B" stroke-width="1.1"/>
+<text x="50.0" y="294" font-size="4.4" fill="#2F2A24" text-anchor="middle">地</text>
+<text x="50.0" y="306" font-size="3.9" fill="#6E6459" text-anchor="middle">一勾</text>
+<rect x="80" y="230" width="30" height="46" fill="#F8F3E6" stroke="#2F2A24" stroke-width="1.0"/>
+<rect x="82" y="246" width="26" height="28" fill="#E4EAE0" stroke="none"/>
+<line x1="82" y1="246" x2="108" y2="246" stroke="#DCCBB0" stroke-width="0.6"/>
+<line x1="92" y1="204" x2="96" y2="214" stroke="#A2503B" stroke-width="1.0"/>
+<line x1="96" y1="214" x2="104" y2="198" stroke="#A2503B" stroke-width="1.1"/>
+<text x="95.5" y="294" font-size="4.4" fill="#2F2A24" text-anchor="middle">渊</text>
+<text x="95.5" y="306" font-size="3.9" fill="#6E6459" text-anchor="middle">一勾</text>
+<rect x="126" y="230" width="30" height="46" fill="#F8F3E6" stroke="#2F2A24" stroke-width="1.0"/>
+<rect x="128" y="246" width="26" height="28" fill="#E4EAE0" stroke="none"/>
+<line x1="128" y1="246" x2="154" y2="246" stroke="#DCCBB0" stroke-width="0.6"/>
+<line x1="138" y1="204" x2="142" y2="214" stroke="#A2503B" stroke-width="1.0"/>
+<line x1="142" y1="214" x2="150" y2="198" stroke="#A2503B" stroke-width="1.1"/>
+<text x="141.0" y="294" font-size="4.4" fill="#2F2A24" text-anchor="middle">仁</text>
+<text x="141.0" y="306" font-size="3.9" fill="#6E6459" text-anchor="middle">一勾</text>
+<rect x="172" y="230" width="30" height="46" fill="#F8F3E6" stroke="#2F2A24" stroke-width="1.0"/>
+<rect x="174" y="246" width="26" height="28" fill="#E4EAE0" stroke="none"/>
+<line x1="174" y1="246" x2="200" y2="246" stroke="#DCCBB0" stroke-width="0.6"/>
+<line x1="184" y1="204" x2="188" y2="214" stroke="#A2503B" stroke-width="1.0"/>
+<line x1="188" y1="214" x2="196" y2="198" stroke="#A2503B" stroke-width="1.1"/>
+<text x="186.5" y="294" font-size="4.4" fill="#2F2A24" text-anchor="middle">信</text>
+<text x="186.5" y="306" font-size="3.9" fill="#6E6459" text-anchor="middle">一勾</text>
+<rect x="217" y="230" width="30" height="46" fill="#F8F3E6" stroke="#2F2A24" stroke-width="1.0"/>
+<rect x="219" y="246" width="26" height="28" fill="#E4EAE0" stroke="none"/>
+<line x1="219" y1="246" x2="245" y2="246" stroke="#DCCBB0" stroke-width="0.6"/>
+<line x1="229" y1="204" x2="233" y2="214" stroke="#A2503B" stroke-width="1.0"/>
+<line x1="233" y1="214" x2="241" y2="198" stroke="#A2503B" stroke-width="1.1"/>
+<text x="232.0" y="294" font-size="4.4" fill="#2F2A24" text-anchor="middle">治</text>
+<text x="232.0" y="306" font-size="3.9" fill="#6E6459" text-anchor="middle">一勾</text>
+<rect x="262" y="230" width="30" height="46" fill="#F8F3E6" stroke="#2F2A24" stroke-width="1.0"/>
+<rect x="264" y="246" width="26" height="28" fill="#E4EAE0" stroke="none"/>
+<line x1="264" y1="246" x2="290" y2="246" stroke="#DCCBB0" stroke-width="0.6"/>
+<line x1="274" y1="204" x2="278" y2="214" stroke="#A2503B" stroke-width="1.0"/>
+<line x1="278" y1="214" x2="286" y2="198" stroke="#A2503B" stroke-width="1.1"/>
+<text x="277.5" y="294" font-size="4.4" fill="#2F2A24" text-anchor="middle">能</text>
+<text x="277.5" y="306" font-size="3.9" fill="#6E6459" text-anchor="middle">一勾</text>
+<rect x="308" y="230" width="30" height="46" fill="#F8F3E6" stroke="#2F2A24" stroke-width="1.0"/>
+<rect x="310" y="246" width="26" height="28" fill="#E4EAE0" stroke="none"/>
+<line x1="310" y1="246" x2="336" y2="246" stroke="#DCCBB0" stroke-width="0.6"/>
+<line x1="320" y1="204" x2="324" y2="214" stroke="#A2503B" stroke-width="1.0"/>
+<line x1="324" y1="214" x2="332" y2="198" stroke="#A2503B" stroke-width="1.1"/>
+<text x="323.0" y="294" font-size="4.4" fill="#2F2A24" text-anchor="middle">时</text>
+<text x="323.0" y="306" font-size="3.9" fill="#6E6459" text-anchor="middle">一勾</text>
+<text x="190" y="330" font-size="4.3" fill="#A2503B" text-anchor="middle">分开摆：各自打分，水在每一节停着——七善成了七条互不相干的戒律</text>
+<text x="24" y="360" font-size="5.2" fill="#4A5C55">二、接成一根：一节通了，下一节才满</text>
+<rect x="26" y="372" width="328" height="176" fill="#FBF6EC" stroke="#DCCBB0" stroke-width="0.8"/>
+<rect x="40" y="426" width="300" height="24" fill="#E4EAE0" stroke="#2F2A24" stroke-width="1.2"/>
+<line x1="83" y1="423" x2="83" y2="453" stroke="#2F2A24" stroke-width="1.6"/>
+<line x1="86" y1="423" x2="86" y2="453" stroke="#2F2A24" stroke-width="1.0"/>
+<line x1="126" y1="423" x2="126" y2="453" stroke="#2F2A24" stroke-width="1.6"/>
+<line x1="129" y1="423" x2="129" y2="453" stroke="#2F2A24" stroke-width="1.0"/>
+<line x1="169" y1="423" x2="169" y2="453" stroke="#2F2A24" stroke-width="1.6"/>
+<line x1="172" y1="423" x2="172" y2="453" stroke="#2F2A24" stroke-width="1.0"/>
+<line x1="211" y1="423" x2="211" y2="453" stroke="#2F2A24" stroke-width="1.6"/>
+<line x1="214" y1="423" x2="214" y2="453" stroke="#2F2A24" stroke-width="1.0"/>
+<line x1="254" y1="423" x2="254" y2="453" stroke="#2F2A24" stroke-width="1.6"/>
+<line x1="257" y1="423" x2="257" y2="453" stroke="#2F2A24" stroke-width="1.0"/>
+<line x1="297" y1="423" x2="297" y2="453" stroke="#2F2A24" stroke-width="1.6"/>
+<line x1="300" y1="423" x2="300" y2="453" stroke="#2F2A24" stroke-width="1.0"/>
+<text x="61.42857142857143" y="414" font-size="4.4" fill="#2F2A24" text-anchor="middle">地</text>
+<line x1="53.42857142857143" y1="437" x2="71.42857142857143" y2="437" stroke="#4A5C55" stroke-width="0.8" marker-end="url(#arr2)"/>
+<text x="104.28571428571428" y="414" font-size="4.4" fill="#2F2A24" text-anchor="middle">渊</text>
+<line x1="96.28571428571428" y1="437" x2="114.28571428571428" y2="437" stroke="#4A5C55" stroke-width="0.8" marker-end="url(#arr2)"/>
+<text x="147.14285714285714" y="414" font-size="4.4" fill="#2F2A24" text-anchor="middle">仁</text>
+<line x1="139.14285714285714" y1="437" x2="157.14285714285714" y2="437" stroke="#4A5C55" stroke-width="0.8" marker-end="url(#arr2)"/>
+<text x="190.0" y="414" font-size="4.4" fill="#2F2A24" text-anchor="middle">信</text>
+<line x1="182.0" y1="437" x2="200.0" y2="437" stroke="#4A5C55" stroke-width="0.8" marker-end="url(#arr2)"/>
+<text x="232.85714285714283" y="414" font-size="4.4" fill="#2F2A24" text-anchor="middle">治</text>
+<line x1="224.85714285714283" y1="437" x2="242.85714285714283" y2="437" stroke="#4A5C55" stroke-width="0.8" marker-end="url(#arr2)"/>
+<text x="275.71428571428567" y="414" font-size="4.4" fill="#2F2A24" text-anchor="middle">能</text>
+<line x1="267.71428571428567" y1="437" x2="285.71428571428567" y2="437" stroke="#4A5C55" stroke-width="0.8" marker-end="url(#arr2)"/>
+<text x="318.57142857142856" y="414" font-size="4.4" fill="#2F2A24" text-anchor="middle">时</text>
+<line x1="310.57142857142856" y1="437" x2="328.57142857142856" y2="437" stroke="#4A5C55" stroke-width="0.8" marker-end="url(#arr2)"/>
+<line x1="28" y1="437" x2="38" y2="437" stroke="#4A5C55" stroke-width="1.0" marker-end="url(#arr2)"/>
+<line x1="342" y1="437" x2="352" y2="437" stroke="#4A5C55" stroke-width="1.0" marker-end="url(#arr2)"/>
+<text x="30" y="414" font-size="4.2" fill="#A2503B">身</text>
+<text x="350" y="414" font-size="4.2" fill="#A2503B" text-anchor="end">事</text>
+<rect x="30" y="498" width="320" height="26" fill="#E4EAE0" stroke="#DCCBB0" stroke-width="0.8"/>
+<line x1="46" y1="454" x2="46" y2="498" stroke="#4A5C55" stroke-width="0.8" stroke-dasharray="2 2"/>
+<line x1="334" y1="454" x2="334" y2="498" stroke="#4A5C55" stroke-width="0.8" stroke-dasharray="2 2"/>
+<text x="190" y="516" font-size="4.5" fill="#2F2A24" text-anchor="middle">同一底层：本体不变，才随缘应化</text>
+<text x="190" y="538" font-size="4.2" fill="#6E6459" text-anchor="middle">不跟容器较劲的不是没原则，是先把身、心、存心摆正，手段才接得上</text>
+<text x="24" y="568" font-size="5.0" fill="#2F2A24">第一组居与心，一外一内；第二组与与言，存心与兑现；第三组政、事、动，落地的一环。</text>
+<text x="24" y="584" font-size="5.0" fill="#2F2A24">三者互相咬合：事与能互为支撑，动与时互为约束，政与治互为表里。</text>
+<text x="24" y="602" font-size="4.9" fill="#4A5C55">存心不正而先学手段，学到的只是技巧——七善不是七处各自使劲。</text>
+<line x1="24" y1="620" x2="338" y2="620" stroke="#DCCBB0" stroke-width="0.6"/>
+<rect x="20" y="628" width="340" height="40" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="190" y="644" font-size="6.0" fill="#2F2A24" text-anchor="middle">七善是一条链，不是七条戒律；</text>
+<text x="190" y="656" font-size="6.0" fill="#4A5C55" text-anchor="middle">链底是同一个本体：不变，才随缘。</text>
+<line x1="20" y1="682" x2="360" y2="682" stroke="#E6D8C2" stroke-width="0.8"/>
+<text x="20" y="696" font-size="8.0" fill="#A89577" letter-spacing="1">本 章 金 句</text>
+<text x="20" y="712" font-size="8.4" fill="#2F2A24">居善地，心善渊，与善仁，言善信，政善治，事善能，动善时。</text>
+<text x="20" y="728" font-size="8.4" fill="#2F2A24">七善是一条链，不是七条戒律。</text>
+</svg>

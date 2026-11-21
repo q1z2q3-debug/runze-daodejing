@@ -1915,76 +1915,95 @@ def ch07c_yi_shan_zhai_men():
 
 
 def ch08b_yi_chu_di_chu():
-    body, y = head(380, 999, "位置低一点，对它没有分别——因为它有别的东西可以立",
-                   "第 八 章 · 低 处", "一处低处", "处众人之所恶，故几于道。", 999)
+    body, y = head(760, 999, "水入玉杯、入瓦盆、入江海，还是同一水；支点也在水里，不在水面上",
+                   "第 八 章 · 本 体", "本体不变，支点在本体",
+                   "净、秽、贵、贱，都是人贴上去的标签——属于相，不属于水。", 999)
     s = [body]
 
-    s.append(box(20, y + 2, 340, 34, fill="#F2EADA", stroke="#C9B79A"))
-    s.append(txt(190, y + 14, "「处众人之所恶」不是自苦，是把自己放在别人不要的位置上，而且安。", 4.9, INK, "middle"))
-    s.append(txt(190, y + 28, "一处是争来的位，一处是流到的位——位次要用力气守，归宿不必。", 4.9, "#6E6459", "middle"))
+    def wave(x0, x1, yy, col=INK, w=0.9, amp=5, step=40):
+        seg = []
+        seg.append(f'<path d="M{x0},{yy}')
+        cx = x0
+        up = True
+        while cx < x1:
+            nx = min(cx + step, x1)
+            seg.append(f' Q{(cx + nx) / 2:.1f},{yy + (-amp if up else amp)} {nx},{yy}')
+            up = not up
+            cx = nx
+        seg.append(f'" fill="none" stroke="{col}" stroke-width="{w}"/>')
+        return "".join(seg)
 
-    # 一、争高与就下
-    s.append(txt(24, y + 52, "一、争高与就下：人往上挤，水往下流", 5.2, GREEN))
-    gy = y + 64
-    s.append(f'<rect x="26" y="{gy}" width="328" height="180" fill="#FBF6EC" stroke="{LINE}" stroke-width="0.8"/>')
-    s.append(f'<line x1="190" y1="{gy + 12}" x2="190" y2="{gy + 168}" stroke="{LINE}" stroke-width="0.5" stroke-dasharray="2 3"/>')
-    # 左：一道坡，三个人往上走
-    sx0, sy0, sx1, sy1 = 36, gy + 152, 168, gy + 78
-    s.append(f'<line x1="{sx0}" y1="{sy0}" x2="{sx1}" y2="{sy1}" stroke="{INK}" stroke-width="1.2"/>')
-    s.append(f'<line x1="{sx1}" y1="{sy1}" x2="{sx1}" y2="{sy0}" stroke="{LINE}" stroke-width="0.6" stroke-dasharray="2 3"/>')
-    for fx in (66, 98, 130):
-        fy = sy0 - (fx - sx0) * (sy0 - sy1) / (sx1 - sx0)
-        s.append(f'<circle cx="{fx}" cy="{fy - 13}" r="2.6" fill="none" stroke="{INK}" stroke-width="0.8"/>')
-        s.append(f'<line x1="{fx}" y1="{fy - 10.4}" x2="{fx}" y2="{fy - 3}" stroke="{INK}" stroke-width="0.9"/>')
-        s.append(f'<line x1="{fx}" y1="{fy - 3}" x2="{fx - 3.5}" y2="{fy}" stroke="{INK}" stroke-width="0.8"/>')
-        s.append(f'<line x1="{fx}" y1="{fy - 3}" x2="{fx + 3.5}" y2="{fy}" stroke="{INK}" stroke-width="0.8"/>')
-        s.append(f'<line x1="{fx - 4}" y1="{fy - 7}" x2="{fx + 4}" y2="{fy - 9}" stroke="{INK}" stroke-width="0.7"/>')
-    s.append(arrow(48, sy0 - 6, 84, sy0 - 27, SEAL, 0.9, None, "arr2"))
-    s.append(txt(172, gy + 42, "争高", 4.6, SEAL, "end"))
-    s.append(txt(172, gy + 54, "位越高，越要守", 4.2, "#6E6459", "end"))
-    s.append(txt(100, gy + 168, "越往上，站的人越少，扶的人也越少", 4.2, "#6E6459", "middle"))
-    # 右：一谷，两股水往下流
-    s.append(f'<path d="M204,{gy + 58} L266,{gy + 134} L328,{gy + 58}" fill="none" stroke="{INK}" stroke-width="1.1"/>')
-    s.append(f'<path d="M238,{gy + 128} q14,-4 28,0 q14,4 28,0" fill="none" stroke="{INK}" stroke-width="0.9"/>')
-    s.append(f'<rect x="240" y="{gy + 129}" width="52" height="4.5" fill="#E4EAE0" stroke="none"/>')
-    s.append(arrow(212, gy + 48, 254, gy + 112, GREEN, 1.0, None, "arr2"))
-    s.append(arrow(320, gy + 48, 278, gy + 112, GREEN, 1.0, None, "arr2"))
-    s.append(txt(266, gy + 34, "就下", 4.6, GREEN, "middle"))
-    s.append(txt(266, gy + 152, "众人所恶：没人要的低处", 4.2, "#6E6459", "middle"))
-    s.append(txt(266, gy + 166, "安得住，是因为不靠位置定义自己", 4.2, GREEN, "middle"))
+    s.append(txt(24, y + 52, "一、三处容器：位置不同，相不同，水还是水", 9.6, GREEN))
+    y0 = y + 64
+    s.append(box(24, y0, 712, 206, fill="#FBF6EC", stroke=LINE))
+    cxa, ty = 140, y0 + 40
+    s.append(f'<polygon points="{cxa - 34},{ty} {cxa + 34},{ty} {cxa + 24},{ty + 64} {cxa - 24},{ty + 64}" fill="#F8F3E6" stroke="{INK}" stroke-width="1.1"/>')
+    s.append(f'<polygon points="{cxa - 30},{ty + 26} {cxa + 30},{ty + 26} {cxa + 22},{ty + 62} {cxa - 22},{ty + 62}" fill="#E4EAE0" stroke="none"/>')
+    s.append(wave(cxa - 30, cxa + 30, ty + 26, INK, 0.7, 2, 15))
+    s.append(txt(cxa, ty - 10, "玉杯", 8.2, "#6E6459", "middle"))
+    s.append(txt(cxa, y0 + 134, "净：人捧着", 9, INK, "middle"))
+    s.append(txt(cxa, y0 + 150, "摆在案上、献在堂前", 8, "#6E6459", "middle"))
+    cxb = 364
+    s.append(f'<polygon points="{cxb - 46},{ty + 12} {cxb + 46},{ty + 12} {cxb + 28},{ty + 64} {cxb - 28},{ty + 64}" fill="#F8F3E6" stroke="{INK}" stroke-width="1.1"/>')
+    s.append(f'<polygon points="{cxb - 42},{ty + 34} {cxb + 42},{ty + 34} {cxb + 27},{ty + 62} {cxb - 27},{ty + 62}" fill="#DCD0B4" stroke="none"/>')
+    s.append(wave(cxb - 42, cxb + 42, ty + 34, INK, 0.7, 2, 20))
+    for px, py in ((-24, 44), (-6, 52), (16, 46), (30, 56), (-14, 58)):
+        s.append(f'<circle cx="{cxb + px}" cy="{ty + py}" r="1.2" fill="#8A7A5E"/>')
+    s.append(txt(cxb, ty - 10, "瓦盆", 8.2, "#6E6459", "middle"))
+    s.append(txt(cxb, y0 + 134, "秽：人绕着走", 9, INK, "middle"))
+    s.append(txt(cxb, y0 + 150, "洗过东西、搁在墙根", 8, "#6E6459", "middle"))
+    cxc = 588
+    s.append(f'<rect x="{cxc - 72}" y="{ty + 30}" width="144" height="44" fill="#E4EAE0" stroke="none"/>')
+    s.append(wave(cxc - 72, cxc + 72, ty + 30, INK, 0.9, 4, 36))
+    s.append(f'<line x1="{cxc - 72}" y1="{ty + 74}" x2="{cxc + 72}" y2="{ty + 74}" stroke="{LINE}" stroke-width="0.6"/>')
+    for rx in (cxc - 54, cxc - 18, cxc + 18, cxc + 54):
+        s.append(f'<path d="M{rx},{ty - 6} C {rx + 5},{ty + 8} {rx + 3},{ty + 18} {rx},{ty + 26}" fill="none" stroke="{GREEN}" stroke-width="0.9"/>')
+        s.append(arrow(rx, ty + 16, rx, ty + 27, GREEN, 0.8, None, "arrS"))
+    s.append(txt(cxc, ty - 10, "江海", 8.2, "#6E6459", "middle"))
+    s.append(txt(cxc, y0 + 134, "下：众流来归", 9, INK, "middle"))
+    s.append(txt(cxc, y0 + 150, "它没有去召谁", 8, "#6E6459", "middle"))
+    s.append(txt(380, y0 + 184, "三处三样相，一水一体：净也受，秽也受，众流也受——受完了，它没变。", 9.2, SEAL, "middle"))
 
-    # 二、江海为百谷王
-    s.append(txt(24, gy + 196, "二、江海：把自己放在最低处，百川自来", 5.2, GREEN))
-    gy2 = gy + 208
-    s.append(f'<rect x="26" y="{gy2}" width="328" height="176" fill="#FBF6EC" stroke="{LINE}" stroke-width="0.8"/>')
-    # 水面
-    s.append(f'<rect x="40" y="{gy2 + 120}" width="300" height="40" fill="#E4EAE0" stroke="none"/>')
-    s.append(f'<path d="M40,{gy2 + 120} q20,-5 40,0 q20,5 40,0 q20,-5 40,0 q20,5 40,0 q20,-5 40,0 q20,5 40,0 q20,-5 40,0" fill="none" stroke="{INK}" stroke-width="0.9"/>')
-    s.append(f'<line x1="40" y1="{gy2 + 160}" x2="340" y2="{gy2 + 160}" stroke="{LINE}" stroke-width="0.6"/>')
-    # 五条川，自高处归下
-    for rx in (66, 124, 190, 256, 314):
-        s.append(f'<path d="M{rx},{gy2 + 18} C {rx + 8},{gy2 + 56} {rx + 4},{gy2 + 92} {rx},{gy2 + 116}" fill="none" stroke="{GREEN}" stroke-width="1.0"/>')
-        s.append(arrow(rx, gy2 + 92, rx, gy2 + 114, GREEN, 0.9, None, "arr2"))
-        s.append(f'<line x1="{rx - 8}" y1="{gy2 + 24}" x2="{rx + 8}" y2="{gy2 + 24}" stroke="{LINE}" stroke-width="0.5"/>')
-    s.append(txt(54, gy2 + 146, "江海", 5.4, INK))
-    s.append(txt(334, gy2 + 146, "百川归之", 4.4, GREEN, "end"))
-    s.append(txt(190, gy2 + 168, "它不召、不催、不争——只在最低处，水自然来", 4.2, "#6E6459", "middle"))
+    s.append(txt(24, y0 + 236, "二、支点在哪儿：相上，还是本体", 9.6, GREEN))
+    y1 = y0 + 250
+    for bx in (24, 386):
+        s.append(box(bx, y1, 350, 232, fill="#FBF6EC", stroke=LINE))
+    s.append(f'<rect x="34" y="{y1 + 150}" width="330" height="70" fill="#E4EAE0" stroke="none"/>')
+    s.append(wave(34, 364, y1 + 150, INK, 0.9, 6, 42))
+    s.append(f'<line x1="80" y1="{y1 + 138}" x2="310" y2="{y1 + 124}" stroke="{INK}" stroke-width="2"/>')
+    s.append(f'<circle cx="274" cy="{y1 + 102}" r="5" fill="none" stroke="{SEAL}" stroke-width="1.1"/>')
+    s.append(f'<line x1="269" y1="{y1 + 107}" x2="247" y2="{y1 + 131}" stroke="{SEAL}" stroke-width="1.1"/>')
+    s.append(f'<line x1="247" y1="{y1 + 131}" x2="237" y2="{y1 + 146}" stroke="{SEAL}" stroke-width="1"/>')
+    s.append(f'<line x1="247" y1="{y1 + 131}" x2="256" y2="{y1 + 147}" stroke="{SEAL}" stroke-width="1"/>')
+    s.append(f'<line x1="195" y1="{y1 + 131}" x2="195" y2="{y1 + 150}" stroke="{SEAL}" stroke-width="1.6"/>')
+    s.append(f'<circle cx="195" cy="{y1 + 150}" r="2" fill="{SEAL}"/>')
+    s.append(txt(199, y1 + 30, "支点长在相上", 10, SEAL, "middle", spacing="1"))
+    s.append(txt(199, y1 + 52, "要好位置、好评价、好名声", 8.4, "#6E6459", "middle"))
+    s.append(txt(199, y1 + 200, "相一动，人就翻", 9.4, SEAL, "middle"))
+    s.append(f'<rect x="396" y="{y1 + 150}" width="330" height="70" fill="#E4EAE0" stroke="none"/>')
+    s.append(wave(396, 726, y1 + 150, INK, 0.9, 6, 42))
+    s.append(f'<line x1="561" y1="{y1 + 128}" x2="561" y2="{y1 + 204}" stroke="{INK}" stroke-width="2"/>')
+    s.append(f'<rect x="501" y="{y1 + 204}" width="120" height="16" fill="#DDE4D8" stroke="{INK}" stroke-width="0.8"/>')
+    s.append(f'<circle cx="561" cy="{y1 + 96}" r="5" fill="none" stroke="{INK}" stroke-width="1.1"/>')
+    s.append(f'<line x1="561" y1="{y1 + 101}" x2="561" y2="{y1 + 122}" stroke="{INK}" stroke-width="1.2"/>')
+    s.append(f'<line x1="561" y1="{y1 + 122}" x2="553" y2="{y1 + 138}" stroke="{INK}" stroke-width="1"/>')
+    s.append(f'<line x1="561" y1="{y1 + 122}" x2="569" y2="{y1 + 138}" stroke="{INK}" stroke-width="1"/>')
+    s.append(txt(561, y1 + 30, "支点在本体", 10, GREEN, "middle", spacing="1"))
+    s.append(txt(561, y1 + 52, "万相来了都能承、都能应", 8.4, "#6E6459", "middle"))
+    s.append(txt(466, y1 + 182, "相照旧变，人不翻", 9.4, GREEN, "start"))
+    s.append(txt(561, y1 + 216, "本体", 7.6, INK, "middle"))
 
-    a = gy2 + 196
-    s.append(txt(24, a, "「恶」读 wù：厌弃、嫌弃。低处是人人躲开的地方，水偏偏在那里聚。", 5.2, INK))
-    s.append(txt(24, a + 16, "它能安，是因为不靠位置来定义自己：位置高一点低一点，对它没有分别。", 5.2, INK))
-    s.append(txt(24, a + 34, "学水不是学它的德，是学它把自己放到哪儿——先挪身，再谈修德。", 5.0, GREEN))
+    y2 = y1 + 256
+    s.append(box(24, y2, 712, 60, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(380, y2 + 26, "几于道落回人身：不是把外境摆平，是把支点挪进来。", 10, INK, "middle"))
+    s.append(txt(380, y2 + 46, "逆境照样来，只是不再添一层自造的苦——这才叫无尤。", 9, "#5F564C", "middle"))
 
-    c = a + 52
-    s.append(f'<line x1="24" y1="{c}" x2="338" y2="{c}" stroke="{LINE}" stroke-width="0.6"/>')
-    s.append(box(20, c + 8, 340, 40, fill="#F2EADA", stroke="#C9B79A"))
-    s.append(txt(190, c + 24, "低处不是惩罚，是不必守的位置；", 6.0, INK, "middle"))
-    s.append(txt(190, c + 36, "水往那里去，是不争。", 6.0, GREEN, "middle"))
-    s.append(gold(c + 62, "ch08b"))
+    s.append(gold(y2 + 96, "ch08b"))
     s.append('</svg>')
-    out = "\n".join(s)
+    out = chr(10).join(s)
     ys = [float(v) for v in re.findall(r'y="([0-9.]+)"', out)]
     return out.replace("999", str(int(max(ys) + 26)))
+
 
 
 def ch08c_qi_jie_tong_guan():
@@ -7910,7 +7929,7 @@ GOLD = {
     "ch01e": ["常无欲以观其妙。", "观妙是见势：空是「徼」围出来的，妙住在空里。"],
     "ch07b": ["天地所以能长且久者，以其不自生，故能长生。", "为己者，取而入，入而塞；不为己者，生而出，出而复——差别不在善恶，在闭环。"],
     "ch07c": ["是以圣人后其身而身先，外其身而身存。", "先不是争来的，是人心自归的；退不是姿态，是把手松开。"],
-    "ch08b": ["处众人之所恶，故几于道。", "低处不是惩罚，是不必守的位置。"],
+    "ch08b": ["故几于道。", "能入一切境，不改其性——几于道，就在这里。"],
     "ch08c": ["居善地，心善渊，与善仁，言善信，政善治，事善能，动善时。", "七善是一条链，不是七条戒律。"],
     "ch09b": ["持而盈之，不如其已；揣而锐之，不可长保。", "持满则溢，不如早止。"],
     "ch09c": ["金玉满堂，莫之能守；富贵而骄，自遗其咎。", "退的不是事，是恋；收的不是手，是心。"],
