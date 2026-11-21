@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 380 762" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="万物并作，吾以观复：一棵树发满又落尽，回到根那一层" font-family="'Noto Serif CJK SC','Noto Serif SC','Songti SC',serif">
+<defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#6E6459"/></marker><marker id="arr2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#4A5C55"/></marker><marker id="arrL" viewBox="0 0 10 10" refX="1" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M10 0 L0 5 L10 10 z" fill="#4A5C55"/></marker><marker id="arrS" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#A2503B"/></marker></defs>
+<rect x="0" y="0" width="380" height="762" fill="#F8F3E6"/>
+<text x="20" y="26" font-size="11" fill="#A2503B" font-family="'Noto Sans CJK SC','Noto Sans SC',sans-serif" letter-spacing="3">第 十 六 章 · 修 法</text>
+<text x="20" y="58" font-size="21" fill="#2F2A24">一棵树的一年</text>
+<text x="20" y="78" font-size="10.5" fill="#6E6459">万物并作，吾以观复：看的不是它长到多高，是它回到哪里。</text>
+<rect x="20" y="102" width="340" height="34" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="190" y="114" font-size="4.9" fill="#2F2A24" text-anchor="middle">作：一齐发出来。复：一齐回到底。</text>
+<text x="190" y="127" font-size="4.8" fill="#6E6459" text-anchor="middle">同一场生长，看它往哪儿去，还是看它从哪儿来。</text>
+<rect x="26" y="146" width="328" height="180" fill="#FBF6EC" stroke="#DCCBB0" stroke-width="0.8"/>
+<line x1="190" y1="276" x2="190" y2="198" stroke="#2F2A24" stroke-width="1.8"/>
+<line x1="190" y1="242" x2="146" y2="216" stroke="#2F2A24" stroke-width="1.1"/>
+<line x1="190" y1="254" x2="234" y2="222" stroke="#2F2A24" stroke-width="1.1"/>
+<line x1="190" y1="222" x2="164" y2="202" stroke="#2F2A24" stroke-width="1.1"/>
+<line x1="190" y1="212" x2="216" y2="196" stroke="#2F2A24" stroke-width="1.1"/>
+<ellipse cx="146" cy="212" rx="6" ry="4" fill="#E9F0E6" stroke="#4A5C55" stroke-width="0.6"/>
+<ellipse cx="234" cy="218" rx="6" ry="4" fill="#E9F0E6" stroke="#4A5C55" stroke-width="0.6"/>
+<ellipse cx="164" cy="198" rx="5.5" ry="3.6" fill="#E9F0E6" stroke="#4A5C55" stroke-width="0.6"/>
+<ellipse cx="216" cy="192" rx="5.5" ry="3.6" fill="#E9F0E6" stroke="#4A5C55" stroke-width="0.6"/>
+<ellipse cx="190" cy="192" rx="6" ry="4" fill="#E9F0E6" stroke="#4A5C55" stroke-width="0.6"/>
+<ellipse cx="172" cy="230" rx="4.6" ry="3.2" fill="#E9F0E6" stroke="#4A5C55" stroke-width="0.6"/>
+<ellipse cx="210" cy="238" rx="4.6" ry="3.2" fill="#E9F0E6" stroke="#4A5C55" stroke-width="0.6"/>
+<ellipse cx="152" cy="232" rx="4.4" ry="3.0" fill="#E9F0E6" stroke="#4A5C55" stroke-width="0.6"/>
+<line x1="146" y1="205" x2="146" y2="193" stroke="#4A5C55" stroke-width="1.2" marker-end="url(#arr2)"/>
+<line x1="234" y1="211" x2="234" y2="199" stroke="#4A5C55" stroke-width="1.2" marker-end="url(#arr2)"/>
+<line x1="164" y1="191" x2="164" y2="179" stroke="#4A5C55" stroke-width="1.2" marker-end="url(#arr2)"/>
+<line x1="216" y1="185" x2="216" y2="173" stroke="#4A5C55" stroke-width="1.2" marker-end="url(#arr2)"/>
+<rect x="26" y="276" width="328" height="46" fill="#EFE6D4" stroke="none" opacity="0.55"/>
+<line x1="40" y1="276" x2="340" y2="276" stroke="#2F2A24" stroke-width="1.0"/>
+<path d="M190,276 C186,288 174,292 168,300" fill="none" stroke="#2F2A24" stroke-width="0.9"/>
+<path d="M190,276 C194,288 206,292 212,300" fill="none" stroke="#2F2A24" stroke-width="0.9"/>
+<line x1="190" y1="276" x2="190" y2="306" stroke="#2F2A24" stroke-width="0.9"/>
+<text x="298" y="204" font-size="8.4" fill="#4A5C55" text-anchor="middle">作</text>
+<text x="298" y="220" font-size="4.6" fill="#6E6459" text-anchor="middle">一齐发</text>
+<text x="24" y="344" font-size="5.2" fill="#4A5C55">一、并作：一齐发出来，各往各的方向长</text>
+<rect x="26" y="360" width="328" height="180" fill="#FBF6EC" stroke="#DCCBB0" stroke-width="0.8"/>
+<line x1="190" y1="490" x2="190" y2="412" stroke="#2F2A24" stroke-width="1.8"/>
+<line x1="190" y1="456" x2="146" y2="430" stroke="#2F2A24" stroke-width="1.1"/>
+<line x1="190" y1="468" x2="234" y2="436" stroke="#2F2A24" stroke-width="1.1"/>
+<line x1="190" y1="436" x2="164" y2="416" stroke="#2F2A24" stroke-width="1.1"/>
+<line x1="190" y1="426" x2="216" y2="410" stroke="#2F2A24" stroke-width="1.1"/>
+<rect x="26" y="490" width="328" height="46" fill="#EFE6D4" stroke="none" opacity="0.55"/>
+<line x1="40" y1="490" x2="340" y2="490" stroke="#2F2A24" stroke-width="1.0"/>
+<path d="M190,490 C186,502 174,506 168,514" fill="none" stroke="#2F2A24" stroke-width="0.9"/>
+<path d="M190,490 C194,502 206,506 212,514" fill="none" stroke="#2F2A24" stroke-width="0.9"/>
+<line x1="190" y1="490" x2="190" y2="520" stroke="#2F2A24" stroke-width="0.9"/>
+<ellipse cx="150" cy="510" rx="5.4" ry="3.4" fill="#E4D8BF" stroke="#4A5C55" stroke-width="0.6"/>
+<ellipse cx="170" cy="520" rx="5.4" ry="3.4" fill="#E4D8BF" stroke="#4A5C55" stroke-width="0.6"/>
+<ellipse cx="198" cy="512" rx="5.4" ry="3.4" fill="#E4D8BF" stroke="#4A5C55" stroke-width="0.6"/>
+<ellipse cx="222" cy="522" rx="5.4" ry="3.4" fill="#E4D8BF" stroke="#4A5C55" stroke-width="0.6"/>
+<ellipse cx="242" cy="508" rx="5.4" ry="3.4" fill="#E4D8BF" stroke="#4A5C55" stroke-width="0.6"/>
+<line x1="146" y1="420" x2="146" y2="478" stroke="#6E6459" stroke-width="0.9" stroke-dasharray="4 3" marker-end="url(#arr)"/>
+<line x1="234" y1="426" x2="234" y2="478" stroke="#6E6459" stroke-width="0.9" stroke-dasharray="4 3" marker-end="url(#arr)"/>
+<ellipse cx="190" cy="402" rx="4.6" ry="3.1" fill="none" stroke="#A2503B" stroke-width="0.7" stroke-dasharray="2 2"/>
+<text x="206" y="398" font-size="4.5" fill="#A2503B">次年从这里再发</text>
+<text x="126" y="484" font-size="4.8" fill="#6E6459">根</text>
+<text x="298" y="418" font-size="8.4" fill="#A2503B" text-anchor="middle">复</text>
+<text x="298" y="434" font-size="4.6" fill="#6E6459" text-anchor="middle">一齐归</text>
+<text x="24" y="558" font-size="5.2" fill="#A2503B">二、归根：芸芸满天满地，最后都回到根那一层</text>
+<text x="24" y="576" font-size="4.9" fill="#2F2A24">归根曰静：叶落尽了，树不再动——静不是死，是有一处归到位了。</text>
+<text x="24" y="592" font-size="4.9" fill="#2F2A24">是谓复命：回的不是原样，是回到自己那条本来节律。</text>
+<text x="24" y="610" font-size="4.9" fill="#4A5C55">复命曰常，知常曰明：这条规矩年年都在，看见了就叫明。</text>
+<line x1="24" y1="628" x2="338" y2="628" stroke="#DCCBB0" stroke-width="0.6"/>
+<rect x="20" y="636" width="340" height="40" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="190" y="652" font-size="6.0" fill="#2F2A24" text-anchor="middle">万物并作，观其归；</text>
+<text x="190" y="664" font-size="6.0" fill="#4A5C55" text-anchor="middle">归根曰静，静曰复命。</text>
+<line x1="20" y1="690" x2="360" y2="690" stroke="#E6D8C2" stroke-width="0.8"/>
+<text x="20" y="704" font-size="8.0" fill="#A89577" letter-spacing="1">本 章 金 句</text>
+<text x="20" y="720" font-size="8.4" fill="#2F2A24">万物并作，观其归；归根曰静，静曰复命。</text>
+<text x="20" y="736" font-size="8.4" fill="#2F2A24">复归其根，是把今年长出来的、重新变成明年的底。</text>
+</svg>
