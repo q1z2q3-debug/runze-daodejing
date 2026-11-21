@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 380 750" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="养这个身，不据这个身：抱紧了是执，托平了才是器" font-family="'Noto Serif CJK SC','Noto Serif SC','Songti SC',serif">
+<defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#6E6459"/></marker><marker id="arr2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#4A5C55"/></marker><marker id="arrL" viewBox="0 0 10 10" refX="1" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M10 0 L0 5 L10 10 z" fill="#4A5C55"/></marker><marker id="arrS" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#A2503B"/></marker></defs>
+<rect x="0" y="0" width="380" height="750" fill="#F8F3E6"/>
+<text x="20" y="26" font-size="11" fill="#A2503B" font-family="'Noto Sans CJK SC','Noto Sans SC',sans-serif" letter-spacing="3">第 十 三 章 · 抱 与 托</text>
+<text x="20" y="58" font-size="21" fill="#2F2A24">抱与托</text>
+<text x="20" y="78" font-size="10.5" fill="#6E6459">贵以身为天下，若可寄天下；爱以身为天下，若可托天下。</text>
+<rect x="20" y="102" width="340" height="34" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="190" y="114" font-size="4.9" fill="#2F2A24" text-anchor="middle">「若」旧训为「乃」，作「才能」解，不是「好像」。</text>
+<text x="190" y="127" font-size="4.8" fill="#6E6459" text-anchor="middle">天下不是交给他去占有，是寄放、托付。</text>
+<text x="24" y="152" font-size="5.2" fill="#A2503B">一、抱：双臂环住往里收，杯子被挤得变形</text>
+<rect x="26" y="164" width="328" height="176" fill="#FBF6EC" stroke="#DCCBB0" stroke-width="0.8"/>
+<path d="M102,216 q26,32 52,0 z" fill="#F8F3E6" stroke="#2F2A24" stroke-width="1.2"/>
+<ellipse cx="128" cy="216" rx="26" ry="5" fill="#EFE6D4" stroke="#2F2A24" stroke-width="0.9"/>
+<path d="M78,218 Q74,256 128,262 Q182,256 178,218" fill="none" stroke="#2F2A24" stroke-width="1.6"/>
+<line x1="104" y1="228" x2="118" y2="228" stroke="#A2503B" stroke-width="0.8" marker-end="url(#arrS)"/>
+<line x1="152" y1="228" x2="138" y2="228" stroke="#A2503B" stroke-width="0.8" marker-end="url(#arrS)"/>
+<text x="128" y="296" font-size="4.2" fill="#A2503B" text-anchor="middle">抱得越紧，杯壁越薄：越怕失，越易碎</text>
+<circle cx="287" cy="216" r="6" fill="none" stroke="#2F2A24" stroke-width="1.0"/>
+<line x1="287" y1="222" x2="292" y2="252" stroke="#2F2A24" stroke-width="1.3"/>
+<line x1="292" y1="252" x2="285" y2="264" stroke="#2F2A24" stroke-width="1.0"/>
+<line x1="292" y1="252" x2="299" y2="264" stroke="#2F2A24" stroke-width="1.0"/>
+<text x="292" y="296" font-size="4.2" fill="#A2503B" text-anchor="middle">低着头，只看见自己这一只</text>
+<text x="292" y="310" font-size="4.2" fill="#6E6459" text-anchor="middle">贵身成了执身：又落回攀缘</text>
+<text x="24" y="356" font-size="5.2" fill="#4A5C55">二、托：双手摊平往上承，杯子立在掌心，人抬头看前头</text>
+<rect x="26" y="368" width="328" height="168" fill="#FBF6EC" stroke="#DCCBB0" stroke-width="0.8"/>
+<path d="M98,412 q24,32 48,0 z" fill="#F8F3E6" stroke="#2F2A24" stroke-width="1.2"/>
+<ellipse cx="122" cy="412" rx="24" ry="5" fill="#EFE6D4" stroke="#2F2A24" stroke-width="0.9"/>
+<path d="M82,442 Q122,464 162,442" fill="none" stroke="#2F2A24" stroke-width="1.8"/>
+<path d="M82,442 q-6,-8 0,-12 M162,442 q6,-8 0,-12" fill="none" stroke="#2F2A24" stroke-width="0.9"/>
+<text x="122" y="480" font-size="4.2" fill="#4A5C55" text-anchor="middle">器不自贵，才能受重</text>
+<circle cx="274" cy="402" r="6" fill="none" stroke="#2F2A24" stroke-width="1.0"/>
+<line x1="274" y1="408" x2="268" y2="438" stroke="#2F2A24" stroke-width="1.3"/>
+<line x1="268" y1="438" x2="261" y2="450" stroke="#2F2A24" stroke-width="1.0"/>
+<line x1="268" y1="438" x2="275" y2="450" stroke="#2F2A24" stroke-width="1.0"/>
+<line x1="300" y1="390" x2="324" y2="390" stroke="#4A5C55" stroke-width="0.9" marker-end="url(#arr2)"/>
+<text x="326" y="393" font-size="4.0" fill="#4A5C55">天下</text>
+<text x="268" y="494" font-size="4.2" fill="#4A5C55" text-anchor="middle">抬起头来，眼里有别人那具身</text>
+<text x="268" y="508" font-size="4.2" fill="#6E6459" text-anchor="middle">先能自护自明，才不拿标尺去伤别人</text>
+<text x="24" y="564" font-size="5.0" fill="#2F2A24">向外追荣辱是执，向内抱紧「我要贵身」也是执：前者把壁加厚，后者把壁擦亮再抱住不放。</text>
+<text x="24" y="580" font-size="5.0" fill="#2F2A24">贵身是顺其自然的护持，不是刻意的抓取；无身是放下执念，不是厌弃生命。</text>
+<text x="24" y="598" font-size="4.8" fill="#4A5C55">能养此身而不据此身的人，天下才敢寄在他手里——他既不拿自己去换什么，也不会拿别人去换什么。</text>
+<line x1="24" y1="616" x2="338" y2="616" stroke="#DCCBB0" stroke-width="0.6"/>
+<rect x="20" y="624" width="340" height="40" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="190" y="640" font-size="6.0" fill="#2F2A24" text-anchor="middle">养身如养器，护壁不据壁；</text>
+<text x="190" y="652" font-size="6.0" fill="#4A5C55" text-anchor="middle">惜命不惜执，空心不弃生。</text>
+<line x1="20" y1="678" x2="360" y2="678" stroke="#E6D8C2" stroke-width="0.8"/>
+<text x="20" y="692" font-size="8.0" fill="#A89577" letter-spacing="1">本 章 金 句</text>
+<text x="20" y="708" font-size="8.4" fill="#2F2A24">故贵以身为天下，若可寄天下；爱以身为天下，若可托天下。</text>
+<text x="20" y="724" font-size="8.4" fill="#2F2A24">养身如养器，护壁不据壁。</text>
+</svg>
