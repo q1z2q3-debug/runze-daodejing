@@ -4548,6 +4548,289 @@ def ch18c_san_kuai_bu_ding():
     return out.replace("999", str(int(max(ys) + 26)))
 
 
+def ch19_yi_gen_biao_gan():
+    body, y = head(380, 999, "绝圣弃智：所绝者名，所复者实",
+                   "第 十 九 章 · 减 法", "一根标杆",
+                   "上一章是诊断，这一章是方子：先拆招牌，再给归处。", 999)
+    s = [body]
+
+    s.append(box(20, y + 2, 340, 34, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, y + 14, "「绝」是不再倚仗，不是砸招牌。", 4.9, INK, "middle"))
+    s.append(txt(190, y + 27, "绝掉的是名，回来的是实。", 4.8, "#6E6459", "middle"))
+
+    def ground(g):
+        s.append(f'<line x1="36" y1="{g}" x2="344" y2="{g}" stroke="{INK}" stroke-width="1.1"/>')
+        for k in range(9):
+            x = 48 + k * 36
+            s.append(f'<line x1="{x}" y1="{g + 4}" x2="{x + 16}" y2="{g + 4}" stroke="{LINE2}" stroke-width="0.7"/>')
+
+    def looker(x, g):
+        # 站着，一只手朝杆的方向抬起来
+        s.append(f'<circle cx="{x}" cy="{g - 34}" r="3.2" fill="none" stroke="{INK}" stroke-width="0.9"/>')
+        s.append(f'<line x1="{x}" y1="{g - 31}" x2="{x}" y2="{g - 12}" stroke="{INK}" stroke-width="1.0"/>')
+        s.append(f'<line x1="{x}" y1="{g - 12}" x2="{x - 5}" y2="{g}" stroke="{INK}" stroke-width="0.9"/>')
+        s.append(f'<line x1="{x}" y1="{g - 12}" x2="{x + 5}" y2="{g}" stroke="{INK}" stroke-width="0.9"/>')
+        s.append(f'<line x1="{x}" y1="{g - 27}" x2="{x + 10}" y2="{g - 36}" stroke="{INK}" stroke-width="0.8"/>')
+        s.append(f'<line x1="{x}" y1="{g - 27}" x2="{x - 3}" y2="{g - 17}" stroke="{INK}" stroke-width="0.8"/>')
+
+    def bender(x, g):
+        # 弯腰：头低到膝上，背一条直线，手臂伸向禾
+        s.append(f'<circle cx="{x + 11}" cy="{g - 33}" r="3.2" fill="none" stroke="{INK}" stroke-width="0.9"/>')
+        s.append(f'<line x1="{x + 8}" y1="{g - 31}" x2="{x - 3}" y2="{g - 15}" stroke="{INK}" stroke-width="1.0"/>')
+        s.append(f'<line x1="{x - 3}" y1="{g - 15}" x2="{x - 6}" y2="{g}" stroke="{INK}" stroke-width="0.9"/>')
+        s.append(f'<line x1="{x - 3}" y1="{g - 15}" x2="{x + 4}" y2="{g}" stroke="{INK}" stroke-width="0.9"/>')
+        s.append(f'<line x1="{x + 6}" y1="{g - 28}" x2="{x + 12}" y2="{g - 22}" stroke="{INK}" stroke-width="0.8"/>')
+
+    def stalk(x, g, hgt):
+        s.append(f'<line x1="{x}" y1="{g}" x2="{x}" y2="{g - hgt}" stroke="{GREEN}" stroke-width="0.9"/>')
+        s.append(f'<path d="M{x},{g - hgt * 0.6} q7,-4 10,-9" fill="none" stroke="{GREEN}" stroke-width="0.5"/>')
+        s.append(f'<path d="M{x},{g - hgt * 0.45} q-7,-4 -10,-9" fill="none" stroke="{GREEN}" stroke-width="0.5"/>')
+        s.append(f'<ellipse cx="{x}" cy="{g - hgt - 3}" rx="2.2" ry="3.6" fill="none" stroke="{GREEN}" stroke-width="0.6"/>')
+        s.append(f'<line x1="{x - 2}" y1="{g - hgt - 6}" x2="{x}" y2="{g - hgt - 11}" stroke="{GREEN}" stroke-width="0.5"/>')
+
+    # 一、杆立着，人朝杆使劲
+    p0 = y + 50
+    h = 176
+    s.append(box(26, p0, 328, h, fill="#FBF6EC", stroke=LINE, width=0.8))
+    g1 = p0 + h - 26
+    ground(g1)
+    s.append(f'<line x1="190" y1="{g1}" x2="190" y2="{p0 + 26}" stroke="{INK}" stroke-width="2.0"/>')
+    for k in range(7):
+        yy = g1 - 20 - k * 17
+        s.append(f'<line x1="184" y1="{yy}" x2="190" y2="{yy}" stroke="{INK}" stroke-width="0.8"/>')
+    s.append(txt(182, p0 + 20, "标杆", 4.6, "#6E6459", "end"))
+    for k, (lab, top) in enumerate((("圣", p0 + 36), ("仁", p0 + 76), ("巧", p0 + 116))):
+        s.append(f'<line x1="190" y1="{top + 10}" x2="196" y2="{top + 10}" stroke="{INK}" stroke-width="0.7"/>')
+        s.append(f'<rect x="196" y="{top}" width="30" height="20" fill="#F2EADA" stroke="{INK}" stroke-width="0.9"/>')
+        s.append(txt(211, top + 14, lab, 5.4, SEAL, "middle"))
+    for x in (102, 126, 154):
+        looker(x, g1)
+    s.append(txt(128, g1 + 14, "三人都朝杆上看，田里没人弯腰", 4.4, "#8A7C69", "middle"))
+    s.append(txt(24, p0 + h + 13, "一、名一立：有标杆就有评比，有评比就有表演", 5.0, SEAL))
+
+    # 二、杆拔走，人回田里
+    p1 = p0 + h + 26
+    h2 = 142
+    s.append(box(26, p1, 328, h2, fill="#FBF6EC", stroke=LINE, width=0.8))
+    g2 = p1 + h2 - 22
+    ground(g2)
+    # 撤下的三块牌，叠在地上
+    s.append(f'<rect x="52" y="{g2 - 24}" width="30" height="20" fill="#F2EADA" stroke="{LINE}" stroke-width="0.8"/>')
+    s.append(f'<rect x="60" y="{g2 - 32}" width="30" height="20" fill="#F2EADA" stroke="{LINE}" stroke-width="0.8"/>')
+    s.append(f'<rect x="68" y="{g2 - 40}" width="30" height="20" fill="#F2EADA" stroke="{LINE}" stroke-width="0.8"/>')
+    s.append(txt(83, g2 - 26, "圣 仁 巧", 4.3, "#8A7C69", "middle"))
+    s.append(txt(83, g2 - 48, "撤下来，叠在地上", 4.2, "#8A7C69", "middle"))
+    # 土坑
+    s.append(f'<ellipse cx="190" cy="{g2}" rx="8" ry="3" fill="none" stroke="#8A7C69" stroke-width="0.8" stroke-dasharray="3 2"/>')
+    s.append(txt(190, g2 - 8, "拔杆留下的坑", 4.2, "#8A7C69", "middle"))
+    for x in (150, 168, 212, 230):
+        stalk(x, g2, 78)
+    for x in (118, 262):
+        bender(x, g2)
+    s.append(txt(320, p1 + 16, "同一块田", 4.3, "#8A7C69", "end"))
+    s.append(txt(24, p1 + h2 + 13, "二、杆一拔：人回田里，民利百倍", 5.0, GREEN))
+
+    a = p1 + h2 + 32
+    s.append(txt(24, a, "圣、智是被推崇出来的名；仁、义是被标举出来的德目；巧、利是竞逐出来的物。", 4.9, INK))
+    s.append(txt(24, a + 16, "三样一齐放下，不是人变笨变冷，是不再朝同一块牌子使劲。", 4.9, INK))
+    s.append(txt(24, a + 34, "孝慈不是提倡出来的，是撤掉标尺之后自己回来的。", 4.9, GREEN))
+
+    c = a + 52
+    s.append(f'<line x1="24" y1="{c}" x2="338" y2="{c}" stroke="{LINE}" stroke-width="0.6"/>')
+    s.append(box(20, c + 8, 340, 40, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, c + 24, "所绝者名，所复者实。", 6.2, INK, "middle"))
+    s.append(txt(190, c + 36, "撤的是位置，不是东西。", 5.2, GREEN, "middle"))
+    s.append(gold(c + 62, "ch19"))
+    s.append('</svg>')
+    out = chr(10).join(s)
+    ys = [float(v) for v in re.findall(r'y="([0-9.]+)"', out)]
+    return out.replace("999", str(int(int(max(ys) + 26))))
+
+
+def ch19b_yi_quan_li_ba():
+    body, y = head(380, 999, "此三者以为文，不足：篱笆挡得住脚，挡不住空",
+                   "第 十 九 章 · 文 不 足", "一圈篱笆",
+                   "只讲「不要什么」不够，还得给出「要归向何处」。", 999)
+    s = [body]
+
+    s.append(box(20, y + 2, 340, 34, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, y + 14, "三条「绝」都属于破：破完，台面空了，心里那块地方还空着。", 4.8, INK, "middle"))
+    s.append(txt(190, y + 27, "只以外在禁制为治，不足安顿人心。", 4.7, "#6E6459", "middle"))
+
+    cx = 190
+
+    def ring(g, r):
+        # 环形竹篱：外环填色、内环挖空，环上26根竹片
+        s.append(f'<ellipse cx="{cx}" cy="{g}" rx="{r}" ry="{r * 0.52}" fill="#EFE6D4" stroke="none"/>')
+        s.append(f'<ellipse cx="{cx}" cy="{g}" rx="{r - 9}" ry="{(r - 9) * 0.52}" fill="#FBF6EC" stroke="none"/>')
+        s.append(f'<ellipse cx="{cx}" cy="{g}" rx="{r}" ry="{r * 0.52}" fill="none" stroke="{INK}" stroke-width="1.0"/>')
+        s.append(f'<ellipse cx="{cx}" cy="{g}" rx="{r - 9}" ry="{(r - 9) * 0.52}" fill="none" stroke="{INK}" stroke-width="1.0"/>')
+        n = 26
+        for k in range(n):
+            a1 = 2 * math.pi * k / n
+            s.append(f'<line x1="{cx + r * math.cos(a1):.1f}" y1="{g + r * 0.52 * math.sin(a1):.1f}" '
+                     f'x2="{cx + (r - 9) * math.cos(a1):.1f}" y2="{g + (r - 9) * 0.52 * math.sin(a1):.1f}" '
+                     f'stroke="{INK}" stroke-width="0.7"/>')
+
+    # 一、只有围
+    p0 = y + 50
+    h = 150
+    s.append(box(26, p0, 328, h, fill="#FBF6EC", stroke=LINE, width=0.8))
+    ring(p0 + 88, 92)
+    s.append(txt(190, p0 + 20, "围得密：竹篱一道挨一道", 4.5, "#6E6459", "middle"))
+    for k in range(2):
+        yy = p0 + 42 + k * 8
+        s.append(f'<path d="M64,{yy} q26,-7 52,0 q26,7 52,0 q26,-7 52,0 q26,7 52,0" fill="none" stroke="{LINE}" stroke-width="0.8"/>')
+    s.append(txt(190, p0 + h - 8, "里面空着，一样东西也没有；风照旧从上面过去", 4.5, SEAL, "middle"))
+    s.append(txt(24, p0 + h + 13, "一、只有围：篱笆挡得住脚，挡不住空", 5.0, SEAL))
+
+    # 二、围里先有一张席
+    p1 = p0 + h + 26
+    h2 = 168
+    s.append(box(26, p1, 328, h2, fill="#FBF6EC", stroke=LINE, width=0.8))
+    g2 = p1 + 96
+    ring(g2, 92)
+    # 席
+    s.append(f'<rect x="{cx - 34}" y="{g2 - 4}" width="68" height="24" fill="#EFE6D4" stroke="{INK}" stroke-width="1.0"/>')
+    for k in range(3):
+        s.append(f'<line x1="{cx - 30}" y1="{g2 + 2 + k * 7}" x2="{cx + 30}" y2="{g2 + 2 + k * 7}" stroke="{LINE2}" stroke-width="0.6"/>')
+    # 席边一双鞋（脱在席外）
+    s.append(f'<ellipse cx="{cx - 52}" cy="{g2 + 2}" rx="7" ry="3.2" fill="none" stroke="{INK}" stroke-width="0.9"/>')
+    s.append(f'<ellipse cx="{cx - 52}" cy="{g2 + 11}" rx="7" ry="3.2" fill="none" stroke="{INK}" stroke-width="0.9"/>')
+    # 碗，放在席右
+    s.append(f'<path d="M{cx + 40},{g2 + 2} q10,12 20,0 Z" fill="#E9F0E6" stroke="{INK}" stroke-width="0.9"/>')
+    s.append(f'<ellipse cx="{cx + 50}" cy="{g2 + 2}" rx="10" ry="2.6" fill="#E4D8BF" stroke="{INK}" stroke-width="0.8"/>')
+    s.append(txt(cx, p1 + 20, "围还是那一圈", 4.5, "#6E6459", "middle"))
+    s.append(txt(cx, p1 + h2 - 8, "多了一张席、一双鞋、一只碗：人坐得下，才算安顿", 4.5, GREEN, "middle"))
+    s.append(txt(24, p1 + h2 + 13, "二、有所属：围里先有一张席，人才坐得下", 5.0, GREEN))
+
+    a = p1 + h2 + 32
+    s.append(txt(24, a, "「文」是人为设立的条文，篱笆就是它：拦得住脚，拦不住心。", 4.9, INK))
+    s.append(txt(24, a + 16, "台面撤空了不给人归处，人迟早拿别的东西填上，往往填得更差。", 4.9, INK))
+    s.append(txt(24, a + 34, "「属」是归向：见素抱朴、少私寡欲、绝学无忧——破完要给的，不是新禁令。", 4.9, GREEN))
+
+    c = a + 52
+    s.append(f'<line x1="24" y1="{c}" x2="338" y2="{c}" stroke="{LINE}" stroke-width="0.6"/>')
+    s.append(box(20, c + 8, 340, 40, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, c + 24, "文不足以为治，", 6.0, INK, "middle"))
+    s.append(txt(190, c + 36, "令有所属乃安。", 6.0, GREEN, "middle"))
+    s.append(gold(c + 62, "ch19b"))
+    s.append('</svg>')
+    out = chr(10).join(s)
+    ys = [float(v) for v in re.findall(r'y="([0-9.]+)"', out)]
+    return out.replace("999", str(int(int(max(ys) + 26))))
+
+
+def ch19c_su_yu_pu():
+    body, y = head(380, 999, "见素抱朴：素是未染的丝，朴是未雕的木",
+                   "第 十 九 章 · 素 与 朴", "素与朴",
+                   "素者未染，朴者未雕；不加文饰，不下斧斤。", 999)
+    s = [body]
+
+    s.append(box(20, y + 2, 340, 34, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, y + 14, "素管表面，朴管质地：一个防外加，一个防改造。", 4.8, INK, "middle"))
+    s.append(txt(190, y + 27, "这两个字，就是这一章给的归处。", 4.7, "#6E6459", "middle"))
+
+    def vat(g, filled):
+        bx = 84
+        s.append(f'<path d="M{bx - 34},{g - 56} L{bx - 24},{g} L{bx + 24},{g} L{bx + 34},{g - 56} Z" fill="#EFE6D4" stroke="{INK}" stroke-width="1.1"/>')
+        s.append(f'<ellipse cx="{bx}" cy="{g - 56}" rx="34" ry="6" fill="#E4D8BF" stroke="{INK}" stroke-width="1.0"/>')
+        if filled:
+            s.append(f'<path d="M{bx - 32},{g - 54} L{bx - 24},{g - 2} L{bx + 24},{g - 2} L{bx + 32},{g - 54} Z" fill="#E4D8BF" stroke="none"/>')
+            s.append(f'<path d="M{bx - 32},{g - 54} L{bx - 24},{g - 2} L{bx + 24},{g - 2} L{bx + 32},{g - 54} Z" fill="{SEAL}" stroke="none" opacity="0.10"/>')
+            s.append(f'<path d="M{bx - 32},{g - 50} q20,5 32,0" fill="none" stroke="{SEAL}" stroke-width="0.6" opacity="0.6"/>')
+            s.append(f'<path d="M{bx - 29},{g - 32} q20,5 30,0" fill="none" stroke="{SEAL}" stroke-width="0.5" opacity="0.4"/>')
+
+    def silk(g, dyed):
+        x0, x1 = 148, 212
+        s.append(f'<line x1="{x0 - 4}" y1="{g - 74}" x2="{x1 + 4}" y2="{g - 74}" stroke="{INK}" stroke-width="1.4"/>')
+        s.append(f'<path d="M{x0},{g - 72} L{x0},{g - 22} q8,6 16,2 q8,-4 16,2 q8,6 16,2 L{x1},{g - 72} Z" fill="{PAPER}" stroke="{INK}" stroke-width="1.0"/>')
+        if dyed:
+            for k in range(3):
+                s.append(f'<line x1="{x0 + 2}" y1="{g - 62 + k * 14}" x2="{x1 - 2}" y2="{g - 62 + k * 14}" stroke="{SEAL}" stroke-width="0.6" opacity="0.6"/>')
+            for k in range(2):
+                s.append(f'<line x1="{x0 + 20 + k * 16}" y1="{g - 70}" x2="{x0 + 20 + k * 16}" y2="{g - 32}" stroke="{SEAL}" stroke-width="0.5" opacity="0.45"/>')
+        else:
+            for k in range(2):
+                s.append(f'<path d="M{x0 + 12 + k * 22},{g - 72} L{x0 + 12 + k * 22},{g - 22}" fill="none" stroke="{LINE2}" stroke-width="0.5"/>')
+
+    def wood(g, carved):
+        bx = 288
+        if carved:
+            s.append(f'<path d="M{bx - 13},{g} L{bx - 13},{g - 56} L{bx + 6},{g - 62} L{bx + 13},{g - 54} L{bx + 13},{g} Z" fill="#EFE6D4" stroke="{INK}" stroke-width="1.0"/>')
+            s.append(f'<path d="M{bx - 8},{g - 44} q10,-8 18,-2" fill="none" stroke="{SEAL}" stroke-width="0.6"/>')
+            s.append(f'<path d="M{bx - 8},{g - 30} q10,-8 18,-2" fill="none" stroke="{SEAL}" stroke-width="0.6"/>')
+            s.append(f'<line x1="{bx + 2}" y1="{g - 56}" x2="{bx + 2}" y2="{g}" stroke="{LINE2}" stroke-width="0.5"/>')
+        else:
+            s.append(f'<path d="M{bx - 13},{g} L{bx - 13},{g - 54} q0,-8 13,-9 q13,1 13,9 L{bx + 13},{g} Z" fill="#EFE6D4" stroke="{INK}" stroke-width="1.0"/>')
+            s.append(f'<line x1="{bx - 4}" y1="{g - 56}" x2="{bx - 4}" y2="{g}" stroke="{LINE2}" stroke-width="0.6"/>')
+            s.append(f'<line x1="{bx + 5}" y1="{g - 58}" x2="{bx + 5}" y2="{g}" stroke="{LINE2}" stroke-width="0.6"/>')
+            for k in range(3):
+                s.append(f'<line x1="{bx - 13}" y1="{g - 42 + k * 12}" x2="{bx - 13}" y2="{g - 38 + k * 12}" stroke="{INK}" stroke-width="0.5"/>')
+
+    def axe(x, g, upright=True):
+        if upright:
+            # 立着的斧：柄竖在地上，斧头在顶，刃朝木
+            s.append(f'<line x1="{x}" y1="{g}" x2="{x}" y2="{g - 46}" stroke="{INK}" stroke-width="2.2"/>')
+            s.append(f'<path d="M{x - 2},{g - 56} L{x - 26},{g - 50} L{x - 22},{g - 22} L{x - 2},{g - 16} Z" '
+                     f'fill="#E4D8BF" stroke="{INK}" stroke-width="1.0"/>')
+            s.append(f'<path d="M{x - 26},{g - 50} Q{x - 32},{g - 36} {x - 22},{g - 22}" fill="none" stroke="{INK}" stroke-width="1.0"/>')
+        else:
+            # 搁在地上的斧：刃朝下，柄平放
+            s.append(f'<path d="M{x - 26},{g - 20} L{x - 4},{g - 22} L{x - 4},{g} L{x - 22},{g} Q{x - 34},{g - 10} {x - 26},{g - 20} Z" '
+                     f'fill="#E4D8BF" stroke="{INK}" stroke-width="1.0"/>')
+            s.append(f'<line x1="{x - 4}" y1="{g - 10}" x2="{x + 32}" y2="{g - 5}" stroke="{INK}" stroke-width="2.2"/>')
+
+    # 一、染过、雕过
+    p0 = y + 50
+    h = 156
+    s.append(box(26, p0, 328, h, fill="#FBF6EC", stroke=LINE, width=0.8))
+    g1 = p0 + 118
+    vat(g1, True)
+    silk(g1, True)
+    wood(g1, True)
+    # 下过斧的证据：木屑卷在地上
+    for k in range(4):
+        s.append(f'<path d="M{306 + k * 9},{g1 - 1} q7,-5 11,1" fill="none" stroke="{LINE2}" stroke-width="0.9"/>')
+        s.append(f'<path d="M{307 + k * 9},{g1 - 6} q6,-4 9,1" fill="none" stroke="{LINE2}" stroke-width="0.6"/>')
+    s.append(txt(84, g1 + 14, "染缸里有染液", 4.3, "#6E6459", "middle"))
+    s.append(txt(180, g1 + 14, "染过的绢：纹是外加的", 4.3, SEAL, "middle"))
+    s.append(txt(288, g1 + 14, "下过斧的器", 4.3, "#6E6459", "middle"))
+    s.append(txt(190, p0 + 20, "三处都在加：染、雕、斧斤", 4.6, "#6E6459", "middle"))
+    s.append(txt(24, p0 + h + 13, "一、文饰之后：一处是染的，一处是下过斧的", 5.0, SEAL))
+
+    # 二、素与朴
+    p1 = p0 + h + 26
+    h2 = 156
+    s.append(box(26, p1, 328, h2, fill="#FBF6EC", stroke=LINE, width=0.8))
+    g2 = p1 + 118
+    vat(g2, False)
+    silk(g2, False)
+    wood(g2, False)
+
+    s.append(txt(84, g2 + 14, "染缸空着", 4.3, "#8A7C69", "middle"))
+    s.append(txt(180, g2 + 14, "素：未染，本就是那个色", 4.3, GREEN, "middle"))
+    s.append(txt(288, g2 + 14, "朴：未下斧，带着皮", 4.3, GREEN, "middle"))
+    s.append(txt(190, p1 + 20, "还是那三样：一件没多，只是没再加工", 4.6, "#6E6459", "middle"))
+    s.append(txt(24, p1 + h2 + 13, "二、素与朴：丝回到本色，木回到原本", 5.0, GREEN))
+
+    a = p1 + h2 + 32
+    s.append(txt(24, a, "少私寡欲：减的是攀缘，不除本然——吃饭穿衣不在戒除之列。", 4.9, INK))
+    s.append(txt(24, a + 16, "绝学无忧：舍的是向外逐名的那套学问，不是闭目塞听。", 4.9, INK))
+    s.append(txt(24, a + 34, "外学越积越多，多到装不下就忧；内明越照越少，少到不占地方就无忧。", 4.9, GREEN))
+
+    c = a + 52
+    s.append(f'<line x1="24" y1="{c}" x2="338" y2="{c}" stroke="{LINE}" stroke-width="0.6"/>')
+    s.append(box(20, c + 8, 340, 40, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, c + 24, "见素抱朴，少私寡欲。", 6.2, INK, "middle"))
+    s.append(txt(190, c + 36, "不染不雕，不必靠外加的东西证明自己。", 5.1, GREEN, "middle"))
+    s.append(gold(c + 62, "ch19c"))
+    s.append('</svg>')
+    out = chr(10).join(s)
+    ys = [float(v) for v in re.findall(r'y="([0-9.]+)"', out)]
+    return out.replace("999", str(int(int(max(ys) + 26))))
+
+
 def ch19_jue_sheng():
     W, H = 380, 442
     body, y = head(W, H, "不是把好东西扔掉，是把它从被标举的位置上撤下来", "第 十 九 章 · 减 法", "三绝三弃",
@@ -8693,8 +8976,8 @@ GOLD = {
     "ch17c": ["功成事遂，百姓皆谓我自然。", "从中间退到边上，让事自己站着。"],
     "ch18b": ["慧智息，则大伪不生。", "壳越像，越难看见里面那块原样。"],
     "ch18c": ["孝慈者，亲之药也；忠臣者，国之药也。", "药能已病，药不是身子。"],
-    "ch19b": ["见素抱朴，少私寡欲。", "素不是简陋，是不必再靠外加的东西来证明自己。"],
-    "ch19c": ["绝圣弃智，民利百倍；绝巧弃利，盗贼无有。", "绝弃是减法：减到够用，事就成了。"],
+    "ch19b": ["文不足以为治，令有所属乃安。", "篱笆挡得住脚，挡不住空。"],
+    "ch19c": ["素者未染，朴者未雕；不加文饰，不下斧斤。", "不必靠外加的东西证明自己。"],
     "ch20b": ["众人熙熙，如享太牢；我独泊兮其未兆。", "不必挤的那一处，站定了，人就轻了。"],
     "ch20c": ["众人皆有余，而我独若遗。", "空着的那只袋，看上去是缺，其实是余地。"],
     "ch21b": ["孔德之容，惟道是从。", "德之所以能容，正因它不占地方。"],
@@ -8828,7 +9111,7 @@ GOLD = {
     "ch17": ["贵言者，非不言，是不以言夺人之自性。", "功成事遂，百姓曰「我自然」——此谓善治。"],
     "ch18": ["大道废，有仁义；", "不是骂仁义，是给仁义记一笔来处。"],
     "ch18a": ["大道行，则仁义不名。", "名号是被缺口造出来的：缺口越大，名号越亮。"],
-    "ch19": ["所绝者名，所复者实；文不足以为治，令有所属乃安。", "破其外饰，守其本根；破而不立，台面自有人填。"],
+    "ch19": ["所绝者名，所复者实。", "撤的是位置，不是东西。"],
     "ch20": ["唯之与阿，相去几何——尺子定的，不是事定的。", "众人贵末，我贵食母；末可争，母不可争。"],
     "ch21": ["孔德之容，惟道是从：德不是修出来的，是流出来的。", "名不去，是路标一直在；路标在，不等于路标就是那个地方。"],
     "ch23": ["自然不是「不管」，是「不需要管」——差别全在有没有人在使劲。", "信不足，不是话说得不够多，是话后面没有人。"],
@@ -16773,8 +17056,8 @@ FIGS = {
     "ch17c-gong-cheng": ("第十七章", "功成之后", ch17c_gong_cheng),
     "ch18b-ke": ("第十八章", "壳", ch18b_ke),
     "ch18c-yi-tie-yao": ("第十八章", "一帖药", ch18c_yi_tie_yao),
-    "ch19b-yi-ju-qi-qi": ("第十九章", "一具漆器", ch19b_yi_ju_qi_qi),
-    "ch19c-ban-chu-qu": ("第十九章", "搬出去", ch19c_ban_chu_qu),
+    "ch19b-yi-quan-li-ba": ("第十九章", "一圈篱笆", ch19b_yi_quan_li_ba),
+    "ch19c-su-yu-pu": ("第十九章", "素与朴", ch19c_su_yu_pu),
     "ch20b-shi-ji-yu-jiao-luo": ("第二十章", "市集与角落", ch20b_shi_ji_yu_jiao_luo),
     "ch20c-kong-dai": ("第二十章", "一只空袋", ch20c_kong_dai),
     "ch21b-kong-de-zhi-rong": ("第二十一章", "一枚带孔的璧", ch21b_kong_de_zhi_rong),
@@ -16879,7 +17162,7 @@ FIGS = {
     "ch16-yi-ke-shu-de-yi-nian": ("第十六章", "一棵树的一年", ch16_yi_ke_shu_de_yi_nian),
     "ch17-yi-gen-sheng": ("第十七章", "一根绳", ch17_yi_gen_sheng),
     "ch18-lu-fei-bian-li": ("第十八章", "路废了，匾立起来", ch18_lu_fei_bian_li),
-    "ch19-jue-sheng": ("第十九章", "三绝三弃", ch19_jue_sheng),
+    "ch19-yi-gen-biao-gan": ("第十九章", "一根标杆", ch19_yi_gen_biao_gan),
     "ch20-wei-zhi-yu-e": ("第二十章", "两把尺子", ch20_wei_zhi_yu_e),
     "ch21-kong-de": ("第二十一章", "由粗到细", ch21_kong_de),
     "ch03-shang-ji-guo-du": ("第三章", "尚即过度", ch03_shang_ji_guo_du),

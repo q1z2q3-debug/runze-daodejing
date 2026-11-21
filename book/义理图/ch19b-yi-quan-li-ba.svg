@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 380 712" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="此三者以为文，不足：篱笆挡得住脚，挡不住空" font-family="'Noto Serif CJK SC','Noto Serif SC','Songti SC',serif">
+<defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#6E6459"/></marker><marker id="arr2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#4A5C55"/></marker><marker id="arrL" viewBox="0 0 10 10" refX="1" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M10 0 L0 5 L10 10 z" fill="#4A5C55"/></marker><marker id="arrS" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#A2503B"/></marker></defs>
+<rect x="0" y="0" width="380" height="712" fill="#F8F3E6"/>
+<text x="20" y="26" font-size="11" fill="#A2503B" font-family="'Noto Sans CJK SC','Noto Sans SC',sans-serif" letter-spacing="3">第 十 九 章 · 文 不 足</text>
+<text x="20" y="58" font-size="21" fill="#2F2A24">一圈篱笆</text>
+<text x="20" y="78" font-size="10.5" fill="#6E6459">只讲「不要什么」不够，还得给出「要归向何处」。</text>
+<rect x="20" y="102" width="340" height="34" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="190" y="114" font-size="4.8" fill="#2F2A24" text-anchor="middle">三条「绝」都属于破：破完，台面空了，心里那块地方还空着。</text>
+<text x="190" y="127" font-size="4.7" fill="#6E6459" text-anchor="middle">只以外在禁制为治，不足安顿人心。</text>
+<rect x="26" y="150" width="328" height="150" fill="#FBF6EC" stroke="#DCCBB0" stroke-width="0.8"/>
+<ellipse cx="190" cy="238" rx="92" ry="47.84" fill="#EFE6D4" stroke="none"/>
+<ellipse cx="190" cy="238" rx="83" ry="43.160000000000004" fill="#FBF6EC" stroke="none"/>
+<ellipse cx="190" cy="238" rx="92" ry="47.84" fill="none" stroke="#2F2A24" stroke-width="1.0"/>
+<ellipse cx="190" cy="238" rx="83" ry="43.160000000000004" fill="none" stroke="#2F2A24" stroke-width="1.0"/>
+<line x1="282.0" y1="238.0" x2="273.0" y2="238.0" stroke="#2F2A24" stroke-width="0.7"/>
+<line x1="279.3" y1="249.4" x2="270.6" y2="248.3" stroke="#2F2A24" stroke-width="0.7"/>
+<line x1="271.5" y1="260.2" x2="263.5" y2="258.1" stroke="#2F2A24" stroke-width="0.7"/>
+<line x1="258.9" y1="269.7" x2="252.1" y2="266.6" stroke="#2F2A24" stroke-width="0.7"/>
+<line x1="242.3" y1="277.4" x2="237.1" y2="273.5" stroke="#2F2A24" stroke-width="0.7"/>
+<line x1="222.6" y1="282.7" x2="219.4" y2="278.4" stroke="#2F2A24" stroke-width="0.7"/>
+<line x1="201.1" y1="285.5" x2="200.0" y2="280.8" stroke="#2F2A24" stroke-width="0.7"/>
+<line x1="178.9" y1="285.5" x2="180.0" y2="280.8" stroke="#2F2A24" stroke-width="0.7"/>
+<line x1="157.4" y1="282.7" x2="160.6" y2="278.4" stroke="#2F2A24" stroke-width="0.7"/>
+<line x1="137.7" y1="277.4" x2="142.9" y2="273.5" stroke="#2F2A24" stroke-width="0.7"/>
+<line x1="121.1" y1="269.7" x2="127.9" y2="266.6" stroke="#2F2A24" stroke-width="0.7"/>
+<line x1="108.5" y1="260.2" x2="116.5" y2="258.1" stroke="#2F2A24" stroke-width="0.7"/>
+<line x1="100.7" y1="249.4" x2="109.4" y2="248.3" stroke="#2F2A24" stroke-width="0.7"/>
+<line x1="98.0" y1="238.0" x2="107.0" y2="238.0" stroke="#2F2A24" stroke-width="0.7"/>
+<line x1="100.7" y1="226.6" x2="109.4" y2="227.7" stroke="#2F2A24" stroke-width="0.7"/>
+<line x1="108.5" y1="215.8" x2="116.5" y2="217.9" stroke="#2F2A24" stroke-width="0.7"/>
+<line x1="121.1" y1="206.3" x2="127.9" y2="209.4" stroke="#2F2A24" stroke-width="0.7"/>
+<line x1="137.7" y1="198.6" x2="142.9" y2="202.5" stroke="#2F2A24" stroke-width="0.7"/>
+<line x1="157.4" y1="193.3" x2="160.6" y2="197.6" stroke="#2F2A24" stroke-width="0.7"/>
+<line x1="178.9" y1="190.5" x2="180.0" y2="195.2" stroke="#2F2A24" stroke-width="0.7"/>
+<line x1="201.1" y1="190.5" x2="200.0" y2="195.2" stroke="#2F2A24" stroke-width="0.7"/>
+<line x1="222.6" y1="193.3" x2="219.4" y2="197.6" stroke="#2F2A24" stroke-width="0.7"/>
+<line x1="242.3" y1="198.6" x2="237.1" y2="202.5" stroke="#2F2A24" stroke-width="0.7"/>
+<line x1="258.9" y1="206.3" x2="252.1" y2="209.4" stroke="#2F2A24" stroke-width="0.7"/>
+<line x1="271.5" y1="215.8" x2="263.5" y2="217.9" stroke="#2F2A24" stroke-width="0.7"/>
+<line x1="279.3" y1="226.6" x2="270.6" y2="227.7" stroke="#2F2A24" stroke-width="0.7"/>
+<text x="190" y="170" font-size="4.5" fill="#6E6459" text-anchor="middle">围得密：竹篱一道挨一道</text>
+<path d="M64,192 q26,-7 52,0 q26,7 52,0 q26,-7 52,0 q26,7 52,0" fill="none" stroke="#DCCBB0" stroke-width="0.8"/>
+<path d="M64,200 q26,-7 52,0 q26,7 52,0 q26,-7 52,0 q26,7 52,0" fill="none" stroke="#DCCBB0" stroke-width="0.8"/>
+<text x="190" y="292" font-size="4.5" fill="#A2503B" text-anchor="middle">里面空着，一样东西也没有；风照旧从上面过去</text>
+<text x="24" y="313" font-size="5.0" fill="#A2503B">一、只有围：篱笆挡得住脚，挡不住空</text>
+<rect x="26" y="326" width="328" height="168" fill="#FBF6EC" stroke="#DCCBB0" stroke-width="0.8"/>
+<ellipse cx="190" cy="422" rx="92" ry="47.84" fill="#EFE6D4" stroke="none"/>
+<ellipse cx="190" cy="422" rx="83" ry="43.160000000000004" fill="#FBF6EC" stroke="none"/>
+<ellipse cx="190" cy="422" rx="92" ry="47.84" fill="none" stroke="#2F2A24" stroke-width="1.0"/>
+<ellipse cx="190" cy="422" rx="83" ry="43.160000000000004" fill="none" stroke="#2F2A24" stroke-width="1.0"/>
+<line x1="282.0" y1="422.0" x2="273.0" y2="422.0" stroke="#2F2A24" stroke-width="0.7"/>
+<line x1="279.3" y1="433.4" x2="270.6" y2="432.3" stroke="#2F2A24" stroke-width="0.7"/>
+<line x1="271.5" y1="444.2" x2="263.5" y2="442.1" stroke="#2F2A24" stroke-width="0.7"/>
+<line x1="258.9" y1="453.7" x2="252.1" y2="450.6" stroke="#2F2A24" stroke-width="0.7"/>
+<line x1="242.3" y1="461.4" x2="237.1" y2="457.5" stroke="#2F2A24" stroke-width="0.7"/>
+<line x1="222.6" y1="466.7" x2="219.4" y2="462.4" stroke="#2F2A24" stroke-width="0.7"/>
+<line x1="201.1" y1="469.5" x2="200.0" y2="464.8" stroke="#2F2A24" stroke-width="0.7"/>
+<line x1="178.9" y1="469.5" x2="180.0" y2="464.8" stroke="#2F2A24" stroke-width="0.7"/>
+<line x1="157.4" y1="466.7" x2="160.6" y2="462.4" stroke="#2F2A24" stroke-width="0.7"/>
+<line x1="137.7" y1="461.4" x2="142.9" y2="457.5" stroke="#2F2A24" stroke-width="0.7"/>
+<line x1="121.1" y1="453.7" x2="127.9" y2="450.6" stroke="#2F2A24" stroke-width="0.7"/>
+<line x1="108.5" y1="444.2" x2="116.5" y2="442.1" stroke="#2F2A24" stroke-width="0.7"/>
+<line x1="100.7" y1="433.4" x2="109.4" y2="432.3" stroke="#2F2A24" stroke-width="0.7"/>
+<line x1="98.0" y1="422.0" x2="107.0" y2="422.0" stroke="#2F2A24" stroke-width="0.7"/>
+<line x1="100.7" y1="410.6" x2="109.4" y2="411.7" stroke="#2F2A24" stroke-width="0.7"/>
+<line x1="108.5" y1="399.8" x2="116.5" y2="401.9" stroke="#2F2A24" stroke-width="0.7"/>
+<line x1="121.1" y1="390.3" x2="127.9" y2="393.4" stroke="#2F2A24" stroke-width="0.7"/>
+<line x1="137.7" y1="382.6" x2="142.9" y2="386.5" stroke="#2F2A24" stroke-width="0.7"/>
+<line x1="157.4" y1="377.3" x2="160.6" y2="381.6" stroke="#2F2A24" stroke-width="0.7"/>
+<line x1="178.9" y1="374.5" x2="180.0" y2="379.2" stroke="#2F2A24" stroke-width="0.7"/>
+<line x1="201.1" y1="374.5" x2="200.0" y2="379.2" stroke="#2F2A24" stroke-width="0.7"/>
+<line x1="222.6" y1="377.3" x2="219.4" y2="381.6" stroke="#2F2A24" stroke-width="0.7"/>
+<line x1="242.3" y1="382.6" x2="237.1" y2="386.5" stroke="#2F2A24" stroke-width="0.7"/>
+<line x1="258.9" y1="390.3" x2="252.1" y2="393.4" stroke="#2F2A24" stroke-width="0.7"/>
+<line x1="271.5" y1="399.8" x2="263.5" y2="401.9" stroke="#2F2A24" stroke-width="0.7"/>
+<line x1="279.3" y1="410.6" x2="270.6" y2="411.7" stroke="#2F2A24" stroke-width="0.7"/>
+<rect x="156" y="418" width="68" height="24" fill="#EFE6D4" stroke="#2F2A24" stroke-width="1.0"/>
+<line x1="160" y1="424" x2="220" y2="424" stroke="#E6D8C2" stroke-width="0.6"/>
+<line x1="160" y1="431" x2="220" y2="431" stroke="#E6D8C2" stroke-width="0.6"/>
+<line x1="160" y1="438" x2="220" y2="438" stroke="#E6D8C2" stroke-width="0.6"/>
+<ellipse cx="138" cy="424" rx="7" ry="3.2" fill="none" stroke="#2F2A24" stroke-width="0.9"/>
+<ellipse cx="138" cy="433" rx="7" ry="3.2" fill="none" stroke="#2F2A24" stroke-width="0.9"/>
+<path d="M230,424 q10,12 20,0 Z" fill="#E9F0E6" stroke="#2F2A24" stroke-width="0.9"/>
+<ellipse cx="240" cy="424" rx="10" ry="2.6" fill="#E4D8BF" stroke="#2F2A24" stroke-width="0.8"/>
+<text x="190" y="346" font-size="4.5" fill="#6E6459" text-anchor="middle">围还是那一圈</text>
+<text x="190" y="486" font-size="4.5" fill="#4A5C55" text-anchor="middle">多了一张席、一双鞋、一只碗：人坐得下，才算安顿</text>
+<text x="24" y="507" font-size="5.0" fill="#4A5C55">二、有所属：围里先有一张席，人才坐得下</text>
+<text x="24" y="526" font-size="4.9" fill="#2F2A24">「文」是人为设立的条文，篱笆就是它：拦得住脚，拦不住心。</text>
+<text x="24" y="542" font-size="4.9" fill="#2F2A24">台面撤空了不给人归处，人迟早拿别的东西填上，往往填得更差。</text>
+<text x="24" y="560" font-size="4.9" fill="#4A5C55">「属」是归向：见素抱朴、少私寡欲、绝学无忧——破完要给的，不是新禁令。</text>
+<line x1="24" y1="578" x2="338" y2="578" stroke="#DCCBB0" stroke-width="0.6"/>
+<rect x="20" y="586" width="340" height="40" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="190" y="602" font-size="6.0" fill="#2F2A24" text-anchor="middle">文不足以为治，</text>
+<text x="190" y="614" font-size="6.0" fill="#4A5C55" text-anchor="middle">令有所属乃安。</text>
+<line x1="20" y1="640" x2="360" y2="640" stroke="#E6D8C2" stroke-width="0.8"/>
+<text x="20" y="654" font-size="8.0" fill="#A89577" letter-spacing="1">本 章 金 句</text>
+<text x="20" y="670" font-size="8.4" fill="#2F2A24">文不足以为治，令有所属乃安。</text>
+<text x="20" y="686" font-size="8.4" fill="#2F2A24">篱笆挡得住脚，挡不住空。</text>
+</svg>
