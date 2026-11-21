@@ -1745,38 +1745,39 @@ def ch06_gu_shen():
 
 # ============ 第七章 · 不自生 ============
 def ch07_bu_zi_sheng():
-    W, H = 380, 476
-    body, y = head(W, H, "不自生，故能长生", "第 七 章 · 立 身", "不自生",
+    W, H = 760, 640
+    body, y = head(W, H, "不自生：天地一链，圣人两链，收口是一句「成其私」", "第 七 章 · 立 身", "不自生，故能长生",
                    "无私之后，那个「私」是被成全的，不是被交换的。", H)
     s = [body]
-    s.append(txt(20, y + 8, "同一笔账，两处记法", 9.5, "#8A7C69"))
-    cols = [("天地", [("不自生", "长生")]), ("圣人", [("后其身", "身先"), ("外其身", "身存")])]
-    yb = y + 20
-    s.append(txt(60, yb, "天地", 10, GREEN, "middle"))
-    s.append(txt(214, yb, "圣人", 10, SEAL, "middle"))
-    rows = [("不自生", "长生"), ("后其身", "身先"), ("外其身", "身存")]
-    for i, (a, b) in enumerate(rows):
-        yy = yb + 20 + i * 44
-        s.append(txt(20, yy + 16, a, 10, INK))
-        s.append(f'<line x1="62" y1="{yy+11}" x2="86" y2="{yy+11}" stroke="{LINE}" stroke-width="1"/>')
-        s.append(txt(92, yy + 16, b, 10, GREEN))
-        if i > 0:
-            s.append(txt(190, yy + 16, a, 10, INK))
-            s.append(f'<line x1="234" y1="{yy+11}" x2="258" y2="{yy+11}" stroke="{LINE}" stroke-width="1"/>')
-            s.append(txt(264, yy + 16, b, 10, SEAL))
-        else:
-            s.append(txt(190, yy + 16, "（天地只此一笔）", 8.5, "#8A7C69"))
-    # 警
-    yw = yb + 20 + 3 * 44 + 8
-    s.append(box(20, yw, 340, 50, fill="#F6EFE0", stroke="#C9B79A"))
-    s.append(txt(32, yw + 22, "若先退一步，等着赚回来——那是权谋，不是老子。", 9.5, SEAL))
-    s.append(txt(32, yw + 40, "把无私当手段、把成私当回报，这一章的读法就整个翻过去了。", 9, "#6E6459"))
-    yc = yw + 66
-    s.append(txt(190, yc, "非以其无私邪？故能成其私。", 11.5, INK, "middle"))
-    s.append(txt(190, yc + 20, "成，是顺带的；不是先讲价、再让利。", 9.5, "#6E6459", "middle"))
+    y0 = y + 44
+    s.append(box(40, y0, 316, 214, fill="#FBF6EC", stroke=LINE))
+    s.append(box(404, y0, 316, 214, fill="#FBF6EC", stroke=LINE))
+    s.append(txt(198, y0 + 28, "天 地", 11, GREEN, "middle", spacing="1"))
+    s.append(txt(562, y0 + 28, "圣 人", 11, SEAL, "middle", spacing="1"))
+    s.append(txt(198, y0 + 74, "不自生", 14, INK, "middle"))
+    s.append(arrow(198, y0 + 86, 198, y0 + 116, SEAL, 1.3))
+    s.append(txt(198, y0 + 140, "长 生", 14, GREEN, "middle"))
+    s.append(txt(198, y0 + 174, "运化不以滋养自身为目的", 8.6, "#6E6459", "middle"))
+    s.append(txt(198, y0 + 190, "长久不是求来的，是放下之后自然有的", 8.6, "#6E6459", "middle"))
+    for xx, a1, b1 in ((482, "后其身", "身先"), (642, "外其身", "身存")):
+        s.append(txt(xx, y0 + 74, a1, 12.5, INK, "middle"))
+        s.append(arrow(xx, y0 + 84, xx, y0 + 110, SEAL, 1.2))
+        s.append(txt(xx, y0 + 134, b1, 12.5, SEAL, "middle"))
+    s.append(txt(562, y0 + 174, "先不是争来的，是人心自归", 8.6, "#6E6459", "middle"))
+    s.append(txt(562, y0 + 190, "松的是执念之我，不是血肉之身", 8.6, "#6E6459", "middle"))
+    yc = y0 + 252
+    s.append(txt(190, yc, "无 私", 13, INK, "middle"))
+    s.append(arrow(238, yc - 5, 522, yc - 5, GREEN, 1.4))
+    s.append(txt(570, yc, "成 其 私", 13, GREEN, "middle"))
+    s.append(txt(380, yc + 26, "成，是顺带的；不是先讲价、再让利。", 9.6, "#6E6459", "middle"))
+    yw = yc + 46
+    s.append(box(70, yw, 620, 66, fill="#F6EFE0", stroke="#C9B79A"))
+    s.append(txt(380, yw + 28, "若先退一步，等着赚回来——那是权谋，不是老子。", 10.2, SEAL, "middle"))
+    s.append(txt(380, yw + 48, "用无私做筹码，本身就是最精致的自生。", 9.2, "#6E6459", "middle"))
     s.append(gold(H - 68, "ch07a"))
     s.append('</svg>')
     return "\n".join(s)
+
 
 
 # ============ 第七章 · 一个环 ============
@@ -1871,12 +1872,13 @@ def ch07c_yi_shan_zhai_men():
     s.append(f'<line x1="{gx - 21}" y1="{gy + 40}" x2="{gx - 21}" y2="{gy + 128}" stroke="{SEAL}" stroke-width="1.6"/>')
     s.append(f'<line x1="{gx + 12}" y1="{gy + 40}" x2="{gx + 12}" y2="{gy + 128}" stroke="{SEAL}" stroke-width="1.6"/>')
     # 两只手同时抓门
-    for hx in (gx - 34, gx + 26):
+    for hx in (gx - 13, gx + 4):
         s.append(f'<rect x="{hx - 8}" y="{gy + 92}" width="16" height="13" rx="4" fill="#EFE6D4" stroke="{SEAL}" stroke-width="0.9"/>')
         for k in range(3):
-            s.append(f'<rect x="{hx - 7 + k * 5}" y="{gy + 85}" width="3.4" height="8" rx="1.6" fill="#EFE6D4" stroke="{SEAL}" stroke-width="0.7"/>')
-    s.append(arrow(gx - 76, gy + 70, gx - 34, gy + 96, SEAL, 0.9, None, "arrS"))
-    s.append(arrow(gx + 76, gy + 70, gx + 34, gy + 96, SEAL, 0.9, None, "arrS"))
+            s.append(f'<rect x="{hx - 7 + k * 5}" y="{gy + 84}" width="3.4" height="9" rx="1.6" fill="#EFE6D4" stroke="{SEAL}" stroke-width="0.7"/>')
+    s.append(f'<line x1="{gx - 4.5}" y1="{gy + 82}" x2="{gx - 4.5}" y2="{gy + 106}" stroke="{SEAL}" stroke-width="1.2"/>')
+    s.append(arrow(gx - 74, gy + 66, gx - 20, gy + 100, SEAL, 0.9, None, "arrS"))
+    s.append(arrow(gx + 74, gy + 66, gx + 12, gy + 100, SEAL, 0.9, None, "arrS"))
     s.append(txt(gx, gy + 150, "门只有一扇的宽：两人同时抓，谁也进不去", 4.5, SEAL, "middle"))
 
     # 二、让

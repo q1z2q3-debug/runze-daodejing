@@ -1,36 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg viewBox="0 0 380 474" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="不自生，故能长生" font-family="'Noto Serif CJK SC','Noto Serif SC','Songti SC',serif">
+<svg viewBox="0 0 760 640" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="不自生：天地一链，圣人两链，收口是一句「成其私」" font-family="'Noto Serif CJK SC','Noto Serif SC','Songti SC',serif">
 <defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#6E6459"/></marker><marker id="arr2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#4A5C55"/></marker><marker id="arrL" viewBox="0 0 10 10" refX="1" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M10 0 L0 5 L10 10 z" fill="#4A5C55"/></marker><marker id="arrS" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#A2503B"/></marker></defs>
-<rect x="0" y="0" width="380" height="474" fill="#F8F3E6"/>
+<rect x="0" y="0" width="760" height="640" fill="#F8F3E6"/>
 <text x="20" y="26" font-size="11" fill="#A2503B" font-family="'Noto Sans CJK SC','Noto Sans SC',sans-serif" letter-spacing="3">第 七 章 · 立 身</text>
-<text x="20" y="58" font-size="21" fill="#2F2A24">不自生</text>
+<text x="20" y="58" font-size="21" fill="#2F2A24">不自生，故能长生</text>
 <text x="20" y="78" font-size="10.5" fill="#6E6459">无私之后，那个「私」是被成全的，不是被交换的。</text>
-<text x="20" y="108" font-size="9.5" fill="#8A7C69">同一笔账，两处记法</text>
-<text x="60" y="120" font-size="10" fill="#4A5C55" text-anchor="middle">天地</text>
-<text x="214" y="120" font-size="10" fill="#A2503B" text-anchor="middle">圣人</text>
-<text x="20" y="156" font-size="10" fill="#2F2A24">不自生</text>
-<line x1="62" y1="151" x2="86" y2="151" stroke="#DCCBB0" stroke-width="1"/>
-<text x="92" y="156" font-size="10" fill="#4A5C55">长生</text>
-<text x="190" y="156" font-size="8.5" fill="#8A7C69">（天地只此一笔）</text>
-<text x="20" y="200" font-size="10" fill="#2F2A24">后其身</text>
-<line x1="62" y1="195" x2="86" y2="195" stroke="#DCCBB0" stroke-width="1"/>
-<text x="92" y="200" font-size="10" fill="#4A5C55">身先</text>
-<text x="190" y="200" font-size="10" fill="#2F2A24">后其身</text>
-<line x1="234" y1="195" x2="258" y2="195" stroke="#DCCBB0" stroke-width="1"/>
-<text x="264" y="200" font-size="10" fill="#A2503B">身先</text>
-<text x="20" y="244" font-size="10" fill="#2F2A24">外其身</text>
-<line x1="62" y1="239" x2="86" y2="239" stroke="#DCCBB0" stroke-width="1"/>
-<text x="92" y="244" font-size="10" fill="#4A5C55">身存</text>
-<text x="190" y="244" font-size="10" fill="#2F2A24">外其身</text>
-<line x1="234" y1="239" x2="258" y2="239" stroke="#DCCBB0" stroke-width="1"/>
-<text x="264" y="244" font-size="10" fill="#A2503B">身存</text>
-<rect x="20" y="280" width="340" height="50" fill="#F6EFE0" stroke="#C9B79A" stroke-width="1.0"/>
-<text x="32" y="302" font-size="9.5" fill="#A2503B">若先退一步，等着赚回来——那是权谋，不是老子。</text>
-<text x="32" y="320" font-size="9" fill="#6E6459">把无私当手段、把成私当回报，这一章的读法就整个翻过去了。</text>
-<text x="190" y="346" font-size="11.5" fill="#2F2A24" text-anchor="middle">非以其无私邪？故能成其私。</text>
-<text x="190" y="366" font-size="9.5" fill="#6E6459" text-anchor="middle">成，是顺带的；不是先讲价、再让利。</text>
-<line x1="20" y1="422" x2="360" y2="422" stroke="#E6D8C2" stroke-width="0.8"/>
-<text x="20" y="436" font-size="8.0" fill="#A89577" letter-spacing="1">本 章 金 句</text>
-<text x="20" y="452" font-size="8.4" fill="#2F2A24">非以其无私邪？故能成其私。</text>
-<text x="20" y="468" font-size="8.4" fill="#2F2A24">那个「私」是被成全的，不是被交换的。</text>
+<rect x="40" y="144" width="316" height="214" fill="#FBF6EC" stroke="#DCCBB0" stroke-width="1.0"/>
+<rect x="404" y="144" width="316" height="214" fill="#FBF6EC" stroke="#DCCBB0" stroke-width="1.0"/>
+<text x="198" y="172" font-size="11" fill="#4A5C55" text-anchor="middle" letter-spacing="1">天 地</text>
+<text x="562" y="172" font-size="11" fill="#A2503B" text-anchor="middle" letter-spacing="1">圣 人</text>
+<text x="198" y="218" font-size="14" fill="#2F2A24" text-anchor="middle">不自生</text>
+<line x1="198" y1="230" x2="198" y2="260" stroke="#A2503B" stroke-width="1.3" marker-end="url(#arr)"/>
+<text x="198" y="284" font-size="14" fill="#4A5C55" text-anchor="middle">长 生</text>
+<text x="198" y="318" font-size="8.6" fill="#6E6459" text-anchor="middle">运化不以滋养自身为目的</text>
+<text x="198" y="334" font-size="8.6" fill="#6E6459" text-anchor="middle">长久不是求来的，是放下之后自然有的</text>
+<text x="482" y="218" font-size="12.5" fill="#2F2A24" text-anchor="middle">后其身</text>
+<line x1="482" y1="228" x2="482" y2="254" stroke="#A2503B" stroke-width="1.2" marker-end="url(#arr)"/>
+<text x="482" y="278" font-size="12.5" fill="#A2503B" text-anchor="middle">身先</text>
+<text x="642" y="218" font-size="12.5" fill="#2F2A24" text-anchor="middle">外其身</text>
+<line x1="642" y1="228" x2="642" y2="254" stroke="#A2503B" stroke-width="1.2" marker-end="url(#arr)"/>
+<text x="642" y="278" font-size="12.5" fill="#A2503B" text-anchor="middle">身存</text>
+<text x="562" y="318" font-size="8.6" fill="#6E6459" text-anchor="middle">先不是争来的，是人心自归</text>
+<text x="562" y="334" font-size="8.6" fill="#6E6459" text-anchor="middle">松的是执念之我，不是血肉之身</text>
+<text x="190" y="396" font-size="13" fill="#2F2A24" text-anchor="middle">无 私</text>
+<line x1="238" y1="391" x2="522" y2="391" stroke="#4A5C55" stroke-width="1.4" marker-end="url(#arr)"/>
+<text x="570" y="396" font-size="13" fill="#4A5C55" text-anchor="middle">成 其 私</text>
+<text x="380" y="422" font-size="9.6" fill="#6E6459" text-anchor="middle">成，是顺带的；不是先讲价、再让利。</text>
+<rect x="70" y="442" width="620" height="66" fill="#F6EFE0" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="380" y="470" font-size="10.2" fill="#A2503B" text-anchor="middle">若先退一步，等着赚回来——那是权谋，不是老子。</text>
+<text x="380" y="490" font-size="9.2" fill="#6E6459" text-anchor="middle">用无私做筹码，本身就是最精致的自生。</text>
+<line x1="20" y1="572" x2="360" y2="572" stroke="#E6D8C2" stroke-width="0.8"/>
+<text x="20" y="586" font-size="8.0" fill="#A89577" letter-spacing="1">本 章 金 句</text>
+<text x="20" y="602" font-size="8.4" fill="#2F2A24">非以其无私邪？故能成其私。</text>
+<text x="20" y="618" font-size="8.4" fill="#2F2A24">那个「私」是被成全的，不是被交换的。</text>
 </svg>

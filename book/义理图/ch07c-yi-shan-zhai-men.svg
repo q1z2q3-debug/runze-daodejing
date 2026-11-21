@@ -13,16 +13,17 @@
 <rect x="160" y="204" width="9" height="88" fill="#E4D8BF" stroke="#2F2A24" stroke-width="0.9"/><rect x="211" y="204" width="9" height="88" fill="#E4D8BF" stroke="#2F2A24" stroke-width="0.9"/><line x1="160" y1="204" x2="220" y2="204" stroke="#2F2A24" stroke-width="1.6"/><line x1="169" y1="204" x2="169" y2="292" stroke="#2F2A24" stroke-width="0.7" stroke-dasharray="3 3"/><line x1="202" y1="204" x2="202" y2="292" stroke="#2F2A24" stroke-width="0.7" stroke-dasharray="3 3"/>
 <line x1="169" y1="204" x2="169" y2="292" stroke="#A2503B" stroke-width="1.6"/>
 <line x1="202" y1="204" x2="202" y2="292" stroke="#A2503B" stroke-width="1.6"/>
-<rect x="148" y="256" width="16" height="13" rx="4" fill="#EFE6D4" stroke="#A2503B" stroke-width="0.9"/>
-<rect x="149" y="249" width="3.4" height="8" rx="1.6" fill="#EFE6D4" stroke="#A2503B" stroke-width="0.7"/>
-<rect x="154" y="249" width="3.4" height="8" rx="1.6" fill="#EFE6D4" stroke="#A2503B" stroke-width="0.7"/>
-<rect x="159" y="249" width="3.4" height="8" rx="1.6" fill="#EFE6D4" stroke="#A2503B" stroke-width="0.7"/>
-<rect x="208" y="256" width="16" height="13" rx="4" fill="#EFE6D4" stroke="#A2503B" stroke-width="0.9"/>
-<rect x="209" y="249" width="3.4" height="8" rx="1.6" fill="#EFE6D4" stroke="#A2503B" stroke-width="0.7"/>
-<rect x="214" y="249" width="3.4" height="8" rx="1.6" fill="#EFE6D4" stroke="#A2503B" stroke-width="0.7"/>
-<rect x="219" y="249" width="3.4" height="8" rx="1.6" fill="#EFE6D4" stroke="#A2503B" stroke-width="0.7"/>
-<line x1="114" y1="234" x2="156" y2="260" stroke="#A2503B" stroke-width="0.9" marker-end="url(#arrS)"/>
-<line x1="266" y1="234" x2="224" y2="260" stroke="#A2503B" stroke-width="0.9" marker-end="url(#arrS)"/>
+<rect x="169" y="256" width="16" height="13" rx="4" fill="#EFE6D4" stroke="#A2503B" stroke-width="0.9"/>
+<rect x="170" y="248" width="3.4" height="9" rx="1.6" fill="#EFE6D4" stroke="#A2503B" stroke-width="0.7"/>
+<rect x="175" y="248" width="3.4" height="9" rx="1.6" fill="#EFE6D4" stroke="#A2503B" stroke-width="0.7"/>
+<rect x="180" y="248" width="3.4" height="9" rx="1.6" fill="#EFE6D4" stroke="#A2503B" stroke-width="0.7"/>
+<rect x="186" y="256" width="16" height="13" rx="4" fill="#EFE6D4" stroke="#A2503B" stroke-width="0.9"/>
+<rect x="187" y="248" width="3.4" height="9" rx="1.6" fill="#EFE6D4" stroke="#A2503B" stroke-width="0.7"/>
+<rect x="192" y="248" width="3.4" height="9" rx="1.6" fill="#EFE6D4" stroke="#A2503B" stroke-width="0.7"/>
+<rect x="197" y="248" width="3.4" height="9" rx="1.6" fill="#EFE6D4" stroke="#A2503B" stroke-width="0.7"/>
+<line x1="185.5" y1="246" x2="185.5" y2="270" stroke="#A2503B" stroke-width="1.2"/>
+<line x1="116" y1="230" x2="170" y2="264" stroke="#A2503B" stroke-width="0.9" marker-end="url(#arrS)"/>
+<line x1="264" y1="230" x2="202" y2="264" stroke="#A2503B" stroke-width="0.9" marker-end="url(#arrS)"/>
 <text x="190" y="314" font-size="4.5" fill="#A2503B" text-anchor="middle">门只有一扇的宽：两人同时抓，谁也进不去</text>
 <text x="24" y="360" font-size="5.2" fill="#4A5C55">二、让：一人先松手，两个人都过去了</text>
 <rect x="26" y="372" width="328" height="168" fill="#FBF6EC" stroke="#DCCBB0" stroke-width="0.8"/>
