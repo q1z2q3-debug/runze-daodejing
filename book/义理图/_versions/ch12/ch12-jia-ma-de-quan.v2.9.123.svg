@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 380 554" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="刺激—钝—加码：五句说的不是禁令，是接收那头先垮了" font-family="'Noto Serif CJK SC','Noto Serif SC','Songti SC',serif">
+<defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#6E6459"/></marker><marker id="arr2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#4A5C55"/></marker><marker id="arrL" viewBox="0 0 10 10" refX="1" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M10 0 L0 5 L10 10 z" fill="#4A5C55"/></marker><marker id="arrS" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#A2503B"/></marker></defs>
+<rect x="0" y="0" width="380" height="554" fill="#F8F3E6"/>
+<text x="20" y="26" font-size="11" fill="#A2503B" font-family="'Noto Sans CJK SC','Noto Sans SC',sans-serif" letter-spacing="3">第 十 二 章 · 受 体</text>
+<text x="20" y="58" font-size="21" fill="#2F2A24">加码的圈</text>
+<text x="20" y="78" font-size="10.5" fill="#6E6459">看得越多越看不见：不是外物打进来，是尺子先歪了。</text>
+<rect x="20" y="102" width="340" height="34" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="190" y="114" font-size="4.9" fill="#2F2A24" text-anchor="middle">色、声、味本是天地自有的景致，失守不在物，在「我要留住它」。</text>
+<text x="190" y="128" font-size="4.9" fill="#6E6459" text-anchor="middle">门照开，权收回——修行的手脚只在「怎么接」这一步。</text>
+<circle cx="190" cy="218" r="52" fill="none" stroke="#A2503B" stroke-width="1.1"/>
+<path d="M-3.2,-3.2 L4.2,0 L-3.2,3.2 z" fill="#A2503B" transform="translate(226.8,254.8) rotate(135)"/>
+<path d="M-3.2,-3.2 L4.2,0 L-3.2,3.2 z" fill="#A2503B" transform="translate(153.2,254.8) rotate(225)"/>
+<path d="M-3.2,-3.2 L4.2,0 L-3.2,3.2 z" fill="#A2503B" transform="translate(153.2,181.2) rotate(315)"/>
+<path d="M-3.2,-3.2 L4.2,0 L-3.2,3.2 z" fill="#A2503B" transform="translate(226.8,181.2) rotate(405)"/>
+<circle cx="190" cy="218" r="36" fill="#FBF6EC" stroke="none"/>
+<text x="190" y="216" font-size="5.0" fill="#A2503B" text-anchor="middle">本味丢了</text>
+<text x="190" y="230" font-size="4.3" fill="#6E6459" text-anchor="middle">尺子歪了</text>
+<text x="250" y="222" font-size="4.8" fill="#A2503B">刺激</text>
+<text x="194" y="282" font-size="4.6" fill="#A2503B">快感（短）</text>
+<text x="130" y="222" font-size="4.8" fill="#A2503B" text-anchor="end">淡了</text>
+<text x="190" y="156" font-size="4.8" fill="#A2503B" text-anchor="middle">再加码</text>
+<text x="190" y="144" font-size="4.0" fill="#8A7C69" text-anchor="middle">（等于更大的刺激）</text>
+<text x="190" y="292" font-size="4.2" fill="#8A7C69" text-anchor="middle">每转一圈，尺子再歪一分</text>
+<text x="24" y="310" font-size="4.9" fill="#A2503B">色</text>
+<text x="44" y="310" font-size="4.6" fill="#6E6459">看得越花，越看不见</text>
+<text x="354" y="310" font-size="4.6" fill="#4A5C55" text-anchor="end">观而不惰</text>
+<text x="24" y="330" font-size="4.9" fill="#A2503B">声</text>
+<text x="44" y="330" font-size="4.6" fill="#6E6459">越满，越听不进</text>
+<text x="354" y="330" font-size="4.6" fill="#4A5C55" text-anchor="end">享而不溺</text>
+<text x="24" y="350" font-size="4.9" fill="#A2503B">味</text>
+<text x="44" y="350" font-size="4.6" fill="#6E6459">越重，越失本味</text>
+<text x="354" y="350" font-size="4.6" fill="#4A5C55" text-anchor="end">品而不酗</text>
+<text x="24" y="370" font-size="4.9" fill="#A2503B">猎</text>
+<text x="44" y="370" font-size="4.6" fill="#6E6459">追得越欢，越收不住</text>
+<text x="354" y="370" font-size="4.6" fill="#4A5C55" text-anchor="end">驰而知返</text>
+<text x="24" y="390" font-size="4.9" fill="#A2503B">货</text>
+<text x="44" y="390" font-size="4.6" fill="#6E6459">越攥，越先绊住脚</text>
+<text x="354" y="390" font-size="4.6" fill="#4A5C55" text-anchor="end">用而不占</text>
+<line x1="24" y1="416" x2="358" y2="416" stroke="#DCCBB0" stroke-width="0.6"/>
+<rect x="20" y="424" width="340" height="44" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="190" y="440" font-size="5.6" fill="#2F2A24" text-anchor="middle">出圈的一手：接住就够，不必再加。</text>
+<text x="190" y="454" font-size="5.0" fill="#4A5C55" text-anchor="middle">看过就放，不必留住——本心不换主人。</text>
+<line x1="20" y1="482" x2="360" y2="482" stroke="#E6D8C2" stroke-width="0.8"/>
+<text x="20" y="496" font-size="8.0" fill="#A89577" letter-spacing="1">本 章 金 句</text>
+<text x="20" y="512" font-size="8.4" fill="#2F2A24">色不盲人，逐色者自盲；音不聋人，溺音者自聋。</text>
+<text x="20" y="528" font-size="8.4" fill="#2F2A24">不是拒绝刺激，是换一个主人。</text>
+</svg>
