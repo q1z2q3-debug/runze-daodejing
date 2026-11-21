@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 380 720" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="一根箭头＝一步；退，是唯一不往前的一步" font-family="'Noto Serif CJK SC','Noto Serif SC','Songti SC',serif">
+<defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#6E6459"/></marker><marker id="arr2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#4A5C55"/></marker><marker id="arrL" viewBox="0 0 10 10" refX="1" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M10 0 L0 5 L10 10 z" fill="#4A5C55"/></marker><marker id="arrS" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#A2503B"/></marker></defs>
+<rect x="0" y="0" width="380" height="720" fill="#F8F3E6"/>
+<text x="20" y="26" font-size="11" fill="#A2503B" font-family="'Noto Sans CJK SC','Noto Sans SC',sans-serif" letter-spacing="3">第 九 章 · 事 成</text>
+<text x="20" y="58" font-size="21" fill="#2F2A24">持而盈之</text>
+<text x="20" y="78" font-size="10.5" fill="#6E6459">满不是问题；满了还要再加一步，才是问题。</text>
+<text x="20" y="108" font-size="9.2" fill="#8A7C69">一、四根向前的箭头</text>
+<text x="24" y="146" font-size="12" fill="#A2503B" letter-spacing="1">持</text>
+<line x1="70" y1="141" x2="104" y2="141" stroke="#DCCBB0" stroke-width="1" marker-end="url(#arr)"/>
+<text x="87" y="134" font-size="7.2" fill="#A89577" text-anchor="middle">又进一步</text>
+<text x="110" y="146" font-size="12" fill="#2F2A24" letter-spacing="1">盈</text>
+<text x="170" y="146" font-size="8.6" fill="#6E6459">已满还要拿住，不如其已</text>
+<text x="24" y="184" font-size="12" fill="#A2503B" letter-spacing="1">揣</text>
+<line x1="70" y1="179" x2="104" y2="179" stroke="#DCCBB0" stroke-width="1" marker-end="url(#arr)"/>
+<text x="87" y="172" font-size="7.2" fill="#A89577" text-anchor="middle">又进一步</text>
+<text x="110" y="184" font-size="12" fill="#2F2A24" letter-spacing="1">锐</text>
+<text x="170" y="184" font-size="8.6" fill="#6E6459">还要磨尖，不可长保</text>
+<text x="24" y="222" font-size="12" fill="#A2503B" letter-spacing="1">金玉</text>
+<line x1="70" y1="217" x2="104" y2="217" stroke="#DCCBB0" stroke-width="1" marker-end="url(#arr)"/>
+<text x="87" y="210" font-size="7.2" fill="#A89577" text-anchor="middle">又进一步</text>
+<text x="110" y="222" font-size="12" fill="#2F2A24" letter-spacing="1">满堂</text>
+<text x="170" y="222" font-size="8.6" fill="#6E6459">还要囤着，莫之能守</text>
+<text x="24" y="260" font-size="12" fill="#A2503B" letter-spacing="1">富贵</text>
+<line x1="70" y1="255" x2="104" y2="255" stroke="#DCCBB0" stroke-width="1" marker-end="url(#arr)"/>
+<text x="87" y="248" font-size="7.2" fill="#A89577" text-anchor="middle">又进一步</text>
+<text x="110" y="260" font-size="12" fill="#2F2A24" letter-spacing="1">骄</text>
+<text x="170" y="260" font-size="8.6" fill="#6E6459">还要显出来，自遗其咎</text>
+<text x="20" y="288" font-size="9.2" fill="#8A7C69">二、唯一一根反向的：停手</text>
+<rect x="20" y="302" width="72" height="26" fill="#F6EFE0" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="56" y="320" font-size="10.5" fill="#A2503B" text-anchor="middle" letter-spacing="1">身退</text>
+<line x1="258" y1="315" x2="102" y2="315" stroke="#A2503B" stroke-width="1" marker-end="url(#arrS)"/>
+<text x="266" y="319" font-size="8.6" fill="#A2503B">退：不往前，只停</text>
+<text x="20" y="344" font-size="9.2" fill="#8A7C69">三、同一件事的两头：功与身</text>
+<line x1="52" y1="378" x2="328" y2="378" stroke="#E6D8C2" stroke-width="1"/>
+<line x1="132" y1="371" x2="96" y2="371" stroke="#A2503B" stroke-width="1" marker-end="url(#arrS)"/>
+<line x1="248" y1="385" x2="286" y2="385" stroke="#4A5C55" stroke-width="1" marker-end="url(#arr2)"/>
+<text x="52" y="382" font-size="11" fill="#A2503B" text-anchor="middle" letter-spacing="1">身</text>
+<text x="328" y="382" font-size="11" fill="#2F2A24" text-anchor="middle" letter-spacing="1">功</text>
+<text x="96" y="364" font-size="8.2" fill="#6E6459">退：事留在外面</text>
+<text x="292" y="402" font-size="8.2" fill="#6E6459">进：事越做越大</text>
+<text x="20" y="412" font-size="8.6" fill="#8A7C69">功可以越做越大，身只有一副；两头一起用，才有得退。</text>
+<text x="20" y="434" font-size="9.2" fill="#8A7C69">四、度：两半互含，不是折中</text>
+<circle cx="190" cy="492" r="48" fill="#7B766E"/>
+<path d="M 190,444 A 48,48 0 0 1 190,540 L 190,444 Z" fill="#F8F3E6"/>
+<circle cx="190" cy="468.0" r="24.0" fill="#7B766E"/>
+<circle cx="190" cy="516.0" r="24.0" fill="#F8F3E6"/>
+<circle cx="190" cy="492" r="48" fill="none" stroke="#2F2A24" stroke-width="0.9"/>
+<circle cx="190" cy="468.0" r="7" fill="#F8F3E6"/>
+<circle cx="190" cy="516.0" r="7" fill="#7B766E"/>
+<text x="165" y="496" font-size="11" fill="#F8F3E6" text-anchor="middle" letter-spacing="1">进</text>
+<text x="217" y="502" font-size="11" fill="#7B766E" text-anchor="middle" letter-spacing="1">退</text>
+<text x="20" y="476" font-size="8.5" fill="#6E6459">进：黑那半，</text>
+<text x="20" y="492" font-size="8.5" fill="#6E6459">一直在加</text>
+<text x="20" y="514" font-size="8.2" fill="#8A7C69">加到端就溢</text>
+<text x="300" y="476" font-size="8.5" fill="#6E6459" text-anchor="end">退：白那半，</text>
+<text x="300" y="492" font-size="8.5" fill="#6E6459" text-anchor="end">知道停在哪格</text>
+<text x="300" y="514" font-size="8.2" fill="#8A7C69" text-anchor="end">两点即两半所含</text>
+<text x="190" y="564" font-size="8.4" fill="#8A7C69" text-anchor="middle">能退，进才立得住；只会进，那点退就被挤没了。</text>
+<rect x="20" y="580" width="340" height="44" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="190" y="599" font-size="11.5" fill="#2F2A24" text-anchor="middle" letter-spacing="1">功遂身退，天之道。</text>
+<text x="190" y="615" font-size="8.6" fill="#6E6459" text-anchor="middle">退的是那只还要加一步的手，不是事。</text>
+<line x1="20" y1="668" x2="360" y2="668" stroke="#E6D8C2" stroke-width="0.8"/>
+<text x="20" y="682" font-size="8.0" fill="#A89577" letter-spacing="1">本 章 金 句</text>
+<text x="20" y="698" font-size="8.4" fill="#2F2A24">持而盈之，不如其已。</text>
+<text x="20" y="714" font-size="8.4" fill="#2F2A24">满不是问题；满了还要再加一步，才是问题。</text>
+</svg>

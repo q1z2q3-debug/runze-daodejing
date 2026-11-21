@@ -2244,20 +2244,20 @@ def ch09c_zan_yu_song():
     gy = y + 64
     s.append(f'<rect x="26" y="{gy}" width="328" height="180" fill="#FBF6EC" stroke="{LINE}" stroke-width="0.8"/>')
     cx, cy = 190, gy + 84
-    # 印（被攥住的功）
-    s.append(f'<rect x="{cx - 10}" y="{cy - 10}" width="20" height="15" fill="#E4D8BF" stroke="{INK}" stroke-width="0.9"/>')
-    s.append(f'<rect x="{cx - 4}" y="{cy - 17}" width="8" height="7" fill="#E4D8BF" stroke="{INK}" stroke-width="0.8"/>')
-    # 拳：掌＋四指横叠＋拇指
-    s.append(f'<rect x="{cx - 17}" y="{cy - 12}" width="34" height="34" rx="7" fill="#EFE6D4" stroke="{INK}" stroke-width="1.0"/>')
+    # 一只手摊着，印压在掌心，绳把这只手和这方印缠在一起
+    s.append(f'<rect x="{cx - 24}" y="{cy - 6}" width="48" height="26" rx="8" fill="#EFE6D4" stroke="{INK}" stroke-width="1.0"/>')
     for k in range(4):
-        s.append(f'<rect x="{cx - 14}" y="{cy - 6 + k * 8}" width="28" height="6" rx="3" fill="#EFE6D4" stroke="{INK}" stroke-width="0.8"/>')
-    s.append(f'<rect x="{cx - 22}" y="{cy - 4}" width="10" height="6" rx="3" fill="#EFE6D4" stroke="{INK}" stroke-width="0.9"/>')
-    s.append(f'<line x1="{cx + 17}" y1="{cy + 2}" x2="{cx + 26}" y2="{cy + 10}" stroke="{INK}" stroke-width="0.8"/>')
-    # 用力痕
-    for k in range(2):
-        s.append(f'<path d="M{cx + 30},{cy - 14 + k * 10} q6,4 0,8" fill="none" stroke="{SEAL}" stroke-width="0.7"/>')
-    s.append(txt(cx + 30, cy - 20, "印", 4.4, SEAL))
-    s.append(f'<line x1="{cx + 28}" y1="{cy - 18}" x2="{cx + 12}" y2="{cy - 14}" stroke="{LINE2}" stroke-width="0.5" stroke-dasharray="3 2"/>')
+        fx = cx - 18 + k * 11
+        s.append(f'<rect x="{fx}" y="{cy - 26}" width="8" height="22" rx="4" fill="#EFE6D4" stroke="{INK}" stroke-width="0.8"/>')
+    s.append(f'<rect x="{cx + 24}" y="{cy - 12}" width="14" height="8" rx="4" fill="#EFE6D4" stroke="{INK}" stroke-width="0.9"/>')
+    s.append(f'<rect x="{cx - 10}" y="{cy - 2}" width="20" height="13" fill="#E4D8BF" stroke="{INK}" stroke-width="0.9"/>')
+    s.append(f'<rect x="{cx - 4}" y="{cy - 9}" width="8" height="8" fill="#E4D8BF" stroke="{INK}" stroke-width="0.8"/>')
+    for k in range(3):
+        yy = cy + 6 + k * 7
+        s.append(f'<path d="M{cx - 33},{yy} q33,9 66,0" fill="none" stroke="{SEAL}" stroke-width="1.0" opacity="0.8"/>')
+    s.append(f'<path d="M{cx - 33},{cy + 19} q-9,9 -5,20" fill="none" stroke="{SEAL}" stroke-width="0.9" opacity="0.8"/>')
+    s.append(f'<path d="M{cx + 33},{cy + 19} q9,9 5,20" fill="none" stroke="{SEAL}" stroke-width="0.9" opacity="0.8"/>')
+    s.append(txt(cx + 44, cy + 14, "绳", 4.6, SEAL))
     s.append(arrow(cx - 70, cy + 2, cx - 40, cy + 2, SEAL, 0.9, None, "arrS"))
     s.append(txt(cx - 74, cy + 2, "攥", 5.0, SEAL, "end"))
     s.append(txt(190, gy + 128, "攥住的是印，绑住的是手", 4.6, SEAL, "middle"))
@@ -2279,6 +2279,9 @@ def ch09c_zan_yu_song():
     s.append(f'<rect x="{hx - 10}" y="{hy - 14}" width="20" height="15" fill="#E4D8BF" stroke="{INK}" stroke-width="0.9"/>')
     s.append(f'<rect x="{hx - 4}" y="{hy - 21}" width="8" height="7" fill="#E4D8BF" stroke="{INK}" stroke-width="0.8"/>')
     s.append(txt(hx + 26, hy - 16, "印", 4.4, GREEN))
+    s.append(f'<path d="M{hx - 64},{hy - 16} q14,-8 26,-1 q12,7 0,14" fill="none" stroke="{SEAL}" stroke-width="1.0" opacity="0.55"/>')
+    s.append(f'<path d="M{hx - 58},{hy - 1} q12,4 22,-1" fill="none" stroke="{SEAL}" stroke-width="0.9" opacity="0.55"/>')
+    s.append(txt(hx - 58, hy - 22, "解开", 4.0, "#6E6459", "middle"))
     s.append(arrow(hx + 76, hy - 40, hx + 40, hy - 30, GREEN, 0.9, None, "arr2"))
     s.append(txt(hx + 80, hy - 42, "松开", 4.4, GREEN))
     s.append(txt(190, gy2 + 128, "功还是功，人还是人：印没掉，手也不抖", 4.6, GREEN, "middle"))
@@ -2304,72 +2307,58 @@ def ch09c_zan_yu_song():
 
 # ============ 第九章 · 持而盈之（进与退，同一根尺子） ============
 def ch09_ying_man():
-    W, H = 380, 722
-    body, y = head(W, H, "一根箭头＝一步；退，是唯一不往前的一步", "第 九 章 · 事 成", "持而盈之",
+    W, H = 760, 700
+    body, y = head(W, H, "人事是一条下滑的坡，天道是一条回环的圆——坡上五句，环上四时",
+                   "第 九 章 · 事 成", "持而盈之，不如其已",
                    "满不是问题；满了还要再加一步，才是问题。", H)
     s = [body]
-    rows = [("持", "盈", "已满还要拿住，不如其已"),
-            ("揣", "锐", "还要磨尖，不可长保"),
-            ("金玉", "满堂", "还要囤着，莫之能守"),
-            ("富贵", "骄", "还要显出来，自遗其咎")]
-    y0 = y + 8
-    s.append(txt(20, y0, "一、四根向前的箭头", 9.2, "#8A7C69"))
-    for i, (a, b, note) in enumerate(rows):
-        yy = y0 + 22 + i * 38
-        s.append(txt(24, yy + 16, a, 12, SEAL, spacing="1"))
-        s.append(f'<line x1="70" y1="{yy+11}" x2="104" y2="{yy+11}" stroke="{LINE}" stroke-width="1" marker-end="url(#arr)"/>')
-        s.append(txt(87, yy + 4, "又进一步", 7.2, "#A89577", "middle"))
-        s.append(txt(110, yy + 16, b, 12, INK, spacing="1"))
-        s.append(txt(170, yy + 16, note, 8.6, "#6E6459"))
-    y1 = y0 + 22 + 4 * 38
-    # 二、反向的那一根
-    s.append(txt(20, y1 + 6, "二、唯一一根反向的：停手", 9.2, "#8A7C69"))
-    ya = y1 + 20
-    s.append(box(20, ya, 72, 26, fill="#F6EFE0", stroke="#C9B79A"))
-    s.append(txt(56, ya + 18, "身退", 10.5, SEAL, "middle", spacing="1"))
-    s.append(f'<line x1="258" y1="{ya+13}" x2="102" y2="{ya+13}" stroke="{SEAL}" stroke-width="1" marker-end="url(#arrS)"/>')
-    s.append(txt(266, ya + 17, "退：不往前，只停", 8.6, SEAL))
-    # 三、身／功 对轴（子虔）
-    yb = ya + 42
-    s.append(txt(20, yb, "三、同一件事的两头：功与身", 9.2, "#8A7C69"))
-    yaxis = yb + 34
-    s.append(f'<line x1="52" y1="{yaxis}" x2="328" y2="{yaxis}" stroke="{LINE2}" stroke-width="1"/>')
-    s.append(f'<line x1="132" y1="{yaxis-7}" x2="96" y2="{yaxis-7}" stroke="{SEAL}" stroke-width="1" marker-end="url(#arrS)"/>')
-    s.append(f'<line x1="248" y1="{yaxis+7}" x2="286" y2="{yaxis+7}" stroke="{GREEN}" stroke-width="1" marker-end="url(#arr2)"/>')
-    s.append(txt(52, yaxis + 4, "身", 11, SEAL, "middle", spacing="1"))
-    s.append(txt(328, yaxis + 4, "功", 11, INK, "middle", spacing="1"))
-    s.append(txt(96, yaxis - 14, "退：事留在外面", 8.2, "#6E6459"))
-    s.append(txt(292, yaxis + 24, "进：事越做越大", 8.2, "#6E6459"))
-    s.append(txt(20, yaxis + 34, "功可以越做越大，身只有一副；两头一起用，才有得退。", 8.6, "#8A7C69"))
-    # 四、阴阳＝度（正版太极：两半合成）
-    yc = yaxis + 56
-    s.append(txt(20, yc, "四、度：两半互含，不是折中", 9.2, "#8A7C69"))
-    R, cx, cyy = 48, 190, yc + 58
-    D = "#7B766E"
-    s.append(f'<circle cx="{cx}" cy="{cyy}" r="{R}" fill="{D}"/>')
-    s.append(f'<path d="M {cx},{cyy-R} A {R},{R} 0 0 1 {cx},{cyy+R} L {cx},{cyy-R} Z" fill="{PAPER}"/>')
-    s.append(f'<circle cx="{cx}" cy="{cyy-R/2}" r="{R/2}" fill="{D}"/>')
-    s.append(f'<circle cx="{cx}" cy="{cyy+R/2}" r="{R/2}" fill="{PAPER}"/>')
-    s.append(f'<circle cx="{cx}" cy="{cyy}" r="{R}" fill="none" stroke="{INK}" stroke-width="0.9"/>')
-    s.append(f'<circle cx="{cx}" cy="{cyy-R/2}" r="7" fill="{PAPER}"/>')
-    s.append(f'<circle cx="{cx}" cy="{cyy+R/2}" r="7" fill="{D}"/>')
-    s.append(txt(cx - 25, cyy + 4, "进", 11, PAPER, "middle", spacing="1"))
-    s.append(txt(cx + 27, cyy + 10, "退", 11, D, "middle", spacing="1"))
-    s.append(txt(20, cyy - 16, "进：黑那半，", 8.5, "#6E6459"))
-    s.append(txt(20, cyy, "一直在加", 8.5, "#6E6459"))
-    s.append(txt(20, cyy + 22, "加到端就溢", 8.2, "#8A7C69"))
-    s.append(txt(300, cyy - 16, "退：白那半，", 8.5, "#6E6459", "end"))
-    s.append(txt(300, cyy, "知道停在哪格", 8.5, "#6E6459", "end"))
-    s.append(txt(300, cyy + 22, "两点即两半所含", 8.2, "#8A7C69", "end"))
-    s.append(txt(cx, cyy + R + 24, "能退，进才立得住；只会进，那点退就被挤没了。", 8.4, "#8A7C69", "middle"))
-    # 收
-    yf = cyy + R + 40
-    s.append(box(20, yf, 340, 44, fill="#F2EADA", stroke="#C9B79A"))
-    s.append(txt(190, yf + 19, "功遂身退，天之道。", 11.5, INK, "middle", spacing="1"))
-    s.append(txt(190, yf + 35, "退的是那只还要加一步的手，不是事。", 8.6, "#6E6459", "middle"))
+    y0 = y + 44
+
+    # 一、一条坡
+    s.append(txt(24, y0, "一、人事：一条坡，五个站法，同一件错事", 9.6, GREEN))
+    x1, ya, x2, yb = 62, y0 + 44, 352, y0 + 196
+    s.append(f'<line x1="{x1}" y1="{ya}" x2="{x2}" y2="{yb}" stroke="{INK}" stroke-width="1.4"/>')
+    for t, lab, side in ((0.07, "持而盈之", "上"), (0.29, "揣而锐之", "下"), (0.51, "金玉满堂", "上"),
+                         (0.73, "富贵而骄", "下"), (0.93, "功成不退", "上")):
+        px = x1 + (x2 - x1) * t
+        py = ya + (yb - ya) * t
+        s.append(f'<circle cx="{px:.1f}" cy="{py:.1f}" r="3.6" fill="{SEAL}" stroke="none"/>')
+        off = -20 if side == "上" else 26
+        s.append(txt(px, py + off, lab, 8.6, INK if lab != "功成不退" else SEAL, "middle"))
+    s.append(txt(x2 + 14, yb + 5, "散", 10, SEAL, "start"))
+    s.append(txt(62, yb + 44, "五句不是五种毛病，是同一条路走到头：抓取、满溢、炫耀、骄矜，", 8.6, "#5F564C"))
+    s.append(txt(62, yb + 60, "都是把自我绑在所得上；一绑，平衡就破。", 8.6, "#5F564C"))
+
+    # 二、一条环
+    s.append(f'<line x1="392" y1="{y0 - 4}" x2="392" y2="{yb + 70}" stroke="{LINE}" stroke-width="0.5" stroke-dasharray="2 3"/>')
+    s.append(txt(420, y0, "二、天道：一条环，四时自己做主", 9.6, GREEN))
+    cxr, cyr, r = 560, y0 + 106, 66
+    s.append(f'<circle cx="{cxr}" cy="{cyr}" r="{r}" fill="none" stroke="{GREEN}" stroke-width="1.3"/>')
+    s.append(txt(cxr, cyr - r - 8, "生", 9.4, GREEN, "middle"))
+    s.append(txt(cxr + r + 8, cyr + 3, "长", 9.4, GREEN, "start"))
+    s.append(txt(cxr, cyr + r + 16, "收", 9.4, GREEN, "middle"))
+    s.append(txt(cxr - r - 8, cyr + 3, "藏", 9.4, GREEN, "end"))
+    s.append(arrow(cxr + 0.8 * r * 0.309, cyr + 0.8 * r * -0.951, cxr + 0.8 * r * 0.951, cyr + 0.8 * r * -0.309, GREEN, 0.9, None, "arr2"))
+    s.append(arrow(cxr + 0.8 * r * 0.951, cyr + 0.8 * r * 0.309, cxr + 0.8 * r * 0.309, cyr + 0.8 * r * 0.951, GREEN, 0.9, None, "arr2"))
+    s.append(arrow(cxr + 0.8 * r * -0.309, cyr + 0.8 * r * 0.951, cxr + 0.8 * r * -0.951, cyr + 0.8 * r * 0.309, GREEN, 0.9, None, "arr2"))
+    s.append(arrow(cxr + 0.8 * r * -0.951, cyr + 0.8 * r * -0.309, cxr + 0.8 * r * -0.309, cyr + 0.8 * r * -0.951, GREEN, 0.9, None, "arr2"))
+    s.append(txt(420, cyr + r + 42, "生到极处就要收；收不是失败，是节律。", 8.6, "#5F564C"))
+    s.append(txt(420, cyr + r + 58, "只生不收，才是逆天。", 8.6, "#5F564C"))
+
+    # 三、出口
+    y2 = yb + 96
+    s.append(txt(24, y2, "三、出口：功遂，然后身退", 9.6, GREEN))
+    s.append(txt(24, y2 + 26, "次序不能倒：事要做成，心要收回。没做成而先退，多半是给退缩找个好名字。", 9.2, SEAL))
+    s.append(txt(24, y2 + 50, "退的不是事，是恋；收的不是手，是心。能进也能退，能显也能藏。", 9.2, INK))
+    y3 = y2 + 70
+    s.append(box(24, y3, 712, 56, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(380, y3 + 24, "功遂身退，天之道。", 11, INK, "middle", spacing="1"))
+    s.append(txt(380, y3 + 42, "退的是那只还要再加一步的手，不是事。", 9, "#5F564C", "middle"))
+
     s.append(gold(H - 68, "ch09a"))
     s.append('</svg>')
-    return "\n".join(s)
+    return chr(10).join(s)
+
 
 
 # ============ 第三章 · 尚即过度（壁与空） ============
