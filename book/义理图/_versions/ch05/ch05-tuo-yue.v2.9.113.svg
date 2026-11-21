@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 720 650" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="橐龠剖面：两端一闭一开，生机在中间那块能走的板" font-family="'Noto Serif CJK SC','Noto Serif SC','Songti SC',serif">
+<defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#6E6459"/></marker><marker id="arr2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#4A5C55"/></marker><marker id="arrL" viewBox="0 0 10 10" refX="1" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M10 0 L0 5 L10 10 z" fill="#4A5C55"/></marker><marker id="arrS" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#A2503B"/></marker></defs>
+<rect x="0" y="0" width="720" height="650" fill="#F8F3E6"/>
+<text x="20" y="26" font-size="11" fill="#A2503B" font-family="'Noto Sans CJK SC','Noto Sans SC',sans-serif" letter-spacing="3">第 五 章 · 用 之</text>
+<text x="20" y="58" font-size="21" fill="#2F2A24">中不是点，是枢</text>
+<text x="20" y="78" font-size="10.5" fill="#6E6459">读成点，就成了折中、和稀泥；读成枢，才知道它一直在动。</text>
+<rect x="106" y="196" width="16" height="196" fill="#DBCCB1" stroke="#BEA98A" stroke-width="0.8"/>
+<rect x="118" y="204" width="470" height="180" fill="#FBF6EC" stroke="#2F2A24" stroke-width="1.4"/>
+<rect x="588" y="274" width="52" height="36" fill="#FBF6EC" stroke="#2F2A24" stroke-width="1.2"/>
+<line x1="640" y1="282" x2="660" y2="274" stroke="#4A5C55" stroke-width="0.8"/>
+<line x1="640" y1="291" x2="660" y2="283" stroke="#4A5C55" stroke-width="0.8"/>
+<line x1="640" y1="300" x2="660" y2="292" stroke="#4A5C55" stroke-width="0.8"/>
+<text x="664" y="296" font-size="8.6" fill="#4A5C55">出风</text>
+<line x1="354" y1="204" x2="354" y2="384" stroke="#A2503B" stroke-width="0.7" stroke-dasharray="4 5" opacity="0.7"/>
+<rect x="424" y="216" width="26" height="156" fill="none" stroke="#A2503B" stroke-width="0.7" stroke-dasharray="4 4" opacity="0.65"/>
+<rect x="288" y="216" width="26" height="156" fill="#CFC3AC" stroke="#2F2A24" stroke-width="1"/>
+<line x1="290" y1="224" x2="312" y2="224" stroke="#2F2A24" stroke-width="0.7"/>
+<line x1="290" y1="364" x2="312" y2="364" stroke="#2F2A24" stroke-width="0.7"/>
+<line x1="301" y1="216" x2="301" y2="158" stroke="#2F2A24" stroke-width="1.3"/>
+<line x1="266" y1="158" x2="338" y2="158" stroke="#2F2A24" stroke-width="1.3"/>
+<text x="301" y="144" font-size="9.2" fill="#4A5C55" text-anchor="middle">枢：这块板能走</text>
+<line x1="258" y1="354" x2="156" y2="354" stroke="#A2503B" stroke-width="0.9" marker-end="url(#arr)"/>
+<line x1="480" y1="354" x2="552" y2="354" stroke="#A2503B" stroke-width="0.9" marker-end="url(#arr)"/>
+<text x="156" y="406" font-size="10" fill="#8A7C69" text-anchor="middle">0</text>
+<text x="552" y="406" font-size="10" fill="#8A7C69" text-anchor="middle">1</text>
+<text x="354" y="406" font-size="9" fill="#A2503B" text-anchor="middle">0.5</text>
+<text x="118" y="178" font-size="8.6" fill="#8A7C69">橐龠：一具风箱，两端一闭一开</text>
+<text x="360" y="178" font-size="8.4" fill="#A2503B">0.5 是天平的正中——钉在这里，天平平，风箱死</text>
+<text x="360.0" y="438" font-size="10.2" fill="#2F2A24" text-anchor="middle">两端闭合，腔里最空；拉开，气最满。生机不在 0，不在 1，也不在 0.5。</text>
+<text x="360.0" y="460" font-size="9.2" fill="#6E6459" text-anchor="middle">在那块一直在挪的板上：它停在哪一处，哪一处就活；钉在哪一处，哪一处就死。</text>
+<rect x="96" y="488" width="528" height="52" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="360.0" y="520" font-size="10.6" fill="#2F2A24" text-anchor="middle">多言数穷，不如守中。</text>
+<line x1="20" y1="582" x2="360" y2="582" stroke="#E6D8C2" stroke-width="0.8"/>
+<text x="20" y="596" font-size="8.0" fill="#A89577" letter-spacing="1">本 章 金 句</text>
+<text x="20" y="612" font-size="8.4" fill="#2F2A24">虚而不屈，动而愈出。</text>
+<text x="20" y="628" font-size="8.4" fill="#2F2A24">读成点就成了折中；读成枢，才知道它一直在动。</text>
+</svg>

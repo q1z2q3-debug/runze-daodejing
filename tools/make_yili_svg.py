@@ -1376,43 +1376,44 @@ def ch04_dao_chong():
 
 # ============ 第五章 · 橐籥：中是枢 ============
 def ch05_tuo_yue():
-    W, H = 380, 598
-    body, y = head(W, H, "橐籥：中不是点，是枢", "第 五 章 · 用 之", "中不是点，是枢",
+    W, H = 720, 650
+    body, y = head(W, H, "橐龠剖面：两端一闭一开，生机在中间那块能走的板", "第 五 章 · 用 之", "中不是点，是枢",
                    "读成点，就成了折中、和稀泥；读成枢，才知道它一直在动。", H)
     s = [body]
-    # 风箱
-    x1, x2, ty, by = 40, 240, y + 30, y + 132
-    s.append(box(x1, ty, x2 - x1, by - ty, fill="#FBF6EC", stroke="{INK}", width=1.2))
-    s.append(f'<rect x="{x1+56}" y="{ty+8}" width="12" height="{by-ty-16}" fill="{INK}" opacity="0.5"/>')
-    s.append(f'<line x1="{x1+62}" y1="{ty+4}" x2="{x1+62}" y2="{ty-16}" stroke="{INK}" stroke-width="1.2"/>')
-    s.append(f'<path d="M {x1+50} {ty-24} h24" stroke="{INK}" stroke-width="1.2"/>')
-    s.append(f'<line x1="{x1+96}" y1="{by-30}" x2="{x1+156}" y2="{by-30}" stroke="{GREEN}" stroke-width="1.2" marker-end="url(#arr2)"/>')
-    s.append(f'<line x1="{x1+156}" y1="{by-18}" x2="{x1+96}" y2="{by-18}" stroke="{GREEN}" stroke-width="1.2" marker-end="url(#arrL)"/>')
-    s.append(txt(x1 + 96, by + 8, "往复：不是停在中，是穿过中", 8.8, GREEN))
-    s.append(txt(x1 + 12, ty - 26, "两端闭合与拉开", 8.8, "#8A7C69"))
-    s.append(box(x2 + 6, ty + 30, 96, 26, fill="#F6EFE0", stroke="{LINE2}"))
-    s.append(txt(x2 + 54, ty + 47, "出风", 9.5, SEAL, "middle"))
-    s.append(arrow(x2, ty + 43, x2 + 4, ty + 43, "#C9B79A", 0.8))
-    # 三词链
-    ys = y + 168
-    chain = [("不仁", "自持：顺自性运行，不添私情"),
-             ("橐籥", "开合：生机在中间那个支点"),
-             ("守中", "守枢：守住那个一直在动的位置")]
-    for i, (a, b) in enumerate(chain):
-        yy = ys + i * 46
-        s.append(box(20, yy, 62, 30, fill="#FBF6EC", stroke="{LINE2}"))
-        s.append(txt(51, yy + 20, a, 11, SEAL, "middle"))
-        s.append(txt(92, yy + 20, b, 9.5, "#6E6459"))
-        if i < 2:
-            s.append(vline(51, yy + 30, yy + 44, "#C9B79A"))
-    yc = ys + 3 * 46 + 6
-    s.append(box(20, yc, 340, 42, fill="#F2EADA", stroke="#C9B79A"))
-    s.append(txt(190, yc + 26, "多言数穷，不如守中", 11, INK, "middle"))
-    s.append(txt(190, yc + 58, "「中」不是 0 与 1 之间的 0.5，是天平求不到的静止。", 9.5, "#6E6459", "middle"))
-    s.append(txt(190, yc + 74, "它是那台机器里，一直在来回穿过的支点。", 9.5, "#6E6459", "middle"))
+    L, R = 118, 588
+    top, bot = y + 104, y + 284
+    px, px2 = 288, 424
+    s.append(f'<rect x="{L-12}" y="{top-8}" width="16" height="{bot-top+16}" fill="#DBCCB1" stroke="#BEA98A" stroke-width="0.8"/>')
+    s.append(f'<rect x="{L}" y="{top}" width="{R-L}" height="{bot-top}" fill="#FBF6EC" stroke="{INK}" stroke-width="1.4"/>')
+    s.append(f'<rect x="{R}" y="{top+70}" width="52" height="36" fill="#FBF6EC" stroke="{INK}" stroke-width="1.2"/>')
+    for k in range(3):
+        s.append(f'<line x1="{R+52}" y1="{top+78+k*9}" x2="{R+72}" y2="{top+70+k*9}" stroke="{GREEN}" stroke-width="0.8"/>')
+    s.append(txt(R + 76, top + 92, "出风", 8.6, GREEN))
+    s.append(f'<line x1="354" y1="{top}" x2="354" y2="{bot}" stroke="{SEAL}" stroke-width="0.7" stroke-dasharray="4 5" opacity="0.7"/>')
+    s.append(f'<rect x="{px2}" y="{top+12}" width="26" height="{bot-top-24}" fill="none" stroke="{SEAL}" stroke-width="0.7" stroke-dasharray="4 4" opacity="0.65"/>')
+    s.append(f'<rect x="{px}" y="{top+12}" width="26" height="{bot-top-24}" fill="#CFC3AC" stroke="{INK}" stroke-width="1"/>')
+    s.append(f'<line x1="{px+2}" y1="{top+20}" x2="{px+24}" y2="{top+20}" stroke="{INK}" stroke-width="0.7"/>')
+    s.append(f'<line x1="{px+2}" y1="{bot-20}" x2="{px+24}" y2="{bot-20}" stroke="{INK}" stroke-width="0.7"/>')
+    s.append(f'<line x1="{px+13}" y1="{top+12}" x2="{px+13}" y2="{y+58}" stroke="{INK}" stroke-width="1.3"/>')
+    s.append(f'<line x1="{px-22}" y1="{y+58}" x2="{px+50}" y2="{y+58}" stroke="{INK}" stroke-width="1.3"/>')
+    s.append(txt(px + 13, y + 44, "枢：这块板能走", 9.2, GREEN, "middle"))
+    s.append(arrow(px - 30, top + 150, 156, top + 150, SEAL, 0.9))
+    s.append(arrow(px2 + 56, top + 150, 552, top + 150, SEAL, 0.9))
+    s.append(txt(156, bot + 22, "0", 10, "#8A7C69", "middle"))
+    s.append(txt(552, bot + 22, "1", 10, "#8A7C69", "middle"))
+    s.append(txt(354, bot + 22, "0.5", 9, SEAL, "middle"))
+    s.append(txt(L, top - 26, "橐龠：一具风箱，两端一闭一开", 8.6, "#8A7C69"))
+    s.append(txt(360, top - 26, "0.5 是天平的正中——钉在这里，天平平，风箱死", 8.4, SEAL))
+    ya = bot + 54
+    s.append(txt(W / 2, ya, "两端闭合，腔里最空；拉开，气最满。生机不在 0，不在 1，也不在 0.5。", 10.2, INK, "middle"))
+    s.append(txt(W / 2, ya + 22, "在那块一直在挪的板上：它停在哪一处，哪一处就活；钉在哪一处，哪一处就死。", 9.2, "#6E6459", "middle"))
+    yc = ya + 50
+    s.append(box(96, yc, W - 192, 52, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(W / 2, yc + 32, "多言数穷，不如守中。", 10.6, INK, "middle"))
     s.append(gold(H - 68, "ch05a"))
     s.append('</svg>')
     return "\n".join(s)
+
 
 
 # ============ 第五章 · 一只刍狗 ============
@@ -1455,12 +1456,12 @@ def ch05b_yi_zhi_chu_gou():
     s.append(f'<path d="M156,{table - 12} L224,{table - 12} L230,{table - 7} L150,{table - 7} z" fill="#EFE6D4" stroke="{SEAL}" stroke-width="0.8"/>')
     s.append(dog(190, table - 20, rot=0))
     for hx in (106, 274):
-        s.append(f'<line x1="{hx}" y1="{table}" x2="{hx}" y2="{table - 26}" stroke="{INK}" stroke-width="1.0"/>')
-        s.append(f'<circle cx="{hx}" cy="{table - 26}" r="1.6" fill="{SEAL}"/>')
-        s.append(f'<path d="M{hx},{table - 30} q6,-9 0,-17" fill="none" stroke="#B9A98F" stroke-width="0.6"/>')
+        s.append(f'<line x1="{hx}" y1="{table}" x2="{hx}" y2="{table - 40}" stroke="{INK}" stroke-width="1.0"/>')
+        s.append(f'<circle cx="{hx}" cy="{table - 40}" r="1.7" fill="{SEAL}"/>')
+        s.append(f'<path d="M{hx},{table - 44} q6,-10 0,-19" fill="none" stroke="#B9A98F" stroke-width="0.6"/>')
     s.append(txt(190, gy + 26, "陈：有位次", 4.6, GREEN, "middle"))
     s.append(f'<line x1="190" y1="{gy + 30}" x2="190" y2="{table - 34}" stroke="{LINE2}" stroke-width="0.6" stroke-dasharray="3 2"/>')
-    s.append(txt(250, table - 40, "被恭敬摆着的还是那把草", 4.4, "#6E6459"))
+    s.append(txt(190, table + 26, "被恭敬摆着的，还是那把草", 4.4, "#6E6459", "middle"))
     s.append(txt(190, gy + 142, "天地给的只是位次，没给主人", 4.5, GREEN, "middle"))
 
     # 二、复归
@@ -1478,10 +1479,10 @@ def ch05b_yi_zhi_chu_gou():
     s.append(txt(208, base - 40, "践其首脊", 4.4, SEAL))
     # 柴捆：一束草，中间一道红绳
     for k in range(5):
-        s.append(f'<line x1="{262 + k * 5}" y1="{base - 26 + k}" x2="{282 + k * 5}" y2="{base - 6 + k}" stroke="{INK}" stroke-width="0.7"/>')
-    s.append(f'<line x1="{270}" y1="{base - 22}" x2="{290}" y2="{base - 8}" stroke="{SEAL}" stroke-width="1.0"/>')
-    s.append(f'<line x1="{268}" y1="{base - 20}" x2="{276}" y2="{base - 26}" stroke="{SEAL}" stroke-width="0.6"/>')
-    s.append(txt(300, base - 38, "取而爨之", 4.4, SEAL, "end"))
+        s.append(f'<line x1="{262 + k * 5}" y1="{base - 26 + k}" x2="{282 + k * 5}" y2="{base - 6 + k}" stroke="{INK}" stroke-width="1.1"/>')
+    s.append(f'<line x1="270" y1="{base - 16}" x2="294" y2="{base - 11}" stroke="{SEAL}" stroke-width="1.0"/>')
+    s.append(f'<line x1="270" y1="{base - 10}" x2="292" y2="{base - 5}" stroke="{SEAL}" stroke-width="1.0"/>')
+    s.append(txt(300, base - 52, "取而爨之", 4.4, SEAL, "end"))
     s.append(txt(190, gy2 + 140, "位次用完了，它就回草堆——不是被弃，是用完了", 4.5, GREEN, "middle"))
 
     a = gy2 + 168
@@ -1503,68 +1504,55 @@ def ch05b_yi_zhi_chu_gou():
 
 # ============ 第五章 · 一把锁（旧稿 ch05c-yi-jia-tian-ping 已撤，存 old/） ============
 def ch05c_yi_ba_suo():
-    body, y = head(380, 999, "多言就是锁支点：锁在 0、锁在 1、锁在自己以为稳的中间，锁住即穷",
-                   "第 五 章 · 锁", "一把锁", "多言数穷，不如守中。", 999)
+    W, H = 380, 800
+    body, y = head(W, H, "多言数穷：支点钉在三处，三处都不出风", "第 五 章 · 三 钉", "一把钉",
+                   "多言数穷，不如守中。", H)
     s = [body]
+    s.append(box(20, y + 2, 340, 36, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, y + 15, "多言不只是话多：一切定义、评判、谋划、控制，都是把支点钉死。", 5.0, INK, "middle"))
+    s.append(txt(190, y + 30, "钉在 0 的空寂、钉在 1 的驰求、钉在自以为稳妥的中间——三种钉法，一个结果。", 5.0, "#6E6459", "middle"))
 
-    s.append(box(20, y + 2, 340, 34, fill="#F2EADA", stroke="#C9B79A"))
-    s.append(txt(190, y + 14, "多言不只是话多：一切定义、评判、谋划、控制，都是把支点钉死。", 5.0, INK, "middle"))
-    s.append(txt(190, y + 28, "钉在 0 的空寂、钉在 1 的驰求、或钉在自以为稳妥的中间——三种钉法，一个结果。", 5.0, "#6E6459", "middle"))
-
-    def box5(gy, locked):
-        out = []
-        bx1, bx2, ty, by = 112, 260, gy + 34, gy + 130
-        out.append(f'<rect x="{bx1}" y="{ty}" width="{bx2 - bx1}" height="{by - ty}" fill="#FBF6EC" stroke="{INK}" stroke-width="1.2"/>')
-        # 活塞杆
-        out.append(f'<rect x="{bx1 + 18}" y="{ty + 10}" width="11" height="{by - ty - 20}" fill="{INK}" opacity="0.45"/>')
-        out.append(f'<line x1="{bx1 + 23}" y1="{ty + 6}" x2="{bx1 + 23}" y2="{ty - 16}" stroke="{INK}" stroke-width="1.3"/>')
-        out.append(f'<line x1="{bx1 + 10}" y1="{ty - 16}" x2="{bx1 + 36}" y2="{ty - 16}" stroke="{INK}" stroke-width="1.3"/>')
-        # 枢：腔心那一点
-        out.append(f'<circle cx="{bx1 + 78}" cy="{gy + 82}" r="3.2" fill="none" stroke="{GREEN}" stroke-width="1.0"/>')
-        out.append(txt(bx1 + 78, gy + 72, "枢", 4.6, GREEN, "middle"))
-        if locked:
-            out.append(f'<rect x="{bx1 + 70}" y="{gy + 88}" width="16" height="12" fill="{SEAL}" stroke="{SEAL}" stroke-width="0.8"/>')
-            out.append(f'<path d="M{bx1 + 74},{gy + 88} q4,-9 8,0" fill="none" stroke="{SEAL}" stroke-width="0.9"/>')
-            out.append(f'<line x1="{bx1 + 23}" y1="{gy + 94}" x2="{bx1 + 68}" y2="{gy + 94}" stroke="{SEAL}" stroke-width="0.8" stroke-dasharray="3 2"/>')
+    def cell(y0, pos, t1):
+        s.append(box(22, y0, 336, 150, fill="#FBF6EC", stroke=LINE))
+        bx1, bx2, ty, by = 62, 268, y0 + 30, y0 + 104
+        s.append(f'<rect x="{bx1-7}" y="{ty-4}" width="8" height="{by-ty+8}" fill="#DBCCB1" stroke="#BEA98A" stroke-width="0.6"/>')
+        s.append(f'<rect x="{bx1}" y="{ty}" width="{bx2-bx1}" height="{by-ty}" fill="#FBF6EC" stroke="{INK}" stroke-width="1.2"/>')
+        s.append(f'<rect x="{bx2}" y="{ty+22}" width="26" height="22" fill="#FBF6EC" stroke="{INK}" stroke-width="1"/>')
+        x0 = bx2 + 26
+        s.append(f'<line x1="{x0}" y1="{ty+39}" x2="{x0+12}" y2="{ty+27}" stroke="{SEAL}" stroke-width="1.1"/>')
+        s.append(f'<line x1="{x0}" y1="{ty+27}" x2="{x0+12}" y2="{ty+39}" stroke="{SEAL}" stroke-width="1.1"/>')
+        s.append(txt(x0 + 18, ty + 38, "一线风也无", 8.2, SEAL))
+        if pos == 0:
+            pxp = bx1 + 2
+        elif pos == 1:
+            pxp = bx2 - 16
         else:
-            out.append(f'<line x1="{bx1 + 62}" y1="{gy + 96}" x2="{bx1 + 112}" y2="{gy + 96}" stroke="{GREEN}" stroke-width="1.1" marker-end="url(#arr2)"/>')
-            out.append(f'<line x1="{bx1 + 112}" y1="{gy + 114}" x2="{bx1 + 62}" y2="{gy + 114}" stroke="{GREEN}" stroke-width="1.1" marker-end="url(#arrL)"/>')
-            out.append(txt(bx1 + 87, gy + 124, "往复", 4.4, GREEN, "middle"))
-            for k in range(3):
-                out.append(f'<line x1="{bx2}" y1="{gy + 62 + k * 12}" x2="{bx2 + 22}" y2="{gy + 62 + k * 12}" stroke="{GREEN}" stroke-width="0.9"/>')
-                out.append(f'<path d="M{bx2 + 22},{gy + 62 + k * 12} l-4,-2.4 M{bx2 + 22},{gy + 62 + k * 12} l-4,2.4" fill="none" stroke="{GREEN}" stroke-width="0.7"/>')
-            out.append(txt(bx2 + 6, gy + 52, "出风", 4.4, GREEN))
-        return "".join(out)
+            pxp = (bx1 + bx2) // 2 - 7
+        s.append(f'<rect x="{pxp}" y="{ty+4}" width="14" height="{by-ty-8}" fill="#CFC3AC" stroke="{INK}" stroke-width="0.9"/>')
+        s.append(f'<line x1="{pxp+7}" y1="{ty-16}" x2="{pxp+7}" y2="{ty+6}" stroke="{SEAL}" stroke-width="1.5"/>')
+        s.append(f'<line x1="{pxp-9}" y1="{ty-16}" x2="{pxp+23}" y2="{ty-16}" stroke="{SEAL}" stroke-width="1.5"/>')
+        s.append(txt(pxp + 7, ty - 22, "钉", 8, SEAL, "middle"))
+        s.append(txt(190, y0 + 134, t1, 8.6, "#6E6459", "middle"))
 
-    # 一、锁住
-    s.append(txt(24, y + 52, "一、锁住：器还在，机死了", 5.2, SEAL))
-    gy = y + 64
-    s.append(f'<rect x="26" y="{gy}" width="328" height="162" fill="#FBF6EC" stroke="{LINE}" stroke-width="0.8"/>')
-    s.append(box5(gy, True))
-    s.append(txt(190, gy + 152, "枢一锁，开合即停：出风断在这里，一停就竭", 4.5, SEAL, "middle"))
+    cell(y + 56, 0, "钉在 0：腔里最空，风一动不动")
+    cell(y + 222, 1, "钉在 1：拉得最满，也一动不动")
+    cell(y + 388, 2, "钉在 0.5：天平看着最平，风箱最死")
 
-    # 二、松开
-    s.append(txt(24, gy + 182, "二、松开：枢自己走，越动愈出", 5.2, GREEN))
-    gy2 = gy + 194
-    s.append(f'<rect x="26" y="{gy2}" width="328" height="162" fill="#FBF6EC" stroke="{LINE}" stroke-width="0.8"/>')
-    s.append(box5(gy2, False))
-    s.append(txt(190, gy2 + 152, "虚而不屈，动而愈出：不是越拉越满，是一直能开合", 4.5, GREEN, "middle"))
-
-    a = gy2 + 190
+    a = y + 566
     s.append(txt(24, a, "锁不是外物，是人自己那本账：要他一定这样、一定那样，把活的支点浇成死的刻度。", 5.4, INK))
-    s.append(txt(24, a + 16, "「数穷」不是没钱，是路走到头——支点不动，器再贵也只是个壳。", 5.4, INK))
+    s.append(txt(24, a + 16, "「数穷」不是没钱，是路走到头——枢一钉死，器再贵也只是个壳。", 5.4, INK))
     s.append(txt(24, a + 34, "守中不是找一个好位置站住，是随时肯挪；能挪的，才叫中。", 5.2, GREEN))
 
     c = a + 52
     s.append(f'<line x1="24" y1="{c}" x2="338" y2="{c}" stroke="{LINE}" stroke-width="0.6"/>')
     s.append(box(20, c + 8, 340, 40, fill="#F2EADA", stroke="#C9B79A"))
-    s.append(txt(190, c + 24, "执一则穷，", 6.0, INK, "middle"))
-    s.append(txt(190, c + 36, "守中则通——枢不死，机才活。", 6.0, GREEN, "middle"))
+    s.append(txt(190, c + 24, "执一则穷，守中则通", 6.0, INK, "middle"))
+    s.append(txt(190, c + 36, "枢不死，机才活。", 6.0, GREEN, "middle"))
     s.append(gold(c + 62, "ch05c"))
     s.append('</svg>')
     out = "\n".join(s)
     ys = [float(v) for v in re.findall(r'y="([0-9.]+)"', out)]
-    return out.replace("999", str(int(max(ys) + 26)))
+    return out.replace("800", str(int(max(ys) + 26)))
 
 
 
@@ -7998,7 +7986,7 @@ GOLD = {
     "ch06b": ["谷神不死，是谓玄牝。", "谷者，两山间之空也；能受故能生，生而不有故不竭——生机不在满处，在空处。"],
     "ch06c": ["玄牝之门，是谓天地根。", "门在开合处，不在门板上；一着手去推，它就成了一堵墙。"],
     "ch05b": ["天地不仁，以万物为刍狗。", "刍者，束草也；刍狗有位而无主——用毕回草堆，不是被弃，是位次用完了。"],
-    "ch05c": ["多言数穷，不如守中。", "穷者，路走到头也；锁在 0、锁在 1、锁在自以为稳的中间——枢不动，机就死。"],
+    "ch05c": ["多言数穷，不如守中。", "穷者，路走到头也；钉在 0、钉在 1、钉在自以为稳的正中——枢不动，机就死。"],
     "ch02b": ["天下皆知美之为美，斯恶已。", "立美那一刻，丑才成立——不是先有丑，再立美。"],
     "ch02c": ["音声相和，前后相随。", "和是异质守节、应答生第三物；合是抹平边界，只留一个声音。"],
     "ch03b": ["不尚贤，使民不争；不贵难得之货，使民不为盗。", "尚者，抬之使高也；贵者，标之使重也——三个「不」，是一个动作：不主动起标。"],
@@ -16129,7 +16117,7 @@ FIGS = {
     "ch03-shang-ji-guo-du": ("第三章", "尚即过度", ch03_shang_ji_guo_du),
     "ch04-dao-chong": ("第四章", "井：一直在用，从不溢出", ch04_dao_chong),
     "ch05b-yi-zhi-chu-gou": ("第五章", "一只刍狗", ch05b_yi_zhi_chu_gou),
-    "ch05c-yi-ba-suo": ("第五章", "一把锁", ch05c_yi_ba_suo),
+    "ch05c-yi-ba-suo": ("第五章", "一把钉", ch05c_yi_ba_suo),
     "ch05-tuo-yue": ("第五章", "中不是点，是枢", ch05_tuo_yue),
     "ch06b-yi-kou-gu": ("第六章", "一口谷", ch06b_yi_kou_gu),
     "ch06c-yi-shan-men-zhou": ("第六章", "一扇门轴", ch06c_yi_shan_men_zhou),
