@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 380 710" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="「尚」是把自然的分寸，抬成表态" font-family="'Noto Serif CJK SC','Noto Serif SC','Songti SC',serif">
+<defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#6E6459"/></marker><marker id="arr2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#4A5C55"/></marker><marker id="arrL" viewBox="0 0 10 10" refX="1" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M10 0 L0 5 L10 10 z" fill="#4A5C55"/></marker><marker id="arrS" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#A2503B"/></marker></defs>
+<rect x="0" y="0" width="380" height="710" fill="#F8F3E6"/>
+<text x="20" y="26" font-size="11" fill="#A2503B" font-family="'Noto Sans CJK SC','Noto Sans SC',sans-serif" letter-spacing="3">第 三 章 · 治 世</text>
+<text x="20" y="58" font-size="21" fill="#2F2A24">尚即过度</text>
+<text x="20" y="78" font-size="10.5" fill="#6E6459">壁在，空才用得起；壁胀了，空就用不上。</text>
+<text x="20" y="116" font-size="9.5" fill="#A2503B">不尚贤</text>
+<line x1="112" y1="111" x2="132" y2="111" stroke="#DCCBB0" stroke-width="1" marker-end="url(#arr)"/>
+<text x="138" y="116" font-size="9.5" fill="#2F2A24">使民不争</text>
+<text x="206" y="116" font-size="8.5" fill="#6E6459">把长处摆成徽章</text>
+<text x="20" y="140" font-size="9.5" fill="#A2503B">不贵难得之货</text>
+<line x1="112" y1="135" x2="132" y2="135" stroke="#DCCBB0" stroke-width="1" marker-end="url(#arr)"/>
+<text x="138" y="140" font-size="9.5" fill="#2F2A24">使民不为盗</text>
+<text x="206" y="140" font-size="8.5" fill="#6E6459">把稀罕标成高价</text>
+<text x="20" y="164" font-size="9.5" fill="#A2503B">不见可欲</text>
+<line x1="112" y1="159" x2="132" y2="159" stroke="#DCCBB0" stroke-width="1" marker-end="url(#arr)"/>
+<text x="138" y="164" font-size="9.5" fill="#2F2A24">使民心不乱</text>
+<text x="206" y="164" font-size="8.5" fill="#6E6459">把勾人的摆到眼前</text>
+<text x="20" y="180" font-size="9" fill="#8A7C69">三个动作是同一件：不主动抬它，标尺就不起来。</text>
+<text x="20" y="204" font-size="9.5" fill="#8A7C69">经文四句，恰好分成壁与空</text>
+<rect x="36" y="234" width="13" height="74" fill="#2F2A24" opacity="0.62"/>
+<rect x="132" y="234" width="13" height="74" fill="#2F2A24" opacity="0.62"/>
+<line x1="49" y1="308" x2="132" y2="308" stroke="#2F2A24" stroke-width="1" opacity="0.5"/>
+<text x="90" y="275.0" font-size="12" fill="#8A7C69" text-anchor="middle">空</text>
+<text x="26" y="228" font-size="9" fill="#A2503B">壁</text>
+<text x="162" y="236" font-size="9.5" fill="#A2503B">实其腹 · 强其骨 → 壁</text>
+<text x="162" y="252" font-size="8.5" fill="#6E6459">厚其壁，是让它立得住</text>
+<text x="162" y="282" font-size="9.5" fill="#4A5C55">虚其心 · 弱其志 → 空</text>
+<text x="162" y="298" font-size="8.5" fill="#6E6459">守其空，是让空用得起</text>
+<text x="20" y="332" font-size="9.2" fill="#8A7C69">同一段壁的三种质地：变的是壁，空一直是空</text>
+<circle cx="72" cy="394" r="40.5" fill="none" stroke="#2F2A24" stroke-width="7" opacity="0.34"/>
+<text x="72" y="398" font-size="9.5" fill="#8A7C69" text-anchor="middle">空</text>
+<text x="72" y="454" font-size="10" fill="#A2503B" text-anchor="middle">薄壁</text>
+<text x="72" y="470" font-size="8.4" fill="#6E6459" text-anchor="middle">不及：立不住</text>
+<text x="72" y="484" font-size="8.2" fill="#6E6459" text-anchor="middle">空虽在，器不成</text>
+<circle cx="190" cy="394" r="35.5" fill="none" stroke="#2F2A24" stroke-width="17" opacity="0.66"/>
+<text x="190" y="398" font-size="9.5" fill="#8A7C69" text-anchor="middle">空</text>
+<text x="190" y="454" font-size="10" fill="#A2503B" text-anchor="middle">实其腹</text>
+<text x="190" y="470" font-size="8.4" fill="#6E6459" text-anchor="middle">分寸：壁致密而空存</text>
+<text x="190" y="484" font-size="8.2" fill="#6E6459" text-anchor="middle">利与用俱</text>
+<circle cx="308" cy="394" r="31.0" fill="none" stroke="#2F2A24" stroke-width="26" opacity="0.72"/>
+<circle cx="270" cy="386" r="2.2" fill="#F8F3E6" opacity="0.85"/><circle cx="270" cy="392" r="2.2" fill="#F8F3E6" opacity="0.85"/><circle cx="270" cy="398" r="2.2" fill="#F8F3E6" opacity="0.85"/><circle cx="276" cy="374" r="2.2" fill="#F8F3E6" opacity="0.85"/><circle cx="276" cy="380" r="2.2" fill="#F8F3E6" opacity="0.85"/><circle cx="276" cy="386" r="2.2" fill="#F8F3E6" opacity="0.85"/><circle cx="276" cy="392" r="2.2" fill="#F8F3E6" opacity="0.85"/><circle cx="276" cy="398" r="2.2" fill="#F8F3E6" opacity="0.85"/><circle cx="276" cy="404" r="2.2" fill="#F8F3E6" opacity="0.85"/><circle cx="276" cy="410" r="2.2" fill="#F8F3E6" opacity="0.85"/><circle cx="276" cy="416" r="2.2" fill="#F8F3E6" opacity="0.85"/><circle cx="282" cy="368" r="2.2" fill="#F8F3E6" opacity="0.85"/><circle cx="282" cy="374" r="2.2" fill="#F8F3E6" opacity="0.85"/><circle cx="282" cy="380" r="2.2" fill="#F8F3E6" opacity="0.85"/><circle cx="282" cy="386" r="2.2" fill="#F8F3E6" opacity="0.85"/><circle cx="282" cy="392" r="2.2" fill="#F8F3E6" opacity="0.85"/><circle cx="282" cy="398" r="2.2" fill="#F8F3E6" opacity="0.85"/><circle cx="282" cy="404" r="2.2" fill="#F8F3E6" opacity="0.85"/><circle cx="282" cy="410" r="2.2" fill="#F8F3E6" opacity="0.85"/><circle cx="282" cy="416" r="2.2" fill="#F8F3E6" opacity="0.85"/><circle cx="282" cy="422" r="2.2" fill="#F8F3E6" opacity="0.85"/><circle cx="288" cy="362" r="2.2" fill="#F8F3E6" opacity="0.85"/><circle cx="288" cy="368" r="2.2" fill="#F8F3E6" opacity="0.85"/><circle cx="288" cy="374" r="2.2" fill="#F8F3E6" opacity="0.85"/><circle cx="288" cy="380" r="2.2" fill="#F8F3E6" opacity="0.85"/><circle cx="288" cy="404" r="2.2" fill="#F8F3E6" opacity="0.85"/><circle cx="288" cy="410" r="2.2" fill="#F8F3E6" opacity="0.85"/><circle cx="288" cy="416" r="2.2" fill="#F8F3E6" opacity="0.85"/><circle cx="288" cy="422" r="2.2" fill="#F8F3E6" opacity="0.85"/><circle cx="294" cy="362" r="2.2" fill="#F8F3E6" opacity="0.85"/><circle cx="294" cy="368" r="2.2" fill="#F8F3E6" opacity="0.85"/><circle cx="294" cy="374" r="2.2" fill="#F8F3E6" opacity="0.85"/><circle cx="294" cy="416" r="2.2" fill="#F8F3E6" opacity="0.85"/><circle cx="294" cy="422" r="2.2" fill="#F8F3E6" opacity="0.85"/><circle cx="294" cy="428" r="2.2" fill="#F8F3E6" opacity="0.85"/><circle cx="300" cy="356" r="2.2" fill="#F8F3E6" opacity="0.85"/><circle cx="300" cy="362" r="2.2" fill="#F8F3E6" opacity="0.85"/><circle cx="300" cy="368" r="2.2" fill="#F8F3E6" opacity="0.85"/><circle cx="300" cy="416" r="2.2" fill="#F8F3E6" opacity="0.85"/><circle cx="300" cy="422" r="2.2" fill="#F8F3E6" opacity="0.85"/><circle cx="300" cy="428" r="2.2" fill="#F8F3E6" opacity="0.85"/><circle cx="306" cy="356" r="2.2" fill="#F8F3E6" opacity="0.85"/><circle cx="306" cy="362" r="2.2" fill="#F8F3E6" opacity="0.85"/><circle cx="306" cy="368" r="2.2" fill="#F8F3E6" opacity="0.85"/><circle cx="306" cy="416" r="2.2" fill="#F8F3E6" opacity="0.85"/><circle cx="306" cy="422" r="2.2" fill="#F8F3E6" opacity="0.85"/><circle cx="306" cy="428" r="2.2" fill="#F8F3E6" opacity="0.85"/><circle cx="312" cy="356" r="2.2" fill="#F8F3E6" opacity="0.85"/><circle cx="312" cy="362" r="2.2" fill="#F8F3E6" opacity="0.85"/><circle cx="312" cy="368" r="2.2" fill="#F8F3E6" opacity="0.85"/><circle cx="312" cy="416" r="2.2" fill="#F8F3E6" opacity="0.85"/><circle cx="312" cy="422" r="2.2" fill="#F8F3E6" opacity="0.85"/><circle cx="312" cy="428" r="2.2" fill="#F8F3E6" opacity="0.85"/><circle cx="318" cy="362" r="2.2" fill="#F8F3E6" opacity="0.85"/><circle cx="318" cy="368" r="2.2" fill="#F8F3E6" opacity="0.85"/><circle cx="318" cy="374" r="2.2" fill="#F8F3E6" opacity="0.85"/><circle cx="318" cy="416" r="2.2" fill="#F8F3E6" opacity="0.85"/><circle cx="318" cy="422" r="2.2" fill="#F8F3E6" opacity="0.85"/><circle cx="318" cy="428" r="2.2" fill="#F8F3E6" opacity="0.85"/><circle cx="324" cy="362" r="2.2" fill="#F8F3E6" opacity="0.85"/><circle cx="324" cy="368" r="2.2" fill="#F8F3E6" opacity="0.85"/><circle cx="324" cy="374" r="2.2" fill="#F8F3E6" opacity="0.85"/><circle cx="324" cy="410" r="2.2" fill="#F8F3E6" opacity="0.85"/><circle cx="324" cy="416" r="2.2" fill="#F8F3E6" opacity="0.85"/><circle cx="324" cy="422" r="2.2" fill="#F8F3E6" opacity="0.85"/><circle cx="324" cy="428" r="2.2" fill="#F8F3E6" opacity="0.85"/><circle cx="330" cy="362" r="2.2" fill="#F8F3E6" opacity="0.85"/><circle cx="330" cy="368" r="2.2" fill="#F8F3E6" opacity="0.85"/><circle cx="330" cy="374" r="2.2" fill="#F8F3E6" opacity="0.85"/><circle cx="330" cy="380" r="2.2" fill="#F8F3E6" opacity="0.85"/><circle cx="330" cy="386" r="2.2" fill="#F8F3E6" opacity="0.85"/><circle cx="330" cy="392" r="2.2" fill="#F8F3E6" opacity="0.85"/><circle cx="330" cy="398" r="2.2" fill="#F8F3E6" opacity="0.85"/><circle cx="330" cy="404" r="2.2" fill="#F8F3E6" opacity="0.85"/><circle cx="330" cy="410" r="2.2" fill="#F8F3E6" opacity="0.85"/><circle cx="330" cy="416" r="2.2" fill="#F8F3E6" opacity="0.85"/><circle cx="330" cy="422" r="2.2" fill="#F8F3E6" opacity="0.85"/><circle cx="336" cy="368" r="2.2" fill="#F8F3E6" opacity="0.85"/><circle cx="336" cy="374" r="2.2" fill="#F8F3E6" opacity="0.85"/><circle cx="336" cy="380" r="2.2" fill="#F8F3E6" opacity="0.85"/><circle cx="336" cy="386" r="2.2" fill="#F8F3E6" opacity="0.85"/><circle cx="336" cy="392" r="2.2" fill="#F8F3E6" opacity="0.85"/><circle cx="336" cy="398" r="2.2" fill="#F8F3E6" opacity="0.85"/><circle cx="336" cy="404" r="2.2" fill="#F8F3E6" opacity="0.85"/><circle cx="336" cy="410" r="2.2" fill="#F8F3E6" opacity="0.85"/><circle cx="336" cy="416" r="2.2" fill="#F8F3E6" opacity="0.85"/><circle cx="342" cy="380" r="2.2" fill="#F8F3E6" opacity="0.85"/><circle cx="342" cy="386" r="2.2" fill="#F8F3E6" opacity="0.85"/><circle cx="342" cy="392" r="2.2" fill="#F8F3E6" opacity="0.85"/><circle cx="342" cy="398" r="2.2" fill="#F8F3E6" opacity="0.85"/><circle cx="342" cy="404" r="2.2" fill="#F8F3E6" opacity="0.85"/><circle cx="342" cy="410" r="2.2" fill="#F8F3E6" opacity="0.85"/>
+<text x="308" y="398" font-size="9" fill="#8A7C69" text-anchor="middle">空</text>
+<text x="308" y="454" font-size="10" fill="#A2503B" text-anchor="middle">海绵壁</text>
+<text x="308" y="470" font-size="8.4" fill="#6E6459" text-anchor="middle">过度：壁胀、变厚</text>
+<text x="308" y="484" font-size="7.9" fill="#6E6459" text-anchor="middle">腔被挤小，空吸进孔里</text>
+<rect x="20" y="500" width="340" height="60" fill="#F6EFE0" stroke="#C9B79A" stroke-width="1.0" stroke-dasharray="4 3"/>
+<text x="32" y="517" font-size="8.8" fill="#A2503B">「虚」不是实的反面：是有的那部分自己松成海绵</text>
+<text x="32" y="533" font-size="8.6" fill="#6E6459">虚其心：在空上做减法，留白，空还照用。</text>
+<text x="32" y="549" font-size="8.6" fill="#6E6459">反例·腹虚：在壁上被动的松，料变多孔、变胀，空反被吃掉。</text>
+<rect x="20" y="574" width="340" height="40" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="190" y="593" font-size="11.5" fill="#2F2A24" text-anchor="middle" letter-spacing="1">有之以为利，无之以为用。</text>
+<text x="190" y="608" font-size="8.8" fill="#6E6459" text-anchor="middle">过与不及，皆失其用。</text>
+<line x1="20" y1="642" x2="360" y2="642" stroke="#E6D8C2" stroke-width="0.8"/>
+<text x="20" y="656" font-size="8.0" fill="#A89577" letter-spacing="1">本 章 金 句</text>
+<text x="20" y="672" font-size="8.4" fill="#2F2A24">不尚贤，使民不争。</text>
+<text x="20" y="688" font-size="8.4" fill="#2F2A24">壁在，空才用得起；壁胀了，空就用不上。</text>
+</svg>

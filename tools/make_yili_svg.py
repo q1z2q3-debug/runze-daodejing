@@ -2370,7 +2370,7 @@ def ch03_shang_ji_guo_du():
     s.append(box(20, yr, 340, 60, fill="#F6EFE0", stroke="#C9B79A", dash="4 3"))
     s.append(txt(32, yr + 17, "「虚」不是实的反面：是有的那部分自己松成海绵", 8.8, SEAL))
     s.append(txt(32, yr + 33, "虚其心：在空上做减法，留白，空还照用。", 8.6, "#6E6459"))
-    s.append(txt(32, yr + 49, "虚其腹：在壁上被动的松，料变多孔、变胀，空反被吃掉。", 8.6, "#6E6459"))
+    s.append(txt(32, yr + 49, "反例·腹虚：在壁上被动的松，料变多孔、变胀，空反被吃掉。", 8.6, "#6E6459"))
     # 收
     yc = yr + 74
     s.append(box(20, yc, 340, 40, fill="#F2EADA", stroke="#C9B79A"))
