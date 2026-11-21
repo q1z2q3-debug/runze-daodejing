@@ -1364,7 +1364,7 @@ def ch04_dao_chong():
     s.append(txt(xa, ty + 168, "空才是器。", 9.2, GREEN))
     ya = yb + 60
     s.append(txt(W / 2, ya, "它一直在用，从不溢出——这就是「用之或不盈」。", 10.6, INK, "middle"))
-    s.append(txt(W / 2, ya + 24, "帛书作「有弗盈」：不是有时不满，是从来不满。井口朝天，井底通脉，中间没有隔。", 9.2, "#6E6459", "middle"))
+    s.append(txt(W / 2, ya + 24, "井口朝天，井底通脉：往上没有顶，往下没有底——一只杯里的空，与地上这片太虚是同一片。", 9.2, "#6E6459", "middle"))
     yc = ya + 52
     s.append(box(78, yc, W - 156, 54, fill="#F2EADA", stroke="#C9B79A"))
     s.append(txt(W / 2, yc + 32, "湛兮，似或存；吾不知谁之子，象帝之先。", 10.4, INK, "middle"))
@@ -7786,7 +7786,7 @@ def ch04b_yi_zhi_li_qi():
     s.append(f'<path d="M178,{gy + 46} q-14,10 0,14 q14,-4 0,-14 z" fill="{PAPER}" stroke="{INK}" stroke-width="0.9"/>')
     s.append(f'<line x1="178" y1="{gy + 46}" x2="198" y2="{gy + 30}" stroke="{INK}" stroke-width="1.1"/>')
     s.append(arrow(182, gy + 62, 188, yb - 6, SEAL, 0.8, None, "arr"))
-    s.append(txt(190, gy + 172, "装满即止：器满则不受，用到这里就断了", 4.5, GREEN, "middle"))
+    s.append(txt(190, gy + 172, "实心则无处可受：一勺下去就没有余处，用完这一次就断了", 4.5, GREEN, "middle"))
 
     # 二、空腹
     s.append(txt(24, gy + 200, "二、空腹：一勺下去不见底，再来一勺还是不见底", 5.2, SEAL))
@@ -7811,18 +7811,18 @@ def ch04b_yi_zhi_li_qi():
     s.append(f'<path d="M178,{gy2 + 46} q-14,10 0,14 q14,-4 0,-14 z" fill="{PAPER}" stroke="{INK}" stroke-width="0.9"/>')
     s.append(f'<line x1="178" y1="{gy2 + 46}" x2="198" y2="{gy2 + 30}" stroke="{INK}" stroke-width="1.1"/>')
     s.append(arrow(182, gy2 + 62, 188, yb2 - 6, GREEN, 0.8, None, "arr2"))
-    s.append(txt(190, gy2 + 172, "从来不满，所以用不完：不溢不是缺点，是它一直能用的缘故", 4.5, GREEN, "middle"))
+    s.append(txt(190, gy2 + 172, "空的那处，才是它能盛的本钱——器之所以为器，正在此处", 4.5, GREEN, "middle"))
 
     a = gy2 + 200
     s.append(txt(24, a, "道的体就是一个空，不是一个物：问它「是什么」，它答不上来，只能答「能盛」。", 5.4, INK))
     s.append(txt(24, a + 16, "「或不盈」是现象，「有弗盈」是本性——帛书那句多写一个字，说的是它从来不满。", 5.4, INK))
-    s.append(txt(24, a + 34, "所以它用得久：一满就止，不满不止。", 5.2, GREEN))
+    s.append(txt(24, a + 34, "所以器之用在空：没有那处空，青铜再贵也盛不下一勺。", 5.2, GREEN))
 
     c = a + 52
     s.append(f'<line x1="24" y1="{c}" x2="338" y2="{c}" stroke="{LINE}" stroke-width="0.6"/>')
     s.append(box(20, c + 8, 340, 40, fill="#F2EADA", stroke="#C9B79A"))
-    s.append(txt(190, c + 24, "它从来不满，", 6.0, INK, "middle"))
-    s.append(txt(190, c + 36, "所以从来用不完。", 6.0, GREEN, "middle"))
+    s.append(txt(190, c + 24, "一个器之所以为器，", 6.0, INK, "middle"))
+    s.append(txt(190, c + 36, "在那处铸出来的空。", 6.0, GREEN, "middle"))
     s.append(gold(c + 62, "ch04b"))
     s.append('</svg>')
     out = "\n".join(s)
@@ -7842,16 +7842,19 @@ def ch04c_si_bu():
     s.append(txt(190, y + 14, "四句都从「其」字起——「其」指的不是别人，是自己身上那四处。", 5.0, INK, "middle"))
     s.append(txt(190, y + 28, "四步排下来是一条路：先卸锋，再理结，再罩光，最后落到与尘同色。", 5.0, "#6E6459", "middle"))
 
-    def cell(x, y0, lab, sub):
+    def cell(x, y0, lab, sub, ret=""):
         s.append(f'<rect x="{x}" y="{y0}" width="158" height="170" fill="#FBF6EC" stroke="{LINE}" stroke-width="0.8"/>')
         s.append(txt(x + 79, y0 + 18, lab, 5.4, SEAL, "middle"))
         s.append(txt(x + 79, y0 + 32, sub, 4.2, "#8A7C69", "middle"))
+        if ret:
+            s.append(f'<line x1="{x+44}" y1="{y0+152}" x2="{x+114}" y2="{y0+152}" stroke="{LINE}" stroke-width="0.6"/>')
+            s.append(txt(x + 79, y0 + 165, ret, 4.4, GREEN, "middle"))
 
     gx1, gx2 = 22, 200
     gy1, gy2 = y + 56, y + 240
 
     # 一 挫其锐
-    cell(gx1, gy1, "挫其锐", "磨去那句非要说赢的话")
+    cell(gx1, gy1, "挫其锐", "磨去那句非要说赢的话", "归 圆 融")
     cx, cy = gx1 + 79, gy1 + 96
     # 磨石在下面，刀身斜搭上去
     s.append(f'<path d="M{cx - 46},{cy + 26} L{cx + 40},{cy + 26} L{cx + 34},{cy + 38} L{cx - 40},{cy + 38} z" fill="#E4D8BF" stroke="{INK}" stroke-width="0.9"/>')
@@ -7862,16 +7865,16 @@ def ch04c_si_bu():
     s.append(txt(cx + 4, cy + 52, "刀背还在，锋没了", 4.2, GREEN, "middle"))
 
     # 二 解其纷
-    cell(gx2, gy1, "解其纷", "一团乱线，理出三根")
+    cell(gx2, gy1, "解其纷", "一团乱线，理出三根", "归 有 序")
     cx, cy = gx2 + 79, gy1 + 96
     for d in [(0, 1), (1, -1), (2, 2)]:
         s.append(f'<path d="M{cx - 34},{cy - 22 + d[0] * 8} q20,{14 * d[1]} 42,{2 * d[0]} q14,-10 26,{4 * d[1]}" fill="none" stroke="{INK}" stroke-width="0.7" opacity="0.8"/>')
     for k in range(3):
         s.append(arrow(cx - 30, cy + 24 + k * 9, cx + 30, cy + 24 + k * 9, GREEN, 0.7, None, "arr2"))
-    s.append(txt(cx, cy + 62, "不剪断，只理顺", 4.2, GREEN, "middle"))
+    s.append(txt(cx, cy + 50, "不剪断，只理顺", 4.2, GREEN, "middle"))
 
     # 三 和其光
-    cell(gx1, gy2, "和其光", "灯还亮，只是不刺眼")
+    cell(gx1, gy2, "和其光", "灯还亮，只是不刺眼", "归 太 和")
     cx, cy = gx1 + 79, gy2 + 100
     s.append(f'<circle cx="{cx}" cy="{cy}" r="9" fill="#EFE6D4" stroke="{INK}" stroke-width="1"/>')
     for k in range(6):
@@ -7882,7 +7885,7 @@ def ch04c_si_bu():
     s.append(txt(cx, cy + 42, "罩上去，光还在里面", 4.2, GREEN, "middle"))
 
     # 四 同其尘
-    cell(gx2, gy2, "同其尘", "不躲尘，也不让尘显出来")
+    cell(gx2, gy2, "同其尘", "不躲尘，也不让尘显出来", "归 大 同")
     cx, cy = gx2 + 79, gy2 + 100
     s.append(f'<path d="M{cx - 24},{cy - 22} q24,10 48,0 L{cx + 30},{cy + 30} L{cx - 30},{cy + 30} z" fill="#EFE6D4" stroke="{INK}" stroke-width="1"/>')
     for k in range(12):

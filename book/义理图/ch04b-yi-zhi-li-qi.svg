@@ -27,7 +27,7 @@
 <path d="M178,210 q-14,10 0,14 q14,-4 0,-14 z" fill="#F8F3E6" stroke="#2F2A24" stroke-width="0.9"/>
 <line x1="178" y1="210" x2="198" y2="194" stroke="#2F2A24" stroke-width="1.1"/>
 <line x1="182" y1="226" x2="188" y2="230" stroke="#A2503B" stroke-width="0.8" marker-end="url(#arr)"/>
-<text x="190" y="336" font-size="4.5" fill="#4A5C55" text-anchor="middle">装满即止：器满则不受，用到这里就断了</text>
+<text x="190" y="336" font-size="4.5" fill="#4A5C55" text-anchor="middle">实心则无处可受：一勺下去就没有余处，用完这一次就断了</text>
 <text x="24" y="364" font-size="5.2" fill="#A2503B">二、空腹：一勺下去不见底，再来一勺还是不见底</text>
 <rect x="26" y="376" width="328" height="180" fill="#FBF6EC" stroke="#DCCBB0" stroke-width="0.8"/>
 <line x1="40" y1="528" x2="330" y2="528" stroke="#2F2A24" stroke-width="1"/>
@@ -45,14 +45,14 @@
 <path d="M178,422 q-14,10 0,14 q14,-4 0,-14 z" fill="#F8F3E6" stroke="#2F2A24" stroke-width="0.9"/>
 <line x1="178" y1="422" x2="198" y2="406" stroke="#2F2A24" stroke-width="1.1"/>
 <line x1="182" y1="438" x2="188" y2="442" stroke="#4A5C55" stroke-width="0.8" marker-end="url(#arr2)"/>
-<text x="190" y="548" font-size="4.5" fill="#4A5C55" text-anchor="middle">从来不满，所以用不完：不溢不是缺点，是它一直能用的缘故</text>
+<text x="190" y="548" font-size="4.5" fill="#4A5C55" text-anchor="middle">空的那处，才是它能盛的本钱——器之所以为器，正在此处</text>
 <text x="24" y="576" font-size="5.4" fill="#2F2A24">道的体就是一个空，不是一个物：问它「是什么」，它答不上来，只能答「能盛」。</text>
 <text x="24" y="592" font-size="5.4" fill="#2F2A24">「或不盈」是现象，「有弗盈」是本性——帛书那句多写一个字，说的是它从来不满。</text>
-<text x="24" y="610" font-size="5.2" fill="#4A5C55">所以它用得久：一满就止，不满不止。</text>
+<text x="24" y="610" font-size="5.2" fill="#4A5C55">所以器之用在空：没有那处空，青铜再贵也盛不下一勺。</text>
 <line x1="24" y1="628" x2="338" y2="628" stroke="#DCCBB0" stroke-width="0.6"/>
 <rect x="20" y="636" width="340" height="40" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
-<text x="190" y="652" font-size="6.0" fill="#2F2A24" text-anchor="middle">它从来不满，</text>
-<text x="190" y="664" font-size="6.0" fill="#4A5C55" text-anchor="middle">所以从来用不完。</text>
+<text x="190" y="652" font-size="6.0" fill="#2F2A24" text-anchor="middle">一个器之所以为器，</text>
+<text x="190" y="664" font-size="6.0" fill="#4A5C55" text-anchor="middle">在那处铸出来的空。</text>
 <line x1="20" y1="690" x2="360" y2="690" stroke="#E6D8C2" stroke-width="0.8"/>
 <text x="20" y="704" font-size="8.0" fill="#A89577" letter-spacing="1">本 章 金 句</text>
 <text x="20" y="720" font-size="8.4" fill="#2F2A24">道冲，而用之或不盈。</text>
