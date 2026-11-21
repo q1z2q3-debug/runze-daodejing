@@ -1915,16 +1915,14 @@ def ch07c_yi_shan_zhai_men():
 
 
 def ch08b_yi_chu_di_chu():
-    body, y = head(760, 999, "水入玉杯、入瓦盆、入江海，还是同一水；支点也在水里，不在水面上",
-                   "第 八 章 · 本 体", "本体不变，支点在本体",
+    body, y = head(760, 999, "海、云、雨、河在循环，污水死水茶水尿也都是它——形态在变，本体不变",
+                   "第 八 章 · 本 体", "形态在变，本体不变",
                    "净、秽、贵、贱，都是人贴上去的标签——属于相，不属于水。", 999)
     s = [body]
 
     def wave(x0, x1, yy, col=INK, w=0.9, amp=5, step=40):
-        seg = []
-        seg.append(f'<path d="M{x0},{yy}')
-        cx = x0
-        up = True
+        seg = [f'<path d="M{x0},{yy}']
+        cx, up = x0, True
         while cx < x1:
             nx = min(cx + step, x1)
             seg.append(f' Q{(cx + nx) / 2:.1f},{yy + (-amp if up else amp)} {nx},{yy}')
@@ -1933,54 +1931,89 @@ def ch08b_yi_chu_di_chu():
         seg.append(f'" fill="none" stroke="{col}" stroke-width="{w}"/>')
         return "".join(seg)
 
-    s.append(txt(24, y + 52, "一、三处容器：位置不同，相不同，水还是水", 9.6, GREEN))
-    y0 = y + 64
-    s.append(box(24, y0, 712, 206, fill="#FBF6EC", stroke=LINE))
-    cxa, ty = 140, y0 + 40
-    s.append(f'<polygon points="{cxa - 34},{ty} {cxa + 34},{ty} {cxa + 24},{ty + 64} {cxa - 24},{ty + 64}" fill="#F8F3E6" stroke="{INK}" stroke-width="1.1"/>')
-    s.append(f'<polygon points="{cxa - 30},{ty + 26} {cxa + 30},{ty + 26} {cxa + 22},{ty + 62} {cxa - 22},{ty + 62}" fill="#E4EAE0" stroke="none"/>')
-    s.append(wave(cxa - 30, cxa + 30, ty + 26, INK, 0.7, 2, 15))
-    s.append(txt(cxa, ty - 10, "玉杯", 8.2, "#6E6459", "middle"))
-    s.append(txt(cxa, y0 + 134, "净：人捧着", 9, INK, "middle"))
-    s.append(txt(cxa, y0 + 150, "摆在案上、献在堂前", 8, "#6E6459", "middle"))
-    cxb = 364
-    s.append(f'<polygon points="{cxb - 46},{ty + 12} {cxb + 46},{ty + 12} {cxb + 28},{ty + 64} {cxb - 28},{ty + 64}" fill="#F8F3E6" stroke="{INK}" stroke-width="1.1"/>')
-    s.append(f'<polygon points="{cxb - 42},{ty + 34} {cxb + 42},{ty + 34} {cxb + 27},{ty + 62} {cxb - 27},{ty + 62}" fill="#DCD0B4" stroke="none"/>')
-    s.append(wave(cxb - 42, cxb + 42, ty + 34, INK, 0.7, 2, 20))
-    for px, py in ((-24, 44), (-6, 52), (16, 46), (30, 56), (-14, 58)):
-        s.append(f'<circle cx="{cxb + px}" cy="{ty + py}" r="1.2" fill="#8A7A5E"/>')
-    s.append(txt(cxb, ty - 10, "瓦盆", 8.2, "#6E6459", "middle"))
-    s.append(txt(cxb, y0 + 134, "秽：人绕着走", 9, INK, "middle"))
-    s.append(txt(cxb, y0 + 150, "洗过东西、搁在墙根", 8, "#6E6459", "middle"))
-    cxc = 588
-    s.append(f'<rect x="{cxc - 72}" y="{ty + 30}" width="144" height="44" fill="#E4EAE0" stroke="none"/>')
-    s.append(wave(cxc - 72, cxc + 72, ty + 30, INK, 0.9, 4, 36))
-    s.append(f'<line x1="{cxc - 72}" y1="{ty + 74}" x2="{cxc + 72}" y2="{ty + 74}" stroke="{LINE}" stroke-width="0.6"/>')
-    for rx in (cxc - 54, cxc - 18, cxc + 18, cxc + 54):
-        s.append(f'<path d="M{rx},{ty - 6} C {rx + 5},{ty + 8} {rx + 3},{ty + 18} {rx},{ty + 26}" fill="none" stroke="{GREEN}" stroke-width="0.9"/>')
-        s.append(arrow(rx, ty + 16, rx, ty + 27, GREEN, 0.8, None, "arrS"))
-    s.append(txt(cxc, ty - 10, "江海", 8.2, "#6E6459", "middle"))
-    s.append(txt(cxc, y0 + 134, "下：众流来归", 9, INK, "middle"))
-    s.append(txt(cxc, y0 + 150, "它没有去召谁", 8, "#6E6459", "middle"))
-    s.append(txt(380, y0 + 184, "三处三样相，一水一体：净也受，秽也受，众流也受——受完了，它没变。", 9.2, SEAL, "middle"))
+    # 一、天地循环
+    def h2o(x, y, size, fill, anchor="middle"):
+        a = f' text-anchor="{anchor}"' if anchor != "start" else ""
+        d = size * 0.24
+        return (f'<text x="{x}" y="{y}" font-size="{size}" fill="{fill}"{a}>H'
+                f'<tspan dy="{d:.1f}" font-size="{size * 0.66:.1f}">2</tspan>'
+                f'<tspan dy="{-d:.1f}" font-size="{size}">O</tspan></text>')
 
-    s.append(txt(24, y0 + 236, "二、支点在哪儿：相上，还是本体", 9.6, GREEN))
-    y1 = y0 + 250
+    def cloud(cx, cy, sc=1.0):
+        out = []
+        for dx, dy, rx, ry in ((-18, 0, 15, 11), (2, -8, 19, 14), (22, 1, 13, 10)):
+            out.append(f'<ellipse cx="{cx + dx * sc}" cy="{cy + dy * sc}" rx="{rx * sc}" ry="{ry * sc}" fill="#F2EADA" stroke="{INK}" stroke-width="0.8"/>')
+        return "".join(out)
+
+    s.append(txt(24, y + 52, "一、它在转：海、云、雨、河，一直在换衣服", 9.6, GREEN))
+    y0 = y + 64
+    s.append(box(24, y0, 712, 300, fill="#FBF6EC", stroke=LINE))
+    yy = y0 + 216
+    s.append(f'<rect x="40" y="{yy}" width="680" height="{y0 + 300 - yy}" fill="#E4EAE0" stroke="none"/>')
+    s.append(wave(40, 720, yy, INK, 1.0, 5, 40))
+    s.append(txt(56, yy - 8, "海", 8.6, "#6E6459"))
+    s.append(h2o(380, y0 + 268, 30, GREEN))
+    s.append(cloud(250, y0 + 60))
+    s.append(cloud(430, y0 + 56))
+    s.append(txt(250, y0 + 26, "云", 8.4, "#6E6459", "middle"))
+    for rx in (356, 376, 396, 416, 436, 456):
+        s.append(f'<line x1="{rx}" y1="{y0 + 86}" x2="{rx + 8}" y2="{y0 + 148}" stroke="{GREEN}" stroke-width="0.9"/>')
+    s.append(txt(492, y0 + 118, "雨", 8.4, "#6E6459", "middle"))
+    s.append(f'<path d="M470,{y0 + 150} C 560,{y0 + 158} 610,{y0 + 186} 672,{yy - 6}" fill="none" stroke="{GREEN}" stroke-width="2.6"/>')
+    s.append(f'<path d="M468,{y0 + 156} C 558,{y0 + 164} 608,{y0 + 192} 674,{yy - 2}" fill="none" stroke="{GREEN}" stroke-width="0.7"/>')
+    s.append(txt(646, y0 + 146, "河", 8.4, "#6E6459", "middle"))
+    s.append(f'<path d="M88,{yy - 10} q7,-18 0,-30 q-7,-16 2,-26" fill="none" stroke="{GREEN}" stroke-width="0.9"/>')
+    s.append(arrow(120, yy - 8, 120, y0 + 96, GREEN, 1.0, None, "arrS"))
+    s.append(txt(150, y0 + 152, "蒸发", 8.4, "#6E6459", "start"))
+    s.append(arrow(206, y0 + 78, 224, y0 + 52, GREEN, 0.9, None, "arrS"))
+    s.append(arrow(470, y0 + 60, 486, y0 + 84, GREEN, 0.9, None, "arrS"))
+    s.append(arrow(690, yy - 32, 664, yy - 6, GREEN, 0.9, None, "arrS"))
+    s.append(txt(356, y0 + 200, "上天是汽，落地是雨，汇流是河，归处是海——换的只是相。", 9, SEAL, "middle"))
+
+    # 二、人间的水
+    s.append(txt(24, y0 + 336, "二、人间的水：洗过的、放坏的、泡开的、尿出来的", 9.6, GREEN))
+    y0b = y0 + 348
+    s.append(box(24, y0b, 712, 176, fill="#FBF6EC", stroke=LINE))
+    ty = y0b + 18
+    items = ((110, "#B9AE93", "污水", "洗过的", "渣还浮着"), (290, "#9FAE8E", "死水", "放坏的", "不动、发绿"),
+             (470, "#B98A52", "茶", "泡开的", "汤色深了"), (650, "#D8C070", "尿", "尿出来的", "起了泡"))
+    for cx, col, nm, why, note in items:
+        s.append(f'<polygon points="{cx - 30},{ty} {cx + 30},{ty} {cx + 23},{ty + 66} {cx - 23},{ty + 66}" fill="#F8F3E6" stroke="{INK}" stroke-width="1.0"/>')
+        s.append(f'<polygon points="{cx - 27},{ty + 18} {cx + 27},{ty + 18} {cx + 21},{ty + 64} {cx - 21},{ty + 64}" fill="{col}" stroke="none"/>')
+        if nm == "污水":
+            for px, py in ((-12, 30), (6, 40), (14, 26), (-4, 52)):
+                s.append(f'<rect x="{cx + px}" y="{ty + py}" width="4" height="3" fill="#6E6459"/>')
+        elif nm == "死水":
+            s.append(f'<line x1="{cx - 26}" y1="{ty + 18}" x2="{cx + 26}" y2="{ty + 18}" stroke="{INK}" stroke-width="0.9"/>')
+            for px, py in ((-10, 34), (8, 44)):
+                s.append(f'<circle cx="{cx + px}" cy="{ty + py}" r="2.2" fill="#5F7250"/>')
+        elif nm == "茶":
+            s.append(wave(cx - 26, cx + 26, ty + 18, INK, 0.7, 2, 18))
+        else:
+            for px in (-12, 2, 14):
+                s.append(f'<circle cx="{cx + px}" cy="{ty + 20}" r="2.6" fill="none" stroke="{INK}" stroke-width="0.7"/>')
+        s.append(txt(cx, ty + 92, nm, 9.4, INK, "middle"))
+        s.append(txt(cx, ty + 108, why + "，" + note, 8, "#6E6459", "middle"))
+    s.append(txt(380, y0b + 158, "这四样倒进海里，还是同一水——人给它贴的是名，不是性。", 9.2, SEAL, "middle"))
+
+    # 三、支点在哪
+    s.append(txt(24, y0 + 556, "三、支点在哪儿：相上，还是本体", 9.6, GREEN))
+    y1 = y0 + 568
     for bx in (24, 386):
-        s.append(box(bx, y1, 350, 232, fill="#FBF6EC", stroke=LINE))
-    s.append(f'<rect x="34" y="{y1 + 150}" width="330" height="70" fill="#E4EAE0" stroke="none"/>')
+        s.append(box(bx, y1, 350, 236, fill="#FBF6EC", stroke=LINE))
+    s.append(f'<rect x="34" y="{y1 + 150}" width="330" height="74" fill="#E4EAE0" stroke="none"/>')
     s.append(wave(34, 364, y1 + 150, INK, 0.9, 6, 42))
     s.append(f'<line x1="80" y1="{y1 + 138}" x2="310" y2="{y1 + 124}" stroke="{INK}" stroke-width="2"/>')
+    s.append(f'<line x1="195" y1="{y1 + 131}" x2="195" y2="{y1 + 150}" stroke="{SEAL}" stroke-width="1.6"/>')
+    s.append(f'<circle cx="195" cy="{y1 + 150}" r="2" fill="{SEAL}"/>')
     s.append(f'<circle cx="274" cy="{y1 + 102}" r="5" fill="none" stroke="{SEAL}" stroke-width="1.1"/>')
     s.append(f'<line x1="269" y1="{y1 + 107}" x2="247" y2="{y1 + 131}" stroke="{SEAL}" stroke-width="1.1"/>')
     s.append(f'<line x1="247" y1="{y1 + 131}" x2="237" y2="{y1 + 146}" stroke="{SEAL}" stroke-width="1"/>')
     s.append(f'<line x1="247" y1="{y1 + 131}" x2="256" y2="{y1 + 147}" stroke="{SEAL}" stroke-width="1"/>')
-    s.append(f'<line x1="195" y1="{y1 + 131}" x2="195" y2="{y1 + 150}" stroke="{SEAL}" stroke-width="1.6"/>')
-    s.append(f'<circle cx="195" cy="{y1 + 150}" r="2" fill="{SEAL}"/>')
     s.append(txt(199, y1 + 30, "支点长在相上", 10, SEAL, "middle", spacing="1"))
     s.append(txt(199, y1 + 52, "要好位置、好评价、好名声", 8.4, "#6E6459", "middle"))
     s.append(txt(199, y1 + 200, "相一动，人就翻", 9.4, SEAL, "middle"))
-    s.append(f'<rect x="396" y="{y1 + 150}" width="330" height="70" fill="#E4EAE0" stroke="none"/>')
+    s.append(f'<rect x="396" y="{y1 + 150}" width="330" height="74" fill="#E4EAE0" stroke="none"/>')
     s.append(wave(396, 726, y1 + 150, INK, 0.9, 6, 42))
     s.append(f'<line x1="561" y1="{y1 + 128}" x2="561" y2="{y1 + 204}" stroke="{INK}" stroke-width="2"/>')
     s.append(f'<rect x="501" y="{y1 + 204}" width="120" height="16" fill="#DDE4D8" stroke="{INK}" stroke-width="0.8"/>')
@@ -1993,7 +2026,7 @@ def ch08b_yi_chu_di_chu():
     s.append(txt(466, y1 + 182, "相照旧变，人不翻", 9.4, GREEN, "start"))
     s.append(txt(561, y1 + 216, "本体", 7.6, INK, "middle"))
 
-    y2 = y1 + 256
+    y2 = y1 + 262
     s.append(box(24, y2, 712, 60, fill="#F2EADA", stroke="#C9B79A"))
     s.append(txt(380, y2 + 26, "几于道落回人身：不是把外境摆平，是把支点挪进来。", 10, INK, "middle"))
     s.append(txt(380, y2 + 46, "逆境照样来，只是不再添一层自造的苦——这才叫无尤。", 9, "#5F564C", "middle"))
