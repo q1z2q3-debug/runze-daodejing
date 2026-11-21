@@ -215,29 +215,32 @@ def ch01_miao_jiao():
 
 
 def ch02_liu_zu():
-    W, H = 380, 622
-    body, y = head(W, H, "六组对偶：执名则生对立", "第 二 章 · 对 照", "六组对偶",
-                   "名一立，对面就跟着立；六组全是同一件事。", H)
+    W, H = 420, 648
+    body, y = head(W, H, "六组对偶：六个关系字，不可互换", "第 二 章 · 对 照", "六组对偶",
+                   "六句六字，不是六次同义；认出是哪一种关系，才知该护哪一处。", H)
     s = [body]
-    pairs = [("有", "无"), ("难", "易"), ("长", "短"), ("高", "下"), ("音", "声"), ("前", "后")]
-    yb = y + 4
-    rowh = 40
-    for i, (a, b) in enumerate(pairs):
+    rows = [("有", "无", "生", "互为源"), ("难", "易", "成", "互为功"),
+            ("长", "短", "形", "互为尺"), ("高", "下", "倾", "互为势"),
+            ("音", "声", "和", "互为应"), ("前", "后", "随", "互为序")]
+    yb = y + 26
+    rowh = 46
+    s.append(txt(89, yb - 12, "一 端", 9, "#6E6459", "middle", spacing="1"))
+    s.append(txt(210, yb - 12, "关 系 字", 9, "#6E6459", "middle", spacing="1"))
+    s.append(txt(331, yb - 12, "另 一 端", 9, "#6E6459", "middle", spacing="1"))
+    for i, (a, b, ch, kind) in enumerate(rows):
         yy = yb + i * rowh
-        s.append(f'<rect x="20" y="{yy}" width="150" height="{rowh - 8}" fill="#FBF6EC" stroke="{LINE2}"/>')
-        s.append(f'<rect x="210" y="{yy}" width="150" height="{rowh - 8}" fill="#FBF6EC" stroke="{LINE2}"/>')
-        s.append(txt(95, yy + 23, a, 12, SEAL, "middle"))
-        s.append(txt(285, yy + 23, b, 12, SEAL, "middle"))
-        s.append(f'<path d="M 178 {yy + 16} L 202 {yy + 16}" stroke="{GREEN}" stroke-width="1" '
-                 f'marker-start="url(#arrL)" marker-end="url(#arr)"/>')
-    yend = yb + len(pairs) * rowh
-    s.append(txt(190, yb - 8, "名 之 一 侧", 10, "#6E6459", "middle", spacing="1"))
-    s.append(txt(190, yend + 18, "相 生 相 成：无此则无彼", 10.5, GREEN, "middle", spacing="1"))
-    # 结论
-    s.append(box(20, yend + 34, 340, 76, fill="#F2EADA", stroke="#C9B79A"))
-    s.append(txt(32, yend + 60, "是以圣人处无为之事", 12.5, INK))
-    s.append(txt(32, yend + 82, "不立这把尺，故不随之起倒；行不言之教，事成而不居。", 10.5, "#6E6459"))
-    s.append(txt(32, yend + 100, "执一岸，必被另一岸牵着走。", 10.5, SEAL))
+        s.append(f'<rect x="20" y="{yy}" width="138" height="40" fill="#FBF6EC" stroke="{LINE2}"/>')
+        s.append(f'<rect x="262" y="{yy}" width="138" height="40" fill="#FBF6EC" stroke="{LINE2}"/>')
+        s.append(txt(89, yy + 26, a, 14, SEAL, "middle"))
+        s.append(txt(210, yy + 20, ch, 17, INK, "middle"))
+        s.append(txt(210, yy + 35, kind, 8.4, GREEN, "middle", spacing="1"))
+        s.append(txt(331, yy + 26, b, 14, SEAL, "middle"))
+    yend = yb + len(rows) * rowh
+    s.append(txt(210, yend + 18, "六个字，六种作用方式；塌成一句，后面就无据可依", 9.8, SEAL, "middle"))
+    s.append(box(20, yend + 34, 380, 84, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(34, yend + 62, "是以圣人处无为之事", 12.5, INK))
+    s.append(txt(34, yend + 84, "不立这把尺，故不随之起倒；行不言之教，事成而不居。", 10.2, "#6E6459"))
+    s.append(txt(34, yend + 104, "执一岸，必被另一岸牵着走。", 10.2, SEAL))
     s.append(gold(H - 68, "ch02a"))
     s.append('</svg>')
     return "\n".join(s)
@@ -7496,7 +7499,7 @@ def ch02b_yi_gen_biao_gan():
 def ch02c_liang_zhi_guan():
     W, H = 380, 999
     body, y = head(W, H, "和是两套管各自守节、一唱一应；合是把两套并成一套，只留一个声音",
-                   "第 二 章 · 和", "两只管子", "音声相和，前后相随。", H)
+                   "第 二 章 · 和", "两只管子", "音声相和：一唱一应，各自成声。", H)
     s = [body]
 
     s.append(box(20, y + 2, 340, 34, fill="#F2EADA", stroke="#C9B79A"))
@@ -7934,7 +7937,7 @@ GOLD = {
     "ch01a": ["此两者同出而异名，同谓之玄。", "往下看是未形，往上看见界；两边是同一件事的两个取景。"],
     "ch01b": ["无，名天地之始；有，名万物之母。", "不是两个东西，是同一个场的两种取景。"],
     "ch01c": ["道可道，非常道。", "手指指月，人常盯着手指；三层就是把手指松开。"],
-    "ch02a": ["有无相生，难易相成。", "名一立，对面就跟着立；六组全是同一件事。"],
+    "ch02a": ["有无相生，难易相成。", "六句六字，不是六次同义；认准是哪一种关系，才知该护哪一处。"],
     "ch03a": ["不尚贤，使民不争。", "壁在，空才用得起；壁胀了，空就用不上。"],
     "ch04a": ["道冲而用之或不盈。", "装不满不是不够，是它不让自己被装满。"],
     "ch05a": ["虚而不屈，动而愈出。", "读成点就成了折中；读成枢，才知道它一直在动。"],
@@ -7967,7 +7970,7 @@ GOLD = {
     "ch05b": ["天地不仁，以万物为刍狗。", "刍者，束草也；刍狗有位而无主——用毕回草堆，不是被弃，是位次用完了。"],
     "ch05c": ["多言数穷，不如守中。", "穷者，路走到头也；锁在 0、锁在 1、锁在自以为稳的中间——枢不动，机就死。"],
     "ch02b": ["天下皆知美之为美，斯恶已。", "立美那一刻，丑才成立——不是先有丑，再立美。"],
-    "ch02c": ["音声相和，前后相随。", "和者，《说文》「相应也」；龢从龠从禾，训「调」——一唱一应，各自成声。"],
+    "ch02c": ["音声相和，前后相随。", "和是异质守节、应答生第三物；合是抹平边界，只留一个声音。"],
     "ch03b": ["不尚贤，使民不争；不贵难得之货，使民不为盗。", "尚者，抬之使高也；贵者，标之使重也——三个「不」，是一个动作：不主动起标。"],
     "ch03c": ["虚其心，实其腹；弱其志，强其骨。", "虚者，器中之空也；实者，壁之厚也——空在，壁才用得起来。"],
     "ch04b": ["道冲，而用之或不盈。", "冲者，虚也；《说文》「盅，器虚也」——器之所以为器，正在那处铸出来的空。"],

@@ -136,8 +136,12 @@ def build(n):
     if order:
         rows.sort(key=lambda r: order.index(r["file"]) if r["file"] in order else 99)
     ch_name = rows and f"第{n}章"
-    title_map = {1: "道可道，非常道"}
     zh = cn_zh(n)
+    title_map = {1: "道可道，非常道"}
+    md = (ROOT / "book/道可道·道德经心法读本（全本）.md").read_text(encoding="utf8")
+    mm = re.search(rf"^# 第{zh}章｜(.+)$", md, flags=re.M)
+    if mm:
+        title_map[n] = mm.group(1).strip()
     chapter_title = title_map.get(n, "")
     review = parse_review(n, chapter_title)
     ver = (ROOT / "VERSION").read_text().strip()

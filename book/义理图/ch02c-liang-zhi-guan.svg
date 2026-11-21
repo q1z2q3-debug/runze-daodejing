@@ -4,7 +4,7 @@
 <rect x="0" y="0" width="380" height="728" fill="#F8F3E6"/>
 <text x="20" y="26" font-size="11" fill="#A2503B" font-family="'Noto Sans CJK SC','Noto Sans SC',sans-serif" letter-spacing="3">第 二 章 · 和</text>
 <text x="20" y="58" font-size="21" fill="#2F2A24">两只管子</text>
-<text x="20" y="78" font-size="10.5" fill="#6E6459">音声相和，前后相随。</text>
+<text x="20" y="78" font-size="10.5" fill="#6E6459">音声相和：一唱一应，各自成声。</text>
 <rect x="20" y="102" width="340" height="34" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
 <text x="190" y="114" font-size="5.0" fill="#2F2A24" text-anchor="middle">「龢」从龠从禾，龠是编管——和这个字本来就说的是吹管之事，不是抹平。</text>
 <text x="190" y="128" font-size="5.0" fill="#6E6459" text-anchor="middle">两管长短不同，各发各的声；一吹一应，声在中间才成了第三样东西。</text>
@@ -52,5 +52,5 @@
 <line x1="20" y1="656" x2="360" y2="656" stroke="#E6D8C2" stroke-width="0.8"/>
 <text x="20" y="670" font-size="8.0" fill="#A89577" letter-spacing="1">本 章 金 句</text>
 <text x="20" y="686" font-size="8.4" fill="#2F2A24">音声相和，前后相随。</text>
-<text x="20" y="702" font-size="8.4" fill="#2F2A24">和者，《说文》「相应也」；龢从龠从禾，训「调」——一唱一应，各自成声。</text>
+<text x="20" y="702" font-size="8.4" fill="#2F2A24">和是异质守节、应答生第三物；合是抹平边界，只留一个声音。</text>
 </svg>
