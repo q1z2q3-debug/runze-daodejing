@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 380 540" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="无状之状，无物之象：边看得见，却定不住" font-family="'Noto Serif CJK SC','Noto Serif SC','Songti SC',serif">
+<defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#6E6459"/></marker><marker id="arr2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#4A5C55"/></marker><marker id="arrL" viewBox="0 0 10 10" refX="1" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M10 0 L0 5 L10 10 z" fill="#4A5C55"/></marker><marker id="arrS" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#A2503B"/></marker></defs>
+<rect x="0" y="0" width="380" height="540" fill="#F8F3E6"/>
+<text x="20" y="26" font-size="11" fill="#A2503B" font-family="'Noto Sans CJK SC','Noto Sans SC',sans-serif" letter-spacing="3">第 十 四 章 · 道 体</text>
+<text x="20" y="58" font-size="21" fill="#2F2A24">定不住的边</text>
+<text x="20" y="78" font-size="10.5" fill="#6E6459">一固定，就只能是一物；不固定，才能是一切物的背景。</text>
+<rect x="20" y="102" width="340" height="34" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="190" y="114" font-size="4.9" fill="#2F2A24" text-anchor="middle">它没有一切有形物象的形状，却能生一切形状。</text>
+<text x="190" y="128" font-size="4.9" fill="#6E6459" text-anchor="middle">不是它藏得深，是它根本没有一副定得住的脸。</text>
+<text x="24" y="156" font-size="5.1" fill="#A2503B">一、无状之状：框在，边却定不住</text>
+<line x1="36" y1="170" x2="36" y2="266" stroke="#2F2A24" stroke-width="1.1"/>
+<line x1="36" y1="170" x2="98" y2="170" stroke="#2F2A24" stroke-width="1.1"/>
+<line x1="104" y1="170" x2="110" y2="170" stroke="#2F2A24" stroke-width="1.0" opacity="0.5"/>
+<line x1="113" y1="170" x2="119" y2="170" stroke="#2F2A24" stroke-width="1.0" opacity="0.5"/>
+<line x1="122" y1="170" x2="128" y2="170" stroke="#2F2A24" stroke-width="1.0" opacity="0.5"/>
+<line x1="128" y1="176" x2="128" y2="184" stroke="#2F2A24" stroke-width="1.0" opacity="0.45"/>
+<line x1="128" y1="199" x2="128" y2="207" stroke="#2F2A24" stroke-width="1.0" opacity="0.45"/>
+<line x1="128" y1="222" x2="128" y2="230" stroke="#2F2A24" stroke-width="1.0" opacity="0.45"/>
+<line x1="128" y1="245" x2="128" y2="253" stroke="#2F2A24" stroke-width="1.0" opacity="0.45"/>
+<line x1="36" y1="266" x2="128" y2="266" stroke="#2F2A24" stroke-width="1.0" stroke-dasharray="8 6" opacity="0.7"/>
+<text x="82" y="282" font-size="4.5" fill="#6E6459" text-anchor="middle">四边都在，只是凑不成一个死框</text>
+<text x="150" y="212" font-size="4.4" fill="#8A7C69">这边还没定死</text>
+<rect x="278" y="186" width="16" height="16" fill="#F8F3E6" stroke="#2F2A24" stroke-width="1.0"/>
+<text x="286" y="178" font-size="4.6" fill="#6E6459" text-anchor="middle">方</text>
+<circle cx="300" cy="226" r="8" fill="#F8F3E6" stroke="#2F2A24" stroke-width="1.0"/>
+<text x="300" y="246" font-size="4.6" fill="#6E6459" text-anchor="middle">圆</text>
+<path d="M280,274 L290,260 L300,274 z" fill="#F8F3E6" stroke="#2F2A24" stroke-width="1.0"/>
+<text x="288" y="288" font-size="4.6" fill="#6E6459" text-anchor="middle">角</text>
+<line x1="134" y1="204" x2="271" y2="194" stroke="#4A5C55" stroke-width="0.8" stroke-dasharray="4 3" marker-end="url(#arr2)"/>
+<line x1="130" y1="224" x2="287" y2="222" stroke="#4A5C55" stroke-width="0.8" stroke-dasharray="4 3" marker-end="url(#arr2)"/>
+<line x1="134" y1="244" x2="275" y2="266" stroke="#4A5C55" stroke-width="0.8" stroke-dasharray="4 3" marker-end="url(#arr2)"/>
+<text x="190" y="300" font-size="4.8" fill="#4A5C55" text-anchor="middle">无物之象：形从这里生，它自己不成形。</text>
+<text x="24" y="326" font-size="4.7" fill="#6E6459">它不给自己定形，所以能当一切形的底；框若钉死成一格，就只能装那一格的东西。</text>
+<rect x="20" y="342" width="340" height="42" fill="#FBF6EC" stroke="#DCCBB0" stroke-width="1.0"/>
+<text x="190" y="357" font-size="5.4" fill="#2F2A24" text-anchor="middle">是谓惚恍：非空非有，非动非静。</text>
+<text x="190" y="373" font-size="4.9" fill="#4A5C55" text-anchor="middle">不是糊里糊涂，是没有固定相——所以能显一切相。</text>
+<line x1="190" y1="400" x2="190" y2="452" stroke="#DCCBB0" stroke-width="0.7"/>
+<text x="34" y="412" font-size="5.2" fill="#A2503B">固定</text>
+<text x="34" y="428" font-size="4.6" fill="#6E6459">一张脸、一种说法、</text>
+<text x="34" y="442" font-size="4.6" fill="#6E6459">一个答案。只能是一物。</text>
+<text x="214" y="412" font-size="5.2" fill="#4A5C55">不固定</text>
+<text x="214" y="428" font-size="4.6" fill="#6E6459">无状之状，无物之象，</text>
+<text x="214" y="442" font-size="4.6" fill="#6E6459">才做得万物共同的底。</text>
+<line x1="20" y1="468" x2="360" y2="468" stroke="#E6D8C2" stroke-width="0.8"/>
+<text x="20" y="482" font-size="8.0" fill="#A89577" letter-spacing="1">本 章 金 句</text>
+<text x="20" y="498" font-size="8.4" fill="#2F2A24">无状之状，无物之象。</text>
+<text x="20" y="514" font-size="8.4" fill="#2F2A24">一固定就只能是一物；不固定，才能是一切物的背景。</text>
+</svg>

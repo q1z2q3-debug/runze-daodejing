@@ -3161,39 +3161,68 @@ def ch13c_bao_yu_tuo():
 
 
 # ============ 第十四章 · 视之不见 ============
-def ch14_yi_xi_wei():
-    W, H = 380, 418
-    body, y = head(W, H, "把「看得见才算有」降回局部工具", "第 十 四 章 · 道 体", "三样工具探不到",
-                   "探不到不等于没有；探得到也不等于全部。", H)
+def ch14_ding_bu_zhu_de_bian():
+    body, y = head(380, 999, "无状之状，无物之象：边看得见，却定不住",
+                   "第 十 四 章 · 道 体", "定不住的边",
+                   "一固定，就只能是一物；不固定，才能是一切物的背景。", 999)
     s = [body]
-    rows = [("视之不见", "夷", "眼睛这条线，走到这里就断了"),
-            ("听之不闻", "希", "耳朵这条线，走到这里就断了"),
-            ("搏之不得", "微", "手这条线，走到这里就断了")]
-    y0 = y + 8
-    for i, (a, name, note) in enumerate(rows):
-        yy = y0 + i * 34
-        s.append(txt(20, yy + 15, a, 9.5, SEAL))
-        s.append(txt(102, yy + 15, name, 10, GREEN))
-        s.append(f'<line x1="122" y1="{yy+11}" x2="200" y2="{yy+11}" stroke="{LINE}" stroke-width="1"/>')
-        s.append(txt(206, yy + 15, note, 8.2, "#6E6459"))
-    y1 = y0 + 3 * 34 + 6
-    s.append(arrow(190, y1 + 4, 190, y1 + 14, color="#A2503B", head="arrS"))
-    y2 = y1 + 6
-    s.append(box(60, y2, 260, 40, fill="#F6EFE0", stroke="#C9B79A"))
-    s.append(txt(190, y2 + 17, "此三者不可致诘，故混而为一", 9.8, INK, "middle"))
-    s.append(txt(190, y2 + 33, "三条线都断，断处却指着同一个东西。", 8.4, "#6E6459", "middle"))
-    y3 = y2 + 58
-    s.append(txt(20, y3, "惚恍：其上不皦，其下不昧；迎之不见其首，随之不见其后。", 8.6, "#8A7C69"))
-    yc = y3 + 12
-    s.append(box(20, yc, 340, 44, fill="#F2EADA", stroke="#C9B79A"))
-    s.append(txt(190, yc + 19, "执古之道，以御今之有。", 10.5, INK, "middle", spacing="1"))
-    s.append(txt(190, yc + 35, "能知古始，是谓道纪：不是复古，是拿源流来看眼前。", 8.4, "#6E6459", "middle"))
-    s.append(gold(yc + 52, "ch14"))
+    s.append(box(20, y + 2, 340, 34, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, y + 14, "它没有一切有形物象的形状，却能生一切形状。", 4.9, INK, "middle"))
+    s.append(txt(190, y + 28, "不是它藏得深，是它根本没有一副定得住的脸。", 4.9, "#6E6459", "middle"))
+
+    s.append(txt(24, y + 56, "一、无状之状：框在，边却定不住", 5.1, SEAL))
+    gy = y + 70
+    fx0, fy0, fw, fh = 36, gy, 92, 96
+    # 左、上：实；右、下：散成断续
+    s.append(f'<line x1="{fx0}" y1="{fy0}" x2="{fx0}" y2="{fy0 + fh}" stroke="{INK}" stroke-width="1.1"/>')
+    s.append(f'<line x1="{fx0}" y1="{fy0}" x2="{fx0 + 62}" y2="{fy0}" stroke="{INK}" stroke-width="1.1"/>')
+    for k in range(3):
+        s.append(f'<line x1="{fx0 + 68 + k * 9}" y1="{fy0}" x2="{fx0 + 74 + k * 9}" y2="{fy0}" '
+                 f'stroke="{INK}" stroke-width="1.0" opacity="0.5"/>')
+    for k in range(4):
+        s.append(f'<line x1="{fx0 + fw}" y1="{fy0 + 6 + k * 23}" x2="{fx0 + fw}" y2="{fy0 + 14 + k * 23}" '
+                 f'stroke="{INK}" stroke-width="1.0" opacity="0.45"/>')
+    s.append(f'<line x1="{fx0}" y1="{fy0 + fh}" x2="{fx0 + fw}" y2="{fy0 + fh}" stroke="{INK}" '
+             f'stroke-width="1.0" stroke-dasharray="8 6" opacity="0.7"/>')
+    s.append(txt(fx0 + 46, fy0 + fh + 16, "四边都在，只是凑不成一个死框", 4.5, "#6E6459", "middle"))
+
+    # 形从虚边里出来
+    sx = 286
+    s.append(txt(150, gy + 42, "这边还没定死", 4.4, "#8A7C69"))
+
+    s.append(f'<rect x="{sx - 8}" y="{gy + 16}" width="16" height="16" fill="{PAPER}" stroke="{INK}" stroke-width="1.0"/>')
+    s.append(txt(sx, gy + 8, "方", 4.6, "#6E6459", "middle"))
+    s.append(f'<circle cx="{sx + 14}" cy="{gy + 56}" r="8" fill="{PAPER}" stroke="{INK}" stroke-width="1.0"/>')
+    s.append(txt(sx + 14, gy + 76, "圆", 4.6, "#6E6459", "middle"))
+    s.append(f'<path d="M{sx - 6},{gy + 104} L{sx + 4},{gy + 90} L{sx + 14},{gy + 104} z" fill="{PAPER}" stroke="{INK}" stroke-width="1.0"/>')
+    s.append(txt(sx + 2, gy + 118, "角", 4.6, "#6E6459", "middle"))
+    s.append(arrow(fx0 + fw + 6, gy + 34, sx - 15, gy + 24, GREEN, 0.8, "4 3", "arr2"))
+    s.append(arrow(fx0 + fw + 2, gy + 54, sx + 1, gy + 52, GREEN, 0.8, "4 3", "arr2"))
+    s.append(arrow(fx0 + fw + 6, gy + 74, sx - 11, gy + 96, GREEN, 0.8, "4 3", "arr2"))
+
+    s.append(txt(190, gy + 130, "无物之象：形从这里生，它自己不成形。", 4.8, GREEN, "middle"))
+    s.append(txt(24, gy + 156, "它不给自己定形，所以能当一切形的底；框若钉死成一格，就只能装那一格的东西。", 4.7, "#6E6459"))
+
+    yb = gy + 172
+    s.append(box(20, yb, 340, 42, fill="#FBF6EC", stroke=LINE))
+    s.append(txt(190, yb + 15, "是谓惚恍：非空非有，非动非静。", 5.4, INK, "middle"))
+    s.append(txt(190, yb + 31, "不是糊里糊涂，是没有固定相——所以能显一切相。", 4.9, GREEN, "middle"))
+
+    yy = yb + 58
+    s.append(f'<line x1="190" y1="{yy}" x2="190" y2="{yy + 52}" stroke="{LINE}" stroke-width="0.7"/>')
+    s.append(txt(34, yy + 12, "固定", 5.2, SEAL))
+    s.append(txt(34, yy + 28, "一张脸、一种说法、", 4.6, "#6E6459"))
+    s.append(txt(34, yy + 42, "一个答案。只能是一物。", 4.6, "#6E6459"))
+    s.append(txt(214, yy + 12, "不固定", 5.2, GREEN))
+    s.append(txt(214, yy + 28, "无状之状，无物之象，", 4.6, "#6E6459"))
+    s.append(txt(214, yy + 42, "才做得万物共同的底。", 4.6, "#6E6459"))
+    s.append(gold(yy + 68, "ch14a"))
     s.append('</svg>')
-    return "\n".join(s)
+    out = "\n".join(s)
+    ys = [float(v) for v in re.findall(r'y="([0-9.]+)"', out)]
+    return out.replace("999", str(int(max(ys) + 26)))
 
 
-# ============ 第十五章 · 古之善为道者 ============
 def ch14b_san_zhi_tan_zhen():
     body, y = head(380, 999, "眼耳手探不到，不等于没有：把标准降回工具",
                    "第 十 四 章 · 三 样 工 具", "三支探针", "视之不见名曰夷，听之不闻名曰希，搏之不得名曰微。", 999)
@@ -3205,23 +3234,26 @@ def ch14b_san_zhi_tan_zhen():
 
     def field(x, gy, h, cap="道·场：不在三样工具的射程里"):
         s.append(f'<rect x="{x}" y="{gy + 18}" width="{330 - x}" height="{h - 26}" fill="#F1EDE2" stroke="{LINE}" stroke-width="0.7" stroke-dasharray="5 4"/>')
-        s.append(txt((x + 330) / 2, gy + 32, cap, 3.9, "#8A7C69", "middle"))
+        s.append(txt((x + 330) / 2, gy + 32, cap, 4.6, "#8A7C69", "middle"))
 
     # 一、三支探针
     s.append(txt(24, y + 52, "一、三支探针伸进去：各探一段，都在半路上断了", 5.2, SEAL))
     gy = y + 64
     s.append(f'<rect x="26" y="{gy}" width="328" height="202" fill="#FBF6EC" stroke="{LINE}" stroke-width="0.8"/>')
     field(150, gy, 196)
-    rows = [("眼", "视之不见：夷", 4), ("耳", "听之不闻：希", 5), ("手", "搏之不得：微", 6)]
-    for i, (g, note, k) in enumerate(rows):
-        yy = gy + 52 + i * 34
+    rows = [("眼", "夷"), ("耳", "希"), ("手", "微")]
+    for i, (g, note) in enumerate(rows):
+        yy = gy + 58 + i * 34
         s.append(f'<circle cx="40" cy="{yy}" r="7" fill="{PAPER}" stroke="{INK}" stroke-width="1.0"/>')
-        s.append(txt(40, yy + 3, g, 4.2, INK, "middle"))
-        s.append(f'<line x1="48" y1="{yy}" x2="{150 + k * 14}" y2="{yy}" stroke="{INK}" stroke-width="1.0"/>')
-        s.append(f'<line x1="{150 + k * 14}" y1="{yy}" x2="{158 + k * 14}" y2="{yy}" stroke="{LINE}" stroke-width="1.0" stroke-dasharray="2 3"/>')
-        s.append(f'<circle cx="{162 + k * 14}" cy="{yy}" r="4.5" fill="none" stroke="{SEAL}" stroke-width="0.8" stroke-dasharray="2 2"/>')
-        s.append(txt(200, yy + 10, note, 4.1, SEAL))
-    s.append(txt(190, gy + 194, "探不到的地方不是空的，是探针够不着", 4.3, SEAL, "middle"))
+        s.append(txt(40, yy + 3, g, 4.7, INK, "middle"))
+        s.append(f'<line x1="48" y1="{yy}" x2="204" y2="{yy}" stroke="{INK}" stroke-width="1.0"/>')
+        s.append(f'<line x1="204" y1="{yy}" x2="212" y2="{yy}" stroke="{LINE}" stroke-width="1.0" stroke-dasharray="2 3"/>')
+        s.append(f'<circle cx="217" cy="{yy}" r="4.5" fill="none" stroke="{SEAL}" stroke-width="0.8" stroke-dasharray="2 2"/>')
+        s.append(txt(226, yy + 3, note, 5.4, SEAL))
+    s.append(f'<line x1="217" y1="{gy + 46}" x2="217" y2="{gy + 138}" stroke="{SEAL}" stroke-width="0.6" stroke-dasharray="3 4" opacity="0.8"/>')
+    s.append(txt(217, gy + 152, "三支都停在这一道界上", 4.2, SEAL, "middle"))
+    s.append(txt(100, gy + 190, "探不到的地方不是空的，", 4.3, SEAL, "middle"))
+    s.append(txt(100, gy + 200, "是探针够不着。", 4.3, SEAL, "middle"))
 
     # 二、收针归场
     s.append(txt(24, gy + 216, "二、收针：遇不到，只能归；遇见要伸手，归依要收手", 5.2, GREEN))
@@ -3230,7 +3262,7 @@ def ch14b_san_zhi_tan_zhen():
     field(120, gy2, 150, "道·场")
     for i in range(3):
         s.append(f'<line x1="36" y1="{gy2 + 122 + i * 8}" x2="70" y2="{gy2 + 122 + i * 8}" stroke="{LINE}" stroke-width="0.9"/>')
-    s.append(txt(52, gy2 + 154, "三支针搁下", 3.9, "#8A7C69", "middle"))
+    s.append(txt(52, gy2 + 154, "三支针搁下", 4.6, "#8A7C69", "middle"))
     # 人立，一箭向内
     px, py = 84, gy2 + 54
     s.append(f'<circle cx="{px}" cy="{py}" r="6" fill="none" stroke="{INK}" stroke-width="1.0"/>')
@@ -3282,8 +3314,8 @@ def ch14c_gu_sheng_yu_jin():
         for k in range(1, 5):
             xx = bx + 60 + L * k / 5
             s.append(f'<line x1="{xx}" y1="{yy - 3}" x2="{xx}" y2="{yy + 3}" stroke="{LINE}" stroke-width="0.8"/>')
-        s.append(txt(bx + 74 + L, yy + 2, num, 4.4, SEAL))
-    s.append(txt(190, gy + 138, "甲、乙、丙三把今尺，各有各的刻：同一只箱，量出三个数", 4.3, SEAL, "middle"))
+        s.append(txt(bx + 74 + L, yy + 2, num, 4.8, SEAL))
+    s.append(txt(190, gy + 138, "甲、乙、丙三把今尺，各有各的刻：同一只箱，量出三个数", 4.7, SEAL, "middle"))
 
     # 二、一根古绳
     s.append(txt(24, gy + 166, "二、一根古绳：拉直了，箱子挂上去，只得一个数", 5.2, GREEN))
@@ -3302,7 +3334,7 @@ def ch14c_gu_sheng_yu_jin():
     s.append(f'<line x1="140" y1="{hy + 37}" x2="192" y2="{hy + 37}" stroke="{LINE}" stroke-width="0.7"/>')
     s.append(f'<line x1="140" y1="{hy + 53}" x2="192" y2="{hy + 53}" stroke="{LINE}" stroke-width="0.7"/>')
     s.append(txt(196, hy + 44, "一个数：同一根绳上的同一个结", 4.1, GREEN))
-    s.append(txt(52, gy2 + 164, "绳绳兮不可名：它一直在起作用，却始终没有名字", 4.3, GREEN))
+    s.append(txt(52, gy2 + 164, "绳绳兮不可名：它一直在起作用，却始终没有名字", 4.7, GREEN))
 
     a = gy2 + 196
     s.append(txt(24, a, "古不是过去，是本始：一切存在共同的源头。执古不是复古，是拿那根共同的绳来量今天。", 4.9, INK))
@@ -8108,6 +8140,7 @@ GOLD = {
     "ch13a": ["壁不可碎，执壁为我才碎；身不可弃，执身为我方困。", "养身如养器，护壁不据壁。"],
     "ch13b": ["宠为下，得之若惊，失之若惊。", "钉子一拔，风还在吹，壁不晃了。"],
     "ch13c": ["故贵以身为天下，若可寄天下；爱以身为天下，若可托天下。", "养身如养器，护壁不据壁。"],
+    "ch14a": ["无状之状，无物之象。", "一固定就只能是一物；不固定，才能是一切物的背景。"],
     "ch14b": ["视之不见名曰夷，听之不闻名曰希，搏之不得名曰微。", "探不到的地方不是空的，是探针够不着。"],
     "ch14c": ["执古之道，以御今之有；能知古始，是谓道纪。", "古不是过去，是本始：一根不被风向吹弯的准绳。"],
     "ch15b": ["豫兮若冬涉川，犹兮若畏四邻。", "善为道者，走路像过冬河：每一步都自带敬意。"],
@@ -16298,7 +16331,7 @@ FIGS = {
     "ch61c-yi-zhi-shou": ("第六十一章", "一只手", ch61c_yi_zhi_shou),
     "ch12-jia-ma-de-quan": ("第十二章", "加码的圈", ch12_jia_ma_de_quan),
     "ch13-bi-yu-kong": ("第十三章", "壁与空", ch13_bi_yu_kong),
-    "ch14-yi-xi-wei": ("第十四章", "三样工具探不到", ch14_yi_xi_wei),
+    "ch14-ding-bu-zhu-de-bian": ("第十四章", "定不住的边", ch14_ding_bu_zhu_de_bian),
     "ch15-shan-wei-dao": ("第十五章", "七个比喻", ch15_shan_wei_dao),
     "ch16-zhi-xu-ji": ("第十六章", "归根", ch16_zhi_xu_ji),
     "ch17-tai-shang": ("第十七章", "四级台阶", ch17_tai_shang),

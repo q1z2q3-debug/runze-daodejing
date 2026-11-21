@@ -18,20 +18,20 @@
 <line x1="151.2" y1="211" x2="151.2" y2="217" stroke="#DCCBB0" stroke-width="0.8"/>
 <line x1="166.8" y1="211" x2="166.8" y2="217" stroke="#DCCBB0" stroke-width="0.8"/>
 <line x1="182.4" y1="211" x2="182.4" y2="217" stroke="#DCCBB0" stroke-width="0.8"/>
-<text x="212" y="216" font-size="4.4" fill="#A2503B">三</text>
+<text x="212" y="216" font-size="4.8" fill="#A2503B">三</text>
 <line x1="120" y1="230" x2="214" y2="230" stroke="#2F2A24" stroke-width="1.0"/>
 <line x1="138.8" y1="227" x2="138.8" y2="233" stroke="#DCCBB0" stroke-width="0.8"/>
 <line x1="157.6" y1="227" x2="157.6" y2="233" stroke="#DCCBB0" stroke-width="0.8"/>
 <line x1="176.4" y1="227" x2="176.4" y2="233" stroke="#DCCBB0" stroke-width="0.8"/>
 <line x1="195.2" y1="227" x2="195.2" y2="233" stroke="#DCCBB0" stroke-width="0.8"/>
-<text x="228" y="232" font-size="4.4" fill="#A2503B">五</text>
+<text x="228" y="232" font-size="4.8" fill="#A2503B">五</text>
 <line x1="120" y1="246" x2="230" y2="246" stroke="#2F2A24" stroke-width="1.0"/>
 <line x1="142.0" y1="243" x2="142.0" y2="249" stroke="#DCCBB0" stroke-width="0.8"/>
 <line x1="164.0" y1="243" x2="164.0" y2="249" stroke="#DCCBB0" stroke-width="0.8"/>
 <line x1="186.0" y1="243" x2="186.0" y2="249" stroke="#DCCBB0" stroke-width="0.8"/>
 <line x1="208.0" y1="243" x2="208.0" y2="249" stroke="#DCCBB0" stroke-width="0.8"/>
-<text x="244" y="248" font-size="4.4" fill="#A2503B">七</text>
-<text x="190" y="302" font-size="4.3" fill="#A2503B" text-anchor="middle">甲、乙、丙三把今尺，各有各的刻：同一只箱，量出三个数</text>
+<text x="244" y="248" font-size="4.8" fill="#A2503B">七</text>
+<text x="190" y="302" font-size="4.7" fill="#A2503B" text-anchor="middle">甲、乙、丙三把今尺，各有各的刻：同一只箱，量出三个数</text>
 <text x="24" y="330" font-size="5.2" fill="#4A5C55">二、一根古绳：拉直了，箱子挂上去，只得一个数</text>
 <rect x="26" y="342" width="328" height="176" fill="#FBF6EC" stroke="#DCCBB0" stroke-width="0.8"/>
 <path d="M52,408 q140,8 276,0" fill="none" stroke="#2F2A24" stroke-width="1.6"/>
@@ -55,7 +55,7 @@
 <line x1="140" y1="445" x2="192" y2="445" stroke="#DCCBB0" stroke-width="0.7"/>
 <line x1="140" y1="461" x2="192" y2="461" stroke="#DCCBB0" stroke-width="0.7"/>
 <text x="196" y="452" font-size="4.1" fill="#4A5C55">一个数：同一根绳上的同一个结</text>
-<text x="52" y="506" font-size="4.3" fill="#4A5C55">绳绳兮不可名：它一直在起作用，却始终没有名字</text>
+<text x="52" y="506" font-size="4.7" fill="#4A5C55">绳绳兮不可名：它一直在起作用，却始终没有名字</text>
 <text x="24" y="538" font-size="4.9" fill="#2F2A24">古不是过去，是本始：一切存在共同的源头。执古不是复古，是拿那根共同的绳来量今天。</text>
 <text x="24" y="554" font-size="4.9" fill="#2F2A24">御不是驭世，是安己：手里的物有了定数，人就不必再拿自己的尺去争一个高低。</text>
 <text x="24" y="572" font-size="4.9" fill="#4A5C55">能知古始，是谓道纪——知道了万物的来处，才有一根不被风向吹弯的准绳。</text>
