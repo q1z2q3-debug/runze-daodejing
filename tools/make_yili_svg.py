@@ -3937,6 +3937,145 @@ def ch17_tai_shang():
     return "\n".join(s)
 
 
+def ch17_yi_gen_sheng():
+    body, y = head(380, 999, "太上，下知有之：四级是同一根绳，从没有，到拉紧，到断",
+                   "第 十 七 章 · 治 道", "一根绳",
+                   "四级不是四种人，是同一根绳：从没有，到拉紧，到断。", 999)
+    s = [body]
+
+    s.append(box(20, y + 2, 340, 34, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, y + 14, "越往下，越要用一根外来的绳把位置拴住。", 4.9, INK, "middle"))
+    s.append(txt(190, y + 27, "绳的材质是信；信不足，绳就断在头里。", 4.8, "#6E6459", "middle"))
+
+    gy = y + 46
+    hh = 320
+    s.append(box(26, gy, 328, hh, fill="#FBF6EC", stroke=LINE, width=0.8))
+
+    def post_and_corn(yb):
+        s.append(f'<line x1="124" y1="{yb}" x2="124" y2="{yb - 46}" stroke="{INK}" stroke-width="1.8"/>')
+        s.append(f'<line x1="116" y1="{yb - 16}" x2="132" y2="{yb - 16}" stroke="{INK}" stroke-width="1.2"/>')
+        for k in range(3):
+            x = 252 + k * 20
+            s.append(f'<line x1="{x}" y1="{yb}" x2="{x}" y2="{yb - 16}" stroke="{GREEN}" stroke-width="1.0"/>')
+            s.append(f'<path d="M{x},{yb - 16} l-5,-7 M{x},{yb - 16} l5,-7 M{x},{yb - 9} l-4,-6 M{x},{yb - 9} l4,-6" '
+                     f'fill="none" stroke="{GREEN}" stroke-width="0.7"/>')
+        s.append(f'<line x1="112" y1="{yb}" x2="340" y2="{yb}" stroke="{INK}" stroke-width="0.9"/>')
+
+    rows = [("太上", "下知有之", GREEN), ("其次", "亲而誉之", "#8A7C69"),
+            ("其次", "畏之", "#8A7C69"), ("其次", "侮之", SEAL)]
+    for i, (lv, resp, col) in enumerate(rows):
+        yb = gy + 52 + i * 78
+        s.append(txt(40, yb - 18, lv, 4.9, "#8A7C69"))
+        s.append(txt(40, yb - 4, resp, 4.9, col))
+        post_and_corn(yb)
+
+    # 一、没有绳
+    yb1 = gy + 52
+    s.append(f'<line x1="132" y1="{yb1 - 16}" x2="250" y2="{yb1 - 16}" stroke="{LINE2}" stroke-width="0.8" stroke-dasharray="1 5"/>')
+    s.append(txt(190, yb1 - 28, "还没有绳：位置本来就在", 4.5, GREEN, "middle"))
+
+    # 二、软绳（谢）
+    yb2 = gy + 130
+    s.append(f'<path d="M132,{yb2 - 16} Q190,{yb2 + 6} 250,{yb2 - 16}" fill="none" stroke="{INK}" stroke-width="1.0"/>')
+    s.append(txt(190, yb2 - 32, "「谢」：一根软绳，要人递一句谢", 4.5, "#8A7C69", "middle"))
+
+    # 三、紧绳（令）
+    yb3 = gy + 208
+    s.append(f'<line x1="132" y1="{yb3 - 16}" x2="250" y2="{yb3 - 16}" stroke="{INK}" stroke-width="2.0"/>')
+    s.append(txt(190, yb3 - 26, "「令」：一根绷紧的粗绳，只能靠它拉住", 4.5, "#8A7C69", "middle"))
+
+    # 四、断绳（侮）
+    yb4 = gy + 286
+    s.append(f'<path d="M132,{yb4 - 16} Q146,{yb4 - 8} 158,{yb4 - 2}" fill="none" stroke="{INK}" stroke-width="1.6"/>')
+    s.append(f'<path d="M224,{yb4 - 1} Q238,{yb4 - 8} 250,{yb4 - 16}" fill="none" stroke="{INK}" stroke-width="1.6"/>')
+    s.append(txt(190, yb4 - 4, "断", 5.2, SEAL, "middle"))
+    s.append(txt(190, yb4 + 14, "信不足焉，有不信焉", 4.6, SEAL, "middle"))
+
+    a = gy + hh + 20
+    s.append(txt(24, a, "太上不必被感念：没有绳，位置也稳——所以说「知有之」。", 4.9, INK))
+    s.append(txt(24, a + 16, "亲誉要一句谢，畏要一条令，侮是连令也不管用了：一级比一级更靠外力。", 4.9, INK))
+    s.append(txt(24, a + 34, "不是下面不信，是上面先不足；绳是从头里断的。", 4.9, GREEN))
+
+    c = a + 52
+    s.append(f'<line x1="24" y1="{c}" x2="338" y2="{c}" stroke="{LINE}" stroke-width="0.6"/>')
+    s.append(box(20, c + 8, 340, 40, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, c + 24, "上焉者，人知其有，不知其功；", 5.6, INK, "middle"))
+    s.append(txt(190, c + 36, "信不足，则令繁；令繁，则愈不信。", 5.6, GREEN, "middle"))
+    s.append(gold(c + 62, "ch17a"))
+    s.append('</svg>')
+    out = "\n".join(s)
+    ys = [float(v) for v in re.findall(r'y="([0-9.]+)"', out)]
+    return out.replace("999", str(int(max(ys) + 26)))
+
+
+def ch17b_an_yi_xia():
+    body, y = head(380, 999, "悠兮其贵言：话不是不能说，是不拿话去按别人的节律",
+                   "第 十 七 章 · 贵 言", "按一下",
+                   "每说一句，就在别人的节律上按一下。", 999)
+    s = [body]
+
+    s.append(box(20, y + 2, 340, 34, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, y + 14, "言不是不能说：是不拿话去替别人按他的节律。", 4.9, INK, "middle"))
+    s.append(txt(190, y + 27, "贵言就是希言：不轻发号令，不滥施教化。", 4.8, "#6E6459", "middle"))
+
+    cx = 158
+
+    def drum(gy, pressed):
+        s.append(f'<ellipse cx="{cx}" cy="{gy + 56}" rx="70" ry="10" fill="#E4D8BF" stroke="{INK}" stroke-width="1.1"/>')
+        s.append(f'<rect x="{cx - 70}" y="{gy + 56}" width="140" height="50" fill="#EFE6D4" stroke="{INK}" stroke-width="1.1"/>')
+        s.append(f'<path d="M{cx - 70},{gy + 56} L{cx - 70},{gy + 106} M{cx + 70},{gy + 56} L{cx + 70},{gy + 106}" fill="none" stroke="{INK}" stroke-width="1.1"/>')
+        s.append(f'<line x1="{cx - 44}" y1="{gy + 106}" x2="{cx - 44}" y2="{gy + 120}" stroke="{INK}" stroke-width="1.0"/>')
+        s.append(f'<line x1="{cx + 44}" y1="{gy + 106}" x2="{cx + 44}" y2="{gy + 120}" stroke="{INK}" stroke-width="1.0"/>')
+        if pressed:
+            s.append(f'<ellipse cx="{cx}" cy="{gy + 57}" rx="10" ry="3.4" fill="{PAPER}" stroke="{INK}" stroke-width="0.9"/>')
+            s.append(f'<path d="M{cx - 24},{gy + 59} Q{cx},{gy + 70} {cx + 24},{gy + 59}" fill="none" stroke="{GREEN}" stroke-width="0.7" opacity="0.75"/>')
+            s.append(f'<path d="M{cx - 40},{gy + 60} Q{cx},{gy + 78} {cx + 40},{gy + 60}" fill="none" stroke="{GREEN}" stroke-width="0.6" opacity="0.45"/>')
+
+    def finger(gy, tip):
+        s.append(f'<line x1="{cx + 2}" y1="{tip - 46}" x2="{cx + 2}" y2="{tip - 30}" stroke="{INK}" stroke-width="3.0"/>')
+        s.append(f'<rect x="{cx - 15}" y="{tip - 34}" width="30" height="18" rx="7" fill="#EFE6D4" stroke="{INK}" stroke-width="1.0"/>')
+        for k in range(4):
+            s.append(f'<rect x="{cx - 13 + k * 7}" y="{tip - 20}" width="5" height="18" rx="2.5" fill="#EFE6D4" stroke="{INK}" stroke-width="0.9"/>')
+        s.append(f'<rect x="{cx - 23}" y="{tip - 26}" width="9" height="5" rx="2.5" fill="#EFE6D4" stroke="{INK}" stroke-width="0.9"/>')
+
+    # 一、按下去
+    gy = y + 64
+    s.append(f'<rect x="26" y="{gy}" width="328" height="150" fill="#FBF6EC" stroke="{LINE}" stroke-width="0.8"/>')
+    drum(gy, True)
+    finger(gy, gy + 58)
+    s.append(txt(266, gy + 40, "说一句", 4.8, SEAL))
+    s.append(txt(266, gy + 58, "就按一下", 4.5, "#6E6459"))
+    s.append(txt(266, gy + 76, "按得越勤，底下越乱", 4.5, "#6E6459"))
+    s.append(txt(24, gy + 164, "一、多言：皮面上一个坑，又一圈漾开的圈", 5.2, SEAL))
+
+    # 二、手抬起来
+    gy2 = gy + 182
+    s.append(f'<rect x="26" y="{gy2}" width="328" height="150" fill="#FBF6EC" stroke="{LINE}" stroke-width="0.8"/>')
+    drum(gy2, False)
+    finger(gy2, gy2 + 44)
+    s.append(arrow(cx, gy2 - 6, cx, gy2 - 20, color=GREEN, head="arr2", width=0.9))
+    s.append(txt(266, gy2 + 40, "手抬起来", 4.8, GREEN))
+    s.append(txt(266, gy2 + 58, "面自己平", 4.5, "#6E6459"))
+    s.append(txt(266, gy2 + 76, "不是不说，是不必说", 4.5, "#6E6459"))
+    s.append(txt(24, gy2 + 164, "二、贵言：手不按，面自己平——话留在嘴上，事才落到地上", 5.2, GREEN))
+
+    a = gy2 + 190
+    s.append(txt(24, a, "为什么要紧：每一句指令，都是按在别人节律上的一根指头。", 4.9, INK))
+    s.append(txt(24, a + 16, "内心静定的人，才忍得住不往外输出意志；话多的人，往往心里没底。", 4.9, INK))
+    s.append(txt(24, a + 34, "贵言不是闭嘴：是不以言夺人之自性。", 4.9, GREEN))
+
+    c = a + 52
+    s.append(f'<line x1="24" y1="{c}" x2="338" y2="{c}" stroke="{LINE}" stroke-width="0.6"/>')
+    s.append(box(20, c + 8, 340, 40, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, c + 24, "贵言者，非不言，", 5.8, INK, "middle"))
+    s.append(txt(190, c + 36, "是不以言夺人之自性。", 5.8, GREEN, "middle"))
+    s.append(gold(c + 62, "ch17b"))
+    s.append('</svg>')
+    out = "\n".join(s)
+    ys = [float(v) for v in re.findall(r'y="([0-9.]+)"', out)]
+    return out.replace("999", str(int(max(ys) + 26)))
+
+
 # ============ 第十八章 · 大道废，有仁义 ============
 def ch17b_si_shan_men():
     body, y = head(380, 999, "太上，下知有之：最好的管法，是让人几乎忘了你在",
@@ -4030,13 +4169,14 @@ def ch17c_gong_cheng():
     s.append(txt(190, y + 14, "最难的不是把事做成，是做成之后站在哪儿。", 4.9, INK, "middle"))
     s.append(txt(190, y + 27, "站在中间，事就成了他的；退到边上，事才是大家的。", 4.8, "#6E6459"))
 
-    def field(gy, h=110):
+    def field(gy, h=110, n=7, stalk=16):
         s.append(f'<rect x="26" y="{gy + 96}" width="328" height="{h}" fill="#EFE9DA" stroke="none"/>')
         s.append(f'<line x1="26" y1="{gy + 96}" x2="354" y2="{gy + 96}" stroke="{INK}" stroke-width="1.0"/>')
-        for k in range(7):
+        for k in range(n):
             x = 52 + k * 44
-            s.append(f'<line x1="{x}" y1="{gy + 96}" x2="{x}" y2="{gy + 80}" stroke="{GREEN}" stroke-width="0.9"/>')
-            s.append(f'<path d="M{x},{gy + 82} l-5,-6 M{x},{gy + 82} l5,-6 M{x},{gy + 88} l-5,-5 M{x},{gy + 88} l5,-5" fill="none" stroke="{GREEN}" stroke-width="0.7"/>')
+            tip = gy + 96 - stalk
+            s.append(f'<line x1="{x}" y1="{gy + 96}" x2="{x}" y2="{tip}" stroke="{GREEN}" stroke-width="0.9"/>')
+            s.append(f'<path d="M{x},{tip + 2} l-5,-6 M{x},{tip + 2} l5,-6 M{x},{tip + 8} l-5,-5 M{x},{tip + 8} l5,-5" fill="none" stroke="{GREEN}" stroke-width="0.7"/>')
 
     # 一、站在中间
     s.append(txt(24, y + 52, "一、站在中间：旗子一举，功都算在他头上", 5.2, SEAL))
@@ -4056,22 +4196,26 @@ def ch17c_gong_cheng():
     s.append(txt(24, gy + 192, "二、退到边上：事还是成了，只是没人记得谁做的", 5.2, GREEN))
     gy2 = gy + 204
     s.append(f'<rect x="26" y="{gy2}" width="328" height="176" fill="#FBF6EC" stroke="{LINE}" stroke-width="0.8"/>')
-    field(gy2, 76)
-    # 退到树下的那个人
-    tx, ty = 322, gy2 + 42
-    s.append(f'<line x1="{tx}" y1="{gy2 + 96}" x2="{tx}" y2="{gy2 + 54}" stroke="{INK}" stroke-width="1.6"/>')
-    s.append(f'<path d="M{tx},{gy2 + 54} q-16,-8 -22,2 M{tx},{gy2 + 54} q16,-8 22,2 M{tx},{gy2 + 58} q-12,-4 -18,4 M{tx},{gy2 + 58} q12,-4 18,4" fill="none" stroke="{GREEN}" stroke-width="0.9"/>')
-    px2, py2 = 296, gy2 + 52
+    field(gy2, 76, 5, 26)
+    # 退到树下：一棵树，在田的边上
+    tx = 316
+    s.append(f'<line x1="{tx}" y1="{gy2 + 96}" x2="{tx}" y2="{gy2 + 48}" stroke="{INK}" stroke-width="1.6"/>')
+    s.append(f'<ellipse cx="{tx - 6}" cy="{gy2 + 42}" rx="13" ry="8" fill="#E9F0E6" stroke="{GREEN}" stroke-width="0.8"/>')
+    s.append(f'<ellipse cx="{tx + 8}" cy="{gy2 + 48}" rx="11" ry="7" fill="#E9F0E6" stroke="{GREEN}" stroke-width="0.8"/>')
+    s.append(f'<ellipse cx="{tx + 2}" cy="{gy2 + 34}" rx="10" ry="6.5" fill="#E9F0E6" stroke="{GREEN}" stroke-width="0.8"/>')
+    px2, py2 = 288, gy2 + 52
     s.append(f'<circle cx="{px2}" cy="{py2}" r="6" fill="none" stroke="{INK}" stroke-width="1.0"/>')
     s.append(f'<line x1="{px2}" y1="{py2 + 6}" x2="{px2}" y2="{py2 + 34}" stroke="{INK}" stroke-width="1.3"/>')
     s.append(f'<line x1="{px2}" y1="{py2 + 34}" x2="{px2 - 7}" y2="{py2 + 46}" stroke="{INK}" stroke-width="1.0"/>')
     s.append(f'<line x1="{px2}" y1="{py2 + 34}" x2="{px2 + 7}" y2="{py2 + 46}" stroke="{INK}" stroke-width="1.0"/>')
     # 田中之人抬头
-    for k, x in enumerate([96, 168, 240]):
-        s.append(f'<circle cx="{x}" cy="{gy2 + 60}" r="4.4" fill="none" stroke="{INK}" stroke-width="0.9"/>')
-        s.append(f'<line x1="{x}" y1="{gy2 + 64}" x2="{x}" y2="{gy2 + 86}" stroke="{INK}" stroke-width="1.1"/>')
-    s.append(txt(96, gy2 + 112, "我自然", 4.3, GREEN))
-    s.append(txt(168, gy2 + 134, "没人记得谁做成的，事却成了", 4.2, "#6E6459"))
+    for k, x in enumerate([118, 166, 214]):
+        s.append(f'<circle cx="{x}" cy="{gy2 + 62}" r="4.2" fill="none" stroke="{INK}" stroke-width="0.9"/>')
+        s.append(f'<line x1="{x}" y1="{gy2 + 66}" x2="{x}" y2="{gy2 + 86}" stroke="{INK}" stroke-width="1.1"/>')
+        s.append(f'<line x1="{x}" y1="{gy2 + 86}" x2="{x - 4}" y2="{gy2 + 96}" stroke="{INK}" stroke-width="0.9"/>')
+        s.append(f'<line x1="{x}" y1="{gy2 + 86}" x2="{x + 4}" y2="{gy2 + 96}" stroke="{INK}" stroke-width="0.9"/>')
+    s.append(txt(118, gy2 + 50, "我自然", 4.3, GREEN))
+    s.append(txt(166, gy2 + 124, "没人记得谁做成的，事却成了", 4.2, "#6E6459"))
     s.append(txt(190, gy2 + 160, "功成事遂，百姓皆谓我自然", 4.4, GREEN, "middle"))
 
     a = gy2 + 196
@@ -8358,7 +8502,8 @@ GOLD = {
     "ch16a": ["万物并作，观其归；归根曰静，静曰复命。", "复归其根，是把今年长出来的、重新变成明年的底。"],
     "ch16b": ["致虚极，守静笃。", "致虚者，虚到无可虚；守静者，静到无可动。"],
     "ch16c": ["知常容，容乃公，公乃全，全乃天，天乃道，道乃久。", "没身不殆者，非命长，是险少。"],
-    "ch17b": ["太上，下知有之；其次亲而誉之；其次畏之；其次侮之。", "贵言：不是不说，是不拿话去替代事。"],
+    "ch17a": ["上焉者，人知其有，不知其功；", "信不足，则令繁；令繁，则愈不信。"],
+    "ch17b": ["贵言者，非不言，是不以言夺人之自性。", "言不在多：一句按下去，就是一道坑。"],
     "ch17c": ["功成事遂，百姓皆谓我自然。", "从中间退到边上，让事自己站着。"],
     "ch18b": ["大道废，有仁义；智慧出，有大伪。", "补丁越响，破处越深。"],
     "ch18c": ["六亲不和，有孝慈；国家昏乱，有忠臣。", "补丁可以救命，却不能代替布。"],
@@ -16437,7 +16582,7 @@ FIGS = {
     "ch15c-bu-yu-ying": ("第十五章", "旧罐", ch15c_bu_yu_ying),
     "ch16b-tian-ban-ge-xia": ("第十六章", "填、搬、搁下", ch16b_tian_ban_ge_xia),
     "ch16c-yi-quan-tui-yi-quan": ("第十六章", "一圈推一圈", ch16c_yi_quan_tui_yi_quan),
-    "ch17b-si-shan-men": ("第十七章", "四扇门", ch17b_si_shan_men),
+    "ch17b-an-yi-xia": ("第十七章", "按一下", ch17b_an_yi_xia),
     "ch17c-gong-cheng": ("第十七章", "功成之后", ch17c_gong_cheng),
     "ch18b-yi-kuai-bu": ("第十八章", "一块补丁", ch18b_yi_kuai_bu),
     "ch18c-san-kuai-bu-ding": ("第十八章", "三处破", ch18c_san_kuai_bu_ding),
@@ -16545,7 +16690,7 @@ FIGS = {
     "ch14-ding-bu-zhu-de-bian": ("第十四章", "定不住的边", ch14_ding_bu_zhu_de_bian),
     "ch15-bu-wang-qian-zhan": ("第十五章", "不肯往前站一步", ch15_bu_wang_qian_zhan),
     "ch16-yi-ke-shu-de-yi-nian": ("第十六章", "一棵树的一年", ch16_yi_ke_shu_de_yi_nian),
-    "ch17-tai-shang": ("第十七章", "四级台阶", ch17_tai_shang),
+    "ch17-yi-gen-sheng": ("第十七章", "一根绳", ch17_yi_gen_sheng),
     "ch18-da-dao-fei": ("第十八章", "四对因果", ch18_da_dao_fei),
     "ch19-jue-sheng": ("第十九章", "三绝三弃", ch19_jue_sheng),
     "ch20-wei-zhi-yu-e": ("第二十章", "两把尺子", ch20_wei_zhi_yu_e),

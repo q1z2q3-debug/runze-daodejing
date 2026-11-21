@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 380 672" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="太上，下知有之：四级是同一根绳，从没有，到拉紧，到断" font-family="'Noto Serif CJK SC','Noto Serif SC','Songti SC',serif">
+<defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#6E6459"/></marker><marker id="arr2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#4A5C55"/></marker><marker id="arrL" viewBox="0 0 10 10" refX="1" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M10 0 L0 5 L10 10 z" fill="#4A5C55"/></marker><marker id="arrS" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#A2503B"/></marker></defs>
+<rect x="0" y="0" width="380" height="672" fill="#F8F3E6"/>
+<text x="20" y="26" font-size="11" fill="#A2503B" font-family="'Noto Sans CJK SC','Noto Sans SC',sans-serif" letter-spacing="3">第 十 七 章 · 治 道</text>
+<text x="20" y="58" font-size="21" fill="#2F2A24">一根绳</text>
+<text x="20" y="78" font-size="10.5" fill="#6E6459">四级不是四种人，是同一根绳：从没有，到拉紧，到断。</text>
+<rect x="20" y="102" width="340" height="34" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="190" y="114" font-size="4.9" fill="#2F2A24" text-anchor="middle">越往下，越要用一根外来的绳把位置拴住。</text>
+<text x="190" y="127" font-size="4.8" fill="#6E6459" text-anchor="middle">绳的材质是信；信不足，绳就断在头里。</text>
+<rect x="26" y="146" width="328" height="320" fill="#FBF6EC" stroke="#DCCBB0" stroke-width="0.8"/>
+<text x="40" y="180" font-size="4.9" fill="#8A7C69">太上</text>
+<text x="40" y="194" font-size="4.9" fill="#4A5C55">下知有之</text>
+<line x1="124" y1="198" x2="124" y2="152" stroke="#2F2A24" stroke-width="1.8"/>
+<line x1="116" y1="182" x2="132" y2="182" stroke="#2F2A24" stroke-width="1.2"/>
+<line x1="252" y1="198" x2="252" y2="182" stroke="#4A5C55" stroke-width="1.0"/>
+<path d="M252,182 l-5,-7 M252,182 l5,-7 M252,189 l-4,-6 M252,189 l4,-6" fill="none" stroke="#4A5C55" stroke-width="0.7"/>
+<line x1="272" y1="198" x2="272" y2="182" stroke="#4A5C55" stroke-width="1.0"/>
+<path d="M272,182 l-5,-7 M272,182 l5,-7 M272,189 l-4,-6 M272,189 l4,-6" fill="none" stroke="#4A5C55" stroke-width="0.7"/>
+<line x1="292" y1="198" x2="292" y2="182" stroke="#4A5C55" stroke-width="1.0"/>
+<path d="M292,182 l-5,-7 M292,182 l5,-7 M292,189 l-4,-6 M292,189 l4,-6" fill="none" stroke="#4A5C55" stroke-width="0.7"/>
+<line x1="112" y1="198" x2="340" y2="198" stroke="#2F2A24" stroke-width="0.9"/>
+<text x="40" y="258" font-size="4.9" fill="#8A7C69">其次</text>
+<text x="40" y="272" font-size="4.9" fill="#8A7C69">亲而誉之</text>
+<line x1="124" y1="276" x2="124" y2="230" stroke="#2F2A24" stroke-width="1.8"/>
+<line x1="116" y1="260" x2="132" y2="260" stroke="#2F2A24" stroke-width="1.2"/>
+<line x1="252" y1="276" x2="252" y2="260" stroke="#4A5C55" stroke-width="1.0"/>
+<path d="M252,260 l-5,-7 M252,260 l5,-7 M252,267 l-4,-6 M252,267 l4,-6" fill="none" stroke="#4A5C55" stroke-width="0.7"/>
+<line x1="272" y1="276" x2="272" y2="260" stroke="#4A5C55" stroke-width="1.0"/>
+<path d="M272,260 l-5,-7 M272,260 l5,-7 M272,267 l-4,-6 M272,267 l4,-6" fill="none" stroke="#4A5C55" stroke-width="0.7"/>
+<line x1="292" y1="276" x2="292" y2="260" stroke="#4A5C55" stroke-width="1.0"/>
+<path d="M292,260 l-5,-7 M292,260 l5,-7 M292,267 l-4,-6 M292,267 l4,-6" fill="none" stroke="#4A5C55" stroke-width="0.7"/>
+<line x1="112" y1="276" x2="340" y2="276" stroke="#2F2A24" stroke-width="0.9"/>
+<text x="40" y="336" font-size="4.9" fill="#8A7C69">其次</text>
+<text x="40" y="350" font-size="4.9" fill="#8A7C69">畏之</text>
+<line x1="124" y1="354" x2="124" y2="308" stroke="#2F2A24" stroke-width="1.8"/>
+<line x1="116" y1="338" x2="132" y2="338" stroke="#2F2A24" stroke-width="1.2"/>
+<line x1="252" y1="354" x2="252" y2="338" stroke="#4A5C55" stroke-width="1.0"/>
+<path d="M252,338 l-5,-7 M252,338 l5,-7 M252,345 l-4,-6 M252,345 l4,-6" fill="none" stroke="#4A5C55" stroke-width="0.7"/>
+<line x1="272" y1="354" x2="272" y2="338" stroke="#4A5C55" stroke-width="1.0"/>
+<path d="M272,338 l-5,-7 M272,338 l5,-7 M272,345 l-4,-6 M272,345 l4,-6" fill="none" stroke="#4A5C55" stroke-width="0.7"/>
+<line x1="292" y1="354" x2="292" y2="338" stroke="#4A5C55" stroke-width="1.0"/>
+<path d="M292,338 l-5,-7 M292,338 l5,-7 M292,345 l-4,-6 M292,345 l4,-6" fill="none" stroke="#4A5C55" stroke-width="0.7"/>
+<line x1="112" y1="354" x2="340" y2="354" stroke="#2F2A24" stroke-width="0.9"/>
+<text x="40" y="414" font-size="4.9" fill="#8A7C69">其次</text>
+<text x="40" y="428" font-size="4.9" fill="#A2503B">侮之</text>
+<line x1="124" y1="432" x2="124" y2="386" stroke="#2F2A24" stroke-width="1.8"/>
+<line x1="116" y1="416" x2="132" y2="416" stroke="#2F2A24" stroke-width="1.2"/>
+<line x1="252" y1="432" x2="252" y2="416" stroke="#4A5C55" stroke-width="1.0"/>
+<path d="M252,416 l-5,-7 M252,416 l5,-7 M252,423 l-4,-6 M252,423 l4,-6" fill="none" stroke="#4A5C55" stroke-width="0.7"/>
+<line x1="272" y1="432" x2="272" y2="416" stroke="#4A5C55" stroke-width="1.0"/>
+<path d="M272,416 l-5,-7 M272,416 l5,-7 M272,423 l-4,-6 M272,423 l4,-6" fill="none" stroke="#4A5C55" stroke-width="0.7"/>
+<line x1="292" y1="432" x2="292" y2="416" stroke="#4A5C55" stroke-width="1.0"/>
+<path d="M292,416 l-5,-7 M292,416 l5,-7 M292,423 l-4,-6 M292,423 l4,-6" fill="none" stroke="#4A5C55" stroke-width="0.7"/>
+<line x1="112" y1="432" x2="340" y2="432" stroke="#2F2A24" stroke-width="0.9"/>
+<line x1="132" y1="182" x2="250" y2="182" stroke="#E6D8C2" stroke-width="0.8" stroke-dasharray="1 5"/>
+<text x="190" y="170" font-size="4.5" fill="#4A5C55" text-anchor="middle">还没有绳：位置本来就在</text>
+<path d="M132,260 Q190,282 250,260" fill="none" stroke="#2F2A24" stroke-width="1.0"/>
+<text x="190" y="244" font-size="4.5" fill="#8A7C69" text-anchor="middle">「谢」：一根软绳，要人递一句谢</text>
+<line x1="132" y1="338" x2="250" y2="338" stroke="#2F2A24" stroke-width="2.0"/>
+<text x="190" y="328" font-size="4.5" fill="#8A7C69" text-anchor="middle">「令」：一根绷紧的粗绳，只能靠它拉住</text>
+<path d="M132,416 Q146,424 158,430" fill="none" stroke="#2F2A24" stroke-width="1.6"/>
+<path d="M224,431 Q238,424 250,416" fill="none" stroke="#2F2A24" stroke-width="1.6"/>
+<text x="190" y="428" font-size="5.2" fill="#A2503B" text-anchor="middle">断</text>
+<text x="190" y="446" font-size="4.6" fill="#A2503B" text-anchor="middle">信不足焉，有不信焉</text>
+<text x="24" y="486" font-size="4.9" fill="#2F2A24">太上不必被感念：没有绳，位置也稳——所以说「知有之」。</text>
+<text x="24" y="502" font-size="4.9" fill="#2F2A24">亲誉要一句谢，畏要一条令，侮是连令也不管用了：一级比一级更靠外力。</text>
+<text x="24" y="520" font-size="4.9" fill="#4A5C55">不是下面不信，是上面先不足；绳是从头里断的。</text>
+<line x1="24" y1="538" x2="338" y2="538" stroke="#DCCBB0" stroke-width="0.6"/>
+<rect x="20" y="546" width="340" height="40" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="190" y="562" font-size="5.6" fill="#2F2A24" text-anchor="middle">上焉者，人知其有，不知其功；</text>
+<text x="190" y="574" font-size="5.6" fill="#4A5C55" text-anchor="middle">信不足，则令繁；令繁，则愈不信。</text>
+<line x1="20" y1="600" x2="360" y2="600" stroke="#E6D8C2" stroke-width="0.8"/>
+<text x="20" y="614" font-size="8.0" fill="#A89577" letter-spacing="1">本 章 金 句</text>
+<text x="20" y="630" font-size="8.4" fill="#2F2A24">上焉者，人知其有，不知其功；</text>
+<text x="20" y="646" font-size="8.4" fill="#2F2A24">信不足，则令繁；令繁，则愈不信。</text>
+</svg>

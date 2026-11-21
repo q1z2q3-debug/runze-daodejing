@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 380 722" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="悠兮其贵言：话不是不能说，是不拿话去按别人的节律" font-family="'Noto Serif CJK SC','Noto Serif SC','Songti SC',serif">
+<defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#6E6459"/></marker><marker id="arr2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#4A5C55"/></marker><marker id="arrL" viewBox="0 0 10 10" refX="1" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M10 0 L0 5 L10 10 z" fill="#4A5C55"/></marker><marker id="arrS" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#A2503B"/></marker></defs>
+<rect x="0" y="0" width="380" height="722" fill="#F8F3E6"/>
+<text x="20" y="26" font-size="11" fill="#A2503B" font-family="'Noto Sans CJK SC','Noto Sans SC',sans-serif" letter-spacing="3">第 十 七 章 · 贵 言</text>
+<text x="20" y="58" font-size="21" fill="#2F2A24">按一下</text>
+<text x="20" y="78" font-size="10.5" fill="#6E6459">每说一句，就在别人的节律上按一下。</text>
+<rect x="20" y="102" width="340" height="34" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="190" y="114" font-size="4.9" fill="#2F2A24" text-anchor="middle">言不是不能说：是不拿话去替别人按他的节律。</text>
+<text x="190" y="127" font-size="4.8" fill="#6E6459" text-anchor="middle">贵言就是希言：不轻发号令，不滥施教化。</text>
+<rect x="26" y="164" width="328" height="150" fill="#FBF6EC" stroke="#DCCBB0" stroke-width="0.8"/>
+<ellipse cx="158" cy="220" rx="70" ry="10" fill="#E4D8BF" stroke="#2F2A24" stroke-width="1.1"/>
+<rect x="88" y="220" width="140" height="50" fill="#EFE6D4" stroke="#2F2A24" stroke-width="1.1"/>
+<path d="M88,220 L88,270 M228,220 L228,270" fill="none" stroke="#2F2A24" stroke-width="1.1"/>
+<line x1="114" y1="270" x2="114" y2="284" stroke="#2F2A24" stroke-width="1.0"/>
+<line x1="202" y1="270" x2="202" y2="284" stroke="#2F2A24" stroke-width="1.0"/>
+<ellipse cx="158" cy="221" rx="10" ry="3.4" fill="#F8F3E6" stroke="#2F2A24" stroke-width="0.9"/>
+<path d="M134,223 Q158,234 182,223" fill="none" stroke="#4A5C55" stroke-width="0.7" opacity="0.75"/>
+<path d="M118,224 Q158,242 198,224" fill="none" stroke="#4A5C55" stroke-width="0.6" opacity="0.45"/>
+<line x1="160" y1="176" x2="160" y2="192" stroke="#2F2A24" stroke-width="3.0"/>
+<rect x="143" y="188" width="30" height="18" rx="7" fill="#EFE6D4" stroke="#2F2A24" stroke-width="1.0"/>
+<rect x="145" y="202" width="5" height="18" rx="2.5" fill="#EFE6D4" stroke="#2F2A24" stroke-width="0.9"/>
+<rect x="152" y="202" width="5" height="18" rx="2.5" fill="#EFE6D4" stroke="#2F2A24" stroke-width="0.9"/>
+<rect x="159" y="202" width="5" height="18" rx="2.5" fill="#EFE6D4" stroke="#2F2A24" stroke-width="0.9"/>
+<rect x="166" y="202" width="5" height="18" rx="2.5" fill="#EFE6D4" stroke="#2F2A24" stroke-width="0.9"/>
+<rect x="135" y="196" width="9" height="5" rx="2.5" fill="#EFE6D4" stroke="#2F2A24" stroke-width="0.9"/>
+<text x="266" y="204" font-size="4.8" fill="#A2503B">说一句</text>
+<text x="266" y="222" font-size="4.5" fill="#6E6459">就按一下</text>
+<text x="266" y="240" font-size="4.5" fill="#6E6459">按得越勤，底下越乱</text>
+<text x="24" y="328" font-size="5.2" fill="#A2503B">一、多言：皮面上一个坑，又一圈漾开的圈</text>
+<rect x="26" y="346" width="328" height="150" fill="#FBF6EC" stroke="#DCCBB0" stroke-width="0.8"/>
+<ellipse cx="158" cy="402" rx="70" ry="10" fill="#E4D8BF" stroke="#2F2A24" stroke-width="1.1"/>
+<rect x="88" y="402" width="140" height="50" fill="#EFE6D4" stroke="#2F2A24" stroke-width="1.1"/>
+<path d="M88,402 L88,452 M228,402 L228,452" fill="none" stroke="#2F2A24" stroke-width="1.1"/>
+<line x1="114" y1="452" x2="114" y2="466" stroke="#2F2A24" stroke-width="1.0"/>
+<line x1="202" y1="452" x2="202" y2="466" stroke="#2F2A24" stroke-width="1.0"/>
+<line x1="160" y1="344" x2="160" y2="360" stroke="#2F2A24" stroke-width="3.0"/>
+<rect x="143" y="356" width="30" height="18" rx="7" fill="#EFE6D4" stroke="#2F2A24" stroke-width="1.0"/>
+<rect x="145" y="370" width="5" height="18" rx="2.5" fill="#EFE6D4" stroke="#2F2A24" stroke-width="0.9"/>
+<rect x="152" y="370" width="5" height="18" rx="2.5" fill="#EFE6D4" stroke="#2F2A24" stroke-width="0.9"/>
+<rect x="159" y="370" width="5" height="18" rx="2.5" fill="#EFE6D4" stroke="#2F2A24" stroke-width="0.9"/>
+<rect x="166" y="370" width="5" height="18" rx="2.5" fill="#EFE6D4" stroke="#2F2A24" stroke-width="0.9"/>
+<rect x="135" y="364" width="9" height="5" rx="2.5" fill="#EFE6D4" stroke="#2F2A24" stroke-width="0.9"/>
+<line x1="158" y1="340" x2="158" y2="326" stroke="#4A5C55" stroke-width="0.9" marker-end="url(#arr2)"/>
+<text x="266" y="386" font-size="4.8" fill="#4A5C55">手抬起来</text>
+<text x="266" y="404" font-size="4.5" fill="#6E6459">面自己平</text>
+<text x="266" y="422" font-size="4.5" fill="#6E6459">不是不说，是不必说</text>
+<text x="24" y="510" font-size="5.2" fill="#4A5C55">二、贵言：手不按，面自己平——话留在嘴上，事才落到地上</text>
+<text x="24" y="536" font-size="4.9" fill="#2F2A24">为什么要紧：每一句指令，都是按在别人节律上的一根指头。</text>
+<text x="24" y="552" font-size="4.9" fill="#2F2A24">内心静定的人，才忍得住不往外输出意志；话多的人，往往心里没底。</text>
+<text x="24" y="570" font-size="4.9" fill="#4A5C55">贵言不是闭嘴：是不以言夺人之自性。</text>
+<line x1="24" y1="588" x2="338" y2="588" stroke="#DCCBB0" stroke-width="0.6"/>
+<rect x="20" y="596" width="340" height="40" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="190" y="612" font-size="5.8" fill="#2F2A24" text-anchor="middle">贵言者，非不言，</text>
+<text x="190" y="624" font-size="5.8" fill="#4A5C55" text-anchor="middle">是不以言夺人之自性。</text>
+<line x1="20" y1="650" x2="360" y2="650" stroke="#E6D8C2" stroke-width="0.8"/>
+<text x="20" y="664" font-size="8.0" fill="#A89577" letter-spacing="1">本 章 金 句</text>
+<text x="20" y="680" font-size="8.4" fill="#2F2A24">贵言者，非不言，是不以言夺人之自性。</text>
+<text x="20" y="696" font-size="8.4" fill="#2F2A24">言不在多：一句按下去，就是一道坑。</text>
+</svg>
