@@ -5479,6 +5479,239 @@ def ch21_shan_quan_yu_tang():
 
 
 
+def ch21_shan_quan_yu_tang():
+    body, y = head(380, 999, "孔德之容，惟道是从：德不占地方，道才进得来",
+                   "第 二 十 一 章 · 惟 道 是 从", "山泉与塘",
+                   "孔德之容，惟道是从。道之为物，惟恍惟惚。", 999)
+    s = [body]
+
+    s.append(box(20, y + 2, 340, 34, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, y + 14, "德的样子，就是道流过去的样子。", 4.8, INK, "middle"))
+    s.append(txt(190, y + 27, "泉在山上，你看不见它；塘里那一汪，全是它流来的。", 4.8, "#6E6459", "middle"))
+
+    # 一、泉与塘
+    p0 = y + 50
+    h1 = 214
+    s.append(box(26, p0, 328, h1, fill="#FBF6EC", stroke=LINE, width=0.8))
+    s.append(f'<path d="M26,{p0 + 92} L54,{p0 + 40} L82,{p0 + 74} L110,{p0 + 52} L138,{p0 + 88}" fill="none" stroke="{INK}" stroke-width="1.0"/>')
+    s.append(f'<ellipse cx="88" cy="{p0 + 40}" rx="32" ry="11" fill="#F3EBDD" opacity="0.40" stroke="none"/>')
+    for k in range(2):
+        yy = p0 + 32 + k * 6
+        s.append(f'<path d="M68,{yy} q10,-2 20,0 q10,2 20,0" fill="none" stroke="#DCCFBB" stroke-width="0.6"/>')
+    s.append(f'<path d="M76,{p0 + 76} q6,-6 12,0" fill="#E9F0E6" stroke="{INK}" stroke-width="0.9"/>')
+    s.append(txt(100, p0 + 30, "泉在雾里，看不见", 3.8, "#8A7C69"))
+    s.append(f'<path d="M86,{p0 + 80} L92,{p0 + 83} L164,{p0 + 148} L158,{p0 + 146} Z" fill="#E9F0E6" opacity="0.6" stroke="{LINE}" stroke-width="0.6"/>')
+    s.append(txt(126, p0 + 96, "通：渠口通着", 3.8, "#6E6459", "middle"))
+    s.append(f'<ellipse cx="246" cy="{p0 + 148}" rx="84" ry="26" fill="#E4D8BF" stroke="{INK}" stroke-width="1.2"/>')
+    s.append(f'<ellipse cx="246" cy="{p0 + 150}" rx="64" ry="17" fill="#E9F0E6" stroke="{LINE}" stroke-width="0.9"/>')
+    s.append(txt(246, p0 + 108, "大：岸围得宽，不拦水道", 3.9, SEAL, "middle"))
+    s.append(txt(246, p0 + 156, "空：塘底不垫土", 3.9, GREEN, "middle"))
+    s.append(txt(190, p0 + 206, "一圈岸只开一个口。三读落在同一口塘上：岸不拦、底不垫、口不堵——都是不占地方。", 3.7, "#8A7C69", "middle"))
+    s.append(txt(24, p0 + h1 + 13, "一、塘：泉流过来，它才有水", 5.0, SEAL))
+
+    # 二、反例
+    p1 = p0 + h1 + 26
+    h2 = 150
+    s.append(box(26, p1, 328, h2, fill="#FBF6EC", stroke=LINE, width=0.8))
+    s.append(box(288, p1 + 8, 44, 14, stroke=SEAL, width=0.7))
+    s.append(txt(310, p1 + 18, "反例", 3.8, SEAL, "middle"))
+    s.append(f'<ellipse cx="246" cy="{p1 + 62}" rx="84" ry="26" fill="#E4D8BF" stroke="{INK}" stroke-width="1.2"/>')
+    s.append(f'<ellipse cx="246" cy="{p1 + 62}" rx="64" ry="17" fill="#D9CBAA" stroke="{INK}" stroke-width="1.0"/>')
+    for (bx, by) in [(212, p1 + 54), (244, p1 + 66), (278, p1 + 56)]:
+        s.append(f'<path d="M{bx},{by} l13,-4 l13,4 l-4,8 l-18,1 Z" fill="#C9B79A" stroke="{INK}" stroke-width="0.6"/>')
+    s.append(f'<path d="M96,{p1 + 26} L102,{p1 + 29} L166,{p1 + 62} L160,{p1 + 60} Z" fill="#E9F0E6" opacity="0.6" stroke="{LINE}" stroke-width="0.6"/>')
+    s.append(f'<path d="M166,{p1 + 60} q2,-8 -2,-14" fill="none" stroke="#8FAA9A" stroke-width="0.8"/>')
+    s.append(f'<ellipse cx="164" cy="{p1 + 46}" rx="2.4" ry="3.2" fill="#CFE0D6" stroke="none"/>')
+    s.append(f'<ellipse cx="158" cy="{p1 + 54}" rx="1.9" ry="2.5" fill="#CFE0D6" stroke="none"/>')
+    s.append(txt(190, p1 + 104, "塘填实了：水进不去，在渠口漫出来", 3.9, "#6E6459", "middle"))
+    s.append(txt(190, p1 + 126, "德若自己占满，道就进不来。", 4.6, SEAL, "middle"))
+    s.append(txt(24, p1 + h2 + 13, "二、反例：塘填实，水在渠口漫出去", 5.0, GREEN))
+
+    a = p1 + h2 + 32
+    s.append(txt(24, a, "「孔德之容」：不是先修出一份德、再去从道；是德的一切呈现，本来就只从道出。", 4.9, INK))
+    s.append(txt(24, a + 16, "「容」是描摹样子，不是「容量」——第十五章「强为之容」也是描摹。", 4.9, INK))
+    s.append(txt(24, a + 34, "恍惚不是道的属性，是道与抓取相遇时的样子：你不抓，它不恍惚。", 4.9, GREEN))
+
+    c = a + 52
+    s.append(f'<line x1="24" y1="{c}" x2="338" y2="{c}" stroke="{LINE}" stroke-width="0.6"/>')
+    s.append(box(20, c + 8, 340, 40, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, c + 24, "孔德之容，惟道是从：德不是修出来的，是流出来的。", 5.0, INK, "middle"))
+    s.append(txt(190, c + 36, "德之所以能容，正因它不占地方。", 5.0, GREEN, "middle"))
+    s.append(gold(c + 62, "ch21"))
+    s.append('</svg>')
+    out = chr(10).join(s)
+    ys = [float(v) for v in re.findall(r'y="([0-9.]+)"', out)]
+    return out.replace("999", str(int(int(max(ys) + 26))))
+
+
+def ch21b_tan_yu_yue():
+    body, y = head(380, 999, "惚兮恍兮，其中有象；恍兮惚兮，其中有物",
+                   "第 二 十 一 章 · 恍 惚 有 象", "潭与月",
+                   "窈兮冥兮，其中有精；其精甚真，其中有信。", 999)
+    s = [body]
+
+    s.append(box(20, y + 2, 340, 34, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, y + 14, "不抓，它有样子；一抓，就只剩几片。", 4.8, INK, "middle"))
+    s.append(txt(190, y + 27, "看不见的地方，不等于没有东西。", 4.8, "#6E6459", "middle"))
+
+    # 一、水面：象
+    p0 = y + 50
+    h1 = 210
+    s.append(box(26, p0, 328, h1, fill="#FBF6EC", stroke=LINE, width=0.8))
+    s.append(f'<rect x="46" y="{p0 + 112}" width="288" height="84" fill="#E9F0E6" opacity="0.72" stroke="none"/>')
+    s.append(f'<line x1="40" y1="{p0 + 112}" x2="342" y2="{p0 + 112}" stroke="{INK}" stroke-width="1.2"/>')
+    s.append(f'<line x1="46" y1="{p0 + 196}" x2="334" y2="{p0 + 196}" stroke="{LINE}" stroke-width="0.8"/>')
+    s.append(f'<circle cx="118" cy="{p0 + 74}" r="13" fill="#F6E9C9" stroke="#C9A96A" stroke-width="0.8"/>')
+    s.append(f'<ellipse cx="252" cy="{p0 + 158}" rx="30" ry="6.6" fill="none" stroke="#C9B79A" stroke-width="0.7" stroke-dasharray="3 3" opacity="0.7"/>')
+    s.append(txt(152, p0 + 78, "月在天上，是圆的", 3.9, "#8A7C69"))
+    s.append(txt(252, p0 + 132, "水里的月影，一抓就散", 3.9, "#8A7C69", "middle"))
+    s.append(f'<circle cx="216" cy="{p0 + 158}" r="2.4" fill="#C9B79A"/>')
+    for (rx, ry, op) in [(15, 3.6, 0.85), (28, 6.4, 0.6), (42, 9.4, 0.38)]:
+        s.append(f'<ellipse cx="216" cy="{p0 + 158}" rx="{rx}" ry="{ry}" fill="none" stroke="#C9B79A" stroke-width="0.6" opacity="{op}"/>')
+    for (dx, dy, rx, ry) in [(-24, 5, 6.2, 2.1), (-38, -4, 4.6, 1.7), (26, -3, 5.6, 2.0), (40, 7, 4.4, 1.6), (12, 14, 4.0, 1.4)]:
+        s.append(f'<ellipse cx="{216 + dx}" cy="{p0 + 158 + dy}" rx="{rx}" ry="{ry}" fill="#F6E9C9" stroke="#DCCFBB" stroke-width="0.5"/>')
+    s.append(txt(190, p0 + 206, "伸手一抓，月碎成几片；水还是那潭水。", 3.9, "#6E6459", "middle"))
+    s.append(txt(24, p0 + h1 + 13, "一、水面：不抓有样子，一抓只剩几片", 5.0, SEAL))
+
+    # 二、往深处：精是一点光，信是每月都来
+    p1 = y + 50 + h1 + 26
+    h2 = 236
+    s.append(box(26, p1, 328, h2, fill="#FBF6EC", stroke=LINE, width=0.8))
+    s.append(f'<line x1="40" y1="{p1 + 34}" x2="342" y2="{p1 + 34}" stroke="{INK}" stroke-width="1.2"/>')
+    s.append(f'<rect x="46" y="{p1 + 34}" width="288" height="62" fill="#E9F0E6" opacity="0.5" stroke="none"/>')
+    s.append(f'<rect x="46" y="{p1 + 96}" width="288" height="50" fill="#DCE8DD" opacity="0.6" stroke="none"/>')
+    s.append(f'<rect x="46" y="{p1 + 146}" width="288" height="36" fill="#CFDCCF" opacity="0.65" stroke="none"/>')
+    s.append(f'<rect x="40" y="{p1 + 182}" width="300" height="14" fill="#E4D8BF" stroke="none"/>')
+    s.append(f'<line x1="40" y1="{p1 + 182}" x2="340" y2="{p1 + 182}" stroke="#8A7C69" stroke-width="1.6"/>')
+    # 一道光往下落，落在潭底一块石头上
+    s.append(f'<line x1="176" y1="{p1 + 36}" x2="192" y2="{p1 + 172}" stroke="#E7D9B8" stroke-width="3.0" opacity="0.8"/>')
+    s.append(f'<line x1="168" y1="{p1 + 36}" x2="184" y2="{p1 + 172}" stroke="#E7D9B8" stroke-width="1.3" opacity="0.45"/>')
+    s.append(f'<path d="M204,{p1 + 172} l12,-6 l14,3 l-4,5 l-20,1 Z" fill="#D9CBAA" stroke="{LINE}" stroke-width="0.7"/>')
+    s.append(f'<circle cx="194" cy="{p1 + 179}" r="4.0" fill="#F6E9C9" stroke="#C9A96A" stroke-width="0.9"/>')
+    s.append(f'<circle cx="194" cy="{p1 + 179}" r="10" fill="none" stroke="#E7D9B8" stroke-width="0.9" opacity="0.75"/>')
+    # 精：最深处剩下的一点
+    s.append(f'<line x1="92" y1="{p1 + 126}" x2="180" y2="{p1 + 172}" stroke="{LINE}" stroke-width="0.6" opacity="0.85"/>')
+    s.append(txt(64, p1 + 104, "精", 6.4, SEAL, "middle"))
+    s.append(txt(64, p1 + 118, "最深处", 3.6, "#6E6459", "middle"))
+    s.append(txt(64, p1 + 128, "剩下的一点", 3.6, "#6E6459", "middle"))
+    # 信：三枚月相，十五必圆
+    s.append(txt(308, p1 + 56, "信", 6.4, GREEN, "middle"))
+    s.append(txt(308, p1 + 70, "每月必来", 3.5, "#6E6459", "middle"))
+    s.append(txt(308, p1 + 80, "一圆，不失期", 3.5, "#6E6459", "middle"))
+    for (mx, mode) in [(238, "cres"), (256, "full"), (274, "wan")]:
+        s.append(f'<circle cx="{mx}" cy="{p1 + 70}" r="5.4" fill="{PAPER}" stroke="#C9A96A" stroke-width="0.7"/>')
+        if mode == "full":
+            s.append(f'<circle cx="{mx}" cy="{p1 + 70}" r="5.4" fill="#F6E9C9" stroke="none"/>')
+        elif mode == "cres":
+            s.append(f'<path d="M{mx + 1},{p1 + 65.6} q4.4,4.4 0,8.8 q-3.6,-4.4 0,-8.8 Z" fill="#F6E9C9" stroke="none"/>')
+        else:
+            s.append(f'<path d="M{mx},{p1 + 65.6} a5.4,5.4 0 0 0 0,8.8 Z" fill="#F6E9C9" stroke="none"/>')
+    # 真：那点光不是画上去的
+    s.append(txt(298, p1 + 128, "真", 6.4, GREEN, "middle"))
+    s.append(txt(298, p1 + 142, "那点光不是画上去的：", 3.5, "#6E6459", "middle"))
+    s.append(txt(298, p1 + 152, "它亮在一块石头上", 3.5, "#6E6459", "middle"))
+    s.append(f'<line x1="272" y1="{p1 + 158}" x2="214" y2="{p1 + 172}" stroke="{LINE}" stroke-width="0.6" opacity="0.85"/>')
+    s.append(txt(150, p1 + h2 - 10, "看不见，但不是没有；有，而且真；真，而且有常。", 3.8, "#8A7C69", "middle"))
+    s.append(txt(24, p1 + h2 + 13, "二、往深处：精是一点光，信是每月都来", 5.0, GREEN))
+
+    a = p1 + h2 + 32
+    s.append(txt(24, a, "「象」是还没固化成形的显相，「物」是能凝成有形的基质；先有象，后成物。", 4.9, INK))
+    s.append(txt(24, a + 16, "「精」是去粗取精剩下的那一点；「真」不是编的；「信」是节律，不是人格上的守信。", 4.9, INK))
+    s.append(txt(24, a + 34, "十四说「复归于无物」，本章说「其中有物」：一个说它自己没有形状，一个说形状从它出来。", 4.9, GREEN))
+
+    c = a + 52
+    s.append(f'<line x1="24" y1="{c}" x2="338" y2="{c}" stroke="{LINE}" stroke-width="0.6"/>')
+    s.append(box(20, c + 8, 340, 40, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, c + 24, "看不见的东西，不等于靠不住的东西。", 5.4, INK, "middle"))
+    s.append(txt(190, c + 36, "恍惚不是道的属性，是道与抓取相遇时的样子。", 4.7, GREEN, "middle"))
+    s.append(gold(c + 62, "ch21b"))
+    s.append('</svg>')
+    out = chr(10).join(s)
+    ys = [float(v) for v in re.findall(r'y="([0-9.]+)"', out)]
+    return out.replace("999", str(int(int(max(ys) + 26))))
+
+
+def ch21c_lu_shang_de_jie_shi():
+    body, y = head(380, 999, "自今及古，其名不去，以阅众甫",
+                   "第 二 十 一 章 · 以 阅 众 甫", "路上的界石",
+                   "自今及古，其名不去，以阅众甫。吾何以知众甫之状哉？以此。", 999)
+    s = [body]
+
+    s.append(box(20, y + 2, 340, 34, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, y + 14, "名是路标：指得对，不等于路标就是那地方。", 4.8, INK, "middle"))
+    s.append(txt(190, y + 27, "从今天一路往回排，路标一直没撤。", 4.8, "#6E6459", "middle"))
+
+    # 一、路上的界石
+    p0 = y + 50
+    h1 = 196
+    s.append(box(26, p0, 328, h1, fill="#FBF6EC", stroke=LINE, width=0.8))
+    # 路：近宽远窄
+    s.append(f'<path d="M46,{p0 + 178} L96,{p0 + 178} L268,{p0 + 62} L246,{p0 + 62} Z" fill="#EFE6D4" opacity="0.75" stroke="{LINE}" stroke-width="0.6"/>')
+    # 三块界石：今、中、古
+    for (bx, by, word) in [(84, p0 + 156, "今"), (150, p0 + 118, "中"), (216, p0 + 80, "古")]:
+        s.append(f'<rect x="{bx - 10}" y="{by - 22}" width="20" height="26" rx="3" fill="#E4D8BF" stroke="{INK}" stroke-width="0.9"/>')
+        s.append(txt(bx, by - 4, word, 5.4, INK, "middle"))
+    # 一块一块都朝同一个方向
+    s.append(f'<line x1="104" y1="{p0 + 164}" x2="234" y2="{p0 + 88}" stroke="{GREEN}" stroke-width="0.9" stroke-dasharray="3 3" opacity="0.85"/>')
+    s.append(f'<path d="M234,{p0 + 88} L226,{p0 + 89} M234,{p0 + 88} L231,{p0 + 96}" fill="none" stroke="{GREEN}" stroke-width="0.9"/>')
+    s.append(txt(150, p0 + 176, "都朝同一个方向", 3.8, GREEN, "middle"))
+    # 人在最近一块石旁指路
+    s.append(f'<circle cx="60" cy="{p0 + 124}" r="4.2" fill="none" stroke="{INK}" stroke-width="0.9"/>')
+    s.append(f'<line x1="60" y1="{p0 + 128}" x2="60" y2="{p0 + 156}" stroke="{INK}" stroke-width="0.9"/>')
+    s.append(f'<line x1="60" y1="{p0 + 136}" x2="76" y2="{p0 + 130}" stroke="{INK}" stroke-width="0.9"/>')
+    s.append(f'<line x1="60" y1="{p0 + 156}" x2="54" y2="{p0 + 172}" stroke="{INK}" stroke-width="0.9"/>')
+    s.append(f'<line x1="60" y1="{p0 + 156}" x2="68" y2="{p0 + 172}" stroke="{INK}" stroke-width="0.9"/>')
+    # 远处一道小门：门内就是那地方
+    s.append(f'<line x1="246" y1="{p0 + 62}" x2="246" y2="{p0 + 26}" stroke="{INK}" stroke-width="1.0"/>')
+    s.append(f'<line x1="270" y1="{p0 + 62}" x2="270" y2="{p0 + 26}" stroke="{INK}" stroke-width="1.0"/>')
+    s.append(f'<line x1="242" y1="{p0 + 26}" x2="274" y2="{p0 + 26}" stroke="{INK}" stroke-width="1.0"/>')
+    s.append(f'<rect x="246" y="{p0 + 12}" width="24" height="12" fill="#F2EADA" stroke="{SEAL}" stroke-width="0.8"/>')
+    s.append(txt(258, p0 + 21, "道", 5.2, SEAL, "middle"))
+    s.append(txt(258, p0 + 76, "尽头是那地方", 3.6, "#8A7C69", "middle"))
+    s.append(txt(24, p0 + h1 + 13, "一、路上：今、中、古，三块石头指一处", 5.0, SEAL))
+
+    # 二、门内：一一点数
+    p1 = p0 + h1 + 26
+    h2 = 152
+    s.append(box(26, p1, 328, h2, fill="#FBF6EC", stroke=LINE, width=0.8))
+    s.append(f'<line x1="120" y1="{p1 + 40}" x2="120" y2="{p1 + 120}" stroke="{INK}" stroke-width="1.1"/>')
+    s.append(f'<line x1="296" y1="{p1 + 40}" x2="296" y2="{p1 + 120}" stroke="{INK}" stroke-width="1.1"/>')
+    s.append(f'<line x1="114" y1="{p1 + 40}" x2="302" y2="{p1 + 40}" stroke="{INK}" stroke-width="1.1"/>')
+    s.append(f'<rect x="182" y="{p1 + 26}" width="42" height="12" fill="#F2EADA" stroke="{SEAL}" stroke-width="0.8"/>')
+    s.append(txt(203, p1 + 35, "阅", 4.8, SEAL, "middle"))
+    s.append(f'<line x1="126" y1="{p1 + 120}" x2="290" y2="{p1 + 120}" stroke="{LINE}" stroke-width="0.7"/>')
+    # 门内五株，一株株点过去
+    for k in range(5):
+        gx = 176 + k * 26
+        s.append(f'<path d="M{gx - 5},{p1 + 116} L{gx},{p1 + 96} L{gx + 5},{p1 + 116}" fill="none" stroke="{GREEN}" stroke-width="1.0"/>')
+        s.append(f'<line x1="{gx}" y1="{p1 + 116}" x2="{gx}" y2="{p1 + 124}" stroke="{GREEN}" stroke-width="0.9"/>')
+    # 一人站着俯身，用手指点数
+    s.append(f'<circle cx="146" cy="{p1 + 86}" r="4.0" fill="none" stroke="{INK}" stroke-width="0.9"/>')
+    s.append(f'<path d="M146,{p1 + 90} L150,{p1 + 112}" fill="none" stroke="{INK}" stroke-width="0.9"/>')
+    s.append(f'<line x1="150" y1="{p1 + 112}" x2="144" y2="{p1 + 128}" stroke="{INK}" stroke-width="0.9"/>')
+    s.append(f'<line x1="150" y1="{p1 + 112}" x2="156" y2="{p1 + 128}" stroke="{INK}" stroke-width="0.9"/>')
+    s.append(f'<path d="M148,{p1 + 96} L170,{p1 + 108}" fill="none" stroke="{INK}" stroke-width="0.9"/>')
+    s.append(txt(206, p1 + 62, "一株，一株，点过去", 3.8, "#6E6459", "middle"))
+    s.append(txt(190, p1 + 142, "「阅」是门内逐一点数；「以此」，就是站对了地方，不向外求标准。", 3.8, "#8A7C69", "middle"))
+    s.append(txt(24, p1 + h2 + 13, "二、门内：名指得对，还要进来一一点数", 5.0, GREEN))
+
+    a = p1 + h2 + 32
+    s.append(txt(24, a, "「自今及古」是把时间拉直：从此刻一直排回去，路标始终没撤。", 4.9, INK))
+    s.append(txt(24, a + 16, "「名不去」不是名字不会用坏，是它指的那处一直还在；名字指对了，不等于名字就是那处。", 4.9, INK))
+    s.append(txt(24, a + 34, "「以此」：不问「你凭什么」，只问「你站在哪里」——站对了，就数得清。", 4.9, GREEN))
+
+    c = a + 52
+    s.append(f'<line x1="24" y1="{c}" x2="338" y2="{c}" stroke="{LINE}" stroke-width="0.6"/>')
+    s.append(box(20, c + 8, 340, 40, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, c + 24, "名不去，是路标一直在；路标在，不等于路标就是那个地方。", 4.9, INK, "middle"))
+    s.append(txt(190, c + 36, "不是知道得多，是站对了地方。", 4.9, GREEN, "middle"))
+    s.append(gold(c + 62, "ch21c"))
+    s.append('</svg>')
+    out = chr(10).join(s)
+    ys = [float(v) for v in re.findall(r'y="([0-9.]+)"', out)]
+    return out.replace("999", str(int(int(max(ys) + 26))))
+
+
 def ch21b_yi_zhu_dao_de_si_ceng():
     body, y = head(380, 999, "其中有象，其中有物，其中有精，其中有信",
                    "第 二 十 一 章 · 象 物 精 信", "一株稻的四层",
@@ -9492,7 +9725,7 @@ GOLD = {
     "ch19c": ["素者未染，朴者未雕；不加文饰，不下斧斤。", "不必靠外加的东西证明自己。"],
     "ch20b": ["众人熙熙，我独未兆；未兆者，欲未起也。", "泊不是冷，是停在没起念的那一处。"],
     "ch20c": ["昭昭者怕人看不见自己对，昏昏者不怕人看错自己。", "灯还是那盏灯，只是不举了。"],
-    "ch21b": ["看不见的东西，不等于靠不住的东西。", "精，是舂过的米：去掉糠皮，剩下那一点。"],
+    "ch21b": ["看不见的东西，不等于靠不住的东西。", "恍惚不是道的属性，是道与抓取相遇时的样子。"],
     "ch21c": ["名不去，是路标一直在；路标在，不等于路标就是那个地方。", "不是知道得多，是站对了地方。"],
     "ch22b": ["曲则全，枉则直，洼则盈，敝则新。", "弯的能受，所以能全；低的能聚，所以能盈。"],
     "ch22c": ["圣人抱一，为天下式。", "抱一，不是统一别人，是不让自己裂开。"],
@@ -17675,8 +17908,8 @@ FIGS = {
     "ch19-yi-gen-biao-gan": ("第十九章", "一根标杆", ch19_yi_gen_biao_gan),
     "ch20-yi-ba-chi-de-liang-mian": ("第二十章", "一把尺的两面", ch20_yi_ba_chi_de_liang_mian),
     "ch21-shan-quan-yu-tang": ("第二十一章", "山泉与塘", ch21_shan_quan_yu_tang),
-    "ch21b-yi-zhu-dao-de-si-ceng": ("第二十一章", "一株稻的四层", ch21b_yi_zhu_dao_de_si_ceng),
-    "ch21c-men-mei-shang-de-bian": ("第二十一章", "门楣上的匾", ch21c_men_mei_shang_de_bian),
+    "ch21b-tan-yu-yue": ("第二十一章", "潭与月", ch21b_tan_yu_yue),
+    "ch21c-lu-shang-de-jie-shi": ("第二十一章", "路上的界石", ch21c_lu_shang_de_jie_shi),
     "ch03-shang-ji-guo-du": ("第三章", "尚即过度", ch03_shang_ji_guo_du),
     "ch04-dao-chong": ("第四章", "井：一直在用，从不溢出", ch04_dao_chong),
     "ch05b-yi-zhi-chu-gou": ("第五章", "一只刍狗", ch05b_yi_zhi_chu_gou),

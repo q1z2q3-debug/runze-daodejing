@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 380 840" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="惚兮恍兮，其中有象；恍兮惚兮，其中有物" font-family="'Noto Serif CJK SC','Noto Serif SC','Songti SC',serif">
+<defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#6E6459"/></marker><marker id="arr2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#4A5C55"/></marker><marker id="arrL" viewBox="0 0 10 10" refX="1" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M10 0 L0 5 L10 10 z" fill="#4A5C55"/></marker><marker id="arrS" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#A2503B"/></marker></defs>
+<rect x="0" y="0" width="380" height="840" fill="#F8F3E6"/>
+<text x="20" y="26" font-size="11" fill="#A2503B" font-family="'Noto Sans CJK SC','Noto Sans SC',sans-serif" letter-spacing="3">第 二 十 一 章 · 恍 惚 有 象</text>
+<text x="20" y="58" font-size="21" fill="#2F2A24">潭与月</text>
+<text x="20" y="78" font-size="10.5" fill="#6E6459">窈兮冥兮，其中有精；其精甚真，其中有信。</text>
+<rect x="20" y="102" width="340" height="34" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="190" y="114" font-size="4.8" fill="#2F2A24" text-anchor="middle">不抓，它有样子；一抓，就只剩几片。</text>
+<text x="190" y="127" font-size="4.8" fill="#6E6459" text-anchor="middle">看不见的地方，不等于没有东西。</text>
+<rect x="26" y="150" width="328" height="210" fill="#FBF6EC" stroke="#DCCBB0" stroke-width="0.8"/>
+<rect x="46" y="262" width="288" height="84" fill="#E9F0E6" opacity="0.72" stroke="none"/>
+<line x1="40" y1="262" x2="342" y2="262" stroke="#2F2A24" stroke-width="1.2"/>
+<line x1="46" y1="346" x2="334" y2="346" stroke="#DCCBB0" stroke-width="0.8"/>
+<circle cx="118" cy="224" r="13" fill="#F6E9C9" stroke="#C9A96A" stroke-width="0.8"/>
+<ellipse cx="252" cy="308" rx="30" ry="6.6" fill="none" stroke="#C9B79A" stroke-width="0.7" stroke-dasharray="3 3" opacity="0.7"/>
+<text x="152" y="228" font-size="3.9" fill="#8A7C69">月在天上，是圆的</text>
+<text x="252" y="282" font-size="3.9" fill="#8A7C69" text-anchor="middle">水里的月影，一抓就散</text>
+<circle cx="216" cy="308" r="2.4" fill="#C9B79A"/>
+<ellipse cx="216" cy="308" rx="15" ry="3.6" fill="none" stroke="#C9B79A" stroke-width="0.6" opacity="0.85"/>
+<ellipse cx="216" cy="308" rx="28" ry="6.4" fill="none" stroke="#C9B79A" stroke-width="0.6" opacity="0.6"/>
+<ellipse cx="216" cy="308" rx="42" ry="9.4" fill="none" stroke="#C9B79A" stroke-width="0.6" opacity="0.38"/>
+<ellipse cx="192" cy="313" rx="6.2" ry="2.1" fill="#F6E9C9" stroke="#DCCFBB" stroke-width="0.5"/>
+<ellipse cx="178" cy="304" rx="4.6" ry="1.7" fill="#F6E9C9" stroke="#DCCFBB" stroke-width="0.5"/>
+<ellipse cx="242" cy="305" rx="5.6" ry="2.0" fill="#F6E9C9" stroke="#DCCFBB" stroke-width="0.5"/>
+<ellipse cx="256" cy="315" rx="4.4" ry="1.6" fill="#F6E9C9" stroke="#DCCFBB" stroke-width="0.5"/>
+<ellipse cx="228" cy="322" rx="4.0" ry="1.4" fill="#F6E9C9" stroke="#DCCFBB" stroke-width="0.5"/>
+<text x="190" y="356" font-size="3.9" fill="#6E6459" text-anchor="middle">伸手一抓，月碎成几片；水还是那潭水。</text>
+<text x="24" y="373" font-size="5.0" fill="#A2503B">一、水面：不抓有样子，一抓只剩几片</text>
+<rect x="26" y="386" width="328" height="236" fill="#FBF6EC" stroke="#DCCBB0" stroke-width="0.8"/>
+<line x1="40" y1="420" x2="342" y2="420" stroke="#2F2A24" stroke-width="1.2"/>
+<rect x="46" y="420" width="288" height="62" fill="#E9F0E6" opacity="0.5" stroke="none"/>
+<rect x="46" y="482" width="288" height="50" fill="#DCE8DD" opacity="0.6" stroke="none"/>
+<rect x="46" y="532" width="288" height="36" fill="#CFDCCF" opacity="0.65" stroke="none"/>
+<rect x="40" y="568" width="300" height="14" fill="#E4D8BF" stroke="none"/>
+<line x1="40" y1="568" x2="340" y2="568" stroke="#8A7C69" stroke-width="1.6"/>
+<line x1="176" y1="422" x2="192" y2="558" stroke="#E7D9B8" stroke-width="3.0" opacity="0.8"/>
+<line x1="168" y1="422" x2="184" y2="558" stroke="#E7D9B8" stroke-width="1.3" opacity="0.45"/>
+<path d="M204,558 l12,-6 l14,3 l-4,5 l-20,1 Z" fill="#D9CBAA" stroke="#DCCBB0" stroke-width="0.7"/>
+<circle cx="194" cy="565" r="4.0" fill="#F6E9C9" stroke="#C9A96A" stroke-width="0.9"/>
+<circle cx="194" cy="565" r="10" fill="none" stroke="#E7D9B8" stroke-width="0.9" opacity="0.75"/>
+<line x1="92" y1="512" x2="180" y2="558" stroke="#DCCBB0" stroke-width="0.6" opacity="0.85"/>
+<text x="64" y="490" font-size="6.4" fill="#A2503B" text-anchor="middle">精</text>
+<text x="64" y="504" font-size="3.6" fill="#6E6459" text-anchor="middle">最深处</text>
+<text x="64" y="514" font-size="3.6" fill="#6E6459" text-anchor="middle">剩下的一点</text>
+<text x="308" y="442" font-size="6.4" fill="#4A5C55" text-anchor="middle">信</text>
+<text x="308" y="456" font-size="3.5" fill="#6E6459" text-anchor="middle">每月必来</text>
+<text x="308" y="466" font-size="3.5" fill="#6E6459" text-anchor="middle">一圆，不失期</text>
+<circle cx="238" cy="456" r="5.4" fill="#F8F3E6" stroke="#C9A96A" stroke-width="0.7"/>
+<path d="M239,451.6 q4.4,4.4 0,8.8 q-3.6,-4.4 0,-8.8 Z" fill="#F6E9C9" stroke="none"/>
+<circle cx="256" cy="456" r="5.4" fill="#F8F3E6" stroke="#C9A96A" stroke-width="0.7"/>
+<circle cx="256" cy="456" r="5.4" fill="#F6E9C9" stroke="none"/>
+<circle cx="274" cy="456" r="5.4" fill="#F8F3E6" stroke="#C9A96A" stroke-width="0.7"/>
+<path d="M274,451.6 a5.4,5.4 0 0 0 0,8.8 Z" fill="#F6E9C9" stroke="none"/>
+<text x="298" y="514" font-size="6.4" fill="#4A5C55" text-anchor="middle">真</text>
+<text x="298" y="528" font-size="3.5" fill="#6E6459" text-anchor="middle">那点光不是画上去的：</text>
+<text x="298" y="538" font-size="3.5" fill="#6E6459" text-anchor="middle">它亮在一块石头上</text>
+<line x1="272" y1="544" x2="214" y2="558" stroke="#DCCBB0" stroke-width="0.6" opacity="0.85"/>
+<text x="150" y="612" font-size="3.8" fill="#8A7C69" text-anchor="middle">看不见，但不是没有；有，而且真；真，而且有常。</text>
+<text x="24" y="635" font-size="5.0" fill="#4A5C55">二、往深处：精是一点光，信是每月都来</text>
+<text x="24" y="654" font-size="4.9" fill="#2F2A24">「象」是还没固化成形的显相，「物」是能凝成有形的基质；先有象，后成物。</text>
+<text x="24" y="670" font-size="4.9" fill="#2F2A24">「精」是去粗取精剩下的那一点；「真」不是编的；「信」是节律，不是人格上的守信。</text>
+<text x="24" y="688" font-size="4.9" fill="#4A5C55">十四说「复归于无物」，本章说「其中有物」：一个说它自己没有形状，一个说形状从它出来。</text>
+<line x1="24" y1="706" x2="338" y2="706" stroke="#DCCBB0" stroke-width="0.6"/>
+<rect x="20" y="714" width="340" height="40" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="190" y="730" font-size="5.4" fill="#2F2A24" text-anchor="middle">看不见的东西，不等于靠不住的东西。</text>
+<text x="190" y="742" font-size="4.7" fill="#4A5C55" text-anchor="middle">恍惚不是道的属性，是道与抓取相遇时的样子。</text>
+<line x1="20" y1="768" x2="360" y2="768" stroke="#E6D8C2" stroke-width="0.8"/>
+<text x="20" y="782" font-size="8.0" fill="#A89577" letter-spacing="1">本 章 金 句</text>
+<text x="20" y="798" font-size="8.4" fill="#2F2A24">看不见的东西，不等于靠不住的东西。</text>
+<text x="20" y="814" font-size="8.4" fill="#2F2A24">恍惚不是道的属性，是道与抓取相遇时的样子。</text>
+</svg>
