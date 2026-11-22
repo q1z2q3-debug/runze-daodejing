@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 380 770" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="以阅众甫：在门内把万物的开端一一点过" font-family="'Noto Serif CJK SC','Noto Serif SC','Songti SC',serif">
+<defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#6E6459"/></marker><marker id="arr2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#4A5C55"/></marker><marker id="arrL" viewBox="0 0 10 10" refX="1" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M10 0 L0 5 L10 10 z" fill="#4A5C55"/></marker><marker id="arrS" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#A2503B"/></marker></defs>
+<rect x="0" y="0" width="380" height="770" fill="#F8F3E6"/>
+<text x="20" y="26" font-size="11" fill="#A2503B" font-family="'Noto Sans CJK SC','Noto Sans SC',sans-serif" letter-spacing="3">第 二 十 一 章 · 名 与 众 甫</text>
+<text x="20" y="58" font-size="21" fill="#2F2A24">门楣上的匾</text>
+<text x="20" y="78" font-size="10.5" fill="#6E6459">自今及古，其名不去，以阅众甫。</text>
+<rect x="20" y="102" width="340" height="34" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="190" y="114" font-size="4.8" fill="#2F2A24" text-anchor="middle">「道」这个名字，只是挂在门楣上的一块匾。</text>
+<text x="190" y="127" font-size="4.8" fill="#6E6459" text-anchor="middle">匾一直在，指着这道门；匾不是门里的地方。</text>
+<rect x="26" y="150" width="328" height="176" fill="#FBF6EC" stroke="#DCCBB0" stroke-width="0.8"/>
+<line x1="110" y1="184" x2="246" y2="182" stroke="#E6D8C2" stroke-width="0.7"/>
+<line x1="115" y1="191" x2="240" y2="189" stroke="#E6D8C2" stroke-width="0.7"/>
+<line x1="120" y1="198" x2="234" y2="196" stroke="#E6D8C2" stroke-width="0.7"/>
+<line x1="34" y1="302" x2="340" y2="302" stroke="#E6D8C2" stroke-width="0.9"/>
+<line x1="200" y1="242" x2="200" y2="302" stroke="#2F2A24" stroke-width="1.4"/>
+<line x1="320" y1="242" x2="320" y2="302" stroke="#2F2A24" stroke-width="1.4"/>
+<line x1="194" y1="242" x2="326" y2="242" stroke="#2F2A24" stroke-width="1.6"/>
+<rect x="222" y="226" width="60" height="16" fill="#F2EADA" stroke="#A2503B" stroke-width="0.8"/>
+<text x="252" y="238" font-size="5.2" fill="#A2503B" text-anchor="middle">道</text>
+<circle cx="128" cy="268" r="3.4" fill="none" stroke="#2F2A24" stroke-width="0.9"/>
+<line x1="128" y1="272" x2="128" y2="294" stroke="#2F2A24" stroke-width="1.0"/>
+<line x1="128" y1="294" x2="123" y2="302" stroke="#2F2A24" stroke-width="0.9"/>
+<line x1="128" y1="294" x2="133" y2="302" stroke="#2F2A24" stroke-width="0.9"/>
+<line x1="128" y1="276" x2="154" y2="262" stroke="#2F2A24" stroke-width="1.0"/>
+<line x1="154" y1="262" x2="159" y2="260" stroke="#2F2A24" stroke-width="0.8"/>
+<line x1="161" y1="260" x2="220" y2="234" stroke="#A2503B" stroke-width="0.6" stroke-dasharray="4 3"/>
+<line x1="128" y1="276" x2="119" y2="286" stroke="#2F2A24" stroke-width="0.8"/>
+<text x="190" y="318" font-size="3.9" fill="#8A7C69" text-anchor="middle">匾指着门；门里才是那地方——匾在门外，人还站在门外。</text>
+<text x="24" y="339" font-size="5.0" fill="#A2503B">一、门外：匾一直在，路标不是那地方</text>
+<rect x="26" y="352" width="328" height="200" fill="#FBF6EC" stroke="#DCCBB0" stroke-width="0.8"/>
+<line x1="70" y1="386" x2="70" y2="502" stroke="#2F2A24" stroke-width="1.4"/>
+<line x1="330" y1="386" x2="330" y2="502" stroke="#2F2A24" stroke-width="1.4"/>
+<line x1="64" y1="386" x2="336" y2="386" stroke="#2F2A24" stroke-width="1.7"/>
+<line x1="44" y1="502" x2="344" y2="502" stroke="#2F2A24" stroke-width="1.1"/>
+<line x1="172" y1="374" x2="172" y2="386" stroke="#DCCBB0" stroke-width="0.6"/>
+<line x1="212" y1="374" x2="212" y2="386" stroke="#DCCBB0" stroke-width="0.6"/>
+<rect x="164" y="360" width="60" height="14" fill="#F2EADA" stroke="#A2503B" stroke-width="0.8"/>
+<text x="194" y="371" font-size="4.8" fill="#A2503B" text-anchor="middle">道</text>
+<line x1="78" y1="390" x2="78" y2="498" stroke="#DCCBB0" stroke-width="0.8"/>
+<line x1="108" y1="502" x2="108" y2="486" stroke="#2F2A24" stroke-width="0.9"/>
+<path d="M108,486 q-3,-7 -9,-11" fill="none" stroke="#4A5C55" stroke-width="0.9"/>
+<path d="M108,486 q3,-7 9,-11" fill="none" stroke="#4A5C55" stroke-width="0.9"/>
+<line x1="146" y1="502" x2="146" y2="486" stroke="#2F2A24" stroke-width="0.9"/>
+<path d="M146,486 q-3,-7 -9,-11" fill="none" stroke="#4A5C55" stroke-width="0.9"/>
+<path d="M146,486 q3,-7 9,-11" fill="none" stroke="#4A5C55" stroke-width="0.9"/>
+<line x1="184" y1="502" x2="184" y2="486" stroke="#2F2A24" stroke-width="0.9"/>
+<path d="M184,486 q-3,-7 -9,-11" fill="none" stroke="#4A5C55" stroke-width="0.9"/>
+<path d="M184,486 q3,-7 9,-11" fill="none" stroke="#4A5C55" stroke-width="0.9"/>
+<line x1="222" y1="502" x2="222" y2="486" stroke="#2F2A24" stroke-width="0.9"/>
+<path d="M222,486 q-3,-7 -9,-11" fill="none" stroke="#4A5C55" stroke-width="0.9"/>
+<path d="M222,486 q3,-7 9,-11" fill="none" stroke="#4A5C55" stroke-width="0.9"/>
+<line x1="260" y1="502" x2="260" y2="486" stroke="#2F2A24" stroke-width="0.9"/>
+<path d="M260,486 q-3,-7 -9,-11" fill="none" stroke="#4A5C55" stroke-width="0.9"/>
+<path d="M260,486 q3,-7 9,-11" fill="none" stroke="#4A5C55" stroke-width="0.9"/>
+<circle cx="284" cy="472" r="3.0" fill="none" stroke="#2F2A24" stroke-width="0.9"/>
+<line x1="287" y1="474" x2="300" y2="490" stroke="#2F2A24" stroke-width="1.0"/>
+<line x1="300" y1="490" x2="298" y2="502" stroke="#2F2A24" stroke-width="0.9"/>
+<line x1="300" y1="490" x2="306" y2="502" stroke="#2F2A24" stroke-width="0.9"/>
+<line x1="291" y1="478" x2="268" y2="490" stroke="#2F2A24" stroke-width="1.0"/>
+<line x1="268" y1="490" x2="263" y2="487" stroke="#2F2A24" stroke-width="0.8"/>
+<line x1="296" y1="484" x2="304" y2="498" stroke="#2F2A24" stroke-width="0.8"/>
+<text x="96" y="517" font-size="3.7" fill="#8A7C69">众甫：物之始</text>
+<text x="190" y="528" font-size="3.9" fill="#6E6459" text-anchor="middle">阅：门内逐一点数——点的是开端，不是器物。</text>
+<text x="190" y="541" font-size="4.3" fill="#4A5C55" text-anchor="middle">以此：不是知道得多，是站对了地方。</text>
+<text x="24" y="565" font-size="5.0" fill="#4A5C55">二、门内：一道一道点过去</text>
+<text x="24" y="584" font-size="4.9" fill="#2F2A24">「阅」，《说文》「具数于门中也」：不是抽象地观照万物的开端，是把开端一一点过。</text>
+<text x="24" y="600" font-size="4.9" fill="#2F2A24">自今及古：这个可以被名为「道」的存在，从来不曾消失。</text>
+<text x="24" y="618" font-size="4.9" fill="#4A5C55">「以此」二字把「知」的来源说尽了：不向外求标准，向内体证。</text>
+<line x1="24" y1="636" x2="338" y2="636" stroke="#DCCBB0" stroke-width="0.6"/>
+<rect x="20" y="644" width="340" height="40" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="190" y="660" font-size="5.2" fill="#2F2A24" text-anchor="middle">名不去，是路标一直在；</text>
+<text x="190" y="672" font-size="5.2" fill="#4A5C55" text-anchor="middle">路标在，不等于路标就是那个地方。</text>
+<line x1="20" y1="698" x2="360" y2="698" stroke="#E6D8C2" stroke-width="0.8"/>
+<text x="20" y="712" font-size="8.0" fill="#A89577" letter-spacing="1">本 章 金 句</text>
+<text x="20" y="728" font-size="8.4" fill="#2F2A24">名不去，是路标一直在；路标在，不等于路标就是那个地方。</text>
+<text x="20" y="744" font-size="8.4" fill="#2F2A24">不是知道得多，是站对了地方。</text>
+</svg>

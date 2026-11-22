@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 380 780" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="其中有象，其中有物，其中有精，其中有信" font-family="'Noto Serif CJK SC','Noto Serif SC','Songti SC',serif">
+<defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#6E6459"/></marker><marker id="arr2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#4A5C55"/></marker><marker id="arrL" viewBox="0 0 10 10" refX="1" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M10 0 L0 5 L10 10 z" fill="#4A5C55"/></marker><marker id="arrS" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#A2503B"/></marker></defs>
+<rect x="0" y="0" width="380" height="780" fill="#F8F3E6"/>
+<text x="20" y="26" font-size="11" fill="#A2503B" font-family="'Noto Sans CJK SC','Noto Sans SC',sans-serif" letter-spacing="3">第 二 十 一 章 · 象 物 精 信</text>
+<text x="20" y="58" font-size="21" fill="#2F2A24">一株稻的四层</text>
+<text x="20" y="78" font-size="10.5" fill="#6E6459">惚兮恍兮，其中有象；恍兮惚兮，其中有物。</text>
+<rect x="20" y="102" width="340" height="34" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="190" y="114" font-size="4.8" fill="#2F2A24" text-anchor="middle">一层比一层近实，一层比一层离名。</text>
+<text x="190" y="127" font-size="4.8" fill="#6E6459" text-anchor="middle">看不见，但不是没有；有，而且真；真，而且有常。</text>
+<rect x="26" y="150" width="328" height="184" fill="#FBF6EC" stroke="#DCCBB0" stroke-width="0.8"/>
+<line x1="40" y1="300" x2="340" y2="300" stroke="#E6D8C2" stroke-width="0.9"/>
+<line x1="120" y1="300" x2="120" y2="256" stroke="#2F2A24" stroke-width="1.0"/>
+<path d="M120,264 q-10,8 -12,18" fill="none" stroke="#2F2A24" stroke-width="0.9"/>
+<path d="M120,270 q10,7 11,16" fill="none" stroke="#2F2A24" stroke-width="0.9"/>
+<line x1="182" y1="300" x2="182" y2="262" stroke="#2F2A24" stroke-width="1.0"/>
+<path d="M182,268 q-10,7 -12,16" fill="none" stroke="#2F2A24" stroke-width="0.9"/>
+<path d="M182,274 q10,7 11,15" fill="none" stroke="#2F2A24" stroke-width="0.9"/>
+<line x1="151" y1="300" x2="151" y2="234" stroke="#2F2A24" stroke-width="1.3"/>
+<path d="M151,256 q-14,8 -17,20" fill="none" stroke="#2F2A24" stroke-width="1.0"/>
+<path d="M151,264 q14,7 16,18" fill="none" stroke="#2F2A24" stroke-width="1.0"/>
+<path d="M151,234 q15,6 21,34" fill="none" stroke="#2F2A24" stroke-width="1.1"/>
+<circle cx="156" cy="240" r="2.6" fill="none" stroke="#B9A98E" stroke-width="0.6" stroke-dasharray="2 1.6"/>
+<circle cx="161" cy="246" r="2.6" fill="none" stroke="#B9A98E" stroke-width="0.6" stroke-dasharray="2 1.6"/>
+<circle cx="166" cy="252" r="2.6" fill="none" stroke="#B9A98E" stroke-width="0.6" stroke-dasharray="2 1.6"/>
+<circle cx="170" cy="258" r="2.6" fill="none" stroke="#B9A98E" stroke-width="0.6" stroke-dasharray="2 1.6"/>
+<circle cx="173" cy="263" r="2.8" fill="#D9CBAA" stroke="#2F2A24" stroke-width="0.6"/>
+<circle cx="174" cy="268" r="2.8" fill="#D9CBAA" stroke="#2F2A24" stroke-width="0.6"/>
+<circle cx="172" cy="272" r="2.8" fill="#D9CBAA" stroke="#2F2A24" stroke-width="0.6"/>
+<circle cx="168" cy="275" r="2.8" fill="#D9CBAA" stroke="#2F2A24" stroke-width="0.6"/>
+<line x1="169" y1="274" x2="178" y2="270" stroke="#8A7C69" stroke-width="0.5"/>
+<line x1="171" y1="274" x2="182" y2="274" stroke="#8A7C69" stroke-width="0.5"/>
+<line x1="173" y1="274" x2="186" y2="278" stroke="#8A7C69" stroke-width="0.5"/>
+<text x="66" y="224" font-size="6.0" fill="#A2503B">象</text>
+<text x="66" y="236" font-size="3.8" fill="#6E6459">还没固化的样子</text>
+<line x1="104" y1="230" x2="153" y2="240" stroke="#DCCBB0" stroke-width="0.6"/>
+<text x="210" y="288" font-size="6.0" fill="#4A5C55">物</text>
+<text x="210" y="300" font-size="3.8" fill="#6E6459">已经成形的东西</text>
+<line x1="206" y1="292" x2="172" y2="268" stroke="#DCCBB0" stroke-width="0.6"/>
+<text x="190" y="318" font-size="3.8" fill="#8A7C69" text-anchor="middle">同一穗：上段还是样子，下段已成粒子——先有象，后成物。</text>
+<text x="24" y="347" font-size="5.0" fill="#A2503B">一、田里的穗：象在上游，物在下游</text>
+<rect x="26" y="360" width="328" height="202" fill="#FBF6EC" stroke="#DCCBB0" stroke-width="0.8"/>
+<line x1="36" y1="510" x2="200" y2="510" stroke="#E6D8C2" stroke-width="0.9"/>
+<path d="M84,414 L96,482 L168,482 L180,414 Z" fill="#EFE6D4" stroke="none"/>
+<path d="M84,414 L96,482 L168,482 L180,414" fill="none" stroke="#2F2A24" stroke-width="1.5"/>
+<ellipse cx="132" cy="414" rx="48" ry="13" fill="#F8F3E6" stroke="#2F2A24" stroke-width="1.4"/>
+<ellipse cx="132" cy="414" rx="36" ry="10" fill="#E4D8BF" stroke="#2F2A24" stroke-width="0.9"/>
+<ellipse cx="132" cy="488" rx="26" ry="7" fill="none" stroke="#DCCBB0" stroke-width="0.7"/>
+<circle cx="120" cy="466" r="2.6" fill="#FBF6EC" stroke="#DCCBB0" stroke-width="0.6"/>
+<circle cx="132" cy="470" r="2.6" fill="#FBF6EC" stroke="#DCCBB0" stroke-width="0.6"/>
+<circle cx="144" cy="466" r="2.6" fill="#FBF6EC" stroke="#DCCBB0" stroke-width="0.6"/>
+<circle cx="124" cy="474" r="2.6" fill="#FBF6EC" stroke="#DCCBB0" stroke-width="0.6"/>
+<circle cx="140" cy="474" r="2.6" fill="#FBF6EC" stroke="#DCCBB0" stroke-width="0.6"/>
+<line x1="150" y1="476" x2="158" y2="480" stroke="#DCCBB0" stroke-width="0.6"/>
+<line x1="174" y1="398" x2="140" y2="442" stroke="#2F2A24" stroke-width="3.0"/>
+<line x1="142" y1="439" x2="136" y2="452" stroke="#2F2A24" stroke-width="4.0"/>
+<circle cx="166" cy="402" r="1.2" fill="#C9B79A"/>
+<circle cx="178" cy="394" r="1.2" fill="#C9B79A"/>
+<circle cx="152" cy="392" r="1.2" fill="#C9B79A"/>
+<circle cx="188" cy="404" r="1.2" fill="#C9B79A"/>
+<text x="24" y="412" font-size="6.0" fill="#A2503B">精</text>
+<text x="24" y="424" font-size="3.7" fill="#6E6459">舂过的米：</text>
+<text x="24" y="434" font-size="3.7" fill="#6E6459">去掉糠皮，</text>
+<text x="24" y="444" font-size="3.7" fill="#6E6459">剩下那一点</text>
+<line x1="74" y1="444" x2="118" y2="466" stroke="#DCCBB0" stroke-width="0.6"/>
+<path d="M196,510 L344,510" fill="none" stroke="#E6D8C2" stroke-width="0.7" stroke-dasharray="5 3"/>
+<line x1="304" y1="510" x2="304" y2="456" stroke="#B9A98E" stroke-width="1.0"/>
+<path d="M304,456 q12,10 16,34" fill="none" stroke="#B9A98E" stroke-width="0.8"/>
+<path d="M304,482 q-14,8 -18,20" fill="none" stroke="#B9A98E" stroke-width="0.7"/>
+<path d="M304,492 q14,7 17,18" fill="none" stroke="#B9A98E" stroke-width="0.7"/>
+<circle cx="310" cy="462" r="1.9" fill="none" stroke="#C9B79A" stroke-width="0.5" stroke-dasharray="1.6 1.4"/>
+<circle cx="313" cy="472" r="1.9" fill="none" stroke="#C9B79A" stroke-width="0.5" stroke-dasharray="1.6 1.4"/>
+<circle cx="316" cy="482" r="1.9" fill="none" stroke="#C9B79A" stroke-width="0.5" stroke-dasharray="1.6 1.4"/>
+<text x="214" y="522" font-size="3.6" fill="#8A7C69" text-anchor="middle">今</text>
+<text x="304" y="522" font-size="3.6" fill="#8A7C69" text-anchor="middle">明</text>
+<text x="330" y="428" font-size="6.0" fill="#4A5C55" text-anchor="middle">信</text>
+<text x="330" y="440" font-size="3.7" fill="#6E6459" text-anchor="middle">不催它，</text>
+<text x="330" y="450" font-size="3.7" fill="#6E6459" text-anchor="middle">每年这时候</text>
+<text x="330" y="460" font-size="3.7" fill="#6E6459" text-anchor="middle">都来</text>
+<text x="190" y="538" font-size="3.7" fill="#8A7C69" text-anchor="middle">精不是精气，是去粗取精剩下的那一点；信不是守信，是节律不失期。</text>
+<text x="24" y="575" font-size="5.0" fill="#4A5C55">二、臼与田：精在臼底，信在田里</text>
+<text x="24" y="594" font-size="4.9" fill="#2F2A24">先有象，后成物：有形世界，从这个恍惚的本源里生发。</text>
+<text x="24" y="610" font-size="4.9" fill="#2F2A24">「精」，《说文》「择也」，本义是舂过的精米——说的是纯，不是玄。</text>
+<text x="24" y="628" font-size="4.9" fill="#4A5C55">四层是一条递进：看不见，但不是没有；有，而且真；真，而且有常。</text>
+<line x1="24" y1="646" x2="338" y2="646" stroke="#DCCBB0" stroke-width="0.6"/>
+<rect x="20" y="654" width="340" height="40" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="190" y="670" font-size="5.4" fill="#2F2A24" text-anchor="middle">看不见的东西，不等于靠不住的东西。</text>
+<text x="190" y="682" font-size="4.8" fill="#4A5C55" text-anchor="middle">精，是舂过的米：去掉糠皮，剩下那一点。</text>
+<line x1="20" y1="708" x2="360" y2="708" stroke="#E6D8C2" stroke-width="0.8"/>
+<text x="20" y="722" font-size="8.0" fill="#A89577" letter-spacing="1">本 章 金 句</text>
+<text x="20" y="738" font-size="8.4" fill="#2F2A24">看不见的东西，不等于靠不住的东西。</text>
+<text x="20" y="754" font-size="8.4" fill="#2F2A24">精，是舂过的米：去掉糠皮，剩下那一点。</text>
+</svg>
