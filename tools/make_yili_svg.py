@@ -915,7 +915,7 @@ def ch38c_hou_yu_bo():
     # ---------- 一、薄：一层彩，一撞就破 ----------
     s.append(txt(24, y + 52, "一、薄：一层彩绘，后面是空的", 5.0, GREEN))
     gy = y + 64
-    s.append(f'<rect x="26" y="{gy}" width="328" height="140" fill="#FBF6EC" stroke="{LINE}" stroke-width="0.8"/>')
+    s.append(f'<rect x="26" y="{gy}" width="328" height="164" fill="#FBF6EC" stroke="{LINE}" stroke-width="0.8"/>')
     # 剖面：薄板 + 空腔
     s.append(f'<rect x="120" y="{gy + 22}" width="10" height="92" fill="#EFE6D4" stroke="{INK}" stroke-width="0.8"/>')
     s.append(f'<rect x="120" y="{gy + 22}" width="3" height="92" fill="#E7C9B8" stroke="none"/>')
@@ -6564,7 +6564,7 @@ def ch68a_yi_zhi_jiao():
 
     s.append(txt(24, y + 48, "一、脚停在戈前：有戈，脚不动", 4.8, SEAL))
     gy = y + 60
-    s.append(f'<rect x="26" y="{gy}" width="328" height="140" fill="#FBF6EC" stroke="{LINE}" stroke-width="0.8"/>')
+    s.append(f'<rect x="26" y="{gy}" width="328" height="164" fill="#FBF6EC" stroke="{LINE}" stroke-width="0.8"/>')
     # 戈：竖柲 + 横刃
     s.append(f'<line x1="236" y1="{gy + 24}" x2="236" y2="{gy + 126}" stroke="{INK}" stroke-width="1.6"/>')
     s.append(f'<path d="M236,{gy + 22} L168,{gy + 30} L236,{gy + 37} Z" fill="#DED2B8" stroke="{INK}" stroke-width="1"/>')
@@ -6631,7 +6631,7 @@ def ch68b_yi_dao_feng():
 
     s.append(txt(24, y + 48, "一、四手抬一物：成了对，就只剩输赢", 4.8, SEAL))
     gy = y + 60
-    s.append(f'<rect x="26" y="{gy}" width="328" height="140" fill="#FBF6EC" stroke="{LINE}" stroke-width="0.8"/>')
+    s.append(f'<rect x="26" y="{gy}" width="328" height="164" fill="#FBF6EC" stroke="{LINE}" stroke-width="0.8"/>')
     # 中间一件物
     s.append(box(160, gy + 52, 60, 42, fill="#EFE6D4", stroke=INK))
     s.append(txt(190, gy + 78, "一物", 4.8, INK, "middle"))
@@ -6694,7 +6694,7 @@ def ch68c_yi_gen_jin():
 
     s.append(txt(24, y + 48, "一、各站各的高处：筋搭不上", 4.8, SEAL))
     gy = y + 60
-    s.append(f'<rect x="26" y="{gy}" width="328" height="140" fill="#FBF6EC" stroke="{LINE}" stroke-width="0.8"/>')
+    s.append(f'<rect x="26" y="{gy}" width="328" height="164" fill="#FBF6EC" stroke="{LINE}" stroke-width="0.8"/>')
     # 两根骨，一高一低
     s.append(box(78, gy + 34, 26, 12, fill="#EFE6D4", stroke=INK))
     s.append(box(78, gy + 108, 26, 12, fill="#EFE6D4", stroke=INK))
@@ -6759,7 +6759,7 @@ def ch69a_yi_zhan_deng():
 
     s.append(txt(24, y + 48, "一、为主：灯在当中，众物绕着它转", 4.8, SEAL))
     gy = y + 60
-    s.append(f'<rect x="26" y="{gy}" width="328" height="140" fill="#FBF6EC" stroke="{LINE}" stroke-width="0.8"/>')
+    s.append(f'<rect x="26" y="{gy}" width="328" height="164" fill="#FBF6EC" stroke="{LINE}" stroke-width="0.8"/>')
     cx, cy = 190, gy + 66
     # 灯
     s.append(f'<path d="M180,{cy - 14} L200,{cy - 14} L196,{cy - 22} L184,{cy - 22} Z" fill="#EFE6D4" stroke="{INK}" stroke-width="1"/>')
@@ -7186,7 +7186,7 @@ def ch71a_yi_zhi_jian():
 
     s.append(txt(24, y + 50, "一、未出弦：箭在手，靶还没验", 4.8, SEAL))
     gy = y + 62
-    s.append(f'<rect x="26" y="{gy}" width="328" height="140" fill="#FBF6EC" stroke="{LINE}" stroke-width="0.8"/>')
+    s.append(f'<rect x="26" y="{gy}" width="328" height="164" fill="#FBF6EC" stroke="{LINE}" stroke-width="0.8"/>')
     cy = gy + 66
     # 弓
     s.append(f'<path d="M78,{cy - 38} Q110,{cy} 78,{cy + 38}" fill="none" stroke="{INK}" stroke-width="1.3"/>')
@@ -9804,6 +9804,8 @@ GOLD = {
               "三去不是三件工艺，是一个「我要」的三个浓度。"],
     "ch30b": ["荒地先长刺，因为刺不需要人养。", "一个统一的样子，和一片长刺的地。"],
     "ch30c": ["不是天在罚你，是你推出去的那股劲儿回来了。", "压得越紧，回来的越直。"],
+    "ch30d": ["果是树的事，强是我的事；树结果就停，人一贪就老。", "一棵树结果，结完就停；它不会为了证明自己能结，再多结几个。"],
+    "ch30e": ["不得已三个字，是全章的秤；它既是许可证，也是不许得意的凭据。", "本来是止损，变成了证明自己——这一念，往往在胜利当天就来了。"],
     "ch31b": ["刀没有错，刀的用处有错——而刀的用处，就是刀的本相。", "用，是借它一次；处，是住在它里面。"],
     "ch31c": ["这一幕不该是甜的；甜，是你自己加进去的。", "止乱是事的果，美之是心的赘。"],
     "ch01a": ["此两者同出而异名，同谓之玄。", "往下看是未形，往上看见界；两边是同一件事的两个取景。"],
@@ -10061,7 +10063,7 @@ def ch23b_zhou_yu():
     # 一、骤雨
     s.append(txt(24, y + 52, "一、骤雨：来得猛，走得也快；旁边的更漏只走了一小格", 5.1, SEAL))
     gy = y + 64
-    s.append(f'<rect x="26" y="{gy}" width="328" height="140" fill="#FBF6EC" stroke="{LINE}" stroke-width="0.8"/>')
+    s.append(f'<rect x="26" y="{gy}" width="328" height="164" fill="#FBF6EC" stroke="{LINE}" stroke-width="0.8"/>')
     for k in range(14):
         x = 44 + k * 13
         s.append(f'<line x1="{x}" y1="{gy + 16}" x2="{x - 9}" y2="{gy + 62}" stroke="#8A7C69" stroke-width="0.8" opacity="0.75"/>')
@@ -10905,7 +10907,7 @@ def ch68a_yi_zhi_jiao():
 
     s.append(txt(24, y + 48, "一、脚停在戈前：有戈，脚不动", 4.8, SEAL))
     gy = y + 60
-    s.append(f'<rect x="26" y="{gy}" width="328" height="140" fill="#FBF6EC" stroke="{LINE}" stroke-width="0.8"/>')
+    s.append(f'<rect x="26" y="{gy}" width="328" height="164" fill="#FBF6EC" stroke="{LINE}" stroke-width="0.8"/>')
     # 戈：竖柲 + 横刃
     s.append(f'<line x1="236" y1="{gy + 24}" x2="236" y2="{gy + 126}" stroke="{INK}" stroke-width="1.6"/>')
     s.append(f'<path d="M236,{gy + 22} L168,{gy + 30} L236,{gy + 37} Z" fill="#DED2B8" stroke="{INK}" stroke-width="1"/>')
@@ -10972,7 +10974,7 @@ def ch68b_yi_dao_feng():
 
     s.append(txt(24, y + 48, "一、四手抬一物：成了对，就只剩输赢", 4.8, SEAL))
     gy = y + 60
-    s.append(f'<rect x="26" y="{gy}" width="328" height="140" fill="#FBF6EC" stroke="{LINE}" stroke-width="0.8"/>')
+    s.append(f'<rect x="26" y="{gy}" width="328" height="164" fill="#FBF6EC" stroke="{LINE}" stroke-width="0.8"/>')
     # 中间一件物
     s.append(box(160, gy + 52, 60, 42, fill="#EFE6D4", stroke=INK))
     s.append(txt(190, gy + 78, "一物", 4.8, INK, "middle"))
@@ -11035,7 +11037,7 @@ def ch68c_yi_gen_jin():
 
     s.append(txt(24, y + 48, "一、各站各的高处：筋搭不上", 4.8, SEAL))
     gy = y + 60
-    s.append(f'<rect x="26" y="{gy}" width="328" height="140" fill="#FBF6EC" stroke="{LINE}" stroke-width="0.8"/>')
+    s.append(f'<rect x="26" y="{gy}" width="328" height="164" fill="#FBF6EC" stroke="{LINE}" stroke-width="0.8"/>')
     # 两根骨，一高一低
     s.append(box(78, gy + 34, 26, 12, fill="#EFE6D4", stroke=INK))
     s.append(box(78, gy + 108, 26, 12, fill="#EFE6D4", stroke=INK))
@@ -11100,7 +11102,7 @@ def ch69a_yi_zhan_deng():
 
     s.append(txt(24, y + 48, "一、为主：灯在当中，众物绕着它转", 4.8, SEAL))
     gy = y + 60
-    s.append(f'<rect x="26" y="{gy}" width="328" height="140" fill="#FBF6EC" stroke="{LINE}" stroke-width="0.8"/>')
+    s.append(f'<rect x="26" y="{gy}" width="328" height="164" fill="#FBF6EC" stroke="{LINE}" stroke-width="0.8"/>')
     cx, cy = 190, gy + 66
     # 灯
     s.append(f'<path d="M180,{cy - 14} L200,{cy - 14} L196,{cy - 22} L184,{cy - 22} Z" fill="#EFE6D4" stroke="{INK}" stroke-width="1"/>')
@@ -11527,7 +11529,7 @@ def ch71a_yi_zhi_jian():
 
     s.append(txt(24, y + 50, "一、未出弦：箭在手，靶还没验", 4.8, SEAL))
     gy = y + 62
-    s.append(f'<rect x="26" y="{gy}" width="328" height="140" fill="#FBF6EC" stroke="{LINE}" stroke-width="0.8"/>')
+    s.append(f'<rect x="26" y="{gy}" width="328" height="164" fill="#FBF6EC" stroke="{LINE}" stroke-width="0.8"/>')
     cy = gy + 66
     # 弓
     s.append(f'<path d="M78,{cy - 38} Q110,{cy} 78,{cy + 38}" fill="none" stroke="{INK}" stroke-width="1.3"/>')
@@ -14145,6 +14147,8 @@ GOLD = {
               "三去不是三件工艺，是一个「我要」的三个浓度。"],
     "ch30b": ["荒地先长刺，因为刺不需要人养。", "一个统一的样子，和一片长刺的地。"],
     "ch30c": ["不是天在罚你，是你推出去的那股劲儿回来了。", "压得越紧，回来的越直。"],
+    "ch30d": ["果是树的事，强是我的事；树结果就停，人一贪就老。", "一棵树结果，结完就停；它不会为了证明自己能结，再多结几个。"],
+    "ch30e": ["不得已三个字，是全章的秤；它既是许可证，也是不许得意的凭据。", "本来是止损，变成了证明自己——这一念，往往在胜利当天就来了。"],
     "ch31b": ["刀没有错，刀的用处有错——而刀的用处，就是刀的本相。", "用，是借它一次；处，是住在它里面。"],
     "ch31c": ["这一幕不该是甜的；甜，是你自己加进去的。", "止乱是事的果，美之是心的赘。"],
     "ch01a": ["此两者同出而异名，同谓之玄。", "往下看是未形，往上看见界；两边是同一件事的两个取景。"],
@@ -14402,7 +14406,7 @@ def ch23b_zhou_yu():
     # 一、骤雨
     s.append(txt(24, y + 52, "一、骤雨：来得猛，走得也快；旁边的更漏只走了一小格", 5.1, SEAL))
     gy = y + 64
-    s.append(f'<rect x="26" y="{gy}" width="328" height="140" fill="#FBF6EC" stroke="{LINE}" stroke-width="0.8"/>')
+    s.append(f'<rect x="26" y="{gy}" width="328" height="164" fill="#FBF6EC" stroke="{LINE}" stroke-width="0.8"/>')
     for k in range(14):
         x = 44 + k * 13
         s.append(f'<line x1="{x}" y1="{gy + 16}" x2="{x - 9}" y2="{gy + 62}" stroke="#8A7C69" stroke-width="0.8" opacity="0.75"/>')
@@ -15941,6 +15945,135 @@ def ch30b_huang_tian():
     return out.replace("999", str(int(max(ys) + 26)))
 
 
+def ch30d_guo_yu_shu():
+    body, y = head(380, 999, "树结果就停，人却常拿结果去换一个更大的自己",
+                   "第 三 十 章 · 果 与 树（补图）", "果而已",
+                   "善有果而已，不敢以取强。", 999)
+    s = [body]
+
+    s.append(box(20, y + 2, 340, 34, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, y + 14, "「果」，《说文》「木实也」——树上的果子；「壮」，《说文》「大也」。", 4.5, INK, "middle"))
+    s.append(txt(190, y + 27, "果是树的事，强是我的事：树结果就停，人一贪就拿果去换一个更大的自己。", 4.6, "#6E6459"))
+
+    def branch(sx, sy, with_fruit=True, cut=False):
+        g = []
+        g.append(f'<path d="M{sx},{sy} Q{sx + 56},{sy - 34} {sx + 128},{sy - 52}" fill="none" stroke="{INK}" stroke-width="2.0"/>')
+        g.append(f'<path d="M{sx + 62},{sy - 22} Q{sx + 58},{sy - 44} {sx + 48},{sy - 54}" fill="none" stroke="{INK}" stroke-width="1.2"/>')
+        g.append(f'<path d="M{sx + 96},{sy - 36} Q{sx + 100},{sy - 52} {sx + 112},{sy - 58}" fill="none" stroke="{INK}" stroke-width="1.1"/>')
+        if with_fruit:
+            for (fx, fy) in ((sx + 52, sy - 10), (sx + 80, sy - 26), (sx + 106, sy - 42), (sx + 124, sy - 56)):
+                g.append(f'<line x1="{fx}" y1="{fy - 5}" x2="{fx}" y2="{fy - 8}" stroke="{INK}" stroke-width="0.7"/>')
+                g.append(f'<circle cx="{fx}" cy="{fy}" r="5.2" fill="#EDD6B0" stroke="{SEAL}" stroke-width="0.9"/>')
+        if cut:
+            for (fx, fy) in ((sx + 52, sy - 10), (sx + 80, sy - 26), (sx + 106, sy - 42), (sx + 124, sy - 56)):
+                g.append(f'<circle cx="{fx}" cy="{fy}" r="1.6" fill="none" stroke="#A79A86" stroke-width="0.6"/>')
+        return g
+
+    # 一、结完就停
+    s.append(txt(24, y + 52, "一、果而已：结完就停", 5.1, GREEN))
+    gy = y + 64
+    s.append(f'<rect x="26" y="{gy}" width="328" height="164" fill="#FBF6EC" stroke="{LINE}" stroke-width="0.8"/>')
+    s.extend(branch(40, gy + 120))
+    s.append(f'<line x1="164" y1="{gy + 62}" x2="196" y2="{gy + 62}" stroke="{SEAL}" stroke-width="0.8" stroke-dasharray="4 2"/>')
+    s.append(txt(200, gy + 64, "到这儿就停", 4.0, SEAL))
+    s.append(txt(190, gy + 142, "一棵树结果，结完就停了；它不会为了证明自己能结，再多结几个", 4.1, "#8A7C69", "middle"))
+    s.append(txt(190, gy + 154, "果子熟了不摘就掉，树不因为结得好，就结到冬天", 4.1, "#8A7C69", "middle"))
+
+    # 二、取强
+    s.append(txt(24, gy + 188, "二、取强：拿这次的结果，去换一个更大的自己", 5.1, SEAL))
+    gy2 = gy + 200
+    s.append(f'<rect x="26" y="{gy2}" width="328" height="164" fill="#FBF6EC" stroke="{LINE}" stroke-width="0.8"/>')
+    s.extend(branch(40, gy2 + 120, with_fruit=False, cut=True))
+    # 枝梢被绳往上拽
+    s.append(f'<path d="M168,{gy2 + 68} q10,-6 22,-4" fill="none" stroke="{SEAL}" stroke-width="1.0"/>')
+    s.append(f'<line x1="190" y1="{gy2 + 64}" x2="292" y2="{gy2 + 20}" stroke="{SEAL}" stroke-width="1.0"/>')
+    s.append(arrow(280, gy2 + 26, 302, gy2 + 12, SEAL, 1.2, head="arrS"))
+    s.append(txt(300, gy2 + 8, "拽", 4.0, SEAL, "middle"))
+    s.append(txt(190, gy2 + 142, "果子被摘走，枝还往上挣：树不再结果，人去换更大的自己", 4.1, "#8A7C69", "middle"))
+    s.append(txt(190, gy2 + 154, "枝上只剩果柄——果已经不在树上了", 4.1, "#8A7C69", "middle"))
+
+    a = gy2 + 184
+    s.append(txt(24, a, "「果而已」说的不是打赢，是事办完就收；「不敢以取强」是不敢拿结果去换「强」。", 4.8, INK))
+    s.append(txt(24, a + 16, "一棵树结完就停，是因为它的本事只在那一季；人的贪，是想把一季的本事当成永远的本事。", 4.8, INK))
+    s.append(txt(24, a + 34, "这跟主图的弓是一件事：弓张一下就放，树结完就停——都是知道自己的量有多大。", 4.8, GREEN))
+
+    c = a + 52
+    s.append(f'<line x1="24" y1="{c}" x2="338" y2="{c}" stroke="{LINE}" stroke-width="0.6"/>')
+    s.append(box(20, c + 8, 340, 40, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, c + 24, "果子熟了不摘，它就掉了。", 6.0, INK, "middle"))
+    s.append(txt(190, c + 36, "树的量只够那一季；人的贪，是把一季的本事当成永远的本事。", 5.0, GREEN, "middle"))
+    s.append(gold(c + 62, "ch30d"))
+    s.append('</svg>')
+    out = "\n".join(s)
+    ys = [float(v) for v in re.findall(r'y="([0-9.]+)"', out)]
+    return out.replace("999", str(int(max(ys) + 26)))
+
+
+def ch30e_yi_gan_cheng():
+    body, y = head(380, 999, "不得已，是全章唯一的分量",
+                   "第 三 十 章 · 一 杆 秤（补图）", "不得已",
+                   "果而不得已，果而勿强。", 999)
+    s = [body]
+
+    s.append(box(20, y + 2, 340, 34, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, y + 14, "「矜」在心里，「伐」在嘴上，「骄」在气上——心、口、气，一层比一层外。", 4.5, INK, "middle"))
+    s.append(txt(190, y + 27, "「果而不得已」不是第四个「勿」，它是前三个「勿」的理由。", 4.6, "#6E6459"))
+
+    def scale(gy, left_dy, right_dy, left_txt, right_txt, right_items):
+        g = []
+        cx = 190
+        g.append(f'<line x1="150" y1="{gy + 148}" x2="230" y2="{gy + 148}" stroke="{INK}" stroke-width="1.2"/>')
+        g.append(f'<line x1="{cx}" y1="{gy + 148}" x2="{cx}" y2="{gy + 44}" stroke="{INK}" stroke-width="1.4"/>')
+        g.append(f'<circle cx="{cx}" cy="{gy + 44}" r="3.0" fill="{INK}"/>')
+        # 横梁
+        g.append(f'<line x1="96" y1="{gy + 44 + left_dy}" x2="284" y2="{gy + 44 + right_dy}" stroke="{INK}" stroke-width="1.6"/>')
+        for (hx, hy) in ((96, gy + 44 + left_dy), (284, gy + 44 + right_dy)):
+            g.append(f'<line x1="{hx}" y1="{hy}" x2="{hx}" y2="{hy + 34}" stroke="{INK}" stroke-width="0.8"/>')
+            g.append(f'<path d="M{hx - 34},{hy + 34} L{hx + 34},{hy + 34} L{hx + 26},{hy + 46} L{hx - 26},{hy + 46} Z" fill="#EFE6D4" stroke="{INK}" stroke-width="0.9"/>')
+        # 左盘牌
+        g.append(f'<rect x="62" y="{gy + 44 + left_dy + 36}" width="68" height="20" fill="#F2EADA" stroke="{SEAL}" stroke-width="0.9"/>')
+        g.append(txt(96, gy + 44 + left_dy + 50, "不得已", 4.3, SEAL, "middle"))
+        # 右盘牌
+        if right_items:
+            for i, t in enumerate(right_items):
+                yy = gy + 44 + right_dy + 36 - i * 9
+                g.append(f'<rect x="250" y="{yy}" width="68" height="17" fill="#FBF6EC" stroke="#C9B79A" stroke-width="0.9"/>')
+                g.append(txt(284, yy + 12, t, 3.8, INK, "middle"))
+        return g
+
+    C9 = "#C9B79A"
+
+    # 一、只有不得已
+    s.append(txt(24, y + 52, "一、只有不得已：这一头压得住", 5.1, GREEN))
+    gy = y + 64
+    s.append(f'<rect x="26" y="{gy}" width="328" height="176" fill="#FBF6EC" stroke="{LINE}" stroke-width="0.8"/>')
+    s.extend(scale(gy, 24, 0, "不得已", "", []))
+    s.append(txt(284, gy + 96, "（空）", 3.7, "#A79A86", "middle"))
+    s.append(txt(190, gy + 166, "四个「勿」之前，先有这一张许可证：我本来不想打", 4.1, "#8A7C69", "middle"))
+
+    # 二、果后生矜伐骄
+    s.append(txt(24, gy + 200, "二、果后生矜、生伐、生骄：秤翻了", 5.1, SEAL))
+    gy2 = gy + 212
+    s.append(f'<rect x="26" y="{gy2}" width="328" height="176" fill="#FBF6EC" stroke="{LINE}" stroke-width="0.8"/>')
+    s.extend(scale(gy2, 0, 26, "不得已", "", ["矜·心", "伐·口", "骄·气"]))
+    s.append(txt(190, gy2 + 166, "本来是止损，变成了证明自己——这一念，往往在胜利当天就来", 4.1, "#8A7C69", "middle"))
+
+    a = gy2 + 196
+    s.append(txt(24, a, "「勿矜」在心里：自己觉得自己高明；「勿伐」在嘴上：说出来给人听；「勿骄」在气上：整个人往上抬。", 4.8, INK))
+    s.append(txt(24, a + 16, "三样一层比一层外。而「不得已」是它们共同的理由：因为本来不想打，所以打完不必得意。", 4.8, INK))
+    s.append(txt(24, a + 34, "它既是许可证，也是事后不许得意的凭据；末一句「果而勿强」，连「我很强」都不许说。", 4.8, GREEN))
+
+    c = a + 52
+    s.append(f'<line x1="24" y1="{c}" x2="338" y2="{c}" stroke="{LINE}" stroke-width="0.6"/>')
+    s.append(box(20, c + 8, 340, 40, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, c + 24, "四个「勿」之前，先有这一张许可证。", 6.0, INK, "middle"))
+    s.append(txt(190, c + 36, "它压得住，秤才平；它一松，矜、伐、骄就压下来了。", 5.0, GREEN, "middle"))
+    s.append(gold(c + 62, "ch30e"))
+    s.append('</svg>')
+    out = "\n".join(s)
+    ys = [float(v) for v in re.findall(r'y="([0-9.]+)"', out)]
+    return out.replace("999", str(int(max(ys) + 26)))
+
 def ch30c_hui_li_biao():
     body, y = head(380, 999, "最远那一点，就是回来开始的地方",
                    "第 三 十 章 · 一 只 回 力 镖", "一只回力镖",
@@ -16474,7 +16607,7 @@ def ch33c_jin_yu_gong():
     # ---------- 一、力：越使越少 ----------
     s.append(txt(24, y + 52, "一、胜人者有力：越使越少", 5.1, GREEN))
     gy = y + 64
-    s.append(f'<rect x="26" y="{gy}" width="328" height="140" fill="#FBF6EC" stroke="{LINE}" stroke-width="0.8"/>')
+    s.append(f'<rect x="26" y="{gy}" width="328" height="164" fill="#FBF6EC" stroke="{LINE}" stroke-width="0.8"/>')
     s.append(f'<line x1="40" y1="{gy + 112}" x2="340" y2="{gy + 112}" stroke="{LINE}" stroke-width="0.9"/>')
     for px, sw, sh in ((74, 14, 10), (150, 18, 12), (232, 24, 15)):
         s.append(person(px, gy + 112, 0, load=False))
@@ -16825,7 +16958,7 @@ def ch35c_an_ping_tai():
     # ---------- 一、害：进门先量尺寸 ----------
     s.append(txt(24, y + 52, "一、有框：进门第一件事，先量你合不合尺寸", 5.0, GREEN))
     gy = y + 64
-    s.append(f'<rect x="26" y="{gy}" width="328" height="140" fill="#FBF6EC" stroke="{LINE}" stroke-width="0.8"/>')
+    s.append(f'<rect x="26" y="{gy}" width="328" height="164" fill="#FBF6EC" stroke="{LINE}" stroke-width="0.8"/>')
     s.append(f'<line x1="40" y1="{gy + 112}" x2="340" y2="{gy + 112}" stroke="{LINE}" stroke-width="0.9"/>')
     # 尺寸框
     s.append(box(150, gy + 22, 150, 90, fill="none", stroke=SEAL, width=1.0))
@@ -17505,7 +17638,7 @@ def ch39c_yu_yu_shi():
     # ---------- 一、玉 ----------
     s.append(txt(24, y + 52, "一、如玉：被供着，也怕碎", 5.0, GREEN))
     gy = y + 64
-    s.append(f'<rect x="26" y="{gy}" width="328" height="140" fill="#FBF6EC" stroke="{LINE}" stroke-width="0.8"/>')
+    s.append(f'<rect x="26" y="{gy}" width="328" height="164" fill="#FBF6EC" stroke="{LINE}" stroke-width="0.8"/>')
     s.append(f'<line x1="40" y1="{gy + 112}" x2="340" y2="{gy + 112}" stroke="{LINE}" stroke-width="0.9"/>')
     # 案
     s.append(f'<rect x="112" y="{gy + 84}" width="112" height="8" fill="#E4D9C0" stroke="{INK}" stroke-width="0.8"/>')
@@ -23042,6 +23175,8 @@ FIGS = {
     "ch29c-yi-zhi-wan": ("第二十九章", "一只碗", ch29c_yi_zhi_wan),
     "ch30b-huang-tian": ("第三十章", "一片荒田", ch30b_huang_tian),
     "ch30c-hui-li-biao": ("第三十章", "一只回力镖", ch30c_hui_li_biao),
+    "ch30d-guo-yu-shu": ("第三十章", "果而已", ch30d_guo_yu_shu),
+    "ch30e-yi-gan-cheng": ("第三十章", "不得已", ch30e_yi_gan_cheng),
     "ch31b-wan-yu-dao": ("第三十一章", "一只碗与一把刀", ch31b_wan_yu_dao),
     "ch31c-dan-tang": ("第三十一章", "一碗淡汤", ch31c_dan_tang),
     "ch26c-jing-shui": ("第二十六章", "一盆水", ch26c_jing_shui),
