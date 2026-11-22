@@ -18124,8 +18124,9 @@ def ch23b_yi_lu_xiang():
     s.append(txt(24, a, "老子选「终朝」「终日」这两个极短的时段，要说的不是「不能长久」，是「连一个早晨都撑不住」。", 4.9, INK))
     s.append(txt(24, a + 16, "天地都做不出一场长雨，人也做不出一段长言：多言即用力，用力必不久。", 4.9, INK))
     s.append(txt(24, a + 34, "这一句最后收回到人：不是否定教化，是否定强行、造势、用力过猛的有为之教。", 4.9, GREEN))
+    s.append(txt(24, a + 50, "希言不是不说话，是不拿话去替代那件要长久的事。", 4.9, SEAL))
 
-    c = a + 50
+    c = a + 66
     s.append(f'<line x1="24" y1="{c}" x2="338" y2="{c}" stroke="{LINE}" stroke-width="0.6"/>')
     s.append(box(20, c + 8, 340, 40, fill="#F2EADA", stroke="#C9B79A"))
     s.append(txt(190, c + 24, "风刮一早晨就停才是好风；老子论的不是风雨，是「久」这个字。", 5.4, INK, "middle"))
@@ -18165,7 +18166,7 @@ def ch23c_yi_cuo_yan():
 
     # 二、盐落石上：收不住
     p1 = p0 + h1 + 26
-    h2 = 206
+    h2 = 226
     s.append(box(26, p1, 328, h2, fill="#FBF6EC", stroke=LINE, width=0.8))
     s.append(f'<path d="M146,{p1 + 100} L176,{p1 + 82} L210,{p1 + 78} L244,{p1 + 92} L250,{p1 + 124} L228,{p1 + 150} L170,{p1 + 148} L142,{p1 + 124} Z" fill="#E4D8BF" stroke="{INK}" stroke-width="1.1"/>')
     s.append(f'<path d="M176,{p1 + 82} L184,{p1 + 104} L216,{p1 + 108} L244,{p1 + 92} L210,{p1 + 78}" fill="none" stroke="#C9B79A" stroke-width="0.7"/>')
@@ -18179,14 +18180,17 @@ def ch23c_yi_cuo_yan():
         s.append(f'<circle cx="{262 + dx}" cy="{p1 + dy}" r="{r}" fill="#FFFFFF" stroke="#C9B79A" stroke-width="0.45" opacity="0.9"/>')
     s.append(txt(190, p1 + 176, "同一撮盐落在石上：石收不住，风一过就散。", 4.2, SEAL, "middle"))
     s.append(txt(190, p1 + 194, "不是石罚盐，是石头本来就不是那个地方。", 3.9, "#8A7C69", "middle"))
+    s.append(txt(190, p1 + 214, "没进到那一处，就谈不上信；话后面没有人，说多久都是空的。", 3.9, SEAL, "middle"))
     s.append(txt(24, p1 + h2 + 13, "二、盐落石上：收不住，风一过就散", 5.0, SEAL))
 
     a = p1 + h2 + 30
-    s.append(txt(24, a, "「同」不是与人一样，是同频：你往哪个方向安放自己，就融进哪一层。", 4.9, INK))
-    s.append(txt(24, a + 16, "抱一是动作，同于是结果——不是道在挑人，是同类相取，不必求谁批准。", 4.9, INK))
-    s.append(txt(24, a + 34, "「同于失者，失亦乐得之」是全章最冷一句：没有惩罚，只是收得越来越稳。", 4.9, GREEN))
+    s.append(txt(24, a, "同于道：以本源为归；同于德：以孔德为归；同于失：住进滑落之后那个位置。", 4.9, INK))
+    s.append(txt(24, a + 16, "「失」在这里是名词，不是动词：同一个字，两个身份。", 4.9, INK))
+    s.append(txt(24, a + 32, "「同」不是与人一样，是同频：你往哪个方向安放自己，就融进哪一层。", 4.9, INK))
+    s.append(txt(24, a + 48, "抱一是动作，同于是结果——不是道在挑人，是同类相取，不必求谁批准。", 4.9, INK))
+    s.append(txt(24, a + 64, "「同于失者，失亦乐得之」是全章最冷一句：没有惩罚，只是收得越来越稳。", 4.9, GREEN))
 
-    c = a + 50
+    c = a + 84
     s.append(f'<line x1="24" y1="{c}" x2="338" y2="{c}" stroke="{LINE}" stroke-width="0.6"/>')
     s.append(box(20, c + 8, 340, 40, fill="#F2EADA", stroke="#C9B79A"))
     s.append(txt(190, c + 24, "报，要有一个给的人；合，不需要。", 5.4, INK, "middle"))
@@ -18236,6 +18240,7 @@ FIGS = {
     "ch22-qu-mu-cao": ("第二十二章", "一只曲木槽", ch22_qu_mu_cao),
     "ch22b-bao-yi-yu-wu-pai": ("第二十二章", "抱一与五牌", ch22b_bao_yi_yu_wu_pai),
     "ch22c-pao-dao-yu-jia": ("第二十二章", "跑道与家", ch22c_pao_dao_yu_jia),
+
 
     "ch23-sha-shang-zi-cheng-de-gou": ("第二十三章", "沙上自成的沟", ch23_sha_shang_zi_cheng_de_gou),
     "ch23b-yi-lu-xiang": ("第二十三章", "一炉香", ch23b_yi_lu_xiang),
