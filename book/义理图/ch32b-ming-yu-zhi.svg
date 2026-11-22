@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 380 614" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="制是裁，名是给器挂的牌；止是基，不是墙" font-family="'Noto Serif CJK SC','Noto Serif SC','Songti SC',serif">
+<defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#6E6459"/></marker><marker id="arr2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#4A5C55"/></marker><marker id="arrL" viewBox="0 0 10 10" refX="1" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M10 0 L0 5 L10 10 z" fill="#4A5C55"/></marker><marker id="arrS" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#A2503B"/></marker></defs>
+<rect x="0" y="0" width="380" height="614" fill="#F8F3E6"/>
+<text x="20" y="26" font-size="11" fill="#A2503B" font-family="'Noto Sans CJK SC','Noto Sans SC',sans-serif" letter-spacing="3">第 三 十 二 章 · 其 二</text>
+<text x="20" y="58" font-size="21" fill="#2F2A24">名 与 止</text>
+<text x="20" y="78" font-size="10.5" fill="#6E6459">始制有名，名亦既有，夫亦将知止，知止可以不殆。</text>
+<rect x="20" y="102" width="340" height="34" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="190" y="114" font-size="4.6" fill="#2F2A24" text-anchor="middle">「制」，《说文》「裁也」——裁带刀；「止」，《说文》「下基也」，象草木有址，是脚站定的那一块地方。</text>
+<text x="190" y="127" font-size="4.6" fill="#6E6459" text-anchor="middle">老子不反对挂牌；他反对的是把牌当成物，把地基当成天空。</text>
+<text x="24" y="152" font-size="5.1" fill="#4A5C55">一、制是刀：一段木，裁成三块，各挂一块牌</text>
+<rect x="26" y="164" width="328" height="126" fill="#FBF6EC" stroke="#DCCBB0" stroke-width="1.0"/>
+<rect x="40" y="206" width="66" height="20" fill="#E9DFCC" stroke="#2F2A24" stroke-width="0.8"/>
+<ellipse cx="40" cy="216" rx="5" ry="10" fill="#F2EADA" stroke="#2F2A24" stroke-width="0.7"/>
+<ellipse cx="106" cy="216" rx="5" ry="10" fill="#E9DFCC" stroke="#2F2A24" stroke-width="0.7"/>
+<text x="73" y="198" font-size="4.3" fill="#4A5C55" text-anchor="middle">朴</text>
+<line x1="126" y1="208" x2="136" y2="180" stroke="#2F2A24" stroke-width="1.0"/>
+<path d="M134,176 L148,184 L142,204 L132,198 Z" fill="#A2503B" stroke="#A2503B" stroke-width="0.7"/>
+<line x1="140" y1="180" x2="140" y2="244" stroke="#A2503B" stroke-width="0.7" stroke-dasharray="3 3"/>
+<text x="150" y="174" font-size="3.9" fill="#A2503B">制：裁</text>
+<rect x="142" y="206" width="44" height="20" fill="#E9DFCC" stroke="#2F2A24" stroke-width="0.8"/>
+<line x1="164" y1="198" x2="164" y2="182" stroke="#2F2A24" stroke-width="0.6"/>
+<rect x="149" y="170" width="30" height="13" fill="#F2EADA" stroke="#A2503B" stroke-width="0.8"/>
+<text x="164" y="179.5" font-size="3.6" fill="#A2503B" text-anchor="middle">名一</text>
+<path d="M204,226 L226,198 L248,226 Z" fill="#E9DFCC" stroke="#2F2A24" stroke-width="0.8"/>
+<line x1="226" y1="198" x2="226" y2="182" stroke="#2F2A24" stroke-width="0.6"/>
+<rect x="211" y="170" width="30" height="13" fill="#F2EADA" stroke="#A2503B" stroke-width="0.8"/>
+<text x="226" y="179.5" font-size="3.6" fill="#A2503B" text-anchor="middle">名二</text>
+<path d="M268,226 L268,208 Q288,196 308,208 L308,226 Z" fill="#E9DFCC" stroke="#2F2A24" stroke-width="0.8"/>
+<line x1="288" y1="198" x2="288" y2="182" stroke="#2F2A24" stroke-width="0.6"/>
+<rect x="273" y="170" width="30" height="13" fill="#F2EADA" stroke="#A2503B" stroke-width="0.8"/>
+<text x="288" y="179.5" font-size="3.6" fill="#A2503B" text-anchor="middle">名三</text>
+<text x="190" y="250" font-size="4.0" fill="#8A7C69" text-anchor="middle">朴散了成器，器多了就得有名——名不是堕落的开始，是散的必然结果。</text>
+<text x="190" y="268" font-size="4.1" fill="#A2503B" text-anchor="middle">可牌挂在器上，久了有人就对牌下手：论牌子，不论器。</text>
+<text x="24" y="322" font-size="5.1" fill="#4A5C55">二、止是基：地基有边，再往外砌就砌在虚空上</text>
+<rect x="26" y="334" width="328" height="132" fill="#FBF6EC" stroke="#DCCBB0" stroke-width="1.0"/>
+<rect x="98" y="396" width="164" height="22" fill="#EDE3CE" stroke="#2F2A24" stroke-width="0.9"/>
+<line x1="98" y1="418" x2="88" y2="428" stroke="#2F2A24" stroke-width="0.7"/>
+<line x1="262" y1="418" x2="272" y2="428" stroke="#2F2A24" stroke-width="0.7"/>
+<line x1="88" y1="428" x2="272" y2="428" stroke="#DCCBB0" stroke-width="0.6"/>
+<path d="M115,396 L117,376 L139,376 L141,396 Z" fill="#F6EFE0" stroke="#2F2A24" stroke-width="0.7"/>
+<rect x="116" y="362" width="24" height="11" fill="#F2EADA" stroke="#A2503B" stroke-width="0.7"/>
+<text x="128" y="370" font-size="3.3" fill="#A2503B" text-anchor="middle">名一</text>
+<path d="M165,396 L167,376 L189,376 L191,396 Z" fill="#F6EFE0" stroke="#2F2A24" stroke-width="0.7"/>
+<rect x="166" y="362" width="24" height="11" fill="#F2EADA" stroke="#A2503B" stroke-width="0.7"/>
+<text x="178" y="370" font-size="3.3" fill="#A2503B" text-anchor="middle">名二</text>
+<path d="M215,396 L217,376 L239,376 L241,396 Z" fill="#F6EFE0" stroke="#2F2A24" stroke-width="0.7"/>
+<rect x="216" y="362" width="24" height="11" fill="#F2EADA" stroke="#A2503B" stroke-width="0.7"/>
+<text x="228" y="370" font-size="3.3" fill="#A2503B" text-anchor="middle">名三</text>
+<text x="178" y="436" font-size="4.1" fill="#2F2A24" text-anchor="middle">台基：有边，托得住</text>
+<path d="M309,396 L311,374 L333,374 L335,396 Z" fill="none" stroke="#A2503B" stroke-width="0.9" stroke-dasharray="4 3"/>
+<text x="322" y="390" font-size="10" fill="#A2503B" text-anchor="middle" opacity="0.65">×</text>
+<text x="322" y="430" font-size="3.9" fill="#A2503B" text-anchor="middle">砌在虚空上</text>
+<line x1="302" y1="368" x2="302" y2="422" stroke="#A2503B" stroke-width="0.7"/>
+<text x="300" y="356" font-size="3.7" fill="#A2503B" text-anchor="end">地基边</text>
+<text x="34" y="454" font-size="4.0" fill="#8A7C69">「知止」：知道名的边在哪儿——名分管秩序，不管人心；能分职守，不能分善恶。</text>
+<rect x="20" y="482" width="340" height="40" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="190" y="500" font-size="5.6" fill="#2F2A24" text-anchor="middle">名越界，不是名坏了，是执名的人把地基当成了天空。</text>
+<text x="190" y="514" font-size="4.4" fill="#6E6459" text-anchor="middle">止是基，不是墙：墙拦住你，基托住你。</text>
+<line x1="20" y1="542" x2="360" y2="542" stroke="#E6D8C2" stroke-width="0.8"/>
+<text x="20" y="556" font-size="8.0" fill="#A89577" letter-spacing="1">本 章 金 句</text>
+<text x="20" y="572" font-size="8.4" fill="#2F2A24">道不是经常没有名字，它是从来不可能有名字。</text>
+<text x="20" y="588" font-size="8.4" fill="#2F2A24">知止不是收手不干，是知道地基的边在哪儿——再往外砌，就砌在虚空上了。</text>
+</svg>
