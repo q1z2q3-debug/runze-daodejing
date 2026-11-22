@@ -4995,6 +4995,245 @@ def ch19c_ban_chu_qu():
     return out.replace("999", str(int(max(ys) + 26)))
 
 
+def ch20_yi_ba_chi_de_liang_mian():
+    body, y = head(380, 999, "唯之与阿，相去几何：一把尺的两面",
+                   "第 二 十 章 · 独 异", "一把尺的两面",
+                   "唯之与阿，相去几何？善之与恶，相去若何？", 999)
+    s = [body]
+
+    s.append(box(20, y + 2, 340, 34, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, y + 14, "「唯」是恭顺应答，「阿」是怠慢呵斥——都是人给的判词。", 4.8, INK, "middle"))
+    s.append(txt(190, y + 27, "两端的分寸，是尺定的，不是事定的。", 4.8, "#6E6459", "middle"))
+
+    # 一、有刻度的一面
+    p0 = y + 50
+    h = 132
+    s.append(box(26, p0, 328, h, fill="#FBF6EC", stroke=LINE, width=0.8))
+    ruler_y = p0 + 66
+    s.append(f'<rect x="52" y="{ruler_y}" width="276" height="13" fill="#EFE6D4" stroke="{INK}" stroke-width="1.2"/>')
+    for k in range(19):
+        x = 60 + k * 14
+        hh = 8 if k % 5 else 11
+        s.append(f'<line x1="{x}" y1="{ruler_y}" x2="{x}" y2="{ruler_y + hh}" stroke="{INK}" stroke-width="0.7"/>')
+    s.append(f'<rect x="52" y="{ruler_y - 34}" width="30" height="20" fill="#F2EADA" stroke="{INK}" stroke-width="0.9"/>')
+    s.append(txt(67, ruler_y - 20, "唯", 5.6, SEAL, "middle"))
+    s.append(f'<rect x="298" y="{ruler_y - 34}" width="30" height="20" fill="#F2EADA" stroke="{INK}" stroke-width="0.9"/>')
+    s.append(txt(313, ruler_y - 20, "阿", 5.6, SEAL, "middle"))
+    s.append(f'<line x1="67" y1="{ruler_y - 14}" x2="67" y2="{ruler_y}" stroke="{LINE}" stroke-width="0.8" stroke-dasharray="2 2"/>')
+    s.append(f'<line x1="313" y1="{ruler_y - 14}" x2="313" y2="{ruler_y}" stroke="{LINE}" stroke-width="0.8" stroke-dasharray="2 2"/>')
+    s.append(f'<line x1="72" y1="{ruler_y + 24}" x2="308" y2="{ruler_y + 24}" stroke="#8A7C69" stroke-width="0.7" stroke-dasharray="4 3"/>')
+    s.append(arrow(80, ruler_y + 24, 296, ruler_y + 24, "#8A7C69", 0.7, None, "arr"))
+    s.append(arrow(300, ruler_y + 24, 88, ruler_y + 24, "#8A7C69", 0.7, None, "arrL"))
+    s.append(txt(190, p0 + h - 10, "相去几何：这一面上，两端被量成了一段距离", 4.4, "#8A7C69", "middle"))
+    s.append(txt(24, p0 + h + 13, "一、有刻度的一面：两端离得很远，还要问「几 何」", 5.0, SEAL))
+
+    # 二、翻过来的一面
+    p1 = p0 + h + 26
+    h2 = 140
+    s.append(box(26, p1, 328, h2, fill="#FBF6EC", stroke=LINE, width=0.8))
+    ry2 = p1 + 84
+    s.append(f'<rect x="52" y="{ry2}" width="276" height="13" fill="#EFE6D4" stroke="{INK}" stroke-width="1.2"/>')
+    s.append(f'<line x1="56" y1="{ry2 + 4}" x2="326" y2="{ry2 + 4}" stroke="{LINE2}" stroke-width="0.5"/>')
+    s.append(f'<line x1="56" y1="{ry2 + 9}" x2="326" y2="{ry2 + 9}" stroke="{LINE2}" stroke-width="0.5"/>')
+    s.append(f'<path d="M52,{ry2 - 26} q-14,10 0,22" fill="none" stroke="#8A7C69" stroke-width="0.7"/>')
+    s.append(arrow(52, ry2 - 26, 56, ry2 - 30, "#8A7C69", 0.7, None, "arr"))
+    s.append(f'<rect x="172" y="{ry2 - 40}" width="30" height="20" fill="#F2EADA" stroke="{INK}" stroke-width="0.9"/>')
+    s.append(txt(187, ry2 - 26, "阿", 5.4, SEAL, "middle"))
+    s.append(f'<rect x="160" y="{ry2 - 22}" width="30" height="22" fill="#F2EADA" stroke="{INK}" stroke-width="0.9"/>')
+    s.append(txt(175, ry2 - 7, "唯", 5.4, SEAL, "middle"))
+    s.append(txt(190, p1 + h2 - 10, "翻过来：没有刻度，两端并在一处——只是一声应答", 4.4, "#8A7C69", "middle"))
+    s.append(txt(24, p1 + h2 + 13, "二、翻过来的一面：两块牌并在一处", 5.0, GREEN))
+
+    a = p1 + h2 + 32
+    s.append(txt(24, a, "尺子有刻度，才有了「几 何」这个问；刻度是人刻的，不是木头上长出来的。", 4.9, INK))
+    s.append(txt(24, a + 16, "同一句应答，这场里是恭顺，换一场就是谄媚——判词在场合手上，不在这句话上。", 4.9, INK))
+    s.append(txt(24, a + 34, "人之所畏，不可不畏：看穿这套规矩，不等于要去撞它。", 4.9, GREEN))
+
+    c = a + 52
+    s.append(f'<line x1="24" y1="{c}" x2="338" y2="{c}" stroke="{LINE}" stroke-width="0.6"/>')
+    s.append(box(20, c + 8, 340, 40, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, c + 24, "唯之与阿，相去几何。", 6.2, INK, "middle"))
+    s.append(txt(190, c + 36, "尺子定的，不是事定的。", 5.2, GREEN, "middle"))
+    s.append(gold(c + 62, "ch20"))
+    s.append('</svg>')
+    out = chr(10).join(s)
+    ys = [float(v) for v in re.findall(r'y="([0-9.]+)"', out)]
+    return out.replace("999", str(int(int(max(ys) + 26))))
+
+
+def ch20b_yan_yu_jiao_luo():
+    body, y = head(380, 999, "众人熙熙，我独泊兮其未兆：宴与角落",
+                   "第 二 十 章 · 未 兆", "宴与角落",
+                   "众人熙熙，如享太牢，如春登台；我独泊兮其未兆。", 999)
+    s = [body]
+
+    s.append(box(20, y + 2, 340, 34, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, y + 14, "「泊」不是冷，是停在没起念的那一处。", 4.8, INK, "middle"))
+    s.append(txt(190, y + 27, "「未兆」：不是把欲按下去，是它还没起。", 4.8, "#6E6459", "middle"))
+
+    def figure(x, g, cup=True, faint=False):
+        col = LINE if faint else INK
+        s.append(f'<circle cx="{x}" cy="{g - 46}" r="3.4" fill="none" stroke="{col}" stroke-width="0.9"/>')
+        s.append(f'<line x1="{x}" y1="{g - 42}" x2="{x}" y2="{g - 16}" stroke="{col}" stroke-width="1.0"/>')
+        s.append(f'<line x1="{x}" y1="{g - 16}" x2="{x - 5}" y2="{g + 1}" stroke="{col}" stroke-width="0.9"/>')
+        s.append(f'<line x1="{x}" y1="{g - 16}" x2="{x + 5}" y2="{g + 1}" stroke="{col}" stroke-width="0.9"/>')
+        if cup:
+            s.append(f'<line x1="{x}" y1="{g - 36}" x2="{x + 11}" y2="{g - 44}" stroke="{col}" stroke-width="0.8"/>')
+            s.append(f'<path d="M{x + 8},{g - 52} l10,0 l-2,8 l-6,0 Z" fill="{"#F2EADA" if faint else "#E4D8BF"}" stroke="{col}" stroke-width="0.7"/>')
+            s.append(f'<line x1="{x}" y1="{g - 36}" x2="{x - 8}" y2="{g - 24}" stroke="{col}" stroke-width="0.8"/>')
+        else:
+            s.append(f'<line x1="{x}" y1="{g - 36}" x2="{x - 9}" y2="{g - 20}" stroke="{col}" stroke-width="0.8"/>')
+            s.append(f'<line x1="{x}" y1="{g - 36}" x2="{x + 9}" y2="{g - 20}" stroke="{col}" stroke-width="0.8"/>')
+
+    def table(g, x0, x1, faint=False):
+        col = LINE if faint else INK
+        s.append(f'<line x1="{x0}" y1="{g}" x2="{x1}" y2="{g}" stroke="{col}" stroke-width="{1.4 if faint else 3.4}"/>')
+        if not faint:
+            s.append(f'<line x1="{x0 + 14}" y1="{g}" x2="{x0 + 14}" y2="{g + 20}" stroke="{INK}" stroke-width="0.9"/>')
+            s.append(f'<line x1="{x1 - 14}" y1="{g}" x2="{x1 - 14}" y2="{g + 20}" stroke="{INK}" stroke-width="0.9"/>')
+
+    def dish(x, g, faint=False):
+        col = LINE if faint else INK
+        s.append(f'<ellipse cx="{x}" cy="{g - 3}" rx="12" ry="4" fill="#FBF6EC" stroke="{col}" stroke-width="0.8"/>')
+        s.append(f'<path d="M{x - 6},{g - 10} l12,0 l-2,6 l-8,0 Z" fill="#F2EADA" stroke="{col}" stroke-width="0.7"/>')
+
+    # 一、宴
+    p0 = y + 50
+    h = 156
+    s.append(box(26, p0, 328, h, fill="#FBF6EC", stroke=LINE, width=0.8))
+    g1 = p0 + 116
+    for x in (72, 138, 204, 270, 320):
+        figure(x, g1, cup=True)
+    table(g1, 48, 330)
+    for x in (100, 166, 232, 296):
+        dish(x, g1)
+    s.append(txt(190, p0 + 26, "案上摆满了，人人手上都有杯", 4.5, "#6E6459", "middle"))
+    s.append(txt(190, p0 + h - 10, "熙熙：热闹有个尽头，散席之后各自回家", 4.4, "#8A7C69", "middle"))
+    s.append(txt(24, p0 + h + 13, "一、熙熙：都挤在案后，谁也没有落后", 5.0, SEAL))
+
+    # 二、角落
+    p1 = p0 + h + 26
+    h2 = 156
+    s.append(box(26, p1, 328, h2, fill="#FBF6EC", stroke=LINE, width=0.8))
+    g2 = p1 + 116
+    # 远处那一头：淡下去的案与人
+    for x in (250, 296, 330):
+        figure(x, g2, cup=True, faint=True)
+    table(g2, 226, 340, faint=True)
+    for x in (262, 310):
+        dish(x, g2, faint=True)
+    s.append(txt(282, p1 + 26, "那头还是那场宴", 4.4, "#8A7C69", "middle"))
+    # 这一头：一个人，手空着
+    s.append(f'<line x1="40" y1="{g2}" x2="176" y2="{g2}" stroke="{INK}" stroke-width="1.2"/>')
+    figure(96, g2, cup=False)
+    s.append(f'<circle cx="122" cy="{g2 - 40}" r="8" fill="none" stroke="{LINE}" stroke-width="0.7" stroke-dasharray="2 2"/>')
+    s.append(txt(122, g2 - 50, "还没起", 4.2, "#8A7C69", "middle"))
+    s.append(txt(60, g2 - 66, "手空着，脚下一小块空地", 4.3, "#6E6459"))
+    s.append(txt(190, p1 + h2 - 10, "别人看他没站处，他自己知道站在哪儿", 4.4, "#8A7C69", "middle"))
+    s.append(txt(24, p1 + h2 + 13, "二、独泊：手还空着，欲还没起", 5.0, GREEN))
+
+    a = p1 + h2 + 32
+    s.append(txt(24, a, "众人向外抓取：从物、从盛宴、从赞誉、从热闹里取满足。", 4.9, INK))
+    s.append(txt(24, a + 16, "体道者淡泊平顺，不起羡慕攀求的征兆——不是压住，是还没起。", 4.9, INK))
+    s.append(txt(24, a + 34, "如婴儿之未孩：不是不会笑，是还没有好恶分别。", 4.9, GREEN))
+
+    c = a + 52
+    s.append(f'<line x1="24" y1="{c}" x2="338" y2="{c}" stroke="{LINE}" stroke-width="0.6"/>')
+    s.append(box(20, c + 8, 340, 40, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, c + 24, "众人熙熙，我独未兆；", 5.8, INK, "middle"))
+    s.append(txt(190, c + 36, "未兆者，欲未起也。", 5.6, GREEN, "middle"))
+    s.append(gold(c + 62, "ch20b"))
+    s.append('</svg>')
+    out = chr(10).join(s)
+    ys = [float(v) for v in re.findall(r'y="([0-9.]+)"', out)]
+    return out.replace("999", str(int(int(max(ys) + 26))))
+
+
+def ch20c_ju_deng_zhao_ren():
+    body, y = head(380, 999, "俗人昭昭，我独昏昏：举灯照人",
+                   "第 二 十 章 · 昭 与 昏", "举灯照人",
+                   "俗人昭昭，我独昏昏；俗人察察，我独闷闷。", 999)
+    s = [body]
+
+    s.append(box(20, y + 2, 340, 34, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, y + 14, "昭昭是向外自证正确，察察是拿灯去照人、挑人。", 4.8, INK, "middle"))
+    s.append(txt(190, y + 27, "昏昏闷闷不是糊涂，是不举这盏灯。", 4.8, "#6E6459", "middle"))
+
+    def stand(x, g, arm=None):
+        s.append(f'<circle cx="{x}" cy="{g - 44}" r="3.4" fill="none" stroke="{INK}" stroke-width="0.9"/>')
+        s.append(f'<line x1="{x}" y1="{g - 40}" x2="{x}" y2="{g - 16}" stroke="{INK}" stroke-width="1.0"/>')
+        s.append(f'<line x1="{x}" y1="{g - 16}" x2="{x - 5}" y2="{g}" stroke="{INK}" stroke-width="0.9"/>')
+        s.append(f'<line x1="{x}" y1="{g - 16}" x2="{x + 5}" y2="{g}" stroke="{INK}" stroke-width="0.9"/>')
+        if arm == "raise":
+            s.append(f'<line x1="{x}" y1="{g - 34}" x2="{x + 16}" y2="{g - 56}" stroke="{INK}" stroke-width="1.0"/>')
+            s.append(f'<line x1="{x}" y1="{g - 34}" x2="{x - 9}" y2="{g - 22}" stroke="{INK}" stroke-width="0.8"/>')
+        elif arm == "guard":
+            s.append(f'<line x1="{x + 1}" y1="{g - 34}" x2="{x - 7}" y2="{g - 42}" stroke="{INK}" stroke-width="0.9"/>')
+            s.append(f'<line x1="{x - 7}" y1="{g - 42}" x2="{x - 5}" y2="{g - 47}" stroke="{INK}" stroke-width="0.8"/>')
+            s.append(f'<line x1="{x}" y1="{g - 34}" x2="{x - 10}" y2="{g - 20}" stroke="{INK}" stroke-width="0.8"/>')
+        else:
+            s.append(f'<line x1="{x}" y1="{g - 34}" x2="{x + 9}" y2="{g - 22}" stroke="{INK}" stroke-width="0.8"/>')
+            s.append(f'<line x1="{x}" y1="{g - 34}" x2="{x - 9}" y2="{g - 22}" stroke="{INK}" stroke-width="0.8"/>')
+
+    def lamp(x, ybase, standing=True):
+        # 灯盏：小碗 + 火苗
+        if standing:
+            s.append(f'<path d="M{x - 9},{ybase} q9,7 18,0 Z" fill="#E4D8BF" stroke="{INK}" stroke-width="0.8"/>')
+            s.append(f'<ellipse cx="{x}" cy="{ybase}" rx="9" ry="2.6" fill="#EFE6D4" stroke="{INK}" stroke-width="0.7"/>')
+            s.append(f'<path d="M{x},{ybase - 1} q-3.5,-5 0,-10 q3.5,5 0,10" fill="none" stroke="{SEAL}" stroke-width="1.0"/>')
+        else:
+            s.append(f'<path d="M{x - 9},{ybase} q9,7 18,0 Z" fill="#E4D8BF" stroke="{INK}" stroke-width="0.8"/>')
+
+    # 一、举灯照人
+    p0 = y + 50
+    h = 176
+    s.append(box(26, p0, 328, h, fill="#FBF6EC", stroke=LINE, width=0.8))
+    g1 = p0 + 148
+    stand(126, g1, "raise")
+    lx, ly = 142, g1 - 56
+    lamp(lx, ly, True)
+    # 光锥落到对方脸上
+    tx, ty = 244, g1 - 40
+    s.append(f'<path d="M{lx},{ly} L{tx - 12},{ty - 8} L{tx + 10},{ty + 16} L{lx + 6},{ly + 6} Z" fill="#F2EADA" stroke="none" opacity="0.75"/>')
+    s.append(f'<path d="M{lx},{ly} L{tx - 12},{ty - 8}" fill="none" stroke="{LINE}" stroke-width="0.6"/>')
+    s.append(f'<path d="M{lx},{ly} L{tx + 10},{ty + 16}" fill="none" stroke="{LINE}" stroke-width="0.6"/>')
+    stand(tx, g1, "guard")
+    s.append(txt(250, g1 - 62, "抬手挡了一下", 4.3, "#6E6459", "middle"))
+    s.append(txt(190, p0 + 24, "灯举在手上，光落在别人脸上", 4.5, "#6E6459", "middle"))
+    s.append(txt(190, p0 + h - 10, "昭昭：处处显明自己是对的；察察：照人、挑人", 4.4, "#8A7C69", "middle"))
+    s.append(txt(24, p0 + h + 13, "一、举灯：光照在别人脸上", 5.0, SEAL))
+
+    # 二、灯搁在地上
+    p1 = p0 + h + 26
+    h2 = 168
+    s.append(box(26, p1, 328, h2, fill="#FBF6EC", stroke=LINE, width=0.8))
+    g2 = p1 + 140
+    lamp(104, g2, True)
+    s.append(f'<ellipse cx="104" cy="{g2}" rx="26" ry="6" fill="#F2EADA" stroke="none" opacity="0.7"/>')
+    stand(176, g2)
+    stand(222, g2)
+    s.append(txt(104, g2 + 16, "灯搁在地上，只照亮脚下一小块", 4.3, "#6E6459", "middle"))
+    s.append(txt(190, p1 + 24, "灯还是那盏灯，只是不举了", 4.5, "#6E6459", "middle"))
+    s.append(txt(190, p1 + h2 - 10, "没有人再被光照着", 4.4, "#8A7C69", "middle"))
+    s.append(txt(24, p1 + h2 + 13, "二、搁下：不再有人被光照着", 5.0, GREEN))
+
+    a = p1 + h2 + 32
+    s.append(txt(24, a, "孔子的察察是救弊的手段；老子警惕的，是把手段当成生命的根基。", 4.9, INK))
+    s.append(txt(24, a + 16, "长期以昭昭、察察为标准，会不断制造分别、苛责、伪装与表演。", 4.9, INK))
+    s.append(txt(24, a + 34, "昏昏闷闷是浑厚内敛：不刻意显扬，不苛细审判。", 4.9, GREEN))
+
+    c = a + 52
+    s.append(f'<line x1="24" y1="{c}" x2="338" y2="{c}" stroke="{LINE}" stroke-width="0.6"/>')
+    s.append(box(20, c + 8, 340, 40, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, c + 24, "昭昭者怕人看不见自己对，", 5.4, INK, "middle"))
+    s.append(txt(190, c + 36, "昏昏者不怕人看错自己。", 5.4, GREEN, "middle"))
+    s.append(gold(c + 62, "ch20c"))
+    s.append('</svg>')
+    out = chr(10).join(s)
+    ys = [float(v) for v in re.findall(r'y="([0-9.]+)"', out)]
+    return out.replace("999", str(int(int(max(ys) + 26))))
+
+
 def ch20_wei_zhi_yu_e():
     W, H = 380, 508
     body, y = head(W, H, "尺子一换，答案就换", "第 二 十 章 · 独 异", "两把尺子",
@@ -8978,8 +9217,8 @@ GOLD = {
     "ch18c": ["孝慈者，亲之药也；忠臣者，国之药也。", "药能已病，药不是身子。"],
     "ch19b": ["文不足以为治，令有所属乃安。", "篱笆挡得住脚，挡不住空。"],
     "ch19c": ["素者未染，朴者未雕；不加文饰，不下斧斤。", "不必靠外加的东西证明自己。"],
-    "ch20b": ["众人熙熙，如享太牢；我独泊兮其未兆。", "不必挤的那一处，站定了，人就轻了。"],
-    "ch20c": ["众人皆有余，而我独若遗。", "空着的那只袋，看上去是缺，其实是余地。"],
+    "ch20b": ["众人熙熙，我独未兆；未兆者，欲未起也。", "泊不是冷，是停在没起念的那一处。"],
+    "ch20c": ["昭昭者怕人看不见自己对，昏昏者不怕人看错自己。", "灯还是那盏灯，只是不举了。"],
     "ch21b": ["孔德之容，惟道是从。", "德之所以能容，正因它不占地方。"],
     "ch21c": ["自今及古，其名不去，以阅众甫。", "不是知道得多，是站对了地方。"],
     "ch22b": ["曲则全，枉则直，洼则盈，敝则新。", "弯的能受，所以能全；低的能聚，所以能盈。"],
@@ -9112,7 +9351,7 @@ GOLD = {
     "ch18": ["大道废，有仁义；", "不是骂仁义，是给仁义记一笔来处。"],
     "ch18a": ["大道行，则仁义不名。", "名号是被缺口造出来的：缺口越大，名号越亮。"],
     "ch19": ["所绝者名，所复者实。", "撤的是位置，不是东西。"],
-    "ch20": ["唯之与阿，相去几何——尺子定的，不是事定的。", "众人贵末，我贵食母；末可争，母不可争。"],
+    "ch20": ["唯之与阿，相去几何——尺子定的，不是事定的。", "翻过来看，两端并在一处。"],
     "ch21": ["孔德之容，惟道是从：德不是修出来的，是流出来的。", "名不去，是路标一直在；路标在，不等于路标就是那个地方。"],
     "ch23": ["自然不是「不管」，是「不需要管」——差别全在有没有人在使劲。", "信不足，不是话说得不够多，是话后面没有人。"],
     "ch24": ["借来的高度站不住，省下的步子走不远。", "不处不是割掉，是不长——约束是按住它，不处是根本不在那儿站。"],
@@ -17058,8 +17297,8 @@ FIGS = {
     "ch18c-yi-tie-yao": ("第十八章", "一帖药", ch18c_yi_tie_yao),
     "ch19b-yi-quan-li-ba": ("第十九章", "一圈篱笆", ch19b_yi_quan_li_ba),
     "ch19c-su-yu-pu": ("第十九章", "素与朴", ch19c_su_yu_pu),
-    "ch20b-shi-ji-yu-jiao-luo": ("第二十章", "市集与角落", ch20b_shi_ji_yu_jiao_luo),
-    "ch20c-kong-dai": ("第二十章", "一只空袋", ch20c_kong_dai),
+    "ch20b-yan-yu-jiao-luo": ("第二十章", "宴与角落", ch20b_yan_yu_jiao_luo),
+    "ch20c-ju-deng-zhao-ren": ("第二十章", "举灯照人", ch20c_ju_deng_zhao_ren),
     "ch21b-kong-de-zhi-rong": ("第二十一章", "一枚带孔的璧", ch21b_kong_de_zhi_rong),
     "ch21c-men-nei-dian-shu": ("第二十一章", "门内点数", ch21c_men_nei_dian_shu),
     "ch22b-qu-mu-cao": ("第二十二章", "一只曲木槽", ch22b_qu_mu_cao),
@@ -17163,7 +17402,7 @@ FIGS = {
     "ch17-yi-gen-sheng": ("第十七章", "一根绳", ch17_yi_gen_sheng),
     "ch18-lu-fei-bian-li": ("第十八章", "路废了，匾立起来", ch18_lu_fei_bian_li),
     "ch19-yi-gen-biao-gan": ("第十九章", "一根标杆", ch19_yi_gen_biao_gan),
-    "ch20-wei-zhi-yu-e": ("第二十章", "两把尺子", ch20_wei_zhi_yu_e),
+    "ch20-yi-ba-chi-de-liang-mian": ("第二十章", "一把尺的两面", ch20_yi_ba_chi_de_liang_mian),
     "ch21-kong-de": ("第二十一章", "由粗到细", ch21_kong_de),
     "ch03-shang-ji-guo-du": ("第三章", "尚即过度", ch03_shang_ji_guo_du),
     "ch04-dao-chong": ("第四章", "井：一直在用，从不溢出", ch04_dao_chong),
