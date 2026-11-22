@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 380 698" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="功本身没丢，丢的是功的成色" font-family="'Noto Serif CJK SC','Noto Serif SC','Songti SC',serif">
+<defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#6E6459"/></marker><marker id="arr2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#4A5C55"/></marker><marker id="arrL" viewBox="0 0 10 10" refX="1" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M10 0 L0 5 L10 10 z" fill="#4A5C55"/></marker><marker id="arrS" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#A2503B"/></marker></defs>
+<rect x="0" y="0" width="380" height="698" fill="#F8F3E6"/>
+<text x="20" y="26" font-size="11" fill="#A2503B" font-family="'Noto Sans CJK SC','Noto Sans SC',sans-serif" letter-spacing="3">第 二 十 四 章 · 自 见 者 不 明</text>
+<text x="20" y="58" font-size="21" fill="#2F2A24">四根旗杆</text>
+<text x="20" y="78" font-size="10.5" fill="#6E6459">自见者不明，自是者不彰，自伐者无功，自矜者不长。</text>
+<rect x="20" y="102" width="340" height="34" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="190" y="114" font-size="4.8" fill="#2F2A24" text-anchor="middle">四个动作，一件事：把自己往高举；举起来的是杆，不是德。</text>
+<text x="190" y="127" font-size="4.8" fill="#6E6459" text-anchor="middle">第二十二章讲怎么得到，这一章讲得到之后为什么丢：一边是医嘱，一边是病理。</text>
+<rect x="26" y="152" width="328" height="158" fill="#FBF6EC" stroke="#DCCBB0" stroke-width="0.8"/>
+<line x1="40" y1="264" x2="340" y2="264" stroke="#C9B79A" stroke-width="0.9"/>
+<line x1="84" y1="264" x2="84" y2="228" stroke="#2F2A24" stroke-width="1.4"/>
+<path d="M84,228 L110,235 L84,242 Z" fill="#C08A74" stroke="#A2503B" stroke-width="0.8"/>
+<text x="94" y="235.5" font-size="6.4" fill="#FBF6EC" text-anchor="middle">见</text>
+<line x1="148" y1="264" x2="148" y2="202" stroke="#2F2A24" stroke-width="1.4"/>
+<path d="M148,202 L174,209 L148,216 Z" fill="#C08A74" stroke="#A2503B" stroke-width="0.8"/>
+<text x="158" y="209.5" font-size="6.4" fill="#FBF6EC" text-anchor="middle">是</text>
+<line x1="212" y1="264" x2="212" y2="176" stroke="#2F2A24" stroke-width="1.4"/>
+<path d="M212,176 L238,183 L212,190 Z" fill="#C08A74" stroke="#A2503B" stroke-width="0.8"/>
+<text x="222" y="183.5" font-size="6.4" fill="#FBF6EC" text-anchor="middle">伐</text>
+<path d="M276,264 L276,176 C278,158 284,152 292,150" fill="none" stroke="#2F2A24" stroke-width="1.4"/>
+<path d="M292,156 L318,163 L292,170 Z" fill="#C08A74" stroke="#A2503B" stroke-width="0.8"/>
+<text x="302" y="163.5" font-size="6.4" fill="#FBF6EC" text-anchor="middle">矜</text>
+<text x="190" y="286" font-size="4.0" fill="#A2503B" text-anchor="middle">一根比一根高：旗越举越高，先弯下去的是杆。</text>
+<text x="24" y="323" font-size="5.0" fill="#A2503B">一、四根旗杆：自见、自是、自伐、自矜，各立一根</text>
+<rect x="26" y="336" width="328" height="120" fill="#FBF6EC" stroke="#DCCBB0" stroke-width="0.8"/>
+<rect x="40" y="408" width="300" height="24" fill="#F1E8D6" stroke="none"/>
+<line x1="40" y1="408" x2="340" y2="408" stroke="#C9B79A" stroke-width="0.9"/>
+<ellipse cx="84" cy="408" rx="7.5" ry="3" fill="#8A7C69" stroke="#2F2A24" stroke-width="0.7" opacity="0.6"/>
+<ellipse cx="84" cy="410" rx="4.2" ry="1.6" fill="#5E5347" stroke="none" opacity="0.5"/>
+<ellipse cx="148" cy="408" rx="7.5" ry="3" fill="#8A7C69" stroke="#2F2A24" stroke-width="0.7" opacity="0.6"/>
+<ellipse cx="148" cy="410" rx="4.2" ry="1.6" fill="#5E5347" stroke="none" opacity="0.5"/>
+<ellipse cx="212" cy="408" rx="7.5" ry="3" fill="#8A7C69" stroke="#2F2A24" stroke-width="0.7" opacity="0.6"/>
+<ellipse cx="212" cy="410" rx="4.2" ry="1.6" fill="#5E5347" stroke="none" opacity="0.5"/>
+<ellipse cx="276" cy="408" rx="7.5" ry="3" fill="#8A7C69" stroke="#2F2A24" stroke-width="0.7" opacity="0.6"/>
+<ellipse cx="276" cy="410" rx="4.2" ry="1.6" fill="#5E5347" stroke="none" opacity="0.5"/>
+<line x1="92" y1="418" x2="168" y2="418" stroke="#2F2A24" stroke-width="1.6"/>
+<path d="M168,418 L180,412 L182,421 Z" fill="#C08A74" stroke="#A2503B" stroke-width="0.7"/>
+<line x1="202" y1="424" x2="274" y2="424" stroke="#2F2A24" stroke-width="1.6"/>
+<path d="M202,424 L214,418 L216,427 Z" fill="#C08A74" stroke="#A2503B" stroke-width="0.7"/>
+<text x="190" y="398" font-size="3.8" fill="#6E6459" text-anchor="middle">两根拔走，两根横在地上</text>
+<text x="190" y="444" font-size="4.0" fill="#4A5C55" text-anchor="middle">旗拔了，坑还在：立过的地方，拔了也还是坑。</text>
+<text x="24" y="469" font-size="5.0" fill="#4A5C55">二、旗拔了：坑还在——不处，是不在那儿立杆</text>
+<text x="24" y="486" font-size="4.9" fill="#A2503B">自见</text>
+<text x="52" y="486" font-size="4.9" fill="#2F2A24">把自己摆到明处给人看。看得见的欲望一上来，看见别处的能力就下去了，所以「不明」。</text>
+<text x="24" y="501" font-size="4.9" fill="#A2503B">自是</text>
+<text x="52" y="501" font-size="4.9" fill="#2F2A24">认定自己才对。一对上，就不必再听；不听，理就不在你这里，所以「不彰」。</text>
+<text x="24" y="516" font-size="4.9" fill="#A2503B">自伐</text>
+<text x="52" y="516" font-size="4.9" fill="#2F2A24">夸自己的功。功没被拿走，只是被换算成了名声：换过之后，功还是那个功，人已不是那个人。</text>
+<text x="24" y="531" font-size="4.9" fill="#A2503B">自矜</text>
+<text x="52" y="531" font-size="4.9" fill="#2F2A24">恃着自己那点长处。长处举起来，就得一直举着；举着的手，撑不了太久。</text>
+<text x="24" y="548" font-size="4.9" fill="#4A5C55">老子不反对人有知、有功、有德；他反对的是拿这些来供养自我。</text>
+<line x1="24" y1="564" x2="338" y2="564" stroke="#DCCBB0" stroke-width="0.6"/>
+<rect x="20" y="572" width="340" height="40" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="190" y="588" font-size="5.4" fill="#2F2A24" text-anchor="middle">功本身没丢，丢的是功的成色。</text>
+<text x="190" y="600" font-size="4.5" fill="#4A5C55" text-anchor="middle">做完还要说，就成了买卖。</text>
+<line x1="20" y1="626" x2="360" y2="626" stroke="#E6D8C2" stroke-width="0.8"/>
+<text x="20" y="640" font-size="8.0" fill="#A89577" letter-spacing="1">本 章 金 句</text>
+<text x="20" y="656" font-size="8.4" fill="#2F2A24">功本身没丢，丢的是功的成色。</text>
+<text x="20" y="672" font-size="8.4" fill="#2F2A24">做完还要说，就成了买卖。</text>
+</svg>
