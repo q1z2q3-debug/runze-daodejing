@@ -1,59 +1,67 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg viewBox="0 0 380 600" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="线在手，筝才在空" font-family="'Noto Serif CJK SC','Noto Serif SC','Songti SC',serif">
+<svg viewBox="0 0 380 788" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="线在手，筝才在空" font-family="'Noto Serif CJK SC','Noto Serif SC','Songti SC',serif">
 <defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#6E6459"/></marker><marker id="arr2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#4A5C55"/></marker><marker id="arrL" viewBox="0 0 10 10" refX="1" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M10 0 L0 5 L10 10 z" fill="#4A5C55"/></marker><marker id="arrS" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#A2503B"/></marker></defs>
-<rect x="0" y="0" width="380" height="600" fill="#F8F3E6"/>
+<rect x="0" y="0" width="380" height="788" fill="#F8F3E6"/>
 <text x="20" y="26" font-size="11" fill="#A2503B" font-family="'Noto Sans CJK SC','Noto Sans SC',sans-serif" letter-spacing="3">第 二 十 六 章 · 轻 重</text>
 <text x="20" y="58" font-size="21" fill="#2F2A24">重为轻根</text>
 <text x="20" y="78" font-size="10.5" fill="#6E6459">轻能飞高，是因为下面有东西牵着它。</text>
-<polygon points="96,108 126,136 96,164 66,136" fill="#F2EADA" stroke="#DCCBB0" stroke-width="1"/>
-<line x1="66" y1="136" x2="126" y2="136" stroke="#DCCBB0" stroke-width="0.9"/>
-<line x1="96" y1="108" x2="96" y2="164" stroke="#DCCBB0" stroke-width="0.9"/>
-<line x1="96" y1="164" x2="96" y2="206" stroke="#2F2A24" stroke-width="0.9"/>
-<rect x="78" y="204" width="26" height="12" fill="#D9C7A6" stroke="#B9A98F" stroke-width="1.0"/>
-<circle cx="96" cy="206" r="4.6" fill="#F8F3E6" stroke="#2F2A24" stroke-width="0.9"/>
-<line x1="40" y1="218" x2="160" y2="218" stroke="#DCCBB0" stroke-width="1"/>
-<text x="96" y="238" font-size="8.2" fill="#2F2A24" text-anchor="middle">有根：线在手，筝才在空</text>
-<polygon points="292,114 320,140 292,166 264,140" fill="#F2EADA" stroke="#A2503B" stroke-width="1"/>
-<line x1="264" y1="140" x2="320" y2="140" stroke="#A2503B" stroke-width="0.8" stroke-dasharray="3 2"/>
-<line x1="292" y1="114" x2="292" y2="166" stroke="#A2503B" stroke-width="0.8" stroke-dasharray="3 2"/>
-<line x1="292" y1="166" x2="294" y2="184" stroke="#2F2A24" stroke-width="0.8"/>
-<line x1="298" y1="194" x2="302" y2="206" stroke="#A2503B" stroke-width="0.8" stroke-dasharray="3 3"/>
-<line x1="288" y1="188" x2="296" y2="194" stroke="#A2503B" stroke-width="1.2"/>
-<line x1="296" y1="188" x2="288" y2="194" stroke="#A2503B" stroke-width="1.2"/>
-<circle cx="302" cy="210" r="4.6" fill="#F8F3E6" stroke="#A2503B" stroke-width="0.9"/>
-<line x1="210" y1="218" x2="344" y2="218" stroke="#DCCBB0" stroke-width="1"/>
-<text x="272" y="238" font-size="8.2" fill="#A2503B" text-anchor="middle">失根：线一断，筝就落</text>
-<text x="20" y="266" font-size="8.8" fill="#A2503B">静为躁君：君是统摄，不是压制</text>
-<rect x="46" y="300" width="42" height="24" fill="#D9C7A6" stroke="#B9A98F" stroke-width="1.0"/>
-<text x="67" y="316" font-size="8.0" fill="#2F2A24" text-anchor="middle">线轴</text>
-<circle cx="67" cy="294" r="5" fill="#F8F3E6" stroke="#2F2A24" stroke-width="1"/>
-<line x1="67" y1="288" x2="34" y2="278" stroke="#6E6459" stroke-width="1.0" marker-end="url(#arr)"/>
-<line x1="67" y1="288" x2="102" y2="278" stroke="#6E6459" stroke-width="1.0" marker-end="url(#arr)"/>
-<text x="30" y="276" font-size="7.4" fill="#6E6459">收</text>
-<text x="92" y="276" font-size="7.4" fill="#6E6459">放</text>
-<text x="20" y="344" font-size="8.4" fill="#2F2A24">有君：收放由手</text>
-<text x="20" y="358" font-size="7.6" fill="#8A7C69">线放多长，手说了算</text>
-<circle cx="248" cy="294" r="5" fill="#F8F3E6" stroke="#A2503B" stroke-width="1"/>
-<line x1="248" y1="290" x2="248" y2="278" stroke="#A2503B" stroke-width="1.1"/>
-<line x1="248" y1="278" x2="268" y2="286" stroke="#A2503B" stroke-width="1.1"/>
-<line x1="268" y1="286" x2="288" y2="274" stroke="#A2503B" stroke-width="1.1"/>
-<line x1="288" y1="274" x2="308" y2="286" stroke="#A2503B" stroke-width="1.1"/>
-<line x1="308" y1="286" x2="328" y2="274" stroke="#A2503B" stroke-width="1.1"/>
-<line x1="328" y1="274" x2="344" y2="280" stroke="#A2503B" stroke-width="1.1"/>
-<text x="216" y="344" font-size="8.4" fill="#A2503B">失君：手一松，线自己乱摆</text>
-<text x="216" y="358" font-size="7.6" fill="#8A7C69">没人下令，筝就成了风的东西</text>
-<text x="20" y="380" font-size="8.4" fill="#6E6459">静不是不动，静是动的发令处；躁不是动，是动失了主。</text>
-<rect x="20" y="398" width="162" height="44" fill="#F6EFE0" stroke="#C9B79A" stroke-width="1.0"/>
-<text x="101" y="415" font-size="8.6" fill="#4A5C55" text-anchor="middle">辎重：线轴随身</text>
-<text x="101" y="430" font-size="7.6" fill="#6E6459" text-anchor="middle">走到哪，轴都带着</text>
-<rect x="198" y="398" width="162" height="44" fill="#F6EFE0" stroke="#C9B79A" stroke-width="1.0"/>
-<text x="279" y="415" font-size="8.4" fill="#A2503B" text-anchor="middle">荣观：筝飞得高，好看</text>
-<text x="279" y="430" font-size="7.6" fill="#6E6459" text-anchor="middle">燕处：脚不离地，手不撒开</text>
-<rect x="20" y="460" width="340" height="44" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
-<text x="190" y="479" font-size="10.4" fill="#2F2A24" text-anchor="middle" letter-spacing="1">轻则失根，躁则失君。</text>
-<text x="190" y="494" font-size="8.2" fill="#6E6459" text-anchor="middle">线在手，筝才在空；手一松，筝就成了风的东西。</text>
-<line x1="20" y1="512" x2="360" y2="512" stroke="#E6D8C2" stroke-width="0.8"/>
-<text x="20" y="526" font-size="8.0" fill="#A89577" letter-spacing="1">本 章 金 句</text>
-<text x="20" y="542" font-size="8.4" fill="#2F2A24">法地，不是学地的形状，是学地的分量。</text>
-<text x="20" y="558" font-size="8.4" fill="#2F2A24">不是被外面夺了权，是你自己先把位置让出去了。</text>
+<rect x="20" y="102" width="340" height="34" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="190" y="114" font-size="4.7" fill="#2F2A24" text-anchor="middle">「重」是厚，不是慢；「轻」的本义是轻车——快，是因为不载重。</text>
+<text x="190" y="127" font-size="4.8" fill="#6E6459" text-anchor="middle">「静为躁君」：君是统摄，不是压制；静是动的发令处。</text>
+<rect x="26" y="152" width="328" height="172" fill="#FBF6EC" stroke="#DCCBB0" stroke-width="0.8"/>
+<line x1="40" y1="270" x2="166" y2="270" stroke="#C9B79A" stroke-width="0.9"/>
+<line x1="214" y1="270" x2="340" y2="270" stroke="#C9B79A" stroke-width="0.9"/>
+<polygon points="100,160 128,186 100,212 72,186" fill="#F2EADA" stroke="#2F2A24" stroke-width="1.0"/>
+<line x1="72" y1="186" x2="128" y2="186" stroke="#E6D8C2" stroke-width="0.9"/>
+<line x1="100" y1="162" x2="100" y2="206" stroke="#E6D8C2" stroke-width="0.9"/>
+<line x1="100" y1="212" x2="100" y2="260" stroke="#2F2A24" stroke-width="1.0"/>
+<rect x="86" y="260" width="28" height="10" fill="#D9C7A6" stroke="#B9A98F" stroke-width="1.0"/>
+<circle cx="100" cy="260" r="4.4" fill="#F8F3E6" stroke="#2F2A24" stroke-width="0.9"/>
+<text x="100" y="300" font-size="7.4" fill="#2F2A24" text-anchor="middle">有根：线在手，筝才在空</text>
+<polygon points="276,168 302,192 276,216 250,192" fill="#FAF1EC" stroke="#A2503B" stroke-width="1.0" stroke-dasharray="4 3"/>
+<line x1="250" y1="192" x2="302" y2="192" stroke="#A2503B" stroke-width="0.7" stroke-dasharray="3 2"/>
+<line x1="276" y1="168" x2="276" y2="216" stroke="#A2503B" stroke-width="0.7" stroke-dasharray="3 2"/>
+<line x1="276" y1="216" x2="278" y2="236" stroke="#2F2A24" stroke-width="0.8"/>
+<line x1="271" y1="240" x2="285" y2="248" stroke="#A2503B" stroke-width="1.3"/>
+<line x1="285" y1="240" x2="271" y2="248" stroke="#A2503B" stroke-width="1.3"/>
+<circle cx="298" cy="262" r="4.4" fill="#F8F3E6" stroke="#A2503B" stroke-width="0.9"/>
+<text x="276" y="300" font-size="7.4" fill="#A2503B" text-anchor="middle">失根：线一断，筝就落</text>
+<text x="24" y="337" font-size="5.0" fill="#A2503B">一、有根与失根：筝飞得高，全靠下面那根线</text>
+<rect x="26" y="350" width="328" height="150" fill="#FBF6EC" stroke="#DCCBB0" stroke-width="0.8"/>
+<rect x="74" y="424" width="44" height="16" fill="#D9C7A6" stroke="#B9A98F" stroke-width="1.0"/>
+<text x="96" y="435" font-size="4.2" fill="#2F2A24" text-anchor="middle">线轴</text>
+<circle cx="96" cy="416" r="4.6" fill="#F8F3E6" stroke="#2F2A24" stroke-width="1.0"/>
+<line x1="96" y1="411" x2="62" y2="396" stroke="#6E6459" stroke-width="0.9" marker-end="url(#arr)"/>
+<line x1="96" y1="411" x2="130" y2="396" stroke="#6E6459" stroke-width="0.9" marker-end="url(#arr)"/>
+<text x="56" y="394" font-size="5.0" fill="#6E6459" text-anchor="end">收</text>
+<text x="136" y="394" font-size="5.0" fill="#6E6459">放</text>
+<text x="96" y="458" font-size="5.0" fill="#2F2A24" text-anchor="middle">有君：收放由手</text>
+<text x="96" y="472" font-size="3.9" fill="#8A7C69" text-anchor="middle">线放多长，手说了算</text>
+<circle cx="246" cy="416" r="4.6" fill="#F8F3E6" stroke="#A2503B" stroke-width="1.0"/>
+<line x1="246" y1="416" x2="260" y2="404" stroke="#A2503B" stroke-width="1.0"/>
+<line x1="260" y1="404" x2="276" y2="420" stroke="#A2503B" stroke-width="1.0"/>
+<line x1="276" y1="420" x2="292" y2="404" stroke="#A2503B" stroke-width="1.0"/>
+<line x1="292" y1="404" x2="308" y2="420" stroke="#A2503B" stroke-width="1.0"/>
+<line x1="308" y1="420" x2="320" y2="410" stroke="#A2503B" stroke-width="1.0"/>
+<text x="282" y="458" font-size="5.0" fill="#A2503B" text-anchor="middle">失君：手一松，线自己乱摆</text>
+<text x="282" y="472" font-size="3.9" fill="#8A7C69" text-anchor="middle">没人下令，筝就成了风的东西</text>
+<text x="190" y="492" font-size="4.0" fill="#6E6459" text-anchor="middle">静不是不动，静是动的发令处；躁不是动，是动失了主。</text>
+<text x="24" y="513" font-size="5.0" fill="#4A5C55">二、有君与失君：收放由手，还是线自己乱摆</text>
+<rect x="26" y="526" width="158" height="52" fill="#F6EFE0" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="105" y="546" font-size="5.0" fill="#4A5C55" text-anchor="middle">辎重：线轴随身</text>
+<text x="105" y="562" font-size="3.9" fill="#6E6459" text-anchor="middle">走到哪，轴都带着</text>
+<rect x="196" y="526" width="158" height="52" fill="#F6EFE0" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="275" y="546" font-size="4.8" fill="#A2503B" text-anchor="middle">荣观：筝飞得高，好看</text>
+<text x="275" y="562" font-size="3.9" fill="#6E6459" text-anchor="middle">燕处：脚不离地，手不撒开</text>
+<text x="24" y="602" font-size="4.9" fill="#2F2A24">「重为轻根」：重不是慢，是那副压住自己的分量；丢了它，快就成了漂。</text>
+<text x="24" y="618" font-size="4.9" fill="#2F2A24">「终日行不离辎重」：圣人带在身上的不是粮车，是那副不肯轻举的心。</text>
+<text x="24" y="636" font-size="4.9" fill="#4A5C55">「虽有荣观，燕处超然」：楼还在，人在场，心不被它带走。</text>
+<line x1="24" y1="654" x2="338" y2="654" stroke="#DCCBB0" stroke-width="0.6"/>
+<rect x="20" y="662" width="340" height="40" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="190" y="678" font-size="5.6" fill="#2F2A24" text-anchor="middle">线在手，筝才在空。</text>
+<text x="190" y="690" font-size="4.5" fill="#4A5C55" text-anchor="middle">手一松，筝就成了风的东西。</text>
+<line x1="20" y1="716" x2="360" y2="716" stroke="#E6D8C2" stroke-width="0.8"/>
+<text x="20" y="730" font-size="8.0" fill="#A89577" letter-spacing="1">本 章 金 句</text>
+<text x="20" y="746" font-size="8.4" fill="#2F2A24">不是被外面夺了权，是你自己先把位置让出去了。</text>
+<text x="20" y="762" font-size="8.4" fill="#2F2A24">轻车跑得快，正因为它不载重——快是有代价的，代价就是空。</text>
 </svg>
