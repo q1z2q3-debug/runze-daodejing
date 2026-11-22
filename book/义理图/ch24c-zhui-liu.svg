@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 380 718" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="不是长出来的，是多出来的" font-family="'Noto Serif CJK SC','Noto Serif SC','Songti SC',serif">
+<defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#6E6459"/></marker><marker id="arr2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#4A5C55"/></marker><marker id="arrL" viewBox="0 0 10 10" refX="1" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M10 0 L0 5 L10 10 z" fill="#4A5C55"/></marker><marker id="arrS" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#A2503B"/></marker></defs>
+<rect x="0" y="0" width="380" height="718" fill="#F8F3E6"/>
+<text x="20" y="26" font-size="11" fill="#A2503B" font-family="'Noto Sans CJK SC','Noto Sans SC',sans-serif" letter-spacing="3">第 二 十 四 章 · 赘 行</text>
+<text x="20" y="58" font-size="21" fill="#2F2A24">赘：树瘤</text>
+<text x="20" y="78" font-size="10.5" fill="#6E6459">赘行（一说通「形」）：不是长出来，是多出来。</text>
+<rect x="20" y="102" width="340" height="34" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="190" y="114" font-size="4.7" fill="#2F2A24" text-anchor="middle">余食指口腹，赘行指身体：一个已经吃过还端上来，一个不是长出来却挂在身上。</text>
+<text x="190" y="127" font-size="4.8" fill="#6E6459" text-anchor="middle">它靠你的养分活着，却不替你做事。</text>
+<rect x="26" y="152" width="328" height="176" fill="#FBF6EC" stroke="#DCCBB0" stroke-width="0.8"/>
+<path d="M176,166 L246,166 L244,306 L178,306 Z" fill="#E4D8BF" stroke="#2F2A24" stroke-width="1.1"/>
+<line x1="176" y1="166" x2="246" y2="166" stroke="#2F2A24" stroke-width="1.6"/>
+<line x1="178" y1="306" x2="244" y2="306" stroke="#2F2A24" stroke-width="1.6"/>
+<line x1="186" y1="196" x2="236" y2="196" stroke="#C9B79A" stroke-width="0.7"/>
+<line x1="182" y1="230" x2="228" y2="230" stroke="#C9B79A" stroke-width="0.7"/>
+<line x1="190" y1="286" x2="238" y2="286" stroke="#C9B79A" stroke-width="0.7"/>
+<path d="M176,216 C156,218 150,232 150,244 C150,256 156,270 176,272 Z" fill="#D3C4A4" stroke="#2F2A24" stroke-width="1.1"/>
+<path d="M176,226 C164,228 158,236 158,244" fill="none" stroke="#B5A583" stroke-width="0.7"/>
+<path d="M176,236 C168,238 164,242 164,244" fill="none" stroke="#B5A583" stroke-width="0.7"/>
+<line x1="182" y1="230" x2="168" y2="232" stroke="#A2503B" stroke-width="0.9" stroke-dasharray="4 2"/>
+<path d="M164,232 L169,229.6 L169,234.4 Z" fill="#A2503B"/>
+<line x1="182" y1="260" x2="170" y2="262" stroke="#A2503B" stroke-width="0.9" stroke-dasharray="4 2"/>
+<path d="M166,262 L171,259.6 L171,264.4 Z" fill="#A2503B"/>
+<text x="146" y="204" font-size="3.6" fill="#A2503B" text-anchor="middle">养分往这块里走</text>
+<line x1="154" y1="208" x2="160" y2="226" stroke="#DCCBB0" stroke-width="0.6"/>
+<text x="190" y="322" font-size="4.2" fill="#4A5C55" text-anchor="middle">这块瘤从树干里取养分，却不替树干长年轮。</text>
+<text x="24" y="341" font-size="5.0" fill="#A2503B">一、赘：挂在身上，取你的养分，不替你做事</text>
+<rect x="26" y="354" width="328" height="148" fill="#FBF6EC" stroke="#DCCBB0" stroke-width="0.8"/>
+<path d="M176,366 L246,366 L244,458 L178,458 Z" fill="#E4D8BF" stroke="#2F2A24" stroke-width="1.1"/>
+<line x1="176" y1="366" x2="246" y2="366" stroke="#2F2A24" stroke-width="1.6"/>
+<line x1="178" y1="458" x2="244" y2="458" stroke="#2F2A24" stroke-width="1.6"/>
+<line x1="186" y1="388" x2="236" y2="388" stroke="#C9B79A" stroke-width="0.7"/>
+<line x1="182" y1="412" x2="232" y2="412" stroke="#C9B79A" stroke-width="0.7"/>
+<line x1="190" y1="438" x2="238" y2="438" stroke="#C9B79A" stroke-width="0.7"/>
+<path d="M176,398 C160,400 154,408 154,418 C154,426 160,434 176,436" fill="none" stroke="#B5A583" stroke-width="0.9" stroke-dasharray="5 3"/>
+<text x="148" y="386" font-size="3.6" fill="#8A7C69" text-anchor="middle">这一块，本来没有</text>
+<line x1="156" y1="390" x2="162" y2="404" stroke="#DCCBB0" stroke-width="0.6"/>
+<text x="190" y="482" font-size="4.0" fill="#4A5C55" text-anchor="middle">不处：不是砍掉它，是让它一开始就不长在这儿。</text>
+<text x="24" y="515" font-size="5.0" fill="#4A5C55">二、不处：不是砍掉，是这里本来不长这一块</text>
+<text x="24" y="532" font-size="4.9" fill="#2F2A24">「其在道也」——他不说这不合礼，也不说这不合君子之德，他说「在道的眼里」。</text>
+<text x="24" y="548" font-size="4.9" fill="#4A5C55">礼问「你做得对不对」，道问「这一块本来该不该长」。</text>
+<text x="24" y="566" font-size="4.9" fill="#2F2A24">「物或恶之」的「或」是「有……的」，不是「或许」：不必人人厌恶，有一部分排斥，它就立不住。</text>
+<line x1="24" y1="584" x2="338" y2="584" stroke="#DCCBB0" stroke-width="0.6"/>
+<rect x="20" y="592" width="340" height="40" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="190" y="608" font-size="5.2" fill="#2F2A24" text-anchor="middle">礼问「你做得对不对」，道问「这一块本来该不该长」。</text>
+<text x="190" y="620" font-size="4.4" fill="#4A5C55" text-anchor="middle">不处不是割掉，是不长——不在那儿立，它就得不着你。</text>
+<line x1="20" y1="646" x2="360" y2="646" stroke="#E6D8C2" stroke-width="0.8"/>
+<text x="20" y="660" font-size="8.0" fill="#A89577" letter-spacing="1">本 章 金 句</text>
+<text x="20" y="676" font-size="8.4" fill="#2F2A24">礼问「你做得对不对」，道问「这一块本来该不该长」。</text>
+<text x="20" y="692" font-size="8.4" fill="#2F2A24">「物或恶之」的「或」是「有……的」，不是「或许」。</text>
+</svg>
