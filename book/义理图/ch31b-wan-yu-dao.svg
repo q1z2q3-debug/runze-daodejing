@@ -16,12 +16,13 @@
 <ellipse cx="192" cy="214" rx="58" ry="9" fill="#E9F0E6" stroke="#E6D8C2" stroke-width="0.4"/>
 <path d="M146,220 C152,260 234,260 240,220 Z" fill="none" stroke="#E6D8C2" stroke-width="0.5"/>
 <text x="192" y="234" font-size="4.6" fill="#4A5C55" text-anchor="middle">空</text>
-<circle cx="176" cy="254" r="3.2" fill="#D9C7A6" stroke="#2F2A24" stroke-width="0.6"/>
-<circle cx="192" cy="256" r="3.2" fill="#D9C7A6" stroke="#2F2A24" stroke-width="0.6"/>
-<circle cx="206" cy="252" r="3.2" fill="#D9C7A6" stroke="#2F2A24" stroke-width="0.6"/>
+<circle cx="176" cy="244" r="3.2" fill="#D9C7A6" stroke="#2F2A24" stroke-width="0.6"/>
+<circle cx="192" cy="248" r="3.2" fill="#D9C7A6" stroke="#2F2A24" stroke-width="0.6"/>
+<circle cx="206" cy="242" r="3.2" fill="#D9C7A6" stroke="#2F2A24" stroke-width="0.6"/>
+<line x1="296" y1="234" x2="250" y2="216" stroke="#DCCBB0" stroke-width="0.7"/>
 <text x="192" y="292" font-size="4.1" fill="#4A5C55" text-anchor="middle">秋毫不动其形，装什么都行</text>
-<text x="300" y="226" font-size="4.2" fill="#8A7C69">有之以为利</text>
-<text x="300" y="240" font-size="4.2" fill="#8A7C69">无之以为用</text>
+<text x="300" y="224" font-size="4.2" fill="#8A7C69">有之以为利</text>
+<text x="300" y="238" font-size="4.2" fill="#8A7C69">无之以为用</text>
 <text x="24" y="338" font-size="5.1" fill="#A2503B">二、刀：用它的锋，所以只能断</text>
 <rect x="26" y="350" width="328" height="152" fill="#FBF6EC" stroke="#DCCBB0" stroke-width="0.8"/>
 <line x1="44" y1="462" x2="332" y2="462" stroke="#DCCBB0" stroke-width="0.9"/>
@@ -41,8 +42,8 @@
 <text x="24" y="554" font-size="4.8" fill="#4A5C55">全书只有这一件器被判为「不祥」：别的器，老子只说人不会用。</text>
 <line x1="24" y1="572" x2="338" y2="572" stroke="#DCCBB0" stroke-width="0.6"/>
 <rect x="20" y="580" width="340" height="40" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
-<text x="190" y="596" font-size="5.2" fill="#2F2A24" text-anchor="middle">刀没有错，刀的用处有错——而刀的用处，就是刀的本相。</text>
-<text x="190" y="608" font-size="5.0" fill="#4A5C55" text-anchor="middle">用，是借它一次；处，是住在它里面。</text>
+<text x="190" y="596" font-size="5.6" fill="#2F2A24" text-anchor="middle">别的器用其虚以容，这一件用其锋以断。</text>
+<text x="190" y="608" font-size="5.0" fill="#4A5C55" text-anchor="middle">不是人不会用，是它本身不福。</text>
 <line x1="20" y1="634" x2="360" y2="634" stroke="#E6D8C2" stroke-width="0.8"/>
 <text x="20" y="648" font-size="8.0" fill="#A89577" letter-spacing="1">本 章 金 句</text>
 <text x="20" y="664" font-size="8.4" fill="#2F2A24">刀没有错，刀的用处有错——而刀的用处，就是刀的本相。</text>
