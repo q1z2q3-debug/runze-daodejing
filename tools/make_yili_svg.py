@@ -9797,6 +9797,7 @@ GOLD = {
     "ch28b": ["散是必然，老子的态度不是砸器回朴，是认下这个散，在散里用。",
               "制字带刀，割字带刀，而大制不割。"],
     "ch28c": ["溪是众水所归，谷是泉水所出；一个受，一个出。"],
+    "ch28d": ["婴儿撤的是染，无极撤的是界，朴撤的是刀。"],
     "ch29b": ["和是许多个音成一个调，合是一个音盖住全部。", "和是听得见的，合是摸得着的。"],
     "ch29c": ["去是拿走，不是添加。", "去的是过度的冲动，不是正常的需求。"],
     "ch30b": ["荒地先长刺，因为刺不需要人养。", "一个统一的样子，和一片长刺的地。"],
@@ -14135,6 +14136,7 @@ GOLD = {
     "ch28b": ["散是必然，老子的态度不是砸器回朴，是认下这个散，在散里用。",
               "制字带刀，割字带刀，而大制不割。"],
     "ch28c": ["溪是众水所归，谷是泉水所出；一个受，一个出。"],
+    "ch28d": ["婴儿撤的是染，无极撤的是界，朴撤的是刀。"],
     "ch29b": ["和是许多个音成一个调，合是一个音盖住全部。", "和是听得见的，合是摸得着的。"],
     "ch29c": ["去是拿走，不是添加。", "去的是过度的冲动，不是正常的需求。"],
     "ch30b": ["荒地先长刺，因为刺不需要人养。", "一个统一的样子，和一片长刺的地。"],
@@ -15429,6 +15431,82 @@ def ch28c_xi_yu_gu():
     ys = [float(v) for v in re.findall(r'y="([0-9.]+)"', out)]
     return out.replace("999", str(int(max(ys) + 26)))
 
+
+def ch28d_san_ci_fu_gui():
+    body, y = head(380, 999, "三次复归，是三次减法", "第 二 十 八 章 · 三 次 复 归", "婴儿·无极·朴",
+                   "由外而内三层：洗掉别人给的，卸掉自己设的，不做加工。", 999)
+    s = [body]
+
+    s.append(box(20, y + 2, 340, 34, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, y + 14, "三处落点不是三个境界的排名，是三样后天之物，一样一样撤掉。", 4.7, INK, "middle"))
+    s.append(txt(190, y + 27, "一处撤一样；撤完，剩下的是本来的那点东西。", 4.7, "#6E6459"))
+
+    s.append(txt(24, y + 52, "一、有它的时候／撤掉之后", 5.1, SEAL))
+    gy = y + 64
+    s.append(f'<rect x="26" y="{gy}" width="328" height="226" fill="#FBF6EC" stroke="{LINE}" stroke-width="0.8"/>')
+
+    rows = [("婴儿", "染", "别人给的：礼法、是非、荣辱的评价"),
+            ("无极", "界", "自己设的：一定要有一个「最」"),
+            ("朴", "刀", "人加的：雕、削、分、名")]
+    rh = 72
+    for i, (gui, what, note) in enumerate(rows):
+        yy = gy + 12 + i * rh
+        s.append(txt(38, yy + 6, f"复归{gui}", 4.4, SEAL))
+        s.append(txt(38, yy + 18, f"撤「{what}」", 4.2, "#8A7C69"))
+        # 左：有它
+        bx = 96
+        if i == 0:
+            # 一块布：带赭斑（染）
+            s.append(f'<rect x="{bx}" y="{yy}" width="52" height="38" fill="#FBF3E4" stroke="{INK}" stroke-width="0.9"/>')
+            s.append(f'<ellipse cx="{bx + 16}" cy="{yy + 13}" rx="11" ry="8" fill="#D8B79A" stroke="none" opacity="0.8"/>')
+            s.append(f'<ellipse cx="{bx + 34}" cy="{yy + 26}" rx="9" ry="6" fill="#D8B79A" stroke="none" opacity="0.6"/>')
+            s.append(txt(bx + 26, yy + 48, "染过的布", 3.8, "#8A7C69", "middle"))
+        elif i == 1:
+            # 屋顶：脊上立一根「栋」
+            s.append(f'<path d="M{bx},{yy + 34} L{bx + 26},{yy + 8} L{bx + 52},{yy + 34}" fill="none" stroke="{INK}" stroke-width="1.1"/>')
+            s.append(f'<line x1="{bx + 26}" y1="{yy + 8}" x2="{bx + 26}" y2="{yy - 6}" stroke="{INK}" stroke-width="1.6"/>')
+            s.append(txt(bx + 26, yy - 9, "栋", 3.8, SEAL, "middle"))
+            s.append(txt(bx + 26, yy + 48, "有顶点的屋", 3.8, "#8A7C69", "middle"))
+        else:
+            # 一段木：带刨痕
+            s.append(f'<rect x="{bx}" y="{yy + 12}" width="46" height="18" rx="8" fill="#D9C7A6" stroke="{INK}" stroke-width="0.9"/>')
+            s.append(f'<ellipse cx="{bx + 46}" cy="{yy + 21}" rx="5" ry="9" fill="#E4D3B2" stroke="{INK}" stroke-width="0.8"/>')
+            for k in range(3):
+                s.append(f'<line x1="{bx + 8 + k * 10}" y1="{yy + 15}" x2="{bx + 14 + k * 10}" y2="{yy + 25}" stroke="{SEAL}" stroke-width="0.8" opacity="0.7"/>')
+            s.append(txt(bx + 26, yy + 48, "挨过刀的木", 3.8, "#8A7C69", "middle"))
+        # 箭头：撤
+        s.append(arrow(bx + 62, yy + 18, bx + 96, yy + 18, color="#C9B79A", width=0.9, head="arr"))
+        s.append(txt(bx + 79, yy + 12, "撤", 3.9, SEAL, "middle"))
+        # 右：撤掉之后
+        rx = bx + 104
+        if i == 0:
+            s.append(f'<rect x="{rx}" y="{yy}" width="52" height="38" fill="#FBF3E4" stroke="{INK}" stroke-width="0.9"/>')
+            s.append(txt(rx + 26, yy + 48, "素布", 3.8, GREEN, "middle"))
+        elif i == 1:
+            s.append(f'<path d="M{rx},{yy + 34} L{rx + 26},{yy + 8} L{rx + 52},{yy + 34}" fill="none" stroke="{INK}" stroke-width="1.1"/>')
+            s.append(txt(rx + 26, yy + 48, "无顶点的屋", 3.8, GREEN, "middle"))
+        else:
+            s.append(f'<rect x="{rx}" y="{yy + 12}" width="46" height="18" rx="8" fill="#D9C7A6" stroke="{INK}" stroke-width="0.9"/>')
+            s.append(f'<ellipse cx="{rx + 46}" cy="{yy + 21}" rx="5" ry="9" fill="#E4D3B2" stroke="{INK}" stroke-width="0.8"/>')
+            s.append(txt(rx + 26, yy + 48, "整段素木", 3.8, GREEN, "middle"))
+
+    s.append(txt(190, gy + 216, "染在布上，界在脊上，刀在木上——三样都在外面，不在人身上", 4.1, "#8A7C69", "middle"))
+
+    a = gy + 248
+    s.append(txt(24, a, "染是别人给的：礼法、是非、荣辱的评价，一层一层刷上来。", 4.8, INK))
+    s.append(txt(24, a + 16, "界是自己设的：一定要有一个「最」，有一个「到头了」的地方。", 4.8, INK))
+    s.append(txt(24, a + 34, "刀是人加的：雕、削、分、名——把一整块分成一件件。", 4.8, GREEN))
+
+    c = a + 52
+    s.append(f'<line x1="24" y1="{c}" x2="338" y2="{c}" stroke="{LINE}" stroke-width="0.6"/>')
+    s.append(box(20, c + 8, 340, 40, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, c + 24, "先洗掉别人给的，再卸掉自己设的，最后连加工也不做。", 6.0, INK, "middle"))
+    s.append(txt(190, c + 36, "由外而内，是三样东西，不是三个境界。", 5.0, GREEN, "middle"))
+    s.append(gold(c + 62, "ch28d"))
+    s.append('</svg>')
+    out = "\n".join(s)
+    ys = [float(v) for v in re.findall(r'y="([0-9.]+)"', out)]
+    return out.replace("999", str(int(max(ys) + 26)))
 
 # ============ 第二十九章 · 天下神器 ============
 def ch29_tian_xia_shen_qi():
@@ -22900,6 +22978,7 @@ FIGS = {
     "ch27c-fen-jian-ji": ("第二十七章", "一架分拣机", ch27c_fen_jian_ji),
     "ch28b-dao-luo": ("第二十八章", "一段原木", ch28b_dao_luo),
     "ch28c-xi-yu-gu": ("第二十八章", "溪与谷", ch28c_xi_yu_gu),
+    "ch28d-san-ci-fu-gui": ("第二十八章", "婴儿·无极·朴", ch28d_san_ci_fu_gui),
     "ch29b-yi-guo-geng": ("第二十九章", "一锅羹", ch29b_yi_guo_geng),
     "ch29c-yi-zhi-wan": ("第二十九章", "一只碗", ch29c_yi_zhi_wan),
     "ch30b-huang-tian": ("第三十章", "一片荒田", ch30b_huang_tian),

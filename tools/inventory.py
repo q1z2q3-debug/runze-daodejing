@@ -67,7 +67,7 @@ def build():
     L.append("# 义理图总目\n")
     L.append("> 本文件由 `tools/inventory.py` 自动生成，勿手改。改图请改 `tools/make_yili_svg.py` 后重跑本器。\n")
     L.append(f"> 生成于 {datetime.date.today()}　　版本 {ver}　　HEAD `{head[:7]}`\n")
-    L.append("\n图分三类，不可混：**正册**（一章三图，计入 243）／**参照稿**（学习与待入册，不计入）／**存疑旧稿**（被否，留档不销毁）。\n")
+    L.append("\n图分三类，不可混：**正册**（一章三图，另设补图）／**参照稿**（学习与待入册，不计入）／**存疑旧稿**（被否，留档不销毁）。\n")
 
     # 甲 正册
     # 主图/补图按「每章前三幅」定，不按字母：既有章从 b 起编（如第四十一章 b/c/d），
@@ -93,7 +93,7 @@ def build():
     rows.sort(key=lambda r: (r[0], r[1]))
     for _, k, ch, title, first in rows:
         L.append(f"| {ch} | `{k}.svg` | {title} | {first} |")
-    L.append(f"\n合计 **{len(figs)}** 幅：八十一章各三幅主图（{main_n}），第一章另有补图 {extra_n} 幅（d／e）。\n")
+    L.append(f"\n合计 **{len(figs)}** 幅：八十一章各三幅主图（{main_n}），另有补图 {extra_n} 幅（第一章 d／e、第二十八章 d）。\n")
 
     # 乙 参照稿 / 备选（分两组列，不混）
     refdir = os.path.join(REPO, "book", "义理图", "_refs")
@@ -122,7 +122,7 @@ def build():
 
     # 丁 统计
     L.append("\n## 丁 统计与规矩\n")
-    L.append(f"- 正册 {len(figs)} 幅（svg＋png 各一份，含第一章补图 {extra_n}）；参照稿 {n_ref} 组；备选 {n_alt} 组；旧稿 {n_old} 幅。")
+    L.append(f"- 正册 {len(figs)} 幅（svg＋png 各一份，含补图 {extra_n}（第一章 d／e、第二十八章 d））；参照稿 {n_ref} 组；备选 {n_alt} 组；旧稿 {n_old} 幅。")
     L.append("- 命名：正册 `chNNx-短题.svg`（NN 章号两位，x 为 a/b/c 序号，短题为汉语拼音连写）；参照稿 `_refs/<来源>/<名>.svg`；旧稿原键不动，便于追溯被谁取代。")
     L.append("- 只认 `tools/make_yili_svg.py` 的 FIG 键为「正册」；`_refs/` 与 `old/` 一律不计入 243。")
     L.append("- 出图：`python3 tools/make_yili_svg.py <完整键名>`；参照稿：`python3 tools/refs/refs_*.py`。")
