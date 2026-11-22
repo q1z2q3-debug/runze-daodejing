@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 380 706" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="其事好还：力发出去，绕一圈回来" font-family="'Noto Serif CJK SC','Noto Serif SC','Songti SC',serif">
+<defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#6E6459"/></marker><marker id="arr2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#4A5C55"/></marker><marker id="arrL" viewBox="0 0 10 10" refX="1" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M10 0 L0 5 L10 10 z" fill="#4A5C55"/></marker><marker id="arrS" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#A2503B"/></marker></defs>
+<rect x="0" y="0" width="380" height="706" fill="#F8F3E6"/>
+<text x="20" y="26" font-size="11" fill="#A2503B" font-family="'Noto Sans CJK SC','Noto Sans SC',sans-serif" letter-spacing="3">第 三 十 章 · 一 只 回 力 镖</text>
+<text x="20" y="58" font-size="21" fill="#2F2A24">一只回力镖</text>
+<text x="20" y="78" font-size="10.5" fill="#6E6459">其事好还。</text>
+<rect x="20" y="102" width="340" height="34" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="190" y="114" font-size="4.5" fill="#2F2A24" text-anchor="middle">「还」，《说文》「复也」；「好还」的「好」读去声，犹「易」——最容易转回来。</text>
+<text x="190" y="127" font-size="4.7" fill="#6E6459">不是鬼神在罚你，是势的力学：你压得越紧，回来的越直。</text>
+<text x="24" y="152" font-size="5.1" fill="#4A5C55">一、掷出去：使足了劲</text>
+<rect x="26" y="164" width="328" height="152" fill="#FBF6EC" stroke="#DCCBB0" stroke-width="0.8"/>
+<line x1="40" y1="290" x2="336" y2="290" stroke="#DCCBB0" stroke-width="0.9"/>
+<circle cx="74" cy="226" r="6" fill="none" stroke="#2F2A24" stroke-width="1.0"/>
+<line x1="74" y1="232" x2="74" y2="270" stroke="#2F2A24" stroke-width="1.2"/>
+<line x1="74" y1="240" x2="90" y2="230" stroke="#2F2A24" stroke-width="1.0"/>
+<line x1="74" y1="270" x2="66" y2="288" stroke="#2F2A24" stroke-width="1.0"/>
+<line x1="74" y1="270" x2="82" y2="288" stroke="#2F2A24" stroke-width="1.0"/>
+<path d="M270,210 l18,16 l-18,16" fill="none" stroke="#2F2A24" stroke-width="4.4" stroke-linecap="round"/>
+<path d="M270,210 l18,16 l-18,16" fill="none" stroke="#F8F3E6" stroke-width="1.6" stroke-linecap="round" opacity="0.5"/>
+<path d="M96,216 Q190,168 262,220" fill="none" stroke="#E6D8C2" stroke-width="0.8" stroke-dasharray="5 3"/>
+<line x1="180" y1="186" x2="214" y2="194" stroke="#C9B79A" stroke-width="0.7" marker-end="url(#arrS)"/>
+<text x="190" y="304" font-size="4.1" fill="#4A5C55" text-anchor="middle">掷出去的时候，只想着「让它飞得更远」</text>
+<text x="24" y="338" font-size="5.1" fill="#A2503B">二、绕回来：还是那只镖，方向变了</text>
+<rect x="26" y="350" width="328" height="152" fill="#FBF6EC" stroke="#DCCBB0" stroke-width="0.8"/>
+<line x1="40" y1="476" x2="336" y2="476" stroke="#DCCBB0" stroke-width="0.9"/>
+<circle cx="74" cy="412" r="6" fill="none" stroke="#2F2A24" stroke-width="1.0"/>
+<line x1="74" y1="418" x2="74" y2="456" stroke="#2F2A24" stroke-width="1.2"/>
+<line x1="74" y1="426" x2="60" y2="438" stroke="#2F2A24" stroke-width="1.0"/>
+<line x1="74" y1="456" x2="66" y2="476" stroke="#2F2A24" stroke-width="1.0"/>
+<line x1="74" y1="456" x2="82" y2="476" stroke="#2F2A24" stroke-width="1.0"/>
+<path d="M300,390 Q190,348 108,424" fill="none" stroke="#A2503B" stroke-width="0.9" stroke-dasharray="5 3"/>
+<path d="M98,428 l-14,12 l14,10" fill="none" stroke="#2F2A24" stroke-width="3.6" stroke-linecap="round"/>
+<line x1="150" y1="390" x2="116" y2="416" stroke="#A2503B" stroke-width="0.7" marker-end="url(#arrS)"/>
+<text x="226" y="446" font-size="4.0" fill="#A2503B" text-anchor="middle">原样回来</text>
+<text x="190" y="490" font-size="4.1" fill="#A2503B" text-anchor="middle">推出去的那股劲儿，绕一圈，回到掷的人身上</text>
+<text x="24" y="520" font-size="4.6" fill="#2F2A24">「其事好还」不是报应，是势的力学：你向外压出去的力，一定有一个回来的方向。</text>
+<text x="24" y="536" font-size="4.7" fill="#2F2A24">老子不靠鬼神说这句话，他靠观察：用力的人，最后都被自己的力反着推。</text>
+<text x="24" y="554" font-size="4.7" fill="#4A5C55">弓可以拉，不能久张；唯一的许可证是「不得已」，不是「我很强」。</text>
+<line x1="24" y1="572" x2="338" y2="572" stroke="#DCCBB0" stroke-width="0.6"/>
+<rect x="20" y="580" width="340" height="40" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="190" y="596" font-size="5.4" fill="#2F2A24" text-anchor="middle">不是天在罚你，是你推出去的那股劲儿回来了。</text>
+<text x="190" y="608" font-size="5.0" fill="#4A5C55" text-anchor="middle">压得越紧，回来的越直。</text>
+<line x1="20" y1="634" x2="360" y2="634" stroke="#E6D8C2" stroke-width="0.8"/>
+<text x="20" y="648" font-size="8.0" fill="#A89577" letter-spacing="1">本 章 金 句</text>
+<text x="20" y="664" font-size="8.4" fill="#2F2A24">不是天在罚你，是你推出去的那股劲儿回来了。</text>
+<text x="20" y="680" font-size="8.4" fill="#2F2A24">压得越紧，回来的越直。</text>
+</svg>

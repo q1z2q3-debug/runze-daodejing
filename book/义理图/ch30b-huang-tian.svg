@@ -1,103 +1,190 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg viewBox="0 0 380 706" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="师之所处，荆棘生焉；大军之后，必有凶年" font-family="'Noto Serif CJK SC','Noto Serif SC','Songti SC',serif">
+<svg viewBox="0 0 380 714" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="人一撤手，地就回到野的样子" font-family="'Noto Serif CJK SC','Noto Serif SC','Songti SC',serif">
 <defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#6E6459"/></marker><marker id="arr2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#4A5C55"/></marker><marker id="arrL" viewBox="0 0 10 10" refX="1" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M10 0 L0 5 L10 10 z" fill="#4A5C55"/></marker><marker id="arrS" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#A2503B"/></marker></defs>
-<rect x="0" y="0" width="380" height="706" fill="#F8F3E6"/>
+<rect x="0" y="0" width="380" height="714" fill="#F8F3E6"/>
 <text x="20" y="26" font-size="11" fill="#A2503B" font-family="'Noto Sans CJK SC','Noto Sans SC',sans-serif" letter-spacing="3">第 三 十 章 · 一 片 荒 田</text>
 <text x="20" y="58" font-size="21" fill="#2F2A24">一片荒田</text>
-<text x="20" y="78" font-size="10.5" fill="#6E6459">兵是「合」的极端形态：它不让对方想通，它让对方不能不想通。</text>
+<text x="20" y="78" font-size="10.5" fill="#6E6459">师之所处，荆棘生焉；大军之后，必有凶年。</text>
 <rect x="20" y="102" width="340" height="34" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
-<text x="190" y="114" font-size="4.7" fill="#2F2A24" text-anchor="middle">「荆」是牡荆，「棘」是丛生小枣——两个字都带刺。</text>
-<text x="190" y="127" font-size="4.7" fill="#6E6459">这一句写的不是战场，是战后：人一撤手，地就回到野的样子。</text>
-<text x="24" y="152" font-size="5.1" fill="#4A5C55">一、师未至：田畴齐整，禾苗有穗</text>
-<rect x="26" y="164" width="328" height="152" fill="#FBF6EC" stroke="#DCCBB0" stroke-width="0.8"/>
-<line x1="40" y1="282" x2="336" y2="282" stroke="#2F2A24" stroke-width="1.0"/>
-<line x1="40" y1="250" x2="336" y2="250" stroke="#E6D8C2" stroke-width="0.7"/>
-<line x1="110" y1="250" x2="110" y2="282" stroke="#E6D8C2" stroke-width="0.6"/>
-<line x1="190" y1="250" x2="190" y2="282" stroke="#E6D8C2" stroke-width="0.6"/>
-<line x1="270" y1="250" x2="270" y2="282" stroke="#E6D8C2" stroke-width="0.6"/>
-<line x1="56" y1="250" x2="56" y2="232" stroke="#2F2A24" stroke-width="0.9"/>
-<path d="M56,240 l-6,-6 M56,236 l6,-6" fill="none" stroke="#4A5C55" stroke-width="0.6"/>
-<ellipse cx="56" cy="229" rx="1.9" ry="3.4" fill="#4A5C55" opacity="0.75"/>
-<line x1="87" y1="250" x2="87" y2="232" stroke="#2F2A24" stroke-width="0.9"/>
-<path d="M87,240 l-6,-6 M87,236 l6,-6" fill="none" stroke="#4A5C55" stroke-width="0.6"/>
-<ellipse cx="87" cy="229" rx="1.9" ry="3.4" fill="#4A5C55" opacity="0.75"/>
-<line x1="118" y1="250" x2="118" y2="232" stroke="#2F2A24" stroke-width="0.9"/>
-<path d="M118,240 l-6,-6 M118,236 l6,-6" fill="none" stroke="#4A5C55" stroke-width="0.6"/>
-<ellipse cx="118" cy="229" rx="1.9" ry="3.4" fill="#4A5C55" opacity="0.75"/>
-<line x1="149" y1="250" x2="149" y2="232" stroke="#2F2A24" stroke-width="0.9"/>
-<path d="M149,240 l-6,-6 M149,236 l6,-6" fill="none" stroke="#4A5C55" stroke-width="0.6"/>
-<ellipse cx="149" cy="229" rx="1.9" ry="3.4" fill="#4A5C55" opacity="0.75"/>
-<line x1="180" y1="250" x2="180" y2="232" stroke="#2F2A24" stroke-width="0.9"/>
-<path d="M180,240 l-6,-6 M180,236 l6,-6" fill="none" stroke="#4A5C55" stroke-width="0.6"/>
-<ellipse cx="180" cy="229" rx="1.9" ry="3.4" fill="#4A5C55" opacity="0.75"/>
-<line x1="211" y1="250" x2="211" y2="232" stroke="#2F2A24" stroke-width="0.9"/>
-<path d="M211,240 l-6,-6 M211,236 l6,-6" fill="none" stroke="#4A5C55" stroke-width="0.6"/>
-<ellipse cx="211" cy="229" rx="1.9" ry="3.4" fill="#4A5C55" opacity="0.75"/>
-<line x1="242" y1="250" x2="242" y2="232" stroke="#2F2A24" stroke-width="0.9"/>
-<path d="M242,240 l-6,-6 M242,236 l6,-6" fill="none" stroke="#4A5C55" stroke-width="0.6"/>
-<ellipse cx="242" cy="229" rx="1.9" ry="3.4" fill="#4A5C55" opacity="0.75"/>
-<line x1="273" y1="250" x2="273" y2="232" stroke="#2F2A24" stroke-width="0.9"/>
-<path d="M273,240 l-6,-6 M273,236 l6,-6" fill="none" stroke="#4A5C55" stroke-width="0.6"/>
-<ellipse cx="273" cy="229" rx="1.9" ry="3.4" fill="#4A5C55" opacity="0.75"/>
-<line x1="304" y1="250" x2="304" y2="232" stroke="#2F2A24" stroke-width="0.9"/>
-<path d="M304,240 l-6,-6 M304,236 l6,-6" fill="none" stroke="#4A5C55" stroke-width="0.6"/>
-<ellipse cx="304" cy="229" rx="1.9" ry="3.4" fill="#4A5C55" opacity="0.75"/>
-<line x1="72" y1="278" x2="72" y2="258" stroke="#2F2A24" stroke-width="1.0"/>
-<path d="M72,267 l-7,-7 M72,263 l7,-7" fill="none" stroke="#4A5C55" stroke-width="0.7"/>
-<ellipse cx="72" cy="254" rx="2.1" ry="3.8" fill="#4A5C55" opacity="0.8"/>
-<line x1="104" y1="278" x2="104" y2="258" stroke="#2F2A24" stroke-width="1.0"/>
-<path d="M104,267 l-7,-7 M104,263 l7,-7" fill="none" stroke="#4A5C55" stroke-width="0.7"/>
-<ellipse cx="104" cy="254" rx="2.1" ry="3.8" fill="#4A5C55" opacity="0.8"/>
-<line x1="136" y1="278" x2="136" y2="258" stroke="#2F2A24" stroke-width="1.0"/>
-<path d="M136,267 l-7,-7 M136,263 l7,-7" fill="none" stroke="#4A5C55" stroke-width="0.7"/>
-<ellipse cx="136" cy="254" rx="2.1" ry="3.8" fill="#4A5C55" opacity="0.8"/>
-<line x1="168" y1="278" x2="168" y2="258" stroke="#2F2A24" stroke-width="1.0"/>
-<path d="M168,267 l-7,-7 M168,263 l7,-7" fill="none" stroke="#4A5C55" stroke-width="0.7"/>
-<ellipse cx="168" cy="254" rx="2.1" ry="3.8" fill="#4A5C55" opacity="0.8"/>
-<line x1="200" y1="278" x2="200" y2="258" stroke="#2F2A24" stroke-width="1.0"/>
-<path d="M200,267 l-7,-7 M200,263 l7,-7" fill="none" stroke="#4A5C55" stroke-width="0.7"/>
-<ellipse cx="200" cy="254" rx="2.1" ry="3.8" fill="#4A5C55" opacity="0.8"/>
-<line x1="232" y1="278" x2="232" y2="258" stroke="#2F2A24" stroke-width="1.0"/>
-<path d="M232,267 l-7,-7 M232,263 l7,-7" fill="none" stroke="#4A5C55" stroke-width="0.7"/>
-<ellipse cx="232" cy="254" rx="2.1" ry="3.8" fill="#4A5C55" opacity="0.8"/>
-<line x1="264" y1="278" x2="264" y2="258" stroke="#2F2A24" stroke-width="1.0"/>
-<path d="M264,267 l-7,-7 M264,263 l7,-7" fill="none" stroke="#4A5C55" stroke-width="0.7"/>
-<ellipse cx="264" cy="254" rx="2.1" ry="3.8" fill="#4A5C55" opacity="0.8"/>
-<line x1="296" y1="278" x2="296" y2="258" stroke="#2F2A24" stroke-width="1.0"/>
-<path d="M296,267 l-7,-7 M296,263 l7,-7" fill="none" stroke="#4A5C55" stroke-width="0.7"/>
-<ellipse cx="296" cy="254" rx="2.1" ry="3.8" fill="#4A5C55" opacity="0.8"/>
-<text x="190" y="302" font-size="4.1" fill="#4A5C55" text-anchor="middle">田埂、水渠、禾苗：一季的生生节奏</text>
-<text x="24" y="338" font-size="5.1" fill="#A2503B">二、师过后：田埂还在，长的是带刺的</text>
-<rect x="26" y="350" width="328" height="152" fill="#FBF6EC" stroke="#DCCBB0" stroke-width="0.8"/>
-<line x1="40" y1="468" x2="336" y2="468" stroke="#2F2A24" stroke-width="1.0"/>
-<line x1="40" y1="436" x2="336" y2="436" stroke="#E6D8C2" stroke-width="0.7"/>
-<line x1="110" y1="436" x2="110" y2="468" stroke="#E6D8C2" stroke-width="0.6"/>
-<line x1="190" y1="436" x2="190" y2="468" stroke="#E6D8C2" stroke-width="0.6"/>
-<line x1="270" y1="436" x2="270" y2="468" stroke="#E6D8C2" stroke-width="0.6"/>
-<path d="M58,464 l6,-16 l-4,-12 M64,464 l12,-10 l6,-8 M60,464 l-8,-14 l-2,-10" fill="none" stroke="#2F2A24" stroke-width="1.0"/>
-<path d="M62,454 l-7,-3 M60,446 l-6,-2 M68,450 l7,-4 M74,444 l6,-1 M53,456 l-6,2" fill="none" stroke="#2F2A24" stroke-width="0.7"/>
-<path d="M112,464 l6,-16 l-4,-12 M118,464 l12,-10 l6,-8 M114,464 l-8,-14 l-2,-10" fill="none" stroke="#2F2A24" stroke-width="1.0"/>
-<path d="M116,454 l-7,-3 M114,446 l-6,-2 M122,450 l7,-4 M128,444 l6,-1 M107,456 l-6,2" fill="none" stroke="#2F2A24" stroke-width="0.7"/>
-<path d="M166,464 l6,-16 l-4,-12 M172,464 l12,-10 l6,-8 M168,464 l-8,-14 l-2,-10" fill="none" stroke="#2F2A24" stroke-width="1.0"/>
-<path d="M170,454 l-7,-3 M168,446 l-6,-2 M176,450 l7,-4 M182,444 l6,-1 M161,456 l-6,2" fill="none" stroke="#2F2A24" stroke-width="0.7"/>
-<path d="M228,464 l6,-16 l-4,-12 M234,464 l12,-10 l6,-8 M230,464 l-8,-14 l-2,-10" fill="none" stroke="#2F2A24" stroke-width="1.0"/>
-<path d="M232,454 l-7,-3 M230,446 l-6,-2 M238,450 l7,-4 M244,444 l6,-1 M223,456 l-6,2" fill="none" stroke="#2F2A24" stroke-width="0.7"/>
-<line x1="210" y1="460" x2="210" y2="414" stroke="#8A7C69" stroke-width="1.6"/>
-<path d="M210,432 l-14,-12 M210,424 l13,-14" fill="none" stroke="#8A7C69" stroke-width="1.0"/>
-<path d="M210,414 l-7,-10 M210,414 l8,-10" fill="none" stroke="#8A7C69" stroke-width="0.9"/>
-<path d="M288,448 q4,16 14,16 q10,0 14,-16 Z" fill="none" stroke="#A2503B" stroke-width="0.9"/>
-<ellipse cx="302" cy="448" rx="14" ry="3" fill="none" stroke="#A2503B" stroke-width="0.7"/>
-<text x="302" y="480" font-size="4.0" fill="#A2503B" text-anchor="middle">凶年：一只空碗</text>
-<text x="140" y="488" font-size="4.1" fill="#A2503B" text-anchor="middle">刺不需要人养，庄稼要</text>
-<text x="24" y="520" font-size="4.7" fill="#2F2A24">「师」是军队，「荆」「棘」皆带刺：军队驻扎过的地方，农时断了，田荒了。</text>
-<text x="24" y="536" font-size="4.7" fill="#2F2A24">「必」这个字很硬：一场大战误一季农时，误一季就是一年。</text>
-<text x="24" y="554" font-size="4.5" fill="#4A5C55">这就是「合」的账单：你要一个统一的样子，代价是这一整片地的生生节奏被掐断。</text>
-<line x1="24" y1="572" x2="338" y2="572" stroke="#DCCBB0" stroke-width="0.6"/>
-<rect x="20" y="580" width="340" height="40" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
-<text x="190" y="596" font-size="5.8" fill="#2F2A24" text-anchor="middle">荒地先长刺，因为刺不需要人养。</text>
-<text x="190" y="608" font-size="5.0" fill="#4A5C55" text-anchor="middle">一个统一的样子，和一片长刺的地。</text>
-<line x1="20" y1="634" x2="360" y2="634" stroke="#E6D8C2" stroke-width="0.8"/>
-<text x="20" y="648" font-size="8.0" fill="#A89577" letter-spacing="1">本 章 金 句</text>
-<text x="20" y="664" font-size="8.4" fill="#2F2A24">荒地先长刺，因为刺不需要人养。</text>
-<text x="20" y="680" font-size="8.4" fill="#2F2A24">一个统一的样子，和一片长刺的地。</text>
+<text x="190" y="114" font-size="4.5" fill="#2F2A24" text-anchor="middle">「荆」是牡荆，「棘」是丛生小枣——两个字都带刺；「师」，周制二千五百人为师。</text>
+<text x="190" y="127" font-size="4.6" fill="#6E6459">这一句写的不是战场，是战后：人一撤手，地就回到野的样子。</text>
+<text x="24" y="152" font-size="5.1" fill="#4A5C55">一、师未至：田埂纵横，禾苗带穗</text>
+<rect x="26" y="164" width="328" height="150" fill="#FBF6EC" stroke="#DCCBB0" stroke-width="0.8"/>
+<line x1="40" y1="296" x2="336" y2="296" stroke="#DCCBB0" stroke-width="1.0"/>
+<line x1="140" y1="182" x2="140" y2="296" stroke="#E6D8C2" stroke-width="0.9"/>
+<line x1="236" y1="182" x2="236" y2="296" stroke="#E6D8C2" stroke-width="0.9"/>
+<line x1="40" y1="238" x2="336" y2="238" stroke="#E6D8C2" stroke-width="0.9"/>
+<line x1="56" y1="272" x2="56" y2="250" stroke="#2F2A24" stroke-width="0.9"/>
+<path d="M56,262 q-8,-4 -11,-11" fill="none" stroke="#2F2A24" stroke-width="0.8"/>
+<path d="M56,260 q8,-4 11,-11" fill="none" stroke="#2F2A24" stroke-width="0.8"/>
+<line x1="56" y1="250" x2="56" y2="242" stroke="#2F2A24" stroke-width="0.8"/>
+<circle cx="53" cy="240" r="1.5" fill="#B49260" stroke="none"/>
+<circle cx="56" cy="240" r="1.5" fill="#B49260" stroke="none"/>
+<circle cx="59" cy="240" r="1.5" fill="#B49260" stroke="none"/>
+<line x1="94" y1="272" x2="94" y2="250" stroke="#2F2A24" stroke-width="0.9"/>
+<path d="M94,262 q-8,-4 -11,-11" fill="none" stroke="#2F2A24" stroke-width="0.8"/>
+<path d="M94,260 q8,-4 11,-11" fill="none" stroke="#2F2A24" stroke-width="0.8"/>
+<line x1="94" y1="250" x2="94" y2="242" stroke="#2F2A24" stroke-width="0.8"/>
+<circle cx="91" cy="240" r="1.5" fill="#B49260" stroke="none"/>
+<circle cx="94" cy="240" r="1.5" fill="#B49260" stroke="none"/>
+<circle cx="97" cy="240" r="1.5" fill="#B49260" stroke="none"/>
+<line x1="132" y1="272" x2="132" y2="250" stroke="#2F2A24" stroke-width="0.9"/>
+<path d="M132,262 q-8,-4 -11,-11" fill="none" stroke="#2F2A24" stroke-width="0.8"/>
+<path d="M132,260 q8,-4 11,-11" fill="none" stroke="#2F2A24" stroke-width="0.8"/>
+<line x1="132" y1="250" x2="132" y2="242" stroke="#2F2A24" stroke-width="0.8"/>
+<circle cx="129" cy="240" r="1.5" fill="#B49260" stroke="none"/>
+<circle cx="132" cy="240" r="1.5" fill="#B49260" stroke="none"/>
+<circle cx="135" cy="240" r="1.5" fill="#B49260" stroke="none"/>
+<line x1="170" y1="272" x2="170" y2="250" stroke="#2F2A24" stroke-width="0.9"/>
+<path d="M170,262 q-8,-4 -11,-11" fill="none" stroke="#2F2A24" stroke-width="0.8"/>
+<path d="M170,260 q8,-4 11,-11" fill="none" stroke="#2F2A24" stroke-width="0.8"/>
+<line x1="170" y1="250" x2="170" y2="242" stroke="#2F2A24" stroke-width="0.8"/>
+<circle cx="167" cy="240" r="1.5" fill="#B49260" stroke="none"/>
+<circle cx="170" cy="240" r="1.5" fill="#B49260" stroke="none"/>
+<circle cx="173" cy="240" r="1.5" fill="#B49260" stroke="none"/>
+<line x1="208" y1="272" x2="208" y2="250" stroke="#2F2A24" stroke-width="0.9"/>
+<path d="M208,262 q-8,-4 -11,-11" fill="none" stroke="#2F2A24" stroke-width="0.8"/>
+<path d="M208,260 q8,-4 11,-11" fill="none" stroke="#2F2A24" stroke-width="0.8"/>
+<line x1="208" y1="250" x2="208" y2="242" stroke="#2F2A24" stroke-width="0.8"/>
+<circle cx="205" cy="240" r="1.5" fill="#B49260" stroke="none"/>
+<circle cx="208" cy="240" r="1.5" fill="#B49260" stroke="none"/>
+<circle cx="211" cy="240" r="1.5" fill="#B49260" stroke="none"/>
+<line x1="246" y1="272" x2="246" y2="250" stroke="#2F2A24" stroke-width="0.9"/>
+<path d="M246,262 q-8,-4 -11,-11" fill="none" stroke="#2F2A24" stroke-width="0.8"/>
+<path d="M246,260 q8,-4 11,-11" fill="none" stroke="#2F2A24" stroke-width="0.8"/>
+<line x1="246" y1="250" x2="246" y2="242" stroke="#2F2A24" stroke-width="0.8"/>
+<circle cx="243" cy="240" r="1.5" fill="#B49260" stroke="none"/>
+<circle cx="246" cy="240" r="1.5" fill="#B49260" stroke="none"/>
+<circle cx="249" cy="240" r="1.5" fill="#B49260" stroke="none"/>
+<line x1="284" y1="272" x2="284" y2="250" stroke="#2F2A24" stroke-width="0.9"/>
+<path d="M284,262 q-8,-4 -11,-11" fill="none" stroke="#2F2A24" stroke-width="0.8"/>
+<path d="M284,260 q8,-4 11,-11" fill="none" stroke="#2F2A24" stroke-width="0.8"/>
+<line x1="284" y1="250" x2="284" y2="242" stroke="#2F2A24" stroke-width="0.8"/>
+<circle cx="281" cy="240" r="1.5" fill="#B49260" stroke="none"/>
+<circle cx="284" cy="240" r="1.5" fill="#B49260" stroke="none"/>
+<circle cx="287" cy="240" r="1.5" fill="#B49260" stroke="none"/>
+<line x1="322" y1="272" x2="322" y2="250" stroke="#2F2A24" stroke-width="0.9"/>
+<path d="M322,262 q-8,-4 -11,-11" fill="none" stroke="#2F2A24" stroke-width="0.8"/>
+<path d="M322,260 q8,-4 11,-11" fill="none" stroke="#2F2A24" stroke-width="0.8"/>
+<line x1="322" y1="250" x2="322" y2="242" stroke="#2F2A24" stroke-width="0.8"/>
+<circle cx="319" cy="240" r="1.5" fill="#B49260" stroke="none"/>
+<circle cx="322" cy="240" r="1.5" fill="#B49260" stroke="none"/>
+<circle cx="325" cy="240" r="1.5" fill="#B49260" stroke="none"/>
+<line x1="56" y1="208" x2="56" y2="186" stroke="#2F2A24" stroke-width="0.9"/>
+<path d="M56,198 q-8,-4 -11,-11" fill="none" stroke="#2F2A24" stroke-width="0.8"/>
+<path d="M56,196 q8,-4 11,-11" fill="none" stroke="#2F2A24" stroke-width="0.8"/>
+<line x1="56" y1="186" x2="56" y2="178" stroke="#2F2A24" stroke-width="0.8"/>
+<circle cx="53" cy="176" r="1.5" fill="#B49260" stroke="none"/>
+<circle cx="56" cy="176" r="1.5" fill="#B49260" stroke="none"/>
+<circle cx="59" cy="176" r="1.5" fill="#B49260" stroke="none"/>
+<line x1="94" y1="208" x2="94" y2="186" stroke="#2F2A24" stroke-width="0.9"/>
+<path d="M94,198 q-8,-4 -11,-11" fill="none" stroke="#2F2A24" stroke-width="0.8"/>
+<path d="M94,196 q8,-4 11,-11" fill="none" stroke="#2F2A24" stroke-width="0.8"/>
+<line x1="94" y1="186" x2="94" y2="178" stroke="#2F2A24" stroke-width="0.8"/>
+<circle cx="91" cy="176" r="1.5" fill="#B49260" stroke="none"/>
+<circle cx="94" cy="176" r="1.5" fill="#B49260" stroke="none"/>
+<circle cx="97" cy="176" r="1.5" fill="#B49260" stroke="none"/>
+<line x1="132" y1="208" x2="132" y2="186" stroke="#2F2A24" stroke-width="0.9"/>
+<path d="M132,198 q-8,-4 -11,-11" fill="none" stroke="#2F2A24" stroke-width="0.8"/>
+<path d="M132,196 q8,-4 11,-11" fill="none" stroke="#2F2A24" stroke-width="0.8"/>
+<line x1="132" y1="186" x2="132" y2="178" stroke="#2F2A24" stroke-width="0.8"/>
+<circle cx="129" cy="176" r="1.5" fill="#B49260" stroke="none"/>
+<circle cx="132" cy="176" r="1.5" fill="#B49260" stroke="none"/>
+<circle cx="135" cy="176" r="1.5" fill="#B49260" stroke="none"/>
+<line x1="170" y1="208" x2="170" y2="186" stroke="#2F2A24" stroke-width="0.9"/>
+<path d="M170,198 q-8,-4 -11,-11" fill="none" stroke="#2F2A24" stroke-width="0.8"/>
+<path d="M170,196 q8,-4 11,-11" fill="none" stroke="#2F2A24" stroke-width="0.8"/>
+<line x1="170" y1="186" x2="170" y2="178" stroke="#2F2A24" stroke-width="0.8"/>
+<circle cx="167" cy="176" r="1.5" fill="#B49260" stroke="none"/>
+<circle cx="170" cy="176" r="1.5" fill="#B49260" stroke="none"/>
+<circle cx="173" cy="176" r="1.5" fill="#B49260" stroke="none"/>
+<line x1="208" y1="208" x2="208" y2="186" stroke="#2F2A24" stroke-width="0.9"/>
+<path d="M208,198 q-8,-4 -11,-11" fill="none" stroke="#2F2A24" stroke-width="0.8"/>
+<path d="M208,196 q8,-4 11,-11" fill="none" stroke="#2F2A24" stroke-width="0.8"/>
+<line x1="208" y1="186" x2="208" y2="178" stroke="#2F2A24" stroke-width="0.8"/>
+<circle cx="205" cy="176" r="1.5" fill="#B49260" stroke="none"/>
+<circle cx="208" cy="176" r="1.5" fill="#B49260" stroke="none"/>
+<circle cx="211" cy="176" r="1.5" fill="#B49260" stroke="none"/>
+<line x1="246" y1="208" x2="246" y2="186" stroke="#2F2A24" stroke-width="0.9"/>
+<path d="M246,198 q-8,-4 -11,-11" fill="none" stroke="#2F2A24" stroke-width="0.8"/>
+<path d="M246,196 q8,-4 11,-11" fill="none" stroke="#2F2A24" stroke-width="0.8"/>
+<line x1="246" y1="186" x2="246" y2="178" stroke="#2F2A24" stroke-width="0.8"/>
+<circle cx="243" cy="176" r="1.5" fill="#B49260" stroke="none"/>
+<circle cx="246" cy="176" r="1.5" fill="#B49260" stroke="none"/>
+<circle cx="249" cy="176" r="1.5" fill="#B49260" stroke="none"/>
+<line x1="284" y1="208" x2="284" y2="186" stroke="#2F2A24" stroke-width="0.9"/>
+<path d="M284,198 q-8,-4 -11,-11" fill="none" stroke="#2F2A24" stroke-width="0.8"/>
+<path d="M284,196 q8,-4 11,-11" fill="none" stroke="#2F2A24" stroke-width="0.8"/>
+<line x1="284" y1="186" x2="284" y2="178" stroke="#2F2A24" stroke-width="0.8"/>
+<circle cx="281" cy="176" r="1.5" fill="#B49260" stroke="none"/>
+<circle cx="284" cy="176" r="1.5" fill="#B49260" stroke="none"/>
+<circle cx="287" cy="176" r="1.5" fill="#B49260" stroke="none"/>
+<line x1="322" y1="208" x2="322" y2="186" stroke="#2F2A24" stroke-width="0.9"/>
+<path d="M322,198 q-8,-4 -11,-11" fill="none" stroke="#2F2A24" stroke-width="0.8"/>
+<path d="M322,196 q8,-4 11,-11" fill="none" stroke="#2F2A24" stroke-width="0.8"/>
+<line x1="322" y1="186" x2="322" y2="178" stroke="#2F2A24" stroke-width="0.8"/>
+<circle cx="319" cy="176" r="1.5" fill="#B49260" stroke="none"/>
+<circle cx="322" cy="176" r="1.5" fill="#B49260" stroke="none"/>
+<circle cx="325" cy="176" r="1.5" fill="#B49260" stroke="none"/>
+<text x="190" y="304" font-size="4.1" fill="#8A7C69" text-anchor="middle">田埂、水渠、禾苗：一季的生生节奏</text>
+<text x="24" y="338" font-size="5.1" fill="#A2503B">二、师过之后：田埂还在，长出来的是带刺的</text>
+<rect x="26" y="350" width="328" height="158" fill="#FBF6EC" stroke="#DCCBB0" stroke-width="0.8"/>
+<line x1="40" y1="490" x2="336" y2="490" stroke="#DCCBB0" stroke-width="1.0"/>
+<line x1="140" y1="368" x2="140" y2="490" stroke="#E6D8C2" stroke-width="0.9"/>
+<line x1="236" y1="368" x2="236" y2="490" stroke="#E6D8C2" stroke-width="0.9"/>
+<line x1="40" y1="424" x2="336" y2="424" stroke="#E6D8C2" stroke-width="0.9"/>
+<path d="M58,468 L51,448" stroke="#2F2A24" stroke-width="0.9"/>
+<path d="M58,468 L58,442" stroke="#2F2A24" stroke-width="0.9"/>
+<path d="M58,468 L65,450" stroke="#2F2A24" stroke-width="0.9"/>
+<polygon points="54.7,456 50.7,455.5 53.5,453" fill="#A2503B" stroke="none" opacity="0.75"/>
+<polygon points="54.7,448 50.7,447.5 53.5,445" fill="#A2503B" stroke="none" opacity="0.75"/>
+<polygon points="58.0,460 62.0,459.5 59.2,457" fill="#A2503B" stroke="none" opacity="0.75"/>
+<polygon points="58.0,450 62.0,449.5 59.2,447" fill="#A2503B" stroke="none" opacity="0.75"/>
+<polygon points="61.3,458 65.3,457.5 62.5,455" fill="#A2503B" stroke="none" opacity="0.75"/>
+<polygon points="61.3,448 65.3,447.5 62.5,445" fill="#A2503B" stroke="none" opacity="0.75"/>
+<path d="M104,468 L97,440" stroke="#2F2A24" stroke-width="0.9"/>
+<path d="M104,468 L104,434" stroke="#2F2A24" stroke-width="0.9"/>
+<path d="M104,468 L111,442" stroke="#2F2A24" stroke-width="0.9"/>
+<polygon points="100.7,456 96.7,455.5 99.5,453" fill="#A2503B" stroke="none" opacity="0.75"/>
+<polygon points="100.7,448 96.7,447.5 99.5,445" fill="#A2503B" stroke="none" opacity="0.75"/>
+<polygon points="104.0,460 108.0,459.5 105.2,457" fill="#A2503B" stroke="none" opacity="0.75"/>
+<polygon points="104.0,450 108.0,449.5 105.2,447" fill="#A2503B" stroke="none" opacity="0.75"/>
+<polygon points="107.3,458 111.3,457.5 108.5,455" fill="#A2503B" stroke="none" opacity="0.75"/>
+<polygon points="107.3,448 111.3,447.5 108.5,445" fill="#A2503B" stroke="none" opacity="0.75"/>
+<path d="M148,468 L141,448" stroke="#2F2A24" stroke-width="0.9"/>
+<path d="M148,468 L148,442" stroke="#2F2A24" stroke-width="0.9"/>
+<path d="M148,468 L155,450" stroke="#2F2A24" stroke-width="0.9"/>
+<polygon points="144.7,456 140.7,455.5 143.5,453" fill="#A2503B" stroke="none" opacity="0.75"/>
+<polygon points="144.7,448 140.7,447.5 143.5,445" fill="#A2503B" stroke="none" opacity="0.75"/>
+<polygon points="148.0,460 152.0,459.5 149.2,457" fill="#A2503B" stroke="none" opacity="0.75"/>
+<polygon points="148.0,450 152.0,449.5 149.2,447" fill="#A2503B" stroke="none" opacity="0.75"/>
+<polygon points="151.3,458 155.3,457.5 152.5,455" fill="#A2503B" stroke="none" opacity="0.75"/>
+<polygon points="151.3,448 155.3,447.5 152.5,445" fill="#A2503B" stroke="none" opacity="0.75"/>
+<path d="M232,468 L225,440" stroke="#2F2A24" stroke-width="0.9"/>
+<path d="M232,468 L232,434" stroke="#2F2A24" stroke-width="0.9"/>
+<path d="M232,468 L239,442" stroke="#2F2A24" stroke-width="0.9"/>
+<polygon points="228.7,456 224.7,455.5 227.5,453" fill="#A2503B" stroke="none" opacity="0.75"/>
+<polygon points="228.7,448 224.7,447.5 227.5,445" fill="#A2503B" stroke="none" opacity="0.75"/>
+<polygon points="232.0,460 236.0,459.5 233.2,457" fill="#A2503B" stroke="none" opacity="0.75"/>
+<polygon points="232.0,450 236.0,449.5 233.2,447" fill="#A2503B" stroke="none" opacity="0.75"/>
+<polygon points="235.3,458 239.3,457.5 236.5,455" fill="#A2503B" stroke="none" opacity="0.75"/>
+<polygon points="235.3,448 239.3,447.5 236.5,445" fill="#A2503B" stroke="none" opacity="0.75"/>
+<line x1="196" y1="468" x2="196" y2="410" stroke="#2F2A24" stroke-width="1.3"/>
+<path d="M196,434 l-14,-14 M196,442 l14,-12 M196,420 l-9,-12 M196,416 l10,-12" stroke="#2F2A24" stroke-width="0.9" fill="none"/>
+<path d="M296,446 L300,462 Q312,468 324,462 L328,446" fill="none" stroke="#A2503B" stroke-width="1.0"/>
+<path d="M296,446 Q312,441 328,446" fill="none" stroke="#A2503B" stroke-width="0.9"/>
+<text x="196" y="404" font-size="3.7" fill="#8A7C69" text-anchor="middle">枯树</text>
+<text x="312" y="498" font-size="3.9" fill="#A2503B" text-anchor="middle">凶年：一只空碗</text>
+<text x="120" y="498" font-size="3.9" fill="#8A7C69" text-anchor="middle">刺不需要人养，庄稼需要</text>
+<text x="24" y="528" font-size="4.8" fill="#2F2A24">「必」这个字很硬：一场大战误一季农时，误一季就是一年，一年还不够缓几年。</text>
+<text x="24" y="544" font-size="4.8" fill="#2F2A24">上一句写地（荆棘），这一句写人（凶年）——「和」被打碎之后的两个维度。</text>
+<text x="24" y="562" font-size="4.8" fill="#4A5C55">这就是「合」的账单：你要一个统一的样子，代价是这一整片地的生生节奏被掐断。</text>
+<line x1="24" y1="580" x2="338" y2="580" stroke="#DCCBB0" stroke-width="0.6"/>
+<rect x="20" y="588" width="340" height="40" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="190" y="604" font-size="6.0" fill="#2F2A24" text-anchor="middle">地不认人的功，只认人的手。</text>
+<text x="190" y="616" font-size="5.0" fill="#4A5C55" text-anchor="middle">手一撤，它回野；这不是修辞，是农事的实情。</text>
+<line x1="20" y1="642" x2="360" y2="642" stroke="#E6D8C2" stroke-width="0.8"/>
+<text x="20" y="656" font-size="8.0" fill="#A89577" letter-spacing="1">本 章 金 句</text>
+<text x="20" y="672" font-size="8.4" fill="#2F2A24">荒地先长刺，因为刺不需要人养。</text>
+<text x="20" y="688" font-size="8.4" fill="#2F2A24">一个统一的样子，和一片长刺的地。</text>
 </svg>
