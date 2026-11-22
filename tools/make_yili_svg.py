@@ -9798,8 +9798,10 @@ GOLD = {
               "制字带刀，割字带刀，而大制不割。"],
     "ch28c": ["溪是众水所归，谷是泉水所出；一个受，一个出。"],
     "ch28d": ["婴儿撤的是染，无极撤的是界，朴撤的是刀。"],
-    "ch29b": ["和是许多个音成一个调，合是一个音盖住全部。", "和是听得见的，合是摸得着的。"],
-    "ch29c": ["去是拿走，不是添加。", "去的是过度的冲动，不是正常的需求。"],
+    "ch29b": ["和是各不相同的声，在同一个调里共存；合是两个不同的形，扣成一个整体，边就没了。",
+              "一锅羹，水火盐梅各不同，才有味；若只拿水去兑水，谁吃得下？"],
+    "ch29c": ["不是「他没办法才这么做」，是「他这么做，最后一定没办法」。",
+              "三去不是三件工艺，是一个「我要」的三个浓度。"],
     "ch30b": ["荒地先长刺，因为刺不需要人养。", "一个统一的样子，和一片长刺的地。"],
     "ch30c": ["不是天在罚你，是你推出去的那股劲儿回来了。", "压得越紧，回来的越直。"],
     "ch31b": ["刀没有错，刀的用处有错——而刀的用处，就是刀的本相。", "用，是借它一次；处，是住在它里面。"],
@@ -14137,8 +14139,10 @@ GOLD = {
               "制字带刀，割字带刀，而大制不割。"],
     "ch28c": ["溪是众水所归，谷是泉水所出；一个受，一个出。"],
     "ch28d": ["婴儿撤的是染，无极撤的是界，朴撤的是刀。"],
-    "ch29b": ["和是许多个音成一个调，合是一个音盖住全部。", "和是听得见的，合是摸得着的。"],
-    "ch29c": ["去是拿走，不是添加。", "去的是过度的冲动，不是正常的需求。"],
+    "ch29b": ["和是各不相同的声，在同一个调里共存；合是两个不同的形，扣成一个整体，边就没了。",
+              "一锅羹，水火盐梅各不同，才有味；若只拿水去兑水，谁吃得下？"],
+    "ch29c": ["不是「他没办法才这么做」，是「他这么做，最后一定没办法」。",
+              "三去不是三件工艺，是一个「我要」的三个浓度。"],
     "ch30b": ["荒地先长刺，因为刺不需要人养。", "一个统一的样子，和一片长刺的地。"],
     "ch30c": ["不是天在罚你，是你推出去的那股劲儿回来了。", "压得越紧，回来的越直。"],
     "ch31b": ["刀没有错，刀的用处有错——而刀的用处，就是刀的本相。", "用，是借它一次；处，是住在它里面。"],
@@ -15510,149 +15514,183 @@ def ch28d_san_ci_fu_gui():
 
 # ============ 第二十九章 · 天下神器 ============
 def ch29_tian_xia_shen_qi():
-    W, H = 380, 636
-    body, y = head(W, H, "天下是编管，不是一根棍", "第 二 十 九 章 · 神 器", "天下神器",
-                   "长短本就不齐，能调成调，不能削成一根。", H)
+    body, y = head(380, 999, "长短本就不齐，能调成调，不能削成一根",
+                   "第 二 十 九 章 · 神 器", "天下神器",
+                   "万物本来就不齐，本来就不用管。", 999)
     s = [body]
-    # ---- 一器：编管 ----
-    base = y + 126
-    s.append(txt(20, y + 4, "一器：编管，长短本就不齐", 8.6, GREEN))
-    pipes = [(48, 58), (84, 84), (120, 46), (156, 74), (192, 92), (228, 52)]
-    for px, ph in pipes:
-        s.append(f'<rect x="{px}" y="{base-ph}" width="15" height="{ph}" fill="#E9DFCC" stroke="{LINE}" stroke-width="0.9"/>')
-        s.append(f'<circle cx="{px+7.5}" cy="{base-11}" r="2.2" fill="{PAPER}" stroke="{INK}" stroke-width="0.7"/>')
-    s.append(box(42, base - 44, 204, 5, fill="#DCCBB0", stroke="#C9B79A", width=0.7))
-    s.append(box(42, base - 18, 204, 5, fill="#DCCBB0", stroke="#C9B79A", width=0.7))
-    for i, t in enumerate(["或行或随", "或歔或吹", "或强或羸", "或载或隳"]):
-        s.append(txt(258, y + 40 + i * 15, t, 8.0, "#6E6459"))
-    s.append(txt(258, y + 106, "八样都是料性，不是毛病", 7.4, SEAL))
-    # ---- 两病：削平 / 攥住 ----
-    y1 = base + 22
-    s.append(txt(20, y1, "两病：一为、一执", 8.6, SEAL))
-    # 为：削成一样齐
-    b2 = y1 + 92
-    for i in range(5):
-        s.append(f'<rect x="{28+i*20}" y="{b2-56}" width="15" height="56" fill="#E9DFCC" stroke="{LINE}" stroke-width="0.9"/>')
-        s.append(f'<circle cx="{35+i*20}" cy="{b2-10}" r="2.2" fill="{PAPER}" stroke="{INK}" stroke-width="0.7"/>')
-    s.append(f'<line x1="22" y1="{b2-62}" x2="132" y2="{b2-62}" stroke="{SEAL}" stroke-width="0.9" stroke-dasharray="4 2"/>')
-    s.append(txt(78, b2 + 14, "为：削成一样齐", 8.2, SEAL, "middle"))
-    s.append(txt(78, b2 + 27, "音就没了——调不成调", 7.4, "#8A7C69", "middle"))
-    # 执：攥住
-    s.append(f'<ellipse cx="286" cy="{b2-30}" rx="30" ry="20" fill="#E9DFCC" stroke="{SEAL}" stroke-width="1"/>')
-    for i in range(3):
-        s.append(f'<path d="M266,{b2-40+i*7} q10,-5 20,0" fill="none" stroke="{SEAL}" stroke-width="0.7"/>')
-    for i in range(3):
-        s.append(f'<line x1="{272+i*12}" y1="{b2-52}" x2="{274+i*12}" y2="{b2-8}" stroke="{LINE}" stroke-width="0.8"/>')
-    s.append(txt(286, b2 + 14, "执：攥住不放", 8.2, SEAL, "middle"))
-    s.append(txt(286, b2 + 27, "管子捏死，吹不响", 7.4, "#8A7C69", "middle"))
-    # ---- 和 / 合 ----
-    y2 = y1 + 122
-    s.append(box(20, y2, 162, 56, fill="#F6EFE0", stroke="#C9B79A"))
-    for i, ph in enumerate([26, 34, 20, 30]):
-        s.append(f'<rect x="{34+i*13}" y="{y2+44-ph}" width="10" height="{ph}" fill="#E9DFCC" stroke="{LINE}" stroke-width="0.8"/>')
-    s.append(txt(108, y2 + 18, "和", 10.4, GREEN, spacing="1"))
-    s.append(txt(108, y2 + 34, "长短不一，同调共存", 7.6, "#6E6459"))
-    s.append(txt(108, y2 + 47, "听得见的", 7.4, "#8A7C69"))
-    s.append(box(198, y2, 162, 56, fill="#F6EFE0", stroke="#C9B79A"))
-    s.append(f'<rect x="242" y="{y2+26}" width="34" height="20" fill="#E9DFCC" stroke="{LINE}" stroke-width="0.8"/>')
-    s.append(f'<polygon points="236,{y2+26} 282,{y2+26} 274,{y2+14} 244,{y2+14}" fill="#DCCBB0" stroke="{LINE}" stroke-width="0.8"/>')
-    s.append(txt(286, y2 + 20, "合", 10.4, SEAL))
-    s.append(txt(279, y2 + 40, "盖扣上，边没了", 7.6, "#6E6459", "middle"))
-    s.append(txt(279, y2 + 52, "摸得着的", 7.4, "#8A7C69", "middle"))
-    # ---- 三去 ----
-    y3 = y2 + 72
-    s.append(txt(20, y3, "三去：全是减法，不添一件", 8.6, SEAL))
-    tags = [("甚", "过度", "孔开太多"), ("奢", "无度", "管加太长"), ("泰", "骄纵越分", "气吹太猛")]
-    for i, (name, mid, sub) in enumerate(tags):
-        x = 20 + i * 116
-        s.append(box(x, y3 + 10, 106, 46, fill="#F6EFE0", stroke="#C9B79A"))
-        s.append(txt(x + 12, y3 + 28, "去" + name, 9.4, SEAL))
-        s.append(txt(x + 12, y3 + 40, mid + "：" + sub, 7.2, "#6E6459"))
-    # ---- 收 ----
-    yc = y3 + 68
-    s.append(box(20, yc, 340, 44, fill="#F2EADA", stroke="#C9B79A"))
-    s.append(txt(190, yc + 19, "天下神器，不可为也，不可执也。", 9.6, INK, "middle", spacing="0.6"))
-    s.append(txt(190, yc + 34, "为者败之，执者失之——不是你不够强，是它本来不是给你捏的。", 8.0, "#6E6459", "middle"))
-    s.append(gold(yc + 52, "ch29"))
-    s.append('</svg>')
-    return "\n".join(s)
 
+    s.append(box(20, y + 2, 340, 34, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, y + 14, "「和」，《说文》「相应也」，古字「龢」从龠——龠就是编管；「合」，《说文》「亼口也」，盖与器相扣。", 4.5, INK, "middle"))
+    s.append(txt(190, y + 27, "「神器」：神是不测、不由人主，器是一体之全；不是后世「符玺」之义。", 4.6, "#6E6459"))
+
+    def tubes(x0, ybase, hs, w=13, gap=8, bands=(), holes=True):
+        g = []
+        for i, h in enumerate(hs):
+            x = x0 + i * (w + gap)
+            g.append(f'<rect x="{x}" y="{ybase - h}" width="{w}" height="{h}" fill="#E4D3B2" stroke="{INK}" stroke-width="0.9"/>')
+            if holes:
+                g.append(f'<circle cx="{x + w / 2}" cy="{ybase - 11}" r="1.7" fill="none" stroke="{INK}" stroke-width="0.6"/>')
+        for by in bands:
+            g.append(f'<line x1="{x0 - 5}" y1="{by}" x2="{x0 + len(hs) * (w + gap) - gap + 5}" y2="{by}" stroke="{INK}" stroke-width="0.9"/>')
+        return g
+
+    # 一、编管
+    s.append(txt(24, y + 52, "一、编管：六管长短不齐，凑在一起才成调", 5.1, GREEN))
+    gy = y + 64
+    s.append(f'<rect x="26" y="{gy}" width="328" height="150" fill="#FBF6EC" stroke="{LINE}" stroke-width="0.8"/>')
+    s.append(f'<line x1="46" y1="{gy + 128}" x2="192" y2="{gy + 128}" stroke="{LINE2}" stroke-width="0.8"/>')
+    s.extend(tubes(56, gy + 126, [62, 88, 44, 102, 70, 52], bands=(gy + 64, gy + 100)))
+    for i, line in enumerate(["或行或随", "或歔或吹", "或强或羸", "或载或隳"]):
+        s.append(txt(204, gy + 52 + i * 13, line, 4.3, INK))
+    s.append(txt(204, gy + 112, "四组八样，各是各的形状", 3.9, "#8A7C69"))
+    s.append(txt(204, gy + 124, "不是毛病，是料性", 3.9, "#8A7C69"))
+
+    # 二、两病
+    s.append(txt(24, gy + 174, "二、两病：一「为」，一「执」", 5.1, SEAL))
+    gy2 = gy + 186
+    s.append(f'<rect x="26" y="{gy2}" width="328" height="150" fill="#FBF6EC" stroke="{LINE}" stroke-width="0.8"/>')
+    s.append(f'<line x1="190" y1="{gy2 + 10}" x2="190" y2="{gy2 + 140}" stroke="{LINE2}" stroke-width="0.6"/>')
+    # 为：削平
+    s.append(f'<line x1="46" y1="{gy2 + 118}" x2="150" y2="{gy2 + 118}" stroke="{LINE2}" stroke-width="0.8"/>')
+    s.extend(tubes(58, gy2 + 118, [56, 56, 56, 56], w=13, gap=9, holes=True))
+    s.append(f'<line x1="46" y1="{gy2 + 56}" x2="152" y2="{gy2 + 56}" stroke="{SEAL}" stroke-width="0.8" stroke-dasharray="4 3"/>')
+    s.append(txt(99, gy2 + 48, "削到这一齐", 3.9, SEAL, "middle"))
+    s.append(txt(99, gy2 + 136, "为：削成一样齐", 4.4, SEAL, "middle"))
+    s.append(txt(99, gy2 + 147, "音就没了——调不成调", 3.9, "#8A7C69", "middle"))
+    # 执：攥住
+    s.append(f'<line x1="212" y1="{gy2 + 118}" x2="316" y2="{gy2 + 118}" stroke="{LINE2}" stroke-width="0.8"/>')
+    s.extend(tubes(224, gy2 + 118, [52, 64, 48, 58], w=12, gap=4, holes=False))
+    s.append(f'<ellipse cx="252" cy="{gy2 + 88}" rx="46" ry="22" fill="none" stroke="{SEAL}" stroke-width="1.3"/>')
+    s.append(txt(252, gy2 + 44, "攥成一束", 3.9, SEAL, "middle"))
+    s.append(txt(252, gy2 + 136, "执：攥住不放", 4.4, SEAL, "middle"))
+    s.append(txt(252, gy2 + 147, "管子捏死，吹不响", 3.9, "#8A7C69", "middle"))
+
+    # 三、和与合
+    s.append(txt(24, gy2 + 174, "三、和与合：一个听得见，一个摸得着", 5.1, GREEN))
+    gy3 = gy2 + 186
+    s.append(f'<rect x="26" y="{gy3}" width="328" height="88" fill="#FBF6EC" stroke="{LINE}" stroke-width="0.8"/>')
+    s.append(f'<line x1="192" y1="{gy3 + 8}" x2="192" y2="{gy3 + 80}" stroke="{LINE2}" stroke-width="0.6"/>')
+    # 和
+    s.append(f'<line x1="46" y1="{gy3 + 48}" x2="132" y2="{gy3 + 48}" stroke="{LINE2}" stroke-width="0.8"/>')
+    s.extend(tubes(56, gy3 + 46, [26, 38, 18, 30], w=10, gap=6, bands=(gy3 + 34,), holes=False))
+    s.append(txt(152, gy3 + 30, "和", 5.4, GREEN))
+    s.append(txt(152, gy3 + 44, "长短不一，", 4.2, INK))
+    s.append(txt(152, gy3 + 56, "同调共存", 4.2, INK))
+    s.append(txt(152, gy3 + 70, "听得见的", 3.9, "#8A7C69"))
+    # 合
+    s.append(f'<rect x="230" y="{gy3 + 24}" width="56" height="24" fill="#EFE6D4" stroke="{INK}" stroke-width="1.0"/>')
+    s.append(f'<polygon points="230,{gy3 + 24} 286,{gy3 + 24} 272,{gy3 + 10} 244,{gy3 + 10}" fill="#E4D3B2" stroke="{INK}" stroke-width="1.0"/>')
+    s.append(txt(306, gy3 + 30, "合", 5.4, SEAL, "middle"))
+    s.append(txt(306, gy3 + 44, "盖扣上，", 4.2, INK, "middle"))
+    s.append(txt(306, gy3 + 56, "边就没了", 4.2, INK, "middle"))
+    s.append(txt(306, gy3 + 70, "摸得着的", 3.9, "#8A7C69", "middle"))
+
+    # 四、三去
+    s.append(txt(24, gy3 + 106, "四、三去：全是减法，不添一件", 5.1, SEAL))
+    gy4 = gy3 + 118
+    for i, (a, b) in enumerate([("去甚", "过度"), ("去奢", "无度"), ("去泰", "骄纵越分")]):
+        x = 26 + i * 112
+        s.append(box(x, gy4, 104, 30, fill="#F6EFE0", stroke="#C9B79A"))
+        s.append(txt(x + 12, gy4 + 19, a, 4.4, INK))
+        s.append(txt(x + 46, gy4 + 19, b, 3.7, "#8A7C69"))
+    s.append(txt(24, gy4 + 46, "三个字是同一件事的三个浓度：过分、没有节制、凌驾一切。", 4.1, GREEN))
+
+    a = gy4 + 68
+    s.append(txt(24, a, "「取天下而为之」：取，本义是捕获；为，是把它改成我要的样子。", 4.8, INK))
+    s.append(txt(24, a + 16, "「不可为」「不可执」：一个向外动，一个向内攥——两样都基于同一句：它是我的。", 4.8, INK))
+    s.append(txt(24, a + 34, "去甚、去奢、去泰：功夫不在外头，不在改造天下，在清理自己。", 4.8, GREEN))
+
+    c = a + 52
+    s.append(f'<line x1="24" y1="{c}" x2="338" y2="{c}" stroke="{LINE}" stroke-width="0.6"/>')
+    s.append(box(20, c + 8, 340, 40, fill="#F2EADA", stroke="#C9B79A"))
+    s.append(txt(190, c + 24, "天下是神器，不是你的工具。", 6.0, INK, "middle"))
+    s.append(txt(190, c + 36, "为者败之，执者失之——不是不够强，是它本来不是给你捏的。", 5.0, GREEN, "middle"))
+    s.append(gold(c + 62, "ch29"))
+    s.append('</svg>')
+    out = "\n".join(s)
+    ys = [float(v) for v in re.findall(r'y="([0-9.]+)"', out)]
+    return out.replace("999", str(int(max(ys) + 26)))
 
 
 def ch29b_yi_guo_geng():
-    body, y = head(380, 999, "和是听得见的，合是摸得着的",
+    body, y = head(380, 999, "一锅羹各样都在，一味兑一味就没人吃",
                    "第 二 十 九 章 · 一 锅 羹", "一锅羹",
                    "和实生物，同则不继。", 999)
     s = [body]
 
     s.append(box(20, y + 2, 340, 34, fill="#F2EADA", stroke="#C9B79A"))
-    s.append(txt(190, y + 14, "「和」从龠，龠是编管的排箫——和的本相是声音相应；「合」是盖与器相扣，边就没了。", 4.5, INK, "middle"))
-    s.append(txt(190, y + 27, "晏婴说和如羹：水、火、醯、醢、盐、梅，以烹鱼肉，各不同才有味。", 4.5, "#6E6459"))
+    s.append(txt(190, y + 14, "史伯：「和实生物，同则不继」；晏婴：「和如羹焉，水、火、醯、醢、盐、梅，以烹鱼肉」。", 4.5, INK, "middle"))
+    s.append(txt(190, y + 27, "「若以水济水，谁能食之？」——和是各样相济，同是一样加一样。", 4.6, "#6E6459"))
 
-    # 一、一锅羹果
-    s.append(txt(24, y + 52, "一、一锅羹：水火盐梅各不同，才有味", 5.1, GREEN))
+    def ding(cx, top, fill_items=None, water=False):
+        g = []
+        g.append(f'<ellipse cx="{cx}" cy="{top}" rx="54" ry="8" fill="#F3EAD8" stroke="{INK}" stroke-width="1.0"/>')
+        g.append(f'<path d="M{cx - 54},{top} L{cx - 40},{top + 42} Q{cx},{top + 54} {cx + 40},{top + 42} L{cx + 54},{top} Z" fill="#EFE6D4" stroke="{INK}" stroke-width="1.0"/>')
+        # 两耳
+        g.append(f'<rect x="{cx - 62}" y="{top - 12}" width="9" height="14" fill="#E4D3B2" stroke="{INK}" stroke-width="0.8"/>')
+        g.append(f'<rect x="{cx + 53}" y="{top - 12}" width="9" height="14" fill="#E4D3B2" stroke="{INK}" stroke-width="0.8"/>')
+        # 三足
+        for dx in (-30, 30):
+            g.append(f'<line x1="{cx + dx}" y1="{top + 46}" x2="{cx + dx}" y2="{top + 74}" stroke="{INK}" stroke-width="1.1"/>')
+        g.append(f'<line x1="{cx}" y1="{top + 52}" x2="{cx}" y2="{top + 74}" stroke="{INK}" stroke-width="1.1"/>')
+        if water:
+            g.append(f'<line x1="{cx - 44}" y1="{top + 16}" x2="{cx + 44}" y2="{top + 16}" stroke="#6E8A6E" stroke-width="0.8"/>')
+            g.append(f'<path d="M{cx - 34},{top + 26} q12,-4 24,0 q12,4 24,0" fill="none" stroke="#6E8A6E" stroke-width="0.7"/>')
+            g.append(f'<path d="M{cx - 30},{top + 36} q12,-4 24,0 q12,4 24,0" fill="none" stroke="#6E8A6E" stroke-width="0.6"/>')
+        return g
+
+    # 一、各样都在
+    s.append(txt(24, y + 52, "一、各样都在：水火醯醢盐梅，一样不少", 5.1, GREEN))
     gy = y + 64
     s.append(f'<rect x="26" y="{gy}" width="328" height="152" fill="#FBF6EC" stroke="{LINE}" stroke-width="0.8"/>')
-    s.append(f'<line x1="40" y1="{gy + 118}" x2="336" y2="{gy + 118}" stroke="{LINE}" stroke-width="0.9"/>')
-    # 鼎
-    s.append(f'<path d="M138,{gy + 56} L146,{gy + 94} L234,{gy + 94} L242,{gy + 56} Z" fill="#EFE6D4" stroke="{INK}" stroke-width="1.1"/>')
-    s.append(f'<ellipse cx="190" cy="{gy + 56}" rx="52" ry="9" fill="#F6EFE0" stroke="{INK}" stroke-width="1.0"/>')
-    s.append(f'<rect x="132" y="{gy + 42}" width="7" height="14" fill="#EFE6D4" stroke="{INK}" stroke-width="0.8"/>')
-    s.append(f'<rect x="241" y="{gy + 42}" width="7" height="14" fill="#EFE6D4" stroke="{INK}" stroke-width="0.8"/>')
-    s.append(f'<line x1="160" y1="{gy + 94}" x2="160" y2="{gy + 118}" stroke="{INK}" stroke-width="1.0"/>')
-    s.append(f'<line x1="190" y1="{gy + 94}" x2="190" y2="{gy + 118}" stroke="{INK}" stroke-width="1.0"/>')
-    s.append(f'<line x1="220" y1="{gy + 94}" x2="220" y2="{gy + 118}" stroke="{INK}" stroke-width="1.0"/>')
-    # 汤与各样料
-    s.append(f'<path d="M146,{gy + 62} L150,{gy + 86} L230,{gy + 86} L234,{gy + 62} Z" fill="#E9F0E6" stroke="{LINE2}" stroke-width="0.5"/>')
-    s.append(f'<rect x="166" y="{gy + 66}" width="14" height="9" fill="#D9C7A6" stroke="{INK}" stroke-width="0.7"/>')
-    s.append(f'<circle cx="198" cy="{gy + 72}" r="6" fill="#E4D3B2" stroke="{INK}" stroke-width="0.7"/>')
-    s.append(f'<circle cx="218" cy="{gy + 79}" r="4.4" fill="#F6EFE0" stroke="{INK}" stroke-width="0.7"/>')
-    s.append(f'<circle cx="172" cy="{gy + 80}" r="3.4" fill="none" stroke="{INK}" stroke-width="0.6"/>')
-    s.append(f'<path d="M158,{gy + 70} q8,3 16,0 M204,{gy + 82} q8,3 16,0" fill="none" stroke="#6E8A6E" stroke-width="0.5"/>')
-    # 火在鼎下
-    for fx in (168, 190, 212):
-        s.append(f'<path d="M{fx},{gy + 115} q4,-9 8,-2 q3,-5 5,-7" fill="none" stroke="{SEAL}" stroke-width="0.9"/>')
-    s.append(txt(190, gy + 138, "水、火、醯、醢、盐、梅：一样不少，样样不同", 4.1, GREEN, "middle"))
-    s.append(txt(300, gy + 66, "和", 5.6, "#8A7C69"))
-    s.append(txt(300, gy + 82, "各守边界", 4.0, "#8A7C69"))
-    s.append(txt(300, gy + 94, "差异共存", 4.0, "#8A7C69"))
+    s.append(f'<line x1="40" y1="{gy + 146}" x2="336" y2="{gy + 146}" stroke="{LINE}" stroke-width="0.9"/>')
+    s.extend(ding(148, gy + 62))
+    # 鼎内各样（露在口沿之上）
+    s.append(f'<rect x="118" y="{gy + 52}" width="14" height="12" fill="#D9C7A6" stroke="{INK}" stroke-width="0.7"/>')
+    s.append(f'<circle cx="150" cy="{gy + 58}" r="6" fill="#E6C9A8" stroke="{INK}" stroke-width="0.7"/>')
+    s.append(f'<ellipse cx="174" cy="{gy + 60}" rx="10" ry="4" fill="#F6EFE0" stroke="{INK}" stroke-width="0.7"/>')
+    s.append(f'<path d="M188,{gy + 54} q10,-4 16,4" fill="none" stroke="{INK}" stroke-width="0.8"/>')
+    # 火
+    for dx in (-48, -12, 30):
+        s.append(f'<polygon points="{148 + dx},{gy + 148} {148 + dx + 5},{gy + 132} {148 + dx + 10},{gy + 148}" fill="{SEAL}" stroke="none" opacity="0.55"/>')
+    s.append(txt(244, gy + 52, "和", 5.6, GREEN))
+    s.append(txt(244, gy + 68, "各守边界", 4.2, INK))
+    s.append(txt(244, gy + 80, "差异共存", 4.2, INK))
+    s.append(txt(244, gy + 94, "听得见的", 3.9, "#8A7C69"))
 
     # 二、以水济水
-    s.append(txt(24, gy + 174, "二、以水济水：一锅里只添同一样", 5.1, SEAL))
+    s.append(txt(24, gy + 174, "二、以水济水：一味兑一味，就没人吃", 5.1, SEAL))
     gy2 = gy + 186
     s.append(f'<rect x="26" y="{gy2}" width="328" height="152" fill="#FBF6EC" stroke="{LINE}" stroke-width="0.8"/>')
-    s.append(f'<line x1="40" y1="{gy2 + 118}" x2="336" y2="{gy2 + 118}" stroke="{LINE}" stroke-width="0.9"/>')
-    s.append(f'<path d="M138,{gy2 + 56} L146,{gy2 + 94} L234,{gy2 + 94} L242,{gy2 + 56} Z" fill="#EFE6D4" stroke="{INK}" stroke-width="1.1"/>')
-    s.append(f'<ellipse cx="190" cy="{gy2 + 56}" rx="52" ry="9" fill="#F6EFE0" stroke="{INK}" stroke-width="1.0"/>')
-    s.append(f'<rect x="132" y="{gy2 + 42}" width="7" height="14" fill="#EFE6D4" stroke="{INK}" stroke-width="0.8"/>')
-    s.append(f'<rect x="241" y="{gy2 + 42}" width="7" height="14" fill="#EFE6D4" stroke="{INK}" stroke-width="0.8"/>')
-    s.append(f'<line x1="160" y1="{gy2 + 94}" x2="160" y2="{gy2 + 118}" stroke="{INK}" stroke-width="1.0"/>')
-    s.append(f'<line x1="190" y1="{gy2 + 94}" x2="190" y2="{gy2 + 118}" stroke="{INK}" stroke-width="1.0"/>')
-    s.append(f'<line x1="220" y1="{gy2 + 94}" x2="220" y2="{gy2 + 118}" stroke="{INK}" stroke-width="1.0"/>')
-    s.append(f'<path d="M146,{gy2 + 62} L150,{gy2 + 86} L230,{gy2 + 86} L234,{gy2 + 62} Z" fill="#E9F0E6" stroke="{LINE2}" stroke-width="0.5"/>')
-    s.append(f'<path d="M156,{gy2 + 70} q12,4 24,0 M186,{gy2 + 80} q12,4 24,0 M156,{gy2 + 82} q12,4 24,0" fill="none" stroke="#6E8A6E" stroke-width="0.5"/>')
-    # 一只水壶悬在鼎上，倒的也是水
-    s.append(f'<path d="M168,{gy2 + 10} l38,0 l-6,-14 l-26,0 Z" fill="#EFE6D4" stroke="{INK}" stroke-width="0.9"/>')
-    s.append(f'<path d="M168,{gy2 + 8} q-9,6 -1,12" fill="none" stroke="{INK}" stroke-width="0.8"/>')
-    s.append(f'<line x1="187" y1="{gy2 + 24}" x2="187" y2="{gy2 + 48}" stroke="#6E8A6E" stroke-width="1.0"/>')
-    s.append(f'<path d="M185,{gy2 + 48} q2,4 4,0" fill="none" stroke="#6E8A6E" stroke-width="0.8"/>')
-    for fx in (168, 190, 212):
-        s.append(f'<path d="M{fx},{gy2 + 115} q4,-9 8,-2 q3,-5 5,-7" fill="none" stroke="{SEAL}" stroke-width="0.9"/>')
-    s.append(txt(190, gy2 + 140, "若以水济水，谁能食之？同则不继", 4.1, SEAL, "middle"))
-    s.append(txt(300, gy2 + 66, "同", 5.6, "#8A7C69"))
-    s.append(txt(300, gy2 + 82, "抹去边界", 4.0, "#8A7C69"))
-    s.append(txt(300, gy2 + 94, "只剩一形", 4.0, "#8A7C69"))
+    s.append(f'<line x1="40" y1="{gy2 + 146}" x2="336" y2="{gy2 + 146}" stroke="{LINE}" stroke-width="0.9"/>')
+    s.extend(ding(148, gy2 + 62, water=True))
+    # 壶（腹、盖、嘴、提梁）
+    hx, hy = 246, gy2 + 6
+    # 腹：鼓腹；颈；盖；嘴；提梁
+    s.append(f'<path d="M{hx - 22},{hy + 18} L{hx + 24},{hy + 18} L{hx + 18},{hy + 44} Q{hx + 1},{hy + 50} {hx - 16},{hy + 44} Z" fill="#EFE6D4" stroke="{INK}" stroke-width="1.0"/>')
+    s.append(f'<rect x="{hx - 8}" y="{hy + 8}" width="16" height="10" fill="#EFE6D4" stroke="{INK}" stroke-width="0.9"/>')
+    s.append(f'<path d="M{hx - 13},{hy + 8} L{hx + 13},{hy + 8} L{hx + 8},{hy + 1} L{hx - 8},{hy + 1} Z" fill="#E4D3B2" stroke="{INK}" stroke-width="0.9"/>')
+    s.append(f'<path d="M{hx - 22},{hy + 26} q-14,2 -20,10" fill="none" stroke="{INK}" stroke-width="0.9"/>')
+    s.append(f'<path d="M{hx + 2},{hy + 2} q18,-4 30,10" fill="none" stroke="{INK}" stroke-width="0.9"/>')
+    # 倒出的水：细线自嘴尖落入鼎口
+    s.append(f'<line x1="{hx - 42}" y1="{hy + 37}" x2="198" y2="{gy2 + 60}" stroke="#6E8A6E" stroke-width="0.9"/>')
+    for dx in (-48, -12, 30):
+        s.append(f'<polygon points="{148 + dx},{gy2 + 148} {148 + dx + 5},{gy2 + 132} {148 + dx + 10},{gy2 + 148}" fill="{SEAL}" stroke="none" opacity="0.55"/>')
+    s.append(txt(280, gy2 + 84, "同", 5.6, SEAL))
+    s.append(txt(280, gy2 + 100, "抹去边界", 4.2, INK))
+    s.append(txt(280, gy2 + 112, "只剩一样", 4.2, INK))
+    s.append(txt(280, gy2 + 126, "摸得着的", 3.9, "#8A7C69"))
 
     a = gy2 + 170
-    s.append(txt(24, a, "「和」：几支管子长短不一，吹出来的音高低不同，凑在一起才成调。", 4.8, INK))
-    s.append(txt(24, a + 16, "「合」：两半对上了，严丝合缝；边没了，差异也就没了。", 4.8, INK))
-    s.append(txt(24, a + 34, "道法自然，是和，不是合：他不肯让不同的声音同时存在，他要一个音。", 4.8, GREEN))
+    s.append(txt(24, a, "「和」：几支管子长短不一，音高低不同，凑在一起才成调。", 4.8, INK))
+    s.append(txt(24, a + 16, "「合」：两半对上，严丝合缝，边没了——差异也就没了。", 4.8, INK))
+    s.append(txt(24, a + 34, "道法自然是和，不是合：他不肯让不同的声音同时存在，他要一个音。", 4.8, GREEN))
 
     c = a + 52
     s.append(f'<line x1="24" y1="{c}" x2="338" y2="{c}" stroke="{LINE}" stroke-width="0.6"/>')
     s.append(box(20, c + 8, 340, 40, fill="#F2EADA", stroke="#C9B79A"))
-    s.append(txt(190, c + 24, "和是许多个音成一个调，合是一个音盖住全部。", 5.6, INK, "middle"))
-    s.append(txt(190, c + 36, "和是听得见的，合是摸得着的。", 5.0, GREEN, "middle"))
+    s.append(txt(190, c + 24, "一样不少，才有味；一味兑一味，谁吃得下。", 6.0, INK, "middle"))
+    s.append(txt(190, c + 36, "以他平他谓之和；以同裨同，尽乃弃矣。", 5.0, GREEN, "middle"))
     s.append(gold(c + 62, "ch29b"))
     s.append('</svg>')
     out = "\n".join(s)
@@ -15661,68 +15699,70 @@ def ch29b_yi_guo_geng():
 
 
 def ch29c_yi_zhi_wan():
-    body, y = head(380, 999, "去甚、去奢、去泰：去是拿走，不是添加",
+    body, y = head(380, 999, "碗就那么大，添到溢出来，多余的是那一口",
                    "第 二 十 九 章 · 一 只 碗", "一只碗",
-                   "是以圣人去甚，去奢，去泰。", 999)
+                   "去甚，去奢，去泰。", 999)
     s = [body]
 
     s.append(box(20, y + 2, 340, 34, fill="#F2EADA", stroke="#C9B79A"))
-    s.append(txt(190, y + 14, "「甚」是过度，「奢」是无度，「泰」通「太」，是骄纵越分。", 4.7, INK, "middle"))
-    s.append(txt(190, y + 27, "三个字是一件事的三个浓度：心里那个「我要」越来越过分。", 4.7, "#6E6459"))
+    s.append(txt(190, y + 14, "「甚」是过度，「奢」是无度，「泰」通「太」，是骄纵越分——三字一件事的三个浓度。", 4.5, INK, "middle"))
+    s.append(txt(190, y + 27, "碗只有这么大，水只有这么多；「取天下而为之」的那个「为」，就是往里添。", 4.6, "#6E6459"))
 
-    # 一、添到溢出
-    s.append(txt(24, y + 52, "一、添到溢出：一勺，再一勺，再一勺", 5.1, SEAL))
+    def bowl(cx, top, w=88, h=46, water=None):
+        g = []
+        g.append(f'<path d="M{cx - w / 2},{top} L{cx - w / 2 + 12},{top + h} Q{cx},{top + h + 9} {cx + w / 2 - 12},{top + h} L{cx + w / 2},{top} Z" fill="#F6EFE0" stroke="{INK}" stroke-width="1.0"/>')
+        g.append(f'<ellipse cx="{cx}" cy="{top}" rx="{w / 2}" ry="6" fill="#E4D3B2" stroke="{INK}" stroke-width="1.0"/>')
+        g.append(f'<ellipse cx="{cx}" cy="{top + 1}" rx="{w / 2 - 3}" ry="4.5" fill="#EDE2CB" stroke="{INK}" stroke-width="0.6"/>')
+        if water is not None:
+            yw = top + water
+            hw = w / 2 - 4 - (water / h) * 10
+            g.append(f'<path d="M{cx - hw},{yw} Q{cx},{yw + 5} {cx + hw},{yw}" fill="none" stroke="{GREEN}" stroke-width="1.1"/>')
+        return g
+
+    def pot(cx, top):
+        g = []
+        g.append(f'<path d="M{cx - 18},{top + 14} L{cx + 20},{top + 14} L{cx + 14},{top + 38} Q{cx + 1},{top + 44} {cx - 12},{top + 38} Z" fill="#EFE6D4" stroke="{INK}" stroke-width="1.0"/>')
+        g.append(f'<rect x="{cx - 7}" y="{top + 6}" width="14" height="8" fill="#EFE6D4" stroke="{INK}" stroke-width="0.9"/>')
+        g.append(f'<path d="M{cx - 11},{top + 6} L{cx + 11},{top + 6} L{cx + 7},{top} L{cx - 7},{top} Z" fill="#E4D3B2" stroke="{INK}" stroke-width="0.9"/>')
+        g.append(f'<path d="M{cx + 2},{top + 1} q16,-4 26,8" fill="none" stroke="{INK}" stroke-width="0.9"/>')
+        return g
+
+    # 一、满到溢出来
+    s.append(txt(24, y + 52, "一、满到溢出来：继续添，就溢到桌上", 5.1, SEAL))
     gy = y + 64
     s.append(f'<rect x="26" y="{gy}" width="328" height="152" fill="#FBF6EC" stroke="{LINE}" stroke-width="0.8"/>')
-    s.append(f'<line x1="44" y1="{gy + 118}" x2="332" y2="{gy + 118}" stroke="{INK}" stroke-width="1.0"/>')
-    # 碗
-    s.append(f'<path d="M126,{gy + 50} C130,{gy + 100} 250,{gy + 100} 254,{gy + 50} Z" fill="#EFE6D4" stroke="{INK}" stroke-width="1.1"/>')
-    s.append(f'<ellipse cx="190" cy="{gy + 50}" rx="64" ry="11" fill="#F6EFE0" stroke="{INK}" stroke-width="1.0"/>')
-    # 齐口的水
-    s.append(f'<path d="M133,{gy + 56} C138,{gy + 92} 242,{gy + 92} 247,{gy + 56} Z" fill="#E9F0E6" stroke="{LINE2}" stroke-width="0.6"/>')
-    # 还在倒
-    s.append(f'<line x1="272" y1="{gy + 26}" x2="272" y2="{gy + 40}" stroke="#6E8A6E" stroke-width="1.0"/>')
-    s.append(f'<path d="M248,{gy + 26} l44,0 l-6,-10 l-32,0 Z" fill="#EFE6D4" stroke="{INK}" stroke-width="0.8"/>')
-    s.append(f'<path d="M248,{gy + 26} q-8,6 -1,11" fill="none" stroke="{INK}" stroke-width="0.8"/>')
-    s.append(f'<line x1="268" y1="{gy + 27}" x2="268" y2="{gy + 56}" stroke="#6E8A6E" stroke-width="0.9"/>')
-    # 溢出来，沿碗壁流到桌上
-    s.append(f'<path d="M252,{gy + 60} q10,14 2,30 q-6,8 2,16" fill="none" stroke="#6E8A6E" stroke-width="1.0"/>')
-    s.append(f'<ellipse cx="286" cy="{gy + 114}" rx="30" ry="6" fill="#E9F0E6" stroke="{LINE2}" stroke-width="0.6"/>')
-    s.append(txt(286, gy + 132, "桌上多出一摊", 4.1, SEAL, "middle"))
-    # 三个刻度
-    for i, (t, sub) in enumerate((("甚", "过度"), ("奢", "无度"), ("泰", "越分"))):
-        yy = gy + 66 + i * 13
-        s.append(f'<line x1="112" y1="{yy}" x2="130" y2="{yy}" stroke="{SEAL}" stroke-width="0.6" stroke-dasharray="3 2"/>')
-        s.append(txt(66, yy + 3, t, 4.4, SEAL))
-        s.append(txt(78, yy + 3, sub, 3.8, "#8A7C69"))
-    s.append(txt(150, gy + 30, "碗早就齐口了", 4.1, "#8A7C69", "middle"))
+    s.append(f'<line x1="40" y1="{gy + 128}" x2="336" y2="{gy + 128}" stroke="{INK}" stroke-width="1.1"/>')
+    s.extend(bowl(146, gy + 66, water=4))
+    s.extend(pot(268, gy + 20))
+    # 从壶嘴到碗口的水线
+    s.append(f'<line x1="242" y1="{gy + 56}" x2="190" y2="{gy + 66}" stroke="#6E8A6E" stroke-width="1.0"/>')
+    # 碗沿溢下的水 + 桌上那摊
+    s.append(f'<path d="M102,{gy + 68} Q96,{gy + 96} 100,{gy + 120}" fill="none" stroke="{GREEN}" stroke-width="1.1"/>')
+    s.append(f'<ellipse cx="100" cy="{gy + 124}" rx="22" ry="5" fill="#E8EDE0" stroke="{GREEN}" stroke-width="0.8"/>')
 
-    # 二、把多出来的拿走
-    s.append(txt(24, gy + 174, "二、把多出来的拿走：碗没变小，人没变穷", 5.1, GREEN))
+    # 二、拿走之后
+    s.append(txt(24, gy + 174, "二、拿走之后：碗还是平平一碗", 5.1, GREEN))
     gy2 = gy + 186
     s.append(f'<rect x="26" y="{gy2}" width="328" height="152" fill="#FBF6EC" stroke="{LINE}" stroke-width="0.8"/>')
-    s.append(f'<line x1="44" y1="{gy2 + 118}" x2="332" y2="{gy2 + 118}" stroke="{INK}" stroke-width="1.0"/>')
-    s.append(f'<path d="M126,{gy2 + 50} C130,{gy2 + 100} 250,{gy2 + 100} 254,{gy2 + 50} Z" fill="#EFE6D4" stroke="{INK}" stroke-width="1.1"/>')
-    s.append(f'<ellipse cx="190" cy="{gy2 + 50}" rx="64" ry="11" fill="#F6EFE0" stroke="{INK}" stroke-width="1.0"/>')
-    s.append(f'<path d="M133,{gy2 + 56} C138,{gy2 + 92} 242,{gy2 + 92} 247,{gy2 + 56} Z" fill="#E9F0E6" stroke="{LINE2}" stroke-width="0.6"/>')
-    s.append(f'<line x1="150" y1="{gy2 + 56}" x2="230" y2="{gy2 + 56}" stroke="{GREEN}" stroke-width="0.7"/>')
-    # 抹掉的那一摊：虚线圈
-    s.append(f'<ellipse cx="286" cy="{gy2 + 114}" rx="30" ry="6" fill="none" stroke="#C9B79A" stroke-width="0.8" stroke-dasharray="4 3"/>')
-    s.append(txt(286, gy2 + 132, "擦掉：连痕也不留", 4.1, GREEN, "middle"))
-    # 倒水的壶收起
-    s.append(f'<path d="M248,{gy2 + 22} l48,0 l0,-8 l-48,0 Z" fill="none" stroke="#C9B79A" stroke-width="0.7" stroke-dasharray="4 3"/>')
-    s.append(txt(190, gy2 + 30, "勺收起来，碗里还是平平一碗", 4.1, "#8A7C69", "middle"))
+    s.append(f'<line x1="40" y1="{gy2 + 128}" x2="336" y2="{gy2 + 128}" stroke="{INK}" stroke-width="1.1"/>')
+    s.extend(bowl(146, gy2 + 66, water=20))
+    # 壶位：极淡虚线轮廓（已经撤走）
+    s.append(f'<path d="M250,{gy2 + 34} L288,{gy2 + 34} L282,{gy2 + 58} L256,{gy2 + 58} Z" fill="none" stroke="{LINE2}" stroke-width="0.7" stroke-dasharray="3 3" opacity="0.7"/>')
+    s.append(txt(268, gy2 + 74, "壶已撤走", 3.7, "#A79A86", "middle"))
+    # 桌上：擦过的淡痕
+    s.append(f'<ellipse cx="104" cy="{gy2 + 124}" rx="20" ry="5" fill="none" stroke="{LINE2}" stroke-width="0.7" stroke-dasharray="3 3"/>')
+    s.append(txt(100, gy2 + 142, "擦过的水痕", 3.7, "#A79A86", "middle"))
 
     a = gy2 + 170
-    s.append(txt(24, a, "「去」这个字选得准：去是拿走，不是添加。全章没有一句「应当如何做」，只有三个「去掉」。", 4.6, INK))
-    s.append(txt(24, a + 16, "与第二十四章接上：自见、自伐、自矜，正是甚、奢、泰的三种面孔。", 4.8, INK))
-    s.append(txt(24, a + 34, "圣人的功夫不在外头——不在改造天下，在清理自己。", 4.8, GREEN))
+    s.append(txt(24, a, "碗的容量是它自己的，不由「我要多少」定；水也是水自己的，不由「我添多少」定。", 4.8, INK))
+    s.append(txt(24, a + 16, "溢出来的不是水多，是碗少：去，是知道碗只有这么大，拿走多余的那一口。", 4.8, INK))
+    s.append(txt(24, a + 34, "三去不是三件工艺，是一个「我要」的三个浓度：过分、没有节制、凌驾一切。", 4.8, GREEN))
 
     c = a + 52
     s.append(f'<line x1="24" y1="{c}" x2="338" y2="{c}" stroke="{LINE}" stroke-width="0.6"/>')
     s.append(box(20, c + 8, 340, 40, fill="#F2EADA", stroke="#C9B79A"))
     s.append(txt(190, c + 24, "去是拿走，不是添加。", 6.0, INK, "middle"))
-    s.append(txt(190, c + 36, "去的是过度的冲动，不是正常的需求。", 5.0, GREEN, "middle"))
+    s.append(txt(190, c + 36, "拿走的是过度的冲动，不是正常的需求。", 5.0, GREEN, "middle"))
     s.append(gold(c + 62, "ch29c"))
     s.append('</svg>')
     out = "\n".join(s)
@@ -15730,7 +15770,6 @@ def ch29c_yi_zhi_wan():
     return out.replace("999", str(int(max(ys) + 26)))
 
 
-# ============ 第三十章 · 物壮则老 ============
 def ch30_wu_zhuang_ze_lao():
     W, H = 380, 646
     body, y = head(W, H, "兵是一张满弓：一发即止，还是久张到断", "第 三 十 章 · 兵 与 果", "物壮则老",

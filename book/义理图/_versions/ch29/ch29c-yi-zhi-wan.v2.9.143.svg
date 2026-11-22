@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 380 706" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="去甚、去奢、去泰：去是拿走，不是添加" font-family="'Noto Serif CJK SC','Noto Serif SC','Songti SC',serif">
+<defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#6E6459"/></marker><marker id="arr2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#4A5C55"/></marker><marker id="arrL" viewBox="0 0 10 10" refX="1" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M10 0 L0 5 L10 10 z" fill="#4A5C55"/></marker><marker id="arrS" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#A2503B"/></marker></defs>
+<rect x="0" y="0" width="380" height="706" fill="#F8F3E6"/>
+<text x="20" y="26" font-size="11" fill="#A2503B" font-family="'Noto Sans CJK SC','Noto Sans SC',sans-serif" letter-spacing="3">第 二 十 九 章 · 一 只 碗</text>
+<text x="20" y="58" font-size="21" fill="#2F2A24">一只碗</text>
+<text x="20" y="78" font-size="10.5" fill="#6E6459">是以圣人去甚，去奢，去泰。</text>
+<rect x="20" y="102" width="340" height="34" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="190" y="114" font-size="4.7" fill="#2F2A24" text-anchor="middle">「甚」是过度，「奢」是无度，「泰」通「太」，是骄纵越分。</text>
+<text x="190" y="127" font-size="4.7" fill="#6E6459">三个字是一件事的三个浓度：心里那个「我要」越来越过分。</text>
+<text x="24" y="152" font-size="5.1" fill="#A2503B">一、添到溢出：一勺，再一勺，再一勺</text>
+<rect x="26" y="164" width="328" height="152" fill="#FBF6EC" stroke="#DCCBB0" stroke-width="0.8"/>
+<line x1="44" y1="282" x2="332" y2="282" stroke="#2F2A24" stroke-width="1.0"/>
+<path d="M126,214 C130,264 250,264 254,214 Z" fill="#EFE6D4" stroke="#2F2A24" stroke-width="1.1"/>
+<ellipse cx="190" cy="214" rx="64" ry="11" fill="#F6EFE0" stroke="#2F2A24" stroke-width="1.0"/>
+<path d="M133,220 C138,256 242,256 247,220 Z" fill="#E9F0E6" stroke="#E6D8C2" stroke-width="0.6"/>
+<line x1="272" y1="190" x2="272" y2="204" stroke="#6E8A6E" stroke-width="1.0"/>
+<path d="M248,190 l44,0 l-6,-10 l-32,0 Z" fill="#EFE6D4" stroke="#2F2A24" stroke-width="0.8"/>
+<path d="M248,190 q-8,6 -1,11" fill="none" stroke="#2F2A24" stroke-width="0.8"/>
+<line x1="268" y1="191" x2="268" y2="220" stroke="#6E8A6E" stroke-width="0.9"/>
+<path d="M252,224 q10,14 2,30 q-6,8 2,16" fill="none" stroke="#6E8A6E" stroke-width="1.0"/>
+<ellipse cx="286" cy="278" rx="30" ry="6" fill="#E9F0E6" stroke="#E6D8C2" stroke-width="0.6"/>
+<text x="286" y="296" font-size="4.1" fill="#A2503B" text-anchor="middle">桌上多出一摊</text>
+<line x1="112" y1="230" x2="130" y2="230" stroke="#A2503B" stroke-width="0.6" stroke-dasharray="3 2"/>
+<text x="66" y="233" font-size="4.4" fill="#A2503B">甚</text>
+<text x="78" y="233" font-size="3.8" fill="#8A7C69">过度</text>
+<line x1="112" y1="243" x2="130" y2="243" stroke="#A2503B" stroke-width="0.6" stroke-dasharray="3 2"/>
+<text x="66" y="246" font-size="4.4" fill="#A2503B">奢</text>
+<text x="78" y="246" font-size="3.8" fill="#8A7C69">无度</text>
+<line x1="112" y1="256" x2="130" y2="256" stroke="#A2503B" stroke-width="0.6" stroke-dasharray="3 2"/>
+<text x="66" y="259" font-size="4.4" fill="#A2503B">泰</text>
+<text x="78" y="259" font-size="3.8" fill="#8A7C69">越分</text>
+<text x="150" y="194" font-size="4.1" fill="#8A7C69" text-anchor="middle">碗早就齐口了</text>
+<text x="24" y="338" font-size="5.1" fill="#4A5C55">二、把多出来的拿走：碗没变小，人没变穷</text>
+<rect x="26" y="350" width="328" height="152" fill="#FBF6EC" stroke="#DCCBB0" stroke-width="0.8"/>
+<line x1="44" y1="468" x2="332" y2="468" stroke="#2F2A24" stroke-width="1.0"/>
+<path d="M126,400 C130,450 250,450 254,400 Z" fill="#EFE6D4" stroke="#2F2A24" stroke-width="1.1"/>
+<ellipse cx="190" cy="400" rx="64" ry="11" fill="#F6EFE0" stroke="#2F2A24" stroke-width="1.0"/>
+<path d="M133,406 C138,442 242,442 247,406 Z" fill="#E9F0E6" stroke="#E6D8C2" stroke-width="0.6"/>
+<line x1="150" y1="406" x2="230" y2="406" stroke="#4A5C55" stroke-width="0.7"/>
+<ellipse cx="286" cy="464" rx="30" ry="6" fill="none" stroke="#C9B79A" stroke-width="0.8" stroke-dasharray="4 3"/>
+<text x="286" y="482" font-size="4.1" fill="#4A5C55" text-anchor="middle">擦掉：连痕也不留</text>
+<path d="M248,372 l48,0 l0,-8 l-48,0 Z" fill="none" stroke="#C9B79A" stroke-width="0.7" stroke-dasharray="4 3"/>
+<text x="190" y="380" font-size="4.1" fill="#8A7C69" text-anchor="middle">勺收起来，碗里还是平平一碗</text>
+<text x="24" y="520" font-size="4.6" fill="#2F2A24">「去」这个字选得准：去是拿走，不是添加。全章没有一句「应当如何做」，只有三个「去掉」。</text>
+<text x="24" y="536" font-size="4.8" fill="#2F2A24">与第二十四章接上：自见、自伐、自矜，正是甚、奢、泰的三种面孔。</text>
+<text x="24" y="554" font-size="4.8" fill="#4A5C55">圣人的功夫不在外头——不在改造天下，在清理自己。</text>
+<line x1="24" y1="572" x2="338" y2="572" stroke="#DCCBB0" stroke-width="0.6"/>
+<rect x="20" y="580" width="340" height="40" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="190" y="596" font-size="6.0" fill="#2F2A24" text-anchor="middle">去是拿走，不是添加。</text>
+<text x="190" y="608" font-size="5.0" fill="#4A5C55" text-anchor="middle">去的是过度的冲动，不是正常的需求。</text>
+<line x1="20" y1="634" x2="360" y2="634" stroke="#E6D8C2" stroke-width="0.8"/>
+<text x="20" y="648" font-size="8.0" fill="#A89577" letter-spacing="1">本 章 金 句</text>
+<text x="20" y="664" font-size="8.4" fill="#2F2A24">去是拿走，不是添加。</text>
+<text x="20" y="680" font-size="8.4" fill="#2F2A24">去的是过度的冲动，不是正常的需求。</text>
+</svg>

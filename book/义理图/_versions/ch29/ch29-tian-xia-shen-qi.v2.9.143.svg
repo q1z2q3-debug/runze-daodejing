@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 380 636" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="天下是编管，不是一根棍" font-family="'Noto Serif CJK SC','Noto Serif SC','Songti SC',serif">
+<defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#6E6459"/></marker><marker id="arr2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#4A5C55"/></marker><marker id="arrL" viewBox="0 0 10 10" refX="1" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M10 0 L0 5 L10 10 z" fill="#4A5C55"/></marker><marker id="arrS" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#A2503B"/></marker></defs>
+<rect x="0" y="0" width="380" height="636" fill="#F8F3E6"/>
+<text x="20" y="26" font-size="11" fill="#A2503B" font-family="'Noto Sans CJK SC','Noto Sans SC',sans-serif" letter-spacing="3">第 二 十 九 章 · 神 器</text>
+<text x="20" y="58" font-size="21" fill="#2F2A24">天下神器</text>
+<text x="20" y="78" font-size="10.5" fill="#6E6459">长短本就不齐，能调成调，不能削成一根。</text>
+<text x="20" y="104" font-size="8.6" fill="#4A5C55">一器：编管，长短本就不齐</text>
+<rect x="48" y="168" width="15" height="58" fill="#E9DFCC" stroke="#DCCBB0" stroke-width="0.9"/>
+<circle cx="55.5" cy="215" r="2.2" fill="#F8F3E6" stroke="#2F2A24" stroke-width="0.7"/>
+<rect x="84" y="142" width="15" height="84" fill="#E9DFCC" stroke="#DCCBB0" stroke-width="0.9"/>
+<circle cx="91.5" cy="215" r="2.2" fill="#F8F3E6" stroke="#2F2A24" stroke-width="0.7"/>
+<rect x="120" y="180" width="15" height="46" fill="#E9DFCC" stroke="#DCCBB0" stroke-width="0.9"/>
+<circle cx="127.5" cy="215" r="2.2" fill="#F8F3E6" stroke="#2F2A24" stroke-width="0.7"/>
+<rect x="156" y="152" width="15" height="74" fill="#E9DFCC" stroke="#DCCBB0" stroke-width="0.9"/>
+<circle cx="163.5" cy="215" r="2.2" fill="#F8F3E6" stroke="#2F2A24" stroke-width="0.7"/>
+<rect x="192" y="134" width="15" height="92" fill="#E9DFCC" stroke="#DCCBB0" stroke-width="0.9"/>
+<circle cx="199.5" cy="215" r="2.2" fill="#F8F3E6" stroke="#2F2A24" stroke-width="0.7"/>
+<rect x="228" y="174" width="15" height="52" fill="#E9DFCC" stroke="#DCCBB0" stroke-width="0.9"/>
+<circle cx="235.5" cy="215" r="2.2" fill="#F8F3E6" stroke="#2F2A24" stroke-width="0.7"/>
+<rect x="42" y="182" width="204" height="5" fill="#DCCBB0" stroke="#C9B79A" stroke-width="0.7"/>
+<rect x="42" y="208" width="204" height="5" fill="#DCCBB0" stroke="#C9B79A" stroke-width="0.7"/>
+<text x="258" y="140" font-size="8.0" fill="#6E6459">或行或随</text>
+<text x="258" y="155" font-size="8.0" fill="#6E6459">或歔或吹</text>
+<text x="258" y="170" font-size="8.0" fill="#6E6459">或强或羸</text>
+<text x="258" y="185" font-size="8.0" fill="#6E6459">或载或隳</text>
+<text x="258" y="206" font-size="7.4" fill="#A2503B">八样都是料性，不是毛病</text>
+<text x="20" y="248" font-size="8.6" fill="#A2503B">两病：一为、一执</text>
+<rect x="28" y="284" width="15" height="56" fill="#E9DFCC" stroke="#DCCBB0" stroke-width="0.9"/>
+<circle cx="35" cy="330" r="2.2" fill="#F8F3E6" stroke="#2F2A24" stroke-width="0.7"/>
+<rect x="48" y="284" width="15" height="56" fill="#E9DFCC" stroke="#DCCBB0" stroke-width="0.9"/>
+<circle cx="55" cy="330" r="2.2" fill="#F8F3E6" stroke="#2F2A24" stroke-width="0.7"/>
+<rect x="68" y="284" width="15" height="56" fill="#E9DFCC" stroke="#DCCBB0" stroke-width="0.9"/>
+<circle cx="75" cy="330" r="2.2" fill="#F8F3E6" stroke="#2F2A24" stroke-width="0.7"/>
+<rect x="88" y="284" width="15" height="56" fill="#E9DFCC" stroke="#DCCBB0" stroke-width="0.9"/>
+<circle cx="95" cy="330" r="2.2" fill="#F8F3E6" stroke="#2F2A24" stroke-width="0.7"/>
+<rect x="108" y="284" width="15" height="56" fill="#E9DFCC" stroke="#DCCBB0" stroke-width="0.9"/>
+<circle cx="115" cy="330" r="2.2" fill="#F8F3E6" stroke="#2F2A24" stroke-width="0.7"/>
+<line x1="22" y1="278" x2="132" y2="278" stroke="#A2503B" stroke-width="0.9" stroke-dasharray="4 2"/>
+<text x="78" y="354" font-size="8.2" fill="#A2503B" text-anchor="middle">为：削成一样齐</text>
+<text x="78" y="367" font-size="7.4" fill="#8A7C69" text-anchor="middle">音就没了——调不成调</text>
+<ellipse cx="286" cy="310" rx="30" ry="20" fill="#E9DFCC" stroke="#A2503B" stroke-width="1"/>
+<path d="M266,300 q10,-5 20,0" fill="none" stroke="#A2503B" stroke-width="0.7"/>
+<path d="M266,307 q10,-5 20,0" fill="none" stroke="#A2503B" stroke-width="0.7"/>
+<path d="M266,314 q10,-5 20,0" fill="none" stroke="#A2503B" stroke-width="0.7"/>
+<line x1="272" y1="288" x2="274" y2="332" stroke="#DCCBB0" stroke-width="0.8"/>
+<line x1="284" y1="288" x2="286" y2="332" stroke="#DCCBB0" stroke-width="0.8"/>
+<line x1="296" y1="288" x2="298" y2="332" stroke="#DCCBB0" stroke-width="0.8"/>
+<text x="286" y="354" font-size="8.2" fill="#A2503B" text-anchor="middle">执：攥住不放</text>
+<text x="286" y="367" font-size="7.4" fill="#8A7C69" text-anchor="middle">管子捏死，吹不响</text>
+<rect x="20" y="370" width="162" height="56" fill="#F6EFE0" stroke="#C9B79A" stroke-width="1.0"/>
+<rect x="34" y="388" width="10" height="26" fill="#E9DFCC" stroke="#DCCBB0" stroke-width="0.8"/>
+<rect x="47" y="380" width="10" height="34" fill="#E9DFCC" stroke="#DCCBB0" stroke-width="0.8"/>
+<rect x="60" y="394" width="10" height="20" fill="#E9DFCC" stroke="#DCCBB0" stroke-width="0.8"/>
+<rect x="73" y="384" width="10" height="30" fill="#E9DFCC" stroke="#DCCBB0" stroke-width="0.8"/>
+<text x="108" y="388" font-size="10.4" fill="#4A5C55" letter-spacing="1">和</text>
+<text x="108" y="404" font-size="7.6" fill="#6E6459">长短不一，同调共存</text>
+<text x="108" y="417" font-size="7.4" fill="#8A7C69">听得见的</text>
+<rect x="198" y="370" width="162" height="56" fill="#F6EFE0" stroke="#C9B79A" stroke-width="1.0"/>
+<rect x="242" y="396" width="34" height="20" fill="#E9DFCC" stroke="#DCCBB0" stroke-width="0.8"/>
+<polygon points="236,396 282,396 274,384 244,384" fill="#DCCBB0" stroke="#DCCBB0" stroke-width="0.8"/>
+<text x="286" y="390" font-size="10.4" fill="#A2503B">合</text>
+<text x="279" y="410" font-size="7.6" fill="#6E6459" text-anchor="middle">盖扣上，边没了</text>
+<text x="279" y="422" font-size="7.4" fill="#8A7C69" text-anchor="middle">摸得着的</text>
+<text x="20" y="442" font-size="8.6" fill="#A2503B">三去：全是减法，不添一件</text>
+<rect x="20" y="452" width="106" height="46" fill="#F6EFE0" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="32" y="470" font-size="9.4" fill="#A2503B">去甚</text>
+<text x="32" y="482" font-size="7.2" fill="#6E6459">过度：孔开太多</text>
+<rect x="136" y="452" width="106" height="46" fill="#F6EFE0" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="148" y="470" font-size="9.4" fill="#A2503B">去奢</text>
+<text x="148" y="482" font-size="7.2" fill="#6E6459">无度：管加太长</text>
+<rect x="252" y="452" width="106" height="46" fill="#F6EFE0" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="264" y="470" font-size="9.4" fill="#A2503B">去泰</text>
+<text x="264" y="482" font-size="7.2" fill="#6E6459">骄纵越分：气吹太猛</text>
+<rect x="20" y="510" width="340" height="44" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="190" y="529" font-size="9.6" fill="#2F2A24" text-anchor="middle" letter-spacing="0.6">天下神器，不可为也，不可执也。</text>
+<text x="190" y="544" font-size="8.0" fill="#6E6459" text-anchor="middle">为者败之，执者失之——不是你不够强，是它本来不是给你捏的。</text>
+<line x1="20" y1="562" x2="360" y2="562" stroke="#E6D8C2" stroke-width="0.8"/>
+<text x="20" y="576" font-size="8.0" fill="#A89577" letter-spacing="1">本 章 金 句</text>
+<text x="20" y="592" font-size="8.4" fill="#2F2A24">切是把一个整体分成几块，捏是把几块不同捏成一个；老子两样都不放心。</text>
+<text x="20" y="608" font-size="8.4" fill="#2F2A24">和是听得见的，合是摸得着的。</text>
+</svg>
