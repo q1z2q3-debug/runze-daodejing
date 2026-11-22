@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 380 822" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="猛烧的那一把，烧得最快，烟最浓，也最短" font-family="'Noto Serif CJK SC','Noto Serif SC','Songti SC',serif">
+<defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#6E6459"/></marker><marker id="arr2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#4A5C55"/></marker><marker id="arrL" viewBox="0 0 10 10" refX="1" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M10 0 L0 5 L10 10 z" fill="#4A5C55"/></marker><marker id="arrS" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#A2503B"/></marker></defs>
+<rect x="0" y="0" width="380" height="822" fill="#F8F3E6"/>
+<text x="20" y="26" font-size="11" fill="#A2503B" font-family="'Noto Sans CJK SC','Noto Sans SC',sans-serif" letter-spacing="3">第 二 十 三 章 · 飘 风 骤 雨</text>
+<text x="20" y="58" font-size="21" fill="#2F2A24">一炉香</text>
+<text x="20" y="78" font-size="10.5" fill="#6E6459">飘风不终朝，骤雨不终日。</text>
+<rect x="20" y="102" width="340" height="34" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="190" y="114" font-size="4.8" fill="#2F2A24" text-anchor="middle">终朝，一个早晨；终日，一整日——皆极言其短，不是「不能长久」。</text>
+<text x="190" y="127" font-size="4.8" fill="#6E6459" text-anchor="middle">「孰为此者？天地」：这么大的力气，是天地出的，不是我说的。</text>
+<rect x="26" y="150" width="328" height="208" fill="#FBF6EC" stroke="#DCCBB0" stroke-width="0.8"/>
+<ellipse cx="190" cy="262" rx="54" ry="9" fill="#EFE6D4" stroke="#2F2A24" stroke-width="1.2"/>
+<path d="M136,262 C142,302 238,302 244,262" fill="#EFE6D4" stroke="#2F2A24" stroke-width="1.2"/>
+<rect x="163" y="294" width="7" height="20" fill="#EFE6D4" stroke="#2F2A24" stroke-width="0.9"/>
+<rect x="187" y="294" width="7" height="20" fill="#EFE6D4" stroke="#2F2A24" stroke-width="0.9"/>
+<rect x="209" y="294" width="7" height="20" fill="#EFE6D4" stroke="#2F2A24" stroke-width="0.9"/>
+<line x1="172" y1="264" x2="168" y2="212" stroke="#A89577" stroke-width="1.2"/>
+<circle cx="168" cy="208" r="1.9" fill="#A2503B" stroke="none"/>
+<line x1="184" y1="262" x2="182" y2="200" stroke="#A89577" stroke-width="1.2"/>
+<circle cx="182" cy="196" r="1.9" fill="#A2503B" stroke="none"/>
+<line x1="196" y1="262" x2="198" y2="204" stroke="#A89577" stroke-width="1.2"/>
+<circle cx="198" cy="200" r="1.9" fill="#A2503B" stroke="none"/>
+<line x1="206" y1="264" x2="210" y2="214" stroke="#A89577" stroke-width="1.2"/>
+<circle cx="210" cy="210" r="1.9" fill="#A2503B" stroke="none"/>
+<path d="M168,204 Q160,192 166,180" fill="none" stroke="#B9AB96" stroke-width="2.2" opacity="0.8"/>
+<path d="M182,192 Q190,180 184,168" fill="none" stroke="#B9AB96" stroke-width="2.2" opacity="0.8"/>
+<path d="M198,196 Q192,184 198,172" fill="none" stroke="#B9AB96" stroke-width="2.0" opacity="0.75"/>
+<path d="M210,206 Q218,194 212,182" fill="none" stroke="#B9AB96" stroke-width="2.0" opacity="0.75"/>
+<path d="M176,258 q10,-4 20,0" fill="none" stroke="#D9CCAE" stroke-width="1.6"/>
+<path d="M188,260 q8,-3 16,1" fill="none" stroke="#D9CCAE" stroke-width="1.4"/>
+<text x="190" y="338" font-size="4.2" fill="#A2503B" text-anchor="middle">一把香同点：火一蹿，烧得最快，烟最浓，也最短。</text>
+<text x="24" y="371" font-size="5.0" fill="#A2503B">一、一把香：猛烧，一瞬成灰</text>
+<rect x="26" y="384" width="328" height="224" fill="#FBF6EC" stroke="#DCCBB0" stroke-width="0.8"/>
+<ellipse cx="190" cy="496" rx="54" ry="9" fill="#EFE6D4" stroke="#2F2A24" stroke-width="1.2"/>
+<path d="M136,496 C142,536 238,536 244,496" fill="#EFE6D4" stroke="#2F2A24" stroke-width="1.2"/>
+<rect x="163" y="528" width="7" height="20" fill="#EFE6D4" stroke="#2F2A24" stroke-width="0.9"/>
+<rect x="187" y="528" width="7" height="20" fill="#EFE6D4" stroke="#2F2A24" stroke-width="0.9"/>
+<rect x="209" y="528" width="7" height="20" fill="#EFE6D4" stroke="#2F2A24" stroke-width="0.9"/>
+<line x1="190" y1="498" x2="190" y2="424" stroke="#A89577" stroke-width="1.3"/>
+<path d="M190,434 L191,446 L189,454" fill="none" stroke="#E8E1D2" stroke-width="1.8"/>
+<circle cx="190" cy="422" r="1.9" fill="#A2503B" stroke="none"/>
+<path d="M190,418 Q196,410 190,402 T190,392" fill="none" stroke="#A9B8AF" stroke-width="1.0"/>
+<text x="206" y="406" font-size="4.0" fill="#4A5C55">一缕到底，一直没断</text>
+<text x="206" y="424" font-size="3.9" fill="#8A7C69">灰积了一段，还没落</text>
+<text x="190" y="582" font-size="4.2" fill="#4A5C55" text-anchor="middle">同一只炉，只留一支：火头很小，烟细而直，一支到底。</text>
+<text x="24" y="621" font-size="5.0" fill="#4A5C55">二、一支香：细烧，一缕到底</text>
+<text x="24" y="638" font-size="4.9" fill="#2F2A24">老子选「终朝」「终日」这两个极短的时段，要说的不是「不能长久」，是「连一个早晨都撑不住」。</text>
+<text x="24" y="654" font-size="4.9" fill="#2F2A24">天地都做不出一场长雨，人也做不出一段长言：多言即用力，用力必不久。</text>
+<text x="24" y="672" font-size="4.9" fill="#4A5C55">这一句最后收回到人：不是否定教化，是否定强行、造势、用力过猛的有为之教。</text>
+<line x1="24" y1="688" x2="338" y2="688" stroke="#DCCBB0" stroke-width="0.6"/>
+<rect x="20" y="696" width="340" height="40" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="190" y="712" font-size="5.4" fill="#2F2A24" text-anchor="middle">风刮一早晨就停才是好风；老子论的不是风雨，是「久」这个字。</text>
+<text x="190" y="724" font-size="4.5" fill="#4A5C55" text-anchor="middle">多言者求久，而先尽。</text>
+<line x1="20" y1="750" x2="360" y2="750" stroke="#E6D8C2" stroke-width="0.8"/>
+<text x="20" y="764" font-size="8.0" fill="#A89577" letter-spacing="1">本 章 金 句</text>
+<text x="20" y="780" font-size="8.4" fill="#2F2A24">风刮一早晨就停才是好风；老子论的不是风雨，是「久」这个字。</text>
+<text x="20" y="796" font-size="8.4" fill="#2F2A24">多言者求久，而先尽。</text>
+</svg>
