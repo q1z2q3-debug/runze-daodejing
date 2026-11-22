@@ -16636,7 +16636,10 @@ def ch32c_chuan_gu():
         a1 = gy + y1
         b1 = gy + y2
         c1, c2 = x0 + 86, x0 + 166
-        # 两条岸线（只画线，不填色：这是水道，不是飘带）
+        # 水道：先填一层水色，再压两条岸线
+        s.append(f'<path d="M{x0},{a1 - w / 2} C{c1},{a1 - w / 2 + dx} {c2},{b1 - w2 / 2 + dx} 286,{b1 - w2 / 2} '
+                 f'L286,{b1 + w2 / 2} C{c2},{b1 + w2 / 2 + dx} {c1},{a1 + w / 2 + dx} {x0},{a1 + w / 2} Z" '
+                 f'fill="#D8E7E2" stroke="none"/>')
         s.append(f'<path d="M{x0},{a1 - w / 2} C{c1},{a1 - w / 2 + dx} {c2},{b1 - w2 / 2 + dx} 286,{b1 - w2 / 2}" fill="none" stroke="#8FA9A0" stroke-width="1.0"/>')
         s.append(f'<path d="M{x0},{a1 + w / 2} C{c1},{a1 + w / 2 + dx} {c2},{b1 + w2 / 2 + dx} 286,{b1 + w2 / 2}" fill="none" stroke="#8FA9A0" stroke-width="1.0"/>')
         # 谷口：两条短斜线张成喇叭，标出「泉出通川」的那一口
