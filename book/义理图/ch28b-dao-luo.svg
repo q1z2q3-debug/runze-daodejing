@@ -15,9 +15,9 @@
 <ellipse cx="120" cy="255" rx="7" ry="13" fill="#E4D3B2" stroke="#2F2A24" stroke-width="0.9"/>
 <path d="M60,248 q16,4 30,0 M58,256 q18,4 34,0" fill="none" stroke="#E6D8C2" stroke-width="0.6"/>
 <text x="82" y="284" font-size="4.1" fill="#8A7C69" text-anchor="middle">朴：未斫之材</text>
-<rect x="152" y="192" width="12" height="10" rx="2" fill="#E4D3B2" stroke="#2F2A24" stroke-width="0.8"/>
-<line x1="158" y1="202" x2="158" y2="226" stroke="#2F2A24" stroke-width="1.2"/>
-<path d="M152,226 L164,226 L158,244 Z" fill="#EFE6D4" stroke="#2F2A24" stroke-width="0.9"/>
+<rect x="152" y="190" width="12" height="14" rx="2" fill="#E4D3B2" stroke="#2F2A24" stroke-width="0.8"/>
+<rect x="155" y="204" width="6" height="16" fill="#EFE6D4" stroke="#2F2A24" stroke-width="0.8"/>
+<path d="M151,220 L165,220 L158,236 Z" fill="#F6EFE0" stroke="#2F2A24" stroke-width="0.9"/>
 <line x1="176" y1="216" x2="196" y2="216" stroke="#A2503B" stroke-width="0.9" marker-end="url(#arrS)"/>
 <rect x="206" y="208" width="30" height="30" fill="#EFE6D4" stroke="#2F2A24" stroke-width="0.9"/>
 <path d="M206,208 L216,200 L246,200 L236,208 Z" fill="#F6EFE0" stroke="#2F2A24" stroke-width="0.9"/>
@@ -38,26 +38,27 @@
 <line x1="40" y1="458" x2="336" y2="458" stroke="#DCCBB0" stroke-width="0.9"/>
 <rect x="44" y="428" width="76" height="26" rx="11" fill="#D9C7A6" stroke="#2F2A24" stroke-width="1.0"/>
 <ellipse cx="120" cy="441" rx="7" ry="13" fill="#E4D3B2" stroke="#2F2A24" stroke-width="0.9"/>
-<line x1="82" y1="380" x2="82" y2="402" stroke="#9C9182" stroke-width="1.0" stroke-dasharray="4 3"/>
-<path d="M76,402 L88,402 L82,418 Z" fill="#F1EADA" stroke="#9C9182" stroke-width="0.9"/>
+<line x1="82" y1="372" x2="82" y2="390" stroke="#9C9182" stroke-width="1.0" stroke-dasharray="4 3"/>
+<rect x="76" y="390" width="12" height="14" rx="2" fill="#EFE6D4" stroke="#9C9182" stroke-width="0.8"/>
+<rect x="79" y="404" width="6" height="14" fill="#F1EADA" stroke="#9C9182" stroke-width="0.8"/>
+<path d="M75,418 L89,418 L82,432 Z" fill="#F1EADA" stroke="#9C9182" stroke-width="0.9"/>
 <text x="118" y="406" font-size="4.1" fill="#8A7C69">刀悬在木上，不落</text>
-<rect x="176" y="398" width="24" height="24" fill="#EFE6D4" stroke="#E6D8C2" stroke-width="0.8"/>
-<rect x="212" y="406" width="40" height="15" fill="#EFE6D4" stroke="#E6D8C2" stroke-width="0.8"/>
-<rect x="176" y="436" width="20" height="16" fill="#EFE6D4" stroke="#E6D8C2" stroke-width="0.8"/>
-<ellipse cx="234" cy="444" rx="14" ry="7" fill="#E4D3B2" stroke="#E6D8C2" stroke-width="0.8"/>
-<circle cx="246" cy="438" r="4" fill="#EFE6D4" stroke="#E6D8C2" stroke-width="0.7"/>
+<rect x="176" y="398" width="26" height="26" fill="#EFE6D4" stroke="#2F2A24" stroke-width="0.9"/>
+<rect x="212" y="408" width="42" height="16" fill="#EFE6D4" stroke="#2F2A24" stroke-width="0.9"/>
+<rect x="176" y="435" width="22" height="17" fill="#EFE6D4" stroke="#2F2A24" stroke-width="0.9"/>
+<ellipse cx="236" cy="443" rx="15" ry="8" fill="#E4D3B2" stroke="#2F2A24" stroke-width="0.9"/>
+<circle cx="250" cy="436" r="4.6" fill="#EFE6D4" stroke="#2F2A24" stroke-width="0.8"/>
+<path d="M255,435 l6,2 l-6,2 Z" fill="#EFE6D4" stroke="#2F2A24" stroke-width="0.7"/>
 <text x="208" y="476" font-size="4.1" fill="#8A7C69" text-anchor="middle">器在人手里，成色不变</text>
-<text x="280" y="406" font-size="4.1" fill="#4A5C55">不砸器回朴：</text>
-<text x="280" y="420" font-size="4.1" fill="#4A5C55">砸也是造作，</text>
-<text x="280" y="434" font-size="4.1" fill="#4A5C55">还要用刀毁刀。</text>
+<text x="190" y="492" font-size="4.1" fill="#4A5C55" text-anchor="middle">不砸器回朴——砸也是造作，还要用刀去毁刀的结果。</text>
 <text x="190" y="372" font-size="4.3" fill="#4A5C55" text-anchor="middle">刀收了，木没有被剖尽，器也没有被推翻</text>
 <text x="24" y="520" font-size="4.8" fill="#2F2A24">「朴散则为器」：散是必然，万物各有形状、各有边界、各有限度。</text>
 <text x="24" y="536" font-size="4.8" fill="#2F2A24">「圣人用之」：不是他能造器，是他认得每一件器本来是什么。</text>
 <text x="24" y="554" font-size="4.8" fill="#4A5C55">「大制不割」：分是看清，割是定性——看清可以，定性不行。</text>
 <line x1="24" y1="572" x2="338" y2="572" stroke="#DCCBB0" stroke-width="0.6"/>
 <rect x="20" y="580" width="340" height="40" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
-<text x="190" y="596" font-size="5.8" fill="#2F2A24" text-anchor="middle">散是必然，认下这个散，在散里用。</text>
-<text x="190" y="608" font-size="5.0" fill="#4A5C55" text-anchor="middle">制字带刀，割字带刀，而大制不割。</text>
+<text x="190" y="596" font-size="5.8" fill="#2F2A24" text-anchor="middle">散不是堕落，是各得其用。</text>
+<text x="190" y="608" font-size="5.0" fill="#4A5C55" text-anchor="middle">刀还在手里，只是不必落。</text>
 <line x1="20" y1="634" x2="360" y2="634" stroke="#E6D8C2" stroke-width="0.8"/>
 <text x="20" y="648" font-size="8.0" fill="#A89577" letter-spacing="1">本 章 金 句</text>
 <text x="20" y="664" font-size="8.4" fill="#2F2A24">散是必然，认下这个散，在散里用。</text>

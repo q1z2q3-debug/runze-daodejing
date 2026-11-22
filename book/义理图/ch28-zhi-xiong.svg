@@ -1,71 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg viewBox="0 0 380 608" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="知而不必，是心法" font-family="'Noto Serif CJK SC','Noto Serif SC','Songti SC',serif">
+<svg viewBox="0 0 380 594" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="看得见两头，脚才站得稳一头" font-family="'Noto Serif CJK SC','Noto Serif SC','Songti SC',serif">
 <defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#6E6459"/></marker><marker id="arr2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#4A5C55"/></marker><marker id="arrL" viewBox="0 0 10 10" refX="1" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M10 0 L0 5 L10 10 z" fill="#4A5C55"/></marker><marker id="arrS" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#A2503B"/></marker></defs>
-<rect x="0" y="0" width="380" height="608" fill="#F8F3E6"/>
-<text x="20" y="26" font-size="11" fill="#A2503B" font-family="'Noto Sans CJK SC','Noto Sans SC',sans-serif" letter-spacing="3">第 二 十 八 章 · 溪 谷</text>
+<rect x="0" y="0" width="380" height="594" fill="#F8F3E6"/>
+<text x="20" y="26" font-size="11" fill="#A2503B" font-family="'Noto Sans CJK SC','Noto Sans SC',sans-serif" letter-spacing="3">第 二 十 八 章 · 知 与 守</text>
 <text x="20" y="58" font-size="21" fill="#2F2A24">知其雄</text>
 <text x="20" y="78" font-size="10.5" fill="#6E6459">知与守同时：看见了，但不往那儿去。</text>
-<text x="26" y="106" font-size="7.4" fill="#8A7C69">知（照见）</text>
-<text x="78" y="106" font-size="7.4" fill="#8A7C69">守（安住）</text>
-<text x="134" y="106" font-size="7.4" fill="#8A7C69">为天下</text>
-<text x="198" y="106" font-size="7.4" fill="#8A7C69">常德</text>
-<text x="266" y="106" font-size="7.4" fill="#8A7C69">复归</text>
-<rect x="26" y="116" width="44" height="22" fill="#FBF6EC" stroke="#DCCBB0" stroke-width="1.0"/>
-<text x="48" y="131" font-size="9.2" fill="#2F2A24" text-anchor="middle">雄</text>
-<rect x="78" y="116" width="44" height="22" fill="#EFE3CC" stroke="#C9B79A" stroke-width="1.0"/>
-<text x="100" y="131" font-size="9.2" fill="#2F2A24" text-anchor="middle">雌</text>
-<line x1="72" y1="127" x2="74" y2="127" stroke="#A2503B" stroke-width="0.9" marker-end="url(#arrS)"/>
-<text x="134" y="131" font-size="8.4" fill="#4A5C55">为天下溪</text>
-<text x="198" y="131" font-size="8.0" fill="#2F2A24">常德不离</text>
-<text x="266" y="131" font-size="8.0" fill="#A2503B">复归婴儿</text>
-<rect x="26" y="164" width="44" height="22" fill="#FBF6EC" stroke="#DCCBB0" stroke-width="1.0"/>
-<text x="48" y="179" font-size="9.2" fill="#2F2A24" text-anchor="middle">白</text>
-<rect x="78" y="164" width="44" height="22" fill="#EFE3CC" stroke="#C9B79A" stroke-width="1.0"/>
-<text x="100" y="179" font-size="9.2" fill="#2F2A24" text-anchor="middle">黑</text>
-<line x1="72" y1="175" x2="74" y2="175" stroke="#A2503B" stroke-width="0.9" marker-end="url(#arrS)"/>
-<text x="134" y="179" font-size="8.4" fill="#4A5C55">为天下式</text>
-<text x="198" y="179" font-size="8.0" fill="#2F2A24">常德不忒</text>
-<text x="266" y="179" font-size="8.0" fill="#A2503B">复归无极</text>
-<rect x="26" y="212" width="44" height="22" fill="#FBF6EC" stroke="#DCCBB0" stroke-width="1.0"/>
-<text x="48" y="227" font-size="9.2" fill="#2F2A24" text-anchor="middle">荣</text>
-<rect x="78" y="212" width="44" height="22" fill="#EFE3CC" stroke="#C9B79A" stroke-width="1.0"/>
-<text x="100" y="227" font-size="9.2" fill="#2F2A24" text-anchor="middle">辱</text>
-<line x1="72" y1="223" x2="74" y2="223" stroke="#A2503B" stroke-width="0.9" marker-end="url(#arrS)"/>
-<text x="134" y="227" font-size="8.4" fill="#4A5C55">为天下谷</text>
-<text x="198" y="227" font-size="8.0" fill="#2F2A24">常德乃足</text>
-<text x="266" y="227" font-size="8.0" fill="#A2503B">复归朴</text>
-<text x="20" y="268" font-size="8.2" fill="#6E6459">知是照见，守是安住；不是先看、再退两步——知不必通向取。</text>
-<rect x="20" y="286" width="162" height="38" fill="#F6EFE0" stroke="#C9B79A" stroke-width="1.0"/>
-<text x="101" y="302" font-size="8.8" fill="#4A5C55" text-anchor="middle">溪：众水所归</text>
-<text x="101" y="316" font-size="7.6" fill="#6E6459" text-anchor="middle">受——低处，水自己来</text>
-<rect x="198" y="286" width="162" height="38" fill="#F6EFE0" stroke="#C9B79A" stroke-width="1.0"/>
-<text x="279" y="302" font-size="8.8" fill="#4A5C55" text-anchor="middle">谷：泉水所出</text>
-<text x="279" y="316" font-size="7.6" fill="#6E6459" text-anchor="middle">出——虚而能出</text>
-<text x="20" y="340" font-size="8.4" fill="#A2503B">朴散则为器：原木一剖，才成了一件件有用的东西。</text>
-<rect x="26" y="350" width="58" height="40" fill="#D9C7A6" stroke="#B9A98F" stroke-width="1.0"/>
-<text x="55" y="374" font-size="8.8" fill="#2F2A24" text-anchor="middle">朴</text>
-<line x1="88" y1="356" x2="172" y2="354" stroke="#6E6459" stroke-width="0.7" marker-end="url(#arr)"/>
-<line x1="88" y1="370" x2="172" y2="370" stroke="#6E6459" stroke-width="0.7" marker-end="url(#arr)"/>
-<line x1="88" y1="384" x2="172" y2="386" stroke="#6E6459" stroke-width="0.7" marker-end="url(#arr)"/>
-<circle cx="186" cy="354" r="7.5" fill="#F2EADA" stroke="#DCCBB0" stroke-width="0.9"/>
-<rect x="178" y="363" width="15" height="15" fill="#F2EADA" stroke="#DCCBB0" stroke-width="0.9"/>
-<polygon points="186,379 195,394 177,394" fill="#F2EADA" stroke="#DCCBB0" stroke-width="0.9"/>
-<text x="206" y="366" font-size="7.6" fill="#6E6459">同一条原木，</text>
-<text x="206" y="378" font-size="7.6" fill="#6E6459">剖开就各有其用</text>
-<text x="20" y="410" font-size="8.0" fill="#8A7C69">散是必然：老子不砸器回朴，是认下这个散，在散里用。</text>
-<text x="20" y="436" font-size="8.4" fill="#A2503B">大制不割：最高明的裁制，是刀不动。</text>
-<rect x="30" y="460" width="64" height="20" fill="#D9C7A6" stroke="#B9A98F" stroke-width="1.0"/>
-<text x="62" y="474" font-size="8.2" fill="#2F2A24" text-anchor="middle">木</text>
-<rect x="58" y="436" width="7" height="5" fill="#E9DFCC" stroke="#A2503B" stroke-width="0.8"/>
-<line x1="61" y1="441" x2="61" y2="454" stroke="#A2503B" stroke-width="1.6"/>
-<line x1="61" y1="453" x2="61" y2="460" stroke="#A2503B" stroke-width="0.9" stroke-dasharray="2 2"/>
-<text x="106" y="458" font-size="7.8" fill="#A2503B">刀悬在木上，不落</text>
-<text x="106" y="472" font-size="7.6" fill="#8A7C69">制、割二字都带刀，老子偏说不割</text>
-<rect x="20" y="492" width="340" height="44" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
-<text x="190" y="511" font-size="9.6" fill="#2F2A24" text-anchor="middle" letter-spacing="0.6">知而不必，是心法；知而让，是权谋。</text>
-<text x="190" y="526" font-size="8.2" fill="#6E6459" text-anchor="middle">守不是没本事上去，是有本事，但不往那儿去。</text>
-<line x1="20" y1="544" x2="360" y2="544" stroke="#E6D8C2" stroke-width="0.8"/>
-<text x="20" y="558" font-size="8.0" fill="#A89577" letter-spacing="1">本 章 金 句</text>
-<text x="20" y="574" font-size="8.4" fill="#2F2A24">装弱是权谋，守雌是心法；权谋是知而让，心法是知而不必。</text>
-<text x="20" y="590" font-size="8.4" fill="#2F2A24">散是必然，老子的态度不是砸器回朴，是认下这个散，在散里用。</text>
+<rect x="20" y="102" width="340" height="34" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="190" y="114" font-size="4.7" fill="#2F2A24" text-anchor="middle">「知」是照见（第十六章「知常曰明」）；「守」是安住，不是退让。</text>
+<text x="190" y="127" font-size="4.7" fill="#6E6459">「知其雄，守其雌」不是先看后让——是看见了，同时不往那儿去。</text>
+<text x="24" y="152" font-size="5.1" fill="#A2503B">一、目光到两头，脚只在这一头</text>
+<rect x="26" y="164" width="328" height="222" fill="#FBF6EC" stroke="#DCCBB0" stroke-width="0.8"/>
+<line x1="70" y1="350" x2="330" y2="226" stroke="#2F2A24" stroke-width="1.2"/>
+<line x1="292" y1="230" x2="330" y2="230" stroke="#E6D8C2" stroke-width="1.0"/>
+<polygon points="296,230 304,218 314,218 322,230" fill="#EFE6D4" stroke="#2F2A24" stroke-width="0.9"/>
+<rect x="228" y="228" width="54" height="16" fill="#F3EAD8" stroke="#2F2A24" stroke-width="0.8"/>
+<text x="255" y="239" font-size="4.3" fill="#2F2A24" text-anchor="middle">雄·白·荣</text>
+<rect x="40" y="360" width="54" height="16" fill="#F3EAD8" stroke="#2F2A24" stroke-width="0.8"/>
+<text x="67" y="371" font-size="4.3" fill="#2F2A24" text-anchor="middle">雌·黑·辱</text>
+<circle cx="150" cy="271.8461538461538" r="5.6" fill="none" stroke="#2F2A24" stroke-width="1.0"/>
+<line x1="150" y1="277.8461538461538" x2="150" y2="301.8461538461538" stroke="#2F2A24" stroke-width="1.2"/>
+<line x1="150" y1="301.8461538461538" x2="144" y2="311.8461538461538" stroke="#2F2A24" stroke-width="1.0"/>
+<line x1="150" y1="301.8461538461538" x2="156" y2="311.8461538461538" stroke="#2F2A24" stroke-width="1.0"/>
+<line x1="150" y1="285.8461538461538" x2="143" y2="297.8461538461538" stroke="#2F2A24" stroke-width="0.9"/>
+<line x1="150" y1="285.8461538461538" x2="157" y2="297.8461538461538" stroke="#2F2A24" stroke-width="0.9"/>
+<line x1="150" y1="267.8461538461538" x2="255" y2="238" stroke="#A2503B" stroke-width="0.6" stroke-dasharray="3 3" opacity="0.75"/>
+<line x1="150" y1="267.8461538461538" x2="67" y2="362" stroke="#A2503B" stroke-width="0.6" stroke-dasharray="3 3" opacity="0.75"/>
+<rect x="146" y="310.8461538461538" width="8" height="3.2" fill="#A2503B" stroke="none" opacity="0.55"/>
+<text x="162" y="322.8461538461538" font-size="3.9" fill="#A2503B">脚在这儿</text>
+<text x="150" y="259.8461538461538" font-size="3.9" fill="#A2503B" text-anchor="middle">眼到两头</text>
+<text x="24" y="408" font-size="4.8" fill="#2F2A24">权谋的守是暂存，目的在取；心法的守是安住，目的不在取。</text>
+<text x="24" y="424" font-size="4.8" fill="#2F2A24">知不必通向取——所以守不是让，是不必取。</text>
+<text x="24" y="442" font-size="4.8" fill="#4A5C55">一显，就成了特例；特例不能当范式。</text>
+<line x1="24" y1="460" x2="338" y2="460" stroke="#DCCBB0" stroke-width="0.6"/>
+<rect x="20" y="468" width="340" height="40" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="190" y="484" font-size="6.0" fill="#2F2A24" text-anchor="middle">知而不必，是心法；知而让，是权谋。</text>
+<text x="190" y="496" font-size="5.0" fill="#4A5C55" text-anchor="middle">守不是没本事上去，是有本事，但不往那儿去。</text>
+<line x1="20" y1="522" x2="360" y2="522" stroke="#E6D8C2" stroke-width="0.8"/>
+<text x="20" y="536" font-size="8.0" fill="#A89577" letter-spacing="1">本 章 金 句</text>
+<text x="20" y="552" font-size="8.4" fill="#2F2A24">装弱是权谋，守雌是心法；权谋是知而让，心法是知而不必。</text>
+<text x="20" y="568" font-size="8.4" fill="#2F2A24">一显，就成了特例；特例不能当范式。</text>
 </svg>
