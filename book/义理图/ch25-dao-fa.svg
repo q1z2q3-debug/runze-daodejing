@@ -1,58 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg viewBox="0 0 380 562" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="名只是手指，四大只到自然为止" font-family="'Noto Serif CJK SC','Noto Serif SC','Songti SC',serif">
+<svg viewBox="0 0 380 710" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="走去，走回来，一趟又一趟" font-family="'Noto Serif CJK SC','Noto Serif SC','Songti SC',serif">
 <defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#6E6459"/></marker><marker id="arr2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#4A5C55"/></marker><marker id="arrL" viewBox="0 0 10 10" refX="1" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M10 0 L0 5 L10 10 z" fill="#4A5C55"/></marker><marker id="arrS" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#A2503B"/></marker></defs>
-<rect x="0" y="0" width="380" height="562" fill="#F8F3E6"/>
-<text x="20" y="26" font-size="11" fill="#A2503B" font-family="'Noto Sans CJK SC','Noto Sans SC',sans-serif" letter-spacing="3">第 二 十 五 章 · 总 纲</text>
-<text x="20" y="58" font-size="21" fill="#2F2A24">道法自然</text>
-<text x="20" y="78" font-size="10.5" fill="#6E6459">不是它比天地老，是天地离了它不成。</text>
-<text x="20" y="116" font-size="8.8" fill="#8A7C69">强为之名：字之曰道，名之曰大</text>
-<rect x="20" y="124" width="38" height="26" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
-<text x="39" y="142" font-size="10" fill="#A2503B" text-anchor="middle">道</text>
-<rect x="64" y="124" width="38" height="26" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
-<text x="83" y="142" font-size="10" fill="#A2503B" text-anchor="middle">大</text>
-<rect x="108" y="124" width="38" height="26" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
-<text x="127" y="142" font-size="10" fill="#A2503B" text-anchor="middle">逝</text>
-<rect x="152" y="124" width="38" height="26" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
-<text x="171" y="142" font-size="10" fill="#A2503B" text-anchor="middle">远</text>
-<rect x="196" y="124" width="38" height="26" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
-<text x="215" y="142" font-size="10" fill="#A2503B" text-anchor="middle">反</text>
-<line x1="250" y1="137" x2="296" y2="137" stroke="#6E6459" stroke-width="1.2" marker-end="url(#arr)"/>
-<circle cx="324" cy="137" r="18" fill="none" stroke="#DCCBB0" stroke-width="1" stroke-dasharray="3 3"/>
-<text x="324" y="141" font-size="11" fill="#6E6459" text-anchor="middle">？</text>
-<text x="20" y="166" font-size="8.2" fill="#8A7C69">名是给有边界的东西用的；对没有边界的东西，名只是手指。</text>
-<rect x="20" y="182" width="92" height="22" fill="#FBF6EC" stroke="#C9B79A" stroke-width="1.0"/>
-<text x="66" y="197" font-size="9.4" fill="#2F2A24" text-anchor="middle">王</text>
-<text x="120" y="197" font-size="8.0" fill="#6E6459">人亦大：四大之一</text>
-<rect x="20" y="208" width="92" height="22" fill="#FBF6EC" stroke="#C9B79A" stroke-width="1.0"/>
-<text x="66" y="223" font-size="9.4" fill="#2F2A24" text-anchor="middle">地</text>
-<text x="120" y="223" font-size="8.0" fill="#6E6459">厚而载</text>
-<line x1="66" y1="204" x2="66" y2="209" stroke="#C9B79A" stroke-width="1.2" marker-end="url(#arr)"/>
-<rect x="20" y="234" width="92" height="22" fill="#FBF6EC" stroke="#C9B79A" stroke-width="1.0"/>
-<text x="66" y="249" font-size="9.4" fill="#2F2A24" text-anchor="middle">天</text>
-<text x="120" y="249" font-size="8.0" fill="#6E6459">覆而运</text>
-<line x1="66" y1="230" x2="66" y2="235" stroke="#C9B79A" stroke-width="1.2" marker-end="url(#arr)"/>
-<rect x="20" y="260" width="92" height="22" fill="#E9DFCC" stroke="#C9B79A" stroke-width="1.0"/>
-<text x="66" y="275" font-size="9.4" fill="#2F2A24" text-anchor="middle">道</text>
-<text x="120" y="275" font-size="8.0" fill="#6E6459">自本自根</text>
-<line x1="66" y1="256" x2="66" y2="261" stroke="#C9B79A" stroke-width="1.2" marker-end="url(#arr)"/>
-<text x="240" y="196" font-size="8.6" fill="#8A7C69">域中有四大，</text>
-<text x="240" y="212" font-size="8.6" fill="#8A7C69">而王居其一焉。</text>
-<rect x="20" y="294" width="340" height="36" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
-<text x="190" y="310" font-size="9.6" fill="#2F2A24" text-anchor="middle">人法地 → 地法天 → 天法道 → 道法自然</text>
-<text x="190" y="325" font-size="8.0" fill="#6E6459" text-anchor="middle">法者，以其为则：不是层层复制，是逐层取法。</text>
-<circle cx="150" cy="392" r="34" fill="none" stroke="#DCCBB0" stroke-width="1" stroke-dasharray="3 3"/>
-<text x="150.0" y="362.0" font-size="10" fill="#4A5C55" text-anchor="middle">逝</text>
-<text x="179.44486372867092" y="413.0" font-size="10" fill="#4A5C55" text-anchor="middle">远</text>
-<text x="120.55513627132908" y="413.0" font-size="10" fill="#4A5C55" text-anchor="middle">反</text>
-<text x="150" y="396" font-size="8.6" fill="#8A7C69" text-anchor="middle">环</text>
-<text x="196" y="374" font-size="8.8" fill="#A2503B">大曰逝，逝曰远，远曰反</text>
-<text x="196" y="390" font-size="8.2" fill="#6E6459">世界不是一场没有回头路的散开，</text>
-<text x="196" y="404" font-size="8.2" fill="#6E6459">是一次呼吸。</text>
-<rect x="20" y="440" width="340" height="40" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
-<text x="190" y="458" font-size="10.4" fill="#2F2A24" text-anchor="middle" letter-spacing="1">道法自然。</text>
-<text x="190" y="473" font-size="8.2" fill="#6E6459" text-anchor="middle">上面没有更高的东西在命令它：自己如此，不借外力。</text>
-<line x1="20" y1="488" x2="360" y2="488" stroke="#E6D8C2" stroke-width="0.8"/>
-<text x="20" y="502" font-size="8.0" fill="#A89577" letter-spacing="1">本 章 金 句</text>
-<text x="20" y="518" font-size="8.4" fill="#2F2A24">不是它比天地老，是天地离了它不成。</text>
-<text x="20" y="534" font-size="8.4" fill="#2F2A24">名是给有边界的东西用的；对没有边界的东西，名只是手指。</text>
+<rect x="0" y="0" width="380" height="710" fill="#F8F3E6"/>
+<text x="20" y="26" font-size="11" fill="#A2503B" font-family="'Noto Sans CJK SC','Noto Sans SC',sans-serif" letter-spacing="3">第 二 十 五 章 · 有 物 混 成</text>
+<text x="20" y="58" font-size="21" fill="#2F2A24">去了又回</text>
+<text x="20" y="78" font-size="10.5" fill="#6E6459">独立而不改，周行而不殆。</text>
+<rect x="20" y="102" width="340" height="34" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="190" y="114" font-size="4.7" fill="#2F2A24" text-anchor="middle">大：无边无际；逝：向外流衍；远：越伸越远；反：同「返」，回本源。</text>
+<text x="190" y="127" font-size="4.8" fill="#6E6459" text-anchor="middle">周行：循环运行；殆：危、竭——走一趟，回到起点，再走一趟。</text>
+<rect x="26" y="152" width="328" height="166" fill="#FBF6EC" stroke="#DCCBB0" stroke-width="0.8"/>
+<line x1="60" y1="210" x2="288" y2="210" stroke="#A2503B" stroke-width="1.2" marker-end="url(#arrS)"/>
+<path d="M288,210 A33,33 0 0 1 288,276" fill="none" stroke="#A2503B" stroke-width="1.2"/>
+<line x1="288" y1="276" x2="62" y2="276" stroke="#4A5C55" stroke-width="1.2" marker-end="url(#arr2)"/>
+<line x1="60" y1="274" x2="52" y2="214" stroke="#4A5C55" stroke-width="0.9" stroke-dasharray="4 2"/>
+<circle cx="50" cy="210" r="3.6" fill="#A2503B"/>
+<text x="60" y="203" font-size="4.2" fill="#A2503B">大：从这里出去</text>
+<text x="174" y="203" font-size="4.2" fill="#A2503B" text-anchor="middle">逝：一路淌开</text>
+<text x="284" y="202" font-size="4.2" fill="#A2503B" text-anchor="end">远：走到极处</text>
+<text x="72" y="292" font-size="4.2" fill="#4A5C55">反：还是这条路，回来了</text>
+<text x="190" y="302" font-size="4.0" fill="#6E6459" text-anchor="middle">去的那一趟、回的那一趟，是同一条路。</text>
+<text x="24" y="331" font-size="5.0" fill="#A2503B">一、一条路走到头，拐回来：只讲逝是散开，只讲反是死水</text>
+<rect x="26" y="344" width="328" height="150" fill="#FBF6EC" stroke="#DCCBB0" stroke-width="0.8"/>
+<path d="M44,384 C120,378 240,390 336,382" fill="none" stroke="#C9B79A" stroke-width="0.9"/>
+<path d="M44,464 C130,472 240,458 336,466" fill="none" stroke="#C9B79A" stroke-width="0.9"/>
+<path d="M178,396 L212,394 L220,422 L214,450 L180,452 L172,424 Z" fill="#DCD0B6" stroke="#2F2A24" stroke-width="1.2"/>
+<path d="M44,406 C100,400 140,398 158,392 C176,386 206,386 224,392 C248,398 292,398 336,396" fill="none" stroke="#4A5C55" stroke-width="1.0"/>
+<path d="M44,444 C100,450 140,452 158,456 C176,462 206,462 224,456 C248,450 292,450 336,448" fill="none" stroke="#4A5C55" stroke-width="1.0"/>
+<path d="M179,398 L209,396" fill="none" stroke="#B5A583" stroke-width="0.8"/>
+<path d="M179,436 L214,438" fill="none" stroke="#B5A583" stroke-width="0.8"/>
+<path d="M336,396 L336,446" fill="none" stroke="#4A5C55" stroke-width="0"/>
+<text x="240" y="374" font-size="4.1" fill="#4A5C55" text-anchor="middle">水一直流</text>
+<text x="196" y="476" font-size="4.1" fill="#A2503B" text-anchor="middle">石一直不动</text>
+<text x="24" y="507" font-size="5.0" fill="#4A5C55">二、河心的石头：水绕着它走，它不跟着走</text>
+<text x="24" y="524" font-size="4.9" fill="#2F2A24">「独立」，不依他物而立；「不改」，不随物迁变：草木荣枯、王朝兴废都在这账上，它不在。</text>
+<text x="24" y="540" font-size="4.9" fill="#2F2A24">「独立不改」在前，「周行不殆」在后：先立得住，才转得动。</text>
+<text x="24" y="558" font-size="4.9" fill="#4A5C55">反过来：一个东西要靠不停运转来证明自己存在，那它其实立不住。</text>
+<line x1="24" y1="576" x2="338" y2="576" stroke="#DCCBB0" stroke-width="0.6"/>
+<rect x="20" y="584" width="340" height="40" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="190" y="600" font-size="5.4" fill="#2F2A24" text-anchor="middle">世界不是一场没有回头路的散开，是一次呼吸。</text>
+<text x="190" y="612" font-size="4.5" fill="#4A5C55" text-anchor="middle">先立得住，才转得动。</text>
+<line x1="20" y1="638" x2="360" y2="638" stroke="#E6D8C2" stroke-width="0.8"/>
+<text x="20" y="652" font-size="8.0" fill="#A89577" letter-spacing="1">本 章 金 句</text>
+<text x="20" y="668" font-size="8.4" fill="#2F2A24">一个东西要靠不停运转来证明自己存在，那它其实立不住。</text>
+<text x="20" y="684" font-size="8.4" fill="#2F2A24">世界不是一场没有回头路的散开，是一次呼吸。</text>
 </svg>
