@@ -1,49 +1,55 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg viewBox="0 0 380 548" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="善不是做得多，是做完不留把柄" font-family="'Noto Serif CJK SC','Noto Serif SC','Songti SC',serif">
+<svg viewBox="0 0 380 690" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="载重而行，路还是平的" font-family="'Noto Serif CJK SC','Noto Serif SC','Songti SC',serif">
 <defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#6E6459"/></marker><marker id="arr2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#4A5C55"/></marker><marker id="arrL" viewBox="0 0 10 10" refX="1" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M10 0 L0 5 L10 10 z" fill="#4A5C55"/></marker><marker id="arrS" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#A2503B"/></marker></defs>
-<rect x="0" y="0" width="380" height="548" fill="#F8F3E6"/>
-<text x="20" y="26" font-size="11" fill="#A2503B" font-family="'Noto Sans CJK SC','Noto Sans SC',sans-serif" letter-spacing="3">第 二 十 七 章 · 善 用</text>
+<rect x="0" y="0" width="380" height="690" fill="#F8F3E6"/>
+<text x="20" y="26" font-size="11" fill="#A2503B" font-family="'Noto Sans CJK SC','Noto Sans SC',sans-serif" letter-spacing="3">第 二 十 七 章 · 辙 迹</text>
 <text x="20" y="58" font-size="21" fill="#2F2A24">善行无辙迹</text>
-<text x="20" y="78" font-size="10.5" fill="#6E6459">五种善，五次「不用工具」；不用，事也成了。</text>
-<text x="20" y="120" font-size="9.6" fill="#A2503B">善行</text>
-<line x1="64" y1="115" x2="86" y2="115" stroke="#C9B79A" stroke-width="1.2" marker-end="url(#arr)"/>
-<text x="92" y="120" font-size="9.0" fill="#2F2A24">无辙迹</text>
-<text x="172" y="120" font-size="7.8" fill="#6E6459">路面上最深那道沟，是载重的车压出来的</text>
-<text x="20" y="150" font-size="9.6" fill="#A2503B">善言</text>
-<line x1="64" y1="145" x2="86" y2="145" stroke="#C9B79A" stroke-width="1.2" marker-end="url(#arr)"/>
-<text x="92" y="150" font-size="9.0" fill="#2F2A24">无瑕谪</text>
-<text x="172" y="150" font-size="7.8" fill="#6E6459">不是说得漂亮，是说得干净</text>
-<text x="20" y="180" font-size="9.6" fill="#A2503B">善数</text>
-<line x1="64" y1="175" x2="86" y2="175" stroke="#C9B79A" stroke-width="1.2" marker-end="url(#arr)"/>
-<text x="92" y="180" font-size="9.0" fill="#2F2A24">不用筹策</text>
-<text x="172" y="180" font-size="7.8" fill="#6E6459">数得对，不必把筹码摊一桌</text>
-<text x="20" y="210" font-size="9.6" fill="#A2503B">善闭</text>
-<line x1="64" y1="205" x2="86" y2="205" stroke="#C9B79A" stroke-width="1.2" marker-end="url(#arr)"/>
-<text x="92" y="210" font-size="9.0" fill="#2F2A24">无关楗</text>
-<text x="172" y="210" font-size="7.8" fill="#6E6459">门不闩，也开不了</text>
-<text x="20" y="240" font-size="9.6" fill="#A2503B">善结</text>
-<line x1="64" y1="235" x2="86" y2="235" stroke="#C9B79A" stroke-width="1.2" marker-end="url(#arr)"/>
-<text x="92" y="240" font-size="9.0" fill="#2F2A24">无绳约</text>
-<text x="172" y="240" font-size="7.8" fill="#6E6459">绳不用，也解不开</text>
-<text x="20" y="260" font-size="8.4" fill="#8A7C69">五个「不」都是同一件事：动作做尽，痕迹不落。</text>
-<rect x="20" y="276" width="162" height="42" fill="#F6EFE0" stroke="#C9B79A" stroke-width="1.0"/>
-<text x="101" y="294" font-size="8.6" fill="#4A5C55" text-anchor="middle">常善救人：无弃人</text>
-<text x="101" y="309" font-size="7.6" fill="#6E6459" text-anchor="middle">不是心肠软，是分类不成立</text>
-<rect x="198" y="276" width="162" height="42" fill="#F6EFE0" stroke="#C9B79A" stroke-width="1.0"/>
-<text x="279" y="294" font-size="8.6" fill="#4A5C55" text-anchor="middle">常善救物：无弃物</text>
-<text x="279" y="309" font-size="7.6" fill="#6E6459" text-anchor="middle">不是用得省，是没有废物这一格</text>
-<text x="20" y="334" font-size="8.2" fill="#8A7C69">是谓袭明：这份明不是自己点的，是从上头承来的。</text>
-<rect x="20" y="350" width="162" height="42" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
-<text x="101" y="368" font-size="9" fill="#2F2A24" text-anchor="middle">善人：师</text>
-<text x="101" y="383" font-size="7.8" fill="#6E6459" text-anchor="middle">给一个方向</text>
-<rect x="198" y="350" width="162" height="42" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
-<text x="279" y="368" font-size="9" fill="#2F2A24" text-anchor="middle">不善人：资</text>
-<text x="279" y="383" font-size="7.8" fill="#6E6459" text-anchor="middle">给一份本钱</text>
-<rect x="20" y="408" width="340" height="42" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
-<text x="190" y="427" font-size="9.6" fill="#2F2A24" text-anchor="middle">不贵其师，不爱其资，虽智大迷。</text>
-<text x="190" y="442" font-size="8.4" fill="#A2503B" text-anchor="middle">迷不在无知，在太会分。</text>
-<line x1="20" y1="458" x2="360" y2="458" stroke="#E6D8C2" stroke-width="0.8"/>
-<text x="20" y="472" font-size="8.0" fill="#A89577" letter-spacing="1">本 章 金 句</text>
-<text x="20" y="488" font-size="8.4" fill="#2F2A24">玉的病在里头，言的病在把柄上。</text>
-<text x="20" y="504" font-size="8.4" fill="#2F2A24">不是他心肠软，是他看见的分类不成立。</text>
+<text x="20" y="78" font-size="10.5" fill="#6E6459">载着很重的东西走过去，路上却不留沟。</text>
+<rect x="20" y="102" width="340" height="34" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="190" y="114" font-size="4.7" fill="#2F2A24" text-anchor="middle">「辙」，《说文》「车迹也」：路面上最深那道沟，是载重的车压出来的。</text>
+<text x="190" y="127" font-size="4.7" fill="#6E6459">「无辙迹」不是轻身飘过——是重过去了，路还平。</text>
+<text x="24" y="152" font-size="5.1" fill="#A2503B">一、把重卸给路：两道沟，几年不平</text>
+<rect x="26" y="164" width="328" height="152" fill="#FBF6EC" stroke="#DCCBB0" stroke-width="0.8"/>
+<line x1="44" y1="276" x2="316" y2="276" stroke="#2F2A24" stroke-width="1.1"/>
+<rect x="120" y="218" width="112" height="26" fill="#EFE6D4" stroke="#2F2A24" stroke-width="1.1"/>
+<rect x="126" y="202" width="26" height="16" fill="#F3EAD8" stroke="#2F2A24" stroke-width="0.8"/>
+<rect x="168" y="202" width="26" height="16" fill="#F3EAD8" stroke="#2F2A24" stroke-width="0.8"/>
+<line x1="120" y1="232" x2="100" y2="240" stroke="#2F2A24" stroke-width="1.0"/>
+<line x1="138" y1="260" x2="216" y2="260" stroke="#2F2A24" stroke-width="2.0"/>
+<circle cx="138" cy="260" r="14" fill="none" stroke="#2F2A24" stroke-width="1.2"/>
+<circle cx="138" cy="260" r="3.2" fill="none" stroke="#2F2A24" stroke-width="0.7"/>
+<circle cx="216" cy="260" r="14" fill="none" stroke="#2F2A24" stroke-width="1.2"/>
+<circle cx="216" cy="260" r="3.2" fill="none" stroke="#2F2A24" stroke-width="0.7"/>
+<path d="M135,276 L135,284 Q146,295 157,284 L157,276" fill="#E4D4B8" stroke="#2F2A24" stroke-width="0.7"/>
+<circle cx="129" cy="282" r="1.6" fill="#DCCBB0" stroke="none"/>
+<circle cx="164" cy="284" r="1.2" fill="#DCCBB0" stroke="none"/>
+<path d="M199,276 L199,284 Q210,295 221,284 L221,276" fill="#E4D4B8" stroke="#2F2A24" stroke-width="0.7"/>
+<circle cx="193" cy="282" r="1.6" fill="#DCCBB0" stroke="none"/>
+<circle cx="228" cy="284" r="1.2" fill="#DCCBB0" stroke="none"/>
+<text x="190" y="194" font-size="4.3" fill="#A2503B" text-anchor="middle">路面替车记了一辈子</text>
+<text x="190" y="306" font-size="4.1" fill="#8A7C69" text-anchor="middle">辙是留给路的分量</text>
+<text x="24" y="338" font-size="5.1" fill="#4A5C55">二、重自己吃下：轴弯了，路是平的</text>
+<rect x="26" y="350" width="328" height="152" fill="#FBF6EC" stroke="#DCCBB0" stroke-width="0.8"/>
+<line x1="44" y1="462" x2="316" y2="462" stroke="#2F2A24" stroke-width="1.1"/>
+<rect x="120" y="404" width="112" height="26" fill="#EFE6D4" stroke="#2F2A24" stroke-width="1.1"/>
+<rect x="126" y="388" width="26" height="16" fill="#F3EAD8" stroke="#2F2A24" stroke-width="0.8"/>
+<rect x="168" y="388" width="26" height="16" fill="#F3EAD8" stroke="#2F2A24" stroke-width="0.8"/>
+<line x1="120" y1="418" x2="100" y2="426" stroke="#2F2A24" stroke-width="1.0"/>
+<path d="M138,446 L158,455 L196,455 L216,446" fill="none" stroke="#2F2A24" stroke-width="2.0"/>
+<circle cx="138" cy="446" r="14" fill="none" stroke="#2F2A24" stroke-width="1.2"/>
+<circle cx="138" cy="446" r="3.2" fill="none" stroke="#2F2A24" stroke-width="0.7"/>
+<circle cx="216" cy="446" r="14" fill="none" stroke="#2F2A24" stroke-width="1.2"/>
+<circle cx="216" cy="446" r="3.2" fill="none" stroke="#2F2A24" stroke-width="0.7"/>
+<text x="190" y="380" font-size="4.3" fill="#4A5C55" text-anchor="middle">分量压在轴上，路面不必记住它</text>
+<text x="190" y="492" font-size="4.1" fill="#8A7C69" text-anchor="middle">轴是车自己吃下的分量</text>
+<text x="24" y="520" font-size="4.8" fill="#2F2A24">辙是留给路的分量：路面替车记一辈子。</text>
+<text x="24" y="536" font-size="4.8" fill="#2F2A24">轴是车自己吃下的分量：分量压在轴上，路面就不必记它。</text>
+<text x="24" y="554" font-size="4.8" fill="#4A5C55">分量在哪儿，痕迹就在哪儿；真正重的人，分量全在自己身上。</text>
+<line x1="24" y1="572" x2="338" y2="572" stroke="#DCCBB0" stroke-width="0.6"/>
+<rect x="20" y="580" width="340" height="40" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="190" y="596" font-size="6.0" fill="#2F2A24" text-anchor="middle">重不在路上，在轴上。</text>
+<text x="190" y="608" font-size="5.0" fill="#4A5C55" text-anchor="middle">挂在别人眼前的分量，才压得出沟。</text>
+<line x1="20" y1="634" x2="360" y2="634" stroke="#E6D8C2" stroke-width="0.8"/>
+<text x="20" y="648" font-size="8.0" fill="#A89577" letter-spacing="1">本 章 金 句</text>
+<text x="20" y="664" font-size="8.4" fill="#2F2A24">路面上最深的那道沟，是载重的车压出来的。</text>
 </svg>

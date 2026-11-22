@@ -22,9 +22,13 @@
 <line x1="96" y1="268" x2="96" y2="234" stroke="#2F2A24" stroke-width="0.8"/>
 <line x1="102" y1="268" x2="102" y2="234" stroke="#2F2A24" stroke-width="0.8"/>
 <line x1="63" y1="256" x2="108" y2="256" stroke="#E6D8C2" stroke-width="0.5"/>
-<rect x="152" y="204" width="46" height="64" fill="none" stroke="#2F2A24" stroke-width="1.0"/>
-<line x1="152" y1="244" x2="214" y2="244" stroke="#2F2A24" stroke-width="1.5"/>
-<rect x="206" y="230" width="7" height="28" fill="#EFE6D4" stroke="#2F2A24" stroke-width="0.8"/>
+<line x1="156" y1="216" x2="156" y2="268" stroke="#2F2A24" stroke-width="1.2"/>
+<line x1="204" y1="216" x2="204" y2="268" stroke="#2F2A24" stroke-width="1.2"/>
+<line x1="151" y1="216" x2="209" y2="216" stroke="#2F2A24" stroke-width="1.4"/>
+<rect x="158" y="218" width="44" height="50" fill="#F3EAD8" stroke="#2F2A24" stroke-width="0.8"/>
+<line x1="180" y1="218" x2="180" y2="268" stroke="#E6D8C2" stroke-width="0.6"/>
+<line x1="149" y1="242" x2="212" y2="242" stroke="#2F2A24" stroke-width="1.8"/>
+<rect x="206" y="234" width="7" height="38" fill="#EFE6D4" stroke="#2F2A24" stroke-width="0.8"/>
 <ellipse cx="270" cy="250" rx="26" ry="16" fill="none" stroke="#2F2A24" stroke-width="1.0"/>
 <ellipse cx="270" cy="250" rx="18" ry="10" fill="none" stroke="#E6D8C2" stroke-width="0.6"/>
 <path d="M296,250 q14,4 10,14" fill="none" stroke="#2F2A24" stroke-width="0.9"/>
@@ -39,24 +43,23 @@
 <line x1="212" y1="446" x2="304" y2="446" stroke="#2F2A24" stroke-width="0.9"/>
 <line x1="258" y1="446" x2="258" y2="476" stroke="#E6D8C2" stroke-width="0.6"/>
 <text x="258" y="464" font-size="4.4" fill="#A2503B" text-anchor="middle">收</text>
-<circle cx="108" cy="430" r="6" fill="none" stroke="#2F2A24" stroke-width="1.0"/>
-<line x1="108" y1="436" x2="108" y2="464" stroke="#2F2A24" stroke-width="1.2"/>
-<line x1="108" y1="464" x2="101" y2="476" stroke="#2F2A24" stroke-width="1.0"/>
-<line x1="108" y1="464" x2="115" y2="476" stroke="#2F2A24" stroke-width="1.0"/>
-<line x1="108" y1="446" x2="100" y2="462" stroke="#2F2A24" stroke-width="0.9"/>
-<line x1="108" y1="446" x2="116" y2="462" stroke="#2F2A24" stroke-width="0.9"/>
-<text x="108" y="498" font-size="4.1" fill="#4A5C55" text-anchor="middle">空手过路，路面是平的</text>
+<circle cx="110" cy="416" r="7" fill="none" stroke="#2F2A24" stroke-width="1.0"/>
+<line x1="110" y1="423" x2="110" y2="456" stroke="#2F2A24" stroke-width="1.3"/>
+<line x1="110" y1="456" x2="101" y2="474" stroke="#2F2A24" stroke-width="1.1"/>
+<line x1="110" y1="456" x2="119" y2="474" stroke="#2F2A24" stroke-width="1.1"/>
+<line x1="110" y1="434" x2="100" y2="452" stroke="#2F2A24" stroke-width="1.0"/>
+<line x1="110" y1="434" x2="120" y2="452" stroke="#2F2A24" stroke-width="1.0"/>
+<text x="110" y="498" font-size="4.1" fill="#4A5C55" text-anchor="middle">空手过路，路面是平的</text>
 <text x="258" y="498" font-size="4.1" fill="#4A5C55" text-anchor="middle">工具在箱里</text>
-<text x="190" y="384" font-size="4.3" fill="#8A7C69" text-anchor="middle">路上有印子，箱里没声息</text>
 <text x="24" y="520" font-size="4.8" fill="#2F2A24">「善行无辙迹」：载着很重的东西走过去，路上却不留沟。</text>
 <text x="24" y="536" font-size="4.8" fill="#2F2A24">「善言无瑕谪」：话说完就收，没有把柄留在人手里。</text>
-<text x="24" y="554" font-size="4.8" fill="#4A5C55">五善练到极处，就成了「不用」——不是不做，是做到了不必做。</text>
+<text x="24" y="554" font-size="4.8" fill="#4A5C55">五善练到极处，就成了「不用」：工具还在，只是不必取。</text>
 <line x1="24" y1="572" x2="338" y2="572" stroke="#DCCBB0" stroke-width="0.6"/>
 <rect x="20" y="580" width="340" height="40" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
 <text x="190" y="596" font-size="6.0" fill="#2F2A24" text-anchor="middle">不是不做，是做到了不必做。</text>
-<text x="190" y="608" font-size="5.0" fill="#4A5C55" text-anchor="middle">五善是手，师资是眼，无弃是心。</text>
+<text x="190" y="608" font-size="5.0" fill="#4A5C55" text-anchor="middle">撤掉的是身外之物，长出来的是手里的准头。</text>
 <line x1="20" y1="634" x2="360" y2="634" stroke="#E6D8C2" stroke-width="0.8"/>
 <text x="20" y="648" font-size="8.0" fill="#A89577" letter-spacing="1">本 章 金 句</text>
-<text x="20" y="664" font-size="8.4" fill="#2F2A24">不是不做，是做到了不必做。</text>
-<text x="20" y="680" font-size="8.4" fill="#2F2A24">工具一件一件撤掉，里头的东西一件一件长出来。</text>
+<text x="20" y="664" font-size="8.4" fill="#2F2A24">善言之善，不是话说得漂亮，是话说得干净。</text>
+<text x="20" y="680" font-size="8.4" fill="#2F2A24">捆出来的关系终究要挣，长出来的关系挣不开也用不着挣。</text>
 </svg>
