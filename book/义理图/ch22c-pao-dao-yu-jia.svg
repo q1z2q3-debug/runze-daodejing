@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 380 774" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="不争不是让，是换了个地方站；归不是得，是回家" font-family="'Noto Serif CJK SC','Noto Serif SC','Songti SC',serif">
+<defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#6E6459"/></marker><marker id="arr2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#4A5C55"/></marker><marker id="arrL" viewBox="0 0 10 10" refX="1" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M10 0 L0 5 L10 10 z" fill="#4A5C55"/></marker><marker id="arrS" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#A2503B"/></marker></defs>
+<rect x="0" y="0" width="380" height="774" fill="#F8F3E6"/>
+<text x="20" y="26" font-size="11" fill="#A2503B" font-family="'Noto Sans CJK SC','Noto Sans SC',sans-serif" letter-spacing="3">第 二 十 二 章 · 不 争</text>
+<text x="20" y="58" font-size="21" fill="#2F2A24">跑道与家</text>
+<text x="20" y="78" font-size="10.5" fill="#6E6459">夫唯不争，故天下莫能与之争……诚全而归之。</text>
+<rect x="20" y="102" width="340" height="34" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="190" y="114" font-size="4.8" fill="#2F2A24" text-anchor="middle">不争同一件物，不争同一把尺，不进那个场。</text>
+<text x="190" y="127" font-size="4.8" fill="#6E6459" text-anchor="middle">人不在场上，谁也没法跟他争。</text>
+<rect x="26" y="150" width="328" height="192" fill="#FBF6EC" stroke="#DCCBB0" stroke-width="0.8"/>
+<line x1="52" y1="272" x2="328" y2="272" stroke="#2F2A24" stroke-width="0.9"/>
+<line x1="52" y1="306" x2="328" y2="306" stroke="#2F2A24" stroke-width="0.9"/>
+<line x1="70" y1="280" x2="78" y2="280" stroke="#DCCBB0" stroke-width="0.8"/>
+<line x1="70" y1="298" x2="78" y2="298" stroke="#DCCBB0" stroke-width="0.8"/>
+<line x1="114" y1="280" x2="122" y2="280" stroke="#DCCBB0" stroke-width="0.8"/>
+<line x1="114" y1="298" x2="122" y2="298" stroke="#DCCBB0" stroke-width="0.8"/>
+<line x1="158" y1="280" x2="166" y2="280" stroke="#DCCBB0" stroke-width="0.8"/>
+<line x1="158" y1="298" x2="166" y2="298" stroke="#DCCBB0" stroke-width="0.8"/>
+<line x1="202" y1="280" x2="210" y2="280" stroke="#DCCBB0" stroke-width="0.8"/>
+<line x1="202" y1="298" x2="210" y2="298" stroke="#DCCBB0" stroke-width="0.8"/>
+<line x1="246" y1="280" x2="254" y2="280" stroke="#DCCBB0" stroke-width="0.8"/>
+<line x1="246" y1="298" x2="254" y2="298" stroke="#DCCBB0" stroke-width="0.8"/>
+<line x1="290" y1="280" x2="298" y2="280" stroke="#DCCBB0" stroke-width="0.8"/>
+<line x1="290" y1="298" x2="298" y2="298" stroke="#DCCBB0" stroke-width="0.8"/>
+<path d="M183,286 L197,286 L201,306 L179,306 Z" fill="#E4D8BF" stroke="#2F2A24" stroke-width="0.9"/>
+<circle cx="190" cy="283" r="2.4" fill="none" stroke="#2F2A24" stroke-width="0.8"/>
+<line x1="190" y1="283" x2="186" y2="279" stroke="#2F2A24" stroke-width="0.7"/>
+<line x1="190" y1="283" x2="194" y2="279" stroke="#2F2A24" stroke-width="0.7"/>
+<circle cx="110" cy="254" r="4.0" fill="none" stroke="#2F2A24" stroke-width="0.9"/>
+<path d="M110,258 L115,286" fill="none" stroke="#2F2A24" stroke-width="0.9"/>
+<line x1="115" y1="286" x2="106" y2="308" stroke="#2F2A24" stroke-width="0.9"/>
+<line x1="115" y1="286" x2="116" y2="308" stroke="#2F2A24" stroke-width="0.9"/>
+<path d="M113,268 L170,282" fill="none" stroke="#2F2A24" stroke-width="0.9"/>
+<circle cx="270" cy="254" r="4.0" fill="none" stroke="#2F2A24" stroke-width="0.9"/>
+<path d="M270,258 L265,286" fill="none" stroke="#2F2A24" stroke-width="0.9"/>
+<line x1="265" y1="286" x2="266" y2="308" stroke="#2F2A24" stroke-width="0.9"/>
+<line x1="265" y1="286" x2="276" y2="308" stroke="#2F2A24" stroke-width="0.9"/>
+<path d="M267,268 L210,282" fill="none" stroke="#2F2A24" stroke-width="0.9"/>
+<path d="M160,234 L344,234 L344,248 L160,248 Z" fill="#E4D8BF" stroke="none"/>
+<line x1="160" y1="234" x2="344" y2="234" stroke="#8A7C69" stroke-width="1.0"/>
+<line x1="160" y1="234" x2="160" y2="248" stroke="#8A7C69" stroke-width="0.8"/>
+<line x1="188" y1="244" x2="194" y2="238" stroke="#C9B79A" stroke-width="0.6"/>
+<line x1="232" y1="244" x2="238" y2="238" stroke="#C9B79A" stroke-width="0.6"/>
+<line x1="276" y1="244" x2="282" y2="238" stroke="#C9B79A" stroke-width="0.6"/>
+<line x1="320" y1="244" x2="326" y2="238" stroke="#C9B79A" stroke-width="0.6"/>
+<circle cx="304" cy="222" r="4.0" fill="none" stroke="#4A5C55" stroke-width="1.0"/>
+<path d="M304,226 L302,232" fill="none" stroke="#4A5C55" stroke-width="1.0"/>
+<line x1="302" y1="232" x2="297" y2="234" stroke="#4A5C55" stroke-width="1.0"/>
+<line x1="302" y1="232" x2="307" y2="234" stroke="#4A5C55" stroke-width="1.0"/>
+<text x="292" y="210" font-size="3.9" fill="#4A5C55" text-anchor="middle">他不在跑道上</text>
+<text x="190" y="326" font-size="3.9" fill="#6E6459" text-anchor="middle">一条跑道，一只袋：两个在争，那个站在埂上。</text>
+<text x="24" y="355" font-size="5.0" fill="#A2503B">一、跑道：争物、争尺，还是不在场</text>
+<rect x="26" y="368" width="328" height="192" fill="#FBF6EC" stroke="#DCCBB0" stroke-width="0.8"/>
+<line x1="52" y1="440" x2="248" y2="440" stroke="#2F2A24" stroke-width="0.9"/>
+<line x1="52" y1="474" x2="248" y2="474" stroke="#2F2A24" stroke-width="0.9"/>
+<path d="M171,450 L185,450 L189,470 L167,470 Z" fill="#E4D8BF" stroke="#2F2A24" stroke-width="0.9"/>
+<circle cx="178" cy="447" r="2.4" fill="none" stroke="#2F2A24" stroke-width="0.8"/>
+<line x1="178" y1="447" x2="174" y2="443" stroke="#2F2A24" stroke-width="0.7"/>
+<line x1="178" y1="447" x2="182" y2="443" stroke="#2F2A24" stroke-width="0.7"/>
+<text x="100" y="496" font-size="3.9" fill="#8A7C69" text-anchor="middle">跑道空着，袋还在原处</text>
+<path d="M278,420 L312,396 L346,420" fill="none" stroke="#2F2A24" stroke-width="1.0"/>
+<rect x="286" y="420" width="52" height="46" fill="#F2EADA" stroke="#2F2A24" stroke-width="1.0"/>
+<rect x="300" y="430" width="20" height="36" fill="#F6E9C9" stroke="#2F2A24" stroke-width="1.0"/>
+<path d="M320,430 L334,434 L334,468 L322,464" fill="#EFE6D4" stroke="#A2503B" stroke-width="1.0"/>
+<line x1="300" y1="466" x2="322" y2="466" stroke="#A2503B" stroke-width="1.4"/>
+<text x="312" y="390" font-size="5.2" fill="#A2503B" text-anchor="middle">家</text>
+<text x="330" y="482" font-size="3.6" fill="#6E6459" text-anchor="middle">门开着</text>
+<path d="M246,492 L298,468" fill="none" stroke="#DCCBB0" stroke-width="2.2"/>
+<circle cx="270" cy="476" r="3.6" fill="none" stroke="#4A5C55" stroke-width="1.0"/>
+<path d="M270,480 L272,490" fill="none" stroke="#4A5C55" stroke-width="1.0"/>
+<line x1="272" y1="490" x2="268" y2="500" stroke="#4A5C55" stroke-width="1.0"/>
+<line x1="272" y1="490" x2="276" y2="500" stroke="#4A5C55" stroke-width="1.0"/>
+<text x="72" y="520" font-size="3.9" fill="#6E6459">争到最后的人，得的多，回不去；不争的人，回得去。</text>
+<text x="72" y="538" font-size="3.9" fill="#4A5C55">「归」不是「至」：至是走到，归是回去。</text>
+<text x="24" y="573" font-size="5.0" fill="#4A5C55">二、回家：全而归之，是回到本处</text>
+<text x="24" y="590" font-size="4.9" fill="#2F2A24">不争的三层：不争同一件物，不争同一把尺，不在争的场地里。</text>
+<text x="24" y="606" font-size="4.9" fill="#2F2A24">「天下莫能与之争」不是没人争得过他，是没有可争的对家——他不在那条赛道上。</text>
+<text x="24" y="624" font-size="4.9" fill="#4A5C55">「诚全而归之」不是委曲之后终于得到，是完整地回到了本处。</text>
+<line x1="24" y1="640" x2="338" y2="640" stroke="#DCCBB0" stroke-width="0.6"/>
+<rect x="20" y="648" width="340" height="40" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="190" y="664" font-size="5.4" fill="#2F2A24" text-anchor="middle">不争不是让，是换了个地方站。</text>
+<text x="190" y="676" font-size="4.7" fill="#4A5C55" text-anchor="middle">争到最后的人得的多，回不去；不争的人回得去。</text>
+<line x1="20" y1="702" x2="360" y2="702" stroke="#E6D8C2" stroke-width="0.8"/>
+<text x="20" y="716" font-size="8.0" fill="#A89577" letter-spacing="1">本 章 金 句</text>
+<text x="20" y="732" font-size="8.4" fill="#2F2A24">不争不是让，是换了个地方站。</text>
+<text x="20" y="748" font-size="8.4" fill="#2F2A24">争到最后的人得的多，回不去；不争的人回得去。</text>
+</svg>

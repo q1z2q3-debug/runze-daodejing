@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 380 746" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="曲不是委屈，是器形能受：同一块木，直板留不住水，曲槽留得住" font-family="'Noto Serif CJK SC','Noto Serif SC','Songti SC',serif">
+<defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#6E6459"/></marker><marker id="arr2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#4A5C55"/></marker><marker id="arrL" viewBox="0 0 10 10" refX="1" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M10 0 L0 5 L10 10 z" fill="#4A5C55"/></marker><marker id="arrS" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#A2503B"/></marker></defs>
+<rect x="0" y="0" width="380" height="746" fill="#F8F3E6"/>
+<text x="20" y="26" font-size="11" fill="#A2503B" font-family="'Noto Sans CJK SC','Noto Sans SC',sans-serif" letter-spacing="3">第 二 十 二 章 · 曲 则 全</text>
+<text x="20" y="58" font-size="21" fill="#2F2A24">一块木头</text>
+<text x="20" y="78" font-size="10.5" fill="#6E6459">曲则全，枉则直，洼则盈，敝则新，少则得，多则惑。</text>
+<rect x="20" y="102" width="340" height="34" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="190" y="114" font-size="4.8" fill="#2F2A24" text-anchor="middle">「曲」，《说文》：象器曲受物之形。</text>
+<text x="190" y="127" font-size="4.8" fill="#6E6459" text-anchor="middle">不是委屈迎合，是弯出一个能受的弧度。</text>
+<rect x="26" y="150" width="328" height="156" fill="#FBF6EC" stroke="#DCCBB0" stroke-width="0.8"/>
+<path d="M66,246 L302,232 L302,250 L66,264 Z" fill="#EFE6D4" stroke="#2F2A24" stroke-width="1.0"/>
+<line x1="76" y1="250" x2="292" y2="237" stroke="#E6D8C2" stroke-width="0.6"/>
+<line x1="76" y1="255" x2="292" y2="242" stroke="#E6D8C2" stroke-width="0.6"/>
+<line x1="76" y1="260" x2="292" y2="247" stroke="#E6D8C2" stroke-width="0.6"/>
+<path d="M150,162 L158,162 L158,246 L150,246 Z" fill="#CFE0D6" opacity="0.8" stroke="none"/>
+<line x1="178" y1="242" x2="292" y2="232" stroke="#8FAA9A" stroke-width="1.6" marker-end="url(#arr)"/>
+<ellipse cx="308" cy="250" rx="2.6" ry="3.8" fill="#CFE0D6" stroke="none"/>
+<ellipse cx="318" cy="262" rx="2.2" ry="3.4000000000000004" fill="#CFE0D6" stroke="none"/>
+<ellipse cx="300" cy="268" rx="1.9" ry="3.0746746746746996" fill="#CFE0D6" stroke="none"/>
+<text x="204" y="184" font-size="3.9" fill="#6E6459" text-anchor="middle">水倒上去</text>
+<text x="214" y="216" font-size="3.9" fill="#4A5C55" text-anchor="middle">顺着板面一路跑了</text>
+<text x="190" y="290" font-size="3.9" fill="#6E6459" text-anchor="middle">直的板面接不住东西：水来过，一滴不留。</text>
+<text x="24" y="319" font-size="5.0" fill="#A2503B">一、直板：形不受，水就全走了</text>
+<rect x="26" y="332" width="328" height="196" fill="#FBF6EC" stroke="#DCCBB0" stroke-width="0.8"/>
+<rect x="86" y="384" width="208" height="74" fill="#EFE6D4" stroke="#2F2A24" stroke-width="1.0"/>
+<path d="M112,384 C 124,448 256,448 268,384" fill="none" stroke="#2F2A24" stroke-width="1.2"/>
+<path d="M118,408 C 128,444 252,444 262,408 Z" fill="#E9F0E6" opacity="0.9" stroke="none"/>
+<line x1="118" y1="408" x2="262" y2="408" stroke="#8FAA9A" stroke-width="1.0"/>
+<path d="M186,346 L194,346 L194,406 L186,406 Z" fill="#CFE0D6" opacity="0.8" stroke="none"/>
+<text x="206" y="358" font-size="3.9" fill="#6E6459">还是那道水</text>
+<text x="190" y="478" font-size="3.9" fill="#6E6459" text-anchor="middle">同一块木，挖成槽，水就停在里头。</text>
+<text x="190" y="492" font-size="3.9" fill="#4A5C55" text-anchor="middle">两头挡着，底下不漏——「能受」说的是这个弧度。</text>
+<text x="190" y="510" font-size="3.8" fill="#8A7C69" text-anchor="middle">曲是为了受，不是为了委屈：直的接不住，弯的才接得住。</text>
+<text x="24" y="541" font-size="5.0" fill="#4A5C55">二、曲槽：形能受，水就留在里头</text>
+<text x="24" y="560" font-size="4.9" fill="#2F2A24">六句不是六条策略，是同一条规律的六个截面：想要的「全」，不在争里，在形里。</text>
+<text x="24" y="576" font-size="4.9" fill="#2F2A24">当作策略，你就会「先装低、后收利」；当作规律，你只管把形做对，全自己到。</text>
+<text x="24" y="594" font-size="4.9" fill="#4A5C55">差别只在动机：一个拿曲换全，一个在曲里等全。</text>
+<line x1="24" y1="612" x2="338" y2="612" stroke="#DCCBB0" stroke-width="0.6"/>
+<rect x="20" y="620" width="340" height="40" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="190" y="636" font-size="5.4" fill="#2F2A24" text-anchor="middle">曲不是委屈，是器形能受。</text>
+<text x="190" y="648" font-size="4.5" fill="#4A5C55" text-anchor="middle">六句是规律，不是策略：差别只在，你是拿曲换全，还是在曲里等全。</text>
+<line x1="20" y1="674" x2="360" y2="674" stroke="#E6D8C2" stroke-width="0.8"/>
+<text x="20" y="688" font-size="8.0" fill="#A89577" letter-spacing="1">本 章 金 句</text>
+<text x="20" y="704" font-size="8.4" fill="#2F2A24">曲不是委屈，是器形能受。</text>
+<text x="20" y="720" font-size="8.4" fill="#2F2A24">六句是规律，不是策略：差别只在，你是拿曲换全，还是在曲里等全。</text>
+</svg>
