@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 380 512" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="看、力、够、久：每一格的后一半，方向都反过来了" font-family="'Noto Serif CJK SC','Noto Serif SC','Songti SC',serif">
+<defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#6E6459"/></marker><marker id="arr2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#4A5C55"/></marker><marker id="arrL" viewBox="0 0 10 10" refX="1" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M10 0 L0 5 L10 10 z" fill="#4A5C55"/></marker><marker id="arrS" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#A2503B"/></marker></defs>
+<rect x="0" y="0" width="380" height="512" fill="#F8F3E6"/>
+<text x="20" y="26" font-size="11" fill="#A2503B" font-family="'Noto Sans CJK SC','Noto Sans SC',sans-serif" letter-spacing="3">第 三 十 三 章 · 其 二</text>
+<text x="20" y="58" font-size="21" fill="#2F2A24">四 格 一 轴</text>
+<text x="20" y="78" font-size="10.5" fill="#6E6459">知人者智，自知者明。胜人者有力，自胜者强。</text>
+<rect x="20" y="102" width="340" height="34" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="190" y="114" font-size="4.6" fill="#2F2A24" text-anchor="middle">四对不是随便排的：看 → 力 → 够 → 久，从眼睛出发，最后落在时间。</text>
+<text x="190" y="127" font-size="4.6" fill="#6E6459" text-anchor="middle">每一格的后一半，方向都反过来：向内、向稳、向久。</text>
+<text x="24" y="152" font-size="5.1" fill="#4A5C55">一、一条轴：四格由外转内</text>
+<rect x="26" y="164" width="328" height="226" fill="#FBF6EC" stroke="#DCCBB0" stroke-width="1.0"/>
+<rect x="186" y="180" width="8" height="176" fill="#EDE3CE" stroke="#2F2A24" stroke-width="0.9"/>
+<line x1="174" y1="220" x2="206" y2="220" stroke="#2F2A24" stroke-width="0.9"/>
+<line x1="174" y1="260" x2="206" y2="260" stroke="#2F2A24" stroke-width="0.9"/>
+<line x1="174" y1="300" x2="206" y2="300" stroke="#2F2A24" stroke-width="0.9"/>
+<text x="190" y="202" font-size="5.2" fill="#2F2A24" text-anchor="middle">看</text>
+<line x1="152" y1="200" x2="122" y2="200" stroke="#A2503B" stroke-width="0.9" marker-end="url(#arrS)"/>
+<text x="137" y="196" font-size="3.6" fill="#A2503B" text-anchor="middle">外</text>
+<text x="110" y="201" font-size="5.0" fill="#A2503B" text-anchor="end">知人 · 智</text>
+<text x="110" y="212" font-size="3.7" fill="#8A7C69" text-anchor="end">拿词去量人</text>
+<line x1="244" y1="200" x2="204" y2="200" stroke="#4A5C55" stroke-width="0.9" marker-end="url(#arr2)"/>
+<text x="224" y="196" font-size="3.6" fill="#4A5C55" text-anchor="middle">内</text>
+<text x="252" y="201" font-size="5.0" fill="#4A5C55">自知 · 明</text>
+<text x="252" y="212" font-size="3.7" fill="#8A7C69">灯照到自己</text>
+<text x="190" y="242" font-size="5.2" fill="#2F2A24" text-anchor="middle">力</text>
+<line x1="152" y1="240" x2="122" y2="240" stroke="#A2503B" stroke-width="0.9" marker-end="url(#arrS)"/>
+<text x="137" y="236" font-size="3.6" fill="#A2503B" text-anchor="middle">外</text>
+<text x="110" y="241" font-size="5.0" fill="#A2503B" text-anchor="end">胜人 · 有力</text>
+<text x="110" y="252" font-size="3.7" fill="#8A7C69" text-anchor="end">筋：用一次少一分</text>
+<line x1="244" y1="240" x2="204" y2="240" stroke="#4A5C55" stroke-width="0.9" marker-end="url(#arr2)"/>
+<text x="224" y="236" font-size="3.6" fill="#4A5C55" text-anchor="middle">内</text>
+<text x="252" y="241" font-size="5.0" fill="#4A5C55">自胜 · 强</text>
+<text x="252" y="252" font-size="3.7" fill="#8A7C69">弓：能张能弛</text>
+<text x="190" y="282" font-size="5.2" fill="#2F2A24" text-anchor="middle">够</text>
+<line x1="152" y1="280" x2="122" y2="280" stroke="#A2503B" stroke-width="0.9" marker-end="url(#arrS)"/>
+<text x="137" y="276" font-size="3.6" fill="#A2503B" text-anchor="middle">外</text>
+<text x="110" y="281" font-size="5.0" fill="#A2503B" text-anchor="end">要多</text>
+<text x="110" y="292" font-size="3.7" fill="#8A7C69" text-anchor="end">单子自己开的</text>
+<line x1="244" y1="280" x2="204" y2="280" stroke="#4A5C55" stroke-width="0.9" marker-end="url(#arr2)"/>
+<text x="224" y="276" font-size="3.6" fill="#4A5C55" text-anchor="middle">内</text>
+<text x="252" y="281" font-size="5.0" fill="#4A5C55">守够 · 富</text>
+<text x="252" y="292" font-size="3.7" fill="#8A7C69">该有的都有了</text>
+<text x="190" y="322" font-size="5.2" fill="#2F2A24" text-anchor="middle">久</text>
+<line x1="152" y1="320" x2="122" y2="320" stroke="#A2503B" stroke-width="0.9" marker-end="url(#arrS)"/>
+<text x="137" y="316" font-size="3.6" fill="#A2503B" text-anchor="middle">外</text>
+<text x="110" y="321" font-size="5.0" fill="#A2503B" text-anchor="end">抓位</text>
+<text x="110" y="332" font-size="3.7" fill="#8A7C69" text-anchor="end">靠名、势、赢</text>
+<line x1="244" y1="320" x2="204" y2="320" stroke="#4A5C55" stroke-width="0.9" marker-end="url(#arr2)"/>
+<text x="224" y="316" font-size="3.6" fill="#4A5C55" text-anchor="middle">内</text>
+<text x="252" y="321" font-size="5.0" fill="#4A5C55">守位 · 久</text>
+<text x="252" y="332" font-size="3.7" fill="#8A7C69">站在自己的地上</text>
+<rect x="164" y="356" width="52" height="14" fill="#EDE3CE" stroke="#2F2A24" stroke-width="0.8"/>
+<ellipse cx="190" cy="354" rx="4" ry="1.6" fill="#DED3BC" stroke="#2F2A24" stroke-width="0.7"/>
+<rect x="226" y="353" width="16" height="16" fill="#FBEFE7" stroke="#A2503B" stroke-width="0.8"/>
+<text x="234" y="365" font-size="5.6" fill="#A2503B" text-anchor="middle">不</text>
+<text x="248" y="360" font-size="3.6" fill="#A2503B">八句里唯一的「不」</text>
+<text x="248" y="371" font-size="3.6" fill="#8A7C69">用来护住这块基</text>
+<text x="152" y="364" font-size="3.8" fill="#2F2A24" text-anchor="middle">其所</text>
+<line x1="160" y1="362" x2="164" y2="361" stroke="#DCCBB0" stroke-width="0.5"/>
+<text x="190" y="384" font-size="3.9" fill="#6E6459" text-anchor="middle">「其所」不是官职，是你与道相连的那块地；八个句子里只有它带「不」。</text>
+<line x1="24" y1="402" x2="356" y2="402" stroke="#DCCBB0" stroke-width="0.6"/>
+<rect x="20" y="410" width="340" height="40" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="190" y="426" font-size="5.0" fill="#2F2A24" text-anchor="middle">看得清一格一格，才守得住最后那一下：不越出去。</text>
+<text x="190" y="439" font-size="4.6" fill="#4A5C55" text-anchor="middle">向外抓位，改成守住位——那个「不」，就用在最末一格。</text>
+<line x1="20" y1="456" x2="360" y2="456" stroke="#E6D8C2" stroke-width="0.8"/>
+<text x="20" y="470" font-size="8.0" fill="#A89577" letter-spacing="1">本 章 金 句</text>
+<text x="20" y="486" font-size="8.4" fill="#2F2A24">知止是给名划界，知足是给欲划界；两个界，一条线。</text>
+</svg>

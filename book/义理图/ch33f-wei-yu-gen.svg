@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 380 640" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="身可以散，根不能失" font-family="'Noto Serif CJK SC','Noto Serif SC','Songti SC',serif">
+<defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#6E6459"/></marker><marker id="arr2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#4A5C55"/></marker><marker id="arrL" viewBox="0 0 10 10" refX="1" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M10 0 L0 5 L10 10 z" fill="#4A5C55"/></marker><marker id="arrS" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#A2503B"/></marker></defs>
+<rect x="0" y="0" width="380" height="640" fill="#F8F3E6"/>
+<text x="20" y="26" font-size="11" fill="#A2503B" font-family="'Noto Sans CJK SC','Noto Sans SC',sans-serif" letter-spacing="3">第 三 十 三 章 · 其 六（补图）</text>
+<text x="20" y="58" font-size="21" fill="#2F2A24">位 与 根</text>
+<text x="20" y="78" font-size="10.5" fill="#6E6459">不失其所者久，死而不亡者寿。</text>
+<rect x="20" y="102" width="340" height="34" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="190" y="114" font-size="4.6" fill="#2F2A24" text-anchor="middle">「所」借为处所、位——不是官职，是你与道相连的那块地；「亡」，《说文》「逃也」。</text>
+<text x="190" y="127" font-size="4.6" fill="#6E6459" text-anchor="middle">亡不是死，是溜走：人身散了，那块地没有逃。</text>
+<text x="24" y="152" font-size="4.9" fill="#4A5C55">一、不失其所：站在自己的地上，还是站在别人的箱子上</text>
+<rect x="26" y="164" width="328" height="164" fill="#FBF6EC" stroke="#DCCBB0" stroke-width="1.0"/>
+<line x1="190" y1="174" x2="190" y2="318" stroke="#E6D8C2" stroke-width="0.6"/>
+<line x1="40" y1="304" x2="178" y2="304" stroke="#2F2A24" stroke-width="0.9"/>
+<rect x="56" y="276" width="66" height="14" fill="#EDE3CE" stroke="#2F2A24" stroke-width="0.9"/>
+<line x1="60" y1="290" x2="56" y2="304" stroke="#DCCBB0" stroke-width="0.6"/>
+<line x1="76" y1="290" x2="72" y2="304" stroke="#DCCBB0" stroke-width="0.6"/>
+<line x1="92" y1="290" x2="88" y2="304" stroke="#DCCBB0" stroke-width="0.6"/>
+<line x1="108" y1="290" x2="104" y2="304" stroke="#DCCBB0" stroke-width="0.6"/>
+<circle cx="88" cy="220" r="5.6" fill="none" stroke="#2F2A24" stroke-width="1.0"/>
+<line x1="88" y1="226" x2="88" y2="250" stroke="#2F2A24" stroke-width="1.2"/>
+<line x1="88" y1="250" x2="80" y2="276" stroke="#2F2A24" stroke-width="1.1"/>
+<line x1="88" y1="250" x2="96" y2="276" stroke="#2F2A24" stroke-width="1.1"/>
+<text x="88" y="320" font-size="3.7" fill="#4A5C55" text-anchor="middle">站在自己的地上</text>
+<text x="40" y="268" font-size="3.6" fill="#8A7C69">这块基，就是「其所」</text>
+<line x1="212" y1="304" x2="348" y2="304" stroke="#2F2A24" stroke-width="0.9"/>
+<rect x="232" y="268" width="52" height="36" fill="#EDE3CE" stroke="#2F2A24" stroke-width="0.7" stroke-dasharray="4 3"/>
+<text x="258" y="290" font-size="3.4" fill="#A2503B" text-anchor="middle">被抽走</text>
+<rect x="232" y="250" width="52" height="18" fill="#E7C9BE" stroke="#2F2A24" stroke-width="0.7"/>
+<text x="258" y="263" font-size="4.2" fill="#A2503B" text-anchor="middle">名</text>
+<rect x="232" y="232" width="52" height="18" fill="#E7C9BE" stroke="#2F2A24" stroke-width="0.7"/>
+<text x="258" y="245" font-size="4.2" fill="#A2503B" text-anchor="middle">势</text>
+<circle cx="258" cy="176" r="5.6" fill="none" stroke="#2F2A24" stroke-width="1.0"/>
+<line x1="258" y1="182" x2="258" y2="206" stroke="#2F2A24" stroke-width="1.2"/>
+<line x1="258" y1="206" x2="250" y2="232" stroke="#2F2A24" stroke-width="1.1"/>
+<line x1="258" y1="206" x2="266" y2="232" stroke="#2F2A24" stroke-width="1.1"/>
+<path d="M296,276 q26,0 32,-4" fill="none" stroke="#A2503B" stroke-width="0.9" stroke-dasharray="4 3"/>
+<line x1="326" y1="272" x2="340" y2="270" stroke="#A2503B" stroke-width="0.9" marker-end="url(#arrS)"/>
+<text x="320" y="260" font-size="3.8" fill="#A2503B" text-anchor="middle">抽</text>
+<text x="258" y="220" font-size="3.8" fill="#A2503B" text-anchor="middle">靠别人给的东西站着</text>
+<text x="258" y="320" font-size="3.7" fill="#A2503B" text-anchor="middle">别人也能拿走</text>
+<text x="190" y="338" font-size="4.0" fill="#6E6459" text-anchor="middle">同一个高度：一边是自己的地，一边是别人的手。</text>
+<text x="24" y="360" font-size="5.1" fill="#A2503B">二、死而不亡：散的是器，不散的是它立的那一处</text>
+<rect x="26" y="372" width="328" height="158" fill="#FBF6EC" stroke="#DCCBB0" stroke-width="1.0"/>
+<line x1="44" y1="504" x2="336" y2="504" stroke="#2F2A24" stroke-width="0.9"/>
+<rect x="148" y="482" width="88" height="18" fill="#EDE3CE" stroke="#2F2A24" stroke-width="0.9"/>
+<ellipse cx="178" cy="426" rx="13" ry="10" fill="#E8EEE4" stroke="#4A5C55" stroke-width="0.7" opacity="0.8"/>
+<ellipse cx="192" cy="417" rx="14" ry="10" fill="#E8EEE4" stroke="#4A5C55" stroke-width="0.7" opacity="0.8"/>
+<ellipse cx="204" cy="426" rx="12" ry="9" fill="#E8EEE4" stroke="#4A5C55" stroke-width="0.7" opacity="0.8"/>
+<line x1="192" y1="482" x2="192" y2="424" stroke="#2F2A24" stroke-width="1.3" stroke-dasharray="4 3"/>
+<line x1="192" y1="450" x2="172" y2="434" stroke="#2F2A24" stroke-width="0.9" stroke-dasharray="4 3"/>
+<line x1="192" y1="444" x2="212" y2="430" stroke="#2F2A24" stroke-width="0.9" stroke-dasharray="4 3"/>
+<path d="M192,482 q-6.0,10 -15,20" fill="none" stroke="#2F2A24" stroke-width="1.2"/>
+<path d="M192,482 q0.0,10 0,20" fill="none" stroke="#2F2A24" stroke-width="1.2"/>
+<path d="M192,482 q6.0,10 15,20" fill="none" stroke="#2F2A24" stroke-width="1.2"/>
+<text x="192" y="398" font-size="3.6" fill="#8A7C69" text-anchor="middle">身：虚线——会散</text>
+<text x="112" y="488" font-size="3.8" fill="#4A5C55" text-anchor="end">根：实线，还在石里</text>
+<line x1="244" y1="492" x2="300" y2="492" stroke="#A89681" stroke-width="4.5"/>
+<line x1="300" y1="492" x2="314" y2="485" stroke="#A89681" stroke-width="2.4"/>
+<line x1="262" y1="490" x2="254" y2="472" stroke="#A89681" stroke-width="1.4"/>
+<ellipse cx="306" cy="474" rx="13" ry="8" fill="#E8EEE4" stroke="#4A5C55" stroke-width="0.6" opacity="0.7"/>
+<ellipse cx="322" cy="480" rx="11" ry="7" fill="#E8EEE4" stroke="#4A5C55" stroke-width="0.6" opacity="0.7"/>
+<text x="286" y="512" font-size="3.6" fill="#8A7C69" text-anchor="middle">身：倒在一边</text>
+<text x="286" y="524" font-size="3.6" fill="#A2503B" text-anchor="middle">散的是器，那一处没逃</text>
+<text x="160" y="520" font-size="4.1" fill="#6E6459" text-anchor="middle">「寿」，《说文》「久也」——量的是还在不在，不是年岁。</text>
+<line x1="24" y1="530" x2="356" y2="530" stroke="#DCCBB0" stroke-width="0.6"/>
+<rect x="20" y="538" width="340" height="40" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="190" y="554" font-size="5.6" fill="#2F2A24" text-anchor="middle">死是身的散，亡是根的失。</text>
+<text x="190" y="567" font-size="4.6" fill="#4A5C55" text-anchor="middle">身可以散，根不能失——久不在年岁，在站不站得稳。</text>
+<line x1="20" y1="584" x2="360" y2="584" stroke="#E6D8C2" stroke-width="0.8"/>
+<text x="20" y="598" font-size="8.0" fill="#A89577" letter-spacing="1">本 章 金 句</text>
+<text x="20" y="614" font-size="8.4" fill="#2F2A24">死是身的散，亡是根的失；身可以散，根不能失。</text>
+</svg>

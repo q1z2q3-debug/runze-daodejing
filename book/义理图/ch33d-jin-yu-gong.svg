@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 380 666" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="筋是用一次少一分，弓是松了还在" font-family="'Noto Serif CJK SC','Noto Serif SC','Songti SC',serif">
+<defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#6E6459"/></marker><marker id="arr2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#4A5C55"/></marker><marker id="arrL" viewBox="0 0 10 10" refX="1" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M10 0 L0 5 L10 10 z" fill="#4A5C55"/></marker><marker id="arrS" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#A2503B"/></marker></defs>
+<rect x="0" y="0" width="380" height="666" fill="#F8F3E6"/>
+<text x="20" y="26" font-size="11" fill="#A2503B" font-family="'Noto Sans CJK SC','Noto Sans SC',sans-serif" letter-spacing="3">第 三 十 三 章 · 其 四</text>
+<text x="20" y="58" font-size="21" fill="#2F2A24">筋 与 弓</text>
+<text x="20" y="78" font-size="10.5" fill="#6E6459">胜人者有力，自胜者强。</text>
+<rect x="20" y="102" width="340" height="34" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="190" y="114" font-size="4.6" fill="#2F2A24" text-anchor="middle">「力」，《说文》「筋也，象人筋之形」——力是筋的事，用一次少一分。</text>
+<text x="190" y="127" font-size="4.6" fill="#6E6459" text-anchor="middle">「强」，古字作「彊」，《说文》「弓有力也」——弓的本事在能张能弛。</text>
+<text x="24" y="152" font-size="5.1" fill="#4A5C55">一、力是筋：一次一次地使，一次一次地少</text>
+<rect x="26" y="164" width="328" height="150" fill="#FBF6EC" stroke="#DCCBB0" stroke-width="1.0"/>
+<ellipse cx="52" cy="226" rx="4.4" ry="3.4" fill="#EDE3CE" stroke="#2F2A24" stroke-width="0.7"/>
+<ellipse cx="106" cy="226" rx="4.4" ry="3.4" fill="#EDE3CE" stroke="#2F2A24" stroke-width="0.7"/>
+<line x1="55" y1="223.2" x2="103" y2="223.2" stroke="#A2503B" stroke-width="1.0"/>
+<line x1="55" y1="226.0" x2="103" y2="226.0" stroke="#A2503B" stroke-width="1.0"/>
+<line x1="55" y1="228.76666666666668" x2="103" y2="228.76666666666668" stroke="#A2503B" stroke-width="1.0"/>
+<text x="81" y="246" font-size="4.6" fill="#2F2A24" text-anchor="middle">满</text>
+<ellipse cx="152" cy="226" rx="4.4" ry="3.4" fill="#EDE3CE" stroke="#2F2A24" stroke-width="0.7"/>
+<ellipse cx="206" cy="226" rx="4.4" ry="3.4" fill="#EDE3CE" stroke="#2F2A24" stroke-width="0.7"/>
+<line x1="155" y1="224.6" x2="203" y2="224.6" stroke="#A2503B" stroke-width="1.0"/>
+<line x1="155" y1="227.4" x2="203" y2="227.4" stroke="#A2503B" stroke-width="1.0"/>
+<text x="181" y="246" font-size="4.6" fill="#2F2A24" text-anchor="middle">半</text>
+<ellipse cx="252" cy="226" rx="4.4" ry="3.4" fill="#EDE3CE" stroke="#2F2A24" stroke-width="0.7"/>
+<ellipse cx="306" cy="226" rx="4.4" ry="3.4" fill="#EDE3CE" stroke="#2F2A24" stroke-width="0.7"/>
+<line x1="255" y1="226.0" x2="303" y2="226.0" stroke="#A2503B" stroke-width="1.0"/>
+<text x="281" y="246" font-size="4.6" fill="#2F2A24" text-anchor="middle">只剩一线</text>
+<line x1="110" y1="226" x2="146" y2="226" stroke="#DCCBB0" stroke-width="0.8" marker-end="url(#arr)"/>
+<line x1="210" y1="226" x2="246" y2="226" stroke="#DCCBB0" stroke-width="0.8" marker-end="url(#arr)"/>
+<text x="190" y="270" font-size="4.2" fill="#6E6459" text-anchor="middle">二十岁扛二百斤 → 四十岁扛不动</text>
+<text x="190" y="284" font-size="4.2" fill="#2F2A24" text-anchor="middle">它是储备，是会被用完的东西。</text>
+<text x="190" y="330" font-size="4.3" fill="#8A7C69" text-anchor="middle">胜人者用力，力的账本只会往下走。</text>
+<text x="24" y="354" font-size="5.1" fill="#A2503B">二、强是弓：弓臂一寸没动，只有弦来回</text>
+<rect x="26" y="366" width="328" height="150" fill="#FBF6EC" stroke="#DCCBB0" stroke-width="1.0"/>
+<path d="M196,386 Q164,436 196,486" fill="none" stroke="#2F2A24" stroke-width="2.8"/>
+<line x1="196" y1="386" x2="188" y2="381" stroke="#2F2A24" stroke-width="1.1"/>
+<line x1="196" y1="486" x2="188" y2="491" stroke="#2F2A24" stroke-width="1.1"/>
+<path d="M196,386 L246,436 L196,486" fill="none" stroke="#A2503B" stroke-width="1.8"/>
+<line x1="196" y1="386" x2="196" y2="486" stroke="#7E8F86" stroke-width="1.6" stroke-dasharray="6 4"/>
+<line x1="242" y1="440" x2="214" y2="440" stroke="#8A7C69" stroke-width="0.9" marker-end="url(#arr)"/>
+<line x1="214" y1="422" x2="242" y2="422" stroke="#8A7C69" stroke-width="0.9" marker-end="url(#arr)"/>
+<text x="176" y="402" font-size="4.0" fill="#2F2A24" text-anchor="end">弓臂：一寸没动</text>
+<text x="176" y="414" font-size="3.8" fill="#8A7C69" text-anchor="end">只有弦来回</text>
+<text x="254" y="432" font-size="3.8" fill="#A2503B">实线：张满</text>
+<text x="254" y="446" font-size="3.8" fill="#7E8F86">虚线：弦回弭</text>
+<text x="190" y="502" font-size="4.2" fill="#2F2A24" text-anchor="middle">张满了不放，弦会疲；放了再张，弓还是那张弓。</text>
+<text x="190" y="532" font-size="4.3" fill="#8A7C69" text-anchor="middle">向外压人的力量永远是拉满的；向内降服的力量，是可以松的。</text>
+<line x1="24" y1="556" x2="356" y2="556" stroke="#DCCBB0" stroke-width="0.6"/>
+<rect x="20" y="564" width="340" height="40" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="190" y="580" font-size="5.6" fill="#2F2A24" text-anchor="middle">力是筋，越使越少；强是弓，能张能弛。</text>
+<text x="190" y="593" font-size="4.6" fill="#4A5C55" text-anchor="middle">松了它还在，那才是强。</text>
+<line x1="20" y1="610" x2="360" y2="610" stroke="#E6D8C2" stroke-width="0.8"/>
+<text x="20" y="624" font-size="8.0" fill="#A89577" letter-spacing="1">本 章 金 句</text>
+<text x="20" y="640" font-size="8.4" fill="#2F2A24">力是筋，越使越少；强是弓，能张能弛。</text>
+</svg>
