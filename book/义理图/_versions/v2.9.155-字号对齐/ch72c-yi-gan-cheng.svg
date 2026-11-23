@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 380 716" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="贵从贝，是价钱：自贵是给自己贴价签，自爱是不把自己当货" font-family="'Noto Serif CJK SC','Noto Serif SC','Songti SC',serif">
+<defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#6E6459"/></marker><marker id="arr2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#4A5C55"/></marker><marker id="arrL" viewBox="0 0 10 10" refX="1" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M10 0 L0 5 L10 10 z" fill="#4A5C55"/></marker><marker id="arrS" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#A2503B"/></marker></defs>
+<rect x="0" y="0" width="380" height="716" fill="#F8F3E6"/>
+<text x="20" y="26" font-size="11" fill="#A2503B" font-family="'Noto Sans CJK SC','Noto Sans SC',sans-serif" letter-spacing="3">第 七 十 二 章 · 贵</text>
+<text x="20" y="58" font-size="21" fill="#2F2A24">一杆秤</text>
+<text x="20" y="78" font-size="10.5" fill="#6E6459">自知不自见，自爱不自贵。</text>
+<rect x="20" y="102" width="340" height="32" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="190" y="114" font-size="4.7" fill="#2F2A24" text-anchor="middle">「贵」，《说文》「物不贱也」，从贝——贵是价钱，不是德性。</text>
+<text x="190" y="127" font-size="4.7" fill="#6E6459" text-anchor="middle">自爱是同一杆秤的另一头：不把自己贱卖。</text>
+<text x="24" y="150" font-size="4.8" fill="#A2503B">一、自贵：先给自己贴一张价签</text>
+<rect x="26" y="162" width="328" height="150" fill="#FBF6EC" stroke="#DCCBB0" stroke-width="0.8"/>
+<line x1="196" y1="196" x2="196" y2="282" stroke="#2F2A24" stroke-width="1.6"/>
+<line x1="150" y1="192" x2="248" y2="200" stroke="#2F2A24" stroke-width="1.2"/>
+<line x1="150" y1="192" x2="150" y2="202" stroke="#2F2A24" stroke-width="0.8"/>
+<path d="M150,202 q0,6 -6,8 q6,2 6,8" fill="none" stroke="#2F2A24" stroke-width="0.9"/>
+<rect x="134" y="218" width="34" height="30" fill="#EFE6D4" stroke="#2F2A24" stroke-width="1"/>
+<text x="151" y="230" font-size="5.6" fill="#2F2A24" text-anchor="middle">我</text>
+<rect x="202" y="214" width="46" height="26" fill="#A2503B" fill-opacity="0.16" stroke="#A2503B" stroke-width="1"/>
+<text x="225" y="224" font-size="4.2" fill="#A2503B" text-anchor="middle">价签</text>
+<text x="225" y="234" font-size="4.2" fill="#A2503B" text-anchor="middle">很贵</text>
+<line x1="166" y1="218" x2="202" y2="218" stroke="#A2503B" stroke-width="0.8" stroke-dasharray="3 3"/>
+<path d="M248,196 l8,10 l-16,0 Z" fill="#2F2A24" fill-opacity="0.4" stroke="#2F2A24" stroke-width="0.8"/>
+<line x1="60" y1="282" x2="322" y2="282" stroke="#2F2A24" stroke-width="1"/>
+<text x="190" y="328" font-size="4.6" fill="#4A5C55" text-anchor="middle">货上贴价签，秤就只称价钱：先标了，剩下的都是比价</text>
+<text x="24" y="350" font-size="4.8" fill="#4A5C55">二、自爱：不上秤盘，不把自己当货</text>
+<rect x="26" y="362" width="328" height="150" fill="#FBF6EC" stroke="#DCCBB0" stroke-width="0.8"/>
+<line x1="196" y1="396" x2="196" y2="482" stroke="#2F2A24" stroke-width="1.6"/>
+<line x1="150" y1="392" x2="248" y2="400" stroke="#2F2A24" stroke-width="1.2"/>
+<path d="M150,400 q0,6 -6,8 q6,2 6,8" fill="none" stroke="#2F2A24" stroke-width="0.9"/>
+<path d="M248,396 l8,10 l-16,0 Z" fill="#2F2A24" fill-opacity="0.4" stroke="#2F2A24" stroke-width="0.8"/>
+<path d="M134,416 Q150,428 166,416" fill="none" stroke="#2F2A24" stroke-width="1"/>
+<line x1="134" y1="416" x2="150" y2="414" stroke="#B9A98F" stroke-width="0.6"/>
+<line x1="166" y1="416" x2="150" y2="414" stroke="#B9A98F" stroke-width="0.6"/>
+<text x="150" y="436" font-size="4.0" fill="#6E6459" text-anchor="middle">空盘</text>
+<circle cx="108" cy="408" r="7" fill="none" stroke="#2F2A24" stroke-width="1"/>
+<path d="M96,418 L120,418 L122,458 L94,458 Z" fill="#EFE6D4" stroke="#2F2A24" stroke-width="1"/>
+<line x1="120" y1="424" x2="134" y2="444" stroke="#2F2A24" stroke-width="1"/>
+<line x1="130" y1="444" x2="146" y2="444" stroke="#2F2A24" stroke-width="1"/>
+<line x1="130" y1="448" x2="144" y2="448" stroke="#2F2A24" stroke-width="0.6" opacity="0.6"/>
+<text x="110" y="392" font-size="4.2" fill="#4A5C55">手摊着，不上秤</text>
+<line x1="103" y1="458" x2="99" y2="482" stroke="#2F2A24" stroke-width="1"/>
+<line x1="113" y1="458" x2="117" y2="482" stroke="#2F2A24" stroke-width="1"/>
+<line x1="60" y1="482" x2="322" y2="482" stroke="#2F2A24" stroke-width="1"/>
+<text x="190" y="528" font-size="4.6" fill="#4A5C55" text-anchor="middle">自爱不是抬价，是不把自己挂上去：不上盘，就不必被人称</text>
+<text x="24" y="544" font-size="4.8" fill="#2F2A24">自见是把自己摆出来给人看；自知是知道自己在哪儿。</text>
+<text x="24" y="560" font-size="4.8" fill="#2F2A24">自贵是贴价签；自爱是惜身。一杆秤，两头的话不一样。</text>
+<text x="24" y="578" font-size="5.0" fill="#4A5C55">「去彼取此」：把价签取下，把身子留住。</text>
+<line x1="24" y1="594" x2="338" y2="594" stroke="#DCCBB0" stroke-width="0.6"/>
+<rect x="20" y="602" width="340" height="40" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="190" y="617" font-size="5.4" fill="#2F2A24" text-anchor="middle">自知不自见，自爱不自贵；故去彼取此。</text>
+<text x="190" y="630" font-size="4.7" fill="#4A5C55" text-anchor="middle">取的是身子，去的是那张价签。</text>
+<line x1="20" y1="656" x2="360" y2="656" stroke="#E6D8C2" stroke-width="0.8"/>
+<text x="20" y="670" font-size="8.0" fill="#A89577" letter-spacing="1">本 章 金 句</text>
+<text x="20" y="686" font-size="8.4" fill="#2F2A24">自知不自见，自爱不自贵。</text>
+<text x="20" y="702" font-size="8.4" fill="#2F2A24">故去彼取此。</text>
+</svg>

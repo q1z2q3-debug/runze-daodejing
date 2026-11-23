@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 380 742" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="治本来是水名：治水的要诀是疏，不是堵" font-family="'Noto Serif CJK SC','Noto Serif SC','Songti SC',serif">
+<defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#6E6459"/></marker><marker id="arr2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#4A5C55"/></marker><marker id="arrL" viewBox="0 0 10 10" refX="1" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M10 0 L0 5 L10 10 z" fill="#4A5C55"/></marker><marker id="arrS" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#A2503B"/></marker></defs>
+<rect x="0" y="0" width="380" height="742" fill="#F8F3E6"/>
+<text x="20" y="26" font-size="11" fill="#A2503B" font-family="'Noto Sans CJK SC','Noto Sans SC',sans-serif" letter-spacing="3">第 七 十 五 章 · 治</text>
+<text x="20" y="58" font-size="21" fill="#2F2A24">一条河</text>
+<text x="20" y="78" font-size="10.5" fill="#6E6459">民之难治，以其上之有为，是以难治。</text>
+<rect x="20" y="102" width="340" height="32" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="190" y="114" font-size="4.7" fill="#2F2A24" text-anchor="middle">治，《说文》「治，水。出东莱曲城阳丘山，南入海」——它先是一条河的名字。</text>
+<text x="190" y="127" font-size="4.7" fill="#6E6459" text-anchor="middle">由河到治水，由治水到治理：治这个字的核心，不是管，是疏。</text>
+<text x="24" y="150" font-size="4.8" fill="#A2503B">一、一条河：它自己会走</text>
+<rect x="26" y="162" width="328" height="150" fill="#FBF6EC" stroke="#DCCBB0" stroke-width="0.8"/>
+<path d="M40,236 Q120,228 200,236 Q280,244 340,238" fill="none" stroke="#2F2A24" stroke-width="1.2"/>
+<path d="M40,274 Q120,266 200,274 Q280,282 340,276" fill="none" stroke="#2F2A24" stroke-width="1.2"/>
+<path d="M46,255 q18,6 36,0 q18,-6 36,0 q18,6 36,0 q18,-6 36,0 q18,6 36,0 q18,-6 36,0 q18,6 36,0 q18,-6 36,0" fill="none" stroke="#4A5C55" stroke-width="1"/>
+<polygon points="332,254 322,249 322,259" fill="#4A5C55"/>
+<text x="190" y="208" font-size="4.3" fill="#6E6459" text-anchor="middle">水在两岸之间，自己往下走</text>
+<text x="190" y="326" font-size="4.6" fill="#4A5C55" text-anchor="middle">治者，水名：一条河不需要人来管它</text>
+<text x="24" y="350" font-size="4.8" fill="#4A5C55">二、筑堤：堵一次，水就找一次缝</text>
+<rect x="26" y="362" width="328" height="152" fill="#FBF6EC" stroke="#DCCBB0" stroke-width="0.8"/>
+<path d="M40,418 Q190,410 340,420" fill="none" stroke="#2F2A24" stroke-width="1.2"/>
+<path d="M40,478 Q190,470 340,480" fill="none" stroke="#2F2A24" stroke-width="1.2"/>
+<path d="M46,440 q20,6 40,0 q20,-6 40,0 q20,6 40,0 q20,-6 40,0 q20,6 40,0" fill="none" stroke="#4A5C55" stroke-width="1"/>
+<text x="64" y="456" font-size="4.2" fill="#4A5C55">水涨上来了</text>
+<rect x="108" y="424" width="13" height="56" fill="#DED2B8" stroke="#2F2A24" stroke-width="1"/>
+<rect x="174" y="424" width="13" height="52" fill="#DED2B8" stroke="#2F2A24" stroke-width="1"/>
+<rect x="240" y="424" width="13" height="48" fill="#DED2B8" stroke="#2F2A24" stroke-width="1"/>
+<path d="M120,422 Q134,396 152,414" fill="none" stroke="#A2503B" stroke-width="1" stroke-dasharray="4 3"/>
+<polygon points="152,418 144,408 158,406" fill="#A2503B"/>
+<text x="196" y="396" font-size="4.2" fill="#A2503B">漫过去：乱</text>
+<path d="M178,480 Q192,502 214,488" fill="none" stroke="#A2503B" stroke-width="1" stroke-dasharray="4 3"/>
+<polygon points="214,490 202,484 206,498" fill="#A2503B"/>
+<text x="196" y="510" font-size="4.2" fill="#A2503B" text-anchor="middle">钻出去：逃</text>
+<text x="258" y="446" font-size="4.2" fill="#6E6459">一层政令</text>
+<text x="258" y="458" font-size="4.2" fill="#6E6459">一道堤</text>
+<text x="190" y="530" font-size="4.6" fill="#4A5C55" text-anchor="middle">堵得越多，水越要找缝：堵出来的难，不叫难治</text>
+<text x="24" y="554" font-size="4.8" fill="#2F2A24">帛书作「民之不治」：不是难，是根本治不了——因为病根就在「治」这个动作上。</text>
+<text x="24" y="570" font-size="4.8" fill="#2F2A24">一个治水的人，不会去怪水。</text>
+<text x="24" y="588" font-size="5.0" fill="#4A5C55">水没有去处，只有两个反应：要么漫过去，要么从底下钻出去。</text>
+<line x1="24" y1="606" x2="338" y2="606" stroke="#DCCBB0" stroke-width="0.6"/>
+<rect x="20" y="614" width="340" height="40" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="190" y="629" font-size="5.4" fill="#2F2A24" text-anchor="middle">民之难治，以其上之有为，是以难治。</text>
+<text x="190" y="642" font-size="4.7" fill="#4A5C55" text-anchor="middle">难治者，堵之所致也。</text>
+<line x1="20" y1="670" x2="360" y2="670" stroke="#E6D8C2" stroke-width="0.8"/>
+<text x="20" y="684" font-size="8.0" fill="#A89577" letter-spacing="1">本 章 金 句</text>
+<text x="20" y="700" font-size="8.4" fill="#2F2A24">民之难治，以其上之有为，是以难治。</text>
+<text x="20" y="716" font-size="8.4" fill="#2F2A24">治者，《说文》曰「治，水，出东莱曲城阳丘山，南入海」——本为水名。</text>
+</svg>

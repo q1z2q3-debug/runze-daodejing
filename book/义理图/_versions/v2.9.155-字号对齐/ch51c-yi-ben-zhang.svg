@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 380 552" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="「不有」是总开关：一划「这是我的」，恃与宰就自己跟上来" font-family="'Noto Serif CJK SC','Noto Serif SC','Songti SC',serif">
+<defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#6E6459"/></marker><marker id="arr2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#4A5C55"/></marker><marker id="arrL" viewBox="0 0 10 10" refX="1" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M10 0 L0 5 L10 10 z" fill="#4A5C55"/></marker><marker id="arrS" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#A2503B"/></marker></defs>
+<rect x="0" y="0" width="380" height="552" fill="#F8F3E6"/>
+<text x="20" y="26" font-size="11" fill="#A2503B" font-family="'Noto Sans CJK SC','Noto Sans SC',sans-serif" letter-spacing="3">第 五 十 一 章 · 账</text>
+<text x="20" y="58" font-size="21" fill="#2F2A24">一本账</text>
+<text x="20" y="78" font-size="10.5" fill="#6E6459">生而不有，为而不恃，长而不宰。</text>
+<rect x="20" y="102" width="340" height="30" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="190" y="114" font-size="5.2" fill="#2F2A24" text-anchor="middle">「有」就是划一道界：这一块是我的。而这道界最常划在「我养的」这三个字上。</text>
+<text x="190" y="126" font-size="5.2" fill="#6E6459" text-anchor="middle">恃与宰，是「我养了它」的利息；本金不借，利息不来。</text>
+<text x="24" y="146" font-size="5.4" fill="#4A5C55">一、生而不有：账上不记这一笔</text>
+<rect x="48" y="168" width="92" height="64" fill="#FBF6EC" stroke="#2F2A24" stroke-width="1.0"/>
+<line x1="48" y1="186" x2="140" y2="186" stroke="#DCCBB0" stroke-width="0.45"/>
+<line x1="48" y1="204" x2="140" y2="204" stroke="#DCCBB0" stroke-width="0.45"/>
+<line x1="64" y1="168" x2="64" y2="232" stroke="#E6D8C2" stroke-width="0.4"/>
+<text x="168" y="194" font-size="4.8" fill="#6E6459">没有这一笔，就没有利息</text>
+<text x="168" y="210" font-size="4.6" fill="#4A5C55">为而不恃：做了，不靠着它站直</text>
+<text x="168" y="222" font-size="4.6" fill="#4A5C55">长而不宰：养大了，不进去当管事</text>
+<text x="24" y="258" font-size="5.4" fill="#A2503B">二、一划界：记上「我养的」，两笔利息自己来</text>
+<rect x="48" y="288" width="92" height="64" fill="#FBF6EC" stroke="#2F2A24" stroke-width="1.0"/>
+<line x1="48" y1="306" x2="140" y2="306" stroke="#DCCBB0" stroke-width="0.45"/>
+<line x1="48" y1="324" x2="140" y2="324" stroke="#DCCBB0" stroke-width="0.45"/>
+<line x1="64" y1="288" x2="64" y2="352" stroke="#E6D8C2" stroke-width="0.4"/>
+<text x="70" y="302" font-size="4.6" fill="#A2503B">我养的</text>
+<line x1="142" y1="312" x2="208" y2="294" stroke="#A2503B" stroke-width="0.9" marker-end="url(#arrS)"/>
+<line x1="142" y1="328" x2="208" y2="346" stroke="#A2503B" stroke-width="0.9" marker-end="url(#arrS)"/>
+<text x="214" y="288" font-size="4.8" fill="#A2503B">恃：靠着它站直</text>
+<text x="214" y="300" font-size="4.4" fill="#6E6459">说话硬一点，眼神定一点</text>
+<text x="214" y="340" font-size="4.8" fill="#A2503B">宰：搬进它屋里</text>
+<text x="214" y="352" font-size="4.4" fill="#6E6459">养了，就顺手管起来</text>
+<text x="30" y="364" font-size="4.6" fill="#6E6459">这是「好人」的病：坏事的人不恃，好事的人才恃</text>
+<text x="24" y="390" font-size="5.0" fill="#2F2A24">三个「不」是一条递进的线：不有不划界，不恃不靠它站直，不宰不搬进它屋里。</text>
+<text x="24" y="406" font-size="5.0" fill="#2F2A24">玄德不是深：玄是两股丝绞在一起——一根看不出怎么绞的绳，才承得住重。</text>
+<text x="24" y="422" font-size="5.4" fill="#4A5C55">开关一合，后面两样就关不上；这个开关，就在「这是我的」四个字上。</text>
+<line x1="24" y1="440" x2="338" y2="440" stroke="#DCCBB0" stroke-width="0.6"/>
+<rect x="20" y="448" width="340" height="40" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="190" y="464" font-size="6.0" fill="#2F2A24" text-anchor="middle">「不有」是总开关：一划「这是我的」，</text>
+<text x="190" y="476" font-size="6.0" fill="#4A5C55" text-anchor="middle">恃与宰就自己跟上来了。</text>
+<line x1="20" y1="502" x2="360" y2="502" stroke="#E6D8C2" stroke-width="0.8"/>
+<text x="20" y="516" font-size="8.0" fill="#A89577" letter-spacing="1">本 章 金 句</text>
+<text x="20" y="532" font-size="8.4" fill="#2F2A24">「不有」是总开关：一划「这是我的」，恃与宰就自己跟上来了。</text>
+</svg>

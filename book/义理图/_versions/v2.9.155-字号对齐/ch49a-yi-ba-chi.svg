@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 380 760" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="常心是一把自己打的尺：尺一横在人头顶，人就只剩一个读数" font-family="'Noto Serif CJK SC','Noto Serif SC','Songti SC',serif">
+<defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#6E6459"/></marker><marker id="arr2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#4A5C55"/></marker><marker id="arrL" viewBox="0 0 10 10" refX="1" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M10 0 L0 5 L10 10 z" fill="#4A5C55"/></marker><marker id="arrS" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#A2503B"/></marker></defs>
+<rect x="0" y="0" width="380" height="760" fill="#F8F3E6"/>
+<text x="20" y="26" font-size="11" fill="#A2503B" font-family="'Noto Sans CJK SC','Noto Sans SC',sans-serif" letter-spacing="3">第 四 十 九 章 · 尺</text>
+<text x="20" y="58" font-size="21" fill="#2F2A24">一把尺</text>
+<text x="20" y="78" font-size="10.5" fill="#6E6459">圣人无常心，以百姓心为心。</text>
+<rect x="20" y="102" width="340" height="32" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="190" y="114" font-size="5.2" fill="#2F2A24" text-anchor="middle">「常」这个字最骗人：它听着像天理，其实是你自己的习惯。</text>
+<text x="190" y="127" font-size="5.0" fill="#6E6459" text-anchor="middle">一把尺在手，万物皆有长短；放下尺，不是没有标准，是不再拿它钉人。</text>
+<text x="24" y="150" font-size="5.2" fill="#A2503B">一、有常心：一把尺压在头顶</text>
+<rect x="26" y="162" width="328" height="168" fill="#FBF6EC" stroke="#DCCBB0" stroke-width="0.8"/>
+<line x1="40" y1="290" x2="330" y2="290" stroke="#2F2A24" stroke-width="1"/>
+<rect x="44" y="184" width="244" height="9" fill="#EFE6D4" stroke="#2F2A24" stroke-width="1"/>
+<line x1="58" y1="184" x2="58" y2="187.2" stroke="#2F2A24" stroke-width="0.5"/>
+<line x1="85" y1="184" x2="85" y2="187.2" stroke="#2F2A24" stroke-width="0.5"/>
+<line x1="112" y1="184" x2="112" y2="187.2" stroke="#2F2A24" stroke-width="0.5"/>
+<line x1="139" y1="184" x2="139" y2="187.2" stroke="#2F2A24" stroke-width="0.5"/>
+<line x1="166" y1="184" x2="166" y2="187.2" stroke="#2F2A24" stroke-width="0.5"/>
+<line x1="193" y1="184" x2="193" y2="187.2" stroke="#2F2A24" stroke-width="0.5"/>
+<line x1="220" y1="184" x2="220" y2="187.2" stroke="#2F2A24" stroke-width="0.5"/>
+<line x1="247" y1="184" x2="247" y2="187.2" stroke="#2F2A24" stroke-width="0.5"/>
+<line x1="274" y1="184" x2="274" y2="187.2" stroke="#2F2A24" stroke-width="0.5"/>
+<line x1="44" y1="193" x2="288" y2="193" stroke="#A2503B" stroke-width="1.1" stroke-dasharray="6 3"/>
+<text x="296" y="192" font-size="4.4" fill="#A2503B">合格线</text>
+<circle cx="86" cy="200" r="5.6" fill="none" stroke="#2F2A24" stroke-width="1"/>
+<line x1="86" y1="206" x2="86" y2="272" stroke="#2F2A24" stroke-width="1.2"/>
+<line x1="86" y1="216" x2="79" y2="226" stroke="#2F2A24" stroke-width="0.9"/>
+<line x1="86" y1="216" x2="93" y2="226" stroke="#2F2A24" stroke-width="0.9"/>
+<line x1="86" y1="272" x2="80" y2="290" stroke="#2F2A24" stroke-width="1"/>
+<line x1="86" y1="272" x2="92" y2="290" stroke="#2F2A24" stroke-width="1"/>
+<line x1="86" y1="194.4" x2="86" y2="193" stroke="#4A5C55" stroke-width="0.6" stroke-dasharray="3 2"/>
+<text x="86" y="304" font-size="4.3" fill="#4A5C55" text-anchor="middle">甲：够得到</text>
+<circle cx="148" cy="224" r="5.6" fill="none" stroke="#2F2A24" stroke-width="1"/>
+<line x1="148" y1="230" x2="148" y2="272" stroke="#2F2A24" stroke-width="1.2"/>
+<line x1="148" y1="240" x2="141" y2="250" stroke="#2F2A24" stroke-width="0.9"/>
+<line x1="148" y1="240" x2="155" y2="250" stroke="#2F2A24" stroke-width="0.9"/>
+<line x1="148" y1="272" x2="142" y2="290" stroke="#2F2A24" stroke-width="1"/>
+<line x1="148" y1="272" x2="154" y2="290" stroke="#2F2A24" stroke-width="1"/>
+<line x1="148" y1="218.4" x2="148" y2="198" stroke="#A2503B" stroke-width="0.6" stroke-dasharray="3 2"/>
+<text x="148" y="304" font-size="4.3" fill="#A2503B" text-anchor="middle">乙：差一截</text>
+<circle cx="210" cy="248" r="5.6" fill="none" stroke="#2F2A24" stroke-width="1"/>
+<line x1="210" y1="254" x2="210" y2="272" stroke="#2F2A24" stroke-width="1.2"/>
+<line x1="210" y1="264" x2="203" y2="274" stroke="#2F2A24" stroke-width="0.9"/>
+<line x1="210" y1="264" x2="217" y2="274" stroke="#2F2A24" stroke-width="0.9"/>
+<line x1="210" y1="272" x2="204" y2="290" stroke="#2F2A24" stroke-width="1"/>
+<line x1="210" y1="272" x2="216" y2="290" stroke="#2F2A24" stroke-width="1"/>
+<line x1="210" y1="242.4" x2="210" y2="222" stroke="#A2503B" stroke-width="0.6" stroke-dasharray="3 2"/>
+<text x="210" y="304" font-size="4.3" fill="#A2503B" text-anchor="middle">丙：差两截</text>
+<text x="190" y="318" font-size="4.5" fill="#4A5C55" text-anchor="middle">尺一压下来，人就成了刻度上的一个读数</text>
+<text x="190" y="346" font-size="4.6" fill="#4A5C55" text-anchor="middle">尺一伸出去，话就跟着出去；尺压在头顶，人就被钉住</text>
+<text x="24" y="370" font-size="5.2" fill="#4A5C55">二、无常心：尺收回腰间，人还是三个人</text>
+<rect x="26" y="382" width="328" height="168" fill="#FBF6EC" stroke="#DCCBB0" stroke-width="0.8"/>
+<line x1="40" y1="510" x2="330" y2="510" stroke="#2F2A24" stroke-width="1"/>
+<circle cx="86" cy="420" r="5.6" fill="none" stroke="#2F2A24" stroke-width="1"/>
+<line x1="86" y1="426" x2="86" y2="492" stroke="#2F2A24" stroke-width="1.2"/>
+<line x1="86" y1="436" x2="79" y2="446" stroke="#2F2A24" stroke-width="0.9"/>
+<line x1="86" y1="436" x2="93" y2="446" stroke="#2F2A24" stroke-width="0.9"/>
+<line x1="86" y1="492" x2="80" y2="510" stroke="#2F2A24" stroke-width="1"/>
+<line x1="86" y1="492" x2="92" y2="510" stroke="#2F2A24" stroke-width="1"/>
+<text x="86" y="524" font-size="4.5" fill="#6E6459" text-anchor="middle">甲</text>
+<circle cx="148" cy="444" r="5.6" fill="none" stroke="#2F2A24" stroke-width="1"/>
+<line x1="148" y1="450" x2="148" y2="492" stroke="#2F2A24" stroke-width="1.2"/>
+<line x1="148" y1="460" x2="141" y2="470" stroke="#2F2A24" stroke-width="0.9"/>
+<line x1="148" y1="460" x2="155" y2="470" stroke="#2F2A24" stroke-width="0.9"/>
+<line x1="148" y1="492" x2="142" y2="510" stroke="#2F2A24" stroke-width="1"/>
+<line x1="148" y1="492" x2="154" y2="510" stroke="#2F2A24" stroke-width="1"/>
+<text x="148" y="524" font-size="4.5" fill="#6E6459" text-anchor="middle">乙</text>
+<circle cx="210" cy="468" r="5.6" fill="none" stroke="#2F2A24" stroke-width="1"/>
+<line x1="210" y1="474" x2="210" y2="492" stroke="#2F2A24" stroke-width="1.2"/>
+<line x1="210" y1="484" x2="203" y2="494" stroke="#2F2A24" stroke-width="0.9"/>
+<line x1="210" y1="484" x2="217" y2="494" stroke="#2F2A24" stroke-width="0.9"/>
+<line x1="210" y1="492" x2="204" y2="510" stroke="#2F2A24" stroke-width="1"/>
+<line x1="210" y1="492" x2="216" y2="510" stroke="#2F2A24" stroke-width="1"/>
+<text x="210" y="524" font-size="4.5" fill="#6E6459" text-anchor="middle">丙</text>
+<path d="M79,466 q7,3 14,0" fill="none" stroke="#2F2A24" stroke-width="1"/>
+<line x1="92" y1="468" x2="124" y2="456" stroke="#EFE6D4" stroke-width="3.4"/>
+<line x1="92" y1="468" x2="124" y2="456" stroke="#4A5C55" stroke-width="1.4"/>
+<line x1="100" y1="466" x2="100" y2="470" stroke="#2F2A24" stroke-width="0.5"/>
+<line x1="108" y1="463" x2="108" y2="467" stroke="#2F2A24" stroke-width="0.5"/>
+<line x1="116" y1="460" x2="116" y2="464" stroke="#2F2A24" stroke-width="0.5"/>
+<text x="238" y="426" font-size="4.4" fill="#4A5C55">尺插回腰间：还在，</text>
+<text x="238" y="438" font-size="4.4" fill="#4A5C55">不横在人头顶</text>
+<text x="190" y="566" font-size="4.6" fill="#4A5C55" text-anchor="middle">头顶那道虚线没有了：不把人划到哪一栏里去</text>
+<text x="24" y="590" font-size="5.4" fill="#2F2A24">尺量长短，是它本分；尺压在头顶，它就把人钉住了。</text>
+<text x="24" y="606" font-size="5.4" fill="#2F2A24">「以百姓心为心」不是照他们说的做，是不把他们划到哪一栏里去。</text>
+<text x="24" y="624" font-size="5.2" fill="#4A5C55">这一章不是教人宽容，是教人把自己那把尺认出来，然后松开手。</text>
+<line x1="24" y1="642" x2="338" y2="642" stroke="#DCCBB0" stroke-width="0.6"/>
+<rect x="20" y="650" width="340" height="40" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="190" y="666" font-size="6.0" fill="#2F2A24" text-anchor="middle">一把尺能定长短，</text>
+<text x="190" y="678" font-size="6.0" fill="#4A5C55" text-anchor="middle">也能把人钉在短的那一格里。</text>
+<line x1="20" y1="704" x2="360" y2="704" stroke="#E6D8C2" stroke-width="0.8"/>
+<text x="20" y="718" font-size="8.0" fill="#A89577" letter-spacing="1">本 章 金 句</text>
+<text x="20" y="734" font-size="8.4" fill="#2F2A24">一把尺能定长短，也能把人钉在短的那一格里。</text>
+</svg>

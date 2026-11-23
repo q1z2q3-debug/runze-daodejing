@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 380 728" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="繟是带缓：松着，衣服照样在；系紧，勒出痕" font-family="'Noto Serif CJK SC','Noto Serif SC','Songti SC',serif">
+<defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#6E6459"/></marker><marker id="arr2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#4A5C55"/></marker><marker id="arrL" viewBox="0 0 10 10" refX="1" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M10 0 L0 5 L10 10 z" fill="#4A5C55"/></marker><marker id="arrS" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#A2503B"/></marker></defs>
+<rect x="0" y="0" width="380" height="728" fill="#F8F3E6"/>
+<text x="20" y="26" font-size="11" fill="#A2503B" font-family="'Noto Sans CJK SC','Noto Sans SC',sans-serif" letter-spacing="3">第 七 十 三 章 · 繟</text>
+<text x="20" y="58" font-size="21" fill="#2F2A24">一根松带子</text>
+<text x="20" y="78" font-size="10.5" fill="#6E6459">繟然而善谋。</text>
+<rect x="20" y="102" width="340" height="32" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="190" y="114" font-size="4.7" fill="#2F2A24" text-anchor="middle">「繟」，《说文》「带缓也」，从糸——带子系得松。</text>
+<text x="190" y="127" font-size="4.7" fill="#6E6459" text-anchor="middle">松着不掉，紧着就勒；勒的那一处，就是崩的那一处。</text>
+<text x="24" y="150" font-size="4.8" fill="#4A5C55">一、松：带垂着，衣服还在身上</text>
+<rect x="26" y="162" width="328" height="146" fill="#FBF6EC" stroke="#DCCBB0" stroke-width="0.8"/>
+<path d="M124,188 L176,188 L180,258 L120,258 Z" fill="#EFE6D4" stroke="#2F2A24" stroke-width="1"/>
+<path d="M142,188 L150,202 L158,188" fill="none" stroke="#2F2A24" stroke-width="0.9"/>
+<path d="M123,214 Q150,228 177,214" fill="none" stroke="#A2503B" stroke-width="1.4"/>
+<path d="M148,220 q4,10 -2,18" fill="none" stroke="#A2503B" stroke-width="1.2"/>
+<path d="M160,219 q5,8 1,16" fill="none" stroke="#A2503B" stroke-width="1.1" opacity="0.8"/>
+<text x="208" y="220" font-size="4.4" fill="#A2503B">带缓：</text>
+<text x="208" y="232" font-size="4.4" fill="#6E6459">垂着，不掉</text>
+<text x="190" y="324" font-size="4.6" fill="#4A5C55" text-anchor="middle">松不是散：衣还在身上，气还在腰里</text>
+<text x="24" y="346" font-size="4.8" fill="#A2503B">二、紧：带子勒进去，那一处先崩</text>
+<rect x="26" y="358" width="328" height="150" fill="#FBF6EC" stroke="#DCCBB0" stroke-width="0.8"/>
+<path d="M124,384 L176,384 L180,454 L120,454 Z" fill="#EFE6D4" stroke="#2F2A24" stroke-width="1"/>
+<path d="M142,384 L150,398 L158,384" fill="none" stroke="#2F2A24" stroke-width="0.9"/>
+<line x1="123" y1="412" x2="177" y2="412" stroke="#A2503B" stroke-width="1.6"/>
+<line x1="123" y1="406" x2="123" y2="420" stroke="#A2503B" stroke-width="1"/>
+<line x1="177" y1="406" x2="177" y2="420" stroke="#A2503B" stroke-width="1"/>
+<path d="M123,402 q-6,10 0,20" fill="none" stroke="#B9A98F" stroke-width="0.8"/>
+<path d="M177,402 q6,10 0,20" fill="none" stroke="#B9A98F" stroke-width="0.8"/>
+<text x="208" y="408" font-size="4.4" fill="#A2503B">系紧：</text>
+<text x="208" y="420" font-size="4.4" fill="#6E6459">勒出痕</text>
+<text x="190" y="524" font-size="4.6" fill="#4A5C55" text-anchor="middle">紧处就是崩处：一处勒死，四下都跟着断</text>
+<text x="24" y="540" font-size="4.8" fill="#2F2A24">人之谋也系紧：把每一步都钉住，钉不住的那一步就是全盘。</text>
+<text x="24" y="556" font-size="4.8" fill="#2F2A24">天之谋也系松：松而不掉——掉不下来，是因为它不靠一处系着。</text>
+<text x="24" y="574" font-size="5.0" fill="#4A5C55">故善谋者，使人不觉其谋：带子松着，衣服自己就在。</text>
+<line x1="24" y1="590" x2="338" y2="590" stroke="#DCCBB0" stroke-width="0.6"/>
+<rect x="20" y="598" width="340" height="40" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="190" y="613" font-size="5.4" fill="#2F2A24" text-anchor="middle">繟者，《说文》曰「带缓也」，从糸——带系之松也。</text>
+<text x="190" y="626" font-size="4.7" fill="#4A5C55" text-anchor="middle">松着，是让每一处都留一点回旋的余地。</text>
+<line x1="20" y1="652" x2="360" y2="652" stroke="#E6D8C2" stroke-width="0.8"/>
+<text x="20" y="666" font-size="8.0" fill="#A89577" letter-spacing="1">本 章 金 句</text>
+<text x="20" y="682" font-size="8.4" fill="#2F2A24">繟者，《说文》曰「带缓也」，从糸——带系之松也。</text>
+<text x="20" y="698" font-size="8.4" fill="#2F2A24">人之谋也系紧，紧则勒，勒处即崩处；</text>
+</svg>

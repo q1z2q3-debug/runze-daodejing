@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 380 682" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="已经吃过，还要再添" font-family="'Noto Serif CJK SC','Noto Serif SC','Songti SC',serif">
+<defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#6E6459"/></marker><marker id="arr2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#4A5C55"/></marker><marker id="arrL" viewBox="0 0 10 10" refX="1" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M10 0 L0 5 L10 10 z" fill="#4A5C55"/></marker><marker id="arrS" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#A2503B"/></marker></defs>
+<rect x="0" y="0" width="380" height="682" fill="#F8F3E6"/>
+<text x="20" y="26" font-size="11" fill="#A2503B" font-family="'Noto Sans CJK SC','Noto Sans SC',sans-serif" letter-spacing="3">第 二 十 四 章 · 余 食</text>
+<text x="20" y="58" font-size="21" fill="#2F2A24">余食</text>
+<text x="20" y="78" font-size="10.5" fill="#6E6459">其在道也，曰：余食赘行。</text>
+<rect x="20" y="102" width="340" height="34" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="190" y="114" font-size="4.8" fill="#2F2A24" text-anchor="middle">余食＝吃剩的饭：不是没吃过，是已经吃过、还端上来。</text>
+<text x="190" y="127" font-size="4.8" fill="#6E6459" text-anchor="middle">判据只有一条：这一份，还有人吃吗。</text>
+<rect x="26" y="152" width="328" height="154" fill="#FBF6EC" stroke="#DCCBB0" stroke-width="0.8"/>
+<rect x="58" y="270" width="266" height="7" fill="#E7DCC4" stroke="#2F2A24" stroke-width="1.0"/>
+<line x1="78" y1="277" x2="78" y2="294" stroke="#2F2A24" stroke-width="1.0"/>
+<line x1="304" y1="277" x2="304" y2="294" stroke="#2F2A24" stroke-width="1.0"/>
+<path d="M104,228 L120,268 L168,268 L184,228" fill="#FCF8EF" stroke="#2F2A24" stroke-width="1.1"/>
+<ellipse cx="144" cy="228" rx="40" ry="7.5" fill="#F8F3E6" stroke="#2F2A24" stroke-width="1.1"/>
+<path d="M118,260 C130,264 158,264 170,260" fill="none" stroke="#C9B79A" stroke-width="0.8"/>
+<path d="M208,216 L226,268 L280,268 L298,216" fill="#FCF8EF" stroke="#2F2A24" stroke-width="1.1"/>
+<path d="M213,220 C222,240 284,240 293,220 L293,226 C284,246 222,246 L213,226 Z" fill="#DAC9A4" stroke="none"/>
+<ellipse cx="253" cy="216" rx="45" ry="8" fill="#E3D3AE" stroke="#2F2A24" stroke-width="1.1"/>
+<line x1="253" y1="202" x2="244" y2="218" stroke="#2F2A24" stroke-width="1.0"/>
+<text x="144" y="294" font-size="4.0" fill="#4A5C55" text-anchor="middle">吃到底：够了</text>
+<text x="253" y="294" font-size="4.0" fill="#A2503B" text-anchor="middle">还满着：没人动</text>
+<text x="24" y="319" font-size="5.0" fill="#A2503B">一、余食：同一张桌上，一只是空的，一只没人动</text>
+<rect x="26" y="332" width="328" height="150" fill="#FBF6EC" stroke="#DCCBB0" stroke-width="0.8"/>
+<rect x="58" y="428" width="266" height="7" fill="#E7DCC4" stroke="#2F2A24" stroke-width="1.0"/>
+<line x1="78" y1="435" x2="78" y2="452" stroke="#2F2A24" stroke-width="1.0"/>
+<line x1="304" y1="435" x2="304" y2="452" stroke="#2F2A24" stroke-width="1.0"/>
+<path d="M96,392 L112,428 L160,428 L176,392" fill="#FCF8EF" stroke="#2F2A24" stroke-width="1.1"/>
+<ellipse cx="136" cy="392" rx="40" ry="7.5" fill="#F8F3E6" stroke="#2F2A24" stroke-width="1.1"/>
+<path d="M226,388 L232,424 L288,424 L294,388 Z" fill="none" stroke="#C9B79A" stroke-width="0.9" stroke-dasharray="4 2"/>
+<ellipse cx="260" cy="388" rx="34" ry="6" fill="none" stroke="#C9B79A" stroke-width="0.9" stroke-dasharray="4 2"/>
+<path d="M178,394 L214,388" fill="none" stroke="#A2503B" stroke-width="0.8" stroke-dasharray="3 2"/>
+<path d="M210,385 L216,388 L210,392 Z" fill="#A2503B"/>
+<text x="260" y="376" font-size="3.7" fill="#8A7C69" text-anchor="middle">端下去：这一碗没人吃</text>
+<text x="190" y="450" font-size="4.0" fill="#A2503B" text-anchor="middle">多出来的那一碗，本来不必端上来。</text>
+<text x="24" y="495" font-size="5.0" fill="#4A5C55">二、端下去：碗不会少一个，是桌上不必再来这一碗</text>
+<text x="24" y="512" font-size="4.9" fill="#2F2A24">余食不是「吃得多」：吃到底，够了；判它作余食的，是「再添」那个动作。</text>
+<text x="24" y="528" font-size="4.9" fill="#2F2A24">碗还满着而没人动，说明添的时候，要的不是饭，是被看着吃。</text>
+<text x="24" y="546" font-size="4.9" fill="#4A5C55">所以不必把它倒掉，也不必自责：看清这一碗没人吃，手就不伸过去了。</text>
+<line x1="24" y1="564" x2="338" y2="564" stroke="#DCCBB0" stroke-width="0.6"/>
+<rect x="20" y="572" width="340" height="40" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="190" y="588" font-size="5.4" fill="#2F2A24" text-anchor="middle">不处不是割掉，是不长。</text>
+<text x="190" y="600" font-size="4.5" fill="#4A5C55" text-anchor="middle">约束是按住它，不处是根本不在那儿站。</text>
+<line x1="20" y1="626" x2="360" y2="626" stroke="#E6D8C2" stroke-width="0.8"/>
+<text x="20" y="640" font-size="8.0" fill="#A89577" letter-spacing="1">本 章 金 句</text>
+<text x="20" y="656" font-size="8.4" fill="#2F2A24">不处不是割掉，是不长——约束是按住它，不处是根本不在那儿站。</text>
+</svg>

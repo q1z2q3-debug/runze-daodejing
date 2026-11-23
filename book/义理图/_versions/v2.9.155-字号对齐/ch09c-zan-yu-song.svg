@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 380 754" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="攥着，就先被它绑住；松开，功还是功" font-family="'Noto Serif CJK SC','Noto Serif SC','Songti SC',serif">
+<defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#6E6459"/></marker><marker id="arr2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#4A5C55"/></marker><marker id="arrL" viewBox="0 0 10 10" refX="1" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M10 0 L0 5 L10 10 z" fill="#4A5C55"/></marker><marker id="arrS" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#A2503B"/></marker></defs>
+<rect x="0" y="0" width="380" height="754" fill="#F8F3E6"/>
+<text x="20" y="26" font-size="11" fill="#A2503B" font-family="'Noto Sans CJK SC','Noto Sans SC',sans-serif" letter-spacing="3">第 九 章 · 攥 与 松</text>
+<text x="20" y="58" font-size="21" fill="#2F2A24">攥与松</text>
+<text x="20" y="78" font-size="10.5" fill="#6E6459">金玉满堂，莫之能守；富贵而骄，自遗其咎。</text>
+<rect x="20" y="102" width="340" height="34" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="190" y="114" font-size="4.9" fill="#2F2A24" text-anchor="middle">四样东西都不是你的错，攥才是：攥着满的，满会溢；攥着锋的，锋会折。</text>
+<text x="190" y="128" font-size="4.9" fill="#6E6459" text-anchor="middle">「功」是向外显的果，「身」是向内的根——退的不是事，是把根挪出果的那一下。</text>
+<text x="24" y="152" font-size="5.2" fill="#A2503B">一、攥：越攥越紧，指节都白了</text>
+<rect x="26" y="164" width="328" height="180" fill="#FBF6EC" stroke="#DCCBB0" stroke-width="0.8"/>
+<rect x="166" y="242" width="48" height="26" rx="8" fill="#EFE6D4" stroke="#2F2A24" stroke-width="1.0"/>
+<rect x="172" y="222" width="8" height="22" rx="4" fill="#EFE6D4" stroke="#2F2A24" stroke-width="0.8"/>
+<rect x="183" y="222" width="8" height="22" rx="4" fill="#EFE6D4" stroke="#2F2A24" stroke-width="0.8"/>
+<rect x="194" y="222" width="8" height="22" rx="4" fill="#EFE6D4" stroke="#2F2A24" stroke-width="0.8"/>
+<rect x="205" y="222" width="8" height="22" rx="4" fill="#EFE6D4" stroke="#2F2A24" stroke-width="0.8"/>
+<rect x="214" y="236" width="14" height="8" rx="4" fill="#EFE6D4" stroke="#2F2A24" stroke-width="0.9"/>
+<rect x="180" y="246" width="20" height="13" fill="#E4D8BF" stroke="#2F2A24" stroke-width="0.9"/>
+<rect x="186" y="239" width="8" height="8" fill="#E4D8BF" stroke="#2F2A24" stroke-width="0.8"/>
+<path d="M157,254 q33,9 66,0" fill="none" stroke="#A2503B" stroke-width="1.0" opacity="0.8"/>
+<path d="M157,261 q33,9 66,0" fill="none" stroke="#A2503B" stroke-width="1.0" opacity="0.8"/>
+<path d="M157,268 q33,9 66,0" fill="none" stroke="#A2503B" stroke-width="1.0" opacity="0.8"/>
+<path d="M157,267 q-9,9 -5,20" fill="none" stroke="#A2503B" stroke-width="0.9" opacity="0.8"/>
+<path d="M223,267 q9,9 5,20" fill="none" stroke="#A2503B" stroke-width="0.9" opacity="0.8"/>
+<text x="234" y="262" font-size="4.6" fill="#A2503B">绳</text>
+<line x1="120" y1="250" x2="150" y2="250" stroke="#A2503B" stroke-width="0.9" marker-end="url(#arrS)"/>
+<text x="116" y="250" font-size="5.0" fill="#A2503B" text-anchor="end">攥</text>
+<text x="190" y="292" font-size="4.6" fill="#A2503B" text-anchor="middle">攥住的是印，绑住的是手</text>
+<text x="190" y="310" font-size="4.2" fill="#6E6459" text-anchor="middle">金玉满堂，莫之能守：相会散，守着它的人先被它锁住</text>
+<text x="190" y="324" font-size="4.2" fill="#6E6459" text-anchor="middle">富贵而骄，自遗其咎：咎不是外面给的，是心里那口气招的</text>
+<text x="24" y="360" font-size="5.2" fill="#4A5C55">二、松：手摊开，印还在</text>
+<rect x="26" y="372" width="328" height="176" fill="#FBF6EC" stroke="#DCCBB0" stroke-width="0.8"/>
+<rect x="166" y="468" width="48" height="26" rx="8" fill="#EFE6D4" stroke="#2F2A24" stroke-width="1.0"/>
+<rect x="172" y="444" width="8" height="26" rx="4" fill="#EFE6D4" stroke="#2F2A24" stroke-width="0.8"/>
+<rect x="183" y="444" width="8" height="26" rx="4" fill="#EFE6D4" stroke="#2F2A24" stroke-width="0.8"/>
+<rect x="194" y="444" width="8" height="26" rx="4" fill="#EFE6D4" stroke="#2F2A24" stroke-width="0.8"/>
+<rect x="205" y="444" width="8" height="26" rx="4" fill="#EFE6D4" stroke="#2F2A24" stroke-width="0.8"/>
+<rect x="214" y="462" width="14" height="8" rx="4" fill="#EFE6D4" stroke="#2F2A24" stroke-width="0.9"/>
+<rect x="180" y="462" width="20" height="15" fill="#E4D8BF" stroke="#2F2A24" stroke-width="0.9"/>
+<rect x="186" y="455" width="8" height="7" fill="#E4D8BF" stroke="#2F2A24" stroke-width="0.8"/>
+<text x="216" y="460" font-size="4.4" fill="#4A5C55">印</text>
+<path d="M126,460 q14,-8 26,-1 q12,7 0,14" fill="none" stroke="#A2503B" stroke-width="1.0" opacity="0.55"/>
+<path d="M132,475 q12,4 22,-1" fill="none" stroke="#A2503B" stroke-width="0.9" opacity="0.55"/>
+<text x="132" y="454" font-size="4.0" fill="#6E6459" text-anchor="middle">解开</text>
+<line x1="266" y1="436" x2="230" y2="446" stroke="#4A5C55" stroke-width="0.9" marker-end="url(#arr2)"/>
+<text x="270" y="434" font-size="4.4" fill="#4A5C55">松开</text>
+<text x="190" y="500" font-size="4.6" fill="#4A5C55" text-anchor="middle">功还是功，人还是人：印没掉，手也不抖</text>
+<text x="190" y="518" font-size="4.2" fill="#6E6459" text-anchor="middle">退的不是事，是恋；收的不是手，是心</text>
+<text x="190" y="532" font-size="4.2" fill="#6E6459" text-anchor="middle">先功遂，再身退——没做成而先退，多半是给退缩找个好名字</text>
+<text x="24" y="568" font-size="5.2" fill="#2F2A24">「退」，旧注多解作隐居避世。这一章不是：功成了，心不跟着功走，才是退。</text>
+<text x="24" y="584" font-size="5.2" fill="#2F2A24">能进也能退，能显也能藏：下一段因缘来了，照样出来做事。</text>
+<text x="24" y="602" font-size="5.0" fill="#4A5C55">四时春生夏长、秋收冬藏——收不是失败，是节律；只生不收，才是逆天。</text>
+<line x1="24" y1="620" x2="338" y2="620" stroke="#DCCBB0" stroke-width="0.6"/>
+<rect x="20" y="628" width="340" height="40" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="190" y="644" font-size="6.0" fill="#2F2A24" text-anchor="middle">退的不是事，是恋；</text>
+<text x="190" y="656" font-size="6.0" fill="#4A5C55" text-anchor="middle">收的不是手，是心。</text>
+<line x1="20" y1="682" x2="360" y2="682" stroke="#E6D8C2" stroke-width="0.8"/>
+<text x="20" y="696" font-size="8.0" fill="#A89577" letter-spacing="1">本 章 金 句</text>
+<text x="20" y="712" font-size="8.4" fill="#2F2A24">金玉满堂，莫之能守；富贵而骄，自遗其咎。</text>
+<text x="20" y="728" font-size="8.4" fill="#2F2A24">退的不是事，是恋；收的不是手，是心。</text>
+</svg>

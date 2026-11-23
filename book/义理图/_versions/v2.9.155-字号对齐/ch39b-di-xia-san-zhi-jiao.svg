@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 380 612" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="一切立着的东西，都靠一个不显眼的部分立着" font-family="'Noto Serif CJK SC','Noto Serif SC','Songti SC',serif">
+<defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#6E6459"/></marker><marker id="arr2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#4A5C55"/></marker><marker id="arrL" viewBox="0 0 10 10" refX="1" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M10 0 L0 5 L10 10 z" fill="#4A5C55"/></marker><marker id="arrS" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#A2503B"/></marker></defs>
+<rect x="0" y="0" width="380" height="612" fill="#F8F3E6"/>
+<text x="20" y="26" font-size="11" fill="#A2503B" font-family="'Noto Sans CJK SC','Noto Sans SC',sans-serif" letter-spacing="3">第 三 十 九 章 · 托 底</text>
+<text x="20" y="58" font-size="21" fill="#2F2A24">底下那三只脚</text>
+<text x="20" y="78" font-size="10.5" fill="#6E6459">整全不在明面上。</text>
+<text x="24" y="120" font-size="5.2" fill="#2F2A24">一 · 鼎：贵的那一头，靠贱的那一头立着</text>
+<ellipse cx="74" cy="170" rx="40" ry="24" fill="#F2EADA" stroke="#2F2A24" stroke-width="1"/>
+<path d="M46,150 L46,138 L56,138" fill="none" stroke="#2F2A24" stroke-width="1.2"/>
+<path d="M102,150 L102,138 L92,138" fill="none" stroke="#2F2A24" stroke-width="1.2"/>
+<line x1="52" y1="192" x2="52" y2="206" stroke="#2F2A24" stroke-width="1.4"/>
+<line x1="74" y1="192" x2="74" y2="206" stroke="#2F2A24" stroke-width="1.4"/>
+<line x1="96" y1="192" x2="96" y2="206" stroke="#2F2A24" stroke-width="1.4"/>
+<text x="74" y="174" font-size="5.2" fill="#A2503B" text-anchor="middle">贵 · 高</text>
+<text x="74" y="218" font-size="5.8" fill="#6E6459" text-anchor="middle">贱 · 下（三只短足）</text>
+<text x="150" y="142" font-size="5.2" fill="#2F2A24">三千斤的鼎，站在三只短短的脚上。</text>
+<text x="150" y="156" font-size="5.2" fill="#2F2A24">足一断，腹立刻塌；腹越重，塌得越彻底。</text>
+<text x="150" y="170" font-size="5.2" fill="#6E6459">越重的东西，落地的那一部分越小、越不起眼，</text>
+<text x="150" y="182" font-size="5.2" fill="#6E6459">也从来不写进铭文。</text>
+<text x="150" y="200" font-size="5.2" fill="#A2503B">故贵以贱为本，高以下为基。</text>
+<text x="24" y="246" font-size="5.2" fill="#2F2A24">二 · 舆：数遍零件，数不出那个空位</text>
+<rect x="50" y="264" width="68" height="34" fill="none" stroke="#2F2A24" stroke-width="1"/>
+<line x1="50" y1="264" x2="118" y2="264" stroke="#DCCBB0" stroke-width="1"/>
+<rect x="64" y="270" width="40" height="22" fill="none" stroke="#A2503B" stroke-width="0.7" stroke-dasharray="5 4"/>
+<text x="84" y="283" font-size="6.0" fill="#A2503B" text-anchor="middle">空位</text>
+<circle cx="66" cy="308" r="12" fill="none" stroke="#2F2A24" stroke-width="1"/>
+<circle cx="66" cy="308" r="3" fill="none" stroke="#2F2A24" stroke-width="0.8"/>
+<line x1="118" y1="294" x2="146" y2="294" stroke="#2F2A24" stroke-width="1.2"/>
+<line x1="50" y1="298" x2="118" y2="298" stroke="#DCCBB0" stroke-width="0.8"/>
+<text x="66" y="326" font-size="5.4" fill="#6E6459" text-anchor="middle">轮</text>
+<text x="132" y="304" font-size="5.4" fill="#6E6459" text-anchor="middle">辕</text>
+<text x="56" y="292" font-size="5.4" fill="#6E6459">辐</text>
+<text x="150" y="268" font-size="5.2" fill="#2F2A24">「舆」是车厢——装人的那个空位，不是车轮车辕。</text>
+<text x="150" y="282" font-size="5.2" fill="#2F2A24">轮、轴、辕、辐，数得再准，也数不出那个空位；</text>
+<text x="150" y="296" font-size="5.2" fill="#2F2A24">空位不在零件里。这就是「数舆无舆」。</text>
+<text x="150" y="312" font-size="5.2" fill="#6E6459">分析能把「有」拆到极细，拆不出「无」。</text>
+<text x="150" y="330" font-size="5.2" fill="#A2503B">数得清的是零件，数不清的才是那辆车。</text>
+<text x="24" y="378" font-size="5.2" fill="#2F2A24">三 · 玉与石：一块要借光，一块不用</text>
+<ellipse cx="60" cy="428" rx="16" ry="12" fill="#F2EADA" stroke="#2F2A24" stroke-width="0.9"/>
+<line x1="66.2" y1="414.8" x2="68.6" y2="409.2" stroke="#A2503B" stroke-width="0.6"/>
+<line x1="74.7" y1="420.0" x2="80.5" y2="416.5" stroke="#A2503B" stroke-width="0.6"/>
+<line x1="78.0" y1="428.0" x2="85.0" y2="428.0" stroke="#A2503B" stroke-width="0.6"/>
+<line x1="74.7" y1="436.0" x2="80.5" y2="439.5" stroke="#A2503B" stroke-width="0.6"/>
+<line x1="66.2" y1="441.2" x2="68.6" y2="446.8" stroke="#A2503B" stroke-width="0.6"/>
+<line x1="56.9" y1="414.2" x2="55.7" y2="408.3" stroke="#A2503B" stroke-width="0.6"/>
+<line x1="53.8" y1="441.2" x2="51.4" y2="446.8" stroke="#A2503B" stroke-width="0.6"/>
+<text x="60" y="454" font-size="5.6" fill="#A2503B" text-anchor="middle">玉 · 琭琭</text>
+<path d="M104,422 L114,414 L128,420 L132,432 L122,441 L106,436 Z" fill="#E6D8C2" stroke="#2F2A24" stroke-width="0.9"/>
+<text x="118" y="454" font-size="5.6" fill="#6E6459" text-anchor="middle">石 · 珞珞（字从玉）</text>
+<text x="150" y="406" font-size="5.2" fill="#2F2A24">「琭琭」不是玉，是玉的光；光要照，照的人一走就没了。</text>
+<text x="150" y="420" font-size="5.2" fill="#2F2A24">「珞」这个字本身从玉——那块石头不必去做玉。</text>
+<text x="150" y="434" font-size="5.2" fill="#A2503B">玉的体面是别人给的，石的体面是自己有的。</text>
+<text x="150" y="450" font-size="5.2" fill="#4A5C55">不欲琭琭如玉，珞珞如石。</text>
+<rect x="20" y="474" width="340" height="48" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="190" y="490" font-size="5.2" fill="#2F2A24" text-anchor="middle">本是不动的，基是不空的；根断了树死，砖抽了墙倒。</text>
+<text x="190" y="506" font-size="5.2" fill="#6E6459" text-anchor="middle">这一章不是叫人往下走，是叫人知道自己在什么上头站着。</text>
+<text x="190" y="518" font-size="5.2" fill="#A2503B" text-anchor="middle">知道了，就不用怕低；不知道，才要一直往高里垫。</text>
+<line x1="20" y1="534" x2="360" y2="534" stroke="#E6D8C2" stroke-width="0.8"/>
+<text x="20" y="548" font-size="8.0" fill="#A89577" letter-spacing="1">本 章 金 句</text>
+<text x="20" y="564" font-size="8.4" fill="#2F2A24">数得清的是零件，数不清的才是那辆车。</text>
+<text x="20" y="580" font-size="8.4" fill="#2F2A24">玉的体面是别人给的，石的体面是自己有的。</text>
+</svg>

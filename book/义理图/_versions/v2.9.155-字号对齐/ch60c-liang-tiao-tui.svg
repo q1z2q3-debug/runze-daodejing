@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 380 650" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="夫两不相伤，故德交归焉：交从交胫，是两条腿交叉" font-family="'Noto Serif CJK SC','Noto Serif SC','Songti SC',serif">
+<defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#6E6459"/></marker><marker id="arr2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#4A5C55"/></marker><marker id="arrL" viewBox="0 0 10 10" refX="1" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M10 0 L0 5 L10 10 z" fill="#4A5C55"/></marker><marker id="arrS" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#A2503B"/></marker></defs>
+<rect x="0" y="0" width="380" height="650" fill="#F8F3E6"/>
+<text x="20" y="26" font-size="11" fill="#A2503B" font-family="'Noto Sans CJK SC','Noto Sans SC',sans-serif" letter-spacing="3">第 六 十 章 · 交</text>
+<text x="20" y="58" font-size="21" fill="#2F2A24">两条腿</text>
+<text x="20" y="78" font-size="10.5" fill="#6E6459">夫两不相伤，故德交归焉。</text>
+<rect x="20" y="102" width="340" height="30" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="190" y="114" font-size="5.0" fill="#2F2A24" text-anchor="middle">「交」，《说文》「交胫也」——两条腿交叉；「归」，「女嫁也」，各回各家。</text>
+<text x="190" y="126" font-size="5.0" fill="#6E6459" text-anchor="middle">所以「德交归」不是把德交上去，是两边各让一条腿，各自回家。</text>
+<line x1="78" y1="198" x2="200" y2="296" stroke="#2F2A24" stroke-width="3"/>
+<line x1="222" y1="198" x2="100" y2="296" stroke="#2F2A24" stroke-width="3"/>
+<path d="M206,293 C200,298 200,307 204,311 C209,314 212,308 211,301 C211,294 208,290 206,293 Z" fill="#EFE6D4" stroke="#2F2A24" stroke-width="0.9"/>
+<path d="M94,293 C100,298 100,307 96,311 C91,314 88,308 89,301 C89,294 92,290 94,293 Z" fill="#EFE6D4" stroke="#2F2A24" stroke-width="0.9"/>
+<text x="150" y="180" font-size="5.0" fill="#A2503B" text-anchor="middle">两条腿交叉，各让一条</text>
+<line x1="96" y1="324" x2="52" y2="324" stroke="#4A5C55" stroke-width="0.9" marker-end="url(#arrL)"/>
+<line x1="204" y1="324" x2="248" y2="324" stroke="#4A5C55" stroke-width="0.9" marker-end="url(#arr2)"/>
+<text x="96" y="340" font-size="4.8" fill="#4A5C55">各回各家</text>
+<text x="212" y="340" font-size="4.8" fill="#4A5C55">各回各家</text>
+<line x1="24" y1="352" x2="338" y2="352" stroke="#DCCBB0" stroke-width="0.6"/>
+<text x="24" y="370" font-size="5.4" fill="#A2503B">不是拧成一股：拧起来，谁都走不了</text>
+<line x1="56" y1="390" x2="244" y2="390" stroke="#A2503B" stroke-width="3"/>
+<line x1="56" y1="400" x2="244" y2="400" stroke="#A2503B" stroke-width="3"/>
+<line x1="62" y1="386" x2="76" y2="404" stroke="#A2503B" stroke-width="0.7"/>
+<line x1="92" y1="386" x2="106" y2="404" stroke="#A2503B" stroke-width="0.7"/>
+<line x1="122" y1="386" x2="136" y2="404" stroke="#A2503B" stroke-width="0.7"/>
+<line x1="152" y1="386" x2="166" y2="404" stroke="#A2503B" stroke-width="0.7"/>
+<line x1="182" y1="386" x2="196" y2="404" stroke="#A2503B" stroke-width="0.7"/>
+<line x1="212" y1="386" x2="226" y2="404" stroke="#A2503B" stroke-width="0.7"/>
+<text x="190" y="376" font-size="4.6" fill="#A2503B" text-anchor="middle">两股拧成一根绳：拆不开了</text>
+<text x="24" y="448" font-size="4.9" fill="#2F2A24">「交」是交胫：两条腿交叉，各让一条；「归」是女嫁，各回各家。</text>
+<text x="24" y="464" font-size="4.9" fill="#2F2A24">拧成一股，成了绳，谁都走不了；交叉一下，两边都回得去。</text>
+<text x="24" y="480" font-size="4.7" fill="#4A5C55">太平是没有声音，交归是各有各的地方；前者靠压，后者靠让。</text>
+<rect x="20" y="506" width="340" height="40" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="190" y="522" font-size="5.4" fill="#2F2A24" text-anchor="middle">交是两条腿交叉，不是两股绳拧成一股；</text>
+<text x="190" y="534" font-size="5.6" fill="#4A5C55" text-anchor="middle">各让一条腿，才各回各家。</text>
+<line x1="20" y1="560" x2="360" y2="560" stroke="#E6D8C2" stroke-width="0.8"/>
+<text x="20" y="574" font-size="8.0" fill="#A89577" letter-spacing="1">本 章 金 句</text>
+<text x="20" y="590" font-size="8.4" fill="#2F2A24">交是两条腿交叉，不是两股绳拧成一股；各让一条腿，才各回各家。</text>
+</svg>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 380 690" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="愚从心从禺：禺是猴，猴不蠢，是停不住" font-family="'Noto Serif CJK SC','Noto Serif SC','Songti SC',serif">
+<defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#6E6459"/></marker><marker id="arr2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#4A5C55"/></marker><marker id="arrL" viewBox="0 0 10 10" refX="1" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M10 0 L0 5 L10 10 z" fill="#4A5C55"/></marker><marker id="arrS" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#A2503B"/></marker></defs>
+<rect x="0" y="0" width="380" height="690" fill="#F8F3E6"/>
+<text x="20" y="26" font-size="11" fill="#A2503B" font-family="'Noto Sans CJK SC','Noto Sans SC',sans-serif" letter-spacing="3">第 六 十 五 章 · 愚</text>
+<text x="20" y="58" font-size="21" fill="#2F2A24">一只猴</text>
+<text x="20" y="78" font-size="10.5" fill="#6E6459">民之难治，以其智多。</text>
+<rect x="20" y="102" width="340" height="30" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="190" y="114" font-size="5.2" fill="#2F2A24" text-anchor="middle">「愚」，《说文》「戆也」，从心从禺——禺是猴，兽之愚者。</text>
+<text x="190" y="126" font-size="4.8" fill="#6E6459" text-anchor="middle">猴不蠢，猴是躁：一刻不停，见什么抓什么。愚，是心跟着猴跑。</text>
+<text x="24" y="148" font-size="4.8" fill="#A2503B">一、猴在肩上：心跟着猴跑</text>
+<line x1="176" y1="264" x2="173" y2="280" stroke="#2F2A24" stroke-width="1.2"/>
+<line x1="188" y1="264" x2="191" y2="280" stroke="#2F2A24" stroke-width="1.2"/>
+<rect x="170" y="234" width="24" height="30" rx="3" fill="#EFE6D4" stroke="#2F2A24" stroke-width="1.2"/>
+<circle cx="182" cy="224" r="8" fill="none" stroke="#2F2A24" stroke-width="1.2"/>
+<ellipse cx="206" cy="218" rx="7.0200000000000005" ry="9.36" fill="#EFE6D4" stroke="#A2503B" stroke-width="1"/>
+<circle cx="206" cy="203.96" r="5.46" fill="#EFE6D4" stroke="#A2503B" stroke-width="1"/>
+<circle cx="200.852" cy="200.84" r="1.8719999999999999" fill="none" stroke="#A2503B" stroke-width="0.9"/>
+<circle cx="211.148" cy="200.84" r="1.8719999999999999" fill="none" stroke="#A2503B" stroke-width="0.9"/>
+<circle cx="204.752" cy="203.18" r="0.6240000000000001" fill="#A2503B"/>
+<circle cx="207.248" cy="203.18" r="0.6240000000000001" fill="#A2503B"/>
+<line x1="206" y1="206.3" x2="206" y2="208.64" stroke="#A2503B" stroke-width="0.7"/>
+<path d="M199.76,221.12 C191.96,224.24 190.4,214.88 195.86,210.98" fill="none" stroke="#A2503B" stroke-width="1"/>
+<path d="M212.24,221.12 C220.04,225.02 223.94,218.78 220.04,212.54" fill="none" stroke="#A2503B" stroke-width="1"/>
+<path d="M170,236 C160,226 152,214 156,206" fill="none" stroke="#A2503B" stroke-width="1" stroke-dasharray="3 2"/>
+<circle cx="158" cy="200" r="6" fill="none" stroke="#A2503B" stroke-width="1"/>
+<text x="158" y="186" font-size="4.4" fill="#A2503B" text-anchor="middle">心</text>
+<text x="216" y="250" font-size="4.4" fill="#A2503B" text-anchor="middle">猴</text>
+<text x="190" y="304" font-size="4.6" fill="#A2503B" text-anchor="middle">心跟着猴跑：一刻不停，见什么抓什么</text>
+<text x="24" y="332" font-size="4.8" fill="#4A5C55">二、把猴放下来：它蹲在地上，心才落回身上</text>
+<line x1="176" y1="384" x2="173" y2="400" stroke="#2F2A24" stroke-width="1.2"/>
+<line x1="188" y1="384" x2="191" y2="400" stroke="#2F2A24" stroke-width="1.2"/>
+<rect x="170" y="354" width="24" height="30" rx="3" fill="#EFE6D4" stroke="#2F2A24" stroke-width="1.2"/>
+<circle cx="182" cy="344" r="8" fill="none" stroke="#2F2A24" stroke-width="1.2"/>
+<circle cx="182" cy="366" r="5.5" fill="none" stroke="#4A5C55" stroke-width="1.2"/>
+<text x="196" y="364" font-size="4.4" fill="#4A5C55">心落回身上</text>
+<ellipse cx="240" cy="384" rx="5.94" ry="7.92" fill="#EFE6D4" stroke="#A2503B" stroke-width="1"/>
+<circle cx="240" cy="372.12" r="4.62" fill="#EFE6D4" stroke="#A2503B" stroke-width="1"/>
+<circle cx="235.644" cy="369.48" r="1.584" fill="none" stroke="#A2503B" stroke-width="0.9"/>
+<circle cx="244.356" cy="369.48" r="1.584" fill="none" stroke="#A2503B" stroke-width="0.9"/>
+<circle cx="238.944" cy="371.46" r="0.528" fill="#A2503B"/>
+<circle cx="241.056" cy="371.46" r="0.528" fill="#A2503B"/>
+<line x1="240" y1="374.1" x2="240" y2="376.08" stroke="#A2503B" stroke-width="0.7"/>
+<path d="M234.72,386.64 C228.12,389.28 226.8,381.36 231.42,378.06" fill="none" stroke="#A2503B" stroke-width="1"/>
+<path d="M245.28,386.64 C251.88,389.94 255.18,384.66 251.88,379.38" fill="none" stroke="#A2503B" stroke-width="1"/>
+<line x1="240" y1="398" x2="240" y2="400" stroke="#A2503B" stroke-width="0.8" stroke-dasharray="2 2"/>
+<text x="240" y="416" font-size="4.4" fill="#A2503B" text-anchor="middle">猴放着，不打它</text>
+<text x="24" y="440" font-size="4.8" fill="#2F2A24">愚不是蠢：禺是猴，心跟着猴跑，才叫愚。</text>
+<text x="24" y="456" font-size="4.9" fill="#2F2A24">民之难治，以其智多——多的不是本事，是这份停不住。</text>
+<text x="24" y="474" font-size="5.0" fill="#4A5C55">收心，是把猴从肩上放下来；放下来它还在，只是不再拽着心跑。</text>
+<line x1="24" y1="492" x2="338" y2="492" stroke="#DCCBB0" stroke-width="0.6"/>
+<rect x="20" y="500" width="340" height="40" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="190" y="516" font-size="5.4" fill="#2F2A24" text-anchor="middle">愚从心从禺：禺是猴，猴不蠢，是停不住；</text>
+<text x="190" y="528" font-size="5.2" fill="#4A5C55" text-anchor="middle">心跟着猴跑，才是那个愚字。</text>
+<line x1="20" y1="554" x2="360" y2="554" stroke="#E6D8C2" stroke-width="0.8"/>
+<text x="20" y="568" font-size="8.0" fill="#A89577" letter-spacing="1">本 章 金 句</text>
+<text x="20" y="584" font-size="8.4" fill="#2F2A24">愚从心从禺：禺是猴，猴不蠢，是停不住；心跟着猴跑，才是那个愚字。</text>
+<text x="20" y="600" font-size="8.4" fill="#2F2A24">收心是把猴从肩上放下来：放下来它还在，只是不再拽着心跑。</text>
+</svg>

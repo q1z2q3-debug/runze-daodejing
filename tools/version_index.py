@@ -14,6 +14,9 @@ def cn(n):
     t, o = divmod(n, 10)
     return CN[t] + "十" + (CN[o] if o else "")
 
+SRC = (ROOT / "tools/make_yili_svg.py").read_text(encoding="utf8")
+CUR = set(re.findall(r'^\s{4}"([a-z0-9\-]+)": \("第', SRC, re.M))
+
 rows = []
 for f in sorted(FIG.glob("*.svg")):
     m = re.match(r"ch(\d{2})[a-z]?-", f.name)
@@ -22,7 +25,11 @@ for f in sorted(FIG.glob("*.svg")):
     vdir = FIG / "_versions" / f"ch{n:02d}"
     allh = sorted(vdir.glob("*.v*.svg")) if vdir.exists() else []
     hist = [h for h in allh if h.name.startswith(f.stem + ".v")]
-    oldh = [h for h in allh if not h.name.startswith(f.stem + ".v")]
+    odd = FIG / "old"
+    olds = list(odd.glob(f"ch{n:02d}*.svg")) if odd.exists() else []
+    oldh = [h for h in allh + olds
+            if not h.name.startswith(f.stem + ".v")
+            and h.name.rsplit(".v", 1)[0].split(".")[0] not in CUR]
     vs = [re.search(r"\.v([\d.]+)\.svg$", h.name).group(1) for h in hist]
     rows.append((n, f.name, len(vs), vs, sorted({h.name.rsplit(".v", 1)[0] for h in oldh})))
 

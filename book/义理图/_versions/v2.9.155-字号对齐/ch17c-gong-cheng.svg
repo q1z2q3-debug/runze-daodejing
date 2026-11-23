@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 380 750" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="功成事遂，百姓皆谓我自然" font-family="'Noto Serif CJK SC','Noto Serif SC','Songti SC',serif">
+<defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#6E6459"/></marker><marker id="arr2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#4A5C55"/></marker><marker id="arrL" viewBox="0 0 10 10" refX="1" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M10 0 L0 5 L10 10 z" fill="#4A5C55"/></marker><marker id="arrS" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#A2503B"/></marker></defs>
+<rect x="0" y="0" width="380" height="750" fill="#F8F3E6"/>
+<text x="20" y="26" font-size="11" fill="#A2503B" font-family="'Noto Sans CJK SC','Noto Sans SC',sans-serif" letter-spacing="3">第 十 七 章 · 功 成</text>
+<text x="20" y="58" font-size="21" fill="#2F2A24">功成之后</text>
+<text x="20" y="78" font-size="10.5" fill="#6E6459">功成事遂，百姓皆谓我自然。</text>
+<rect x="20" y="102" width="340" height="34" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="190" y="114" font-size="4.9" fill="#2F2A24" text-anchor="middle">最难的不是把事做成，是做成之后站在哪儿。</text>
+<text x="190" y="127" font-size="4.8" fill="#6E6459">站在中间，事就成了他的；退到边上，事才是大家的。</text>
+<text x="24" y="152" font-size="5.2" fill="#A2503B">一、站在中间：旗子一举，功都算在他头上</text>
+<rect x="26" y="164" width="328" height="176" fill="#FBF6EC" stroke="#DCCBB0" stroke-width="0.8"/>
+<rect x="26" y="260" width="328" height="58" fill="#EFE9DA" stroke="none"/>
+<line x1="26" y1="260" x2="354" y2="260" stroke="#2F2A24" stroke-width="1.0"/>
+<line x1="52" y1="260" x2="52" y2="244" stroke="#4A5C55" stroke-width="0.9"/>
+<path d="M52,246 l-5,-6 M52,246 l5,-6 M52,252 l-5,-5 M52,252 l5,-5" fill="none" stroke="#4A5C55" stroke-width="0.7"/>
+<line x1="96" y1="260" x2="96" y2="244" stroke="#4A5C55" stroke-width="0.9"/>
+<path d="M96,246 l-5,-6 M96,246 l5,-6 M96,252 l-5,-5 M96,252 l5,-5" fill="none" stroke="#4A5C55" stroke-width="0.7"/>
+<line x1="140" y1="260" x2="140" y2="244" stroke="#4A5C55" stroke-width="0.9"/>
+<path d="M140,246 l-5,-6 M140,246 l5,-6 M140,252 l-5,-5 M140,252 l5,-5" fill="none" stroke="#4A5C55" stroke-width="0.7"/>
+<line x1="184" y1="260" x2="184" y2="244" stroke="#4A5C55" stroke-width="0.9"/>
+<path d="M184,246 l-5,-6 M184,246 l5,-6 M184,252 l-5,-5 M184,252 l5,-5" fill="none" stroke="#4A5C55" stroke-width="0.7"/>
+<line x1="228" y1="260" x2="228" y2="244" stroke="#4A5C55" stroke-width="0.9"/>
+<path d="M228,246 l-5,-6 M228,246 l5,-6 M228,252 l-5,-5 M228,252 l5,-5" fill="none" stroke="#4A5C55" stroke-width="0.7"/>
+<line x1="272" y1="260" x2="272" y2="244" stroke="#4A5C55" stroke-width="0.9"/>
+<path d="M272,246 l-5,-6 M272,246 l5,-6 M272,252 l-5,-5 M272,252 l5,-5" fill="none" stroke="#4A5C55" stroke-width="0.7"/>
+<line x1="316" y1="260" x2="316" y2="244" stroke="#4A5C55" stroke-width="0.9"/>
+<path d="M316,246 l-5,-6 M316,246 l5,-6 M316,252 l-5,-5 M316,252 l5,-5" fill="none" stroke="#4A5C55" stroke-width="0.7"/>
+<circle cx="190" cy="204" r="6" fill="none" stroke="#2F2A24" stroke-width="1.0"/>
+<line x1="190" y1="210" x2="190" y2="238" stroke="#2F2A24" stroke-width="1.3"/>
+<line x1="190" y1="238" x2="183" y2="250" stroke="#2F2A24" stroke-width="1.0"/>
+<line x1="190" y1="238" x2="197" y2="250" stroke="#2F2A24" stroke-width="1.0"/>
+<line x1="194" y1="218" x2="216" y2="198" stroke="#2F2A24" stroke-width="1.0"/>
+<path d="M216,198 l12,4 l-12,10 z" fill="#A2503B" stroke="#2F2A24" stroke-width="0.6"/>
+<text x="190" y="310" font-size="4.2" fill="#A2503B" text-anchor="middle">众人围着他：这是他做成的</text>
+<text x="24" y="356" font-size="5.2" fill="#4A5C55">二、退到边上：事还是成了，只是没人记得谁做的</text>
+<rect x="26" y="368" width="328" height="176" fill="#FBF6EC" stroke="#DCCBB0" stroke-width="0.8"/>
+<rect x="26" y="464" width="328" height="76" fill="#EFE9DA" stroke="none"/>
+<line x1="26" y1="464" x2="354" y2="464" stroke="#2F2A24" stroke-width="1.0"/>
+<line x1="52" y1="464" x2="52" y2="438" stroke="#4A5C55" stroke-width="0.9"/>
+<path d="M52,440 l-5,-6 M52,440 l5,-6 M52,446 l-5,-5 M52,446 l5,-5" fill="none" stroke="#4A5C55" stroke-width="0.7"/>
+<line x1="96" y1="464" x2="96" y2="438" stroke="#4A5C55" stroke-width="0.9"/>
+<path d="M96,440 l-5,-6 M96,440 l5,-6 M96,446 l-5,-5 M96,446 l5,-5" fill="none" stroke="#4A5C55" stroke-width="0.7"/>
+<line x1="140" y1="464" x2="140" y2="438" stroke="#4A5C55" stroke-width="0.9"/>
+<path d="M140,440 l-5,-6 M140,440 l5,-6 M140,446 l-5,-5 M140,446 l5,-5" fill="none" stroke="#4A5C55" stroke-width="0.7"/>
+<line x1="184" y1="464" x2="184" y2="438" stroke="#4A5C55" stroke-width="0.9"/>
+<path d="M184,440 l-5,-6 M184,440 l5,-6 M184,446 l-5,-5 M184,446 l5,-5" fill="none" stroke="#4A5C55" stroke-width="0.7"/>
+<line x1="228" y1="464" x2="228" y2="438" stroke="#4A5C55" stroke-width="0.9"/>
+<path d="M228,440 l-5,-6 M228,440 l5,-6 M228,446 l-5,-5 M228,446 l5,-5" fill="none" stroke="#4A5C55" stroke-width="0.7"/>
+<line x1="316" y1="464" x2="316" y2="416" stroke="#2F2A24" stroke-width="1.6"/>
+<ellipse cx="310" cy="410" rx="13" ry="8" fill="#E9F0E6" stroke="#4A5C55" stroke-width="0.8"/>
+<ellipse cx="324" cy="416" rx="11" ry="7" fill="#E9F0E6" stroke="#4A5C55" stroke-width="0.8"/>
+<ellipse cx="318" cy="402" rx="10" ry="6.5" fill="#E9F0E6" stroke="#4A5C55" stroke-width="0.8"/>
+<circle cx="288" cy="420" r="6" fill="none" stroke="#2F2A24" stroke-width="1.0"/>
+<line x1="288" y1="426" x2="288" y2="454" stroke="#2F2A24" stroke-width="1.3"/>
+<line x1="288" y1="454" x2="281" y2="466" stroke="#2F2A24" stroke-width="1.0"/>
+<line x1="288" y1="454" x2="295" y2="466" stroke="#2F2A24" stroke-width="1.0"/>
+<circle cx="118" cy="430" r="4.2" fill="none" stroke="#2F2A24" stroke-width="0.9"/>
+<line x1="118" y1="434" x2="118" y2="454" stroke="#2F2A24" stroke-width="1.1"/>
+<line x1="118" y1="454" x2="114" y2="464" stroke="#2F2A24" stroke-width="0.9"/>
+<line x1="118" y1="454" x2="122" y2="464" stroke="#2F2A24" stroke-width="0.9"/>
+<circle cx="166" cy="430" r="4.2" fill="none" stroke="#2F2A24" stroke-width="0.9"/>
+<line x1="166" y1="434" x2="166" y2="454" stroke="#2F2A24" stroke-width="1.1"/>
+<line x1="166" y1="454" x2="162" y2="464" stroke="#2F2A24" stroke-width="0.9"/>
+<line x1="166" y1="454" x2="170" y2="464" stroke="#2F2A24" stroke-width="0.9"/>
+<circle cx="214" cy="430" r="4.2" fill="none" stroke="#2F2A24" stroke-width="0.9"/>
+<line x1="214" y1="434" x2="214" y2="454" stroke="#2F2A24" stroke-width="1.1"/>
+<line x1="214" y1="454" x2="210" y2="464" stroke="#2F2A24" stroke-width="0.9"/>
+<line x1="214" y1="454" x2="218" y2="464" stroke="#2F2A24" stroke-width="0.9"/>
+<text x="118" y="418" font-size="4.3" fill="#4A5C55">我自然</text>
+<text x="166" y="492" font-size="4.2" fill="#6E6459">没人记得谁做成的，事却成了</text>
+<text x="190" y="528" font-size="4.4" fill="#4A5C55" text-anchor="middle">功成事遂，百姓皆谓我自然</text>
+<text x="24" y="564" font-size="4.9" fill="#2F2A24">举旗的人，把众人的力气记成自己的功劳；退到树下的人，把功劳还给做事的人。</text>
+<text x="24" y="580" font-size="4.9" fill="#2F2A24">「我自然」不是百姓不知情，是他们不必知道——这正是太上该有的样子。</text>
+<text x="24" y="598" font-size="4.9" fill="#4A5C55">功成之后最难的一步：从中间退到边上，让事自己站着。</text>
+<line x1="24" y1="616" x2="338" y2="616" stroke="#DCCBB0" stroke-width="0.6"/>
+<rect x="20" y="624" width="340" height="40" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="190" y="640" font-size="6.0" fill="#2F2A24" text-anchor="middle">功成事遂，</text>
+<text x="190" y="652" font-size="6.0" fill="#4A5C55" text-anchor="middle">百姓皆谓我自然。</text>
+<line x1="20" y1="678" x2="360" y2="678" stroke="#E6D8C2" stroke-width="0.8"/>
+<text x="20" y="692" font-size="8.0" fill="#A89577" letter-spacing="1">本 章 金 句</text>
+<text x="20" y="708" font-size="8.4" fill="#2F2A24">功成事遂，百姓皆谓我自然。</text>
+<text x="20" y="724" font-size="8.4" fill="#2F2A24">从中间退到边上，让事自己站着。</text>
+</svg>

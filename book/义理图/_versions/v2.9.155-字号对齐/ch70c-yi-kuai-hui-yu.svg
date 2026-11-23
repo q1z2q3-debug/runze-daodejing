@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 380 692" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="玉挂出来是装饰，揣在怀里是信物：一个给人看，一个给人用" font-family="'Noto Serif CJK SC','Noto Serif SC','Songti SC',serif">
+<defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#6E6459"/></marker><marker id="arr2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#4A5C55"/></marker><marker id="arrL" viewBox="0 0 10 10" refX="1" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M10 0 L0 5 L10 10 z" fill="#4A5C55"/></marker><marker id="arrS" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#A2503B"/></marker></defs>
+<rect x="0" y="0" width="380" height="692" fill="#F8F3E6"/>
+<text x="20" y="26" font-size="11" fill="#A2503B" font-family="'Noto Sans CJK SC','Noto Sans SC',sans-serif" letter-spacing="3">第 七 十 章 · 玉</text>
+<text x="20" y="58" font-size="21" fill="#2F2A24">一块揣着的玉</text>
+<text x="20" y="78" font-size="10.5" fill="#6E6459">是以圣人被褐而怀玉。</text>
+<rect x="20" y="102" width="340" height="32" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="190" y="114" font-size="4.7" fill="#2F2A24" text-anchor="middle">玉不是装饰。挂着，是让人看见；揣着，是带着一件要来办的事。</text>
+<text x="190" y="127" font-size="4.7" fill="#6E6459" text-anchor="middle">同一块玉，位置一换，意思就换：佩是招牌，怀是凭证。</text>
+<text x="24" y="150" font-size="4.8" fill="#A2503B">一、佩：挂在人前，先被看见，再被估价</text>
+<rect x="26" y="162" width="328" height="142" fill="#FBF6EC" stroke="#DCCBB0" stroke-width="0.8"/>
+<line x1="152" y1="186" x2="228" y2="186" stroke="#2F2A24" stroke-width="1.1"/>
+<path d="M172,186 L190,206 L208,186" fill="none" stroke="#A2503B" stroke-width="0.9"/>
+<line x1="190" y1="206" x2="190" y2="216" stroke="#A2503B" stroke-width="0.9"/>
+<path d="M190,216 L197,222 L190,240 L183,222 Z" fill="#4A5C55" fill-opacity="0.35" stroke="#4A5C55" stroke-width="1.1"/>
+<line x1="183" y1="224" x2="197" y2="224" stroke="#4A5C55" stroke-width="0.6" opacity="0.8"/>
+<line x1="96" y1="216" x2="178" y2="226" stroke="#A2503B" stroke-width="0.9" stroke-dasharray="4 3"/>
+<polygon points="178,226 171,223 175,232" fill="#A2503B"/>
+<line x1="284" y1="216" x2="202" y2="226" stroke="#A2503B" stroke-width="0.9" stroke-dasharray="4 3"/>
+<polygon points="202,226 195,223 199,232" fill="#A2503B"/>
+<line x1="190" y1="274" x2="190" y2="246" stroke="#A2503B" stroke-width="0.9" stroke-dasharray="4 3"/>
+<polygon points="190,246 183,243 187,252" fill="#A2503B"/>
+<circle cx="88" cy="206" r="6" fill="none" stroke="#2F2A24" stroke-width="0.9"/>
+<circle cx="292" cy="206" r="6" fill="none" stroke="#2F2A24" stroke-width="0.9"/>
+<circle cx="190" cy="286" r="6" fill="none" stroke="#2F2A24" stroke-width="0.9"/>
+<text x="190" y="302" font-size="4.6" fill="#4A5C55" text-anchor="middle">佩：挂着的是招牌，人先看见它，再给你定价</text>
+<text x="24" y="322" font-size="4.8" fill="#A2503B">二、怀：揣在衣襟里，外面看不出，里面是一件要来办的事</text>
+<rect x="26" y="334" width="328" height="150" fill="#FBF6EC" stroke="#DCCBB0" stroke-width="0.8"/>
+<circle cx="170" cy="374" r="8" fill="none" stroke="#2F2A24" stroke-width="1"/>
+<path d="M156,384 L184,384 L186,434 L154,434 Z" fill="#EFE6D4" stroke="#2F2A24" stroke-width="1"/>
+<path d="M164,384 Q176,402 174,432" fill="none" stroke="#2F2A24" stroke-width="0.9"/>
+<path d="M165,406 L172,412 L165,428 L158,412 Z" fill="#4A5C55" fill-opacity="0.22" stroke="#4A5C55" stroke-width="1" stroke-dasharray="2 2"/>
+<path d="M185,390 Q191,406 183,412" fill="none" stroke="#2F2A24" stroke-width="1"/>
+<path d="M183,412 Q179,416 174,414" fill="none" stroke="#2F2A24" stroke-width="0.8"/>
+<path d="M183,412 Q180,420 175,420" fill="none" stroke="#2F2A24" stroke-width="0.7"/>
+<line x1="164" y1="434" x2="156" y2="462" stroke="#2F2A24" stroke-width="1"/>
+<line x1="176" y1="434" x2="184" y2="462" stroke="#2F2A24" stroke-width="1"/>
+<text x="214" y="400" font-size="4.4" fill="#4A5C55">怀：带着一件</text>
+<text x="214" y="412" font-size="4.4" fill="#4A5C55">要来办的事</text>
+<text x="214" y="430" font-size="4.2" fill="#6E6459">外头看不出</text>
+<text x="190" y="496" font-size="4.6" fill="#4A5C55" text-anchor="middle">同一块玉，一换位置就换了意思：挂着是招牌，揣着是凭证</text>
+<text x="24" y="512" font-size="4.8" fill="#2F2A24">佩玉的人，走到哪儿都在报自己的价；怀玉的人，走到哪儿都在等那件事。</text>
+<text x="24" y="528" font-size="4.8" fill="#2F2A24">老子说「不贵难得之货」——不是嫌玉，是不把玉挂出去当话使。</text>
+<text x="24" y="546" font-size="5.0" fill="#4A5C55">所以末句是三层：麻衣是壳，玉是里子，揣是那个「我来有事」。</text>
+<line x1="24" y1="562" x2="338" y2="562" stroke="#DCCBB0" stroke-width="0.6"/>
+<rect x="20" y="570" width="340" height="40" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="190" y="585" font-size="5.4" fill="#2F2A24" text-anchor="middle">玉挂出来是装饰，揣在怀里是信物。</text>
+<text x="190" y="598" font-size="4.7" fill="#4A5C55" text-anchor="middle">被褐是我跟你一样，怀玉是我不一样的那一点。</text>
+<line x1="20" y1="624" x2="360" y2="624" stroke="#E6D8C2" stroke-width="0.8"/>
+<text x="20" y="638" font-size="8.0" fill="#A89577" letter-spacing="1">本 章 金 句</text>
+<text x="20" y="654" font-size="8.4" fill="#2F2A24">吾言甚易知，甚易行；天下莫能知，莫能行。</text>
+<text x="20" y="670" font-size="8.4" fill="#2F2A24">易者，非浅也，直也；无仪式，无秘传，无门槛——而无人走，故难不在道。</text>
+</svg>

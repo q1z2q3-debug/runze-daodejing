@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 380 628" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="柔不是软塌塌，是可塑；胜不是打败，是担得起" font-family="'Noto Serif CJK SC','Noto Serif SC','Songti SC',serif">
+<defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#6E6459"/></marker><marker id="arr2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#4A5C55"/></marker><marker id="arrL" viewBox="0 0 10 10" refX="1" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M10 0 L0 5 L10 10 z" fill="#4A5C55"/></marker><marker id="arrS" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#A2503B"/></marker></defs>
+<rect x="0" y="0" width="380" height="628" fill="#F8F3E6"/>
+<text x="20" y="26" font-size="11" fill="#A2503B" font-family="'Noto Sans CJK SC','Noto Sans SC',sans-serif" letter-spacing="3">第 三 十 六 章 · 其 三</text>
+<text x="20" y="58" font-size="21" fill="#2F2A24">竹 扁 担</text>
+<text x="20" y="78" font-size="10.5" fill="#6E6459">柔弱胜刚强。</text>
+<rect x="20" y="102" width="340" height="34" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="190" y="114" font-size="4.6" fill="#2F2A24" text-anchor="middle">「柔」，《说文》「木曲直也」——可曲可直；「胜」，《说文》「任也」——担得起、负荷得住。</text>
+<text x="190" y="127" font-size="4.6" fill="#6E6459">所以这一句不是「软的打败硬的」，是「可塑的担得起定形的」。</text>
+<text x="24" y="152" font-size="5.0" fill="#4A5C55">一、木杠：形状定死了，就担不起变</text>
+<rect x="26" y="164" width="328" height="146" fill="#FBF6EC" stroke="#DCCBB0" stroke-width="0.8"/>
+<line x1="40" y1="290" x2="340" y2="290" stroke="#DCCBB0" stroke-width="0.9"/>
+<line x1="190" y1="290" x2="190" y2="210" stroke="#2F2A24" stroke-width="1.2"/>
+<path d="M180,290 L200,290" stroke="#2F2A24" stroke-width="1.2"/>
+<rect x="78" y="202" width="224" height="8" fill="#DED3BC" stroke="#2F2A24" stroke-width="0.9"/>
+<path d="M178,202 l8,8 M186,202 l8,8" stroke="#A2503B" stroke-width="1.2"/>
+<line x1="86" y1="210" x2="86" y2="236" stroke="#2F2A24" stroke-width="0.7"/>
+<path d="M70,236 L102,236 L98,264 L74,264 Z" fill="#EFE6D4" stroke="#2F2A24" stroke-width="0.9"/>
+<path d="M74,248 L98,248 L98,264 L74,264 Z" fill="#DDE9E1" stroke="none"/>
+<line x1="294" y1="210" x2="294" y2="222" stroke="#2F2A24" stroke-width="0.7"/>
+<path d="M294,222 l5,4 M294,222 l-5,4" stroke="#A2503B" stroke-width="1.0"/>
+<path d="M280,242 L310,230 L314,256 L284,268 Z" fill="#EFE6D4" stroke="#2F2A24" stroke-width="0.9"/>
+<path d="M282,268 q10,10 22,2 q-6,10 -18,4" fill="#DDE9E1" stroke="none"/>
+<text x="258" y="184" font-size="4.2" fill="#A2503B">杠从当中断了</text>
+<text x="190" y="304" font-size="4.3" fill="#2F2A24" text-anchor="middle">固定形状的东西担不起变：一压，就在自己断掉的那一处断</text>
+<text x="24" y="328" font-size="5.0" fill="#4A5C55">二、竹扁担：可曲可直，弯下去也担得住</text>
+<rect x="26" y="340" width="328" height="146" fill="#FBF6EC" stroke="#DCCBB0" stroke-width="0.8"/>
+<line x1="40" y1="466" x2="340" y2="466" stroke="#DCCBB0" stroke-width="0.9"/>
+<line x1="190" y1="466" x2="190" y2="405" stroke="#2F2A24" stroke-width="1.2"/>
+<path d="M180,466 L200,466" stroke="#2F2A24" stroke-width="1.2"/>
+<path d="M78,380 Q190,406 302,380" fill="none" stroke="#4A5C55" stroke-width="3.0"/>
+<path d="M78,380 Q190,406 302,380" fill="none" stroke="#CBDDCB" stroke-width="1.0" stroke-dasharray="2 4"/>
+<line x1="86" y1="386" x2="86" y2="412" stroke="#2F2A24" stroke-width="0.7"/>
+<path d="M70,412 L102,412 L98,440 L74,440 Z" fill="#EFE6D4" stroke="#2F2A24" stroke-width="0.9"/>
+<path d="M74,424 L98,424 L98,440 L74,440 Z" fill="#DDE9E1" stroke="none"/>
+<line x1="72" y1="424" x2="100" y2="424" stroke="#E6D8C2" stroke-width="0.5"/>
+<line x1="294" y1="386" x2="294" y2="412" stroke="#2F2A24" stroke-width="0.7"/>
+<path d="M278,412 L310,412 L306,440 L282,440 Z" fill="#EFE6D4" stroke="#2F2A24" stroke-width="0.9"/>
+<path d="M282,424 L306,424 L306,440 L282,440 Z" fill="#DDE9E1" stroke="none"/>
+<line x1="280" y1="424" x2="308" y2="424" stroke="#E6D8C2" stroke-width="0.5"/>
+<path d="M160,414 q30,12 60,0" fill="none" stroke="#4A5C55" stroke-width="0.8" stroke-dasharray="3 3"/>
+<line x1="214" y1="420" x2="220" y2="406" stroke="#4A5C55" stroke-width="0.7" marker-end="url(#arr2)"/>
+<text x="126" y="424" font-size="4.0" fill="#4A5C55" text-anchor="middle">弯了还回来</text>
+<text x="190" y="480" font-size="4.3" fill="#2F2A24" text-anchor="middle">可曲可直的东西担得起变：弯下去，力就散到整根上</text>
+<line x1="24" y1="502" x2="356" y2="502" stroke="#DCCBB0" stroke-width="0.6"/>
+<rect x="20" y="510" width="340" height="40" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="190" y="526" font-size="4.9" fill="#2F2A24" text-anchor="middle">不是柔把刚打败了，是刚撑不住自己，柔撑得住。</text>
+<text x="190" y="539" font-size="4.6" fill="#4A5C55" text-anchor="middle">刚强是固定形状，柔弱是保持可塑。</text>
+<line x1="20" y1="556" x2="360" y2="556" stroke="#E6D8C2" stroke-width="0.8"/>
+<text x="20" y="570" font-size="8.0" fill="#A89577" letter-spacing="1">本 章 金 句</text>
+<text x="20" y="586" font-size="8.4" fill="#2F2A24">不是柔把刚打败了，是刚撑不住自己，柔撑得住。</text>
+<text x="20" y="602" font-size="8.4" fill="#2F2A24">刚强是固定形状，柔弱是保持可塑。</text>
+</svg>

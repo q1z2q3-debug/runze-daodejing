@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 380 596" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="善建者不拔：楼是立在地方的，律是立在人心里的" font-family="'Noto Serif CJK SC','Noto Serif SC','Songti SC',serif">
+<defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#6E6459"/></marker><marker id="arr2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#4A5C55"/></marker><marker id="arrL" viewBox="0 0 10 10" refX="1" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M10 0 L0 5 L10 10 z" fill="#4A5C55"/></marker><marker id="arrS" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#A2503B"/></marker></defs>
+<rect x="0" y="0" width="380" height="596" fill="#F8F3E6"/>
+<text x="20" y="26" font-size="11" fill="#A2503B" font-family="'Noto Sans CJK SC','Noto Sans SC',sans-serif" letter-spacing="3">第 五 十 四 章 · 线</text>
+<text x="20" y="58" font-size="21" fill="#2F2A24">一条线</text>
+<text x="20" y="78" font-size="10.5" fill="#6E6459">善建者不拔，善抱者不脱。</text>
+<rect x="20" y="102" width="340" height="30" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="190" y="114" font-size="5.2" fill="#2F2A24" text-anchor="middle">「建」，《说文》「立朝律也」——立一条律；「拔」，《说文》「擢也」——往上抽。</text>
+<text x="190" y="126" font-size="5.2" fill="#6E6459" text-anchor="middle">不是「会盖房子的人，房子不被推倒」，是「会立律的人，那条律抽不走」。</text>
+<text x="24" y="146" font-size="5.4" fill="#A2503B">一、楼：立在一个地方，所以抽得走</text>
+<line x1="24" y1="272" x2="180" y2="272" stroke="#2F2A24" stroke-width="1"/>
+<rect x="84" y="212" width="48" height="20" fill="#EFE6D4" stroke="#2F2A24" stroke-width="0.9"/>
+<rect x="84" y="232" width="48" height="20" fill="#EFE6D4" stroke="#2F2A24" stroke-width="0.9"/>
+<rect x="84" y="252" width="48" height="20" fill="#EFE6D4" stroke="#2F2A24" stroke-width="0.9"/>
+<path d="M76,212 L108,194 L140,212" fill="none" stroke="#2F2A24" stroke-width="1.1"/>
+<line x1="108" y1="190" x2="108" y2="160" stroke="#A2503B" stroke-width="1.0" marker-end="url(#arrS)"/>
+<text x="116" y="176" font-size="4.8" fill="#A2503B">拔：往上抽</text>
+<text x="108" y="286" font-size="4.6" fill="#6E6459" text-anchor="middle">它有位置，就有个地儿可以抓</text>
+<text x="24" y="306" font-size="5.4" fill="#4A5C55">二、律：立在人心里，没有端点可抓</text>
+<rect x="96" y="322" width="188" height="76" fill="#FBF6EC" stroke="#2F2A24" stroke-width="0.8"/>
+<line x1="190" y1="318" x2="190" y2="404" stroke="#2F2A24" stroke-width="1.6"/>
+<text x="190" y="316" font-size="4.4" fill="#6E6459" text-anchor="middle">上不见头</text>
+<text x="190" y="416" font-size="4.4" fill="#6E6459" text-anchor="middle">下不见底</text>
+<line x1="120" y1="380" x2="156" y2="380" stroke="#A2503B" stroke-width="0.9" marker-end="url(#arrS)"/>
+<text x="112" y="366" font-size="4.6" fill="#A2503B" text-anchor="middle">同样去抽</text>
+<text x="112" y="376" font-size="4.4" fill="#6E6459" text-anchor="middle">抓了个空</text>
+<text x="24" y="436" font-size="5.2" fill="#2F2A24">一座楼可以拔，一堵墙可以拆，一个人可以调走；一条立对了的律，抽不走。</text>
+<text x="24" y="452" font-size="5.2" fill="#2F2A24">因为它不在某个位置上，它在人心里。</text>
+<text x="24" y="468" font-size="5.0" fill="#4A5C55">第五十三章的台阶，可以修得更高，也可以被推得更低；律立住了，就一直在那儿。</text>
+<line x1="24" y1="486" x2="338" y2="486" stroke="#DCCBB0" stroke-width="0.6"/>
+<rect x="20" y="494" width="340" height="40" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="190" y="510" font-size="6.0" fill="#2F2A24" text-anchor="middle">楼是立在地方的，律是立在人心里的；</text>
+<text x="190" y="522" font-size="6.0" fill="#4A5C55" text-anchor="middle">地方会被换，人心不容易。</text>
+<line x1="20" y1="548" x2="360" y2="548" stroke="#E6D8C2" stroke-width="0.8"/>
+<text x="20" y="562" font-size="8.0" fill="#A89577" letter-spacing="1">本 章 金 句</text>
+<text x="20" y="578" font-size="8.4" fill="#2F2A24">楼是立在地方的，律是立在人心里的；地方会被换，人心不容易。</text>
+</svg>

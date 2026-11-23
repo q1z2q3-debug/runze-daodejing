@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 380 628" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="盗夸：把看得见的那面堆到极处，把看不见的那面掏到极处" font-family="'Noto Serif CJK SC','Noto Serif SC','Songti SC',serif">
+<defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#6E6459"/></marker><marker id="arr2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#4A5C55"/></marker><marker id="arrL" viewBox="0 0 10 10" refX="1" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M10 0 L0 5 L10 10 z" fill="#4A5C55"/></marker><marker id="arrS" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#A2503B"/></marker></defs>
+<rect x="0" y="0" width="380" height="628" fill="#F8F3E6"/>
+<text x="20" y="26" font-size="11" fill="#A2503B" font-family="'Noto Sans CJK SC','Noto Sans SC',sans-serif" letter-spacing="3">第 五 十 三 章 · 杯</text>
+<text x="20" y="58" font-size="21" fill="#2F2A24">一只杯</text>
+<text x="20" y="78" font-size="10.5" fill="#6E6459">服文采，带利剑，厌饮食，财货有余；是谓盗夸。</text>
+<rect x="20" y="102" width="340" height="30" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="190" y="114" font-size="5.0" fill="#2F2A24" text-anchor="middle">「盗」，《说文》「私利物也」——从次从皿：羡慕人家那件器物；「夸」从大从亏：往大里说，说到亏。</text>
+<text x="190" y="126" font-size="5.2" fill="#6E6459" text-anchor="middle">杯壁越厚，中间越空；可这个空不是有用的空，是被抽干的空。</text>
+<text x="24" y="146" font-size="5.4" fill="#4A5C55">一、留出来的空：壁在里面，空能装</text>
+<rect x="96" y="162" width="188" height="88" fill="#EFE6D4" stroke="#2F2A24" stroke-width="1.0"/>
+<rect x="110" y="176" width="160" height="66" fill="#FDFAF2" stroke="none" stroke-width="0"/>
+<rect x="110" y="208" width="160" height="34" fill="#DCE6DE" stroke="none" stroke-width="0"/>
+<line x1="110" y1="208" x2="270" y2="208" stroke="#4A5C55" stroke-width="0.6"/>
+<text x="190" y="232" font-size="4.8" fill="#4A5C55" text-anchor="middle">水</text>
+<text x="190" y="182" font-size="4.6" fill="#8A7E70" text-anchor="middle">空腔</text>
+<text x="190" y="266" font-size="4.6" fill="#6E6459" text-anchor="middle">壁：我自己留出来的厚度</text>
+<text x="24" y="290" font-size="5.4" fill="#A2503B">二、抽走的空：壁被掏薄（虚线是原来的腔），底穿了洞</text>
+<rect x="96" y="302" width="188" height="88" fill="#FBF6EC" stroke="#2F2A24" stroke-width="1.0"/>
+<rect x="110" y="316" width="160" height="74" fill="none" stroke="#A2503B" stroke-width="0.5" stroke-dasharray="4 3"/>
+<polygon points="110,316 270,316 200,392 180,392" fill="#EFE8D8" stroke="#A2503B" stroke-width="0.8"/>
+<line x1="96" y1="390" x2="176" y2="390" stroke="#2F2A24" stroke-width="1.2"/>
+<line x1="204" y1="390" x2="284" y2="390" stroke="#2F2A24" stroke-width="1.2"/>
+<line x1="180" y1="392" x2="200" y2="392" stroke="#A2503B" stroke-width="0.5" stroke-dasharray="3 3"/>
+<line x1="190" y1="398" x2="190" y2="424" stroke="#A2503B" stroke-width="0.9" marker-end="url(#arrS)"/>
+<text x="190" y="368" font-size="4.6" fill="#A2503B" text-anchor="middle">被抽干</text>
+<text x="190" y="354" font-size="4.4" fill="#6E6459" text-anchor="middle">看不见的那面：田与仓</text>
+<text x="300" y="324" font-size="4.4" fill="#6E6459">看得见</text>
+<text x="300" y="334" font-size="4.4" fill="#6E6459">的那面：锦衣</text>
+<text x="300" y="344" font-size="4.4" fill="#6E6459">利剑财货</text>
+<text x="190" y="436" font-size="4.6" fill="#A2503B" text-anchor="middle">底一穿，就只剩响了</text>
+<text x="24" y="456" font-size="5.2" fill="#2F2A24">四样全在明处，两样全在暗处；明处越亮，暗处越黑。</text>
+<text x="24" y="472" font-size="5.2" fill="#2F2A24">同样是空，一种是留出来的，一种是被抽走的：留出来的能装，抽走的那只剩响。</text>
+<text x="24" y="488" font-size="5.4" fill="#4A5C55">一个是杯，一个是坑。</text>
+<line x1="24" y1="506" x2="338" y2="506" stroke="#DCCBB0" stroke-width="0.6"/>
+<rect x="20" y="514" width="340" height="40" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="190" y="530" font-size="6.0" fill="#2F2A24" text-anchor="middle">留出来的空能装，抽出来的空只剩响；</text>
+<text x="190" y="542" font-size="6.0" fill="#4A5C55" text-anchor="middle">两个都是空，一个是杯，一个是坑。</text>
+<line x1="20" y1="568" x2="360" y2="568" stroke="#E6D8C2" stroke-width="0.8"/>
+<text x="20" y="582" font-size="8.0" fill="#A89577" letter-spacing="1">本 章 金 句</text>
+<text x="20" y="598" font-size="8.4" fill="#2F2A24">留出来的空能装，抽出来的空只剩响；两个都是空，一个是杯，一个是坑。</text>
+</svg>

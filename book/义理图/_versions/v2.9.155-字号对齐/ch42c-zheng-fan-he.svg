@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 380 520" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="分出去，又合回来；不是一条直线，是一条环" font-family="'Noto Serif CJK SC','Noto Serif SC','Songti SC',serif">
+<defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#6E6459"/></marker><marker id="arr2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#4A5C55"/></marker><marker id="arrL" viewBox="0 0 10 10" refX="1" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M10 0 L0 5 L10 10 z" fill="#4A5C55"/></marker><marker id="arrS" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#A2503B"/></marker></defs>
+<rect x="0" y="0" width="380" height="520" fill="#F8F3E6"/>
+<text x="20" y="26" font-size="11" fill="#A2503B" font-family="'Noto Sans CJK SC','Noto Sans SC',sans-serif" letter-spacing="3">第 四 十 二 章 · 一 环</text>
+<text x="20" y="58" font-size="21" fill="#2F2A24">正 · 分 · 散 · 和</text>
+<text x="20" y="78" font-size="10.5" fill="#6E6459">三不是第三样东西，是被二撑开的那道空。</text>
+<rect x="52" y="122" width="252" height="212" rx="26" fill="none" stroke="#E6D8C2" stroke-width="0.7"/>
+<rect x="56" y="130" width="96" height="40" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="104" y="147" font-size="8.0" fill="#2F2A24" text-anchor="middle">道</text>
+<text x="104" y="161" font-size="5.6" fill="#6E6459" text-anchor="middle">正 · 未分</text>
+<rect x="204" y="130" width="96" height="40" fill="#F7F1E3" stroke="#E6D8C2" stroke-width="1.0"/>
+<text x="252" y="147" font-size="5.2" fill="#2F2A24" text-anchor="middle">一 · 二 · 三</text>
+<text x="252" y="161" font-size="5.6" fill="#6E6459" text-anchor="middle">分 · 撑开虚位</text>
+<rect x="204" y="286" width="96" height="40" fill="#F7F1E3" stroke="#E6D8C2" stroke-width="1.0"/>
+<text x="252" y="303" font-size="8.0" fill="#2F2A24" text-anchor="middle">万物</text>
+<text x="252" y="317" font-size="5.6" fill="#6E6459" text-anchor="middle">散 · 配比不同</text>
+<rect x="56" y="286" width="96" height="40" fill="#F6E9E2" stroke="#D9B7A6" stroke-width="1.0"/>
+<text x="104" y="303" font-size="8.0" fill="#4A5C55" text-anchor="middle">和</text>
+<text x="104" y="317" font-size="5.6" fill="#6E6459" text-anchor="middle">动着不散</text>
+<line x1="156" y1="150" x2="196" y2="150" stroke="#2F2A24" stroke-width="0.7"/>
+<path d="M196,146 l7,4 l-7,4 z" fill="#2F2A24"/>
+<line x1="252" y1="176" x2="252" y2="280" stroke="#2F2A24" stroke-width="0.7"/>
+<path d="M248,280 l4,7 l4,-7 z" fill="#2F2A24"/>
+<line x1="198" y1="306" x2="160" y2="306" stroke="#2F2A24" stroke-width="0.7"/>
+<path d="M160,302 l-7,4 l7,4 z" fill="#2F2A24"/>
+<line x1="104" y1="280" x2="104" y2="180" stroke="#A2503B" stroke-width="0.9"/>
+<path d="M100,180 l4,-7 l4,7 z" fill="#A2503B"/>
+<text x="116" y="222" font-size="5.2" fill="#A2503B">反</text>
+<text x="116" y="234" font-size="5.2" fill="#A2503B">者</text>
+<text x="116" y="246" font-size="5.2" fill="#A2503B">道</text>
+<text x="116" y="258" font-size="5.2" fill="#A2503B">之</text>
+<text x="116" y="270" font-size="5.2" fill="#A2503B">动</text>
+<text x="190" y="222" font-size="5.2" fill="#2F2A24" text-anchor="middle">虚位</text>
+<text x="190" y="238" font-size="5.6" fill="#6E6459" text-anchor="middle">盅·中·冲</text>
+<text x="190" y="256" font-size="5.4" fill="#A2503B" text-anchor="middle">三不是第三样东西</text>
+<rect x="20" y="352" width="340" height="48" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="190" y="368" font-size="5.2" fill="#2F2A24" text-anchor="middle">三生万物之后，还要「冲气以为和」：中间那道虚没被填实，环才接得上。</text>
+<text x="190" y="383" font-size="5.2" fill="#6E6459" text-anchor="middle">把虚填实叫「合」——外壳还在，环断了；容着虚叫「和」——路还通着。</text>
+<text x="190" y="396" font-size="5.2" fill="#4A5C55" text-anchor="middle">所以这条链不是直线往前，是分出去、又合回来。</text>
+<line x1="20" y1="414" x2="360" y2="414" stroke="#E6D8C2" stroke-width="0.8"/>
+<text x="20" y="428" font-size="8.0" fill="#A89577" letter-spacing="1">本 章 金 句</text>
+<text x="20" y="444" font-size="8.4" fill="#2F2A24">三不是第三样东西，是被二撑开的那道空。</text>
+<text x="20" y="460" font-size="8.4" fill="#2F2A24">分出去，又合回来；不是一条直线，是一条环。</text>
+</svg>

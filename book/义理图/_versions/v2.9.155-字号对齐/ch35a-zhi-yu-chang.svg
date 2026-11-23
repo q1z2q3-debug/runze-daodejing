@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 380 618" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="宾语一换，手就转向：一个向外扣，一个向内捧" font-family="'Noto Serif CJK SC','Noto Serif SC','Songti SC',serif">
+<defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#6E6459"/></marker><marker id="arr2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#4A5C55"/></marker><marker id="arrL" viewBox="0 0 10 10" refX="1" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M10 0 L0 5 L10 10 z" fill="#4A5C55"/></marker><marker id="arrS" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#A2503B"/></marker></defs>
+<rect x="0" y="0" width="380" height="618" fill="#F8F3E6"/>
+<text x="20" y="26" font-size="11" fill="#A2503B" font-family="'Noto Sans CJK SC','Noto Sans SC',sans-serif" letter-spacing="3">第 三 十 五 章 · 执 与 场</text>
+<text x="20" y="58" font-size="21" fill="#2F2A24">执大象，天下往</text>
+<text x="20" y="78" font-size="10.5" fill="#6E6459">图可以挂起来，场只能站进去。</text>
+<rect x="20" y="104" width="340" height="28" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="190" y="123" font-size="9.4" fill="#2F2A24" text-anchor="middle">执大象，天下往。往而不害，安平泰。</text>
+<rect x="20" y="146" width="162" height="108" fill="#FBF6EC" stroke="#E6D8C2" stroke-width="1.0"/>
+<rect x="198" y="146" width="162" height="108" fill="#FBF6EC" stroke="#E6D8C2" stroke-width="1.0"/>
+<text x="32" y="164" font-size="8.2" fill="#A2503B">执罪人：向外扣</text>
+<text x="210" y="164" font-size="8.2" fill="#4A5C55">执中：向内捧</text>
+<line x1="76" y1="180" x2="76" y2="194" stroke="#2F2A24" stroke-width="0.9"/>
+<rect x="52" y="192" width="48" height="9" rx="4" fill="#E9DFCC" stroke="#2F2A24" stroke-width="0.9"/>
+<line x1="58" y1="201" x2="58" y2="214" stroke="#2F2A24" stroke-width="0.9"/>
+<line x1="68" y1="201" x2="68" y2="214" stroke="#2F2A24" stroke-width="0.9"/>
+<line x1="78" y1="201" x2="78" y2="214" stroke="#2F2A24" stroke-width="0.9"/>
+<line x1="88" y1="201" x2="88" y2="214" stroke="#2F2A24" stroke-width="0.9"/>
+<circle cx="76" cy="224" r="4.4" fill="none" stroke="#2F2A24" stroke-width="0.9"/>
+<line x1="76" y1="228" x2="76" y2="238" stroke="#2F2A24" stroke-width="0.8"/>
+<text x="36" y="246" font-size="5.2" fill="#8A7C69">手形自带一个被抓的人</text>
+<path d="M220,230 q6,-14 14,-16" fill="none" stroke="#2F2A24" stroke-width="1"/>
+<path d="M256,230 q-6,-14 -14,-16" fill="none" stroke="#2F2A24" stroke-width="1"/>
+<circle cx="238" cy="208" r="7" fill="none" stroke="#4A5C55" stroke-width="0.9"/>
+<text x="238" y="211" font-size="5.2" fill="#4A5C55" text-anchor="middle">己</text>
+<text x="214" y="246" font-size="5.2" fill="#8A7C69">捧住的是自己，不是别人</text>
+<rect x="20" y="262" width="340" height="132" fill="#FBF6EC" stroke="#E6D8C2" stroke-width="1.0"/>
+<text x="32" y="280" font-size="8.4" fill="#2F2A24">场：不是挂起来的图，是站进去的地方</text>
+<circle cx="108" cy="338" r="38" fill="#F7F1E3" stroke="#4A5C55" stroke-width="0.9" stroke-dasharray="5 3"/>
+<circle cx="108" cy="326" r="4.2" fill="none" stroke="#2F2A24" stroke-width="0.8"/>
+<path d="M108,330 l0,16 M108,334 l-9,8 M108,334 l9,8 M108,346 l-7,10 M108,346 l7,10" stroke="#2F2A24" stroke-width="0.7"/>
+<text x="108" y="386" font-size="5.2" fill="#6E6459" text-anchor="middle">人站在里面</text>
+<rect x="188" y="292" width="46" height="34" fill="#F7F1E3" stroke="#2F2A24" stroke-width="0.9"/>
+<path d="M211,292 l0,-10" stroke="#DCCBB0" stroke-width="0.9"/>
+<circle cx="211" cy="280" r="2" fill="#2F2A24"/>
+<line x1="192" y1="318" x2="230" y2="298" stroke="#DCCBB0" stroke-width="0.6"/>
+<text x="211" y="340" font-size="5.2" fill="#8A7C69" text-anchor="middle">图：可以挂起来</text>
+<line x1="146" y1="338" x2="176" y2="338" stroke="#A2503B" stroke-width="1.1"/>
+<line x1="168" y1="332" x2="168" y2="344" stroke="#A2503B" stroke-width="1.1"/>
+<text x="160" y="358" font-size="5.2" fill="#A2503B">手一伸，场变门槛</text>
+<text x="246" y="370" font-size="5.2" fill="#6E6459">进门第一件事，先量你合不合尺寸。</text>
+<text x="246" y="384" font-size="5.2" fill="#6E6459">不伸手的场，才容得下你的样子。</text>
+<rect x="20" y="406" width="340" height="72" fill="#F7F1E3" stroke="#E6D8C2" stroke-width="1.0"/>
+<path d="M46,440 l14,-12 l14,12" fill="none" stroke="#2F2A24" stroke-width="1"/>
+<circle cx="60" cy="446" r="3.4" fill="none" stroke="#2F2A24" stroke-width="0.8"/>
+<line x1="60" y1="450" x2="60" y2="460" stroke="#2F2A24" stroke-width="0.8"/>
+<text x="60" y="472" font-size="5.2" fill="#6E6459" text-anchor="middle">安：有地方待</text>
+<rect x="142" y="432" width="14" height="22" fill="#E9DFCC" stroke="#2F2A24" stroke-width="0.7"/>
+<rect x="166" y="440" width="14" height="14" fill="#E9DFCC" stroke="#2F2A24" stroke-width="0.7"/>
+<line x1="138" y1="454" x2="184" y2="454" stroke="#DCCBB0" stroke-width="0.9"/>
+<text x="160" y="472" font-size="5.2" fill="#6E6459" text-anchor="middle">平：没人压你</text>
+<path d="M242,436 l0,18 M262,436 l0,18" stroke="#2F2A24" stroke-width="0.8"/>
+<line x1="238" y1="446" x2="268" y2="446" stroke="#4A5C55" stroke-width="0.9" marker-end="url(#arrS)"/>
+<text x="253" y="472" font-size="5.2" fill="#6E6459" text-anchor="middle">泰：气走得通</text>
+<text x="20" y="490" font-size="5.2" fill="#A2503B">三字连起来：不是大家都一样，是大家都不用改。</text>
+<rect x="20" y="506" width="340" height="40" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="190" y="523" font-size="8.2" fill="#2F2A24" text-anchor="middle">往，是自己走过去；不是被收拢，不是低头。</text>
+<text x="190" y="538" font-size="7.8" fill="#6E6459" text-anchor="middle">手一松，场就开了；场一开，人自己会来。</text>
+<line x1="20" y1="554" x2="360" y2="554" stroke="#E6D8C2" stroke-width="0.8"/>
+<text x="20" y="568" font-size="8.0" fill="#A89577" letter-spacing="1">本 章 金 句</text>
+<text x="20" y="584" font-size="8.4" fill="#2F2A24">同一个「执」字，宾语一换，手就转向了——执罪人是抓人，执中是持己。</text>
+<text x="20" y="600" font-size="8.4" fill="#2F2A24">手一伸出去，场就变成了门槛。</text>
+</svg>

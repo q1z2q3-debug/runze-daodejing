@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 380 616" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="终日号而不嗄：婴儿哭一天嗓子不坏，不是嗓子好，是他从不憋气" font-family="'Noto Serif CJK SC','Noto Serif SC','Songti SC',serif">
+<defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#6E6459"/></marker><marker id="arr2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#4A5C55"/></marker><marker id="arrL" viewBox="0 0 10 10" refX="1" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M10 0 L0 5 L10 10 z" fill="#4A5C55"/></marker><marker id="arrS" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#A2503B"/></marker></defs>
+<rect x="0" y="0" width="380" height="616" fill="#F8F3E6"/>
+<text x="20" y="26" font-size="11" fill="#A2503B" font-family="'Noto Sans CJK SC','Noto Sans SC',sans-serif" letter-spacing="3">第 五 十 五 章 · 气</text>
+<text x="20" y="58" font-size="21" fill="#2F2A24">一根管</text>
+<text x="20" y="78" font-size="10.5" fill="#6E6459">终日号而不嗄，和之至也。</text>
+<rect x="20" y="102" width="340" height="30" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="190" y="114" font-size="5.2" fill="#2F2A24" text-anchor="middle">「嗄」，声败。婴儿哭是气出尽了就吸，吸满了再哭；他不存气，也不压气。</text>
+<text x="190" y="126" font-size="5.2" fill="#6E6459" text-anchor="middle">「和」不是平和这个状态，是进出的量对得上——中点一直在被穿过。</text>
+<text x="24" y="146" font-size="5.4" fill="#4A5C55">一、不憋：两头通着，出尽了就进</text>
+<rect x="48" y="182" width="284" height="40" fill="#FBF6EC" stroke="#2F2A24" stroke-width="1.0"/>
+<line x1="48" y1="202" x2="332" y2="202" stroke="#E6D8C2" stroke-width="0.4" stroke-dasharray="4 4"/>
+<line x1="56" y1="192" x2="316" y2="192" stroke="#4A5C55" stroke-width="1.0" marker-end="url(#arr2)"/>
+<line x1="316" y1="212" x2="56" y2="212" stroke="#A2503B" stroke-width="1.0" marker-end="url(#arrS)"/>
+<text x="190" y="168" font-size="4.6" fill="#4A5C55" text-anchor="middle">进：吸到满</text>
+<text x="190" y="230" font-size="4.6" fill="#A2503B" text-anchor="middle">出：哭到尽</text>
+<text x="190" y="256" font-size="4.8" fill="#4A5C55" text-anchor="middle">中间没有闸：两头一直在换</text>
+<text x="24" y="284" font-size="5.4" fill="#A2503B">二、憋着：中间装一道闸，管就鼓起来</text>
+<rect x="48" y="320" width="284" height="40" fill="#FBEEE8" stroke="#2F2A24" stroke-width="1.0"/>
+<path d="M48,320 C110,290 270,290 332,320" fill="none" stroke="#A2503B" stroke-width="0.9"/>
+<path d="M48,320 C110,292 270,292 332,320" fill="none" stroke="#A2503B" stroke-width="0.4" opacity="0.6"/>
+<rect x="178" y="318" width="12" height="44" fill="#EFE6D4" stroke="#A2503B" stroke-width="1.0"/>
+<line x1="66" y1="340" x2="168" y2="340" stroke="#A2503B" stroke-width="1.0" marker-end="url(#arrS)"/>
+<line x1="160" y1="330" x2="160" y2="350" stroke="#A2503B" stroke-width="1.2"/>
+<text x="74" y="330" font-size="4.6" fill="#A2503B">进不去</text>
+<text x="248" y="346" font-size="4.6" fill="#A2503B">出不来</text>
+<text x="190" y="394" font-size="4.8" fill="#A2503B" text-anchor="middle">「存」起来了：有了存，就有了伤</text>
+<text x="24" y="422" font-size="5.2" fill="#2F2A24">婴儿哭一整天，嗓子不沙，不是嗓子好，是他从不憋气。</text>
+<text x="24" y="438" font-size="5.2" fill="#2F2A24">成年人哭，多半是憋着的：一边哭一边忍，气出不尽，也吸不满。</text>
+<text x="24" y="454" font-size="5.0" fill="#4A5C55">「心使气」就是往这管子里装闸，派气去做事；一装，它就不按自己的节奏走了。</text>
+<line x1="24" y1="472" x2="338" y2="472" stroke="#DCCBB0" stroke-width="0.6"/>
+<rect x="20" y="480" width="340" height="40" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="190" y="496" font-size="6.0" fill="#2F2A24" text-anchor="middle">婴儿哭一天嗓子不坏，不是嗓子好，是他从不憋气；</text>
+<text x="190" y="508" font-size="6.0" fill="#4A5C55" text-anchor="middle">一憋，就有了「存」，就有了「伤」。</text>
+<line x1="20" y1="534" x2="360" y2="534" stroke="#E6D8C2" stroke-width="0.8"/>
+<text x="20" y="548" font-size="8.0" fill="#A89577" letter-spacing="1">本 章 金 句</text>
+<text x="20" y="564" font-size="8.4" fill="#2F2A24">婴儿哭一天嗓子不坏，不是嗓子好，是他从不憋气；一憋，就有了「存」，有了「伤」。</text>
+</svg>

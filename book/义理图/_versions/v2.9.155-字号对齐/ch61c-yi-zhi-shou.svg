@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 380 656" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="或下以取：取本义带刀，加一个「下」，刀就翻成了手" font-family="'Noto Serif CJK SC','Noto Serif SC','Songti SC',serif">
+<defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#6E6459"/></marker><marker id="arr2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#4A5C55"/></marker><marker id="arrL" viewBox="0 0 10 10" refX="1" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M10 0 L0 5 L10 10 z" fill="#4A5C55"/></marker><marker id="arrS" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#A2503B"/></marker></defs>
+<rect x="0" y="0" width="380" height="656" fill="#F8F3E6"/>
+<text x="20" y="26" font-size="11" fill="#A2503B" font-family="'Noto Sans CJK SC','Noto Sans SC',sans-serif" letter-spacing="3">第 六 十 一 章 · 取</text>
+<text x="20" y="58" font-size="21" fill="#2F2A24">一只手</text>
+<text x="20" y="78" font-size="10.5" fill="#6E6459">故或下以取，或下而取。</text>
+<rect x="20" y="102" width="340" height="30" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="190" y="114" font-size="5.2" fill="#2F2A24" text-anchor="middle">「取」从又从耳：杀敌之后割左耳计功——本义带刀。</text>
+<text x="190" y="126" font-size="5.0" fill="#6E6459" text-anchor="middle">前面加一个「下」，刀就翻成了手：不是去割，是去接。</text>
+<text x="24" y="146" font-size="5.4" fill="#A2503B">一、带刀：取本义，是割</text>
+<line x1="118" y1="174" x2="118" y2="190" stroke="#DCCBB0" stroke-width="0.7"/>
+<path d="M118,214 C127,210 129,198 122,192 C116,187 109,192 112,200 C115,207 120,208 121,202" fill="none" stroke="#2F2A24" stroke-width="1.1"/>
+<path d="M119,204 C122,200 120,196 117,195" fill="none" stroke="#2F2A24" stroke-width="0.6"/>
+<rect x="165" y="222" width="6" height="16" rx="2" fill="none" stroke="#A2503B" stroke-width="0.8"/>
+<path d="M166,222 L166,188 C178,192 182,202 180,216 L170,222" fill="#EFE6D4" stroke="#A2503B" stroke-width="1"/>
+<line x1="186" y1="180" x2="162" y2="200" stroke="#A2503B" stroke-width="0.8" marker-end="url(#arrS)"/>
+<text x="118" y="178" font-size="4.4" fill="#2F2A24" text-anchor="middle">一只耳，挂在这儿</text>
+<text x="118" y="270" font-size="4.6" fill="#A2503B" text-anchor="middle">割下来计功：这是「取」的老底子</text>
+<text x="196" y="228" font-size="4.6" fill="#A2503B">刀落下去：割</text>
+<text x="24" y="338" font-size="5.2" fill="#4A5C55">二、加一个「下」：掌心翻上来，去接</text>
+<rect x="101" y="436" width="38" height="22" rx="8" fill="#EFE6D4" stroke="#4A5C55" stroke-width="1.1"/>
+<rect x="103" y="420.0" width="6" height="16" rx="3" fill="#EFE6D4" stroke="#4A5C55" stroke-width="0.9"/>
+<rect x="112" y="420.9" width="6" height="16" rx="3" fill="#EFE6D4" stroke="#4A5C55" stroke-width="0.9"/>
+<rect x="121" y="421.8" width="6" height="16" rx="3" fill="#EFE6D4" stroke="#4A5C55" stroke-width="0.9"/>
+<rect x="130" y="422.7" width="6" height="16" rx="3" fill="#EFE6D4" stroke="#4A5C55" stroke-width="0.9"/>
+<rect x="93" y="442" width="12" height="6" rx="3" fill="#EFE6D4" stroke="#4A5C55" stroke-width="0.9"/>
+<line x1="146" y1="410" x2="158" y2="422" stroke="#4A5C55" stroke-width="0.6" stroke-dasharray="3 2"/>
+<path d="M160,442 C169,438 171,426 164,420 C158,415 151,420 154,428 C157,435 162,436 163,430" fill="none" stroke="#4A5C55" stroke-width="1.1"/>
+<path d="M161,432 C164,428 162,424 159,423" fill="none" stroke="#4A5C55" stroke-width="0.6"/>
+<line x1="168" y1="400" x2="160" y2="418" stroke="#4A5C55" stroke-width="0.7" marker-end="url(#arr2)"/>
+<text x="196" y="404" font-size="4.6" fill="#4A5C55">来归的，落下来</text>
+<text x="196" y="416" font-size="4.4" fill="#6E6459">手在下面接着</text>
+<text x="120" y="478" font-size="4.6" fill="#4A5C55" text-anchor="middle">刀口还在，只是翻过去了</text>
+<text x="24" y="496" font-size="4.9" fill="#2F2A24">「取」从又从耳，本义带刀：割左耳计功。</text>
+<text x="24" y="512" font-size="4.9" fill="#2F2A24">前面加一个「下」，刀就翻成了手——不是去割，是去接。</text>
+<text x="24" y="528" font-size="4.9" fill="#4A5C55">刀口还在，只是翻过去了；翻过去的刀，就成了接的手。</text>
+<line x1="24" y1="546" x2="338" y2="546" stroke="#DCCBB0" stroke-width="0.6"/>
+<rect x="20" y="554" width="340" height="40" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="190" y="570" font-size="5.2" fill="#2F2A24" text-anchor="middle">取本义带刀；加一个「下」，刀就翻成了手——</text>
+<text x="190" y="582" font-size="6.0" fill="#4A5C55" text-anchor="middle">不是去割，是去接。</text>
+<line x1="20" y1="608" x2="360" y2="608" stroke="#E6D8C2" stroke-width="0.8"/>
+<text x="20" y="622" font-size="8.0" fill="#A89577" letter-spacing="1">本 章 金 句</text>
+<text x="20" y="638" font-size="8.4" fill="#2F2A24">取本义带刀；加一个「下」，刀就翻成了手——不是去割，是去接。</text>
+</svg>

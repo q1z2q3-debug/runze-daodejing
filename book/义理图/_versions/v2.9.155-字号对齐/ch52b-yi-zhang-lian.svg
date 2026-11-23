@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 380 664" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="塞其兑，闭其门；开其兑，济其事：口一张一收，人就在两个半圈上" font-family="'Noto Serif CJK SC','Noto Serif SC','Songti SC',serif">
+<defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#6E6459"/></marker><marker id="arr2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#4A5C55"/></marker><marker id="arrL" viewBox="0 0 10 10" refX="1" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M10 0 L0 5 L10 10 z" fill="#4A5C55"/></marker><marker id="arrS" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#A2503B"/></marker></defs>
+<rect x="0" y="0" width="380" height="664" fill="#F8F3E6"/>
+<text x="20" y="26" font-size="11" fill="#A2503B" font-family="'Noto Sans CJK SC','Noto Sans SC',sans-serif" letter-spacing="3">第 五 十 二 章 · 口</text>
+<text x="20" y="58" font-size="21" fill="#2F2A24">一张脸</text>
+<text x="20" y="78" font-size="10.5" fill="#6E6459">塞其兑，闭其门……开其兑，济其事。</text>
+<rect x="20" y="102" width="340" height="30" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="190" y="114" font-size="5.2" fill="#2F2A24" text-anchor="middle">「兑」在《易·说卦》里就是「口」——口、眼、耳、鼻，人身上一共就这几个口。</text>
+<text x="190" y="126" font-size="5.2" fill="#6E6459" text-anchor="middle">塞不是缝上，是「不敞着」。</text>
+<text x="24" y="146" font-size="5.4" fill="#4A5C55">一、塞其兑：把口收一收</text>
+<circle cx="104" cy="230" r="44" fill="#EFE6D4" stroke="#2F2A24" stroke-width="1"/>
+<circle cx="88" cy="218" r="6" fill="#FBF6EC" stroke="#2F2A24" stroke-width="0.7"/>
+<line x1="81" y1="218" x2="95" y2="218" stroke="#A2503B" stroke-width="1.1"/>
+<circle cx="120" cy="218" r="6" fill="#FBF6EC" stroke="#2F2A24" stroke-width="0.7"/>
+<line x1="113" y1="218" x2="127" y2="218" stroke="#A2503B" stroke-width="1.1"/>
+<ellipse cx="104" cy="252" rx="13" ry="7" fill="#FBF6EC" stroke="#2F2A24" stroke-width="0.7"/>
+<line x1="91" y1="252" x2="117" y2="252" stroke="#A2503B" stroke-width="1.1"/>
+<text x="104" y="286" font-size="4.8" fill="#A2503B" text-anchor="middle">三孔皆塞</text>
+<line x1="30" y1="218" x2="74" y2="218" stroke="#A2503B" stroke-width="0.8" marker-end="url(#arrS)"/>
+<text x="30" y="232" font-size="4.4" fill="#6E6459">外头的东西</text>
+<text x="30" y="242" font-size="4.4" fill="#6E6459">进不来</text>
+<text x="24" y="304" font-size="5.4" fill="#A2503B">二、开其兑，济其事：口一敞，事一件件往外长</text>
+<circle cx="104" cy="388" r="44" fill="#EFE6D4" stroke="#2F2A24" stroke-width="1"/>
+<circle cx="88" cy="376" r="6" fill="#FBF6EC" stroke="#2F2A24" stroke-width="0.7"/>
+<circle cx="120" cy="376" r="6" fill="#FBF6EC" stroke="#2F2A24" stroke-width="0.7"/>
+<ellipse cx="104" cy="410" rx="13" ry="7" fill="#FBF6EC" stroke="#2F2A24" stroke-width="0.7"/>
+<line x1="74" y1="376" x2="30" y2="366" stroke="#A2503B" stroke-width="0.8" marker-end="url(#arrS)"/>
+<line x1="134" y1="376" x2="178" y2="366" stroke="#A2503B" stroke-width="0.8" marker-end="url(#arrS)"/>
+<line x1="104" y1="422" x2="104" y2="450" stroke="#A2503B" stroke-width="0.8" marker-end="url(#arrS)"/>
+<rect x="10" y="354" width="9" height="9" fill="#FBF6EC" stroke="#A2503B" stroke-width="0.6"/>
+<rect x="20" y="354" width="9" height="9" fill="#FBF6EC" stroke="#A2503B" stroke-width="0.6"/>
+<rect x="186" y="354" width="9" height="9" fill="#FBF6EC" stroke="#A2503B" stroke-width="0.6"/>
+<rect x="196" y="354" width="9" height="9" fill="#FBF6EC" stroke="#A2503B" stroke-width="0.6"/>
+<rect x="96" y="454" width="9" height="9" fill="#FBF6EC" stroke="#A2503B" stroke-width="0.6"/>
+<rect x="106" y="454" width="9" height="9" fill="#FBF6EC" stroke="#A2503B" stroke-width="0.6"/>
+<text x="186" y="396" font-size="4.4" fill="#6E6459">事：一件未</text>
+<text x="186" y="406" font-size="4.4" fill="#6E6459">完又起一件</text>
+<text x="104" y="474" font-size="4.6" fill="#A2503B" text-anchor="middle">一辈子停不下来：「救」训「止」，不救是止不住</text>
+<text x="24" y="496" font-size="5.2" fill="#2F2A24">「塞」与「闭」是两个动作：孔是一个个的，堵；门是一整扇的，合。</text>
+<text x="24" y="512" font-size="5.2" fill="#2F2A24">「勤」训「劳」：不勤不是不干活，是不用那么劳。</text>
+<text x="24" y="528" font-size="5.2" fill="#4A5C55">两个半圈的分界，就在这几个口上：收着，就在回来那半圈上。</text>
+<line x1="24" y1="546" x2="338" y2="546" stroke="#DCCBB0" stroke-width="0.6"/>
+<rect x="20" y="554" width="340" height="40" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="190" y="570" font-size="6.0" fill="#2F2A24" text-anchor="middle">「兑」是口，「袭」是袍，「救」是止；</text>
+<text x="190" y="582" font-size="6.0" fill="#4A5C55" text-anchor="middle">三个字，一个在收口，一个在穿衣，一个在刹车。</text>
+<line x1="20" y1="608" x2="360" y2="608" stroke="#E6D8C2" stroke-width="0.8"/>
+<text x="20" y="622" font-size="8.0" fill="#A89577" letter-spacing="1">本 章 金 句</text>
+<text x="20" y="638" font-size="8.4" fill="#2F2A24">「兑」是口，「袭」是袍，「救」是止；三个字，一个在收口，一个在穿衣，一个在刹车。</text>
+</svg>

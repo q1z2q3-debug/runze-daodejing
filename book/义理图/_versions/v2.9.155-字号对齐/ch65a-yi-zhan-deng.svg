@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 380 690" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="明是月光从窗格照进屋：照，是打光，不是自己亮" font-family="'Noto Serif CJK SC','Noto Serif SC','Songti SC',serif">
+<defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#6E6459"/></marker><marker id="arr2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#4A5C55"/></marker><marker id="arrL" viewBox="0 0 10 10" refX="1" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M10 0 L0 5 L10 10 z" fill="#4A5C55"/></marker><marker id="arrS" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#A2503B"/></marker></defs>
+<rect x="0" y="0" width="380" height="690" fill="#F8F3E6"/>
+<text x="20" y="26" font-size="11" fill="#A2503B" font-family="'Noto Sans CJK SC','Noto Sans SC',sans-serif" letter-spacing="3">第 六 十 五 章 · 明</text>
+<text x="20" y="58" font-size="21" fill="#2F2A24">一盏灯</text>
+<text x="20" y="78" font-size="10.5" fill="#6E6459">非以明民，将以愚之。</text>
+<rect x="20" y="102" width="340" height="30" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="190" y="114" font-size="5.2" fill="#2F2A24" text-anchor="middle">「明」，《说文》「照也」，从月、从囧——囧是窗格。</text>
+<text x="190" y="126" font-size="5.0" fill="#6E6459" text-anchor="middle">明民就是打光：把光打到人身上，人彼此就看得清长短了。</text>
+<text x="24" y="148" font-size="4.8" fill="#A2503B">一、灯挂在屋子正中：影子都落在脚下</text>
+<rect x="96" y="162" width="188" height="156" fill="#FBF6EC" stroke="#DCCBB0" stroke-width="0.8"/>
+<line x1="190" y1="162" x2="190" y2="184" stroke="#2F2A24" stroke-width="0.8"/>
+<path d="M180,194 L200,194 L196,184 L184,184 Z" fill="#EFE6D4" stroke="#2F2A24" stroke-width="1"/>
+<polygon points="182,204 198,204 272,304 108,304" fill="#EADFC2" opacity="0.5" stroke="none"/>
+<circle cx="190" cy="200" r="4.2" fill="#A2503B" stroke="#A2503B" stroke-width="0.8"/>
+<path d="M132,300 L108,306 L108,311 L132,304 Z" fill="#CFC3A8" stroke="none"/>
+<circle cx="132" cy="266" r="5" fill="none" stroke="#2F2A24" stroke-width="1"/>
+<rect x="127" y="272" width="10" height="16" rx="2" fill="#EFE6D4" stroke="#2F2A24" stroke-width="1"/>
+<line x1="129" y1="288" x2="128" y2="300" stroke="#2F2A24" stroke-width="1"/>
+<line x1="135" y1="288" x2="136" y2="300" stroke="#2F2A24" stroke-width="1"/>
+<path d="M190,300 L197,306 L197,311 L190,304 Z" fill="#CFC3A8" stroke="none"/>
+<circle cx="190" cy="266" r="5" fill="none" stroke="#2F2A24" stroke-width="1"/>
+<rect x="185" y="272" width="10" height="16" rx="2" fill="#EFE6D4" stroke="#2F2A24" stroke-width="1"/>
+<line x1="187" y1="288" x2="186" y2="300" stroke="#2F2A24" stroke-width="1"/>
+<line x1="193" y1="288" x2="194" y2="300" stroke="#2F2A24" stroke-width="1"/>
+<path d="M250,300 L284,306 L284,311 L250,304 Z" fill="#CFC3A8" stroke="none"/>
+<circle cx="250" cy="266" r="5" fill="none" stroke="#2F2A24" stroke-width="1"/>
+<rect x="245" y="272" width="10" height="16" rx="2" fill="#EFE6D4" stroke="#2F2A24" stroke-width="1"/>
+<line x1="247" y1="288" x2="246" y2="300" stroke="#2F2A24" stroke-width="1"/>
+<line x1="253" y1="288" x2="254" y2="300" stroke="#2F2A24" stroke-width="1"/>
+<text x="190" y="334" font-size="4.6" fill="#A2503B" text-anchor="middle">灯在当中：影子有长有短，谁都在看谁的影子</text>
+<text x="24" y="350" font-size="4.8" fill="#4A5C55">二、灯挪到门边：光只照路</text>
+<rect x="96" y="360" width="188" height="118" fill="#FBF6EC" stroke="#DCCBB0" stroke-width="0.8"/>
+<line x1="104" y1="450" x2="104" y2="380" stroke="#2F2A24" stroke-width="2.4" opacity="0.6"/>
+<line x1="118" y1="400" x2="118" y2="380" stroke="#2F2A24" stroke-width="0.8"/>
+<path d="M110,380 L126,380 L124,370 L112,370 Z" fill="#EFE6D4" stroke="#2F2A24" stroke-width="1"/>
+<circle cx="118" cy="384" r="3.4" fill="#4A5C55" stroke="#4A5C55" stroke-width="0.8"/>
+<rect x="110" y="444" width="164" height="26" fill="#F0E7D5" stroke="none"/>
+<line x1="110" y1="444" x2="274" y2="444" stroke="#DCCBB0" stroke-width="0.7"/>
+<line x1="110" y1="470" x2="274" y2="470" stroke="#DCCBB0" stroke-width="0.7"/>
+<ellipse cx="162" cy="457" rx="46" ry="13" fill="#EADFC2" opacity="0.9" stroke="none"/>
+<text x="250" y="460" font-size="4.4" fill="#6E6459" text-anchor="middle">路</text>
+<text x="152" y="434" font-size="4.4" fill="#4A5C55" text-anchor="middle">照亮的是路</text>
+<text x="190" y="494" font-size="4.6" fill="#4A5C55" text-anchor="middle">灯靠门：照亮路，不照亮人——不吹灯，是把灯挪开</text>
+<text x="24" y="514" font-size="4.8" fill="#2F2A24">明民，是打光：光一打，位置就看得清；看得清，就生比较。</text>
+<text x="24" y="530" font-size="4.9" fill="#2F2A24">这一照亮，给的是路还是靶子？老子问的是这一句。</text>
+<text x="24" y="548" font-size="5.0" fill="#4A5C55">他说的不是吹灯，是不把灯挂到人头顶上。</text>
+<line x1="24" y1="566" x2="338" y2="566" stroke="#DCCBB0" stroke-width="0.6"/>
+<rect x="20" y="574" width="340" height="40" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="190" y="590" font-size="5.6" fill="#2F2A24" text-anchor="middle">明是打光，不是自己亮；</text>
+<text x="190" y="602" font-size="5.2" fill="#4A5C55" text-anchor="middle">灯照路，不照人。</text>
+<line x1="20" y1="628" x2="360" y2="628" stroke="#E6D8C2" stroke-width="0.8"/>
+<text x="20" y="642" font-size="8.0" fill="#A89577" letter-spacing="1">本 章 金 句</text>
+<text x="20" y="658" font-size="8.4" fill="#2F2A24">明是打光，不是自己亮；灯照路，不照人。</text>
+<text x="20" y="674" font-size="8.4" fill="#2F2A24">明民是打光：光一打，位置就显出来；看得清，就生比较。</text>
+</svg>

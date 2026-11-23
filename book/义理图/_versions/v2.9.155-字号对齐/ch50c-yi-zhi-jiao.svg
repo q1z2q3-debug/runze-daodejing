@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 380 598" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="兕无所投其角：不是伤害不来，是伤害找不到落点" font-family="'Noto Serif CJK SC','Noto Serif SC','Songti SC',serif">
+<defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#6E6459"/></marker><marker id="arr2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#4A5C55"/></marker><marker id="arrL" viewBox="0 0 10 10" refX="1" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M10 0 L0 5 L10 10 z" fill="#4A5C55"/></marker><marker id="arrS" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#A2503B"/></marker></defs>
+<rect x="0" y="0" width="380" height="598" fill="#F8F3E6"/>
+<text x="20" y="26" font-size="11" fill="#A2503B" font-family="'Noto Sans CJK SC','Noto Sans SC',sans-serif" letter-spacing="3">第 五 十 章 · 角</text>
+<text x="20" y="58" font-size="21" fill="#2F2A24">一只角</text>
+<text x="20" y="78" font-size="10.5" fill="#6E6459">兕无所投其角，虎无所用其爪。</text>
+<rect x="20" y="102" width="340" height="30" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="190" y="114" font-size="5.2" fill="#2F2A24" text-anchor="middle">角要顶穿一样东西，得有一个硬的点；爪要抓，得有一处能挂住的地方。</text>
+<text x="190" y="126" font-size="5.2" fill="#6E6459" text-anchor="middle">不是「伤害不来」，是「伤害找不到落点」。</text>
+<text x="24" y="146" font-size="5.4" fill="#A2503B">一、一身设防：每一道防线都是一个可破的点</text>
+<rect x="202" y="172" width="14" height="80" fill="#EFE6D4" stroke="#2F2A24" stroke-width="1.4"/>
+<line x1="204" y1="186" x2="214" y2="186" stroke="#DCCBB0" stroke-width="0.4"/>
+<line x1="204" y1="206" x2="214" y2="206" stroke="#DCCBB0" stroke-width="0.4"/>
+<line x1="204" y1="226" x2="214" y2="226" stroke="#DCCBB0" stroke-width="0.4"/>
+<path d="M92,201 C138,195 160,199 200,212 C160,225 138,229 92,223 Z" fill="#EFE6D4" stroke="#2F2A24" stroke-width="1.1"/>
+<path d="M92,201 q-7,11 0,22" fill="none" stroke="#2F2A24" stroke-width="0.7"/>
+<line x1="110" y1="199" x2="110" y2="225" stroke="#DCCBB0" stroke-width="0.35"/>
+<line x1="144" y1="200" x2="144" y2="224" stroke="#DCCBB0" stroke-width="0.35"/>
+<path d="M216,206 l10,-5 M216,218 l10,5" stroke="#A2503B" stroke-width="0.8" fill="none"/>
+<line x1="216" y1="212" x2="256" y2="212" stroke="#A2503B" stroke-width="1.0" marker-end="url(#arrS)"/>
+<text x="260" y="214" font-size="4.8" fill="#A2503B">穿进去</text>
+<text x="30" y="260" font-size="4.6" fill="#6E6459">壳越硬，越像一个可以被钉住的靶心</text>
+<text x="24" y="288" font-size="5.4" fill="#4A5C55">二、无死地：同一只角，没有地方可投</text>
+<line x1="202" y1="314" x2="202" y2="394" stroke="#E6D8C2" stroke-width="0.6" stroke-dasharray="4 4"/>
+<path d="M92,343 C138,337 160,341 200,354 C160,367 138,371 92,365 Z" fill="#EFE6D4" stroke="#2F2A24" stroke-width="1.1"/>
+<path d="M92,343 q-7,11 0,22" fill="none" stroke="#2F2A24" stroke-width="0.7"/>
+<line x1="110" y1="341" x2="110" y2="367" stroke="#DCCBB0" stroke-width="0.35"/>
+<line x1="144" y1="342" x2="144" y2="366" stroke="#DCCBB0" stroke-width="0.35"/>
+<path d="M202,354 q12,-6 22,-18" fill="none" stroke="#4A5C55" stroke-width="0.7" marker-end="url(#arr2)"/>
+<text x="226" y="330" font-size="4.8" fill="#4A5C55">角滑开了：无处落点</text>
+<text x="30" y="402" font-size="4.6" fill="#6E6459">不是练成刀枪不入——那是把土堆得更厚</text>
+<text x="24" y="424" font-size="5.2" fill="#2F2A24">一个全身紧绷、处处设防的人，恰恰把自己变成了一排靶子。</text>
+<text x="24" y="440" font-size="5.2" fill="#2F2A24">无死地，不是没有一处可以被打——是没有一处「可以被定点击中」。</text>
+<text x="24" y="456" font-size="5.4" fill="#4A5C55">所以那个「摄」字是往回收：不堆，就不成地。</text>
+<line x1="24" y1="474" x2="338" y2="474" stroke="#DCCBB0" stroke-width="0.6"/>
+<rect x="20" y="482" width="340" height="40" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="190" y="498" font-size="6.0" fill="#2F2A24" text-anchor="middle">他不是没遇到兕虎，</text>
+<text x="190" y="510" font-size="6.0" fill="#4A5C55" text-anchor="middle">是兕虎找不到那个可以下角的地方。</text>
+<line x1="20" y1="536" x2="360" y2="536" stroke="#E6D8C2" stroke-width="0.8"/>
+<text x="20" y="550" font-size="8.0" fill="#A89577" letter-spacing="1">本 章 金 句</text>
+<text x="20" y="566" font-size="8.4" fill="#2F2A24">他不是没遇到兕虎，是兕虎找不到那个可以下角的地方。</text>
+</svg>

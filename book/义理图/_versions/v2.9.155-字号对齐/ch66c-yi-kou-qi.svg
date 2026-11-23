@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 380 706" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="厌是又撑又压，不是嫌弃：一只吃饱的兽，被压在崖底下" font-family="'Noto Serif CJK SC','Noto Serif SC','Songti SC',serif">
+<defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#6E6459"/></marker><marker id="arr2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#4A5C55"/></marker><marker id="arrL" viewBox="0 0 10 10" refX="1" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M10 0 L0 5 L10 10 z" fill="#4A5C55"/></marker><marker id="arrS" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#A2503B"/></marker></defs>
+<rect x="0" y="0" width="380" height="706" fill="#F8F3E6"/>
+<text x="20" y="26" font-size="11" fill="#A2503B" font-family="'Noto Sans CJK SC','Noto Sans SC',sans-serif" letter-spacing="3">第 六 十 六 章 · 厌</text>
+<text x="20" y="58" font-size="21" fill="#2F2A24">一口气</text>
+<text x="20" y="78" font-size="10.5" fill="#6E6459">天下乐推而不厌。</text>
+<rect x="20" y="102" width="340" height="30" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="190" y="114" font-size="4.9" fill="#2F2A24" text-anchor="middle">「厌」，《说文》「笮也」，笮是压；从厂从猒——厂是山崖，猒是「饱也」。</text>
+<text x="190" y="126" font-size="4.9" fill="#6E6459" text-anchor="middle">一只吃饱的兽，被压在崖底下：又撑，又压。</text>
+<text x="24" y="148" font-size="4.8" fill="#A2503B">一、压在崖下：先觉闷，后觉满</text>
+<rect x="26" y="160" width="328" height="152" fill="#FBF6EC" stroke="#DCCBB0" stroke-width="0.8"/>
+<path d="M58,172 L312,172 L312,204 L96,204 L58,232 Z" fill="#DED2B8" stroke="#2F2A24" stroke-width="1"/>
+<text x="76" y="192" font-size="4.6" fill="#2F2A24">厂 · 崖</text>
+<line x1="112" y1="180" x2="132" y2="194" stroke="#2F2A24" stroke-width="0.6" opacity="0.5"/>
+<line x1="146" y1="180" x2="166" y2="194" stroke="#2F2A24" stroke-width="0.6" opacity="0.5"/>
+<line x1="180" y1="180" x2="200" y2="194" stroke="#2F2A24" stroke-width="0.6" opacity="0.5"/>
+<ellipse cx="182" cy="244" rx="34" ry="20" fill="#EFE6D4" stroke="#2F2A24" stroke-width="1.1"/>
+<path d="M158,252 Q182,240 206,252 Q182,260 158,252 Z" fill="#DED2B8" stroke="none"/>
+<circle cx="222" cy="226" r="9" fill="#EFE6D4" stroke="#2F2A24" stroke-width="1"/>
+<path d="M218,217 Q222,211 226,217" fill="none" stroke="#2F2A24" stroke-width="0.9"/>
+<circle cx="228" cy="223" r="1.4" fill="#2F2A24" stroke="none"/>
+<path d="M228,232 L236,230" stroke="#2F2A24" stroke-width="0.7" fill="none"/>
+<line x1="162" y1="262" x2="162" y2="282" stroke="#2F2A24" stroke-width="1.1"/>
+<line x1="176" y1="262" x2="176" y2="282" stroke="#2F2A24" stroke-width="1.1"/>
+<line x1="190" y1="262" x2="190" y2="282" stroke="#2F2A24" stroke-width="1.1"/>
+<line x1="204" y1="262" x2="204" y2="282" stroke="#2F2A24" stroke-width="1.1"/>
+<line x1="164" y1="206" x2="164" y2="222" stroke="#A2503B" stroke-width="1.0" marker-end="url(#arrS)"/>
+<line x1="184" y1="206" x2="184" y2="222" stroke="#A2503B" stroke-width="1.0" marker-end="url(#arrS)"/>
+<line x1="204" y1="206" x2="204" y2="222" stroke="#A2503B" stroke-width="1.0" marker-end="url(#arrS)"/>
+<text x="176" y="239" font-size="4.4" fill="#A2503B" text-anchor="middle">饱</text>
+<text x="104" y="218" font-size="4.4" fill="#A2503B" text-anchor="middle">压</text>
+<text x="190" y="300" font-size="4.6" fill="#A2503B" text-anchor="middle">又撑又压，动弹不得：连话都不想说</text>
+<text x="24" y="334" font-size="4.8" fill="#4A5C55">二、出到崖外：那口气还喘得动</text>
+<rect x="26" y="346" width="328" height="140" fill="#FBF6EC" stroke="#DCCBB0" stroke-width="0.8"/>
+<line x1="34" y1="470" x2="346" y2="470" stroke="#2F2A24" stroke-width="1.1"/>
+<ellipse cx="156" cy="422" rx="30" ry="19" fill="#EFE6D4" stroke="#2F2A24" stroke-width="1.1"/>
+<circle cx="194" cy="402" r="9" fill="#EFE6D4" stroke="#2F2A24" stroke-width="1"/>
+<circle cx="200" cy="399" r="1.4" fill="#2F2A24" stroke="none"/>
+<line x1="140" y1="439" x2="140" y2="470" stroke="#2F2A24" stroke-width="1.1"/>
+<line x1="152" y1="439" x2="152" y2="470" stroke="#2F2A24" stroke-width="1.1"/>
+<line x1="166" y1="439" x2="166" y2="470" stroke="#2F2A24" stroke-width="1.1"/>
+<line x1="178" y1="439" x2="178" y2="470" stroke="#2F2A24" stroke-width="1.1"/>
+<path d="M204,406 Q224,398 240,390 Q258,382 276,384" fill="none" stroke="#4A5C55" stroke-width="1.0"/>
+<path d="M206,410 Q226,408 246,402 Q264,396 282,398" fill="none" stroke="#4A5C55" stroke-width="0.8" opacity="0.7"/>
+<text x="290" y="382" font-size="4.4" fill="#4A5C55" text-anchor="middle">一口气</text>
+<circle cx="286" cy="396" r="1.3" fill="#4A5C55" stroke="none" opacity="0.7"/>
+<circle cx="293" cy="399" r="1.3" fill="#4A5C55" stroke="none" opacity="0.7"/>
+<circle cx="300" cy="402" r="1.3" fill="#4A5C55" stroke="none" opacity="0.7"/>
+<text x="56" y="390" font-size="4.3" fill="#4A5C55">乐推：不是被挤上去</text>
+<text x="56" y="400" font-size="4.3" fill="#4A5C55">是自己愿意送他上去</text>
+<text x="190" y="496" font-size="4.6" fill="#4A5C55" text-anchor="middle">不厌：不觉得他压得慌，气还喘得动</text>
+<text x="24" y="516" font-size="4.8" fill="#2F2A24">厌不是情绪，是体感：一个上位者好不好，看底下人觉得轻不觉得轻。</text>
+<text x="24" y="532" font-size="4.8" fill="#2F2A24">乐推的推，《说文》「排也」——用手往外送：不是被挤上去，是自己愿意送上去。</text>
+<text x="24" y="550" font-size="5.0" fill="#4A5C55">不争不是打赢所有人，是对手不存在：他不拽那件东西。</text>
+<line x1="24" y1="566" x2="338" y2="566" stroke="#DCCBB0" stroke-width="0.6"/>
+<rect x="20" y="574" width="340" height="40" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="190" y="589" font-size="5.4" fill="#2F2A24" text-anchor="middle">厭从厂从猒，饱兽压崖；</text>
+<text x="190" y="602" font-size="4.9" fill="#4A5C55" text-anchor="middle">非嫌其人也，乃觉其沉。</text>
+<line x1="20" y1="628" x2="360" y2="628" stroke="#E6D8C2" stroke-width="0.8"/>
+<text x="20" y="642" font-size="8.0" fill="#A89577" letter-spacing="1">本 章 金 句</text>
+<text x="20" y="658" font-size="8.4" fill="#2F2A24">厭从厂从猒，饱兽压崖；非嫌其人也，乃觉其沉。</text>
+<text x="20" y="674" font-size="8.4" fill="#2F2A24">天下乐推而不厌：送上去，不觉得沉。</text>
+</svg>

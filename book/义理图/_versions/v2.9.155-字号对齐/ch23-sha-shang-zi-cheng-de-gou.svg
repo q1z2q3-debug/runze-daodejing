@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 380 774" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="自然不是没有秩序，是秩序自己长出来的" font-family="'Noto Serif CJK SC','Noto Serif SC','Songti SC',serif">
+<defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#6E6459"/></marker><marker id="arr2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#4A5C55"/></marker><marker id="arrL" viewBox="0 0 10 10" refX="1" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M10 0 L0 5 L10 10 z" fill="#4A5C55"/></marker><marker id="arrS" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#A2503B"/></marker></defs>
+<rect x="0" y="0" width="380" height="774" fill="#F8F3E6"/>
+<text x="20" y="26" font-size="11" fill="#A2503B" font-family="'Noto Sans CJK SC','Noto Sans SC',sans-serif" letter-spacing="3">第 二 十 三 章 · 希 言 自 然</text>
+<text x="20" y="58" font-size="21" fill="#2F2A24">沙上自成的沟</text>
+<text x="20" y="78" font-size="10.5" fill="#6E6459">希言自然。</text>
+<rect x="20" y="102" width="340" height="34" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="190" y="114" font-size="4.8" fill="#2F2A24" text-anchor="middle">希，稀也，少也：希言是少言、不滥施号令，不是闭口不言。</text>
+<text x="190" y="127" font-size="4.8" fill="#6E6459" text-anchor="middle">自然：自，自身；然，如是——不借外力而自如此，不是今语的「自然界」。</text>
+<rect x="26" y="150" width="328" height="176" fill="#FBF6EC" stroke="#DCCBB0" stroke-width="0.8"/>
+<path d="M56,220 Q90,214 120,220 Q170,212 214,220 Q270,214 324,220 L324,300 L56,300 Z" fill="#E9DFC7" stroke="#C9B79A" stroke-width="0.8"/>
+<circle cx="86" cy="280" r="1.0" fill="#C9B79A" opacity="0.9"/>
+<circle cx="132" cy="280" r="1.0" fill="#C9B79A" opacity="0.9"/>
+<circle cx="176" cy="280" r="1.0" fill="#C9B79A" opacity="0.9"/>
+<circle cx="222" cy="280" r="1.0" fill="#C9B79A" opacity="0.9"/>
+<circle cx="268" cy="280" r="1.0" fill="#C9B79A" opacity="0.9"/>
+<circle cx="300" cy="280" r="1.0" fill="#C9B79A" opacity="0.9"/>
+<circle cx="104" cy="246" r="0.9" fill="#C9B79A" opacity="0.8"/>
+<circle cx="156" cy="246" r="0.9" fill="#C9B79A" opacity="0.8"/>
+<circle cx="246" cy="246" r="0.9" fill="#C9B79A" opacity="0.8"/>
+<circle cx="292" cy="246" r="0.9" fill="#C9B79A" opacity="0.8"/>
+<line x1="186" y1="168" x2="186" y2="210" stroke="#AFCBC0" stroke-width="1.4"/>
+<line x1="194" y1="168" x2="194" y2="210" stroke="#AFCBC0" stroke-width="1.4"/>
+<line x1="182" y1="212" x2="176" y2="206" stroke="#AFCBC0" stroke-width="0.8"/>
+<line x1="198" y1="212" x2="204" y2="206" stroke="#AFCBC0" stroke-width="0.8"/>
+<path d="M188,214 Q182,234 168,250 Q158,262 150,274" fill="none" stroke="#AFCBC0" stroke-width="1.2"/>
+<path d="M192,214 Q200,236 214,250 Q228,262 236,272" fill="none" stroke="#AFCBC0" stroke-width="1.2"/>
+<path d="M184,216 Q172,240 156,254" fill="none" stroke="#AFCBC0" stroke-width="1.0"/>
+<path d="M196,216 Q210,242 224,256" fill="none" stroke="#AFCBC0" stroke-width="1.0"/>
+<ellipse cx="146" cy="278" rx="9" ry="2.6" fill="#CFE0D6" stroke="none"/>
+<ellipse cx="240" cy="276" rx="9" ry="2.6" fill="#CFE0D6" stroke="none"/>
+<ellipse cx="154" cy="256" rx="9" ry="2.6" fill="#CFE0D6" stroke="none"/>
+<ellipse cx="228" cy="258" rx="9" ry="2.6" fill="#CFE0D6" stroke="none"/>
+<text x="190" y="316" font-size="4.2" fill="#A2503B" text-anchor="middle">没人管，水也没有路：一落下来就四处走，走一路散一路。</text>
+<text x="24" y="339" font-size="5.0" fill="#A2503B">一、一段新沙：水落上去，四处乱淌</text>
+<rect x="26" y="352" width="328" height="208" fill="#FBF6EC" stroke="#DCCBB0" stroke-width="0.8"/>
+<path d="M56,418 Q90,412 120,418 Q170,410 214,418 Q270,412 324,418 L324,520 L56,520 Z" fill="#E9DFC7" stroke="#C9B79A" stroke-width="0.8"/>
+<circle cx="84" cy="502" r="1.0" fill="#C9B79A" opacity="0.9"/>
+<circle cx="124" cy="502" r="1.0" fill="#C9B79A" opacity="0.9"/>
+<circle cx="156" cy="502" r="1.0" fill="#C9B79A" opacity="0.9"/>
+<circle cx="232" cy="502" r="1.0" fill="#C9B79A" opacity="0.9"/>
+<circle cx="268" cy="502" r="1.0" fill="#C9B79A" opacity="0.9"/>
+<circle cx="302" cy="502" r="1.0" fill="#C9B79A" opacity="0.9"/>
+<path d="M180,414 C176,442 184,464 179,492 L201,492 C196,464 204,442 200,414 Z" fill="#D9CCAE" stroke="#B5A583" stroke-width="0.9"/>
+<path d="M184,420 C181,444 187,464 183,486 L197,486 C193,464 199,444 196,420 Z" fill="#CFE0D6" opacity="0.92" stroke="none"/>
+<line x1="186" y1="364" x2="186" y2="412" stroke="#AFCBC0" stroke-width="1.4"/>
+<line x1="194" y1="364" x2="194" y2="412" stroke="#AFCBC0" stroke-width="1.4"/>
+<path d="M190,424 Q186,452 190,470 Q192,482 189,488" fill="none" stroke="#F4FAF5" stroke-width="1.6"/>
+<ellipse cx="189" cy="490" rx="7" ry="2.2" fill="#CFE0D6" stroke="none"/>
+<text x="250" y="502" font-size="3.9" fill="#8A7C69">沟是水自己让出来的</text>
+<line x1="240" y1="498" x2="206" y2="480" stroke="#DCCBB0" stroke-width="0.6"/>
+<text x="190" y="542" font-size="4.2" fill="#4A5C55" text-anchor="middle">同一片沙，淌过几遍，沟就自己出来了：水顺着沟走，不再散。</text>
+<text x="24" y="573" font-size="5.0" fill="#4A5C55">二、同一片沙：沟不是挖的，是水自己淌出来的</text>
+<text x="24" y="590" font-size="4.9" fill="#2F2A24">「自然」不是「不管」，是「不需要管」：两件事的差别，全在有没有人在使劲。</text>
+<text x="24" y="606" font-size="4.9" fill="#2F2A24">希言也不是闭口：话说得少、说得准，说完就收，事就自己这样了。</text>
+<text x="24" y="624" font-size="4.9" fill="#4A5C55">放任是「不管」，自然是不必管——秩序自己长出来，用不着谁在旁边吆喝。</text>
+<line x1="24" y1="640" x2="338" y2="640" stroke="#DCCBB0" stroke-width="0.6"/>
+<rect x="20" y="648" width="340" height="40" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="190" y="664" font-size="5.4" fill="#2F2A24" text-anchor="middle">自然不是没有秩序，是秩序自己长出来的。</text>
+<text x="190" y="676" font-size="4.5" fill="#4A5C55" text-anchor="middle">希言者不争久，而自久。</text>
+<line x1="20" y1="702" x2="360" y2="702" stroke="#E6D8C2" stroke-width="0.8"/>
+<text x="20" y="716" font-size="8.0" fill="#A89577" letter-spacing="1">本 章 金 句</text>
+<text x="20" y="732" font-size="8.4" fill="#2F2A24">自然不是「不管」，是「不需要管」——差别全在有没有人在使劲。</text>
+<text x="20" y="748" font-size="8.4" fill="#2F2A24">信不足，不是话说得不够多，是话后面没有人。</text>
+</svg>

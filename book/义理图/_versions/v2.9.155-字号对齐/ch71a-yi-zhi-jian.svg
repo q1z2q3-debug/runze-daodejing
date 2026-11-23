@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 380 708" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="知从矢从口：箭出而中，报之于口；箭还在弦上，不叫知" font-family="'Noto Serif CJK SC','Noto Serif SC','Songti SC',serif">
+<defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#6E6459"/></marker><marker id="arr2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#4A5C55"/></marker><marker id="arrL" viewBox="0 0 10 10" refX="1" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M10 0 L0 5 L10 10 z" fill="#4A5C55"/></marker><marker id="arrS" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#A2503B"/></marker></defs>
+<rect x="0" y="0" width="380" height="708" fill="#F8F3E6"/>
+<text x="20" y="26" font-size="11" fill="#A2503B" font-family="'Noto Sans CJK SC','Noto Sans SC',sans-serif" letter-spacing="3">第 七 十 一 章 · 知</text>
+<text x="20" y="58" font-size="21" fill="#2F2A24">一支箭</text>
+<text x="20" y="78" font-size="10.5" fill="#6E6459">知不知，尚矣；不知知，病也。</text>
+<rect x="20" y="102" width="340" height="32" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="190" y="114" font-size="4.7" fill="#2F2A24" text-anchor="middle">「知」从矢从口：矢是箭，口是报靶的那个口——射中了，喊一声，才叫知。</text>
+<text x="190" y="127" font-size="4.7" fill="#6E6459" text-anchor="middle">所以知是「命中」这件事，不是一个揣在胸里的「有」。</text>
+<text x="24" y="150" font-size="4.8" fill="#A2503B">一、未出弦：箭在手，靶还没验</text>
+<rect x="26" y="162" width="328" height="140" fill="#FBF6EC" stroke="#DCCBB0" stroke-width="0.8"/>
+<path d="M78,190 Q110,228 78,266" fill="none" stroke="#2F2A24" stroke-width="1.3"/>
+<line x1="78" y1="190" x2="78" y2="266" stroke="#2F2A24" stroke-width="0.9" opacity="0.85"/>
+<line x1="60" y1="228" x2="158" y2="228" stroke="#2F2A24" stroke-width="1.2"/>
+<polygon points="158,228 148,224 148,232" fill="#2F2A24"/>
+<line x1="64" y1="222" x2="70" y2="228" stroke="#2F2A24" stroke-width="0.8"/>
+<line x1="64" y1="234" x2="70" y2="228" stroke="#2F2A24" stroke-width="0.8"/>
+<line x1="70" y1="222" x2="76" y2="228" stroke="#2F2A24" stroke-width="0.8"/>
+<line x1="70" y1="234" x2="76" y2="228" stroke="#2F2A24" stroke-width="0.8"/>
+<circle cx="290" cy="228" r="16" fill="none" stroke="#B9A98F" stroke-width="0.9" stroke-dasharray="3 3"/>
+<circle cx="290" cy="228" r="7" fill="none" stroke="#B9A98F" stroke-width="0.7" stroke-dasharray="3 3"/>
+<text x="290" y="258" font-size="4.2" fill="#6E6459" text-anchor="middle">靶还在远处</text>
+<text x="118" y="214" font-size="4.4" fill="#A2503B">箭搭在弦上</text>
+<text x="190" y="318" font-size="4.6" fill="#4A5C55" text-anchor="middle">没射出去的，是打算，不是知：靶还没说话</text>
+<text x="24" y="340" font-size="4.8" fill="#A2503B">二、已出弦：箭在靶上，这一下才叫知</text>
+<rect x="26" y="352" width="328" height="146" fill="#FBF6EC" stroke="#DCCBB0" stroke-width="0.8"/>
+<path d="M72,386 Q104,420 72,454" fill="none" stroke="#2F2A24" stroke-width="1.3"/>
+<line x1="72" y1="386" x2="72" y2="454" stroke="#2F2A24" stroke-width="0.9" opacity="0.85"/>
+<text x="84" y="454" font-size="4.2" fill="#6E6459">弦松了</text>
+<circle cx="264" cy="420" r="26" fill="#EFE6D4" stroke="#2F2A24" stroke-width="1.1"/>
+<circle cx="264" cy="420" r="17" fill="none" stroke="#2F2A24" stroke-width="0.8"/>
+<circle cx="264" cy="420" r="7" fill="#A2503B" fill-opacity="0.35" stroke="#A2503B" stroke-width="0.8"/>
+<line x1="196" y1="414" x2="260" y2="421" stroke="#2F2A24" stroke-width="1.3"/>
+<line x1="202" y1="408" x2="208" y2="414" stroke="#2F2A24" stroke-width="0.8"/>
+<line x1="202" y1="420" x2="208" y2="414" stroke="#2F2A24" stroke-width="0.8"/>
+<line x1="208" y1="408" x2="214" y2="414" stroke="#2F2A24" stroke-width="0.8"/>
+<line x1="208" y1="420" x2="214" y2="414" stroke="#2F2A24" stroke-width="0.8"/>
+<text x="264" y="460" font-size="4.4" fill="#2F2A24" text-anchor="middle">靶</text>
+<text x="150" y="398" font-size="4.4" fill="#A2503B">箭出而中</text>
+<text x="190" y="516" font-size="4.6" fill="#4A5C55" text-anchor="middle">射中了才知道中没中：知是箭与靶碰上的那一下，不是想出来的</text>
+<text x="24" y="532" font-size="4.8" fill="#2F2A24">所以「知不知」不是谦虚话：他知道自己这一箭偏了——偏在哪儿，也说得出来。</text>
+<text x="24" y="548" font-size="4.8" fill="#2F2A24">而「不知知」是另一回事：箭在靶外，他嘴上说中。</text>
+<text x="24" y="566" font-size="5.0" fill="#4A5C55">《说文》「病，疾加也」：疾是小病，病是加重了的——报错靶，是会加重的。</text>
+<line x1="24" y1="582" x2="338" y2="582" stroke="#DCCBB0" stroke-width="0.6"/>
+<rect x="20" y="590" width="340" height="40" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="190" y="605" font-size="5.4" fill="#2F2A24" text-anchor="middle">知从矢从口：箭出去，中了，才报得出口。</text>
+<text x="190" y="618" font-size="4.7" fill="#4A5C55" text-anchor="middle">胸中之知不必有靶；矢口之知，先得有一张靶。</text>
+<line x1="20" y1="644" x2="360" y2="644" stroke="#E6D8C2" stroke-width="0.8"/>
+<text x="20" y="658" font-size="8.0" fill="#A89577" letter-spacing="1">本 章 金 句</text>
+<text x="20" y="674" font-size="8.4" fill="#2F2A24">知不知，尚矣；不知知，病也。</text>
+<text x="20" y="690" font-size="8.4" fill="#2F2A24">知从矢从口：箭出而中，报之于口。</text>
+</svg>

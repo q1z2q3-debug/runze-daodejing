@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 380 742" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="两个从贝的字：一个算账，一个算反账" font-family="'Noto Serif CJK SC','Noto Serif SC','Songti SC',serif">
+<defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#6E6459"/></marker><marker id="arr2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#4A5C55"/></marker><marker id="arrL" viewBox="0 0 10 10" refX="1" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M10 0 L0 5 L10 10 z" fill="#4A5C55"/></marker><marker id="arrS" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#A2503B"/></marker></defs>
+<rect x="0" y="0" width="380" height="742" fill="#F8F3E6"/>
+<text x="20" y="26" font-size="11" fill="#A2503B" font-family="'Noto Sans CJK SC','Noto Sans SC',sans-serif" letter-spacing="3">第 七 十 五 章 · 贤</text>
+<text x="20" y="58" font-size="21" fill="#2F2A24">一杆秤</text>
+<text x="20" y="78" font-size="10.5" fill="#6E6459">夫唯无以生为者，是贤于贵生。</text>
+<rect x="20" y="102" width="340" height="32" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="190" y="114" font-size="4.7" fill="#2F2A24" text-anchor="middle">厚是加量，贵是抬价：贵从贝，贤也从贝。</text>
+<text x="190" y="127" font-size="4.7" fill="#6E6459" text-anchor="middle">老子用一个从贝的字，比较两种活法——在贝的字根上把账算反了。</text>
+<text x="24" y="150" font-size="4.8" fill="#A2503B">一、一头堆高，一头空落</text>
+<rect x="26" y="162" width="328" height="156" fill="#FBF6EC" stroke="#DCCBB0" stroke-width="0.8"/>
+<line x1="40" y1="274" x2="330" y2="274" stroke="#DCCBB0" stroke-width="0.8"/>
+<line x1="72" y1="248" x2="308" y2="218" stroke="#2F2A24" stroke-width="2.2"/>
+<polygon points="182,230 192,231 187,270" fill="#DED2B8" stroke="#2F2A24" stroke-width="1"/>
+<line x1="72" y1="248" x2="54" y2="258" stroke="#2F2A24" stroke-width="0.8"/>
+<line x1="72" y1="248" x2="90" y2="258" stroke="#2F2A24" stroke-width="0.8"/>
+<path d="M52,258 Q72,280 92,258" fill="#EFE6D4" stroke="#2F2A24" stroke-width="1"/>
+<rect x="60.0" y="258" width="24" height="9" fill="#DED2B8" stroke="#2F2A24" stroke-width="0.8"/>
+<rect x="62.0" y="248" width="20" height="9" fill="#DED2B8" stroke="#2F2A24" stroke-width="0.8"/>
+<rect x="64.0" y="238" width="16" height="9" fill="#DED2B8" stroke="#2F2A24" stroke-width="0.8"/>
+<text x="40" y="294" font-size="4.2" fill="#A2503B">求生之厚：往上堆</text>
+<line x1="308" y1="218" x2="292" y2="234" stroke="#2F2A24" stroke-width="0.8"/>
+<line x1="308" y1="218" x2="324" y2="234" stroke="#2F2A24" stroke-width="0.8"/>
+<path d="M290,234 Q308,256 326,234" fill="#EFE6D4" stroke="#2F2A24" stroke-width="1"/>
+<text x="308" y="270" font-size="4.2" fill="#6E6459" text-anchor="middle">民之飢：空下去</text>
+<text x="190" y="334" font-size="4.6" fill="#4A5C55" text-anchor="middle">堆高其一端，空落其另一端：肥与飢，一豕之两头</text>
+<text x="24" y="358" font-size="4.8" fill="#4A5C55">二、同一杆秤，反过来称一次</text>
+<rect x="26" y="370" width="328" height="156" fill="#FBF6EC" stroke="#DCCBB0" stroke-width="0.8"/>
+<line x1="40" y1="486" x2="330" y2="486" stroke="#DCCBB0" stroke-width="0.8"/>
+<line x1="72" y1="458" x2="308" y2="428" stroke="#2F2A24" stroke-width="2.2"/>
+<polygon points="182,440 192,441 187,480" fill="#DED2B8" stroke="#2F2A24" stroke-width="1"/>
+<line x1="72" y1="458" x2="54" y2="468" stroke="#2F2A24" stroke-width="0.8"/>
+<line x1="72" y1="458" x2="90" y2="468" stroke="#2F2A24" stroke-width="0.8"/>
+<path d="M52,468 Q72,490 92,468" fill="#EFE6D4" stroke="#2F2A24" stroke-width="1"/>
+<text x="40" y="508" font-size="4.2" fill="#4A5C55">无以生为：空着</text>
+<line x1="308" y1="428" x2="292" y2="444" stroke="#2F2A24" stroke-width="0.8"/>
+<line x1="308" y1="428" x2="324" y2="444" stroke="#2F2A24" stroke-width="0.8"/>
+<path d="M290,444 Q308,466 326,444" fill="#EFE6D4" stroke="#2F2A24" stroke-width="1"/>
+<rect x="296" y="430" width="24" height="15" fill="#EFE6D4" stroke="#A2503B" stroke-width="0.9"/>
+<circle cx="303" cy="435" r="1.6" fill="none" stroke="#A2503B" stroke-width="0.6"/>
+<text x="308" y="480" font-size="4.2" fill="#A2503B" text-anchor="middle">贵生：给命标价</text>
+<text x="190" y="510" font-size="4.4" fill="#4A5C55" text-anchor="middle">贤：从贝而作「胜」用——空的那头，胜了</text>
+<text x="190" y="542" font-size="4.6" fill="#4A5C55" text-anchor="middle">不反对活，反对把活当成一桩事业</text>
+<text x="24" y="566" font-size="4.8" fill="#2F2A24">「无以生为」不是不要活，是不拿「生」当一件事去经营：活着是自然，经营活是项目。</text>
+<text x="24" y="582" font-size="4.8" fill="#2F2A24">所以这一句不劝人饿着，也不劝人轻生——它反对的是「厚」，不是「生」。</text>
+<text x="24" y="600" font-size="5.0" fill="#4A5C55">于贝之字根上，算了一笔反账。</text>
+<line x1="24" y1="618" x2="338" y2="618" stroke="#DCCBB0" stroke-width="0.6"/>
+<rect x="20" y="626" width="340" height="40" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="190" y="641" font-size="5.4" fill="#2F2A24" text-anchor="middle">夫唯无以生为者，是贤于贵生。</text>
+<text x="190" y="654" font-size="4.7" fill="#4A5C55" text-anchor="middle">生者自然也，为生者项目也。</text>
+<line x1="20" y1="682" x2="360" y2="682" stroke="#E6D8C2" stroke-width="0.8"/>
+<text x="20" y="696" font-size="8.0" fill="#A89577" letter-spacing="1">本 章 金 句</text>
+<text x="20" y="712" font-size="8.4" fill="#2F2A24">夫唯无以生为者，是贤于贵生。</text>
+<text x="20" y="728" font-size="8.4" fill="#2F2A24">贤者，《说文》曰「多才也」，从贝——本与财相关。</text>
+</svg>

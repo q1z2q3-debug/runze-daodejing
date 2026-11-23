@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 380 726" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="斧断的那一下，账不从天上收，从手上收" font-family="'Noto Serif CJK SC','Noto Serif SC','Songti SC',serif">
+<defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#6E6459"/></marker><marker id="arr2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#4A5C55"/></marker><marker id="arrL" viewBox="0 0 10 10" refX="1" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M10 0 L0 5 L10 10 z" fill="#4A5C55"/></marker><marker id="arrS" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#A2503B"/></marker></defs>
+<rect x="0" y="0" width="380" height="726" fill="#F8F3E6"/>
+<text x="20" y="26" font-size="11" fill="#A2503B" font-family="'Noto Sans CJK SC','Noto Sans SC',sans-serif" letter-spacing="3">第 七 十 四 章 · 手</text>
+<text x="20" y="58" font-size="21" fill="#2F2A24">一只被斫的手</text>
+<text x="20" y="78" font-size="10.5" fill="#6E6459">希有不伤其手矣。</text>
+<rect x="20" y="102" width="340" height="32" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="190" y="114" font-size="4.7" fill="#2F2A24" text-anchor="middle">「伤其手」——这一章把账算在手上：不是天来罚，是斧自己回头。</text>
+<text x="190" y="127" font-size="4.7" fill="#6E6459" text-anchor="middle">不曰「必伤」，曰「希有不伤」：全书最不留余地的一句。</text>
+<text x="24" y="150" font-size="4.8" fill="#A2503B">一、斧落偏了：刃回头，落在握斧的手上</text>
+<rect x="26" y="162" width="328" height="150" fill="#FBF6EC" stroke="#DCCBB0" stroke-width="0.8"/>
+<rect x="112" y="262" width="140" height="30" fill="#EFE6D4" stroke="#2F2A24" stroke-width="1"/>
+<line x1="112" y1="262" x2="252" y2="262" stroke="#2F2A24" stroke-width="1.4"/>
+<line x1="154" y1="208" x2="152" y2="258" stroke="#2F2A24" stroke-width="1.6"/>
+<path d="M149,250 L166,252 L172,266 L162,275 L145,270 Z" fill="#DED2B8" stroke="#2F2A24" stroke-width="1"/>
+<line x1="145" y1="270" x2="162" y2="275" stroke="#2F2A24" stroke-width="1.2"/>
+<line x1="112" y1="208" x2="134" y2="208" stroke="#2F2A24" stroke-width="1"/>
+<rect x="132" y="196" width="42" height="24" rx="9" fill="#EFE6D4" stroke="#2F2A24" stroke-width="1"/>
+<line x1="142" y1="218" x2="141" y2="226" stroke="#2F2A24" stroke-width="0.7"/>
+<line x1="153" y1="218" x2="152" y2="226" stroke="#2F2A24" stroke-width="0.7"/>
+<line x1="164" y1="218" x2="163" y2="226" stroke="#2F2A24" stroke-width="0.7"/>
+<path d="M152,278 Q196,278 188,240 Q182,218 164,210" fill="none" stroke="#A2503B" stroke-width="1.1" stroke-dasharray="4 3"/>
+<polygon points="164,206 172,214 160,218" fill="#A2503B"/>
+<line x1="148" y1="204" x2="159" y2="209" stroke="#A2503B" stroke-width="2"/>
+<text x="200" y="242" font-size="4.2" fill="#A2503B">刃回头</text>
+<text x="190" y="330" font-size="4.6" fill="#4A5C55" text-anchor="middle">砍不准的那一下，斧不认人：哪里近，就回哪里</text>
+<text x="24" y="352" font-size="4.8" fill="#4A5C55">二、账在手上：一道口子，收也收不回去</text>
+<rect x="26" y="364" width="328" height="152" fill="#FBF6EC" stroke="#DCCBB0" stroke-width="0.8"/>
+<rect x="144" y="418" width="58" height="46" rx="7" fill="#EFE6D4" stroke="#2F2A24" stroke-width="1"/>
+<rect x="148" y="388" width="9" height="34" rx="4" fill="#EFE6D4" stroke="#2F2A24" stroke-width="1"/>
+<rect x="161" y="388" width="9" height="34" rx="4" fill="#EFE6D4" stroke="#2F2A24" stroke-width="1"/>
+<rect x="174" y="388" width="9" height="34" rx="4" fill="#EFE6D4" stroke="#2F2A24" stroke-width="1"/>
+<rect x="187" y="388" width="9" height="34" rx="4" fill="#EFE6D4" stroke="#2F2A24" stroke-width="1"/>
+<ellipse cx="140" cy="430" rx="15" ry="7" fill="#EFE6D4" stroke="#2F2A24" stroke-width="1" transform="rotate(-26 140 430)"/>
+<line x1="152" y1="426" x2="190" y2="454" stroke="#A2503B" stroke-width="1.8"/>
+<circle cx="161" cy="434" r="1.8" fill="#A2503B"/>
+<circle cx="182" cy="448" r="1.5" fill="#A2503B"/>
+<text x="212" y="424" font-size="4.3" fill="#A2503B">这道口子</text>
+<text x="212" y="436" font-size="4.3" fill="#6E6459">是自己的账</text>
+<path d="M80,484 Q190,466 300,484" fill="none" stroke="#B9A98F" stroke-width="0.9" stroke-dasharray="4 3"/>
+<text x="190" y="500" font-size="4.4" fill="#6E6459" text-anchor="middle">天不与你争这把斧：它只让斧落在你手上</text>
+<text x="190" y="534" font-size="4.6" fill="#4A5C55" text-anchor="middle">伤不在天上记，在手上记：这就是「希有不伤」的分量</text>
+<text x="24" y="552" font-size="4.8" fill="#2F2A24">「希」不是「少」，是「稀」；稀者疏也：上一章的疏在天为不漏，这里的疏在人必伤。</text>
+<text x="24" y="568" font-size="4.8" fill="#2F2A24">所以这一句不说「必伤」，说「希有不伤」——留的那一点余地，是留给匠人的。</text>
+<text x="24" y="586" font-size="5.0" fill="#4A5C55">代班的人没有那七日，斧就先替天把账记在他手上。</text>
+<line x1="24" y1="604" x2="338" y2="604" stroke="#DCCBB0" stroke-width="0.6"/>
+<rect x="20" y="612" width="340" height="40" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="190" y="627" font-size="5.4" fill="#2F2A24" text-anchor="middle">夫代大匠斫者，希有不伤其手矣。</text>
+<text x="190" y="640" font-size="4.7" fill="#4A5C55" text-anchor="middle">斧不认人，账认手。</text>
+<line x1="20" y1="668" x2="360" y2="668" stroke="#E6D8C2" stroke-width="0.8"/>
+<text x="20" y="682" font-size="8.0" fill="#A89577" letter-spacing="1">本 章 金 句</text>
+<text x="20" y="698" font-size="8.4" fill="#2F2A24">夫代大匠斫者，希有不伤其手矣。</text>
+<text x="20" y="714" font-size="8.4" fill="#2F2A24">希者，稀也，稀者疏也；</text>
+</svg>

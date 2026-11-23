@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 380 568" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="祸兮福之所倚：倚是靠着，伏是藏着——它们不是排队，是背贴背" font-family="'Noto Serif CJK SC','Noto Serif SC','Songti SC',serif">
+<defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#6E6459"/></marker><marker id="arr2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#4A5C55"/></marker><marker id="arrL" viewBox="0 0 10 10" refX="1" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M10 0 L0 5 L10 10 z" fill="#4A5C55"/></marker><marker id="arrS" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#A2503B"/></marker></defs>
+<rect x="0" y="0" width="380" height="568" fill="#F8F3E6"/>
+<text x="20" y="26" font-size="11" fill="#A2503B" font-family="'Noto Sans CJK SC','Noto Sans SC',sans-serif" letter-spacing="3">第 五 十 八 章 · 倚伏</text>
+<text x="20" y="58" font-size="21" fill="#2F2A24">一张折纸</text>
+<text x="20" y="78" font-size="10.5" fill="#6E6459">祸兮，福之所倚；福兮，祸之所伏。</text>
+<rect x="20" y="102" width="340" height="30" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="190" y="114" font-size="5.0" fill="#2F2A24" text-anchor="middle">「倚」是靠、是贴；「伏」是藏、是底下那面——一张纸的两面，本来就是同一张。</text>
+<text x="190" y="126" font-size="5.2" fill="#6E6459" text-anchor="middle">所以不是祸完了才轮到福，是福在身上就一直贴着祸。</text>
+<rect x="114" y="192" width="64" height="108" fill="#EFE6D4" stroke="#2F2A24" stroke-width="1"/>
+<path d="M178,192 L242,192 L242,272 L216,300 L178,300 Z" fill="#F2EADA" stroke="#A2503B" stroke-width="1" stroke-dasharray="4 3"/>
+<line x1="178" y1="192" x2="178" y2="300" stroke="#E6D8C2" stroke-width="0.8"/>
+<text x="146" y="256" font-size="22" fill="#2F2A24" text-anchor="middle">福</text>
+<text x="212" y="260" font-size="18" fill="#A2503B" text-anchor="middle">祸</text>
+<text x="146" y="180" font-size="4.6" fill="#2F2A24" text-anchor="middle">上面这面</text>
+<text x="212" y="180" font-size="4.6" fill="#A2503B" text-anchor="middle">底下那面</text>
+<line x1="256" y1="292" x2="238" y2="276" stroke="#A2503B" stroke-width="0.8" marker-end="url(#arrS)"/>
+<text x="260" y="298" font-size="4.6" fill="#A2503B">翻过来：</text>
+<text x="260" y="309" font-size="4.6" fill="#A2503B">不用通知</text>
+<text x="178" y="324" font-size="4.6" fill="#6E6459" text-anchor="middle">折线不是界限：同一张纸，只是折了一下</text>
+<text x="24" y="352" font-size="4.8" fill="#2F2A24">「祸兮福之所倚」：倚不是「等着」，是靠、是贴——祸来的时候，福已经在它背后靠着。</text>
+<text x="24" y="368" font-size="4.8" fill="#2F2A24">「福兮祸之所伏」：伏不是「埋伏」，是藏在底下那一面，翻手就到。</text>
+<text x="24" y="384" font-size="5.0" fill="#4A5C55">所以换的时候不用通知：不是排队，是同一张纸的两面。</text>
+<line x1="24" y1="402" x2="338" y2="402" stroke="#DCCBB0" stroke-width="0.6"/>
+<rect x="20" y="410" width="340" height="40" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="190" y="426" font-size="5.8" fill="#2F2A24" text-anchor="middle">祸不是等在福后面，是靠在福身上；</text>
+<text x="190" y="438" font-size="5.4" fill="#4A5C55" text-anchor="middle">它们一直贴着，所以换的时候不用通知。</text>
+<line x1="20" y1="464" x2="360" y2="464" stroke="#E6D8C2" stroke-width="0.8"/>
+<text x="20" y="478" font-size="8.0" fill="#A89577" letter-spacing="1">本 章 金 句</text>
+<text x="20" y="494" font-size="8.4" fill="#2F2A24">祸不是等在福后面，是靠在福身上；它们一直贴着，所以换的时候不用通知。</text>
+</svg>

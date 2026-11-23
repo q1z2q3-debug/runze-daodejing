@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 380 754" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="后其身而身先：不是让出位置，是先让开门口" font-family="'Noto Serif CJK SC','Noto Serif SC','Songti SC',serif">
+<defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#6E6459"/></marker><marker id="arr2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#4A5C55"/></marker><marker id="arrL" viewBox="0 0 10 10" refX="1" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M10 0 L0 5 L10 10 z" fill="#4A5C55"/></marker><marker id="arrS" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#A2503B"/></marker></defs>
+<rect x="0" y="0" width="380" height="754" fill="#F8F3E6"/>
+<text x="20" y="26" font-size="11" fill="#A2503B" font-family="'Noto Sans CJK SC','Noto Sans SC',sans-serif" letter-spacing="3">第 七 章 · 窄 门</text>
+<text x="20" y="58" font-size="21" fill="#2F2A24">一扇窄门</text>
+<text x="20" y="78" font-size="10.5" fill="#6E6459">是以圣人后其身而身先，外其身而身存。</text>
+<rect x="20" y="102" width="340" height="34" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="190" y="114" font-size="5.0" fill="#2F2A24" text-anchor="middle">窄门只容一人：两头同时挤，谁也过不去。</text>
+<text x="190" y="128" font-size="5.0" fill="#6E6459" text-anchor="middle">后其身不是退到队尾等着后来居上，是先把门口让开——这一让，两个人都过去了。</text>
+<text x="24" y="152" font-size="5.2" fill="#A2503B">一、挤：两头同时抢，门卡住了</text>
+<rect x="26" y="164" width="328" height="168" fill="#FBF6EC" stroke="#DCCBB0" stroke-width="0.8"/>
+<rect x="160" y="204" width="9" height="88" fill="#E4D8BF" stroke="#2F2A24" stroke-width="0.9"/><rect x="211" y="204" width="9" height="88" fill="#E4D8BF" stroke="#2F2A24" stroke-width="0.9"/><line x1="160" y1="204" x2="220" y2="204" stroke="#2F2A24" stroke-width="1.6"/><line x1="169" y1="204" x2="169" y2="292" stroke="#2F2A24" stroke-width="0.7" stroke-dasharray="3 3"/><line x1="202" y1="204" x2="202" y2="292" stroke="#2F2A24" stroke-width="0.7" stroke-dasharray="3 3"/>
+<line x1="169" y1="204" x2="169" y2="292" stroke="#A2503B" stroke-width="1.6"/>
+<line x1="202" y1="204" x2="202" y2="292" stroke="#A2503B" stroke-width="1.6"/>
+<rect x="169" y="256" width="16" height="13" rx="4" fill="#EFE6D4" stroke="#A2503B" stroke-width="0.9"/>
+<rect x="170" y="248" width="3.4" height="9" rx="1.6" fill="#EFE6D4" stroke="#A2503B" stroke-width="0.7"/>
+<rect x="175" y="248" width="3.4" height="9" rx="1.6" fill="#EFE6D4" stroke="#A2503B" stroke-width="0.7"/>
+<rect x="180" y="248" width="3.4" height="9" rx="1.6" fill="#EFE6D4" stroke="#A2503B" stroke-width="0.7"/>
+<rect x="186" y="256" width="16" height="13" rx="4" fill="#EFE6D4" stroke="#A2503B" stroke-width="0.9"/>
+<rect x="187" y="248" width="3.4" height="9" rx="1.6" fill="#EFE6D4" stroke="#A2503B" stroke-width="0.7"/>
+<rect x="192" y="248" width="3.4" height="9" rx="1.6" fill="#EFE6D4" stroke="#A2503B" stroke-width="0.7"/>
+<rect x="197" y="248" width="3.4" height="9" rx="1.6" fill="#EFE6D4" stroke="#A2503B" stroke-width="0.7"/>
+<line x1="185.5" y1="246" x2="185.5" y2="270" stroke="#A2503B" stroke-width="1.2"/>
+<line x1="116" y1="230" x2="170" y2="264" stroke="#A2503B" stroke-width="0.9" marker-end="url(#arrS)"/>
+<line x1="264" y1="230" x2="202" y2="264" stroke="#A2503B" stroke-width="0.9" marker-end="url(#arrS)"/>
+<text x="190" y="314" font-size="4.5" fill="#A2503B" text-anchor="middle">门只有一扇的宽：两人同时抓，谁也进不去</text>
+<text x="24" y="360" font-size="5.2" fill="#4A5C55">二、让：一人先松手，两个人都过去了</text>
+<rect x="26" y="372" width="328" height="168" fill="#FBF6EC" stroke="#DCCBB0" stroke-width="0.8"/>
+<rect x="160" y="412" width="9" height="88" fill="#E4D8BF" stroke="#2F2A24" stroke-width="0.9"/><rect x="211" y="412" width="9" height="88" fill="#E4D8BF" stroke="#2F2A24" stroke-width="0.9"/><line x1="160" y1="412" x2="220" y2="412" stroke="#2F2A24" stroke-width="1.6"/><line x1="169" y1="412" x2="169" y2="500" stroke="#2F2A24" stroke-width="0.7" stroke-dasharray="3 3"/><line x1="202" y1="412" x2="202" y2="500" stroke="#2F2A24" stroke-width="0.7" stroke-dasharray="3 3"/>
+<path d="M130,500 q-16,4 -20,-12 q-3,-14 12,-16" fill="none" stroke="#4A5C55" stroke-width="1.0" marker-end="url(#arr2)"/>
+<text x="138" y="508" font-size="4.4" fill="#4A5C55" text-anchor="middle">退半步</text>
+<line x1="90" y1="462" x2="264" y2="462" stroke="#4A5C55" stroke-width="1.1" marker-end="url(#arr2)"/>
+<text x="294" y="454" font-size="4.4" fill="#4A5C55" text-anchor="middle">先过</text>
+<line x1="90" y1="484" x2="236" y2="484" stroke="#4A5C55" stroke-width="1.0" marker-end="url(#arr2)"/>
+<text x="294" y="480" font-size="4.4" fill="#4A5C55" text-anchor="middle">跟上</text>
+<text x="190" y="522" font-size="4.5" fill="#4A5C55" text-anchor="middle">让开的不是位置，是门口：一让，路就通了</text>
+<text x="24" y="568" font-size="5.4" fill="#2F2A24">「后其身」不是装出一副退让的样子、心里等着后来居上——那是另一种抢。</text>
+<text x="24" y="584" font-size="5.4" fill="#2F2A24">它说的是放下「我要争先、我要凸显」的那只手；手一松，门口就通了。</text>
+<text x="24" y="602" font-size="5.2" fill="#4A5C55">这个「先」不是争来的，是人心自归的：争来的位置要守，推上来的位置不必守。</text>
+<line x1="24" y1="620" x2="338" y2="620" stroke="#DCCBB0" stroke-width="0.6"/>
+<rect x="20" y="628" width="340" height="40" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="190" y="644" font-size="6.0" fill="#2F2A24" text-anchor="middle">退不是姿态，是把手松开；</text>
+<text x="190" y="656" font-size="6.0" fill="#4A5C55" text-anchor="middle">松开了，位置在哪，看势。</text>
+<line x1="20" y1="682" x2="360" y2="682" stroke="#E6D8C2" stroke-width="0.8"/>
+<text x="20" y="696" font-size="8.0" fill="#A89577" letter-spacing="1">本 章 金 句</text>
+<text x="20" y="712" font-size="8.4" fill="#2F2A24">是以圣人后其身而身先，外其身而身存。</text>
+<text x="20" y="728" font-size="8.4" fill="#2F2A24">先不是争来的，是人心自归的；退不是姿态，是把手松开。</text>
+</svg>

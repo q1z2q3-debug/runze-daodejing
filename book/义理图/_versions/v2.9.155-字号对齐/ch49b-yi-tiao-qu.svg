@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 380 762" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="百姓把耳目当灌渠往外灌，圣人把渠口收一寸" font-family="'Noto Serif CJK SC','Noto Serif SC','Songti SC',serif">
+<defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#6E6459"/></marker><marker id="arr2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#4A5C55"/></marker><marker id="arrL" viewBox="0 0 10 10" refX="1" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M10 0 L0 5 L10 10 z" fill="#4A5C55"/></marker><marker id="arrS" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#A2503B"/></marker></defs>
+<rect x="0" y="0" width="380" height="762" fill="#F8F3E6"/>
+<text x="20" y="26" font-size="11" fill="#A2503B" font-family="'Noto Sans CJK SC','Noto Sans SC',sans-serif" letter-spacing="3">第 四 十 九 章 · 渠</text>
+<text x="20" y="58" font-size="21" fill="#2F2A24">一条渠</text>
+<text x="20" y="78" font-size="10.5" fill="#6E6459">歙歙焉，为天下浑其心。</text>
+<rect x="20" y="102" width="340" height="32" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="190" y="114" font-size="5.0" fill="#2F2A24" text-anchor="middle">「注」，《说文》「灌也」——水往一处灌；「歙」，「缩鼻也」——鼻子往里一缩。</text>
+<text x="190" y="127" font-size="5.0" fill="#6E6459" text-anchor="middle">全章的对位就在这一出一入：往外灌的是耳目，往里收的是那口气。</text>
+<text x="24" y="150" font-size="5.2" fill="#A2503B">一、注：耳目两条渠，口都朝外</text>
+<rect x="26" y="162" width="328" height="168" fill="#FBF6EC" stroke="#DCCBB0" stroke-width="0.8"/>
+<line x1="40" y1="292" x2="330" y2="292" stroke="#2F2A24" stroke-width="1"/>
+<circle cx="74" cy="228" r="19" fill="none" stroke="#2F2A24" stroke-width="1.1"/>
+<circle cx="67.5" cy="224" r="1.6" fill="#2F2A24"/>
+<circle cx="80.5" cy="224" r="1.6" fill="#2F2A24"/>
+<text x="74" y="201" font-size="4.6" fill="#6E6459" text-anchor="middle">百姓</text>
+<line x1="96" y1="206" x2="300" y2="206" stroke="#2F2A24" stroke-width="1.1"/>
+<line x1="96" y1="228" x2="300" y2="228" stroke="#2F2A24" stroke-width="1.1"/>
+<rect x="99" y="218" width="198" height="7" fill="#4A5C55" opacity="0.35"/>
+<path d="M102,218 h192" stroke="#4A5C55" stroke-width="0.8"/>
+<line x1="126" y1="221" x2="152" y2="221" stroke="#A2503B" stroke-width="0.7" marker-end="url(#arrS)"/>
+<line x1="170" y1="221" x2="196" y2="221" stroke="#A2503B" stroke-width="0.7" marker-end="url(#arrS)"/>
+<line x1="214" y1="221" x2="240" y2="221" stroke="#A2503B" stroke-width="0.7" marker-end="url(#arrS)"/>
+<line x1="258" y1="221" x2="284" y2="221" stroke="#A2503B" stroke-width="0.7" marker-end="url(#arrS)"/>
+<line x1="96" y1="250" x2="300" y2="250" stroke="#2F2A24" stroke-width="1.1"/>
+<line x1="96" y1="272" x2="300" y2="272" stroke="#2F2A24" stroke-width="1.1"/>
+<rect x="99" y="262" width="198" height="7" fill="#4A5C55" opacity="0.35"/>
+<path d="M102,262 h192" stroke="#4A5C55" stroke-width="0.8"/>
+<line x1="126" y1="265" x2="152" y2="265" stroke="#A2503B" stroke-width="0.7" marker-end="url(#arrS)"/>
+<line x1="170" y1="265" x2="196" y2="265" stroke="#A2503B" stroke-width="0.7" marker-end="url(#arrS)"/>
+<line x1="214" y1="265" x2="240" y2="265" stroke="#A2503B" stroke-width="0.7" marker-end="url(#arrS)"/>
+<line x1="258" y1="265" x2="284" y2="265" stroke="#A2503B" stroke-width="0.7" marker-end="url(#arrS)"/>
+<circle cx="306" cy="240" r="1.9" fill="#A2503B" opacity="0.5"/>
+<circle cx="312" cy="247" r="1.9" fill="#A2503B" opacity="0.5"/>
+<circle cx="318" cy="254" r="1.9" fill="#A2503B" opacity="0.5"/>
+<text x="150" y="198" font-size="4.2" fill="#6E6459">眼睛一条渠</text>
+<text x="150" y="288" font-size="4.2" fill="#6E6459">耳朵一条渠</text>
+<text x="302" y="202" font-size="4.2" fill="#A2503B">口朝外</text>
+<text x="190" y="318" font-size="4.5" fill="#4A5C55" text-anchor="middle">看见什么、听见什么，心就在哪儿：水一开就关不上</text>
+<text x="190" y="346" font-size="4.6" fill="#4A5C55" text-anchor="middle">百姓把耳目当灌渠，往外灌</text>
+<text x="24" y="370" font-size="5.2" fill="#4A5C55">二、歙：把口收一寸，不堵死</text>
+<rect x="26" y="382" width="328" height="168" fill="#FBF6EC" stroke="#DCCBB0" stroke-width="0.8"/>
+<line x1="40" y1="512" x2="330" y2="512" stroke="#2F2A24" stroke-width="1"/>
+<circle cx="74" cy="448" r="19" fill="none" stroke="#2F2A24" stroke-width="1.1"/>
+<circle cx="67.5" cy="444" r="1.6" fill="#2F2A24"/>
+<circle cx="80.5" cy="444" r="1.6" fill="#2F2A24"/>
+<text x="74" y="421" font-size="4.6" fill="#6E6459" text-anchor="middle">圣人</text>
+<line x1="96" y1="426" x2="292" y2="426" stroke="#2F2A24" stroke-width="1.1"/>
+<line x1="96" y1="448" x2="292" y2="448" stroke="#2F2A24" stroke-width="1.1"/>
+<rect x="99" y="438" width="190" height="7" fill="#4A5C55" opacity="0.35"/>
+<path d="M102,438 h184" stroke="#4A5C55" stroke-width="0.8"/>
+<line x1="252" y1="441" x2="226" y2="441" stroke="#4A5C55" stroke-width="0.7" marker-end="url(#arr2)"/>
+<line x1="206" y1="441" x2="180" y2="441" stroke="#4A5C55" stroke-width="0.7" marker-end="url(#arr2)"/>
+<line x1="160" y1="441" x2="134" y2="441" stroke="#4A5C55" stroke-width="0.7" marker-end="url(#arr2)"/>
+<line x1="292" y1="424" x2="292" y2="450" stroke="#A2503B" stroke-width="1.6"/>
+<line x1="284" y1="426" x2="284" y2="448" stroke="#A2503B" stroke-width="1"/>
+<line x1="96" y1="470" x2="292" y2="470" stroke="#2F2A24" stroke-width="1.1"/>
+<line x1="96" y1="492" x2="292" y2="492" stroke="#2F2A24" stroke-width="1.1"/>
+<rect x="99" y="482" width="190" height="7" fill="#4A5C55" opacity="0.35"/>
+<path d="M102,482 h184" stroke="#4A5C55" stroke-width="0.8"/>
+<line x1="252" y1="485" x2="226" y2="485" stroke="#4A5C55" stroke-width="0.7" marker-end="url(#arr2)"/>
+<line x1="206" y1="485" x2="180" y2="485" stroke="#4A5C55" stroke-width="0.7" marker-end="url(#arr2)"/>
+<line x1="160" y1="485" x2="134" y2="485" stroke="#4A5C55" stroke-width="0.7" marker-end="url(#arr2)"/>
+<line x1="292" y1="468" x2="292" y2="494" stroke="#A2503B" stroke-width="1.6"/>
+<line x1="284" y1="470" x2="284" y2="492" stroke="#A2503B" stroke-width="1"/>
+<text x="296" y="418" font-size="4.2" fill="#A2503B">口收窄</text>
+<text x="190" y="538" font-size="4.4" fill="#4A5C55" text-anchor="middle">收住不是堵死：堵死是「防民之口」，收住是自己不往外灌</text>
+<text x="190" y="566" font-size="4.6" fill="#4A5C55" text-anchor="middle">圣人做的事，是把灌口往回收一寸</text>
+<text x="24" y="590" font-size="5.4" fill="#2F2A24">大家都往外灌，就没人吸；没人吸，那个场就干了。</text>
+<text x="24" y="606" font-size="5.4" fill="#2F2A24">注是结构，不是罪状：眼睛看什么，心就在哪儿。</text>
+<text x="24" y="624" font-size="5.2" fill="#4A5C55">所以圣人第一件事不是多说，是把灌口往回收一寸。</text>
+<line x1="24" y1="642" x2="338" y2="642" stroke="#DCCBB0" stroke-width="0.6"/>
+<rect x="20" y="650" width="340" height="40" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="190" y="666" font-size="6.0" fill="#2F2A24" text-anchor="middle">「歙」是吸，「注」是灌；</text>
+<text x="190" y="678" font-size="6.0" fill="#4A5C55" text-anchor="middle">一个往里收，一个往外倒。</text>
+<line x1="20" y1="704" x2="360" y2="704" stroke="#E6D8C2" stroke-width="0.8"/>
+<text x="20" y="718" font-size="8.0" fill="#A89577" letter-spacing="1">本 章 金 句</text>
+<text x="20" y="734" font-size="8.4" fill="#2F2A24">「歙」是吸，「注」是灌；一个往里收，一个往外倒。</text>
+</svg>

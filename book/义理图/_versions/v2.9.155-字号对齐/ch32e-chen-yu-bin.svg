@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 380 698" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="同一个位置，一个字换过来，跪着的就成了客" font-family="'Noto Serif CJK SC','Noto Serif SC','Songti SC',serif">
+<defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#6E6459"/></marker><marker id="arr2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#4A5C55"/></marker><marker id="arrL" viewBox="0 0 10 10" refX="1" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M10 0 L0 5 L10 10 z" fill="#4A5C55"/></marker><marker id="arrS" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#A2503B"/></marker></defs>
+<rect x="0" y="0" width="380" height="698" fill="#F8F3E6"/>
+<text x="20" y="26" font-size="11" fill="#A2503B" font-family="'Noto Sans CJK SC','Noto Sans SC',sans-serif" letter-spacing="3">第 三 十 二 章 · 臣 宾（补图）</text>
+<text x="20" y="58" font-size="21" fill="#2F2A24">臣 与 宾</text>
+<text x="20" y="78" font-size="10.5" fill="#6E6459">侯王若能守之，万物将自宾。</text>
+<rect x="20" y="102" width="340" height="34" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="190" y="114" font-size="4.6" fill="#2F2A24" text-anchor="middle">「臣」，《说文》「牵也，事君也，象屈服之形」；「宾」，《说文》「所敬也」——宾是客，不是仆。</text>
+<text x="190" y="127" font-size="4.6" fill="#6E6459">帛书作「天下弗敢臣」，多一个「敢」字：不是不能，是不敢。</text>
+<text x="24" y="152" font-size="5.1" fill="#4A5C55">一、臣：被牵着走的那个</text>
+<rect x="26" y="164" width="328" height="150" fill="#FBF6EC" stroke="#DCCBB0" stroke-width="1.0"/>
+<line x1="40" y1="286" x2="340" y2="286" stroke="#2F2A24" stroke-width="0.9"/>
+<rect x="112" y="258" width="76" height="28" fill="#EDE3CE" stroke="#2F2A24" stroke-width="0.7"/>
+<text x="150" y="275" font-size="3.8" fill="#8A7C69" text-anchor="middle">上位</text>
+<ellipse cx="150" cy="260" rx="20" ry="3.6" fill="#EDE3CE" stroke="#DCCBB0" stroke-width="0.6"/>
+<circle cx="150" cy="232" r="5.6" fill="none" stroke="#2F2A24" stroke-width="1.0"/>
+<line x1="150" y1="238" x2="150" y2="251" stroke="#2F2A24" stroke-width="1.2"/>
+<rect x="138" y="249" width="24" height="7" rx="3.2" fill="#EDE3CE" stroke="#2F2A24" stroke-width="0.8"/>
+<ellipse cx="252" cy="288" rx="20" ry="3.6" fill="#EDE3CE" stroke="#DCCBB0" stroke-width="0.6"/>
+<circle cx="245" cy="260" r="5.6" fill="none" stroke="#2F2A24" stroke-width="1.0"/>
+<line x1="245" y1="266" x2="252" y2="279" stroke="#2F2A24" stroke-width="1.2"/>
+<rect x="240" y="277" width="24" height="7" rx="3.2" fill="#EDE3CE" stroke="#2F2A24" stroke-width="0.8"/>
+<text x="252" y="300" font-size="3.8" fill="#8A7C69" text-anchor="middle">跪在下面</text>
+<path d="M168,208 Q212,194 248,256" fill="none" stroke="#A2503B" stroke-width="1.1"/>
+<text x="200" y="192" font-size="4.2" fill="#A2503B" text-anchor="middle">牵</text>
+<text x="300" y="206" font-size="4.2" fill="#A2503B">臣：归你所有</text>
+<text x="300" y="220" font-size="3.9" fill="#8A7C69">被牵着走</text>
+<text x="300" y="232" font-size="3.9" fill="#8A7C69">跪下就不必再问</text>
+<text x="300" y="244" font-size="3.9" fill="#8A7C69">他自己愿不愿意</text>
+<text x="190" y="330" font-size="4.0" fill="#8A7C69" text-anchor="middle">要万物归你所有，就得用兵、用名、用制度——三样都靠一个「拉」。</text>
+<text x="24" y="372" font-size="5.1" fill="#4A5C55">二、宾：自己走来，来了不失身份</text>
+<rect x="26" y="384" width="328" height="150" fill="#FBF6EC" stroke="#DCCBB0" stroke-width="1.0"/>
+<line x1="40" y1="500" x2="340" y2="500" stroke="#2F2A24" stroke-width="0.9"/>
+<ellipse cx="150" cy="498" rx="20" ry="3.6" fill="#EDE3CE" stroke="#DCCBB0" stroke-width="0.6"/>
+<circle cx="150" cy="470" r="5.6" fill="none" stroke="#2F2A24" stroke-width="1.0"/>
+<line x1="150" y1="476" x2="150" y2="489" stroke="#2F2A24" stroke-width="1.2"/>
+<rect x="138" y="487" width="24" height="7" rx="3.2" fill="#EDE3CE" stroke="#2F2A24" stroke-width="0.8"/>
+<path d="M142,470 Q146,476 150,474" fill="none" stroke="#2F2A24" stroke-width="0.9"/>
+<path d="M158,470 Q154,476 150,474" fill="none" stroke="#2F2A24" stroke-width="0.9"/>
+<ellipse cx="252" cy="498" rx="20" ry="3.6" fill="#EDE3CE" stroke="#DCCBB0" stroke-width="0.6"/>
+<circle cx="252" cy="470" r="5.6" fill="none" stroke="#2F2A24" stroke-width="1.0"/>
+<line x1="252" y1="476" x2="252" y2="489" stroke="#2F2A24" stroke-width="1.2"/>
+<rect x="240" y="487" width="24" height="7" rx="3.2" fill="#EDE3CE" stroke="#2F2A24" stroke-width="0.8"/>
+<path d="M244,470 Q248,476 252,474" fill="none" stroke="#2F2A24" stroke-width="0.9"/>
+<path d="M260,470 Q256,476 252,474" fill="none" stroke="#2F2A24" stroke-width="0.9"/>
+<line x1="186" y1="480" x2="216" y2="480" stroke="#E6D8C2" stroke-width="0.6" stroke-dasharray="2 3"/>
+<text x="201" y="474" font-size="3.7" fill="#8A7C69" text-anchor="middle">空</text>
+<text x="150" y="516" font-size="3.8" fill="#8A7C69" text-anchor="middle">主</text>
+<text x="252" y="516" font-size="3.8" fill="#8A7C69" text-anchor="middle">宾</text>
+<text x="201" y="424" font-size="5.0" fill="#4A5C55" text-anchor="middle">敬</text>
+<line x1="176" y1="436" x2="226" y2="436" stroke="#4A5C55" stroke-width="0.6" stroke-dasharray="3 3"/>
+<text x="300" y="430" font-size="4.2" fill="#4A5C55">宾：归你所致</text>
+<text x="300" y="444" font-size="3.9" fill="#8A7C69">有敬，无绳</text>
+<text x="300" y="456" font-size="3.9" fill="#8A7C69">不是召来的</text>
+<text x="300" y="468" font-size="3.9" fill="#8A7C69">不是押来的</text>
+<text x="300" y="480" font-size="3.9" fill="#8A7C69">是自己走来的</text>
+<text x="190" y="550" font-size="4.0" fill="#8A7C69" text-anchor="middle">守住朴，万物只是来敬你一杯——敬完各回各家。</text>
+<rect x="20" y="566" width="340" height="40" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="190" y="584" font-size="5.6" fill="#2F2A24" text-anchor="middle">同一个位置，一个字换过来，跪着的就成了客。</text>
+<text x="190" y="598" font-size="4.4" fill="#6E6459" text-anchor="middle">守，是什么都不加；万物自宾，是什么都不召。</text>
+<line x1="20" y1="626" x2="360" y2="626" stroke="#E6D8C2" stroke-width="0.8"/>
+<text x="20" y="640" font-size="8.0" fill="#A89577" letter-spacing="1">本 章 金 句</text>
+<text x="20" y="656" font-size="8.4" fill="#2F2A24">臣是归你所有，宾是归你所致。</text>
+<text x="20" y="672" font-size="8.4" fill="#2F2A24">想要万物归你所有，就得用兵、用名、用制度；守住朴，万物只是来敬你一杯。</text>
+</svg>

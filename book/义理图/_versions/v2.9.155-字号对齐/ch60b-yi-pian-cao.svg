@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 380 672" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="以道莅天下：莅从艸从位，是草长到那个位置" font-family="'Noto Serif CJK SC','Noto Serif SC','Songti SC',serif">
+<defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#6E6459"/></marker><marker id="arr2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#4A5C55"/></marker><marker id="arrL" viewBox="0 0 10 10" refX="1" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M10 0 L0 5 L10 10 z" fill="#4A5C55"/></marker><marker id="arrS" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#A2503B"/></marker></defs>
+<rect x="0" y="0" width="380" height="672" fill="#F8F3E6"/>
+<text x="20" y="26" font-size="11" fill="#A2503B" font-family="'Noto Sans CJK SC','Noto Sans SC',sans-serif" letter-spacing="3">第 六 十 章 · 莅</text>
+<text x="20" y="58" font-size="21" fill="#2F2A24">一片草</text>
+<text x="20" y="78" font-size="10.5" fill="#6E6459">以道莅天下，其鬼不神。</text>
+<rect x="20" y="102" width="340" height="30" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="190" y="114" font-size="5.2" fill="#2F2A24" text-anchor="middle">「莅」，《说文》「临也」，从艸、从位——是草长到那个位置上去了。</text>
+<text x="190" y="126" font-size="5.2" fill="#6E6459" text-anchor="middle">所以莅是「到」，不是「坐上去发令」；一个到，一个管。</text>
+<text x="24" y="146" font-size="5.4" fill="#A2503B">一、压着长：草被压到那个位置</text>
+<line x1="24" y1="270" x2="250" y2="270" stroke="#2F2A24" stroke-width="1"/>
+<line x1="30" y1="182" x2="240" y2="182" stroke="#DCCBB0" stroke-width="0.6" stroke-dasharray="5 3"/>
+<path d="M58,270 C49.0,233.0 28,210.8 22.0,196" fill="none" stroke="#A2503B" stroke-width="1.1"/>
+<path d="M74,270 C65.0,230.0 44,206.0 38.0,190" fill="none" stroke="#A2503B" stroke-width="1.1"/>
+<path d="M90,270 C81.0,233.0 60,210.8 54.0,196" fill="none" stroke="#A2503B" stroke-width="1.1"/>
+<path d="M106,270 C97.0,230.0 76,206.0 70.0,190" fill="none" stroke="#A2503B" stroke-width="1.1"/>
+<path d="M122,270 C113.0,233.0 92,210.8 86.0,196" fill="none" stroke="#A2503B" stroke-width="1.1"/>
+<rect x="150" y="152" width="44" height="26" fill="#EFE6D4" stroke="#2F2A24" stroke-width="0.9"/>
+<text x="172" y="170" font-size="4.8" fill="#2F2A24" text-anchor="middle">令</text>
+<line x1="172" y1="180" x2="172" y2="196" stroke="#A2503B" stroke-width="0.9" marker-end="url(#arrS)"/>
+<text x="196" y="210" font-size="4.6" fill="#A2503B">压到这么高</text>
+<text x="58" y="284" font-size="4.6" fill="#6E6459">草被压弯：长不到它自己的高度</text>
+<text x="24" y="306" font-size="5.4" fill="#4A5C55">二、自己长：长到那位置，就不动了</text>
+<line x1="24" y1="430" x2="250" y2="430" stroke="#2F2A24" stroke-width="1"/>
+<line x1="30" y1="336" x2="240" y2="336" stroke="#4A5C55" stroke-width="0.6" stroke-dasharray="5 3"/>
+<path d="M58,430 C58.6,387.0 60,361.2 60.4,344" fill="none" stroke="#4A5C55" stroke-width="1.1"/>
+<path d="M74,430 C74.6,389.5 76,365.2 76.4,349" fill="none" stroke="#4A5C55" stroke-width="1.1"/>
+<path d="M90,430 C90.6,387.0 92,361.2 92.4,344" fill="none" stroke="#4A5C55" stroke-width="1.1"/>
+<path d="M106,430 C106.6,389.5 108,365.2 108.4,349" fill="none" stroke="#4A5C55" stroke-width="1.1"/>
+<path d="M122,430 C122.6,387.0 124,361.2 124.4,344" fill="none" stroke="#4A5C55" stroke-width="1.1"/>
+<ellipse cx="59" cy="344" rx="2" ry="3.4" fill="none" stroke="#4A5C55" stroke-width="0.7"/>
+<ellipse cx="75" cy="339" rx="2" ry="3.4" fill="none" stroke="#4A5C55" stroke-width="0.7"/>
+<ellipse cx="91" cy="344" rx="2" ry="3.4" fill="none" stroke="#4A5C55" stroke-width="0.7"/>
+<ellipse cx="107" cy="339" rx="2" ry="3.4" fill="none" stroke="#4A5C55" stroke-width="0.7"/>
+<ellipse cx="123" cy="344" rx="2" ry="3.4" fill="none" stroke="#4A5C55" stroke-width="0.7"/>
+<text x="160" y="328" font-size="4.6" fill="#4A5C55">就长到这儿，不再往上</text>
+<text x="58" y="444" font-size="4.6" fill="#6E6459">莅：草到了它该到的位置</text>
+<text x="24" y="470" font-size="4.9" fill="#2F2A24">「莅」从艸从位：是草长到那个位置上，不是人坐上去发令。</text>
+<text x="24" y="486" font-size="5.0" fill="#2F2A24">压着长的草，长不到自己的高度；长到位的草，不再往上争。</text>
+<text x="24" y="502" font-size="5.2" fill="#4A5C55">一个「到」，一个「管」：到了，就不用管了。</text>
+<line x1="24" y1="520" x2="338" y2="520" stroke="#DCCBB0" stroke-width="0.6"/>
+<rect x="20" y="528" width="340" height="40" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="190" y="544" font-size="5.4" fill="#2F2A24" text-anchor="middle">莅是草长到那个位置，不是人坐上去发令；</text>
+<text x="190" y="556" font-size="6.0" fill="#4A5C55" text-anchor="middle">一个到，一个管。</text>
+<line x1="20" y1="582" x2="360" y2="582" stroke="#E6D8C2" stroke-width="0.8"/>
+<text x="20" y="596" font-size="8.0" fill="#A89577" letter-spacing="1">本 章 金 句</text>
+<text x="20" y="612" font-size="8.4" fill="#2F2A24">莅是草长到那个位置，不是人坐上去发令；一个到，一个管。</text>
+</svg>

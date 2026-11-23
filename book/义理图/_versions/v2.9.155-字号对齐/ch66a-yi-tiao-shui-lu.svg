@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 380 656" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="谷是水的路，不是山的凹：低处的好处不在低，在水都往这儿走" font-family="'Noto Serif CJK SC','Noto Serif SC','Songti SC',serif">
+<defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#6E6459"/></marker><marker id="arr2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#4A5C55"/></marker><marker id="arrL" viewBox="0 0 10 10" refX="1" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M10 0 L0 5 L10 10 z" fill="#4A5C55"/></marker><marker id="arrS" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#A2503B"/></marker></defs>
+<rect x="0" y="0" width="380" height="656" fill="#F8F3E6"/>
+<text x="20" y="26" font-size="11" fill="#A2503B" font-family="'Noto Sans CJK SC','Noto Sans SC',sans-serif" letter-spacing="3">第 六 十 六 章 · 谷</text>
+<text x="20" y="58" font-size="21" fill="#2F2A24">一条水路</text>
+<text x="20" y="78" font-size="10.5" fill="#6E6459">以其善下之，故能为百谷王。</text>
+<rect x="20" y="102" width="340" height="30" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="190" y="114" font-size="4.9" fill="#2F2A24" text-anchor="middle">「谷」，《说文》「泉出通川为谷」——泉水出地，流出去通到川，这一段叫谷。</text>
+<text x="190" y="126" font-size="4.9" fill="#6E6459" text-anchor="middle">谷不吸引水：谷只是低，水自己往低处走。</text>
+<text x="24" y="148" font-size="4.8" fill="#A2503B">一、剖开看：泉出来，沿低处走，通到川</text>
+<rect x="26" y="160" width="328" height="126" fill="#FBF6EC" stroke="#DCCBB0" stroke-width="0.8"/>
+<path d="M26,184 L92,184 L154,220 L236,254 L354,254 L354,286 L26,286 Z" fill="#F2EADA" stroke="none"/>
+<path d="M26,184 L92,184 L154,220 L236,254 L354,254" fill="none" stroke="#2F2A24" stroke-width="1"/>
+<circle cx="58" cy="186" r="3.4" fill="none" stroke="#4A5C55" stroke-width="1.1"/>
+<line x1="52" y1="174" x2="52" y2="167" stroke="#4A5C55" stroke-width="0.8"/>
+<line x1="57" y1="174" x2="57" y2="167" stroke="#4A5C55" stroke-width="0.8"/>
+<line x1="62" y1="174" x2="62" y2="167" stroke="#4A5C55" stroke-width="0.8"/>
+<text x="76" y="176" font-size="4.4" fill="#4A5C55">泉</text>
+<path d="M62,183 Q78,180 92,181 L150,217 L232,250 L318,250" fill="none" stroke="#4A5C55" stroke-width="1.6"/>
+<line x1="302" y1="250" x2="324" y2="250" stroke="#4A5C55" stroke-width="1.2" marker-end="url(#arr2)"/>
+<path d="M236,254 L354,254 L354,264 L236,264 Z" fill="#4A5C55" opacity="0.18" stroke="none"/>
+<text x="330" y="248" font-size="5.2" fill="#4A5C55" text-anchor="middle">川</text>
+<text x="126" y="194" font-size="4.4" fill="#A2503B">谷：水走的那一段</text>
+<line x1="168" y1="198" x2="150" y2="216" stroke="#A2503B" stroke-width="0.6" stroke-dasharray="2 2"/>
+<text x="190" y="278" font-size="5.2" fill="#6E6459" text-anchor="middle">谷不是两山夹出的凹：是水往下走的那一段路</text>
+<text x="24" y="304" font-size="4.8" fill="#4A5C55">二、俯看：百条水路，各自往一处走</text>
+<rect x="26" y="316" width="328" height="126" fill="#FBF6EC" stroke="#DCCBB0" stroke-width="0.8"/>
+<path d="M58,326 Q62,346 58,364 Q54,378 130.6,390" fill="none" stroke="#4A5C55" stroke-width="1.1" stroke-dasharray="3 2"/>
+<path d="M108,326 Q112,346 108,364 Q104,378 153.1,390" fill="none" stroke="#4A5C55" stroke-width="1.1" stroke-dasharray="3 2"/>
+<path d="M162,326 Q166,346 162,364 Q158,378 177.4,390" fill="none" stroke="#4A5C55" stroke-width="1.1" stroke-dasharray="3 2"/>
+<path d="M222,326 Q226,346 222,364 Q218,378 204.4,390" fill="none" stroke="#4A5C55" stroke-width="1.1" stroke-dasharray="3 2"/>
+<path d="M282,326 Q286,346 282,364 Q278,378 231.4,390" fill="none" stroke="#4A5C55" stroke-width="1.1" stroke-dasharray="3 2"/>
+<path d="M326,326 Q330,346 326,364 Q322,378 251.2,390" fill="none" stroke="#4A5C55" stroke-width="1.1" stroke-dasharray="3 2"/>
+<path d="M44,396 L336,396 L306,434 L74,434 Z" fill="#4A5C55" opacity="0.16" stroke="#4A5C55" stroke-width="0.9"/>
+<text x="190" y="420" font-size="5.2" fill="#4A5C55" text-anchor="middle" letter-spacing="3">江 海</text>
+<text x="190" y="356" font-size="4.8" fill="#6E6459" text-anchor="middle" letter-spacing="2">百 谷</text>
+<line x1="190" y1="374" x2="190" y2="390" stroke="#4A5C55" stroke-width="1.0" marker-end="url(#arr2)"/>
+<text x="190" y="368" font-size="4.4" fill="#A2503B" text-anchor="middle">王：天下所归往</text>
+<text x="190" y="456" font-size="5.2" fill="#6E6459" text-anchor="middle">海不以大名，以纳百川：低处的好处，在所有的水都往这儿走</text>
+<text x="24" y="474" font-size="4.9" fill="#2F2A24">「王」，《说文》「天下所归往也」：往，不是管。</text>
+<text x="24" y="490" font-size="4.9" fill="#2F2A24">江海能王百谷，不是因为管着百川，是因为百川往它那儿去。</text>
+<text x="24" y="508" font-size="5.0" fill="#4A5C55">水不是被叫来的，是自己走来的。</text>
+<line x1="24" y1="526" x2="338" y2="526" stroke="#DCCBB0" stroke-width="0.6"/>
+<rect x="20" y="534" width="340" height="40" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="190" y="549" font-size="5.4" fill="#2F2A24" text-anchor="middle">谷不是山的凹，是水的路；</text>
+<text x="190" y="562" font-size="5.0" fill="#4A5C55" text-anchor="middle">不是谷招水，是水自己往低处走。</text>
+<line x1="20" y1="588" x2="360" y2="588" stroke="#E6D8C2" stroke-width="0.8"/>
+<text x="20" y="602" font-size="8.0" fill="#A89577" letter-spacing="1">本 章 金 句</text>
+<text x="20" y="618" font-size="8.4" fill="#2F2A24">谷不是山的凹，是水的路；不是谷招水，是水自己往低处走。</text>
+<text x="20" y="634" font-size="8.4" fill="#2F2A24">王是天下所归往：往者自至，非呼而来；海以纳百川名，不以大名。</text>
+</svg>

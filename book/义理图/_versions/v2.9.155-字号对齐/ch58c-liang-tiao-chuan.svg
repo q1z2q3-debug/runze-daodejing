@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 380 736" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="方而不割：方，《说文》「併船也」——两条船并在一起" font-family="'Noto Serif CJK SC','Noto Serif SC','Songti SC',serif">
+<defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#6E6459"/></marker><marker id="arr2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#4A5C55"/></marker><marker id="arrL" viewBox="0 0 10 10" refX="1" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M10 0 L0 5 L10 10 z" fill="#4A5C55"/></marker><marker id="arrS" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#A2503B"/></marker></defs>
+<rect x="0" y="0" width="380" height="736" fill="#F8F3E6"/>
+<text x="20" y="26" font-size="11" fill="#A2503B" font-family="'Noto Sans CJK SC','Noto Sans SC',sans-serif" letter-spacing="3">第 五 十 八 章 · 方</text>
+<text x="20" y="58" font-size="21" fill="#2F2A24">两条船</text>
+<text x="20" y="78" font-size="10.5" fill="#6E6459">方而不割，廉而不刿，直而不肆，光而不耀。</text>
+<rect x="20" y="102" width="340" height="30" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="190" y="114" font-size="5.2" fill="#2F2A24" text-anchor="middle">「方」，《说文》「併船也」——两条船并在一起；所以方不是「棱角」，是「并着」。</text>
+<text x="190" y="126" font-size="5.2" fill="#6E6459" text-anchor="middle">并着不动刀；一动刀，并就成了界。</text>
+<text x="24" y="146" font-size="5.4" fill="#4A5C55">一、两条船并着：中间不留刀口</text>
+<path d="M124,190 C141,208 141,276 124,294 C107,276 107,208 124,190 Z" fill="#EFE6D4" stroke="#2F2A24" stroke-width="1.1"/>
+<line x1="124" y1="210" x2="124" y2="274" stroke="#2F2A24" stroke-width="0.4" stroke-dasharray="3 3"/>
+<path d="M100,208 C94,215 94,222 100,226" fill="none" stroke="#E6D8C2" stroke-width="0.45"/>
+<path d="M100,242 C94,249 94,256 100,260" fill="none" stroke="#E6D8C2" stroke-width="0.45"/>
+<path d="M100,276 C94,283 94,290 100,294" fill="none" stroke="#E6D8C2" stroke-width="0.45"/>
+<line x1="110" y1="236" x2="91" y2="260" stroke="#2F2A24" stroke-width="1"/>
+<line x1="120" y1="262" x2="128" y2="262" stroke="#2F2A24" stroke-width="0.5"/>
+<path d="M158,190 C175,208 175,276 158,294 C141,276 141,208 158,190 Z" fill="#EFE6D4" stroke="#2F2A24" stroke-width="1.1"/>
+<line x1="158" y1="210" x2="158" y2="274" stroke="#2F2A24" stroke-width="0.4" stroke-dasharray="3 3"/>
+<path d="M134,208 C128,215 128,222 134,226" fill="none" stroke="#E6D8C2" stroke-width="0.45"/>
+<path d="M134,242 C128,249 128,256 134,260" fill="none" stroke="#E6D8C2" stroke-width="0.45"/>
+<path d="M134,276 C128,283 128,290 134,294" fill="none" stroke="#E6D8C2" stroke-width="0.45"/>
+<line x1="172" y1="236" x2="191" y2="260" stroke="#2F2A24" stroke-width="1"/>
+<line x1="154" y1="262" x2="162" y2="262" stroke="#2F2A24" stroke-width="0.5"/>
+<text x="143" y="168" font-size="4.8" fill="#4A5C55" text-anchor="middle">并着：船帮贴船帮，中间没有刀口</text>
+<text x="124" y="318" font-size="4.6" fill="#6E6459">方：两条船并在一起</text>
+<text x="24" y="326" font-size="5.4" fill="#A2503B">二、一动刀：并就成了界</text>
+<path d="M124,358 C141,376 141,444 124,462 C107,444 107,376 124,358 Z" fill="#EFE6D4" stroke="#2F2A24" stroke-width="1.1"/>
+<line x1="124" y1="378" x2="124" y2="442" stroke="#2F2A24" stroke-width="0.4" stroke-dasharray="3 3"/>
+<path d="M100,376 C94,383 94,390 100,394" fill="none" stroke="#E6D8C2" stroke-width="0.45"/>
+<path d="M100,410 C94,417 94,424 100,428" fill="none" stroke="#E6D8C2" stroke-width="0.45"/>
+<path d="M100,444 C94,451 94,458 100,462" fill="none" stroke="#E6D8C2" stroke-width="0.45"/>
+<line x1="110" y1="404" x2="91" y2="428" stroke="#2F2A24" stroke-width="1"/>
+<line x1="120" y1="430" x2="128" y2="430" stroke="#2F2A24" stroke-width="0.5"/>
+<path d="M158,358 C175,376 175,444 158,462 C141,444 141,376 158,358 Z" fill="#EFE6D4" stroke="#2F2A24" stroke-width="1.1"/>
+<line x1="158" y1="378" x2="158" y2="442" stroke="#2F2A24" stroke-width="0.4" stroke-dasharray="3 3"/>
+<path d="M134,376 C128,383 128,390 134,394" fill="none" stroke="#E6D8C2" stroke-width="0.45"/>
+<path d="M134,410 C128,417 128,424 134,428" fill="none" stroke="#E6D8C2" stroke-width="0.45"/>
+<path d="M134,444 C128,451 128,458 134,462" fill="none" stroke="#E6D8C2" stroke-width="0.45"/>
+<line x1="172" y1="404" x2="191" y2="428" stroke="#2F2A24" stroke-width="1"/>
+<line x1="154" y1="430" x2="162" y2="430" stroke="#2F2A24" stroke-width="0.5"/>
+<line x1="141" y1="346" x2="141" y2="474" stroke="#A2503B" stroke-width="0.8" stroke-dasharray="4 3"/>
+<text x="150" y="364" font-size="4.8" fill="#A2503B">割</text>
+<text x="196" y="442" font-size="4.8" fill="#A2503B">界：船还是两条</text>
+<text x="196" y="456" font-size="4.6" fill="#6E6459">路只剩一边</text>
+<text x="124" y="486" font-size="4.6" fill="#A2503B">一动刀，并就成了界</text>
+<line x1="24" y1="494" x2="338" y2="494" stroke="#DCCBB0" stroke-width="0.6"/>
+<text x="24" y="512" font-size="5.2" fill="#2F2A24">四句，是四个方向上的「留一点」：</text>
+<text x="26" y="532" font-size="4.8" fill="#A2503B">方而不割</text>
+<text x="76" y="532" font-size="4.6" fill="#6E6459">——并着，不收刀</text>
+<text x="192" y="532" font-size="4.8" fill="#A2503B">廉而不刿</text>
+<text x="242" y="532" font-size="4.6" fill="#6E6459">——边立着，不利手</text>
+<text x="26" y="551" font-size="4.8" fill="#A2503B">直而不肆</text>
+<text x="76" y="551" font-size="4.6" fill="#6E6459">——话说着，不说尽</text>
+<text x="192" y="551" font-size="4.8" fill="#A2503B">光而不耀</text>
+<text x="242" y="551" font-size="4.6" fill="#6E6459">——灯亮着，不刺眼</text>
+<text x="24" y="582" font-size="5.2" fill="#2F2A24">方是两条船并着：并着不动刀，一动刀就成了界。</text>
+<text x="24" y="598" font-size="5.0" fill="#2F2A24">廉是堂屋那条侧边，不是刀口：边要立着，可不能划手。</text>
+<text x="24" y="614" font-size="4.6" fill="#4A5C55">直是话说着不说尽，光是灯亮着不刺眼——这一章的功夫，都在「留一点」上。</text>
+<rect x="20" y="638" width="340" height="40" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="190" y="654" font-size="5.6" fill="#2F2A24" text-anchor="middle">方是两条船并着；并着不动刀，一动刀就成了界。</text>
+<text x="190" y="666" font-size="5.2" fill="#4A5C55" text-anchor="middle">光在，耀不在；一刺眼，照就变成了压。</text>
+<line x1="20" y1="692" x2="360" y2="692" stroke="#E6D8C2" stroke-width="0.8"/>
+<text x="20" y="706" font-size="8.0" fill="#A89577" letter-spacing="1">本 章 金 句</text>
+<text x="20" y="722" font-size="8.4" fill="#2F2A24">方是两条船并着；并着不动刀，一动刀就成了界。</text>
+</svg>

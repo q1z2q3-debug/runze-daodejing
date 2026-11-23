@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 380 744" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="器可以换，水不倒：形易万次，体未尝一易" font-family="'Noto Serif CJK SC','Noto Serif SC','Songti SC',serif">
+<defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#6E6459"/></marker><marker id="arr2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#4A5C55"/></marker><marker id="arrL" viewBox="0 0 10 10" refX="1" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M10 0 L0 5 L10 10 z" fill="#4A5C55"/></marker><marker id="arrS" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#A2503B"/></marker></defs>
+<rect x="0" y="0" width="380" height="744" fill="#F8F3E6"/>
+<text x="20" y="26" font-size="11" fill="#A2503B" font-family="'Noto Sans CJK SC','Noto Sans SC',sans-serif" letter-spacing="3">第 七 十 八 章 · 易</text>
+<text x="20" y="58" font-size="21" fill="#2F2A24">一只器</text>
+<text x="20" y="78" font-size="10.5" fill="#6E6459">以其无以易之。</text>
+<rect x="20" y="102" width="340" height="32" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="190" y="114" font-size="4.7" fill="#2F2A24" text-anchor="middle">易，《说文》曰「蜥蜴」，一说象两器倾水之形。</text>
+<text x="190" y="127" font-size="4.7" fill="#6E6459" text-anchor="middle">倾水者非变也，移也：自此器倒之彼器——器换了，水还是那水。</text>
+<text x="24" y="150" font-size="4.8" fill="#A2503B">一、倒过来：器换了，水没换</text>
+<rect x="26" y="162" width="328" height="152" fill="#FBF6EC" stroke="#DCCBB0" stroke-width="0.8"/>
+<line x1="34" y1="294" x2="330" y2="294" stroke="#2F2A24" stroke-width="1"/>
+<path d="M96,224 Q74,266 96,290" fill="#EFE6D4" stroke="#2F2A24" stroke-width="1.2"/>
+<path d="M96,224 L130,212 Q146,254 130,280 L96,290" fill="#EFE6D4" stroke="#2F2A24" stroke-width="1.2"/>
+<line x1="96" y1="224" x2="130" y2="212" stroke="#2F2A24" stroke-width="1.2"/>
+<path d="M132,218 Q170,232 206,226" fill="none" stroke="#4A5C55" stroke-width="2"/>
+<path d="M206,226 Q214,246 214,266" fill="none" stroke="#4A5C55" stroke-width="2"/>
+<text x="150" y="208" font-size="4.3" fill="#4A5C55">水在倒</text>
+<path d="M200,222 Q186,254 196,292" fill="#EFE6D4" stroke="#2F2A24" stroke-width="1.2"/>
+<path d="M232,222 Q246,254 236,292" fill="#EFE6D4" stroke="#2F2A24" stroke-width="1.2"/>
+<path d="M196,292 Q216,302 236,292" fill="#EFE6D4" stroke="#2F2A24" stroke-width="1.2"/>
+<line x1="200" y1="222" x2="232" y2="222" stroke="#2F2A24" stroke-width="1.2"/>
+<text x="216" y="312" font-size="4.2" fill="#6E6459" text-anchor="middle">另一只器</text>
+<text x="190" y="334" font-size="4.6" fill="#4A5C55" text-anchor="middle">器可易，水不可易：器者形也，水者体也</text>
+<text x="24" y="358" font-size="4.8" fill="#4A5C55">二、都破了：水还在那里</text>
+<rect x="26" y="370" width="328" height="152" fill="#FBF6EC" stroke="#DCCBB0" stroke-width="0.8"/>
+<line x1="34" y1="502" x2="330" y2="502" stroke="#2F2A24" stroke-width="1"/>
+<path d="M66,498 l14,-16 l12,6 l-2,10 Z" fill="#EFE6D4" stroke="#2F2A24" stroke-width="1.1"/>
+<path d="M100,500 l10,-18 l14,10 l-6,8 Z" fill="#EFE6D4" stroke="#2F2A24" stroke-width="1.1"/>
+<path d="M124,488 l6,-14 l10,8 Z" fill="#EFE6D4" stroke="#2F2A24" stroke-width="1.1"/>
+<text x="96" y="470" font-size="4.2" fill="#A2503B">器碎了</text>
+<path d="M150,502 Q196,482 250,502 Q200,512 150,502 Z" fill="#4A5C55" fill-opacity="0.25" stroke="#4A5C55" stroke-width="1"/>
+<text x="200" y="466" font-size="4.3" fill="#4A5C55" text-anchor="middle">还是那滩水</text>
+<text x="190" y="542" font-size="4.6" fill="#4A5C55" text-anchor="middle">形易万次，体未尝一易</text>
+<text x="24" y="566" font-size="4.8" fill="#2F2A24">故「无以易之」者，非不可变也，乃不可倒也。</text>
+<text x="24" y="582" font-size="4.8" fill="#2F2A24">器一次就碎，水一次也不倒：这就是「莫之能胜」的意思。</text>
+<text x="24" y="600" font-size="5.0" fill="#4A5C55">弱者非无力，是不可倒。</text>
+<line x1="24" y1="618" x2="338" y2="618" stroke="#DCCBB0" stroke-width="0.6"/>
+<rect x="20" y="626" width="340" height="40" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="190" y="641" font-size="5.0" fill="#2F2A24" text-anchor="middle">天下莫柔弱于水，而攻坚强者莫之能胜，以其无以易之。</text>
+<text x="190" y="654" font-size="4.7" fill="#4A5C55" text-anchor="middle">器可易，水不可易。</text>
+<line x1="20" y1="682" x2="360" y2="682" stroke="#E6D8C2" stroke-width="0.8"/>
+<text x="20" y="696" font-size="8.0" fill="#A89577" letter-spacing="1">本 章 金 句</text>
+<text x="20" y="712" font-size="8.4" fill="#2F2A24">天下莫柔弱于水，而攻坚强者莫之能胜，以其无以易之。</text>
+<text x="20" y="728" font-size="8.4" fill="#2F2A24">易者，《说文》曰「蜥蜴」，一说象两器倾水之形。</text>
+</svg>

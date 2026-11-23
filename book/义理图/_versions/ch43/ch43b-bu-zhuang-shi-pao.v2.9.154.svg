@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 380 560" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="撞是把自己的力交出去，跑是把自己的力留着" font-family="'Noto Serif CJK SC','Noto Serif SC','Songti SC',serif">
+<defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#6E6459"/></marker><marker id="arr2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#4A5C55"/></marker><marker id="arrL" viewBox="0 0 10 10" refX="1" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M10 0 L0 5 L10 10 z" fill="#4A5C55"/></marker><marker id="arrS" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#A2503B"/></marker></defs>
+<rect x="0" y="0" width="380" height="560" fill="#F8F3E6"/>
+<text x="20" y="26" font-size="11" fill="#A2503B" font-family="'Noto Sans CJK SC','Noto Sans SC',sans-serif" letter-spacing="3">第 四 十 三 章 · 驰 骋</text>
+<text x="20" y="58" font-size="21" fill="#2F2A24">不撞，是跑</text>
+<text x="20" y="78" font-size="10.5" fill="#6E6459">至柔在至坚身上「驰骋」——不是撞，是跑。</text>
+<rect x="20" y="102" width="340" height="30" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="190" y="115" font-size="5.2" fill="#2F2A24" text-anchor="middle">驰骋，大驱也；骋，直驰也——放马直跑，不绕弯。</text>
+<text x="190" y="127" font-size="5.7" fill="#6E6459" text-anchor="middle">老子把这个战场上的词，安在最软的那样东西身上。</text>
+<text x="24" y="152" font-size="5.2" fill="#A2503B">一 · 撞：力交出去</text>
+<rect x="104" y="164" width="12" height="64" fill="#E6D8C2" stroke="#2F2A24" stroke-width="0.8"/>
+<line x1="104" y1="172" x2="116" y2="172" stroke="#2F2A24" stroke-width="0.4" opacity="0.5"/>
+<line x1="104" y1="188" x2="116" y2="188" stroke="#2F2A24" stroke-width="0.4" opacity="0.5"/>
+<line x1="104" y1="204" x2="116" y2="204" stroke="#2F2A24" stroke-width="0.4" opacity="0.5"/>
+<line x1="104" y1="220" x2="116" y2="220" stroke="#2F2A24" stroke-width="0.4" opacity="0.5"/>
+<circle cx="76" cy="194" r="10" fill="#D9CBB2" stroke="#2F2A24" stroke-width="0.9"/>
+<line x1="56" y1="194" x2="64" y2="194" stroke="#2F2A24" stroke-width="0.7"/>
+<line x1="50" y1="190" x2="58" y2="190" stroke="#2F2A24" stroke-width="0.5" opacity="0.7"/>
+<line x1="50" y1="198" x2="58" y2="198" stroke="#2F2A24" stroke-width="0.5" opacity="0.7"/>
+<path d="M68,186 l-8,-6 M68,202 l-8,6" stroke="#A2503B" stroke-width="0.7" fill="none"/>
+<circle cx="92" cy="180" r="1.6" fill="#A2503B"/><circle cx="98" cy="208" r="1.4" fill="#A2503B"/><circle cx="86" cy="214" r="1.2" fill="#A2503B"/>
+<text x="64" y="238" font-size="5.4" fill="#6E6459" text-anchor="middle">硬碰硬：两边同时消耗</text>
+<text x="140" y="168" font-size="6.1" fill="#2F2A24">两方同时消耗，力气花在「证明自己硬」上。</text>
+<text x="140" y="184" font-size="6.1" fill="#2F2A24">赢了也是一身碎屑；输了更不用说。</text>
+<text x="140" y="206" font-size="5.2" fill="#A2503B">撞的那一下，力已经离手了。</text>
+<text x="24" y="258" font-size="5.2" fill="#4A5C55">二 · 跑：力还留着</text>
+<rect x="104" y="270" width="12" height="64" fill="#E6D8C2" stroke="#2F2A24" stroke-width="0.8"/>
+<line x1="104" y1="278" x2="116" y2="278" stroke="#2F2A24" stroke-width="0.4" opacity="0.5"/>
+<line x1="104" y1="294" x2="116" y2="294" stroke="#2F2A24" stroke-width="0.4" opacity="0.5"/>
+<line x1="104" y1="310" x2="116" y2="310" stroke="#2F2A24" stroke-width="0.4" opacity="0.5"/>
+<line x1="104" y1="326" x2="116" y2="326" stroke="#2F2A24" stroke-width="0.4" opacity="0.5"/>
+<path d="M46,288 C64,282 82,294 100,288 L116,288 C126,284 128,291 132,288" fill="none" stroke="#4A5C55" stroke-width="0.9"/>
+<path d="M46,302 C64,296 82,308 100,302 L116,302 C126,298 128,305 132,302" fill="none" stroke="#4A5C55" stroke-width="0.9"/>
+<path d="M46,316 C64,310 82,322 100,316 L116,316 C126,312 128,319 132,316" fill="none" stroke="#4A5C55" stroke-width="0.9"/>
+<text x="64" y="344" font-size="5.4" fill="#6E6459" text-anchor="middle">不接触，所以不损耗</text>
+<text x="140" y="274" font-size="6.1" fill="#2F2A24">至柔不与硬碰，消耗只发生在硬的那一方。</text>
+<text x="140" y="290" font-size="6.1" fill="#2F2A24">它从硬的东西里穿过去，自己没碰掉一块。</text>
+<text x="140" y="312" font-size="5.2" fill="#4A5C55">跑的时候，力一直在自己手里。</text>
+<text x="24" y="364" font-size="5.2" fill="#2F2A24">三 · 无有：不占位，无处不入</text>
+<rect x="56" y="384" width="86" height="56" fill="#E6D8C2" stroke="#2F2A24" stroke-width="1"/>
+<rect x="62" y="390" width="74" height="44" fill="#D9CBB2" stroke="#2F2A24" stroke-width="0.5"/>
+<text x="99" y="416" font-size="6.0" fill="#A2503B" text-anchor="middle">无间</text>
+<text x="99" y="430" font-size="4.8" fill="#6E6459" text-anchor="middle">连一道门缝都没有</text>
+<path d="M40,398 C60,392 80,402 100,397 L132,397" fill="none" stroke="#4A5C55" stroke-width="0.8" stroke-dasharray="6 4"/>
+<text x="150" y="380" font-size="6.1" fill="#2F2A24">有形之物要靠别人让出一道缝；无形之物不必。</text>
+<text x="150" y="396" font-size="6.1" fill="#2F2A24">它不占位置，所以没有哪一处是进不去的。</text>
+<text x="150" y="418" font-size="5.2" fill="#2F2A24">它不是凿开缝进去的，它是那扇门本身就有的。</text>
+<line x1="24" y1="454" x2="338" y2="454" stroke="#DCCBB0" stroke-width="0.6"/>
+<rect x="20" y="464" width="340" height="46" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="190" y="480" font-size="5.2" fill="#2F2A24" text-anchor="middle">一不接触，二不占位，三还能变。</text>
+<text x="190" y="494" font-size="5.2" fill="#6E6459" text-anchor="middle">柔之所以胜，不是因为更强，是它不参加那场比赛。</text>
+<line x1="20" y1="522" x2="360" y2="522" stroke="#E6D8C2" stroke-width="0.8"/>
+<text x="20" y="536" font-size="8.0" fill="#A89577" letter-spacing="1">本 章 金 句</text>
+<text x="20" y="552" font-size="8.4" fill="#2F2A24">撞是把自己的力交出去，跑是把自己的力留着。</text>
+<text x="20" y="568" font-size="8.4" fill="#2F2A24">它赢的方式，是让「强弱」这场比赛根本不成立。</text>
+</svg>

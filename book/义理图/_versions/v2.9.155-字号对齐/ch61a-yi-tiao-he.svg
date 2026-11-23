@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 380 664" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="大国者下流：下流不是品行低下，是水走到底的那一段" font-family="'Noto Serif CJK SC','Noto Serif SC','Songti SC',serif">
+<defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#6E6459"/></marker><marker id="arr2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#4A5C55"/></marker><marker id="arrL" viewBox="0 0 10 10" refX="1" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M10 0 L0 5 L10 10 z" fill="#4A5C55"/></marker><marker id="arrS" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#A2503B"/></marker></defs>
+<rect x="0" y="0" width="380" height="664" fill="#F8F3E6"/>
+<text x="20" y="26" font-size="11" fill="#A2503B" font-family="'Noto Sans CJK SC','Noto Sans SC',sans-serif" letter-spacing="3">第 六 十 一 章 · 下流</text>
+<text x="20" y="58" font-size="21" fill="#2F2A24">一条河</text>
+<text x="20" y="78" font-size="10.5" fill="#6E6459">大国者下流，天下之牝，天下之交也。</text>
+<rect x="20" y="102" width="340" height="30" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="190" y="114" font-size="5.2" fill="#2F2A24" text-anchor="middle">「流」，《说文》「水行也」——水在走；「下流」是水走到底的那一段。</text>
+<text x="190" y="126" font-size="5.2" fill="#6E6459" text-anchor="middle">江河的下游，是所有上游都往那儿去的地方。</text>
+<text x="24" y="146" font-size="5.4" fill="#4A5C55">上游都往下走，走到低处汇成一处</text>
+<path d="M52,212 C68,252 86,274 150,292" fill="none" stroke="#4A5C55" stroke-width="1.4"/>
+<line x1="58" y1="220" x2="72" y2="244" stroke="#4A5C55" stroke-width="0.7" marker-end="url(#arr2)"/>
+<path d="M104,212 C120,252 138,274 150,292" fill="none" stroke="#4A5C55" stroke-width="1.4"/>
+<line x1="110" y1="220" x2="124" y2="244" stroke="#4A5C55" stroke-width="0.7" marker-end="url(#arr2)"/>
+<path d="M196,212 C180,252 162,274 150,292" fill="none" stroke="#4A5C55" stroke-width="1.4"/>
+<line x1="190" y1="220" x2="176" y2="244" stroke="#4A5C55" stroke-width="0.7" marker-end="url(#arr2)"/>
+<path d="M248,212 C232,252 214,274 150,292" fill="none" stroke="#4A5C55" stroke-width="1.4"/>
+<line x1="242" y1="220" x2="228" y2="244" stroke="#4A5C55" stroke-width="0.7" marker-end="url(#arr2)"/>
+<text x="150" y="200" font-size="4.6" fill="#6E6459" text-anchor="middle">上游：水从高处来</text>
+<path d="M138,288 C132,322 128,352 122,380" fill="none" stroke="#4A5C55" stroke-width="1.2"/>
+<path d="M162,288 C168,322 172,352 178,380" fill="none" stroke="#4A5C55" stroke-width="1.2"/>
+<line x1="150" y1="312" x2="150" y2="342" stroke="#4A5C55" stroke-width="0.8" marker-end="url(#arr2)"/>
+<ellipse cx="150" cy="406" rx="74" ry="26" fill="#EFE6D4" stroke="#4A5C55" stroke-width="1"/>
+<path d="M96,398 C126,392 174,392 204,398" fill="none" stroke="#E6D8C2" stroke-width="0.5"/>
+<path d="M104,404 C126,398 174,398 196,404" fill="none" stroke="#E6D8C2" stroke-width="0.5"/>
+<path d="M112,410 C126,404 174,404 188,410" fill="none" stroke="#E6D8C2" stroke-width="0.5"/>
+<text x="150" y="444" font-size="4.8" fill="#4A5C55" text-anchor="middle">下游：所有水都到这儿</text>
+<text x="150" y="458" font-size="4.8" fill="#6E6459" text-anchor="middle">不是被推下去的，它本来就在那儿</text>
+<text x="24" y="484" font-size="5.2" fill="#2F2A24">「下流」是水走到底的那一段，不是品行低下。</text>
+<text x="24" y="500" font-size="5.0" fill="#2F2A24">不往上争的水，上游非来不可——它不用抢，位置就在那里。</text>
+<text x="24" y="516" font-size="4.9" fill="#4A5C55">大国把自己放在那一段上，天下的水自己就往这儿流。</text>
+<line x1="24" y1="534" x2="338" y2="534" stroke="#DCCBB0" stroke-width="0.6"/>
+<rect x="20" y="542" width="340" height="40" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="190" y="558" font-size="5.6" fill="#2F2A24" text-anchor="middle">下游不是被推下去的，它本来就在那儿；</text>
+<text x="190" y="570" font-size="5.6" fill="#4A5C55" text-anchor="middle">不往上争的水，上游非来不可。</text>
+<line x1="20" y1="596" x2="360" y2="596" stroke="#E6D8C2" stroke-width="0.8"/>
+<text x="20" y="610" font-size="8.0" fill="#A89577" letter-spacing="1">本 章 金 句</text>
+<text x="20" y="626" font-size="8.4" fill="#2F2A24">下游不是被推下去的，它本来就在那儿；不往上争的水，上游非来不可。</text>
+</svg>

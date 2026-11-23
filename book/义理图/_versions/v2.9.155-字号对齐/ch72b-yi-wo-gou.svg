@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 380 716" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="狎是犬可习——熟到贴人；不是屋窄，是没有了距离" font-family="'Noto Serif CJK SC','Noto Serif SC','Songti SC',serif">
+<defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#6E6459"/></marker><marker id="arr2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#4A5C55"/></marker><marker id="arrL" viewBox="0 0 10 10" refX="1" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M10 0 L0 5 L10 10 z" fill="#4A5C55"/></marker><marker id="arrS" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#A2503B"/></marker></defs>
+<rect x="0" y="0" width="380" height="716" fill="#F8F3E6"/>
+<text x="20" y="26" font-size="11" fill="#A2503B" font-family="'Noto Sans CJK SC','Noto Sans SC',sans-serif" letter-spacing="3">第 七 十 二 章 · 狎</text>
+<text x="20" y="58" font-size="21" fill="#2F2A24">一窝挤着的狗</text>
+<text x="20" y="78" font-size="10.5" fill="#6E6459">无狎其所居，无厌其所生。</text>
+<rect x="20" y="102" width="340" height="32" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="190" y="114" font-size="4.7" fill="#2F2A24" text-anchor="middle">「狎」，《说文》「犬可习也」——狗熟到能贴在人身上，就是狎。</text>
+<text x="190" y="127" font-size="4.7" fill="#6E6459" text-anchor="middle">所以狎不是说屋子小，是说人跟人之间没有一寸距离。</text>
+<text x="24" y="150" font-size="4.8" fill="#A2503B">一、贴成一窝：屋子不小，都挤在一个角上</text>
+<rect x="26" y="162" width="328" height="150" fill="#FBF6EC" stroke="#DCCBB0" stroke-width="0.8"/>
+<path d="M46,204 L176,172 L306,204 L306,284 L46,284 Z" fill="none" stroke="#2F2A24" stroke-width="1"/>
+<line x1="46" y1="284" x2="330" y2="284" stroke="#2F2A24" stroke-width="1"/>
+<circle cx="96" cy="218" r="6" fill="none" stroke="#2F2A24" stroke-width="1"/>
+<path d="M86,226 L106,226 L108,258 L84,258 Z" fill="#EFE6D4" stroke="#2F2A24" stroke-width="1"/>
+<ellipse cx="114" cy="246" rx="15" ry="8" fill="#DED2B8" stroke="#2F2A24" stroke-width="0.9"/>
+<circle cx="99" cy="241" r="4.6" fill="#DED2B8" stroke="#2F2A24" stroke-width="0.9"/>
+<ellipse cx="122" cy="260" rx="15" ry="8" fill="#DED2B8" stroke="#2F2A24" stroke-width="0.9"/>
+<circle cx="107" cy="255" r="4.6" fill="#DED2B8" stroke="#2F2A24" stroke-width="0.9"/>
+<ellipse cx="92" cy="256" rx="15" ry="8" fill="#DED2B8" stroke="#2F2A24" stroke-width="0.9"/>
+<circle cx="77" cy="251" r="4.6" fill="#DED2B8" stroke="#2F2A24" stroke-width="0.9"/>
+<ellipse cx="108" cy="272" rx="15" ry="8" fill="#DED2B8" stroke="#2F2A24" stroke-width="0.9"/>
+<circle cx="93" cy="267" r="4.6" fill="#DED2B8" stroke="#2F2A24" stroke-width="0.9"/>
+<text x="214" y="244" font-size="4.4" fill="#A2503B">一窝挤在一角</text>
+<text x="214" y="256" font-size="4.2" fill="#6E6459">屋还空着大半</text>
+<text x="190" y="328" font-size="4.6" fill="#4A5C55" text-anchor="middle">房子并没变小：是身与身之间先没了空</text>
+<text x="24" y="350" font-size="4.8" fill="#4A5C55">二、让开一线：狗各归一处，人才住得下</text>
+<rect x="26" y="362" width="328" height="150" fill="#FBF6EC" stroke="#DCCBB0" stroke-width="0.8"/>
+<path d="M46,404 L176,372 L306,404 L306,484 L46,484 Z" fill="none" stroke="#2F2A24" stroke-width="1"/>
+<line x1="46" y1="484" x2="330" y2="484" stroke="#2F2A24" stroke-width="1"/>
+<circle cx="96" cy="418" r="6" fill="none" stroke="#2F2A24" stroke-width="1"/>
+<path d="M86,426 L106,426 L108,458 L84,458 Z" fill="#EFE6D4" stroke="#2F2A24" stroke-width="1"/>
+<ellipse cx="64" cy="458" rx="14" ry="7.5" fill="#DED2B8" stroke="#2F2A24" stroke-width="0.9"/>
+<circle cx="50" cy="454" r="4.4" fill="#DED2B8" stroke="#2F2A24" stroke-width="0.9"/>
+<ellipse cx="104" cy="466" rx="14" ry="7.5" fill="#DED2B8" stroke="#2F2A24" stroke-width="0.9"/>
+<circle cx="90" cy="462" r="4.4" fill="#DED2B8" stroke="#2F2A24" stroke-width="0.9"/>
+<ellipse cx="154" cy="458" rx="14" ry="7.5" fill="#DED2B8" stroke="#2F2A24" stroke-width="0.9"/>
+<circle cx="140" cy="454" r="4.4" fill="#DED2B8" stroke="#2F2A24" stroke-width="0.9"/>
+<ellipse cx="128" cy="472" rx="14" ry="7.5" fill="#DED2B8" stroke="#2F2A24" stroke-width="0.9"/>
+<circle cx="114" cy="468" r="4.4" fill="#DED2B8" stroke="#2F2A24" stroke-width="0.9"/>
+<text x="214" y="444" font-size="4.4" fill="#4A5C55">各归一处</text>
+<text x="214" y="456" font-size="4.2" fill="#6E6459">中间留出一条</text>
+<text x="190" y="528" font-size="4.6" fill="#4A5C55" text-anchor="middle">不狎不是赶走谁，是让每一头都有一处自己的地方</text>
+<text x="24" y="544" font-size="4.8" fill="#2F2A24">「无狎其所居」：住的地方，先得留出一寸不属于任何人的空。</text>
+<text x="24" y="560" font-size="4.8" fill="#2F2A24">挤到贴人，看着是亲，其实是没处可退：退无可退，话就不好说。</text>
+<text x="24" y="578" font-size="5.0" fill="#4A5C55">所以这一句跟上一句连着：威要有堂上的距离，居要有身间的距离。</text>
+<line x1="24" y1="594" x2="338" y2="594" stroke="#DCCBB0" stroke-width="0.6"/>
+<rect x="20" y="602" width="340" height="40" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="190" y="617" font-size="5.4" fill="#2F2A24" text-anchor="middle">狎者，犬可习也，熟而贴人；非屋之窄，乃无距也。</text>
+<text x="190" y="630" font-size="4.7" fill="#4A5C55" text-anchor="middle">让开一寸，人才住得下去。</text>
+<line x1="20" y1="656" x2="360" y2="656" stroke="#E6D8C2" stroke-width="0.8"/>
+<text x="20" y="670" font-size="8.0" fill="#A89577" letter-spacing="1">本 章 金 句</text>
+<text x="20" y="686" font-size="8.4" fill="#2F2A24">无狎其所居，无厌其所生。</text>
+<text x="20" y="702" font-size="8.4" fill="#2F2A24">狎者，犬可习也，熟而贴人；非屋之窄，乃无距也。</text>
+</svg>

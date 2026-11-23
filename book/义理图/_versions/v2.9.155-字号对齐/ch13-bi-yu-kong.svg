@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 380 558" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="惊的是壁，不是空：身有两义，一层要养，一层要松" font-family="'Noto Serif CJK SC','Noto Serif SC','Songti SC',serif">
+<defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#6E6459"/></marker><marker id="arr2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#4A5C55"/></marker><marker id="arrL" viewBox="0 0 10 10" refX="1" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M10 0 L0 5 L10 10 z" fill="#4A5C55"/></marker><marker id="arrS" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#A2503B"/></marker></defs>
+<rect x="0" y="0" width="380" height="558" fill="#F8F3E6"/>
+<text x="20" y="26" font-size="11" fill="#A2503B" font-family="'Noto Sans CJK SC','Noto Sans SC',sans-serif" letter-spacing="3">第 十 三 章 · 荣 辱</text>
+<text x="20" y="58" font-size="21" fill="#2F2A24">壁与空</text>
+<text x="20" y="78" font-size="10.5" fill="#6E6459">宠辱是外影，随光而变；壁只要不据影，人就不跟着晃。</text>
+<rect x="20" y="102" width="340" height="34" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="190" y="114" font-size="4.9" fill="#2F2A24" text-anchor="middle">「身」在这一章出现四次，所指不同：血肉之身要养，执念之我要松。</text>
+<text x="190" y="128" font-size="4.9" fill="#6E6459" text-anchor="middle">混了这两层，就把「无身」读成厌世，把「贵身」读成自私。</text>
+<circle cx="190" cy="250" r="62" fill="#E4D8BF" stroke="#2F2A24" stroke-width="1.0"/>
+<circle cx="190" cy="250" r="41" fill="#F8F3E6" stroke="#2F2A24" stroke-width="1.0"/>
+<path d="M118,234 q-6,8 0,16" fill="none" stroke="#A2503B" stroke-width="0.6" stroke-dasharray="2 3" opacity="0.7"/>
+<path d="M114,242 q-6,8 0,16" fill="none" stroke="#A2503B" stroke-width="0.6" stroke-dasharray="2 3" opacity="0.7"/>
+<path d="M262,234 q6,8 0,16" fill="none" stroke="#A2503B" stroke-width="0.6" stroke-dasharray="2 3" opacity="0.7"/>
+<path d="M266,242 q6,8 0,16" fill="none" stroke="#A2503B" stroke-width="0.6" stroke-dasharray="2 3" opacity="0.7"/>
+<text x="190" y="252" font-size="5.4" fill="#4A5C55" text-anchor="middle">空</text>
+<text x="190" y="266" font-size="4.4" fill="#6E6459" text-anchor="middle">不据壁的那一层</text>
+<text x="190" y="176" font-size="4.5" fill="#6E6459" text-anchor="middle">壁：血肉之身＋执念之我</text>
+<text x="34" y="220" font-size="4.5" fill="#6E6459">得之若惊</text>
+<text x="346" y="220" font-size="4.5" fill="#6E6459" text-anchor="end">失之若惊</text>
+<line x1="36" y1="250" x2="124" y2="250" stroke="#4A5C55" stroke-width="0.9" marker-end="url(#arr2)"/>
+<line x1="344" y1="250" x2="256" y2="250" stroke="#A2503B" stroke-width="0.9" marker-end="url(#arrS)"/>
+<text x="36" y="272" font-size="8.0" fill="#4A5C55">宠</text>
+<text x="344" y="272" font-size="8.0" fill="#A2503B" text-anchor="end">辱</text>
+<text x="190" y="330" font-size="4.8" fill="#A2503B" text-anchor="middle">壁晃，空不晃——被撞动的只是那层边界。</text>
+<line x1="190" y1="346" x2="190" y2="408" stroke="#DCCBB0" stroke-width="0.7"/>
+<text x="34" y="356" font-size="5.5" fill="#4A5C55">养壁</text>
+<text x="34" y="372" font-size="4.6" fill="#6E6459">实其腹，强其骨。</text>
+<text x="34" y="388" font-size="4.6" fill="#6E6459">壁要厚、要固，护得住。</text>
+<text x="214" y="356" font-size="5.5" fill="#A2503B">据壁</text>
+<text x="214" y="372" font-size="4.6" fill="#6E6459">「我必须被肯定」。</text>
+<text x="214" y="388" font-size="4.6" fill="#6E6459">壁一摇，人整个摇。</text>
+<text x="190" y="404" font-size="4.5" fill="#8A7C69" text-anchor="middle">养的是器，据的是我——差在这一处。</text>
+<rect x="20" y="422" width="340" height="44" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="190" y="438" font-size="6.0" fill="#2F2A24" text-anchor="middle">及吾无身，吾有何患。</text>
+<text x="190" y="454" font-size="5.0" fill="#4A5C55" text-anchor="middle">无身不是拆壁：壁仍在，只是不把「我」钉在上面。</text>
+<line x1="20" y1="486" x2="360" y2="486" stroke="#E6D8C2" stroke-width="0.8"/>
+<text x="20" y="500" font-size="8.0" fill="#A89577" letter-spacing="1">本 章 金 句</text>
+<text x="20" y="516" font-size="8.4" fill="#2F2A24">壁不可碎，执壁为我才碎；身不可弃，执身为我方困。</text>
+<text x="20" y="532" font-size="8.4" fill="#2F2A24">养身如养器，护壁不据壁。</text>
+</svg>

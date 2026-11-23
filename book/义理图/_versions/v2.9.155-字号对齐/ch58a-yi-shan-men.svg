@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 380 664" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="其政闷闷：闷从心从门，是心关在门里，不往外放" font-family="'Noto Serif CJK SC','Noto Serif SC','Songti SC',serif">
+<defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#6E6459"/></marker><marker id="arr2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#4A5C55"/></marker><marker id="arrL" viewBox="0 0 10 10" refX="1" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M10 0 L0 5 L10 10 z" fill="#4A5C55"/></marker><marker id="arrS" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#A2503B"/></marker></defs>
+<rect x="0" y="0" width="380" height="664" fill="#F8F3E6"/>
+<text x="20" y="26" font-size="11" fill="#A2503B" font-family="'Noto Sans CJK SC','Noto Sans SC',sans-serif" letter-spacing="3">第 五 十 八 章 · 闷</text>
+<text x="20" y="58" font-size="21" fill="#2F2A24">一扇门</text>
+<text x="20" y="78" font-size="10.5" fill="#6E6459">其政闷闷，其民淳淳。</text>
+<rect x="20" y="102" width="340" height="30" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="190" y="114" font-size="5.2" fill="#2F2A24" text-anchor="middle">「闷」，《说文》「懑也」，从心、从门——心关在门里。</text>
+<text x="190" y="126" font-size="5.2" fill="#6E6459" text-anchor="middle">「察」，《说文》「覆也」，从宀、从祭——屋顶底下，把东西盖过来再审。</text>
+<text x="24" y="146" font-size="5.4" fill="#4A5C55">一、门关着：心在门里，酒没兑水</text>
+<line x1="24" y1="254" x2="240" y2="254" stroke="#2F2A24" stroke-width="1"/>
+<rect x="56" y="162" width="60" height="92" fill="#EFE6D4" stroke="#2F2A24" stroke-width="1.2"/>
+<line x1="86" y1="162" x2="86" y2="254" stroke="#2F2A24" stroke-width="0.9"/>
+<line x1="74" y1="212" x2="74" y2="220" stroke="#2F2A24" stroke-width="1.4"/>
+<circle cx="74" cy="216" r="2" fill="#2F2A24"/>
+<line x1="88" y1="168" x2="110" y2="168" stroke="#DCCBB0" stroke-width="0.5"/>
+<line x1="88" y1="188" x2="110" y2="188" stroke="#DCCBB0" stroke-width="0.5"/>
+<line x1="88" y1="208" x2="110" y2="208" stroke="#DCCBB0" stroke-width="0.5"/>
+<line x1="88" y1="228" x2="110" y2="228" stroke="#DCCBB0" stroke-width="0.5"/>
+<ellipse cx="150" cy="230" rx="15" ry="17" fill="#EFE6D4" stroke="#2F2A24" stroke-width="1"/>
+<rect x="143" y="208" width="14" height="9" rx="2" fill="#EFE6D4" stroke="#2F2A24" stroke-width="1"/>
+<line x1="135" y1="212" x2="165" y2="212" stroke="#2F2A24" stroke-width="0.8"/>
+<text x="150" y="268" font-size="4.6" fill="#4A5C55" text-anchor="middle">淳：酒没兑水</text>
+<text x="176" y="188" font-size="4.8" fill="#4A5C55">心关在门里</text>
+<text x="176" y="200" font-size="4.4" fill="#6E6459">懂了不往外放</text>
+<text x="24" y="290" font-size="5.4" fill="#A2503B">二、盖过来审：翻一遍，割一道</text>
+<line x1="24" y1="424" x2="240" y2="424" stroke="#2F2A24" stroke-width="1"/>
+<path d="M40,336 L110,306 L180,336" fill="none" stroke="#A2503B" stroke-width="1.2"/>
+<line x1="40" y1="336" x2="180" y2="336" stroke="#A2503B" stroke-width="1"/>
+<line x1="34" y1="338" x2="34" y2="424" stroke="#DCCBB0" stroke-width="1"/>
+<line x1="186" y1="338" x2="186" y2="424" stroke="#DCCBB0" stroke-width="1"/>
+<rect x="62" y="384" width="76" height="40" fill="#F2EADA" stroke="#2F2A24" stroke-width="0.9"/>
+<line x1="70" y1="410" x2="86" y2="388" stroke="#2F2A24" stroke-width="0.7"/>
+<line x1="74" y1="412" x2="90" y2="390" stroke="#2F2A24" stroke-width="0.7"/>
+<line x1="94" y1="410" x2="110" y2="388" stroke="#2F2A24" stroke-width="0.7"/>
+<line x1="98" y1="412" x2="114" y2="390" stroke="#2F2A24" stroke-width="0.7"/>
+<line x1="118" y1="410" x2="134" y2="388" stroke="#2F2A24" stroke-width="0.7"/>
+<line x1="122" y1="412" x2="138" y2="390" stroke="#2F2A24" stroke-width="0.7"/>
+<line x1="112" y1="368" x2="112" y2="378" stroke="#A2503B" stroke-width="0.7" marker-end="url(#arrS)"/>
+<ellipse cx="208" cy="400" rx="15" ry="17" fill="#EFE6D4" stroke="#2F2A24" stroke-width="1"/>
+<rect x="201" y="378" width="14" height="9" rx="2" fill="#EFE6D4" stroke="#2F2A24" stroke-width="1"/>
+<line x1="193" y1="382" x2="223" y2="382" stroke="#2F2A24" stroke-width="0.8"/>
+<line x1="194" y1="402" x2="222" y2="402" stroke="#A2503B" stroke-width="1"/>
+<text x="208" y="438" font-size="4.6" fill="#A2503B" text-anchor="middle">缺：被割出来的</text>
+<text x="198" y="336" font-size="4.8" fill="#A2503B">一遍一遍翻着看</text>
+<text x="24" y="464" font-size="5.2" fill="#2F2A24">「闷」从心从门：心关在门里，懂了不往外放。</text>
+<text x="24" y="480" font-size="4.8" fill="#2F2A24">「察」训「覆」：屋顶底下，把东西盖过来一遍遍翻着审；越审越割。</text>
+<text x="24" y="496" font-size="5.0" fill="#4A5C55">淳通醇，是酒没兑水；上面不兑，下面才是原味。</text>
+<line x1="24" y1="514" x2="338" y2="514" stroke="#DCCBB0" stroke-width="0.6"/>
+<rect x="20" y="522" width="340" height="40" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="190" y="538" font-size="5.8" fill="#2F2A24" text-anchor="middle">闷是把心关在门里，察是盖过来翻着看；</text>
+<text x="190" y="550" font-size="6.0" fill="#4A5C55" text-anchor="middle">一个是关，一个是翻。</text>
+<line x1="20" y1="576" x2="360" y2="576" stroke="#E6D8C2" stroke-width="0.8"/>
+<text x="20" y="590" font-size="8.0" fill="#A89577" letter-spacing="1">本 章 金 句</text>
+<text x="20" y="606" font-size="8.4" fill="#2F2A24">闷是把心关在门里，察是盖过来翻着看；一个是关，一个是翻。</text>
+</svg>

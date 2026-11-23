@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 380 738" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="俗人昭昭，我独昏昏：举灯照人" font-family="'Noto Serif CJK SC','Noto Serif SC','Songti SC',serif">
+<defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#6E6459"/></marker><marker id="arr2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#4A5C55"/></marker><marker id="arrL" viewBox="0 0 10 10" refX="1" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M10 0 L0 5 L10 10 z" fill="#4A5C55"/></marker><marker id="arrS" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#A2503B"/></marker></defs>
+<rect x="0" y="0" width="380" height="738" fill="#F8F3E6"/>
+<text x="20" y="26" font-size="11" fill="#A2503B" font-family="'Noto Sans CJK SC','Noto Sans SC',sans-serif" letter-spacing="3">第 二 十 章 · 昭 与 昏</text>
+<text x="20" y="58" font-size="21" fill="#2F2A24">举灯照人</text>
+<text x="20" y="78" font-size="10.5" fill="#6E6459">俗人昭昭，我独昏昏；俗人察察，我独闷闷。</text>
+<rect x="20" y="102" width="340" height="34" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="190" y="114" font-size="4.8" fill="#2F2A24" text-anchor="middle">昭昭是向外自证正确，察察是拿灯去照人、挑人。</text>
+<text x="190" y="127" font-size="4.8" fill="#6E6459" text-anchor="middle">昏昏闷闷不是糊涂，是不举这盏灯。</text>
+<rect x="26" y="150" width="328" height="176" fill="#FBF6EC" stroke="#DCCBB0" stroke-width="0.8"/>
+<circle cx="126" cy="254" r="3.4" fill="none" stroke="#2F2A24" stroke-width="0.9"/>
+<line x1="126" y1="258" x2="126" y2="282" stroke="#2F2A24" stroke-width="1.0"/>
+<line x1="126" y1="282" x2="121" y2="298" stroke="#2F2A24" stroke-width="0.9"/>
+<line x1="126" y1="282" x2="131" y2="298" stroke="#2F2A24" stroke-width="0.9"/>
+<line x1="126" y1="264" x2="142" y2="242" stroke="#2F2A24" stroke-width="1.0"/>
+<line x1="126" y1="264" x2="117" y2="276" stroke="#2F2A24" stroke-width="0.8"/>
+<path d="M133,242 q9,7 18,0 Z" fill="#E4D8BF" stroke="#2F2A24" stroke-width="0.8"/>
+<ellipse cx="142" cy="242" rx="9" ry="2.6" fill="#EFE6D4" stroke="#2F2A24" stroke-width="0.7"/>
+<path d="M142,241 q-3.5,-5 0,-10 q3.5,5 0,10" fill="none" stroke="#A2503B" stroke-width="1.0"/>
+<path d="M142,242 L232,250 L254,274 L148,248 Z" fill="#F2EADA" stroke="none" opacity="0.75"/>
+<path d="M142,242 L232,250" fill="none" stroke="#DCCBB0" stroke-width="0.6"/>
+<path d="M142,242 L254,274" fill="none" stroke="#DCCBB0" stroke-width="0.6"/>
+<circle cx="244" cy="254" r="3.4" fill="none" stroke="#2F2A24" stroke-width="0.9"/>
+<line x1="244" y1="258" x2="244" y2="282" stroke="#2F2A24" stroke-width="1.0"/>
+<line x1="244" y1="282" x2="239" y2="298" stroke="#2F2A24" stroke-width="0.9"/>
+<line x1="244" y1="282" x2="249" y2="298" stroke="#2F2A24" stroke-width="0.9"/>
+<line x1="245" y1="264" x2="237" y2="256" stroke="#2F2A24" stroke-width="0.9"/>
+<line x1="237" y1="256" x2="239" y2="251" stroke="#2F2A24" stroke-width="0.8"/>
+<line x1="244" y1="264" x2="234" y2="278" stroke="#2F2A24" stroke-width="0.8"/>
+<text x="250" y="236" font-size="4.3" fill="#6E6459" text-anchor="middle">抬手挡了一下</text>
+<text x="190" y="174" font-size="4.5" fill="#6E6459" text-anchor="middle">灯举在手上，光落在别人脸上</text>
+<text x="190" y="316" font-size="4.4" fill="#8A7C69" text-anchor="middle">昭昭：处处显明自己是对的；察察：照人、挑人</text>
+<text x="24" y="339" font-size="5.0" fill="#A2503B">一、举灯：光照在别人脸上</text>
+<rect x="26" y="352" width="328" height="168" fill="#FBF6EC" stroke="#DCCBB0" stroke-width="0.8"/>
+<path d="M95,492 q9,7 18,0 Z" fill="#E4D8BF" stroke="#2F2A24" stroke-width="0.8"/>
+<ellipse cx="104" cy="492" rx="9" ry="2.6" fill="#EFE6D4" stroke="#2F2A24" stroke-width="0.7"/>
+<path d="M104,491 q-3.5,-5 0,-10 q3.5,5 0,10" fill="none" stroke="#A2503B" stroke-width="1.0"/>
+<ellipse cx="104" cy="492" rx="26" ry="6" fill="#F2EADA" stroke="none" opacity="0.7"/>
+<circle cx="176" cy="448" r="3.4" fill="none" stroke="#2F2A24" stroke-width="0.9"/>
+<line x1="176" y1="452" x2="176" y2="476" stroke="#2F2A24" stroke-width="1.0"/>
+<line x1="176" y1="476" x2="171" y2="492" stroke="#2F2A24" stroke-width="0.9"/>
+<line x1="176" y1="476" x2="181" y2="492" stroke="#2F2A24" stroke-width="0.9"/>
+<line x1="176" y1="458" x2="185" y2="470" stroke="#2F2A24" stroke-width="0.8"/>
+<line x1="176" y1="458" x2="167" y2="470" stroke="#2F2A24" stroke-width="0.8"/>
+<circle cx="222" cy="448" r="3.4" fill="none" stroke="#2F2A24" stroke-width="0.9"/>
+<line x1="222" y1="452" x2="222" y2="476" stroke="#2F2A24" stroke-width="1.0"/>
+<line x1="222" y1="476" x2="217" y2="492" stroke="#2F2A24" stroke-width="0.9"/>
+<line x1="222" y1="476" x2="227" y2="492" stroke="#2F2A24" stroke-width="0.9"/>
+<line x1="222" y1="458" x2="231" y2="470" stroke="#2F2A24" stroke-width="0.8"/>
+<line x1="222" y1="458" x2="213" y2="470" stroke="#2F2A24" stroke-width="0.8"/>
+<text x="104" y="508" font-size="4.3" fill="#6E6459" text-anchor="middle">灯搁在地上，只照亮脚下一小块</text>
+<text x="190" y="376" font-size="4.5" fill="#6E6459" text-anchor="middle">灯还是那盏灯，只是不举了</text>
+<text x="190" y="510" font-size="4.4" fill="#8A7C69" text-anchor="middle">没有人再被光照着</text>
+<text x="24" y="533" font-size="5.0" fill="#4A5C55">二、搁下：不再有人被光照着</text>
+<text x="24" y="552" font-size="4.9" fill="#2F2A24">孔子的察察是救弊的手段；老子警惕的，是把手段当成生命的根基。</text>
+<text x="24" y="568" font-size="4.9" fill="#2F2A24">长期以昭昭、察察为标准，会不断制造分别、苛责、伪装与表演。</text>
+<text x="24" y="586" font-size="4.9" fill="#4A5C55">昏昏闷闷是浑厚内敛：不刻意显扬，不苛细审判。</text>
+<line x1="24" y1="604" x2="338" y2="604" stroke="#DCCBB0" stroke-width="0.6"/>
+<rect x="20" y="612" width="340" height="40" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="190" y="628" font-size="5.4" fill="#2F2A24" text-anchor="middle">昭昭者怕人看不见自己对，</text>
+<text x="190" y="640" font-size="5.4" fill="#4A5C55" text-anchor="middle">昏昏者不怕人看错自己。</text>
+<line x1="20" y1="666" x2="360" y2="666" stroke="#E6D8C2" stroke-width="0.8"/>
+<text x="20" y="680" font-size="8.0" fill="#A89577" letter-spacing="1">本 章 金 句</text>
+<text x="20" y="696" font-size="8.4" fill="#2F2A24">昭昭者怕人看不见自己对，昏昏者不怕人看错自己。</text>
+<text x="20" y="712" font-size="8.4" fill="#2F2A24">灯还是那盏灯，只是不举了。</text>
+</svg>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 380 594" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="看得见两头，脚才站得稳一头" font-family="'Noto Serif CJK SC','Noto Serif SC','Songti SC',serif">
+<defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#6E6459"/></marker><marker id="arr2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#4A5C55"/></marker><marker id="arrL" viewBox="0 0 10 10" refX="1" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M10 0 L0 5 L10 10 z" fill="#4A5C55"/></marker><marker id="arrS" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#A2503B"/></marker></defs>
+<rect x="0" y="0" width="380" height="594" fill="#F8F3E6"/>
+<text x="20" y="26" font-size="11" fill="#A2503B" font-family="'Noto Sans CJK SC','Noto Sans SC',sans-serif" letter-spacing="3">第 二 十 八 章 · 知 与 守</text>
+<text x="20" y="58" font-size="21" fill="#2F2A24">知其雄</text>
+<text x="20" y="78" font-size="10.5" fill="#6E6459">知与守同时：看见了，但不往那儿去。</text>
+<rect x="20" y="102" width="340" height="34" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="190" y="114" font-size="4.7" fill="#2F2A24" text-anchor="middle">「知」是照见（第十六章「知常曰明」）；「守」是安住，不是退让。</text>
+<text x="190" y="127" font-size="4.7" fill="#6E6459">「知其雄，守其雌」不是先看后让——是看见了，同时不往那儿去。</text>
+<text x="24" y="152" font-size="5.1" fill="#A2503B">一、目光到两头，脚只在这一头</text>
+<rect x="26" y="164" width="328" height="222" fill="#FBF6EC" stroke="#DCCBB0" stroke-width="0.8"/>
+<line x1="70" y1="350" x2="330" y2="226" stroke="#2F2A24" stroke-width="1.2"/>
+<line x1="292" y1="230" x2="330" y2="230" stroke="#E6D8C2" stroke-width="1.0"/>
+<polygon points="296,230 304,218 314,218 322,230" fill="#EFE6D4" stroke="#2F2A24" stroke-width="0.9"/>
+<rect x="228" y="228" width="54" height="16" fill="#F3EAD8" stroke="#2F2A24" stroke-width="0.8"/>
+<text x="255" y="239" font-size="4.3" fill="#2F2A24" text-anchor="middle">雄·白·荣</text>
+<rect x="40" y="360" width="54" height="16" fill="#F3EAD8" stroke="#2F2A24" stroke-width="0.8"/>
+<text x="67" y="371" font-size="4.3" fill="#2F2A24" text-anchor="middle">雌·黑·辱</text>
+<circle cx="150" cy="271.8461538461538" r="5.6" fill="none" stroke="#2F2A24" stroke-width="1.0"/>
+<line x1="150" y1="277.8461538461538" x2="150" y2="301.8461538461538" stroke="#2F2A24" stroke-width="1.2"/>
+<line x1="150" y1="301.8461538461538" x2="144" y2="311.8461538461538" stroke="#2F2A24" stroke-width="1.0"/>
+<line x1="150" y1="301.8461538461538" x2="156" y2="311.8461538461538" stroke="#2F2A24" stroke-width="1.0"/>
+<line x1="150" y1="285.8461538461538" x2="143" y2="297.8461538461538" stroke="#2F2A24" stroke-width="0.9"/>
+<line x1="150" y1="285.8461538461538" x2="157" y2="297.8461538461538" stroke="#2F2A24" stroke-width="0.9"/>
+<line x1="150" y1="267.8461538461538" x2="255" y2="238" stroke="#A2503B" stroke-width="0.6" stroke-dasharray="3 3" opacity="0.75"/>
+<line x1="150" y1="267.8461538461538" x2="67" y2="362" stroke="#A2503B" stroke-width="0.6" stroke-dasharray="3 3" opacity="0.75"/>
+<rect x="146" y="310.8461538461538" width="8" height="3.2" fill="#A2503B" stroke="none" opacity="0.55"/>
+<text x="162" y="322.8461538461538" font-size="3.9" fill="#A2503B">脚在这儿</text>
+<text x="150" y="259.8461538461538" font-size="3.9" fill="#A2503B" text-anchor="middle">眼到两头</text>
+<text x="24" y="408" font-size="4.8" fill="#2F2A24">权谋的守是暂存，目的在取；心法的守是安住，目的不在取。</text>
+<text x="24" y="424" font-size="4.8" fill="#2F2A24">知不必通向取——所以守不是让，是不必取。</text>
+<text x="24" y="442" font-size="4.8" fill="#4A5C55">一显，就成了特例；特例不能当范式。</text>
+<line x1="24" y1="460" x2="338" y2="460" stroke="#DCCBB0" stroke-width="0.6"/>
+<rect x="20" y="468" width="340" height="40" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="190" y="484" font-size="6.0" fill="#2F2A24" text-anchor="middle">知而不必，是心法；知而让，是权谋。</text>
+<text x="190" y="496" font-size="5.0" fill="#4A5C55" text-anchor="middle">守不是没本事上去，是有本事，但不往那儿去。</text>
+<line x1="20" y1="522" x2="360" y2="522" stroke="#E6D8C2" stroke-width="0.8"/>
+<text x="20" y="536" font-size="8.0" fill="#A89577" letter-spacing="1">本 章 金 句</text>
+<text x="20" y="552" font-size="8.4" fill="#2F2A24">装弱是权谋，守雌是心法；权谋是知而让，心法是知而不必。</text>
+<text x="20" y="568" font-size="8.4" fill="#2F2A24">一显，就成了特例；特例不能当范式。</text>
+</svg>

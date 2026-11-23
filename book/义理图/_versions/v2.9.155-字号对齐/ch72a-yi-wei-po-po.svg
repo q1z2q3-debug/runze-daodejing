@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 380 712" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="威从女从戌：一位坐堂的婆婆，斧备着不用；斧一落下，威就没了" font-family="'Noto Serif CJK SC','Noto Serif SC','Songti SC',serif">
+<defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#6E6459"/></marker><marker id="arr2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#4A5C55"/></marker><marker id="arrL" viewBox="0 0 10 10" refX="1" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M10 0 L0 5 L10 10 z" fill="#4A5C55"/></marker><marker id="arrS" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#A2503B"/></marker></defs>
+<rect x="0" y="0" width="380" height="712" fill="#F8F3E6"/>
+<text x="20" y="26" font-size="11" fill="#A2503B" font-family="'Noto Sans CJK SC','Noto Sans SC',sans-serif" letter-spacing="3">第 七 十 二 章 · 威</text>
+<text x="20" y="58" font-size="21" fill="#2F2A24">一位坐堂的婆婆</text>
+<text x="20" y="78" font-size="10.5" fill="#6E6459">民不畏威，则大威至。</text>
+<rect x="20" y="102" width="340" height="32" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="190" y="114" font-size="4.7" fill="#2F2A24" text-anchor="middle">「威」，《说文》「姑也」，从女从戌——戌是斧：一个女人，手里备着一把斧。</text>
+<text x="190" y="127" font-size="4.7" fill="#6E6459" text-anchor="middle">她不说话，全家不敢出声：这就是威的原型。</text>
+<text x="24" y="150" font-size="4.8" fill="#4A5C55">一、备而不用：堂上不动，屋里自静</text>
+<rect x="26" y="162" width="328" height="146" fill="#FBF6EC" stroke="#DCCBB0" stroke-width="0.8"/>
+<rect x="88" y="268" width="110" height="8" fill="#DED2B8" stroke="#2F2A24" stroke-width="0.7"/>
+<rect x="78" y="260" width="130" height="8" fill="#DED2B8" stroke="#2F2A24" stroke-width="0.7"/>
+<rect x="68" y="252" width="150" height="8" fill="#DED2B8" stroke="#2F2A24" stroke-width="0.7"/>
+<circle cx="148" cy="218" r="7" fill="none" stroke="#2F2A24" stroke-width="1"/>
+<path d="M136,228 L160,228 L162,258 L134,258 Z" fill="#EFE6D4" stroke="#2F2A24" stroke-width="1"/>
+<text x="150" y="298" font-size="4.2" fill="#6E6459" text-anchor="middle">坐堂</text>
+<line x1="212" y1="278" x2="212" y2="222" stroke="#2F2A24" stroke-width="1.4"/>
+<path d="M210,214 L232,210 Q244,224 232,242 L210,236 Z" fill="#DED2B8" stroke="#2F2A24" stroke-width="1"/>
+<line x1="230" y1="212" x2="230" y2="240" stroke="#2F2A24" stroke-width="0.6" opacity="0.7"/>
+<text x="216" y="300" font-size="4.2" fill="#A2503B" text-anchor="middle">斧备着</text>
+<circle cx="238" cy="246" r="5" fill="none" stroke="#2F2A24" stroke-width="0.9"/>
+<path d="M230,253 L246,253 L247,274 L229,274 Z" fill="#EFE6D4" stroke="#2F2A24" stroke-width="0.9"/>
+<circle cx="268" cy="246" r="5" fill="none" stroke="#2F2A24" stroke-width="0.9"/>
+<path d="M260,253 L276,253 L277,274 L259,274 Z" fill="#EFE6D4" stroke="#2F2A24" stroke-width="0.9"/>
+<circle cx="298" cy="246" r="5" fill="none" stroke="#2F2A24" stroke-width="0.9"/>
+<path d="M290,253 L306,253 L307,274 L289,274 Z" fill="#EFE6D4" stroke="#2F2A24" stroke-width="0.9"/>
+<text x="286" y="294" font-size="4.2" fill="#6E6459" text-anchor="middle">不出一声</text>
+<line x1="34" y1="278" x2="330" y2="278" stroke="#2F2A24" stroke-width="1"/>
+<text x="190" y="324" font-size="4.6" fill="#4A5C55" text-anchor="middle">斧没动，声先低：不说话的那位，才让满屋的人不敢出声</text>
+<text x="24" y="346" font-size="4.8" fill="#A2503B">二、斧一落：就只剩打人，威也就没了</text>
+<rect x="26" y="358" width="328" height="150" fill="#FBF6EC" stroke="#DCCBB0" stroke-width="0.8"/>
+<rect x="88" y="464" width="110" height="8" fill="#DED2B8" stroke="#2F2A24" stroke-width="0.7"/>
+<rect x="78" y="456" width="130" height="8" fill="#DED2B8" stroke="#2F2A24" stroke-width="0.7"/>
+<rect x="68" y="448" width="150" height="8" fill="#DED2B8" stroke="#2F2A24" stroke-width="0.7"/>
+<circle cx="148" cy="402" r="7" fill="none" stroke="#2F2A24" stroke-width="1"/>
+<path d="M136,412 L160,412 L162,442 L134,442 Z" fill="#EFE6D4" stroke="#2F2A24" stroke-width="1"/>
+<line x1="160" y1="416" x2="182" y2="396" stroke="#2F2A24" stroke-width="1"/>
+<line x1="182" y1="396" x2="188" y2="372" stroke="#2F2A24" stroke-width="1.4"/>
+<path d="M186,366 L206,362 Q220,378 206,394 L186,388 Z" fill="#A2503B" fill-opacity="0.3" stroke="#A2503B" stroke-width="1"/>
+<circle cx="236" cy="438" r="5" fill="none" stroke="#2F2A24" stroke-width="0.9"/>
+<path d="M228,445 L244,445 L245,466 L227,466 Z" fill="#EFE6D4" stroke="#2F2A24" stroke-width="0.9"/>
+<line x1="224" y1="450" x2="214" y2="442" stroke="#2F2A24" stroke-width="0.9"/>
+<circle cx="274" cy="438" r="5" fill="none" stroke="#2F2A24" stroke-width="0.9"/>
+<path d="M266,445 L282,445 L283,466 L265,466 Z" fill="#EFE6D4" stroke="#2F2A24" stroke-width="0.9"/>
+<line x1="286" y1="450" x2="296" y2="442" stroke="#2F2A24" stroke-width="0.9"/>
+<circle cx="306" cy="438" r="5" fill="none" stroke="#2F2A24" stroke-width="0.9"/>
+<path d="M298,445 L314,445 L315,466 L297,466 Z" fill="#EFE6D4" stroke="#2F2A24" stroke-width="0.9"/>
+<line x1="318" y1="450" x2="328" y2="442" stroke="#2F2A24" stroke-width="0.9"/>
+<line x1="220" y1="420" x2="232" y2="412" stroke="#A2503B" stroke-width="1.0" marker-end="url(#arrS)"/>
+<line x1="34" y1="470" x2="330" y2="470" stroke="#2F2A24" stroke-width="1"/>
+<text x="190" y="526" font-size="4.6" fill="#4A5C55" text-anchor="middle">斧一落下，屋里就只剩躲与还手：被怕的那位，不再坐得住</text>
+<text x="24" y="542" font-size="4.8" fill="#2F2A24">「民不畏威，则大威至」：不是他们要来打，是那个家自己在散。</text>
+<text x="24" y="558" font-size="4.8" fill="#2F2A24">威靠的是「我在这儿」这一件事；一动手，就换成「我打得过你」。</text>
+<text x="24" y="576" font-size="5.0" fill="#4A5C55">前者不用斧，后者只剩斧——所以威亡在用斧那一年。</text>
+<line x1="24" y1="592" x2="338" y2="592" stroke="#DCCBB0" stroke-width="0.6"/>
+<rect x="20" y="600" width="340" height="40" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="190" y="615" font-size="5.4" fill="#2F2A24" text-anchor="middle">威从女从戌，戌者斧也；斧备而不用，用则威亡。</text>
+<text x="190" y="628" font-size="4.7" fill="#4A5C55" text-anchor="middle">坐在那儿不动的那位，才叫威；一动，就只剩打。</text>
+<line x1="20" y1="654" x2="360" y2="654" stroke="#E6D8C2" stroke-width="0.8"/>
+<text x="20" y="668" font-size="8.0" fill="#A89577" letter-spacing="1">本 章 金 句</text>
+<text x="20" y="684" font-size="8.4" fill="#2F2A24">威从女从戌，戌者斧也；《说文》曰「姑也」——姑者，妇之尊长。</text>
+<text x="20" y="700" font-size="8.4" fill="#2F2A24">斧备而不用，用则威亡；用斧者为人所还，还则堂不能安。</text>
+</svg>

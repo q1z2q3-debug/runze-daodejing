@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 380 694" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="静为躁君：躁不是动，是失了主" font-family="'Noto Serif CJK SC','Noto Serif SC','Songti SC',serif">
+<defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#6E6459"/></marker><marker id="arr2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#4A5C55"/></marker><marker id="arrL" viewBox="0 0 10 10" refX="1" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M10 0 L0 5 L10 10 z" fill="#4A5C55"/></marker><marker id="arrS" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#A2503B"/></marker></defs>
+<rect x="0" y="0" width="380" height="694" fill="#F8F3E6"/>
+<text x="20" y="26" font-size="11" fill="#A2503B" font-family="'Noto Sans CJK SC','Noto Sans SC',sans-serif" letter-spacing="3">第 二 十 六 章 · 一 盆 水</text>
+<text x="20" y="58" font-size="21" fill="#2F2A24">一盆水</text>
+<text x="20" y="78" font-size="10.5" fill="#6E6459">静为躁君。</text>
+<rect x="20" y="102" width="340" height="34" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="190" y="114" font-size="4.7" fill="#2F2A24" text-anchor="middle">「君」是主：静是主，躁是从。不是不动，是有个做主的地方。</text>
+<text x="190" y="127" font-size="4.7" fill="#6E6459">水一静，就照得见；一搅，就什么都照不成。</text>
+<text x="24" y="152" font-size="5.1" fill="#4A5C55">一、静水：水面平，倒影完整，能照人</text>
+<rect x="26" y="164" width="328" height="152" fill="#FBF6EC" stroke="#DCCBB0" stroke-width="0.8"/>
+<path d="M96,210 L104,276 L228,276 L236,210 Z" fill="#E9F0E6" stroke="#2F2A24" stroke-width="1.1"/>
+<ellipse cx="166.0" cy="210" rx="70.0" ry="7" fill="#F8F3E6" stroke="#2F2A24" stroke-width="1.0"/>
+<line x1="102" y1="220" x2="230" y2="220" stroke="#4A5C55" stroke-width="0.6"/>
+<circle cx="166.0" cy="244" r="9" fill="none" stroke="#6E6459" stroke-width="0.8" opacity="0.75"/>
+<path d="M157.0,244 q9,-6 18,0" fill="none" stroke="#6E6459" stroke-width="0.6" opacity="0.6"/>
+<text x="166.0" y="268" font-size="3.8" fill="#6E6459" text-anchor="middle">倒影完整</text>
+<text x="190" y="294" font-size="4.1" fill="#4A5C55" text-anchor="middle">静下来，才照得见自己；这不是修养，是水面本来的功能</text>
+<text x="24" y="342" font-size="5.1" fill="#A2503B">二、搅动：水浑了，倒影碎成几段</text>
+<rect x="26" y="354" width="328" height="152" fill="#FBF6EC" stroke="#DCCBB0" stroke-width="0.8"/>
+<path d="M96,400 L104,466 L228,466 L236,400 Z" fill="#DCD5C2" stroke="#2F2A24" stroke-width="1.1"/>
+<ellipse cx="166.0" cy="400" rx="70.0" ry="7" fill="#F8F3E6" stroke="#2F2A24" stroke-width="1.0"/>
+<line x1="116" y1="382" x2="136" y2="414" stroke="#2F2A24" stroke-width="1.2"/>
+<circle cx="118" cy="376" r="2.6" fill="none" stroke="#2F2A24" stroke-width="0.8"/>
+<path d="M122,410 q28,-10 56,2 q28,12 56,-2" fill="none" stroke="#8A7C69" stroke-width="0.7"/>
+<path d="M126,428 q28,-10 56,2 q28,12 56,-2" fill="none" stroke="#8A7C69" stroke-width="0.7"/>
+<path d="M146.0,432 q9,-5 16,1" fill="none" stroke="#5F564A" stroke-width="0.7"/>
+<path d="M168.0,440 q9,-5 16,1" fill="none" stroke="#5F564A" stroke-width="0.7"/>
+<path d="M152.0,450 q9,-5 16,1" fill="none" stroke="#5F564A" stroke-width="0.7"/>
+<text x="166.0" y="484" font-size="4.1" fill="#A2503B" text-anchor="middle">倒影碎了：不是水变了，是它失了平</text>
+<text x="24" y="524" font-size="4.8" fill="#2F2A24">「静为躁君」：不是把躁压下去，是回到那个能照见的地方。</text>
+<text x="24" y="540" font-size="4.8" fill="#2F2A24">水静不是死水：水还是水，只是不起浪；人静也是一样，事还照做。</text>
+<text x="24" y="558" font-size="4.8" fill="#4A5C55">轻则失根，躁则失君：失了主，剩下的全是反应。</text>
+<line x1="24" y1="576" x2="338" y2="576" stroke="#DCCBB0" stroke-width="0.6"/>
+<rect x="20" y="584" width="340" height="40" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="190" y="600" font-size="5.4" fill="#2F2A24" text-anchor="middle">静不是把动按住，是动从哪儿发。</text>
+<text x="190" y="612" font-size="4.4" fill="#4A5C55" text-anchor="middle">水一静，什么都照得成；一搅，碎的先是自己。</text>
+<line x1="20" y1="638" x2="360" y2="638" stroke="#E6D8C2" stroke-width="0.8"/>
+<text x="20" y="652" font-size="8.0" fill="#A89577" letter-spacing="1">本 章 金 句</text>
+<text x="20" y="668" font-size="8.4" fill="#2F2A24">静不是不动，静是动的发令处。</text>
+</svg>

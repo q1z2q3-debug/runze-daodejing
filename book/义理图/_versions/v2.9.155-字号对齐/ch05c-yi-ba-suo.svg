@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 380 852" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="多言数穷：支点钉在三处，三处都不出风" font-family="'Noto Serif CJK SC','Noto Serif SC','Songti SC',serif">
+<defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#6E6459"/></marker><marker id="arr2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#4A5C55"/></marker><marker id="arrL" viewBox="0 0 10 10" refX="1" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M10 0 L0 5 L10 10 z" fill="#4A5C55"/></marker><marker id="arrS" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#A2503B"/></marker></defs>
+<rect x="0" y="0" width="380" height="852" fill="#F8F3E6"/>
+<text x="20" y="26" font-size="11" fill="#A2503B" font-family="'Noto Sans CJK SC','Noto Sans SC',sans-serif" letter-spacing="3">第 五 章 · 三 钉</text>
+<text x="20" y="58" font-size="21" fill="#2F2A24">一把钉</text>
+<text x="20" y="78" font-size="10.5" fill="#6E6459">多言数穷，不如守中。</text>
+<rect x="20" y="102" width="340" height="36" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="190" y="115" font-size="5.0" fill="#2F2A24" text-anchor="middle">多言不只是话多：一切定义、评判、谋划、控制，都是把支点钉死。</text>
+<text x="190" y="130" font-size="5.0" fill="#6E6459" text-anchor="middle">钉在 0 的空寂、钉在 1 的驰求、钉在自以为稳妥的中间——三种钉法，一个结果。</text>
+<rect x="22" y="156" width="336" height="150" fill="#FBF6EC" stroke="#DCCBB0" stroke-width="1.0"/>
+<rect x="55" y="182" width="8" height="82" fill="#DBCCB1" stroke="#BEA98A" stroke-width="0.6"/>
+<rect x="62" y="186" width="206" height="74" fill="#FBF6EC" stroke="#2F2A24" stroke-width="1.2"/>
+<rect x="268" y="208" width="26" height="22" fill="#FBF6EC" stroke="#2F2A24" stroke-width="1"/>
+<line x1="294" y1="225" x2="306" y2="213" stroke="#A2503B" stroke-width="1.1"/>
+<line x1="294" y1="213" x2="306" y2="225" stroke="#A2503B" stroke-width="1.1"/>
+<text x="312" y="224" font-size="8.2" fill="#A2503B">一线风也无</text>
+<rect x="64" y="190" width="14" height="66" fill="#CFC3AC" stroke="#2F2A24" stroke-width="0.9"/>
+<line x1="71" y1="170" x2="71" y2="192" stroke="#A2503B" stroke-width="1.5"/>
+<line x1="55" y1="170" x2="87" y2="170" stroke="#A2503B" stroke-width="1.5"/>
+<text x="71" y="164" font-size="8" fill="#A2503B" text-anchor="middle">钉</text>
+<text x="190" y="290" font-size="8.6" fill="#6E6459" text-anchor="middle">钉在 0：腔里最空，风一动不动</text>
+<rect x="22" y="322" width="336" height="150" fill="#FBF6EC" stroke="#DCCBB0" stroke-width="1.0"/>
+<rect x="55" y="348" width="8" height="82" fill="#DBCCB1" stroke="#BEA98A" stroke-width="0.6"/>
+<rect x="62" y="352" width="206" height="74" fill="#FBF6EC" stroke="#2F2A24" stroke-width="1.2"/>
+<rect x="268" y="374" width="26" height="22" fill="#FBF6EC" stroke="#2F2A24" stroke-width="1"/>
+<line x1="294" y1="391" x2="306" y2="379" stroke="#A2503B" stroke-width="1.1"/>
+<line x1="294" y1="379" x2="306" y2="391" stroke="#A2503B" stroke-width="1.1"/>
+<text x="312" y="390" font-size="8.2" fill="#A2503B">一线风也无</text>
+<rect x="252" y="356" width="14" height="66" fill="#CFC3AC" stroke="#2F2A24" stroke-width="0.9"/>
+<line x1="259" y1="336" x2="259" y2="358" stroke="#A2503B" stroke-width="1.5"/>
+<line x1="243" y1="336" x2="275" y2="336" stroke="#A2503B" stroke-width="1.5"/>
+<text x="259" y="330" font-size="8" fill="#A2503B" text-anchor="middle">钉</text>
+<text x="190" y="456" font-size="8.6" fill="#6E6459" text-anchor="middle">钉在 1：拉得最满，也一动不动</text>
+<rect x="22" y="488" width="336" height="150" fill="#FBF6EC" stroke="#DCCBB0" stroke-width="1.0"/>
+<rect x="55" y="514" width="8" height="82" fill="#DBCCB1" stroke="#BEA98A" stroke-width="0.6"/>
+<rect x="62" y="518" width="206" height="74" fill="#FBF6EC" stroke="#2F2A24" stroke-width="1.2"/>
+<rect x="268" y="540" width="26" height="22" fill="#FBF6EC" stroke="#2F2A24" stroke-width="1"/>
+<line x1="294" y1="557" x2="306" y2="545" stroke="#A2503B" stroke-width="1.1"/>
+<line x1="294" y1="545" x2="306" y2="557" stroke="#A2503B" stroke-width="1.1"/>
+<text x="312" y="556" font-size="8.2" fill="#A2503B">一线风也无</text>
+<rect x="158" y="522" width="14" height="66" fill="#CFC3AC" stroke="#2F2A24" stroke-width="0.9"/>
+<line x1="165" y1="502" x2="165" y2="524" stroke="#A2503B" stroke-width="1.5"/>
+<line x1="149" y1="502" x2="181" y2="502" stroke="#A2503B" stroke-width="1.5"/>
+<text x="165" y="496" font-size="8" fill="#A2503B" text-anchor="middle">钉</text>
+<text x="190" y="622" font-size="8.6" fill="#6E6459" text-anchor="middle">钉在 0.5：天平看着最平，风箱最死</text>
+<text x="24" y="666" font-size="5.4" fill="#2F2A24">锁不是外物，是人自己那本账：要他一定这样、一定那样，把活的支点浇成死的刻度。</text>
+<text x="24" y="682" font-size="5.4" fill="#2F2A24">「数穷」不是没钱，是路走到头——枢一钉死，器再贵也只是个壳。</text>
+<text x="24" y="700" font-size="5.2" fill="#4A5C55">守中不是找一个好位置站住，是随时肯挪；能挪的，才叫中。</text>
+<line x1="24" y1="718" x2="338" y2="718" stroke="#DCCBB0" stroke-width="0.6"/>
+<rect x="20" y="726" width="340" height="40" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="190" y="742" font-size="6.0" fill="#2F2A24" text-anchor="middle">执一则穷，守中则通</text>
+<text x="190" y="754" font-size="6.0" fill="#4A5C55" text-anchor="middle">枢不死，机才活。</text>
+<line x1="20" y1="780" x2="360" y2="780" stroke="#E6D8C2" stroke-width="0.8"/>
+<text x="20" y="794" font-size="8.0" fill="#A89577" letter-spacing="1">本 章 金 句</text>
+<text x="20" y="810" font-size="8.4" fill="#2F2A24">多言数穷，不如守中。</text>
+<text x="20" y="826" font-size="8.4" fill="#2F2A24">穷者，路走到头也；钉在 0、钉在 1、钉在自以为稳的正中——枢不动，机就死。</text>
+</svg>

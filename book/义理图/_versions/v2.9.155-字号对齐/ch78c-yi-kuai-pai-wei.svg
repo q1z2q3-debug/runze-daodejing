@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 380 726" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="接过土的，才配当它的主" font-family="'Noto Serif CJK SC','Noto Serif SC','Songti SC',serif">
+<defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#6E6459"/></marker><marker id="arr2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#4A5C55"/></marker><marker id="arrL" viewBox="0 0 10 10" refX="1" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M10 0 L0 5 L10 10 z" fill="#4A5C55"/></marker><marker id="arrS" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#A2503B"/></marker></defs>
+<rect x="0" y="0" width="380" height="726" fill="#F8F3E6"/>
+<text x="20" y="26" font-size="11" fill="#A2503B" font-family="'Noto Sans CJK SC','Noto Sans SC',sans-serif" letter-spacing="3">第 七 十 八 章 · 社</text>
+<text x="20" y="58" font-size="21" fill="#2F2A24">一块牌位</text>
+<text x="20" y="78" font-size="10.5" fill="#6E6459">受国不祥，是为天下王。</text>
+<rect x="20" y="102" width="340" height="32" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="190" y="114" font-size="4.7" fill="#2F2A24" text-anchor="middle">社，《说文》「地主也」，从示土——土神也。</text>
+<text x="190" y="127" font-size="4.4" fill="#6E6459" text-anchor="middle">垢从土，社亦从土：一污一神；以污之一面自受，而后为神之一面之主。</text>
+<text x="24" y="150" font-size="4.8" fill="#A2503B">一、土：先是一捧土</text>
+<rect x="26" y="162" width="328" height="152" fill="#FBF6EC" stroke="#DCCBB0" stroke-width="0.8"/>
+<line x1="34" y1="296" x2="330" y2="296" stroke="#2F2A24" stroke-width="1"/>
+<path d="M96,296 Q120,258 150,254 Q182,258 206,296 Z" fill="#DED2B8" stroke="#2F2A24" stroke-width="1.2"/>
+<circle cx="112" cy="282" r="1.3" fill="#B9A98F"/>
+<circle cx="126" cy="272" r="1.3" fill="#B9A98F"/>
+<circle cx="140" cy="262" r="1.3" fill="#B9A98F"/>
+<circle cx="154" cy="282" r="1.3" fill="#B9A98F"/>
+<circle cx="168" cy="272" r="1.3" fill="#B9A98F"/>
+<circle cx="182" cy="262" r="1.3" fill="#B9A98F"/>
+<path d="M84,274 Q100,288 116,274" fill="#EFE6D4" stroke="#2F2A24" stroke-width="1"/>
+<path d="M190,274 Q206,288 222,274" fill="#EFE6D4" stroke="#2F2A24" stroke-width="1"/>
+<line x1="92" y1="276" x2="91" y2="268" stroke="#2F2A24" stroke-width="0.8"/>
+<line x1="198" y1="276" x2="197" y2="268" stroke="#2F2A24" stroke-width="0.8"/>
+<line x1="100" y1="276" x2="99" y2="268" stroke="#2F2A24" stroke-width="0.8"/>
+<line x1="206" y1="276" x2="205" y2="268" stroke="#2F2A24" stroke-width="0.8"/>
+<text x="150" y="240" font-size="4.4" fill="#A2503B" text-anchor="middle">一捧土</text>
+<text x="252" y="266" font-size="4.3" fill="#A2503B">垢就是土：</text>
+<text x="252" y="278" font-size="4.3" fill="#6E6459">最脏的那一面</text>
+<text x="190" y="330" font-size="4.6" fill="#4A5C55" text-anchor="middle">土是最贱的东西：踩在脚下，也落在衣上</text>
+<text x="24" y="354" font-size="4.8" fill="#4A5C55">二、同一捧土，立成社主</text>
+<rect x="26" y="366" width="328" height="152" fill="#FBF6EC" stroke="#DCCBB0" stroke-width="0.8"/>
+<line x1="34" y1="500" x2="330" y2="500" stroke="#2F2A24" stroke-width="1"/>
+<rect x="128" y="492" width="64" height="9" fill="#DED2B8" stroke="#2F2A24" stroke-width="1"/>
+<rect x="144" y="412" width="32" height="80" fill="#EFE6D4" stroke="#2F2A24" stroke-width="1.2"/>
+<rect x="150" y="406" width="20" height="7" fill="#DED2B8" stroke="#2F2A24" stroke-width="1"/>
+<text x="160" y="458" font-size="15" fill="#A2503B" text-anchor="middle">社</text>
+<path d="M144,482 q16,-6 32,0" fill="none" stroke="#B9A98F" stroke-width="1"/>
+<text x="196" y="432" font-size="4.3" fill="#A2503B">接过土的，</text>
+<text x="196" y="444" font-size="4.3" fill="#A2503B">才配当它的主</text>
+<text x="190" y="534" font-size="4.6" fill="#4A5C55" text-anchor="middle">土神不是另请一位：是把接过的那捧土立起来</text>
+<text x="24" y="558" font-size="4.8" fill="#2F2A24">受垢者不是不脏：是脏过之后还立得住，于是那块土立成了他的位。</text>
+<text x="24" y="574" font-size="4.8" fill="#2F2A24">受不祥者，自置于羊之位也：羊在神主之前，先被牵去。</text>
+<text x="24" y="592" font-size="5.0" fill="#4A5C55">垢从土，社从土：一污一神，同一块土。</text>
+<line x1="24" y1="610" x2="338" y2="610" stroke="#DCCBB0" stroke-width="0.6"/>
+<rect x="20" y="618" width="340" height="40" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="190" y="633" font-size="5.4" fill="#2F2A24" text-anchor="middle">受国不祥，是为天下王。</text>
+<text x="190" y="646" font-size="4.7" fill="#4A5C55" text-anchor="middle">社者，地主也，从示土。</text>
+<line x1="20" y1="674" x2="360" y2="674" stroke="#E6D8C2" stroke-width="0.8"/>
+<text x="20" y="688" font-size="8.0" fill="#A89577" letter-spacing="1">本 章 金 句</text>
+<text x="20" y="704" font-size="8.4" fill="#2F2A24">受国不祥，是为天下王。</text>
+<text x="20" y="720" font-size="8.4" fill="#2F2A24">社者，《说文》曰「地主也」，从示土——土神也。</text>
+</svg>

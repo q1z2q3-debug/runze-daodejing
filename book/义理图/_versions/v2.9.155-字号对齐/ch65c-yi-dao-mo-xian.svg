@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 380 586" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="稽式是木工弹的那道线：它不评价木头，只让木头看见自己" font-family="'Noto Serif CJK SC','Noto Serif SC','Songti SC',serif">
+<defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#6E6459"/></marker><marker id="arr2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#4A5C55"/></marker><marker id="arrL" viewBox="0 0 10 10" refX="1" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M10 0 L0 5 L10 10 z" fill="#4A5C55"/></marker><marker id="arrS" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#A2503B"/></marker></defs>
+<rect x="0" y="0" width="380" height="586" fill="#F8F3E6"/>
+<text x="20" y="26" font-size="11" fill="#A2503B" font-family="'Noto Sans CJK SC','Noto Sans SC',sans-serif" letter-spacing="3">第 六 十 五 章 · 稽</text>
+<text x="20" y="58" font-size="21" fill="#2F2A24">一道墨线</text>
+<text x="20" y="78" font-size="10.5" fill="#6E6459">知此两者亦稽式。</text>
+<rect x="20" y="102" width="340" height="30" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="190" y="114" font-size="5.0" fill="#2F2A24" text-anchor="middle">「稽」，《说文》「留止也」，又有「考」义：稽式，是拿来校量的那个样式。</text>
+<text x="190" y="126" font-size="4.9" fill="#6E6459" text-anchor="middle">木工弹墨线：线一响，歪的木头自己就显出来了。</text>
+<text x="24" y="148" font-size="4.8" fill="#A2503B">一、木上一道线，木头自己看见自己</text>
+<path d="M120,250 L160,244 L200,254 L240,244 L252,250 L252,282 L120,282 Z" fill="#EFE6D4" stroke="#2F2A24" stroke-width="1.2"/>
+<line x1="116" y1="282" x2="256" y2="282" stroke="#2F2A24" stroke-width="1.2"/>
+<line x1="128" y1="262" x2="244" y2="262" stroke="#DCCBB0" stroke-width="0.5"/>
+<line x1="128" y1="269" x2="244" y2="269" stroke="#DCCBB0" stroke-width="0.5"/>
+<line x1="128" y1="276" x2="244" y2="276" stroke="#DCCBB0" stroke-width="0.5"/>
+<line x1="106" y1="228" x2="266" y2="228" stroke="#2F2A24" stroke-width="1.6"/>
+<rect x="98" y="222" width="14" height="12" fill="#F6EFE0" stroke="#2F2A24" stroke-width="1"/>
+<rect x="260" y="222" width="14" height="12" fill="#F6EFE0" stroke="#2F2A24" stroke-width="1"/>
+<line x1="160" y1="228" x2="160" y2="244" stroke="#A2503B" stroke-width="0.9" stroke-dasharray="2 2"/>
+<line x1="240" y1="228" x2="240" y2="244" stroke="#A2503B" stroke-width="0.9" stroke-dasharray="2 2"/>
+<text x="186" y="216" font-size="4.6" fill="#A2503B" text-anchor="middle">线是直的，木是歪的——差多少，一眼看见</text>
+<text x="186" y="300" font-size="4.6" fill="#6E6459" text-anchor="middle">线不评价这块木头，它只把差处显出来</text>
+<text x="24" y="322" font-size="4.8" fill="#2F2A24">稽式不是尺子上的刻度，是弹出来的那一道线：留在木上，木头自己就看见了。</text>
+<text x="24" y="338" font-size="4.9" fill="#2F2A24">知此两者亦稽式——「以智治国」与「不以智治国」，就是这一道线。</text>
+<text x="24" y="356" font-size="5.0" fill="#4A5C55">常知稽式，是谓玄德：常拿它量自己，不拿它去量别人。</text>
+<line x1="24" y1="374" x2="338" y2="374" stroke="#DCCBB0" stroke-width="0.6"/>
+<rect x="20" y="382" width="340" height="40" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="190" y="398" font-size="5.4" fill="#2F2A24" text-anchor="middle">稽式是木工弹的那道线：它不评价，只显出来；</text>
+<text x="190" y="410" font-size="5.2" fill="#4A5C55" text-anchor="middle">常知稽式，是谓玄德。</text>
+<line x1="20" y1="436" x2="360" y2="436" stroke="#E6D8C2" stroke-width="0.8"/>
+<text x="20" y="450" font-size="8.0" fill="#A89577" letter-spacing="1">本 章 金 句</text>
+<text x="20" y="466" font-size="8.4" fill="#2F2A24">稽式是木工弹的那道线：它不评价，只显出来；常知稽式，是谓玄德。</text>
+<text x="20" y="482" font-size="8.4" fill="#2F2A24">线一响，歪的木头自己就显出来了。</text>
+</svg>

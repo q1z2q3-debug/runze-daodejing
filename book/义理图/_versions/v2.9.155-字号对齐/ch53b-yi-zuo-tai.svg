@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 380 476" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="朝甚除，田甚芜，仓甚虚：三句话，一件事的三个刻度" font-family="'Noto Serif CJK SC','Noto Serif SC','Songti SC',serif">
+<defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#6E6459"/></marker><marker id="arr2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#4A5C55"/></marker><marker id="arrL" viewBox="0 0 10 10" refX="1" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M10 0 L0 5 L10 10 z" fill="#4A5C55"/></marker><marker id="arrS" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#A2503B"/></marker></defs>
+<rect x="0" y="0" width="380" height="476" fill="#F8F3E6"/>
+<text x="20" y="26" font-size="11" fill="#A2503B" font-family="'Noto Sans CJK SC','Noto Sans SC',sans-serif" letter-spacing="3">第 五 十 三 章 · 台</text>
+<text x="20" y="58" font-size="21" fill="#2F2A24">一座台</text>
+<text x="20" y="78" font-size="10.5" fill="#6E6459">朝甚除，田甚芜，仓甚虚。</text>
+<rect x="20" y="102" width="340" height="30" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="190" y="114" font-size="5.2" fill="#2F2A24" text-anchor="middle">「除」，《说文》「殿陛也」——不是朝堂很干净，是台阶修得很讲究。</text>
+<text x="190" y="126" font-size="5.2" fill="#6E6459" text-anchor="middle">一个社会的力气是有数的：力气往台阶上使，田里就没有力气。</text>
+<text x="24" y="146" font-size="5.4" fill="#A2503B">同一年的两件事：台在修，田在荒</text>
+<line x1="24" y1="254" x2="130" y2="254" stroke="#2F2A24" stroke-width="1"/>
+<line x1="34" y1="254" x2="31" y2="240" stroke="#4A5C55" stroke-width="0.7"/>
+<line x1="34" y1="254" x2="37" y2="244" stroke="#4A5C55" stroke-width="0.7"/>
+<line x1="50" y1="254" x2="47" y2="234" stroke="#4A5C55" stroke-width="0.7"/>
+<line x1="50" y1="254" x2="53" y2="238" stroke="#4A5C55" stroke-width="0.7"/>
+<line x1="66" y1="254" x2="63" y2="240" stroke="#4A5C55" stroke-width="0.7"/>
+<line x1="66" y1="254" x2="69" y2="244" stroke="#4A5C55" stroke-width="0.7"/>
+<line x1="82" y1="254" x2="79" y2="234" stroke="#4A5C55" stroke-width="0.7"/>
+<line x1="82" y1="254" x2="85" y2="238" stroke="#4A5C55" stroke-width="0.7"/>
+<line x1="98" y1="254" x2="95" y2="240" stroke="#4A5C55" stroke-width="0.7"/>
+<line x1="98" y1="254" x2="101" y2="244" stroke="#4A5C55" stroke-width="0.7"/>
+<line x1="114" y1="254" x2="111" y2="234" stroke="#4A5C55" stroke-width="0.7"/>
+<line x1="114" y1="254" x2="117" y2="238" stroke="#4A5C55" stroke-width="0.7"/>
+<text x="74" y="268" font-size="5.0" fill="#4A5C55" text-anchor="middle">田甚芜</text>
+<text x="74" y="278" font-size="4.4" fill="#6E6459" text-anchor="middle">秽也：长满荒草</text>
+<rect x="146" y="230" width="48" height="24" fill="#F2EADA" stroke="#2F2A24" stroke-width="1.0"/>
+<rect x="194" y="206" width="48" height="48" fill="#F2EADA" stroke="#2F2A24" stroke-width="1.0"/>
+<rect x="242" y="182" width="48" height="72" fill="#EFE6D4" stroke="#2F2A24" stroke-width="1.0"/>
+<text x="194" y="176" font-size="5.0" fill="#A2503B" text-anchor="middle">朝甚除</text>
+<circle cx="248" cy="162" r="4" fill="none" stroke="#2F2A24" stroke-width="0.8"/>
+<line x1="248" y1="166" x2="248" y2="182" stroke="#2F2A24" stroke-width="1"/>
+<path d="M240,178 L248,170 L256,178" fill="none" stroke="#2F2A24" stroke-width="0.7"/>
+<line x1="254" y1="168" x2="264" y2="184" stroke="#A2503B" stroke-width="0.8"/>
+<text x="326" y="174" font-size="5.0" fill="#A2503B" text-anchor="middle">仓甚虚</text>
+<rect x="300" y="192" width="52" height="62" fill="#FBF6EC" stroke="#2F2A24" stroke-width="1.0"/>
+<path d="M296,192 L326,174 L356,192" fill="none" stroke="#2F2A24" stroke-width="1"/>
+<line x1="306" y1="210" x2="346" y2="210" stroke="#E6D8C2" stroke-width="0.4" stroke-dasharray="3 3"/>
+<line x1="306" y1="222" x2="346" y2="222" stroke="#E6D8C2" stroke-width="0.4" stroke-dasharray="3 3"/>
+<line x1="306" y1="234" x2="346" y2="234" stroke="#E6D8C2" stroke-width="0.4" stroke-dasharray="3 3"/>
+<text x="326" y="236" font-size="5.0" fill="#8A7E70" text-anchor="middle">空</text>
+<line x1="122" y1="224" x2="168" y2="210" stroke="#A2503B" stroke-width="1.0" marker-end="url(#arrS)"/>
+<text x="126" y="208" font-size="4.6" fill="#A2503B">力气</text>
+<text x="126" y="218" font-size="4.4" fill="#6E6459">往这儿使</text>
+<text x="24" y="298" font-size="5.2" fill="#2F2A24">三句是一个动作的三处痕迹：台阶往上修，田往下荒，仓往空走。</text>
+<text x="24" y="314" font-size="5.0" fill="#2F2A24">这不是道德问题，是算术问题：力气往台阶上使，田里就没有力气；田里没力气，仓里就空。</text>
+<text x="24" y="330" font-size="5.2" fill="#4A5C55">站在上面的人看不见下面；站在下面的人数得清上面有几级。</text>
+<line x1="24" y1="348" x2="338" y2="348" stroke="#DCCBB0" stroke-width="0.6"/>
+<rect x="20" y="356" width="340" height="40" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="190" y="372" font-size="6.0" fill="#2F2A24" text-anchor="middle">台阶越高，田越荒，仓越虚；</text>
+<text x="190" y="384" font-size="6.0" fill="#4A5C55" text-anchor="middle">这三句不是三件事，是一件事的三个刻度。</text>
+<line x1="20" y1="410" x2="360" y2="410" stroke="#E6D8C2" stroke-width="0.8"/>
+<text x="20" y="424" font-size="8.0" fill="#A89577" letter-spacing="1">本 章 金 句</text>
+<text x="20" y="440" font-size="8.4" fill="#2F2A24">台阶越高，田越荒，仓越虚；这三句不是三件事，是一件事的三个刻度。</text>
+</svg>

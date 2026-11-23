@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 380 706" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="众人熙熙，我独泊兮其未兆：宴与角落" font-family="'Noto Serif CJK SC','Noto Serif SC','Songti SC',serif">
+<defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#6E6459"/></marker><marker id="arr2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#4A5C55"/></marker><marker id="arrL" viewBox="0 0 10 10" refX="1" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M10 0 L0 5 L10 10 z" fill="#4A5C55"/></marker><marker id="arrS" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#A2503B"/></marker></defs>
+<rect x="0" y="0" width="380" height="706" fill="#F8F3E6"/>
+<text x="20" y="26" font-size="11" fill="#A2503B" font-family="'Noto Sans CJK SC','Noto Sans SC',sans-serif" letter-spacing="3">第 二 十 章 · 未 兆</text>
+<text x="20" y="58" font-size="21" fill="#2F2A24">宴与角落</text>
+<text x="20" y="78" font-size="10.5" fill="#6E6459">众人熙熙，如享太牢，如春登台；我独泊兮其未兆。</text>
+<rect x="20" y="102" width="340" height="34" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="190" y="114" font-size="4.8" fill="#2F2A24" text-anchor="middle">「泊」不是冷，是停在没起念的那一处。</text>
+<text x="190" y="127" font-size="4.8" fill="#6E6459" text-anchor="middle">「未兆」：不是把欲按下去，是它还没起。</text>
+<rect x="26" y="150" width="328" height="156" fill="#FBF6EC" stroke="#DCCBB0" stroke-width="0.8"/>
+<circle cx="72" cy="220" r="3.4" fill="none" stroke="#2F2A24" stroke-width="0.9"/>
+<line x1="72" y1="224" x2="72" y2="250" stroke="#2F2A24" stroke-width="1.0"/>
+<line x1="72" y1="250" x2="67" y2="267" stroke="#2F2A24" stroke-width="0.9"/>
+<line x1="72" y1="250" x2="77" y2="267" stroke="#2F2A24" stroke-width="0.9"/>
+<line x1="72" y1="230" x2="83" y2="222" stroke="#2F2A24" stroke-width="0.8"/>
+<path d="M80,214 l10,0 l-2,8 l-6,0 Z" fill="#E4D8BF" stroke="#2F2A24" stroke-width="0.7"/>
+<line x1="72" y1="230" x2="64" y2="242" stroke="#2F2A24" stroke-width="0.8"/>
+<circle cx="138" cy="220" r="3.4" fill="none" stroke="#2F2A24" stroke-width="0.9"/>
+<line x1="138" y1="224" x2="138" y2="250" stroke="#2F2A24" stroke-width="1.0"/>
+<line x1="138" y1="250" x2="133" y2="267" stroke="#2F2A24" stroke-width="0.9"/>
+<line x1="138" y1="250" x2="143" y2="267" stroke="#2F2A24" stroke-width="0.9"/>
+<line x1="138" y1="230" x2="149" y2="222" stroke="#2F2A24" stroke-width="0.8"/>
+<path d="M146,214 l10,0 l-2,8 l-6,0 Z" fill="#E4D8BF" stroke="#2F2A24" stroke-width="0.7"/>
+<line x1="138" y1="230" x2="130" y2="242" stroke="#2F2A24" stroke-width="0.8"/>
+<circle cx="204" cy="220" r="3.4" fill="none" stroke="#2F2A24" stroke-width="0.9"/>
+<line x1="204" y1="224" x2="204" y2="250" stroke="#2F2A24" stroke-width="1.0"/>
+<line x1="204" y1="250" x2="199" y2="267" stroke="#2F2A24" stroke-width="0.9"/>
+<line x1="204" y1="250" x2="209" y2="267" stroke="#2F2A24" stroke-width="0.9"/>
+<line x1="204" y1="230" x2="215" y2="222" stroke="#2F2A24" stroke-width="0.8"/>
+<path d="M212,214 l10,0 l-2,8 l-6,0 Z" fill="#E4D8BF" stroke="#2F2A24" stroke-width="0.7"/>
+<line x1="204" y1="230" x2="196" y2="242" stroke="#2F2A24" stroke-width="0.8"/>
+<circle cx="270" cy="220" r="3.4" fill="none" stroke="#2F2A24" stroke-width="0.9"/>
+<line x1="270" y1="224" x2="270" y2="250" stroke="#2F2A24" stroke-width="1.0"/>
+<line x1="270" y1="250" x2="265" y2="267" stroke="#2F2A24" stroke-width="0.9"/>
+<line x1="270" y1="250" x2="275" y2="267" stroke="#2F2A24" stroke-width="0.9"/>
+<line x1="270" y1="230" x2="281" y2="222" stroke="#2F2A24" stroke-width="0.8"/>
+<path d="M278,214 l10,0 l-2,8 l-6,0 Z" fill="#E4D8BF" stroke="#2F2A24" stroke-width="0.7"/>
+<line x1="270" y1="230" x2="262" y2="242" stroke="#2F2A24" stroke-width="0.8"/>
+<circle cx="320" cy="220" r="3.4" fill="none" stroke="#2F2A24" stroke-width="0.9"/>
+<line x1="320" y1="224" x2="320" y2="250" stroke="#2F2A24" stroke-width="1.0"/>
+<line x1="320" y1="250" x2="315" y2="267" stroke="#2F2A24" stroke-width="0.9"/>
+<line x1="320" y1="250" x2="325" y2="267" stroke="#2F2A24" stroke-width="0.9"/>
+<line x1="320" y1="230" x2="331" y2="222" stroke="#2F2A24" stroke-width="0.8"/>
+<path d="M328,214 l10,0 l-2,8 l-6,0 Z" fill="#E4D8BF" stroke="#2F2A24" stroke-width="0.7"/>
+<line x1="320" y1="230" x2="312" y2="242" stroke="#2F2A24" stroke-width="0.8"/>
+<line x1="48" y1="266" x2="330" y2="266" stroke="#2F2A24" stroke-width="3.4"/>
+<line x1="62" y1="266" x2="62" y2="286" stroke="#2F2A24" stroke-width="0.9"/>
+<line x1="316" y1="266" x2="316" y2="286" stroke="#2F2A24" stroke-width="0.9"/>
+<ellipse cx="100" cy="263" rx="12" ry="4" fill="#FBF6EC" stroke="#2F2A24" stroke-width="0.8"/>
+<path d="M94,256 l12,0 l-2,6 l-8,0 Z" fill="#F2EADA" stroke="#2F2A24" stroke-width="0.7"/>
+<ellipse cx="166" cy="263" rx="12" ry="4" fill="#FBF6EC" stroke="#2F2A24" stroke-width="0.8"/>
+<path d="M160,256 l12,0 l-2,6 l-8,0 Z" fill="#F2EADA" stroke="#2F2A24" stroke-width="0.7"/>
+<ellipse cx="232" cy="263" rx="12" ry="4" fill="#FBF6EC" stroke="#2F2A24" stroke-width="0.8"/>
+<path d="M226,256 l12,0 l-2,6 l-8,0 Z" fill="#F2EADA" stroke="#2F2A24" stroke-width="0.7"/>
+<ellipse cx="296" cy="263" rx="12" ry="4" fill="#FBF6EC" stroke="#2F2A24" stroke-width="0.8"/>
+<path d="M290,256 l12,0 l-2,6 l-8,0 Z" fill="#F2EADA" stroke="#2F2A24" stroke-width="0.7"/>
+<text x="190" y="176" font-size="4.5" fill="#6E6459" text-anchor="middle">案上摆满了，人人手上都有杯</text>
+<text x="190" y="296" font-size="4.4" fill="#8A7C69" text-anchor="middle">熙熙：热闹有个尽头，散席之后各自回家</text>
+<text x="24" y="319" font-size="5.0" fill="#A2503B">一、熙熙：都挤在案后，谁也没有落后</text>
+<rect x="26" y="332" width="328" height="156" fill="#FBF6EC" stroke="#DCCBB0" stroke-width="0.8"/>
+<circle cx="250" cy="402" r="3.4" fill="none" stroke="#DCCBB0" stroke-width="0.9"/>
+<line x1="250" y1="406" x2="250" y2="432" stroke="#DCCBB0" stroke-width="1.0"/>
+<line x1="250" y1="432" x2="245" y2="449" stroke="#DCCBB0" stroke-width="0.9"/>
+<line x1="250" y1="432" x2="255" y2="449" stroke="#DCCBB0" stroke-width="0.9"/>
+<line x1="250" y1="412" x2="261" y2="404" stroke="#DCCBB0" stroke-width="0.8"/>
+<path d="M258,396 l10,0 l-2,8 l-6,0 Z" fill="#F2EADA" stroke="#DCCBB0" stroke-width="0.7"/>
+<line x1="250" y1="412" x2="242" y2="424" stroke="#DCCBB0" stroke-width="0.8"/>
+<circle cx="296" cy="402" r="3.4" fill="none" stroke="#DCCBB0" stroke-width="0.9"/>
+<line x1="296" y1="406" x2="296" y2="432" stroke="#DCCBB0" stroke-width="1.0"/>
+<line x1="296" y1="432" x2="291" y2="449" stroke="#DCCBB0" stroke-width="0.9"/>
+<line x1="296" y1="432" x2="301" y2="449" stroke="#DCCBB0" stroke-width="0.9"/>
+<line x1="296" y1="412" x2="307" y2="404" stroke="#DCCBB0" stroke-width="0.8"/>
+<path d="M304,396 l10,0 l-2,8 l-6,0 Z" fill="#F2EADA" stroke="#DCCBB0" stroke-width="0.7"/>
+<line x1="296" y1="412" x2="288" y2="424" stroke="#DCCBB0" stroke-width="0.8"/>
+<circle cx="330" cy="402" r="3.4" fill="none" stroke="#DCCBB0" stroke-width="0.9"/>
+<line x1="330" y1="406" x2="330" y2="432" stroke="#DCCBB0" stroke-width="1.0"/>
+<line x1="330" y1="432" x2="325" y2="449" stroke="#DCCBB0" stroke-width="0.9"/>
+<line x1="330" y1="432" x2="335" y2="449" stroke="#DCCBB0" stroke-width="0.9"/>
+<line x1="330" y1="412" x2="341" y2="404" stroke="#DCCBB0" stroke-width="0.8"/>
+<path d="M338,396 l10,0 l-2,8 l-6,0 Z" fill="#F2EADA" stroke="#DCCBB0" stroke-width="0.7"/>
+<line x1="330" y1="412" x2="322" y2="424" stroke="#DCCBB0" stroke-width="0.8"/>
+<line x1="226" y1="448" x2="340" y2="448" stroke="#DCCBB0" stroke-width="1.4"/>
+<ellipse cx="262" cy="445" rx="12" ry="4" fill="#FBF6EC" stroke="#DCCBB0" stroke-width="0.8"/>
+<path d="M256,438 l12,0 l-2,6 l-8,0 Z" fill="#F2EADA" stroke="#DCCBB0" stroke-width="0.7"/>
+<ellipse cx="310" cy="445" rx="12" ry="4" fill="#FBF6EC" stroke="#DCCBB0" stroke-width="0.8"/>
+<path d="M304,438 l12,0 l-2,6 l-8,0 Z" fill="#F2EADA" stroke="#DCCBB0" stroke-width="0.7"/>
+<text x="282" y="358" font-size="4.4" fill="#8A7C69" text-anchor="middle">那头还是那场宴</text>
+<line x1="40" y1="448" x2="176" y2="448" stroke="#2F2A24" stroke-width="1.2"/>
+<circle cx="96" cy="402" r="3.4" fill="none" stroke="#2F2A24" stroke-width="0.9"/>
+<line x1="96" y1="406" x2="96" y2="432" stroke="#2F2A24" stroke-width="1.0"/>
+<line x1="96" y1="432" x2="91" y2="449" stroke="#2F2A24" stroke-width="0.9"/>
+<line x1="96" y1="432" x2="101" y2="449" stroke="#2F2A24" stroke-width="0.9"/>
+<line x1="96" y1="412" x2="87" y2="428" stroke="#2F2A24" stroke-width="0.8"/>
+<line x1="96" y1="412" x2="105" y2="428" stroke="#2F2A24" stroke-width="0.8"/>
+<circle cx="122" cy="408" r="8" fill="none" stroke="#DCCBB0" stroke-width="0.7" stroke-dasharray="2 2"/>
+<text x="122" y="398" font-size="4.2" fill="#8A7C69" text-anchor="middle">还没起</text>
+<text x="60" y="382" font-size="4.3" fill="#6E6459">手空着，脚下一小块空地</text>
+<text x="190" y="478" font-size="4.4" fill="#8A7C69" text-anchor="middle">别人看他没站处，他自己知道站在哪儿</text>
+<text x="24" y="501" font-size="5.0" fill="#4A5C55">二、独泊：手还空着，欲还没起</text>
+<text x="24" y="520" font-size="4.9" fill="#2F2A24">众人向外抓取：从物、从盛宴、从赞誉、从热闹里取满足。</text>
+<text x="24" y="536" font-size="4.9" fill="#2F2A24">体道者淡泊平顺，不起羡慕攀求的征兆——不是压住，是还没起。</text>
+<text x="24" y="554" font-size="4.9" fill="#4A5C55">如婴儿之未孩：不是不会笑，是还没有好恶分别。</text>
+<line x1="24" y1="572" x2="338" y2="572" stroke="#DCCBB0" stroke-width="0.6"/>
+<rect x="20" y="580" width="340" height="40" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="190" y="596" font-size="5.8" fill="#2F2A24" text-anchor="middle">众人熙熙，我独未兆；</text>
+<text x="190" y="608" font-size="5.6" fill="#4A5C55" text-anchor="middle">未兆者，欲未起也。</text>
+<line x1="20" y1="634" x2="360" y2="634" stroke="#E6D8C2" stroke-width="0.8"/>
+<text x="20" y="648" font-size="8.0" fill="#A89577" letter-spacing="1">本 章 金 句</text>
+<text x="20" y="664" font-size="8.4" fill="#2F2A24">众人熙熙，我独未兆；未兆者，欲未起也。</text>
+<text x="20" y="680" font-size="8.4" fill="#2F2A24">泊不是冷，是停在没起念的那一处。</text>
+</svg>

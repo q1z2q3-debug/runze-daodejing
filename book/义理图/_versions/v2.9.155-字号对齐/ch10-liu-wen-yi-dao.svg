@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 380 586" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="六问串在一根线上，线头落到同一句话：你是不是在当主人" font-family="'Noto Serif CJK SC','Noto Serif SC','Songti SC',serif">
+<defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#6E6459"/></marker><marker id="arr2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#4A5C55"/></marker><marker id="arrL" viewBox="0 0 10 10" refX="1" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M10 0 L0 5 L10 10 z" fill="#4A5C55"/></marker><marker id="arrS" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#A2503B"/></marker></defs>
+<rect x="0" y="0" width="380" height="586" fill="#F8F3E6"/>
+<text x="20" y="26" font-size="11" fill="#A2503B" font-family="'Noto Sans CJK SC','Noto Sans SC',sans-serif" letter-spacing="3">第 十 章 · 勘 验</text>
+<text x="20" y="58" font-size="21" fill="#2F2A24">六问一道</text>
+<text x="20" y="78" font-size="10.5" fill="#6E6459">六问各管一件，底子只有一句质问：你是不是在当主人？</text>
+<rect x="20" y="102" width="340" height="34" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="190" y="114" font-size="4.9" fill="#2F2A24" text-anchor="middle">六问：身心、气息、观照、治事、感官、知见。</text>
+<text x="190" y="128" font-size="4.9" fill="#6E6459" text-anchor="middle">看着各管一件，问的是同一份主宰欲。</text>
+<line x1="34" y1="174" x2="34" y2="364" stroke="#A2503B" stroke-width="0.9"/>
+<text x="28" y="172" font-size="4.0" fill="#A2503B" text-anchor="end">同一件事</text>
+<circle cx="34" cy="187" r="2.2" fill="#F8F3E6" stroke="#A2503B" stroke-width="0.9"/>
+<text x="46" y="192" font-size="5.0" fill="#2F2A24">载营魄抱一，能无离乎？</text>
+<line x1="105" y1="189" x2="295" y2="189" stroke="#E6D8C2" stroke-width="0.5" stroke-dasharray="1.6 3.4"/>
+<text x="344" y="192" font-size="4.3" fill="#6E6459" text-anchor="end">身心一处，不各走各的</text>
+<circle cx="34" cy="217" r="2.2" fill="#F8F3E6" stroke="#A2503B" stroke-width="0.9"/>
+<text x="46" y="222" font-size="5.0" fill="#2F2A24">专气致柔，能婴儿乎？</text>
+<line x1="100" y1="219" x2="304" y2="219" stroke="#E6D8C2" stroke-width="0.5" stroke-dasharray="1.6 3.4"/>
+<text x="344" y="222" font-size="4.3" fill="#6E6459" text-anchor="end">气顺到软，不绷着</text>
+<circle cx="34" cy="247" r="2.2" fill="#F8F3E6" stroke="#A2503B" stroke-width="0.9"/>
+<text x="46" y="252" font-size="5.0" fill="#2F2A24">涤除玄览，能无疵乎？</text>
+<line x1="100" y1="249" x2="304" y2="249" stroke="#E6D8C2" stroke-width="0.5" stroke-dasharray="1.6 3.4"/>
+<text x="344" y="252" font-size="4.3" fill="#6E6459" text-anchor="end">擦净镜子，不留斑</text>
+<circle cx="34" cy="277" r="2.2" fill="#F8F3E6" stroke="#A2503B" stroke-width="0.9"/>
+<text x="46" y="282" font-size="5.0" fill="#2F2A24">爱民治国，能无为乎？</text>
+<line x1="100" y1="279" x2="304" y2="279" stroke="#E6D8C2" stroke-width="0.5" stroke-dasharray="1.6 3.4"/>
+<text x="344" y="282" font-size="4.3" fill="#6E6459" text-anchor="end">事办了，人不被搅</text>
+<circle cx="34" cy="307" r="2.2" fill="#F8F3E6" stroke="#A2503B" stroke-width="0.9"/>
+<text x="46" y="312" font-size="5.0" fill="#2F2A24">天门开阖，能为雌乎？</text>
+<line x1="100" y1="309" x2="295" y2="309" stroke="#E6D8C2" stroke-width="0.5" stroke-dasharray="1.6 3.4"/>
+<text x="344" y="312" font-size="4.3" fill="#6E6459" text-anchor="end">开合之际，肯受不肯抢</text>
+<circle cx="34" cy="337" r="2.2" fill="#F8F3E6" stroke="#A2503B" stroke-width="0.9"/>
+<text x="46" y="342" font-size="5.0" fill="#2F2A24">明白四达，能无知乎？</text>
+<line x1="100" y1="339" x2="299" y2="339" stroke="#E6D8C2" stroke-width="0.5" stroke-dasharray="1.6 3.4"/>
+<text x="344" y="342" font-size="4.3" fill="#6E6459" text-anchor="end">都懂了，不拿懂压人</text>
+<circle cx="34" cy="364" r="3.2" fill="#A2503B"/>
+<rect x="24" y="372" width="332" height="26" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="190" y="389" font-size="5.2" fill="#A2503B" text-anchor="middle">底子只有一句质问：你是不是在当主人？</text>
+<text x="24" y="418" font-size="4.9" fill="#2F2A24">六问不是六道关卡，是同一句问话，从六个地方问了六遍。</text>
+<text x="24" y="433" font-size="4.9" fill="#4A5C55">六处都问住了，玄德自然现成——不必另修一个德出来。</text>
+<line x1="24" y1="452" x2="358" y2="452" stroke="#DCCBB0" stroke-width="0.6"/>
+<rect x="20" y="460" width="340" height="40" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="190" y="476" font-size="5.4" fill="#2F2A24" text-anchor="middle">生而不有，为而不恃，长而不宰，是谓玄德。</text>
+<text x="190" y="488" font-size="4.6" fill="#4A5C55" text-anchor="middle">六问过后，只剩一句答话：能做的很多，能占有的很少。</text>
+<line x1="20" y1="514" x2="360" y2="514" stroke="#E6D8C2" stroke-width="0.8"/>
+<text x="20" y="528" font-size="8.0" fill="#A89577" letter-spacing="1">本 章 金 句</text>
+<text x="20" y="544" font-size="8.4" fill="#2F2A24">生而不有，为而不恃，长而不宰，是谓玄德。</text>
+<text x="20" y="560" font-size="8.4" fill="#2F2A24">六问过后，只剩一句答话：能做的很多，能占有的很少。</text>
+</svg>

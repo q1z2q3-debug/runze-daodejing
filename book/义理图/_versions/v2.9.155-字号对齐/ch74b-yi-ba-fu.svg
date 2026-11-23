@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 380 722" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="斫从斤，一击而断：这把斧在匠人手里是「成」，在代班人手里是「断」" font-family="'Noto Serif CJK SC','Noto Serif SC','Songti SC',serif">
+<defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#6E6459"/></marker><marker id="arr2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#4A5C55"/></marker><marker id="arrL" viewBox="0 0 10 10" refX="1" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M10 0 L0 5 L10 10 z" fill="#4A5C55"/></marker><marker id="arrS" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#A2503B"/></marker></defs>
+<rect x="0" y="0" width="380" height="722" fill="#F8F3E6"/>
+<text x="20" y="26" font-size="11" fill="#A2503B" font-family="'Noto Sans CJK SC','Noto Sans SC',sans-serif" letter-spacing="3">第 七 十 四 章 · 斫</text>
+<text x="20" y="58" font-size="21" fill="#2F2A24">一把斧</text>
+<text x="20" y="78" font-size="10.5" fill="#6E6459">夫代司杀者杀，是谓代大匠斫。</text>
+<rect x="20" y="102" width="340" height="32" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="190" y="114" font-size="4.7" fill="#2F2A24" text-anchor="middle">「斫」，《说文》「击也」，从斤——一下而断，断了就不能复。</text>
+<text x="190" y="127" font-size="4.7" fill="#6E6459" text-anchor="middle">「代」，《说文》「更也」，是换班：替班的人手上没有那把斧的本事。</text>
+<text x="24" y="150" font-size="4.8" fill="#4A5C55">一、匠人：斧落在木上，削出一件东西</text>
+<rect x="26" y="162" width="328" height="148" fill="#FBF6EC" stroke="#DCCBB0" stroke-width="0.8"/>
+<line x1="34" y1="290" x2="330" y2="290" stroke="#2F2A24" stroke-width="1"/>
+<rect x="146" y="258" width="154" height="32" fill="#EFE6D4" stroke="#2F2A24" stroke-width="1"/>
+<line x1="146" y1="258" x2="300" y2="258" stroke="#2F2A24" stroke-width="1.4"/>
+<path d="M196,258 Q210,246 228,250" fill="none" stroke="#A2503B" stroke-width="1.1"/>
+<path d="M228,250 L242,256 L228,260 Z" fill="#A2503B" fill-opacity="0.3" stroke="#A2503B" stroke-width="0.9"/>
+<circle cx="90" cy="210" r="7" fill="none" stroke="#2F2A24" stroke-width="1"/>
+<path d="M79,220 L101,220 L103,258 L77,258 Z" fill="#EFE6D4" stroke="#2F2A24" stroke-width="1"/>
+<line x1="84" y1="258" x2="81" y2="290" stroke="#2F2A24" stroke-width="1"/>
+<line x1="96" y1="258" x2="99" y2="290" stroke="#2F2A24" stroke-width="1"/>
+<line x1="101" y1="226" x2="138" y2="240" stroke="#2F2A24" stroke-width="1"/>
+<line x1="138" y1="240" x2="176" y2="262" stroke="#2F2A24" stroke-width="1.4"/>
+<path d="M176,262 L188,248 Q198,260 190,272 L174,268 Z" fill="#DED2B8" stroke="#2F2A24" stroke-width="1"/>
+<text x="90" y="304" font-size="4.2" fill="#6E6459" text-anchor="middle">匠人</text>
+<text x="272" y="240" font-size="4.3" fill="#4A5C55">只削一片</text>
+<text x="272" y="252" font-size="4.3" fill="#6E6459">器由此成</text>
+<text x="190" y="326" font-size="4.6" fill="#4A5C55" text-anchor="middle">斧在匠人手里，是「成」的工具：他知道这一刀要落多深</text>
+<text x="24" y="348" font-size="4.8" fill="#A2503B">二、代班的人：同一把斧，一落就断，断不可复</text>
+<rect x="26" y="360" width="328" height="152" fill="#FBF6EC" stroke="#DCCBB0" stroke-width="0.8"/>
+<line x1="34" y1="490" x2="330" y2="490" stroke="#2F2A24" stroke-width="1"/>
+<rect x="150" y="458" width="72" height="32" fill="#EFE6D4" stroke="#2F2A24" stroke-width="1"/>
+<rect x="240" y="462" width="72" height="28" fill="#EFE6D4" stroke="#2F2A24" stroke-width="1"/>
+<path d="M222,458 L232,474 L222,490" fill="none" stroke="#A2503B" stroke-width="1.1"/>
+<path d="M240,462 L250,476 L240,490" fill="none" stroke="#A2503B" stroke-width="1.1"/>
+<text x="240" y="504" font-size="4.2" fill="#A2503B" text-anchor="middle">断了，接不回去</text>
+<circle cx="92" cy="404" r="7" fill="none" stroke="#2F2A24" stroke-width="1"/>
+<path d="M81,414 L103,414 L105,454 L79,454 Z" fill="#FBF6EC" stroke="#2F2A24" stroke-width="1"/>
+<line x1="86" y1="454" x2="83" y2="488" stroke="#2F2A24" stroke-width="1"/>
+<line x1="98" y1="454" x2="101" y2="488" stroke="#2F2A24" stroke-width="1"/>
+<line x1="103" y1="420" x2="126" y2="396" stroke="#2F2A24" stroke-width="1"/>
+<line x1="126" y1="396" x2="138" y2="378" stroke="#2F2A24" stroke-width="1.4"/>
+<path d="M138,378 L154,368 Q162,382 148,394 L132,388 Z" fill="#A2503B" fill-opacity="0.3" stroke="#A2503B" stroke-width="1"/>
+<text x="92" y="504" font-size="4.2" fill="#A2503B" text-anchor="middle">代班</text>
+<text x="276" y="430" font-size="4.3" fill="#A2503B">未观其性</text>
+<text x="276" y="442" font-size="4.3" fill="#6E6459">先加其手</text>
+<text x="190" y="528" font-size="4.6" fill="#4A5C55" text-anchor="middle">梓庆斋七日才敢加手；代班的人，一刀下去就断了</text>
+<text x="24" y="544" font-size="4.8" fill="#2F2A24">所差的不在力气，在那七日：先看清楚这木头要成什么，才落斧。</text>
+<text x="24" y="560" font-size="4.8" fill="#2F2A24">代班的人没有这七日——他手上没有这把斧的本事，只有这道令。</text>
+<text x="24" y="578" font-size="5.0" fill="#4A5C55">所以「代大匠斫」不是夺权，是替班；替班的人，先输在手上。</text>
+<line x1="24" y1="594" x2="338" y2="594" stroke="#DCCBB0" stroke-width="0.6"/>
+<rect x="20" y="602" width="340" height="40" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="190" y="617" font-size="5.0" fill="#2F2A24" text-anchor="middle">代者，《说文》曰「更也」，换班也；斫者，击也，从斤。</text>
+<text x="190" y="630" font-size="4.7" fill="#4A5C55" text-anchor="middle">一下而断，不可复也。</text>
+<line x1="20" y1="656" x2="360" y2="656" stroke="#E6D8C2" stroke-width="0.8"/>
+<text x="20" y="670" font-size="8.0" fill="#A89577" letter-spacing="1">本 章 金 句</text>
+<text x="20" y="686" font-size="8.4" fill="#2F2A24">夫代司杀者杀，是谓代大匠斫。</text>
+<text x="20" y="702" font-size="8.4" fill="#2F2A24">斫者，《说文》曰「击也」，从斤——一下而断，不可复也。</text>
+</svg>
