@@ -6,46 +6,46 @@
 <text x="20" y="58" font-size="21" fill="#2F2A24">六样东西，各自不裂</text>
 <text x="20" y="78" font-size="10.5" fill="#6E6459">六种整全，不是一种整全。</text>
 <rect x="20" y="102" width="340" height="34" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
-<text x="190" y="115" font-size="6.4" fill="#2F2A24" text-anchor="middle">昔之得一者：天得一以清，地得一以宁，神得一以灵，</text>
-<text x="190" y="129" font-size="6.4" fill="#2F2A24" text-anchor="middle">谷得一以盈，万物得一以生，侯王得一以为天下贞。</text>
+<text x="190" y="115" font-size="5.2" fill="#2F2A24" text-anchor="middle">昔之得一者：天得一以清，地得一以宁，神得一以灵，</text>
+<text x="190" y="129" font-size="5.2" fill="#2F2A24" text-anchor="middle">谷得一以盈，万物得一以生，侯王得一以为天下贞。</text>
 <text x="40" y="144" font-size="6.0" fill="#6E6459" text-anchor="middle">名</text>
-<text x="126" y="144" font-size="6.2" fill="#4A5C55" text-anchor="middle">得一（守着的）</text>
-<text x="258" y="144" font-size="6.2" fill="#A2503B" text-anchor="middle">无以（拿不出的）</text>
+<text x="126" y="144" font-size="5.2" fill="#4A5C55" text-anchor="middle">得一（守着的）</text>
+<text x="258" y="144" font-size="5.2" fill="#A2503B" text-anchor="middle">无以（拿不出的）</text>
 <line x1="24" y1="150" x2="338" y2="150" stroke="#2F2A24" stroke-width="0.7"/>
-<text x="40" y="167" font-size="7.0" fill="#2F2A24" text-anchor="middle">天</text>
+<text x="40" y="167" font-size="5.2" fill="#2F2A24" text-anchor="middle">天</text>
 <text x="58" y="167" font-size="6.0" fill="#4A5C55">得一以清</text>
-<text x="196" y="167" font-size="6.2" fill="#6E6459">无以清，将恐</text>
+<text x="196" y="167" font-size="5.2" fill="#6E6459">无以清，将恐</text>
 <text x="330" y="168" font-size="9.2" fill="#A2503B" text-anchor="end">裂</text>
 <line x1="24" y1="176" x2="338" y2="176" stroke="#DCCBB0" stroke-width="0.5"/>
-<text x="40" y="194" font-size="7.0" fill="#2F2A24" text-anchor="middle">地</text>
+<text x="40" y="194" font-size="5.2" fill="#2F2A24" text-anchor="middle">地</text>
 <text x="58" y="194" font-size="6.0" fill="#4A5C55">得一以宁</text>
-<text x="196" y="194" font-size="6.2" fill="#6E6459">无以宁，将恐</text>
+<text x="196" y="194" font-size="5.2" fill="#6E6459">无以宁，将恐</text>
 <text x="330" y="195" font-size="9.2" fill="#A2503B" text-anchor="end">废</text>
 <line x1="24" y1="203" x2="338" y2="203" stroke="#DCCBB0" stroke-width="0.5"/>
-<text x="40" y="221" font-size="7.0" fill="#2F2A24" text-anchor="middle">神</text>
+<text x="40" y="221" font-size="5.2" fill="#2F2A24" text-anchor="middle">神</text>
 <text x="58" y="221" font-size="6.0" fill="#4A5C55">得一以灵</text>
-<text x="196" y="221" font-size="6.2" fill="#6E6459">无以灵，将恐</text>
+<text x="196" y="221" font-size="5.2" fill="#6E6459">无以灵，将恐</text>
 <text x="330" y="222" font-size="9.2" fill="#A2503B" text-anchor="end">歇</text>
 <line x1="24" y1="230" x2="338" y2="230" stroke="#DCCBB0" stroke-width="0.5"/>
-<text x="40" y="248" font-size="7.0" fill="#2F2A24" text-anchor="middle">谷</text>
+<text x="40" y="248" font-size="5.2" fill="#2F2A24" text-anchor="middle">谷</text>
 <text x="58" y="248" font-size="6.0" fill="#4A5C55">得一以盈</text>
-<text x="196" y="248" font-size="6.2" fill="#6E6459">无以盈，将恐</text>
+<text x="196" y="248" font-size="5.2" fill="#6E6459">无以盈，将恐</text>
 <text x="330" y="249" font-size="9.2" fill="#A2503B" text-anchor="end">竭</text>
 <line x1="24" y1="257" x2="338" y2="257" stroke="#DCCBB0" stroke-width="0.5"/>
-<text x="40" y="275" font-size="7.0" fill="#2F2A24" text-anchor="middle">万物</text>
+<text x="40" y="275" font-size="5.2" fill="#2F2A24" text-anchor="middle">万物</text>
 <text x="58" y="275" font-size="6.0" fill="#4A5C55">得一以生</text>
-<text x="196" y="275" font-size="6.2" fill="#6E6459">无以生，将恐</text>
+<text x="196" y="275" font-size="5.2" fill="#6E6459">无以生，将恐</text>
 <text x="330" y="276" font-size="9.2" fill="#A2503B" text-anchor="end">灭</text>
 <line x1="24" y1="284" x2="338" y2="284" stroke="#DCCBB0" stroke-width="0.5"/>
-<text x="40" y="302" font-size="7.0" fill="#2F2A24" text-anchor="middle">侯王</text>
+<text x="40" y="302" font-size="5.2" fill="#2F2A24" text-anchor="middle">侯王</text>
 <text x="58" y="302" font-size="6.0" fill="#4A5C55">得一以为天下贞</text>
-<text x="196" y="302" font-size="6.2" fill="#6E6459">无以贵高，将恐</text>
+<text x="196" y="302" font-size="5.2" fill="#6E6459">无以贵高，将恐</text>
 <text x="330" y="303" font-size="9.2" fill="#A2503B" text-anchor="end">蹶</text>
 <line x1="24" y1="311" x2="338" y2="311" stroke="#DCCBB0" stroke-width="0.5"/>
 <rect x="20" y="324" width="340" height="50" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
-<text x="190" y="341" font-size="7.2" fill="#2F2A24" text-anchor="middle">「一」不是把六样并成一样，是六样各自不裂：</text>
-<text x="190" y="355" font-size="6.6" fill="#6E6459" text-anchor="middle">天得天的整全，地得地的整全，各清、各宁、各灵、各盈、各生、各贞。</text>
-<text x="190" y="368" font-size="6.4" fill="#A2503B" text-anchor="middle">「得一」的反面不是「不得」，是「无以」——不是没得到，是拿不出了。</text>
+<text x="190" y="341" font-size="5.2" fill="#2F2A24" text-anchor="middle">「一」不是把六样并成一样，是六样各自不裂：</text>
+<text x="190" y="355" font-size="5.2" fill="#6E6459" text-anchor="middle">天得天的整全，地得地的整全，各清、各宁、各灵、各盈、各生、各贞。</text>
+<text x="190" y="368" font-size="5.2" fill="#A2503B" text-anchor="middle">「得一」的反面不是「不得」，是「无以」——不是没得到，是拿不出了。</text>
 <line x1="20" y1="386" x2="360" y2="386" stroke="#E6D8C2" stroke-width="0.8"/>
 <text x="20" y="400" font-size="8.0" fill="#A89577" letter-spacing="1">本 章 金 句</text>
 <text x="20" y="416" font-size="8.4" fill="#2F2A24">「壹」是装满封口的壶；「一」只是一道横，没有盖。</text>

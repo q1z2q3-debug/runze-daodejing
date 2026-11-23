@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 380 580" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="不是做得不够，是把缝预留在对的地方" font-family="'Noto Serif CJK SC','Noto Serif SC','Songti SC',serif">
+<defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#6E6459"/></marker><marker id="arr2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#4A5C55"/></marker><marker id="arrL" viewBox="0 0 10 10" refX="1" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M10 0 L0 5 L10 10 z" fill="#4A5C55"/></marker><marker id="arrS" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#A2503B"/></marker></defs>
+<rect x="0" y="0" width="380" height="580" fill="#F8F3E6"/>
+<text x="20" y="26" font-size="11" fill="#A2503B" font-family="'Noto Sans CJK SC','Noto Sans SC',sans-serif" letter-spacing="3">第 四 十 五 章 · 留 缝</text>
+<text x="20" y="58" font-size="21" fill="#2F2A24">留一道缝</text>
+<text x="20" y="78" font-size="10.5" fill="#6E6459">大成若缺，其用不敝。</text>
+<rect x="20" y="102" width="340" height="30" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="190" y="115" font-size="6.4" fill="#2F2A24" text-anchor="middle">「缺」，《说文》「器破也」——器皿破了口。</text>
+<text x="190" y="127" font-size="5.7" fill="#6E6459" text-anchor="middle">到了头的东西，要留一个口；封死了，力就全落在自己身上。</text>
+<rect x="34" y="194" width="116" height="11" fill="#E6D8C2" stroke="#2F2A24" stroke-width="0.8"/>
+<rect x="162" y="194" width="176" height="11" fill="#E6D8C2" stroke="#2F2A24" stroke-width="0.8"/>
+<line x1="150" y1="190" x2="150" y2="209" stroke="#A2503B" stroke-width="0.9" stroke-dasharray="3 3"/>
+<line x1="162" y1="190" x2="162" y2="209" stroke="#A2503B" stroke-width="0.9" stroke-dasharray="3 3"/>
+<text x="156" y="182" font-size="6.4" fill="#A2503B" text-anchor="middle">缝</text>
+<path d="M144,196 l-10,0 M134,196 l3,-3 M134,196 l3,3" fill="none" stroke="#A2503B" stroke-width="0.6"/>
+<path d="M168,196 l10,0 M178,196 l-3,-3 M178,196 l-3,3" fill="none" stroke="#A2503B" stroke-width="0.6"/>
+<path d="M71,205 L89,205 L93,240 L67,240 Z" fill="#EFE4CF" stroke="#2F2A24" stroke-width="0.7"/>
+<line x1="71" y1="205" x2="67" y2="240" stroke="#2F2A24" stroke-width="0.35" opacity="0.5"/>
+<line x1="77" y1="205" x2="75" y2="240" stroke="#2F2A24" stroke-width="0.35" opacity="0.5"/>
+<line x1="83" y1="205" x2="83" y2="240" stroke="#2F2A24" stroke-width="0.35" opacity="0.5"/>
+<path d="M253,205 L271,205 L275,240 L249,240 Z" fill="#EFE4CF" stroke="#2F2A24" stroke-width="0.7"/>
+<line x1="253" y1="205" x2="249" y2="240" stroke="#2F2A24" stroke-width="0.35" opacity="0.5"/>
+<line x1="259" y1="205" x2="257" y2="240" stroke="#2F2A24" stroke-width="0.35" opacity="0.5"/>
+<line x1="265" y1="205" x2="265" y2="240" stroke="#2F2A24" stroke-width="0.35" opacity="0.5"/>
+<line x1="20" y1="240" x2="340" y2="240" stroke="#2F2A24" stroke-width="0.7"/>
+<text x="156" y="254" font-size="5.2" fill="#6E6459" text-anchor="middle">桥面两段之间，故意留一道缝：热胀冷缩，力从缝里放掉</text>
+<text x="24" y="276" font-size="5.9" fill="#A2503B">一 · 封死：力只能落在自己身上</text>
+<path d="M52,286 L60,320 L92,320 L100,286" fill="none" stroke="#2F2A24" stroke-width="0.9"/>
+<line x1="52" y1="286" x2="100" y2="286" stroke="#2F2A24" stroke-width="1.3"/>
+<line x1="76" y1="292" x2="72" y2="304" stroke="#A2503B" stroke-width="1"/>
+<line x1="72" y1="304" x2="78" y2="314" stroke="#A2503B" stroke-width="1"/>
+<text x="76" y="336" font-size="5.0" fill="#A2503B" text-anchor="middle">封死则裂</text>
+<text x="150" y="290" font-size="5.9" fill="#2F2A24">凡是封死了口的器，用久了都会破。</text>
+<text x="150" y="304" font-size="5.9" fill="#2F2A24">它里面没有余地，一受力只能裂。</text>
+<text x="24" y="350" font-size="5.9" fill="#4A5C55">二 · 留缝：力从缝里卸掉</text>
+<path d="M52,360 L60,394 L92,394 L100,360" fill="none" stroke="#4A5C55" stroke-width="0.9"/>
+<line x1="52" y1="360" x2="72" y2="360" stroke="#4A5C55" stroke-width="1.1"/>
+<line x1="80" y1="360" x2="100" y2="360" stroke="#4A5C55" stroke-width="1.1"/>
+<path d="M76,356 l-2,-8 M79,356 l2,-8" fill="none" stroke="#4A5C55" stroke-width="0.5"/>
+<text x="76" y="408" font-size="5.0" fill="#4A5C55" text-anchor="middle">留缝不敝</text>
+<text x="150" y="364" font-size="5.9" fill="#2F2A24">留了缝的器，用久了反而不破——</text>
+<text x="150" y="378" font-size="5.9" fill="#2F2A24">那道缝一直在替它卸力。</text>
+<line x1="24" y1="420" x2="338" y2="420" stroke="#DCCBB0" stroke-width="0.6"/>
+<rect x="20" y="430" width="340" height="44" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="190" y="446" font-size="6.2" fill="#2F2A24" text-anchor="middle">「大成」不是没有做到头，是做到头了，还留一处不封。</text>
+<text x="190" y="460" font-size="6.2" fill="#4A5C55" text-anchor="middle">那个缺口不是缺陷，是泄压的地方。</text>
+<line x1="20" y1="488" x2="360" y2="488" stroke="#E6D8C2" stroke-width="0.8"/>
+<text x="20" y="502" font-size="8.0" fill="#A89577" letter-spacing="1">本 章 金 句</text>
+<text x="20" y="518" font-size="8.4" fill="#2F2A24">真正不破的，是那个本来就有破口的。</text>
+<text x="20" y="534" font-size="8.4" fill="#2F2A24">封死的器，压力全落在自己身上；留口的器，压力从那个口出去了。</text>
+</svg>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 380 592" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="道生、德畜、物形、势成：四层链条，顺序不可颠倒" font-family="'Noto Serif CJK SC','Noto Serif SC','Songti SC',serif">
+<defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#6E6459"/></marker><marker id="arr2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#4A5C55"/></marker><marker id="arrL" viewBox="0 0 10 10" refX="1" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M10 0 L0 5 L10 10 z" fill="#4A5C55"/></marker><marker id="arrS" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#A2503B"/></marker></defs>
+<rect x="0" y="0" width="380" height="592" fill="#F8F3E6"/>
+<text x="20" y="26" font-size="11" fill="#A2503B" font-family="'Noto Sans CJK SC','Noto Sans SC',sans-serif" letter-spacing="3">第 五 十 一 章 · 链</text>
+<text x="20" y="58" font-size="21" fill="#2F2A24">四层链条</text>
+<text x="20" y="78" font-size="10.5" fill="#6E6459">道生之，德畜之，物形之，势成之。</text>
+<rect x="20" y="102" width="340" height="30" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="190" y="114" font-size="5.2" fill="#2F2A24" text-anchor="middle">道不占地方，它「生」的方式是给一个能容的场；德是把这份生机存住。</text>
+<text x="190" y="126" font-size="5.2" fill="#6E6459" text-anchor="middle">物给边界，势给时候——形管你在哪儿，势管你什么时候。</text>
+<text x="24" y="146" font-size="5.4" fill="#A2503B">四层链条，从虚到成</text>
+<line x1="52" y1="186" x2="52" y2="220" stroke="#E6D8C2" stroke-width="0.6" stroke-dasharray="4 4"/>
+<line x1="52" y1="218" x2="52" y2="238" stroke="#4A5C55" stroke-width="0.7" marker-end="url(#arr2)"/>
+<text x="86" y="171" font-size="6.6" fill="#2F2A24">道 生 之</text>
+<text x="86" y="186" font-size="4.8" fill="#6E6459">虚：不占地方，先有「这回事」</text>
+<line x1="52" y1="256" x2="52" y2="290" stroke="#E6D8C2" stroke-width="0.6" stroke-dasharray="4 4"/>
+<line x1="52" y1="288" x2="52" y2="308" stroke="#4A5C55" stroke-width="0.7" marker-end="url(#arr2)"/>
+<text x="86" y="241" font-size="6.6" fill="#2F2A24">德 畜 之</text>
+<text x="86" y="256" font-size="4.8" fill="#6E6459">蓄：像存粮，把生机留住</text>
+<line x1="52" y1="326" x2="52" y2="360" stroke="#E6D8C2" stroke-width="0.6" stroke-dasharray="4 4"/>
+<text x="86" y="311" font-size="6.6" fill="#2F2A24">物 形 之</text>
+<text x="86" y="326" font-size="4.8" fill="#6E6459">形：落到质料上，有了边界</text>
+<text x="86" y="381" font-size="6.6" fill="#2F2A24">势 成 之</text>
+<text x="86" y="396" font-size="4.8" fill="#6E6459">势：顺着时令风气，才长得成</text>
+<circle cx="52" cy="164" r="15" fill="none" stroke="#A2503B" stroke-width="0.8" stroke-dasharray="4 3"/>
+<text x="52" y="167" font-size="5.8" fill="#A2503B" text-anchor="middle">道</text>
+<rect x="36" y="222" width="32" height="28" fill="#EFE6D4" stroke="#2F2A24" stroke-width="0.9"/>
+<line x1="36" y1="226" x2="68" y2="226" stroke="#2F2A24" stroke-width="0.5"/>
+<text x="52" y="243" font-size="5.8" fill="#2F2A24" text-anchor="middle">德</text>
+<rect x="36" y="290" width="32" height="32" fill="none" stroke="#2F2A24" stroke-width="0.9"/>
+<rect x="44" y="298" width="16" height="16" fill="#EFE6D4" stroke="#2F2A24" stroke-width="0.6"/>
+<path d="M32,390 C44,384 60,376 72,364" fill="none" stroke="#4A5C55" stroke-width="0.9"/>
+<line x1="66" y1="370" x2="74" y2="362" stroke="#4A5C55" stroke-width="0.7" marker-end="url(#arr2)"/>
+<text x="24" y="424" font-size="5.2" fill="#2F2A24">世俗习惯反过来：只看见有形之物，看不见它后面的虚源与生机。</text>
+<text x="24" y="440" font-size="5.2" fill="#2F2A24">所以「物形之」不是起点，是第三层；头一层，是一个不占地方的场。</text>
+<text x="24" y="456" font-size="5.4" fill="#4A5C55">四层不能颠倒：先有虚，才有存；先有形，才谈得上顺时。</text>
+<line x1="24" y1="474" x2="338" y2="474" stroke="#DCCBB0" stroke-width="0.6"/>
+<rect x="20" y="482" width="340" height="40" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="190" y="498" font-size="6.0" fill="#2F2A24" text-anchor="middle">道负责「有」，德负责「留住」；</text>
+<text x="190" y="510" font-size="6.0" fill="#4A5C55" text-anchor="middle">一个不占地方，一个专门存。</text>
+<line x1="20" y1="536" x2="360" y2="536" stroke="#E6D8C2" stroke-width="0.8"/>
+<text x="20" y="550" font-size="8.0" fill="#A89577" letter-spacing="1">本 章 金 句</text>
+<text x="20" y="566" font-size="8.4" fill="#2F2A24">道负责「有」，德负责「留住」；一个不占地方，一个专门存。</text>
+</svg>

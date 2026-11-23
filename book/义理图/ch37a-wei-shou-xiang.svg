@@ -6,8 +6,8 @@
 <text x="20" y="58" font-size="21" fill="#2F2A24">手牵象，与自化</text>
 <text x="20" y="78" font-size="10.5" fill="#6E6459">「为」从爪从象：一只手在上，一只象在下。</text>
 <rect x="20" y="102" width="340" height="30" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
-<text x="190" y="118" font-size="7.6" fill="#2F2A24" text-anchor="middle">道常无为而无不为。侯王若能守之，万物将自化。</text>
-<text x="190" y="130" font-size="7.2" fill="#6E6459" text-anchor="middle">化而欲作，吾将镇之以无名之朴。</text>
+<text x="190" y="118" font-size="5.2" fill="#2F2A24" text-anchor="middle">道常无为而无不为。侯王若能守之，万物将自化。</text>
+<text x="190" y="130" font-size="5.2" fill="#6E6459" text-anchor="middle">化而欲作，吾将镇之以无名之朴。</text>
 <rect x="20" y="144" width="162" height="122" fill="#FBF6EC" stroke="#E6D8C2" stroke-width="1.0"/>
 <rect x="198" y="144" width="162" height="122" fill="#FBF6EC" stroke="#E6D8C2" stroke-width="1.0"/>
 <text x="32" y="162" font-size="8.2" fill="#A2503B">为：爪在象上</text>
@@ -25,7 +25,7 @@
 <path d="M72,176 q7,-5 14,-1" fill="none" stroke="#A2503B" stroke-width="0.9"/>
 <path d="M74,177 l0,7 M79,177 l0,7 M85,178 l0,7" stroke="#A2503B" stroke-width="0.8"/>
 <path d="M79,184 q14,12 22,22" fill="none" stroke="#A2503B" stroke-width="0.8"/>
-<text x="32" y="254" font-size="6.9" fill="#6E6459">手一动，象才动。</text>
+<text x="32" y="254" font-size="5.2" fill="#6E6459">手一动，象才动。</text>
 <ellipse cx="252" cy="220" rx="23" ry="13" fill="#E9DFCC" stroke="#2F2A24" stroke-width="0.9"/>
 <circle cx="276" cy="210" r="8.5" fill="#E9DFCC" stroke="#2F2A24" stroke-width="0.9"/>
 <path d="M270,206 q-4,-7 3,-8 q4,0 4,6" fill="none" stroke="#2F2A24" stroke-width="0.7"/>
@@ -37,9 +37,9 @@
 <line x1="258" y1="232" x2="258" y2="244" stroke="#2F2A24" stroke-width="0.9"/>
 <line x1="267" y1="232" x2="267" y2="244" stroke="#2F2A24" stroke-width="0.9"/>
 <path d="M236,182 q14,4 26,-2" fill="none" stroke="#A2503B" stroke-width="0.7" stroke-dasharray="4 3"/>
-<text x="238" y="174" font-size="6.2" fill="#A2503B">绳落在地上</text>
+<text x="238" y="174" font-size="5.2" fill="#A2503B">绳落在地上</text>
 <line x1="222" y1="206" x2="206" y2="200" stroke="#4A5C55" stroke-width="0.8" marker-end="url(#arrS)"/>
-<text x="210" y="254" font-size="6.9" fill="#6E6459">象照走：撤的不是事，是手。</text>
+<text x="210" y="254" font-size="5.2" fill="#6E6459">象照走：撤的不是事，是手。</text>
 <rect x="20" y="278" width="340" height="96" fill="#F7F1E3" stroke="#E6D8C2" stroke-width="1.0"/>
 <text x="32" y="296" font-size="8.2" fill="#A2503B">化：路是别人指的</text>
 <text x="200" y="296" font-size="8.2" fill="#4A5C55">自化：方向从内起</text>
@@ -56,15 +56,15 @@
 <line x1="300" y1="332" x2="300" y2="346" stroke="#4A5C55" stroke-width="0.9"/>
 <path d="M300,346 l-4,8 M300,346 l4,8" stroke="#4A5C55" stroke-width="0.8"/>
 <line x1="66" y1="326" x2="138" y2="326" stroke="#A2503B" stroke-width="0.9" marker-end="url(#arrS)"/>
-<text x="102" y="320" font-size="7.0" fill="#A2503B" text-anchor="middle">教</text>
-<text x="104" y="370" font-size="6.7" fill="#6E6459" text-anchor="middle">「化」本带一个「教」：方向由外给。</text>
+<text x="102" y="320" font-size="5.2" fill="#A2503B" text-anchor="middle">教</text>
+<text x="104" y="370" font-size="5.2" fill="#6E6459" text-anchor="middle">「化」本带一个「教」：方向由外给。</text>
 <path d="M294,328 a6,6 0 0 1 12,0" fill="none" stroke="#4A5C55" stroke-width="0.6" stroke-dasharray="3 2"/>
 <path d="M289,328 a11,11 0 0 1 22,0" fill="none" stroke="#4A5C55" stroke-width="0.6" stroke-dasharray="3 2"/>
 <text x="300" y="308" font-size="8.0" fill="#4A5C55" text-anchor="middle">自</text>
-<text x="300" y="370" font-size="6.7" fill="#6E6459" text-anchor="middle">加一个「自」：同一条路，掉头走。</text>
+<text x="300" y="370" font-size="5.2" fill="#6E6459" text-anchor="middle">加一个「自」：同一条路，掉头走。</text>
 <rect x="20" y="386" width="340" height="40" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
-<text x="190" y="403" font-size="7.6" fill="#2F2A24" text-anchor="middle">「为」是那只牵着象的手：象的每一步，都算在它身上。</text>
-<text x="190" y="418" font-size="7.6" fill="#6E6459" text-anchor="middle">无为：手拿开，象自己走——事一件没少。</text>
+<text x="190" y="403" font-size="5.2" fill="#2F2A24" text-anchor="middle">「为」是那只牵着象的手：象的每一步，都算在它身上。</text>
+<text x="190" y="418" font-size="5.2" fill="#6E6459" text-anchor="middle">无为：手拿开，象自己走——事一件没少。</text>
 <line x1="20" y1="434" x2="360" y2="434" stroke="#E6D8C2" stroke-width="0.8"/>
 <text x="20" y="448" font-size="8.0" fill="#A89577" letter-spacing="1">本 章 金 句</text>
 <text x="20" y="464" font-size="8.4" fill="#2F2A24">「为」的原型是一只手牵着象：无为撤掉的不是事，是那只手。</text>

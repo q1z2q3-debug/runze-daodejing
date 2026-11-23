@@ -15,7 +15,7 @@
 <line x1="26.4" y1="206.0" x2="105.6" y2="206.0" stroke="#2F2A24" stroke-width="0.5" opacity="0.55"/>
 <line x1="80.0" y1="180.4" x2="80.0" y2="259.6" stroke="#2F2A24" stroke-width="0.5" opacity="0.55"/>
 <line x1="26.4" y1="234.0" x2="105.6" y2="234.0" stroke="#2F2A24" stroke-width="0.5" opacity="0.55"/>
-<text x="66" y="276" font-size="4.6" fill="#6E6459" text-anchor="middle">刚出门：还看得见</text>
+<text x="66" y="276" font-size="5.2" fill="#6E6459" text-anchor="middle">刚出门：还看得见</text>
 <circle cx="190" cy="220" r="42" fill="#4A5C55" opacity="0.28"/>
 <circle cx="190" cy="220" r="42" fill="none" stroke="#4A5C55" stroke-width="0.5" opacity="0.7"/>
 <circle cx="190" cy="220" r="9" fill="#4A5C55" opacity="0.9"/>
@@ -27,7 +27,7 @@
 <line x1="148.8" y1="228.4" x2="231.2" y2="228.4" stroke="#2F2A24" stroke-width="0.5" opacity="0.55"/>
 <line x1="215.2" y1="186.4" x2="215.2" y2="253.6" stroke="#2F2A24" stroke-width="0.5" opacity="0.55"/>
 <line x1="156.4" y1="245.2" x2="223.6" y2="245.2" stroke="#2F2A24" stroke-width="0.5" opacity="0.55"/>
-<text x="190" y="276" font-size="4.6" fill="#6E6459" text-anchor="middle">走远了：线多了</text>
+<text x="190" y="276" font-size="5.2" fill="#6E6459" text-anchor="middle">走远了：线多了</text>
 <circle cx="312" cy="220" r="42" fill="#4A5C55" opacity="0.28"/>
 <circle cx="312" cy="220" r="42" fill="none" stroke="#4A5C55" stroke-width="0.5" opacity="0.7"/>
 <circle cx="312" cy="220" r="9" fill="#4A5C55" opacity="0.9"/>
@@ -47,14 +47,14 @@
 <line x1="277.1" y1="243.3" x2="346.9" y2="243.3" stroke="#2F2A24" stroke-width="0.5" opacity="0.55"/>
 <line x1="344.7" y1="193.6" x2="344.7" y2="246.4" stroke="#2F2A24" stroke-width="0.5" opacity="0.55"/>
 <line x1="285.6" y1="252.7" x2="338.4" y2="252.7" stroke="#2F2A24" stroke-width="0.5" opacity="0.55"/>
-<text x="312" y="276" font-size="4.6" fill="#6E6459" text-anchor="middle">走得很远：看不见了</text>
+<text x="312" y="276" font-size="5.2" fill="#6E6459" text-anchor="middle">走得很远：看不见了</text>
 <text x="24" y="296" font-size="5.8" fill="#2F2A24">三个圆里是同一片「知」。网眼越密，中间那点亮越小；</text>
 <text x="24" y="312" font-size="5.8" fill="#A2503B">线都是你自己一条条捡回来的，捡得越多，越放不下。</text>
 <text x="24" y="328" font-size="5.4" fill="#6E6459">老子不是反对看；他反对把「向外看」当成求道的路。</text>
 <line x1="24" y1="346" x2="338" y2="346" stroke="#DCCBB0" stroke-width="0.6"/>
 <rect x="20" y="354" width="340" height="40" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
-<text x="190" y="370" font-size="6.2" fill="#2F2A24" text-anchor="middle">信息是捡回来的，通是放下去的；</text>
-<text x="190" y="382" font-size="6.2" fill="#4A5C55" text-anchor="middle">捡得越多，越放不下。</text>
+<text x="190" y="370" font-size="5.2" fill="#2F2A24" text-anchor="middle">信息是捡回来的，通是放下去的；</text>
+<text x="190" y="382" font-size="5.2" fill="#4A5C55" text-anchor="middle">捡得越多，越放不下。</text>
 <line x1="20" y1="408" x2="360" y2="408" stroke="#E6D8C2" stroke-width="0.8"/>
 <text x="20" y="422" font-size="8.0" fill="#A89577" letter-spacing="1">本 章 金 句</text>
 <text x="20" y="438" font-size="8.4" fill="#2F2A24">其出弥远，其知弥少。</text>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 380 612" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="出去是顺水，回来是逆水：这一章的全部功夫，都在逆水那半圈上" font-family="'Noto Serif CJK SC','Noto Serif SC','Songti SC',serif">
+<defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#6E6459"/></marker><marker id="arr2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#4A5C55"/></marker><marker id="arrL" viewBox="0 0 10 10" refX="1" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M10 0 L0 5 L10 10 z" fill="#4A5C55"/></marker><marker id="arrS" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#A2503B"/></marker></defs>
+<rect x="0" y="0" width="380" height="612" fill="#F8F3E6"/>
+<text x="20" y="26" font-size="11" fill="#A2503B" font-family="'Noto Sans CJK SC','Noto Sans SC',sans-serif" letter-spacing="3">第 五 十 二 章 · 圈</text>
+<text x="20" y="58" font-size="21" fill="#2F2A24">一个圈</text>
+<text x="20" y="78" font-size="10.5" fill="#6E6459">既得其母，以知其子；既知其子，复守其母。</text>
+<rect x="20" y="102" width="340" height="30" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="190" y="114" font-size="5.2" fill="#2F2A24" text-anchor="middle">母生子，是天道；子归母，是功夫。出去那半圈，一步不用你走，它自己会走。</text>
+<text x="190" y="126" font-size="5.2" fill="#6E6459" text-anchor="middle">回来那半圈，每一步都要你自己迈。</text>
+<text x="24" y="146" font-size="5.4" fill="#A2503B">一个闭环：从母到子，是出去；从子到母，是回来</text>
+<path d="M100,258 A110,54 0 0 1 280,258" fill="none" stroke="#A2503B" stroke-width="1.4"/>
+<polygon points="186,198 186,210 197,204" fill="#A2503B"/>
+<path d="M280,258 A110,54 0 0 1 100,258" fill="none" stroke="#4A5C55" stroke-width="1.4"/>
+<polygon points="194,318 194,306 183,312" fill="#4A5C55"/>
+<circle cx="80" cy="258" r="20" fill="#FBF6EC" stroke="#2F2A24" stroke-width="1"/>
+<text x="80" y="261" font-size="7.0" fill="#2F2A24" text-anchor="middle">母</text>
+<text x="80" y="288" font-size="4.6" fill="#6E6459" text-anchor="middle">无·本源</text>
+<circle cx="300" cy="258" r="20" fill="#EFE6D4" stroke="#2F2A24" stroke-width="1"/>
+<text x="300" y="261" font-size="7.0" fill="#2F2A24" text-anchor="middle">子</text>
+<text x="300" y="288" font-size="4.6" fill="#6E6459" text-anchor="middle">有·万象</text>
+<text x="190" y="180" font-size="5.0" fill="#A2503B" text-anchor="middle">出去：顺水（天定的）</text>
+<text x="190" y="342" font-size="5.0" fill="#4A5C55" text-anchor="middle">回来：逆水（人做的）</text>
+<text x="24" y="364" font-size="5.4" fill="#2F2A24">两个岔口：站在这半圈上，还是站在那半圈上</text>
+<rect x="20" y="374" width="164" height="54" fill="#FBF6EC" stroke="#4A5C55" stroke-width="1.0"/>
+<text x="102" y="390" font-size="5.2" fill="#4A5C55" text-anchor="middle">塞其兑，闭其门</text>
+<text x="102" y="404" font-size="4.6" fill="#6E6459" text-anchor="middle">站在回来的半圈上</text>
+<text x="102" y="416" font-size="4.6" fill="#6E6459" text-anchor="middle">终身不勤：不用那么劳</text>
+<rect x="196" y="374" width="164" height="54" fill="#FBF6EC" stroke="#A2503B" stroke-width="1.0"/>
+<text x="278" y="390" font-size="5.2" fill="#A2503B" text-anchor="middle">开其兑，济其事</text>
+<text x="278" y="404" font-size="4.6" fill="#6E6459" text-anchor="middle">站在出去那半圈上</text>
+<text x="278" y="416" font-size="4.6" fill="#6E6459" text-anchor="middle">终身不救：一辈子停不下来</text>
+<text x="24" y="446" font-size="5.2" fill="#2F2A24">「复」是走回来，不是停下来；没出去过的，谈不上复。</text>
+<text x="24" y="462" font-size="5.2" fill="#2F2A24">出去要看得见万象（知子），回来要守得住虚源（守母）；</text>
+<text x="24" y="478" font-size="5.2" fill="#4A5C55">不是关在母里不出来——那是闭门造车，不叫守母。</text>
+<line x1="24" y1="496" x2="338" y2="496" stroke="#DCCBB0" stroke-width="0.6"/>
+<rect x="20" y="504" width="340" height="40" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="190" y="520" font-size="6.0" fill="#2F2A24" text-anchor="middle">母生子，是天道；子归母，是功夫；</text>
+<text x="190" y="532" font-size="6.0" fill="#4A5C55" text-anchor="middle">本章讲的，就是这后半圈。</text>
+<line x1="20" y1="558" x2="360" y2="558" stroke="#E6D8C2" stroke-width="0.8"/>
+<text x="20" y="572" font-size="8.0" fill="#A89577" letter-spacing="1">本 章 金 句</text>
+<text x="20" y="588" font-size="8.4" fill="#2F2A24">母生子，是天道；子归母，是功夫；本章讲的，就是这后半圈。</text>
+</svg>

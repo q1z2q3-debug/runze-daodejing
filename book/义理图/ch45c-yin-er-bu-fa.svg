@@ -12,7 +12,7 @@
 <path d="M82,174 l-12,-4 M82,314 l-12,4" fill="none" stroke="#2F2A24" stroke-width="1.4"/>
 <line x1="80" y1="178" x2="80" y2="310" stroke="#2F2A24" stroke-width="0.4" opacity="0.45"/>
 <line x1="126" y1="232" x2="126" y2="256" stroke="#A2503B" stroke-width="0.5" stroke-dasharray="3 2"/>
-<text x="126" y="270" font-size="4.6" fill="#A2503B" text-anchor="middle">还差一分</text>
+<text x="126" y="270" font-size="5.2" fill="#A2503B" text-anchor="middle">还差一分</text>
 <line x1="80" y1="178" x2="108" y2="244" stroke="#2F2A24" stroke-width="1.1"/>
 <line x1="80" y1="310" x2="108" y2="244" stroke="#2F2A24" stroke-width="1.1"/>
 <circle cx="108" cy="244" r="2.6" fill="#4A5C55"/>
@@ -37,8 +37,8 @@
 <text x="42" y="479" font-size="5.6" fill="#2F2A24">射完就松弦。弓不常张，张久了臂就疲。</text>
 <line x1="24" y1="502" x2="338" y2="502" stroke="#DCCBB0" stroke-width="0.6"/>
 <rect x="20" y="512" width="340" height="44" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
-<text x="190" y="528" font-size="6.2" fill="#2F2A24" text-anchor="middle">弓不常张，话不说满，力不使尽。</text>
-<text x="190" y="542" font-size="6.2" fill="#4A5C55" text-anchor="middle">三样都留着那一分——那一分，才是能再用的。</text>
+<text x="190" y="528" font-size="5.2" fill="#2F2A24" text-anchor="middle">弓不常张，话不说满，力不使尽。</text>
+<text x="190" y="542" font-size="5.2" fill="#4A5C55" text-anchor="middle">三样都留着那一分——那一分，才是能再用的。</text>
 <line x1="20" y1="570" x2="360" y2="570" stroke="#E6D8C2" stroke-width="0.8"/>
 <text x="20" y="584" font-size="8.0" fill="#A89577" letter-spacing="1">本 章 金 句</text>
 <text x="20" y="600" font-size="8.4" fill="#2F2A24">弓不常张，话不说满，力不使尽。</text>

@@ -6,13 +6,13 @@
 <text x="20" y="58" font-size="21" fill="#2F2A24">留一道缝</text>
 <text x="20" y="78" font-size="10.5" fill="#6E6459">大成若缺，其用不敝。</text>
 <rect x="20" y="102" width="340" height="30" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
-<text x="190" y="115" font-size="6.4" fill="#2F2A24" text-anchor="middle">「缺」，《说文》「器破也」——器皿破了口。</text>
+<text x="190" y="115" font-size="5.2" fill="#2F2A24" text-anchor="middle">「缺」，《说文》「器破也」——器皿破了口。</text>
 <text x="190" y="127" font-size="5.7" fill="#6E6459" text-anchor="middle">到了头的东西，要留一个口；封死了，力就全落在自己身上。</text>
 <rect x="34" y="194" width="116" height="11" fill="#E6D8C2" stroke="#2F2A24" stroke-width="0.8"/>
 <rect x="162" y="194" width="176" height="11" fill="#E6D8C2" stroke="#2F2A24" stroke-width="0.8"/>
 <line x1="150" y1="190" x2="150" y2="209" stroke="#A2503B" stroke-width="0.9" stroke-dasharray="3 3"/>
 <line x1="162" y1="190" x2="162" y2="209" stroke="#A2503B" stroke-width="0.9" stroke-dasharray="3 3"/>
-<text x="156" y="182" font-size="6.4" fill="#A2503B" text-anchor="middle">缝</text>
+<text x="156" y="182" font-size="5.2" fill="#A2503B" text-anchor="middle">缝</text>
 <path d="M144,196 l-10,0 M134,196 l3,-3 M134,196 l3,3" fill="none" stroke="#A2503B" stroke-width="0.6"/>
 <path d="M168,196 l10,0 M178,196 l-3,-3 M178,196 l-3,3" fill="none" stroke="#A2503B" stroke-width="0.6"/>
 <path d="M71,205 L89,205 L93,240 L67,240 Z" fill="#EFE4CF" stroke="#2F2A24" stroke-width="0.7"/>
@@ -43,8 +43,8 @@
 <text x="150" y="378" font-size="5.9" fill="#2F2A24">那道缝一直在替它卸力。</text>
 <line x1="24" y1="420" x2="338" y2="420" stroke="#DCCBB0" stroke-width="0.6"/>
 <rect x="20" y="430" width="340" height="44" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
-<text x="190" y="446" font-size="6.2" fill="#2F2A24" text-anchor="middle">「大成」不是没有做到头，是做到头了，还留一处不封。</text>
-<text x="190" y="460" font-size="6.2" fill="#4A5C55" text-anchor="middle">那个缺口不是缺陷，是泄压的地方。</text>
+<text x="190" y="446" font-size="5.2" fill="#2F2A24" text-anchor="middle">「大成」不是没有做到头，是做到头了，还留一处不封。</text>
+<text x="190" y="460" font-size="5.2" fill="#4A5C55" text-anchor="middle">那个缺口不是缺陷，是泄压的地方。</text>
 <line x1="20" y1="488" x2="360" y2="488" stroke="#E6D8C2" stroke-width="0.8"/>
 <text x="20" y="502" font-size="8.0" fill="#A89577" letter-spacing="1">本 章 金 句</text>
 <text x="20" y="518" font-size="8.4" fill="#2F2A24">真正不破的，是那个本来就有破口的。</text>

@@ -6,7 +6,7 @@
 <text x="20" y="58" font-size="21" fill="#2F2A24">井口看着是空的</text>
 <text x="20" y="78" font-size="10.5" fill="#6E6459">大盈若冲，其用不穷。</text>
 <rect x="20" y="102" width="340" height="30" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
-<text x="190" y="115" font-size="6.4" fill="#2F2A24" text-anchor="middle">「冲」，虚而不满——里面有东西在动。</text>
+<text x="190" y="115" font-size="5.2" fill="#2F2A24" text-anchor="middle">「冲」，虚而不满——里面有东西在动。</text>
 <text x="190" y="127" font-size="5.7" fill="#6E6459" text-anchor="middle">不是空，是满在里面、外面不显。</text>
 <line x1="24" y1="182" x2="200" y2="182" stroke="#2F2A24" stroke-width="0.7"/>
 <path d="M78,182 L86,278 L142,278 L150,182 Z" fill="none" stroke="#2F2A24" stroke-width="0.9"/>
@@ -14,7 +14,7 @@
 <line x1="92" y1="244" x2="136" y2="244" stroke="#4A5C55" stroke-width="0.8"/>
 <path d="M98,252 q9,-4 18,0 q9,4 18,0" fill="none" stroke="#4A5C55" stroke-width="0.45" opacity="0.8"/>
 <path d="M98,261 q9,-4 18,0 q9,4 18,0" fill="none" stroke="#4A5C55" stroke-width="0.45" opacity="0.8"/>
-<text x="114" y="266" font-size="4.6" fill="#4A5C55" text-anchor="middle">水在下面</text>
+<text x="114" y="266" font-size="5.2" fill="#4A5C55" text-anchor="middle">水在下面</text>
 <ellipse cx="114" cy="182" rx="36" ry="7" fill="#EFE4CF" stroke="#2F2A24" stroke-width="0.8"/>
 <ellipse cx="114" cy="182" rx="26" ry="4.6" fill="#6E6459" opacity="0.55"/>
 <line x1="114" y1="174" x2="114" y2="156" stroke="#A2503B" stroke-width="0.5" stroke-dasharray="3 3"/>
@@ -29,8 +29,8 @@
 <text x="24" y="340" font-size="5.9" fill="#A2503B">杯子满到口沿，看着是满的；可它一满就到顶，再多一滴都是溢。</text>
 <line x1="24" y1="352" x2="338" y2="352" stroke="#DCCBB0" stroke-width="0.6"/>
 <rect x="20" y="360" width="340" height="44" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
-<text x="190" y="376" font-size="6.2" fill="#2F2A24" text-anchor="middle">满得溢出来的，是在往外倒；满在里面不溢的，是在往里续。</text>
-<text x="190" y="390" font-size="6.2" fill="#4A5C55" text-anchor="middle">真正充盈的在里面，外面永远是虚的。</text>
+<text x="190" y="376" font-size="5.2" fill="#2F2A24" text-anchor="middle">满得溢出来的，是在往外倒；满在里面不溢的，是在往里续。</text>
+<text x="190" y="390" font-size="5.2" fill="#4A5C55" text-anchor="middle">真正充盈的在里面，外面永远是虚的。</text>
 <line x1="20" y1="418" x2="360" y2="418" stroke="#E6D8C2" stroke-width="0.8"/>
 <text x="20" y="432" font-size="8.0" fill="#A89577" letter-spacing="1">本 章 金 句</text>
 <text x="20" y="448" font-size="8.4" fill="#2F2A24">一刀切过去的直，走不了远路；能缩一下的直，才真的到得了。</text>

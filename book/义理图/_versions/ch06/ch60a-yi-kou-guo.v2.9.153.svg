@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 380 700" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="治大国若烹小鲜：鲜是新杀之鱼，最嫩，也最经不起翻" font-family="'Noto Serif CJK SC','Noto Serif SC','Songti SC',serif">
+<defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#6E6459"/></marker><marker id="arr2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#4A5C55"/></marker><marker id="arrL" viewBox="0 0 10 10" refX="1" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M10 0 L0 5 L10 10 z" fill="#4A5C55"/></marker><marker id="arrS" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#A2503B"/></marker></defs>
+<rect x="0" y="0" width="380" height="700" fill="#F8F3E6"/>
+<text x="20" y="26" font-size="11" fill="#A2503B" font-family="'Noto Sans CJK SC','Noto Sans SC',sans-serif" letter-spacing="3">第 六 十 章 · 烹</text>
+<text x="20" y="58" font-size="21" fill="#2F2A24">一口锅</text>
+<text x="20" y="78" font-size="10.5" fill="#6E6459">治大国，若烹小鲜。</text>
+<rect x="20" y="102" width="340" height="30" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="190" y="114" font-size="5.2" fill="#2F2A24" text-anchor="middle">「鲜」，《说文》「鱼名」；先秦用「鲜」多取「新」义——新杀之鱼。</text>
+<text x="190" y="126" font-size="5.0" fill="#6E6459" text-anchor="middle">所以「小鲜」不是小鱼干，是刚下锅的那条；它最嫩，最经不起翻。</text>
+<text x="24" y="146" font-size="5.4" fill="#A2503B">一、翻：铲子一搅，鱼断成两截</text>
+<path d="M64.0,234 L160.0,234 L150.0,274 L74.0,274 Z" fill="#EFE6D4" stroke="#2F2A24" stroke-width="1.2"/>
+<path d="M64.0,234 C100,228 124,228 160.0,234" fill="none" stroke="#2F2A24" stroke-width="1.2"/>
+<path d="M50.0,242 C44.0,250 56.0,256 64.0,254" fill="none" stroke="#2F2A24" stroke-width="1"/>
+<path d="M174.0,242 C180.0,250 168.0,256 160.0,254" fill="none" stroke="#2F2A24" stroke-width="1"/>
+<path d="M90,276 C83,284 88,292 90,296 C94,288 96,282 90,276 Z" fill="none" stroke="#A2503B" stroke-width="0.9"/>
+<path d="M112,276 C105,284 110,292 112,296 C116,288 118,282 112,276 Z" fill="none" stroke="#A2503B" stroke-width="0.9"/>
+<path d="M134,276 C127,284 132,292 134,296 C138,288 140,282 134,276 Z" fill="none" stroke="#A2503B" stroke-width="0.9"/>
+<path d="M92,242 C100,235 118,235 126,242 C118,249 100,249 92,242 Z" fill="#FBF6EC" stroke="#A2503B" stroke-width="1"/>
+<path d="M92,242 L84,236 L84,248 Z" fill="none" stroke="#A2503B" stroke-width="0.9"/>
+<circle cx="118" cy="241" r="1.2" fill="#A2503B"/>
+<line x1="106" y1="234" x2="106" y2="250" stroke="#A2503B" stroke-width="0.5" stroke-dasharray="2 2"/>
+<line x1="150" y1="210" x2="126" y2="244" stroke="#2F2A24" stroke-width="1.6"/>
+<rect x="140" y="204" width="16" height="9" fill="#EFE6D4" stroke="#2F2A24" stroke-width="0.8"/>
+<text x="178" y="202" font-size="4.8" fill="#A2503B">铲子在锅里搅</text>
+<text x="178" y="214" font-size="4.4" fill="#6E6459">翻一遍，断一处</text>
+<text x="112" y="314" font-size="4.6" fill="#6E6459" text-anchor="middle">锅是敞的：谁都想伸一铲子</text>
+<text x="24" y="336" font-size="5.4" fill="#4A5C55">二、不翻：盖子盖着，火自己稳</text>
+<path d="M64.0,414 L160.0,414 L150.0,454 L74.0,454 Z" fill="#EFE6D4" stroke="#2F2A24" stroke-width="1.2"/>
+<path d="M64.0,414 C100,408 124,408 160.0,414" fill="none" stroke="#2F2A24" stroke-width="1.2"/>
+<path d="M50.0,422 C44.0,430 56.0,436 64.0,434" fill="none" stroke="#2F2A24" stroke-width="1"/>
+<path d="M174.0,422 C180.0,430 168.0,436 160.0,434" fill="none" stroke="#2F2A24" stroke-width="1"/>
+<path d="M90,456 C83,464 88,472 90,476 C94,468 96,462 90,456 Z" fill="none" stroke="#A2503B" stroke-width="0.9"/>
+<path d="M112,456 C105,464 110,472 112,476 C116,468 118,462 112,456 Z" fill="none" stroke="#A2503B" stroke-width="0.9"/>
+<path d="M134,456 C127,464 132,472 134,476 C138,468 140,462 134,456 Z" fill="none" stroke="#A2503B" stroke-width="0.9"/>
+<path d="M60,410 C92,392 132,392 164,410" fill="none" stroke="#2F2A24" stroke-width="1.4"/>
+<circle cx="112" cy="394" r="4" fill="#EFE6D4" stroke="#2F2A24" stroke-width="0.9"/>
+<text x="196" y="390" font-size="4.8" fill="#4A5C55">盖着：看不见，也别揭</text>
+<text x="196" y="402" font-size="4.4" fill="#6E6459">鱼在里头熟，不用管</text>
+<text x="112" y="494" font-size="4.6" fill="#6E6459" text-anchor="middle">火候够了，自己就熟</text>
+<text x="24" y="516" font-size="5.0" fill="#2F2A24">烹小鲜的诀是不翻：新鱼最嫩，翻一遍就断一处。</text>
+<text x="24" y="532" font-size="5.0" fill="#2F2A24">大国万民的生机也一样：政令反复，就是锅里的铲子。</text>
+<text x="24" y="548" font-size="4.8" fill="#4A5C55">上一章攒得住，这一章才敢不动；仓里有粮的人，才熬得住不揭锅盖。</text>
+<line x1="24" y1="566" x2="338" y2="566" stroke="#DCCBB0" stroke-width="0.6"/>
+<rect x="20" y="574" width="340" height="40" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="190" y="590" font-size="6.2" fill="#2F2A24" text-anchor="middle">治大国，若烹小鲜：</text>
+<text x="190" y="602" font-size="6.0" fill="#4A5C55" text-anchor="middle">诀只有一个字——不翻。</text>
+<line x1="20" y1="628" x2="360" y2="628" stroke="#E6D8C2" stroke-width="0.8"/>
+<text x="20" y="642" font-size="8.0" fill="#A89577" letter-spacing="1">本 章 金 句</text>
+<text x="20" y="658" font-size="8.4" fill="#2F2A24">烹小鲜的诀是不翻；这一章不教人怎么把事做成，教人做成了之后别再去动它。</text>
+</svg>

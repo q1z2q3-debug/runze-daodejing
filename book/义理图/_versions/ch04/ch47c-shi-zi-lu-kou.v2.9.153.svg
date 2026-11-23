@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 380 508" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="站在路口的人只能选一条" font-family="'Noto Serif CJK SC','Noto Serif SC','Songti SC',serif">
+<defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#6E6459"/></marker><marker id="arr2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#4A5C55"/></marker><marker id="arrL" viewBox="0 0 10 10" refX="1" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M10 0 L0 5 L10 10 z" fill="#4A5C55"/></marker><marker id="arrS" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#A2503B"/></marker></defs>
+<rect x="0" y="0" width="380" height="508" fill="#F8F3E6"/>
+<text x="20" y="26" font-size="11" fill="#A2503B" font-family="'Noto Sans CJK SC','Noto Sans SC',sans-serif" letter-spacing="3">第 四 十 七 章 · 行</text>
+<text x="20" y="58" font-size="21" fill="#2F2A24">十字路口</text>
+<text x="20" y="78" font-size="10.5" fill="#6E6459">是以圣人不行而知。</text>
+<rect x="20" y="102" width="340" height="30" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="190" y="114" font-size="5.8" fill="#2F2A24" text-anchor="middle">「行」的甲骨文，就是十字路口：四条路通到一处。</text>
+<text x="190" y="126" font-size="5.4" fill="#6E6459" text-anchor="middle">所以「不行而知」不是不走路，是「不站在那个路口」。</text>
+<rect x="126" y="160" width="48" height="130" fill="#EFE6D4" stroke="#2F2A24" stroke-width="0.5" opacity="0.8"/>
+<rect x="80" y="194" width="140" height="48" fill="#EFE6D4" stroke="#2F2A24" stroke-width="0.5" opacity="0.8"/>
+<line x1="136" y1="218" x2="110" y2="218" stroke="#E6D8C2" stroke-width="0.3" stroke-dasharray="4 3"/>
+<line x1="164" y1="218" x2="190" y2="218" stroke="#E6D8C2" stroke-width="0.3" stroke-dasharray="4 3"/>
+<line x1="150" y1="204" x2="150" y2="166" stroke="#E6D8C2" stroke-width="0.3" stroke-dasharray="4 3"/>
+<line x1="150" y1="232" x2="150" y2="270" stroke="#E6D8C2" stroke-width="0.3" stroke-dasharray="4 3"/>
+<line x1="150" y1="202" x2="150" y2="160" stroke="#A2503B" stroke-width="0.7" marker-end="url(#arrS)" opacity="0.9"/>
+<line x1="150" y1="234" x2="150" y2="276" stroke="#A2503B" stroke-width="0.7" marker-end="url(#arrS)" opacity="0.9"/>
+<line x1="134" y1="218" x2="92" y2="218" stroke="#A2503B" stroke-width="0.7" marker-end="url(#arrS)" opacity="0.9"/>
+<line x1="166" y1="218" x2="208" y2="218" stroke="#A2503B" stroke-width="0.7" marker-end="url(#arrS)" opacity="0.9"/>
+<circle cx="150" cy="218" r="4" fill="#2F2A24"/>
+<text x="150" y="304" font-size="4.8" fill="#A2503B" text-anchor="middle">选一条，就走不成那三条</text>
+<text x="258" y="192" font-size="5.0" fill="#4A5C55">路是同一套走法：</text>
+<text x="258" y="206" font-size="5.4" fill="#4A5C55">反、弱、有无相生、</text>
+<text x="258" y="218" font-size="5.4" fill="#4A5C55">冲气为和。</text>
+<text x="258" y="236" font-size="5.4" fill="#4A5C55">知道一处，就通了全部。</text>
+<line x1="252" y1="248" x2="338" y2="248" stroke="#E6D8C2" stroke-width="0.4"/>
+<text x="258" y="262" font-size="4.8" fill="#6E6459">知道走法的人，</text>
+<text x="258" y="272" font-size="4.8" fill="#6E6459">站不站在路口都一样。</text>
+<text x="24" y="330" font-size="5.6" fill="#2F2A24">不行而知，不是不走路：天下不是一堆散事，是一套统一的运化。</text>
+<text x="24" y="346" font-size="5.6" fill="#2F2A24">散事只能一件件去看；一套机制，知道一处就通了全部。</text>
+<text x="24" y="362" font-size="5.4" fill="#4A5C55">这就是「不出户」能成立的全部理由：他看的不是多，是那一条律。</text>
+<line x1="24" y1="380" x2="338" y2="380" stroke="#DCCBB0" stroke-width="0.6"/>
+<rect x="20" y="388" width="340" height="40" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="190" y="404" font-size="6.2" fill="#2F2A24" text-anchor="middle">站在路口的人只能选一条路；</text>
+<text x="190" y="416" font-size="6.2" fill="#4A5C55" text-anchor="middle">知道路怎么走的人，不必选。</text>
+<line x1="20" y1="442" x2="360" y2="442" stroke="#E6D8C2" stroke-width="0.8"/>
+<text x="20" y="456" font-size="8.0" fill="#A89577" letter-spacing="1">本 章 金 句</text>
+<text x="20" y="472" font-size="8.4" fill="#2F2A24">站在路口的人只能选一条路；知道路怎么走的人，不必选。</text>
+</svg>

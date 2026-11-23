@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 380 520" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="喜欢不要钱，甚爱要月供；藏得越多，跑得越勤" font-family="'Noto Serif CJK SC','Noto Serif SC','Songti SC',serif">
+<defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#6E6459"/></marker><marker id="arr2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#4A5C55"/></marker><marker id="arrL" viewBox="0 0 10 10" refX="1" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M10 0 L0 5 L10 10 z" fill="#4A5C55"/></marker><marker id="arrS" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#A2503B"/></marker></defs>
+<rect x="0" y="0" width="380" height="520" fill="#F8F3E6"/>
+<text x="20" y="26" font-size="11" fill="#A2503B" font-family="'Noto Sans CJK SC','Noto Sans SC',sans-serif" letter-spacing="3">第 四 十 四 章 · 费 亡</text>
+<text x="20" y="58" font-size="21" fill="#2F2A24">月供与逃跑</text>
+<text x="20" y="78" font-size="10.5" fill="#6E6459">甚爱必大费，多藏必厚亡。</text>
+<rect x="20" y="102" width="340" height="30" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="190" y="115" font-size="6.2" fill="#2F2A24" text-anchor="middle">「费」，《说文》「散财用也」，从贝；「亡」，《说文》「逃也」。</text>
+<text x="190" y="127" font-size="5.7" fill="#6E6459" text-anchor="middle">一个说的是花钱，一个说的是跑掉——都不是「伤心」，也不是「死」。</text>
+<text x="24" y="154" font-size="6.2" fill="#A2503B">一 · 甚爱必大费</text>
+<rect x="40" y="168" width="44" height="40" rx="3" fill="#F7F1E3" stroke="#2F2A24" stroke-width="0.8"/>
+<rect x="52" y="180" width="20" height="16" fill="#E6D8C2" stroke="#2F2A24" stroke-width="0.6"/>
+<path d="M54,180 v-4 a4,4 0 0 1 8,0 v4" fill="none" stroke="#A2503B" stroke-width="1"/>
+<path d="M64,196 v3 a4,4 0 0 0 8,0 v-3" fill="none" stroke="#A2503B" stroke-width="1"/>
+<text x="42" y="218" font-size="5.0" fill="#6E6459">锁进边界</text>
+<rect x="92" y="174" width="7" height="24" fill="#F0E3D6" stroke="#A2503B" stroke-width="0.4"/>
+<rect x="101" y="174" width="7" height="24" fill="#F0E3D6" stroke="#A2503B" stroke-width="0.4"/>
+<rect x="110" y="174" width="7" height="24" fill="#F0E3D6" stroke="#A2503B" stroke-width="0.4"/>
+<rect x="119" y="174" width="7" height="24" fill="#F0E3D6" stroke="#A2503B" stroke-width="0.4"/>
+<rect x="128" y="174" width="7" height="24" fill="#F0E3D6" stroke="#A2503B" stroke-width="0.4"/>
+<text x="108" y="208" font-size="4.6" fill="#A2503B">按天付</text>
+<text x="150" y="170" font-size="5.9" fill="#2F2A24">你爱一个名，就要一直维护它：解释、澄清、防误解、应酬。</text>
+<text x="150" y="186" font-size="5.9" fill="#6E6459">「爱」在这里是锁死：每开一次门，都要付一次费。</text>
+<text x="150" y="204" font-size="6.0" fill="#A2503B">「大费」的「大」，是这费不一次付清，是按天付。</text>
+<text x="24" y="250" font-size="6.2" fill="#2F2A24">二 · 多藏必厚亡</text>
+<rect x="36" y="262" width="52" height="44" fill="#F7F1E3" stroke="#2F2A24" stroke-width="0.9"/>
+<line x1="36" y1="280" x2="88" y2="280" stroke="#2F2A24" stroke-width="0.6"/>
+<rect x="41" y="266" width="11" height="10" fill="#E6D8C2" stroke="#2F2A24" stroke-width="0.4"/>
+<rect x="56" y="266" width="11" height="10" fill="#E6D8C2" stroke="#2F2A24" stroke-width="0.4"/>
+<rect x="71" y="266" width="11" height="10" fill="#E6D8C2" stroke="#2F2A24" stroke-width="0.4"/>
+<rect x="41" y="284" width="11" height="10" fill="#E6D8C2" stroke="#2F2A24" stroke-width="0.4"/>
+<rect x="56" y="284" width="11" height="10" fill="#E6D8C2" stroke="#2F2A24" stroke-width="0.4"/>
+<rect x="71" y="284" width="11" height="10" fill="#E6D8C2" stroke="#2F2A24" stroke-width="0.4"/>
+<line x1="88" y1="278" x2="104" y2="268" stroke="#A2503B" stroke-width="0.6" stroke-dasharray="4 3"/>
+<rect x="101" y="265" width="6" height="6" fill="#A2503B" opacity="0.85"/>
+<line x1="88" y1="278" x2="118" y2="280" stroke="#A2503B" stroke-width="0.6" stroke-dasharray="4 3"/>
+<rect x="115" y="277" width="6" height="6" fill="#A2503B" opacity="0.85"/>
+<line x1="88" y1="278" x2="114" y2="298" stroke="#A2503B" stroke-width="0.6" stroke-dasharray="4 3"/>
+<rect x="111" y="295" width="6" height="6" fill="#A2503B" opacity="0.85"/>
+<line x1="88" y1="278" x2="94" y2="304" stroke="#A2503B" stroke-width="0.6" stroke-dasharray="4 3"/>
+<rect x="91" y="301" width="6" height="6" fill="#A2503B" opacity="0.85"/>
+<line x1="88" y1="278" x2="78" y2="290" stroke="#A2503B" stroke-width="0.6" stroke-dasharray="4 3"/>
+<rect x="75" y="287" width="6" height="6" fill="#A2503B" opacity="0.85"/>
+<text x="30" y="314" font-size="5.0" fill="#6E6459">藏得越多，跑得越勤</text>
+<text x="150" y="266" font-size="5.9" fill="#2F2A24">「亡」是「逃也」——跟「死」不是一回事。</text>
+<text x="150" y="282" font-size="5.9" fill="#6E6459">藏一百样，就有一百样会跑：跑一样疼，跑一样急。</text>
+<text x="150" y="300" font-size="6.0" fill="#2F2A24">藏是一件件往里搬，亡是一件件往外跑。</text>
+<line x1="24" y1="340" x2="338" y2="340" stroke="#DCCBB0" stroke-width="0.6"/>
+<rect x="20" y="350" width="340" height="44" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="190" y="366" font-size="6.8" fill="#2F2A24" text-anchor="middle">这一章不是道德劝谕，是一份成本核算。</text>
+<text x="190" y="380" font-size="6.4" fill="#4A5C55" text-anchor="middle">每一次向外抓取，都在从身家性命里扣一笔。</text>
+<line x1="20" y1="408" x2="360" y2="408" stroke="#E6D8C2" stroke-width="0.8"/>
+<text x="20" y="422" font-size="8.0" fill="#A89577" letter-spacing="1">本 章 金 句</text>
+<text x="20" y="438" font-size="8.4" fill="#2F2A24">喜欢是不要钱的，甚爱是要月供的。</text>
+<text x="20" y="454" font-size="8.4" fill="#2F2A24">藏是一件件往里搬，亡是一件件往外跑；搬得越多，跑得越勤。</text>
+</svg>
