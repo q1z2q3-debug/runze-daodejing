@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 380 628" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="张开手臂，抱住的只有一抱；手臂垂着，怀里是整个天地" font-family="'Noto Serif CJK SC','Noto Serif SC','Songti SC',serif">
+<defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#6E6459"/></marker><marker id="arr2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#4A5C55"/></marker><marker id="arrL" viewBox="0 0 10 10" refX="1" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M10 0 L0 5 L10 10 z" fill="#4A5C55"/></marker><marker id="arrS" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#A2503B"/></marker></defs>
+<rect x="0" y="0" width="380" height="628" fill="#F8F3E6"/>
+<text x="20" y="26" font-size="11" fill="#A2503B" font-family="'Noto Sans CJK SC','Noto Sans SC',sans-serif" letter-spacing="3">第 三 十 四 章 · 其 五（补图）</text>
+<text x="20" y="58" font-size="21" fill="#2F2A24">张 臂 与 垂 臂</text>
+<text x="20" y="78" font-size="10.5" fill="#6E6459">「大」，大象人形。</text>
+<rect x="20" y="102" width="340" height="34" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="190" y="114" font-size="4.4" fill="#2F2A24" text-anchor="middle">「大」，《说文》「天大，地大，人亦大，故大象人形」——字形是一个正面站立、张开两臂的人。</text>
+<text x="190" y="127" font-size="4.4" fill="#6E6459" text-anchor="middle">所以「大」这个字，从造字那天起量的就是「占的地方有多宽」。</text>
+<text x="24" y="152" font-size="5.1" fill="#4A5C55">一、张臂：量的是占的地方有多宽</text>
+<rect x="26" y="164" width="328" height="152" fill="#FBF6EC" stroke="#DCCBB0" stroke-width="1.0"/>
+<line x1="40" y1="290" x2="340" y2="290" stroke="#2F2A24" stroke-width="0.9"/>
+<circle cx="124" cy="206" r="6.0" fill="none" stroke="#2F2A24" stroke-width="0.9"/>
+<line x1="124" y1="212" x2="124" y2="248" stroke="#2F2A24" stroke-width="1.1"/>
+<line x1="92" y1="226" x2="156" y2="226" stroke="#2F2A24" stroke-width="1.1"/>
+<line x1="124" y1="248" x2="114" y2="290" stroke="#2F2A24" stroke-width="1.0"/>
+<line x1="124" y1="248" x2="134" y2="290" stroke="#2F2A24" stroke-width="1.0"/>
+<line x1="92" y1="190" x2="92" y2="284" stroke="#A2503B" stroke-width="0.7" stroke-dasharray="5 4"/>
+<line x1="156" y1="190" x2="156" y2="284" stroke="#A2503B" stroke-width="0.7" stroke-dasharray="5 4"/>
+<line x1="92" y1="198" x2="156" y2="198" stroke="#A2503B" stroke-width="0.8" marker-end="url(#arrS)"/>
+<text x="124" y="188" font-size="3.7" fill="#A2503B" text-anchor="middle">占多宽</text>
+<path d="M98,228 Q 124,264 150,228" fill="none" stroke="#A2503B" stroke-width="0.8" stroke-dasharray="4 3"/>
+<text x="196" y="226" font-size="4.2" fill="#2F2A24">它的度量单位是「占了多少」：</text>
+<text x="196" y="238" font-size="4.2" fill="#2F2A24">疆域、军赋、盟主、我说了算。</text>
+<text x="196" y="256" font-size="4.1" fill="#A2503B">张臂的人，怀里只有一抱。</text>
+<text x="196" y="272" font-size="4.0" fill="#8A7C69">再多，手臂也伸不出去。</text>
+<text x="24" y="340" font-size="5.1" fill="#A2503B">二、垂臂：怀里是整个天地</text>
+<rect x="26" y="352" width="328" height="150" fill="#FBF6EC" stroke="#DCCBB0" stroke-width="1.0"/>
+<circle cx="190" cy="430" r="58" fill="none" stroke="#4A5C55" stroke-width="0.7" stroke-dasharray="6 5"/>
+<text x="190" y="378" font-size="3.6" fill="#4A5C55" text-anchor="middle">天地</text>
+<path d="M146,448 l9,-11 l9,11 Z" fill="none" stroke="#2F2A24" stroke-width="0.6"/>
+<path d="M214,412 q6,-4 12,0 q6,4 12,0" fill="none" stroke="#6E8C84" stroke-width="0.7"/>
+<line x1="238" y1="436" x2="238" y2="452" stroke="#2F2A24" stroke-width="0.8"/>
+<ellipse cx="238" cy="432" rx="7" ry="6" fill="none" stroke="#4A5C55" stroke-width="0.6"/>
+<circle cx="152" cy="460" r="2.8" fill="#2F2A24"/>
+<circle cx="226" cy="464" r="2.8" fill="#2F2A24"/>
+<circle cx="190" cy="412" r="5.6" fill="none" stroke="#2F2A24" stroke-width="0.9"/>
+<line x1="190" y1="418" x2="190" y2="448" stroke="#2F2A24" stroke-width="1.1"/>
+<line x1="187" y1="426" x2="183" y2="456" stroke="#2F2A24" stroke-width="0.9"/>
+<line x1="193" y1="426" x2="197" y2="456" stroke="#2F2A24" stroke-width="0.9"/>
+<line x1="190" y1="448" x2="182" y2="476" stroke="#2F2A24" stroke-width="1.0"/>
+<line x1="190" y1="448" x2="198" y2="476" stroke="#2F2A24" stroke-width="1.0"/>
+<text x="190" y="492" font-size="3.9" fill="#2F2A24" text-anchor="middle">它不张臂，可万物都在它里面；它不占位，可没有一处不在它里面。</text>
+<line x1="24" y1="518" x2="356" y2="518" stroke="#DCCBB0" stroke-width="0.6"/>
+<rect x="20" y="526" width="340" height="40" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="190" y="542" font-size="5.0" fill="#2F2A24" text-anchor="middle">张开手臂，抱住的只有一抱；手臂垂着，怀里是整个天地。</text>
+<text x="190" y="555" font-size="4.6" fill="#4A5C55" text-anchor="middle">世人的大，是把世界收进来；道的大，是让世界不必进来。</text>
+<line x1="20" y1="572" x2="360" y2="572" stroke="#E6D8C2" stroke-width="0.8"/>
+<text x="20" y="586" font-size="8.0" fill="#A89577" letter-spacing="1">本 章 金 句</text>
+<text x="20" y="602" font-size="8.4" fill="#2F2A24">张开手臂，抱住的只有一抱；手臂垂着，怀里是整个天地。</text>
+</svg>

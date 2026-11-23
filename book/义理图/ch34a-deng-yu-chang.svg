@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 380 606" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="一主，即落合；不主，方为和" font-family="'Noto Serif CJK SC','Noto Serif SC','Songti SC',serif">
+<defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#6E6459"/></marker><marker id="arr2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#4A5C55"/></marker><marker id="arrL" viewBox="0 0 10 10" refX="1" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M10 0 L0 5 L10 10 z" fill="#4A5C55"/></marker><marker id="arrS" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#A2503B"/></marker></defs>
+<rect x="0" y="0" width="380" height="606" fill="#F8F3E6"/>
+<text x="20" y="26" font-size="11" fill="#A2503B" font-family="'Noto Sans CJK SC','Noto Sans SC',sans-serif" letter-spacing="3">第 三 十 四 章 · 其 一</text>
+<text x="20" y="58" font-size="21" fill="#2F2A24">灯 与 场</text>
+<text x="20" y="78" font-size="10.5" fill="#6E6459">万物归焉而弗为主。</text>
+<rect x="20" y="102" width="340" height="34" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="190" y="114" font-size="4.5" fill="#2F2A24" text-anchor="middle">「主」，《说文》「灯中火主也」——本义是灯芯上那一点火；所有的光都从那儿出，所有的飞蛾都向那儿去。</text>
+<text x="190" y="127" font-size="4.5" fill="#6E6459" text-anchor="middle">这就是「主」的原型：一个中心，万物向它。</text>
+<text x="24" y="152" font-size="5.1" fill="#4A5C55">一、主：一个火头，万物向它</text>
+<rect x="26" y="164" width="328" height="140" fill="#FBF6EC" stroke="#DCCBB0" stroke-width="1.0"/>
+<line x1="40" y1="276" x2="340" y2="276" stroke="#2F2A24" stroke-width="0.9"/>
+<path d="M68,276 L108,276 L101,269 L75,269 Z" fill="#EDE3CE" stroke="#2F2A24" stroke-width="0.9"/>
+<line x1="88" y1="269" x2="88" y2="242" stroke="#2F2A24" stroke-width="1.2"/>
+<ellipse cx="88" cy="242" rx="9" ry="3" fill="#EDE3CE" stroke="#2F2A24" stroke-width="0.9"/>
+<path d="M88,239 q-4,-7 0,-11 q4,4 0,11" fill="#A2503B" stroke="none" opacity="0.9"/>
+<path d="M27,190 L30,192 L33,190" fill="none" stroke="#2F2A24" stroke-width="0.8"/>
+<ellipse cx="30" cy="193.4" rx="1.1" ry="1.6" fill="#2F2A24"/>
+<line x1="27" y1="194" x2="70" y2="226" stroke="#DCCBB0" stroke-width="0.3" stroke-dasharray="3 3"/>
+<path d="M33,240 L36,242 L39,240" fill="none" stroke="#2F2A24" stroke-width="0.8"/>
+<ellipse cx="36" cy="243.4" rx="1.1" ry="1.6" fill="#2F2A24"/>
+<line x1="33" y1="244" x2="70" y2="236" stroke="#DCCBB0" stroke-width="0.3" stroke-dasharray="3 3"/>
+<path d="M139,192 L142,194 L145,192" fill="none" stroke="#2F2A24" stroke-width="0.8"/>
+<ellipse cx="142" cy="195.4" rx="1.1" ry="1.6" fill="#2F2A24"/>
+<line x1="145" y1="196" x2="106" y2="226" stroke="#DCCBB0" stroke-width="0.3" stroke-dasharray="3 3"/>
+<path d="M145,238 L148,240 L151,238" fill="none" stroke="#2F2A24" stroke-width="0.8"/>
+<ellipse cx="148" cy="241.4" rx="1.1" ry="1.6" fill="#2F2A24"/>
+<line x1="151" y1="242" x2="106" y2="236" stroke="#DCCBB0" stroke-width="0.3" stroke-dasharray="3 3"/>
+<text x="88" y="204" font-size="3.9" fill="#A2503B" text-anchor="middle">一个火头</text>
+<text x="160" y="198" font-size="4.2" fill="#2F2A24">万物的光都从这儿出，</text>
+<text x="160" y="210" font-size="4.2" fill="#2F2A24">万物都向这儿来。</text>
+<text x="160" y="226" font-size="4.2" fill="#A2503B">做主，就要回答：</text>
+<text x="160" y="238" font-size="4.2" fill="#A2503B">谁合格、谁排第一。</text>
+<text x="160" y="254" font-size="4.0" fill="#8A7C69">这些问题一被问出来，</text>
+<text x="160" y="266" font-size="4.0" fill="#8A7C69">合就已经发生了。</text>
+<text x="190" y="292" font-size="4.1" fill="#8A7C69" text-anchor="middle">灯只有一个火头——那是它的「主」。</text>
+<text x="24" y="328" font-size="5.1" fill="#A2503B">二、不主：火头撤了，光还在满天满地</text>
+<rect x="26" y="340" width="328" height="140" fill="#FBF6EC" stroke="#DCCBB0" stroke-width="1.0"/>
+<line x1="40" y1="452" x2="340" y2="452" stroke="#2F2A24" stroke-width="0.9"/>
+<polygon points="46,448 334,448 334,356 46,356" fill="#F7EFD9" stroke="none" opacity="0.55"/>
+<path d="M68,452 L108,452 L101,445 L75,445 Z" fill="#EDE3CE" stroke="#2F2A24" stroke-width="0.9"/>
+<line x1="88" y1="445" x2="88" y2="418" stroke="#2F2A24" stroke-width="1.2"/>
+<ellipse cx="88" cy="418" rx="9" ry="3" fill="#EDE3CE" stroke="#2F2A24" stroke-width="0.9"/>
+<path d="M88,416 q-5,-9 0,-15 q5,6 0,15" fill="none" stroke="#A2503B" stroke-width="0.9" stroke-dasharray="3 2"/>
+<text x="88" y="374" font-size="3.9" fill="#A2503B" text-anchor="middle">火头撤了</text>
+<path d="M137,368 L140,370 L143,368" fill="none" stroke="#2F2A24" stroke-width="0.8"/>
+<ellipse cx="140" cy="371.4" rx="1.1" ry="1.6" fill="#2F2A24"/>
+<path d="M203,390 L206,392 L209,390" fill="none" stroke="#2F2A24" stroke-width="0.8"/>
+<ellipse cx="206" cy="393.4" rx="1.1" ry="1.6" fill="#2F2A24"/>
+<path d="M265,366 L268,368 L271,366" fill="none" stroke="#2F2A24" stroke-width="0.8"/>
+<ellipse cx="268" cy="369.4" rx="1.1" ry="1.6" fill="#2F2A24"/>
+<path d="M297,408 L300,410 L303,408" fill="none" stroke="#2F2A24" stroke-width="0.8"/>
+<ellipse cx="300" cy="411.4" rx="1.1" ry="1.6" fill="#2F2A24"/>
+<text x="150" y="406" font-size="4.0" fill="#8A7C69">它们自己走过来，落哪儿都行</text>
+<text x="150" y="424" font-size="4.0" fill="#4A5C55">我不伸手去管、不去分先后</text>
+<text x="190" y="468" font-size="4.1" fill="#8A7C69" text-anchor="middle">归，是万物自己走过来的；主，是我伸手去管——差着整整一层。</text>
+<line x1="24" y1="496" x2="356" y2="496" stroke="#DCCBB0" stroke-width="0.6"/>
+<rect x="20" y="504" width="340" height="40" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="190" y="520" font-size="5.6" fill="#2F2A24" text-anchor="middle">一主，即落合；不主，方为和。</text>
+<text x="190" y="533" font-size="4.6" fill="#4A5C55" text-anchor="middle">万物归它是真的，它不当那个火头也是真的。</text>
+<line x1="20" y1="550" x2="360" y2="550" stroke="#E6D8C2" stroke-width="0.8"/>
+<text x="20" y="564" font-size="8.0" fill="#A89577" letter-spacing="1">本 章 金 句</text>
+<text x="20" y="580" font-size="8.4" fill="#2F2A24">归，是万物自己走过来的；主，是我伸手去管。</text>
+</svg>
