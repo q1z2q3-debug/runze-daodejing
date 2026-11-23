@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg viewBox="0 0 380 604" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="以正治国：正从止，是一只脚停在它该在的地方" font-family="'Noto Serif CJK SC','Noto Serif SC','Songti SC',serif">
+<svg viewBox="0 0 380 634" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="以正治国：正从止，是一只脚停在它该在的地方" font-family="'Noto Serif CJK SC','Noto Serif SC','Songti SC',serif">
 <defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#6E6459"/></marker><marker id="arr2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#4A5C55"/></marker><marker id="arrL" viewBox="0 0 10 10" refX="1" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M10 0 L0 5 L10 10 z" fill="#4A5C55"/></marker><marker id="arrS" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#A2503B"/></marker></defs>
-<rect x="0" y="0" width="380" height="604" fill="#F8F3E6"/>
+<rect x="0" y="0" width="380" height="634" fill="#F8F3E6"/>
 <text x="20" y="26" font-size="11" fill="#A2503B" font-family="'Noto Sans CJK SC','Noto Sans SC',sans-serif" letter-spacing="3">第 五 十 七 章 · 正</text>
 <text x="20" y="58" font-size="21" fill="#2F2A24">一只脚</text>
 <text x="20" y="78" font-size="10.5" fill="#6E6459">以正治国，以奇用兵，以无事取天下。</text>
 <rect x="20" y="102" width="340" height="30" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
 <text x="190" y="114" font-size="5.2" fill="#2F2A24" text-anchor="middle">「正」从止——止就是脚趾，正的本义是「一只脚停在它该在的地方」。</text>
 <text x="190" y="126" font-size="5.2" fill="#6E6459" text-anchor="middle">所以正不是「对」，是不动：脚不乱换地方，那个地方才立得住。</text>
-<text x="24" y="146" font-size="5.4" fill="#A2503B">一、脚乱换地方：换个地方，就换一套说法</text>
+<text x="24" y="146" font-size="5.2" fill="#A2503B">一、脚乱换地方：换个地方，就换一套说法</text>
 <line x1="24" y1="262" x2="246" y2="262" stroke="#2F2A24" stroke-width="1"/>
 <path d="M57,230 C55,240 56,251 62,256 C68,260 74,252 75,240 C76,231 72,225 65,225 C60,225 58,226 57,230 Z" stroke="#A2503B" stroke-width="1" stroke-dasharray="4 3" fill="none"/>
 <circle cx="60" cy="222" r="2.3" stroke="#A2503B" stroke-width="0.8" stroke-dasharray="4 3" fill="none"/>
@@ -29,7 +29,7 @@
 <line x1="120" y1="206" x2="176" y2="206" stroke="#A2503B" stroke-width="0.7" marker-end="url(#arrS)"/>
 <text x="140" y="190" font-size="4.8" fill="#A2503B" text-anchor="middle">年年换新法</text>
 <text x="66" y="276" font-size="4.6" fill="#6E6459">三个规矩，三只脚，哪一只都不常</text>
-<text x="24" y="302" font-size="5.4" fill="#4A5C55">二、脚站定：同一个地方，明年还是它</text>
+<text x="24" y="302" font-size="5.2" fill="#4A5C55">二、脚站定：同一个地方，明年还是它</text>
 <line x1="24" y1="418" x2="246" y2="418" stroke="#2F2A24" stroke-width="1"/>
 <path d="M103,386 C101,396 102,407 108,412 C114,416 120,408 121,396 C122,387 118,381 111,381 C106,381 104,382 103,386 Z" stroke="#4A5C55" stroke-width="1" fill="#EFE6D4"/>
 <circle cx="106" cy="378" r="2.3" stroke="#4A5C55" stroke-width="0.8" fill="#EFE6D4"/>
@@ -37,7 +37,7 @@
 <circle cx="114.5" cy="376" r="1.7" stroke="#4A5C55" stroke-width="0.8" fill="#EFE6D4"/>
 <circle cx="118" cy="379" r="1.5" stroke="#4A5C55" stroke-width="0.8" fill="#EFE6D4"/>
 <text x="150" y="392" font-size="4.8" fill="#4A5C55">同一只脚，同一个地方</text>
-<text x="150" y="404" font-size="4.4" fill="#6E6459">一笔不动，百姓才敢照着过日子</text>
+<text x="150" y="404" font-size="4.5" fill="#6E6459">一笔不动，百姓才敢照着过日子</text>
 <line x1="52" y1="356" x2="212" y2="356" stroke="#DCCBB0" stroke-width="0.9"/>
 <line x1="64" y1="352" x2="64" y2="360" stroke="#2F2A24" stroke-width="0.9"/>
 <text x="64" y="347" font-size="4.2" fill="#6E6459" text-anchor="middle">去</text>

@@ -9,7 +9,7 @@
 <text x="190" y="114" font-size="4.5" fill="#2F2A24" text-anchor="middle">「害」，《说文》「伤也」；「安」，从宀从女，人在屋下曰安；「平」，不倾斜、不压；「泰」，《序卦》「通也」。</text>
 <text x="190" y="127" font-size="4.5" fill="#6E6459">三字连起来：有处可居、没有压迫、气息通畅——这就是「和」最具体的样貌。</text>
 <text x="24" y="152" font-size="5.0" fill="#4A5C55">一、有框：进门第一件事，先量你合不合尺寸</text>
-<rect x="26" y="164" width="328" height="140" fill="#FBF6EC" stroke="#DCCBB0" stroke-width="0.8"/>
+<rect x="26" y="164" width="328" height="164" fill="#FBF6EC" stroke="#DCCBB0" stroke-width="0.8"/>
 <line x1="40" y1="276" x2="340" y2="276" stroke="#DCCBB0" stroke-width="0.9"/>
 <rect x="150" y="186" width="150" height="90" fill="none" stroke="#A2503B" stroke-width="1.0"/>
 <line x1="150" y1="194" x2="157" y2="194" stroke="#A2503B" stroke-width="0.5"/>
@@ -35,7 +35,7 @@
 <text x="96" y="220" font-size="4.0" fill="#8A7C69" text-anchor="middle">高一分，撞头</text>
 <text x="96" y="232" font-size="4.0" fill="#8A7C69" text-anchor="middle">宽一分，侧挤</text>
 <text x="96" y="248" font-size="4.0" fill="#A2503B" text-anchor="middle">尺寸先于人间</text>
-<text x="190" y="292" font-size="4.3" fill="#2F2A24" text-anchor="middle">伸手的场，进门第一件事是先量你合不合尺寸</text>
+<text x="190" y="292" font-size="4.5" fill="#2F2A24" text-anchor="middle">伸手的场，进门第一件事是先量你合不合尺寸</text>
 <text x="24" y="322" font-size="5.0" fill="#4A5C55">二、无框：同一个场，三样东西</text>
 <rect x="26" y="334" width="328" height="140" fill="#FBF6EC" stroke="#DCCBB0" stroke-width="0.8"/>
 <line x1="40" y1="446" x2="340" y2="446" stroke="#DCCBB0" stroke-width="0.9"/>

@@ -9,7 +9,7 @@
 <text x="190" y="114" font-size="4.9" fill="#2F2A24" text-anchor="middle">「客」，《说文》「寄也」，从宀从各——寄居在别人家里。</text>
 <text x="190" y="126" font-size="4.9" fill="#6E6459" text-anchor="middle">为主：时辰、地点、开头、收场都归我；为客：这四样全归他。</text>
 <text x="24" y="148" font-size="4.8" fill="#A2503B">一、为主：灯在当中，众物绕着它转</text>
-<rect x="26" y="160" width="328" height="140" fill="#FBF6EC" stroke="#DCCBB0" stroke-width="0.8"/>
+<rect x="26" y="160" width="328" height="164" fill="#FBF6EC" stroke="#DCCBB0" stroke-width="0.8"/>
 <path d="M180,212 L200,212 L196,204 L184,204 Z" fill="#EFE6D4" stroke="#2F2A24" stroke-width="1"/>
 <circle cx="190" cy="217" r="4.4" fill="#A2503B" stroke="none"/>
 <circle cx="190" cy="217" r="8" fill="none" stroke="#A2503B" stroke-width="0.6" opacity="0.5"/>
@@ -46,7 +46,7 @@
 <text x="24" y="560" font-size="5.0" fill="#4A5C55">不敢为主者，非不能战，乃不敢使此战归我所有。</text>
 <line x1="24" y1="576" x2="338" y2="576" stroke="#DCCBB0" stroke-width="0.6"/>
 <rect x="20" y="584" width="340" height="40" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
-<text x="190" y="599" font-size="5.4" fill="#2F2A24" text-anchor="middle">主者，灯中一火，众物绕之；</text>
+<text x="190" y="599" font-size="5.2" fill="#2F2A24" text-anchor="middle">主者，灯中一火，众物绕之；</text>
 <text x="190" y="612" font-size="4.9" fill="#4A5C55" text-anchor="middle">客者，寄也，宿于人家之屋。</text>
 <line x1="20" y1="638" x2="360" y2="638" stroke="#E6D8C2" stroke-width="0.8"/>
 <text x="20" y="652" font-size="8.0" fill="#A89577" letter-spacing="1">本 章 金 句</text>

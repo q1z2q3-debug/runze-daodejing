@@ -8,15 +8,15 @@
 <rect x="20" y="102" width="340" height="30" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
 <text x="190" y="114" font-size="5.2" fill="#2F2A24" text-anchor="middle">「锐」，《说文》「芒也」——芒是禾本科植物尖端那一根细刺。</text>
 <text x="190" y="126" font-size="5.2" fill="#6E6459" text-anchor="middle">它不伤人，它只是扎人；人身上的芒，就是那点「我比你明白」的尖。</text>
-<text x="24" y="146" font-size="5.4" fill="#A2503B">一、没磨过：尖还在，一碰就扎</text>
+<text x="24" y="146" font-size="5.2" fill="#A2503B">一、没磨过：尖还在，一碰就扎</text>
 <line x1="38" y1="266" x2="130" y2="266" stroke="#2F2A24" stroke-width="1"/>
 <path d="M50,266 C66,240 76,226 84,216" fill="none" stroke="#4A5C55" stroke-width="2.8"/>
 <line x1="84" y1="216" x2="112" y2="198" stroke="#A2503B" stroke-width="1.3"/>
 <circle cx="122" cy="194" r="5.5" fill="#EFE6D4" stroke="#2F2A24" stroke-width="0.9"/>
 <line x1="126" y1="192" x2="162" y2="204" stroke="#2F2A24" stroke-width="1.6"/>
 <text x="128" y="184" font-size="4.8" fill="#A2503B">一碰就扎</text>
-<text x="44" y="278" font-size="4.4" fill="#6E6459">芒：草尖上那一根细刺</text>
-<text x="24" y="294" font-size="5.4" fill="#4A5C55">二、磨过：尖磨平了，才不扎</text>
+<text x="44" y="278" font-size="4.5" fill="#6E6459">芒：草尖上那一根细刺</text>
+<text x="24" y="294" font-size="5.2" fill="#4A5C55">二、磨过：尖磨平了，才不扎</text>
 <line x1="38" y1="414" x2="130" y2="414" stroke="#2F2A24" stroke-width="1"/>
 <path d="M50,414 C66,388 76,374 84,364" fill="none" stroke="#4A5C55" stroke-width="2.8"/>
 <line x1="84" y1="364" x2="106" y2="350" stroke="#A2503B" stroke-width="1.3"/>
@@ -25,7 +25,7 @@
 <circle cx="124" cy="340" r="5.5" fill="#EFE6D4" stroke="#2F2A24" stroke-width="0.9"/>
 <line x1="130" y1="334" x2="168" y2="324" stroke="#4A5C55" stroke-width="0.7" marker-end="url(#arr2)"/>
 <text x="140" y="318" font-size="4.8" fill="#4A5C55">滑过去</text>
-<text x="40" y="426" font-size="4.4" fill="#6E6459">虚线：原来那根尖</text>
+<text x="40" y="426" font-size="4.5" fill="#6E6459">虚线：原来那根尖</text>
 <text x="24" y="454" font-size="5.2" fill="#2F2A24">「挫」是磨，不是砍——砍是断，磨是平；断了的还会再长，磨平了才不扎。</text>
 <text x="24" y="470" font-size="5.2" fill="#2F2A24">而人身上那根芒，多半长在「我比你明白」这句话上。</text>
 <text x="24" y="486" font-size="5.2" fill="#4A5C55">它不刺人，可一碰就扎；扎的不是对方，是那点不肯放的明白。</text>

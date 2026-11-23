@@ -20,7 +20,7 @@
 <line x1="128" y1="245" x2="128" y2="253" stroke="#2F2A24" stroke-width="1.0" opacity="0.45"/>
 <line x1="36" y1="266" x2="128" y2="266" stroke="#2F2A24" stroke-width="1.0" stroke-dasharray="8 6" opacity="0.7"/>
 <text x="82" y="282" font-size="4.5" fill="#6E6459" text-anchor="middle">四边都在，只是凑不成一个死框</text>
-<text x="150" y="212" font-size="4.4" fill="#8A7C69">这边还没定死</text>
+<text x="150" y="212" font-size="4.5" fill="#8A7C69">这边还没定死</text>
 <rect x="278" y="186" width="16" height="16" fill="#F8F3E6" stroke="#2F2A24" stroke-width="1.0"/>
 <text x="286" y="178" font-size="4.6" fill="#6E6459" text-anchor="middle">方</text>
 <circle cx="300" cy="226" r="8" fill="#F8F3E6" stroke="#2F2A24" stroke-width="1.0"/>
@@ -33,7 +33,7 @@
 <text x="190" y="300" font-size="4.8" fill="#4A5C55" text-anchor="middle">无物之象：形从这里生，它自己不成形。</text>
 <text x="24" y="326" font-size="4.7" fill="#6E6459">它不给自己定形，所以能当一切形的底；框若钉死成一格，就只能装那一格的东西。</text>
 <rect x="20" y="342" width="340" height="42" fill="#FBF6EC" stroke="#DCCBB0" stroke-width="1.0"/>
-<text x="190" y="357" font-size="5.4" fill="#2F2A24" text-anchor="middle">是谓惚恍：非空非有，非动非静。</text>
+<text x="190" y="357" font-size="5.2" fill="#2F2A24" text-anchor="middle">是谓惚恍：非空非有，非动非静。</text>
 <text x="190" y="373" font-size="4.9" fill="#4A5C55" text-anchor="middle">不是糊里糊涂，是没有固定相——所以能显一切相。</text>
 <line x1="190" y1="400" x2="190" y2="452" stroke="#DCCBB0" stroke-width="0.7"/>
 <text x="34" y="412" font-size="5.2" fill="#A2503B">固定</text>

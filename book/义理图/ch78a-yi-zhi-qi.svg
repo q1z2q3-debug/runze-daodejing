@@ -16,7 +16,7 @@
 <line x1="96" y1="224" x2="130" y2="212" stroke="#2F2A24" stroke-width="1.2"/>
 <path d="M132,218 Q170,232 206,226" fill="none" stroke="#4A5C55" stroke-width="2"/>
 <path d="M206,226 Q214,246 214,266" fill="none" stroke="#4A5C55" stroke-width="2"/>
-<text x="150" y="208" font-size="4.3" fill="#4A5C55">水在倒</text>
+<text x="150" y="208" font-size="4.5" fill="#4A5C55">水在倒</text>
 <path d="M200,222 Q186,254 196,292" fill="#EFE6D4" stroke="#2F2A24" stroke-width="1.2"/>
 <path d="M232,222 Q246,254 236,292" fill="#EFE6D4" stroke="#2F2A24" stroke-width="1.2"/>
 <path d="M196,292 Q216,302 236,292" fill="#EFE6D4" stroke="#2F2A24" stroke-width="1.2"/>
@@ -31,7 +31,7 @@
 <path d="M124,488 l6,-14 l10,8 Z" fill="#EFE6D4" stroke="#2F2A24" stroke-width="1.1"/>
 <text x="96" y="470" font-size="4.2" fill="#A2503B">器碎了</text>
 <path d="M150,502 Q196,482 250,502 Q200,512 150,502 Z" fill="#4A5C55" fill-opacity="0.25" stroke="#4A5C55" stroke-width="1"/>
-<text x="200" y="466" font-size="4.3" fill="#4A5C55" text-anchor="middle">还是那滩水</text>
+<text x="200" y="466" font-size="4.5" fill="#4A5C55" text-anchor="middle">还是那滩水</text>
 <text x="190" y="542" font-size="4.6" fill="#4A5C55" text-anchor="middle">形易万次，体未尝一易</text>
 <text x="24" y="566" font-size="4.8" fill="#2F2A24">故「无以易之」者，非不可变也，乃不可倒也。</text>
 <text x="24" y="582" font-size="4.8" fill="#2F2A24">器一次就碎，水一次也不倒：这就是「莫之能胜」的意思。</text>

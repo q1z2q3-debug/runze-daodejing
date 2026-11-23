@@ -8,7 +8,7 @@
 <rect x="20" y="102" width="340" height="30" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
 <text x="190" y="114" font-size="5.2" fill="#2F2A24" text-anchor="middle">道不占地方，它「生」的方式是给一个能容的场；德是把这份生机存住。</text>
 <text x="190" y="126" font-size="5.2" fill="#6E6459" text-anchor="middle">物给边界，势给时候——形管你在哪儿，势管你什么时候。</text>
-<text x="24" y="146" font-size="5.4" fill="#A2503B">四层链条，从虚到成</text>
+<text x="24" y="146" font-size="5.2" fill="#A2503B">四层链条，从虚到成</text>
 <line x1="52" y1="186" x2="52" y2="220" stroke="#E6D8C2" stroke-width="0.6" stroke-dasharray="4 4"/>
 <line x1="52" y1="218" x2="52" y2="238" stroke="#4A5C55" stroke-width="0.7" marker-end="url(#arr2)"/>
 <text x="86" y="171" font-size="5.2" fill="#2F2A24">道 生 之</text>
@@ -33,7 +33,7 @@
 <line x1="66" y1="370" x2="74" y2="362" stroke="#4A5C55" stroke-width="0.7" marker-end="url(#arr2)"/>
 <text x="24" y="424" font-size="5.2" fill="#2F2A24">世俗习惯反过来：只看见有形之物，看不见它后面的虚源与生机。</text>
 <text x="24" y="440" font-size="5.2" fill="#2F2A24">所以「物形之」不是起点，是第三层；头一层，是一个不占地方的场。</text>
-<text x="24" y="456" font-size="5.4" fill="#4A5C55">四层不能颠倒：先有虚，才有存；先有形，才谈得上顺时。</text>
+<text x="24" y="456" font-size="5.2" fill="#4A5C55">四层不能颠倒：先有虚，才有存；先有形，才谈得上顺时。</text>
 <line x1="24" y1="474" x2="338" y2="474" stroke="#DCCBB0" stroke-width="0.6"/>
 <rect x="20" y="482" width="340" height="40" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
 <text x="190" y="498" font-size="6.0" fill="#2F2A24" text-anchor="middle">道负责「有」，德负责「留住」；</text>

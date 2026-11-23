@@ -39,12 +39,12 @@
 <rect x="214" y="462" width="14" height="8" rx="4" fill="#EFE6D4" stroke="#2F2A24" stroke-width="0.9"/>
 <rect x="180" y="462" width="20" height="15" fill="#E4D8BF" stroke="#2F2A24" stroke-width="0.9"/>
 <rect x="186" y="455" width="8" height="7" fill="#E4D8BF" stroke="#2F2A24" stroke-width="0.8"/>
-<text x="216" y="460" font-size="4.4" fill="#4A5C55">印</text>
+<text x="216" y="460" font-size="4.5" fill="#4A5C55">印</text>
 <path d="M126,460 q14,-8 26,-1 q12,7 0,14" fill="none" stroke="#A2503B" stroke-width="1.0" opacity="0.55"/>
 <path d="M132,475 q12,4 22,-1" fill="none" stroke="#A2503B" stroke-width="0.9" opacity="0.55"/>
 <text x="132" y="454" font-size="4.0" fill="#6E6459" text-anchor="middle">解开</text>
 <line x1="266" y1="436" x2="230" y2="446" stroke="#4A5C55" stroke-width="0.9" marker-end="url(#arr2)"/>
-<text x="270" y="434" font-size="4.4" fill="#4A5C55">松开</text>
+<text x="270" y="434" font-size="4.5" fill="#4A5C55">松开</text>
 <text x="190" y="500" font-size="4.6" fill="#4A5C55" text-anchor="middle">功还是功，人还是人：印没掉，手也不抖</text>
 <text x="190" y="518" font-size="4.2" fill="#6E6459" text-anchor="middle">退的不是事，是恋；收的不是手，是心</text>
 <text x="190" y="532" font-size="4.2" fill="#6E6459" text-anchor="middle">先功遂，再身退——没做成而先退，多半是给退缩找个好名字</text>

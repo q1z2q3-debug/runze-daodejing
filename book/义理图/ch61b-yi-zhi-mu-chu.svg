@@ -8,7 +8,7 @@
 <rect x="20" y="102" width="340" height="30" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
 <text x="190" y="114" font-size="5.2" fill="#2F2A24" text-anchor="middle">「牝」是雌，「牡」是雄；「胜」训「肩」——是担得起，不是打得赢。</text>
 <text x="190" y="126" font-size="5.2" fill="#6E6459" text-anchor="middle">母鸡不争，可脚边那一群，都是它孵出来的。</text>
-<text x="24" y="146" font-size="5.4" fill="#A2503B">一、牡：昂着头，争那一步</text>
+<text x="24" y="146" font-size="5.2" fill="#A2503B">一、牡：昂着头，争那一步</text>
 <line x1="24" y1="258" x2="240" y2="258" stroke="#2F2A24" stroke-width="1"/>
 <ellipse cx="86" cy="235.0" rx="29.9" ry="19.549999999999997" fill="#EFE6D4" stroke="#A2503B" stroke-width="1"/>
 <line x1="109.0" y1="230.4" x2="113.60000000000001" y2="218.9" stroke="#A2503B" stroke-width="1.2"/>
@@ -22,9 +22,9 @@
 <line x1="76.8" y1="252.55" x2="76.8" y2="258" stroke="#A2503B" stroke-width="1"/>
 <line x1="97.5" y1="252.55" x2="97.5" y2="258" stroke="#A2503B" stroke-width="1"/>
 <text x="160" y="206" font-size="4.8" fill="#A2503B">一只，站着</text>
-<text x="160" y="218" font-size="4.4" fill="#6E6459">冠最高，脚边没有别的</text>
+<text x="160" y="218" font-size="4.5" fill="#6E6459">冠最高，脚边没有别的</text>
 <text x="86" y="272" font-size="4.6" fill="#A2503B" text-anchor="middle">牡：以力相争</text>
-<text x="24" y="292" font-size="5.4" fill="#4A5C55">二、牝：静着卧下，脚边一群</text>
+<text x="24" y="292" font-size="5.2" fill="#4A5C55">二、牝：静着卧下，脚边一群</text>
 <line x1="24" y1="410" x2="240" y2="410" stroke="#2F2A24" stroke-width="1"/>
 <ellipse cx="70" cy="400.1" rx="28.6" ry="18.700000000000003" fill="#EFE6D4" stroke="#4A5C55" stroke-width="1"/>
 <line x1="92.0" y1="395.70000000000005" x2="96.39999999999999" y2="390.20000000000005" stroke="#4A5C55" stroke-width="1.2"/>
@@ -52,7 +52,7 @@
 <line x1="182" y1="408" x2="182" y2="410" stroke="#4A5C55" stroke-width="0.8"/>
 <line x1="187" y1="408" x2="187" y2="410" stroke="#4A5C55" stroke-width="0.8"/>
 <text x="70" y="424" font-size="4.6" fill="#4A5C55" text-anchor="middle">牝：静着，不动</text>
-<text x="168" y="424" font-size="4.4" fill="#6E6459" text-anchor="middle">跟着的那群，都是它孵的</text>
+<text x="168" y="424" font-size="4.5" fill="#6E6459" text-anchor="middle">跟着的那群，都是它孵的</text>
 <text x="24" y="450" font-size="4.8" fill="#2F2A24">「胜」是担得起，不是打得赢：母鸡不争，脚边那一群都是它的。</text>
 <text x="24" y="466" font-size="4.9" fill="#2F2A24">静不是不动，是不必动；下不是低人一等，是让水自己流过来。</text>
 <text x="24" y="482" font-size="5.1" fill="#4A5C55">以静为下：静到那个位置，就有人来。</text>

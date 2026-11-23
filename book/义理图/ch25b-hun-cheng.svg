@@ -32,13 +32,13 @@
 <rect x="140" y="378" width="74" height="13" fill="#EFE6D4" stroke="#2F2A24" stroke-width="0.9"/>
 <rect x="140" y="395" width="74" height="13" fill="#EFE6D4" stroke="#2F2A24" stroke-width="0.9"/>
 <rect x="140" y="412" width="74" height="13" fill="#EFE6D4" stroke="#2F2A24" stroke-width="0.9"/>
-<text x="177" y="388" font-size="4.4" fill="#2F2A24" text-anchor="middle">板</text>
+<text x="177" y="388" font-size="4.5" fill="#2F2A24" text-anchor="middle">板</text>
 <text x="177" y="452" font-size="3.7" fill="#8A7C69" text-anchor="middle">剖开的料</text>
 <path d="M226,384 L234,424 L280,424 L288,384" fill="#FCF8EF" stroke="#2F2A24" stroke-width="1.0"/>
 <ellipse cx="257" cy="384" rx="31" ry="6" fill="#F8F3E6" stroke="#2F2A24" stroke-width="1.0"/>
 <text x="257" y="452" font-size="3.7" fill="#8A7C69" text-anchor="middle">碗（器）</text>
 <rect x="300" y="390" width="38" height="20" fill="#F2EADA" stroke="#A2503B" stroke-width="1.0"/>
-<text x="319" y="404" font-size="5.4" fill="#A2503B" text-anchor="middle">名</text>
+<text x="319" y="404" font-size="5.2" fill="#A2503B" text-anchor="middle">名</text>
 <line x1="298" y1="400" x2="292" y2="400" stroke="#A2503B" stroke-width="0.7" stroke-dasharray="3 2"/>
 <text x="319" y="452" font-size="3.7" fill="#8A7C69" text-anchor="middle">后贴的牌</text>
 <line x1="128" y1="399" x2="136" y2="388" stroke="#A2503B" stroke-width="0.8" stroke-dasharray="4 2"/>
@@ -49,8 +49,8 @@
 <text x="24" y="548" font-size="4.9" fill="#4A5C55">名字在这里只是手指：指着它，不等于摸到它。</text>
 <line x1="24" y1="566" x2="338" y2="566" stroke="#DCCBB0" stroke-width="0.6"/>
 <rect x="20" y="574" width="340" height="40" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
-<text x="190" y="590" font-size="5.4" fill="#2F2A24" text-anchor="middle">不是它比天地老，是天地离了它不成。</text>
-<text x="190" y="602" font-size="4.4" fill="#4A5C55" text-anchor="middle">名是给有边界的东西用的；对没有边界的东西，名只是手指。</text>
+<text x="190" y="590" font-size="5.2" fill="#2F2A24" text-anchor="middle">不是它比天地老，是天地离了它不成。</text>
+<text x="190" y="602" font-size="4.5" fill="#4A5C55" text-anchor="middle">名是给有边界的东西用的；对没有边界的东西，名只是手指。</text>
 <line x1="20" y1="628" x2="360" y2="628" stroke="#E6D8C2" stroke-width="0.8"/>
 <text x="20" y="642" font-size="8.0" fill="#A89577" letter-spacing="1">本 章 金 句</text>
 <text x="20" y="658" font-size="8.4" fill="#2F2A24">不是它比天地老，是天地离了它不成。</text>

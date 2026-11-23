@@ -46,16 +46,16 @@
 <rect x="96" y="382" width="7" height="38" rx="2" fill="none" stroke="#A2503B" stroke-width="1.2"/>
 <rect x="128" y="382" width="7" height="38" rx="2" fill="none" stroke="#A2503B" stroke-width="1.2"/>
 <rect x="160" y="382" width="7" height="38" rx="2" fill="none" stroke="#A2503B" stroke-width="1.2"/>
-<text x="90" y="436" font-size="4.4" fill="#A2503B">绳缠束：约</text>
+<text x="90" y="436" font-size="4.5" fill="#A2503B">绳缠束：约</text>
 <line x1="210" y1="404" x2="320" y2="404" stroke="#4A5C55" stroke-width="1.2" marker-end="url(#arr2)"/>
-<text x="316" y="392" font-size="4.4" fill="#4A5C55" text-anchor="end">推千里</text>
+<text x="316" y="392" font-size="4.5" fill="#4A5C55" text-anchor="end">推千里</text>
 <text x="190" y="488" font-size="4.6" fill="#4A5C55" text-anchor="middle">收得越紧，铺得越开：广不是多，是有余地</text>
 <text x="24" y="506" font-size="4.8" fill="#2F2A24">收得紧，不是省着不花，是知道什么值得攥住。</text>
 <text x="24" y="522" font-size="4.8" fill="#2F2A24">多言数穷，多藏厚亡——都不是骂奢侈，是说散。</text>
 <text x="24" y="540" font-size="5.0" fill="#4A5C55">俭是第一等的节流：它存的不是钱，是精气神。</text>
 <line x1="24" y1="556" x2="338" y2="556" stroke="#DCCBB0" stroke-width="0.6"/>
 <rect x="20" y="564" width="340" height="40" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
-<text x="190" y="579" font-size="5.4" fill="#2F2A24" text-anchor="middle">俭者约也，约者绳缠束；</text>
+<text x="190" y="579" font-size="5.2" fill="#2F2A24" text-anchor="middle">俭者约也，约者绳缠束；</text>
 <text x="190" y="592" font-size="4.9" fill="#4A5C55" text-anchor="middle">收十处为一束，一束可推千里。</text>
 <line x1="20" y1="618" x2="360" y2="618" stroke="#E6D8C2" stroke-width="0.8"/>
 <text x="20" y="632" font-size="8.0" fill="#A89577" letter-spacing="1">本 章 金 句</text>

@@ -8,7 +8,7 @@
 <rect x="20" y="102" width="340" height="30" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
 <text x="190" y="114" font-size="5.2" fill="#2F2A24" text-anchor="middle">「奇」，《说文》「异也，一曰不耦」——不耦，就是落单：没有配对的。</text>
 <text x="190" y="126" font-size="5.2" fill="#6E6459" text-anchor="middle">一双手套，平时是两只；出手的时候，只戴一只。</text>
-<text x="24" y="146" font-size="5.4" fill="#A2503B">一、出手：取一只，用一下</text>
+<text x="24" y="146" font-size="5.2" fill="#A2503B">一、出手：取一只，用一下</text>
 <rect x="40" y="236" width="62" height="36" fill="#EFE6D4" stroke="#2F2A24" stroke-width="0.8"/>
 <rect x="51" y="242" width="14" height="24" rx="5" stroke="#DCCBB0" stroke-width="1" fill="#FBF6EC"/>
 <line x1="54.5" y1="243" x2="54.5" y2="250" stroke="#DCCBB0" stroke-width="0.5" stroke-dasharray="2 2"/>
@@ -28,9 +28,9 @@
 <ellipse cx="140.5" cy="225" rx="3" ry="4.6" stroke="#A2503B" stroke-width="1" fill="#FBF6EC"/>
 <line x1="96" y1="234" x2="138" y2="218" stroke="#A2503B" stroke-width="0.7" marker-end="url(#arrS)"/>
 <text x="170" y="210" font-size="4.8" fill="#A2503B">取出去：只戴一只</text>
-<text x="170" y="222" font-size="4.4" fill="#6E6459">打完了，手要还回来</text>
+<text x="170" y="222" font-size="4.5" fill="#6E6459">打完了，手要还回来</text>
 <text x="190" y="280" font-size="4.6" fill="#6E6459" text-anchor="middle">兵是迫不得已的那一手</text>
-<text x="24" y="306" font-size="5.4" fill="#4A5C55">二、成常：两只都取走，盒子就空了</text>
+<text x="24" y="306" font-size="5.2" fill="#4A5C55">二、成常：两只都取走，盒子就空了</text>
 <rect x="40" y="390" width="62" height="36" fill="#F2EADA" stroke="#2F2A24" stroke-width="0.8"/>
 <rect x="51" y="396" width="14" height="24" rx="5" stroke="#DCCBB0" stroke-width="1" stroke-dasharray="4 3" fill="none"/>
 <line x1="54.5" y1="397" x2="54.5" y2="404" stroke="#DCCBB0" stroke-width="0.5" stroke-dasharray="2 2"/>
@@ -63,7 +63,7 @@
 <line x1="24" y1="514" x2="338" y2="514" stroke="#DCCBB0" stroke-width="0.6"/>
 <rect x="20" y="522" width="340" height="40" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
 <text x="190" y="538" font-size="6.0" fill="#2F2A24" text-anchor="middle">奇是落单的一手；会用，但不能落单成习惯。</text>
-<text x="190" y="550" font-size="5.4" fill="#4A5C55" text-anchor="middle">无事是宗旨，正是常轨，奇只是兜底。</text>
+<text x="190" y="550" font-size="5.2" fill="#4A5C55" text-anchor="middle">无事是宗旨，正是常轨，奇只是兜底。</text>
 <line x1="20" y1="576" x2="360" y2="576" stroke="#E6D8C2" stroke-width="0.8"/>
 <text x="20" y="590" font-size="8.0" fill="#A89577" letter-spacing="1">本 章 金 句</text>
 <text x="20" y="606" font-size="8.4" fill="#2F2A24">奇是落单的一手；会用，但不能落单成习惯。</text>

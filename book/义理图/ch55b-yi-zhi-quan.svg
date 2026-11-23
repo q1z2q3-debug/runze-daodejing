@@ -8,7 +8,7 @@
 <rect x="20" y="102" width="340" height="30" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
 <text x="190" y="114" font-size="5.2" fill="#2F2A24" text-anchor="middle">「握」，《说文》「搤持也」——搤，掐住；婴儿那只拳，拇指是扣在四指里面的。</text>
 <text x="190" y="126" font-size="5.2" fill="#6E6459" text-anchor="middle">骨弱筋柔是外面软，握固是里面紧：边界柔，生机实。</text>
-<text x="24" y="146" font-size="5.4" fill="#4A5C55">一、婴儿的拳：拇指扣在里面，把自己握住</text>
+<text x="24" y="146" font-size="5.2" fill="#4A5C55">一、婴儿的拳：拇指扣在里面，把自己握住</text>
 <ellipse cx="126" cy="242" rx="42" ry="34" fill="#EFE6D4" stroke="#2F2A24" stroke-width="1.1"/>
 <path d="M102,212 C98,230 98,248 104,262" fill="none" stroke="#2F2A24" stroke-width="0.6"/>
 <path d="M116,212 C112,230 112,248 118,262" fill="none" stroke="#2F2A24" stroke-width="0.6"/>
@@ -17,12 +17,12 @@
 <path d="M88,238 C102,256 124,262 144,258 C154,256 156,246 150,238" fill="none" stroke="#A2503B" stroke-width="1.3"/>
 <line x1="214" y1="248" x2="178" y2="248" stroke="#4A5C55" stroke-width="1.0" marker-end="url(#arrL)"/>
 <text x="216" y="264" font-size="4.8" fill="#4A5C55">收：往里</text>
-<text x="126" y="292" font-size="4.4" fill="#6E6459" text-anchor="middle">不抓外面的东西，就是收着</text>
+<text x="126" y="292" font-size="4.5" fill="#6E6459" text-anchor="middle">不抓外面的东西，就是收着</text>
 <text x="268" y="218" font-size="4.8" fill="#4A5C55">外面软</text>
-<text x="268" y="230" font-size="4.4" fill="#6E6459">（骨弱筋柔）</text>
+<text x="268" y="230" font-size="4.5" fill="#6E6459">（骨弱筋柔）</text>
 <text x="268" y="256" font-size="4.8" fill="#4A5C55">里面紧</text>
-<text x="268" y="268" font-size="4.4" fill="#6E6459">（握固）</text>
-<text x="24" y="324" font-size="5.4" fill="#A2503B">二、成人的拳：同一只手，方向朝外</text>
+<text x="268" y="268" font-size="4.5" fill="#6E6459">（握固）</text>
+<text x="24" y="324" font-size="5.2" fill="#A2503B">二、成人的拳：同一只手，方向朝外</text>
 <ellipse cx="126" cy="408" rx="42" ry="34" fill="#EFE6D4" stroke="#2F2A24" stroke-width="1.1"/>
 <path d="M102,378 C98,396 98,414 104,428" fill="none" stroke="#2F2A24" stroke-width="0.6"/>
 <path d="M116,378 C112,396 112,414 118,428" fill="none" stroke="#2F2A24" stroke-width="0.6"/>
@@ -32,11 +32,11 @@
 <line x1="172" y1="414" x2="210" y2="414" stroke="#A2503B" stroke-width="1.0" marker-end="url(#arrS)"/>
 <rect x="216" y="398" width="42" height="34" fill="#FBF6EC" stroke="#A2503B" stroke-width="0.8"/>
 <text x="237" y="416" font-size="4.8" fill="#A2503B" text-anchor="middle">物</text>
-<text x="126" y="458" font-size="4.4" fill="#A2503B" text-anchor="middle">抓：往外；一放下就没了</text>
-<text x="237" y="452" font-size="4.4" fill="#6E6459" text-anchor="middle">攥拳是为了抓</text>
+<text x="126" y="458" font-size="4.5" fill="#A2503B" text-anchor="middle">抓：往外；一放下就没了</text>
+<text x="237" y="452" font-size="4.5" fill="#6E6459" text-anchor="middle">攥拳是为了抓</text>
 <text x="24" y="480" font-size="5.2" fill="#2F2A24">同一只手，两个方向：一只往里收，一只往外抓。</text>
 <text x="24" y="496" font-size="5.0" fill="#2F2A24">第五十二章讲「塞其兑，闭其门」，讲的就是这个「收」；只不过一个是功夫，一个是天生。</text>
-<text x="24" y="512" font-size="5.4" fill="#4A5C55">收的那只，不用力就一直在；抓的那只，一放下就没了。</text>
+<text x="24" y="512" font-size="5.2" fill="#4A5C55">收的那只，不用力就一直在；抓的那只，一放下就没了。</text>
 <line x1="24" y1="530" x2="338" y2="530" stroke="#DCCBB0" stroke-width="0.6"/>
 <rect x="20" y="538" width="340" height="40" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
 <text x="190" y="554" font-size="6.0" fill="#2F2A24" text-anchor="middle">成年人攥拳是为了抓，婴儿攥拳是为了收；</text>

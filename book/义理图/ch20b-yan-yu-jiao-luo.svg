@@ -56,7 +56,7 @@
 <ellipse cx="296" cy="263" rx="12" ry="4" fill="#FBF6EC" stroke="#2F2A24" stroke-width="0.8"/>
 <path d="M290,256 l12,0 l-2,6 l-8,0 Z" fill="#F2EADA" stroke="#2F2A24" stroke-width="0.7"/>
 <text x="190" y="176" font-size="4.5" fill="#6E6459" text-anchor="middle">案上摆满了，人人手上都有杯</text>
-<text x="190" y="296" font-size="4.4" fill="#8A7C69" text-anchor="middle">熙熙：热闹有个尽头，散席之后各自回家</text>
+<text x="190" y="296" font-size="4.5" fill="#8A7C69" text-anchor="middle">熙熙：热闹有个尽头，散席之后各自回家</text>
 <text x="24" y="319" font-size="5.0" fill="#A2503B">一、熙熙：都挤在案后，谁也没有落后</text>
 <rect x="26" y="332" width="328" height="156" fill="#FBF6EC" stroke="#DCCBB0" stroke-width="0.8"/>
 <circle cx="250" cy="402" r="3.4" fill="none" stroke="#DCCBB0" stroke-width="0.9"/>
@@ -85,7 +85,7 @@
 <path d="M256,438 l12,0 l-2,6 l-8,0 Z" fill="#F2EADA" stroke="#DCCBB0" stroke-width="0.7"/>
 <ellipse cx="310" cy="445" rx="12" ry="4" fill="#FBF6EC" stroke="#DCCBB0" stroke-width="0.8"/>
 <path d="M304,438 l12,0 l-2,6 l-8,0 Z" fill="#F2EADA" stroke="#DCCBB0" stroke-width="0.7"/>
-<text x="282" y="358" font-size="4.4" fill="#8A7C69" text-anchor="middle">那头还是那场宴</text>
+<text x="282" y="358" font-size="4.5" fill="#8A7C69" text-anchor="middle">那头还是那场宴</text>
 <line x1="40" y1="448" x2="176" y2="448" stroke="#2F2A24" stroke-width="1.2"/>
 <circle cx="96" cy="402" r="3.4" fill="none" stroke="#2F2A24" stroke-width="0.9"/>
 <line x1="96" y1="406" x2="96" y2="432" stroke="#2F2A24" stroke-width="1.0"/>
@@ -95,8 +95,8 @@
 <line x1="96" y1="412" x2="105" y2="428" stroke="#2F2A24" stroke-width="0.8"/>
 <circle cx="122" cy="408" r="8" fill="none" stroke="#DCCBB0" stroke-width="0.7" stroke-dasharray="2 2"/>
 <text x="122" y="398" font-size="4.2" fill="#8A7C69" text-anchor="middle">还没起</text>
-<text x="60" y="382" font-size="4.3" fill="#6E6459">手空着，脚下一小块空地</text>
-<text x="190" y="478" font-size="4.4" fill="#8A7C69" text-anchor="middle">别人看他没站处，他自己知道站在哪儿</text>
+<text x="60" y="382" font-size="4.5" fill="#6E6459">手空着，脚下一小块空地</text>
+<text x="190" y="478" font-size="4.5" fill="#8A7C69" text-anchor="middle">别人看他没站处，他自己知道站在哪儿</text>
 <text x="24" y="501" font-size="5.0" fill="#4A5C55">二、独泊：手还空着，欲还没起</text>
 <text x="24" y="520" font-size="4.9" fill="#2F2A24">众人向外抓取：从物、从盛宴、从赞誉、从热闹里取满足。</text>
 <text x="24" y="536" font-size="4.9" fill="#2F2A24">体道者淡泊平顺，不起羡慕攀求的征兆——不是压住，是还没起。</text>

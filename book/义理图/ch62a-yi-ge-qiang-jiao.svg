@@ -29,7 +29,7 @@
 <rect x="276" y="342" width="51" height="5" fill="#E6DCC6" stroke="#2F2A24" stroke-width="0.8"/>
 <path d="M242,342 A36,36 0 0 1 278,306" fill="none" stroke="#DCCBB0" stroke-width="0.8" stroke-dasharray="2 2"/>
 <text x="259" y="360" font-size="4.6" fill="#A2503B" text-anchor="middle">门：光从这儿进来</text>
-<text x="296" y="228" font-size="4.4" fill="#A2503B" text-anchor="end">光只到这儿</text>
+<text x="296" y="228" font-size="4.5" fill="#A2503B" text-anchor="end">光只到这儿</text>
 <text x="120" y="308" font-size="4.8" fill="#2F2A24">西南角：最尊</text>
 <text x="120" y="322" font-size="4.6" fill="#6E6459">也最暗——光进不去</text>
 <text x="190" y="380" font-size="4.6" fill="#A2503B" text-anchor="middle">万物归到这儿：不是归到光亮的台上被审判，</text>

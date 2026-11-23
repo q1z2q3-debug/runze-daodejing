@@ -25,7 +25,7 @@
 <line x1="66" y1="242" x2="88" y2="234" stroke="#2F2A24" stroke-width="1.0"/>
 <path d="M86,232 l6,0 M89,232 l0,6" stroke="#2F2A24" stroke-width="0.8"/>
 <path d="M85,238 q4,9 1,14 q-5,-5 -1,-14" fill="#F3E6C0" stroke="#A2503B" stroke-width="0.7"/>
-<text x="190" y="296" font-size="4.3" fill="#2F2A24" text-anchor="middle">照完这头，那头还黑；事一件一件做，总有照不到的地方</text>
+<text x="190" y="296" font-size="4.5" fill="#2F2A24" text-anchor="middle">照完这头，那头还黑；事一件一件做，总有照不到的地方</text>
 <text x="24" y="322" font-size="5.0" fill="#4A5C55">二、无为：灯挂在屋子当中</text>
 <rect x="40" y="350" width="300" height="104" fill="#F7F1DE" stroke="#2F2A24" stroke-width="0.9"/>
 <path d="M96,428 q-4,-22 12,-22 q16,0 12,22 Z" fill="#E4D9C0" stroke="#2F2A24" stroke-width="0.8"/>
@@ -43,7 +43,7 @@
 <line x1="190.0" y1="395" x2="190" y2="416" stroke="#A2503B" stroke-width="0.5" stroke-dasharray="3 4" opacity="0.55"/>
 <line x1="202.1" y1="395" x2="212" y2="416" stroke="#A2503B" stroke-width="0.5" stroke-dasharray="3 4" opacity="0.55"/>
 <line x1="214.2" y1="395" x2="234" y2="416" stroke="#A2503B" stroke-width="0.5" stroke-dasharray="3 4" opacity="0.55"/>
-<text x="190" y="466" font-size="4.3" fill="#2F2A24" text-anchor="middle">它不推任何一件东西，可没有一样没被照到</text>
+<text x="190" y="466" font-size="4.5" fill="#2F2A24" text-anchor="middle">它不推任何一件东西，可没有一样没被照到</text>
 <line x1="24" y1="480" x2="356" y2="480" stroke="#DCCBB0" stroke-width="0.6"/>
 <rect x="20" y="488" width="340" height="40" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
 <text x="190" y="504" font-size="4.9" fill="#2F2A24" text-anchor="middle">无为而无不为：不做的那个，恰恰成全了所有的做。</text>

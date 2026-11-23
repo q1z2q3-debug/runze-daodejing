@@ -8,7 +8,7 @@
 <rect x="20" y="102" width="340" height="30" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
 <text x="190" y="114" font-size="5.2" fill="#2F2A24" text-anchor="middle">「纷」，《说文》「马尾韬也」——韬是套子，缠在马尾上，防它跑起来乱甩。</text>
 <text x="190" y="126" font-size="5.2" fill="#6E6459" text-anchor="middle">所以纷的本义不是「乱」，是「用来对付乱的那个东西」。</text>
-<text x="24" y="146" font-size="5.4" fill="#A2503B">一、缠着：为了不乱，先缠上一个套</text>
+<text x="24" y="146" font-size="5.2" fill="#A2503B">一、缠着：为了不乱，先缠上一个套</text>
 <path d="M143.5,176 C143.5,214 142.0,246 142.0,284" fill="none" stroke="#2F2A24" stroke-width="1.1"/>
 <path d="M146.1,176 C146.1,214 145.2,246 145.2,284" fill="none" stroke="#2F2A24" stroke-width="1.1"/>
 <path d="M148.7,176 C148.7,214 148.4,246 148.4,284" fill="none" stroke="#2F2A24" stroke-width="1.1"/>
@@ -19,9 +19,9 @@
 <line x1="120" y1="221" x2="118" y2="216" stroke="#A2503B" stroke-width="0.8"/>
 <line x1="180" y1="221" x2="182" y2="216" stroke="#A2503B" stroke-width="0.8"/>
 <text x="206" y="224" font-size="4.8" fill="#A2503B">套：缠住了，尾巴不敢甩</text>
-<text x="206" y="236" font-size="4.4" fill="#6E6459">缠久了，它就长在尾巴上</text>
+<text x="206" y="236" font-size="4.5" fill="#6E6459">缠久了，它就长在尾巴上</text>
 <text x="150" y="300" font-size="4.6" fill="#6E6459" text-anchor="middle">一套规矩、一句座右铭、一个「我一向如此」</text>
-<text x="24" y="322" font-size="5.4" fill="#4A5C55">二、解开：放开那个缠，让它自己顺</text>
+<text x="24" y="322" font-size="5.2" fill="#4A5C55">二、解开：放开那个缠，让它自己顺</text>
 <path d="M143.5,352 C143.5,390 90.0,422 90.0,460" fill="none" stroke="#2F2A24" stroke-width="1.1"/>
 <path d="M146.1,352 C146.1,390 114.0,422 114.0,460" fill="none" stroke="#2F2A24" stroke-width="1.1"/>
 <path d="M148.7,352 C148.7,390 138.0,422 138.0,460" fill="none" stroke="#2F2A24" stroke-width="1.1"/>
@@ -32,7 +32,7 @@
 <path d="M208,404 C204,394 194,392 188,400" fill="none" stroke="#4A5C55" stroke-width="1"/>
 <text x="94" y="362" font-size="4.8" fill="#4A5C55" text-anchor="end">套松脱了</text>
 <text x="206" y="424" font-size="4.8" fill="#4A5C55">尾巴会甩一阵</text>
-<text x="206" y="436" font-size="4.4" fill="#6E6459">甩过之后，它自己会顺</text>
+<text x="206" y="436" font-size="4.5" fill="#6E6459">甩过之后，它自己会顺</text>
 <text x="150" y="476" font-size="4.8" fill="#4A5C55" text-anchor="middle">解：不是理顺，是松绑</text>
 <text x="24" y="498" font-size="5.2" fill="#2F2A24">「纷」是套，不是乱；乱能理，套只能解。</text>
 <text x="24" y="514" font-size="5.2" fill="#2F2A24">人心里那些「为了不让自己乱」的规矩，缠久了，就是新的乱。</text>

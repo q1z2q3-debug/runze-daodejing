@@ -19,7 +19,7 @@
 <line x1="284" y1="208" x2="284" y2="242" stroke="#2F2A24" stroke-width="0.8"/>
 <path d="M250,242 L318,242 L310,254 L258,254 Z" fill="#EFE6D4" stroke="#2F2A24" stroke-width="0.9"/>
 <rect x="62" y="268" width="68" height="20" fill="#F2EADA" stroke="#A2503B" stroke-width="0.9"/>
-<text x="96" y="282" font-size="4.3" fill="#A2503B" text-anchor="middle">不得已</text>
+<text x="96" y="282" font-size="4.5" fill="#A2503B" text-anchor="middle">不得已</text>
 <text x="284" y="260" font-size="3.7" fill="#A79A86" text-anchor="middle">（空）</text>
 <text x="190" y="330" font-size="4.1" fill="#8A7C69" text-anchor="middle">四个「勿」之前，先有这一张许可证：我本来不想打</text>
 <text x="24" y="364" font-size="5.1" fill="#A2503B">二、果后生矜、生伐、生骄：秤翻了</text>
@@ -33,7 +33,7 @@
 <line x1="284" y1="446" x2="284" y2="480" stroke="#2F2A24" stroke-width="0.8"/>
 <path d="M250,480 L318,480 L310,492 L258,492 Z" fill="#EFE6D4" stroke="#2F2A24" stroke-width="0.9"/>
 <rect x="62" y="456" width="68" height="20" fill="#F2EADA" stroke="#A2503B" stroke-width="0.9"/>
-<text x="96" y="470" font-size="4.3" fill="#A2503B" text-anchor="middle">不得已</text>
+<text x="96" y="470" font-size="4.5" fill="#A2503B" text-anchor="middle">不得已</text>
 <rect x="250" y="482" width="68" height="17" fill="#FBF6EC" stroke="#C9B79A" stroke-width="0.9"/>
 <text x="284" y="494" font-size="3.8" fill="#2F2A24" text-anchor="middle">矜·心</text>
 <rect x="250" y="473" width="68" height="17" fill="#FBF6EC" stroke="#C9B79A" stroke-width="0.9"/>

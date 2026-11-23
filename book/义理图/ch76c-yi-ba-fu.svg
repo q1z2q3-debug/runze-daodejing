@@ -24,8 +24,8 @@
 <path d="M112,234 L174,236 L180,248 L118,250 Z" fill="#DED2B8" stroke="#2F2A24" stroke-width="1"/>
 <line x1="118" y1="250" x2="180" y2="248" stroke="#2F2A24" stroke-width="1.2"/>
 <line x1="174" y1="236" x2="240" y2="186" stroke="#2F2A24" stroke-width="2"/>
-<text x="196" y="262" font-size="4.3" fill="#A2503B">斤：斧</text>
-<text x="88" y="308" font-size="4.3" fill="#6E6459">艸：草</text>
+<text x="196" y="262" font-size="4.5" fill="#A2503B">斤：斧</text>
+<text x="88" y="308" font-size="4.5" fill="#6E6459">艸：草</text>
 <text x="190" y="328" font-size="4.6" fill="#4A5C55" text-anchor="middle">折：斧落下来，断了的那一丛草</text>
 <text x="24" y="352" font-size="4.8" fill="#4A5C55">二、同一个力，落在草上／落在木上</text>
 <rect x="26" y="364" width="328" height="152" fill="#FBF6EC" stroke="#DCCBB0" stroke-width="0.8"/>
@@ -36,18 +36,18 @@
 <path d="M120,500 Q128,468 154,450" fill="none" stroke="#2F2A24" stroke-width="1.3"/>
 <path d="M132,500 Q140,468 166,450" fill="none" stroke="#2F2A24" stroke-width="1.3"/>
 <path d="M144,500 Q152,468 178,450" fill="none" stroke="#2F2A24" stroke-width="1.3"/>
-<text x="132" y="430" font-size="4.3" fill="#4A5C55" text-anchor="middle">草弯了，没断</text>
+<text x="132" y="430" font-size="4.5" fill="#4A5C55" text-anchor="middle">草弯了，没断</text>
 <rect x="228" y="470" width="52" height="30" fill="#EFE6D4" stroke="#2F2A24" stroke-width="1"/>
 <rect x="290" y="474" width="40" height="26" fill="#EFE6D4" stroke="#2F2A24" stroke-width="1"/>
 <path d="M282,470 l8,8 l-8,8 l8,8" fill="none" stroke="#A2503B" stroke-width="1.3"/>
-<text x="282" y="456" font-size="4.3" fill="#A2503B" text-anchor="middle">木断了</text>
+<text x="282" y="456" font-size="4.5" fill="#A2503B" text-anchor="middle">木断了</text>
 <text x="190" y="532" font-size="4.6" fill="#4A5C55" text-anchor="middle">柔者见弯，强者见断：弯可复，断不可复</text>
 <text x="24" y="556" font-size="4.8" fill="#2F2A24">柔的失败是变形——弯了还能直回来；强的失败是断——断口没有第二种可能。</text>
 <text x="24" y="572" font-size="4.8" fill="#2F2A24">至强之兵，是不能输的兵：一不能赢，则全输——非败于人也，无第二途也。</text>
 <text x="24" y="590" font-size="5.0" fill="#4A5C55">故强大处下，柔弱处上。</text>
 <line x1="24" y1="608" x2="338" y2="608" stroke="#DCCBB0" stroke-width="0.6"/>
 <rect x="20" y="616" width="340" height="40" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
-<text x="190" y="631" font-size="5.4" fill="#2F2A24" text-anchor="middle">是以兵强则灭，木强则折。</text>
+<text x="190" y="631" font-size="5.2" fill="#2F2A24" text-anchor="middle">是以兵强则灭，木强则折。</text>
 <text x="190" y="644" font-size="4.7" fill="#4A5C55" text-anchor="middle">强者见断，柔者见弯。</text>
 <line x1="20" y1="672" x2="360" y2="672" stroke="#E6D8C2" stroke-width="0.8"/>
 <text x="20" y="686" font-size="8.0" fill="#A89577" letter-spacing="1">本 章 金 句</text>

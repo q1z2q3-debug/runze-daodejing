@@ -29,10 +29,10 @@
 <rect x="126" y="284" width="11" height="5" fill="#E4D8BF" stroke="#2F2A24" stroke-width="0.6" transform="rotate(-12,131,286)"/>
 <rect x="141" y="286" width="11" height="5" fill="#E4D8BF" stroke="#2F2A24" stroke-width="0.6" transform="rotate(10,146,288)"/>
 <text x="190" y="202" font-size="4.6" fill="#A2503B">主人三件事</text>
-<text x="190" y="218" font-size="4.3" fill="#A2503B">挂牌：这屋写上我的名</text>
-<text x="190" y="232" font-size="4.3" fill="#A2503B">刷墙：改成我的颜色</text>
-<text x="190" y="246" font-size="4.3" fill="#A2503B">攥契：攥到指节发白</text>
-<text x="190" y="260" font-size="4.3" fill="#A2503B">拆墙：碍事的这一面，拆</text>
+<text x="190" y="218" font-size="4.5" fill="#A2503B">挂牌：这屋写上我的名</text>
+<text x="190" y="232" font-size="4.5" fill="#A2503B">刷墙：改成我的颜色</text>
+<text x="190" y="246" font-size="4.5" fill="#A2503B">攥契：攥到指节发白</text>
+<text x="190" y="260" font-size="4.5" fill="#A2503B">拆墙：碍事的这一面，拆</text>
 <text x="190" y="282" font-size="4.2" fill="#6E6459">房不是他的，人先被房绑住。</text>
 <text x="100" y="334" font-size="4.2" fill="#A2503B" text-anchor="middle">当主人：生而不有——你可以建，它不属于你</text>
 <text x="24" y="358" font-size="5.2" fill="#4A5C55">二、对外当租客：扫、养、修，走时不拆房</text>
@@ -60,8 +60,8 @@
 <circle cx="240" cy="465" r="1.0" fill="#4A5C55" opacity="0.7"/>
 <path d="M276,476 l16,-4 l3,8 l-16,4 z" fill="#E4D8BF" stroke="#2F2A24" stroke-width="0.8"/>
 <text x="284" y="492" font-size="3.8" fill="#6E6459" text-anchor="middle">待修</text>
-<text x="195" y="510" font-size="4.3" fill="#4A5C55">三样都做：扫地、浇花、修瓦</text>
-<text x="195" y="526" font-size="4.3" fill="#4A5C55">不挂牌、不拆改、不作主</text>
+<text x="195" y="510" font-size="4.5" fill="#4A5C55">三样都做：扫地、浇花、修瓦</text>
+<text x="195" y="526" font-size="4.5" fill="#4A5C55">不挂牌、不拆改、不作主</text>
 <text x="195" y="540" font-size="4.1" fill="#6E6459">走时，屋还是那间屋——手里的活一样没少</text>
 <text x="100" y="550" font-size="4.2" fill="#4A5C55" text-anchor="middle">当租客：生之畜之——能养，却不作它的主</text>
 <text x="24" y="578" font-size="5.2" fill="#2F2A24">三、对内当主人：这扇门的钥匙只在你手里</text>
@@ -79,8 +79,8 @@
 <line x1="168" y1="650" x2="168" y2="656" stroke="#A2503B" stroke-width="1.0"/>
 <line x1="172" y1="650" x2="172" y2="654" stroke="#A2503B" stroke-width="1.0"/>
 <text x="152" y="668" font-size="3.9" fill="#A2503B" text-anchor="middle">唯一一把</text>
-<text x="192" y="626" font-size="4.3" fill="#2F2A24">这把锁不在外头，在心里</text>
-<text x="192" y="642" font-size="4.3" fill="#2F2A24">开不开，只由自己</text>
+<text x="192" y="626" font-size="4.5" fill="#2F2A24">这把锁不在外头，在心里</text>
+<text x="192" y="642" font-size="4.5" fill="#2F2A24">开不开，只由自己</text>
 <text x="192" y="660" font-size="4.2" fill="#6E6459">推给外境，就是这一处当了租客</text>
 <text x="192" y="678" font-size="4.2" fill="#6E6459">今日起没起、守没守——没有第二个人可怪。</text>
 <text x="190" y="730" font-size="4.2" fill="#4A5C55" text-anchor="middle">对内全权：不推、不赖、不借外境做自己的主人</text>

@@ -27,7 +27,7 @@
 <path d="M136,432 Q116,462 130,498" fill="none" stroke="#2F2A24" stroke-width="2.4"/>
 <path d="M136,432 l-8,-4 l3,-8 l-9,-2" fill="none" stroke="#A2503B" stroke-width="1.4"/>
 <path d="M132,388 Q186,450 130,498" fill="none" stroke="#2F2A24" stroke-width="1" stroke-dasharray="4 3"/>
-<text x="168" y="462" font-size="4.3" fill="#6E6459">弦松了，箭射不出去</text>
+<text x="168" y="462" font-size="4.5" fill="#6E6459">弦松了，箭射不出去</text>
 <text x="104" y="442" font-size="4.2" fill="#A2503B">断在这里</text>
 <text x="190" y="534" font-size="4.6" fill="#4A5C55" text-anchor="middle">一张弓最强之时，即其最危之时</text>
 <text x="24" y="558" font-size="4.8" fill="#2F2A24">弓的用处全在「能回」：弯是力存在库里，回才是力放出去。</text>
@@ -35,7 +35,7 @@
 <text x="24" y="592" font-size="5.0" fill="#4A5C55">强不是力大，是离断点近。</text>
 <line x1="24" y1="610" x2="338" y2="610" stroke="#DCCBB0" stroke-width="0.6"/>
 <rect x="20" y="618" width="340" height="40" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
-<text x="190" y="633" font-size="5.4" fill="#2F2A24" text-anchor="middle">故坚强者死之徒，柔弱者生之徒。</text>
+<text x="190" y="633" font-size="5.2" fill="#2F2A24" text-anchor="middle">故坚强者死之徒，柔弱者生之徒。</text>
 <text x="190" y="646" font-size="4.7" fill="#4A5C55" text-anchor="middle">徒者，步行也——两条路，不是一个类。</text>
 <line x1="20" y1="674" x2="360" y2="674" stroke="#E6D8C2" stroke-width="0.8"/>
 <text x="20" y="688" font-size="8.0" fill="#A89577" letter-spacing="1">本 章 金 句</text>

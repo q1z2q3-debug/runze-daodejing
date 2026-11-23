@@ -9,7 +9,7 @@
 <rect x="24" y="164" width="712" height="300" fill="#FBF6EC" stroke="#DCCBB0" stroke-width="1.0"/>
 <rect x="40" y="380" width="680" height="84" fill="#E4EAE0" stroke="none"/>
 <path d="M40,380 Q60.0,375 80,380 Q100.0,385 120,380 Q140.0,375 160,380 Q180.0,385 200,380 Q220.0,375 240,380 Q260.0,385 280,380 Q300.0,375 320,380 Q340.0,385 360,380 Q380.0,375 400,380 Q420.0,385 440,380 Q460.0,375 480,380 Q500.0,385 520,380 Q540.0,375 560,380 Q580.0,385 600,380 Q620.0,375 640,380 Q660.0,385 680,380 Q700.0,375 720,380" fill="none" stroke="#2F2A24" stroke-width="1.0"/>
-<text x="56" y="372" font-size="8.6" fill="#6E6459">海</text>
+<text x="56" y="372" font-size="8.4" fill="#6E6459">海</text>
 <text x="380" y="432" font-size="30" fill="#4A5C55" text-anchor="middle">H<tspan dy="7.2" font-size="19.8">2</tspan><tspan dy="-7.2" font-size="30">O</tspan></text>
 <ellipse cx="232.0" cy="224.0" rx="15.0" ry="11.0" fill="#F2EADA" stroke="#2F2A24" stroke-width="0.8"/><ellipse cx="252.0" cy="216.0" rx="19.0" ry="14.0" fill="#F2EADA" stroke="#2F2A24" stroke-width="0.8"/><ellipse cx="272.0" cy="225.0" rx="13.0" ry="10.0" fill="#F2EADA" stroke="#2F2A24" stroke-width="0.8"/>
 <ellipse cx="412.0" cy="220.0" rx="15.0" ry="11.0" fill="#F2EADA" stroke="#2F2A24" stroke-width="0.8"/><ellipse cx="432.0" cy="212.0" rx="19.0" ry="14.0" fill="#F2EADA" stroke="#2F2A24" stroke-width="0.8"/><ellipse cx="452.0" cy="221.0" rx="13.0" ry="10.0" fill="#F2EADA" stroke="#2F2A24" stroke-width="0.8"/>
@@ -87,7 +87,7 @@
 <text x="561" y="762" font-size="10" fill="#4A5C55" text-anchor="middle" letter-spacing="1">支点在本体</text>
 <text x="561" y="784" font-size="8.4" fill="#6E6459" text-anchor="middle">万相来了都能承、都能应</text>
 <text x="466" y="914" font-size="9.4" fill="#4A5C55">相照旧变，人不翻</text>
-<text x="561" y="948" font-size="7.6" fill="#2F2A24" text-anchor="middle">本体</text>
+<text x="561" y="948" font-size="7.4" fill="#2F2A24" text-anchor="middle">本体</text>
 <rect x="24" y="994" width="712" height="60" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
 <text x="380" y="1020" font-size="10" fill="#2F2A24" text-anchor="middle">几于道落回人身：不是把外境摆平，是把支点挪进来。</text>
 <text x="380" y="1040" font-size="9" fill="#5F564C" text-anchor="middle">逆境照样来，只是不再添一层自造的苦——这才叫无尤。</text>

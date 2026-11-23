@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg viewBox="0 0 380 656" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="用其光，复归其明：光出去照东西，明是那个照本身" font-family="'Noto Serif CJK SC','Noto Serif SC','Songti SC',serif">
+<svg viewBox="0 0 380 686" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="用其光，复归其明：光出去照东西，明是那个照本身" font-family="'Noto Serif CJK SC','Noto Serif SC','Songti SC',serif">
 <defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#6E6459"/></marker><marker id="arr2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#4A5C55"/></marker><marker id="arrL" viewBox="0 0 10 10" refX="1" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M10 0 L0 5 L10 10 z" fill="#4A5C55"/></marker><marker id="arrS" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#A2503B"/></marker></defs>
-<rect x="0" y="0" width="380" height="656" fill="#F8F3E6"/>
+<rect x="0" y="0" width="380" height="686" fill="#F8F3E6"/>
 <text x="20" y="26" font-size="11" fill="#A2503B" font-family="'Noto Sans CJK SC','Noto Sans SC',sans-serif" letter-spacing="3">第 五 十 二 章 · 灯</text>
 <text x="20" y="58" font-size="21" fill="#2F2A24">一盏灯</text>
 <text x="20" y="78" font-size="10.5" fill="#6E6459">用其光，复归其明，无遗身殃，是为袭常。</text>
 <rect x="20" y="102" width="340" height="30" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
 <text x="190" y="114" font-size="5.2" fill="#2F2A24" text-anchor="middle">灯照屋子，屋子照亮了；灯一关，屋子黑，灯还在。</text>
 <text x="190" y="126" font-size="5.2" fill="#6E6459" text-anchor="middle">光是照东西的，明是那个照本身；光一直在外面，人就一直在外面。</text>
-<text x="24" y="146" font-size="5.4" fill="#A2503B">一、用其光：开灯，照见屋里的东西</text>
+<text x="24" y="146" font-size="5.2" fill="#A2503B">一、用其光：开灯，照见屋里的东西</text>
 <rect x="56" y="172" width="268" height="118" fill="#FDFAF2" stroke="#2F2A24" stroke-width="1.0"/>
 <polygon points="86,194 62,290 318,290 236,194" fill="#F6E9B8" opacity="0.55" stroke="none"/>
 <path d="M74,194 L100,194 L96,180 L78,180 Z" fill="#EFE6D4" stroke="#2F2A24" stroke-width="0.9"/>
@@ -19,14 +19,14 @@
 <line x1="228" y1="262" x2="244" y2="262" stroke="#E6D8C2" stroke-width="0.5"/>
 <text x="87" y="168" font-size="4.6" fill="#A2503B" text-anchor="middle">光：照出去</text>
 <text x="190" y="306" font-size="4.6" fill="#6E6459" text-anchor="middle">开灯：屋里每样东西都看得见——这就是「用其光」</text>
-<text x="24" y="340" font-size="5.4" fill="#4A5C55">二、复归其明：灯一关，屋子黑，灯还在</text>
+<text x="24" y="340" font-size="5.2" fill="#4A5C55">二、复归其明：灯一关，屋子黑，灯还在</text>
 <rect x="56" y="366" width="268" height="118" fill="#EFE8D8" stroke="#2F2A24" stroke-width="1.0"/>
 <path d="M74,388 L100,388 L96,374 L78,374 Z" fill="#EFE6D4" stroke="#2F2A24" stroke-width="0.9"/>
 <circle cx="87" cy="397" r="5" fill="#FBF6EC" stroke="#4A5C55" stroke-width="1.1"/>
 <line x1="87" y1="388" x2="87" y2="392" stroke="#2F2A24" stroke-width="0.6"/>
 <rect x="150" y="458" width="46" height="14" fill="#E6DDC9" stroke="#2F2A24" stroke-width="0.7"/>
 <rect x="206" y="452" width="60" height="20" fill="#E6DDC9" stroke="#2F2A24" stroke-width="0.7"/>
-<text x="151" y="426" font-size="4.4" fill="#8A7E70">东西还在这儿，只是看不清了</text>
+<text x="151" y="426" font-size="4.5" fill="#8A7E70">东西还在这儿，只是看不清了</text>
 <text x="110" y="362" font-size="4.6" fill="#4A5C55" text-anchor="middle">灯还在：这就是「明」</text>
 <text x="24" y="514" font-size="5.2" fill="#2F2A24">人最常见的病，是把「光」当成自己：光照到哪儿，人就以为自己在哪儿。</text>
 <text x="24" y="530" font-size="5.2" fill="#2F2A24">照得越远，人越散；「复归其明」就是：光收回来，人还在原处。</text>

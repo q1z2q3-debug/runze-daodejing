@@ -15,51 +15,51 @@
 <line x1="37" y1="246" x2="63" y2="246" stroke="#DCCBB0" stroke-width="0.6"/>
 <line x1="47" y1="204" x2="51" y2="214" stroke="#A2503B" stroke-width="1.0"/>
 <line x1="51" y1="214" x2="59" y2="198" stroke="#A2503B" stroke-width="1.1"/>
-<text x="50.0" y="294" font-size="4.4" fill="#2F2A24" text-anchor="middle">地</text>
+<text x="50.0" y="294" font-size="4.5" fill="#2F2A24" text-anchor="middle">地</text>
 <text x="50.0" y="306" font-size="3.9" fill="#6E6459" text-anchor="middle">一勾</text>
 <rect x="80" y="230" width="30" height="46" fill="#F8F3E6" stroke="#2F2A24" stroke-width="1.0"/>
 <rect x="82" y="246" width="26" height="28" fill="#E4EAE0" stroke="none"/>
 <line x1="82" y1="246" x2="108" y2="246" stroke="#DCCBB0" stroke-width="0.6"/>
 <line x1="92" y1="204" x2="96" y2="214" stroke="#A2503B" stroke-width="1.0"/>
 <line x1="96" y1="214" x2="104" y2="198" stroke="#A2503B" stroke-width="1.1"/>
-<text x="95.5" y="294" font-size="4.4" fill="#2F2A24" text-anchor="middle">渊</text>
+<text x="95.5" y="294" font-size="4.5" fill="#2F2A24" text-anchor="middle">渊</text>
 <text x="95.5" y="306" font-size="3.9" fill="#6E6459" text-anchor="middle">一勾</text>
 <rect x="126" y="230" width="30" height="46" fill="#F8F3E6" stroke="#2F2A24" stroke-width="1.0"/>
 <rect x="128" y="246" width="26" height="28" fill="#E4EAE0" stroke="none"/>
 <line x1="128" y1="246" x2="154" y2="246" stroke="#DCCBB0" stroke-width="0.6"/>
 <line x1="138" y1="204" x2="142" y2="214" stroke="#A2503B" stroke-width="1.0"/>
 <line x1="142" y1="214" x2="150" y2="198" stroke="#A2503B" stroke-width="1.1"/>
-<text x="141.0" y="294" font-size="4.4" fill="#2F2A24" text-anchor="middle">仁</text>
+<text x="141.0" y="294" font-size="4.5" fill="#2F2A24" text-anchor="middle">仁</text>
 <text x="141.0" y="306" font-size="3.9" fill="#6E6459" text-anchor="middle">一勾</text>
 <rect x="172" y="230" width="30" height="46" fill="#F8F3E6" stroke="#2F2A24" stroke-width="1.0"/>
 <rect x="174" y="246" width="26" height="28" fill="#E4EAE0" stroke="none"/>
 <line x1="174" y1="246" x2="200" y2="246" stroke="#DCCBB0" stroke-width="0.6"/>
 <line x1="184" y1="204" x2="188" y2="214" stroke="#A2503B" stroke-width="1.0"/>
 <line x1="188" y1="214" x2="196" y2="198" stroke="#A2503B" stroke-width="1.1"/>
-<text x="186.5" y="294" font-size="4.4" fill="#2F2A24" text-anchor="middle">信</text>
+<text x="186.5" y="294" font-size="4.5" fill="#2F2A24" text-anchor="middle">信</text>
 <text x="186.5" y="306" font-size="3.9" fill="#6E6459" text-anchor="middle">一勾</text>
 <rect x="217" y="230" width="30" height="46" fill="#F8F3E6" stroke="#2F2A24" stroke-width="1.0"/>
 <rect x="219" y="246" width="26" height="28" fill="#E4EAE0" stroke="none"/>
 <line x1="219" y1="246" x2="245" y2="246" stroke="#DCCBB0" stroke-width="0.6"/>
 <line x1="229" y1="204" x2="233" y2="214" stroke="#A2503B" stroke-width="1.0"/>
 <line x1="233" y1="214" x2="241" y2="198" stroke="#A2503B" stroke-width="1.1"/>
-<text x="232.0" y="294" font-size="4.4" fill="#2F2A24" text-anchor="middle">治</text>
+<text x="232.0" y="294" font-size="4.5" fill="#2F2A24" text-anchor="middle">治</text>
 <text x="232.0" y="306" font-size="3.9" fill="#6E6459" text-anchor="middle">一勾</text>
 <rect x="262" y="230" width="30" height="46" fill="#F8F3E6" stroke="#2F2A24" stroke-width="1.0"/>
 <rect x="264" y="246" width="26" height="28" fill="#E4EAE0" stroke="none"/>
 <line x1="264" y1="246" x2="290" y2="246" stroke="#DCCBB0" stroke-width="0.6"/>
 <line x1="274" y1="204" x2="278" y2="214" stroke="#A2503B" stroke-width="1.0"/>
 <line x1="278" y1="214" x2="286" y2="198" stroke="#A2503B" stroke-width="1.1"/>
-<text x="277.5" y="294" font-size="4.4" fill="#2F2A24" text-anchor="middle">能</text>
+<text x="277.5" y="294" font-size="4.5" fill="#2F2A24" text-anchor="middle">能</text>
 <text x="277.5" y="306" font-size="3.9" fill="#6E6459" text-anchor="middle">一勾</text>
 <rect x="308" y="230" width="30" height="46" fill="#F8F3E6" stroke="#2F2A24" stroke-width="1.0"/>
 <rect x="310" y="246" width="26" height="28" fill="#E4EAE0" stroke="none"/>
 <line x1="310" y1="246" x2="336" y2="246" stroke="#DCCBB0" stroke-width="0.6"/>
 <line x1="320" y1="204" x2="324" y2="214" stroke="#A2503B" stroke-width="1.0"/>
 <line x1="324" y1="214" x2="332" y2="198" stroke="#A2503B" stroke-width="1.1"/>
-<text x="323.0" y="294" font-size="4.4" fill="#2F2A24" text-anchor="middle">时</text>
+<text x="323.0" y="294" font-size="4.5" fill="#2F2A24" text-anchor="middle">时</text>
 <text x="323.0" y="306" font-size="3.9" fill="#6E6459" text-anchor="middle">一勾</text>
-<text x="190" y="330" font-size="4.3" fill="#A2503B" text-anchor="middle">分开摆：各自打分，水在每一节停着——七善成了七条互不相干的戒律</text>
+<text x="190" y="330" font-size="4.5" fill="#A2503B" text-anchor="middle">分开摆：各自打分，水在每一节停着——七善成了七条互不相干的戒律</text>
 <text x="24" y="360" font-size="5.2" fill="#4A5C55">二、接成一根：一节通了，下一节才满</text>
 <rect x="26" y="372" width="328" height="176" fill="#FBF6EC" stroke="#DCCBB0" stroke-width="0.8"/>
 <rect x="40" y="426" width="300" height="24" fill="#E4EAE0" stroke="#2F2A24" stroke-width="1.2"/>
@@ -75,19 +75,19 @@
 <line x1="257" y1="423" x2="257" y2="453" stroke="#2F2A24" stroke-width="1.0"/>
 <line x1="297" y1="423" x2="297" y2="453" stroke="#2F2A24" stroke-width="1.6"/>
 <line x1="300" y1="423" x2="300" y2="453" stroke="#2F2A24" stroke-width="1.0"/>
-<text x="61.42857142857143" y="414" font-size="4.4" fill="#2F2A24" text-anchor="middle">地</text>
+<text x="61.42857142857143" y="414" font-size="4.5" fill="#2F2A24" text-anchor="middle">地</text>
 <line x1="53.42857142857143" y1="437" x2="71.42857142857143" y2="437" stroke="#4A5C55" stroke-width="0.8" marker-end="url(#arr2)"/>
-<text x="104.28571428571428" y="414" font-size="4.4" fill="#2F2A24" text-anchor="middle">渊</text>
+<text x="104.28571428571428" y="414" font-size="4.5" fill="#2F2A24" text-anchor="middle">渊</text>
 <line x1="96.28571428571428" y1="437" x2="114.28571428571428" y2="437" stroke="#4A5C55" stroke-width="0.8" marker-end="url(#arr2)"/>
-<text x="147.14285714285714" y="414" font-size="4.4" fill="#2F2A24" text-anchor="middle">仁</text>
+<text x="147.14285714285714" y="414" font-size="4.5" fill="#2F2A24" text-anchor="middle">仁</text>
 <line x1="139.14285714285714" y1="437" x2="157.14285714285714" y2="437" stroke="#4A5C55" stroke-width="0.8" marker-end="url(#arr2)"/>
-<text x="190.0" y="414" font-size="4.4" fill="#2F2A24" text-anchor="middle">信</text>
+<text x="190.0" y="414" font-size="4.5" fill="#2F2A24" text-anchor="middle">信</text>
 <line x1="182.0" y1="437" x2="200.0" y2="437" stroke="#4A5C55" stroke-width="0.8" marker-end="url(#arr2)"/>
-<text x="232.85714285714283" y="414" font-size="4.4" fill="#2F2A24" text-anchor="middle">治</text>
+<text x="232.85714285714283" y="414" font-size="4.5" fill="#2F2A24" text-anchor="middle">治</text>
 <line x1="224.85714285714283" y1="437" x2="242.85714285714283" y2="437" stroke="#4A5C55" stroke-width="0.8" marker-end="url(#arr2)"/>
-<text x="275.71428571428567" y="414" font-size="4.4" fill="#2F2A24" text-anchor="middle">能</text>
+<text x="275.71428571428567" y="414" font-size="4.5" fill="#2F2A24" text-anchor="middle">能</text>
 <line x1="267.71428571428567" y1="437" x2="285.71428571428567" y2="437" stroke="#4A5C55" stroke-width="0.8" marker-end="url(#arr2)"/>
-<text x="318.57142857142856" y="414" font-size="4.4" fill="#2F2A24" text-anchor="middle">时</text>
+<text x="318.57142857142856" y="414" font-size="4.5" fill="#2F2A24" text-anchor="middle">时</text>
 <line x1="310.57142857142856" y1="437" x2="328.57142857142856" y2="437" stroke="#4A5C55" stroke-width="0.8" marker-end="url(#arr2)"/>
 <line x1="28" y1="437" x2="38" y2="437" stroke="#4A5C55" stroke-width="1.0" marker-end="url(#arr2)"/>
 <line x1="342" y1="437" x2="352" y2="437" stroke="#4A5C55" stroke-width="1.0" marker-end="url(#arr2)"/>

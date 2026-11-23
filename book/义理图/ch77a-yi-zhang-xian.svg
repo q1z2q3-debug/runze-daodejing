@@ -16,15 +16,15 @@
 <line x1="146" y1="212" x2="258" y2="258" stroke="#B9A98F" stroke-width="0.9"/>
 <circle cx="146" cy="212" r="3" fill="none" stroke="#A2503B" stroke-width="1.2"/>
 <circle cx="258" cy="258" r="3" fill="none" stroke="#B9A98F" stroke-width="1"/>
-<text x="196" y="208" font-size="4.3" fill="#A2503B">左梢高了：弦是斜的</text>
+<text x="196" y="208" font-size="4.5" fill="#A2503B">左梢高了：弦是斜的</text>
 <path d="M104,188 Q122,198 140,188" fill="#EFE6D4" stroke="#2F2A24" stroke-width="1"/>
 <line x1="114" y1="190" x2="114" y2="182" stroke="#2F2A24" stroke-width="0.8"/>
 <line x1="121" y1="190" x2="121" y2="182" stroke="#2F2A24" stroke-width="0.8"/>
 <line x1="128" y1="190" x2="128" y2="182" stroke="#2F2A24" stroke-width="0.8"/>
 <line x1="118" y1="206" x2="118" y2="196" stroke="#A2503B" stroke-width="1" stroke-dasharray="3 2"/>
 <polygon points="118,206 113,196 123,196" fill="#A2503B"/>
-<text x="190" y="196" font-size="4.3" fill="#A2503B" text-anchor="middle">抑：一手按下</text>
-<text x="190" y="278" font-size="4.4" fill="#6E6459" text-anchor="middle">抑者，《说文》曰「按也」——一手可矣</text>
+<text x="190" y="196" font-size="4.5" fill="#A2503B" text-anchor="middle">抑：一手按下</text>
+<text x="190" y="278" font-size="4.5" fill="#6E6459" text-anchor="middle">抑者，《说文》曰「按也」——一手可矣</text>
 <text x="190" y="328" font-size="4.6" fill="#4A5C55" text-anchor="middle">高者抑之：高处只需一只手按住</text>
 <text x="24" y="352" font-size="4.8" fill="#4A5C55">二、一头低了：举之</text>
 <rect x="26" y="364" width="328" height="150" fill="#FBF6EC" stroke="#DCCBB0" stroke-width="0.8"/>
@@ -33,19 +33,19 @@
 <line x1="146" y1="420" x2="258" y2="480" stroke="#B9A98F" stroke-width="0.9"/>
 <circle cx="146" cy="420" r="3" fill="none" stroke="#B9A98F" stroke-width="1"/>
 <circle cx="258" cy="480" r="3" fill="none" stroke="#A2503B" stroke-width="1.2"/>
-<text x="196" y="436" font-size="4.3" fill="#A2503B">右梢低了：弦还是斜的</text>
+<text x="196" y="436" font-size="4.5" fill="#A2503B">右梢低了：弦还是斜的</text>
 <path d="M244,496 Q262,506 280,496" fill="#EFE6D4" stroke="#2F2A24" stroke-width="1"/>
 <path d="M244,482 Q262,492 280,482" fill="#EFE6D4" stroke="#2F2A24" stroke-width="1"/>
 <line x1="262" y1="474" x2="262" y2="462" stroke="#A2503B" stroke-width="1" stroke-dasharray="3 2"/>
 <polygon points="262,458 257,468 267,468" fill="#A2503B"/>
-<text x="176" y="510" font-size="4.3" fill="#A2503B" text-anchor="middle">举：须两手托</text>
+<text x="176" y="510" font-size="4.5" fill="#A2503B" text-anchor="middle">举：须两手托</text>
 <text x="190" y="530" font-size="4.6" fill="#4A5C55" text-anchor="middle">举者，《说文》曰「对举也」——必须两只手</text>
 <text x="24" y="554" font-size="4.8" fill="#2F2A24">故天道之力，大半费于「举」：损有余易，补不足难。</text>
 <text x="24" y="570" font-size="4.8" fill="#2F2A24">抑只需一手按住，举则要两只手托起来——这就是「补」的代价。</text>
 <text x="24" y="588" font-size="5.0" fill="#4A5C55">不是加总，是配平。</text>
 <line x1="24" y1="606" x2="338" y2="606" stroke="#DCCBB0" stroke-width="0.6"/>
 <rect x="20" y="614" width="340" height="40" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
-<text x="190" y="629" font-size="5.4" fill="#2F2A24" text-anchor="middle">高者抑之，下者举之。</text>
+<text x="190" y="629" font-size="5.2" fill="#2F2A24" text-anchor="middle">高者抑之，下者举之。</text>
 <text x="190" y="642" font-size="4.7" fill="#4A5C55" text-anchor="middle">损有余易，补不足难。</text>
 <line x1="20" y1="670" x2="360" y2="670" stroke="#E6D8C2" stroke-width="0.8"/>
 <text x="20" y="684" font-size="8.0" fill="#A89577" letter-spacing="1">本 章 金 句</text>

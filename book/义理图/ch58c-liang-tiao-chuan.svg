@@ -8,7 +8,7 @@
 <rect x="20" y="102" width="340" height="30" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
 <text x="190" y="114" font-size="5.2" fill="#2F2A24" text-anchor="middle">「方」，《说文》「併船也」——两条船并在一起；所以方不是「棱角」，是「并着」。</text>
 <text x="190" y="126" font-size="5.2" fill="#6E6459" text-anchor="middle">并着不动刀；一动刀，并就成了界。</text>
-<text x="24" y="146" font-size="5.4" fill="#4A5C55">一、两条船并着：中间不留刀口</text>
+<text x="24" y="146" font-size="5.2" fill="#4A5C55">一、两条船并着：中间不留刀口</text>
 <path d="M124,190 C141,208 141,276 124,294 C107,276 107,208 124,190 Z" fill="#EFE6D4" stroke="#2F2A24" stroke-width="1.1"/>
 <line x1="124" y1="210" x2="124" y2="274" stroke="#2F2A24" stroke-width="0.4" stroke-dasharray="3 3"/>
 <path d="M100,208 C94,215 94,222 100,226" fill="none" stroke="#E6D8C2" stroke-width="0.45"/>
@@ -25,7 +25,7 @@
 <line x1="154" y1="262" x2="162" y2="262" stroke="#2F2A24" stroke-width="0.5"/>
 <text x="143" y="168" font-size="4.8" fill="#4A5C55" text-anchor="middle">并着：船帮贴船帮，中间没有刀口</text>
 <text x="124" y="318" font-size="4.6" fill="#6E6459">方：两条船并在一起</text>
-<text x="24" y="326" font-size="5.4" fill="#A2503B">二、一动刀：并就成了界</text>
+<text x="24" y="326" font-size="5.2" fill="#A2503B">二、一动刀：并就成了界</text>
 <path d="M124,358 C141,376 141,444 124,462 C107,444 107,376 124,358 Z" fill="#EFE6D4" stroke="#2F2A24" stroke-width="1.1"/>
 <line x1="124" y1="378" x2="124" y2="442" stroke="#2F2A24" stroke-width="0.4" stroke-dasharray="3 3"/>
 <path d="M100,376 C94,383 94,390 100,394" fill="none" stroke="#E6D8C2" stroke-width="0.45"/>

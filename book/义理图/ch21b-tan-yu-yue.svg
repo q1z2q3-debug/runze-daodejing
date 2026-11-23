@@ -40,10 +40,10 @@
 <circle cx="194" cy="565" r="4.0" fill="#F6E9C9" stroke="#C9A96A" stroke-width="0.9"/>
 <circle cx="194" cy="565" r="10" fill="none" stroke="#E7D9B8" stroke-width="0.9" opacity="0.75"/>
 <line x1="92" y1="512" x2="180" y2="558" stroke="#DCCBB0" stroke-width="0.6" opacity="0.85"/>
-<text x="64" y="490" font-size="6.4" fill="#A2503B" text-anchor="middle">精</text>
+<text x="64" y="490" font-size="6.0" fill="#A2503B" text-anchor="middle">精</text>
 <text x="64" y="504" font-size="3.6" fill="#6E6459" text-anchor="middle">最深处</text>
 <text x="64" y="514" font-size="3.6" fill="#6E6459" text-anchor="middle">剩下的一点</text>
-<text x="308" y="442" font-size="6.4" fill="#4A5C55" text-anchor="middle">信</text>
+<text x="308" y="442" font-size="6.0" fill="#4A5C55" text-anchor="middle">信</text>
 <text x="308" y="456" font-size="3.5" fill="#6E6459" text-anchor="middle">每月必来</text>
 <text x="308" y="466" font-size="3.5" fill="#6E6459" text-anchor="middle">一圆，不失期</text>
 <circle cx="238" cy="456" r="5.4" fill="#F8F3E6" stroke="#C9A96A" stroke-width="0.7"/>
@@ -52,7 +52,7 @@
 <circle cx="256" cy="456" r="5.4" fill="#F6E9C9" stroke="none"/>
 <circle cx="274" cy="456" r="5.4" fill="#F8F3E6" stroke="#C9A96A" stroke-width="0.7"/>
 <path d="M274,451.6 a5.4,5.4 0 0 0 0,8.8 Z" fill="#F6E9C9" stroke="none"/>
-<text x="298" y="514" font-size="6.4" fill="#4A5C55" text-anchor="middle">真</text>
+<text x="298" y="514" font-size="6.0" fill="#4A5C55" text-anchor="middle">真</text>
 <text x="298" y="528" font-size="3.5" fill="#6E6459" text-anchor="middle">那点光不是画上去的：</text>
 <text x="298" y="538" font-size="3.5" fill="#6E6459" text-anchor="middle">它亮在一块石头上</text>
 <line x1="272" y1="544" x2="214" y2="558" stroke="#DCCBB0" stroke-width="0.6" opacity="0.85"/>
@@ -63,7 +63,7 @@
 <text x="24" y="688" font-size="4.9" fill="#4A5C55">十四说「复归于无物」，本章说「其中有物」：一个说它自己没有形状，一个说形状从它出来。</text>
 <line x1="24" y1="706" x2="338" y2="706" stroke="#DCCBB0" stroke-width="0.6"/>
 <rect x="20" y="714" width="340" height="40" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
-<text x="190" y="730" font-size="5.4" fill="#2F2A24" text-anchor="middle">看不见的东西，不等于靠不住的东西。</text>
+<text x="190" y="730" font-size="5.2" fill="#2F2A24" text-anchor="middle">看不见的东西，不等于靠不住的东西。</text>
 <text x="190" y="742" font-size="4.7" fill="#4A5C55" text-anchor="middle">恍惚不是道的属性，是道与抓取相遇时的样子。</text>
 <line x1="20" y1="768" x2="360" y2="768" stroke="#E6D8C2" stroke-width="0.8"/>
 <text x="20" y="782" font-size="8.0" fill="#A89577" letter-spacing="1">本 章 金 句</text>

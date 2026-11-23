@@ -13,7 +13,7 @@
 <rect x="40" y="206" width="66" height="20" fill="#E9DFCC" stroke="#2F2A24" stroke-width="0.8"/>
 <ellipse cx="40" cy="216" rx="5" ry="10" fill="#F2EADA" stroke="#2F2A24" stroke-width="0.7"/>
 <ellipse cx="106" cy="216" rx="5" ry="10" fill="#E9DFCC" stroke="#2F2A24" stroke-width="0.7"/>
-<text x="73" y="198" font-size="4.3" fill="#4A5C55" text-anchor="middle">朴</text>
+<text x="73" y="198" font-size="4.5" fill="#4A5C55" text-anchor="middle">朴</text>
 <line x1="126" y1="208" x2="136" y2="180" stroke="#2F2A24" stroke-width="1.0"/>
 <path d="M134,176 L148,184 L142,204 L132,198 Z" fill="#A2503B" stroke="#A2503B" stroke-width="0.7"/>
 <line x1="140" y1="180" x2="140" y2="244" stroke="#A2503B" stroke-width="0.7" stroke-dasharray="3 3"/>
@@ -40,13 +40,13 @@
 <line x1="88" y1="428" x2="272" y2="428" stroke="#DCCBB0" stroke-width="0.6"/>
 <path d="M115,396 L117,376 L139,376 L141,396 Z" fill="#F6EFE0" stroke="#2F2A24" stroke-width="0.7"/>
 <rect x="116" y="362" width="24" height="11" fill="#F2EADA" stroke="#A2503B" stroke-width="0.7"/>
-<text x="128" y="370" font-size="3.3" fill="#A2503B" text-anchor="middle">名一</text>
+<text x="128" y="370" font-size="3.5" fill="#A2503B" text-anchor="middle">名一</text>
 <path d="M165,396 L167,376 L189,376 L191,396 Z" fill="#F6EFE0" stroke="#2F2A24" stroke-width="0.7"/>
 <rect x="166" y="362" width="24" height="11" fill="#F2EADA" stroke="#A2503B" stroke-width="0.7"/>
-<text x="178" y="370" font-size="3.3" fill="#A2503B" text-anchor="middle">名二</text>
+<text x="178" y="370" font-size="3.5" fill="#A2503B" text-anchor="middle">名二</text>
 <path d="M215,396 L217,376 L239,376 L241,396 Z" fill="#F6EFE0" stroke="#2F2A24" stroke-width="0.7"/>
 <rect x="216" y="362" width="24" height="11" fill="#F2EADA" stroke="#A2503B" stroke-width="0.7"/>
-<text x="228" y="370" font-size="3.3" fill="#A2503B" text-anchor="middle">名三</text>
+<text x="228" y="370" font-size="3.5" fill="#A2503B" text-anchor="middle">名三</text>
 <text x="178" y="436" font-size="4.1" fill="#2F2A24" text-anchor="middle">台基：有边，托得住</text>
 <path d="M309,396 L311,374 L333,374 L335,396 Z" fill="none" stroke="#A2503B" stroke-width="0.9" stroke-dasharray="4 3"/>
 <text x="322" y="390" font-size="10" fill="#A2503B" text-anchor="middle" opacity="0.65">×</text>
@@ -56,7 +56,7 @@
 <text x="34" y="454" font-size="4.0" fill="#8A7C69">「知止」：知道名的边在哪儿——名分管秩序，不管人心；能分职守，不能分善恶。</text>
 <rect x="20" y="482" width="340" height="40" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
 <text x="190" y="500" font-size="5.6" fill="#2F2A24" text-anchor="middle">名越界，不是名坏了，是执名的人把地基当成了天空。</text>
-<text x="190" y="514" font-size="4.4" fill="#6E6459" text-anchor="middle">止是基，不是墙：墙拦住你，基托住你。</text>
+<text x="190" y="514" font-size="4.5" fill="#6E6459" text-anchor="middle">止是基，不是墙：墙拦住你，基托住你。</text>
 <line x1="20" y1="542" x2="360" y2="542" stroke="#E6D8C2" stroke-width="0.8"/>
 <text x="20" y="556" font-size="8.0" fill="#A89577" letter-spacing="1">本 章 金 句</text>
 <text x="20" y="572" font-size="8.4" fill="#2F2A24">道不是经常没有名字，它是从来不可能有名字。</text>

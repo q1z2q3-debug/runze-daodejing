@@ -11,7 +11,7 @@
 <text x="24" y="152" font-size="5.1" fill="#4A5C55">一、缺：单子太长；备：该有的齐了</text>
 <rect x="26" y="164" width="328" height="168" fill="#FBF6EC" stroke="#DCCBB0" stroke-width="1.0"/>
 <line x1="190" y1="174" x2="190" y2="322" stroke="#E6D8C2" stroke-width="0.6"/>
-<text x="108" y="186" font-size="5.4" fill="#A2503B" text-anchor="middle">缺</text>
+<text x="108" y="186" font-size="5.2" fill="#A2503B" text-anchor="middle">缺</text>
 <text x="108" y="198" font-size="3.8" fill="#8A7C69" text-anchor="middle">单子上的名目还在加</text>
 <circle cx="58" cy="240" r="5.6" fill="none" stroke="#2F2A24" stroke-width="1.0"/>
 <line x1="58" y1="246" x2="58" y2="270" stroke="#2F2A24" stroke-width="1.2"/>
@@ -34,7 +34,7 @@
 <rect x="150" y="264" width="14" height="10" fill="#DED3BC" stroke="#2F2A24" stroke-width="0.6"/>
 <text x="148" y="312" font-size="3.5" fill="#8A7C69" text-anchor="middle">第三格空着</text>
 <text x="108" y="320" font-size="4.0" fill="#2F2A24" text-anchor="middle">缺，不是因为东西少</text>
-<text x="272" y="186" font-size="5.4" fill="#4A5C55" text-anchor="middle">备</text>
+<text x="272" y="186" font-size="5.2" fill="#4A5C55" text-anchor="middle">备</text>
 <text x="272" y="198" font-size="3.8" fill="#8A7C69" text-anchor="middle">单子短，柜子齐，脚站住</text>
 <rect x="212" y="242" width="44" height="54" fill="#EDE3CE" stroke="#2F2A24" stroke-width="0.8"/>
 <line x1="212" y1="260" x2="256" y2="260" stroke="#DCCBB0" stroke-width="0.7"/>

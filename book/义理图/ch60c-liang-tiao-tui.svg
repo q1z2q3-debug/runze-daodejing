@@ -18,7 +18,7 @@
 <text x="96" y="340" font-size="4.8" fill="#4A5C55">各回各家</text>
 <text x="212" y="340" font-size="4.8" fill="#4A5C55">各回各家</text>
 <line x1="24" y1="352" x2="338" y2="352" stroke="#DCCBB0" stroke-width="0.6"/>
-<text x="24" y="370" font-size="5.4" fill="#A2503B">不是拧成一股：拧起来，谁都走不了</text>
+<text x="24" y="370" font-size="5.2" fill="#A2503B">不是拧成一股：拧起来，谁都走不了</text>
 <line x1="56" y1="390" x2="244" y2="390" stroke="#A2503B" stroke-width="3"/>
 <line x1="56" y1="400" x2="244" y2="400" stroke="#A2503B" stroke-width="3"/>
 <line x1="62" y1="386" x2="76" y2="404" stroke="#A2503B" stroke-width="0.7"/>
@@ -32,7 +32,7 @@
 <text x="24" y="464" font-size="4.9" fill="#2F2A24">拧成一股，成了绳，谁都走不了；交叉一下，两边都回得去。</text>
 <text x="24" y="480" font-size="4.7" fill="#4A5C55">太平是没有声音，交归是各有各的地方；前者靠压，后者靠让。</text>
 <rect x="20" y="506" width="340" height="40" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
-<text x="190" y="522" font-size="5.4" fill="#2F2A24" text-anchor="middle">交是两条腿交叉，不是两股绳拧成一股；</text>
+<text x="190" y="522" font-size="5.2" fill="#2F2A24" text-anchor="middle">交是两条腿交叉，不是两股绳拧成一股；</text>
 <text x="190" y="534" font-size="5.6" fill="#4A5C55" text-anchor="middle">各让一条腿，才各回各家。</text>
 <line x1="20" y1="560" x2="360" y2="560" stroke="#E6D8C2" stroke-width="0.8"/>
 <text x="20" y="574" font-size="8.0" fill="#A89577" letter-spacing="1">本 章 金 句</text>

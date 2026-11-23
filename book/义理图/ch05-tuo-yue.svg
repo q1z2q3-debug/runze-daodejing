@@ -11,7 +11,7 @@
 <line x1="640" y1="282" x2="660" y2="274" stroke="#4A5C55" stroke-width="0.8"/>
 <line x1="640" y1="291" x2="660" y2="283" stroke="#4A5C55" stroke-width="0.8"/>
 <line x1="640" y1="300" x2="660" y2="292" stroke="#4A5C55" stroke-width="0.8"/>
-<text x="664" y="296" font-size="8.6" fill="#4A5C55">出风</text>
+<text x="664" y="296" font-size="8.4" fill="#4A5C55">出风</text>
 <line x1="354" y1="204" x2="354" y2="384" stroke="#A2503B" stroke-width="0.7" stroke-dasharray="4 5" opacity="0.7"/>
 <rect x="424" y="216" width="26" height="156" fill="none" stroke="#A2503B" stroke-width="0.7" stroke-dasharray="4 4" opacity="0.65"/>
 <rect x="288" y="216" width="26" height="156" fill="#CFC3AC" stroke="#2F2A24" stroke-width="1"/>
@@ -25,12 +25,12 @@
 <text x="156" y="406" font-size="10" fill="#8A7C69" text-anchor="middle">0</text>
 <text x="552" y="406" font-size="10" fill="#8A7C69" text-anchor="middle">1</text>
 <text x="354" y="406" font-size="9" fill="#A2503B" text-anchor="middle">0.5</text>
-<text x="118" y="178" font-size="8.6" fill="#8A7C69">橐龠：一具风箱，两端一闭一开</text>
+<text x="118" y="178" font-size="8.4" fill="#8A7C69">橐龠：一具风箱，两端一闭一开</text>
 <text x="360" y="178" font-size="8.4" fill="#A2503B">0.5 是天平的正中——钉在这里，天平平，风箱死</text>
-<text x="360.0" y="438" font-size="10.2" fill="#2F2A24" text-anchor="middle">两端闭合，腔里最空；拉开，气最满。生机不在 0，不在 1，也不在 0.5。</text>
+<text x="360.0" y="438" font-size="10.5" fill="#2F2A24" text-anchor="middle">两端闭合，腔里最空；拉开，气最满。生机不在 0，不在 1，也不在 0.5。</text>
 <text x="360.0" y="460" font-size="9.2" fill="#6E6459" text-anchor="middle">在那块一直在挪的板上：它停在哪一处，哪一处就活；钉在哪一处，哪一处就死。</text>
 <rect x="96" y="488" width="528" height="52" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
-<text x="360.0" y="520" font-size="10.6" fill="#2F2A24" text-anchor="middle">多言数穷，不如守中。</text>
+<text x="360.0" y="520" font-size="10.5" fill="#2F2A24" text-anchor="middle">多言数穷，不如守中。</text>
 <line x1="20" y1="582" x2="360" y2="582" stroke="#E6D8C2" stroke-width="0.8"/>
 <text x="20" y="596" font-size="8.0" fill="#A89577" letter-spacing="1">本 章 金 句</text>
 <text x="20" y="612" font-size="8.4" fill="#2F2A24">虚而不屈，动而愈出。</text>

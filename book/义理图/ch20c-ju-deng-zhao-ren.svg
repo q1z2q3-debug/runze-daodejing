@@ -28,9 +28,9 @@
 <line x1="245" y1="264" x2="237" y2="256" stroke="#2F2A24" stroke-width="0.9"/>
 <line x1="237" y1="256" x2="239" y2="251" stroke="#2F2A24" stroke-width="0.8"/>
 <line x1="244" y1="264" x2="234" y2="278" stroke="#2F2A24" stroke-width="0.8"/>
-<text x="250" y="236" font-size="4.3" fill="#6E6459" text-anchor="middle">抬手挡了一下</text>
+<text x="250" y="236" font-size="4.5" fill="#6E6459" text-anchor="middle">抬手挡了一下</text>
 <text x="190" y="174" font-size="4.5" fill="#6E6459" text-anchor="middle">灯举在手上，光落在别人脸上</text>
-<text x="190" y="316" font-size="4.4" fill="#8A7C69" text-anchor="middle">昭昭：处处显明自己是对的；察察：照人、挑人</text>
+<text x="190" y="316" font-size="4.5" fill="#8A7C69" text-anchor="middle">昭昭：处处显明自己是对的；察察：照人、挑人</text>
 <text x="24" y="339" font-size="5.0" fill="#A2503B">一、举灯：光照在别人脸上</text>
 <rect x="26" y="352" width="328" height="168" fill="#FBF6EC" stroke="#DCCBB0" stroke-width="0.8"/>
 <path d="M95,492 q9,7 18,0 Z" fill="#E4D8BF" stroke="#2F2A24" stroke-width="0.8"/>
@@ -49,17 +49,17 @@
 <line x1="222" y1="476" x2="227" y2="492" stroke="#2F2A24" stroke-width="0.9"/>
 <line x1="222" y1="458" x2="231" y2="470" stroke="#2F2A24" stroke-width="0.8"/>
 <line x1="222" y1="458" x2="213" y2="470" stroke="#2F2A24" stroke-width="0.8"/>
-<text x="104" y="508" font-size="4.3" fill="#6E6459" text-anchor="middle">灯搁在地上，只照亮脚下一小块</text>
+<text x="104" y="508" font-size="4.5" fill="#6E6459" text-anchor="middle">灯搁在地上，只照亮脚下一小块</text>
 <text x="190" y="376" font-size="4.5" fill="#6E6459" text-anchor="middle">灯还是那盏灯，只是不举了</text>
-<text x="190" y="510" font-size="4.4" fill="#8A7C69" text-anchor="middle">没有人再被光照着</text>
+<text x="190" y="510" font-size="4.5" fill="#8A7C69" text-anchor="middle">没有人再被光照着</text>
 <text x="24" y="533" font-size="5.0" fill="#4A5C55">二、搁下：不再有人被光照着</text>
 <text x="24" y="552" font-size="4.9" fill="#2F2A24">孔子的察察是救弊的手段；老子警惕的，是把手段当成生命的根基。</text>
 <text x="24" y="568" font-size="4.9" fill="#2F2A24">长期以昭昭、察察为标准，会不断制造分别、苛责、伪装与表演。</text>
 <text x="24" y="586" font-size="4.9" fill="#4A5C55">昏昏闷闷是浑厚内敛：不刻意显扬，不苛细审判。</text>
 <line x1="24" y1="604" x2="338" y2="604" stroke="#DCCBB0" stroke-width="0.6"/>
 <rect x="20" y="612" width="340" height="40" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
-<text x="190" y="628" font-size="5.4" fill="#2F2A24" text-anchor="middle">昭昭者怕人看不见自己对，</text>
-<text x="190" y="640" font-size="5.4" fill="#4A5C55" text-anchor="middle">昏昏者不怕人看错自己。</text>
+<text x="190" y="628" font-size="5.2" fill="#2F2A24" text-anchor="middle">昭昭者怕人看不见自己对，</text>
+<text x="190" y="640" font-size="5.2" fill="#4A5C55" text-anchor="middle">昏昏者不怕人看错自己。</text>
 <line x1="20" y1="666" x2="360" y2="666" stroke="#E6D8C2" stroke-width="0.8"/>
 <text x="20" y="680" font-size="8.0" fill="#A89577" letter-spacing="1">本 章 金 句</text>
 <text x="20" y="696" font-size="8.4" fill="#2F2A24">昭昭者怕人看不见自己对，昏昏者不怕人看错自己。</text>

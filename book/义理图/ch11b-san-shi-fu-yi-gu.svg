@@ -49,11 +49,11 @@
 <line x1="34" y1="244" x2="116" y2="244" stroke="#A2503B" stroke-width="1.4"/>
 <line x1="116" y1="244" x2="126" y2="244" stroke="#A2503B" stroke-width="1.4" marker-end="url(#arrS)"/>
 <text x="40" y="237" font-size="4.2" fill="#A2503B">轴</text>
-<text x="200" y="208" font-size="4.3" fill="#6E6459">辐：三十根都在这儿</text>
+<text x="200" y="208" font-size="4.5" fill="#6E6459">辐：三十根都在这儿</text>
 <line x1="196" y1="212" x2="176" y2="212" stroke="#E6D8C2" stroke-width="0.5" stroke-dasharray="3 2"/>
 <text x="132" y="300" font-size="4.5" fill="#A2503B" text-anchor="middle">毂心填实：木坨一块</text>
-<text x="36" y="316" font-size="4.3" fill="#6E6459">辐条是「利」：给骨架、给定型、给抓手</text>
-<text x="36" y="330" font-size="4.3" fill="#A2503B">毂心是「用」：填实了，转动的可能就没了</text>
+<text x="36" y="316" font-size="4.5" fill="#6E6459">辐条是「利」：给骨架、给定型、给抓手</text>
+<text x="36" y="330" font-size="4.5" fill="#A2503B">毂心是「用」：填实了，转动的可能就没了</text>
 <text x="24" y="360" font-size="5.2" fill="#4A5C55">二、毂心留虚：轴一穿进去，轮就转了</text>
 <rect x="26" y="372" width="328" height="176" fill="#FBF6EC" stroke="#DCCBB0" stroke-width="0.8"/>
 <line x1="143.0" y1="448.0" x2="174.0" y2="448.0" stroke="#2F2A24" stroke-width="0.5"/>
@@ -94,8 +94,8 @@
 <text x="46" y="440" font-size="4.2" fill="#4A5C55">轴穿过</text>
 <path d="M168,464 A 40 40 0 0 1 144,486" fill="none" stroke="#4A5C55" stroke-width="1.1" marker-end="url(#arr2)"/>
 <text x="178" y="480" font-size="4.8" fill="#4A5C55">转</text>
-<text x="132" y="500" font-size="4.4" fill="#4A5C55" text-anchor="middle">毂心空着，轴才进得去，轮才滚得动</text>
-<text x="190" y="528" font-size="4.3" fill="#6E6459" text-anchor="middle">同一圈骨架，只差中间那处空：有给利，无给用</text>
+<text x="132" y="500" font-size="4.5" fill="#4A5C55" text-anchor="middle">毂心空着，轴才进得去，轮才滚得动</text>
+<text x="190" y="528" font-size="4.5" fill="#6E6459" text-anchor="middle">同一圈骨架，只差中间那处空：有给利，无给用</text>
 <text x="24" y="568" font-size="5.2" fill="#2F2A24">「当其无」，不是毂里有一团空气，是毂中心留出的那个虚位——轴进得去，力传得开。</text>
 <text x="24" y="584" font-size="5.2" fill="#2F2A24">骨架不是为了堆木头，是为了撑开一个可以流转的虚场；骨架越定，虚场越清。</text>
 <text x="24" y="602" font-size="5.0" fill="#4A5C55">所以利不是目的，是条件：有立得住，无才用得起来。</text>

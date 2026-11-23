@@ -33,7 +33,7 @@
 <rect x="26" y="376" width="328" height="168" fill="#FBF6EC" stroke="#DCCBB0" stroke-width="0.8"/>
 <path d="M140,394 Q116,447.0 140,500" fill="none" stroke="#2F2A24" stroke-width="2.0"/>
 <path d="M154,394 Q130,447.0 154,500" fill="none" stroke="#DCCBB0" stroke-width="1.0" stroke-dasharray="4 3"/>
-<text x="176" y="394" font-size="4.4" fill="#8A7C69" text-anchor="middle">壁：还在</text>
+<text x="176" y="394" font-size="4.5" fill="#8A7C69" text-anchor="middle">壁：还在</text>
 <line x1="148" y1="454" x2="154" y2="454" stroke="#A89577" stroke-width="0.7"/>
 <circle cx="154" cy="454" r="3.4" fill="none" stroke="#A89577" stroke-width="0.7" stroke-dasharray="2 2"/>
 <text x="162" y="458" font-size="3.9" fill="#8A7C69">钉孔还在，钉子不在了</text>

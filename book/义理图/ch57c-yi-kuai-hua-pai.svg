@@ -8,7 +8,7 @@
 <rect x="20" y="102" width="340" height="30" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
 <text x="190" y="114" font-size="5.0" fill="#2F2A24" text-anchor="middle">「彰」从彡——彡是三撇毛，是画上去的花纹；不是「法令很多」，是「条文越画越花」。</text>
 <text x="190" y="126" font-size="5.2" fill="#6E6459" text-anchor="middle">花是画在木牌上的；木牌本来只有一条线，是给人踩的。</text>
-<text x="24" y="146" font-size="5.4" fill="#4A5C55">一、素牌：一条刻线，脚踩得着</text>
+<text x="24" y="146" font-size="5.2" fill="#4A5C55">一、素牌：一条刻线，脚踩得着</text>
 <line x1="24" y1="252" x2="250" y2="252" stroke="#2F2A24" stroke-width="1"/>
 <rect x="38" y="178" width="80" height="58" fill="#EFE6D4" stroke="#2F2A24" stroke-width="1"/>
 <line x1="56" y1="236" x2="56" y2="252" stroke="#2F2A24" stroke-width="2"/>
@@ -20,9 +20,9 @@
 <circle cx="180.6" cy="214.9" r="1.8199999999999998" stroke="#4A5C55" stroke-width="0.7" fill="#EFE6D4"/>
 <circle cx="183.98" cy="218.02" r="1.56" stroke="#4A5C55" stroke-width="0.7" fill="#EFE6D4"/>
 <text x="196" y="208" font-size="4.8" fill="#4A5C55">一条线：</text>
-<text x="196" y="220" font-size="4.4" fill="#6E6459">踩得着，看得懂</text>
-<text x="100" y="266" font-size="4.4" fill="#6E6459" text-anchor="middle">禁什么、许什么，一站就知道</text>
-<text x="24" y="292" font-size="5.4" fill="#A2503B">二、花牌：条文越画越花，人只剩绕</text>
+<text x="196" y="220" font-size="4.5" fill="#6E6459">踩得着，看得懂</text>
+<text x="100" y="266" font-size="4.5" fill="#6E6459" text-anchor="middle">禁什么、许什么，一站就知道</text>
+<text x="24" y="292" font-size="5.2" fill="#A2503B">二、花牌：条文越画越花，人只剩绕</text>
 <rect x="38" y="324" width="80" height="58" fill="#EFE6D4" stroke="#2F2A24" stroke-width="1"/>
 <line x1="56" y1="382" x2="56" y2="398" stroke="#2F2A24" stroke-width="2"/>
 <line x1="100" y1="382" x2="100" y2="398" stroke="#2F2A24" stroke-width="2"/>
@@ -94,15 +94,15 @@
 <circle cx="183.98" cy="345.02" r="1.56" stroke="#2F2A24" stroke-width="0.7" fill="#F8F3E6"/>
 <line x1="178" y1="380" x2="178" y2="392" stroke="#A2503B" stroke-width="0.5" stroke-dasharray="2 2"/>
 <text x="200" y="346" font-size="4.8" fill="#A2503B">线多了：</text>
-<text x="200" y="358" font-size="4.4" fill="#6E6459">一条都不敢踩</text>
-<text x="100" y="412" font-size="4.4" fill="#A2503B" text-anchor="middle">绕着走：绕到最后，就是铤而走险</text>
+<text x="200" y="358" font-size="4.5" fill="#6E6459">一条都不敢踩</text>
+<text x="100" y="412" font-size="4.5" fill="#A2503B" text-anchor="middle">绕着走：绕到最后，就是铤而走险</text>
 <text x="24" y="438" font-size="5.2" fill="#2F2A24">「彰」从彡：三撇毛，是画上去的花。</text>
 <text x="24" y="454" font-size="4.8" fill="#2F2A24">木牌上本来只有一条线，那条线是给人踩的；画满了花，就没有一条清楚的线可踩。</text>
 <text x="24" y="470" font-size="4.6" fill="#4A5C55">人不是不怕法，是踩不到那条线；踩不到，就只剩下绕——绕到最后，就是铤而走险。</text>
 <line x1="24" y1="488" x2="338" y2="488" stroke="#DCCBB0" stroke-width="0.6"/>
 <rect x="20" y="496" width="340" height="40" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
 <text x="190" y="512" font-size="6.0" fill="#2F2A24" text-anchor="middle">彰是画上去的花；</text>
-<text x="190" y="524" font-size="5.4" fill="#4A5C55" text-anchor="middle">条文画得越花，能踩的线就越多。</text>
+<text x="190" y="524" font-size="5.2" fill="#4A5C55" text-anchor="middle">条文画得越花，能踩的线就越多。</text>
 <line x1="20" y1="550" x2="360" y2="550" stroke="#E6D8C2" stroke-width="0.8"/>
 <text x="20" y="564" font-size="8.0" fill="#A89577" letter-spacing="1">本 章 金 句</text>
 <text x="20" y="580" font-size="8.4" fill="#2F2A24">彰是画上去的花；条文画得越花，能踩的线就越多。</text>

@@ -12,7 +12,7 @@
 <line x1="36" y1="276" x2="340" y2="276" stroke="#2F2A24" stroke-width="1.0"/>
 <line x1="344" y1="272" x2="344" y2="172" stroke="#A2503B" stroke-width="0.8" stroke-dasharray="4 3"/>
 <path d="M-3.2,-3.2 L4.2,0 L-3.2,3.2 z" fill="#A2503B" transform="translate(344,168) rotate(-90)"/>
-<text x="338" y="160" font-size="4.4" fill="#A2503B" text-anchor="end">往前站一步</text>
+<text x="338" y="160" font-size="4.5" fill="#A2503B" text-anchor="end">往前站一步</text>
 <text x="338" y="172" font-size="3.8" fill="#8A7C69" text-anchor="end">（世人的方向）</text>
 <circle cx="48" cy="236" r="5.0" fill="none" stroke="#2F2A24" stroke-width="1.0"/>
 <line x1="48" y1="241" x2="48" y2="268" stroke="#2F2A24" stroke-width="1.2"/>

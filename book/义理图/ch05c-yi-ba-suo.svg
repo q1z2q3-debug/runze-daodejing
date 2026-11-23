@@ -19,7 +19,7 @@
 <line x1="71" y1="170" x2="71" y2="192" stroke="#A2503B" stroke-width="1.5"/>
 <line x1="55" y1="170" x2="87" y2="170" stroke="#A2503B" stroke-width="1.5"/>
 <text x="71" y="164" font-size="8" fill="#A2503B" text-anchor="middle">钉</text>
-<text x="190" y="290" font-size="8.6" fill="#6E6459" text-anchor="middle">钉在 0：腔里最空，风一动不动</text>
+<text x="190" y="290" font-size="8.4" fill="#6E6459" text-anchor="middle">钉在 0：腔里最空，风一动不动</text>
 <rect x="22" y="322" width="336" height="150" fill="#FBF6EC" stroke="#DCCBB0" stroke-width="1.0"/>
 <rect x="55" y="348" width="8" height="82" fill="#DBCCB1" stroke="#BEA98A" stroke-width="0.6"/>
 <rect x="62" y="352" width="206" height="74" fill="#FBF6EC" stroke="#2F2A24" stroke-width="1.2"/>
@@ -31,7 +31,7 @@
 <line x1="259" y1="336" x2="259" y2="358" stroke="#A2503B" stroke-width="1.5"/>
 <line x1="243" y1="336" x2="275" y2="336" stroke="#A2503B" stroke-width="1.5"/>
 <text x="259" y="330" font-size="8" fill="#A2503B" text-anchor="middle">钉</text>
-<text x="190" y="456" font-size="8.6" fill="#6E6459" text-anchor="middle">钉在 1：拉得最满，也一动不动</text>
+<text x="190" y="456" font-size="8.4" fill="#6E6459" text-anchor="middle">钉在 1：拉得最满，也一动不动</text>
 <rect x="22" y="488" width="336" height="150" fill="#FBF6EC" stroke="#DCCBB0" stroke-width="1.0"/>
 <rect x="55" y="514" width="8" height="82" fill="#DBCCB1" stroke="#BEA98A" stroke-width="0.6"/>
 <rect x="62" y="518" width="206" height="74" fill="#FBF6EC" stroke="#2F2A24" stroke-width="1.2"/>
@@ -43,9 +43,9 @@
 <line x1="165" y1="502" x2="165" y2="524" stroke="#A2503B" stroke-width="1.5"/>
 <line x1="149" y1="502" x2="181" y2="502" stroke="#A2503B" stroke-width="1.5"/>
 <text x="165" y="496" font-size="8" fill="#A2503B" text-anchor="middle">钉</text>
-<text x="190" y="622" font-size="8.6" fill="#6E6459" text-anchor="middle">钉在 0.5：天平看着最平，风箱最死</text>
-<text x="24" y="666" font-size="5.4" fill="#2F2A24">锁不是外物，是人自己那本账：要他一定这样、一定那样，把活的支点浇成死的刻度。</text>
-<text x="24" y="682" font-size="5.4" fill="#2F2A24">「数穷」不是没钱，是路走到头——枢一钉死，器再贵也只是个壳。</text>
+<text x="190" y="622" font-size="8.4" fill="#6E6459" text-anchor="middle">钉在 0.5：天平看着最平，风箱最死</text>
+<text x="24" y="666" font-size="5.2" fill="#2F2A24">锁不是外物，是人自己那本账：要他一定这样、一定那样，把活的支点浇成死的刻度。</text>
+<text x="24" y="682" font-size="5.2" fill="#2F2A24">「数穷」不是没钱，是路走到头——枢一钉死，器再贵也只是个壳。</text>
 <text x="24" y="700" font-size="5.2" fill="#4A5C55">守中不是找一个好位置站住，是随时肯挪；能挪的，才叫中。</text>
 <line x1="24" y1="718" x2="338" y2="718" stroke="#DCCBB0" stroke-width="0.6"/>
 <rect x="20" y="726" width="340" height="40" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>

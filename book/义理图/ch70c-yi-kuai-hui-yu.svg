@@ -36,8 +36,8 @@
 <path d="M183,412 Q180,420 175,420" fill="none" stroke="#2F2A24" stroke-width="0.7"/>
 <line x1="164" y1="434" x2="156" y2="462" stroke="#2F2A24" stroke-width="1"/>
 <line x1="176" y1="434" x2="184" y2="462" stroke="#2F2A24" stroke-width="1"/>
-<text x="214" y="400" font-size="4.4" fill="#4A5C55">怀：带着一件</text>
-<text x="214" y="412" font-size="4.4" fill="#4A5C55">要来办的事</text>
+<text x="214" y="400" font-size="4.5" fill="#4A5C55">怀：带着一件</text>
+<text x="214" y="412" font-size="4.5" fill="#4A5C55">要来办的事</text>
 <text x="214" y="430" font-size="4.2" fill="#6E6459">外头看不出</text>
 <text x="190" y="496" font-size="4.6" fill="#4A5C55" text-anchor="middle">同一块玉，一换位置就换了意思：挂着是招牌，揣着是凭证</text>
 <text x="24" y="512" font-size="4.8" fill="#2F2A24">佩玉的人，走到哪儿都在报自己的价；怀玉的人，走到哪儿都在等那件事。</text>
@@ -45,7 +45,7 @@
 <text x="24" y="546" font-size="5.0" fill="#4A5C55">所以末句是三层：麻衣是壳，玉是里子，揣是那个「我来有事」。</text>
 <line x1="24" y1="562" x2="338" y2="562" stroke="#DCCBB0" stroke-width="0.6"/>
 <rect x="20" y="570" width="340" height="40" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
-<text x="190" y="585" font-size="5.4" fill="#2F2A24" text-anchor="middle">玉挂出来是装饰，揣在怀里是信物。</text>
+<text x="190" y="585" font-size="5.2" fill="#2F2A24" text-anchor="middle">玉挂出来是装饰，揣在怀里是信物。</text>
 <text x="190" y="598" font-size="4.7" fill="#4A5C55" text-anchor="middle">被褐是我跟你一样，怀玉是我不一样的那一点。</text>
 <line x1="20" y1="624" x2="360" y2="624" stroke="#E6D8C2" stroke-width="0.8"/>
 <text x="20" y="638" font-size="8.0" fill="#A89577" letter-spacing="1">本 章 金 句</text>

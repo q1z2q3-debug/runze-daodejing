@@ -58,7 +58,7 @@
 <text x="103" y="530" font-size="4.0" fill="#8A7C69" text-anchor="middle">「大自然」</text>
 <line x1="58" y1="500" x2="148" y2="454" stroke="#A2503B" stroke-width="1.4"/>
 <text x="103" y="542" font-size="4.0" fill="#A2503B" text-anchor="middle">错读：道效法大自然</text>
-<text x="64" y="428" font-size="4.4" fill="#A2503B">道 →</text>
+<text x="64" y="428" font-size="4.5" fill="#A2503B">道 →</text>
 <line x1="176" y1="424" x2="176" y2="536" stroke="#DCCBB0" stroke-width="0.7"/>
 <ellipse cx="238" cy="508" rx="5" ry="3.4" fill="#DCD0B6" stroke="#2F2A24" stroke-width="0.8"/>
 <line x1="238" y1="504" x2="238" y2="460" stroke="#2F2A24" stroke-width="1.2"/>

@@ -7,7 +7,7 @@
 <text x="20" y="78" font-size="10.5" fill="#6E6459">为学日益，为道日损。</text>
 <rect x="20" y="102" width="340" height="30" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
 <text x="190" y="114" font-size="5.8" fill="#2F2A24" text-anchor="middle">「益」，《说文》「饶也」——字形是水在皿上，水满出来了。</text>
-<text x="190" y="126" font-size="5.4" fill="#6E6459" text-anchor="middle">「损」，《说文》「减也」——从手：一只手从器物上把东西拿掉。</text>
+<text x="190" y="126" font-size="5.2" fill="#6E6459" text-anchor="middle">「损」，《说文》「减也」——从手：一只手从器物上把东西拿掉。</text>
 <text x="86" y="156" font-size="5.6" fill="#A2503B" text-anchor="middle">一 · 益：水自己往外涨</text>
 <path d="M50,222 L60,260 Q86,270 112,260 L122,222 Z" fill="#F0E8D8" stroke="#2F2A24" stroke-width="0.9"/>
 <line x1="48" y1="222" x2="124" y2="222" stroke="#2F2A24" stroke-width="1.1"/>
@@ -37,8 +37,8 @@
 <text x="274" y="288" font-size="4.6" fill="#6E6459" text-anchor="middle">不是杯子本身</text>
 <line x1="188" y1="168" x2="188" y2="268" stroke="#E6D8C2" stroke-width="0.4" stroke-dasharray="4 3"/>
 <text x="24" y="312" font-size="5.8" fill="#2F2A24">益是水自己涨出来，损是手往外拿；涨不由人，拿要人动手。</text>
-<text x="24" y="328" font-size="5.4" fill="#6E6459">学，是往心里装「有」：一个概念一道边，一个标签一道边。</text>
-<text x="24" y="344" font-size="5.4" fill="#4A5C55">损，是把粘在「知道」上面的那层执取拿掉——知识还留着。</text>
+<text x="24" y="328" font-size="5.2" fill="#6E6459">学，是往心里装「有」：一个概念一道边，一个标签一道边。</text>
+<text x="24" y="344" font-size="5.2" fill="#4A5C55">损，是把粘在「知道」上面的那层执取拿掉——知识还留着。</text>
 <line x1="24" y1="362" x2="338" y2="362" stroke="#DCCBB0" stroke-width="0.6"/>
 <rect x="20" y="370" width="340" height="40" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
 <text x="190" y="386" font-size="6.0" fill="#2F2A24" text-anchor="middle">学问把世界切得越来越细，切得越细越好用；</text>

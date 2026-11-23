@@ -8,7 +8,7 @@
 <rect x="20" y="102" width="340" height="30" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
 <text x="190" y="114" font-size="5.2" fill="#2F2A24" text-anchor="middle">「积」从禾，是一袋一袋码起来；「克」训「肩」，是扛得起。</text>
 <text x="190" y="126" font-size="5.2" fill="#6E6459" text-anchor="middle">所以「无不克」不是打遍天下，是天下事都担得起。</text>
-<text x="24" y="146" font-size="5.4" fill="#4A5C55">一根扁担两头沉：担得起，才走得远</text>
+<text x="24" y="146" font-size="5.2" fill="#4A5C55">一根扁担两头沉：担得起，才走得远</text>
 <line x1="24" y1="278" x2="250" y2="278" stroke="#2F2A24" stroke-width="1"/>
 <circle cx="114" cy="206" r="6" fill="#EFE6D4" stroke="#2F2A24" stroke-width="0.9"/>
 <line x1="114" y1="212" x2="114" y2="248" stroke="#2F2A24" stroke-width="1.4"/>
@@ -26,11 +26,11 @@
 <line x1="162" y1="234" x2="182" y2="234" stroke="#DCCBB0" stroke-width="0.4"/>
 <line x1="162" y1="244" x2="182" y2="244" stroke="#DCCBB0" stroke-width="0.4"/>
 <line x1="162" y1="254" x2="182" y2="254" stroke="#DCCBB0" stroke-width="0.4"/>
-<text x="56" y="292" font-size="4.4" fill="#6E6459" text-anchor="middle">一头：担子</text>
-<text x="172" y="292" font-size="4.4" fill="#6E6459" text-anchor="middle">另一头：也担着</text>
+<text x="56" y="292" font-size="4.5" fill="#6E6459" text-anchor="middle">一头：担子</text>
+<text x="172" y="292" font-size="4.5" fill="#6E6459" text-anchor="middle">另一头：也担着</text>
 <text x="196" y="200" font-size="4.8" fill="#4A5C55">克是肩：</text>
-<text x="196" y="212" font-size="4.4" fill="#6E6459">担得起，不是打得过</text>
-<text x="24" y="318" font-size="5.4" fill="#A2503B">积是码货：一袋一袋往上堆，才堆得高</text>
+<text x="196" y="212" font-size="4.5" fill="#6E6459">担得起，不是打得过</text>
+<text x="24" y="318" font-size="5.2" fill="#A2503B">积是码货：一袋一袋往上堆，才堆得高</text>
 <line x1="24" y1="434" x2="250" y2="434" stroke="#2F2A24" stroke-width="1"/>
 <rect x="101.0" y="416" width="30" height="16" fill="#EFE6D4" stroke="#2F2A24" stroke-width="0.8"/>
 <line x1="107.0" y1="427" x2="125.0" y2="427" stroke="#DCCBB0" stroke-width="0.4"/>
@@ -43,7 +43,7 @@
 <rect x="93.0" y="344" width="46" height="16" fill="#EFE6D4" stroke="#2F2A24" stroke-width="0.8"/>
 <line x1="99.0" y1="355" x2="133.0" y2="355" stroke="#DCCBB0" stroke-width="0.4"/>
 <text x="150" y="394" font-size="4.8" fill="#A2503B">积：从禾，是码货</text>
-<text x="150" y="406" font-size="4.4" fill="#6E6459">德是堆出来的，堆的前提是先收</text>
+<text x="150" y="406" font-size="4.5" fill="#6E6459">德是堆出来的，堆的前提是先收</text>
 <text x="116" y="448" font-size="4.6" fill="#6E6459" text-anchor="middle">底下一袋是「啬」收回来的</text>
 <text x="24" y="474" font-size="5.0" fill="#2F2A24">积德是码货，不是做好事：德是堆出来的，堆的前提是先收。</text>
 <text x="24" y="490" font-size="5.0" fill="#2F2A24">克是肩，不是刀：「无不克」不是打遍天下，是天下事都担得起。</text>

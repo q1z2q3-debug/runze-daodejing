@@ -203,9 +203,9 @@ def ch01_miao_jiao():
     s.append(txt(216, y + 96, "玄", 11, SEAL, "middle"))
     # 两端标注
     s.append(txt(44, y + 24, "妙 · 未显", 9.4, SEAL))
-    s.append(txt(44, y + 84, "越往小，生机越厚", 7.8, "#6E6459"))
+    s.append(txt(44, y + 84, "越往小，生机越厚", 8.0, "#6E6459"))
     s.append(txt(336, y + 24, "徼 · 已显", 9.4, GREEN, "end"))
-    s.append(txt(336, y + 62, "越往大，分际越明", 7.8, "#6E6459", "end"))
+    s.append(txt(336, y + 62, "越往大，分际越明", 8.0, "#6E6459", "end"))
     # 结论
     s.append(txt(190, y + 222, "小而无内，大而无外；两头是同一件事。", 10.5, INK, "middle", spacing="1"))
     s.append(txt(190, y + 244, "说「有」还是说「无」，只在你读它显了几分——", 10, "#6E6459", "middle"))
@@ -240,8 +240,8 @@ def ch02_liu_zu():
     s.append(txt(210, yend + 18, "六个字，六种作用方式；塌成一句，后面就无据可依", 9.8, SEAL, "middle"))
     s.append(box(20, yend + 34, 380, 84, fill="#F2EADA", stroke="#C9B79A"))
     s.append(txt(34, yend + 62, "是以圣人处无为之事", 12.5, INK))
-    s.append(txt(34, yend + 84, "不立这把尺，故不随之起倒；行不言之教，事成而不居。", 10.2, "#6E6459"))
-    s.append(txt(34, yend + 104, "执一岸，必被另一岸牵着走。", 10.2, SEAL))
+    s.append(txt(34, yend + 84, "不立这把尺，故不随之起倒；行不言之教，事成而不居。", 10.5, "#6E6459"))
+    s.append(txt(34, yend + 104, "执一岸，必被另一岸牵着走。", 10.5, SEAL))
     s.append(gold(H - 68, "ch02a"))
     s.append('</svg>')
     return "\n".join(s)
@@ -283,11 +283,11 @@ def ch11b_san_shi_fu_yi_gu():
     s.append(f'<line x1="34" y1="{cy}" x2="116" y2="{cy}" stroke="{SEAL}" stroke-width="1.4"/>')
     s.append(arrow(116, cy, 126, cy, SEAL, 1.4, None, "arrS"))
     s.append(txt(40, cy - 7, "轴", 4.2, SEAL))
-    s.append(txt(200, gy + 44, "辐：三十根都在这儿", 4.3, "#6E6459"))
+    s.append(txt(200, gy + 44, "辐：三十根都在这儿", 4.5, "#6E6459"))
     s.append(f'<line x1="196" y1="{gy + 48}" x2="176" y2="{cy - 32}" stroke="{LINE2}" stroke-width="0.5" stroke-dasharray="3 2"/>')
     s.append(txt(132, cy + 56, "毂心填实：木坨一块", 4.5, SEAL, "middle"))
-    s.append(txt(36, gy + 152, "辐条是「利」：给骨架、给定型、给抓手", 4.3, "#6E6459"))
-    s.append(txt(36, gy + 166, "毂心是「用」：填实了，转动的可能就没了", 4.3, SEAL))
+    s.append(txt(36, gy + 152, "辐条是「利」：给骨架、给定型、给抓手", 4.5, "#6E6459"))
+    s.append(txt(36, gy + 166, "毂心是「用」：填实了，转动的可能就没了", 4.5, SEAL))
 
     # 二、空毂
     s.append(txt(24, gy + 196, "二、毂心留虚：轴一穿进去，轮就转了", 5.2, GREEN))
@@ -299,8 +299,8 @@ def ch11b_san_shi_fu_yi_gu():
     s.append(txt(46, cy2 - 8, "轴穿过", 4.2, GREEN))
     s.append(f'<path d="M168,{cy2 + 16} A 40 40 0 0 1 144,{cy2 + 38}" fill="none" stroke="{GREEN}" stroke-width="1.1" marker-end="url(#arr2)"/>')
     s.append(txt(178, cy2 + 32, "转", 4.8, GREEN))
-    s.append(txt(132, cy2 + 52, "毂心空着，轴才进得去，轮才滚得动", 4.4, GREEN, "middle"))
-    s.append(txt(190, gy2 + 156, "同一圈骨架，只差中间那处空：有给利，无给用", 4.3, "#6E6459", "middle"))
+    s.append(txt(132, cy2 + 52, "毂心空着，轴才进得去，轮才滚得动", 4.5, GREEN, "middle"))
+    s.append(txt(190, gy2 + 156, "同一圈骨架，只差中间那处空：有给利，无给用", 4.5, "#6E6459", "middle"))
 
     a = gy2 + 196
     s.append(txt(24, a, "「当其无」，不是毂里有一团空气，是毂中心留出的那个虚位——轴进得去，力传得开。", 5.2, INK))
@@ -343,8 +343,8 @@ def ch11c_zao_hu_you():
     s.append(f'<line x1="{px - 62}" y1="{py + 46}" x2="{px + 62}" y2="{py + 46}" stroke="{INK}" stroke-width="1.4"/>')
     s.append(txt(px, py + 28, "无门无窗", 4.6, SEAL, "middle"))
     s.append(arrow(232, py + 24, 208, py + 24, SEAL, 0.9, None, "arrS"))
-    s.append(txt(236, py + 28, "进不去", 4.3, SEAL))
-    s.append(txt(px, gy + 160, "墙立着，屋子却没生出来：只剩一座土堆", 4.3, SEAL, "middle"))
+    s.append(txt(236, py + 28, "进不去", 4.5, SEAL))
+    s.append(txt(px, gy + 160, "墙立着，屋子却没生出来：只剩一座土堆", 4.5, SEAL, "middle"))
 
     # 二、开
     s.append(txt(24, gy + 196, "二、开户牖：门窗是那两处「无」", 5.2, GREEN))
@@ -373,8 +373,8 @@ def ch11c_zao_hu_you():
     s.append(f'<line x1="{hx}" y1="{hy + 2}" x2="{hx + 3}" y2="{hy + 10}" stroke="{INK}" stroke-width="0.9"/>')
     s.append(arrow(px2 - 68, py2 + 40, px2 - 28, py2 + 40, GREEN, 0.9, None, "arr2"))
     s.append(txt(px2 - 70, py2 + 33, "人", 4.2, GREEN, "end"))
-    s.append(txt(px2, gy2 + 152, "门窗不是墙的缺口，是「无」被开出来的地方", 4.3, GREEN, "middle"))
-    s.append(txt(px2, gy2 + 166, "人在里面住、呼吸、往来——用，就发生在这片空里", 4.3, "#6E6459", "middle"))
+    s.append(txt(px2, gy2 + 152, "门窗不是墙的缺口，是「无」被开出来的地方", 4.5, GREEN, "middle"))
+    s.append(txt(px2, gy2 + 166, "人在里面住、呼吸、往来——用，就发生在这片空里", 4.5, "#6E6459", "middle"))
 
     a = gy2 + 196
     s.append(txt(24, a, "墙、梁、门窗框是「有」：划出领地、遮风挡雨、给一个稳定框架——这是「利」。", 5.2, INK))
@@ -432,14 +432,14 @@ def ch11_li_yong():
 
         s.append(txt(72, yb + 18, jing, 5.0, INK))
         s.append(txt(72, yb + 38, "有·利　", 4.5, SEAL))
-        s.append(txt(96, yb + 38, you, 4.4, "#6E6459"))
+        s.append(txt(96, yb + 38, you, 4.5, "#6E6459"))
         s.append(txt(72, yb + 55, "无·用　", 4.5, GREEN))
-        s.append(txt(96, yb + 55, wu, 4.4, "#6E6459"))
+        s.append(txt(96, yb + 55, wu, 4.5, "#6E6459"))
         yb += rh + 6
 
     yc = yb + 8
     s.append(box(20, yc, 340, 50, fill="#F2EADA", stroke="#C9B79A"))
-    s.append(txt(190, yc + 20, "有之以为利，无之以为用", 6.4, INK, "middle", spacing="1"))
+    s.append(txt(190, yc + 20, "有之以为利，无之以为用", 6.0, INK, "middle", spacing="1"))
     s.append(txt(190, yc + 36, "不是先有器壁再补一个空，是器壁把那个空撑出来。", 4.6, "#6E6459", "middle"))
     s.append(txt(190, yc + 62, "该立多少界，该留多少空——这是一份分寸表，不是技巧。", 4.6, "#6E6459", "middle"))
     s.append(gold(yc + 84, "ch11a"))
@@ -684,7 +684,7 @@ def ch25_dao_fa():
     c = a + 52
     s.append(f'<line x1="24" y1="{c}" x2="338" y2="{c}" stroke="{LINE}" stroke-width="0.6"/>')
     s.append(box(20, c + 8, 340, 40, fill="#F2EADA", stroke="#C9B79A"))
-    s.append(txt(190, c + 24, "世界不是一场没有回头路的散开，是一次呼吸。", 5.4, INK, "middle"))
+    s.append(txt(190, c + 24, "世界不是一场没有回头路的散开，是一次呼吸。", 5.2, INK, "middle"))
     s.append(txt(190, c + 36, "先立得住，才转得动。", 4.5, GREEN, "middle"))
     s.append(gold(c + 62, "ch25"))
     s.append('</svg>')
@@ -734,7 +734,7 @@ def ch25b_hun_cheng():
     for i in range(3):
         yy = p1 + 50 + i * 17
         s.append(f'<rect x="140" y="{yy}" width="74" height="13" fill="#EFE6D4" stroke="{INK}" stroke-width="0.9"/>')
-    s.append(txt(177, p1 + 60, "板", 4.4, INK, "middle"))
+    s.append(txt(177, p1 + 60, "板", 4.5, INK, "middle"))
     s.append(txt(177, p1 + 124, "剖开的料", 3.7, "#8A7C69", "middle"))
     # 碗
     s.append(f'<path d="M226,{p1 + 56} L234,{p1 + 96} L280,{p1 + 96} L288,{p1 + 56}" fill="#FCF8EF" stroke="{INK}" stroke-width="1.0"/>')
@@ -742,7 +742,7 @@ def ch25b_hun_cheng():
     s.append(txt(257, p1 + 124, "碗（器）", 3.7, "#8A7C69", "middle"))
     # 名：一块后贴的牌
     s.append(f'<rect x="300" y="{p1 + 62}" width="38" height="20" fill="#F2EADA" stroke="{SEAL}" stroke-width="1.0"/>')
-    s.append(txt(319, p1 + 76, "名", 5.4, SEAL, "middle"))
+    s.append(txt(319, p1 + 76, "名", 5.2, SEAL, "middle"))
     s.append(f'<line x1="298" y1="{p1 + 72}" x2="292" y2="{p1 + 72}" stroke="{SEAL}" stroke-width="0.7" stroke-dasharray="3 2"/>')
     s.append(txt(319, p1 + 124, "后贴的牌", 3.7, "#8A7C69", "middle"))
     # 引线：原木 → 三样
@@ -758,8 +758,8 @@ def ch25b_hun_cheng():
     c = a + 52
     s.append(f'<line x1="24" y1="{c}" x2="338" y2="{c}" stroke="{LINE}" stroke-width="0.6"/>')
     s.append(box(20, c + 8, 340, 40, fill="#F2EADA", stroke="#C9B79A"))
-    s.append(txt(190, c + 24, "不是它比天地老，是天地离了它不成。", 5.4, INK, "middle"))
-    s.append(txt(190, c + 36, "名是给有边界的东西用的；对没有边界的东西，名只是手指。", 4.4, GREEN, "middle"))
+    s.append(txt(190, c + 24, "不是它比天地老，是天地离了它不成。", 5.2, INK, "middle"))
+    s.append(txt(190, c + 36, "名是给有边界的东西用的；对没有边界的东西，名只是手指。", 4.5, GREEN, "middle"))
     s.append(gold(c + 62, "ch25b"))
     s.append('</svg>')
     out = chr(10).join(s)
@@ -818,7 +818,7 @@ def ch25c_si_fa_jie():
     s.append(txt(103, p1 + 126, "「大自然」", 4.0, "#8A7C69", "middle"))
     s.append(f'<line x1="58" y1="{p1 + 96}" x2="148" y2="{p1 + 50}" stroke="{SEAL}" stroke-width="1.4"/>')
     s.append(txt(103, p1 + 138, "错读：道效法大自然", 4.0, SEAL, "middle"))
-    s.append(txt(64, p1 + 24, "道 →", 4.4, SEAL))
+    s.append(txt(64, p1 + 24, "道 →", 4.5, SEAL))
     # 右：正读
     s.append(f'<line x1="176" y1="{p1 + 20}" x2="176" y2="{p1 + 132}" stroke="{LINE}" stroke-width="0.7"/>')
     s.append(f'<ellipse cx="238" cy="{p1 + 104}" rx="5" ry="3.4" fill="#DCD0B6" stroke="{INK}" stroke-width="0.8"/>')
@@ -881,13 +881,13 @@ def ch38b_na_ben_zhang():
     s.append(txt(24, y + 52, "一、上德：做完就完，手上没有东西", 5.0, GREEN))
     gy = y + 64
     s.append(scene(gy, False))
-    s.append(txt(190, gy + 128, "水递过去，手就空了——事做完，事就完了", 4.3, INK, "middle"))
+    s.append(txt(190, gy + 128, "水递过去，手就空了——事做完，事就完了", 4.5, INK, "middle"))
 
     # ---------- 二、下德 ----------
     s.append(txt(24, gy + 158, "二、下德：另一只手里，攥着一本账", 5.0, GREEN))
     gy2 = gy + 170
     s.append(scene(gy2, True))
-    s.append(txt(190, gy2 + 128, "事一样做完了，可还记了一笔——这一笔是记给自己看的", 4.3, INK, "middle"))
+    s.append(txt(190, gy2 + 128, "事一样做完了，可还记了一笔——这一笔是记给自己看的", 4.5, INK, "middle"))
 
     # ---------- 收 ----------
     y3 = gy2 + 146
@@ -921,13 +921,13 @@ def ch38c_hou_yu_bo():
     s.append(f'<rect x="120" y="{gy + 22}" width="3" height="92" fill="#E7C9B8" stroke="none"/>')
     s.append(f'<rect x="130" y="{gy + 22}" width="140" height="92" fill="#FAF5E9" stroke="{LINE}" stroke-width="0.6"/>')
     s.append(box(136, gy + 28, 128, 80, fill="none", stroke="#C9B79A", dash="3 4", width=0.5))
-    s.append(txt(200, gy + 66, "里面是空的", 4.4, "#A2977F", "middle"))
+    s.append(txt(200, gy + 66, "里面是空的", 4.5, "#A2977F", "middle"))
     s.append(txt(200, gy + 80, "看得见的只有外面那层彩", 4.0, "#BEB2A0", "middle"))
     s.append(f'<path d="M120,{gy + 60} l10,6 M120,{gy + 72} l10,6" stroke="{SEAL}" stroke-width="1.0"/>')
     # 撞
     s.append(arrow(70, gy + 68, 108, gy + 68, color=SEAL, width=1.3, head="arrS"))
-    s.append(txt(64, gy + 64, "撞", 4.4, SEAL))
-    s.append(txt(200, gy + 128, "板薄、里面空：一撞，彩皮先裂", 4.3, INK, "middle"))
+    s.append(txt(64, gy + 64, "撞", 4.5, SEAL))
+    s.append(txt(200, gy + 128, "板薄、里面空：一撞，彩皮先裂", 4.5, INK, "middle"))
 
     # ---------- 二、厚：素面，撞上去只闷响 ----------
     s.append(txt(24, gy + 158, "二、厚：素面，撞上去只闷响", 5.0, GREEN))
@@ -938,9 +938,9 @@ def ch38c_hou_yu_bo():
         yy = gy2 + 28 + i * 10
         s.append(f'<line x1="124" y1="{yy}" x2="212" y2="{yy + 6}" stroke="#C9B79A" stroke-width="0.5"/>')
     s.append(arrow(70, gy2 + 68, 114, gy2 + 68, color=INK, width=1.0, head="arr"))
-    s.append(txt(64, gy2 + 64, "撞", 4.4, "#6E6459"))
+    s.append(txt(64, gy2 + 64, "撞", 4.5, "#6E6459"))
     s.append(f'<path d="M216,{gy2 + 60} q10,-3 18,0 M216,{gy2 + 72} q12,-3 20,0" fill="none" stroke="#BEB2A0" stroke-width="0.6"/>')
-    s.append(txt(200, gy2 + 128, "整木厚料，不上一道漆：力走进去，散在里头", 4.3, INK, "middle"))
+    s.append(txt(200, gy2 + 128, "整木厚料，不上一道漆：力走进去，散在里头", 4.5, INK, "middle"))
 
     # ---------- 收 ----------
     y3 = gy2 + 146
@@ -1023,13 +1023,13 @@ def ch40c_kong_gang():
     s.append(txt(24, y + 52, "一、无：还没有东西进来", 5.0, GREEN))
     gy = y + 64
     s.append(gang(gy, False))
-    s.append(txt(190, gy + 138, "缸先有了壁，壁围出一块空——万物还没有，位置已经有了", 4.3, INK, "middle"))
+    s.append(txt(190, gy + 138, "缸先有了壁，壁围出一块空——万物还没有，位置已经有了", 4.5, INK, "middle"))
 
     # ---------- 二、满缸 ----------
     s.append(txt(24, gy + 164, "二、有：水落进来，活物跟着生", 5.0, GREEN))
     gy2 = gy + 176
     s.append(gang(gy2, True))
-    s.append(txt(190, gy2 + 138, "水至柔，却盛得住鱼与水草——弱者的用，就在这儿", 4.3, INK, "middle"))
+    s.append(txt(190, gy2 + 138, "水至柔，却盛得住鱼与水草——弱者的用，就在这儿", 4.5, INK, "middle"))
 
     # ---------- 收 ----------
     y3 = gy2 + 154
@@ -1315,7 +1315,7 @@ def ch40_san_dong():
             s.append(f'<line x1="{cx+r+3}" y1="{cy}" x2="{cx+r+12}" y2="{cy}" stroke="#B9A88E" stroke-width="0.8"/>')
             s.append(txt(cx + r + 20, cy + 4, "三", 10.5, "#8A7C69"))
         s.append(txt(cx, yy + (106 if i == 2 else 100), label, 10, INK, "middle"))
-        s.append(txt(cx, yy + (124 if i == 2 else 118), sub, 8.8, "#8A7C69", "middle"))
+        s.append(txt(cx, yy + (124 if i == 2 else 118), sub, 8.4, "#8A7C69", "middle"))
     yb = ys + 3 * rowh + 2
     s.append(box(20, yb, 340, 52, fill="#F2EADA", stroke="#C9B79A"))
     s.append(txt(190, yb + 22, "三生万物：靠的不是力气，是那道缝没被填实。", 10.5, INK, "middle"))
@@ -1407,7 +1407,7 @@ def ch04_dao_chong():
     s.append(f'<line x1="{xr+15}" y1="{yb-22}" x2="{gx1}" y2="{yb-22}" stroke="#8FA8A1" stroke-width="0.8" stroke-dasharray="5 4"/>')
     s.append(arrow(xl - 51, yb - 22, xl - 10, yb - 22, "#6E8C86", 1))
     s.append(arrow(xr + 51, yb - 22, xr + 10, yb - 22, "#6E8C86", 1))
-    s.append(txt(cx, yb + 28, "水从脉来：取走多少，补回多少", 8.8, "#5E7368", "middle"))
+    s.append(txt(cx, yb + 28, "水从脉来：取走多少，补回多少", 8.4, "#5E7368", "middle"))
     s.append(f'<line x1="{cx}" y1="{ty-86}" x2="{cx}" y2="{ty-24}" stroke="#9C8B72" stroke-width="1"/>')
     s.append(f'<path d="M {cx-16} {ty-24} L {cx+16} {ty-24} L {cx+12} {ty-2} L {cx-12} {ty-2} Z" fill="none" stroke="{INK}" stroke-width="1.1"/>')
     s.append(f'<path d="M {cx-15} {ty-24} Q {cx} {ty-36} {cx+15} {ty-24}" fill="none" stroke="{INK}" stroke-width="0.9"/>')
@@ -1421,11 +1421,11 @@ def ch04_dao_chong():
     s.append(txt(xa, ty + 148, "壁只是界，", 9.2, GREEN))
     s.append(txt(xa, ty + 168, "空才是器。", 9.2, GREEN))
     ya = yb + 60
-    s.append(txt(W / 2, ya, "它一直在用，从不溢出——这就是「用之或不盈」。", 10.6, INK, "middle"))
+    s.append(txt(W / 2, ya, "它一直在用，从不溢出——这就是「用之或不盈」。", 10.5, INK, "middle"))
     s.append(txt(W / 2, ya + 24, "井口朝天，井底通脉：往上没有顶，往下没有底——一只杯里的空，与地上这片太虚是同一片。", 9.2, "#6E6459", "middle"))
     yc = ya + 52
     s.append(box(78, yc, W - 156, 54, fill="#F2EADA", stroke="#C9B79A"))
-    s.append(txt(W / 2, yc + 32, "湛兮，似或存；吾不知谁之子，象帝之先。", 10.4, INK, "middle"))
+    s.append(txt(W / 2, yc + 32, "湛兮，似或存；吾不知谁之子，象帝之先。", 10.5, INK, "middle"))
     s.append(gold(H - 68, "ch04a"))
     s.append('</svg>')
     return "\n".join(s)
@@ -1446,7 +1446,7 @@ def ch05_tuo_yue():
     s.append(f'<rect x="{R}" y="{top+70}" width="52" height="36" fill="#FBF6EC" stroke="{INK}" stroke-width="1.2"/>')
     for k in range(3):
         s.append(f'<line x1="{R+52}" y1="{top+78+k*9}" x2="{R+72}" y2="{top+70+k*9}" stroke="{GREEN}" stroke-width="0.8"/>')
-    s.append(txt(R + 76, top + 92, "出风", 8.6, GREEN))
+    s.append(txt(R + 76, top + 92, "出风", 8.4, GREEN))
     s.append(f'<line x1="354" y1="{top}" x2="354" y2="{bot}" stroke="{SEAL}" stroke-width="0.7" stroke-dasharray="4 5" opacity="0.7"/>')
     s.append(f'<rect x="{px2}" y="{top+12}" width="26" height="{bot-top-24}" fill="none" stroke="{SEAL}" stroke-width="0.7" stroke-dasharray="4 4" opacity="0.65"/>')
     s.append(f'<rect x="{px}" y="{top+12}" width="26" height="{bot-top-24}" fill="#CFC3AC" stroke="{INK}" stroke-width="1"/>')
@@ -1460,14 +1460,14 @@ def ch05_tuo_yue():
     s.append(txt(156, bot + 22, "0", 10, "#8A7C69", "middle"))
     s.append(txt(552, bot + 22, "1", 10, "#8A7C69", "middle"))
     s.append(txt(354, bot + 22, "0.5", 9, SEAL, "middle"))
-    s.append(txt(L, top - 26, "橐龠：一具风箱，两端一闭一开", 8.6, "#8A7C69"))
+    s.append(txt(L, top - 26, "橐龠：一具风箱，两端一闭一开", 8.4, "#8A7C69"))
     s.append(txt(360, top - 26, "0.5 是天平的正中——钉在这里，天平平，风箱死", 8.4, SEAL))
     ya = bot + 54
-    s.append(txt(W / 2, ya, "两端闭合，腔里最空；拉开，气最满。生机不在 0，不在 1，也不在 0.5。", 10.2, INK, "middle"))
+    s.append(txt(W / 2, ya, "两端闭合，腔里最空；拉开，气最满。生机不在 0，不在 1，也不在 0.5。", 10.5, INK, "middle"))
     s.append(txt(W / 2, ya + 22, "在那块一直在挪的板上：它停在哪一处，哪一处就活；钉在哪一处，哪一处就死。", 9.2, "#6E6459", "middle"))
     yc = ya + 50
     s.append(box(96, yc, W - 192, 52, fill="#F2EADA", stroke="#C9B79A"))
-    s.append(txt(W / 2, yc + 32, "多言数穷，不如守中。", 10.6, INK, "middle"))
+    s.append(txt(W / 2, yc + 32, "多言数穷，不如守中。", 10.5, INK, "middle"))
     s.append(gold(H - 68, "ch05a"))
     s.append('</svg>')
     return "\n".join(s)
@@ -1519,7 +1519,7 @@ def ch05b_yi_zhi_chu_gou():
         s.append(f'<path d="M{hx},{table - 44} q6,-10 0,-19" fill="none" stroke="#B9A98F" stroke-width="0.6"/>')
     s.append(txt(190, gy + 26, "陈：有位次", 4.6, GREEN, "middle"))
     s.append(f'<line x1="190" y1="{gy + 30}" x2="190" y2="{table - 34}" stroke="{LINE2}" stroke-width="0.6" stroke-dasharray="3 2"/>')
-    s.append(txt(190, table + 26, "被恭敬摆着的，还是那把草", 4.4, "#6E6459", "middle"))
+    s.append(txt(190, table + 26, "被恭敬摆着的，还是那把草", 4.5, "#6E6459", "middle"))
     s.append(txt(190, gy + 142, "天地给的只是位次，没给主人", 4.5, GREEN, "middle"))
 
     # 二、复归
@@ -1534,18 +1534,18 @@ def ch05b_yi_zhi_chu_gou():
     s.append(dog(154, base - 28, rot=-16, w=48))
     s.append(f'<ellipse cx="168" cy="{base - 22}" rx="4.2" ry="2.4" fill="none" stroke="{SEAL}" stroke-width="0.7"/>')
     s.append(f'<ellipse cx="180" cy="{base - 20}" rx="4.2" ry="2.4" fill="none" stroke="{SEAL}" stroke-width="0.7"/>')
-    s.append(txt(208, base - 40, "践其首脊", 4.4, SEAL))
+    s.append(txt(208, base - 40, "践其首脊", 4.5, SEAL))
     # 柴捆：一束草，中间一道红绳
     for k in range(5):
         s.append(f'<line x1="{262 + k * 5}" y1="{base - 26 + k}" x2="{282 + k * 5}" y2="{base - 6 + k}" stroke="{INK}" stroke-width="1.1"/>')
     s.append(f'<line x1="270" y1="{base - 16}" x2="294" y2="{base - 11}" stroke="{SEAL}" stroke-width="1.0"/>')
     s.append(f'<line x1="270" y1="{base - 10}" x2="292" y2="{base - 5}" stroke="{SEAL}" stroke-width="1.0"/>')
-    s.append(txt(300, base - 52, "取而爨之", 4.4, SEAL, "end"))
+    s.append(txt(300, base - 52, "取而爨之", 4.5, SEAL, "end"))
     s.append(txt(190, gy2 + 140, "位次用完了，它就回草堆——不是被弃，是用完了", 4.5, GREEN, "middle"))
 
     a = gy2 + 168
-    s.append(txt(24, a, "「不仁」不是狠心，是天地根本没有「我敬了你，你就该应我」那一本账。", 5.4, INK))
-    s.append(txt(24, a + 16, "祭祀有定时，祷无定时；人一祷就记账，天地却只按自己的节律转。", 5.4, INK))
+    s.append(txt(24, a, "「不仁」不是狠心，是天地根本没有「我敬了你，你就该应我」那一本账。", 5.2, INK))
+    s.append(txt(24, a + 16, "祭祀有定时，祷无定时；人一祷就记账，天地却只按自己的节律转。", 5.2, INK))
     s.append(txt(24, a + 34, "刍狗在祭时被敬、祭毕被践，不是天在赏罚它，是它该回草堆了。", 5.2, GREEN))
 
     c = a + 52
@@ -1590,15 +1590,15 @@ def ch05c_yi_ba_suo():
         s.append(f'<line x1="{pxp+7}" y1="{ty-16}" x2="{pxp+7}" y2="{ty+6}" stroke="{SEAL}" stroke-width="1.5"/>')
         s.append(f'<line x1="{pxp-9}" y1="{ty-16}" x2="{pxp+23}" y2="{ty-16}" stroke="{SEAL}" stroke-width="1.5"/>')
         s.append(txt(pxp + 7, ty - 22, "钉", 8, SEAL, "middle"))
-        s.append(txt(190, y0 + 134, t1, 8.6, "#6E6459", "middle"))
+        s.append(txt(190, y0 + 134, t1, 8.4, "#6E6459", "middle"))
 
     cell(y + 56, 0, "钉在 0：腔里最空，风一动不动")
     cell(y + 222, 1, "钉在 1：拉得最满，也一动不动")
     cell(y + 388, 2, "钉在 0.5：天平看着最平，风箱最死")
 
     a = y + 566
-    s.append(txt(24, a, "锁不是外物，是人自己那本账：要他一定这样、一定那样，把活的支点浇成死的刻度。", 5.4, INK))
-    s.append(txt(24, a + 16, "「数穷」不是没钱，是路走到头——枢一钉死，器再贵也只是个壳。", 5.4, INK))
+    s.append(txt(24, a, "锁不是外物，是人自己那本账：要他一定这样、一定那样，把活的支点浇成死的刻度。", 5.2, INK))
+    s.append(txt(24, a + 16, "「数穷」不是没钱，是路走到头——枢一钉死，器再贵也只是个壳。", 5.2, INK))
     s.append(txt(24, a + 34, "守中不是找一个好位置站住，是随时肯挪；能挪的，才叫中。", 5.2, GREEN))
 
     c = a + 52
@@ -1639,8 +1639,8 @@ def ch06b_yi_kou_gu():
     # 溢
     s.append(f'<path d="M{cx + 58},{ym + 3} q13,20 6,38" fill="none" stroke="{SEAL}" stroke-width="1.0"/>')
     s.append(f'<path d="M{cx - 58},{ym + 3} q-13,18 -6,34" fill="none" stroke="{SEAL}" stroke-width="1.0"/>')
-    s.append(txt(cx + 80, ym + 26, "倒不进", 4.4, SEAL))
-    s.append(txt(cx - 80, ym + 26, "往下淌", 4.4, SEAL, "end"))
+    s.append(txt(cx + 80, ym + 26, "倒不进", 4.5, SEAL))
+    s.append(txt(cx - 80, ym + 26, "往下淌", 4.5, SEAL, "end"))
     # 勺与注水
     s.append(f'<path d="M{cx - 6},{ym - 52} q-14,10 0,14 q14,-4 0,-14 z" fill="{PAPER}" stroke="{INK}" stroke-width="0.9"/>')
     s.append(f'<line x1="{cx - 6}" y1="{ym - 52}" x2="{cx + 12}" y2="{ym - 68}" stroke="{INK}" stroke-width="1.1"/>')
@@ -1665,16 +1665,16 @@ def ch06b_yi_kou_gu():
     for k in range(3):
         s.append(f'<line x1="{182 + k * 8}" y1="{gy2 + 4}" x2="{184 + k * 8}" y2="{gy2 + 80 + k * 8}" stroke="#7E9A93" stroke-width="1.6" opacity="0.9"/>')
     s.append(arrow(190, gy2 + 96, 190, gb - 8, "#8FA6A0", 1.0, None, "arr2"))
-    s.append(txt(254, gy2 + 34, "水往低处走", 4.4, "#6E6459"))
+    s.append(txt(254, gy2 + 34, "水往低处走", 4.5, "#6E6459"))
     # 风在谷里回
     for k in range(2):
         s.append(f'<path d="M96,{gy2 + 70 + k * 10} q40,-8 78,-2" fill="none" stroke="#B9A98F" stroke-width="0.6"/>')
-    s.append(txt(96, gy2 + 58, "风在谷里回", 4.4, "#8A7C69"))
+    s.append(txt(96, gy2 + 58, "风在谷里回", 4.5, "#8A7C69"))
     s.append(txt(190, gy2 + 168, "谷不去装，也不去留：能受，所以能生", 4.5, GREEN, "middle"))
 
     a = gy2 + 196
-    s.append(txt(24, a, "生机不在满处，在空处；不在取处，在受处——这是全章第一句的落点。", 5.4, INK))
-    s.append(txt(24, a + 16, "谷填平了就没有谷；能让它一直生的，不是哪一汪水，是那处空一直在。", 5.4, INK))
+    s.append(txt(24, a, "生机不在满处，在空处；不在取处，在受处——这是全章第一句的落点。", 5.2, INK))
+    s.append(txt(24, a + 16, "谷填平了就没有谷；能让它一直生的，不是哪一汪水，是那处空一直在。", 5.2, INK))
     s.append(txt(24, a + 34, "「不死」不是哪一样东西活得久，是「空而能受」这个结构从来不断。", 5.2, GREEN))
 
     c = a + 52
@@ -1717,8 +1717,8 @@ def ch06c_yi_shan_men_zhou():
     for ay in (ft + 20, fb - 34):
         s.append(f'<rect x="117" y="{ay}" width="9" height="12" fill="#BEA98A" stroke="{INK}" stroke-width="0.5"/>')
         s.append(f'<rect x="254" y="{ay}" width="9" height="12" fill="#BEA98A" stroke="{INK}" stroke-width="0.5"/>')
-    s.append(txt(112, ft + 16, "轴", 4.4, SEAL, "end"))
-    s.append(txt(300, ft + 16, "门缝：显化从这里出去", 4.3, GREEN, "end"))
+    s.append(txt(112, ft + 16, "轴", 4.5, SEAL, "end"))
+    s.append(txt(300, ft + 16, "门缝：显化从这里出去", 4.5, GREEN, "end"))
     s.append(txt(190, gy + 168, "门不在门板上，在两扇之间那道还没合死的缝", 4.5, GREEN, "middle"))
 
     # 二、推它，就成了墙
@@ -1737,13 +1737,13 @@ def ch06c_yi_shan_men_zhou():
         s.append(f'<rect x="{hx - 10 + k * 5.6}" y="{hy - 20 - (1 - abs(1.5 - k)) * 2}" width="4" height="12" rx="2" fill="#EFE6D4" stroke="{INK}" stroke-width="0.8"/>')
     s.append(f'<rect x="{hx - 18}" y="{hy - 6}" width="9" height="4.4" rx="2" fill="#EFE6D4" stroke="{INK}" stroke-width="0.8"/>')
     s.append(f'<line x1="{hx + 12}" y1="{hy + 2}" x2="{hx + 24}" y2="{hy + 10}" stroke="{INK}" stroke-width="0.8"/>')
-    s.append(txt(258, hy - 26, "推住了", 4.4, SEAL))
+    s.append(txt(258, hy - 26, "推住了", 4.5, SEAL))
     s.append(f'<line x1="254" y1="{hy - 24}" x2="236" y2="{hy - 16}" stroke="{LINE2}" stroke-width="0.6" stroke-dasharray="3 2"/>')
     s.append(txt(190, gy2 + 168, "一遇定位、占有，门当场变成了墙：通道闭塞", 4.5, SEAL, "middle"))
 
     a = gy2 + 196
-    s.append(txt(24, a, "门是出入处：不在门板，在开合。所以「玄牝之门」不是可找到、可占住的地方。", 5.4, INK))
-    s.append(txt(24, a + 16, "凡从隐到显、从无到有，都经由这道门流出；可它不在天地之外，就在冲虚本身。", 5.4, INK))
+    s.append(txt(24, a, "门是出入处：不在门板，在开合。所以「玄牝之门」不是可找到、可占住的地方。", 5.2, INK))
+    s.append(txt(24, a + 16, "凡从隐到显、从无到有，都经由这道门流出；可它不在天地之外，就在冲虚本身。", 5.2, INK))
     s.append(txt(24, a + 34, "「绵绵若存」的「若」，正是不许你把「存」把持成一个可守的东西——一守，就没了。", 5.2, GREEN))
 
     c = a + 52
@@ -1815,14 +1815,14 @@ def ch07_bu_zi_sheng():
     s.append(txt(198, y0 + 74, "不自生", 14, INK, "middle"))
     s.append(arrow(198, y0 + 86, 198, y0 + 116, SEAL, 1.3))
     s.append(txt(198, y0 + 140, "长 生", 14, GREEN, "middle"))
-    s.append(txt(198, y0 + 174, "运化不以滋养自身为目的", 8.6, "#6E6459", "middle"))
-    s.append(txt(198, y0 + 190, "长久不是求来的，是放下之后自然有的", 8.6, "#6E6459", "middle"))
+    s.append(txt(198, y0 + 174, "运化不以滋养自身为目的", 8.4, "#6E6459", "middle"))
+    s.append(txt(198, y0 + 190, "长久不是求来的，是放下之后自然有的", 8.4, "#6E6459", "middle"))
     for xx, a1, b1 in ((482, "后其身", "身先"), (642, "外其身", "身存")):
         s.append(txt(xx, y0 + 74, a1, 12.5, INK, "middle"))
         s.append(arrow(xx, y0 + 84, xx, y0 + 110, SEAL, 1.2))
         s.append(txt(xx, y0 + 134, b1, 12.5, SEAL, "middle"))
-    s.append(txt(562, y0 + 174, "先不是争来的，是人心自归", 8.6, "#6E6459", "middle"))
-    s.append(txt(562, y0 + 190, "松的是执念之我，不是血肉之身", 8.6, "#6E6459", "middle"))
+    s.append(txt(562, y0 + 174, "先不是争来的，是人心自归", 8.4, "#6E6459", "middle"))
+    s.append(txt(562, y0 + 190, "松的是执念之我，不是血肉之身", 8.4, "#6E6459", "middle"))
     yc = y0 + 252
     s.append(txt(190, yc, "无 私", 13, INK, "middle"))
     s.append(arrow(238, yc - 5, 522, yc - 5, GREEN, 1.4))
@@ -1830,7 +1830,7 @@ def ch07_bu_zi_sheng():
     s.append(txt(380, yc + 26, "成，是顺带的；不是先讲价、再让利。", 9.6, "#6E6459", "middle"))
     yw = yc + 46
     s.append(box(70, yw, 620, 66, fill="#F6EFE0", stroke="#C9B79A"))
-    s.append(txt(380, yw + 28, "若先退一步，等着赚回来——那是权谋，不是老子。", 10.2, SEAL, "middle"))
+    s.append(txt(380, yw + 28, "若先退一步，等着赚回来——那是权谋，不是老子。", 10.5, SEAL, "middle"))
     s.append(txt(380, yw + 48, "用无私做筹码，本身就是最精致的自生。", 9.2, "#6E6459", "middle"))
     s.append(gold(H - 68, "ch07a"))
     s.append('</svg>')
@@ -1862,8 +1862,8 @@ def ch07b_yi_ge_huan():
     s.append(txt(74, cy - 34, "取", 5.0, SEAL))
     s.append(arrow(140, cy, 196, cy, SEAL, 1.0, None, "arrS"))
     s.append(txt(214, cy - 34, "堵", 5.0, SEAL, "middle"))
-    s.append(txt(304, cy - 6, "尽头", 4.4, SEAL, "end"))
-    s.append(txt(304, cy + 6, "是枯", 4.4, SEAL, "end"))
+    s.append(txt(304, cy - 6, "尽头", 4.5, SEAL, "end"))
+    s.append(txt(304, cy + 6, "是枯", 4.5, SEAL, "end"))
     s.append(txt(190, gy + 154, "通道只进不出：越堵越紧，紧到某处就尽", 4.5, SEAL, "middle"))
 
     # 二、不为己：一个环
@@ -1881,13 +1881,13 @@ def ch07b_yi_ge_huan():
     s.append(f'<path d="M{cx-80:.0f},{ccy-27:.0f} Q{cx},{ccy-72:.0f} {cx+80:.0f},{ccy-27:.0f}" fill="none" stroke="{GREEN}" stroke-width="1.3" marker-end="url(#arr2)"/>')
     s.append(f'<path d="M{cx+80:.0f},{ccy+27:.0f} Q{cx},{ccy+72:.0f} {cx-80:.0f},{ccy+27:.0f}" fill="none" stroke="{GREEN}" stroke-width="1.3" marker-end="url(#arr2)"/>')
     s.append(txt(cx, ccy - 6, "空", 5.0, GREEN, "middle"))
-    s.append(txt(cx + 104, ccy - 44, "生出去", 4.4, GREEN))
-    s.append(txt(cx - 104, ccy + 52, "收回来", 4.4, GREEN, "end"))
+    s.append(txt(cx + 104, ccy - 44, "生出去", 4.5, GREEN))
+    s.append(txt(cx - 104, ccy + 52, "收回来", 4.5, GREEN, "end"))
     s.append(txt(190, gy2 + 154, "环里始终空着：不占住哪一段，才转得下去", 4.5, GREEN, "middle"))
 
     a = gy2 + 192
-    s.append(txt(24, a, "天地没有一颗「为我」的心，所以不被「取—耗」这条闭环困住。", 5.4, INK))
-    s.append(txt(24, a + 16, "生发与归根往复流通，不滞一处，所以长久——这叫长生，不是求来的。", 5.4, INK))
+    s.append(txt(24, a, "天地没有一颗「为我」的心，所以不被「取—耗」这条闭环困住。", 5.2, INK))
+    s.append(txt(24, a + 16, "生发与归根往复流通，不滞一处，所以长久——这叫长生，不是求来的。", 5.2, INK))
     s.append(txt(24, a + 34, "不是先有一个长久的目标再去不自生；是先不自生，长久自己来。", 5.2, GREEN))
 
     c = a + 52
@@ -1946,18 +1946,18 @@ def ch07c_yi_shan_zhai_men():
     s.append(gate(gx, gy2 + 40, gy2 + 128))
     # 一人退半步（把门口让开）
     s.append(f'<path d="M{gx - 60},{gy2 + 128} q-16,4 -20,-12 q-3,-14 12,-16" fill="none" stroke="{GREEN}" stroke-width="1.0" marker-end="url(#arr2)"/>')
-    s.append(txt(gx - 52, gy2 + 136, "退半步", 4.4, GREEN, "middle"))
+    s.append(txt(gx - 52, gy2 + 136, "退半步", 4.5, GREEN, "middle"))
     # 另一人先过
     s.append(arrow(gx - 100, gy2 + 90, gx + 74, gy2 + 90, GREEN, 1.1, None, "arr2"))
-    s.append(txt(gx + 104, gy2 + 82, "先过", 4.4, GREEN, "middle"))
+    s.append(txt(gx + 104, gy2 + 82, "先过", 4.5, GREEN, "middle"))
     # 让的人随后跟上
     s.append(arrow(gx - 100, gy2 + 112, gx + 46, gy2 + 112, GREEN, 1.0, None, "arr2"))
-    s.append(txt(gx + 104, gy2 + 108, "跟上", 4.4, GREEN, "middle"))
+    s.append(txt(gx + 104, gy2 + 108, "跟上", 4.5, GREEN, "middle"))
     s.append(txt(190, gy2 + 150, "让开的不是位置，是门口：一让，路就通了", 4.5, GREEN, "middle"))
 
     a = gy2 + 196
-    s.append(txt(24, a, "「后其身」不是装出一副退让的样子、心里等着后来居上——那是另一种抢。", 5.4, INK))
-    s.append(txt(24, a + 16, "它说的是放下「我要争先、我要凸显」的那只手；手一松，门口就通了。", 5.4, INK))
+    s.append(txt(24, a, "「后其身」不是装出一副退让的样子、心里等着后来居上——那是另一种抢。", 5.2, INK))
+    s.append(txt(24, a + 16, "它说的是放下「我要争先、我要凸显」的那只手；手一松，门口就通了。", 5.2, INK))
     s.append(txt(24, a + 34, "这个「先」不是争来的，是人心自归的：争来的位置要守，推上来的位置不必守。", 5.2, GREEN))
 
     c = a + 52
@@ -2009,7 +2009,7 @@ def ch08b_yi_chu_di_chu():
     yy = y0 + 216
     s.append(f'<rect x="40" y="{yy}" width="680" height="{y0 + 300 - yy}" fill="#E4EAE0" stroke="none"/>')
     s.append(wave(40, 720, yy, INK, 1.0, 5, 40))
-    s.append(txt(56, yy - 8, "海", 8.6, "#6E6459"))
+    s.append(txt(56, yy - 8, "海", 8.4, "#6E6459"))
     s.append(h2o(380, y0 + 268, 30, GREEN))
     s.append(cloud(250, y0 + 60))
     s.append(cloud(430, y0 + 56))
@@ -2082,7 +2082,7 @@ def ch08b_yi_chu_di_chu():
     s.append(txt(561, y1 + 30, "支点在本体", 10, GREEN, "middle", spacing="1"))
     s.append(txt(561, y1 + 52, "万相来了都能承、都能应", 8.4, "#6E6459", "middle"))
     s.append(txt(466, y1 + 182, "相照旧变，人不翻", 9.4, GREEN, "start"))
-    s.append(txt(561, y1 + 216, "本体", 7.6, INK, "middle"))
+    s.append(txt(561, y1 + 216, "本体", 7.4, INK, "middle"))
 
     y2 = y1 + 262
     s.append(box(24, y2, 712, 60, fill="#F2EADA", stroke="#C9B79A"))
@@ -2118,9 +2118,9 @@ def ch08c_qi_jie_tong_guan():
         s.append(f'<line x1="{cx - 13:.0f}" y1="{gy + 82}" x2="{cx + 13:.0f}" y2="{gy + 82}" stroke="{LINE}" stroke-width="0.6"/>')
         s.append(f'<line x1="{cx - 3:.0f}" y1="{gy + 40}" x2="{cx + 1:.0f}" y2="{gy + 50}" stroke="{SEAL}" stroke-width="1.0"/>')
         s.append(f'<line x1="{cx + 1:.0f}" y1="{gy + 50}" x2="{cx + 9:.0f}" y2="{gy + 34}" stroke="{SEAL}" stroke-width="1.1"/>')
-        s.append(txt(cx, gy + 130, nm, 4.4, INK, "middle"))
+        s.append(txt(cx, gy + 130, nm, 4.5, INK, "middle"))
         s.append(txt(cx, gy + 142, "一勾", 3.9, "#6E6459", "middle"))
-    s.append(txt(190, gy + 166, "分开摆：各自打分，水在每一节停着——七善成了七条互不相干的戒律", 4.3, SEAL, "middle"))
+    s.append(txt(190, gy + 166, "分开摆：各自打分，水在每一节停着——七善成了七条互不相干的戒律", 4.5, SEAL, "middle"))
 
     # 二、一根七节通管
     s.append(txt(24, gy + 196, "二、接成一根：一节通了，下一节才满", 5.2, GREEN))
@@ -2136,7 +2136,7 @@ def ch08c_qi_jie_tong_guan():
         s.append(f'<line x1="{nx + 3:.0f}" y1="{ty0 - 3}" x2="{nx + 3:.0f}" y2="{ty1 + 3}" stroke="{INK}" stroke-width="1.0"/>')
     for i, nm in enumerate(names):
         cx = tx0 + seg * (i + 0.5)
-        s.append(txt(cx, ty0 - 12, nm, 4.4, INK, "middle"))
+        s.append(txt(cx, ty0 - 12, nm, 4.5, INK, "middle"))
         s.append(arrow(cx - 8, ty0 + 11, cx + 10, ty0 + 11, GREEN, 0.8, None, "arr2"))
     s.append(arrow(tx0 - 12, ty0 + 11, tx0 - 2, ty0 + 11, GREEN, 1.0, None, "arr2"))
     s.append(arrow(tx1 + 2, ty0 + 11, tx1 + 12, ty0 + 11, GREEN, 1.0, None, "arr2"))
@@ -2336,12 +2336,12 @@ def ch09c_zan_yu_song():
     # 印落在掌上
     s.append(f'<rect x="{hx - 10}" y="{hy - 14}" width="20" height="15" fill="#E4D8BF" stroke="{INK}" stroke-width="0.9"/>')
     s.append(f'<rect x="{hx - 4}" y="{hy - 21}" width="8" height="7" fill="#E4D8BF" stroke="{INK}" stroke-width="0.8"/>')
-    s.append(txt(hx + 26, hy - 16, "印", 4.4, GREEN))
+    s.append(txt(hx + 26, hy - 16, "印", 4.5, GREEN))
     s.append(f'<path d="M{hx - 64},{hy - 16} q14,-8 26,-1 q12,7 0,14" fill="none" stroke="{SEAL}" stroke-width="1.0" opacity="0.55"/>')
     s.append(f'<path d="M{hx - 58},{hy - 1} q12,4 22,-1" fill="none" stroke="{SEAL}" stroke-width="0.9" opacity="0.55"/>')
     s.append(txt(hx - 58, hy - 22, "解开", 4.0, "#6E6459", "middle"))
     s.append(arrow(hx + 76, hy - 40, hx + 40, hy - 30, GREEN, 0.9, None, "arr2"))
-    s.append(txt(hx + 80, hy - 42, "松开", 4.4, GREEN))
+    s.append(txt(hx + 80, hy - 42, "松开", 4.5, GREEN))
     s.append(txt(190, gy2 + 128, "功还是功，人还是人：印没掉，手也不抖", 4.6, GREEN, "middle"))
     s.append(txt(190, gy2 + 146, "退的不是事，是恋；收的不是手，是心", 4.2, "#6E6459", "middle"))
     s.append(txt(190, gy2 + 160, "先功遂，再身退——没做成而先退，多半是给退缩找个好名字", 4.2, "#6E6459", "middle"))
@@ -2377,10 +2377,10 @@ def ch09_ying_man():
             ("持", "盈", "已满还要拿住，不如其已"), ("揣", "锐", "还要磨尖，不可长保"),
             ("金玉", "满堂", "还要囤着，莫之能守"), ("富贵", "骄", "还要显出来，自遗其咎"))):
         yy = y + 74 + k * 34
-        s.append(txt(42, yy, a1, 6.4, INK, "end"))
+        s.append(txt(42, yy, a1, 6.0, INK, "end"))
         s.append(arrow(52, yy - 2, 96, yy - 2, INK, 0.8, None, "arrS"))
-        s.append(txt(66, yy - 8, "又进一步", 3.4, "#6E6459", "middle"))
-        s.append(txt(104, yy, b1, 6.4, SEAL))
+        s.append(txt(66, yy - 8, "又进一步", 3.5, "#6E6459", "middle"))
+        s.append(txt(104, yy, b1, 6.0, SEAL))
         s.append(txt(152, yy, note, 4.2, "#6E6459"))
     s.append(txt(24, y + 216, "四句不是四种毛病，是同一条路走到头：把自我绑在所得上。", 4.6, INK))
 
@@ -2391,13 +2391,13 @@ def ch09_ying_man():
     s.append(txt(57, gy + 27, "身退", 5.2, INK, "middle"))
     s.append(arrow(306, gy + 30, 92, gy + 30, SEAL, 1.0, None, "arr2"))
     s.append(txt(304, gy + 18, "停手，不是又进一步", 4.2, SEAL, "end"))
-    s.append(txt(24, gy + 50, "次序不能倒：先功遂，再身退——没做成而先退，多半是给退缩找个好名字。", 4.4, "#6E6459"))
+    s.append(txt(24, gy + 50, "次序不能倒：先功遂，再身退——没做成而先退，多半是给退缩找个好名字。", 4.5, "#6E6459"))
 
     # 三、功与身同一根轴
     hy = gy + 74
     s.append(txt(24, hy, "三、功与身：同一根轴的两头，不是两件事", 5.2, GREEN))
-    s.append(txt(44, hy + 44, "身", 6.6, INK))
-    s.append(txt(336, hy + 44, "功", 6.6, INK, "end"))
+    s.append(txt(44, hy + 44, "身", 6.0, INK))
+    s.append(txt(336, hy + 44, "功", 6.0, INK, "end"))
     s.append(f'<line x1="66" y1="{hy + 38}" x2="314" y2="{hy + 38}" stroke="{LINE}" stroke-width="0.8" stroke-dasharray="3 3"/>')
     s.append(arrow(300, hy + 30, 96, hy + 30, GREEN, 0.9, None, "arr2"))
     s.append(txt(300, hy + 22, "退：事留在外面", 4.0, GREEN, "end"))
@@ -2416,15 +2416,15 @@ def ch09_ying_man():
     s.append(f'<circle cx="{cx}" cy="{cyy - r / 2}" r="6" fill="#8C8578" stroke="none"/>')
     s.append(f'<circle cx="{cx}" cy="{cyy + r / 2}" r="6" fill="#F8F3E6" stroke="none"/>')
     s.append(txt(cx, cyy + 4, "", 1, INK, "middle"))
-    s.append(txt(170, ty + 46, "黑的那半一直加，加到端就溢。", 4.4, INK))
-    s.append(txt(170, ty + 62, "白的那半知道停在哪一格。", 4.4, INK))
-    s.append(txt(170, ty + 84, "不是对半均分，也不是停在中间——", 4.4, GREEN))
-    s.append(txt(170, ty + 98, "是走到头，自己翻转。", 4.4, GREEN))
+    s.append(txt(170, ty + 46, "黑的那半一直加，加到端就溢。", 4.5, INK))
+    s.append(txt(170, ty + 62, "白的那半知道停在哪一格。", 4.5, INK))
+    s.append(txt(170, ty + 84, "不是对半均分，也不是停在中间——", 4.5, GREEN))
+    s.append(txt(170, ty + 98, "是走到头，自己翻转。", 4.5, GREEN))
 
     c = ty + 170
     s.append(f'<line x1="24" y1="{c}" x2="338" y2="{c}" stroke="{LINE}" stroke-width="0.6"/>')
     s.append(box(20, c + 8, 340, 44, fill="#F2EADA", stroke="#C9B79A"))
-    s.append(txt(190, c + 26, "功遂身退，天之道", 6.2, INK, "middle"))
+    s.append(txt(190, c + 26, "功遂身退，天之道", 6.0, INK, "middle"))
     s.append(txt(190, c + 40, "退的是那只还要再加一步的手，不是事。", 5.0, GREEN, "middle"))
     s.append(gold(c + 66, "ch09a"))
     s.append('</svg>')
@@ -2447,7 +2447,7 @@ def ch03_shang_ji_guo_du():
         s.append(txt(20, yy + 14, a, 9.5, SEAL))
         s.append(f'<line x1="112" y1="{yy+9}" x2="132" y2="{yy+9}" stroke="{LINE}" stroke-width="1" marker-end="url(#arr)"/>')
         s.append(txt(138, yy + 14, b, 9.5, INK))
-        s.append(txt(206, yy + 14, note, 8.5, "#6E6459"))
+        s.append(txt(206, yy + 14, note, 8.4, "#6E6459"))
     s.append(txt(20, yb + 3 * 24 + 6, "三个动作是同一件：不主动抬它，标尺就不起来。", 9, "#8A7C69"))
     # 经文四句 ↔ 壁／空
     ys = yb + 3 * 24 + 30
@@ -2459,9 +2459,9 @@ def ch03_shang_ji_guo_du():
     s.append(txt(90, (top + bot) / 2 + 4, "空", 12, "#8A7C69", "middle"))
     s.append(txt(26, top - 6, "壁", 9, SEAL))
     s.append(txt(162, top + 2, "实其腹 · 强其骨 → 壁", 9.5, SEAL))
-    s.append(txt(162, top + 18, "厚其壁，是让它立得住", 8.5, "#6E6459"))
+    s.append(txt(162, top + 18, "厚其壁，是让它立得住", 8.4, "#6E6459"))
     s.append(txt(162, top + 48, "虚其心 · 弱其志 → 空", 9.5, GREEN))
-    s.append(txt(162, top + 64, "守其空，是让空用得起", 8.5, "#6E6459"))
+    s.append(txt(162, top + 64, "守其空，是让空用得起", 8.4, "#6E6459"))
     # 同一段壁，三种质地
     yz = ys + 128
     s.append(txt(20, yz, "同一段壁的三种质地：变的是壁，空一直是空", 9.2, "#8A7C69"))
@@ -2497,18 +2497,18 @@ def ch03_shang_ji_guo_du():
     s.append(txt(308, cy + 4, "空", 9, "#8A7C69", "middle"))
     s.append(txt(308, cy + R + 16, "海绵壁", 10, SEAL, "middle"))
     s.append(txt(308, cy + R + 32, "过度：壁胀、变厚", 8.4, "#6E6459", "middle"))
-    s.append(txt(308, cy + R + 46, "腔被挤小，空吸进孔里", 7.9, "#6E6459", "middle"))
+    s.append(txt(308, cy + R + 46, "腔被挤小，空吸进孔里", 8.0, "#6E6459", "middle"))
     # 辨义
     yr = cy + R + 62
     s.append(box(20, yr, 340, 60, fill="#F6EFE0", stroke="#C9B79A", dash="4 3"))
-    s.append(txt(32, yr + 17, "「虚」不是实的反面：是有的那部分自己松成海绵", 8.8, SEAL))
-    s.append(txt(32, yr + 33, "虚其心：在空上做减法，留白，空还照用。", 8.6, "#6E6459"))
-    s.append(txt(32, yr + 49, "反例·腹虚：在壁上被动的松，料变多孔、变胀，空反被吃掉。", 8.6, "#6E6459"))
+    s.append(txt(32, yr + 17, "「虚」不是实的反面：是有的那部分自己松成海绵", 8.4, SEAL))
+    s.append(txt(32, yr + 33, "虚其心：在空上做减法，留白，空还照用。", 8.4, "#6E6459"))
+    s.append(txt(32, yr + 49, "反例·腹虚：在壁上被动的松，料变多孔、变胀，空反被吃掉。", 8.4, "#6E6459"))
     # 收
     yc = yr + 74
     s.append(box(20, yc, 340, 40, fill="#F2EADA", stroke="#C9B79A"))
     s.append(txt(190, yc + 19, "有之以为利，无之以为用。", 11.5, INK, "middle", spacing="1"))
-    s.append(txt(190, yc + 34, "过与不及，皆失其用。", 8.8, "#6E6459", "middle"))
+    s.append(txt(190, yc + 34, "过与不及，皆失其用。", 8.4, "#6E6459", "middle"))
     s.append(gold(H - 68, "ch03a"))
     s.append('</svg>')
     return "\n".join(s)
@@ -2544,11 +2544,11 @@ def ch10b_liang_lun_yi_zhou():
     s.append(f'<line x1="150" y1="{cy - 44}" x2="150" y2="{cy - 54}" stroke="{INK}" stroke-width="0.9"/>')
     s.append(f'<line x1="230" y1="{cy - 44}" x2="230" y2="{cy - 54}" stroke="{INK}" stroke-width="0.9"/>')
     s.append(f'<line x1="142" y1="{cy - 54}" x2="238" y2="{cy - 54}" stroke="{INK}" stroke-width="1.0"/>')
-    s.append(txt(190, cy - 62, "载：车上一副身，轴下一根一", 4.4, INK, "middle"))
+    s.append(txt(190, cy - 62, "载：车上一副身，轴下一根一", 4.5, INK, "middle"))
     s.append(txt(112, cy + 30, "魂", 4.6, GREEN, "middle"))
     s.append(txt(268, cy + 30, "魄", 4.6, "#6E6459", "middle"))
-    s.append(txt(190, cy - 7, "一＝轴", 4.4, GREEN, "middle"))
-    s.append(txt(190, gy + 168, "两轮一轴：魂不出走，魄不自沉，人在此时此地", 4.3, GREEN, "middle"))
+    s.append(txt(190, cy - 7, "一＝轴", 4.5, GREEN, "middle"))
+    s.append(txt(190, gy + 168, "两轮一轴：魂不出走，魄不自沉，人在此时此地", 4.5, GREEN, "middle"))
 
     # 二、离
     s.append(txt(24, gy + 196, "二、离：轴一断，两轮各归其处", 5.2, SEAL))
@@ -2566,8 +2566,8 @@ def ch10b_liang_lun_yi_zhou():
     s.append(arrow(268, cy2 + 24, 268, cy2 + 44, SEAL, 1.0, None, "arrS"))
     s.append(txt(112, cy2 - 54, "魂：轻清，上归于天", 4.2, SEAL, "middle"))
     s.append(txt(268, cy2 + 54, "魄：重浊，下归于地", 4.2, SEAL, "middle"))
-    s.append(txt(190, cy2 - 20, "断", 4.4, SEAL, "middle"))
-    s.append(txt(190, gy2 + 160, "轴断了才招魂，人已经走了——老子问的是生前合不合得住", 4.3, "#6E6459", "middle"))
+    s.append(txt(190, cy2 - 20, "断", 4.5, SEAL, "middle"))
+    s.append(txt(190, gy2 + 160, "轴断了才招魂，人已经走了——老子问的是生前合不合得住", 4.5, "#6E6459", "middle"))
     s.append(txt(190, gy2 + 172, "《礼记》：「魂气归于天，形魄归于地」", 4.1, "#6E6459", "middle"))
 
     a = gy2 + 196
@@ -2631,10 +2631,10 @@ def ch10c_yi_jian_jie_zhu_de_wu():
     s.append(f'<rect x="{px+26}" y="{py+56}" width="11" height="5" fill="#E4D8BF" stroke="{INK}" stroke-width="0.6" transform="rotate(-12,{px+31},{py+58})"/>')
     s.append(f'<rect x="{px+41}" y="{py+58}" width="11" height="5" fill="#E4D8BF" stroke="{INK}" stroke-width="0.6" transform="rotate(10,{px+46},{py+60})"/>')
     s.append(txt(190, gy + 36, "主人三件事", 4.6, SEAL))
-    s.append(txt(190, gy + 52, "挂牌：这屋写上我的名", 4.3, SEAL))
-    s.append(txt(190, gy + 66, "刷墙：改成我的颜色", 4.3, SEAL))
-    s.append(txt(190, gy + 80, "攥契：攥到指节发白", 4.3, SEAL))
-    s.append(txt(190, gy + 94, "拆墙：碍事的这一面，拆", 4.3, SEAL))
+    s.append(txt(190, gy + 52, "挂牌：这屋写上我的名", 4.5, SEAL))
+    s.append(txt(190, gy + 66, "刷墙：改成我的颜色", 4.5, SEAL))
+    s.append(txt(190, gy + 80, "攥契：攥到指节发白", 4.5, SEAL))
+    s.append(txt(190, gy + 94, "拆墙：碍事的这一面，拆", 4.5, SEAL))
     s.append(txt(190, gy + 116, "房不是他的，人先被房绑住。", 4.2, "#6E6459"))
     s.append(txt(px, gy + 168, "当主人：生而不有——你可以建，它不属于你", 4.2, SEAL, "middle"))
 
@@ -2658,8 +2658,8 @@ def ch10c_yi_jian_jie_zhu_de_wu():
     # 待修的一片瓦
     s.append(f'<path d="M276,{gy2+108} l16,-4 l3,8 l-16,4 z" fill="#E4D8BF" stroke="{INK}" stroke-width="0.8"/>')
     s.append(txt(284, gy2+124, "待修", 3.8, "#6E6459", "middle"))
-    s.append(txt(195, gy2 + 142, "三样都做：扫地、浇花、修瓦", 4.3, GREEN))
-    s.append(txt(195, gy2 + 158, "不挂牌、不拆改、不作主", 4.3, GREEN))
+    s.append(txt(195, gy2 + 142, "三样都做：扫地、浇花、修瓦", 4.5, GREEN))
+    s.append(txt(195, gy2 + 158, "不挂牌、不拆改、不作主", 4.5, GREEN))
     s.append(txt(195, gy2 + 172, "走时，屋还是那间屋——手里的活一样没少", 4.1, "#6E6459"))
     s.append(txt(px2, gy2 + 182, "当租客：生之畜之——能养，却不作它的主", 4.2, GREEN, "middle"))
 
@@ -2682,8 +2682,8 @@ def ch10c_yi_jian_jie_zhu_de_wu():
     s.append(f'<line x1="168" y1="{gy3+62}" x2="168" y2="{gy3+68}" stroke="{SEAL}" stroke-width="1.0"/>')
     s.append(f'<line x1="172" y1="{gy3+62}" x2="172" y2="{gy3+66}" stroke="{SEAL}" stroke-width="1.0"/>')
     s.append(txt(152, gy3 + 80, "唯一一把", 3.9, SEAL, "middle"))
-    s.append(txt(192, gy3 + 38, "这把锁不在外头，在心里", 4.3, INK))
-    s.append(txt(192, gy3 + 54, "开不开，只由自己", 4.3, INK))
+    s.append(txt(192, gy3 + 38, "这把锁不在外头，在心里", 4.5, INK))
+    s.append(txt(192, gy3 + 54, "开不开，只由自己", 4.5, INK))
     s.append(txt(192, gy3 + 72, "推给外境，就是这一处当了租客", 4.2, "#6E6459"))
     s.append(txt(192, gy3 + 90, "今日起没起、守没守——没有第二个人可怪。", 4.2, "#6E6459"))
     s.append(txt(190, gy3 + 142, "对内全权：不推、不赖、不借外境做自己的主人", 4.2, GREEN, "middle"))
@@ -2734,7 +2734,7 @@ def ch10_liu_wen_yi_dao():
         qw = 5.0 * (len(a1) + len(a2) + 1)
         nw = 4.3 * len(note)
         s.append(f'<line x1="{xa + 16 + qw:.0f}" y1="{ey + 5}" x2="{344 - nw - 6:.0f}" y2="{ey + 5}" stroke="{LINE2}" stroke-width="0.5" stroke-dasharray="1.6 3.4"/>')
-        s.append(txt(344, ey + 8, note, 4.3, "#6E6459", "end"))
+        s.append(txt(344, ey + 8, note, 4.5, "#6E6459", "end"))
 
     s.append(f'<circle cx="{xa}" cy="{tipy}" r="3.2" fill="{SEAL}"/>')
     s.append(box(24, tipy + 8, 332, 26, fill="#F2EADA", stroke="#C9B79A"))
@@ -2747,7 +2747,7 @@ def ch10_liu_wen_yi_dao():
     c = ya + 34
     s.append(f'<line x1="24" y1="{c}" x2="358" y2="{c}" stroke="{LINE}" stroke-width="0.6"/>')
     s.append(box(20, c + 8, 340, 40, fill="#F2EADA", stroke="#C9B79A"))
-    s.append(txt(190, c + 24, "生而不有，为而不恃，长而不宰，是谓玄德。", 5.4, INK, "middle"))
+    s.append(txt(190, c + 24, "生而不有，为而不恃，长而不宰，是谓玄德。", 5.2, INK, "middle"))
     s.append(txt(190, c + 36, "六问过后，只剩一句答话：能做的很多，能占有的很少。", 4.6, GREEN, "middle"))
     s.append(gold(c + 62, "ch10a"))
     s.append('</svg>')
@@ -2776,7 +2776,7 @@ def ch12_jia_ma_de_quan():
                  f'transform="translate({px:.1f},{py:.1f}) rotate({th + 90})"/>')
     s.append(f'<circle cx="{cx}" cy="{cy}" r="{r - 16}" fill="#FBF6EC" stroke="none"/>')
     s.append(txt(cx, cy - 2, "本味丢了", 5.0, SEAL, "middle"))
-    s.append(txt(cx, cy + 12, "尺子歪了", 4.3, "#6E6459", "middle"))
+    s.append(txt(cx, cy + 12, "尺子歪了", 4.5, "#6E6459", "middle"))
     s.append(txt(cx + r + 8, cy + 4, "刺激", 4.8, SEAL))
     s.append(txt(cx + 4, cy + r + 12, "快感（短）", 4.6, SEAL))
     s.append(txt(cx - r - 8, cy + 4, "淡了", 4.8, SEAL, "end"))
@@ -3014,8 +3014,8 @@ def ch13_bi_yu_kong():
             x0 = cx + sg * (R + 10 + k * 4)
             s.append(f'<path d="M{x0},{cy - 16 + k * 8} q{sg * 6},8 0,16" fill="none" stroke="{SEAL}" '
                      f'stroke-width="0.6" stroke-dasharray="2 3" opacity="0.7"/>')
-    s.append(txt(cx, cy + 2, "空", 5.4, GREEN, "middle"))
-    s.append(txt(cx, cy + 16, "不据壁的那一层", 4.4, "#6E6459", "middle"))
+    s.append(txt(cx, cy + 2, "空", 5.2, GREEN, "middle"))
+    s.append(txt(cx, cy + 16, "不据壁的那一层", 4.5, "#6E6459", "middle"))
     s.append(txt(cx, cy - R - 12, "壁：血肉之身＋执念之我", 4.5, "#6E6459", "middle"))
 
     # 宠、辱从外打到壁上
@@ -3030,10 +3030,10 @@ def ch13_bi_yu_kong():
 
     yy = cy + R + 34
     s.append(f'<line x1="{cx}" y1="{yy}" x2="{cx}" y2="{yy + 62}" stroke="{LINE}" stroke-width="0.7"/>')
-    s.append(txt(34, yy + 10, "养壁", 5.5, GREEN))
+    s.append(txt(34, yy + 10, "养壁", 5.6, GREEN))
     s.append(txt(34, yy + 26, "实其腹，强其骨。", 4.6, "#6E6459"))
     s.append(txt(34, yy + 42, "壁要厚、要固，护得住。", 4.6, "#6E6459"))
-    s.append(txt(214, yy + 10, "据壁", 5.5, SEAL))
+    s.append(txt(214, yy + 10, "据壁", 5.6, SEAL))
     s.append(txt(214, yy + 26, "「我必须被肯定」。", 4.6, "#6E6459"))
     s.append(txt(214, yy + 42, "壁一摇，人整个摇。", 4.6, "#6E6459"))
     s.append(txt(cx, yy + 58, "养的是器，据的是我——差在这一处。", 4.5, "#8A7C69", "middle"))
@@ -3095,7 +3095,7 @@ def ch13b_ding_zai_bi_shang():
     gy2 = gy + 212
     s.append(f'<rect x="26" y="{gy2}" width="328" height="168" fill="#FBF6EC" stroke="{LINE}" stroke-width="0.8"/>')
     wall(gy2, label=False, top=18, bot=124)
-    s.append(txt(176, gy2 + 18, "壁：还在", 4.4, "#8A7C69", "middle"))
+    s.append(txt(176, gy2 + 18, "壁：还在", 4.5, "#8A7C69", "middle"))
     s.append(f'<line x1="{px0 + 2}" y1="{py0 - gy + gy2}" x2="{px0 + 8}" y2="{py0 - gy + gy2}" stroke="#A89577" stroke-width="0.7"/>')
     s.append(f'<circle cx="{px0 + 8}" cy="{py0 - gy + gy2}" r="3.4" fill="none" stroke="#A89577" stroke-width="0.7" stroke-dasharray="2 2"/>')
     s.append(txt(px0 + 16, py0 - gy + gy2 + 4, "钉孔还在，钉子不在了", 3.9, "#8A7C69"))
@@ -3231,7 +3231,7 @@ def ch14_ding_bu_zhu_de_bian():
 
     # 形从虚边里出来
     sx = 286
-    s.append(txt(150, gy + 42, "这边还没定死", 4.4, "#8A7C69"))
+    s.append(txt(150, gy + 42, "这边还没定死", 4.5, "#8A7C69"))
 
     s.append(f'<rect x="{sx - 8}" y="{gy + 16}" width="16" height="16" fill="{PAPER}" stroke="{INK}" stroke-width="1.0"/>')
     s.append(txt(sx, gy + 8, "方", 4.6, "#6E6459", "middle"))
@@ -3248,7 +3248,7 @@ def ch14_ding_bu_zhu_de_bian():
 
     yb = gy + 172
     s.append(box(20, yb, 340, 42, fill="#FBF6EC", stroke=LINE))
-    s.append(txt(190, yb + 15, "是谓惚恍：非空非有，非动非静。", 5.4, INK, "middle"))
+    s.append(txt(190, yb + 15, "是谓惚恍：非空非有，非动非静。", 5.2, INK, "middle"))
     s.append(txt(190, yb + 31, "不是糊里糊涂，是没有固定相——所以能显一切相。", 4.9, GREEN, "middle"))
 
     yy = yb + 58
@@ -3292,11 +3292,11 @@ def ch14b_san_zhi_tan_zhen():
         s.append(f'<line x1="48" y1="{yy}" x2="204" y2="{yy}" stroke="{INK}" stroke-width="1.0"/>')
         s.append(f'<line x1="204" y1="{yy}" x2="212" y2="{yy}" stroke="{LINE}" stroke-width="1.0" stroke-dasharray="2 3"/>')
         s.append(f'<circle cx="217" cy="{yy}" r="4.5" fill="none" stroke="{SEAL}" stroke-width="0.8" stroke-dasharray="2 2"/>')
-        s.append(txt(226, yy + 3, note, 5.4, SEAL))
+        s.append(txt(226, yy + 3, note, 5.2, SEAL))
     s.append(f'<line x1="217" y1="{gy + 46}" x2="217" y2="{gy + 138}" stroke="{SEAL}" stroke-width="0.6" stroke-dasharray="3 4" opacity="0.8"/>')
     s.append(txt(217, gy + 152, "三支都停在这一道界上", 4.2, SEAL, "middle"))
-    s.append(txt(100, gy + 190, "探不到的地方不是空的，", 4.3, SEAL, "middle"))
-    s.append(txt(100, gy + 200, "是探针够不着。", 4.3, SEAL, "middle"))
+    s.append(txt(100, gy + 190, "探不到的地方不是空的，", 4.5, SEAL, "middle"))
+    s.append(txt(100, gy + 200, "是探针够不着。", 4.5, SEAL, "middle"))
 
     # 二、收针归场
     s.append(txt(24, gy + 216, "二、收针：遇不到，只能归；遇见要伸手，归依要收手", 5.2, GREEN))
@@ -3314,7 +3314,7 @@ def ch14b_san_zhi_tan_zhen():
     s.append(f'<line x1="{px}" y1="{py + 34}" x2="{px + 7}" y2="{py + 46}" stroke="{INK}" stroke-width="1.0"/>')
     s.append(arrow(px + 14, gy2 + 66, 118, gy2 + 66, GREEN, 1.0, None, "arr2"))
     s.append(txt(px + 16, gy2 + 60, "归", 4.6, GREEN))
-    s.append(txt(190, gy2 + 168, "物可遇，道只能归：方向不同，姿势也不同", 4.3, GREEN, "middle"))
+    s.append(txt(190, gy2 + 168, "物可遇，道只能归：方向不同，姿势也不同", 4.5, GREEN, "middle"))
 
     a = gy2 + 188
     s.append(txt(24, a, "眼耳手是工具，不是真理的裁判；探得到的是万象，探不到的是万象的背景。", 5.0, INK))
@@ -3412,7 +3412,7 @@ def ch15_bu_wang_qian_zhan():
     # 往前一步的方向
     s.append(f'<line x1="344" y1="{y0 - 4}" x2="344" y2="{y0 - 104}" stroke="{SEAL}" stroke-width="0.8" stroke-dasharray="4 3"/>')
     s.append(f'<path d="M-3.2,-3.2 L4.2,0 L-3.2,3.2 z" fill="{SEAL}" transform="translate(344,{y0 - 108}) rotate(-90)"/>')
-    s.append(txt(338, y0 - 116, "往前站一步", 4.4, SEAL, "end"))
+    s.append(txt(338, y0 - 116, "往前站一步", 4.5, SEAL, "end"))
     s.append(txt(338, y0 - 104, "（世人的方向）", 3.8, "#8A7C69", "end"))
     # 他就站在这条线上，不上箭头
     s.append(f'<circle cx="48" cy="{y0 - 40}" r="5.0" fill="none" stroke="{INK}" stroke-width="1.0"/>')
@@ -4257,9 +4257,9 @@ def ch17c_gong_cheng():
         s.append(f'<line x1="{x}" y1="{gy2 + 66}" x2="{x}" y2="{gy2 + 86}" stroke="{INK}" stroke-width="1.1"/>')
         s.append(f'<line x1="{x}" y1="{gy2 + 86}" x2="{x - 4}" y2="{gy2 + 96}" stroke="{INK}" stroke-width="0.9"/>')
         s.append(f'<line x1="{x}" y1="{gy2 + 86}" x2="{x + 4}" y2="{gy2 + 96}" stroke="{INK}" stroke-width="0.9"/>')
-    s.append(txt(118, gy2 + 50, "我自然", 4.3, GREEN))
+    s.append(txt(118, gy2 + 50, "我自然", 4.5, GREEN))
     s.append(txt(166, gy2 + 124, "没人记得谁做成的，事却成了", 4.2, "#6E6459"))
-    s.append(txt(190, gy2 + 160, "功成事遂，百姓皆谓我自然", 4.4, GREEN, "middle"))
+    s.append(txt(190, gy2 + 160, "功成事遂，百姓皆谓我自然", 4.5, GREEN, "middle"))
 
     a = gy2 + 196
     s.append(txt(24, a, "举旗的人，把众人的力气记成自己的功劳；退到树下的人，把功劳还给做事的人。", 4.9, INK))
@@ -4300,7 +4300,7 @@ def ch18_lu_fei_bian_li():
     for k in range(8):
         x = 62 + k * 34
         s.append(f'<line x1="{x}" y1="{rl}" x2="{x + 14}" y2="{rl}" stroke="{LINE2}" stroke-width="0.9"/>')
-    s.append(txt(190, p0 + h - 12, "走的人自自然然，不必抬头看谁立的牌子", 4.4, "#8A7C69", "middle"))
+    s.append(txt(190, p0 + h - 12, "走的人自自然然，不必抬头看谁立的牌子", 4.5, "#8A7C69", "middle"))
     s.append(txt(24, p0 + h + 13, "一、道在：一条路，没有匾，也没有人称赞走过它的人", 5.0, GREEN))
 
     # 二、路废，匾立
@@ -4325,14 +4325,14 @@ def ch18_lu_fei_bian_li():
         s.append(f'<line x1="{x}" y1="{rl2 + 19}" x2="{x - 5}" y2="{rl2 + 14}" stroke="{GREEN}" stroke-width="0.6"/>')
     # 匾：插在断口里
     s.append(f'<rect x="185" y="{rl2 - 86}" width="38" height="64" fill="#F2EADA" stroke="{INK}" stroke-width="1.2"/>')
-    s.append(txt(204, rl2 - 64, "仁", 7.0, SEAL, "middle"))
-    s.append(txt(204, rl2 - 38, "义", 7.0, SEAL, "middle"))
+    s.append(txt(204, rl2 - 64, "仁", 7.4, SEAL, "middle"))
+    s.append(txt(204, rl2 - 38, "义", 7.4, SEAL, "middle"))
     s.append(f'<line x1="192" y1="{rl2 - 22}" x2="192" y2="{rl2 + 17}" stroke="{INK}" stroke-width="1.8"/>')
     s.append(f'<line x1="216" y1="{rl2 - 22}" x2="216" y2="{rl2 + 17}" stroke="{INK}" stroke-width="1.8"/>')
-    s.append(txt(204, rl2 - 96, "新立的匾", 4.4, "#8A7C69", "middle"))
+    s.append(txt(204, rl2 - 96, "新立的匾", 4.5, "#8A7C69", "middle"))
     s.append(txt(262, rl2 - 44, "匾是新的：刚立起来", 4.5, "#6E6459"))
     s.append(txt(262, rl2 - 30, "路是旧的：已经没人走", 4.5, "#6E6459"))
-    s.append(txt(190, p1 + h2 - 12, "匾长出来的地方，正是路不长的那一处", 4.4, "#8A7C69", "middle"))
+    s.append(txt(190, p1 + h2 - 12, "匾长出来的地方，正是路不长的那一处", 4.5, "#8A7C69", "middle"))
     s.append(txt(24, p1 + h2 + 13, "二、道废：路断了，才立起「仁义」这块匾", 5.0, SEAL))
 
     a = p1 + h2 + 32
@@ -4343,7 +4343,7 @@ def ch18_lu_fei_bian_li():
     c = a + 52
     s.append(f'<line x1="24" y1="{c}" x2="338" y2="{c}" stroke="{LINE}" stroke-width="0.6"/>')
     s.append(box(20, c + 8, 340, 40, fill="#F2EADA", stroke="#C9B79A"))
-    s.append(txt(190, c + 24, "大道废，有仁义；", 6.2, INK, "middle"))
+    s.append(txt(190, c + 24, "大道废，有仁义；", 6.0, INK, "middle"))
     s.append(txt(190, c + 36, "不是骂仁义，是给仁义记一笔来处。", 5.2, GREEN, "middle"))
     s.append(gold(c + 62, "ch18"))
     s.append('</svg>')
@@ -4388,12 +4388,12 @@ def ch18b_ke():
     for k, (w, hh) in enumerate(((84, 52), (110, 68))):
         s.append(box(cx - w / 2, bs2 - hh, w, hh, fill="none", stroke=INK, width=1.0))
     s.append(box(cx - 68, bs2 - 84, 136, 84, fill="none", stroke=LINE, dash="6 4", width=1.0))
-    s.append(txt(cx, bs2 - 98, "还在往上包", 4.3, "#8A7C69", "middle"))
+    s.append(txt(cx, bs2 - 98, "还在往上包", 4.5, "#8A7C69", "middle"))
     # 最外层贴签
     s.append(f'<rect x="{cx + 62}" y="{bs2 - 94}" width="40" height="16" fill="#F2EADA" stroke="{SEAL}" stroke-width="0.9"/>')
     s.append(txt(cx + 82, bs2 - 82, "道义", 4.7, SEAL, "middle"))
-    s.append(txt(cx + 62, bs2 - 104, "最外一层贴一枚签：说得最像", 4.4, "#8A7C69"))
-    s.append(txt(204, bs2 - 4, "里面还是那一只匣", 4.4, "#6E6459"))
+    s.append(txt(cx + 62, bs2 - 104, "最外一层贴一枚签：说得最像", 4.5, "#8A7C69"))
+    s.append(txt(204, bs2 - 4, "里面还是那一只匣", 4.5, "#6E6459"))
     s.append(txt(24, p1 + h2 + 13, "二、有壳：一圈圈包上去，里面那块原样越来越看不见", 5.0, SEAL))
 
     a = p1 + h2 + 32
@@ -4434,7 +4434,7 @@ def ch18c_yi_tie_yao():
         if sealed:
             s.append(f'<path d="M{bx - pw / 2 + 1},{by - 62} q{pw / 2 - 1},{7} {pw - 2},{0}" fill="none" stroke="{INK}" stroke-width="0.7"/>')
             s.append(f'<rect x="{bx - 9}" y="{by - 71}" width="18" height="12" fill="#F2EADA" stroke="{SEAL}" stroke-width="0.8"/>')
-            s.append(txt(bx, by - 62, "封", 4.3, SEAL, "middle"))
+            s.append(txt(bx, by - 62, "封", 4.5, SEAL, "middle"))
 
     # 一、未病：罐子封着，搁在架上
     p0 = y + 50
@@ -4446,8 +4446,8 @@ def ch18c_yi_tie_yao():
     s.append(f'<line x1="{cx + 46}" y1="{shelf}" x2="{cx + 46}" y2="{shelf + 18}" stroke="{INK}" stroke-width="0.9"/>')
     pot(cx, shelf, True)
     s.append(txt(cx + 62, shelf - 44, "没病：药封在罐里，不煎", 4.6, GREEN))
-    s.append(txt(cx + 62, shelf - 30, "家里不必天天讲孝", 4.4, "#6E6459"))
-    s.append(txt(cx + 62, shelf - 16, "国里没有忠臣可称", 4.4, "#6E6459"))
+    s.append(txt(cx + 62, shelf - 30, "家里不必天天讲孝", 4.5, "#6E6459"))
+    s.append(txt(cx + 62, shelf - 16, "国里没有忠臣可称", 4.5, "#6E6459"))
     s.append(txt(24, p0 + h + 13, "一、本和：药在罐里，谁也不必被称赞", 5.0, GREEN))
 
     # 二、有病：上炉，煎
@@ -4474,9 +4474,9 @@ def ch18c_yi_tie_yao():
     s.append(f'<line x1="{bx + 28}" y1="{table}" x2="{bx + 28}" y2="{table + 12}" stroke="{INK}" stroke-width="0.8"/>')
     s.append(f'<path d="M{bx - 20},{table - 1} q20,22 40,0 Z" fill="#E9F0E6" stroke="{INK}" stroke-width="1.0"/>')
     s.append(f'<ellipse cx="{bx}" cy="{table - 1}" rx="20" ry="4" fill="#E4D8BF" stroke="{INK}" stroke-width="0.9"/>')
-    s.append(txt(bx + 46, table - 58, "煎得满屋药气", 4.4, SEAL))
-    s.append(txt(bx + 46, table - 44, "人人夸这药好", 4.4, "#6E6459"))
-    s.append(txt(bx + 46, table - 30, "夸的是药，病还在", 4.4, "#6E6459"))
+    s.append(txt(bx + 46, table - 58, "煎得满屋药气", 4.5, SEAL))
+    s.append(txt(bx + 46, table - 44, "人人夸这药好", 4.5, "#6E6459"))
+    s.append(txt(bx + 46, table - 30, "夸的是药，病还在", 4.5, "#6E6459"))
     s.append(txt(24, p1 + h2 + 13, "二、有病：上了炉，才煎得出孝慈与忠臣", 5.0, SEAL))
 
     a = p1 + h2 + 32
@@ -4645,10 +4645,10 @@ def ch19_yi_gen_biao_gan():
     for k, (lab, top) in enumerate((("圣", p0 + 36), ("仁", p0 + 76), ("巧", p0 + 116))):
         s.append(f'<line x1="190" y1="{top + 10}" x2="196" y2="{top + 10}" stroke="{INK}" stroke-width="0.7"/>')
         s.append(f'<rect x="196" y="{top}" width="30" height="20" fill="#F2EADA" stroke="{INK}" stroke-width="0.9"/>')
-        s.append(txt(211, top + 14, lab, 5.4, SEAL, "middle"))
+        s.append(txt(211, top + 14, lab, 5.2, SEAL, "middle"))
     for x in (102, 126, 154):
         looker(x, g1)
-    s.append(txt(128, g1 + 14, "三人都朝杆上看，田里没人弯腰", 4.4, "#8A7C69", "middle"))
+    s.append(txt(128, g1 + 14, "三人都朝杆上看，田里没人弯腰", 4.5, "#8A7C69", "middle"))
     s.append(txt(24, p0 + h + 13, "一、名一立：有标杆就有评比，有评比就有表演", 5.0, SEAL))
 
     # 二、杆拔走，人回田里
@@ -4661,7 +4661,7 @@ def ch19_yi_gen_biao_gan():
     s.append(f'<rect x="52" y="{g2 - 24}" width="30" height="20" fill="#F2EADA" stroke="{LINE}" stroke-width="0.8"/>')
     s.append(f'<rect x="60" y="{g2 - 32}" width="30" height="20" fill="#F2EADA" stroke="{LINE}" stroke-width="0.8"/>')
     s.append(f'<rect x="68" y="{g2 - 40}" width="30" height="20" fill="#F2EADA" stroke="{LINE}" stroke-width="0.8"/>')
-    s.append(txt(83, g2 - 26, "圣 仁 巧", 4.3, "#8A7C69", "middle"))
+    s.append(txt(83, g2 - 26, "圣 仁 巧", 4.5, "#8A7C69", "middle"))
     s.append(txt(83, g2 - 48, "撤下来，叠在地上", 4.2, "#8A7C69", "middle"))
     # 土坑
     s.append(f'<ellipse cx="190" cy="{g2}" rx="8" ry="3" fill="none" stroke="#8A7C69" stroke-width="0.8" stroke-dasharray="3 2"/>')
@@ -4670,7 +4670,7 @@ def ch19_yi_gen_biao_gan():
         stalk(x, g2, 78)
     for x in (118, 262):
         bender(x, g2)
-    s.append(txt(320, p1 + 16, "同一块田", 4.3, "#8A7C69", "end"))
+    s.append(txt(320, p1 + 16, "同一块田", 4.5, "#8A7C69", "end"))
     s.append(txt(24, p1 + h2 + 13, "二、杆一拔：人回田里，民利百倍", 5.0, GREEN))
 
     a = p1 + h2 + 32
@@ -4681,7 +4681,7 @@ def ch19_yi_gen_biao_gan():
     c = a + 52
     s.append(f'<line x1="24" y1="{c}" x2="338" y2="{c}" stroke="{LINE}" stroke-width="0.6"/>')
     s.append(box(20, c + 8, 340, 40, fill="#F2EADA", stroke="#C9B79A"))
-    s.append(txt(190, c + 24, "所绝者名，所复者实。", 6.2, INK, "middle"))
+    s.append(txt(190, c + 24, "所绝者名，所复者实。", 6.0, INK, "middle"))
     s.append(txt(190, c + 36, "撤的是位置，不是东西。", 5.2, GREEN, "middle"))
     s.append(gold(c + 62, "ch19"))
     s.append('</svg>')
@@ -4836,9 +4836,9 @@ def ch19c_su_yu_pu():
     for k in range(4):
         s.append(f'<path d="M{306 + k * 9},{g1 - 1} q7,-5 11,1" fill="none" stroke="{LINE2}" stroke-width="0.9"/>')
         s.append(f'<path d="M{307 + k * 9},{g1 - 6} q6,-4 9,1" fill="none" stroke="{LINE2}" stroke-width="0.6"/>')
-    s.append(txt(84, g1 + 14, "染缸里有染液", 4.3, "#6E6459", "middle"))
-    s.append(txt(180, g1 + 14, "染过的绢：纹是外加的", 4.3, SEAL, "middle"))
-    s.append(txt(288, g1 + 14, "下过斧的器", 4.3, "#6E6459", "middle"))
+    s.append(txt(84, g1 + 14, "染缸里有染液", 4.5, "#6E6459", "middle"))
+    s.append(txt(180, g1 + 14, "染过的绢：纹是外加的", 4.5, SEAL, "middle"))
+    s.append(txt(288, g1 + 14, "下过斧的器", 4.5, "#6E6459", "middle"))
     s.append(txt(190, p0 + 20, "三处都在加：染、雕、斧斤", 4.6, "#6E6459", "middle"))
     s.append(txt(24, p0 + h + 13, "一、文饰之后：一处是染的，一处是下过斧的", 5.0, SEAL))
 
@@ -4851,9 +4851,9 @@ def ch19c_su_yu_pu():
     silk(g2, False)
     wood(g2, False)
 
-    s.append(txt(84, g2 + 14, "染缸空着", 4.3, "#8A7C69", "middle"))
-    s.append(txt(180, g2 + 14, "素：未染，本就是那个色", 4.3, GREEN, "middle"))
-    s.append(txt(288, g2 + 14, "朴：未下斧，带着皮", 4.3, GREEN, "middle"))
+    s.append(txt(84, g2 + 14, "染缸空着", 4.5, "#8A7C69", "middle"))
+    s.append(txt(180, g2 + 14, "素：未染，本就是那个色", 4.5, GREEN, "middle"))
+    s.append(txt(288, g2 + 14, "朴：未下斧，带着皮", 4.5, GREEN, "middle"))
     s.append(txt(190, p1 + 20, "还是那三样：一件没多，只是没再加工", 4.6, "#6E6459", "middle"))
     s.append(txt(24, p1 + h2 + 13, "二、素与朴：丝回到本色，木回到原本", 5.0, GREEN))
 
@@ -4865,7 +4865,7 @@ def ch19c_su_yu_pu():
     c = a + 52
     s.append(f'<line x1="24" y1="{c}" x2="338" y2="{c}" stroke="{LINE}" stroke-width="0.6"/>')
     s.append(box(20, c + 8, 340, 40, fill="#F2EADA", stroke="#C9B79A"))
-    s.append(txt(190, c + 24, "见素抱朴，少私寡欲。", 6.2, INK, "middle"))
+    s.append(txt(190, c + 24, "见素抱朴，少私寡欲。", 6.0, INK, "middle"))
     s.append(txt(190, c + 36, "不染不雕，不必靠外加的东西证明自己。", 5.1, GREEN, "middle"))
     s.append(gold(c + 62, "ch19c"))
     s.append('</svg>')
@@ -5067,7 +5067,7 @@ def ch20_yi_ba_chi_de_liang_mian():
     s.append(f'<line x1="72" y1="{ruler_y + 24}" x2="308" y2="{ruler_y + 24}" stroke="#8A7C69" stroke-width="0.7" stroke-dasharray="4 3"/>')
     s.append(arrow(80, ruler_y + 24, 296, ruler_y + 24, "#8A7C69", 0.7, None, "arr"))
     s.append(arrow(300, ruler_y + 24, 88, ruler_y + 24, "#8A7C69", 0.7, None, "arrL"))
-    s.append(txt(190, p0 + h - 10, "相去几何：这一面上，两端被量成了一段距离", 4.4, "#8A7C69", "middle"))
+    s.append(txt(190, p0 + h - 10, "相去几何：这一面上，两端被量成了一段距离", 4.5, "#8A7C69", "middle"))
     s.append(txt(24, p0 + h + 13, "一、有刻度的一面：两端离得很远，还要问「几 何」", 5.0, SEAL))
 
     # 二、翻过来的一面
@@ -5081,10 +5081,10 @@ def ch20_yi_ba_chi_de_liang_mian():
     s.append(f'<path d="M52,{ry2 - 26} q-14,10 0,22" fill="none" stroke="#8A7C69" stroke-width="0.7"/>')
     s.append(arrow(52, ry2 - 26, 56, ry2 - 30, "#8A7C69", 0.7, None, "arr"))
     s.append(f'<rect x="172" y="{ry2 - 40}" width="30" height="20" fill="#F2EADA" stroke="{INK}" stroke-width="0.9"/>')
-    s.append(txt(187, ry2 - 26, "阿", 5.4, SEAL, "middle"))
+    s.append(txt(187, ry2 - 26, "阿", 5.2, SEAL, "middle"))
     s.append(f'<rect x="160" y="{ry2 - 22}" width="30" height="22" fill="#F2EADA" stroke="{INK}" stroke-width="0.9"/>')
-    s.append(txt(175, ry2 - 7, "唯", 5.4, SEAL, "middle"))
-    s.append(txt(190, p1 + h2 - 10, "翻过来：没有刻度，两端并在一处——只是一声应答", 4.4, "#8A7C69", "middle"))
+    s.append(txt(175, ry2 - 7, "唯", 5.2, SEAL, "middle"))
+    s.append(txt(190, p1 + h2 - 10, "翻过来：没有刻度，两端并在一处——只是一声应答", 4.5, "#8A7C69", "middle"))
     s.append(txt(24, p1 + h2 + 13, "二、翻过来的一面：两块牌并在一处", 5.0, GREEN))
 
     a = p1 + h2 + 32
@@ -5095,7 +5095,7 @@ def ch20_yi_ba_chi_de_liang_mian():
     c = a + 52
     s.append(f'<line x1="24" y1="{c}" x2="338" y2="{c}" stroke="{LINE}" stroke-width="0.6"/>')
     s.append(box(20, c + 8, 340, 40, fill="#F2EADA", stroke="#C9B79A"))
-    s.append(txt(190, c + 24, "唯之与阿，相去几何。", 6.2, INK, "middle"))
+    s.append(txt(190, c + 24, "唯之与阿，相去几何。", 6.0, INK, "middle"))
     s.append(txt(190, c + 36, "尺子定的，不是事定的。", 5.2, GREEN, "middle"))
     s.append(gold(c + 62, "ch20"))
     s.append('</svg>')
@@ -5151,7 +5151,7 @@ def ch20b_yan_yu_jiao_luo():
     for x in (100, 166, 232, 296):
         dish(x, g1)
     s.append(txt(190, p0 + 26, "案上摆满了，人人手上都有杯", 4.5, "#6E6459", "middle"))
-    s.append(txt(190, p0 + h - 10, "熙熙：热闹有个尽头，散席之后各自回家", 4.4, "#8A7C69", "middle"))
+    s.append(txt(190, p0 + h - 10, "熙熙：热闹有个尽头，散席之后各自回家", 4.5, "#8A7C69", "middle"))
     s.append(txt(24, p0 + h + 13, "一、熙熙：都挤在案后，谁也没有落后", 5.0, SEAL))
 
     # 二、角落
@@ -5165,14 +5165,14 @@ def ch20b_yan_yu_jiao_luo():
     table(g2, 226, 340, faint=True)
     for x in (262, 310):
         dish(x, g2, faint=True)
-    s.append(txt(282, p1 + 26, "那头还是那场宴", 4.4, "#8A7C69", "middle"))
+    s.append(txt(282, p1 + 26, "那头还是那场宴", 4.5, "#8A7C69", "middle"))
     # 这一头：一个人，手空着
     s.append(f'<line x1="40" y1="{g2}" x2="176" y2="{g2}" stroke="{INK}" stroke-width="1.2"/>')
     figure(96, g2, cup=False)
     s.append(f'<circle cx="122" cy="{g2 - 40}" r="8" fill="none" stroke="{LINE}" stroke-width="0.7" stroke-dasharray="2 2"/>')
     s.append(txt(122, g2 - 50, "还没起", 4.2, "#8A7C69", "middle"))
-    s.append(txt(60, g2 - 66, "手空着，脚下一小块空地", 4.3, "#6E6459"))
-    s.append(txt(190, p1 + h2 - 10, "别人看他没站处，他自己知道站在哪儿", 4.4, "#8A7C69", "middle"))
+    s.append(txt(60, g2 - 66, "手空着，脚下一小块空地", 4.5, "#6E6459"))
+    s.append(txt(190, p1 + h2 - 10, "别人看他没站处，他自己知道站在哪儿", 4.5, "#8A7C69", "middle"))
     s.append(txt(24, p1 + h2 + 13, "二、独泊：手还空着，欲还没起", 5.0, GREEN))
 
     a = p1 + h2 + 32
@@ -5241,9 +5241,9 @@ def ch20c_ju_deng_zhao_ren():
     s.append(f'<path d="M{lx},{ly} L{tx - 12},{ty - 8}" fill="none" stroke="{LINE}" stroke-width="0.6"/>')
     s.append(f'<path d="M{lx},{ly} L{tx + 10},{ty + 16}" fill="none" stroke="{LINE}" stroke-width="0.6"/>')
     stand(tx, g1, "guard")
-    s.append(txt(250, g1 - 62, "抬手挡了一下", 4.3, "#6E6459", "middle"))
+    s.append(txt(250, g1 - 62, "抬手挡了一下", 4.5, "#6E6459", "middle"))
     s.append(txt(190, p0 + 24, "灯举在手上，光落在别人脸上", 4.5, "#6E6459", "middle"))
-    s.append(txt(190, p0 + h - 10, "昭昭：处处显明自己是对的；察察：照人、挑人", 4.4, "#8A7C69", "middle"))
+    s.append(txt(190, p0 + h - 10, "昭昭：处处显明自己是对的；察察：照人、挑人", 4.5, "#8A7C69", "middle"))
     s.append(txt(24, p0 + h + 13, "一、举灯：光照在别人脸上", 5.0, SEAL))
 
     # 二、灯搁在地上
@@ -5255,9 +5255,9 @@ def ch20c_ju_deng_zhao_ren():
     s.append(f'<ellipse cx="104" cy="{g2}" rx="26" ry="6" fill="#F2EADA" stroke="none" opacity="0.7"/>')
     stand(176, g2)
     stand(222, g2)
-    s.append(txt(104, g2 + 16, "灯搁在地上，只照亮脚下一小块", 4.3, "#6E6459", "middle"))
+    s.append(txt(104, g2 + 16, "灯搁在地上，只照亮脚下一小块", 4.5, "#6E6459", "middle"))
     s.append(txt(190, p1 + 24, "灯还是那盏灯，只是不举了", 4.5, "#6E6459", "middle"))
-    s.append(txt(190, p1 + h2 - 10, "没有人再被光照着", 4.4, "#8A7C69", "middle"))
+    s.append(txt(190, p1 + h2 - 10, "没有人再被光照着", 4.5, "#8A7C69", "middle"))
     s.append(txt(24, p1 + h2 + 13, "二、搁下：不再有人被光照着", 5.0, GREEN))
 
     a = p1 + h2 + 32
@@ -5268,8 +5268,8 @@ def ch20c_ju_deng_zhao_ren():
     c = a + 52
     s.append(f'<line x1="24" y1="{c}" x2="338" y2="{c}" stroke="{LINE}" stroke-width="0.6"/>')
     s.append(box(20, c + 8, 340, 40, fill="#F2EADA", stroke="#C9B79A"))
-    s.append(txt(190, c + 24, "昭昭者怕人看不见自己对，", 5.4, INK, "middle"))
-    s.append(txt(190, c + 36, "昏昏者不怕人看错自己。", 5.4, GREEN, "middle"))
+    s.append(txt(190, c + 24, "昭昭者怕人看不见自己对，", 5.2, INK, "middle"))
+    s.append(txt(190, c + 36, "昏昏者不怕人看错自己。", 5.2, GREEN, "middle"))
     s.append(gold(c + 62, "ch20c"))
     s.append('</svg>')
     out = chr(10).join(s)
@@ -5634,11 +5634,11 @@ def ch21b_tan_yu_yue():
     s.append(f'<circle cx="194" cy="{p1 + 179}" r="10" fill="none" stroke="#E7D9B8" stroke-width="0.9" opacity="0.75"/>')
     # 精：最深处剩下的一点
     s.append(f'<line x1="92" y1="{p1 + 126}" x2="180" y2="{p1 + 172}" stroke="{LINE}" stroke-width="0.6" opacity="0.85"/>')
-    s.append(txt(64, p1 + 104, "精", 6.4, SEAL, "middle"))
+    s.append(txt(64, p1 + 104, "精", 6.0, SEAL, "middle"))
     s.append(txt(64, p1 + 118, "最深处", 3.6, "#6E6459", "middle"))
     s.append(txt(64, p1 + 128, "剩下的一点", 3.6, "#6E6459", "middle"))
     # 信：三枚月相，十五必圆
-    s.append(txt(308, p1 + 56, "信", 6.4, GREEN, "middle"))
+    s.append(txt(308, p1 + 56, "信", 6.0, GREEN, "middle"))
     s.append(txt(308, p1 + 70, "每月必来", 3.5, "#6E6459", "middle"))
     s.append(txt(308, p1 + 80, "一圆，不失期", 3.5, "#6E6459", "middle"))
     for (mx, mode) in [(238, "cres"), (256, "full"), (274, "wan")]:
@@ -5650,7 +5650,7 @@ def ch21b_tan_yu_yue():
         else:
             s.append(f'<path d="M{mx},{p1 + 65.6} a5.4,5.4 0 0 0 0,8.8 Z" fill="#F6E9C9" stroke="none"/>')
     # 真：那点光不是画上去的
-    s.append(txt(298, p1 + 128, "真", 6.4, GREEN, "middle"))
+    s.append(txt(298, p1 + 128, "真", 6.0, GREEN, "middle"))
     s.append(txt(298, p1 + 142, "那点光不是画上去的：", 3.5, "#6E6459", "middle"))
     s.append(txt(298, p1 + 152, "它亮在一块石头上", 3.5, "#6E6459", "middle"))
     s.append(f'<line x1="272" y1="{p1 + 158}" x2="214" y2="{p1 + 172}" stroke="{LINE}" stroke-width="0.6" opacity="0.85"/>')
@@ -5665,7 +5665,7 @@ def ch21b_tan_yu_yue():
     c = a + 52
     s.append(f'<line x1="24" y1="{c}" x2="338" y2="{c}" stroke="{LINE}" stroke-width="0.6"/>')
     s.append(box(20, c + 8, 340, 40, fill="#F2EADA", stroke="#C9B79A"))
-    s.append(txt(190, c + 24, "看不见的东西，不等于靠不住的东西。", 5.4, INK, "middle"))
+    s.append(txt(190, c + 24, "看不见的东西，不等于靠不住的东西。", 5.2, INK, "middle"))
     s.append(txt(190, c + 36, "恍惚不是道的属性，是道与抓取相遇时的样子。", 4.7, GREEN, "middle"))
     s.append(gold(c + 62, "ch21b"))
     s.append('</svg>')
@@ -5693,7 +5693,7 @@ def ch21c_lu_shang_de_jie_shi():
     # 三块界石：今、中、古
     for (bx, by, word) in [(84, p0 + 156, "今"), (150, p0 + 118, "中"), (216, p0 + 80, "古")]:
         s.append(f'<rect x="{bx - 10}" y="{by - 22}" width="20" height="26" rx="3" fill="#E4D8BF" stroke="{INK}" stroke-width="0.9"/>')
-        s.append(txt(bx, by - 4, word, 5.4, INK, "middle"))
+        s.append(txt(bx, by - 4, word, 5.2, INK, "middle"))
     # 一块一块都朝同一个方向
     s.append(f'<line x1="104" y1="{p0 + 164}" x2="234" y2="{p0 + 88}" stroke="{GREEN}" stroke-width="0.9" stroke-dasharray="3 3" opacity="0.85"/>')
     s.append(f'<path d="M234,{p0 + 88} L226,{p0 + 89} M234,{p0 + 88} L231,{p0 + 96}" fill="none" stroke="{GREEN}" stroke-width="0.9"/>')
@@ -6171,7 +6171,7 @@ def ch66a_yi_tiao_shui_lu():
     s.append(f'<circle cx="58" cy="{gy + 26}" r="3.4" fill="none" stroke="{GREEN}" stroke-width="1.1"/>')
     for k in range(3):
         s.append(f'<line x1="{52 + k * 5}" y1="{gy + 14}" x2="{52 + k * 5}" y2="{gy + 7}" stroke="{GREEN}" stroke-width="0.8"/>')
-    s.append(txt(76, gy + 16, "泉", 4.4, GREEN))
+    s.append(txt(76, gy + 16, "泉", 4.5, GREEN))
     # 水路：贴着地面往下走
     s.append(f'<path d="M62,{gy + 23} Q78,{gy + 20} 92,{gy + 21} L150,{gy + 57} L232,{gy + 90} L318,{gy + 90}" '
              f'fill="none" stroke="{GREEN}" stroke-width="1.6"/>')
@@ -6179,7 +6179,7 @@ def ch66a_yi_tiao_shui_lu():
     # 川
     s.append(f'<path d="M236,{gy + 94} L354,{gy + 94} L354,{gy + 104} L236,{gy + 104} Z" fill="{GREEN}" opacity="0.18" stroke="none"/>')
     s.append(txt(330, gy + 88, "川", 5.2, GREEN, "middle"))
-    s.append(txt(126, gy + 34, "谷：水走的那一段", 4.4, SEAL))
+    s.append(txt(126, gy + 34, "谷：水走的那一段", 4.5, SEAL))
     s.append(f'<line x1="168" y1="{gy + 38}" x2="150" y2="{gy + 56}" stroke="{SEAL}" stroke-width="0.6" stroke-dasharray="2 2"/>')
     s.append(txt(190, gy + 118, "谷不是两山夹出的凹：是水往下走的那一段路", 5.2, "#6E6459", "middle"))
 
@@ -6194,7 +6194,7 @@ def ch66a_yi_tiao_shui_lu():
     s.append(txt(190, gy2 + 104, "江 海", 5.2, GREEN, "middle", spacing="3"))
     s.append(txt(190, gy2 + 40, "百 谷", 4.8, "#6E6459", "middle", spacing="2"))
     s.append(arrow(190, gy2 + 58, 190, gy2 + 74, GREEN, 1.0, head="arr2"))
-    s.append(txt(190, gy2 + 52, "王：天下所归往", 4.4, SEAL, "middle"))
+    s.append(txt(190, gy2 + 52, "王：天下所归往", 4.5, SEAL, "middle"))
     s.append(txt(190, gy2 + 140, "海不以大名，以纳百川：低处的好处，在所有的水都往这儿走", 5.2, "#6E6459", "middle"))
 
     a = gy2 + 158
@@ -6205,7 +6205,7 @@ def ch66a_yi_tiao_shui_lu():
     c = a + 52
     s.append(f'<line x1="24" y1="{c}" x2="338" y2="{c}" stroke="{LINE}" stroke-width="0.6"/>')
     s.append(box(20, c + 8, 340, 40, fill="#F2EADA", stroke="#C9B79A"))
-    s.append(txt(190, c + 23, "谷不是山的凹，是水的路；", 5.4, INK, "middle"))
+    s.append(txt(190, c + 23, "谷不是山的凹，是水的路；", 5.2, INK, "middle"))
     s.append(txt(190, c + 36, "不是谷招水，是水自己往低处走。", 5.0, GREEN, "middle"))
     s.append(gold(c + 62, "ch66a"))
     s.append('</svg>')
@@ -6241,7 +6241,7 @@ def ch66b_yi_zhi_kou_dai():
     for k in range(3):
         xx = 158 + k * 5
         s.append(arrow(xx, gy + 36, xx, gy + 50, SEAL, 0.9, head="arrS"))
-    s.append(txt(120, gy + 138, "东：两头扎起的囊橐", 4.4, SEAL, "middle"))
+    s.append(txt(120, gy + 138, "东：两头扎起的囊橐", 4.5, SEAL, "middle"))
     # 右：加的东西
     labs = ["赋税", "劳役", "仪仗"]
     for i, lb in enumerate(labs):
@@ -6267,7 +6267,7 @@ def ch66b_yi_zhi_kou_dai():
              f'Q254,{gy2 + 122} 256,{gy2 + 108} Q258,{gy2 + 94} 248,{gy2 + 92} Z" fill="#EFE6D4" stroke="{INK}" stroke-width="1" stroke-dasharray="2 2"/>')
     s.append(f'<circle cx="242" cy="{gy2 + 89}" r="4.2" fill="none" stroke="{INK}" stroke-width="0.8" stroke-dasharray="2 2"/>')
     s.append(f'<circle cx="242" cy="{gy2 + 125}" r="4.2" fill="none" stroke="{INK}" stroke-width="0.8" stroke-dasharray="2 2"/>')
-    s.append(txt(306, gy2 + 112, "口袋放在地上", 4.4, GREEN, "middle"))
+    s.append(txt(306, gy2 + 112, "口袋放在地上", 4.5, GREEN, "middle"))
     s.append(f'<circle cx="176" cy="{gy2 + 66}" r="13" fill="none" stroke="{GREEN}" stroke-width="0.9" opacity="0.7"/>')
     s.append(txt(176, gy2 + 68, "背空", 4.2, GREEN, "middle"))
     s.append(txt(190, gy2 + 154, "民不重：背上不多一个口袋", 4.6, GREEN, "middle"))
@@ -6320,8 +6320,8 @@ def ch66c_yi_kou_qi():
     for k in range(3):
         xx = 164 + k * 20
         s.append(arrow(xx, gy + 46, xx, gy + 62, SEAL, 1.0, head="arrS"))
-    s.append(txt(176, gy + 79, "饱", 4.4, SEAL, "middle"))
-    s.append(txt(104, gy + 58, "压", 4.4, SEAL, "middle"))
+    s.append(txt(176, gy + 79, "饱", 4.5, SEAL, "middle"))
+    s.append(txt(104, gy + 58, "压", 4.5, SEAL, "middle"))
     s.append(txt(190, gy + 140, "又撑又压，动弹不得：连话都不想说", 4.6, SEAL, "middle"))
 
     s.append(txt(24, y + 234, "二、出到崖外：那口气还喘得动", 4.8, GREEN))
@@ -6337,15 +6337,15 @@ def ch66c_yi_kou_qi():
     # 一口气：从嘴出来，往上散
     s.append(f'<path d="M204,{gy2 + 60} Q224,{gy2 + 52} 240,{gy2 + 44} Q258,{gy2 + 36} 276,{gy2 + 38}" fill="none" stroke="{GREEN}" stroke-width="1.0"/>')
     s.append(f'<path d="M206,{gy2 + 64} Q226,{gy2 + 62} 246,{gy2 + 56} Q264,{gy2 + 50} 282,{gy2 + 52}" fill="none" stroke="{GREEN}" stroke-width="0.8" opacity="0.7"/>')
-    s.append(txt(290, gy2 + 36, "一口气", 4.4, GREEN, "middle"))
+    s.append(txt(290, gy2 + 36, "一口气", 4.5, GREEN, "middle"))
     for k in range(3):
         s.append(f'<circle cx="{286 + k * 7}" cy="{gy2 + 50 + k * 3}" r="1.3" fill="{GREEN}" stroke="none" opacity="0.7"/>')
     # 推：几只手往上送
     for k in range(3):
         xx = 96 + k * 0
         pass
-    s.append(txt(56, gy2 + 44, "乐推：不是被挤上去", 4.3, GREEN))
-    s.append(txt(56, gy2 + 54, "是自己愿意送他上去", 4.3, GREEN))
+    s.append(txt(56, gy2 + 44, "乐推：不是被挤上去", 4.5, GREEN))
+    s.append(txt(56, gy2 + 54, "是自己愿意送他上去", 4.5, GREEN))
     s.append(txt(190, gy2 + 150, "不厌：不觉得他压得慌，气还喘得动", 4.6, GREEN, "middle"))
 
     a = gy2 + 170
@@ -6356,7 +6356,7 @@ def ch66c_yi_kou_qi():
     c = a + 50
     s.append(f'<line x1="24" y1="{c}" x2="338" y2="{c}" stroke="{LINE}" stroke-width="0.6"/>')
     s.append(box(20, c + 8, 340, 40, fill="#F2EADA", stroke="#C9B79A"))
-    s.append(txt(190, c + 23, "厭从厂从猒，饱兽压崖；", 5.4, INK, "middle"))
+    s.append(txt(190, c + 23, "厭从厂从猒，饱兽压崖；", 5.2, INK, "middle"))
     s.append(txt(190, c + 36, "非嫌其人也，乃觉其沉。", 4.9, GREEN, "middle"))
     s.append(gold(c + 62, "ch66c"))
     s.append('</svg>')
@@ -6405,7 +6405,7 @@ def ch67a_yi_cong_cao():
             s.append(f'<path d="M{px + k},{gy2 + 104} Q{px + k + 3},{gy2 + 74} {px + k - 2},{gy2 + 52 + abs(k) * 2}" '
                      f'fill="none" stroke="{GREEN}" stroke-width="1.1" opacity="{0.85 if px == 190 else 0.45}"/>')
     s.append(f'<circle cx="190" cy="{gy2 + 80}" r="34" fill="none" stroke="{SEAL}" stroke-width="1" stroke-dasharray="3 3"/>')
-    s.append(txt(190, gy2 + 40, "圈住这一棵", 4.4, SEAL, "middle"))
+    s.append(txt(190, gy2 + 40, "圈住这一棵", 4.5, SEAL, "middle"))
     s.append(txt(100, gy2 + 120, "其余在外", 4.2, "#A89577", "middle"))
     s.append(txt(280, gy2 + 120, "其余在外", 4.2, "#A89577", "middle"))
     s.append(txt(190, gy2 + 148, "爱护一棵，护不住就拼命；慈护一片，护的时候极稳", 4.6, "#6E6459", "middle"))
@@ -6418,7 +6418,7 @@ def ch67a_yi_cong_cao():
     c = a + 50
     s.append(f'<line x1="24" y1="{c}" x2="338" y2="{c}" stroke="{LINE}" stroke-width="0.6"/>')
     s.append(box(20, c + 8, 340, 40, fill="#F2EADA", stroke="#C9B79A"))
-    s.append(txt(190, c + 23, "慈从心兹，兹者草木多益；", 5.4, INK, "middle"))
+    s.append(txt(190, c + 23, "慈从心兹，兹者草木多益；", 5.2, INK, "middle"))
     s.append(txt(190, c + 36, "心中自有草长，不问其落于何处。", 4.9, GREEN, "middle"))
     s.append(gold(c + 62, "ch67a"))
     s.append('</svg>')
@@ -6461,10 +6461,10 @@ def ch67b_yi_shu_sheng():
     for k in range(3):
         xx = 96 + k * 32
         s.append(f'<rect x="{xx}" y="{gy2 + 42}" width="7" height="38" rx="2" fill="none" stroke="{SEAL}" stroke-width="1.2"/>')
-    s.append(txt(90, gy2 + 96, "绳缠束：约", 4.4, SEAL))
+    s.append(txt(90, gy2 + 96, "绳缠束：约", 4.5, SEAL))
     # 推得很远
     s.append(arrow(210, gy2 + 64, 320, gy2 + 64, GREEN, 1.2, head="arr2"))
-    s.append(txt(316, gy2 + 52, "推千里", 4.4, GREEN, "end"))
+    s.append(txt(316, gy2 + 52, "推千里", 4.5, GREEN, "end"))
     s.append(txt(190, gy2 + 148, "收得越紧，铺得越开：广不是多，是有余地", 4.6, GREEN, "middle"))
 
     a = gy2 + 166
@@ -6475,7 +6475,7 @@ def ch67b_yi_shu_sheng():
     c = a + 50
     s.append(f'<line x1="24" y1="{c}" x2="338" y2="{c}" stroke="{LINE}" stroke-width="0.6"/>')
     s.append(box(20, c + 8, 340, 40, fill="#F2EADA", stroke="#C9B79A"))
-    s.append(txt(190, c + 23, "俭者约也，约者绳缠束；", 5.4, INK, "middle"))
+    s.append(txt(190, c + 23, "俭者约也，约者绳缠束；", 5.2, INK, "middle"))
     s.append(txt(190, c + 36, "收十处为一束，一束可推千里。", 4.9, GREEN, "middle"))
     s.append(gold(c + 62, "ch67b"))
     s.append('</svg>')
@@ -6543,7 +6543,7 @@ def ch67c_yi_quan_qiang():
     c = a + 50
     s.append(f'<line x1="24" y1="{c}" x2="338" y2="{c}" stroke="{LINE}" stroke-width="0.6"/>')
     s.append(box(20, c + 8, 340, 40, fill="#F2EADA", stroke="#C9B79A"))
-    s.append(txt(190, c + 23, "慈是围墙，不是盾牌；", 5.4, INK, "middle"))
+    s.append(txt(190, c + 23, "慈是围墙，不是盾牌；", 5.2, INK, "middle"))
     s.append(txt(190, c + 36, "盾挡一面，墙围一圈。", 4.9, GREEN, "middle"))
     s.append(gold(c + 62, "ch67c"))
     s.append('</svg>')
@@ -6580,7 +6580,7 @@ def ch68a_yi_zhi_jiao():
     s.append(txt(176, gy + 136, "脚", 5.0, SEAL))
     # 停住的那条界
     s.append(f'<line x1="222" y1="{gy + 96}" x2="222" y2="{gy + 128}" stroke="{SEAL}" stroke-width="0.8" stroke-dasharray="3 3"/>')
-    s.append(txt(222, gy + 92, "停", 4.4, SEAL, "middle"))
+    s.append(txt(222, gy + 92, "停", 4.5, SEAL, "middle"))
     s.append(f'<line x1="40" y1="{gy + 126}" x2="340" y2="{gy + 126}" stroke="{INK}" stroke-width="1"/>')
     s.append(txt(190, gy + 156, "不是没有戈，是脚不动：趾尖离柲一寸，停在那儿", 4.6, SEAL, "middle"))
 
@@ -6611,7 +6611,7 @@ def ch68a_yi_zhi_jiao():
     c = a + 50
     s.append(f'<line x1="24" y1="{c}" x2="338" y2="{c}" stroke="{LINE}" stroke-width="0.6"/>')
     s.append(box(20, c + 8, 340, 40, fill="#F2EADA", stroke="#C9B79A"))
-    s.append(txt(190, c + 23, "武从止从戈，止者足也；", 5.4, INK, "middle"))
+    s.append(txt(190, c + 23, "武从止从戈，止者足也；", 5.2, INK, "middle"))
     s.append(txt(190, c + 36, "非扔其戈，乃停其足。", 4.9, GREEN, "middle"))
     s.append(gold(c + 62, "ch68a"))
     s.append('</svg>')
@@ -6645,8 +6645,8 @@ def ch68b_yi_dao_feng():
         s.append(f'<path d="M242,{yy + 2} q-6,-6 -14,0 q-4,4 0,8 q8,5 14,0 Z" fill="#EFE6D4" stroke="{INK}" stroke-width="0.9"/>')
         for k in range(3):
             s.append(f'<line x1="{242 - k * 1}" y1="{yy - 2 + k * 3}" x2="{236 - k * 1}" y2="{yy - 3 + k * 3}" stroke="{INK}" stroke-width="0.8"/>')
-    s.append(txt(96, gy + 40, "我们", 4.4, "#6E6459", "middle"))
-    s.append(txt(284, gy + 40, "他们", 4.4, "#6E6459", "middle"))
+    s.append(txt(96, gy + 40, "我们", 4.5, "#6E6459", "middle"))
+    s.append(txt(284, gy + 40, "他们", 4.5, "#6E6459", "middle"))
     s.append(txt(190, gy + 156, "四手抬一物：两边成了一对，中间没有缝", 4.6, SEAL, "middle"))
 
     s.append(txt(24, y + 244, "二、手收回来：缝留着，两边才还是两边", 4.8, GREEN))
@@ -6662,8 +6662,8 @@ def ch68b_yi_dao_feng():
         s.append(f'<line x1="320" y1="{yy + 10}" x2="264" y2="{yy + 2}" stroke="{INK}" stroke-width="1.2"/>')
         s.append(f'<ellipse cx="256" cy="{yy + 1}" rx="8" ry="5" fill="none" stroke="{INK}" stroke-width="0.9" stroke-dasharray="2 2"/>')
     s.append(txt(190, gy2 + 124, "缝", 4.6, SEAL, "middle"))
-    s.append(txt(96, gy2 + 40, "我们", 4.4, "#6E6459", "middle"))
-    s.append(txt(284, gy2 + 40, "他们", 4.4, "#6E6459", "middle"))
+    s.append(txt(96, gy2 + 40, "我们", 4.5, "#6E6459", "middle"))
+    s.append(txt(284, gy2 + 40, "他们", 4.5, "#6E6459", "middle"))
     s.append(txt(190, gy2 + 156, "手停在半路，缝里没有东西：谁也拽不进谁", 4.6, GREEN, "middle"))
 
     a = gy2 + 174
@@ -6674,7 +6674,7 @@ def ch68b_yi_dao_feng():
     c = a + 50
     s.append(f'<line x1="24" y1="{c}" x2="338" y2="{c}" stroke="{LINE}" stroke-width="0.6"/>')
     s.append(box(20, c + 8, 340, 40, fill="#F2EADA", stroke="#C9B79A"))
-    s.append(txt(190, c + 23, "与者党与，四手抬一物；", 5.4, INK, "middle"))
+    s.append(txt(190, c + 23, "与者党与，四手抬一物；", 5.2, INK, "middle"))
     s.append(txt(190, c + 36, "缝留着，两边才还是两边。", 4.9, GREEN, "middle"))
     s.append(gold(c + 62, "ch68b"))
     s.append('</svg>')
@@ -6702,11 +6702,11 @@ def ch68c_yi_gen_jin():
     s.append(f'<path d="M104,{gy + 40} Q136,{gy + 52} 150,{gy + 62}" fill="none" stroke="{SEAL}" stroke-width="1.3"/>')
     s.append(f'<path d="M104,{gy + 114} Q136,{gy + 100} 150,{gy + 88}" fill="none" stroke="{SEAL}" stroke-width="1.3"/>')
     s.append(f'<line x1="152" y1="{gy + 58}" x2="152" y2="{gy + 92}" stroke="{SEAL}" stroke-width="0.8" stroke-dasharray="3 3"/>')
-    s.append(txt(160, gy + 78, "断", 4.4, SEAL))
-    s.append(txt(60, gy + 40, "骨", 4.4, "#6E6459", "end"))
-    s.append(txt(60, gy + 114, "骨", 4.4, "#6E6459", "end"))
-    s.append(txt(230, gy + 46, "一人站高", 4.4, "#6E6459"))
-    s.append(txt(230, gy + 112, "一人站低", 4.4, "#6E6459"))
+    s.append(txt(160, gy + 78, "断", 4.5, SEAL))
+    s.append(txt(60, gy + 40, "骨", 4.5, "#6E6459", "end"))
+    s.append(txt(60, gy + 114, "骨", 4.5, "#6E6459", "end"))
+    s.append(txt(230, gy + 46, "一人站高", 4.5, "#6E6459"))
+    s.append(txt(230, gy + 112, "一人站低", 4.5, "#6E6459"))
     s.append(arrow(300, gy + 60, 300, gy + 96, "#B9A98F", 1.0))
     s.append(txt(190, gy + 156, "高低差着，筋搭不上：各使各的劲，谁也不传", 4.6, SEAL, "middle"))
 
@@ -6723,7 +6723,7 @@ def ch68c_yi_gen_jin():
     # 支点在下面
     s.append(f'<path d="M172,{gy2 + 108} L190,{gy2 + 74} L208,{gy2 + 108} Z" fill="none" stroke="{INK}" stroke-width="1"/>')
     s.append(f'<line x1="164" y1="{gy2 + 108}" x2="216" y2="{gy2 + 108}" stroke="{INK}" stroke-width="1"/>')
-    s.append(txt(190, gy2 + 124, "为之下：支点在下面", 4.4, GREEN, "middle"))
+    s.append(txt(190, gy2 + 124, "为之下：支点在下面", 4.5, GREEN, "middle"))
     # 劲两头传开
     s.append(arrow(190, gy2 + 64, 96, gy2 + 64, GREEN, 1.0, head="arrL"))
     s.append(arrow(190, gy2 + 64, 284, gy2 + 64, GREEN, 1.0, head="arr2"))
@@ -6738,7 +6738,7 @@ def ch68c_yi_gen_jin():
     c = a + 50
     s.append(f'<line x1="24" y1="{c}" x2="338" y2="{c}" stroke="{LINE}" stroke-width="0.6"/>')
     s.append(box(20, c + 8, 340, 40, fill="#F2EADA", stroke="#C9B79A"))
-    s.append(txt(190, c + 23, "力者，筋也；筋不使劲，筋是连。", 5.4, INK, "middle"))
+    s.append(txt(190, c + 23, "力者，筋也；筋不使劲，筋是连。", 5.2, INK, "middle"))
     s.append(txt(190, c + 36, "连上了，劲自然传过去。", 4.9, GREEN, "middle"))
     s.append(gold(c + 62, "ch68c"))
     s.append('</svg>')
@@ -6810,7 +6810,7 @@ def ch69a_yi_zhan_deng():
     c = a + 50
     s.append(f'<line x1="24" y1="{c}" x2="338" y2="{c}" stroke="{LINE}" stroke-width="0.6"/>')
     s.append(box(20, c + 8, 340, 40, fill="#F2EADA", stroke="#C9B79A"))
-    s.append(txt(190, c + 23, "主者，灯中一火，众物绕之；", 5.4, INK, "middle"))
+    s.append(txt(190, c + 23, "主者，灯中一火，众物绕之；", 5.2, INK, "middle"))
     s.append(txt(190, c + 36, "客者，寄也，宿于人家之屋。", 4.9, GREEN, "middle"))
     s.append(gold(c + 62, "ch69a"))
     s.append('</svg>')
@@ -6850,9 +6850,9 @@ def ch69b_yi_shuang_jiao():
     # 脚下空
     s.append(f'<line x1="212" y1="{gy + 84}" x2="212" y2="{gy + 126}" stroke="{SEAL}" stroke-width="0.7" stroke-dasharray="2 2"/>')
     s.append(f'<line x1="230" y1="{gy + 86}" x2="230" y2="{gy + 126}" stroke="{SEAL}" stroke-width="0.7" stroke-dasharray="2 2"/>')
-    s.append(txt(221, gy + 110, "虚", 4.4, SEAL, "middle"))
+    s.append(txt(221, gy + 110, "虚", 4.5, SEAL, "middle"))
     s.append(arrow(258, gy + 118, 238, gy + 88, SEAL, 0.9, head="arrS"))
-    s.append(txt(262, gy + 122, "举趾高", 4.4, SEAL))
+    s.append(txt(262, gy + 122, "举趾高", 4.5, SEAL))
     s.append(txt(190, gy + 162, "趾离地一寸，整只脚就没了根：心也跟着浮起来", 4.6, SEAL, "middle"))
 
     s.append(txt(24, y + 266, "二、脚放平：根落在土里，心才稳", 4.8, GREEN))
@@ -6948,7 +6948,7 @@ def ch69c_yi_shan_men():
     c = a + 50
     s.append(f'<line x1="24" y1="{c}" x2="338" y2="{c}" stroke="{LINE}" stroke-width="0.6"/>')
     s.append(box(20, c + 8, 340, 40, fill="#F2EADA", stroke="#C9B79A"))
-    s.append(txt(190, c + 23, "哀者，闵也；闵者，吊者在门。", 5.4, INK, "middle"))
+    s.append(txt(190, c + 23, "哀者，闵也；闵者，吊者在门。", 5.2, INK, "middle"))
     s.append(txt(190, c + 36, "不是悲愤的一方胜，是还肯站在门口的一方胜。", 4.7, GREEN, "middle"))
     s.append(gold(c + 62, "ch69c"))
     s.append('</svg>')
@@ -6976,7 +6976,7 @@ def ch70a_yi_dao_ke_xian():
         s.append(f'<path d="M{ex - 5},{cy} L{ex - 5},{cy - 7} L{ex + 5},{cy - 7} L{ex + 5},{cy}" fill="none" stroke="{INK}" stroke-width="1"/>')
     for lx, ldx in ((cx - 17, -5), (cx, 0), (cx + 17, 5)):
         s.append(f'<line x1="{lx}" y1="{cy + 38}" x2="{lx + ldx}" y2="{gy + 128}" stroke="{INK}" stroke-width="1"/>')
-    s.append(txt(cx, cy + 32, "鼎", 4.4, "#6E6459", "middle"))
+    s.append(txt(cx, cy + 32, "鼎", 4.5, "#6E6459", "middle"))
     # 刻线：自鼎腹划出，向右延伸
     s.append(f'<line x1="{cx - 22}" y1="{cy + 14}" x2="330" y2="{cy + 14}" stroke="{SEAL}" stroke-width="1.6"/>')
     s.append(txt(330, cy + 9, "则", 4.8, SEAL, "end"))
@@ -7019,7 +7019,7 @@ def ch70a_yi_dao_ke_xian():
     c = a + 50
     s.append(f'<line x1="24" y1="{c}" x2="338" y2="{c}" stroke="{LINE}" stroke-width="0.6"/>')
     s.append(box(20, c + 8, 340, 40, fill="#F2EADA", stroke="#C9B79A"))
-    s.append(txt(190, c + 23, "则不评价，只显出来；天垂一道，人刻一道。", 5.4, INK, "middle"))
+    s.append(txt(190, c + 23, "则不评价，只显出来；天垂一道，人刻一道。", 5.2, INK, "middle"))
     s.append(txt(190, c + 36, "把我当成那道刻线：不是学我，是拿我比。", 4.7, GREEN, "middle"))
     s.append(gold(c + 62, "ch70a"))
     s.append('</svg>')
@@ -7057,9 +7057,9 @@ def ch70b_yi_jian_ma_yi():
         yy = top + 40 + i * 13
         s.append(f'<line x1="{cx - 9}" y1="{yy}" x2="{cx - 9}" y2="{yy + 5}" stroke="#7A6E60" stroke-width="0.5" opacity="0.55"/>')
         s.append(f'<line x1="{cx + 9}" y1="{yy}" x2="{cx + 9}" y2="{yy + 5}" stroke="#7A6E60" stroke-width="0.5" opacity="0.55"/>')
-    s.append(txt(cx + 40, top + 30, "褐：编枲，", 4.4, GREEN))
-    s.append(txt(cx + 40, top + 42, "贱者之服", 4.4, GREEN))
-    s.append(txt(cx + 40, top + 62, "面上没有话", 4.4, "#6E6459"))
+    s.append(txt(cx + 40, top + 30, "褐：编枲，", 4.5, GREEN))
+    s.append(txt(cx + 40, top + 42, "贱者之服", 4.5, GREEN))
+    s.append(txt(cx + 40, top + 62, "面上没有话", 4.5, "#6E6459"))
     s.append(txt(190, gy + 156, "麻衣不亮，也不拦：它只是让人看不出他带着什么", 4.6, GREEN, "middle"))
 
     s.append(txt(24, gy + 176, "二、被：主动披上，不是穷得只剩这件", 4.8, SEAL))
@@ -7102,7 +7102,7 @@ def ch70b_yi_jian_ma_yi():
     c = a + 50
     s.append(f'<line x1="24" y1="{c}" x2="338" y2="{c}" stroke="{LINE}" stroke-width="0.6"/>')
     s.append(box(20, c + 8, 340, 40, fill="#F2EADA", stroke="#C9B79A"))
-    s.append(txt(190, c + 23, "褐是贱者之服，被是主动披上。", 5.4, INK, "middle"))
+    s.append(txt(190, c + 23, "褐是贱者之服，被是主动披上。", 5.2, INK, "middle"))
     s.append(txt(190, c + 36, "外面一样，是「跟他们一样」；不一样的那一点，揣着。", 4.7, GREEN, "middle"))
     s.append(gold(c + 62, "ch70b"))
     s.append('</svg>')
@@ -7155,8 +7155,8 @@ def ch70c_yi_kuai_hui_yu():
     s.append(f'<path d="M{px + 13},{gy2 + 78} Q{px + 10},{gy2 + 86} {px + 5},{gy2 + 86}" fill="none" stroke="{INK}" stroke-width="0.7"/>')
     s.append(f'<line x1="{px - 6}" y1="{gy2 + 100}" x2="{px - 14}" y2="{gy2 + 128}" stroke="{INK}" stroke-width="1"/>')
     s.append(f'<line x1="{px + 6}" y1="{gy2 + 100}" x2="{px + 14}" y2="{gy2 + 128}" stroke="{INK}" stroke-width="1"/>')
-    s.append(txt(px + 44, gy2 + 66, "怀：带着一件", 4.4, GREEN))
-    s.append(txt(px + 44, gy2 + 78, "要来办的事", 4.4, GREEN))
+    s.append(txt(px + 44, gy2 + 66, "怀：带着一件", 4.5, GREEN))
+    s.append(txt(px + 44, gy2 + 78, "要来办的事", 4.5, GREEN))
     s.append(txt(px + 44, gy2 + 96, "外头看不出", 4.2, "#6E6459"))
     s.append(txt(190, gy2 + 162, "同一块玉，一换位置就换了意思：挂着是招牌，揣着是凭证", 4.6, GREEN, "middle"))
 
@@ -7168,7 +7168,7 @@ def ch70c_yi_kuai_hui_yu():
     c = a + 50
     s.append(f'<line x1="24" y1="{c}" x2="338" y2="{c}" stroke="{LINE}" stroke-width="0.6"/>')
     s.append(box(20, c + 8, 340, 40, fill="#F2EADA", stroke="#C9B79A"))
-    s.append(txt(190, c + 23, "玉挂出来是装饰，揣在怀里是信物。", 5.4, INK, "middle"))
+    s.append(txt(190, c + 23, "玉挂出来是装饰，揣在怀里是信物。", 5.2, INK, "middle"))
     s.append(txt(190, c + 36, "被褐是我跟你一样，怀玉是我不一样的那一点。", 4.7, GREEN, "middle"))
     s.append(gold(c + 62, "ch70c"))
     s.append('</svg>')
@@ -7201,7 +7201,7 @@ def ch71a_yi_zhi_jian():
     s.append(f'<circle cx="290" cy="{cy}" r="16" fill="none" stroke="#B9A98F" stroke-width="0.9" stroke-dasharray="3 3"/>')
     s.append(f'<circle cx="290" cy="{cy}" r="7" fill="none" stroke="#B9A98F" stroke-width="0.7" stroke-dasharray="3 3"/>')
     s.append(txt(290, cy + 30, "靶还在远处", 4.2, "#6E6459", "middle"))
-    s.append(txt(118, cy - 14, "箭搭在弦上", 4.4, SEAL))
+    s.append(txt(118, cy - 14, "箭搭在弦上", 4.5, SEAL))
     s.append(txt(190, gy + 156, "没射出去的，是打算，不是知：靶还没说话", 4.6, GREEN, "middle"))
 
     s.append(txt(24, gy + 178, "二、已出弦：箭在靶上，这一下才叫知", 4.8, SEAL))
@@ -7222,8 +7222,8 @@ def ch71a_yi_zhi_jian():
     for fx in (202, 208):
         s.append(f'<line x1="{fx}" y1="{cy2 - 12}" x2="{fx + 6}" y2="{cy2 - 6}" stroke="{INK}" stroke-width="0.8"/>')
         s.append(f'<line x1="{fx}" y1="{cy2}" x2="{fx + 6}" y2="{cy2 - 6}" stroke="{INK}" stroke-width="0.8"/>')
-    s.append(txt(tx, cy2 + 40, "靶", 4.4, INK, "middle"))
-    s.append(txt(150, cy2 - 22, "箭出而中", 4.4, SEAL))
+    s.append(txt(tx, cy2 + 40, "靶", 4.5, INK, "middle"))
+    s.append(txt(150, cy2 - 22, "箭出而中", 4.5, SEAL))
     s.append(txt(190, gy2 + 164, "射中了才知道中没中：知是箭与靶碰上的那一下，不是想出来的", 4.6, GREEN, "middle"))
 
     a = gy2 + 180
@@ -7234,7 +7234,7 @@ def ch71a_yi_zhi_jian():
     c = a + 50
     s.append(f'<line x1="24" y1="{c}" x2="338" y2="{c}" stroke="{LINE}" stroke-width="0.6"/>')
     s.append(box(20, c + 8, 340, 40, fill="#F2EADA", stroke="#C9B79A"))
-    s.append(txt(190, c + 23, "知从矢从口：箭出去，中了，才报得出口。", 5.4, INK, "middle"))
+    s.append(txt(190, c + 23, "知从矢从口：箭出去，中了，才报得出口。", 5.2, INK, "middle"))
     s.append(txt(190, c + 36, "胸中之知不必有靶；矢口之知，先得有一张靶。", 4.7, GREEN, "middle"))
     s.append(gold(c + 62, "ch71a"))
     s.append('</svg>')
@@ -7266,7 +7266,7 @@ def ch71b_yi_zhang_ba():
     for fx in (98, 104):
         s.append(f'<line x1="{fx}" y1="{cy + 28}" x2="{fx + 6}" y2="{cy + 34}" stroke="{INK}" stroke-width="0.8"/>')
         s.append(f'<line x1="{fx}" y1="{cy + 40}" x2="{fx + 6}" y2="{cy + 34}" stroke="{INK}" stroke-width="0.8"/>')
-    s.append(txt(116, cy + 50, "箭在二环外", 4.4, SEAL))
+    s.append(txt(116, cy + 50, "箭在二环外", 4.5, SEAL))
     s.append(f'<line x1="{tx + 44}" y1="{cy}" x2="{tx + 40}" y2="{cy}" stroke="{GREEN}" stroke-width="0.1"/>')
     s.append(txt(190, gy + 158, "靶不动，箭动：中不中，是靶说的，不是射的人说的", 4.6, GREEN, "middle"))
 
@@ -7282,7 +7282,7 @@ def ch71b_yi_zhang_ba():
     for (ex, ey, hx, hy) in ((tx2 - 20, cy2 - 12, -4, -2), (tx2 + 18, cy2 + 6, 3, 4), (tx2 - 4, cy2 + 24, -1, 5)):
         s.append(f'<line x1="{ex - 34}" y1="{ey - 10}" x2="{ex}" y2="{ey}" stroke="{INK}" stroke-width="1"/>')
         s.append(f'<polygon points="{ex},{ey} {ex - 8},{ey - 5} {ex - 7},{ey + 3}" fill="{INK}"/>')
-    s.append(txt(tx2 + 54, cy2 - 10, "没有环", 4.4, SEAL))
+    s.append(txt(tx2 + 54, cy2 - 10, "没有环", 4.5, SEAL))
     s.append(txt(tx2 + 54, cy2 + 4, "落在哪儿都", 4.2, "#6E6459"))
     s.append(txt(tx2 + 54, cy2 + 16, "可以叫「中」", 4.2, "#6E6459"))
     s.append(txt(190, gy2 + 164, "环是靶的，不是你画的：环一擦掉，箭就成了自己给自己判的", 4.6, GREEN, "middle"))
@@ -7295,7 +7295,7 @@ def ch71b_yi_zhang_ba():
     c = a + 50
     s.append(f'<line x1="24" y1="{c}" x2="338" y2="{c}" stroke="{LINE}" stroke-width="0.6"/>')
     s.append(box(20, c + 8, 340, 40, fill="#F2EADA", stroke="#C9B79A"))
-    s.append(txt(190, c + 23, "靶在彼，不由我说。", 5.4, INK, "middle"))
+    s.append(txt(190, c + 23, "靶在彼，不由我说。", 5.2, INK, "middle"))
     s.append(txt(190, c + 36, "验证的意思是：有一件东西，你说不动它。", 4.7, GREEN, "middle"))
     s.append(gold(c + 62, "ch71b"))
     s.append('</svg>')
@@ -7368,7 +7368,7 @@ def ch71c_yi_bao_ba():
     c = a + 50
     s.append(f'<line x1="24" y1="{c}" x2="338" y2="{c}" stroke="{LINE}" stroke-width="0.6"/>')
     s.append(box(20, c + 8, 340, 40, fill="#F2EADA", stroke="#C9B79A"))
-    s.append(txt(190, c + 23, "病病者，以之为病也，非治之也，乃认之也。", 5.4, INK, "middle"))
+    s.append(txt(190, c + 23, "病病者，以之为病也，非治之也，乃认之也。", 5.2, INK, "middle"))
     s.append(txt(190, c + 36, "先认这一句「我可能报错了」，靶才回得来。", 4.7, GREEN, "middle"))
     s.append(gold(c + 62, "ch71c"))
     s.append('</svg>')
@@ -7441,7 +7441,7 @@ def ch72a_yi_wei_po_po():
     c = a + 50
     s.append(f'<line x1="24" y1="{c}" x2="338" y2="{c}" stroke="{LINE}" stroke-width="0.6"/>')
     s.append(box(20, c + 8, 340, 40, fill="#F2EADA", stroke="#C9B79A"))
-    s.append(txt(190, c + 23, "威从女从戌，戌者斧也；斧备而不用，用则威亡。", 5.4, INK, "middle"))
+    s.append(txt(190, c + 23, "威从女从戌，戌者斧也；斧备而不用，用则威亡。", 5.2, INK, "middle"))
     s.append(txt(190, c + 36, "坐在那儿不动的那位，才叫威；一动，就只剩打。", 4.7, GREEN, "middle"))
     s.append(gold(c + 62, "ch72a"))
     s.append('</svg>')
@@ -7472,7 +7472,7 @@ def ch72b_yi_wo_gou():
     for i, (dx, dy) in enumerate(((18, 84), (26, 98), (-4, 94), (12, 110))):
         s.append(f'<ellipse cx="{px + dx}" cy="{gy + dy}" rx="15" ry="8" fill="#DED2B8" stroke="{INK}" stroke-width="0.9"/>')
         s.append(f'<circle cx="{px + dx - 15}" cy="{gy + dy - 5}" r="4.6" fill="#DED2B8" stroke="{INK}" stroke-width="0.9"/>')
-    s.append(txt(214, gy + 82, "一窝挤在一角", 4.4, SEAL))
+    s.append(txt(214, gy + 82, "一窝挤在一角", 4.5, SEAL))
     s.append(txt(214, gy + 94, "屋还空着大半", 4.2, "#6E6459"))
     s.append(txt(190, gy + 166, "房子并没变小：是身与身之间先没了空", 4.6, GREEN, "middle"))
 
@@ -7486,7 +7486,7 @@ def ch72b_yi_wo_gou():
     for (dx, dy) in ((64, 96), (104, 104), (154, 96), (128, 110)):
         s.append(f'<ellipse cx="{dx}" cy="{gy2 + dy}" rx="14" ry="7.5" fill="#DED2B8" stroke="{INK}" stroke-width="0.9"/>')
         s.append(f'<circle cx="{dx - 14}" cy="{gy2 + dy - 4}" r="4.4" fill="#DED2B8" stroke="{INK}" stroke-width="0.9"/>')
-    s.append(txt(214, gy2 + 82, "各归一处", 4.4, GREEN))
+    s.append(txt(214, gy2 + 82, "各归一处", 4.5, GREEN))
     s.append(txt(214, gy2 + 94, "中间留出一条", 4.2, "#6E6459"))
     s.append(txt(190, gy2 + 166, "不狎不是赶走谁，是让每一头都有一处自己的地方", 4.6, GREEN, "middle"))
 
@@ -7498,7 +7498,7 @@ def ch72b_yi_wo_gou():
     c = a + 50
     s.append(f'<line x1="24" y1="{c}" x2="338" y2="{c}" stroke="{LINE}" stroke-width="0.6"/>')
     s.append(box(20, c + 8, 340, 40, fill="#F2EADA", stroke="#C9B79A"))
-    s.append(txt(190, c + 23, "狎者，犬可习也，熟而贴人；非屋之窄，乃无距也。", 5.4, INK, "middle"))
+    s.append(txt(190, c + 23, "狎者，犬可习也，熟而贴人；非屋之窄，乃无距也。", 5.2, INK, "middle"))
     s.append(txt(190, c + 36, "让开一寸，人才住得下去。", 4.7, GREEN, "middle"))
     s.append(gold(c + 62, "ch72b"))
     s.append('</svg>')
@@ -7571,7 +7571,7 @@ def ch72c_yi_gan_cheng():
     c = a + 50
     s.append(f'<line x1="24" y1="{c}" x2="338" y2="{c}" stroke="{LINE}" stroke-width="0.6"/>')
     s.append(box(20, c + 8, 340, 40, fill="#F2EADA", stroke="#C9B79A"))
-    s.append(txt(190, c + 23, "自知不自见，自爱不自贵；故去彼取此。", 5.4, INK, "middle"))
+    s.append(txt(190, c + 23, "自知不自见，自爱不自贵；故去彼取此。", 5.2, INK, "middle"))
     s.append(txt(190, c + 36, "取的是身子，去的是那张价签。", 4.7, GREEN, "middle"))
     s.append(gold(c + 62, "ch72c"))
     s.append('</svg>')
@@ -7619,7 +7619,7 @@ def ch73a_yi_gu_qi():
     # 一股冲出去
     s.append(f'<path d="M{px + 6},{py - 6} Q{px + 60},{py - 34} {px + 132},{py - 40}" fill="none" stroke="{SEAL}" stroke-width="1.1"/>')
     s.append(f'<polygon points="{px + 132},{py - 40} {px + 120},{py - 46} {px + 122},{py - 34}" fill="{SEAL}"/>')
-    s.append(txt(px + 78, py - 52, "勇于敢：冲出去", 4.3, SEAL))
+    s.append(txt(px + 78, py - 52, "勇于敢：冲出去", 4.5, SEAL))
     # 一股按住：挡板与回卷
     s.append(f'<ellipse cx="{px + 54}" cy="{py + 22}" rx="15" ry="7" fill="#EFE6D4" stroke="{INK}" stroke-width="1"/>')
     for i in range(4):
@@ -7627,7 +7627,7 @@ def ch73a_yi_gu_qi():
     s.append(f'<path d="M{px + 6},{py + 10} Q{px + 22},{py + 16} {px + 31},{py + 20}" fill="none" stroke="{GREEN}" stroke-width="1.1"/>')
     s.append(f'<path d="M{px + 31},{py + 24} Q{px + 20},{py + 34} {px + 12},{py + 30}" fill="none" stroke="{GREEN}" stroke-width="1" stroke-dasharray="4 3"/>')
     s.append(f'<polygon points="{px + 14},{py + 30} {px + 24},{py + 26} {px + 22},{py + 34}" fill="{GREEN}"/>')
-    s.append(txt(px + 4, py + 50, "勇于不敢：按住，气回旋", 4.3, GREEN))
+    s.append(txt(px + 4, py + 50, "勇于不敢：按住，气回旋", 4.5, GREEN))
     s.append(txt(190, gy2 + 166, "按住不比冲出省力：同一股气，只是没有往前拿", 4.6, GREEN, "middle"))
 
     a = gy2 + 182
@@ -7638,7 +7638,7 @@ def ch73a_yi_gu_qi():
     c = a + 50
     s.append(f'<line x1="24" y1="{c}" x2="338" y2="{c}" stroke="{LINE}" stroke-width="0.6"/>')
     s.append(box(20, c + 8, 340, 40, fill="#F2EADA", stroke="#C9B79A"))
-    s.append(txt(190, c + 23, "勇者，气也，从力甬声；敢者，进取也，从攴。", 5.4, INK, "middle"))
+    s.append(txt(190, c + 23, "勇者，气也，从力甬声；敢者，进取也，从攴。", 5.2, INK, "middle"))
     s.append(txt(190, c + 36, "气留着，方向自己给；不给方向的气，只是乱撞。", 4.7, GREEN, "middle"))
     s.append(gold(c + 62, "ch73a"))
     s.append('</svg>')
@@ -7665,8 +7665,8 @@ def ch73b_yi_gen_dai_zi():
     s.append(f'<path d="M{cx - 27},{gy + 52} Q{cx},{gy + 66} {cx + 27},{gy + 52}" fill="none" stroke="{SEAL}" stroke-width="1.4"/>')
     s.append(f'<path d="M{cx - 2},{gy + 58} q4,10 -2,18" fill="none" stroke="{SEAL}" stroke-width="1.2"/>')
     s.append(f'<path d="M{cx + 10},{gy + 57} q5,8 1,16" fill="none" stroke="{SEAL}" stroke-width="1.1" opacity="0.8"/>')
-    s.append(txt(cx + 58, gy + 58, "带缓：" , 4.4, SEAL))
-    s.append(txt(cx + 58, gy + 70, "垂着，不掉", 4.4, "#6E6459"))
+    s.append(txt(cx + 58, gy + 58, "带缓：" , 4.5, SEAL))
+    s.append(txt(cx + 58, gy + 70, "垂着，不掉", 4.5, "#6E6459"))
     s.append(txt(190, gy + 162, "松不是散：衣还在身上，气还在腰里", 4.6, GREEN, "middle"))
 
     s.append(txt(24, gy + 184, "二、紧：带子勒进去，那一处先崩", 4.8, SEAL))
@@ -7681,8 +7681,8 @@ def ch73b_yi_gen_dai_zi():
         s.append(f'<line x1="{cx + dx}" y1="{gy2 + 48}" x2="{cx + dx}" y2="{gy2 + 62}" stroke="{SEAL}" stroke-width="1"/>')
     s.append(f'<path d="M{cx - 27},{gy2 + 44} q-6,10 0,20" fill="none" stroke="#B9A98F" stroke-width="0.8"/>')
     s.append(f'<path d="M{cx + 27},{gy2 + 44} q6,10 0,20" fill="none" stroke="#B9A98F" stroke-width="0.8"/>')
-    s.append(txt(cx + 58, gy2 + 50, "系紧：", 4.4, SEAL))
-    s.append(txt(cx + 58, gy2 + 62, "勒出痕", 4.4, "#6E6459"))
+    s.append(txt(cx + 58, gy2 + 50, "系紧：", 4.5, SEAL))
+    s.append(txt(cx + 58, gy2 + 62, "勒出痕", 4.5, "#6E6459"))
     s.append(txt(190, gy2 + 166, "紧处就是崩处：一处勒死，四下都跟着断", 4.6, GREEN, "middle"))
 
     a = gy2 + 182
@@ -7693,7 +7693,7 @@ def ch73b_yi_gen_dai_zi():
     c = a + 50
     s.append(f'<line x1="24" y1="{c}" x2="338" y2="{c}" stroke="{LINE}" stroke-width="0.6"/>')
     s.append(box(20, c + 8, 340, 40, fill="#F2EADA", stroke="#C9B79A"))
-    s.append(txt(190, c + 23, "繟者，《说文》曰「带缓也」，从糸——带系之松也。", 5.4, INK, "middle"))
+    s.append(txt(190, c + 23, "繟者，《说文》曰「带缓也」，从糸——带系之松也。", 5.2, INK, "middle"))
     s.append(txt(190, c + 36, "松着，是让每一处都留一点回旋的余地。", 4.7, GREEN, "middle"))
     s.append(gold(c + 62, "ch73b"))
     s.append('</svg>')
@@ -7755,7 +7755,7 @@ def ch73c_yi_zhang_wang():
     c = a + 50
     s.append(f'<line x1="24" y1="{c}" x2="338" y2="{c}" stroke="{LINE}" stroke-width="0.6"/>')
     s.append(box(20, c + 8, 340, 40, fill="#F2EADA", stroke="#C9B79A"))
-    s.append(txt(190, c + 23, "疏者，《说文》曰「通也」，非稀也；", 5.4, INK, "middle"))
+    s.append(txt(190, c + 23, "疏者，《说文》曰「通也」，非稀也；", 5.2, INK, "middle"))
     s.append(txt(190, c + 36, "通者必漏，不漏者必不通，而天兼之。", 4.7, GREEN, "middle"))
     s.append(gold(c + 62, "ch73c"))
     s.append('</svg>')
@@ -7783,9 +7783,9 @@ def ch74a_yi_ge_fan_zi():
     s.append(f'<line x1="130" y1="{gy + 38}" x2="192" y2="{gy + 38}" stroke="#DCCBB0" stroke-width="0.6"/>')
     s.append(f'<line x1="130" y1="{gy + 100}" x2="192" y2="{gy + 100}" stroke="#DCCBB0" stroke-width="0.6"/>')
     s.append(txt(161, gy + 92, "后", 38, INK, "middle"))
-    s.append(txt(161, gy + 138, "君：坐堂发令", 4.4, "#6E6459", "middle"))
-    s.append(txt(252, gy + 52, "后：一人持口，", 4.3, "#6E6459"))
-    s.append(txt(252, gy + 64, "坐而发令", 4.3, "#6E6459"))
+    s.append(txt(161, gy + 138, "君：坐堂发令", 4.5, "#6E6459", "middle"))
+    s.append(txt(252, gy + 52, "后：一人持口，", 4.5, "#6E6459"))
+    s.append(txt(252, gy + 64, "坐而发令", 4.5, "#6E6459"))
     s.append(txt(190, gy + 164, "君在堂上：他发令，不办事", 4.6, GREEN, "middle"))
 
     s.append(txt(24, gy + 186, "二、司：同一个人翻过来，站到外面办事", 4.8, GREEN))
@@ -7797,7 +7797,7 @@ def ch74a_yi_ge_fan_zi():
     # 翻的箭头
     s.append(f'<path d="M198,{gy2 + 38} Q222,{gy2 + 60} 200,{gy2 + 88}" fill="none" stroke="{SEAL}" stroke-width="1" stroke-dasharray="4 3"/>')
     s.append(f'<polygon points="200,{gy2 + 88} 206,{gy2 + 78} 194,{gy2 + 78}" fill="{SEAL}"/>')
-    s.append(txt(232, gy2 + 60, "翻过来", 4.3, SEAL))
+    s.append(txt(232, gy2 + 60, "翻过来", 4.5, SEAL))
     # 在外面办事的人
     px = 282
     s.append(f'<circle cx="{px}" cy="{gy2 + 62}" r="6" fill="none" stroke="{INK}" stroke-width="1"/>')
@@ -7817,7 +7817,7 @@ def ch74a_yi_ge_fan_zi():
     c = a + 50
     s.append(f'<line x1="24" y1="{c}" x2="338" y2="{c}" stroke="{LINE}" stroke-width="0.6"/>')
     s.append(box(20, c + 8, 340, 40, fill="#F2EADA", stroke="#C9B79A"))
-    s.append(txt(190, c + 23, "司者，《说文》曰「臣司事于外者，从反后」；", 5.4, INK, "middle"))
+    s.append(txt(190, c + 23, "司者，《说文》曰「臣司事于外者，从反后」；", 5.2, INK, "middle"))
     s.append(txt(190, c + 36, "后者，君也——君翻其身，乃为司。", 4.7, GREEN, "middle"))
     s.append(gold(c + 62, "ch74a"))
     s.append('</svg>')
@@ -7855,8 +7855,8 @@ def ch74b_yi_ba_fu():
     s.append(f'<line x1="{px + 48}" y1="{gy + 78}" x2="176" y2="{gy + 100}" stroke="{INK}" stroke-width="1.4"/>')
     s.append(f'<path d="M176,{gy + 100} L188,{gy + 86} Q198,{gy + 98} 190,{gy + 110} L174,{gy + 106} Z" fill="#DED2B8" stroke="{INK}" stroke-width="1"/>')
     s.append(txt(px, gy + 142, "匠人", 4.2, "#6E6459", "middle"))
-    s.append(txt(272, gy + 78, "只削一片", 4.3, GREEN))
-    s.append(txt(272, gy + 90, "器由此成", 4.3, "#6E6459"))
+    s.append(txt(272, gy + 78, "只削一片", 4.5, GREEN))
+    s.append(txt(272, gy + 90, "器由此成", 4.5, "#6E6459"))
     s.append(txt(190, gy + 164, "斧在匠人手里，是「成」的工具：他知道这一刀要落多深", 4.6, GREEN, "middle"))
 
     s.append(txt(24, gy + 186, "二、代班的人：同一把斧，一落就断，断不可复", 4.8, SEAL))
@@ -7879,8 +7879,8 @@ def ch74b_yi_ba_fu():
     s.append(f'<line x1="{px2 + 34}" y1="{gy2 + 36}" x2="{px2 + 46}" y2="{gy2 + 18}" stroke="{INK}" stroke-width="1.4"/>')
     s.append(f'<path d="M{px2 + 46},{gy2 + 18} L{px2 + 62},{gy2 + 8} Q{px2 + 70},{gy2 + 22} {px2 + 56},{gy2 + 34} L{px2 + 40},{gy2 + 28} Z" fill="{SEAL}" fill-opacity="0.3" stroke="{SEAL}" stroke-width="1"/>')
     s.append(txt(px2, gy2 + 144, "代班", 4.2, SEAL, "middle"))
-    s.append(txt(276, gy2 + 70, "未观其性", 4.3, SEAL))
-    s.append(txt(276, gy2 + 82, "先加其手", 4.3, "#6E6459"))
+    s.append(txt(276, gy2 + 70, "未观其性", 4.5, SEAL))
+    s.append(txt(276, gy2 + 82, "先加其手", 4.5, "#6E6459"))
     s.append(txt(190, gy2 + 168, "梓庆斋七日才敢加手；代班的人，一刀下去就断了", 4.6, GREEN, "middle"))
 
     a = gy2 + 184
@@ -7942,11 +7942,11 @@ def ch74c_yi_zhi_shou():
     s.append(f'<line x1="152" y1="{gy2 + 62}" x2="190" y2="{gy2 + 90}" stroke="{SEAL}" stroke-width="1.8"/>')
     s.append(f'<circle cx="161" cy="{gy2 + 70}" r="1.8" fill="{SEAL}"/>')
     s.append(f'<circle cx="182" cy="{gy2 + 84}" r="1.5" fill="{SEAL}"/>')
-    s.append(txt(212, gy2 + 60, "这道口子", 4.3, SEAL))
-    s.append(txt(212, gy2 + 72, "是自己的账", 4.3, "#6E6459"))
+    s.append(txt(212, gy2 + 60, "这道口子", 4.5, SEAL))
+    s.append(txt(212, gy2 + 72, "是自己的账", 4.5, "#6E6459"))
     # 天：远处一道弧，不动手
     s.append(f'<path d="M80,{gy2 + 120} Q190,{gy2 + 102} 300,{gy2 + 120}" fill="none" stroke="#B9A98F" stroke-width="0.9" stroke-dasharray="4 3"/>')
-    s.append(txt(190, gy2 + 136, "天不与你争这把斧：它只让斧落在你手上", 4.4, "#6E6459", "middle"))
+    s.append(txt(190, gy2 + 136, "天不与你争这把斧：它只让斧落在你手上", 4.5, "#6E6459", "middle"))
     s.append(txt(190, gy2 + 170, "伤不在天上记，在手上记：这就是「希有不伤」的分量", 4.6, GREEN, "middle"))
 
     a = gy2 + 188
@@ -7957,7 +7957,7 @@ def ch74c_yi_zhi_shou():
     c = a + 52
     s.append(f'<line x1="24" y1="{c}" x2="338" y2="{c}" stroke="{LINE}" stroke-width="0.6"/>')
     s.append(box(20, c + 8, 340, 40, fill="#F2EADA", stroke="#C9B79A"))
-    s.append(txt(190, c + 23, "夫代大匠斫者，希有不伤其手矣。", 5.4, INK, "middle"))
+    s.append(txt(190, c + 23, "夫代大匠斫者，希有不伤其手矣。", 5.2, INK, "middle"))
     s.append(txt(190, c + 36, "斧不认人，账认手。", 4.7, GREEN, "middle"))
     s.append(gold(c + 64, "ch74c"))
     s.append('</svg>')
@@ -7991,8 +7991,8 @@ def ch75a_yi_zhi_kong_wan():
     s.append(f'<line x1="228" y1="{gy + 74}" x2="212" y2="{gy + 64}" stroke="{INK}" stroke-width="1"/>')
     s.append(f'<line x1="228" y1="{gy + 62}" x2="244" y2="{gy + 52}" stroke="{INK}" stroke-width="1"/>')
     s.append(f'<path d="M228,{gy + 52} q-6,-14 0,-22 q6,8 0,22" fill="none" stroke="{SEAL}" stroke-width="1" stroke-dasharray="3 2"/>')
-    s.append(txt(272, gy + 62, "饑：谷不熟", 4.4, SEAL))
-    s.append(txt(272, gy + 74, "穗是空的", 4.4, "#6E6459"))
+    s.append(txt(272, gy + 62, "饑：谷不熟", 4.5, SEAL))
+    s.append(txt(272, gy + 74, "穗是空的", 4.5, "#6E6459"))
     s.append(txt(190, gy + 168, "饑是天灾：年成不好，怨不到人身上", 4.6, GREEN, "middle"))
 
     s.append(txt(24, gy + 192, "二、飢：肚子空，账在人身上", 4.8, GREEN))
@@ -8003,13 +8003,13 @@ def ch75a_yi_zhi_kong_wan():
     s.append(f'<path d="M64,{gy2 + 74} Q92,{gy2 + 130} 120,{gy2 + 74}" fill="#EFE6D4" stroke="{INK}" stroke-width="1.3"/>')
     s.append(f'<line x1="62" y1="{gy2 + 74}" x2="122" y2="{gy2 + 74}" stroke="{INK}" stroke-width="1.3"/>')
     s.append(f'<ellipse cx="92" cy="{gy2 + 74}" rx="30" ry="5" fill="none" stroke="#B9A98F" stroke-width="0.6" stroke-dasharray="2 2"/>')
-    s.append(txt(92, gy2 + 120, "碗里什么也没有", 4.3, "#6E6459", "middle"))
+    s.append(txt(92, gy2 + 120, "碗里什么也没有", 4.5, "#6E6459", "middle"))
     # 斗：满得冒尖
     s.append(f'<path d="M224,{gy2 + 46} L286,{gy2 + 46} L276,{gy2 + 112} L234,{gy2 + 112} Z" fill="#EFE6D4" stroke="{INK}" stroke-width="1.2"/>')
     s.append(f'<path d="M224,{gy2 + 46} q31,-22 62,0" fill="#DED2B8" stroke="{INK}" stroke-width="1.1"/>')
     for i in range(3):
         s.append(f'<line x1="{228 + i * 4}" y1="{gy2 + 60 + i * 14}" x2="{282 - i * 4}" y2="{gy2 + 60 + i * 14}" stroke="#B9A98F" stroke-width="0.6"/>')
-    s.append(txt(255, gy2 + 84, "食税之多", 4.3, SEAL, "middle"))
+    s.append(txt(255, gy2 + 84, "食税之多", 4.5, SEAL, "middle"))
     # 从碗到斗：一只手
     s.append(f'<path d="M126,{gy2 + 96} Q168,{gy2 + 82} 220,{gy2 + 62}" fill="none" stroke="{SEAL}" stroke-width="1" stroke-dasharray="4 3"/>')
     s.append(f'<polygon points="220,{gy2 + 62} 208,{gy2 + 60} 212,{gy2 + 70}" fill="{SEAL}"/>')
@@ -8024,7 +8024,7 @@ def ch75a_yi_zhi_kong_wan():
     c = a + 52
     s.append(f'<line x1="24" y1="{c}" x2="338" y2="{c}" stroke="{LINE}" stroke-width="0.6"/>')
     s.append(box(20, c + 8, 340, 40, fill="#F2EADA", stroke="#C9B79A"))
-    s.append(txt(190, c + 23, "民之饥，以其上食税之多，是以饥。", 5.4, INK, "middle"))
+    s.append(txt(190, c + 23, "民之饥，以其上食税之多，是以饥。", 5.2, INK, "middle"))
     s.append(txt(190, c + 36, "饿，不是天给的。", 4.7, GREEN, "middle"))
     s.append(gold(c + 64, "ch75a"))
     s.append('</svg>')
@@ -8048,7 +8048,7 @@ def ch75b_yi_tiao_he():
     s.append(f'<path d="M40,{gy + 112} Q120,{gy + 104} 200,{gy + 112} Q280,{gy + 120} 340,{gy + 114}" fill="none" stroke="{INK}" stroke-width="1.2"/>')
     s.append(f'<path d="M46,{gy + 93} q18,6 36,0 q18,-6 36,0 q18,6 36,0 q18,-6 36,0 q18,6 36,0 q18,-6 36,0 q18,6 36,0 q18,-6 36,0" fill="none" stroke="{'#4A5C55'}" stroke-width="1"/>')
     s.append(f'<polygon points="332,{gy + 92} 322,{gy + 87} 322,{gy + 97}" fill="{'#4A5C55'}"/>')
-    s.append(txt(190, gy + 46, "水在两岸之间，自己往下走", 4.3, "#6E6459", "middle"))
+    s.append(txt(190, gy + 46, "水在两岸之间，自己往下走", 4.5, "#6E6459", "middle"))
     s.append(txt(190, gy + 164, "治者，水名：一条河不需要人来管它", 4.6, GREEN, "middle"))
 
     s.append(txt(24, gy + 188, "二、筑堤：堵一次，水就找一次缝", 4.8, GREEN))
@@ -8084,7 +8084,7 @@ def ch75b_yi_tiao_he():
     c = a + 52
     s.append(f'<line x1="24" y1="{c}" x2="338" y2="{c}" stroke="{LINE}" stroke-width="0.6"/>')
     s.append(box(20, c + 8, 340, 40, fill="#F2EADA", stroke="#C9B79A"))
-    s.append(txt(190, c + 23, "民之难治，以其上之有为，是以难治。", 5.4, INK, "middle"))
+    s.append(txt(190, c + 23, "民之难治，以其上之有为，是以难治。", 5.2, INK, "middle"))
     s.append(txt(190, c + 36, "难治者，堵之所致也。", 4.7, GREEN, "middle"))
     s.append(gold(c + 64, "ch75b"))
     s.append('</svg>')
@@ -8144,7 +8144,7 @@ def ch75c_yi_gan_cheng():
     s.append(f'<rect x="296" y="{gy2 + 60}" width="24" height="15" fill="#EFE6D4" stroke="{SEAL}" stroke-width="0.9"/>')
     s.append(f'<circle cx="303" cy="{gy2 + 65}" r="1.6" fill="none" stroke="{SEAL}" stroke-width="0.6"/>')
     s.append(txt(308, gy2 + 110, "贵生：给命标价", 4.2, SEAL, "middle"))
-    s.append(txt(190, gy2 + 140, "贤：从贝而作「胜」用——空的那头，胜了", 4.4, "#4A5C55", "middle"))
+    s.append(txt(190, gy2 + 140, "贤：从贝而作「胜」用——空的那头，胜了", 4.5, "#4A5C55", "middle"))
     s.append(txt(190, gy2 + 172, "不反对活，反对把活当成一桩事业", 4.6, GREEN, "middle"))
 
     a = gy2 + 196
@@ -8155,7 +8155,7 @@ def ch75c_yi_gan_cheng():
     c = a + 52
     s.append(f'<line x1="24" y1="{c}" x2="338" y2="{c}" stroke="{LINE}" stroke-width="0.6"/>')
     s.append(box(20, c + 8, 340, 40, fill="#F2EADA", stroke="#C9B79A"))
-    s.append(txt(190, c + 23, "夫唯无以生为者，是贤于贵生。", 5.4, INK, "middle"))
+    s.append(txt(190, c + 23, "夫唯无以生为者，是贤于贵生。", 5.2, INK, "middle"))
     s.append(txt(190, c + 36, "生者自然也，为生者项目也。", 4.7, GREEN, "middle"))
     s.append(gold(c + 64, "ch75c"))
     s.append('</svg>')
@@ -8184,11 +8184,11 @@ def ch76a_yi_gen_zhi_tiao():
     s.append(f'<path d="M136,{gy + 132} Q140,{gy + 96} 168,{gy + 78} Q196,{gy + 62} 206,{gy + 40}" fill="none" stroke="{INK}" stroke-width="1.6"/>')
 
     s.append(f'<path d="M146,{gy + 108} q-16,-2 -22,-12" fill="none" stroke="{INK}" stroke-width="1"/>')
-    s.append(txt(214, gy + 66, "弯", 4.4, SEAL))
+    s.append(txt(214, gy + 66, "弯", 4.5, SEAL))
     # 回：虚线回到直立
     s.append(f'<path d="M206,{gy + 40} Q198,{gy + 26} 176,{gy + 28}" fill="none" stroke="#4A5C55" stroke-width="1" stroke-dasharray="4 3"/>')
     s.append(f'<polygon points="176,{gy + 28} 186,{gy + 24} 186,{gy + 34}" fill="#4A5C55"/>')
-    s.append(txt(176, gy + 18, "风过了：回来", 4.3, "#4A5C55", "middle"))
+    s.append(txt(176, gy + 18, "风过了：回来", 4.5, "#4A5C55", "middle"))
     s.append(txt(190, gy + 166, "枝条被风弯，风过了它回来：柔的失败，只是变形", 4.6, GREEN, "middle"))
 
     s.append(txt(24, gy + 190, "二、同一根枝，被折断了", 4.8, GREEN))
@@ -8200,8 +8200,8 @@ def ch76a_yi_gen_zhi_tiao():
     s.append(f'<path d="M140,{gy2 + 78} l-6,-10 l8,-2 l-6,-9" fill="none" stroke="{SEAL}" stroke-width="1.2"/>')
     s.append(f'<path d="M142,{gy2 + 76} Q176,{gy2 + 92} 196,{gy2 + 128}" fill="none" stroke="{INK}" stroke-width="1.4"/>')
     s.append(f'<line x1="196" y1="{gy2 + 128}" x2="214" y2="{gy2 + 130}" stroke="{INK}" stroke-width="1.2"/>')
-    s.append(txt(228, gy2 + 96, "断口：", 4.3, SEAL))
-    s.append(txt(228, gy2 + 108, "接不回去", 4.3, "#6E6459"))
+    s.append(txt(228, gy2 + 96, "断口：", 4.5, SEAL))
+    s.append(txt(228, gy2 + 108, "接不回去", 4.5, "#6E6459"))
     s.append(txt(228, gy2 + 128, "梢落在地上", 4.2, "#6E6459"))
     s.append(txt(190, gy2 + 166, "同样一个力：弯的回来了，断的回不来", 4.6, GREEN, "middle"))
 
@@ -8213,7 +8213,7 @@ def ch76a_yi_gen_zhi_tiao():
     c = a + 52
     s.append(f'<line x1="24" y1="{c}" x2="338" y2="{c}" stroke="{LINE}" stroke-width="0.6"/>')
     s.append(box(20, c + 8, 340, 40, fill="#F2EADA", stroke="#C9B79A"))
-    s.append(txt(190, c + 23, "人之生也柔弱，其死也坚强。", 5.4, INK, "middle"))
+    s.append(txt(190, c + 23, "人之生也柔弱，其死也坚强。", 5.2, INK, "middle"))
     s.append(txt(190, c + 36, "曲者可直，直者可曲。", 4.7, GREEN, "middle"))
     s.append(gold(c + 64, "ch76a"))
     s.append('</svg>')
@@ -8257,7 +8257,7 @@ def ch76b_yi_zhang_gong():
     s.append(f'<path d="M136,{gy2 + 66} l-8,-4 l3,-8 l-9,-2" fill="none" stroke="{SEAL}" stroke-width="1.4"/>')
     # 弦松垂
     s.append(f'<path d="M132,{gy2 + 22} Q186,{gy2 + 84} 130,{gy2 + 132}" fill="none" stroke="{INK}" stroke-width="1" stroke-dasharray="4 3"/>')
-    s.append(txt(168, gy2 + 96, "弦松了，箭射不出去", 4.3, "#6E6459"))
+    s.append(txt(168, gy2 + 96, "弦松了，箭射不出去", 4.5, "#6E6459"))
     s.append(txt(104, gy2 + 76, "断在这里", 4.2, SEAL))
     s.append(txt(190, gy2 + 168, "一张弓最强之时，即其最危之时", 4.6, GREEN, "middle"))
 
@@ -8269,7 +8269,7 @@ def ch76b_yi_zhang_gong():
     c = a + 52
     s.append(f'<line x1="24" y1="{c}" x2="338" y2="{c}" stroke="{LINE}" stroke-width="0.6"/>')
     s.append(box(20, c + 8, 340, 40, fill="#F2EADA", stroke="#C9B79A"))
-    s.append(txt(190, c + 23, "故坚强者死之徒，柔弱者生之徒。", 5.4, INK, "middle"))
+    s.append(txt(190, c + 23, "故坚强者死之徒，柔弱者生之徒。", 5.2, INK, "middle"))
     s.append(txt(190, c + 36, "徒者，步行也——两条路，不是一个类。", 4.7, GREEN, "middle"))
     s.append(gold(c + 64, "ch76b"))
     s.append('</svg>')
@@ -8302,8 +8302,8 @@ def ch76c_yi_ba_fu():
     s.append(f'<path d="M112,{gy + 72} L174,{gy + 74} L180,{gy + 86} L118,{gy + 88} Z" fill="#DED2B8" stroke="{INK}" stroke-width="1"/>')
     s.append(f'<line x1="118" y1="{gy + 88}" x2="180" y2="{gy + 86}" stroke="{INK}" stroke-width="1.2"/>')
     s.append(f'<line x1="174" y1="{gy + 74}" x2="240" y2="{gy + 24}" stroke="{INK}" stroke-width="2"/>')
-    s.append(txt(196, gy + 100, "斤：斧", 4.3, SEAL))
-    s.append(txt(88, gy + 146, "艸：草", 4.3, "#6E6459"))
+    s.append(txt(196, gy + 100, "斤：斧", 4.5, SEAL))
+    s.append(txt(88, gy + 146, "艸：草", 4.5, "#6E6459"))
     s.append(txt(190, gy + 166, "折：斧落下来，断了的那一丛草", 4.6, GREEN, "middle"))
 
     s.append(txt(24, gy + 190, "二、同一个力，落在草上／落在木上", 4.8, GREEN))
@@ -8316,12 +8316,12 @@ def ch76c_yi_ba_fu():
     for i in range(4):
         cx = 108 + i * 12
         s.append(f'<path d="M{cx},{gy2 + 136} Q{cx + 8},{gy2 + 104} {cx + 34},{gy2 + 86}" fill="none" stroke="{INK}" stroke-width="1.3"/>')
-    s.append(txt(132, gy2 + 66, "草弯了，没断", 4.3, "#4A5C55", "middle"))
+    s.append(txt(132, gy2 + 66, "草弯了，没断", 4.5, "#4A5C55", "middle"))
     # 右：木被折断成两截
     s.append(f'<rect x="228" y="{gy2 + 106}" width="52" height="30" fill="#EFE6D4" stroke="{INK}" stroke-width="1"/>')
     s.append(f'<rect x="290" y="{gy2 + 110}" width="40" height="26" fill="#EFE6D4" stroke="{INK}" stroke-width="1"/>')
     s.append(f'<path d="M282,{gy2 + 106} l8,8 l-8,8 l8,8" fill="none" stroke="{SEAL}" stroke-width="1.3"/>')
-    s.append(txt(282, gy2 + 92, "木断了", 4.3, SEAL, "middle"))
+    s.append(txt(282, gy2 + 92, "木断了", 4.5, SEAL, "middle"))
     s.append(txt(190, gy2 + 168, "柔者见弯，强者见断：弯可复，断不可复", 4.6, GREEN, "middle"))
 
     a = gy2 + 192
@@ -8332,7 +8332,7 @@ def ch76c_yi_ba_fu():
     c = a + 52
     s.append(f'<line x1="24" y1="{c}" x2="338" y2="{c}" stroke="{LINE}" stroke-width="0.6"/>')
     s.append(box(20, c + 8, 340, 40, fill="#F2EADA", stroke="#C9B79A"))
-    s.append(txt(190, c + 23, "是以兵强则灭，木强则折。", 5.4, INK, "middle"))
+    s.append(txt(190, c + 23, "是以兵强则灭，木强则折。", 5.2, INK, "middle"))
     s.append(txt(190, c + 36, "强者见断，柔者见弯。", 4.7, GREEN, "middle"))
     s.append(gold(c + 64, "ch76c"))
     s.append('</svg>')
@@ -8360,15 +8360,15 @@ def ch77a_yi_zhang_xian():
     s.append(f'<line x1="146" y1="{gy + 50}" x2="258" y2="{gy + 96}" stroke="#B9A98F" stroke-width="0.9"/>')
     s.append(f'<circle cx="146" cy="{gy + 50}" r="3" fill="none" stroke="{SEAL}" stroke-width="1.2"/>')
     s.append(f'<circle cx="258" cy="{gy + 96}" r="3" fill="none" stroke="#B9A98F" stroke-width="1"/>')
-    s.append(txt(196, gy + 46, "左梢高了：弦是斜的", 4.3, SEAL))
+    s.append(txt(196, gy + 46, "左梢高了：弦是斜的", 4.5, SEAL))
     # 一只手按下
     s.append(f'<path d="M104,{gy + 26} Q122,{gy + 36} 140,{gy + 26}" fill="#EFE6D4" stroke="{INK}" stroke-width="1"/>')
     for i in range(3):
         s.append(f'<line x1="{114 + i * 7}" y1="{gy + 28}" x2="{114 + i * 7}" y2="{gy + 20}" stroke="{INK}" stroke-width="0.8"/>')
     s.append(f'<line x1="118" y1="{gy + 44}" x2="118" y2="{gy + 34}" stroke="{SEAL}" stroke-width="1" stroke-dasharray="3 2"/>')
     s.append(f'<polygon points="118,{gy + 44} 113,{gy + 34} 123,{gy + 34}" fill="{SEAL}"/>')
-    s.append(txt(190, gy + 34, "抑：一手按下", 4.3, SEAL, "middle"))
-    s.append(txt(190, gy + 116, "抑者，《说文》曰「按也」——一手可矣", 4.4, "#6E6459", "middle"))
+    s.append(txt(190, gy + 34, "抑：一手按下", 4.5, SEAL, "middle"))
+    s.append(txt(190, gy + 116, "抑者，《说文》曰「按也」——一手可矣", 4.5, "#6E6459", "middle"))
     s.append(txt(190, gy + 166, "高者抑之：高处只需一只手按住", 4.6, GREEN, "middle"))
 
     s.append(txt(24, gy + 190, "二、一头低了：举之", 4.8, GREEN))
@@ -8379,13 +8379,13 @@ def ch77a_yi_zhang_xian():
     s.append(f'<line x1="146" y1="{gy2 + 56}" x2="258" y2="{gy2 + 116}" stroke="#B9A98F" stroke-width="0.9"/>')
     s.append(f'<circle cx="146" cy="{gy2 + 56}" r="3" fill="none" stroke="#B9A98F" stroke-width="1"/>')
     s.append(f'<circle cx="258" cy="{gy2 + 116}" r="3" fill="none" stroke="{SEAL}" stroke-width="1.2"/>')
-    s.append(txt(196, gy2 + 72, "右梢低了：弦还是斜的", 4.3, SEAL))
+    s.append(txt(196, gy2 + 72, "右梢低了：弦还是斜的", 4.5, SEAL))
     # 两只手往上托
     s.append(f'<path d="M244,{gy2 + 132} Q262,{gy2 + 142} 280,{gy2 + 132}" fill="#EFE6D4" stroke="{INK}" stroke-width="1"/>')
     s.append(f'<path d="M244,{gy2 + 118} Q262,{gy2 + 128} 280,{gy2 + 118}" fill="#EFE6D4" stroke="{INK}" stroke-width="1"/>')
     s.append(f'<line x1="262" y1="{gy2 + 110}" x2="262" y2="{gy2 + 98}" stroke="{SEAL}" stroke-width="1" stroke-dasharray="3 2"/>')
     s.append(f'<polygon points="262,{gy2 + 94} 257,{gy2 + 104} 267,{gy2 + 104}" fill="{SEAL}"/>')
-    s.append(txt(176, gy2 + 146, "举：须两手托", 4.3, SEAL, "middle"))
+    s.append(txt(176, gy2 + 146, "举：须两手托", 4.5, SEAL, "middle"))
     s.append(txt(190, gy2 + 166, "举者，《说文》曰「对举也」——必须两只手", 4.6, GREEN, "middle"))
 
     a = gy2 + 190
@@ -8396,7 +8396,7 @@ def ch77a_yi_zhang_xian():
     c = a + 52
     s.append(f'<line x1="24" y1="{c}" x2="338" y2="{c}" stroke="{LINE}" stroke-width="0.6"/>')
     s.append(box(20, c + 8, 340, 40, fill="#F2EADA", stroke="#C9B79A"))
-    s.append(txt(190, c + 23, "高者抑之，下者举之。", 5.4, INK, "middle"))
+    s.append(txt(190, c + 23, "高者抑之，下者举之。", 5.2, INK, "middle"))
     s.append(txt(190, c + 36, "损有余易，补不足难。", 4.7, GREEN, "middle"))
     s.append(gold(c + 64, "ch77a"))
     s.append('</svg>')
@@ -8424,11 +8424,11 @@ def ch77b_yi_jian_po_yi():
     s.append(f'<rect x="228" y="{gy + 54}" width="34" height="40" rx="3" fill="#EFE6D4" stroke="{INK}" stroke-width="1.1"/>')
     # 阙：左肩一道口子
     s.append(f'<path d="M150,{gy + 56} l-6,8 l6,6 l-4,8" fill="none" stroke="{SEAL}" stroke-width="1.4"/>')
-    s.append(txt(112, gy + 44, "阙：破了", 4.3, SEAL))
+    s.append(txt(112, gy + 44, "阙：破了", 4.5, SEAL))
     # 余：右袖长出一截
     s.append(f'<rect x="262" y="{gy + 56}" width="22" height="34" rx="2" fill="#DED2B8" stroke="{SEAL}" stroke-width="1" stroke-dasharray="3 2"/>')
     s.append(txt(292, gy + 84, "余：多出一块", 4.2, SEAL))
-    s.append(txt(190, gy + 148, "同一块布，两处挂着：不缝，则两处皆废", 4.4, GREEN, "middle"))
+    s.append(txt(190, gy + 148, "同一块布，两处挂着：不缝，则两处皆废", 4.5, GREEN, "middle"))
     s.append(txt(190, gy + 168, "此天之算术也：非加总也，配平也", 4.6, GREEN, "middle"))
 
     s.append(txt(24, gy + 192, "二、剪此补彼：一件衣，两处都好", 4.8, GREEN))
@@ -8442,12 +8442,12 @@ def ch77b_yi_jian_po_yi():
     # 缝：针脚
     for i in range(5):
         s.append(f'<line x1="{144 + i * 5}" y1="{gy2 + 54}" x2="{140 + i * 5}" y2="{gy2 + 68}" stroke="{SEAL}" stroke-width="1"/>')
-    s.append(txt(120, gy2 + 44, "缝上了", 4.3, SEAL))
+    s.append(txt(120, gy2 + 44, "缝上了", 4.5, SEAL))
     # 虚线：那一块布挪过来
     s.append(f'<path d="M262,{gy2 + 70} Q222,{gy2 + 40} 176,{gy2 + 48}" fill="none" stroke="{SEAL}" stroke-width="1" stroke-dasharray="4 3"/>')
     s.append(f'<polygon points="176,{gy2 + 48} 186,{gy2 + 44} 186,{gy2 + 54}" fill="{SEAL}"/>')
     s.append(txt(272, gy2 + 92, "袖口不再多出", 4.2, "#6E6459"))
-    s.append(txt(190, gy2 + 148, "一布两处：一处有余，一处有阙；缝之，两处皆可用", 4.4, GREEN, "middle"))
+    s.append(txt(190, gy2 + 148, "一布两处：一处有余，一处有阙；缝之，两处皆可用", 4.5, GREEN, "middle"))
     s.append(txt(190, gy2 + 168, "补不是给它添，是让它重新穿得上", 4.6, GREEN, "middle"))
 
     a = gy2 + 192
@@ -8458,7 +8458,7 @@ def ch77b_yi_jian_po_yi():
     c = a + 52
     s.append(f'<line x1="24" y1="{c}" x2="338" y2="{c}" stroke="{LINE}" stroke-width="0.6"/>')
     s.append(box(20, c + 8, 340, 40, fill="#F2EADA", stroke="#C9B79A"))
-    s.append(txt(190, c + 23, "有余者损之，不足者补之。", 5.4, INK, "middle"))
+    s.append(txt(190, c + 23, "有余者损之，不足者补之。", 5.2, INK, "middle"))
     s.append(txt(190, c + 36, "补者，完衣也：缝也，非给也。", 4.7, GREEN, "middle"))
     s.append(gold(c + 64, "ch77b"))
     s.append('</svg>')
@@ -8482,12 +8482,12 @@ def ch77c_liang_zhi_shou():
     # 空碗
     s.append(f'<path d="M56,{gy + 82} Q78,{gy + 126} 100,{gy + 82}" fill="#EFE6D4" stroke="{INK}" stroke-width="1.2"/>')
     s.append(f'<line x1="54" y1="{gy + 82}" x2="102" y2="{gy + 82}" stroke="{INK}" stroke-width="1.2"/>')
-    s.append(txt(78, gy + 144, "不足", 4.3, "#6E6459", "middle"))
+    s.append(txt(78, gy + 144, "不足", 4.5, "#6E6459", "middle"))
     # 满碗
     s.append(f'<path d="M262,{gy + 64} Q288,{gy + 116} 314,{gy + 64}" fill="#EFE6D4" stroke="{INK}" stroke-width="1.2"/>')
     s.append(f'<line x1="258" y1="{gy + 64}" x2="318" y2="{gy + 64}" stroke="{INK}" stroke-width="1.2"/>')
     s.append(f'<path d="M258,{gy + 64} q30,-14 60,0" fill="#DED2B8" stroke="{INK}" stroke-width="1"/>')
-    s.append(txt(288, gy + 144, "有余", 4.3, SEAL, "middle"))
+    s.append(txt(288, gy + 144, "有余", 4.5, SEAL, "middle"))
     # 两只手：从空碗刮起，捧向满碗
     s.append(f'<path d="M98,{gy + 52} Q118,{gy + 66} 138,{gy + 52}" fill="#EFE6D4" stroke="{INK}" stroke-width="1"/>')
     for i in range(3):
@@ -8495,7 +8495,7 @@ def ch77c_liang_zhi_shou():
 
     s.append(f'<path d="M140,{gy + 52} Q200,{gy + 26} 258,{gy + 46}" fill="none" stroke="{SEAL}" stroke-width="1" stroke-dasharray="4 3"/>')
     s.append(f'<polygon points="258,{gy + 46} 246,{gy + 42} 248,{gy + 52}" fill="{SEAL}"/>')
-    s.append(txt(190, gy + 24, "捧而献之", 4.3, SEAL, "middle"))
+    s.append(txt(190, gy + 24, "捧而献之", 4.5, SEAL, "middle"))
     s.append(txt(190, gy + 166, "夺者含恨，献者含敬；而最冷者，献者自愿也", 4.6, GREEN, "middle"))
 
     s.append(txt(24, gy + 190, "二、唯有道者：倒过来捧", 4.8, GREEN))
@@ -8506,18 +8506,18 @@ def ch77c_liang_zhi_shou():
     s.append(f'<path d="M56,{gy2 + 64} Q82,{gy2 + 116} 108,{gy2 + 64}" fill="#EFE6D4" stroke="{INK}" stroke-width="1.2"/>')
     s.append(f'<line x1="52" y1="{gy2 + 64}" x2="112" y2="{gy2 + 64}" stroke="{INK}" stroke-width="1.2"/>')
     s.append(f'<path d="M52,{gy2 + 64} q30,-14 60,0" fill="#DED2B8" stroke="{INK}" stroke-width="1"/>')
-    s.append(txt(82, gy2 + 144, "有余", 4.3, SEAL, "middle"))
+    s.append(txt(82, gy2 + 144, "有余", 4.5, SEAL, "middle"))
     # 空碗（受）
     s.append(f'<path d="M262,{gy2 + 82} Q288,{gy2 + 126} 314,{gy2 + 82}" fill="#EFE6D4" stroke="{INK}" stroke-width="1.2"/>')
     s.append(f'<line x1="260" y1="{gy2 + 82}" x2="316" y2="{gy2 + 82}" stroke="{INK}" stroke-width="1.2"/>')
-    s.append(txt(288, gy2 + 144, "不足", 4.3, "#6E6459", "middle"))
+    s.append(txt(288, gy2 + 144, "不足", 4.5, "#6E6459", "middle"))
     s.append(f'<path d="M120,{gy2 + 48} Q200,{gy2 + 26} 260,{gy2 + 62}" fill="none" stroke="#4A5C55" stroke-width="1" stroke-dasharray="4 3"/>')
     s.append(f'<polygon points="260,{gy2 + 62} 248,{gy2 + 58} 250,{gy2 + 68}" fill="#4A5C55"/>')
     s.append(f'<path d="M178,{gy2 + 38} Q200,{gy2 + 54} 222,{gy2 + 38}" fill="#EFE6D4" stroke="{INK}" stroke-width="1"/>')
     for i in range(3):
         s.append(f'<line x1="{187 + i * 8}" y1="{gy2 + 40}" x2="{186 + i * 8}" y2="{gy2 + 30}" stroke="{INK}" stroke-width="0.8"/>')
 
-    s.append(txt(196, gy2 + 26, "有余以奉天下", 4.3, "#4A5C55", "middle"))
+    s.append(txt(196, gy2 + 26, "有余以奉天下", 4.5, "#4A5C55", "middle"))
     s.append(txt(190, gy2 + 166, "孰能有余以奉天下？唯有道者", 4.6, GREEN, "middle"))
 
     a = gy2 + 190
@@ -8528,7 +8528,7 @@ def ch77c_liang_zhi_shou():
     c = a + 52
     s.append(f'<line x1="24" y1="{c}" x2="338" y2="{c}" stroke="{LINE}" stroke-width="0.6"/>')
     s.append(box(20, c + 8, 340, 40, fill="#F2EADA", stroke="#C9B79A"))
-    s.append(txt(190, c + 23, "人之道则不然，损不足以奉有余。", 5.4, INK, "middle"))
+    s.append(txt(190, c + 23, "人之道则不然，损不足以奉有余。", 5.2, INK, "middle"))
     s.append(txt(190, c + 36, "奉者，承也：两手捧而献之。", 4.7, GREEN, "middle"))
     s.append(gold(c + 64, "ch77c"))
     s.append('</svg>')
@@ -8556,7 +8556,7 @@ def ch78a_yi_zhi_qi():
     # 水：从罐口倾出
     s.append(f'<path d="M132,{gy + 56} Q170,{gy + 70} 206,{gy + 64}" fill="none" stroke="#4A5C55" stroke-width="2"/>')
     s.append(f'<path d="M206,{gy + 64} Q214,{gy + 84} 214,{gy + 104}" fill="none" stroke="#4A5C55" stroke-width="2"/>')
-    s.append(txt(150, gy + 46, "水在倒", 4.3, "#4A5C55"))
+    s.append(txt(150, gy + 46, "水在倒", 4.5, "#4A5C55"))
     # 右器：细高瓶（另一个形）
     s.append(f'<path d="M200,{gy + 60} Q186,{gy + 92} 196,{gy + 130}" fill="#EFE6D4" stroke="{INK}" stroke-width="1.2"/>')
     s.append(f'<path d="M232,{gy + 60} Q246,{gy + 92} 236,{gy + 130}" fill="#EFE6D4" stroke="{INK}" stroke-width="1.2"/>')
@@ -8576,7 +8576,7 @@ def ch78a_yi_zhi_qi():
     s.append(txt(96, gy2 + 100, "器碎了", 4.2, SEAL))
     # 地上那滩水：形状随地
     s.append(f'<path d="M150,{gy2 + 132} Q196,{gy2 + 112} 250,{gy2 + 132} Q200,{gy2 + 142} 150,{gy2 + 132} Z" fill="#4A5C55" fill-opacity="0.25" stroke="#4A5C55" stroke-width="1"/>')
-    s.append(txt(200, gy2 + 96, "还是那滩水", 4.3, "#4A5C55", "middle"))
+    s.append(txt(200, gy2 + 96, "还是那滩水", 4.5, "#4A5C55", "middle"))
     s.append(txt(190, gy2 + 172, "形易万次，体未尝一易", 4.6, GREEN, "middle"))
 
     a = gy2 + 196
@@ -8618,7 +8618,7 @@ def ch78b_yi_peng_tu():
     for i in range(4):
         s.append(f'<circle cx="{162 + i * 20}" cy="{gy + 46 + (i % 2) * 6}" r="1.6" fill="#B9A98F"/>')
         s.append(f'<circle cx="{168 + i * 18}" cy="{gy + 56 + (i % 2) * 5}" r="1.4" fill="#B9A98F"/>')
-    s.append(txt(196, gy + 10, "土落下来", 4.3, SEAL, "middle"))
+    s.append(txt(196, gy + 10, "土落下来", 4.5, SEAL, "middle"))
     s.append(txt(190, gy + 168, "接住：土落进来，水不拒——拒的，就不是受", 4.6, GREEN, "middle"))
 
     s.append(txt(24, gy + 192, "二、沉之，复清之", 4.8, GREEN))
@@ -8631,8 +8631,8 @@ def ch78b_yi_peng_tu():
     s.append(f'<path d="M150,{gy2 + 58} L230,{gy2 + 58} L228,{gy2 + 104} Q190,{gy2 + 112} 152,{gy2 + 104} Z" fill="#4A5C55" fill-opacity="0.16" stroke="#4A5C55" stroke-width="0.7"/>')
     # 沉土在下
     s.append(f'<path d="M152,{gy2 + 104} Q190,{gy2 + 112} 228,{gy2 + 104} Q228,{gy2 + 118} 190,{gy2 + 122} Q152,{gy2 + 118} 152,{gy2 + 104} Z" fill="#DED2B8" stroke="{INK}" stroke-width="0.8"/>')
-    s.append(txt(252, gy2 + 74, "上：清", 4.3, "#4A5C55"))
-    s.append(txt(252, gy2 + 116, "下：土沉了", 4.3, SEAL))
+    s.append(txt(252, gy2 + 74, "上：清", 4.5, "#4A5C55"))
+    s.append(txt(252, gy2 + 116, "下：土沉了", 4.5, SEAL))
     s.append(f'<line x1="240" y1="{gy2 + 110}" x2="248" y2="{gy2 + 114}" stroke="#B9A98F" stroke-width="0.7"/>')
     s.append(txt(190, gy2 + 168, "土沉了，水自己就清了：不是吞土，是放土", 4.6, GREEN, "middle"))
 
@@ -8644,7 +8644,7 @@ def ch78b_yi_peng_tu():
     c = a + 52
     s.append(f'<line x1="24" y1="{c}" x2="338" y2="{c}" stroke="{LINE}" stroke-width="0.6"/>')
     s.append(box(20, c + 8, 340, 40, fill="#F2EADA", stroke="#C9B79A"))
-    s.append(txt(190, c + 23, "受国之垢，是谓社稷主。", 5.4, INK, "middle"))
+    s.append(txt(190, c + 23, "受国之垢，是谓社稷主。", 5.2, INK, "middle"))
     s.append(txt(190, c + 36, "垢者，浊也，从土：垢即土也。", 4.7, GREEN, "middle"))
     s.append(gold(c + 64, "ch78b"))
     s.append('</svg>')
@@ -8659,7 +8659,7 @@ def ch78c_yi_kuai_pai_wei():
 
     s.append(box(20, y + 2, 340, 32, fill="#F2EADA", stroke="#C9B79A"))
     s.append(txt(190, y + 14, "社，《说文》「地主也」，从示土——土神也。", 4.7, INK, "middle"))
-    s.append(txt(190, y + 27, "垢从土，社亦从土：一污一神；以污之一面自受，而后为神之一面之主。", 4.4, "#6E6459", "middle"))
+    s.append(txt(190, y + 27, "垢从土，社亦从土：一污一神；以污之一面自受，而后为神之一面之主。", 4.5, "#6E6459", "middle"))
 
     s.append(txt(24, y + 50, "一、土：先是一捧土", 4.8, SEAL))
     gy = y + 62
@@ -8675,9 +8675,9 @@ def ch78c_yi_kuai_pai_wei():
     for i in range(2):
         s.append(f'<line x1="{92 + i * 8}" y1="{gy + 114}" x2="{91 + i * 8}" y2="{gy + 106}" stroke="{INK}" stroke-width="0.8"/>')
         s.append(f'<line x1="{198 + i * 8}" y1="{gy + 114}" x2="{197 + i * 8}" y2="{gy + 106}" stroke="{INK}" stroke-width="0.8"/>')
-    s.append(txt(150, gy + 78, "一捧土", 4.4, SEAL, "middle"))
-    s.append(txt(252, gy + 104, "垢就是土：", 4.3, SEAL))
-    s.append(txt(252, gy + 116, "最脏的那一面", 4.3, "#6E6459"))
+    s.append(txt(150, gy + 78, "一捧土", 4.5, SEAL, "middle"))
+    s.append(txt(252, gy + 104, "垢就是土：", 4.5, SEAL))
+    s.append(txt(252, gy + 116, "最脏的那一面", 4.5, "#6E6459"))
     s.append(txt(190, gy + 168, "土是最贱的东西：踩在脚下，也落在衣上", 4.6, GREEN, "middle"))
 
     s.append(txt(24, gy + 192, "二、同一捧土，立成社主", 4.8, GREEN))
@@ -8691,8 +8691,8 @@ def ch78c_yi_kuai_pai_wei():
     s.append(txt(160, gy2 + 92, "社", 15, SEAL, "middle"))
     # 一抹土色贴在牌上
     s.append(f'<path d="M144,{gy2 + 116} q16,-6 32,0" fill="none" stroke="#B9A98F" stroke-width="1"/>')
-    s.append(txt(196, gy2 + 66, "接过土的，", 4.3, SEAL))
-    s.append(txt(196, gy2 + 78, "才配当它的主", 4.3, SEAL))
+    s.append(txt(196, gy2 + 66, "接过土的，", 4.5, SEAL))
+    s.append(txt(196, gy2 + 78, "才配当它的主", 4.5, SEAL))
     s.append(txt(190, gy2 + 168, "土神不是另请一位：是把接过的那捧土立起来", 4.6, GREEN, "middle"))
 
     a = gy2 + 192
@@ -8703,7 +8703,7 @@ def ch78c_yi_kuai_pai_wei():
     c = a + 52
     s.append(f'<line x1="24" y1="{c}" x2="338" y2="{c}" stroke="{LINE}" stroke-width="0.6"/>')
     s.append(box(20, c + 8, 340, 40, fill="#F2EADA", stroke="#C9B79A"))
-    s.append(txt(190, c + 23, "受国不祥，是为天下王。", 5.4, INK, "middle"))
+    s.append(txt(190, c + 23, "受国不祥，是为天下王。", 5.2, INK, "middle"))
     s.append(txt(190, c + 36, "社者，地主也，从示土。", 4.7, GREEN, "middle"))
     s.append(gold(c + 64, "ch78c"))
     s.append('</svg>')
@@ -8731,10 +8731,10 @@ def ch79a_ban_pian_mu():
         yy = gy + 58 + i * 20
         s.append(f'<line x1="132" y1="{yy}" x2="118" y2="{yy}" stroke="{INK}" stroke-width="1.4"/>')
         s.append(f'<line x1="136" y1="{yy}" x2="150" y2="{yy}" stroke="{INK}" stroke-width="1.4"/>')
-    s.append(txt(108, gy + 30, "左契", 4.3, SEAL, "middle"))
-    s.append(txt(172, gy + 30, "右契", 4.3, "#6E6459", "middle"))
-    s.append(txt(216, gy + 74, "齿对得上，", 4.3, SEAL))
-    s.append(txt(216, gy + 86, "才认得出这一份", 4.3, "#6E6459"))
+    s.append(txt(108, gy + 30, "左契", 4.5, SEAL, "middle"))
+    s.append(txt(172, gy + 30, "右契", 4.5, "#6E6459", "middle"))
+    s.append(txt(216, gy + 74, "齿对得上，", 4.5, SEAL))
+    s.append(txt(216, gy + 86, "才认得出这一份", 4.5, "#6E6459"))
     s.append(txt(190, gy + 168, "剖开过，所以只剩一半：它记得住，是靠那道齿", 4.6, GREEN, "middle"))
 
     s.append(txt(24, gy + 192, "二、执在手上，但不伸出去", 4.8, GREEN))
@@ -8798,7 +8798,7 @@ def ch79b_yi_zhang_zhang():
     # 一支笔
     s.append(f'<line x1="228" y1="{gy + 34}" x2="240" y2="{gy + 92}" stroke="{INK}" stroke-width="1.6"/>')
     s.append(f'<path d="M240,{gy + 92} l-4,8 l6,-1" fill="#DED2B8" stroke="{INK}" stroke-width="1"/>')
-    s.append(txt(190, gy + 136, "彻：通篇算过，条条都记得", 4.3, SEAL, "middle"))
+    s.append(txt(190, gy + 136, "彻：通篇算过，条条都记得", 4.5, SEAL, "middle"))
     s.append(txt(190, gy + 168, "它不出声，但它天天在动", 4.6, GREEN, "middle"))
 
     s.append(txt(24, gy + 192, "二、账合上了：只存那一块木", 4.8, GREEN))
@@ -8825,7 +8825,7 @@ def ch79b_yi_zhang_zhang():
     c = a + 52
     s.append(f'<line x1="24" y1="{c}" x2="338" y2="{c}" stroke="{LINE}" stroke-width="0.6"/>')
     s.append(box(20, c + 8, 340, 40, fill="#F2EADA", stroke="#C9B79A"))
-    s.append(txt(190, c + 23, "有德司契，无德司彻。", 5.4, INK, "middle"))
+    s.append(txt(190, c + 23, "有德司契，无德司彻。", 5.2, INK, "middle"))
     s.append(txt(190, c + 36, "契记齿，账记数。", 4.7, GREEN, "middle"))
     s.append(gold(c + 64, "ch79b"))
     s.append('</svg>')
@@ -8861,7 +8861,7 @@ def ch79c_yi_gan_cheng():
     s.append(f'<path d="M292,{gy + 78} q16,-14 32,0" fill="#DED2B8" stroke="{INK}" stroke-width="0.9"/>')
     s.append(txt(72, gy + 116, "一块石", 4.2, "#6E6459", "middle"))
     s.append(txt(308, gy + 116, "一捧谷", 4.2, "#6E6459", "middle"))
-    s.append(txt(190, gy + 116, "什么都称", 4.3, SEAL, "middle"))
+    s.append(txt(190, gy + 116, "什么都称", 4.5, SEAL, "middle"))
     s.append(txt(190, gy + 168, "它不挑东西：石与谷，两盘一样重就平", 4.6, GREEN, "middle"))
 
     s.append(txt(24, gy + 192, "二、不进门：挂在门口", 4.8, GREEN))
@@ -8895,7 +8895,7 @@ def ch79c_yi_gan_cheng():
     c = a + 52
     s.append(f'<line x1="24" y1="{c}" x2="338" y2="{c}" stroke="{LINE}" stroke-width="0.6"/>')
     s.append(box(20, c + 8, 340, 40, fill="#F2EADA", stroke="#C9B79A"))
-    s.append(txt(190, c + 23, "天道无亲，常与善人。", 5.4, INK, "middle"))
+    s.append(txt(190, c + 23, "天道无亲，常与善人。", 5.2, INK, "middle"))
     s.append(txt(190, c + 36, "无亲者，不偏向也。", 4.7, GREEN, "middle"))
     s.append(gold(c + 64, "ch79c"))
     s.append('</svg>')
@@ -8920,7 +8920,7 @@ def ch80a_yi_gen_sheng():
     # 大小结
     for cx, r in [(76, 4), (116, 2.6), (156, 5), (196, 2.6), (236, 4), (276, 3)]:
         s.append(f'<circle cx="{cx}" cy="{gy + 84}" r="{r}" fill="{INK}"/>')
-    s.append(txt(190, gy + 116, "大事大结，小事小结：只有数", 4.4, SEAL, "middle"))
+    s.append(txt(190, gy + 116, "大事大结，小事小结：只有数", 4.5, SEAL, "middle"))
     s.append(txt(190, gy + 168, "没有字，就不必争那个字怎么写", 4.6, GREEN, "middle"))
 
     s.append(txt(24, gy + 192, "二、结完了，挂在墙上", 4.8, GREEN))
@@ -8934,9 +8934,9 @@ def ch80a_yi_gen_sheng():
     s.append(f'<ellipse cx="150" cy="{gy2 + 68}" rx="16" ry="12" fill="none" stroke="{INK}" stroke-width="1"/>')
     s.append(f'<line x1="150" y1="{gy2 + 30}" x2="150" y2="{gy2 + 48}" stroke="{INK}" stroke-width="1.2"/>')
     s.append(f'<path d="M172,{gy2 + 84} q10,10 4,20" fill="none" stroke="{INK}" stroke-width="1.2"/>')
-    s.append(txt(150, gy2 + 116, "挂着：在，不用", 4.4, SEAL, "middle"))
-    s.append(txt(236, gy2 + 68, "绳在，不响；", 4.3, "#6E6459"))
-    s.append(txt(236, gy2 + 80, "数在，不算。", 4.3, "#6E6459"))
+    s.append(txt(150, gy2 + 116, "挂着：在，不用", 4.5, SEAL, "middle"))
+    s.append(txt(236, gy2 + 68, "绳在，不响；", 4.5, "#6E6459"))
+    s.append(txt(236, gy2 + 80, "数在，不算。", 4.5, "#6E6459"))
     s.append(txt(190, gy2 + 168, "都在，都不用：这就是这一章全部的功夫", 4.6, GREEN, "middle"))
 
     a = gy2 + 192
@@ -8947,7 +8947,7 @@ def ch80a_yi_gen_sheng():
     c = a + 52
     s.append(f'<line x1="24" y1="{c}" x2="338" y2="{c}" stroke="{LINE}" stroke-width="0.6"/>')
     s.append(box(20, c + 8, 340, 40, fill="#F2EADA", stroke="#C9B79A"))
-    s.append(txt(190, c + 23, "使民复结绳而用之。", 5.4, INK, "middle"))
+    s.append(txt(190, c + 23, "使民复结绳而用之。", 5.2, INK, "middle"))
     s.append(txt(190, c + 36, "绳上只打结，不刻字。", 4.7, GREEN, "middle"))
     s.append(gold(c + 64, "ch80a"))
     s.append('</svg>')
@@ -8975,7 +8975,7 @@ def ch80b_yi_tiao_chuan():
     # 桨
     s.append(f'<line x1="130" y1="{gy + 46}" x2="216" y2="{gy + 96}" stroke="{INK}" stroke-width="1.6"/>')
     s.append(f'<ellipse cx="222" cy="{gy + 99}" rx="9" ry="4" fill="#DED2B8" stroke="{INK}" stroke-width="1" transform="rotate(14 222 {gy + 99})"/>')
-    s.append(txt(190, gy + 128, "船能走，桨在手", 4.4, SEAL, "middle"))
+    s.append(txt(190, gy + 128, "船能走，桨在手", 4.5, SEAL, "middle"))
     s.append(txt(190, gy + 168, "有而不用：船不破，水不惊", 4.6, GREEN, "middle"))
 
     s.append(txt(24, gy + 192, "二、不启动：桨横在船里", 4.8, GREEN))
@@ -8990,7 +8990,7 @@ def ch80b_yi_tiao_chuan():
 
     # 系船的绳
     s.append(f'<path d="M246,{gy2 + 74} q18,6 6,18" fill="none" stroke="{SEAL}" stroke-width="1" stroke-dasharray="3 2"/>')
-    s.append(txt(190, gy2 + 130, "桨横着，绳系着：不启动", 4.4, SEAL, "middle"))
+    s.append(txt(190, gy2 + 130, "桨横着，绳系着：不启动", 4.5, SEAL, "middle"))
     s.append(txt(190, gy2 + 168, "每天被人看见，每天不被使用", 4.6, GREEN, "middle"))
 
     a = gy2 + 192
@@ -9001,7 +9001,7 @@ def ch80b_yi_tiao_chuan():
     c = a + 52
     s.append(f'<line x1="24" y1="{c}" x2="338" y2="{c}" stroke="{LINE}" stroke-width="0.6"/>')
     s.append(box(20, c + 8, 340, 40, fill="#F2EADA", stroke="#C9B79A"))
-    s.append(txt(190, c + 23, "虽有舟舆，无所乘之。", 5.4, INK, "middle"))
+    s.append(txt(190, c + 23, "虽有舟舆，无所乘之。", 5.2, INK, "middle"))
     s.append(txt(190, c + 36, "舟在，而不乘。", 4.7, GREEN, "middle"))
     s.append(gold(c + 64, "ch80b"))
     s.append('</svg>')
@@ -9103,7 +9103,7 @@ def ch81a_yi_kou_cang():
     s.append(f'<path d="M186,{gy + 102} q4,-6 8,0" fill="none" stroke="{SEAL}" stroke-width="1.2"/>')
     # 仓里的谷堆（透过门看不去，改在檐下画谷）
 
-    s.append(txt(190, gy + 144, "装得下：四壁、门、锁", 4.4, SEAL, "middle"))
+    s.append(txt(190, gy + 144, "装得下：四壁、门、锁", 4.5, SEAL, "middle"))
     s.append(txt(190, gy + 168, "存量：一斗一斗数得清", 4.6, GREEN, "middle"))
 
     s.append(txt(24, gy + 192, "二、越大，越不敢出门", 4.8, GREEN))
@@ -9124,9 +9124,9 @@ def ch81a_yi_kou_cang():
     s.append(f'<path d="M124,{gy2 + 110} l8,6" stroke="{INK}" stroke-width="1"/>')
     for i in range(3):
         s.append(f'<circle cx="{132 + i * 3}" cy="{gy2 + 117 + i * 1}" r="1.4" fill="none" stroke="{SEAL}" stroke-width="0.9"/>')
-    s.append(txt(120, gy2 + 144, "主人守在门外", 4.4, SEAL, "middle"))
-    s.append(txt(232, gy2 + 108, "仓越大，", 4.3, "#6E6459"))
-    s.append(txt(232, gy2 + 120, "越不敢走。", 4.3, "#6E6459"))
+    s.append(txt(120, gy2 + 144, "主人守在门外", 4.5, SEAL, "middle"))
+    s.append(txt(232, gy2 + 108, "仓越大，", 4.5, "#6E6459"))
+    s.append(txt(232, gy2 + 120, "越不敢走。", 4.5, "#6E6459"))
     s.append(txt(190, gy2 + 168, "仓会空，泉不会：不积，是换一种算法", 4.6, GREEN, "middle"))
 
     a = gy2 + 192
@@ -9167,7 +9167,7 @@ def ch81b_yi_yan_quan():
     # 周围湿：一圈淡灰的湿痕
     s.append(f'<ellipse cx="190" cy="{gy + 121}" rx="96" ry="16" fill="none" stroke="#DED2B8" stroke-width="1"/>')
     s.append(f'<ellipse cx="190" cy="{gy + 122}" rx="120" ry="20" fill="none" stroke="{LINE}" stroke-width="0.9"/>')
-    s.append(txt(190, gy + 146, "不装，只是涌", 4.4, SEAL, "middle"))
+    s.append(txt(190, gy + 146, "不装，只是涌", 4.5, SEAL, "middle"))
     s.append(txt(190, gy + 168, "流量：没有底，也没有顶", 4.6, GREEN, "middle"))
 
     s.append(txt(24, gy + 192, "二、取走一瓢，还在涌", 4.8, GREEN))
@@ -9187,7 +9187,7 @@ def ch81b_yi_yan_quan():
     # 水面浮出的一层（仍在涌）
     s.append(f'<path d="M196,{gy2 + 112} q10,-6 18,-2" fill="none" stroke="#4A5C55" stroke-width="0.9"/>')
     s.append(txt(252, gy2 + 140, "舀走一瓢", 4.2, SEAL, "middle"))
-    s.append(txt(150, gy2 + 146, "取走，仍在涌", 4.4, SEAL, "middle"))
+    s.append(txt(150, gy2 + 146, "取走，仍在涌", 4.5, SEAL, "middle"))
     s.append(txt(190, gy2 + 168, "既以与人，己愈多", 4.6, GREEN, "middle"))
 
     a = gy2 + 192
@@ -9253,7 +9253,7 @@ def ch81c_yi_ba_dao():
     s.append(f'<line x1="164" y1="{gy2 + 90}" x2="164" y2="{gy2 + 102}" stroke="{SEAL}" stroke-width="1"/>')
     s.append(f'<path d="M186,{gy2 + 96} L200,{gy2 + 96}" stroke="{SEAL}" stroke-width="0.8" stroke-dasharray="3 2"/>')
     s.append(f'<line x1="200" y1="{gy2 + 89}" x2="200" y2="{gy2 + 103}" stroke="{SEAL}" stroke-width="1.1"/>')
-    s.append(txt(196, gy2 + 82, "卡住", 4.4, SEAL, "middle"))
+    s.append(txt(196, gy2 + 82, "卡住", 4.5, SEAL, "middle"))
     s.append(txt(190, gy2 + 148, "逆着走，刀就卡：力加在刃上，不在禾上", 4.6, GREEN, "middle"))
 
     a = gy2 + 192
@@ -9294,7 +9294,7 @@ def ch02b_yi_gen_biao_gan():
         s.append(f'<line x1="{bx}" y1="{base}" x2="{bx - 3}" y2="{base - 7}" stroke="#B9A98F" stroke-width="0.7"/>')
         s.append(f'<line x1="{bx}" y1="{base}" x2="{bx + 3}" y2="{base - 6}" stroke="#B9A98F" stroke-width="0.7"/>')
     s.append(txt(190, gy + 116, "东西都在，只是没人给它排位：没有「美」，也就没有「恶」", 4.5, GREEN, "middle"))
-    s.append(txt(190, gy + 128, "空地一片", 4.3, "#8A7C69", "middle"))
+    s.append(txt(190, gy + 128, "空地一片", 4.5, "#8A7C69", "middle"))
 
     # 二、立标
     s.append(txt(24, gy + 150, "二、立标：一杆落地，两侧同时有了名字", 5.2, SEAL))
@@ -9319,15 +9319,15 @@ def ch02b_yi_gen_biao_gan():
             hx = pole + dx * (20 + k * 20)
             s.append(f'<line x1="{hx}" y1="{base2 - 3}" x2="{hx}" y2="{base2 - 12}" stroke="{hatch}" stroke-width="0.5"/>')
     s.append(txt(pole - 62, base2 - 30, "美", 8.0, SEAL, "middle"))
-    s.append(txt(pole - 62, base2 + 14, "量得到的", 4.4, SEAL, "middle"))
+    s.append(txt(pole - 62, base2 + 14, "量得到的", 4.5, SEAL, "middle"))
     s.append(txt(pole + 62, base2 - 30, "恶", 8.0, "#6E6459", "middle"))
-    s.append(txt(pole + 62, base2 + 14, "量不到的", 4.4, "#6E6459", "middle"))
+    s.append(txt(pole + 62, base2 + 14, "量不到的", 4.5, "#6E6459", "middle"))
     s.append(txt(190, gy2 + 168, "两侧的影子同时落地：杆立之前，一片影子也没有", 4.5, GREEN, "middle"))
-    s.append(txt(190, gy2 + 182, "影子不是原本就有的", 4.3, "#8A7C69", "middle"))
+    s.append(txt(190, gy2 + 182, "影子不是原本就有的", 4.5, "#8A7C69", "middle"))
 
     a = gy2 + 194
-    s.append(txt(24, a, "标尺一立，另一半就被判了罪——罪的来处，是那把尺，不是那个人。", 5.4, INK))
-    s.append(txt(24, a + 16, "所以「斯恶已」不是骂人，是记账：这一杆立下去，账上同时记了一笔善、一笔恶。", 5.4, INK))
+    s.append(txt(24, a, "标尺一立，另一半就被判了罪——罪的来处，是那把尺，不是那个人。", 5.2, INK))
+    s.append(txt(24, a + 16, "所以「斯恶已」不是骂人，是记账：这一杆立下去，账上同时记了一笔善、一笔恶。", 5.2, INK))
     s.append(txt(24, a + 34, "要收的不是恶人，是那一杆——杆收了，账才平。", 5.2, GREEN))
 
     c = a + 52
@@ -9361,7 +9361,7 @@ def ch02c_liang_zhi_guan():
     def guan(cx, top, h, w, lab, color=INK):
         s.append(f'<path d="M{cx - w / 2},{top} L{cx - w / 2},{top + h} q{w / 2},8 {w},0 L{cx + w / 2},{top} z" fill="#EFE6D4" stroke="{color}" stroke-width="1.1"/>')
         s.append(f'<ellipse cx="{cx}" cy="{top}" rx="{w / 2}" ry="3.4" fill="none" stroke="{color}" stroke-width="0.9"/>')
-        s.append(txt(cx, top - 8, lab, 4.4, color, "middle"))
+        s.append(txt(cx, top - 8, lab, 4.5, color, "middle"))
 
     gb = gy + 132
     guan(112, gb - 92, 92, 16, "长管")
@@ -9370,18 +9370,18 @@ def ch02c_liang_zhi_guan():
     for k in range(3):
         r = 24 + k * 8
         s.append(f'<path d="M{104},{gb - 76} q-{r / 2},-{r} -{r},0" fill="none" stroke="{SEAL}" stroke-width="0.7" opacity="0.5"/>')
-    s.append(txt(44, gb - 84, "一唱", 4.4, SEAL))
+    s.append(txt(44, gb - 84, "一唱", 4.5, SEAL))
     for k in range(3):
         r = 22 + k * 8
         s.append(f'<path d="M{214},{gb - 48} q{r / 2},-{r} {r},0" fill="none" stroke="{GREEN}" stroke-width="0.7" opacity="0.5"/>')
-    s.append(txt(266, gb - 56, "一应", 4.4, GREEN))
+    s.append(txt(266, gb - 56, "一应", 4.5, GREEN))
     # 第三样东西：两管之间浮起
     for k in range(3):
         s.append(f'<path d="M136,{gb - 96 - k * 6} q14,-6 28,0" fill="none" stroke="#8A7C69" stroke-width="0.6" opacity="0.55"/>')
-    s.append(txt(150, gb - 120, "第三样：和声", 4.4, "#6E6459", "middle"))
+    s.append(txt(150, gb - 120, "第三样：和声", 4.5, "#6E6459", "middle"))
     s.append(f'<line x1="40" y1="{gb}" x2="330" y2="{gb}" stroke="{INK}" stroke-width="1"/>')
     s.append(txt(190, gy + 150, "两管互不吞并，各守边界——和的前提是不同", 4.5, GREEN, "middle"))
-    s.append(txt(190, gy + 164, "和：一唱一应，各自成声", 4.3, "#8A7C69", "middle"))
+    s.append(txt(190, gy + 164, "和：一唱一应，各自成声", 4.5, "#8A7C69", "middle"))
 
     # 二、合
     s.append(txt(24, gy + 194, "二、合：两管并成一根，只剩一个声音", 5.2, SEAL))
@@ -9394,13 +9394,13 @@ def ch02c_liang_zhi_guan():
     for k in range(3):
         r = 40 + k * 8
         s.append(f'<path d="M198,{gb2 - 80} q{r / 2},-{r} {r},0" fill="none" stroke="#6E6459" stroke-width="0.7" opacity="0.45"/>')
-    s.append(txt(216, gb2 - 34, "只剩一个声音", 4.4, "#6E6459"))
+    s.append(txt(216, gb2 - 34, "只剩一个声音", 4.5, "#6E6459"))
     s.append(txt(190, gy2 + 128, "第二管不见了，第一管也没有变得更响——是少了一个声音，不是多了一个", 4.5, GREEN, "middle"))
-    s.append(txt(190, gy2 + 142, "合：抹平边界，只留一套", 4.3, "#8A7C69", "middle"))
+    s.append(txt(190, gy2 + 142, "合：抹平边界，只留一套", 4.5, "#8A7C69", "middle"))
 
     a = gy2 + 172
-    s.append(txt(24, a, "和不是「没有分歧」，恰是「有分歧而各自站得住」。", 5.4, INK))
-    s.append(txt(24, a + 16, "老子要护的就是这一处：不把两套并成一套，才生得出第三样东西。", 5.4, INK))
+    s.append(txt(24, a, "和不是「没有分歧」，恰是「有分歧而各自站得住」。", 5.2, INK))
+    s.append(txt(24, a + 16, "老子要护的就是这一处：不把两套并成一套，才生得出第三样东西。", 5.2, INK))
     s.append(txt(24, a + 34, "合是把差异抹掉换来的安静；和是差异还在，却已经应上了。", 5.2, GREEN))
 
     c = a + 52
@@ -9447,7 +9447,7 @@ def ch03b_yi_kuai_jia_pai():
     s.append(arrow(266, gy + 168, mid + 30, ptxt, SEAL, 1.0, None, "arrS"))
     s.append(txt(304, shelf + 44, "争", 8.4, SEAL, "middle"))
     s.append(txt(190, gy + 200, "争的不是货，是牌子上的名次", 4.5, GREEN, "middle"))
-    s.append(txt(190, gy + 236, "挂牌：三样货，三块价牌，三处力气都朝牌子去", 4.4, "#8A7C69", "middle"))
+    s.append(txt(190, gy + 236, "挂牌：三样货，三块价牌，三处力气都朝牌子去", 4.5, "#8A7C69", "middle"))
 
     # 二、撤牌
     s.append(txt(24, gy + 264, "二、撤牌：牌子摘了，货还在，力气各回各处", 5.2, SEAL))
@@ -9467,11 +9467,11 @@ def ch03b_yi_kuai_jia_pai():
     s.append(arrow(186, gy2 + 174, 184, shelf2 + 24, GREEN, 0.9, None, "arr2"))
     s.append(arrow(272, gy2 + 170, 256, shelf2 + 30, GREEN, 0.9, None, "arr2"))
     s.append(txt(190, gy2 + 200, "各取各自要的：本然之欲还在，攀缘之欲没了根", 4.5, GREEN, "middle"))
-    s.append(txt(190, gy2 + 236, "撤牌：三块空位还在，只是不再挂东西", 4.4, "#8A7C69", "middle"))
+    s.append(txt(190, gy2 + 236, "撤牌：三块空位还在，只是不再挂东西", 4.5, "#8A7C69", "middle"))
 
     a = gy2 + 264
-    s.append(txt(24, a, "老子不否贤，不否货，也不否欲——他否的是那把尺。", 5.4, INK))
-    s.append(txt(24, a + 16, "尺一收，争、盗、乱三样一起没了根：不是压住了，是没处长出来。", 5.4, INK))
+    s.append(txt(24, a, "老子不否贤，不否货，也不否欲——他否的是那把尺。", 5.2, INK))
+    s.append(txt(24, a + 16, "尺一收，争、盗、乱三样一起没了根：不是压住了，是没处长出来。", 5.2, INK))
     s.append(txt(24, a + 34, "所以三句话不是三道禁令，是一个动作：不主动起标。", 5.2, GREEN))
 
     c = a + 52
@@ -9513,12 +9513,12 @@ def ch03c_yi_ke_shu():
     s.append(f'<line x1="{trunk + 42}" y1="{base - 64}" x2="{trunk + 50}" y2="{base - 56}" stroke="{SEAL}" stroke-width="1.0"/>')
     s.append(f'<line x1="{trunk + 66}" y1="{base - 3}" x2="{trunk + 132}" y2="{base - 14}" stroke="{SEAL}" stroke-width="1.1"/>')
     s.append(f'<line x1="{trunk + 104}" y1="{base - 9}" x2="{trunk + 116}" y2="{base - 22}" stroke="{SEAL}" stroke-width="0.6"/>')
-    s.append(txt(trunk + 70, base - 76, "折了", 4.4, SEAL))
+    s.append(txt(trunk + 70, base - 76, "折了", 4.5, SEAL))
     for k in range(3):
         s.append(f'<path d="M48,{base - 104 + k * 9} q30,-8 58,0" fill="none" stroke="#B9A98F" stroke-width="0.6"/>')
-    s.append(txt(52, base - 114, "风", 4.4, "#8A7C69"))
+    s.append(txt(52, base - 114, "风", 4.5, "#8A7C69"))
     s.append(txt(190, gy + 196, "志者，往上去的那股劲：劲全使在争高上，根就浅了", 4.5, GREEN, "middle"))
-    s.append(txt(190, gy + 212, "争高的树：枝细而尖，断口留在干上，断枝落在地上", 4.4, "#8A7C69", "middle"))
+    s.append(txt(190, gy + 212, "争高的树：枝细而尖，断口留在干上，断枝落在地上", 4.5, "#8A7C69", "middle"))
 
     # 二、实腹虚心
     s.append(txt(24, gy + 240, "二、实腹虚心：干厚、心空、根深、枝低", 5.2, SEAL))
@@ -9544,18 +9544,18 @@ def ch03c_yi_ke_shu():
         s.append(f'<line x1="168" y1="{base2 + y0}" x2="{168 - dx}" y2="{base2 + y0 - dy}" stroke="{INK}" stroke-width="0.8"/>')
         s.append(f'<line x1="{168 - dx}" y1="{base2 + y0 - dy}" x2="{168 - dx - 8}" y2="{base2 + y0 - dy - 6}" stroke="{GREEN}" stroke-width="0.6"/>')
     # 标注：贴在图外，短引线指向壁、根、枝
-    s.append(txt(30, base2 - 64, "实其腹＝壁厚", 4.3, INK))
+    s.append(txt(30, base2 - 64, "实其腹＝壁厚", 4.5, INK))
     s.append(f'<line x1="100" y1="{base2 - 62}" x2="166" y2="{base2 - 62}" stroke="{LINE2}" stroke-width="0.6" stroke-dasharray="3 2"/>')
-    s.append(txt(30, base2 + 40, "强其骨＝根深", 4.3, INK))
+    s.append(txt(30, base2 + 40, "强其骨＝根深", 4.5, INK))
     s.append(f'<line x1="100" y1="{base2 + 38}" x2="144" y2="{base2 + 32}" stroke="{LINE2}" stroke-width="0.6" stroke-dasharray="3 2"/>')
-    s.append(txt(350, base2 - 96, "弱其志＝枝低", 4.3, INK, "end"))
+    s.append(txt(350, base2 - 96, "弱其志＝枝低", 4.5, INK, "end"))
     s.append(f'<line x1="348" y1="{base2 - 94}" x2="266" y2="{base2 - 96}" stroke="{LINE2}" stroke-width="0.6" stroke-dasharray="3 2"/>')
     s.append(txt(190, gy2 + 208, "壁厚；虚线处是干心，留着空", 4.5, GREEN, "middle"))
-    s.append(txt(190, gy2 + 224, "实腹＝壁厚，虚心＝干心留空，强骨＝根深，弱志＝枝低", 4.4, "#8A7C69", "middle"))
+    s.append(txt(190, gy2 + 224, "实腹＝壁厚，虚心＝干心留空，强骨＝根深，弱志＝枝低", 4.5, "#8A7C69", "middle"))
 
     a = gy2 + 252
-    s.append(txt(24, a, "「实其腹」不是吃饱，是把壁留厚；「虚其心」不是清空念头，是把干心留成中空。", 5.4, INK))
-    s.append(txt(24, a + 16, "壁一厚，空就能用起来；若反把壁掏薄、把空填实，看着结实，一敲就碎。", 5.4, INK))
+    s.append(txt(24, a, "「实其腹」不是吃饱，是把壁留厚；「虚其心」不是清空念头，是把干心留成中空。", 5.2, INK))
+    s.append(txt(24, a + 16, "壁一厚，空就能用起来；若反把壁掏薄、把空填实，看着结实，一敲就碎。", 5.2, INK))
     s.append(txt(24, a + 34, "这是第十一章「有之以为利，无之以为用」在治身上的落地。", 5.2, GREEN))
 
     c = a + 52
@@ -9600,8 +9600,8 @@ def ch04b_yi_zhi_li_qi():
     s.append(f'<ellipse cx="253" cy="{yb + 64}" rx="2.6" ry="4" fill="{SEAL}" opacity="0.8"/>')
     s.append(f'<path d="M140,{yb + 2} q-12,20 -7,36 q2,10 -4,14" fill="none" stroke="{SEAL}" stroke-width="1.1"/>')
     s.append(f'<ellipse cx="128" cy="{yb + 56}" rx="2.6" ry="4" fill="{SEAL}" opacity="0.8"/>')
-    s.append(txt(266, yb + 26, "溢了", 4.4, SEAL))
-    s.append(txt(114, yb + 22, "溢了", 4.4, SEAL, "end"))
+    s.append(txt(266, yb + 26, "溢了", 4.5, SEAL))
+    s.append(txt(114, yb + 22, "溢了", 4.5, SEAL, "end"))
     # 勺
     s.append(f'<path d="M178,{gy + 46} q-14,10 0,14 q14,-4 0,-14 z" fill="{PAPER}" stroke="{INK}" stroke-width="0.9"/>')
     s.append(f'<line x1="178" y1="{gy + 46}" x2="198" y2="{gy + 30}" stroke="{INK}" stroke-width="1.1"/>')
@@ -9624,9 +9624,9 @@ def ch04b_yi_zhi_li_qi():
     s.append(f'<line x1="160" y1="{base2 - 12}" x2="156" y2="{base2}" stroke="{INK}" stroke-width="1.1"/>')
     s.append(f'<line x1="220" y1="{base2 - 12}" x2="224" y2="{base2}" stroke="{INK}" stroke-width="1.1"/>')
     s.append(txt(190, base2 - 44, "空", 5.0, GREEN, "middle"))
-    s.append(txt(260, base2 - 56, "不见底", 4.3, GREEN))
+    s.append(txt(260, base2 - 56, "不见底", 4.5, GREEN))
     s.append(f'<line x1="258" y1="{base2 - 58}" x2="232" y2="{base2 - 58}" stroke="{LINE2}" stroke-width="0.6" stroke-dasharray="3 2"/>')
-    s.append(txt(260, base2 - 42, "从来不满", 4.3, GREEN))
+    s.append(txt(260, base2 - 42, "从来不满", 4.5, GREEN))
     s.append(f'<line x1="258" y1="{base2 - 44}" x2="230" y2="{base2 - 36}" stroke="{LINE2}" stroke-width="0.6" stroke-dasharray="3 2"/>')
     s.append(f'<path d="M178,{gy2 + 46} q-14,10 0,14 q14,-4 0,-14 z" fill="{PAPER}" stroke="{INK}" stroke-width="0.9"/>')
     s.append(f'<line x1="178" y1="{gy2 + 46}" x2="198" y2="{gy2 + 30}" stroke="{INK}" stroke-width="1.1"/>')
@@ -9634,8 +9634,8 @@ def ch04b_yi_zhi_li_qi():
     s.append(txt(190, gy2 + 172, "空的那处，才是它能盛的本钱——器之所以为器，正在此处", 4.5, GREEN, "middle"))
 
     a = gy2 + 200
-    s.append(txt(24, a, "道的体就是一个空，不是一个物：问它「是什么」，它答不上来，只能答「能盛」。", 5.4, INK))
-    s.append(txt(24, a + 16, "「或不盈」是现象，「有弗盈」是本性——帛书那句多写一个字，说的是它从来不满。", 5.4, INK))
+    s.append(txt(24, a, "道的体就是一个空，不是一个物：问它「是什么」，它答不上来，只能答「能盛」。", 5.2, INK))
+    s.append(txt(24, a + 16, "「或不盈」是现象，「有弗盈」是本性——帛书那句多写一个字，说的是它从来不满。", 5.2, INK))
     s.append(txt(24, a + 34, "所以器之用在空：没有那处空，青铜再贵也盛不下一勺。", 5.2, GREEN))
 
     c = a + 52
@@ -9664,11 +9664,11 @@ def ch04c_si_bu():
 
     def cell(x, y0, lab, sub, ret=""):
         s.append(f'<rect x="{x}" y="{y0}" width="158" height="170" fill="#FBF6EC" stroke="{LINE}" stroke-width="0.8"/>')
-        s.append(txt(x + 79, y0 + 18, lab, 5.4, SEAL, "middle"))
+        s.append(txt(x + 79, y0 + 18, lab, 5.2, SEAL, "middle"))
         s.append(txt(x + 79, y0 + 32, sub, 4.2, "#8A7C69", "middle"))
         if ret:
             s.append(f'<line x1="{x+44}" y1="{y0+152}" x2="{x+114}" y2="{y0+152}" stroke="{LINE}" stroke-width="0.6"/>')
-            s.append(txt(x + 79, y0 + 165, ret, 4.4, GREEN, "middle"))
+            s.append(txt(x + 79, y0 + 165, ret, 4.5, GREEN, "middle"))
 
     gx1, gx2 = 22, 200
     gy1, gy2 = y + 56, y + 240
@@ -9715,8 +9715,8 @@ def ch04c_si_bu():
     s.append(txt(cx, cy + 44, "衣与尘一色，才不显", 4.2, GREEN, "middle"))
 
     a = gy2 + 186
-    s.append(txt(24, a, "四步落在一处：把「我」的锋、结、光、色，一样一样收回到与万物同的程度。", 5.4, INK))
-    s.append(txt(24, a + 16, "收不是抹掉——刀背还在，线还在，灯还在，衣还在；只是不再靠它们站到人前去。", 5.4, INK))
+    s.append(txt(24, a, "四步落在一处：把「我」的锋、结、光、色，一样一样收回到与万物同的程度。", 5.2, INK))
+    s.append(txt(24, a + 16, "收不是抹掉——刀背还在，线还在，灯还在，衣还在；只是不再靠它们站到人前去。", 5.2, INK))
     s.append(txt(24, a + 34, "「同其尘」最难：不是自甘低下，是不必再让人看见自己干净。", 5.2, GREEN))
 
     c = a + 52
@@ -10508,8 +10508,8 @@ def ch26b_zi_zhong():
     c = a + 52
     s.append(f'<line x1="24" y1="{c}" x2="338" y2="{c}" stroke="{LINE}" stroke-width="0.6"/>')
     s.append(box(20, c + 8, 340, 40, fill="#F2EADA", stroke="#C9B79A"))
-    s.append(txt(190, c + 24, "重，是那副压得住自己的分量。", 5.4, INK, "middle"))
-    s.append(txt(190, c + 36, "带在身上的不是粮车，是那副不肯轻举的心。", 4.4, GREEN, "middle"))
+    s.append(txt(190, c + 24, "重，是那副压得住自己的分量。", 5.2, INK, "middle"))
+    s.append(txt(190, c + 36, "带在身上的不是粮车，是那副不肯轻举的心。", 4.5, GREEN, "middle"))
     s.append(gold(c + 62, "ch26b"))
     s.append('</svg>')
     out = "\n".join(s)
@@ -10564,8 +10564,8 @@ def ch26c_jing_shui():
     c = a + 52
     s.append(f'<line x1="24" y1="{c}" x2="338" y2="{c}" stroke="{LINE}" stroke-width="0.6"/>')
     s.append(box(20, c + 8, 340, 40, fill="#F2EADA", stroke="#C9B79A"))
-    s.append(txt(190, c + 24, "静不是把动按住，是动从哪儿发。", 5.4, INK, "middle"))
-    s.append(txt(190, c + 36, "水一静，什么都照得成；一搅，碎的先是自己。", 4.4, GREEN, "middle"))
+    s.append(txt(190, c + 24, "静不是把动按住，是动从哪儿发。", 5.2, INK, "middle"))
+    s.append(txt(190, c + 36, "水一静，什么都照得成；一搅，碎的先是自己。", 4.5, GREEN, "middle"))
     s.append(gold(c + 62, "ch26c"))
     s.append('</svg>')
     out = "\n".join(s)
@@ -10704,7 +10704,7 @@ def ch27_shan_xing_wu_zhe_ji():
     c = a + 50
     s.append(f'<line x1="24" y1="{c}" x2="338" y2="{c}" stroke="{LINE}" stroke-width="0.6"/>')
     s.append(box(20, c + 8, 340, 40, fill="#F2EADA", stroke="#C9B79A"))
-    s.append(txt(190, c + 23, "厭从厂从猒，饱兽压崖；", 5.4, INK, "middle"))
+    s.append(txt(190, c + 23, "厭从厂从猒，饱兽压崖；", 5.2, INK, "middle"))
     s.append(txt(190, c + 36, "非嫌其人也，乃觉其沉。", 4.9, GREEN, "middle"))
     s.append(gold(c + 62, "ch66c"))
     s.append('</svg>')
@@ -10753,7 +10753,7 @@ def ch67a_yi_cong_cao():
             s.append(f'<path d="M{px + k},{gy2 + 104} Q{px + k + 3},{gy2 + 74} {px + k - 2},{gy2 + 52 + abs(k) * 2}" '
                      f'fill="none" stroke="{GREEN}" stroke-width="1.1" opacity="{0.85 if px == 190 else 0.45}"/>')
     s.append(f'<circle cx="190" cy="{gy2 + 80}" r="34" fill="none" stroke="{SEAL}" stroke-width="1" stroke-dasharray="3 3"/>')
-    s.append(txt(190, gy2 + 40, "圈住这一棵", 4.4, SEAL, "middle"))
+    s.append(txt(190, gy2 + 40, "圈住这一棵", 4.5, SEAL, "middle"))
     s.append(txt(100, gy2 + 120, "其余在外", 4.2, "#A89577", "middle"))
     s.append(txt(280, gy2 + 120, "其余在外", 4.2, "#A89577", "middle"))
     s.append(txt(190, gy2 + 148, "爱护一棵，护不住就拼命；慈护一片，护的时候极稳", 4.6, "#6E6459", "middle"))
@@ -10766,7 +10766,7 @@ def ch67a_yi_cong_cao():
     c = a + 50
     s.append(f'<line x1="24" y1="{c}" x2="338" y2="{c}" stroke="{LINE}" stroke-width="0.6"/>')
     s.append(box(20, c + 8, 340, 40, fill="#F2EADA", stroke="#C9B79A"))
-    s.append(txt(190, c + 23, "慈从心兹，兹者草木多益；", 5.4, INK, "middle"))
+    s.append(txt(190, c + 23, "慈从心兹，兹者草木多益；", 5.2, INK, "middle"))
     s.append(txt(190, c + 36, "心中自有草长，不问其落于何处。", 4.9, GREEN, "middle"))
     s.append(gold(c + 62, "ch67a"))
     s.append('</svg>')
@@ -10809,10 +10809,10 @@ def ch67b_yi_shu_sheng():
     for k in range(3):
         xx = 96 + k * 32
         s.append(f'<rect x="{xx}" y="{gy2 + 42}" width="7" height="38" rx="2" fill="none" stroke="{SEAL}" stroke-width="1.2"/>')
-    s.append(txt(90, gy2 + 96, "绳缠束：约", 4.4, SEAL))
+    s.append(txt(90, gy2 + 96, "绳缠束：约", 4.5, SEAL))
     # 推得很远
     s.append(arrow(210, gy2 + 64, 320, gy2 + 64, GREEN, 1.2, head="arr2"))
-    s.append(txt(316, gy2 + 52, "推千里", 4.4, GREEN, "end"))
+    s.append(txt(316, gy2 + 52, "推千里", 4.5, GREEN, "end"))
     s.append(txt(190, gy2 + 148, "收得越紧，铺得越开：广不是多，是有余地", 4.6, GREEN, "middle"))
 
     a = gy2 + 166
@@ -10823,7 +10823,7 @@ def ch67b_yi_shu_sheng():
     c = a + 50
     s.append(f'<line x1="24" y1="{c}" x2="338" y2="{c}" stroke="{LINE}" stroke-width="0.6"/>')
     s.append(box(20, c + 8, 340, 40, fill="#F2EADA", stroke="#C9B79A"))
-    s.append(txt(190, c + 23, "俭者约也，约者绳缠束；", 5.4, INK, "middle"))
+    s.append(txt(190, c + 23, "俭者约也，约者绳缠束；", 5.2, INK, "middle"))
     s.append(txt(190, c + 36, "收十处为一束，一束可推千里。", 4.9, GREEN, "middle"))
     s.append(gold(c + 62, "ch67b"))
     s.append('</svg>')
@@ -10891,7 +10891,7 @@ def ch67c_yi_quan_qiang():
     c = a + 50
     s.append(f'<line x1="24" y1="{c}" x2="338" y2="{c}" stroke="{LINE}" stroke-width="0.6"/>')
     s.append(box(20, c + 8, 340, 40, fill="#F2EADA", stroke="#C9B79A"))
-    s.append(txt(190, c + 23, "慈是围墙，不是盾牌；", 5.4, INK, "middle"))
+    s.append(txt(190, c + 23, "慈是围墙，不是盾牌；", 5.2, INK, "middle"))
     s.append(txt(190, c + 36, "盾挡一面，墙围一圈。", 4.9, GREEN, "middle"))
     s.append(gold(c + 62, "ch67c"))
     s.append('</svg>')
@@ -10928,7 +10928,7 @@ def ch68a_yi_zhi_jiao():
     s.append(txt(176, gy + 136, "脚", 5.0, SEAL))
     # 停住的那条界
     s.append(f'<line x1="222" y1="{gy + 96}" x2="222" y2="{gy + 128}" stroke="{SEAL}" stroke-width="0.8" stroke-dasharray="3 3"/>')
-    s.append(txt(222, gy + 92, "停", 4.4, SEAL, "middle"))
+    s.append(txt(222, gy + 92, "停", 4.5, SEAL, "middle"))
     s.append(f'<line x1="40" y1="{gy + 126}" x2="340" y2="{gy + 126}" stroke="{INK}" stroke-width="1"/>')
     s.append(txt(190, gy + 156, "不是没有戈，是脚不动：趾尖离柲一寸，停在那儿", 4.6, SEAL, "middle"))
 
@@ -10959,7 +10959,7 @@ def ch68a_yi_zhi_jiao():
     c = a + 50
     s.append(f'<line x1="24" y1="{c}" x2="338" y2="{c}" stroke="{LINE}" stroke-width="0.6"/>')
     s.append(box(20, c + 8, 340, 40, fill="#F2EADA", stroke="#C9B79A"))
-    s.append(txt(190, c + 23, "武从止从戈，止者足也；", 5.4, INK, "middle"))
+    s.append(txt(190, c + 23, "武从止从戈，止者足也；", 5.2, INK, "middle"))
     s.append(txt(190, c + 36, "非扔其戈，乃停其足。", 4.9, GREEN, "middle"))
     s.append(gold(c + 62, "ch68a"))
     s.append('</svg>')
@@ -10993,8 +10993,8 @@ def ch68b_yi_dao_feng():
         s.append(f'<path d="M242,{yy + 2} q-6,-6 -14,0 q-4,4 0,8 q8,5 14,0 Z" fill="#EFE6D4" stroke="{INK}" stroke-width="0.9"/>')
         for k in range(3):
             s.append(f'<line x1="{242 - k * 1}" y1="{yy - 2 + k * 3}" x2="{236 - k * 1}" y2="{yy - 3 + k * 3}" stroke="{INK}" stroke-width="0.8"/>')
-    s.append(txt(96, gy + 40, "我们", 4.4, "#6E6459", "middle"))
-    s.append(txt(284, gy + 40, "他们", 4.4, "#6E6459", "middle"))
+    s.append(txt(96, gy + 40, "我们", 4.5, "#6E6459", "middle"))
+    s.append(txt(284, gy + 40, "他们", 4.5, "#6E6459", "middle"))
     s.append(txt(190, gy + 156, "四手抬一物：两边成了一对，中间没有缝", 4.6, SEAL, "middle"))
 
     s.append(txt(24, y + 244, "二、手收回来：缝留着，两边才还是两边", 4.8, GREEN))
@@ -11010,8 +11010,8 @@ def ch68b_yi_dao_feng():
         s.append(f'<line x1="320" y1="{yy + 10}" x2="264" y2="{yy + 2}" stroke="{INK}" stroke-width="1.2"/>')
         s.append(f'<ellipse cx="256" cy="{yy + 1}" rx="8" ry="5" fill="none" stroke="{INK}" stroke-width="0.9" stroke-dasharray="2 2"/>')
     s.append(txt(190, gy2 + 124, "缝", 4.6, SEAL, "middle"))
-    s.append(txt(96, gy2 + 40, "我们", 4.4, "#6E6459", "middle"))
-    s.append(txt(284, gy2 + 40, "他们", 4.4, "#6E6459", "middle"))
+    s.append(txt(96, gy2 + 40, "我们", 4.5, "#6E6459", "middle"))
+    s.append(txt(284, gy2 + 40, "他们", 4.5, "#6E6459", "middle"))
     s.append(txt(190, gy2 + 156, "手停在半路，缝里没有东西：谁也拽不进谁", 4.6, GREEN, "middle"))
 
     a = gy2 + 174
@@ -11022,7 +11022,7 @@ def ch68b_yi_dao_feng():
     c = a + 50
     s.append(f'<line x1="24" y1="{c}" x2="338" y2="{c}" stroke="{LINE}" stroke-width="0.6"/>')
     s.append(box(20, c + 8, 340, 40, fill="#F2EADA", stroke="#C9B79A"))
-    s.append(txt(190, c + 23, "与者党与，四手抬一物；", 5.4, INK, "middle"))
+    s.append(txt(190, c + 23, "与者党与，四手抬一物；", 5.2, INK, "middle"))
     s.append(txt(190, c + 36, "缝留着，两边才还是两边。", 4.9, GREEN, "middle"))
     s.append(gold(c + 62, "ch68b"))
     s.append('</svg>')
@@ -11050,11 +11050,11 @@ def ch68c_yi_gen_jin():
     s.append(f'<path d="M104,{gy + 40} Q136,{gy + 52} 150,{gy + 62}" fill="none" stroke="{SEAL}" stroke-width="1.3"/>')
     s.append(f'<path d="M104,{gy + 114} Q136,{gy + 100} 150,{gy + 88}" fill="none" stroke="{SEAL}" stroke-width="1.3"/>')
     s.append(f'<line x1="152" y1="{gy + 58}" x2="152" y2="{gy + 92}" stroke="{SEAL}" stroke-width="0.8" stroke-dasharray="3 3"/>')
-    s.append(txt(160, gy + 78, "断", 4.4, SEAL))
-    s.append(txt(60, gy + 40, "骨", 4.4, "#6E6459", "end"))
-    s.append(txt(60, gy + 114, "骨", 4.4, "#6E6459", "end"))
-    s.append(txt(230, gy + 46, "一人站高", 4.4, "#6E6459"))
-    s.append(txt(230, gy + 112, "一人站低", 4.4, "#6E6459"))
+    s.append(txt(160, gy + 78, "断", 4.5, SEAL))
+    s.append(txt(60, gy + 40, "骨", 4.5, "#6E6459", "end"))
+    s.append(txt(60, gy + 114, "骨", 4.5, "#6E6459", "end"))
+    s.append(txt(230, gy + 46, "一人站高", 4.5, "#6E6459"))
+    s.append(txt(230, gy + 112, "一人站低", 4.5, "#6E6459"))
     s.append(arrow(300, gy + 60, 300, gy + 96, "#B9A98F", 1.0))
     s.append(txt(190, gy + 156, "高低差着，筋搭不上：各使各的劲，谁也不传", 4.6, SEAL, "middle"))
 
@@ -11071,7 +11071,7 @@ def ch68c_yi_gen_jin():
     # 支点在下面
     s.append(f'<path d="M172,{gy2 + 108} L190,{gy2 + 74} L208,{gy2 + 108} Z" fill="none" stroke="{INK}" stroke-width="1"/>')
     s.append(f'<line x1="164" y1="{gy2 + 108}" x2="216" y2="{gy2 + 108}" stroke="{INK}" stroke-width="1"/>')
-    s.append(txt(190, gy2 + 124, "为之下：支点在下面", 4.4, GREEN, "middle"))
+    s.append(txt(190, gy2 + 124, "为之下：支点在下面", 4.5, GREEN, "middle"))
     # 劲两头传开
     s.append(arrow(190, gy2 + 64, 96, gy2 + 64, GREEN, 1.0, head="arrL"))
     s.append(arrow(190, gy2 + 64, 284, gy2 + 64, GREEN, 1.0, head="arr2"))
@@ -11086,7 +11086,7 @@ def ch68c_yi_gen_jin():
     c = a + 50
     s.append(f'<line x1="24" y1="{c}" x2="338" y2="{c}" stroke="{LINE}" stroke-width="0.6"/>')
     s.append(box(20, c + 8, 340, 40, fill="#F2EADA", stroke="#C9B79A"))
-    s.append(txt(190, c + 23, "力者，筋也；筋不使劲，筋是连。", 5.4, INK, "middle"))
+    s.append(txt(190, c + 23, "力者，筋也；筋不使劲，筋是连。", 5.2, INK, "middle"))
     s.append(txt(190, c + 36, "连上了，劲自然传过去。", 4.9, GREEN, "middle"))
     s.append(gold(c + 62, "ch68c"))
     s.append('</svg>')
@@ -11158,7 +11158,7 @@ def ch69a_yi_zhan_deng():
     c = a + 50
     s.append(f'<line x1="24" y1="{c}" x2="338" y2="{c}" stroke="{LINE}" stroke-width="0.6"/>')
     s.append(box(20, c + 8, 340, 40, fill="#F2EADA", stroke="#C9B79A"))
-    s.append(txt(190, c + 23, "主者，灯中一火，众物绕之；", 5.4, INK, "middle"))
+    s.append(txt(190, c + 23, "主者，灯中一火，众物绕之；", 5.2, INK, "middle"))
     s.append(txt(190, c + 36, "客者，寄也，宿于人家之屋。", 4.9, GREEN, "middle"))
     s.append(gold(c + 62, "ch69a"))
     s.append('</svg>')
@@ -11198,9 +11198,9 @@ def ch69b_yi_shuang_jiao():
     # 脚下空
     s.append(f'<line x1="212" y1="{gy + 84}" x2="212" y2="{gy + 126}" stroke="{SEAL}" stroke-width="0.7" stroke-dasharray="2 2"/>')
     s.append(f'<line x1="230" y1="{gy + 86}" x2="230" y2="{gy + 126}" stroke="{SEAL}" stroke-width="0.7" stroke-dasharray="2 2"/>')
-    s.append(txt(221, gy + 110, "虚", 4.4, SEAL, "middle"))
+    s.append(txt(221, gy + 110, "虚", 4.5, SEAL, "middle"))
     s.append(arrow(258, gy + 118, 238, gy + 88, SEAL, 0.9, head="arrS"))
-    s.append(txt(262, gy + 122, "举趾高", 4.4, SEAL))
+    s.append(txt(262, gy + 122, "举趾高", 4.5, SEAL))
     s.append(txt(190, gy + 162, "趾离地一寸，整只脚就没了根：心也跟着浮起来", 4.6, SEAL, "middle"))
 
     s.append(txt(24, y + 266, "二、脚放平：根落在土里，心才稳", 4.8, GREEN))
@@ -11296,7 +11296,7 @@ def ch69c_yi_shan_men():
     c = a + 50
     s.append(f'<line x1="24" y1="{c}" x2="338" y2="{c}" stroke="{LINE}" stroke-width="0.6"/>')
     s.append(box(20, c + 8, 340, 40, fill="#F2EADA", stroke="#C9B79A"))
-    s.append(txt(190, c + 23, "哀者，闵也；闵者，吊者在门。", 5.4, INK, "middle"))
+    s.append(txt(190, c + 23, "哀者，闵也；闵者，吊者在门。", 5.2, INK, "middle"))
     s.append(txt(190, c + 36, "不是悲愤的一方胜，是还肯站在门口的一方胜。", 4.7, GREEN, "middle"))
     s.append(gold(c + 62, "ch69c"))
     s.append('</svg>')
@@ -11324,7 +11324,7 @@ def ch70a_yi_dao_ke_xian():
         s.append(f'<path d="M{ex - 5},{cy} L{ex - 5},{cy - 7} L{ex + 5},{cy - 7} L{ex + 5},{cy}" fill="none" stroke="{INK}" stroke-width="1"/>')
     for lx, ldx in ((cx - 17, -5), (cx, 0), (cx + 17, 5)):
         s.append(f'<line x1="{lx}" y1="{cy + 38}" x2="{lx + ldx}" y2="{gy + 128}" stroke="{INK}" stroke-width="1"/>')
-    s.append(txt(cx, cy + 32, "鼎", 4.4, "#6E6459", "middle"))
+    s.append(txt(cx, cy + 32, "鼎", 4.5, "#6E6459", "middle"))
     # 刻线：自鼎腹划出，向右延伸
     s.append(f'<line x1="{cx - 22}" y1="{cy + 14}" x2="330" y2="{cy + 14}" stroke="{SEAL}" stroke-width="1.6"/>')
     s.append(txt(330, cy + 9, "则", 4.8, SEAL, "end"))
@@ -11367,7 +11367,7 @@ def ch70a_yi_dao_ke_xian():
     c = a + 50
     s.append(f'<line x1="24" y1="{c}" x2="338" y2="{c}" stroke="{LINE}" stroke-width="0.6"/>')
     s.append(box(20, c + 8, 340, 40, fill="#F2EADA", stroke="#C9B79A"))
-    s.append(txt(190, c + 23, "则不评价，只显出来；天垂一道，人刻一道。", 5.4, INK, "middle"))
+    s.append(txt(190, c + 23, "则不评价，只显出来；天垂一道，人刻一道。", 5.2, INK, "middle"))
     s.append(txt(190, c + 36, "把我当成那道刻线：不是学我，是拿我比。", 4.7, GREEN, "middle"))
     s.append(gold(c + 62, "ch70a"))
     s.append('</svg>')
@@ -11405,9 +11405,9 @@ def ch70b_yi_jian_ma_yi():
         yy = top + 40 + i * 13
         s.append(f'<line x1="{cx - 9}" y1="{yy}" x2="{cx - 9}" y2="{yy + 5}" stroke="#7A6E60" stroke-width="0.5" opacity="0.55"/>')
         s.append(f'<line x1="{cx + 9}" y1="{yy}" x2="{cx + 9}" y2="{yy + 5}" stroke="#7A6E60" stroke-width="0.5" opacity="0.55"/>')
-    s.append(txt(cx + 40, top + 30, "褐：编枲，", 4.4, GREEN))
-    s.append(txt(cx + 40, top + 42, "贱者之服", 4.4, GREEN))
-    s.append(txt(cx + 40, top + 62, "面上没有话", 4.4, "#6E6459"))
+    s.append(txt(cx + 40, top + 30, "褐：编枲，", 4.5, GREEN))
+    s.append(txt(cx + 40, top + 42, "贱者之服", 4.5, GREEN))
+    s.append(txt(cx + 40, top + 62, "面上没有话", 4.5, "#6E6459"))
     s.append(txt(190, gy + 156, "麻衣不亮，也不拦：它只是让人看不出他带着什么", 4.6, GREEN, "middle"))
 
     s.append(txt(24, gy + 176, "二、被：主动披上，不是穷得只剩这件", 4.8, SEAL))
@@ -11450,7 +11450,7 @@ def ch70b_yi_jian_ma_yi():
     c = a + 50
     s.append(f'<line x1="24" y1="{c}" x2="338" y2="{c}" stroke="{LINE}" stroke-width="0.6"/>')
     s.append(box(20, c + 8, 340, 40, fill="#F2EADA", stroke="#C9B79A"))
-    s.append(txt(190, c + 23, "褐是贱者之服，被是主动披上。", 5.4, INK, "middle"))
+    s.append(txt(190, c + 23, "褐是贱者之服，被是主动披上。", 5.2, INK, "middle"))
     s.append(txt(190, c + 36, "外面一样，是「跟他们一样」；不一样的那一点，揣着。", 4.7, GREEN, "middle"))
     s.append(gold(c + 62, "ch70b"))
     s.append('</svg>')
@@ -11503,8 +11503,8 @@ def ch70c_yi_kuai_hui_yu():
     s.append(f'<path d="M{px + 13},{gy2 + 78} Q{px + 10},{gy2 + 86} {px + 5},{gy2 + 86}" fill="none" stroke="{INK}" stroke-width="0.7"/>')
     s.append(f'<line x1="{px - 6}" y1="{gy2 + 100}" x2="{px - 14}" y2="{gy2 + 128}" stroke="{INK}" stroke-width="1"/>')
     s.append(f'<line x1="{px + 6}" y1="{gy2 + 100}" x2="{px + 14}" y2="{gy2 + 128}" stroke="{INK}" stroke-width="1"/>')
-    s.append(txt(px + 44, gy2 + 66, "怀：带着一件", 4.4, GREEN))
-    s.append(txt(px + 44, gy2 + 78, "要来办的事", 4.4, GREEN))
+    s.append(txt(px + 44, gy2 + 66, "怀：带着一件", 4.5, GREEN))
+    s.append(txt(px + 44, gy2 + 78, "要来办的事", 4.5, GREEN))
     s.append(txt(px + 44, gy2 + 96, "外头看不出", 4.2, "#6E6459"))
     s.append(txt(190, gy2 + 162, "同一块玉，一换位置就换了意思：挂着是招牌，揣着是凭证", 4.6, GREEN, "middle"))
 
@@ -11516,7 +11516,7 @@ def ch70c_yi_kuai_hui_yu():
     c = a + 50
     s.append(f'<line x1="24" y1="{c}" x2="338" y2="{c}" stroke="{LINE}" stroke-width="0.6"/>')
     s.append(box(20, c + 8, 340, 40, fill="#F2EADA", stroke="#C9B79A"))
-    s.append(txt(190, c + 23, "玉挂出来是装饰，揣在怀里是信物。", 5.4, INK, "middle"))
+    s.append(txt(190, c + 23, "玉挂出来是装饰，揣在怀里是信物。", 5.2, INK, "middle"))
     s.append(txt(190, c + 36, "被褐是我跟你一样，怀玉是我不一样的那一点。", 4.7, GREEN, "middle"))
     s.append(gold(c + 62, "ch70c"))
     s.append('</svg>')
@@ -11549,7 +11549,7 @@ def ch71a_yi_zhi_jian():
     s.append(f'<circle cx="290" cy="{cy}" r="16" fill="none" stroke="#B9A98F" stroke-width="0.9" stroke-dasharray="3 3"/>')
     s.append(f'<circle cx="290" cy="{cy}" r="7" fill="none" stroke="#B9A98F" stroke-width="0.7" stroke-dasharray="3 3"/>')
     s.append(txt(290, cy + 30, "靶还在远处", 4.2, "#6E6459", "middle"))
-    s.append(txt(118, cy - 14, "箭搭在弦上", 4.4, SEAL))
+    s.append(txt(118, cy - 14, "箭搭在弦上", 4.5, SEAL))
     s.append(txt(190, gy + 156, "没射出去的，是打算，不是知：靶还没说话", 4.6, GREEN, "middle"))
 
     s.append(txt(24, gy + 178, "二、已出弦：箭在靶上，这一下才叫知", 4.8, SEAL))
@@ -11570,8 +11570,8 @@ def ch71a_yi_zhi_jian():
     for fx in (202, 208):
         s.append(f'<line x1="{fx}" y1="{cy2 - 12}" x2="{fx + 6}" y2="{cy2 - 6}" stroke="{INK}" stroke-width="0.8"/>')
         s.append(f'<line x1="{fx}" y1="{cy2}" x2="{fx + 6}" y2="{cy2 - 6}" stroke="{INK}" stroke-width="0.8"/>')
-    s.append(txt(tx, cy2 + 40, "靶", 4.4, INK, "middle"))
-    s.append(txt(150, cy2 - 22, "箭出而中", 4.4, SEAL))
+    s.append(txt(tx, cy2 + 40, "靶", 4.5, INK, "middle"))
+    s.append(txt(150, cy2 - 22, "箭出而中", 4.5, SEAL))
     s.append(txt(190, gy2 + 164, "射中了才知道中没中：知是箭与靶碰上的那一下，不是想出来的", 4.6, GREEN, "middle"))
 
     a = gy2 + 180
@@ -11582,7 +11582,7 @@ def ch71a_yi_zhi_jian():
     c = a + 50
     s.append(f'<line x1="24" y1="{c}" x2="338" y2="{c}" stroke="{LINE}" stroke-width="0.6"/>')
     s.append(box(20, c + 8, 340, 40, fill="#F2EADA", stroke="#C9B79A"))
-    s.append(txt(190, c + 23, "知从矢从口：箭出去，中了，才报得出口。", 5.4, INK, "middle"))
+    s.append(txt(190, c + 23, "知从矢从口：箭出去，中了，才报得出口。", 5.2, INK, "middle"))
     s.append(txt(190, c + 36, "胸中之知不必有靶；矢口之知，先得有一张靶。", 4.7, GREEN, "middle"))
     s.append(gold(c + 62, "ch71a"))
     s.append('</svg>')
@@ -11614,7 +11614,7 @@ def ch71b_yi_zhang_ba():
     for fx in (98, 104):
         s.append(f'<line x1="{fx}" y1="{cy + 28}" x2="{fx + 6}" y2="{cy + 34}" stroke="{INK}" stroke-width="0.8"/>')
         s.append(f'<line x1="{fx}" y1="{cy + 40}" x2="{fx + 6}" y2="{cy + 34}" stroke="{INK}" stroke-width="0.8"/>')
-    s.append(txt(116, cy + 50, "箭在二环外", 4.4, SEAL))
+    s.append(txt(116, cy + 50, "箭在二环外", 4.5, SEAL))
     s.append(f'<line x1="{tx + 44}" y1="{cy}" x2="{tx + 40}" y2="{cy}" stroke="{GREEN}" stroke-width="0.1"/>')
     s.append(txt(190, gy + 158, "靶不动，箭动：中不中，是靶说的，不是射的人说的", 4.6, GREEN, "middle"))
 
@@ -11630,7 +11630,7 @@ def ch71b_yi_zhang_ba():
     for (ex, ey, hx, hy) in ((tx2 - 20, cy2 - 12, -4, -2), (tx2 + 18, cy2 + 6, 3, 4), (tx2 - 4, cy2 + 24, -1, 5)):
         s.append(f'<line x1="{ex - 34}" y1="{ey - 10}" x2="{ex}" y2="{ey}" stroke="{INK}" stroke-width="1"/>')
         s.append(f'<polygon points="{ex},{ey} {ex - 8},{ey - 5} {ex - 7},{ey + 3}" fill="{INK}"/>')
-    s.append(txt(tx2 + 54, cy2 - 10, "没有环", 4.4, SEAL))
+    s.append(txt(tx2 + 54, cy2 - 10, "没有环", 4.5, SEAL))
     s.append(txt(tx2 + 54, cy2 + 4, "落在哪儿都", 4.2, "#6E6459"))
     s.append(txt(tx2 + 54, cy2 + 16, "可以叫「中」", 4.2, "#6E6459"))
     s.append(txt(190, gy2 + 164, "环是靶的，不是你画的：环一擦掉，箭就成了自己给自己判的", 4.6, GREEN, "middle"))
@@ -11643,7 +11643,7 @@ def ch71b_yi_zhang_ba():
     c = a + 50
     s.append(f'<line x1="24" y1="{c}" x2="338" y2="{c}" stroke="{LINE}" stroke-width="0.6"/>')
     s.append(box(20, c + 8, 340, 40, fill="#F2EADA", stroke="#C9B79A"))
-    s.append(txt(190, c + 23, "靶在彼，不由我说。", 5.4, INK, "middle"))
+    s.append(txt(190, c + 23, "靶在彼，不由我说。", 5.2, INK, "middle"))
     s.append(txt(190, c + 36, "验证的意思是：有一件东西，你说不动它。", 4.7, GREEN, "middle"))
     s.append(gold(c + 62, "ch71b"))
     s.append('</svg>')
@@ -11716,7 +11716,7 @@ def ch71c_yi_bao_ba():
     c = a + 50
     s.append(f'<line x1="24" y1="{c}" x2="338" y2="{c}" stroke="{LINE}" stroke-width="0.6"/>')
     s.append(box(20, c + 8, 340, 40, fill="#F2EADA", stroke="#C9B79A"))
-    s.append(txt(190, c + 23, "病病者，以之为病也，非治之也，乃认之也。", 5.4, INK, "middle"))
+    s.append(txt(190, c + 23, "病病者，以之为病也，非治之也，乃认之也。", 5.2, INK, "middle"))
     s.append(txt(190, c + 36, "先认这一句「我可能报错了」，靶才回得来。", 4.7, GREEN, "middle"))
     s.append(gold(c + 62, "ch71c"))
     s.append('</svg>')
@@ -11789,7 +11789,7 @@ def ch72a_yi_wei_po_po():
     c = a + 50
     s.append(f'<line x1="24" y1="{c}" x2="338" y2="{c}" stroke="{LINE}" stroke-width="0.6"/>')
     s.append(box(20, c + 8, 340, 40, fill="#F2EADA", stroke="#C9B79A"))
-    s.append(txt(190, c + 23, "威从女从戌，戌者斧也；斧备而不用，用则威亡。", 5.4, INK, "middle"))
+    s.append(txt(190, c + 23, "威从女从戌，戌者斧也；斧备而不用，用则威亡。", 5.2, INK, "middle"))
     s.append(txt(190, c + 36, "坐在那儿不动的那位，才叫威；一动，就只剩打。", 4.7, GREEN, "middle"))
     s.append(gold(c + 62, "ch72a"))
     s.append('</svg>')
@@ -11820,7 +11820,7 @@ def ch72b_yi_wo_gou():
     for i, (dx, dy) in enumerate(((18, 84), (26, 98), (-4, 94), (12, 110))):
         s.append(f'<ellipse cx="{px + dx}" cy="{gy + dy}" rx="15" ry="8" fill="#DED2B8" stroke="{INK}" stroke-width="0.9"/>')
         s.append(f'<circle cx="{px + dx - 15}" cy="{gy + dy - 5}" r="4.6" fill="#DED2B8" stroke="{INK}" stroke-width="0.9"/>')
-    s.append(txt(214, gy + 82, "一窝挤在一角", 4.4, SEAL))
+    s.append(txt(214, gy + 82, "一窝挤在一角", 4.5, SEAL))
     s.append(txt(214, gy + 94, "屋还空着大半", 4.2, "#6E6459"))
     s.append(txt(190, gy + 166, "房子并没变小：是身与身之间先没了空", 4.6, GREEN, "middle"))
 
@@ -11834,7 +11834,7 @@ def ch72b_yi_wo_gou():
     for (dx, dy) in ((64, 96), (104, 104), (154, 96), (128, 110)):
         s.append(f'<ellipse cx="{dx}" cy="{gy2 + dy}" rx="14" ry="7.5" fill="#DED2B8" stroke="{INK}" stroke-width="0.9"/>')
         s.append(f'<circle cx="{dx - 14}" cy="{gy2 + dy - 4}" r="4.4" fill="#DED2B8" stroke="{INK}" stroke-width="0.9"/>')
-    s.append(txt(214, gy2 + 82, "各归一处", 4.4, GREEN))
+    s.append(txt(214, gy2 + 82, "各归一处", 4.5, GREEN))
     s.append(txt(214, gy2 + 94, "中间留出一条", 4.2, "#6E6459"))
     s.append(txt(190, gy2 + 166, "不狎不是赶走谁，是让每一头都有一处自己的地方", 4.6, GREEN, "middle"))
 
@@ -11846,7 +11846,7 @@ def ch72b_yi_wo_gou():
     c = a + 50
     s.append(f'<line x1="24" y1="{c}" x2="338" y2="{c}" stroke="{LINE}" stroke-width="0.6"/>')
     s.append(box(20, c + 8, 340, 40, fill="#F2EADA", stroke="#C9B79A"))
-    s.append(txt(190, c + 23, "狎者，犬可习也，熟而贴人；非屋之窄，乃无距也。", 5.4, INK, "middle"))
+    s.append(txt(190, c + 23, "狎者，犬可习也，熟而贴人；非屋之窄，乃无距也。", 5.2, INK, "middle"))
     s.append(txt(190, c + 36, "让开一寸，人才住得下去。", 4.7, GREEN, "middle"))
     s.append(gold(c + 62, "ch72b"))
     s.append('</svg>')
@@ -11919,7 +11919,7 @@ def ch72c_yi_gan_cheng():
     c = a + 50
     s.append(f'<line x1="24" y1="{c}" x2="338" y2="{c}" stroke="{LINE}" stroke-width="0.6"/>')
     s.append(box(20, c + 8, 340, 40, fill="#F2EADA", stroke="#C9B79A"))
-    s.append(txt(190, c + 23, "自知不自见，自爱不自贵；故去彼取此。", 5.4, INK, "middle"))
+    s.append(txt(190, c + 23, "自知不自见，自爱不自贵；故去彼取此。", 5.2, INK, "middle"))
     s.append(txt(190, c + 36, "取的是身子，去的是那张价签。", 4.7, GREEN, "middle"))
     s.append(gold(c + 62, "ch72c"))
     s.append('</svg>')
@@ -11967,7 +11967,7 @@ def ch73a_yi_gu_qi():
     # 一股冲出去
     s.append(f'<path d="M{px + 6},{py - 6} Q{px + 60},{py - 34} {px + 132},{py - 40}" fill="none" stroke="{SEAL}" stroke-width="1.1"/>')
     s.append(f'<polygon points="{px + 132},{py - 40} {px + 120},{py - 46} {px + 122},{py - 34}" fill="{SEAL}"/>')
-    s.append(txt(px + 78, py - 52, "勇于敢：冲出去", 4.3, SEAL))
+    s.append(txt(px + 78, py - 52, "勇于敢：冲出去", 4.5, SEAL))
     # 一股按住：挡板与回卷
     s.append(f'<ellipse cx="{px + 54}" cy="{py + 22}" rx="15" ry="7" fill="#EFE6D4" stroke="{INK}" stroke-width="1"/>')
     for i in range(4):
@@ -11975,7 +11975,7 @@ def ch73a_yi_gu_qi():
     s.append(f'<path d="M{px + 6},{py + 10} Q{px + 22},{py + 16} {px + 31},{py + 20}" fill="none" stroke="{GREEN}" stroke-width="1.1"/>')
     s.append(f'<path d="M{px + 31},{py + 24} Q{px + 20},{py + 34} {px + 12},{py + 30}" fill="none" stroke="{GREEN}" stroke-width="1" stroke-dasharray="4 3"/>')
     s.append(f'<polygon points="{px + 14},{py + 30} {px + 24},{py + 26} {px + 22},{py + 34}" fill="{GREEN}"/>')
-    s.append(txt(px + 4, py + 50, "勇于不敢：按住，气回旋", 4.3, GREEN))
+    s.append(txt(px + 4, py + 50, "勇于不敢：按住，气回旋", 4.5, GREEN))
     s.append(txt(190, gy2 + 166, "按住不比冲出省力：同一股气，只是没有往前拿", 4.6, GREEN, "middle"))
 
     a = gy2 + 182
@@ -11986,7 +11986,7 @@ def ch73a_yi_gu_qi():
     c = a + 50
     s.append(f'<line x1="24" y1="{c}" x2="338" y2="{c}" stroke="{LINE}" stroke-width="0.6"/>')
     s.append(box(20, c + 8, 340, 40, fill="#F2EADA", stroke="#C9B79A"))
-    s.append(txt(190, c + 23, "勇者，气也，从力甬声；敢者，进取也，从攴。", 5.4, INK, "middle"))
+    s.append(txt(190, c + 23, "勇者，气也，从力甬声；敢者，进取也，从攴。", 5.2, INK, "middle"))
     s.append(txt(190, c + 36, "气留着，方向自己给；不给方向的气，只是乱撞。", 4.7, GREEN, "middle"))
     s.append(gold(c + 62, "ch73a"))
     s.append('</svg>')
@@ -12013,8 +12013,8 @@ def ch73b_yi_gen_dai_zi():
     s.append(f'<path d="M{cx - 27},{gy + 52} Q{cx},{gy + 66} {cx + 27},{gy + 52}" fill="none" stroke="{SEAL}" stroke-width="1.4"/>')
     s.append(f'<path d="M{cx - 2},{gy + 58} q4,10 -2,18" fill="none" stroke="{SEAL}" stroke-width="1.2"/>')
     s.append(f'<path d="M{cx + 10},{gy + 57} q5,8 1,16" fill="none" stroke="{SEAL}" stroke-width="1.1" opacity="0.8"/>')
-    s.append(txt(cx + 58, gy + 58, "带缓：" , 4.4, SEAL))
-    s.append(txt(cx + 58, gy + 70, "垂着，不掉", 4.4, "#6E6459"))
+    s.append(txt(cx + 58, gy + 58, "带缓：" , 4.5, SEAL))
+    s.append(txt(cx + 58, gy + 70, "垂着，不掉", 4.5, "#6E6459"))
     s.append(txt(190, gy + 162, "松不是散：衣还在身上，气还在腰里", 4.6, GREEN, "middle"))
 
     s.append(txt(24, gy + 184, "二、紧：带子勒进去，那一处先崩", 4.8, SEAL))
@@ -12029,8 +12029,8 @@ def ch73b_yi_gen_dai_zi():
         s.append(f'<line x1="{cx + dx}" y1="{gy2 + 48}" x2="{cx + dx}" y2="{gy2 + 62}" stroke="{SEAL}" stroke-width="1"/>')
     s.append(f'<path d="M{cx - 27},{gy2 + 44} q-6,10 0,20" fill="none" stroke="#B9A98F" stroke-width="0.8"/>')
     s.append(f'<path d="M{cx + 27},{gy2 + 44} q6,10 0,20" fill="none" stroke="#B9A98F" stroke-width="0.8"/>')
-    s.append(txt(cx + 58, gy2 + 50, "系紧：", 4.4, SEAL))
-    s.append(txt(cx + 58, gy2 + 62, "勒出痕", 4.4, "#6E6459"))
+    s.append(txt(cx + 58, gy2 + 50, "系紧：", 4.5, SEAL))
+    s.append(txt(cx + 58, gy2 + 62, "勒出痕", 4.5, "#6E6459"))
     s.append(txt(190, gy2 + 166, "紧处就是崩处：一处勒死，四下都跟着断", 4.6, GREEN, "middle"))
 
     a = gy2 + 182
@@ -12041,7 +12041,7 @@ def ch73b_yi_gen_dai_zi():
     c = a + 50
     s.append(f'<line x1="24" y1="{c}" x2="338" y2="{c}" stroke="{LINE}" stroke-width="0.6"/>')
     s.append(box(20, c + 8, 340, 40, fill="#F2EADA", stroke="#C9B79A"))
-    s.append(txt(190, c + 23, "繟者，《说文》曰「带缓也」，从糸——带系之松也。", 5.4, INK, "middle"))
+    s.append(txt(190, c + 23, "繟者，《说文》曰「带缓也」，从糸——带系之松也。", 5.2, INK, "middle"))
     s.append(txt(190, c + 36, "松着，是让每一处都留一点回旋的余地。", 4.7, GREEN, "middle"))
     s.append(gold(c + 62, "ch73b"))
     s.append('</svg>')
@@ -12103,7 +12103,7 @@ def ch73c_yi_zhang_wang():
     c = a + 50
     s.append(f'<line x1="24" y1="{c}" x2="338" y2="{c}" stroke="{LINE}" stroke-width="0.6"/>')
     s.append(box(20, c + 8, 340, 40, fill="#F2EADA", stroke="#C9B79A"))
-    s.append(txt(190, c + 23, "疏者，《说文》曰「通也」，非稀也；", 5.4, INK, "middle"))
+    s.append(txt(190, c + 23, "疏者，《说文》曰「通也」，非稀也；", 5.2, INK, "middle"))
     s.append(txt(190, c + 36, "通者必漏，不漏者必不通，而天兼之。", 4.7, GREEN, "middle"))
     s.append(gold(c + 62, "ch73c"))
     s.append('</svg>')
@@ -12131,9 +12131,9 @@ def ch74a_yi_ge_fan_zi():
     s.append(f'<line x1="130" y1="{gy + 38}" x2="192" y2="{gy + 38}" stroke="#DCCBB0" stroke-width="0.6"/>')
     s.append(f'<line x1="130" y1="{gy + 100}" x2="192" y2="{gy + 100}" stroke="#DCCBB0" stroke-width="0.6"/>')
     s.append(txt(161, gy + 92, "后", 38, INK, "middle"))
-    s.append(txt(161, gy + 138, "君：坐堂发令", 4.4, "#6E6459", "middle"))
-    s.append(txt(252, gy + 52, "后：一人持口，", 4.3, "#6E6459"))
-    s.append(txt(252, gy + 64, "坐而发令", 4.3, "#6E6459"))
+    s.append(txt(161, gy + 138, "君：坐堂发令", 4.5, "#6E6459", "middle"))
+    s.append(txt(252, gy + 52, "后：一人持口，", 4.5, "#6E6459"))
+    s.append(txt(252, gy + 64, "坐而发令", 4.5, "#6E6459"))
     s.append(txt(190, gy + 164, "君在堂上：他发令，不办事", 4.6, GREEN, "middle"))
 
     s.append(txt(24, gy + 186, "二、司：同一个人翻过来，站到外面办事", 4.8, GREEN))
@@ -12145,7 +12145,7 @@ def ch74a_yi_ge_fan_zi():
     # 翻的箭头
     s.append(f'<path d="M198,{gy2 + 38} Q222,{gy2 + 60} 200,{gy2 + 88}" fill="none" stroke="{SEAL}" stroke-width="1" stroke-dasharray="4 3"/>')
     s.append(f'<polygon points="200,{gy2 + 88} 206,{gy2 + 78} 194,{gy2 + 78}" fill="{SEAL}"/>')
-    s.append(txt(232, gy2 + 60, "翻过来", 4.3, SEAL))
+    s.append(txt(232, gy2 + 60, "翻过来", 4.5, SEAL))
     # 在外面办事的人
     px = 282
     s.append(f'<circle cx="{px}" cy="{gy2 + 62}" r="6" fill="none" stroke="{INK}" stroke-width="1"/>')
@@ -12165,7 +12165,7 @@ def ch74a_yi_ge_fan_zi():
     c = a + 50
     s.append(f'<line x1="24" y1="{c}" x2="338" y2="{c}" stroke="{LINE}" stroke-width="0.6"/>')
     s.append(box(20, c + 8, 340, 40, fill="#F2EADA", stroke="#C9B79A"))
-    s.append(txt(190, c + 23, "司者，《说文》曰「臣司事于外者，从反后」；", 5.4, INK, "middle"))
+    s.append(txt(190, c + 23, "司者，《说文》曰「臣司事于外者，从反后」；", 5.2, INK, "middle"))
     s.append(txt(190, c + 36, "后者，君也——君翻其身，乃为司。", 4.7, GREEN, "middle"))
     s.append(gold(c + 62, "ch74a"))
     s.append('</svg>')
@@ -12203,8 +12203,8 @@ def ch74b_yi_ba_fu():
     s.append(f'<line x1="{px + 48}" y1="{gy + 78}" x2="176" y2="{gy + 100}" stroke="{INK}" stroke-width="1.4"/>')
     s.append(f'<path d="M176,{gy + 100} L188,{gy + 86} Q198,{gy + 98} 190,{gy + 110} L174,{gy + 106} Z" fill="#DED2B8" stroke="{INK}" stroke-width="1"/>')
     s.append(txt(px, gy + 142, "匠人", 4.2, "#6E6459", "middle"))
-    s.append(txt(272, gy + 78, "只削一片", 4.3, GREEN))
-    s.append(txt(272, gy + 90, "器由此成", 4.3, "#6E6459"))
+    s.append(txt(272, gy + 78, "只削一片", 4.5, GREEN))
+    s.append(txt(272, gy + 90, "器由此成", 4.5, "#6E6459"))
     s.append(txt(190, gy + 164, "斧在匠人手里，是「成」的工具：他知道这一刀要落多深", 4.6, GREEN, "middle"))
 
     s.append(txt(24, gy + 186, "二、代班的人：同一把斧，一落就断，断不可复", 4.8, SEAL))
@@ -12227,8 +12227,8 @@ def ch74b_yi_ba_fu():
     s.append(f'<line x1="{px2 + 34}" y1="{gy2 + 36}" x2="{px2 + 46}" y2="{gy2 + 18}" stroke="{INK}" stroke-width="1.4"/>')
     s.append(f'<path d="M{px2 + 46},{gy2 + 18} L{px2 + 62},{gy2 + 8} Q{px2 + 70},{gy2 + 22} {px2 + 56},{gy2 + 34} L{px2 + 40},{gy2 + 28} Z" fill="{SEAL}" fill-opacity="0.3" stroke="{SEAL}" stroke-width="1"/>')
     s.append(txt(px2, gy2 + 144, "代班", 4.2, SEAL, "middle"))
-    s.append(txt(276, gy2 + 70, "未观其性", 4.3, SEAL))
-    s.append(txt(276, gy2 + 82, "先加其手", 4.3, "#6E6459"))
+    s.append(txt(276, gy2 + 70, "未观其性", 4.5, SEAL))
+    s.append(txt(276, gy2 + 82, "先加其手", 4.5, "#6E6459"))
     s.append(txt(190, gy2 + 168, "梓庆斋七日才敢加手；代班的人，一刀下去就断了", 4.6, GREEN, "middle"))
 
     a = gy2 + 184
@@ -12290,11 +12290,11 @@ def ch74c_yi_zhi_shou():
     s.append(f'<line x1="152" y1="{gy2 + 62}" x2="190" y2="{gy2 + 90}" stroke="{SEAL}" stroke-width="1.8"/>')
     s.append(f'<circle cx="161" cy="{gy2 + 70}" r="1.8" fill="{SEAL}"/>')
     s.append(f'<circle cx="182" cy="{gy2 + 84}" r="1.5" fill="{SEAL}"/>')
-    s.append(txt(212, gy2 + 60, "这道口子", 4.3, SEAL))
-    s.append(txt(212, gy2 + 72, "是自己的账", 4.3, "#6E6459"))
+    s.append(txt(212, gy2 + 60, "这道口子", 4.5, SEAL))
+    s.append(txt(212, gy2 + 72, "是自己的账", 4.5, "#6E6459"))
     # 天：远处一道弧，不动手
     s.append(f'<path d="M80,{gy2 + 120} Q190,{gy2 + 102} 300,{gy2 + 120}" fill="none" stroke="#B9A98F" stroke-width="0.9" stroke-dasharray="4 3"/>')
-    s.append(txt(190, gy2 + 136, "天不与你争这把斧：它只让斧落在你手上", 4.4, "#6E6459", "middle"))
+    s.append(txt(190, gy2 + 136, "天不与你争这把斧：它只让斧落在你手上", 4.5, "#6E6459", "middle"))
     s.append(txt(190, gy2 + 170, "伤不在天上记，在手上记：这就是「希有不伤」的分量", 4.6, GREEN, "middle"))
 
     a = gy2 + 188
@@ -12305,7 +12305,7 @@ def ch74c_yi_zhi_shou():
     c = a + 52
     s.append(f'<line x1="24" y1="{c}" x2="338" y2="{c}" stroke="{LINE}" stroke-width="0.6"/>')
     s.append(box(20, c + 8, 340, 40, fill="#F2EADA", stroke="#C9B79A"))
-    s.append(txt(190, c + 23, "夫代大匠斫者，希有不伤其手矣。", 5.4, INK, "middle"))
+    s.append(txt(190, c + 23, "夫代大匠斫者，希有不伤其手矣。", 5.2, INK, "middle"))
     s.append(txt(190, c + 36, "斧不认人，账认手。", 4.7, GREEN, "middle"))
     s.append(gold(c + 64, "ch74c"))
     s.append('</svg>')
@@ -12313,7 +12313,7 @@ def ch74c_yi_zhi_shou():
 
 
 def ch75a_yi_zhi_kong_wan():
-    W, H = 380, 706
+    W, H = 380, 750
     body, y = head(W, H, "同是饿，一个字归天，一个字归人",
                    "第 七 十 五 章 · 飢", "一只空碗", "民之饥，以其上食税之多，是以饥。", H)
     s = [body]
@@ -12339,8 +12339,8 @@ def ch75a_yi_zhi_kong_wan():
     s.append(f'<line x1="228" y1="{gy + 74}" x2="212" y2="{gy + 64}" stroke="{INK}" stroke-width="1"/>')
     s.append(f'<line x1="228" y1="{gy + 62}" x2="244" y2="{gy + 52}" stroke="{INK}" stroke-width="1"/>')
     s.append(f'<path d="M228,{gy + 52} q-6,-14 0,-22 q6,8 0,22" fill="none" stroke="{SEAL}" stroke-width="1" stroke-dasharray="3 2"/>')
-    s.append(txt(272, gy + 62, "饑：谷不熟", 4.4, SEAL))
-    s.append(txt(272, gy + 74, "穗是空的", 4.4, "#6E6459"))
+    s.append(txt(272, gy + 62, "饑：谷不熟", 4.5, SEAL))
+    s.append(txt(272, gy + 74, "穗是空的", 4.5, "#6E6459"))
     s.append(txt(190, gy + 168, "饑是天灾：年成不好，怨不到人身上", 4.6, GREEN, "middle"))
 
     s.append(txt(24, gy + 192, "二、飢：肚子空，账在人身上", 4.8, GREEN))
@@ -12351,13 +12351,13 @@ def ch75a_yi_zhi_kong_wan():
     s.append(f'<path d="M64,{gy2 + 74} Q92,{gy2 + 130} 120,{gy2 + 74}" fill="#EFE6D4" stroke="{INK}" stroke-width="1.3"/>')
     s.append(f'<line x1="62" y1="{gy2 + 74}" x2="122" y2="{gy2 + 74}" stroke="{INK}" stroke-width="1.3"/>')
     s.append(f'<ellipse cx="92" cy="{gy2 + 74}" rx="30" ry="5" fill="none" stroke="#B9A98F" stroke-width="0.6" stroke-dasharray="2 2"/>')
-    s.append(txt(92, gy2 + 120, "碗里什么也没有", 4.3, "#6E6459", "middle"))
+    s.append(txt(92, gy2 + 120, "碗里什么也没有", 4.5, "#6E6459", "middle"))
     # 斗：满得冒尖
     s.append(f'<path d="M224,{gy2 + 46} L286,{gy2 + 46} L276,{gy2 + 112} L234,{gy2 + 112} Z" fill="#EFE6D4" stroke="{INK}" stroke-width="1.2"/>')
     s.append(f'<path d="M224,{gy2 + 46} q31,-22 62,0" fill="#DED2B8" stroke="{INK}" stroke-width="1.1"/>')
     for i in range(3):
         s.append(f'<line x1="{228 + i * 4}" y1="{gy2 + 60 + i * 14}" x2="{282 - i * 4}" y2="{gy2 + 60 + i * 14}" stroke="#B9A98F" stroke-width="0.6"/>')
-    s.append(txt(255, gy2 + 84, "食税之多", 4.3, SEAL, "middle"))
+    s.append(txt(255, gy2 + 84, "食税之多", 4.5, SEAL, "middle"))
     # 从碗到斗：一只手
     s.append(f'<path d="M126,{gy2 + 96} Q168,{gy2 + 82} 220,{gy2 + 62}" fill="none" stroke="{SEAL}" stroke-width="1" stroke-dasharray="4 3"/>')
     s.append(f'<polygon points="220,{gy2 + 62} 208,{gy2 + 60} 212,{gy2 + 70}" fill="{SEAL}"/>')
@@ -12372,7 +12372,7 @@ def ch75a_yi_zhi_kong_wan():
     c = a + 52
     s.append(f'<line x1="24" y1="{c}" x2="338" y2="{c}" stroke="{LINE}" stroke-width="0.6"/>')
     s.append(box(20, c + 8, 340, 40, fill="#F2EADA", stroke="#C9B79A"))
-    s.append(txt(190, c + 23, "民之饥，以其上食税之多，是以饥。", 5.4, INK, "middle"))
+    s.append(txt(190, c + 23, "民之饥，以其上食税之多，是以饥。", 5.2, INK, "middle"))
     s.append(txt(190, c + 36, "饿，不是天给的。", 4.7, GREEN, "middle"))
     s.append(gold(c + 64, "ch75a"))
     s.append('</svg>')
@@ -12396,7 +12396,7 @@ def ch75b_yi_tiao_he():
     s.append(f'<path d="M40,{gy + 112} Q120,{gy + 104} 200,{gy + 112} Q280,{gy + 120} 340,{gy + 114}" fill="none" stroke="{INK}" stroke-width="1.2"/>')
     s.append(f'<path d="M46,{gy + 93} q18,6 36,0 q18,-6 36,0 q18,6 36,0 q18,-6 36,0 q18,6 36,0 q18,-6 36,0 q18,6 36,0 q18,-6 36,0" fill="none" stroke="{'#4A5C55'}" stroke-width="1"/>')
     s.append(f'<polygon points="332,{gy + 92} 322,{gy + 87} 322,{gy + 97}" fill="{'#4A5C55'}"/>')
-    s.append(txt(190, gy + 46, "水在两岸之间，自己往下走", 4.3, "#6E6459", "middle"))
+    s.append(txt(190, gy + 46, "水在两岸之间，自己往下走", 4.5, "#6E6459", "middle"))
     s.append(txt(190, gy + 164, "治者，水名：一条河不需要人来管它", 4.6, GREEN, "middle"))
 
     s.append(txt(24, gy + 188, "二、筑堤：堵一次，水就找一次缝", 4.8, GREEN))
@@ -12432,7 +12432,7 @@ def ch75b_yi_tiao_he():
     c = a + 52
     s.append(f'<line x1="24" y1="{c}" x2="338" y2="{c}" stroke="{LINE}" stroke-width="0.6"/>')
     s.append(box(20, c + 8, 340, 40, fill="#F2EADA", stroke="#C9B79A"))
-    s.append(txt(190, c + 23, "民之难治，以其上之有为，是以难治。", 5.4, INK, "middle"))
+    s.append(txt(190, c + 23, "民之难治，以其上之有为，是以难治。", 5.2, INK, "middle"))
     s.append(txt(190, c + 36, "难治者，堵之所致也。", 4.7, GREEN, "middle"))
     s.append(gold(c + 64, "ch75b"))
     s.append('</svg>')
@@ -12492,7 +12492,7 @@ def ch75c_yi_gan_cheng():
     s.append(f'<rect x="296" y="{gy2 + 60}" width="24" height="15" fill="#EFE6D4" stroke="{SEAL}" stroke-width="0.9"/>')
     s.append(f'<circle cx="303" cy="{gy2 + 65}" r="1.6" fill="none" stroke="{SEAL}" stroke-width="0.6"/>')
     s.append(txt(308, gy2 + 110, "贵生：给命标价", 4.2, SEAL, "middle"))
-    s.append(txt(190, gy2 + 140, "贤：从贝而作「胜」用——空的那头，胜了", 4.4, "#4A5C55", "middle"))
+    s.append(txt(190, gy2 + 140, "贤：从贝而作「胜」用——空的那头，胜了", 4.5, "#4A5C55", "middle"))
     s.append(txt(190, gy2 + 172, "不反对活，反对把活当成一桩事业", 4.6, GREEN, "middle"))
 
     a = gy2 + 196
@@ -12503,7 +12503,7 @@ def ch75c_yi_gan_cheng():
     c = a + 52
     s.append(f'<line x1="24" y1="{c}" x2="338" y2="{c}" stroke="{LINE}" stroke-width="0.6"/>')
     s.append(box(20, c + 8, 340, 40, fill="#F2EADA", stroke="#C9B79A"))
-    s.append(txt(190, c + 23, "夫唯无以生为者，是贤于贵生。", 5.4, INK, "middle"))
+    s.append(txt(190, c + 23, "夫唯无以生为者，是贤于贵生。", 5.2, INK, "middle"))
     s.append(txt(190, c + 36, "生者自然也，为生者项目也。", 4.7, GREEN, "middle"))
     s.append(gold(c + 64, "ch75c"))
     s.append('</svg>')
@@ -12532,11 +12532,11 @@ def ch76a_yi_gen_zhi_tiao():
     s.append(f'<path d="M136,{gy + 132} Q140,{gy + 96} 168,{gy + 78} Q196,{gy + 62} 206,{gy + 40}" fill="none" stroke="{INK}" stroke-width="1.6"/>')
 
     s.append(f'<path d="M146,{gy + 108} q-16,-2 -22,-12" fill="none" stroke="{INK}" stroke-width="1"/>')
-    s.append(txt(214, gy + 66, "弯", 4.4, SEAL))
+    s.append(txt(214, gy + 66, "弯", 4.5, SEAL))
     # 回：虚线回到直立
     s.append(f'<path d="M206,{gy + 40} Q198,{gy + 26} 176,{gy + 28}" fill="none" stroke="#4A5C55" stroke-width="1" stroke-dasharray="4 3"/>')
     s.append(f'<polygon points="176,{gy + 28} 186,{gy + 24} 186,{gy + 34}" fill="#4A5C55"/>')
-    s.append(txt(176, gy + 18, "风过了：回来", 4.3, "#4A5C55", "middle"))
+    s.append(txt(176, gy + 18, "风过了：回来", 4.5, "#4A5C55", "middle"))
     s.append(txt(190, gy + 166, "枝条被风弯，风过了它回来：柔的失败，只是变形", 4.6, GREEN, "middle"))
 
     s.append(txt(24, gy + 190, "二、同一根枝，被折断了", 4.8, GREEN))
@@ -12548,8 +12548,8 @@ def ch76a_yi_gen_zhi_tiao():
     s.append(f'<path d="M140,{gy2 + 78} l-6,-10 l8,-2 l-6,-9" fill="none" stroke="{SEAL}" stroke-width="1.2"/>')
     s.append(f'<path d="M142,{gy2 + 76} Q176,{gy2 + 92} 196,{gy2 + 128}" fill="none" stroke="{INK}" stroke-width="1.4"/>')
     s.append(f'<line x1="196" y1="{gy2 + 128}" x2="214" y2="{gy2 + 130}" stroke="{INK}" stroke-width="1.2"/>')
-    s.append(txt(228, gy2 + 96, "断口：", 4.3, SEAL))
-    s.append(txt(228, gy2 + 108, "接不回去", 4.3, "#6E6459"))
+    s.append(txt(228, gy2 + 96, "断口：", 4.5, SEAL))
+    s.append(txt(228, gy2 + 108, "接不回去", 4.5, "#6E6459"))
     s.append(txt(228, gy2 + 128, "梢落在地上", 4.2, "#6E6459"))
     s.append(txt(190, gy2 + 166, "同样一个力：弯的回来了，断的回不来", 4.6, GREEN, "middle"))
 
@@ -12561,7 +12561,7 @@ def ch76a_yi_gen_zhi_tiao():
     c = a + 52
     s.append(f'<line x1="24" y1="{c}" x2="338" y2="{c}" stroke="{LINE}" stroke-width="0.6"/>')
     s.append(box(20, c + 8, 340, 40, fill="#F2EADA", stroke="#C9B79A"))
-    s.append(txt(190, c + 23, "人之生也柔弱，其死也坚强。", 5.4, INK, "middle"))
+    s.append(txt(190, c + 23, "人之生也柔弱，其死也坚强。", 5.2, INK, "middle"))
     s.append(txt(190, c + 36, "曲者可直，直者可曲。", 4.7, GREEN, "middle"))
     s.append(gold(c + 64, "ch76a"))
     s.append('</svg>')
@@ -12605,7 +12605,7 @@ def ch76b_yi_zhang_gong():
     s.append(f'<path d="M136,{gy2 + 66} l-8,-4 l3,-8 l-9,-2" fill="none" stroke="{SEAL}" stroke-width="1.4"/>')
     # 弦松垂
     s.append(f'<path d="M132,{gy2 + 22} Q186,{gy2 + 84} 130,{gy2 + 132}" fill="none" stroke="{INK}" stroke-width="1" stroke-dasharray="4 3"/>')
-    s.append(txt(168, gy2 + 96, "弦松了，箭射不出去", 4.3, "#6E6459"))
+    s.append(txt(168, gy2 + 96, "弦松了，箭射不出去", 4.5, "#6E6459"))
     s.append(txt(104, gy2 + 76, "断在这里", 4.2, SEAL))
     s.append(txt(190, gy2 + 168, "一张弓最强之时，即其最危之时", 4.6, GREEN, "middle"))
 
@@ -12617,7 +12617,7 @@ def ch76b_yi_zhang_gong():
     c = a + 52
     s.append(f'<line x1="24" y1="{c}" x2="338" y2="{c}" stroke="{LINE}" stroke-width="0.6"/>')
     s.append(box(20, c + 8, 340, 40, fill="#F2EADA", stroke="#C9B79A"))
-    s.append(txt(190, c + 23, "故坚强者死之徒，柔弱者生之徒。", 5.4, INK, "middle"))
+    s.append(txt(190, c + 23, "故坚强者死之徒，柔弱者生之徒。", 5.2, INK, "middle"))
     s.append(txt(190, c + 36, "徒者，步行也——两条路，不是一个类。", 4.7, GREEN, "middle"))
     s.append(gold(c + 64, "ch76b"))
     s.append('</svg>')
@@ -12650,8 +12650,8 @@ def ch76c_yi_ba_fu():
     s.append(f'<path d="M112,{gy + 72} L174,{gy + 74} L180,{gy + 86} L118,{gy + 88} Z" fill="#DED2B8" stroke="{INK}" stroke-width="1"/>')
     s.append(f'<line x1="118" y1="{gy + 88}" x2="180" y2="{gy + 86}" stroke="{INK}" stroke-width="1.2"/>')
     s.append(f'<line x1="174" y1="{gy + 74}" x2="240" y2="{gy + 24}" stroke="{INK}" stroke-width="2"/>')
-    s.append(txt(196, gy + 100, "斤：斧", 4.3, SEAL))
-    s.append(txt(88, gy + 146, "艸：草", 4.3, "#6E6459"))
+    s.append(txt(196, gy + 100, "斤：斧", 4.5, SEAL))
+    s.append(txt(88, gy + 146, "艸：草", 4.5, "#6E6459"))
     s.append(txt(190, gy + 166, "折：斧落下来，断了的那一丛草", 4.6, GREEN, "middle"))
 
     s.append(txt(24, gy + 190, "二、同一个力，落在草上／落在木上", 4.8, GREEN))
@@ -12664,12 +12664,12 @@ def ch76c_yi_ba_fu():
     for i in range(4):
         cx = 108 + i * 12
         s.append(f'<path d="M{cx},{gy2 + 136} Q{cx + 8},{gy2 + 104} {cx + 34},{gy2 + 86}" fill="none" stroke="{INK}" stroke-width="1.3"/>')
-    s.append(txt(132, gy2 + 66, "草弯了，没断", 4.3, "#4A5C55", "middle"))
+    s.append(txt(132, gy2 + 66, "草弯了，没断", 4.5, "#4A5C55", "middle"))
     # 右：木被折断成两截
     s.append(f'<rect x="228" y="{gy2 + 106}" width="52" height="30" fill="#EFE6D4" stroke="{INK}" stroke-width="1"/>')
     s.append(f'<rect x="290" y="{gy2 + 110}" width="40" height="26" fill="#EFE6D4" stroke="{INK}" stroke-width="1"/>')
     s.append(f'<path d="M282,{gy2 + 106} l8,8 l-8,8 l8,8" fill="none" stroke="{SEAL}" stroke-width="1.3"/>')
-    s.append(txt(282, gy2 + 92, "木断了", 4.3, SEAL, "middle"))
+    s.append(txt(282, gy2 + 92, "木断了", 4.5, SEAL, "middle"))
     s.append(txt(190, gy2 + 168, "柔者见弯，强者见断：弯可复，断不可复", 4.6, GREEN, "middle"))
 
     a = gy2 + 192
@@ -12680,7 +12680,7 @@ def ch76c_yi_ba_fu():
     c = a + 52
     s.append(f'<line x1="24" y1="{c}" x2="338" y2="{c}" stroke="{LINE}" stroke-width="0.6"/>')
     s.append(box(20, c + 8, 340, 40, fill="#F2EADA", stroke="#C9B79A"))
-    s.append(txt(190, c + 23, "是以兵强则灭，木强则折。", 5.4, INK, "middle"))
+    s.append(txt(190, c + 23, "是以兵强则灭，木强则折。", 5.2, INK, "middle"))
     s.append(txt(190, c + 36, "强者见断，柔者见弯。", 4.7, GREEN, "middle"))
     s.append(gold(c + 64, "ch76c"))
     s.append('</svg>')
@@ -12708,15 +12708,15 @@ def ch77a_yi_zhang_xian():
     s.append(f'<line x1="146" y1="{gy + 50}" x2="258" y2="{gy + 96}" stroke="#B9A98F" stroke-width="0.9"/>')
     s.append(f'<circle cx="146" cy="{gy + 50}" r="3" fill="none" stroke="{SEAL}" stroke-width="1.2"/>')
     s.append(f'<circle cx="258" cy="{gy + 96}" r="3" fill="none" stroke="#B9A98F" stroke-width="1"/>')
-    s.append(txt(196, gy + 46, "左梢高了：弦是斜的", 4.3, SEAL))
+    s.append(txt(196, gy + 46, "左梢高了：弦是斜的", 4.5, SEAL))
     # 一只手按下
     s.append(f'<path d="M104,{gy + 26} Q122,{gy + 36} 140,{gy + 26}" fill="#EFE6D4" stroke="{INK}" stroke-width="1"/>')
     for i in range(3):
         s.append(f'<line x1="{114 + i * 7}" y1="{gy + 28}" x2="{114 + i * 7}" y2="{gy + 20}" stroke="{INK}" stroke-width="0.8"/>')
     s.append(f'<line x1="118" y1="{gy + 44}" x2="118" y2="{gy + 34}" stroke="{SEAL}" stroke-width="1" stroke-dasharray="3 2"/>')
     s.append(f'<polygon points="118,{gy + 44} 113,{gy + 34} 123,{gy + 34}" fill="{SEAL}"/>')
-    s.append(txt(190, gy + 34, "抑：一手按下", 4.3, SEAL, "middle"))
-    s.append(txt(190, gy + 116, "抑者，《说文》曰「按也」——一手可矣", 4.4, "#6E6459", "middle"))
+    s.append(txt(190, gy + 34, "抑：一手按下", 4.5, SEAL, "middle"))
+    s.append(txt(190, gy + 116, "抑者，《说文》曰「按也」——一手可矣", 4.5, "#6E6459", "middle"))
     s.append(txt(190, gy + 166, "高者抑之：高处只需一只手按住", 4.6, GREEN, "middle"))
 
     s.append(txt(24, gy + 190, "二、一头低了：举之", 4.8, GREEN))
@@ -12727,13 +12727,13 @@ def ch77a_yi_zhang_xian():
     s.append(f'<line x1="146" y1="{gy2 + 56}" x2="258" y2="{gy2 + 116}" stroke="#B9A98F" stroke-width="0.9"/>')
     s.append(f'<circle cx="146" cy="{gy2 + 56}" r="3" fill="none" stroke="#B9A98F" stroke-width="1"/>')
     s.append(f'<circle cx="258" cy="{gy2 + 116}" r="3" fill="none" stroke="{SEAL}" stroke-width="1.2"/>')
-    s.append(txt(196, gy2 + 72, "右梢低了：弦还是斜的", 4.3, SEAL))
+    s.append(txt(196, gy2 + 72, "右梢低了：弦还是斜的", 4.5, SEAL))
     # 两只手往上托
     s.append(f'<path d="M244,{gy2 + 132} Q262,{gy2 + 142} 280,{gy2 + 132}" fill="#EFE6D4" stroke="{INK}" stroke-width="1"/>')
     s.append(f'<path d="M244,{gy2 + 118} Q262,{gy2 + 128} 280,{gy2 + 118}" fill="#EFE6D4" stroke="{INK}" stroke-width="1"/>')
     s.append(f'<line x1="262" y1="{gy2 + 110}" x2="262" y2="{gy2 + 98}" stroke="{SEAL}" stroke-width="1" stroke-dasharray="3 2"/>')
     s.append(f'<polygon points="262,{gy2 + 94} 257,{gy2 + 104} 267,{gy2 + 104}" fill="{SEAL}"/>')
-    s.append(txt(176, gy2 + 146, "举：须两手托", 4.3, SEAL, "middle"))
+    s.append(txt(176, gy2 + 146, "举：须两手托", 4.5, SEAL, "middle"))
     s.append(txt(190, gy2 + 166, "举者，《说文》曰「对举也」——必须两只手", 4.6, GREEN, "middle"))
 
     a = gy2 + 190
@@ -12744,7 +12744,7 @@ def ch77a_yi_zhang_xian():
     c = a + 52
     s.append(f'<line x1="24" y1="{c}" x2="338" y2="{c}" stroke="{LINE}" stroke-width="0.6"/>')
     s.append(box(20, c + 8, 340, 40, fill="#F2EADA", stroke="#C9B79A"))
-    s.append(txt(190, c + 23, "高者抑之，下者举之。", 5.4, INK, "middle"))
+    s.append(txt(190, c + 23, "高者抑之，下者举之。", 5.2, INK, "middle"))
     s.append(txt(190, c + 36, "损有余易，补不足难。", 4.7, GREEN, "middle"))
     s.append(gold(c + 64, "ch77a"))
     s.append('</svg>')
@@ -12772,11 +12772,11 @@ def ch77b_yi_jian_po_yi():
     s.append(f'<rect x="228" y="{gy + 54}" width="34" height="40" rx="3" fill="#EFE6D4" stroke="{INK}" stroke-width="1.1"/>')
     # 阙：左肩一道口子
     s.append(f'<path d="M150,{gy + 56} l-6,8 l6,6 l-4,8" fill="none" stroke="{SEAL}" stroke-width="1.4"/>')
-    s.append(txt(112, gy + 44, "阙：破了", 4.3, SEAL))
+    s.append(txt(112, gy + 44, "阙：破了", 4.5, SEAL))
     # 余：右袖长出一截
     s.append(f'<rect x="262" y="{gy + 56}" width="22" height="34" rx="2" fill="#DED2B8" stroke="{SEAL}" stroke-width="1" stroke-dasharray="3 2"/>')
     s.append(txt(292, gy + 84, "余：多出一块", 4.2, SEAL))
-    s.append(txt(190, gy + 148, "同一块布，两处挂着：不缝，则两处皆废", 4.4, GREEN, "middle"))
+    s.append(txt(190, gy + 148, "同一块布，两处挂着：不缝，则两处皆废", 4.5, GREEN, "middle"))
     s.append(txt(190, gy + 168, "此天之算术也：非加总也，配平也", 4.6, GREEN, "middle"))
 
     s.append(txt(24, gy + 192, "二、剪此补彼：一件衣，两处都好", 4.8, GREEN))
@@ -12790,12 +12790,12 @@ def ch77b_yi_jian_po_yi():
     # 缝：针脚
     for i in range(5):
         s.append(f'<line x1="{144 + i * 5}" y1="{gy2 + 54}" x2="{140 + i * 5}" y2="{gy2 + 68}" stroke="{SEAL}" stroke-width="1"/>')
-    s.append(txt(120, gy2 + 44, "缝上了", 4.3, SEAL))
+    s.append(txt(120, gy2 + 44, "缝上了", 4.5, SEAL))
     # 虚线：那一块布挪过来
     s.append(f'<path d="M262,{gy2 + 70} Q222,{gy2 + 40} 176,{gy2 + 48}" fill="none" stroke="{SEAL}" stroke-width="1" stroke-dasharray="4 3"/>')
     s.append(f'<polygon points="176,{gy2 + 48} 186,{gy2 + 44} 186,{gy2 + 54}" fill="{SEAL}"/>')
     s.append(txt(272, gy2 + 92, "袖口不再多出", 4.2, "#6E6459"))
-    s.append(txt(190, gy2 + 148, "一布两处：一处有余，一处有阙；缝之，两处皆可用", 4.4, GREEN, "middle"))
+    s.append(txt(190, gy2 + 148, "一布两处：一处有余，一处有阙；缝之，两处皆可用", 4.5, GREEN, "middle"))
     s.append(txt(190, gy2 + 168, "补不是给它添，是让它重新穿得上", 4.6, GREEN, "middle"))
 
     a = gy2 + 192
@@ -12806,7 +12806,7 @@ def ch77b_yi_jian_po_yi():
     c = a + 52
     s.append(f'<line x1="24" y1="{c}" x2="338" y2="{c}" stroke="{LINE}" stroke-width="0.6"/>')
     s.append(box(20, c + 8, 340, 40, fill="#F2EADA", stroke="#C9B79A"))
-    s.append(txt(190, c + 23, "有余者损之，不足者补之。", 5.4, INK, "middle"))
+    s.append(txt(190, c + 23, "有余者损之，不足者补之。", 5.2, INK, "middle"))
     s.append(txt(190, c + 36, "补者，完衣也：缝也，非给也。", 4.7, GREEN, "middle"))
     s.append(gold(c + 64, "ch77b"))
     s.append('</svg>')
@@ -12830,12 +12830,12 @@ def ch77c_liang_zhi_shou():
     # 空碗
     s.append(f'<path d="M56,{gy + 82} Q78,{gy + 126} 100,{gy + 82}" fill="#EFE6D4" stroke="{INK}" stroke-width="1.2"/>')
     s.append(f'<line x1="54" y1="{gy + 82}" x2="102" y2="{gy + 82}" stroke="{INK}" stroke-width="1.2"/>')
-    s.append(txt(78, gy + 144, "不足", 4.3, "#6E6459", "middle"))
+    s.append(txt(78, gy + 144, "不足", 4.5, "#6E6459", "middle"))
     # 满碗
     s.append(f'<path d="M262,{gy + 64} Q288,{gy + 116} 314,{gy + 64}" fill="#EFE6D4" stroke="{INK}" stroke-width="1.2"/>')
     s.append(f'<line x1="258" y1="{gy + 64}" x2="318" y2="{gy + 64}" stroke="{INK}" stroke-width="1.2"/>')
     s.append(f'<path d="M258,{gy + 64} q30,-14 60,0" fill="#DED2B8" stroke="{INK}" stroke-width="1"/>')
-    s.append(txt(288, gy + 144, "有余", 4.3, SEAL, "middle"))
+    s.append(txt(288, gy + 144, "有余", 4.5, SEAL, "middle"))
     # 两只手：从空碗刮起，捧向满碗
     s.append(f'<path d="M98,{gy + 52} Q118,{gy + 66} 138,{gy + 52}" fill="#EFE6D4" stroke="{INK}" stroke-width="1"/>')
     for i in range(3):
@@ -12843,7 +12843,7 @@ def ch77c_liang_zhi_shou():
 
     s.append(f'<path d="M140,{gy + 52} Q200,{gy + 26} 258,{gy + 46}" fill="none" stroke="{SEAL}" stroke-width="1" stroke-dasharray="4 3"/>')
     s.append(f'<polygon points="258,{gy + 46} 246,{gy + 42} 248,{gy + 52}" fill="{SEAL}"/>')
-    s.append(txt(190, gy + 24, "捧而献之", 4.3, SEAL, "middle"))
+    s.append(txt(190, gy + 24, "捧而献之", 4.5, SEAL, "middle"))
     s.append(txt(190, gy + 166, "夺者含恨，献者含敬；而最冷者，献者自愿也", 4.6, GREEN, "middle"))
 
     s.append(txt(24, gy + 190, "二、唯有道者：倒过来捧", 4.8, GREEN))
@@ -12854,18 +12854,18 @@ def ch77c_liang_zhi_shou():
     s.append(f'<path d="M56,{gy2 + 64} Q82,{gy2 + 116} 108,{gy2 + 64}" fill="#EFE6D4" stroke="{INK}" stroke-width="1.2"/>')
     s.append(f'<line x1="52" y1="{gy2 + 64}" x2="112" y2="{gy2 + 64}" stroke="{INK}" stroke-width="1.2"/>')
     s.append(f'<path d="M52,{gy2 + 64} q30,-14 60,0" fill="#DED2B8" stroke="{INK}" stroke-width="1"/>')
-    s.append(txt(82, gy2 + 144, "有余", 4.3, SEAL, "middle"))
+    s.append(txt(82, gy2 + 144, "有余", 4.5, SEAL, "middle"))
     # 空碗（受）
     s.append(f'<path d="M262,{gy2 + 82} Q288,{gy2 + 126} 314,{gy2 + 82}" fill="#EFE6D4" stroke="{INK}" stroke-width="1.2"/>')
     s.append(f'<line x1="260" y1="{gy2 + 82}" x2="316" y2="{gy2 + 82}" stroke="{INK}" stroke-width="1.2"/>')
-    s.append(txt(288, gy2 + 144, "不足", 4.3, "#6E6459", "middle"))
+    s.append(txt(288, gy2 + 144, "不足", 4.5, "#6E6459", "middle"))
     s.append(f'<path d="M120,{gy2 + 48} Q200,{gy2 + 26} 260,{gy2 + 62}" fill="none" stroke="#4A5C55" stroke-width="1" stroke-dasharray="4 3"/>')
     s.append(f'<polygon points="260,{gy2 + 62} 248,{gy2 + 58} 250,{gy2 + 68}" fill="#4A5C55"/>')
     s.append(f'<path d="M178,{gy2 + 38} Q200,{gy2 + 54} 222,{gy2 + 38}" fill="#EFE6D4" stroke="{INK}" stroke-width="1"/>')
     for i in range(3):
         s.append(f'<line x1="{187 + i * 8}" y1="{gy2 + 40}" x2="{186 + i * 8}" y2="{gy2 + 30}" stroke="{INK}" stroke-width="0.8"/>')
 
-    s.append(txt(196, gy2 + 26, "有余以奉天下", 4.3, "#4A5C55", "middle"))
+    s.append(txt(196, gy2 + 26, "有余以奉天下", 4.5, "#4A5C55", "middle"))
     s.append(txt(190, gy2 + 166, "孰能有余以奉天下？唯有道者", 4.6, GREEN, "middle"))
 
     a = gy2 + 190
@@ -12876,7 +12876,7 @@ def ch77c_liang_zhi_shou():
     c = a + 52
     s.append(f'<line x1="24" y1="{c}" x2="338" y2="{c}" stroke="{LINE}" stroke-width="0.6"/>')
     s.append(box(20, c + 8, 340, 40, fill="#F2EADA", stroke="#C9B79A"))
-    s.append(txt(190, c + 23, "人之道则不然，损不足以奉有余。", 5.4, INK, "middle"))
+    s.append(txt(190, c + 23, "人之道则不然，损不足以奉有余。", 5.2, INK, "middle"))
     s.append(txt(190, c + 36, "奉者，承也：两手捧而献之。", 4.7, GREEN, "middle"))
     s.append(gold(c + 64, "ch77c"))
     s.append('</svg>')
@@ -12904,7 +12904,7 @@ def ch78a_yi_zhi_qi():
     # 水：从罐口倾出
     s.append(f'<path d="M132,{gy + 56} Q170,{gy + 70} 206,{gy + 64}" fill="none" stroke="#4A5C55" stroke-width="2"/>')
     s.append(f'<path d="M206,{gy + 64} Q214,{gy + 84} 214,{gy + 104}" fill="none" stroke="#4A5C55" stroke-width="2"/>')
-    s.append(txt(150, gy + 46, "水在倒", 4.3, "#4A5C55"))
+    s.append(txt(150, gy + 46, "水在倒", 4.5, "#4A5C55"))
     # 右器：细高瓶（另一个形）
     s.append(f'<path d="M200,{gy + 60} Q186,{gy + 92} 196,{gy + 130}" fill="#EFE6D4" stroke="{INK}" stroke-width="1.2"/>')
     s.append(f'<path d="M232,{gy + 60} Q246,{gy + 92} 236,{gy + 130}" fill="#EFE6D4" stroke="{INK}" stroke-width="1.2"/>')
@@ -12924,7 +12924,7 @@ def ch78a_yi_zhi_qi():
     s.append(txt(96, gy2 + 100, "器碎了", 4.2, SEAL))
     # 地上那滩水：形状随地
     s.append(f'<path d="M150,{gy2 + 132} Q196,{gy2 + 112} 250,{gy2 + 132} Q200,{gy2 + 142} 150,{gy2 + 132} Z" fill="#4A5C55" fill-opacity="0.25" stroke="#4A5C55" stroke-width="1"/>')
-    s.append(txt(200, gy2 + 96, "还是那滩水", 4.3, "#4A5C55", "middle"))
+    s.append(txt(200, gy2 + 96, "还是那滩水", 4.5, "#4A5C55", "middle"))
     s.append(txt(190, gy2 + 172, "形易万次，体未尝一易", 4.6, GREEN, "middle"))
 
     a = gy2 + 196
@@ -12966,7 +12966,7 @@ def ch78b_yi_peng_tu():
     for i in range(4):
         s.append(f'<circle cx="{162 + i * 20}" cy="{gy + 46 + (i % 2) * 6}" r="1.6" fill="#B9A98F"/>')
         s.append(f'<circle cx="{168 + i * 18}" cy="{gy + 56 + (i % 2) * 5}" r="1.4" fill="#B9A98F"/>')
-    s.append(txt(196, gy + 10, "土落下来", 4.3, SEAL, "middle"))
+    s.append(txt(196, gy + 10, "土落下来", 4.5, SEAL, "middle"))
     s.append(txt(190, gy + 168, "接住：土落进来，水不拒——拒的，就不是受", 4.6, GREEN, "middle"))
 
     s.append(txt(24, gy + 192, "二、沉之，复清之", 4.8, GREEN))
@@ -12979,8 +12979,8 @@ def ch78b_yi_peng_tu():
     s.append(f'<path d="M150,{gy2 + 58} L230,{gy2 + 58} L228,{gy2 + 104} Q190,{gy2 + 112} 152,{gy2 + 104} Z" fill="#4A5C55" fill-opacity="0.16" stroke="#4A5C55" stroke-width="0.7"/>')
     # 沉土在下
     s.append(f'<path d="M152,{gy2 + 104} Q190,{gy2 + 112} 228,{gy2 + 104} Q228,{gy2 + 118} 190,{gy2 + 122} Q152,{gy2 + 118} 152,{gy2 + 104} Z" fill="#DED2B8" stroke="{INK}" stroke-width="0.8"/>')
-    s.append(txt(252, gy2 + 74, "上：清", 4.3, "#4A5C55"))
-    s.append(txt(252, gy2 + 116, "下：土沉了", 4.3, SEAL))
+    s.append(txt(252, gy2 + 74, "上：清", 4.5, "#4A5C55"))
+    s.append(txt(252, gy2 + 116, "下：土沉了", 4.5, SEAL))
     s.append(f'<line x1="240" y1="{gy2 + 110}" x2="248" y2="{gy2 + 114}" stroke="#B9A98F" stroke-width="0.7"/>')
     s.append(txt(190, gy2 + 168, "土沉了，水自己就清了：不是吞土，是放土", 4.6, GREEN, "middle"))
 
@@ -12992,7 +12992,7 @@ def ch78b_yi_peng_tu():
     c = a + 52
     s.append(f'<line x1="24" y1="{c}" x2="338" y2="{c}" stroke="{LINE}" stroke-width="0.6"/>')
     s.append(box(20, c + 8, 340, 40, fill="#F2EADA", stroke="#C9B79A"))
-    s.append(txt(190, c + 23, "受国之垢，是谓社稷主。", 5.4, INK, "middle"))
+    s.append(txt(190, c + 23, "受国之垢，是谓社稷主。", 5.2, INK, "middle"))
     s.append(txt(190, c + 36, "垢者，浊也，从土：垢即土也。", 4.7, GREEN, "middle"))
     s.append(gold(c + 64, "ch78b"))
     s.append('</svg>')
@@ -13007,7 +13007,7 @@ def ch78c_yi_kuai_pai_wei():
 
     s.append(box(20, y + 2, 340, 32, fill="#F2EADA", stroke="#C9B79A"))
     s.append(txt(190, y + 14, "社，《说文》「地主也」，从示土——土神也。", 4.7, INK, "middle"))
-    s.append(txt(190, y + 27, "垢从土，社亦从土：一污一神；以污之一面自受，而后为神之一面之主。", 4.4, "#6E6459", "middle"))
+    s.append(txt(190, y + 27, "垢从土，社亦从土：一污一神；以污之一面自受，而后为神之一面之主。", 4.5, "#6E6459", "middle"))
 
     s.append(txt(24, y + 50, "一、土：先是一捧土", 4.8, SEAL))
     gy = y + 62
@@ -13023,9 +13023,9 @@ def ch78c_yi_kuai_pai_wei():
     for i in range(2):
         s.append(f'<line x1="{92 + i * 8}" y1="{gy + 114}" x2="{91 + i * 8}" y2="{gy + 106}" stroke="{INK}" stroke-width="0.8"/>')
         s.append(f'<line x1="{198 + i * 8}" y1="{gy + 114}" x2="{197 + i * 8}" y2="{gy + 106}" stroke="{INK}" stroke-width="0.8"/>')
-    s.append(txt(150, gy + 78, "一捧土", 4.4, SEAL, "middle"))
-    s.append(txt(252, gy + 104, "垢就是土：", 4.3, SEAL))
-    s.append(txt(252, gy + 116, "最脏的那一面", 4.3, "#6E6459"))
+    s.append(txt(150, gy + 78, "一捧土", 4.5, SEAL, "middle"))
+    s.append(txt(252, gy + 104, "垢就是土：", 4.5, SEAL))
+    s.append(txt(252, gy + 116, "最脏的那一面", 4.5, "#6E6459"))
     s.append(txt(190, gy + 168, "土是最贱的东西：踩在脚下，也落在衣上", 4.6, GREEN, "middle"))
 
     s.append(txt(24, gy + 192, "二、同一捧土，立成社主", 4.8, GREEN))
@@ -13039,8 +13039,8 @@ def ch78c_yi_kuai_pai_wei():
     s.append(txt(160, gy2 + 92, "社", 15, SEAL, "middle"))
     # 一抹土色贴在牌上
     s.append(f'<path d="M144,{gy2 + 116} q16,-6 32,0" fill="none" stroke="#B9A98F" stroke-width="1"/>')
-    s.append(txt(196, gy2 + 66, "接过土的，", 4.3, SEAL))
-    s.append(txt(196, gy2 + 78, "才配当它的主", 4.3, SEAL))
+    s.append(txt(196, gy2 + 66, "接过土的，", 4.5, SEAL))
+    s.append(txt(196, gy2 + 78, "才配当它的主", 4.5, SEAL))
     s.append(txt(190, gy2 + 168, "土神不是另请一位：是把接过的那捧土立起来", 4.6, GREEN, "middle"))
 
     a = gy2 + 192
@@ -13051,7 +13051,7 @@ def ch78c_yi_kuai_pai_wei():
     c = a + 52
     s.append(f'<line x1="24" y1="{c}" x2="338" y2="{c}" stroke="{LINE}" stroke-width="0.6"/>')
     s.append(box(20, c + 8, 340, 40, fill="#F2EADA", stroke="#C9B79A"))
-    s.append(txt(190, c + 23, "受国不祥，是为天下王。", 5.4, INK, "middle"))
+    s.append(txt(190, c + 23, "受国不祥，是为天下王。", 5.2, INK, "middle"))
     s.append(txt(190, c + 36, "社者，地主也，从示土。", 4.7, GREEN, "middle"))
     s.append(gold(c + 64, "ch78c"))
     s.append('</svg>')
@@ -13079,10 +13079,10 @@ def ch79a_ban_pian_mu():
         yy = gy + 58 + i * 20
         s.append(f'<line x1="132" y1="{yy}" x2="118" y2="{yy}" stroke="{INK}" stroke-width="1.4"/>')
         s.append(f'<line x1="136" y1="{yy}" x2="150" y2="{yy}" stroke="{INK}" stroke-width="1.4"/>')
-    s.append(txt(108, gy + 30, "左契", 4.3, SEAL, "middle"))
-    s.append(txt(172, gy + 30, "右契", 4.3, "#6E6459", "middle"))
-    s.append(txt(216, gy + 74, "齿对得上，", 4.3, SEAL))
-    s.append(txt(216, gy + 86, "才认得出这一份", 4.3, "#6E6459"))
+    s.append(txt(108, gy + 30, "左契", 4.5, SEAL, "middle"))
+    s.append(txt(172, gy + 30, "右契", 4.5, "#6E6459", "middle"))
+    s.append(txt(216, gy + 74, "齿对得上，", 4.5, SEAL))
+    s.append(txt(216, gy + 86, "才认得出这一份", 4.5, "#6E6459"))
     s.append(txt(190, gy + 168, "剖开过，所以只剩一半：它记得住，是靠那道齿", 4.6, GREEN, "middle"))
 
     s.append(txt(24, gy + 192, "二、执在手上，但不伸出去", 4.8, GREEN))
@@ -13146,7 +13146,7 @@ def ch79b_yi_zhang_zhang():
     # 一支笔
     s.append(f'<line x1="228" y1="{gy + 34}" x2="240" y2="{gy + 92}" stroke="{INK}" stroke-width="1.6"/>')
     s.append(f'<path d="M240,{gy + 92} l-4,8 l6,-1" fill="#DED2B8" stroke="{INK}" stroke-width="1"/>')
-    s.append(txt(190, gy + 136, "彻：通篇算过，条条都记得", 4.3, SEAL, "middle"))
+    s.append(txt(190, gy + 136, "彻：通篇算过，条条都记得", 4.5, SEAL, "middle"))
     s.append(txt(190, gy + 168, "它不出声，但它天天在动", 4.6, GREEN, "middle"))
 
     s.append(txt(24, gy + 192, "二、账合上了：只存那一块木", 4.8, GREEN))
@@ -13173,7 +13173,7 @@ def ch79b_yi_zhang_zhang():
     c = a + 52
     s.append(f'<line x1="24" y1="{c}" x2="338" y2="{c}" stroke="{LINE}" stroke-width="0.6"/>')
     s.append(box(20, c + 8, 340, 40, fill="#F2EADA", stroke="#C9B79A"))
-    s.append(txt(190, c + 23, "有德司契，无德司彻。", 5.4, INK, "middle"))
+    s.append(txt(190, c + 23, "有德司契，无德司彻。", 5.2, INK, "middle"))
     s.append(txt(190, c + 36, "契记齿，账记数。", 4.7, GREEN, "middle"))
     s.append(gold(c + 64, "ch79b"))
     s.append('</svg>')
@@ -13209,7 +13209,7 @@ def ch79c_yi_gan_cheng():
     s.append(f'<path d="M292,{gy + 78} q16,-14 32,0" fill="#DED2B8" stroke="{INK}" stroke-width="0.9"/>')
     s.append(txt(72, gy + 116, "一块石", 4.2, "#6E6459", "middle"))
     s.append(txt(308, gy + 116, "一捧谷", 4.2, "#6E6459", "middle"))
-    s.append(txt(190, gy + 116, "什么都称", 4.3, SEAL, "middle"))
+    s.append(txt(190, gy + 116, "什么都称", 4.5, SEAL, "middle"))
     s.append(txt(190, gy + 168, "它不挑东西：石与谷，两盘一样重就平", 4.6, GREEN, "middle"))
 
     s.append(txt(24, gy + 192, "二、不进门：挂在门口", 4.8, GREEN))
@@ -13243,7 +13243,7 @@ def ch79c_yi_gan_cheng():
     c = a + 52
     s.append(f'<line x1="24" y1="{c}" x2="338" y2="{c}" stroke="{LINE}" stroke-width="0.6"/>')
     s.append(box(20, c + 8, 340, 40, fill="#F2EADA", stroke="#C9B79A"))
-    s.append(txt(190, c + 23, "天道无亲，常与善人。", 5.4, INK, "middle"))
+    s.append(txt(190, c + 23, "天道无亲，常与善人。", 5.2, INK, "middle"))
     s.append(txt(190, c + 36, "无亲者，不偏向也。", 4.7, GREEN, "middle"))
     s.append(gold(c + 64, "ch79c"))
     s.append('</svg>')
@@ -13268,7 +13268,7 @@ def ch80a_yi_gen_sheng():
     # 大小结
     for cx, r in [(76, 4), (116, 2.6), (156, 5), (196, 2.6), (236, 4), (276, 3)]:
         s.append(f'<circle cx="{cx}" cy="{gy + 84}" r="{r}" fill="{INK}"/>')
-    s.append(txt(190, gy + 116, "大事大结，小事小结：只有数", 4.4, SEAL, "middle"))
+    s.append(txt(190, gy + 116, "大事大结，小事小结：只有数", 4.5, SEAL, "middle"))
     s.append(txt(190, gy + 168, "没有字，就不必争那个字怎么写", 4.6, GREEN, "middle"))
 
     s.append(txt(24, gy + 192, "二、结完了，挂在墙上", 4.8, GREEN))
@@ -13282,9 +13282,9 @@ def ch80a_yi_gen_sheng():
     s.append(f'<ellipse cx="150" cy="{gy2 + 68}" rx="16" ry="12" fill="none" stroke="{INK}" stroke-width="1"/>')
     s.append(f'<line x1="150" y1="{gy2 + 30}" x2="150" y2="{gy2 + 48}" stroke="{INK}" stroke-width="1.2"/>')
     s.append(f'<path d="M172,{gy2 + 84} q10,10 4,20" fill="none" stroke="{INK}" stroke-width="1.2"/>')
-    s.append(txt(150, gy2 + 116, "挂着：在，不用", 4.4, SEAL, "middle"))
-    s.append(txt(236, gy2 + 68, "绳在，不响；", 4.3, "#6E6459"))
-    s.append(txt(236, gy2 + 80, "数在，不算。", 4.3, "#6E6459"))
+    s.append(txt(150, gy2 + 116, "挂着：在，不用", 4.5, SEAL, "middle"))
+    s.append(txt(236, gy2 + 68, "绳在，不响；", 4.5, "#6E6459"))
+    s.append(txt(236, gy2 + 80, "数在，不算。", 4.5, "#6E6459"))
     s.append(txt(190, gy2 + 168, "都在，都不用：这就是这一章全部的功夫", 4.6, GREEN, "middle"))
 
     a = gy2 + 192
@@ -13295,7 +13295,7 @@ def ch80a_yi_gen_sheng():
     c = a + 52
     s.append(f'<line x1="24" y1="{c}" x2="338" y2="{c}" stroke="{LINE}" stroke-width="0.6"/>')
     s.append(box(20, c + 8, 340, 40, fill="#F2EADA", stroke="#C9B79A"))
-    s.append(txt(190, c + 23, "使民复结绳而用之。", 5.4, INK, "middle"))
+    s.append(txt(190, c + 23, "使民复结绳而用之。", 5.2, INK, "middle"))
     s.append(txt(190, c + 36, "绳上只打结，不刻字。", 4.7, GREEN, "middle"))
     s.append(gold(c + 64, "ch80a"))
     s.append('</svg>')
@@ -13323,7 +13323,7 @@ def ch80b_yi_tiao_chuan():
     # 桨
     s.append(f'<line x1="130" y1="{gy + 46}" x2="216" y2="{gy + 96}" stroke="{INK}" stroke-width="1.6"/>')
     s.append(f'<ellipse cx="222" cy="{gy + 99}" rx="9" ry="4" fill="#DED2B8" stroke="{INK}" stroke-width="1" transform="rotate(14 222 {gy + 99})"/>')
-    s.append(txt(190, gy + 128, "船能走，桨在手", 4.4, SEAL, "middle"))
+    s.append(txt(190, gy + 128, "船能走，桨在手", 4.5, SEAL, "middle"))
     s.append(txt(190, gy + 168, "有而不用：船不破，水不惊", 4.6, GREEN, "middle"))
 
     s.append(txt(24, gy + 192, "二、不启动：桨横在船里", 4.8, GREEN))
@@ -13338,7 +13338,7 @@ def ch80b_yi_tiao_chuan():
 
     # 系船的绳
     s.append(f'<path d="M246,{gy2 + 74} q18,6 6,18" fill="none" stroke="{SEAL}" stroke-width="1" stroke-dasharray="3 2"/>')
-    s.append(txt(190, gy2 + 130, "桨横着，绳系着：不启动", 4.4, SEAL, "middle"))
+    s.append(txt(190, gy2 + 130, "桨横着，绳系着：不启动", 4.5, SEAL, "middle"))
     s.append(txt(190, gy2 + 168, "每天被人看见，每天不被使用", 4.6, GREEN, "middle"))
 
     a = gy2 + 192
@@ -13349,7 +13349,7 @@ def ch80b_yi_tiao_chuan():
     c = a + 52
     s.append(f'<line x1="24" y1="{c}" x2="338" y2="{c}" stroke="{LINE}" stroke-width="0.6"/>')
     s.append(box(20, c + 8, 340, 40, fill="#F2EADA", stroke="#C9B79A"))
-    s.append(txt(190, c + 23, "虽有舟舆，无所乘之。", 5.4, INK, "middle"))
+    s.append(txt(190, c + 23, "虽有舟舆，无所乘之。", 5.2, INK, "middle"))
     s.append(txt(190, c + 36, "舟在，而不乘。", 4.7, GREEN, "middle"))
     s.append(gold(c + 64, "ch80b"))
     s.append('</svg>')
@@ -13451,7 +13451,7 @@ def ch81a_yi_kou_cang():
     s.append(f'<path d="M186,{gy + 102} q4,-6 8,0" fill="none" stroke="{SEAL}" stroke-width="1.2"/>')
     # 仓里的谷堆（透过门看不去，改在檐下画谷）
 
-    s.append(txt(190, gy + 144, "装得下：四壁、门、锁", 4.4, SEAL, "middle"))
+    s.append(txt(190, gy + 144, "装得下：四壁、门、锁", 4.5, SEAL, "middle"))
     s.append(txt(190, gy + 168, "存量：一斗一斗数得清", 4.6, GREEN, "middle"))
 
     s.append(txt(24, gy + 192, "二、越大，越不敢出门", 4.8, GREEN))
@@ -13472,9 +13472,9 @@ def ch81a_yi_kou_cang():
     s.append(f'<path d="M124,{gy2 + 110} l8,6" stroke="{INK}" stroke-width="1"/>')
     for i in range(3):
         s.append(f'<circle cx="{132 + i * 3}" cy="{gy2 + 117 + i * 1}" r="1.4" fill="none" stroke="{SEAL}" stroke-width="0.9"/>')
-    s.append(txt(120, gy2 + 144, "主人守在门外", 4.4, SEAL, "middle"))
-    s.append(txt(232, gy2 + 108, "仓越大，", 4.3, "#6E6459"))
-    s.append(txt(232, gy2 + 120, "越不敢走。", 4.3, "#6E6459"))
+    s.append(txt(120, gy2 + 144, "主人守在门外", 4.5, SEAL, "middle"))
+    s.append(txt(232, gy2 + 108, "仓越大，", 4.5, "#6E6459"))
+    s.append(txt(232, gy2 + 120, "越不敢走。", 4.5, "#6E6459"))
     s.append(txt(190, gy2 + 168, "仓会空，泉不会：不积，是换一种算法", 4.6, GREEN, "middle"))
 
     a = gy2 + 192
@@ -13515,7 +13515,7 @@ def ch81b_yi_yan_quan():
     # 周围湿：一圈淡灰的湿痕
     s.append(f'<ellipse cx="190" cy="{gy + 121}" rx="96" ry="16" fill="none" stroke="#DED2B8" stroke-width="1"/>')
     s.append(f'<ellipse cx="190" cy="{gy + 122}" rx="120" ry="20" fill="none" stroke="{LINE}" stroke-width="0.9"/>')
-    s.append(txt(190, gy + 146, "不装，只是涌", 4.4, SEAL, "middle"))
+    s.append(txt(190, gy + 146, "不装，只是涌", 4.5, SEAL, "middle"))
     s.append(txt(190, gy + 168, "流量：没有底，也没有顶", 4.6, GREEN, "middle"))
 
     s.append(txt(24, gy + 192, "二、取走一瓢，还在涌", 4.8, GREEN))
@@ -13535,7 +13535,7 @@ def ch81b_yi_yan_quan():
     # 水面浮出的一层（仍在涌）
     s.append(f'<path d="M196,{gy2 + 112} q10,-6 18,-2" fill="none" stroke="#4A5C55" stroke-width="0.9"/>')
     s.append(txt(252, gy2 + 140, "舀走一瓢", 4.2, SEAL, "middle"))
-    s.append(txt(150, gy2 + 146, "取走，仍在涌", 4.4, SEAL, "middle"))
+    s.append(txt(150, gy2 + 146, "取走，仍在涌", 4.5, SEAL, "middle"))
     s.append(txt(190, gy2 + 168, "既以与人，己愈多", 4.6, GREEN, "middle"))
 
     a = gy2 + 192
@@ -13601,7 +13601,7 @@ def ch81c_yi_ba_dao():
     s.append(f'<line x1="164" y1="{gy2 + 90}" x2="164" y2="{gy2 + 102}" stroke="{SEAL}" stroke-width="1"/>')
     s.append(f'<path d="M186,{gy2 + 96} L200,{gy2 + 96}" stroke="{SEAL}" stroke-width="0.8" stroke-dasharray="3 2"/>')
     s.append(f'<line x1="200" y1="{gy2 + 89}" x2="200" y2="{gy2 + 103}" stroke="{SEAL}" stroke-width="1.1"/>')
-    s.append(txt(196, gy2 + 82, "卡住", 4.4, SEAL, "middle"))
+    s.append(txt(196, gy2 + 82, "卡住", 4.5, SEAL, "middle"))
     s.append(txt(190, gy2 + 148, "逆着走，刀就卡：力加在刃上，不在禾上", 4.6, GREEN, "middle"))
 
     a = gy2 + 192
@@ -13642,7 +13642,7 @@ def ch02b_yi_gen_biao_gan():
         s.append(f'<line x1="{bx}" y1="{base}" x2="{bx - 3}" y2="{base - 7}" stroke="#B9A98F" stroke-width="0.7"/>')
         s.append(f'<line x1="{bx}" y1="{base}" x2="{bx + 3}" y2="{base - 6}" stroke="#B9A98F" stroke-width="0.7"/>')
     s.append(txt(190, gy + 116, "东西都在，只是没人给它排位：没有「美」，也就没有「恶」", 4.5, GREEN, "middle"))
-    s.append(txt(190, gy + 128, "空地一片", 4.3, "#8A7C69", "middle"))
+    s.append(txt(190, gy + 128, "空地一片", 4.5, "#8A7C69", "middle"))
 
     # 二、立标
     s.append(txt(24, gy + 150, "二、立标：一杆落地，两侧同时有了名字", 5.2, SEAL))
@@ -13667,15 +13667,15 @@ def ch02b_yi_gen_biao_gan():
             hx = pole + dx * (20 + k * 20)
             s.append(f'<line x1="{hx}" y1="{base2 - 3}" x2="{hx}" y2="{base2 - 12}" stroke="{hatch}" stroke-width="0.5"/>')
     s.append(txt(pole - 62, base2 - 30, "美", 8.0, SEAL, "middle"))
-    s.append(txt(pole - 62, base2 + 14, "量得到的", 4.4, SEAL, "middle"))
+    s.append(txt(pole - 62, base2 + 14, "量得到的", 4.5, SEAL, "middle"))
     s.append(txt(pole + 62, base2 - 30, "恶", 8.0, "#6E6459", "middle"))
-    s.append(txt(pole + 62, base2 + 14, "量不到的", 4.4, "#6E6459", "middle"))
+    s.append(txt(pole + 62, base2 + 14, "量不到的", 4.5, "#6E6459", "middle"))
     s.append(txt(190, gy2 + 168, "两侧的影子同时落地：杆立之前，一片影子也没有", 4.5, GREEN, "middle"))
-    s.append(txt(190, gy2 + 182, "影子不是原本就有的", 4.3, "#8A7C69", "middle"))
+    s.append(txt(190, gy2 + 182, "影子不是原本就有的", 4.5, "#8A7C69", "middle"))
 
     a = gy2 + 194
-    s.append(txt(24, a, "标尺一立，另一半就被判了罪——罪的来处，是那把尺，不是那个人。", 5.4, INK))
-    s.append(txt(24, a + 16, "所以「斯恶已」不是骂人，是记账：这一杆立下去，账上同时记了一笔善、一笔恶。", 5.4, INK))
+    s.append(txt(24, a, "标尺一立，另一半就被判了罪——罪的来处，是那把尺，不是那个人。", 5.2, INK))
+    s.append(txt(24, a + 16, "所以「斯恶已」不是骂人，是记账：这一杆立下去，账上同时记了一笔善、一笔恶。", 5.2, INK))
     s.append(txt(24, a + 34, "要收的不是恶人，是那一杆——杆收了，账才平。", 5.2, GREEN))
 
     c = a + 52
@@ -13709,7 +13709,7 @@ def ch02c_liang_zhi_guan():
     def guan(cx, top, h, w, lab, color=INK):
         s.append(f'<path d="M{cx - w / 2},{top} L{cx - w / 2},{top + h} q{w / 2},8 {w},0 L{cx + w / 2},{top} z" fill="#EFE6D4" stroke="{color}" stroke-width="1.1"/>')
         s.append(f'<ellipse cx="{cx}" cy="{top}" rx="{w / 2}" ry="3.4" fill="none" stroke="{color}" stroke-width="0.9"/>')
-        s.append(txt(cx, top - 8, lab, 4.4, color, "middle"))
+        s.append(txt(cx, top - 8, lab, 4.5, color, "middle"))
 
     gb = gy + 132
     guan(112, gb - 92, 92, 16, "长管")
@@ -13718,18 +13718,18 @@ def ch02c_liang_zhi_guan():
     for k in range(3):
         r = 24 + k * 8
         s.append(f'<path d="M{104},{gb - 76} q-{r / 2},-{r} -{r},0" fill="none" stroke="{SEAL}" stroke-width="0.7" opacity="0.5"/>')
-    s.append(txt(44, gb - 84, "一唱", 4.4, SEAL))
+    s.append(txt(44, gb - 84, "一唱", 4.5, SEAL))
     for k in range(3):
         r = 22 + k * 8
         s.append(f'<path d="M{214},{gb - 48} q{r / 2},-{r} {r},0" fill="none" stroke="{GREEN}" stroke-width="0.7" opacity="0.5"/>')
-    s.append(txt(266, gb - 56, "一应", 4.4, GREEN))
+    s.append(txt(266, gb - 56, "一应", 4.5, GREEN))
     # 第三样东西：两管之间浮起
     for k in range(3):
         s.append(f'<path d="M136,{gb - 96 - k * 6} q14,-6 28,0" fill="none" stroke="#8A7C69" stroke-width="0.6" opacity="0.55"/>')
-    s.append(txt(150, gb - 120, "第三样：和声", 4.4, "#6E6459", "middle"))
+    s.append(txt(150, gb - 120, "第三样：和声", 4.5, "#6E6459", "middle"))
     s.append(f'<line x1="40" y1="{gb}" x2="330" y2="{gb}" stroke="{INK}" stroke-width="1"/>')
     s.append(txt(190, gy + 150, "两管互不吞并，各守边界——和的前提是不同", 4.5, GREEN, "middle"))
-    s.append(txt(190, gy + 164, "和：一唱一应，各自成声", 4.3, "#8A7C69", "middle"))
+    s.append(txt(190, gy + 164, "和：一唱一应，各自成声", 4.5, "#8A7C69", "middle"))
 
     # 二、合
     s.append(txt(24, gy + 194, "二、合：两管并成一根，只剩一个声音", 5.2, SEAL))
@@ -13742,13 +13742,13 @@ def ch02c_liang_zhi_guan():
     for k in range(3):
         r = 40 + k * 8
         s.append(f'<path d="M198,{gb2 - 80} q{r / 2},-{r} {r},0" fill="none" stroke="#6E6459" stroke-width="0.7" opacity="0.45"/>')
-    s.append(txt(216, gb2 - 34, "只剩一个声音", 4.4, "#6E6459"))
+    s.append(txt(216, gb2 - 34, "只剩一个声音", 4.5, "#6E6459"))
     s.append(txt(190, gy2 + 128, "第二管不见了，第一管也没有变得更响——是少了一个声音，不是多了一个", 4.5, GREEN, "middle"))
-    s.append(txt(190, gy2 + 142, "合：抹平边界，只留一套", 4.3, "#8A7C69", "middle"))
+    s.append(txt(190, gy2 + 142, "合：抹平边界，只留一套", 4.5, "#8A7C69", "middle"))
 
     a = gy2 + 172
-    s.append(txt(24, a, "和不是「没有分歧」，恰是「有分歧而各自站得住」。", 5.4, INK))
-    s.append(txt(24, a + 16, "老子要护的就是这一处：不把两套并成一套，才生得出第三样东西。", 5.4, INK))
+    s.append(txt(24, a, "和不是「没有分歧」，恰是「有分歧而各自站得住」。", 5.2, INK))
+    s.append(txt(24, a + 16, "老子要护的就是这一处：不把两套并成一套，才生得出第三样东西。", 5.2, INK))
     s.append(txt(24, a + 34, "合是把差异抹掉换来的安静；和是差异还在，却已经应上了。", 5.2, GREEN))
 
     c = a + 52
@@ -13795,7 +13795,7 @@ def ch03b_yi_kuai_jia_pai():
     s.append(arrow(266, gy + 168, mid + 30, ptxt, SEAL, 1.0, None, "arrS"))
     s.append(txt(304, shelf + 44, "争", 8.4, SEAL, "middle"))
     s.append(txt(190, gy + 200, "争的不是货，是牌子上的名次", 4.5, GREEN, "middle"))
-    s.append(txt(190, gy + 236, "挂牌：三样货，三块价牌，三处力气都朝牌子去", 4.4, "#8A7C69", "middle"))
+    s.append(txt(190, gy + 236, "挂牌：三样货，三块价牌，三处力气都朝牌子去", 4.5, "#8A7C69", "middle"))
 
     # 二、撤牌
     s.append(txt(24, gy + 264, "二、撤牌：牌子摘了，货还在，力气各回各处", 5.2, SEAL))
@@ -13815,11 +13815,11 @@ def ch03b_yi_kuai_jia_pai():
     s.append(arrow(186, gy2 + 174, 184, shelf2 + 24, GREEN, 0.9, None, "arr2"))
     s.append(arrow(272, gy2 + 170, 256, shelf2 + 30, GREEN, 0.9, None, "arr2"))
     s.append(txt(190, gy2 + 200, "各取各自要的：本然之欲还在，攀缘之欲没了根", 4.5, GREEN, "middle"))
-    s.append(txt(190, gy2 + 236, "撤牌：三块空位还在，只是不再挂东西", 4.4, "#8A7C69", "middle"))
+    s.append(txt(190, gy2 + 236, "撤牌：三块空位还在，只是不再挂东西", 4.5, "#8A7C69", "middle"))
 
     a = gy2 + 264
-    s.append(txt(24, a, "老子不否贤，不否货，也不否欲——他否的是那把尺。", 5.4, INK))
-    s.append(txt(24, a + 16, "尺一收，争、盗、乱三样一起没了根：不是压住了，是没处长出来。", 5.4, INK))
+    s.append(txt(24, a, "老子不否贤，不否货，也不否欲——他否的是那把尺。", 5.2, INK))
+    s.append(txt(24, a + 16, "尺一收，争、盗、乱三样一起没了根：不是压住了，是没处长出来。", 5.2, INK))
     s.append(txt(24, a + 34, "所以三句话不是三道禁令，是一个动作：不主动起标。", 5.2, GREEN))
 
     c = a + 52
@@ -13861,12 +13861,12 @@ def ch03c_yi_ke_shu():
     s.append(f'<line x1="{trunk + 42}" y1="{base - 64}" x2="{trunk + 50}" y2="{base - 56}" stroke="{SEAL}" stroke-width="1.0"/>')
     s.append(f'<line x1="{trunk + 66}" y1="{base - 3}" x2="{trunk + 132}" y2="{base - 14}" stroke="{SEAL}" stroke-width="1.1"/>')
     s.append(f'<line x1="{trunk + 104}" y1="{base - 9}" x2="{trunk + 116}" y2="{base - 22}" stroke="{SEAL}" stroke-width="0.6"/>')
-    s.append(txt(trunk + 70, base - 76, "折了", 4.4, SEAL))
+    s.append(txt(trunk + 70, base - 76, "折了", 4.5, SEAL))
     for k in range(3):
         s.append(f'<path d="M48,{base - 104 + k * 9} q30,-8 58,0" fill="none" stroke="#B9A98F" stroke-width="0.6"/>')
-    s.append(txt(52, base - 114, "风", 4.4, "#8A7C69"))
+    s.append(txt(52, base - 114, "风", 4.5, "#8A7C69"))
     s.append(txt(190, gy + 196, "志者，往上去的那股劲：劲全使在争高上，根就浅了", 4.5, GREEN, "middle"))
-    s.append(txt(190, gy + 212, "争高的树：枝细而尖，断口留在干上，断枝落在地上", 4.4, "#8A7C69", "middle"))
+    s.append(txt(190, gy + 212, "争高的树：枝细而尖，断口留在干上，断枝落在地上", 4.5, "#8A7C69", "middle"))
 
     # 二、实腹虚心
     s.append(txt(24, gy + 240, "二、实腹虚心：干厚、心空、根深、枝低", 5.2, SEAL))
@@ -13892,18 +13892,18 @@ def ch03c_yi_ke_shu():
         s.append(f'<line x1="168" y1="{base2 + y0}" x2="{168 - dx}" y2="{base2 + y0 - dy}" stroke="{INK}" stroke-width="0.8"/>')
         s.append(f'<line x1="{168 - dx}" y1="{base2 + y0 - dy}" x2="{168 - dx - 8}" y2="{base2 + y0 - dy - 6}" stroke="{GREEN}" stroke-width="0.6"/>')
     # 标注：贴在图外，短引线指向壁、根、枝
-    s.append(txt(30, base2 - 64, "实其腹＝壁厚", 4.3, INK))
+    s.append(txt(30, base2 - 64, "实其腹＝壁厚", 4.5, INK))
     s.append(f'<line x1="100" y1="{base2 - 62}" x2="166" y2="{base2 - 62}" stroke="{LINE2}" stroke-width="0.6" stroke-dasharray="3 2"/>')
-    s.append(txt(30, base2 + 40, "强其骨＝根深", 4.3, INK))
+    s.append(txt(30, base2 + 40, "强其骨＝根深", 4.5, INK))
     s.append(f'<line x1="100" y1="{base2 + 38}" x2="144" y2="{base2 + 32}" stroke="{LINE2}" stroke-width="0.6" stroke-dasharray="3 2"/>')
-    s.append(txt(350, base2 - 96, "弱其志＝枝低", 4.3, INK, "end"))
+    s.append(txt(350, base2 - 96, "弱其志＝枝低", 4.5, INK, "end"))
     s.append(f'<line x1="348" y1="{base2 - 94}" x2="266" y2="{base2 - 96}" stroke="{LINE2}" stroke-width="0.6" stroke-dasharray="3 2"/>')
     s.append(txt(190, gy2 + 208, "壁厚；虚线处是干心，留着空", 4.5, GREEN, "middle"))
-    s.append(txt(190, gy2 + 224, "实腹＝壁厚，虚心＝干心留空，强骨＝根深，弱志＝枝低", 4.4, "#8A7C69", "middle"))
+    s.append(txt(190, gy2 + 224, "实腹＝壁厚，虚心＝干心留空，强骨＝根深，弱志＝枝低", 4.5, "#8A7C69", "middle"))
 
     a = gy2 + 252
-    s.append(txt(24, a, "「实其腹」不是吃饱，是把壁留厚；「虚其心」不是清空念头，是把干心留成中空。", 5.4, INK))
-    s.append(txt(24, a + 16, "壁一厚，空就能用起来；若反把壁掏薄、把空填实，看着结实，一敲就碎。", 5.4, INK))
+    s.append(txt(24, a, "「实其腹」不是吃饱，是把壁留厚；「虚其心」不是清空念头，是把干心留成中空。", 5.2, INK))
+    s.append(txt(24, a + 16, "壁一厚，空就能用起来；若反把壁掏薄、把空填实，看着结实，一敲就碎。", 5.2, INK))
     s.append(txt(24, a + 34, "这是第十一章「有之以为利，无之以为用」在治身上的落地。", 5.2, GREEN))
 
     c = a + 52
@@ -13948,8 +13948,8 @@ def ch04b_yi_zhi_li_qi():
     s.append(f'<ellipse cx="253" cy="{yb + 64}" rx="2.6" ry="4" fill="{SEAL}" opacity="0.8"/>')
     s.append(f'<path d="M140,{yb + 2} q-12,20 -7,36 q2,10 -4,14" fill="none" stroke="{SEAL}" stroke-width="1.1"/>')
     s.append(f'<ellipse cx="128" cy="{yb + 56}" rx="2.6" ry="4" fill="{SEAL}" opacity="0.8"/>')
-    s.append(txt(266, yb + 26, "溢了", 4.4, SEAL))
-    s.append(txt(114, yb + 22, "溢了", 4.4, SEAL, "end"))
+    s.append(txt(266, yb + 26, "溢了", 4.5, SEAL))
+    s.append(txt(114, yb + 22, "溢了", 4.5, SEAL, "end"))
     # 勺
     s.append(f'<path d="M178,{gy + 46} q-14,10 0,14 q14,-4 0,-14 z" fill="{PAPER}" stroke="{INK}" stroke-width="0.9"/>')
     s.append(f'<line x1="178" y1="{gy + 46}" x2="198" y2="{gy + 30}" stroke="{INK}" stroke-width="1.1"/>')
@@ -13972,9 +13972,9 @@ def ch04b_yi_zhi_li_qi():
     s.append(f'<line x1="160" y1="{base2 - 12}" x2="156" y2="{base2}" stroke="{INK}" stroke-width="1.1"/>')
     s.append(f'<line x1="220" y1="{base2 - 12}" x2="224" y2="{base2}" stroke="{INK}" stroke-width="1.1"/>')
     s.append(txt(190, base2 - 44, "空", 5.0, GREEN, "middle"))
-    s.append(txt(260, base2 - 56, "不见底", 4.3, GREEN))
+    s.append(txt(260, base2 - 56, "不见底", 4.5, GREEN))
     s.append(f'<line x1="258" y1="{base2 - 58}" x2="232" y2="{base2 - 58}" stroke="{LINE2}" stroke-width="0.6" stroke-dasharray="3 2"/>')
-    s.append(txt(260, base2 - 42, "从来不满", 4.3, GREEN))
+    s.append(txt(260, base2 - 42, "从来不满", 4.5, GREEN))
     s.append(f'<line x1="258" y1="{base2 - 44}" x2="230" y2="{base2 - 36}" stroke="{LINE2}" stroke-width="0.6" stroke-dasharray="3 2"/>')
     s.append(f'<path d="M178,{gy2 + 46} q-14,10 0,14 q14,-4 0,-14 z" fill="{PAPER}" stroke="{INK}" stroke-width="0.9"/>')
     s.append(f'<line x1="178" y1="{gy2 + 46}" x2="198" y2="{gy2 + 30}" stroke="{INK}" stroke-width="1.1"/>')
@@ -13982,8 +13982,8 @@ def ch04b_yi_zhi_li_qi():
     s.append(txt(190, gy2 + 172, "空的那处，才是它能盛的本钱——器之所以为器，正在此处", 4.5, GREEN, "middle"))
 
     a = gy2 + 200
-    s.append(txt(24, a, "道的体就是一个空，不是一个物：问它「是什么」，它答不上来，只能答「能盛」。", 5.4, INK))
-    s.append(txt(24, a + 16, "「或不盈」是现象，「有弗盈」是本性——帛书那句多写一个字，说的是它从来不满。", 5.4, INK))
+    s.append(txt(24, a, "道的体就是一个空，不是一个物：问它「是什么」，它答不上来，只能答「能盛」。", 5.2, INK))
+    s.append(txt(24, a + 16, "「或不盈」是现象，「有弗盈」是本性——帛书那句多写一个字，说的是它从来不满。", 5.2, INK))
     s.append(txt(24, a + 34, "所以器之用在空：没有那处空，青铜再贵也盛不下一勺。", 5.2, GREEN))
 
     c = a + 52
@@ -14012,11 +14012,11 @@ def ch04c_si_bu():
 
     def cell(x, y0, lab, sub, ret=""):
         s.append(f'<rect x="{x}" y="{y0}" width="158" height="170" fill="#FBF6EC" stroke="{LINE}" stroke-width="0.8"/>')
-        s.append(txt(x + 79, y0 + 18, lab, 5.4, SEAL, "middle"))
+        s.append(txt(x + 79, y0 + 18, lab, 5.2, SEAL, "middle"))
         s.append(txt(x + 79, y0 + 32, sub, 4.2, "#8A7C69", "middle"))
         if ret:
             s.append(f'<line x1="{x+44}" y1="{y0+152}" x2="{x+114}" y2="{y0+152}" stroke="{LINE}" stroke-width="0.6"/>')
-            s.append(txt(x + 79, y0 + 165, ret, 4.4, GREEN, "middle"))
+            s.append(txt(x + 79, y0 + 165, ret, 4.5, GREEN, "middle"))
 
     gx1, gx2 = 22, 200
     gy1, gy2 = y + 56, y + 240
@@ -14063,8 +14063,8 @@ def ch04c_si_bu():
     s.append(txt(cx, cy + 44, "衣与尘一色，才不显", 4.2, GREEN, "middle"))
 
     a = gy2 + 186
-    s.append(txt(24, a, "四步落在一处：把「我」的锋、结、光、色，一样一样收回到与万物同的程度。", 5.4, INK))
-    s.append(txt(24, a + 16, "收不是抹掉——刀背还在，线还在，灯还在，衣还在；只是不再靠它们站到人前去。", 5.4, INK))
+    s.append(txt(24, a, "四步落在一处：把「我」的锋、结、光、色，一样一样收回到与万物同的程度。", 5.2, INK))
+    s.append(txt(24, a + 16, "收不是抹掉——刀背还在，线还在，灯还在，衣还在；只是不再靠它们站到人前去。", 5.2, INK))
     s.append(txt(24, a + 34, "「同其尘」最难：不是自甘低下，是不必再让人看见自己干净。", 5.2, GREEN))
 
     c = a + 52
@@ -14856,8 +14856,8 @@ def ch26b_zi_zhong():
     c = a + 52
     s.append(f'<line x1="24" y1="{c}" x2="338" y2="{c}" stroke="{LINE}" stroke-width="0.6"/>')
     s.append(box(20, c + 8, 340, 40, fill="#F2EADA", stroke="#C9B79A"))
-    s.append(txt(190, c + 24, "重，是那副压得住自己的分量。", 5.4, INK, "middle"))
-    s.append(txt(190, c + 36, "带在身上的不是粮车，是那副不肯轻举的心。", 4.4, GREEN, "middle"))
+    s.append(txt(190, c + 24, "重，是那副压得住自己的分量。", 5.2, INK, "middle"))
+    s.append(txt(190, c + 36, "带在身上的不是粮车，是那副不肯轻举的心。", 4.5, GREEN, "middle"))
     s.append(gold(c + 62, "ch26b"))
     s.append('</svg>')
     out = "\n".join(s)
@@ -14912,8 +14912,8 @@ def ch26c_jing_shui():
     c = a + 52
     s.append(f'<line x1="24" y1="{c}" x2="338" y2="{c}" stroke="{LINE}" stroke-width="0.6"/>')
     s.append(box(20, c + 8, 340, 40, fill="#F2EADA", stroke="#C9B79A"))
-    s.append(txt(190, c + 24, "静不是把动按住，是动从哪儿发。", 5.4, INK, "middle"))
-    s.append(txt(190, c + 36, "水一静，什么都照得成；一搅，碎的先是自己。", 4.4, GREEN, "middle"))
+    s.append(txt(190, c + 24, "静不是把动按住，是动从哪儿发。", 5.2, INK, "middle"))
+    s.append(txt(190, c + 36, "水一静，什么都照得成；一搅，碎的先是自己。", 4.5, GREEN, "middle"))
     s.append(gold(c + 62, "ch26c"))
     s.append('</svg>')
     out = "\n".join(s)
@@ -15055,7 +15055,7 @@ def ch27_shan_xing_wu_zhe_ji():
         s.append(f'<path d="M{cx - 11},{gy + 112} L{cx - 11},{gy + 120} Q{cx},{gy + 131} {cx + 11},{gy + 120} L{cx + 11},{gy + 112}" fill="#E4D4B8" stroke="{INK}" stroke-width="0.7"/>')
         s.append(f'<circle cx="{cx - 17}" cy="{gy + 118}" r="1.6" fill="{LINE}" stroke="none"/>')
         s.append(f'<circle cx="{cx + 18}" cy="{gy + 120}" r="1.2" fill="{LINE}" stroke="none"/>')
-    s.append(txt(190, gy + 30, "路面替车记了一辈子", 4.3, SEAL, "middle"))
+    s.append(txt(190, gy + 30, "路面替车记了一辈子", 4.5, SEAL, "middle"))
     s.append(txt(190, gy + 142, "辙是留给路的分量", 4.1, "#8A7C69", "middle"))
 
     # 二、重自己吃下
@@ -15064,7 +15064,7 @@ def ch27_shan_xing_wu_zhe_ji():
     s.append(f'<rect x="26" y="{gy2}" width="328" height="152" fill="#FBF6EC" stroke="{LINE}" stroke-width="0.8"/>')
     s.append(f'<line x1="44" y1="{gy2 + 112}" x2="316" y2="{gy2 + 112}" stroke="{INK}" stroke-width="1.1"/>')
     s.extend(cart(gy2, True))
-    s.append(txt(190, gy2 + 30, "分量压在轴上，路面不必记住它", 4.3, GREEN, "middle"))
+    s.append(txt(190, gy2 + 30, "分量压在轴上，路面不必记住它", 4.5, GREEN, "middle"))
     s.append(txt(190, gy2 + 142, "轴是车自己吃下的分量", 4.1, "#8A7C69", "middle"))
 
     a = gy2 + 170
@@ -15123,7 +15123,7 @@ def ch27b_gong_ju_xiang():
     s.append(txt(84, gy + 140, "筹策·数", 4.1, "#8A7C69", "middle"))
     s.append(txt(178, gy + 140, "关楗·闭", 4.1, "#8A7C69", "middle"))
     s.append(txt(270, gy + 140, "绳约·结", 4.1, "#8A7C69", "middle"))
-    s.append(txt(190, gy + 30, "工具摊一桌：样样都在，样样都要先取", 4.3, SEAL, "middle"))
+    s.append(txt(190, gy + 30, "工具摊一桌：样样都在，样样都要先取", 4.5, SEAL, "middle"))
 
     # 二、收进箱子，空手过路
     s.append(txt(24, gy + 174, "二、收进箱子：桌空了，路也平了", 5.1, SEAL))
@@ -15135,7 +15135,7 @@ def ch27b_gong_ju_xiang():
     s.append(f'<rect x="212" y="{gy2 + 84}" width="92" height="42" fill="#EFE6D4" stroke="{INK}" stroke-width="1.1"/>')
     s.append(f'<line x1="212" y1="{gy2 + 96}" x2="304" y2="{gy2 + 96}" stroke="{INK}" stroke-width="0.9"/>')
     s.append(f'<line x1="258" y1="{gy2 + 96}" x2="258" y2="{gy2 + 126}" stroke="{LINE2}" stroke-width="0.6"/>')
-    s.append(txt(258, gy2 + 114, "收", 4.4, SEAL, "middle"))
+    s.append(txt(258, gy2 + 114, "收", 4.5, SEAL, "middle"))
     # 空手的人
     px, py = 110, gy2 + 66
     s.append(f'<circle cx="{px}" cy="{py}" r="7" fill="none" stroke="{INK}" stroke-width="1.0"/>')
@@ -15193,7 +15193,7 @@ def ch27c_fen_jian_ji():
         s.append(f'<circle cx="{cx}" cy="{gy + 114}" r="2.4" fill="none" stroke="{INK}" stroke-width="0.7"/>')
     for bx in (268, 286, 304):
         s.append(f'<rect x="{bx}" y="{gy + 111}" width="6" height="6" fill="none" stroke="{INK}" stroke-width="0.7"/>')
-    s.append(txt(89, gy + 132, "善", 4.4, GREEN, "middle"))
+    s.append(txt(89, gy + 132, "善", 4.5, GREEN, "middle"))
     s.append(txt(291, gy + 132, "不善", 4.2, "#8A7C69", "middle"))
     # 分流的人与物
     s.append(f'<circle cx="126" cy="{gy + 90}" r="2.8" fill="none" stroke="{INK}" stroke-width="0.7"/>')
@@ -15265,9 +15265,9 @@ def ch28_zhi_xiong():
     s.append(f'<polygon points="296,{yb + 4} 304,{yb - 8} 314,{yb - 8} 322,{yb + 4}" fill="#EFE6D4" stroke="{INK}" stroke-width="0.9"/>')
     # 两牌：同一形制，不添褒贬色
     s.append(f'<rect x="228" y="{yb + 2}" width="54" height="16" fill="#F3EAD8" stroke="{INK}" stroke-width="0.8"/>')
-    s.append(txt(255, yb + 13, "雄·白·荣", 4.3, INK, "middle"))
+    s.append(txt(255, yb + 13, "雄·白·荣", 4.5, INK, "middle"))
     s.append(f'<rect x="40" y="{ya + 10}" width="54" height="16" fill="#F3EAD8" stroke="{INK}" stroke-width="0.8"/>')
-    s.append(txt(67, ya + 21, "雌·黑·辱", 4.3, INK, "middle"))
+    s.append(txt(67, ya + 21, "雌·黑·辱", 4.5, INK, "middle"))
 
     # 人：脚踩低处，目光两条
     px = 150
@@ -15346,7 +15346,7 @@ def ch28b_dao_luo():
     s.append(f'<path d="M309,{gy + 91} l7,2 l-7,2 Z" fill="#EFE6D4" stroke="{INK}" stroke-width="0.7"/>')
     s.append(f'<path d="M282,{gy + 94} q8,-7 16,-1" fill="none" stroke="{INK}" stroke-width="0.7"/>')
     s.append(txt(288, gy + 118, "四件各有用", 4.1, "#8A7C69", "middle"))
-    s.append(txt(190, gy + 22, "刀一落，木就分成了一件一件", 4.3, SEAL, "middle"))
+    s.append(txt(190, gy + 22, "刀一落，木就分成了一件一件", 4.5, SEAL, "middle"))
 
     # 二、刀不落
     s.append(txt(24, gy + 174, "二、刀不落：木还在，器也还在", 5.1, GREEN))
@@ -15371,7 +15371,7 @@ def ch28b_dao_luo():
     s.append(f'<path d="M255,{gy2 + 85} l6,2 l-6,2 Z" fill="#EFE6D4" stroke="{INK}" stroke-width="0.7"/>')
     s.append(txt(208, gy2 + 126, "器在人手里，成色不变", 4.1, "#8A7C69", "middle"))
     s.append(txt(190, gy2 + 142, "不砸器回朴——砸也是造作，还要用刀去毁刀的结果。", 4.1, GREEN, "middle"))
-    s.append(txt(190, gy2 + 22, "刀收了，木没有被剖尽，器也没有被推翻", 4.3, GREEN, "middle"))
+    s.append(txt(190, gy2 + 22, "刀收了，木没有被剖尽，器也没有被推翻", 4.5, GREEN, "middle"))
 
     a = gy2 + 170
     s.append(txt(24, a, "「朴散则为器」：散是必然，万物各有形状、各有边界、各有限度。", 4.8, INK))
@@ -15441,7 +15441,7 @@ def ch28c_xi_yu_gu():
     c = a + 52
     s.append(f'<line x1="24" y1="{c}" x2="338" y2="{c}" stroke="{LINE}" stroke-width="0.6"/>')
     s.append(box(20, c + 8, 340, 40, fill="#F2EADA", stroke="#C9B79A"))
-    s.append(txt(190, c + 24, "溪受而不取，谷虚而能出。", 5.4, INK, "middle"))
+    s.append(txt(190, c + 24, "溪受而不取，谷虚而能出。", 5.2, INK, "middle"))
     s.append(txt(190, c + 36, "守的是位置，不是人格。", 5.0, GREEN, "middle"))
     s.append(gold(c + 62, "ch28c"))
     s.append('</svg>')
@@ -15469,7 +15469,7 @@ def ch28d_san_ci_fu_gui():
     rh = 72
     for i, (gui, what, note) in enumerate(rows):
         yy = gy + 12 + i * rh
-        s.append(txt(38, yy + 6, f"复归{gui}", 4.4, SEAL))
+        s.append(txt(38, yy + 6, f"复归{gui}", 4.5, SEAL))
         s.append(txt(38, yy + 18, f"撤「{what}」", 4.2, "#8A7C69"))
         # 左：有它
         bx = 96
@@ -15555,7 +15555,7 @@ def ch29_tian_xia_shen_qi():
     s.append(f'<line x1="46" y1="{gy + 128}" x2="192" y2="{gy + 128}" stroke="{LINE2}" stroke-width="0.8"/>')
     s.extend(tubes(56, gy + 126, [62, 88, 44, 102, 70, 52], bands=(gy + 64, gy + 100)))
     for i, line in enumerate(["或行或随", "或歔或吹", "或强或羸", "或载或隳"]):
-        s.append(txt(204, gy + 52 + i * 13, line, 4.3, INK))
+        s.append(txt(204, gy + 52 + i * 13, line, 4.5, INK))
     s.append(txt(204, gy + 112, "四组八样，各是各的形状", 3.9, "#8A7C69"))
     s.append(txt(204, gy + 124, "不是毛病，是料性", 3.9, "#8A7C69"))
 
@@ -15569,14 +15569,14 @@ def ch29_tian_xia_shen_qi():
     s.extend(tubes(58, gy2 + 118, [56, 56, 56, 56], w=13, gap=9, holes=True))
     s.append(f'<line x1="46" y1="{gy2 + 56}" x2="152" y2="{gy2 + 56}" stroke="{SEAL}" stroke-width="0.8" stroke-dasharray="4 3"/>')
     s.append(txt(99, gy2 + 48, "削到这一齐", 3.9, SEAL, "middle"))
-    s.append(txt(99, gy2 + 136, "为：削成一样齐", 4.4, SEAL, "middle"))
+    s.append(txt(99, gy2 + 136, "为：削成一样齐", 4.5, SEAL, "middle"))
     s.append(txt(99, gy2 + 147, "音就没了——调不成调", 3.9, "#8A7C69", "middle"))
     # 执：攥住
     s.append(f'<line x1="212" y1="{gy2 + 118}" x2="316" y2="{gy2 + 118}" stroke="{LINE2}" stroke-width="0.8"/>')
     s.extend(tubes(224, gy2 + 118, [52, 64, 48, 58], w=12, gap=4, holes=False))
     s.append(f'<ellipse cx="252" cy="{gy2 + 88}" rx="46" ry="22" fill="none" stroke="{SEAL}" stroke-width="1.3"/>')
     s.append(txt(252, gy2 + 44, "攥成一束", 3.9, SEAL, "middle"))
-    s.append(txt(252, gy2 + 136, "执：攥住不放", 4.4, SEAL, "middle"))
+    s.append(txt(252, gy2 + 136, "执：攥住不放", 4.5, SEAL, "middle"))
     s.append(txt(252, gy2 + 147, "管子捏死，吹不响", 3.9, "#8A7C69", "middle"))
 
     # 三、和与合
@@ -15587,14 +15587,14 @@ def ch29_tian_xia_shen_qi():
     # 和
     s.append(f'<line x1="46" y1="{gy3 + 48}" x2="132" y2="{gy3 + 48}" stroke="{LINE2}" stroke-width="0.8"/>')
     s.extend(tubes(56, gy3 + 46, [26, 38, 18, 30], w=10, gap=6, bands=(gy3 + 34,), holes=False))
-    s.append(txt(152, gy3 + 30, "和", 5.4, GREEN))
+    s.append(txt(152, gy3 + 30, "和", 5.2, GREEN))
     s.append(txt(152, gy3 + 44, "长短不一，", 4.2, INK))
     s.append(txt(152, gy3 + 56, "同调共存", 4.2, INK))
     s.append(txt(152, gy3 + 70, "听得见的", 3.9, "#8A7C69"))
     # 合
     s.append(f'<rect x="230" y="{gy3 + 24}" width="56" height="24" fill="#EFE6D4" stroke="{INK}" stroke-width="1.0"/>')
     s.append(f'<polygon points="230,{gy3 + 24} 286,{gy3 + 24} 272,{gy3 + 10} 244,{gy3 + 10}" fill="#E4D3B2" stroke="{INK}" stroke-width="1.0"/>')
-    s.append(txt(306, gy3 + 30, "合", 5.4, SEAL, "middle"))
+    s.append(txt(306, gy3 + 30, "合", 5.2, SEAL, "middle"))
     s.append(txt(306, gy3 + 44, "盖扣上，", 4.2, INK, "middle"))
     s.append(txt(306, gy3 + 56, "边就没了", 4.2, INK, "middle"))
     s.append(txt(306, gy3 + 70, "摸得着的", 3.9, "#8A7C69", "middle"))
@@ -15605,7 +15605,7 @@ def ch29_tian_xia_shen_qi():
     for i, (a, b) in enumerate([("去甚", "过度"), ("去奢", "无度"), ("去泰", "骄纵越分")]):
         x = 26 + i * 112
         s.append(box(x, gy4, 104, 30, fill="#F6EFE0", stroke="#C9B79A"))
-        s.append(txt(x + 12, gy4 + 19, a, 4.4, INK))
+        s.append(txt(x + 12, gy4 + 19, a, 4.5, INK))
         s.append(txt(x + 46, gy4 + 19, b, 3.7, "#8A7C69"))
     s.append(txt(24, gy4 + 46, "三个字是同一件事的三个浓度：过分、没有节制、凌驾一切。", 4.1, GREEN))
 
@@ -15849,7 +15849,7 @@ def ch30_wu_zhuang_ze_lao():
     # 弓臂三道裂纹
     for i, dy in enumerate((-22, 0, 22)):
         s.append(f'<path d="M156,{gy2 + 62 + dy} l5,-2 l-3,4 l5,-2" fill="none" stroke="{SEAL}" stroke-width="0.8"/>')
-    s.append(txt(258, gy2 + 40, "久张", 5.4, SEAL))
+    s.append(txt(258, gy2 + 40, "久张", 5.2, SEAL))
     s.append(txt(258, gy2 + 56, "弦疲、弓废", 4.2, INK))
     s.append(txt(258, gy2 + 68, "取强，则物壮", 4.2, INK))
     s.append(txt(258, gy2 + 84, "弓的价值在能放；", 3.9, "#8A7C69"))
@@ -16042,7 +16042,7 @@ def ch30e_yi_gan_cheng():
             g.append(f'<path d="M{hx - 34},{hy + 34} L{hx + 34},{hy + 34} L{hx + 26},{hy + 46} L{hx - 26},{hy + 46} Z" fill="#EFE6D4" stroke="{INK}" stroke-width="0.9"/>')
         # 左盘牌
         g.append(f'<rect x="62" y="{gy + 44 + left_dy + 36}" width="68" height="20" fill="#F2EADA" stroke="{SEAL}" stroke-width="0.9"/>')
-        g.append(txt(96, gy + 44 + left_dy + 50, "不得已", 4.3, SEAL, "middle"))
+        g.append(txt(96, gy + 44 + left_dy + 50, "不得已", 4.5, SEAL, "middle"))
         # 右盘牌
         if right_items:
             for i, t in enumerate(right_items):
@@ -16387,7 +16387,7 @@ def ch31d_zuo_ji_you_xiong():
         g.append(f'<line x1="{cx}" y1="{by - 48}" x2="{cx + 16}" y2="{by - 38}" stroke="{INK}" stroke-width="1.0"/>')
         g.append(f'<line x1="{cx}" y1="{by - 48}" x2="{cx - 16}" y2="{by - 38}" stroke="{INK}" stroke-width="1.0"/>')
         g.append(f'<rect x="{cx - 12}" y="{by - 46}" width="24" height="12" fill="#EFE6D4" stroke="{INK}" stroke-width="0.8"/>')
-        g.append(txt(cx, by - 37.5, name, 3.2, INK, "middle"))
+        g.append(txt(cx, by - 37.5, name, 3.5, INK, "middle"))
         if ge:
             gx, gt = cx + 26, by - 70
             g.append(f'<line x1="{gx}" y1="{gt}" x2="{gx}" y2="{gt + 54}" stroke="{INK}" stroke-width="1.4"/>')
@@ -16402,17 +16402,17 @@ def ch31d_zuo_ji_you_xiong():
     s.append(f'<line x1="40" y1="{gy + 140}" x2="336" y2="{gy + 140}" stroke="{INK}" stroke-width="1.1"/>')
     # 左：吉
     s.append(box(34, gy + 24, 66, 20, fill="#EAF0E6", stroke=GREEN))
-    s.append(txt(67, gy + 37, "吉 · 左", 4.3, GREEN, "middle"))
+    s.append(txt(67, gy + 37, "吉 · 左", 4.5, GREEN, "middle"))
     s.append(txt(67, gy + 52, "冠、婚、聘", 3.7, "#8A7C69", "middle"))
     s.extend(general(110, gy + 140, "偏将军"))
     # 右：凶
     s.append(box(280, gy + 24, 66, 20, fill="#F3DCD4", stroke=SEAL))
-    s.append(txt(313, gy + 37, "凶 · 右", 4.3, SEAL, "middle"))
+    s.append(txt(313, gy + 37, "凶 · 右", 4.5, SEAL, "middle"))
     s.append(txt(313, gy + 52, "丧、兵", 3.7, "#8A7C69", "middle"))
     s.extend(general(240, gy + 140, "上将军", ge=True))
     # 中间一句话
-    s.append(txt(190, gy + 112, "把掌杀权的人，", 4.4, SEAL, "middle"))
-    s.append(txt(190, gy + 124, "放在凶位上", 4.4, SEAL, "middle"))
+    s.append(txt(190, gy + 112, "把掌杀权的人，", 4.5, SEAL, "middle"))
+    s.append(txt(190, gy + 124, "放在凶位上", 4.5, SEAL, "middle"))
 
     # 二、以丧礼处之
     s.append(txt(24, gy + 194, "二、以丧礼处之：五礼里唯一不许笑的仪式", 5.1, SEAL))
@@ -16498,7 +16498,7 @@ def ch32a_pu_sui_xiao():
     s.append(f'<circle cx="128" cy="{g2 + 58}" r="46" fill="none" stroke="{GREEN}" stroke-width="0.9" stroke-dasharray="4 4"/>')
     s.append(f'<rect x="96" y="{g2 + 50}" width="62" height="16" fill="#E9DFCC" stroke="{INK}" stroke-width="0.8"/>')
     s.append(f'<ellipse cx="96" cy="{g2 + 58}" rx="5" ry="8" fill="#F2EADA" stroke="{INK}" stroke-width="0.7"/>')
-    s.append(txt(128, g2 + 120, "大：说它包得住", 4.3, GREEN, "middle"))
+    s.append(txt(128, g2 + 120, "大：说它包得住", 4.5, GREEN, "middle"))
     s.append(txt(56, g2 + 22, "二十五章：强为之名曰大", 3.7, "#8A7C69"))
     # 小：劈口到不能再劈的一点
     s.append(f'<rect x="216" y="{g2 + 46}" width="80" height="20" fill="#E9DFCC" stroke="{INK}" stroke-width="0.8"/>')
@@ -16509,14 +16509,14 @@ def ch32a_pu_sui_xiao():
     s.append(f'<circle cx="258" cy="{g2 + 70}" r="2.4" fill="{SEAL}" stroke="none"/>')
     s.append(f'<line x1="258" y1="{g2 + 74}" x2="258" y2="{g2 + 86}" stroke="{SEAL}" stroke-width="0.6"/>')
     s.append(txt(258, g2 + 98, "劈到这一点", 3.7, SEAL, "middle"))
-    s.append(txt(250, g2 + 120, "小：说它切不开", 4.3, GREEN, "middle"))
+    s.append(txt(250, g2 + 120, "小：说它切不开", 4.5, GREEN, "middle"))
     s.append(txt(24, g2 + 144, "大，是说它包得住；小，是说它切不开——同一个东西，两把尺子量的是两件事。", 4.2, "#8A7C69"))
 
     # ---------------- 收 ----------------
     y3 = g2 + 158
     s.append(box(20, y3, 340, 40, fill="#F2EADA", stroke="#C9B79A"))
     s.append(txt(190, y3 + 18, "朴是道显化在世间的那一层：幽而微。", 5.8, INK, "middle"))
-    s.append(txt(190, y3 + 32, "幽，是看不见；微，是分不出——可它在那里，一直在生。", 4.4, "#6E6459", "middle"))
+    s.append(txt(190, y3 + 32, "幽，是看不见；微，是分不出——可它在那里，一直在生。", 4.5, "#6E6459", "middle"))
     s.append(gold(y3 + 60, "ch32a"))
     s.append('</svg>')
     out = "\n".join(s)
@@ -16543,7 +16543,7 @@ def ch32b_ming_yu_zhi():
     s.append(f'<rect x="40" y="{gy + 42}" width="66" height="20" fill="#E9DFCC" stroke="{INK}" stroke-width="0.8"/>')
     s.append(f'<ellipse cx="40" cy="{gy + 52}" rx="5" ry="10" fill="#F2EADA" stroke="{INK}" stroke-width="0.7"/>')
     s.append(f'<ellipse cx="106" cy="{gy + 52}" rx="5" ry="10" fill="#E9DFCC" stroke="{INK}" stroke-width="0.7"/>')
-    s.append(txt(73, gy + 34, "朴", 4.3, GREEN, "middle"))
+    s.append(txt(73, gy + 34, "朴", 4.5, GREEN, "middle"))
     # 刀：一条下垂的刃与一道赭虚线
     # 斧：柄＋楔形刃，刃口朝下
     s.append(f'<line x1="126" y1="{gy + 44}" x2="136" y2="{gy + 16}" stroke="{INK}" stroke-width="1.0"/>')
@@ -16584,7 +16584,7 @@ def ch32b_ming_yu_zhi():
     for (cx, name) in ((128, "名一"), (178, "名二"), (228, "名三")):
         s.append(f'<path d="M{cx - 13},{g2 + 62} L{cx - 11},{g2 + 42} L{cx + 11},{g2 + 42} L{cx + 13},{g2 + 62} Z" fill="#F6EFE0" stroke="{INK}" stroke-width="0.7"/>')
         s.append(box(cx - 12, g2 + 28, 24, 11, fill="#F2EADA", stroke=SEAL, width=0.7))
-        s.append(txt(cx, g2 + 36, name, 3.3, SEAL, "middle"))
+        s.append(txt(cx, g2 + 36, name, 3.5, SEAL, "middle"))
     s.append(txt(178, g2 + 102, "台基：有边，托得住", 4.1, INK, "middle"))
     # 台外第四件：虚空
     s.append(f'<path d="M309,{g2 + 62} L311,{g2 + 40} L333,{g2 + 40} L335,{g2 + 62} Z" fill="none" stroke="{SEAL}" stroke-width="0.9" stroke-dasharray="4 3"/>')
@@ -16598,7 +16598,7 @@ def ch32b_ming_yu_zhi():
     y3 = g2 + 148
     s.append(box(20, y3, 340, 40, fill="#F2EADA", stroke="#C9B79A"))
     s.append(txt(190, y3 + 18, "名越界，不是名坏了，是执名的人把地基当成了天空。", 5.6, INK, "middle"))
-    s.append(txt(190, y3 + 32, "止是基，不是墙：墙拦住你，基托住你。", 4.4, "#6E6459", "middle"))
+    s.append(txt(190, y3 + 32, "止是基，不是墙：墙拦住你，基托住你。", 4.5, "#6E6459", "middle"))
     s.append(gold(y3 + 60, "ch32b"))
     s.append('</svg>')
     out = "\n".join(s)
@@ -16667,7 +16667,7 @@ def ch32c_chuan_gu():
     y3 = g1 + 46
     s.append(box(20, y3, 340, 40, fill="#F2EADA", stroke="#C9B79A"))
     s.append(txt(190, y3 + 18, "万千差异，同归一道，而不失各自的自性——这就是「和」。", 5.2, INK, "middle"))
-    s.append(txt(190, y3 + 32, "来者不必先改成别人的样子，才准进来。", 4.4, "#6E6459", "middle"))
+    s.append(txt(190, y3 + 32, "来者不必先改成别人的样子，才准进来。", 4.5, "#6E6459", "middle"))
     s.append(gold(y3 + 60, "ch32c"))
     s.append('</svg>')
     out = "\n".join(s)
@@ -16741,7 +16741,7 @@ def ch32d_gan_lu_zi_jun():
     y3 = gy2 + 162
     s.append(box(20, y3, 340, 40, fill="#F2EADA", stroke="#C9B79A"))
     s.append(txt(190, y3 + 18, "天不分配，只落下；落下来，各处自己够。", 5.6, INK, "middle"))
-    s.append(txt(190, y3 + 32, "人一分配，就先得有一把斗；斗一出来，就有人量得比别人少。", 4.4, "#6E6459", "middle"))
+    s.append(txt(190, y3 + 32, "人一分配，就先得有一把斗；斗一出来，就有人量得比别人少。", 4.5, "#6E6459", "middle"))
     s.append(gold(y3 + 60, "ch32d"))
     s.append('</svg>')
     out = "\n".join(s)
@@ -16832,7 +16832,7 @@ def ch32e_chen_yu_bin():
     y3 = g2 + 182
     s.append(box(20, y3, 340, 40, fill="#F2EADA", stroke="#C9B79A"))
     s.append(txt(190, y3 + 18, "同一个位置，一个字换过来，跪着的就成了客。", 5.6, INK, "middle"))
-    s.append(txt(190, y3 + 32, "守，是什么都不加；万物自宾，是什么都不召。", 4.4, "#6E6459", "middle"))
+    s.append(txt(190, y3 + 32, "守，是什么都不加；万物自宾，是什么都不召。", 4.5, "#6E6459", "middle"))
     s.append(gold(y3 + 60, "ch32e"))
     s.append('</svg>')
     out = "\n".join(s)
@@ -16883,11 +16883,11 @@ def ch33a_jia_yu_qi():
         s.append(f'<rect x="{x - 5}" y="{gy + 30}" width="94" height="9" fill="#DED3BC" stroke="{INK}" stroke-width="0.9"/>')
         s.append(f'<rect x="{x + 33}" y="{gy + 23}" width="18" height="7" rx="2" fill="#DED3BC" stroke="{INK}" stroke-width="0.7"/>')
         s.append(txt(x + 42, gy + 66, name, 6.0, INK, "middle"))
-        s.append(txt(x + 42, gy + 78, cap, 3.4, "#8A7C69", "middle"))
+        s.append(txt(x + 42, gy + 78, cap, 3.5, "#8A7C69", "middle"))
         s.append(f'<rect x="{x + 24}" y="{gy + 86}" width="36" height="10" fill="#FBEFE7" stroke="{SEAL}" stroke-width="0.6"/>')
-        s.append(txt(x + 42, gy + 94, "已放", 3.4, SEAL, "middle"))
+        s.append(txt(x + 42, gy + 94, "已放", 3.5, SEAL, "middle"))
         s.append(f'<line x1="{x + 8}" y1="{gy + 96}" x2="{x + 76}" y2="{gy + 96}" stroke="{LINE}" stroke-width="0.6"/>')
-    s.append(txt(190, gy + 114, "天下、兵、名——三样大的，都收起来了。", 4.3, INK, "middle"))
+    s.append(txt(190, gy + 114, "天下、兵、名——三样大的，都收起来了。", 4.5, INK, "middle"))
 
     # ---------- 二、一小枚 ----------
     s.append(txt(24, gy + 148, "二、一小枚：收了半天，还在手里", 5.1, SEAL))
@@ -17057,7 +17057,7 @@ def ch33c_ci_pai_yu_deng():
         s.append(f'<rect x="232" y="{yy}" width="26" height="11" fill="#FBEFE7" stroke="{SEAL}" stroke-width="0.6"/>')
         s.append(txt(245, yy + 8, t, 3.8, SEAL, "middle"))
     s.append(txt(246, gy + 140, "人", 4.0, "#8A7C69", "middle"))
-    s.append(txt(190, gy + 166, "智先有词，才认得出——它离开名就没法工作。", 4.3, INK, "middle"))
+    s.append(txt(190, gy + 166, "智先有词，才认得出——它离开名就没法工作。", 4.5, INK, "middle"))
 
     # ---------- 二、明 ----------
     s.append(txt(24, gy + 190, "二、明：灯转过来，照见自己手里也有一叠", 5.1, SEAL))
@@ -17080,7 +17080,7 @@ def ch33c_ci_pai_yu_deng():
     s.append(txt(240, gy2 + 90, "照自己，", 4.0, SEAL))
     s.append(txt(240, gy2 + 100, "只照见一件", 3.8, SEAL))
     s.append(txt(240, gy2 + 110, "不太体面的事", 3.8, SEAL))
-    s.append(txt(190, gy2 + 166, "同一盏灯，转过来；同一叠词，压在自己手上。", 4.3, INK, "middle"))
+    s.append(txt(190, gy2 + 166, "同一盏灯，转过来；同一叠词，压在自己手上。", 4.5, INK, "middle"))
 
     # ---------- 收 ----------
     y3 = gy2 + 180
@@ -17117,7 +17117,7 @@ def ch33d_jin_yu_gong():
     s.append(arrow(210, gy + 62, 246, gy + 62, color=LINE, width=0.8))
     s.append(txt(190, gy + 106, "二十岁扛二百斤 → 四十岁扛不动", 4.2, "#6E6459", "middle"))
     s.append(txt(190, gy + 120, "它是储备，是会被用完的东西。", 4.2, INK, "middle"))
-    s.append(txt(190, gy + 166, "胜人者用力，力的账本只会往下走。", 4.3, "#8A7C69", "middle"))
+    s.append(txt(190, gy + 166, "胜人者用力，力的账本只会往下走。", 4.5, "#8A7C69", "middle"))
 
     # ---------- 二、弓 ----------
     s.append(txt(24, gy + 190, "二、强是弓：弓臂一寸没动，只有弦来回", 5.1, SEAL))
@@ -17139,7 +17139,7 @@ def ch33d_jin_yu_gong():
     s.append(txt(254, gy2 + 66, "实线：张满", 3.8, SEAL))
     s.append(txt(254, gy2 + 80, "虚线：弦回弭", 3.8, "#7E8F86"))
     s.append(txt(190, gy2 + 136, "张满了不放，弦会疲；放了再张，弓还是那张弓。", 4.2, INK, "middle"))
-    s.append(txt(190, gy2 + 166, "向外压人的力量永远是拉满的；向内降服的力量，是可以松的。", 4.3, "#8A7C69", "middle"))
+    s.append(txt(190, gy2 + 166, "向外压人的力量永远是拉满的；向内降服的力量，是可以松的。", 4.5, "#8A7C69", "middle"))
 
     # ---------- 收 ----------
     y3 = gy2 + 190
@@ -17171,7 +17171,7 @@ def ch33e_dan_zi():
     s.append(f'<line x1="190" y1="{gy + 10}" x2="190" y2="{gy + 158}" stroke="{LINE2}" stroke-width="0.6"/>')
 
     # 左：缺
-    s.append(txt(108, gy + 22, "缺", 5.4, SEAL, "middle"))
+    s.append(txt(108, gy + 22, "缺", 5.2, SEAL, "middle"))
     s.append(txt(108, gy + 34, "单子上的名目还在加", 3.8, "#8A7C69", "middle"))
     s.append(_stander(58, gy + 132))
     s.append(f'<line x1="58" y1="{gy + 84}" x2="80" y2="{gy + 76}" stroke="{INK}" stroke-width="1.0"/>')
@@ -17188,7 +17188,7 @@ def ch33e_dan_zi():
     s.append(txt(108, gy + 156, "缺，不是因为东西少", 4.0, INK, "middle"))
 
     # 右：备
-    s.append(txt(272, gy + 22, "备", 5.4, GREEN, "middle"))
+    s.append(txt(272, gy + 22, "备", 5.2, GREEN, "middle"))
     s.append(txt(272, gy + 34, "单子短，柜子齐，脚站住", 3.8, "#8A7C69", "middle"))
     s.append(f'<rect x="212" y="{gy + 78}" width="44" height="54" fill="#EDE3CE" stroke="{INK}" stroke-width="0.8"/>')
     for k in range(2):
@@ -17267,7 +17267,7 @@ def ch33f_wei_yu_gen():
     # 右：三只箱子叠起来
     s.append(f'<line x1="212" y1="{gy + 140}" x2="348" y2="{gy + 140}" stroke="{INK}" stroke-width="0.9"/>')
     s.append(f'<rect x="232" y="{gy + 104}" width="52" height="36" fill="#EDE3CE" stroke="{INK}" stroke-width="0.7" stroke-dasharray="4 3"/>')
-    s.append(txt(258, gy + 126, "被抽走", 3.4, SEAL, "middle"))
+    s.append(txt(258, gy + 126, "被抽走", 3.5, SEAL, "middle"))
     s.append(f'<rect x="232" y="{gy + 86}" width="52" height="18" fill="#E7C9BE" stroke="{INK}" stroke-width="0.7"/>')
     s.append(txt(258, gy + 99, "名", 4.2, SEAL, "middle"))
     s.append(f'<rect x="232" y="{gy + 68}" width="52" height="18" fill="#E7C9BE" stroke="{INK}" stroke-width="0.7"/>')
@@ -17559,7 +17559,7 @@ def ch35c_an_ping_tai():
     s.append(txt(96, gy + 56, "高一分，撞头", 4.0, "#8A7C69", "middle"))
     s.append(txt(96, gy + 68, "宽一分，侧挤", 4.0, "#8A7C69", "middle"))
     s.append(txt(96, gy + 84, "尺寸先于人间", 4.0, SEAL, "middle"))
-    s.append(txt(190, gy + 128, "伸手的场，进门第一件事是先量你合不合尺寸", 4.3, INK, "middle"))
+    s.append(txt(190, gy + 128, "伸手的场，进门第一件事是先量你合不合尺寸", 4.5, INK, "middle"))
 
     # ---------- 二、往而不害：安、平、泰 ----------
     s.append(txt(24, gy + 158, "二、无框：同一个场，三样东西", 5.0, GREEN))
@@ -17672,7 +17672,7 @@ def ch35a_zhi_yu_chang():
     y3 = c + 100
     s.append(box(20, y3, 340, 40, fill="#F2EADA", stroke="#C9B79A"))
     s.append(txt(190, y3 + 17, "往，是自己走过去；不是被收拢，不是低头。", 8.2, INK, "middle"))
-    s.append(txt(190, y3 + 32, "手一松，场就开了；场一开，人自己会来。", 7.8, "#6E6459", "middle"))
+    s.append(txt(190, y3 + 32, "手一松，场就开了；场一开，人自己会来。", 8.0, "#6E6459", "middle"))
     s.append(gold(y3 + 48, "ch35a"))
     s.append('</svg>')
     return "\n".join(s)
@@ -17774,7 +17774,7 @@ def ch36c_bian_dan():
     s.append(f'<path d="M280,{gy + 78} L310,{gy + 66} L314,{gy + 92} L284,{gy + 104} Z" fill="#EFE6D4" stroke="{INK}" stroke-width="0.9"/>')
     s.append(f'<path d="M282,{gy + 104} q10,10 22,2 q-6,10 -18,4" fill="#DDE9E1" stroke="none"/>')
     s.append(txt(258, gy + 20, "杠从当中断了", 4.2, SEAL))
-    s.append(txt(190, gy + 140, "固定形状的东西担不起变：一压，就在自己断掉的那一处断", 4.3, INK, "middle"))
+    s.append(txt(190, gy + 140, "固定形状的东西担不起变：一压，就在自己断掉的那一处断", 4.5, INK, "middle"))
 
     # ---------- 二、竹扁担 ----------
     s.append(txt(24, gy + 164, "二、竹扁担：可曲可直，弯下去也担得住", 5.0, GREEN))
@@ -17797,7 +17797,7 @@ def ch36c_bian_dan():
     s.append(f'<path d="M160,{gy2 + 74} q30,12 60,0" fill="none" stroke="{GREEN}" stroke-width="0.8" stroke-dasharray="3 3"/>')
     s.append(arrow(214, gy2 + 80, 220, gy2 + 66, color=GREEN, width=0.7, head="arr2"))
     s.append(txt(126, gy2 + 84, "弯了还回来", 4.0, GREEN, "middle"))
-    s.append(txt(190, gy2 + 140, "可曲可直的东西担得起变：弯下去，力就散到整根上", 4.3, INK, "middle"))
+    s.append(txt(190, gy2 + 140, "可曲可直的东西担得起变：弯下去，力就散到整根上", 4.5, INK, "middle"))
 
     # ---------- 收 ----------
     y3 = gy2 + 162
@@ -17992,7 +17992,7 @@ def ch37c_yi_zhan_deng():
     s.append(f'<line x1="66" y1="{gy + 78}" x2="88" y2="{gy + 70}" stroke="{INK}" stroke-width="1.0"/>')
     s.append(f'<path d="M86,{gy + 68} l6,0 M89,{gy + 68} l0,6" stroke="{INK}" stroke-width="0.8"/>')
     s.append(f'<path d="M85,{gy + 74} q4,9 1,14 q-5,-5 -1,-14" fill="#F3E6C0" stroke="{SEAL}" stroke-width="0.7"/>')
-    s.append(txt(190, gy + 132, "照完这头，那头还黑；事一件一件做，总有照不到的地方", 4.3, INK, "middle"))
+    s.append(txt(190, gy + 132, "照完这头，那头还黑；事一件一件做，总有照不到的地方", 4.5, INK, "middle"))
 
     # ---------- 二、无为：灯挂在当中 ----------
     s.append(txt(24, gy + 158, "二、无为：灯挂在屋子当中", 5.0, GREEN))
@@ -18003,7 +18003,7 @@ def ch37c_yi_zhan_deng():
     s.append(f'<ellipse cx="190" cy="{gy2 + 58}" rx="17" ry="3" fill="#F8EBC4" stroke="{INK}" stroke-width="0.6"/>')
     for a in (-44, -22, 0, 22, 44):
         s.append(f'<line x1="{190 + a * 0.55}" y1="{gy2 + 61}" x2="{190 + a}" y2="{gy2 + 82}" stroke="{SEAL}" stroke-width="0.5" stroke-dasharray="3 4" opacity="0.55"/>')
-    s.append(txt(190, gy2 + 132, "它不推任何一件东西，可没有一样没被照到", 4.3, INK, "middle"))
+    s.append(txt(190, gy2 + 132, "它不推任何一件东西，可没有一样没被照到", 4.5, INK, "middle"))
 
     # ---------- 收 ----------
     y3 = gy2 + 146
@@ -18097,7 +18097,7 @@ def ch37b_pu_yu_jing():
     s = [body]
 
     s.append(box(20, y + 2, 340, 30, fill="#F2EADA", stroke="#C9B79A"))
-    s.append(txt(190, y + 18, "化而欲作，吾将镇之以无名之朴。", 7.8, INK, "middle"))
+    s.append(txt(190, y + 18, "化而欲作，吾将镇之以无名之朴。", 8.0, INK, "middle"))
     s.append(txt(190, y + 30, "不欲以静，天下将自正。", 5.2, "#6E6459", "middle"))
 
     # 一、木压火 / 刀压人
@@ -18161,7 +18161,7 @@ def ch37b_pu_yu_jing():
 
     y3 = c + 96
     s.append(box(20, y3, 340, 40, fill="#F2EADA", stroke="#C9B79A"))
-    s.append(txt(190, y3 + 17, "压住火的不是更多的柴，是把它从柴上挪开。", 7.8, INK, "middle"))
+    s.append(txt(190, y3 + 17, "压住火的不是更多的柴，是把它从柴上挪开。", 8.0, INK, "middle"))
     s.append(txt(190, y3 + 32, "木头什么都没加，所以压得住。", 5.2, "#6E6459", "middle"))
     s.append(gold(y3 + 48, "ch37b"))
     s.append('</svg>')
@@ -18191,7 +18191,7 @@ def ch38_wu_ji_tai_jie():
         fill = "#F6E9E2" if nm == "下德" else "#F7F1E3"
         s.append(f'<rect x="{bx}" y="{by}" width="{w}" height="30" fill="{fill}" stroke="{INK}" stroke-width="0.9"/>')
         s.append(f'<rect x="{bx}" y="{by}" width="3" height="30" fill="{col}"/>')
-        s.append(txt(bx + 12, by + 20, nm, 8.8, col))
+        s.append(txt(bx + 12, by + 20, nm, 8.4, col))
         s.append(txt(bx + w + 8, by + 13, judge, 5.2, col))
         s.append(txt(bx + w + 8, by + 25, mark, 5.8, "#6E6459"))
         if i < 5:
@@ -18238,10 +18238,10 @@ def ch39c_yu_yu_shi():
     # 一道裂
     s.append(f'<path d="M182,{gy + 44} l-6,14 l5,10 l-4,12" fill="none" stroke="{SEAL}" stroke-width="0.9" stroke-dasharray="3 3"/>')
     s.append(txt(58, gy + 50, "一碰就裂", 4.0, SEAL))
-    s.append(txt(272, gy + 58, "贵", 4.4, SEAL))
+    s.append(txt(272, gy + 58, "贵", 4.5, SEAL))
     s.append(txt(272, gy + 70, "人人捧你", 4.0, "#8A7C69"))
     s.append(txt(272, gy + 82, "也人人怕你碎", 4.0, "#8A7C69"))
-    s.append(txt(190, gy + 128, "琭琭：光滑、体面、不能落地——它的贵，是不敢碰", 4.3, INK, "middle"))
+    s.append(txt(190, gy + 128, "琭琭：光滑、体面、不能落地——它的贵，是不敢碰", 4.5, INK, "middle"))
 
     # ---------- 二、石 ----------
     s.append(txt(24, gy + 158, "二、如石：被踩着，可承得住", 5.0, GREEN))
@@ -18260,7 +18260,7 @@ def ch39c_yu_yu_shi():
     s.append(arrow(178, gy2 + 34, 178, gy2 + 82, color="#8A7C69", width=0.7, dash="3 3"))
     s.append(txt(246, gy2 + 40, "整座屋", 4.0, "#8A7C69"))
     s.append(txt(246, gy2 + 52, "都压在它身上", 4.0, "#8A7C69"))
-    s.append(txt(190, gy2 + 132, "珞珞：粗、硬、被踩着——它的贱，是承得住", 4.3, INK, "middle"))
+    s.append(txt(190, gy2 + 132, "珞珞：粗、硬、被踩着——它的贱，是承得住", 4.5, INK, "middle"))
 
     # ---------- 收 ----------
     y3 = gy2 + 148
@@ -18353,9 +18353,9 @@ def ch39b_di_xia_san_zhi_jiao():
     s.append(f'<circle cx="{cx-18}" cy="{cy+18}" r="3" fill="none" stroke="{INK}" stroke-width="0.8"/>')
     s.append(f'<line x1="{cx+34}" y1="{cy+4}" x2="{cx+62}" y2="{cy+4}" stroke="{INK}" stroke-width="1.2"/>')
     s.append(f'<line x1="{cx-34}" y1="{cy+8}" x2="{cx+34}" y2="{cy+8}" stroke="{LINE}" stroke-width="0.8"/>')
-    s.append(txt(cx - 18, cy + 36, "轮", 5.4, "#6E6459", "middle"))
-    s.append(txt(cx + 48, cy + 14, "辕", 5.4, "#6E6459", "middle"))
-    s.append(txt(cx - 28, cy + 2, "辐", 5.4, "#6E6459"))
+    s.append(txt(cx - 18, cy + 36, "轮", 5.2, "#6E6459", "middle"))
+    s.append(txt(cx + 48, cy + 14, "辕", 5.2, "#6E6459", "middle"))
+    s.append(txt(cx - 28, cy + 2, "辐", 5.2, "#6E6459"))
     s.append(txt(150, cy - 22, "「舆」是车厢——装人的那个空位，不是车轮车辕。", 5.2, INK))
     s.append(txt(150, cy - 8, "轮、轴、辕、辐，数得再准，也数不出那个空位；", 5.2, INK))
     s.append(txt(150, cy + 6, "空位不在零件里。这就是「数舆无舆」。", 5.2, INK))
@@ -18605,7 +18605,7 @@ def ch41b_fan_guo_lai():
         cy = g + row * 30
         s.append(box(cx, cy, 160, 24, fill="#F7F1E3", stroke="#E6D8C2"))
         s.append(txt(cx + 14, cy + 16, lft, 5.2, INK))
-        s.append(txt(cx + 62, cy + 15, "如", 5.4, "#6E6459", "middle"))
+        s.append(txt(cx + 62, cy + 15, "如", 5.2, "#6E6459", "middle"))
         s.append(txt(cx + 96, cy + 16, rgt, 5.2, SEAL))
     s.append(txt(190, g + 6 * 30 + 8, "道隐无名：名字贴不住，因为它分不开。", 5.2, GREEN, "middle"))
 
@@ -18650,19 +18650,19 @@ def ch41c_san_zhong_kan_bei():
 
     # 一、下士
     r1 = y + 48
-    s.append(txt(24, r1 + 14, "下士", 8.6, SEAL))
+    s.append(txt(24, r1 + 14, "下士", 8.4, SEAL))
     s.append(txt(24, r1 + 28, "只看见壁", 5.8, "#6E6459"))
     s.append(cup(106, r1 + 16))
     s.append(txt(106, r1 + 38, "×", 9.0, SEAL, "middle"))
-    s.append(txt(138, r1 + 26, "空＝", 5.4, SEAL))
-    s.append(txt(144, r1 + 38, "「没有」", 5.4, SEAL))
+    s.append(txt(138, r1 + 26, "空＝", 5.2, SEAL))
+    s.append(txt(144, r1 + 38, "「没有」", 5.2, SEAL))
     s.append(txt(170, r1 + 30, "他摸得到的是壁：有形、有成果、有输赢、有定型。", 5.2, INK))
     s.append(txt(170, r1 + 46, "壁里的那一块，他听成「不存在」。", 5.2, "#6E6459"))
     s.append(txt(170, r1 + 66, "所以他笑——笑的是那块空。", 5.2, SEAL))
 
     # 二、中士
     r2 = r1 + 116
-    s.append(txt(24, r2 + 14, "中士", 8.6, INK))
+    s.append(txt(24, r2 + 14, "中士", 8.4, INK))
     s.append(txt(24, r2 + 28, "看见空，不敢松手", 5.6, "#6E6459"))
     s.append(cup(106, r2 + 16, dash=True))
     s.append(txt(106, r2 + 42, "空", 6.0, SEAL, "middle"))
@@ -18675,7 +18675,7 @@ def ch41c_san_zhong_kan_bei():
 
     # 三、上士
     r3 = r2 + 116
-    s.append(txt(24, r3 + 14, "上士", 8.6, GREEN))
+    s.append(txt(24, r3 + 14, "上士", 8.4, GREEN))
     s.append(txt(24, r3 + 28, "壁空一起用", 5.8, "#6E6459"))
     s.append(cup(106, r3 + 16, water=True))
     s.append(txt(106, r3 + 44, "水", 5.6, GREEN, "middle"))
@@ -18736,7 +18736,7 @@ def ch41d_da_qi_mian_cheng():
     s.append(txt(130, top2 + 12, "成", 9.0, SEAL, "middle"))
     s.append(f'<line x1="120" y1="{top2+8}" x2="140" y2="{top2+8}" stroke="{SEAL}" stroke-width="1.1"/>')
     s.append(txt(130, top2 + 30, "免＝脱除", 5.0, "#6E6459", "middle"))
-    s.append(txt(84, top2 + 58, "不封口，还留着一处在变", 5.4, GREEN, "middle"))
+    s.append(txt(84, top2 + 58, "不封口，还留着一处在变", 5.2, GREEN, "middle"))
     s.append(txt(190, b + 34, "不往那个终点去，因为「成」就是「定型」。", 5.2, INK))
     s.append(txt(190, b + 50, "一定型，就碰上「物壮则老」：顶点后面只有下坡。", 5.9, "#6E6459"))
     s.append(txt(190, b + 68, "所以它一直留着一处没完成。", 5.2, GREEN))
@@ -18771,15 +18771,15 @@ def ch42b_he_yu_ge():
     cy = a + 62
     s.append(f'<circle cx="{cx}" cy="{cy}" r="{r+6}" fill="#E6D8C2" stroke="{INK}" stroke-width="0.9"/>')
     s.append(f'<circle cx="{cx}" cy="{cy}" r="{r-2}" fill="{PAPER}" stroke="{INK}" stroke-width="0.9"/>')
-    s.append(txt(cx, cy + 4, "阳", 8.6, GREEN, "middle"))
+    s.append(txt(cx, cy + 4, "阳", 8.4, GREEN, "middle"))
     s.append(f'<path d="M{cx-14},{cy+14} a18,18 0 0 1 28,-24" fill="none" stroke="{SEAL}" stroke-width="0.7"/>')
     s.append(f'<path d="M{cx+12},{cy-14} l5,3 l-6,3" fill="none" stroke="{SEAL}" stroke-width="0.7"/>')
     s.append(f'<path d="M{cx+14},{cy-14} a18,18 0 0 1 -28,24" fill="none" stroke="{GREEN}" stroke-width="0.7"/>')
     s.append(f'<path d="M{cx-12},{cy+14} l-5,-3 l6,-3" fill="none" stroke="{GREEN}" stroke-width="0.7"/>')
-    s.append(txt(cx, cy + r + 22, "壁＝阴（背），腔＝阳（怀）", 5.4, "#6E6459", "middle"))
-    s.append(txt(150, a + 22, "阴守住成形的边界，阳保有流通的动能，二者互不吞并。", 6.1, INK))
-    s.append(txt(150, a + 40, "靠的正是中间那道虚位：它不固化、不占据，", 6.1, INK))
-    s.append(txt(150, a + 54, "才容得下两端持续涌摇往来。", 6.1, INK))
+    s.append(txt(cx, cy + r + 22, "壁＝阴（背），腔＝阳（怀）", 5.2, "#6E6459", "middle"))
+    s.append(txt(150, a + 22, "阴守住成形的边界，阳保有流通的动能，二者互不吞并。", 6.0, INK))
+    s.append(txt(150, a + 40, "靠的正是中间那道虚位：它不固化、不占据，", 6.0, INK))
+    s.append(txt(150, a + 54, "才容得下两端持续涌摇往来。", 6.0, INK))
     s.append(txt(150, a + 78, "这就是和——", 5.2, GREEN))
     s.append(txt(150, a + 94, "不是静止的均衡，是动着的不散。", 5.2, GREEN))
 
@@ -18792,10 +18792,10 @@ def ch42b_he_yu_ge():
     for i in range(-3, 4):
         s.append(f'<line x1="{cx-30}" y1="{cy2+i*9}" x2="{cx+30}" y2="{cy2+i*9}" stroke="{SEAL}" stroke-width="0.4" opacity="0.55"/>')
     s.append(txt(cx, cy2 + 4, "实", 5.2, SEAL, "middle"))
-    s.append(txt(cx, cy2 + r + 22, "外壳还在，形制还像", 5.4, "#6E6459", "middle"))
-    s.append(txt(150, b + 22, "用泥把中空填满：阳的流通场没了。", 6.1, INK))
-    s.append(txt(150, b + 40, "抹去那道虚、消掉差异、强行归一，器就成了泥坨。", 6.1, INK))
-    s.append(txt(150, b + 54, "有之利还在，无之用已绝。", 6.1, "#6E6459"))
+    s.append(txt(cx, cy2 + r + 22, "外壳还在，形制还像", 5.2, "#6E6459", "middle"))
+    s.append(txt(150, b + 22, "用泥把中空填满：阳的流通场没了。", 6.0, INK))
+    s.append(txt(150, b + 40, "抹去那道虚、消掉差异、强行归一，器就成了泥坨。", 6.0, INK))
+    s.append(txt(150, b + 54, "有之利还在，无之用已绝。", 6.0, "#6E6459"))
     s.append(txt(150, b + 78, "合是消掉中间，", 5.2, SEAL))
     s.append(txt(150, b + 94, "和是容下中间。", 5.2, SEAL))
 
@@ -18854,7 +18854,7 @@ def ch42c_zheng_fan_he():
     # 中心
     s.append(txt(190, a + 100, "虚位", 5.2, INK, "middle"))
     s.append(txt(190, a + 116, "盅·中·冲", 5.6, "#6E6459", "middle"))
-    s.append(txt(190, a + 134, "三不是第三样东西", 5.4, SEAL, "middle"))
+    s.append(txt(190, a + 134, "三不是第三样东西", 5.2, SEAL, "middle"))
 
     y2 = a + 230
     s.append(box(20, y2, 340, 48, fill="#F2EADA", stroke="#C9B79A"))
@@ -18893,9 +18893,9 @@ def ch43c_wu_jian():
     # 门缝见月的小注
     s.append(f'<rect x="272" y="{gy + 36}" width="46" height="76" fill="#E4D9C0" stroke="{INK}" stroke-width="1.1"/>')
     s.append(f'<line x1="295" y1="{gy + 42}" x2="295" y2="{gy + 54}" stroke="#B8AC94" stroke-width="0.5"/>')
-    s.append(txt(295, gy + 76, "门", 4.4, "#6E6459", "middle"))
+    s.append(txt(295, gy + 76, "门", 4.5, "#6E6459", "middle"))
     s.append(txt(295, gy + 90, "关严", 3.7, "#6E6459", "middle"))
-    s.append(txt(190, gy + 126, "外面有再多水，也只是停在表面上", 4.3, INK, "middle"))
+    s.append(txt(190, gy + 126, "外面有再多水，也只是停在表面上", 4.5, INK, "middle"))
 
     # ---------- 二、无有：它本来就在里头 ----------
     s.append(txt(24, gy + 154, "二、无有：里面一直在动", 5.0, GREEN))
@@ -18912,7 +18912,7 @@ def ch43c_wu_jian():
         s.append(arrow(150, yy, 168, yy - 6, color=SEAL, width=0.6, head="arrS"))
     s.append(f'<path d="M100,{gy2 + 74} l14,-4 M100,{gy2 + 78} l14,0" fill="none" stroke="{SEAL}" stroke-width="0.7"/>')
     s.append(txt(84, gy2 + 72, "变，只是慢", 4.0, SEAL, "middle"))
-    s.append(txt(190, gy2 + 132, "凡是还在变的，里面就有「无」在起作用", 4.3, INK, "middle"))
+    s.append(txt(190, gy2 + 132, "凡是还在变的，里面就有「无」在起作用", 4.5, INK, "middle"))
     s.append(txt(290, gy2 + 62, "无", 5.0, SEAL))
     s.append(txt(290, gy2 + 76, "不占位置", 3.9, "#8A7C69"))
     s.append(f'<path d="M286,{gy2 + 62} l-30,0" stroke="{SEAL}" stroke-width="0.6" stroke-dasharray="3 3"/>')
@@ -18980,7 +18980,7 @@ def ch43a_rou_bu_shi_ruan():
 
 # ============ 第四十三章 · 不撞，是跑 ============
 def ch43b_bu_zhuang_shi_pao():
-    W, H = 380, 560
+    W, H = 380, 600
     body, y = head(W, H, "撞是把自己的力交出去，跑是把自己的力留着", "第 四 十 三 章 · 驰 骋",
                    "不撞，是跑", "至柔在至坚身上「驰骋」——不是撞，是跑。", H)
     s = [body]
@@ -19004,9 +19004,9 @@ def ch43b_bu_zhuang_shi_pao():
     s.append(f'<line x1="50" y1="{wy+34}" x2="58" y2="{wy+34}" stroke="{INK}" stroke-width="0.5" opacity="0.7"/>')
     s.append(f'<path d="M68,{wy+22} l-8,-6 M68,{wy+38} l-8,6" stroke="{SEAL}" stroke-width="0.7" fill="none"/>')
     s.append(f'<circle cx="92" cy="{wy+16}" r="1.6" fill="{SEAL}"/><circle cx="98" cy="{wy+44}" r="1.4" fill="{SEAL}"/><circle cx="86" cy="{wy+50}" r="1.2" fill="{SEAL}"/>')
-    s.append(txt(64, wy + 74, "硬碰硬：两边同时消耗", 5.4, "#6E6459", "middle"))
-    s.append(txt(140, a + 20, "两方同时消耗，力气花在「证明自己硬」上。", 6.1, INK))
-    s.append(txt(140, a + 36, "赢了也是一身碎屑；输了更不用说。", 6.1, INK))
+    s.append(txt(64, wy + 74, "硬碰硬：两边同时消耗", 5.2, "#6E6459", "middle"))
+    s.append(txt(140, a + 20, "两方同时消耗，力气花在「证明自己硬」上。", 6.0, INK))
+    s.append(txt(140, a + 36, "赢了也是一身碎屑；输了更不用说。", 6.0, INK))
     s.append(txt(140, a + 58, "撞的那一下，力已经离手了。", 5.2, SEAL))
 
     # 二、驰骋
@@ -19019,9 +19019,9 @@ def ch43b_bu_zhuang_shi_pao():
     for k, off in enumerate([18, 32, 46]):
         s.append(f'<path d="M46,{wy+off} C64,{wy+off-6} 82,{wy+off+6} 100,{wy+off} L116,{wy+off} '
                  f'C126,{wy+off-4} 128,{wy+off+3} 132,{wy+off}" fill="none" stroke="{GREEN}" stroke-width="0.9"/>')
-    s.append(txt(64, wy + 74, "不接触，所以不损耗", 5.4, "#6E6459", "middle"))
-    s.append(txt(140, b + 20, "至柔不与硬碰，消耗只发生在硬的那一方。", 6.1, INK))
-    s.append(txt(140, b + 36, "它从硬的东西里穿过去，自己没碰掉一块。", 6.1, INK))
+    s.append(txt(64, wy + 74, "不接触，所以不损耗", 5.2, "#6E6459", "middle"))
+    s.append(txt(140, b + 20, "至柔不与硬碰，消耗只发生在硬的那一方。", 6.0, INK))
+    s.append(txt(140, b + 36, "它从硬的东西里穿过去，自己没碰掉一块。", 6.0, INK))
     s.append(txt(140, b + 58, "跑的时候，力一直在自己手里。", 5.2, GREEN))
 
     # 三、无有入无间
@@ -19034,8 +19034,8 @@ def ch43b_bu_zhuang_shi_pao():
     s.append(txt(99, wy + 54, "连一道门缝都没有", 4.8, "#6E6459", "middle"))
     s.append(f'<path d="M40,{wy+22} C60,{wy+16} 80,{wy+26} 100,{wy+21} L132,{wy+21}" fill="none" stroke="{GREEN}" '
              f'stroke-width="0.8" stroke-dasharray="6 4"/>')
-    s.append(txt(150, c + 20, "有形之物要靠别人让出一道缝；无形之物不必。", 6.1, INK))
-    s.append(txt(150, c + 36, "它不占位置，所以没有哪一处是进不去的。", 6.1, INK))
+    s.append(txt(150, c + 20, "有形之物要靠别人让出一道缝；无形之物不必。", 6.0, INK))
+    s.append(txt(150, c + 36, "它不占位置，所以没有哪一处是进不去的。", 6.0, INK))
     s.append(txt(150, c + 58, "它不是凿开缝进去的，它是那扇门本身就有的。", 5.2, INK))
 
     y2 = c + 100
@@ -19172,7 +19172,7 @@ def ch44c_jiao_yu_zhi():
 
     s.append(box(20, y + 2, 340, 30, fill="#F2EADA", stroke="#C9B79A"))
     s.append(txt(190, y + 15, "「足」，脚；「止」，脚趾。这两个字本来是身体词。", 5.2, INK, "middle"))
-    s.append(txt(190, y + 27, "老子不是在劝人心态，是在说一个人得知道自己站在哪儿、什么时候停脚。", 5.3, "#6E6459", "middle"))
+    s.append(txt(190, y + 27, "老子不是在劝人心态，是在说一个人得知道自己站在哪儿、什么时候停脚。", 5.2, "#6E6459", "middle"))
 
     # 左：脚印
     a = y + 50
@@ -19353,7 +19353,7 @@ def ch45c_yin_er_bu_fa():
     # 弓臂受力的裂纹（满时）
     s.append(f'<line x1="72" y1="{cy-74}" x2="66" y2="{cy-62}" stroke="{SEAL}" stroke-width="0.5"/>')
     s.append(f'<line x1="66" y1="{cy-62}" x2="70" y2="{cy-60}" stroke="{SEAL}" stroke-width="0.5"/>')
-    s.append(txt(58, cy - 86, "拉到满，先折这里", 4.4, SEAL))
+    s.append(txt(58, cy - 86, "拉到满，先折这里", 4.5, SEAL))
     # 标注箭头
     s.append(f'<line x1="108" y1="{cy+34}" x2="108" y2="{cy+8}" stroke="{GREEN}" stroke-width="0.4"/>')
     s.append(txt(108, cy + 44, "引而不发", 5.2, GREEN, "middle"))
@@ -19416,7 +19416,7 @@ def ch46a_lu_shang_yin_zi():
 
     s.append(box(20, y + 2, 340, 30, fill="#F2EADA", stroke="#C9B79A"))
     s.append(txt(190, y + 14, "「却」，《说文》「节欲也」——先节住欲，再把马拉回来。", 5.8, INK, "middle"))
-    s.append(txt(190, y + 26, "「郊」，《说文》「距国百里为郊」——都城往外一百里，最不该见血的一圈。", 5.3, "#6E6459", "middle"))
+    s.append(txt(190, y + 26, "「郊」，《说文》「距国百里为郊」——都城往外一百里，最不该见血的一圈。", 5.2, "#6E6459", "middle"))
 
     a = y + 46
     s.append(txt(24, a + 8, "一 · 有道：马在田里", 5.9, GREEN))
@@ -19528,7 +19528,7 @@ def ch46b_dao_gai_li():
     for k, (tag, line) in enumerate(rows):
         r = b + k * 40
         s.append(txt(24, r, tag, 5.6, SEAL))
-        s.append(txt(88, r, line, 5.5, INK))
+        s.append(txt(88, r, line, 5.6, INK))
 
     y2 = b + 4 * 40 + 2
     s.append(f'<line x1="24" y1="{y2-6}" x2="338" y2="{y2-6}" stroke="{LINE}" stroke-width="0.6"/>')
@@ -19549,7 +19549,7 @@ def ch46c_san_ge_zu():
 
     s.append(box(20, y + 2, 340, 30, fill="#F2EADA", stroke="#C9B79A"))
     s.append(txt(190, y + 14, "第一个足是脚，第二个足是够，第三个足是一直站着。", 5.9, INK, "middle"))
-    s.append(txt(190, y + 26, "书上说：用「知道脚站在哪儿」的那个足，去换「够」的那个足。", 5.4, "#6E6459", "middle"))
+    s.append(txt(190, y + 26, "书上说：用「知道脚站在哪儿」的那个足，去换「够」的那个足。", 5.2, "#6E6459", "middle"))
 
     a = y + 46
     s.append(txt(24, a + 6, "一 · 第一个足：脚", 5.9, INK))
@@ -19583,11 +19583,11 @@ def ch46c_san_ge_zu():
     s.append(txt(24, b + 4, "二 · 第二个足：够（门槛）", 5.9, INK))
     s.append(f'<path d="M30,{b+74} L96,{b+66} L96,{b+56} L162,{b+48} L162,{b+38} L228,{b+30} L228,{b+20} L294,{b+12}" fill="none" stroke="{SEAL}" stroke-width="0.6"/>')
     s.append(txt(300, b + 14, "够", 4.8, SEAL))
-    s.append(txt(300, b + 26, "的门槛", 4.4, SEAL))
-    s.append(txt(36, b + 90, "不知足的人：门槛一级一级往上，脚一直没落地。", 5.4, SEAL))
+    s.append(txt(300, b + 26, "的门槛", 4.5, SEAL))
+    s.append(txt(36, b + 90, "不知足的人：门槛一级一级往上，脚一直没落地。", 5.2, SEAL))
 
     c = b + 116
-    s.append(txt(24, c, "三 · 第三个足：常——脚先落地，门槛就不动了。", 5.4, GREEN))
+    s.append(txt(24, c, "三 · 第三个足：常——脚先落地，门槛就不动了。", 5.2, GREEN))
 
     y2 = c + 14
     s.append(f'<line x1="24" y1="{y2}" x2="338" y2="{y2}" stroke="{LINE}" stroke-width="0.6"/>')
@@ -19674,7 +19674,7 @@ def ch47b_wang_yue_mi():
     b = cy + 76
     s.append(txt(24, b, "三个圆里是同一片「知」。网眼越密，中间那点亮越小；", 5.8, INK))
     s.append(txt(24, b + 16, "线都是你自己一条条捡回来的，捡得越多，越放不下。", 5.8, SEAL))
-    s.append(txt(24, b + 32, "老子不是反对看；他反对把「向外看」当成求道的路。", 5.4, "#6E6459"))
+    s.append(txt(24, b + 32, "老子不是反对看；他反对把「向外看」当成求道的路。", 5.2, "#6E6459"))
 
     c = b + 50
     s.append(f'<line x1="24" y1="{c}" x2="338" y2="{c}" stroke="{LINE}" stroke-width="0.6"/>')
@@ -19695,7 +19695,7 @@ def ch47c_shi_zi_lu_kou():
 
     s.append(box(20, y + 2, 340, 30, fill="#F2EADA", stroke="#C9B79A"))
     s.append(txt(190, y + 14, "「行」的甲骨文，就是十字路口：四条路通到一处。", 5.8, INK, "middle"))
-    s.append(txt(190, y + 26, "所以「不行而知」不是不走路，是「不站在那个路口」。", 5.4, "#6E6459", "middle"))
+    s.append(txt(190, y + 26, "所以「不行而知」不是不走路，是「不站在那个路口」。", 5.2, "#6E6459", "middle"))
 
     a = y + 52
     cx, cy = 150, a + 66
@@ -19711,9 +19711,9 @@ def ch47c_shi_zi_lu_kou():
     s.append(txt(cx, cy + 86, "选一条，就走不成那三条", 4.8, SEAL, "middle"))
 
     s.append(txt(258, a + 40, "路是同一套走法：", 5.0, GREEN))
-    s.append(txt(258, a + 54, "反、弱、有无相生、", 5.4, GREEN))
-    s.append(txt(258, a + 66, "冲气为和。", 5.4, GREEN))
-    s.append(txt(258, a + 84, "知道一处，就通了全部。", 5.4, GREEN))
+    s.append(txt(258, a + 54, "反、弱、有无相生、", 5.2, GREEN))
+    s.append(txt(258, a + 66, "冲气为和。", 5.2, GREEN))
+    s.append(txt(258, a + 84, "知道一处，就通了全部。", 5.2, GREEN))
     s.append(f'<line x1="252" y1="{a+96}" x2="338" y2="{a+96}" stroke="{LINE2}" stroke-width="0.4"/>')
     s.append(txt(258, a + 110, "知道走法的人，", 4.8, "#6E6459"))
     s.append(txt(258, a + 120, "站不站在路口都一样。", 4.8, "#6E6459"))
@@ -19721,7 +19721,7 @@ def ch47c_shi_zi_lu_kou():
     b = a + 178
     s.append(txt(24, b, "不行而知，不是不走路：天下不是一堆散事，是一套统一的运化。", 5.6, INK))
     s.append(txt(24, b + 16, "散事只能一件件去看；一套机制，知道一处就通了全部。", 5.6, INK))
-    s.append(txt(24, b + 32, "这就是「不出户」能成立的全部理由：他看的不是多，是那一条律。", 5.4, GREEN))
+    s.append(txt(24, b + 32, "这就是「不出户」能成立的全部理由：他看的不是多，是那一条律。", 5.2, GREEN))
 
     c = b + 50
     s.append(f'<line x1="24" y1="{c}" x2="338" y2="{c}" stroke="{LINE}" stroke-width="0.6"/>')
@@ -19742,7 +19742,7 @@ def ch48a_yi_yu_sun():
 
     s.append(box(20, y + 2, 340, 30, fill="#F2EADA", stroke="#C9B79A"))
     s.append(txt(190, y + 14, "「益」，《说文》「饶也」——字形是水在皿上，水满出来了。", 5.8, INK, "middle"))
-    s.append(txt(190, y + 26, "「损」，《说文》「减也」——从手：一只手从器物上把东西拿掉。", 5.4, "#6E6459", "middle"))
+    s.append(txt(190, y + 26, "「损」，《说文》「减也」——从手：一只手从器物上把东西拿掉。", 5.2, "#6E6459", "middle"))
 
     a = y + 48
     # 左：益（水自己涨出来）
@@ -19779,8 +19779,8 @@ def ch48a_yi_yu_sun():
 
     b = a + 164
     s.append(txt(24, b, "益是水自己涨出来，损是手往外拿；涨不由人，拿要人动手。", 5.8, INK))
-    s.append(txt(24, b + 16, "学，是往心里装「有」：一个概念一道边，一个标签一道边。", 5.4, "#6E6459"))
-    s.append(txt(24, b + 32, "损，是把粘在「知道」上面的那层执取拿掉——知识还留着。", 5.4, GREEN))
+    s.append(txt(24, b + 16, "学，是往心里装「有」：一个概念一道边，一个标签一道边。", 5.2, "#6E6459"))
+    s.append(txt(24, b + 32, "损，是把粘在「知道」上面的那层执取拿掉——知识还留着。", 5.2, GREEN))
 
     c = b + 50
     s.append(f'<line x1="24" y1="{c}" x2="338" y2="{c}" stroke="{LINE}" stroke-width="0.6"/>')
@@ -19834,7 +19834,7 @@ def ch48b_ceng_ke():
     # 中间过程：一条边还实着，一条边已经虚了
     mb = cy + 126
     s.append(f'<line x1="24" y1="{mb}" x2="338" y2="{mb}" stroke="{LINE}" stroke-width="0.6"/>')
-    s.append(txt(24, mb + 15, "中间过程：一个框正处在半中间", 5.4, SEAL))
+    s.append(txt(24, mb + 15, "中间过程：一个框正处在半中间", 5.2, SEAL))
     fx, fy, fh = 58, mb + 62, 26
     s.append(f'<line x1="{fx-fh}" y1="{fy-fh}" x2="{fx+fh}" y2="{fy-fh}" stroke="{INK}" stroke-width="1"/>')
     s.append(f'<line x1="{fx+fh}" y1="{fy-fh}" x2="{fx+fh}" y2="{fy+fh}" stroke="{INK}" stroke-width="1"/>')
@@ -19849,7 +19849,7 @@ def ch48b_ceng_ke():
     b = mb + 128
     s.append(txt(24, b, "往外读：框一层层变大——这是为学，越学越细，越细越好用。", 5.6, INK))
     s.append(txt(24, b + 16, "读线：每一条边由实变虚——这是为道，不是拆掉框，是让它不再硬着。", 5.6, INK))
-    s.append(txt(24, b + 32, "同一张图：你把它往外推，它就多一层；你把手松开，它就淡一层。", 5.4, GREEN))
+    s.append(txt(24, b + 32, "同一张图：你把它往外推，它就多一层；你把手松开，它就淡一层。", 5.2, GREEN))
 
     c = b + 50
     s.append(f'<line x1="24" y1="{c}" x2="338" y2="{c}" stroke="{LINE}" stroke-width="0.6"/>')
@@ -19868,8 +19868,8 @@ def ch48c_guan_qia():
     s = [body]
 
     s.append(box(20, y + 2, 340, 30, fill="#F2EADA", stroke="#C9B79A"))
-    s.append(txt(190, y + 14, "「事」，《说文》「职也」：无事不是什么都不干，是不给自己加职分。", 5.5, INK, "middle"))
-    s.append(txt(190, y + 26, "「取」，《说文》「捕取也」——从又从耳：割左耳计功的那个取。", 5.4, SEAL, "middle"))
+    s.append(txt(190, y + 14, "「事」，《说文》「职也」：无事不是什么都不干，是不给自己加职分。", 5.6, INK, "middle"))
+    s.append(txt(190, y + 26, "「取」，《说文》「捕取也」——从又从耳：割左耳计功的那个取。", 5.2, SEAL, "middle"))
 
     a = y + 50
     # 上：有事
@@ -19894,7 +19894,7 @@ def ch48c_guan_qia():
         s.append(f'<line x1="{gx}" y1="{gy2}" x2="{gx}" y2="{gy2-24}" stroke="{LINE2}" stroke-width="0.4" stroke-dasharray="3 3"/>')
         s.append(f'<line x1="{gx+22}" y1="{gy2}" x2="{gx+22}" y2="{gy2-24}" stroke="{LINE2}" stroke-width="0.4" stroke-dasharray="3 3"/>')
         s.append(f'<line x1="{gx-3}" y1="{gy2-22}" x2="{gx+25}" y2="{gy2-22}" stroke="{LINE2}" stroke-width="0.4" stroke-dasharray="3 3"/>')
-    s.append(txt(300, gy2 - 32, "虚线：本该有的关，一道也没设", 4.4, "#6E6459", "middle"))
+    s.append(txt(300, gy2 - 32, "虚线：本该有的关，一道也没设", 4.5, "#6E6459", "middle"))
     s.append(txt(36, gy2 + 28, "不新立法度，不频出号令，不年年加码。", 4.8, "#6E6459"))
 
     c = gy2 + 48
@@ -19944,15 +19944,15 @@ def ch49a_yi_ba_chi():
     for k in range(9):
         s.append(f'<line x1="{58 + k * 27}" y1="{ruler_y}" x2="{58 + k * 27}" y2="{ruler_y + 3.2}" stroke="{INK}" stroke-width="0.5"/>')
     s.append(f'<line x1="44" y1="{ruler_y + 9}" x2="288" y2="{ruler_y + 9}" stroke="{SEAL}" stroke-width="1.1" stroke-dasharray="6 3"/>')
-    s.append(txt(296, ruler_y + 8, "合格线", 4.4, SEAL))
+    s.append(txt(296, ruler_y + 8, "合格线", 4.5, SEAL))
     for cx, hh, lab, pass_it in [(86, 96, "甲", True), (148, 72, "乙", False), (210, 48, "丙", False)]:
         top = person(cx, base, hh)
         if pass_it:
             s.append(f'<line x1="{cx}" y1="{top + 0.4}" x2="{cx}" y2="{ruler_y + 9}" stroke="{GREEN}" stroke-width="0.6" stroke-dasharray="3 2"/>')
-            s.append(txt(cx, base + 14, "甲：够得到", 4.3, GREEN, "middle"))
+            s.append(txt(cx, base + 14, "甲：够得到", 4.5, GREEN, "middle"))
         else:
             s.append(f'<line x1="{cx}" y1="{top + 0.4}" x2="{cx}" y2="{top - 20}" stroke="{SEAL}" stroke-width="0.6" stroke-dasharray="3 2"/>')
-            s.append(txt(cx, base + 14, lab + ("：差一截" if hh == 72 else "：差两截"), 4.3, SEAL, "middle"))
+            s.append(txt(cx, base + 14, lab + ("：差一截" if hh == 72 else "：差两截"), 4.5, SEAL, "middle"))
     s.append(txt(190, gy + 156, "尺一压下来，人就成了刻度上的一个读数", 4.5, GREEN, "middle"))
     s.append(txt(190, gy + 184, "尺一伸出去，话就跟着出去；尺压在头顶，人就被钉住", 4.6, GREEN, "middle"))
 
@@ -19971,13 +19971,13 @@ def ch49a_yi_ba_chi():
     s.append(f'<line x1="92" y1="{base2 - 42}" x2="124" y2="{base2 - 54}" stroke="{GREEN}" stroke-width="1.4"/>')
     for k in range(3):
         s.append(f'<line x1="{100 + k * 8}" y1="{base2 - 44 - k * 3}" x2="{100 + k * 8}" y2="{base2 - 40 - k * 3}" stroke="{INK}" stroke-width="0.5"/>')
-    s.append(txt(238, gy2 + 44, "尺插回腰间：还在，", 4.4, GREEN))
-    s.append(txt(238, gy2 + 56, "不横在人头顶", 4.4, GREEN))
+    s.append(txt(238, gy2 + 44, "尺插回腰间：还在，", 4.5, GREEN))
+    s.append(txt(238, gy2 + 56, "不横在人头顶", 4.5, GREEN))
     s.append(txt(190, gy2 + 184, "头顶那道虚线没有了：不把人划到哪一栏里去", 4.6, GREEN, "middle"))
 
     a = gy2 + 208
-    s.append(txt(24, a, "尺量长短，是它本分；尺压在头顶，它就把人钉住了。", 5.4, INK))
-    s.append(txt(24, a + 16, "「以百姓心为心」不是照他们说的做，是不把他们划到哪一栏里去。", 5.4, INK))
+    s.append(txt(24, a, "尺量长短，是它本分；尺压在头顶，它就把人钉住了。", 5.2, INK))
+    s.append(txt(24, a + 16, "「以百姓心为心」不是照他们说的做，是不把他们划到哪一栏里去。", 5.2, INK))
     s.append(txt(24, a + 34, "这一章不是教人宽容，是教人把自己那把尺认出来，然后松开手。", 5.2, GREEN))
 
     c = a + 52
@@ -20051,12 +20051,12 @@ def ch49b_yi_tiao_qu():
     ditch(96, gy2 + 44, 292, -1, gate=True)
     ditch(96, gy2 + 88, 292, -1, gate=True)
     s.append(txt(296, gy2 + 36, "口收窄", 4.2, SEAL))
-    s.append(txt(190, gy2 + 156, "收住不是堵死：堵死是「防民之口」，收住是自己不往外灌", 4.4, GREEN, "middle"))
+    s.append(txt(190, gy2 + 156, "收住不是堵死：堵死是「防民之口」，收住是自己不往外灌", 4.5, GREEN, "middle"))
     s.append(txt(190, gy2 + 184, "圣人做的事，是把灌口往回收一寸", 4.6, GREEN, "middle"))
 
     a = gy2 + 208
-    s.append(txt(24, a, "大家都往外灌，就没人吸；没人吸，那个场就干了。", 5.4, INK))
-    s.append(txt(24, a + 16, "注是结构，不是罪状：眼睛看什么，心就在哪儿。", 5.4, INK))
+    s.append(txt(24, a, "大家都往外灌，就没人吸；没人吸，那个场就干了。", 5.2, INK))
+    s.append(txt(24, a + 16, "注是结构，不是罪状：眼睛看什么，心就在哪儿。", 5.2, INK))
     s.append(txt(24, a + 34, "所以圣人第一件事不是多说，是把灌口往回收一寸。", 5.2, GREEN))
 
     c = a + 52
@@ -20112,13 +20112,13 @@ def ch49c_hun_shui_sheng():
     # 水声：从水面升起的三道弧
     for k, (cx, ry, op) in enumerate([(222, 9, 0.85), (246, 7, 0.6), (270, 5, 0.4)]):
         s.append(f'<path d="M{cx},{by2 - 56} q8,-{ry} 16,0" fill="none" stroke="{GREEN}" stroke-width="0.9" opacity="{op}"/>')
-    s.append(txt(246, by2 - 66, "混流声也", 4.4, GREEN, "middle"))
+    s.append(txt(246, by2 - 66, "混流声也", 4.5, GREEN, "middle"))
     s.append(txt(190, gy2 + 136, "格子软了，水重新连成一片", 4.5, GREEN, "middle"))
     s.append(txt(190, gy2 + 174, "不是没有分别，是不再一格一格站着", 4.5, GREEN, "middle"))
 
     a = gy2 + 192
-    s.append(txt(24, a, "一个时代的心被切碎，不是切得不准，是切得太准。", 5.4, INK))
-    s.append(txt(24, a + 16, "每一刀都对，可每个人都站进了一个很小的格子。", 5.4, INK))
+    s.append(txt(24, a, "一个时代的心被切碎，不是切得不准，是切得太准。", 5.2, INK))
+    s.append(txt(24, a + 16, "每一刀都对，可每个人都站进了一个很小的格子。", 5.2, INK))
     s.append(txt(24, a + 34, "浑，是把格子的墙软下来——水才又能流到别人那儿去，也才重新有声。", 5.2, GREEN))
 
     c = a + 52
@@ -20143,7 +20143,7 @@ def ch50a_yi_tiao_lu():
     s.append(txt(190, y + 26, "「徒」，《说文》「步行也」——这三成不是三个命定，是三个方向。", 5.2, "#6E6459", "middle"))
 
     t1 = y + 46
-    s.append(txt(24, t1, "一条路，三种走法", 5.4, SEAL))
+    s.append(txt(24, t1, "一条路，三种走法", 5.2, SEAL))
     gy = t1 + 96
     top, bot = gy - 16, gy + 16
     s.append(f'<rect x="30" y="{top}" width="320" height="40" fill="#FBF6EC" stroke="{LINE}" stroke-width="0.7"/>')
@@ -20175,7 +20175,7 @@ def ch50a_yi_tiao_lu():
     b = ly + 62
     s.append(txt(24, b, "本来就有一批人容易早亡，那是禀赋与外缘；另外那一批，是自己动手把自己送进去的。", 5.2, INK))
     s.append(txt(24, b + 16, "而这后一批，恰恰是最用心养生的那一批。", 5.2, INK))
-    s.append(txt(24, b + 32, "那个「亦」字，是老子全章唯一想说的。", 5.4, GREEN))
+    s.append(txt(24, b + 32, "那个「亦」字，是老子全章唯一想说的。", 5.2, GREEN))
 
     c = b + 50
     s.append(f'<line x1="24" y1="{c}" x2="338" y2="{c}" stroke="{LINE}" stroke-width="0.6"/>')
@@ -20200,7 +20200,7 @@ def ch50b_yi_ba_tu():
 
     # 一、薄
     t1 = y + 46
-    s.append(txt(24, t1, "一、薄：气还通，脚下没有那一层", 5.4, GREEN))
+    s.append(txt(24, t1, "一、薄：气还通，脚下没有那一层", 5.2, GREEN))
     g1 = t1 + 62
     s.append(f'<line x1="30" y1="{g1}" x2="350" y2="{g1}" stroke="{INK}" stroke-width="0.9"/>')
     s.append(f'<rect x="30" y="{g1}" width="320" height="4" fill="#EFE6D4" stroke="{LINE}" stroke-width="0.35"/>')
@@ -20212,7 +20212,7 @@ def ch50b_yi_ba_tu():
 
     # 二、厚
     t2 = g1 + 40
-    s.append(txt(24, t2, "二、厚：一层一层往上堆，堆成一层土", 5.4, SEAL))
+    s.append(txt(24, t2, "二、厚：一层一层往上堆，堆成一层土", 5.2, SEAL))
     g2 = t2 + 94
     s.append(f'<line x1="30" y1="{g2}" x2="350" y2="{g2}" stroke="{INK}" stroke-width="1.2"/>')
     for k in range(4):
@@ -20235,7 +20235,7 @@ def ch50b_yi_ba_tu():
     b = g2 + 40
     s.append(txt(24, b, "堆的不是坏东西：补品、防护、一整套「我在养」的念头，一样一样都出于好意。", 5.2, INK))
     s.append(txt(24, b + 16, "可「厚」这个字的方向是往下：厚的东西沉，沉到底，就成了地。", 5.2, INK))
-    s.append(txt(24, b + 32, "死地不是命给的，是自己一锹一锹堆起来的；撤土比加甲难。", 5.4, GREEN))
+    s.append(txt(24, b + 32, "死地不是命给的，是自己一锹一锹堆起来的；撤土比加甲难。", 5.2, GREEN))
 
     c = b + 50
     s.append(f'<line x1="24" y1="{c}" x2="338" y2="{c}" stroke="{LINE}" stroke-width="0.6"/>')
@@ -20269,7 +20269,7 @@ def ch50c_yi_zhi_jiao():
 
     # 一、抵硬壳：穿进去了
     t1 = y + 46
-    s.append(txt(24, t1, "一、一身设防：每一道防线都是一个可破的点", 5.4, SEAL))
+    s.append(txt(24, t1, "一、一身设防：每一道防线都是一个可破的点", 5.2, SEAL))
     cy1 = t1 + 66
     s.append(box(202, cy1 - 40, 14, 80, fill="#EFE6D4", stroke=INK, width=1.4))
     for k in range(3):
@@ -20283,7 +20283,7 @@ def ch50c_yi_zhi_jiao():
 
     # 二、抵空处：滑开了
     t2 = cy1 + 76
-    s.append(txt(24, t2, "二、无死地：同一只角，没有地方可投", 5.4, GREEN))
+    s.append(txt(24, t2, "二、无死地：同一只角，没有地方可投", 5.2, GREEN))
     cy2 = t2 + 66
     s.append(f'<line x1="202" y1="{cy2-40}" x2="202" y2="{cy2+40}" stroke="{LINE2}" stroke-width="0.6" stroke-dasharray="4 4"/>')
     for part in horn(92, cy2):
@@ -20295,7 +20295,7 @@ def ch50c_yi_zhi_jiao():
     b = cy2 + 70
     s.append(txt(24, b, "一个全身紧绷、处处设防的人，恰恰把自己变成了一排靶子。", 5.2, INK))
     s.append(txt(24, b + 16, "无死地，不是没有一处可以被打——是没有一处「可以被定点击中」。", 5.2, INK))
-    s.append(txt(24, b + 32, "所以那个「摄」字是往回收：不堆，就不成地。", 5.4, GREEN))
+    s.append(txt(24, b + 32, "所以那个「摄」字是往回收：不堆，就不成地。", 5.2, GREEN))
 
     c = b + 50
     s.append(f'<line x1="24" y1="{c}" x2="338" y2="{c}" stroke="{LINE}" stroke-width="0.6"/>')
@@ -20319,7 +20319,7 @@ def ch51a_si_ceng_lian_tiao():
     s.append(txt(190, y + 26, "物给边界，势给时候——形管你在哪儿，势管你什么时候。", 5.2, "#6E6459", "middle"))
 
     t1 = y + 46
-    s.append(txt(24, t1, "四层链条，从虚到成", 5.4, SEAL))
+    s.append(txt(24, t1, "四层链条，从虚到成", 5.2, SEAL))
 
     rows = [(170, "道 生 之", "虚：不占地方，先有「这回事」"),
             (240, "德 畜 之", "蓄：像存粮，把生机留住"),
@@ -20347,7 +20347,7 @@ def ch51a_si_ceng_lian_tiao():
     b = 424
     s.append(txt(24, b, "世俗习惯反过来：只看见有形之物，看不见它后面的虚源与生机。", 5.2, INK))
     s.append(txt(24, b + 16, "所以「物形之」不是起点，是第三层；头一层，是一个不占地方的场。", 5.2, INK))
-    s.append(txt(24, b + 32, "四层不能颠倒：先有虚，才有存；先有形，才谈得上顺时。", 5.4, GREEN))
+    s.append(txt(24, b + 32, "四层不能颠倒：先有虚，才有存；先有形，才谈得上顺时。", 5.2, GREEN))
 
     c = b + 50
     s.append(f'<line x1="24" y1="{c}" x2="338" y2="{c}" stroke="{LINE}" stroke-width="0.6"/>')
@@ -20372,7 +20372,7 @@ def ch51b_yi_jian_wu():
 
     # 一、亭：有顶无壁
     t1 = y + 46
-    s.append(txt(24, t1, "一、亭之：给一个能停一停的顶", 5.4, GREEN))
+    s.append(txt(24, t1, "一、亭之：给一个能停一停的顶", 5.2, GREEN))
     gy1 = t1 + 108
     s.append(f'<line x1="24" y1="{gy1}" x2="356" y2="{gy1}" stroke="{INK}" stroke-width="1"/>')
     s.append(f'<path d="M56,{gy1-84} L156,{gy1-112} L256,{gy1-84}" fill="none" stroke="{INK}" stroke-width="1.4"/>')
@@ -20392,7 +20392,7 @@ def ch51b_yi_jian_wu():
 
     # 二、宰：加了壁，又住进一个人
     t2 = gy1 + 36
-    s.append(txt(24, t2, "二、宰：加了四壁，又搬进一个当差的", 5.4, SEAL))
+    s.append(txt(24, t2, "二、宰：加了四壁，又搬进一个当差的", 5.2, SEAL))
     gy2 = t2 + 104
     s.append(f'<line x1="24" y1="{gy2}" x2="356" y2="{gy2}" stroke="{INK}" stroke-width="1"/>')
     s.append(f'<path d="M56,{gy2-84} L156,{gy2-112} L256,{gy2-84}" fill="none" stroke="{INK}" stroke-width="1.4"/>')
@@ -20410,7 +20410,7 @@ def ch51b_yi_jian_wu():
     b = gy2 + 40
     s.append(txt(24, b, "「养大」和「让它长」的差别，不在动作，在手里有没有那一把。", 5.2, INK))
     s.append(txt(24, b + 16, "三个字，一个「不进屋」：亭给顶，毒给厚，宰不给位。", 5.2, INK))
-    s.append(txt(24, b + 32, "这一章不教人怎么施恩，教人怎么施恩之后，不进那间屋。", 5.4, GREEN))
+    s.append(txt(24, b + 32, "这一章不教人怎么施恩，教人怎么施恩之后，不进那间屋。", 5.2, GREEN))
 
     c = b + 50
     s.append(f'<line x1="24" y1="{c}" x2="338" y2="{c}" stroke="{LINE}" stroke-width="0.6"/>')
@@ -20444,7 +20444,7 @@ def ch51c_yi_ben_zhang():
 
     # 一、不有：账上不记这一笔
     t1 = y + 46
-    s.append(txt(24, t1, "一、生而不有：账上不记这一笔", 5.4, GREEN))
+    s.append(txt(24, t1, "一、生而不有：账上不记这一笔", 5.2, GREEN))
     cy1 = t1 + 54
     for part in ledger(94, cy1, False):
         s.append(part)
@@ -20454,22 +20454,22 @@ def ch51c_yi_ben_zhang():
 
     # 二、有：记上一笔，利息自来
     t2 = cy1 + 58
-    s.append(txt(24, t2, "二、一划界：记上「我养的」，两笔利息自己来", 5.4, SEAL))
+    s.append(txt(24, t2, "二、一划界：记上「我养的」，两笔利息自己来", 5.2, SEAL))
     cy2 = t2 + 62
     for part in ledger(94, cy2, True):
         s.append(part)
     s.append(arrow(142, cy2 - 8, 208, cy2 - 26, SEAL, 0.9, head="arrS"))
     s.append(arrow(142, cy2 + 8, 208, cy2 + 26, SEAL, 0.9, head="arrS"))
     s.append(txt(214, cy2 - 32, "恃：靠着它站直", 4.8, SEAL))
-    s.append(txt(214, cy2 - 20, "说话硬一点，眼神定一点", 4.4, "#6E6459"))
+    s.append(txt(214, cy2 - 20, "说话硬一点，眼神定一点", 4.5, "#6E6459"))
     s.append(txt(214, cy2 + 20, "宰：搬进它屋里", 4.8, SEAL))
-    s.append(txt(214, cy2 + 32, "养了，就顺手管起来", 4.4, "#6E6459"))
+    s.append(txt(214, cy2 + 32, "养了，就顺手管起来", 4.5, "#6E6459"))
     s.append(txt(30, cy2 + 44, "这是「好人」的病：坏事的人不恃，好事的人才恃", 4.6, "#6E6459"))
 
     b = cy2 + 70
     s.append(txt(24, b, "三个「不」是一条递进的线：不有不划界，不恃不靠它站直，不宰不搬进它屋里。", 5.0, INK))
     s.append(txt(24, b + 16, "玄德不是深：玄是两股丝绞在一起——一根看不出怎么绞的绳，才承得住重。", 5.0, INK))
-    s.append(txt(24, b + 32, "开关一合，后面两样就关不上；这个开关，就在「这是我的」四个字上。", 5.4, GREEN))
+    s.append(txt(24, b + 32, "开关一合，后面两样就关不上；这个开关，就在「这是我的」四个字上。", 5.2, GREEN))
 
     c = b + 50
     s.append(f'<line x1="24" y1="{c}" x2="338" y2="{c}" stroke="{LINE}" stroke-width="0.6"/>')
@@ -20493,7 +20493,7 @@ def ch52a_yi_ge_quan():
     s.append(txt(190, y + 26, "回来那半圈，每一步都要你自己迈。", 5.2, "#6E6459", "middle"))
 
     t1 = y + 46
-    s.append(txt(24, t1, "一个闭环：从母到子，是出去；从子到母，是回来", 5.4, SEAL))
+    s.append(txt(24, t1, "一个闭环：从母到子，是出去；从子到母，是回来", 5.2, SEAL))
 
     cy = t1 + 112
     # 上弧：出去（赭）
@@ -20514,7 +20514,7 @@ def ch52a_yi_ge_quan():
     s.append(txt(190, cy + 84, "回来：逆水（人做的）", 5.0, GREEN, "middle"))
 
     b = cy + 106
-    s.append(txt(24, b, "两个岔口：站在这半圈上，还是站在那半圈上", 5.4, INK))
+    s.append(txt(24, b, "两个岔口：站在这半圈上，还是站在那半圈上", 5.2, INK))
     s.append(box(20, b + 10, 164, 54, fill="#FBF6EC", stroke=GREEN))
     s.append(txt(102, b + 26, "塞其兑，闭其门", 5.2, GREEN, "middle"))
     s.append(txt(102, b + 40, "站在回来的半圈上", 5.2, "#6E6459", "middle"))
@@ -20552,7 +20552,7 @@ def ch52b_yi_zhang_lian():
 
     # 一、塞
     t1 = y + 46
-    s.append(txt(24, t1, "一、塞其兑：把口收一收", 5.4, GREEN))
+    s.append(txt(24, t1, "一、塞其兑：把口收一收", 5.2, GREEN))
     cy1 = t1 + 84
     s.append(f'<circle cx="104" cy="{cy1}" r="44" fill="#EFE6D4" stroke="{INK}" stroke-width="1"/>')
     for ex in (88, 120):
@@ -20562,12 +20562,12 @@ def ch52b_yi_zhang_lian():
     s.append(f'<line x1="91" y1="{cy1+22}" x2="117" y2="{cy1+22}" stroke="{SEAL}" stroke-width="1.1"/>')
     s.append(txt(104, cy1 + 56, "三孔皆塞", 4.8, SEAL, "middle"))
     s.append(arrow(30, cy1 - 12, 74, cy1 - 12, SEAL, 0.8, head="arrS"))
-    s.append(txt(30, cy1 + 2, "外头的东西", 4.4, "#6E6459"))
-    s.append(txt(30, cy1 + 12, "进不来", 4.4, "#6E6459"))
+    s.append(txt(30, cy1 + 2, "外头的东西", 4.5, "#6E6459"))
+    s.append(txt(30, cy1 + 12, "进不来", 4.5, "#6E6459"))
 
     # 二、开
     t2 = cy1 + 74
-    s.append(txt(24, t2, "二、开其兑，济其事：口一敞，事一件件往外长", 5.4, SEAL))
+    s.append(txt(24, t2, "二、开其兑，济其事：口一敞，事一件件往外长", 5.2, SEAL))
     cy2 = t2 + 84
     s.append(f'<circle cx="104" cy="{cy2}" r="44" fill="#EFE6D4" stroke="{INK}" stroke-width="1"/>')
     for ex in (88, 120):
@@ -20579,8 +20579,8 @@ def ch52b_yi_zhang_lian():
     for k, (bx, by) in enumerate([(10, cy2 - 34), (186, cy2 - 34), (96, cy2 + 66)]):
         for m in range(2):
             s.append(box(bx + m * 10, by, 9, 9, fill="#FBF6EC", stroke=SEAL, width=0.6))
-    s.append(txt(186, cy2 + 8, "事：一件未", 4.4, "#6E6459"))
-    s.append(txt(186, cy2 + 18, "完又起一件", 4.4, "#6E6459"))
+    s.append(txt(186, cy2 + 8, "事：一件未", 4.5, "#6E6459"))
+    s.append(txt(186, cy2 + 18, "完又起一件", 4.5, "#6E6459"))
     s.append(txt(104, cy2 + 86, "一辈子停不下来：「救」训「止」，不救是止不住", 4.6, SEAL, "middle"))
 
     b = cy2 + 108
@@ -20600,7 +20600,7 @@ def ch52b_yi_zhang_lian():
 
 # ============ 第五十二章 · 一盏灯 ============
 def ch52c_yi_zhan_deng():
-    W, H = 380, 656
+    W, H = 380, 686
     body, y = head(W, H, "用其光，复归其明：光出去照东西，明是那个照本身",
                    "第 五 十 二 章 · 灯", "一盏灯", "用其光，复归其明，无遗身殃，是为袭常。", H)
     s = [body]
@@ -20610,7 +20610,7 @@ def ch52c_yi_zhan_deng():
     s.append(txt(190, y + 26, "光是照东西的，明是那个照本身；光一直在外面，人就一直在外面。", 5.2, "#6E6459", "middle"))
 
     t1 = y + 46
-    s.append(txt(24, t1, "一、用其光：开灯，照见屋里的东西", 5.4, SEAL))
+    s.append(txt(24, t1, "一、用其光：开灯，照见屋里的东西", 5.2, SEAL))
     ry1 = t1 + 26
     s.append(box(56, ry1, 268, 118, fill="#FDFAF2", stroke=INK, width=1.0))
     s.append(f'<polygon points="86,{ry1+22} 62,{ry1+118} 318,{ry1+118} 236,{ry1+22}" fill="#F6E9B8" opacity="0.55" stroke="none"/>')
@@ -20625,7 +20625,7 @@ def ch52c_yi_zhan_deng():
 
     # 二、复归其明
     t2 = ry1 + 168
-    s.append(txt(24, t2, "二、复归其明：灯一关，屋子黑，灯还在", 5.4, GREEN))
+    s.append(txt(24, t2, "二、复归其明：灯一关，屋子黑，灯还在", 5.2, GREEN))
     ry2 = t2 + 26
     s.append(box(56, ry2, 268, 118, fill="#EFE8D8", stroke=INK, width=1.0))
     s.append(f'<path d="M74,{ry2+22} L100,{ry2+22} L96,{ry2+8} L78,{ry2+8} Z" fill="#EFE6D4" stroke="{INK}" stroke-width="0.9"/>')
@@ -20633,7 +20633,7 @@ def ch52c_yi_zhan_deng():
     s.append(f'<line x1="87" y1="{ry2+22}" x2="87" y2="{ry2+26}" stroke="{INK}" stroke-width="0.6"/>')
     s.append(box(150, ry2 + 92, 46, 14, fill="#E6DDC9", stroke=INK, width=0.7))
     s.append(box(206, ry2 + 86, 60, 20, fill="#E6DDC9", stroke=INK, width=0.7))
-    s.append(txt(151, ry2 + 60, "东西还在这儿，只是看不清了", 4.4, "#8A7E70"))
+    s.append(txt(151, ry2 + 60, "东西还在这儿，只是看不清了", 4.5, "#8A7E70"))
     s.append(txt(110, ry2 - 4, "灯还在：这就是「明」", 4.6, GREEN, "middle"))
 
     b = ry2 + 148
@@ -20664,7 +20664,7 @@ def ch53a_liang_tiao_lu():
 
     # 一、大道
     t1 = y + 46
-    s.append(txt(24, t1, "一、大道：平、宽，谁都能走，谁也不快", 5.4, GREEN))
+    s.append(txt(24, t1, "一、大道：平、宽，谁都能走，谁也不快", 5.2, GREEN))
     gy1 = t1 + 78
     s.append(box(24, gy1 - 46, 332, 46, fill="#FBF6EC", stroke=INK, width=0.9))
     for k in range(3):
@@ -20676,7 +20676,7 @@ def ch53a_liang_tiao_lu():
 
     # 二、小径
     t2 = gy1 + 30
-    s.append(txt(24, t2, "二、小径：放着大道不走，偏去挤那一条", 5.4, SEAL))
+    s.append(txt(24, t2, "二、小径：放着大道不走，偏去挤那一条", 5.2, SEAL))
     gy2 = t2 + 86
     s.append(box(24, gy2 - 46, 332, 46, fill="#FBF6EC", stroke=INK, width=0.9))
     for k in range(3):
@@ -20689,8 +20689,8 @@ def ch53a_liang_tiao_lu():
     s.append(txt(242, gy2 - 80, "径：只容一人过", 4.8, SEAL, "middle"))
     s.append(f'<line x1="242" y1="{gy2-76}" x2="242" y2="{gy2-36}" stroke="{SEAL}" stroke-width="0.35" stroke-dasharray="3 3" opacity="0.7"/>')
     s.append(txt(300, gy2 + 28, "快，是因为窄", 4.6, SEAL))
-    s.append(txt(300, gy2 + 38, "窄，是因为只打算", 4.4, "#6E6459"))
-    s.append(txt(300, gy2 + 47, "一个人过", 4.4, "#6E6459"))
+    s.append(txt(300, gy2 + 38, "窄，是因为只打算", 4.5, "#6E6459"))
+    s.append(txt(300, gy2 + 47, "一个人过", 4.5, "#6E6459"))
 
     b = gy2 + 62
     s.append(txt(24, b, "一条路宽不宽，看的不是石头，是走的人打算带几个一起走。", 5.2, INK))
@@ -20719,7 +20719,7 @@ def ch53b_yi_zuo_tai():
     s.append(txt(190, y + 26, "一个社会的力气是有数的：力气往台阶上使，田里就没有力气。", 5.2, "#6E6459", "middle"))
 
     t1 = y + 46
-    s.append(txt(24, t1, "同一年的两件事：台在修，田在荒", 5.4, SEAL))
+    s.append(txt(24, t1, "同一年的两件事：台在修，田在荒", 5.2, SEAL))
     gy = t1 + 108
 
     # 田（荒）
@@ -20729,7 +20729,7 @@ def ch53b_yi_zuo_tai():
         s.append(f'<line x1="{xx}" y1="{gy}" x2="{xx-3}" y2="{gy-hh}" stroke="{GREEN}" stroke-width="0.7"/>')
         s.append(f'<line x1="{xx}" y1="{gy}" x2="{xx+3}" y2="{gy-hh+4}" stroke="{GREEN}" stroke-width="0.7"/>')
     s.append(txt(74, gy + 14, "田甚芜", 5.0, GREEN, "middle"))
-    s.append(txt(74, gy + 24, "秽也：长满荒草", 4.4, "#6E6459", "middle"))
+    s.append(txt(74, gy + 24, "秽也：长满荒草", 4.5, "#6E6459", "middle"))
 
     # 台阶（三级）
     for k in range(3):
@@ -20752,7 +20752,7 @@ def ch53b_yi_zuo_tai():
     # 力气：往台阶使
     s.append(arrow(122, gy - 30, 168, gy - 44, SEAL, 1.0, head="arrS"))
     s.append(txt(126, gy - 46, "力气", 4.6, SEAL))
-    s.append(txt(126, gy - 36, "往这儿使", 4.4, "#6E6459"))
+    s.append(txt(126, gy - 36, "往这儿使", 4.5, "#6E6459"))
 
     b = gy + 44
     s.append(txt(24, b, "三句是一个动作的三处痕迹：台阶往上修，田往下荒，仓往空走。", 5.2, INK))
@@ -20782,7 +20782,7 @@ def ch53c_yi_zhi_bei():
 
     # 一、留出来的空
     t1 = y + 46
-    s.append(txt(24, t1, "一、留出来的空：壁在里面，空能装", 5.4, GREEN))
+    s.append(txt(24, t1, "一、留出来的空：壁在里面，空能装", 5.2, GREEN))
     gy1 = t1 + 104
     s.append(box(96, gy1 - 88, 188, 88, fill="#EFE6D4", stroke=INK, width=1.0))
     s.append(box(110, gy1 - 74, 160, 66, fill="#FDFAF2", stroke="none", width=0))
@@ -20794,7 +20794,7 @@ def ch53c_yi_zhi_bei():
 
     # 二、抽走的空
     t2 = gy1 + 40
-    s.append(txt(24, t2, "二、抽走的空：壁被掏薄（虚线是原来的腔），底穿了洞", 5.4, SEAL))
+    s.append(txt(24, t2, "二、抽走的空：壁被掏薄（虚线是原来的腔），底穿了洞", 5.2, SEAL))
     gy2 = t2 + 100
     s.append(box(96, gy2 - 88, 188, 88, fill="#FBF6EC", stroke=INK, width=1.0))
     s.append(box(110, gy2 - 74, 160, 74, fill="none", stroke=SEAL, dash="4 3", width=0.5, ))
@@ -20804,16 +20804,16 @@ def ch53c_yi_zhi_bei():
     s.append(f'<line x1="180" y1="{gy2+2}" x2="200" y2="{gy2+2}" stroke="{SEAL}" stroke-width="0.5" stroke-dasharray="3 3"/>')
     s.append(arrow(190, gy2 + 8, 190, gy2 + 34, SEAL, 0.9, head="arrS"))
     s.append(txt(190, gy2 - 22, "被抽干", 4.6, SEAL, "middle"))
-    s.append(txt(190, gy2 - 36, "看不见的那面：田与仓", 4.4, "#6E6459", "middle"))
-    s.append(txt(300, gy2 - 66, "看得见", 4.4, "#6E6459"))
-    s.append(txt(300, gy2 - 56, "的那面：锦衣", 4.4, "#6E6459"))
-    s.append(txt(300, gy2 - 46, "利剑财货", 4.4, "#6E6459"))
+    s.append(txt(190, gy2 - 36, "看不见的那面：田与仓", 4.5, "#6E6459", "middle"))
+    s.append(txt(300, gy2 - 66, "看得见", 4.5, "#6E6459"))
+    s.append(txt(300, gy2 - 56, "的那面：锦衣", 4.5, "#6E6459"))
+    s.append(txt(300, gy2 - 46, "利剑财货", 4.5, "#6E6459"))
     s.append(txt(190, gy2 + 46, "底一穿，就只剩响了", 4.6, SEAL, "middle"))
 
     b = gy2 + 66
     s.append(txt(24, b, "四样全在明处，两样全在暗处；明处越亮，暗处越黑。", 5.2, INK))
     s.append(txt(24, b + 16, "同样是空，一种是留出来的，一种是被抽走的：留出来的能装，抽走的那只剩响。", 5.2, INK))
-    s.append(txt(24, b + 32, "一个是杯，一个是坑。", 5.4, GREEN))
+    s.append(txt(24, b + 32, "一个是杯，一个是坑。", 5.2, GREEN))
 
     c = b + 50
     s.append(f'<line x1="24" y1="{c}" x2="338" y2="{c}" stroke="{LINE}" stroke-width="0.6"/>')
@@ -20838,7 +20838,7 @@ def ch54a_yi_tiao_xian():
 
     # 一、楼：有位置，所以拔得走
     t1 = y + 46
-    s.append(txt(24, t1, "一、楼：立在一个地方，所以抽得走", 5.4, SEAL))
+    s.append(txt(24, t1, "一、楼：立在一个地方，所以抽得走", 5.2, SEAL))
     gy1 = t1 + 126
     s.append(f'<line x1="24" y1="{gy1}" x2="180" y2="{gy1}" stroke="{INK}" stroke-width="1"/>')
     s.append(box(84, gy1 - 60, 48, 20, fill="#EFE6D4", stroke=INK, width=0.9))
@@ -20851,15 +20851,15 @@ def ch54a_yi_tiao_xian():
 
     # 二、律：没有端点，抓不住
     t2 = gy1 + 34
-    s.append(txt(24, t2, "二、律：立在人心里，没有端点可抓", 5.4, GREEN))
+    s.append(txt(24, t2, "二、律：立在人心里，没有端点可抓", 5.2, GREEN))
     cy2 = t2 + 100
     s.append(box(96, cy2 - 84, 188, 76, fill="#FBF6EC", stroke=INK, width=0.8))
     s.append(f'<line x1="190" y1="{cy2-88}" x2="190" y2="{cy2-2}" stroke="{INK}" stroke-width="1.6"/>')
-    s.append(txt(190, cy2 - 90, "上不见头", 4.4, "#6E6459", "middle"))
-    s.append(txt(190, cy2 + 10, "下不见底", 4.4, "#6E6459", "middle"))
+    s.append(txt(190, cy2 - 90, "上不见头", 4.5, "#6E6459", "middle"))
+    s.append(txt(190, cy2 + 10, "下不见底", 4.5, "#6E6459", "middle"))
     s.append(arrow(120, cy2 - 26, 156, cy2 - 26, SEAL, 0.9, head="arrS"))
     s.append(txt(112, cy2 - 40, "同样去抽", 4.6, SEAL, "middle"))
-    s.append(txt(112, cy2 - 30, "抓了个空", 4.4, "#6E6459", "middle"))
+    s.append(txt(112, cy2 - 30, "抓了个空", 4.5, "#6E6459", "middle"))
 
     b = cy2 + 30
     s.append(txt(24, b, "一座楼可以拔，一堵墙可以拆，一个人可以调走；一条立对了的律，抽不走。", 5.2, INK))
@@ -20889,7 +20889,7 @@ def ch54b_yi_fu_yi_jin():
 
     # 一、端在手上
     t1 = y + 46
-    s.append(txt(24, t1, "一、端在手上：手会累，会松", 5.4, SEAL))
+    s.append(txt(24, t1, "一、端在手上：手会累，会松", 5.2, SEAL))
     gy1 = t1 + 92
     s.append(box(36, gy1 - 62, 84, 13, fill="#EFE6D4", stroke=INK, width=0.9))
     s.append(f'<ellipse cx="126" cy="{gy1-56}" rx="10" ry="8" fill="#EFE6D4" stroke="{INK}" stroke-width="0.9"/>')
@@ -20903,14 +20903,14 @@ def ch54b_yi_fu_yi_jin():
 
     # 二、放进怀里
     t2 = gy1 + 8
-    s.append(txt(24, t2, "二、放进怀里：衣裳压着，不用手", 5.4, GREEN))
+    s.append(txt(24, t2, "二、放进怀里：衣裳压着，不用手", 5.2, GREEN))
     gy2 = t2 + 112
     s.append(f'<path d="M74,{gy2-96} C64,{gy2-30} 100,{gy2-4} 160,{gy2-4} C220,{gy2-4} 256,{gy2-30} 246,{gy2-96}" fill="#EFE6D4" stroke="{INK}" stroke-width="1.1"/>')
     s.append(f'<path d="M74,{gy2-96} C110,{gy2-40} 210,{gy2-40} 246,{gy2-96}" fill="none" stroke="{INK}" stroke-width="0.6" stroke-dasharray="5 4"/>')
     s.append(f'<circle cx="160" cy="{gy2-26}" r="12" fill="#FBF6EC" stroke="{GREEN}" stroke-width="1.1"/>')
     s.append(txt(160, gy2 + 18, "怀：靠的是衣裳的重量", 4.6, GREEN, "middle"))
     s.append(f'<line x1="266" y1="{gy2-60}" x2="296" y2="{gy2-60}" stroke="{GREEN}" stroke-width="0.4" stroke-dasharray="3 3"/>')
-    s.append(txt(300, gy2 - 58, "不用手", 4.4, GREEN))
+    s.append(txt(300, gy2 - 58, "不用手", 4.5, GREEN))
 
     b = gy2 + 30
     s.append(txt(24, b, "「脱」是从怀里滑出去——说的不是「不离」，是「放对了地方」。", 5.2, INK))
@@ -20939,7 +20939,7 @@ def ch54c_yi_quan_lian_yi():
     s.append(txt(190, y + 26, "「普」，《说文》「日无色也」——太阳没有颜色的时候，才是匀的。", 5.2, "#6E6459", "middle"))
 
     t1 = y + 46
-    s.append(txt(24, t1, "一滴落下去，一圈一圈往外渗", 5.4, SEAL))
+    s.append(txt(24, t1, "一滴落下去，一圈一圈往外渗", 5.2, SEAL))
 
     cx, cy = 190, t1 + 152
     rings = [(120, "#D8CBB2", 0.6, "普", "天下"),
@@ -20957,7 +20957,7 @@ def ch54c_yi_quan_lian_yi():
     b = cy + 136
     s.append(txt(24, b, "「修之于天下」不是「把天下修好」：不是你去修它，是它被渗到。", 5.2, INK))
     s.append(txt(24, b + 16, "你去改一个家，那个家就被你压住；你身上有余，那个家就自己松一点。", 5.2, INK))
-    s.append(txt(24, b + 32, "从身上长出来的，会渗过去；从外面压过去的，会被顶回来。", 5.4, GREEN))
+    s.append(txt(24, b + 32, "从身上长出来的，会渗过去；从外面压过去的，会被顶回来。", 5.2, GREEN))
 
     c = b + 50
     s.append(f'<line x1="24" y1="{c}" x2="338" y2="{c}" stroke="{LINE}" stroke-width="0.6"/>')
@@ -20971,7 +20971,7 @@ def ch54c_yi_quan_lian_yi():
 
 # ============ 第五十五章 · 一张嘴 ============
 def ch55a_yi_zhang_zui():
-    W, H = 380, 620
+    W, H = 380, 652
     body, y = head(W, H, "含德之厚：含是衔在口里，不咽也不吐",
                    "第 五 十 五 章 · 含", "一张嘴", "含德之厚，比于赤子。", H)
     s = [body]
@@ -20982,7 +20982,7 @@ def ch55a_yi_zhang_zui():
 
     # 一、含
     t1 = y + 46
-    s.append(txt(24, t1, "一、含着：在嘴边上，没咽下去，也没吐掉", 5.4, GREEN))
+    s.append(txt(24, t1, "一、含着：在嘴边上，没咽下去，也没吐掉", 5.2, GREEN))
     cy1 = t1 + 92
     s.append(f'<ellipse cx="150" cy="{cy1-16}" rx="34" ry="12" fill="none" stroke="{INK}" stroke-width="1.1"/>')
     s.append(f'<ellipse cx="150" cy="{cy1+16}" rx="34" ry="12" fill="none" stroke="{INK}" stroke-width="1.1"/>')
@@ -20993,25 +20993,25 @@ def ch55a_yi_zhang_zui():
     s.append(arrow(196, cy1, 246, cy1, SEAL, 0.8, head="arrS"))
     s.append(f'<line x1="236" y1="{cy1-10}" x2="236" y2="{cy1+10}" stroke="{SEAL}" stroke-width="1.1"/>')
     s.append(txt(248, cy1 - 6, "吐：吐出来", 4.6, SEAL))
-    s.append(txt(248, cy1 + 6, "就散了", 4.4, "#6E6459"))
+    s.append(txt(248, cy1 + 6, "就散了", 4.5, "#6E6459"))
     s.append(txt(60, cy1 - 34, "含：不咽不吐", 5.0, GREEN))
 
     # 二、吐
     t2 = cy1 + 92
-    s.append(txt(24, t2, "二、吐出来：那是第五十三章的「夸」", 5.4, SEAL))
+    s.append(txt(24, t2, "二、吐出来：那是第五十三章的「夸」", 5.2, SEAL))
     cy2 = t2 + 76
     s.append(f'<ellipse cx="96" cy="{cy2-30}" rx="30" ry="10" fill="none" stroke="{INK}" stroke-width="1.1"/>')
     s.append(f'<ellipse cx="96" cy="{cy2+30}" rx="30" ry="10" fill="none" stroke="{INK}" stroke-width="1.1"/>')
     s.append(arrow(130, cy2, 186, cy2, SEAL, 1.0, head="arrS"))
     s.append(f'<circle cx="204" cy="{cy2}" r="12" fill="#EFE6D4" stroke="{SEAL}" stroke-width="1"/>')
     s.append(txt(236, cy2 - 6, "摆出来", 4.8, SEAL))
-    s.append(txt(236, cy2 + 6, "给人看", 4.4, "#6E6459"))
+    s.append(txt(236, cy2 + 6, "给人看", 4.5, "#6E6459"))
     s.append(txt(96, cy2 + 52, "张口给人看：吐一次，就少一点", 4.6, "#6E6459", "middle"))
 
     b = cy2 + 72
     s.append(txt(24, b, "第四十四章说「多藏必厚亡」；本章说「含」——藏是往里放，含是含在嘴边。", 5.2, INK))
     s.append(txt(24, b + 16, "藏起来的东西会忘，含在嘴里的忘不掉：它离得很近，一直在。", 5.2, INK))
-    s.append(txt(24, b + 32, "含着的人，安稳；一松开，就哭。", 5.4, GREEN))
+    s.append(txt(24, b + 32, "含着的人，安稳；一松开，就哭。", 5.2, GREEN))
 
     c = b + 50
     s.append(f'<line x1="24" y1="{c}" x2="338" y2="{c}" stroke="{LINE}" stroke-width="0.6"/>')
@@ -21043,34 +21043,34 @@ def ch55b_yi_zhi_quan():
 
     # 一、婴儿的拳：往里收
     t1 = y + 46
-    s.append(txt(24, t1, "一、婴儿的拳：拇指扣在里面，把自己握住", 5.4, GREEN))
+    s.append(txt(24, t1, "一、婴儿的拳：拇指扣在里面，把自己握住", 5.2, GREEN))
     cy1 = t1 + 96
     for part in fist(126, cy1):
         s.append(part)
     s.append(arrow(214, cy1 + 6, 178, cy1 + 6, GREEN, 1.0, head="arrL"))
     s.append(txt(216, cy1 + 22, "收：往里", 4.8, GREEN))
-    s.append(txt(126, cy1 + 50, "不抓外面的东西，就是收着", 4.4, "#6E6459", "middle"))
+    s.append(txt(126, cy1 + 50, "不抓外面的东西，就是收着", 4.5, "#6E6459", "middle"))
     s.append(txt(268, cy1 - 24, "外面软", 4.8, GREEN))
-    s.append(txt(268, cy1 - 12, "（骨弱筋柔）", 4.4, "#6E6459"))
+    s.append(txt(268, cy1 - 12, "（骨弱筋柔）", 4.5, "#6E6459"))
     s.append(txt(268, cy1 + 14, "里面紧", 4.8, GREEN))
-    s.append(txt(268, cy1 + 26, "（握固）", 4.4, "#6E6459"))
+    s.append(txt(268, cy1 + 26, "（握固）", 4.5, "#6E6459"))
 
     # 二、成人的手：往外抓
     t2 = cy1 + 82
-    s.append(txt(24, t2, "二、成人的拳：同一只手，方向朝外", 5.4, SEAL))
+    s.append(txt(24, t2, "二、成人的拳：同一只手，方向朝外", 5.2, SEAL))
     cy2 = t2 + 84
     for part in fist(126, cy2):
         s.append(part)
     s.append(arrow(172, cy2 + 6, 210, cy2 + 6, SEAL, 1.0, head="arrS"))
     s.append(box(216, cy2 - 10, 42, 34, fill="#FBF6EC", stroke=SEAL, width=0.8))
     s.append(txt(237, cy2 + 8, "物", 4.8, SEAL, "middle"))
-    s.append(txt(126, cy2 + 50, "抓：往外；一放下就没了", 4.4, SEAL, "middle"))
-    s.append(txt(237, cy2 + 44, "攥拳是为了抓", 4.4, "#6E6459", "middle"))
+    s.append(txt(126, cy2 + 50, "抓：往外；一放下就没了", 4.5, SEAL, "middle"))
+    s.append(txt(237, cy2 + 44, "攥拳是为了抓", 4.5, "#6E6459", "middle"))
 
     b = cy2 + 72
     s.append(txt(24, b, "同一只手，两个方向：一只往里收，一只往外抓。", 5.2, INK))
     s.append(txt(24, b + 16, "第五十二章讲「塞其兑，闭其门」，讲的就是这个「收」；只不过一个是功夫，一个是天生。", 5.0, INK))
-    s.append(txt(24, b + 32, "收的那只，不用力就一直在；抓的那只，一放下就没了。", 5.4, GREEN))
+    s.append(txt(24, b + 32, "收的那只，不用力就一直在；抓的那只，一放下就没了。", 5.2, GREEN))
 
     c = b + 50
     s.append(f'<line x1="24" y1="{c}" x2="338" y2="{c}" stroke="{LINE}" stroke-width="0.6"/>')
@@ -21095,7 +21095,7 @@ def ch55c_yi_gen_guan():
 
     # 一、不憋
     t1 = y + 46
-    s.append(txt(24, t1, "一、不憋：两头通着，出尽了就进", 5.4, GREEN))
+    s.append(txt(24, t1, "一、不憋：两头通着，出尽了就进", 5.2, GREEN))
     gy1 = t1 + 92
     s.append(box(48, gy1 - 56, 284, 40, fill="#FBF6EC", stroke=INK, width=1.0))
     s.append(f'<line x1="48" y1="{gy1-36}" x2="332" y2="{gy1-36}" stroke="{LINE2}" stroke-width="0.4" stroke-dasharray="4 4"/>')
@@ -21107,7 +21107,7 @@ def ch55c_yi_gen_guan():
 
     # 二、憋
     t2 = gy1 + 46
-    s.append(txt(24, t2, "二、憋着：中间装一道闸，管就鼓起来", 5.4, SEAL))
+    s.append(txt(24, t2, "二、憋着：中间装一道闸，管就鼓起来", 5.2, SEAL))
     gy2 = t2 + 92
     s.append(box(48, gy2 - 56, 284, 40, fill="#FBEEE8", stroke=INK, width=1.0))
     s.append(f'<path d="M48,{gy2-56} C110,{gy2-86} 270,{gy2-86} 332,{gy2-56}" fill="none" stroke="{SEAL}" stroke-width="0.9"/>')
@@ -21153,18 +21153,18 @@ def ch56a_yi_gen_mang():
 
     # 一、没磨过
     t1 = y + 46
-    s.append(txt(24, t1, "一、没磨过：尖还在，一碰就扎", 5.4, SEAL))
+    s.append(txt(24, t1, "一、没磨过：尖还在，一碰就扎", 5.2, SEAL))
     gy1 = t1 + 120
     s += leaf(gy1)
     s.append(f'<line x1="84" y1="{gy1-50}" x2="112" y2="{gy1-68}" stroke="{SEAL}" stroke-width="1.3"/>')
     s.append(f'<circle cx="122" cy="{gy1-72}" r="5.5" fill="#EFE6D4" stroke="{INK}" stroke-width="0.9"/>')
     s.append(f'<line x1="126" y1="{gy1-74}" x2="162" y2="{gy1-62}" stroke="{INK}" stroke-width="1.6"/>')
     s.append(txt(128, gy1 - 82, "一碰就扎", 4.8, SEAL))
-    s.append(txt(44, gy1 + 12, "芒：草尖上那一根细刺", 4.4, "#6E6459"))
+    s.append(txt(44, gy1 + 12, "芒：草尖上那一根细刺", 4.5, "#6E6459"))
 
     # 二、磨过
     t2 = gy1 + 28
-    s.append(txt(24, t2, "二、磨过：尖磨平了，才不扎", 5.4, GREEN))
+    s.append(txt(24, t2, "二、磨过：尖磨平了，才不扎", 5.2, GREEN))
     gy2 = t2 + 120
     s += leaf(gy2)
     s.append(f'<line x1="84" y1="{gy2-50}" x2="106" y2="{gy2-64}" stroke="{SEAL}" stroke-width="1.3"/>')
@@ -21173,7 +21173,7 @@ def ch56a_yi_gen_mang():
     s.append(f'<circle cx="124" cy="{gy2-74}" r="5.5" fill="#EFE6D4" stroke="{INK}" stroke-width="0.9"/>')
     s.append(arrow(130, gy2 - 80, 168, gy2 - 90, GREEN, 0.7, head="arr2"))
     s.append(txt(140, gy2 - 96, "滑过去", 4.8, GREEN))
-    s.append(txt(40, gy2 + 12, "虚线：原来那根尖", 4.4, "#6E6459"))
+    s.append(txt(40, gy2 + 12, "虚线：原来那根尖", 4.5, "#6E6459"))
 
     b = gy2 + 40
     s.append(txt(24, b, "「挫」是磨，不是砍——砍是断，磨是平；断了的还会再长，磨平了才不扎。", 5.2, INK))
@@ -21212,7 +21212,7 @@ def ch56b_yi_ge_tao():
 
     # 一、缠着
     t1 = y + 46
-    s.append(txt(24, t1, "一、缠着：为了不乱，先缠上一个套", 5.4, SEAL))
+    s.append(txt(24, t1, "一、缠着：为了不乱，先缠上一个套", 5.2, SEAL))
     cy1 = t1 + 84
     for part in strands(150, cy1, 3.2):
         s.append(part)
@@ -21220,12 +21220,12 @@ def ch56b_yi_ge_tao():
     s.append(f'<line x1="120" y1="{cy1-9}" x2="118" y2="{cy1-14}" stroke="{SEAL}" stroke-width="0.8"/>')
     s.append(f'<line x1="180" y1="{cy1-9}" x2="182" y2="{cy1-14}" stroke="{SEAL}" stroke-width="0.8"/>')
     s.append(txt(206, cy1 - 6, "套：缠住了，尾巴不敢甩", 4.8, SEAL))
-    s.append(txt(206, cy1 + 6, "缠久了，它就长在尾巴上", 4.4, "#6E6459"))
+    s.append(txt(206, cy1 + 6, "缠久了，它就长在尾巴上", 4.5, "#6E6459"))
     s.append(txt(150, cy1 + 70, "一套规矩、一句座右铭、一个「我一向如此」", 4.6, "#6E6459", "middle"))
 
     # 二、解开
     t2 = cy1 + 92
-    s.append(txt(24, t2, "二、解开：放开那个缠，让它自己顺", 5.4, GREEN))
+    s.append(txt(24, t2, "二、解开：放开那个缠，让它自己顺", 5.2, GREEN))
     cy2 = t2 + 84
     for part in strands(150, cy2, 24):
         s.append(part)
@@ -21233,7 +21233,7 @@ def ch56b_yi_ge_tao():
     s.append(f'<path d="M208,{cy2-2} C204,{cy2-12} 194,{cy2-14} 188,{cy2-6}" fill="none" stroke="{GREEN}" stroke-width="1"/>')
     s.append(txt(94, cy2 - 44, "套松脱了", 4.8, GREEN, "end"))
     s.append(txt(206, cy2 + 18, "尾巴会甩一阵", 4.8, GREEN))
-    s.append(txt(206, cy2 + 30, "甩过之后，它自己会顺", 4.4, "#6E6459"))
+    s.append(txt(206, cy2 + 30, "甩过之后，它自己会顺", 4.5, "#6E6459"))
     s.append(txt(150, cy2 + 70, "解：不是理顺，是松绑", 4.8, GREEN, "middle"))
 
     b = cy2 + 92
@@ -21263,7 +21263,7 @@ def ch56c_liu_ba_chi():
     s.append(txt(190, y + 26, "「不可得而」四个字，说的是：拿不到——那六把尺，在他身上找不到落脚的地方。", 5.2, "#6E6459", "middle"))
 
     t1 = y + 46
-    s.append(txt(24, t1, "六把尺朝中间伸，中间那个位置空了", 5.4, SEAL))
+    s.append(txt(24, t1, "六把尺朝中间伸，中间那个位置空了", 5.2, SEAL))
 
     cx, cy, r0, r1 = 190, t1 + 150, 30, 78
     s.append(f'<circle cx="{cx}" cy="{cy}" r="{r0}" fill="none" stroke="{SEAL}" stroke-width="0.8" stroke-dasharray="4 3"/>')
@@ -21279,7 +21279,7 @@ def ch56c_liu_ba_chi():
         s.append(f'<line x1="{x1:.1f}" y1="{y1:.1f}" x2="{x2:.1f}" y2="{y2:.1f}" stroke="{INK}" stroke-width="2.6"/>')
         s.append(f'<line x1="{x1:.1f}" y1="{y1:.1f}" x2="{x2:.1f}" y2="{y2:.1f}" stroke="{LINE2}" stroke-width="0.4" stroke-dasharray="2 3"/>')
         lx, ly = cx + ax * (r1 + 16), cy + ay * (r1 + 16)
-        s.append(txt(round(lx, 1), round(ly + 3, 1), labels[k], 5.4, INK, "middle"))
+        s.append(txt(round(lx, 1), round(ly + 3, 1), labels[k], 5.2, INK, "middle"))
     s.append(txt(cx, cy + 112, "尺都悬在外面：落不下来", 4.8, GREEN, "middle"))
 
     b = cy + 128
@@ -21299,7 +21299,7 @@ def ch56c_liu_ba_chi():
 
 # ============ 第五十七章 · 一只脚 ============
 def ch57a_yi_zhi_jiao():
-    W, H = 380, 604
+    W, H = 380, 634
     body, y = head(W, H, "以正治国：正从止，是一只脚停在它该在的地方",
                    "第 五 十 七 章 · 正", "一只脚", "以正治国，以奇用兵，以无事取天下。", H)
     s = [body]
@@ -21321,7 +21321,7 @@ def ch57a_yi_zhi_jiao():
 
     # 一、脚乱换地方
     t1 = y + 46
-    s.append(txt(24, t1, "一、脚乱换地方：换个地方，就换一套说法", 5.4, SEAL))
+    s.append(txt(24, t1, "一、脚乱换地方：换个地方，就换一套说法", 5.2, SEAL))
     gy1 = t1 + 116
     s.append(f'<line x1="24" y1="{gy1}" x2="246" y2="{gy1}" stroke="{INK}" stroke-width="1"/>')
     for cx in (66, 124, 182):
@@ -21333,12 +21333,12 @@ def ch57a_yi_zhi_jiao():
 
     # 二、脚站定
     t2 = gy1 + 40
-    s.append(txt(24, t2, "二、脚站定：同一个地方，明年还是它", 5.4, GREEN))
+    s.append(txt(24, t2, "二、脚站定：同一个地方，明年还是它", 5.2, GREEN))
     gy2 = t2 + 116
     s.append(f'<line x1="24" y1="{gy2}" x2="246" y2="{gy2}" stroke="{INK}" stroke-width="1"/>')
     s += foot(112, gy2 - 20, GREEN, fill="#EFE6D4")
     s.append(txt(150, gy2 - 26, "同一只脚，同一个地方", 4.8, GREEN))
-    s.append(txt(150, gy2 - 14, "一笔不动，百姓才敢照着过日子", 4.4, "#6E6459"))
+    s.append(txt(150, gy2 - 14, "一笔不动，百姓才敢照着过日子", 4.5, "#6E6459"))
     # 年轴：四个年份都落在这一处（先有年头，脚才落得下）
     ty = gy2 - 62
     s.append(f'<line x1="52" y1="{ty}" x2="212" y2="{ty}" stroke="{LINE}" stroke-width="0.9"/>')
@@ -21394,7 +21394,7 @@ def ch57b_yi_shuang_shou_tao():
 
     # 一、出手：取一只
     t1 = y + 46
-    s.append(txt(24, t1, "一、出手：取一只，用一下", 5.4, SEAL))
+    s.append(txt(24, t1, "一、出手：取一只，用一下", 5.2, SEAL))
     cy1 = t1 + 84
     s.append(box(40, cy1 + 6, 62, 36, fill="#EFE6D4", stroke=INK, width=0.8))
     s += glove(58, cy1 + 24, LINE, fill="#FBF6EC")
@@ -21403,12 +21403,12 @@ def ch57b_yi_shuang_shou_tao():
     s += glove(150, cy1 - 8, SEAL, fill="#FBF6EC")
     s.append(arrow(96, cy1 + 4, 138, cy1 - 12, SEAL, 0.7, head="arrS"))
     s.append(txt(170, cy1 - 20, "取出去：只戴一只", 4.8, SEAL))
-    s.append(txt(170, cy1 - 8, "打完了，手要还回来", 4.4, "#6E6459"))
+    s.append(txt(170, cy1 - 8, "打完了，手要还回来", 4.5, "#6E6459"))
     s.append(txt(190, cy1 + 50, "兵是迫不得已的那一手", 4.6, "#6E6459", "middle"))
 
     # 二、成常：两只都取走
     t2 = cy1 + 76
-    s.append(txt(24, t2, "二、成常：两只都取走，盒子就空了", 5.4, GREEN))
+    s.append(txt(24, t2, "二、成常：两只都取走，盒子就空了", 5.2, GREEN))
     cy2 = t2 + 78
     s.append(box(40, cy2 + 6, 62, 36, fill="#F2EADA", stroke=INK, width=0.8))
     s += glove(58, cy2 + 24, LINE, dash="4 3")
@@ -21430,7 +21430,7 @@ def ch57b_yi_shuang_shou_tao():
     s.append(f'<line x1="24" y1="{c}" x2="338" y2="{c}" stroke="{LINE}" stroke-width="0.6"/>')
     s.append(box(20, c + 8, 340, 40, fill="#F2EADA", stroke="#C9B79A"))
     s.append(txt(190, c + 24, "奇是落单的一手；会用，但不能落单成习惯。", 6.0, INK, "middle"))
-    s.append(txt(190, c + 36, "无事是宗旨，正是常轨，奇只是兜底。", 5.4, GREEN, "middle"))
+    s.append(txt(190, c + 36, "无事是宗旨，正是常轨，奇只是兜底。", 5.2, GREEN, "middle"))
     s.append(gold(c + 62, "ch57b"))
     s.append('</svg>')
     return "\n".join(s)
@@ -21474,19 +21474,19 @@ def ch57c_yi_kuai_hua_pai():
 
     # 一、素牌
     t1 = y + 46
-    s.append(txt(24, t1, "一、素牌：一条刻线，脚踩得着", 5.4, GREEN))
+    s.append(txt(24, t1, "一、素牌：一条刻线，脚踩得着", 5.2, GREEN))
     gy1 = t1 + 106
     s.append(f'<line x1="24" y1="{gy1}" x2="250" y2="{gy1}" stroke="{INK}" stroke-width="1"/>')
     s += board(78, gy1)
     s.append(f'<line x1="78" y1="{gy1-68}" x2="78" y2="{gy1-22}" stroke="{INK}" stroke-width="1.6"/>')
     s += foot(178, gy1 - 15, GREEN, "#EFE6D4")
     s.append(txt(196, gy1 - 44, "一条线：", 4.8, GREEN))
-    s.append(txt(196, gy1 - 32, "踩得着，看得懂", 4.4, "#6E6459"))
-    s.append(txt(100, gy1 + 14, "禁什么、许什么，一站就知道", 4.4, "#6E6459", "middle"))
+    s.append(txt(196, gy1 - 32, "踩得着，看得懂", 4.5, "#6E6459"))
+    s.append(txt(100, gy1 + 14, "禁什么、许什么，一站就知道", 4.5, "#6E6459", "middle"))
 
     # 二、花牌
     t2 = gy1 + 40
-    s.append(txt(24, t2, "二、花牌：条文越画越花，人只剩绕", 5.4, SEAL))
+    s.append(txt(24, t2, "二、花牌：条文越画越花，人只剩绕", 5.2, SEAL))
     gy2 = t2 + 106
     s += board(78, gy2)
     for r in range(4):
@@ -21500,8 +21500,8 @@ def ch57c_yi_kuai_hua_pai():
     s += foot(178, gy2 - 34, INK, "#F8F3E6")
     s.append(f'<line x1="178" y1="{gy2-18}" x2="178" y2="{gy2-6}" stroke="{SEAL}" stroke-width="0.5" stroke-dasharray="2 2"/>')
     s.append(txt(200, gy2 - 52, "线多了：", 4.8, SEAL))
-    s.append(txt(200, gy2 - 40, "一条都不敢踩", 4.4, "#6E6459"))
-    s.append(txt(100, gy2 + 14, "绕着走：绕到最后，就是铤而走险", 4.4, SEAL, "middle"))
+    s.append(txt(200, gy2 - 40, "一条都不敢踩", 4.5, "#6E6459"))
+    s.append(txt(100, gy2 + 14, "绕着走：绕到最后，就是铤而走险", 4.5, SEAL, "middle"))
 
     b = gy2 + 40
     s.append(txt(24, b, "「彰」从彡：三撇毛，是画上去的花。", 5.2, INK))
@@ -21512,7 +21512,7 @@ def ch57c_yi_kuai_hua_pai():
     s.append(f'<line x1="24" y1="{c}" x2="338" y2="{c}" stroke="{LINE}" stroke-width="0.6"/>')
     s.append(box(20, c + 8, 340, 40, fill="#F2EADA", stroke="#C9B79A"))
     s.append(txt(190, c + 24, "彰是画上去的花；", 6.0, INK, "middle"))
-    s.append(txt(190, c + 36, "条文画得越花，能踩的线就越多。", 5.4, GREEN, "middle"))
+    s.append(txt(190, c + 36, "条文画得越花，能踩的线就越多。", 5.2, GREEN, "middle"))
     s.append(gold(c + 62, "ch57c"))
     s.append('</svg>')
     return "\n".join(s)
@@ -21539,7 +21539,7 @@ def ch58a_yi_shan_men():
 
     # 一、门关着
     t1 = y + 46
-    s.append(txt(24, t1, "一、门关着：心在门里，酒没兑水", 5.4, GREEN))
+    s.append(txt(24, t1, "一、门关着：心在门里，酒没兑水", 5.2, GREEN))
     gy1 = t1 + 108
     s.append(f'<line x1="24" y1="{gy1}" x2="240" y2="{gy1}" stroke="{INK}" stroke-width="1"/>')
     s.append(box(56, gy1 - 92, 60, 92, fill="#EFE6D4", stroke=INK, width=1.2))
@@ -21551,11 +21551,11 @@ def ch58a_yi_shan_men():
     s += jar(150, gy1, None)
     s.append(txt(150, gy1 + 14, "淳：酒没兑水", 4.6, GREEN, "middle"))
     s.append(txt(176, gy1 - 66, "心关在门里", 4.8, GREEN))
-    s.append(txt(176, gy1 - 54, "懂了不往外放", 4.4, "#6E6459"))
+    s.append(txt(176, gy1 - 54, "懂了不往外放", 4.5, "#6E6459"))
 
     # 二、屋顶盖下来，一遍遍翻
     t2 = gy1 + 36
-    s.append(txt(24, t2, "二、盖过来审：翻一遍，割一道", 5.4, SEAL))
+    s.append(txt(24, t2, "二、盖过来审：翻一遍，割一道", 5.2, SEAL))
     gy2 = t2 + 134
     s.append(f'<line x1="24" y1="{gy2}" x2="240" y2="{gy2}" stroke="{INK}" stroke-width="1"/>')
     s.append(f'<path d="M40,{gy2-88} L110,{gy2-118} L180,{gy2-88}" fill="none" stroke="{SEAL}" stroke-width="1.2"/>')
@@ -21620,7 +21620,7 @@ def ch58b_yi_zhang_zhe_zhi():
     s.append(f'<line x1="24" y1="{c}" x2="338" y2="{c}" stroke="{LINE}" stroke-width="0.6"/>')
     s.append(box(20, c + 8, 340, 40, fill="#F2EADA", stroke="#C9B79A"))
     s.append(txt(190, c + 24, "祸不是等在福后面，是靠在福身上；", 5.8, INK, "middle"))
-    s.append(txt(190, c + 36, "它们一直贴着，所以换的时候不用通知。", 5.4, GREEN, "middle"))
+    s.append(txt(190, c + 36, "它们一直贴着，所以换的时候不用通知。", 5.2, GREEN, "middle"))
     s.append(gold(c + 62, "ch58b"))
     s.append('</svg>')
     return "\n".join(s)
@@ -21651,7 +21651,7 @@ def ch58c_liang_tiao_chuan():
 
     # 一、并着
     t1 = y + 46
-    s.append(txt(24, t1, "一、两条船并着：中间不留刀口", 5.4, GREEN))
+    s.append(txt(24, t1, "一、两条船并着：中间不留刀口", 5.2, GREEN))
     wy = t1 + 96
     s += boat(124, wy, INK, -1)
     s += boat(158, wy, INK, 1)
@@ -21660,7 +21660,7 @@ def ch58c_liang_tiao_chuan():
 
     # 二、动了刀
     t2 = wy + 84
-    s.append(txt(24, t2, "二、一动刀：并就成了界", 5.4, SEAL))
+    s.append(txt(24, t2, "二、一动刀：并就成了界", 5.2, SEAL))
     wy2 = t2 + 84
     s += boat(124, wy2, INK, -1)
     s += boat(158, wy2, INK, 1)
@@ -21730,7 +21730,7 @@ def ch59a_yi_kou_dun():
 
     # 一、收
     t1 = y + 46
-    s.append(txt(24, t1, "一、收：围着麦地转一圈，拢回仓里", 5.4, GREEN))
+    s.append(txt(24, t1, "一、收：围着麦地转一圈，拢回仓里", 5.2, GREEN))
     gy1 = t1 + 122
     s.append(f'<line x1="24" y1="{gy1}" x2="240" y2="{gy1}" stroke="{INK}" stroke-width="1"/>')
     for cx in (52, 74, 96):
@@ -21750,9 +21750,9 @@ def ch59a_yi_kou_dun():
     for k in range(3):
         s.append(f'<circle cx="{106+k*10}" cy="{gy2-52-k*8}" r="2" fill="none" stroke="{SEAL}" stroke-width="0.7" stroke-dasharray="2 2"/>')
     s.append(txt(124, gy2 - 62, "往外撒：那是给，不是啬", 4.6, SEAL))
-    s.append(txt(124, gy2 - 50, "撒完了，仓是空的", 4.4, "#6E6459"))
+    s.append(txt(124, gy2 - 50, "撒完了，仓是空的", 4.5, "#6E6459"))
     s += dun(222, gy2, filled=True)
-    s.append(txt(222, gy2 + 14, "拢回来：仓是实的", 4.4, GREEN, "middle"))
+    s.append(txt(222, gy2 + 14, "拢回来：仓是实的", 4.5, GREEN, "middle"))
 
     b = gy2 + 40
     s.append(txt(24, b, "「啬」从來、从回：來是麦子，回是围着囤转一圈，把麦子赶进仓。", 4.8, INK))
@@ -21781,7 +21781,7 @@ def ch59b_yi_gen_bian_dan():
     s.append(txt(190, y + 26, "所以「无不克」不是打遍天下，是天下事都担得起。", 5.2, "#6E6459", "middle"))
 
     t1 = y + 46
-    s.append(txt(24, t1, "一根扁担两头沉：担得起，才走得远", 5.4, GREEN))
+    s.append(txt(24, t1, "一根扁担两头沉：担得起，才走得远", 5.2, GREEN))
     gy1 = t1 + 132
     s.append(f'<line x1="24" y1="{gy1}" x2="250" y2="{gy1}" stroke="{INK}" stroke-width="1"/>')
     # 人
@@ -21797,13 +21797,13 @@ def ch59b_yi_gen_bian_dan():
         s.append(f'<path d="M{bx-16},{gy1-52} L{bx+16},{gy1-52} L{bx+11},{gy1-2} L{bx-11},{gy1-2} Z" fill="#EFE6D4" stroke="{INK}" stroke-width="0.9"/>')
         for k in range(3):
             s.append(f'<line x1="{bx-10}" y1="{gy1-44+k*10}" x2="{bx+10}" y2="{gy1-44+k*10}" stroke="{LINE}" stroke-width="0.4"/>')
-    s.append(txt(56, gy1 + 14, "一头：担子", 4.4, "#6E6459", "middle"))
-    s.append(txt(172, gy1 + 14, "另一头：也担着", 4.4, "#6E6459", "middle"))
+    s.append(txt(56, gy1 + 14, "一头：担子", 4.5, "#6E6459", "middle"))
+    s.append(txt(172, gy1 + 14, "另一头：也担着", 4.5, "#6E6459", "middle"))
     s.append(txt(196, gy1 - 78, "克是肩：", 4.8, GREEN))
-    s.append(txt(196, gy1 - 66, "担得起，不是打得过", 4.4, "#6E6459"))
+    s.append(txt(196, gy1 - 66, "担得起，不是打得过", 4.5, "#6E6459"))
 
     t2 = gy1 + 40
-    s.append(txt(24, t2, "积是码货：一袋一袋往上堆，才堆得高", 5.4, SEAL))
+    s.append(txt(24, t2, "积是码货：一袋一袋往上堆，才堆得高", 5.2, SEAL))
     gy2 = t2 + 116
     s.append(f'<line x1="24" y1="{gy2}" x2="250" y2="{gy2}" stroke="{INK}" stroke-width="1"/>')
     for k in range(5):
@@ -21811,7 +21811,7 @@ def ch59b_yi_gen_bian_dan():
         s.append(f'<rect x="{116-w/2}" y="{gy2-(k+1)*18}" width="{w}" height="16" fill="#EFE6D4" stroke="{INK}" stroke-width="0.8"/>')
         s.append(f'<line x1="{116-w/2+6}" y1="{gy2-(k+1)*18+11}" x2="{116+w/2-6}" y2="{gy2-(k+1)*18+11}" stroke="{LINE}" stroke-width="0.4"/>')
     s.append(txt(150, gy2 - 40, "积：从禾，是码货", 4.8, SEAL))
-    s.append(txt(150, gy2 - 28, "德是堆出来的，堆的前提是先收", 4.4, "#6E6459"))
+    s.append(txt(150, gy2 - 28, "德是堆出来的，堆的前提是先收", 4.5, "#6E6459"))
     s.append(txt(116, gy2 + 14, "底下一袋是「啬」收回来的", 4.6, "#6E6459", "middle"))
 
     b = gy2 + 40
@@ -21850,7 +21850,7 @@ def ch59c_yi_ke_shu():
 
     # 一、只有根
     t1 = y + 46
-    s.append(txt(24, t1, "一、只有根：横着铺一层，风一来就歪", 5.4, SEAL))
+    s.append(txt(24, t1, "一、只有根：横着铺一层，风一来就歪", 5.2, SEAL))
     gy1 = t1 + 120
     s.append(f'<line x1="24" y1="{gy1}" x2="240" y2="{gy1}" stroke="{INK}" stroke-width="1"/>')
     s += trunk(150, gy1, tilt=8)
@@ -21863,7 +21863,7 @@ def ch59c_yi_ke_shu():
 
     # 二、柢扎下去
     t2 = gy1 + 70
-    s.append(txt(24, t2, "二、有柢：一根扎死，风还在，树不动", 5.4, GREEN))
+    s.append(txt(24, t2, "二、有柢：一根扎死，风还在，树不动", 5.2, GREEN))
     gy2 = t2 + 132
     s.append(f'<line x1="24" y1="{gy2}" x2="240" y2="{gy2}" stroke="{INK}" stroke-width="1"/>')
     s += trunk(150, gy2, tilt=0)
@@ -21885,7 +21885,7 @@ def ch59c_yi_ke_shu():
     c = b + 50
     s.append(f'<line x1="24" y1="{c}" x2="338" y2="{c}" stroke="{LINE}" stroke-width="0.6"/>')
     s.append(box(20, c + 8, 340, 40, fill="#F2EADA", stroke="#C9B79A"))
-    s.append(txt(190, c + 24, "根是横着铺的，柢是竖着扎的；铺满一层挡不住风，", 5.4, INK, "middle"))
+    s.append(txt(190, c + 24, "根是横着铺的，柢是竖着扎的；铺满一层挡不住风，", 5.2, INK, "middle"))
     s.append(txt(190, c + 36, "扎死一根才挡得住。", 6.0, GREEN, "middle"))
     s.append(gold(c + 62, "ch59c"))
     s.append('</svg>')
@@ -21924,25 +21924,25 @@ def ch60a_yi_kou_guo():
 
     # 一、翻
     t1 = y + 46
-    s.append(txt(24, t1, "一、翻：铲子一搅，鱼断成两截", 5.4, SEAL))
+    s.append(txt(24, t1, "一、翻：铲子一搅，鱼断成两截", 5.2, SEAL))
     gy1 = t1 + 128
     s += pot(112, gy1)
     s += fish(108, gy1 - 32, SEAL, split=1)
     s.append(f'<line x1="150" y1="{gy1-64}" x2="126" y2="{gy1-30}" stroke="{INK}" stroke-width="1.6"/>')
     s.append(f'<rect x="140" y="{gy1-70}" width="16" height="9" fill="#EFE6D4" stroke="{INK}" stroke-width="0.8"/>')
     s.append(txt(178, gy1 - 72, "铲子在锅里搅", 4.8, SEAL))
-    s.append(txt(178, gy1 - 60, "翻一遍，断一处", 4.4, "#6E6459"))
+    s.append(txt(178, gy1 - 60, "翻一遍，断一处", 4.5, "#6E6459"))
     s.append(txt(112, gy1 + 40, "锅是敞的：谁都想伸一铲子", 5.2, "#6E6459", "middle"))
 
     # 二、不翻
     t2 = gy1 + 62
-    s.append(txt(24, t2, "二、不翻：盖子盖着，火自己稳", 5.4, GREEN))
+    s.append(txt(24, t2, "二、不翻：盖子盖着，火自己稳", 5.2, GREEN))
     gy2 = t2 + 118
     s += pot(112, gy2)
     s.append(f'<path d="M{112-52},{gy2-44} C{112-20},{gy2-62} {112+20},{gy2-62} {112+52},{gy2-44}" fill="none" stroke="{INK}" stroke-width="1.4"/>')
     s.append(f'<circle cx="112" cy="{gy2-60}" r="4" fill="#EFE6D4" stroke="{INK}" stroke-width="0.9"/>')
     s.append(txt(196, gy2 - 64, "盖着：看不见，也别揭", 4.8, GREEN))
-    s.append(txt(196, gy2 - 52, "鱼在里头熟，不用管", 4.4, "#6E6459"))
+    s.append(txt(196, gy2 - 52, "鱼在里头熟，不用管", 4.5, "#6E6459"))
     s.append(txt(112, gy2 + 40, "火候够了，自己就熟", 5.2, "#6E6459", "middle"))
 
     b = gy2 + 62
@@ -21977,7 +21977,7 @@ def ch60b_yi_pian_cao():
 
     # 一、压着长
     t1 = y + 46
-    s.append(txt(24, t1, "一、压着长：草被压到那个位置", 5.4, SEAL))
+    s.append(txt(24, t1, "一、压着长：草被压到那个位置", 5.2, SEAL))
     gy1 = t1 + 124
     s.append(f'<line x1="24" y1="{gy1}" x2="250" y2="{gy1}" stroke="{INK}" stroke-width="1"/>')
     s.append(f'<line x1="30" y1="{gy1-88}" x2="240" y2="{gy1-88}" stroke="{LINE}" stroke-width="0.6" stroke-dasharray="5 3"/>')
@@ -21991,7 +21991,7 @@ def ch60b_yi_pian_cao():
 
     # 二、自然长
     t2 = gy1 + 36
-    s.append(txt(24, t2, "二、自己长：长到那位置，就不动了", 5.4, GREEN))
+    s.append(txt(24, t2, "二、自己长：长到那位置，就不动了", 5.2, GREEN))
     gy2 = t2 + 124
     s.append(f'<line x1="24" y1="{gy2}" x2="250" y2="{gy2}" stroke="{INK}" stroke-width="1"/>')
     s.append(f'<line x1="30" y1="{gy2-94}" x2="240" y2="{gy2-94}" stroke="{GREEN}" stroke-width="0.6" stroke-dasharray="5 3"/>')
@@ -22010,7 +22010,7 @@ def ch60b_yi_pian_cao():
     c = b + 50
     s.append(f'<line x1="24" y1="{c}" x2="338" y2="{c}" stroke="{LINE}" stroke-width="0.6"/>')
     s.append(box(20, c + 8, 340, 40, fill="#F2EADA", stroke="#C9B79A"))
-    s.append(txt(190, c + 24, "莅是草长到那个位置，不是人坐上去发令；", 5.4, INK, "middle"))
+    s.append(txt(190, c + 24, "莅是草长到那个位置，不是人坐上去发令；", 5.2, INK, "middle"))
     s.append(txt(190, c + 36, "一个到，一个管。", 6.0, GREEN, "middle"))
     s.append(gold(c + 62, "ch60b"))
     s.append('</svg>')
@@ -22051,7 +22051,7 @@ def ch60c_liang_tiao_tui():
     # 反例：拧成一股
     t2 = cy + 84
     s.append(f'<line x1="24" y1="{t2}" x2="338" y2="{t2}" stroke="{LINE}" stroke-width="0.6"/>')
-    s.append(txt(24, t2 + 18, "不是拧成一股：拧起来，谁都走不了", 5.4, SEAL))
+    s.append(txt(24, t2 + 18, "不是拧成一股：拧起来，谁都走不了", 5.2, SEAL))
     cy2 = t2 + 72
     s.append(f'<line x1="56" y1="{cy2-34}" x2="244" y2="{cy2-34}" stroke="{SEAL}" stroke-width="3"/>')
     s.append(f'<line x1="56" y1="{cy2-24}" x2="244" y2="{cy2-24}" stroke="{SEAL}" stroke-width="3"/>')
@@ -22067,7 +22067,7 @@ def ch60c_liang_tiao_tui():
 
     c = b + 50
     s.append(box(20, c + 8, 340, 40, fill="#F2EADA", stroke="#C9B79A"))
-    s.append(txt(190, c + 24, "交是两条腿交叉，不是两股绳拧成一股；", 5.4, INK, "middle"))
+    s.append(txt(190, c + 24, "交是两条腿交叉，不是两股绳拧成一股；", 5.2, INK, "middle"))
     s.append(txt(190, c + 36, "各让一条腿，才各回各家。", 5.6, GREEN, "middle"))
     s.append(gold(c + 62, "ch60c"))
     s.append('</svg>')
@@ -22086,7 +22086,7 @@ def ch61a_yi_tiao_he():
     s.append(txt(190, y + 26, "江河的下游，是所有上游都往那儿去的地方。", 5.2, "#6E6459", "middle"))
 
     t1 = y + 46
-    s.append(txt(24, t1, "上游都往下走，走到低处汇成一处", 5.4, GREEN))
+    s.append(txt(24, t1, "上游都往下走，走到低处汇成一处", 5.2, GREEN))
     ty = t1 + 66
 
     # 上游支流
@@ -22164,24 +22164,24 @@ def ch61b_yi_zhi_mu_chu():
 
     # 一、牡
     t1 = y + 46
-    s.append(txt(24, t1, "一、牡：昂着头，争那一步", 5.4, SEAL))
+    s.append(txt(24, t1, "一、牡：昂着头，争那一步", 5.2, SEAL))
     gy1 = t1 + 112
     s.append(f'<line x1="24" y1="{gy1}" x2="240" y2="{gy1}" stroke="{INK}" stroke-width="1"/>')
     s += bird(86, gy1, SEAL, 1.15, male=True)
     s.append(txt(160, gy1 - 52, "一只，站着", 4.8, SEAL))
-    s.append(txt(160, gy1 - 40, "冠最高，脚边没有别的", 4.4, "#6E6459"))
+    s.append(txt(160, gy1 - 40, "冠最高，脚边没有别的", 4.5, "#6E6459"))
     s.append(txt(86, gy1 + 14, "牡：以力相争", 4.6, SEAL, "middle"))
 
     # 二、牝
     t2 = gy1 + 34
-    s.append(txt(24, t2, "二、牝：静着卧下，脚边一群", 5.4, GREEN))
+    s.append(txt(24, t2, "二、牝：静着卧下，脚边一群", 5.2, GREEN))
     gy2 = t2 + 118
     s.append(f'<line x1="24" y1="{gy2}" x2="240" y2="{gy2}" stroke="{INK}" stroke-width="1"/>')
     s += bird(70, gy2, GREEN, 1.1, male=False, lying=True)
     for dx in (120, 152, 184):
         s += chick(dx, gy2, GREEN)
     s.append(txt(70, gy2 + 14, "牝：静着，不动", 4.6, GREEN, "middle"))
-    s.append(txt(168, gy2 + 14, "跟着的那群，都是它孵的", 4.4, "#6E6459", "middle"))
+    s.append(txt(168, gy2 + 14, "跟着的那群，都是它孵的", 4.5, "#6E6459", "middle"))
 
     b = gy2 + 40
     s.append(txt(24, b, "「胜」是担得起，不是打得赢：母鸡不争，脚边那一群都是它的。", 4.8, INK))
@@ -22228,13 +22228,13 @@ def ch61c_yi_zhi_shou():
 
     # 一、刀
     t1 = y + 46
-    s.append(txt(24, t1, "一、带刀：取本义，是割", 5.4, SEAL))
+    s.append(txt(24, t1, "一、带刀：取本义，是割", 5.2, SEAL))
     cy1 = t1 + 116
     s.append(f'<line x1="118" y1="{cy1-88}" x2="118" y2="{cy1-72}" stroke="{LINE}" stroke-width="0.7"/>')
     s += ear(118, cy1 - 60, INK)
     s += knife(168, cy1 - 40, SEAL)
     s.append(arrow(186, cy1 - 82, 162, cy1 - 62, SEAL, 0.8, head="arrS"))
-    s.append(txt(118, cy1 - 84, "一只耳，挂在这儿", 4.4, INK, "middle"))
+    s.append(txt(118, cy1 - 84, "一只耳，挂在这儿", 4.5, INK, "middle"))
     s.append(txt(118, cy1 + 8, "割下来计功：这是「取」的老底子", 4.6, SEAL, "middle"))
     s.append(txt(196, cy1 - 34, "刀落下去：割", 4.6, SEAL))
 
@@ -22247,7 +22247,7 @@ def ch61c_yi_zhi_shou():
     s += ear(160, cy2 - 14, GREEN)
     s.append(arrow(168, cy2 - 44, 160, cy2 - 26, GREEN, 0.7, head="arr2"))
     s.append(txt(196, cy2 - 40, "来归的，落下来", 4.6, GREEN))
-    s.append(txt(196, cy2 - 28, "手在下面接着", 4.4, "#6E6459"))
+    s.append(txt(196, cy2 - 28, "手在下面接着", 4.5, "#6E6459"))
     s.append(txt(120, cy2 + 34, "刀口还在，只是翻过去了", 4.6, GREEN, "middle"))
 
     b = cy2 + 52
@@ -22310,7 +22310,7 @@ def ch62a_yi_ge_qiang_jiao():
              f'stroke-width="0.8" stroke-dasharray="2 2"/>')
 
     s.append(txt(259, ry1 + 18, "门：光从这儿进来", 4.6, SEAL, "middle"))
-    s.append(txt(296, ry0 + 62, "光只到这儿", 4.4, SEAL, "end"))
+    s.append(txt(296, ry0 + 62, "光只到这儿", 4.5, SEAL, "end"))
     s.append(txt(120, ry1 - 34, "西南角：最尊", 4.8, INK))
     s.append(txt(120, ry1 - 20, "也最暗——光进不去", 4.6, "#6E6459"))
 
@@ -22371,7 +22371,7 @@ def ch62b_yi_fu_bei_dai():
     s.append(f'<rect x="152" y="{gy1}" width="36" height="7" fill="#EFE6D4" stroke="{INK}" stroke-width="0.9"/>')
     s += child(170, gy1, INK)
     s.append(txt(190, gy1 + 26, "收留：给一个地方", 4.8, "#6E6459", "middle"))
-    s.append(txt(190, gy1 + 40, "地方是死的，人在地方里", 4.4, "#6E6459", "middle"))
+    s.append(txt(190, gy1 + 40, "地方是死的，人在地方里", 4.5, "#6E6459", "middle"))
 
     s.append(txt(24, gy1 + 66, "二、背着：驮在身上，走到哪儿带到哪儿", 4.8, SEAL))
     gy2 = gy1 + 190
@@ -22392,7 +22392,7 @@ def ch62b_yi_fu_bei_dai():
     s.append(f'<path d="M223,{gy2 - 26} L225,{gy2 - 8} L243,{gy2 - 8} L245,{gy2 - 26}" fill="#EFE6D4" stroke="{INK}" stroke-width="1"/>')
     s.append(txt(252, gy2 - 32, "手还空着", 4.2, "#6E6459"))
     s.append(txt(190, gy2 + 26, "背着：驮在背上，手还腾着提篮", 4.8, SEAL, "middle"))
-    s.append(txt(190, gy2 + 40, "人走到哪儿，孩子就到哪儿", 4.4, "#6E6459", "middle"))
+    s.append(txt(190, gy2 + 40, "人走到哪儿，孩子就到哪儿", 4.5, "#6E6459", "middle"))
 
     a = gy2 + 62
     s.append(txt(24, a, "宝是自己收着的，保是背着孩子的：一个揣在怀里，一个驮在背上。", 4.8, INK))
@@ -22552,7 +22552,7 @@ def ch63b_yi_gen_si():
     # 从束里抽出来的一根，往右一直延出去
     s.append(f'<path d="M230,{gy + 6} C252,{gy + 22} 268,{gy + 38} 316,{gy + 32}" fill="none" stroke="{GREEN}" stroke-width="1.6"/>')
     s.append(txt(186, gy + 112, "一束：看着是一件事", 4.5, "#6E6459", "middle"))
-    s.append(txt(266, gy + 8, "抽这一根出来，一直不断", 4.4, GREEN, "middle"))
+    s.append(txt(266, gy + 8, "抽这一根出来，一直不断", 4.5, GREEN, "middle"))
 
     a = gy + 136
     s.append(txt(24, a, "「细」从糸：丝是一根一根的，抽不断，才织得成整幅。", 4.8, INK))
@@ -22609,7 +22609,7 @@ def ch63c_yi_tiao_wei_ba():
     s.append(f'<path d="M278,{gy - 8} C292,{gy + 2} 302,{gy + 8} 310,{gy + 16}" fill="none" stroke="{INK}" '
              f'stroke-width="1.2" stroke-dasharray="2 1.6"/>')
     s.append(txt(300, gy + 34, "断了的那一截", 4.2, SEAL, "middle"))
-    s.append(txt(120, gy + 34, "半青半赭：它会变色", 4.4, "#6E6459", "middle"))
+    s.append(txt(120, gy + 34, "半青半赭：它会变色", 4.5, "#6E6459", "middle"))
 
     a = gy + 58
     s.append(txt(24, a, "「易」本是蜥蜴的名字：会变色，尾巴一拉就断，断了自己再长。", 4.8, INK))
@@ -22707,9 +22707,9 @@ def ch64b_yi_kuang_tu():
     s.append(f'<ellipse cx="308" cy="{gy}" rx="13" ry="4" fill="#DBCFB7" stroke="{INK}" stroke-width="0.8"/>')
     # 抬上去的那一路
     s.append(arrow(286, gy - 22, 236, gy - 126, GREEN, 1.2, dash="3 2", head="arr2"))
-    s.append(txt(308, gy + 34, "一筐土", 4.4, "#6E6459", "middle"))
-    s.append(txt(246, gy - 142, "抬到顶上，", 4.3, GREEN))
-    s.append(txt(246, gy - 130, "就多一层", 4.3, GREEN))
+    s.append(txt(308, gy + 34, "一筐土", 4.5, "#6E6459", "middle"))
+    s.append(txt(246, gy - 142, "抬到顶上，", 4.5, GREEN))
+    s.append(txt(246, gy - 130, "就多一层", 4.5, GREEN))
 
     a = gy + 44
     s.append(txt(24, a, "九层之台，起于累土：每一筐都要走那段坡，都要对齐。", 4.8, INK))
@@ -22814,8 +22814,8 @@ def ch65a_yi_zhan_deng():
     s.append(f'<line x1="110" y1="{gy2 + 110}" x2="274" y2="{gy2 + 110}" stroke="{LINE}" stroke-width="0.7"/>')
     # 光落在路上的一段
     s.append(f'<ellipse cx="162" cy="{gy2 + 97}" rx="46" ry="13" fill="#EADFC2" opacity="0.9" stroke="none"/>')
-    s.append(txt(250, gy2 + 100, "路", 4.4, "#6E6459", "middle"))
-    s.append(txt(152, gy2 + 74, "照亮的是路", 4.4, GREEN, "middle"))
+    s.append(txt(250, gy2 + 100, "路", 4.5, "#6E6459", "middle"))
+    s.append(txt(152, gy2 + 74, "照亮的是路", 4.5, GREEN, "middle"))
     s.append(txt(190, gy2 + 134, "灯靠门：照亮路，不照亮人——不吹灯，是把灯挪开", 4.6, GREEN, "middle"))
 
     a = gy2 + 154
@@ -22873,18 +22873,18 @@ def ch65b_yi_zhi_hou():
     s += monkey(206, gy - 62, SEAL, 0.78)
     s.append(f'<path d="M170,{gy - 44} C160,{gy - 54} 152,{gy - 66} 156,{gy - 74}" fill="none" stroke="{SEAL}" stroke-width="1" stroke-dasharray="3 2"/>')
     s.append(f'<circle cx="158" cy="{gy - 80}" r="6" fill="none" stroke="{SEAL}" stroke-width="1"/>')
-    s.append(txt(158, gy - 94, "心", 4.4, SEAL, "middle"))
-    s.append(txt(216, gy - 30, "猴", 4.4, SEAL, "middle"))
+    s.append(txt(158, gy - 94, "心", 4.5, SEAL, "middle"))
+    s.append(txt(216, gy - 30, "猴", 4.5, SEAL, "middle"))
     s.append(txt(190, gy + 24, "心跟着猴跑：一刻不停，见什么抓什么", 4.6, SEAL, "middle"))
 
     s.append(txt(24, gy + 52, "二、把猴放下来：它蹲在地上，心才落回身上", 4.8, GREEN))
     gy2 = gy + 120
     s += person(182, gy2, INK)
     s.append(f'<circle cx="182" cy="{gy2 - 34}" r="5.5" fill="none" stroke="{GREEN}" stroke-width="1.2"/>')
-    s.append(txt(196, gy2 - 36, "心落回身上", 4.4, GREEN))
+    s.append(txt(196, gy2 - 36, "心落回身上", 4.5, GREEN))
     s += monkey(240, gy2 - 16, SEAL, 0.66)
     s.append(f'<line x1="240" y1="{gy2 - 2}" x2="240" y2="{gy2}" stroke="{SEAL}" stroke-width="0.8" stroke-dasharray="2 2"/>')
-    s.append(txt(240, gy2 + 16, "猴放着，不打它", 4.4, SEAL, "middle"))
+    s.append(txt(240, gy2 + 16, "猴放着，不打它", 4.5, SEAL, "middle"))
 
     a = gy2 + 40
     s.append(txt(24, a, "愚不是蠢：禺是猴，心跟着猴跑，才叫愚。", 4.8, INK))
@@ -22894,7 +22894,7 @@ def ch65b_yi_zhi_hou():
     c = a + 52
     s.append(f'<line x1="24" y1="{c}" x2="338" y2="{c}" stroke="{LINE}" stroke-width="0.6"/>')
     s.append(box(20, c + 8, 340, 40, fill="#F2EADA", stroke="#C9B79A"))
-    s.append(txt(190, c + 24, "愚从心从禺：禺是猴，猴不蠢，是停不住；", 5.4, INK, "middle"))
+    s.append(txt(190, c + 24, "愚从心从禺：禺是猴，猴不蠢，是停不住；", 5.2, INK, "middle"))
     s.append(txt(190, c + 36, "心跟着猴跑，才是那个愚字。", 5.2, GREEN, "middle"))
     s.append(gold(c + 62, "ch65b"))
     s.append('</svg>')
@@ -22940,7 +22940,7 @@ def ch65c_yi_dao_mo_xian():
     c = a + 52
     s.append(f'<line x1="24" y1="{c}" x2="338" y2="{c}" stroke="{LINE}" stroke-width="0.6"/>')
     s.append(box(20, c + 8, 340, 40, fill="#F2EADA", stroke="#C9B79A"))
-    s.append(txt(190, c + 24, "稽式是木工弹的那道线：它不评价，只显出来；", 5.4, INK, "middle"))
+    s.append(txt(190, c + 24, "稽式是木工弹的那道线：它不评价，只显出来；", 5.2, INK, "middle"))
     s.append(txt(190, c + 36, "常知稽式，是谓玄德。", 5.2, GREEN, "middle"))
     s.append(gold(c + 62, "ch65c"))
     s.append('</svg>')
@@ -22969,7 +22969,7 @@ def ch01d_yong_xian_pan_ju():
        f'<rect x="0" y="0" width="{W}" height="{H}" fill="{PAPER}"/>',
        f'<text x="24" y="30" font-size="11" fill="{SEAL}" font-family="{SANS}" letter-spacing="3">义 理 图 · 涌 现 判 据</text>',
        f'<text x="24" y="66" font-size="18" fill="{INK}">涌现不在某一点开始，它每一级都在发生</text>',
-       f'<text x="24" y="92" font-size="10.4" fill="#6E6459">而「生命」这一属性，起点在细胞 —— 蛋白质是材料，不是命。</text>']
+       f'<text x="24" y="92" font-size="10.5" fill="#6E6459">而「生命」这一属性，起点在细胞 —— 蛋白质是材料，不是命。</text>']
     for i,(name,p1,p2) in enumerate(ROWS):
         c = GREEN if i==3 else (SEAL if i>=4 else GREY)
         x=X0+i*SW_; y=by(i)
@@ -22977,14 +22977,14 @@ def ch01d_yong_xian_pan_ju():
         s.append(f'<rect x="{x}" y="{y}" width="{SW_}" height="{BH}" fill="none" stroke="{c}" stroke-width="0.9"/>')
         s.append(f'<path d="M{x},{y} H{x+SW_}" stroke="{c}" stroke-width="2"/>')
         s.append(f'<text x="{x+9}" y="{y+23}" font-size="9.6" fill="{INK}" font-weight="600">{name}</text>')
-        s.append(f'<text x="{x+9}" y="{y+42}" font-size="7.9" fill="{c}">{p1}</text>')
-        s.append(f'<text x="{x+9}" y="{y+51}" font-size="7.9" fill="{c}">{p2}</text>')
+        s.append(f'<text x="{x+9}" y="{y+42}" font-size="8.0" fill="{c}">{p1}</text>')
+        s.append(f'<text x="{x+9}" y="{y+51}" font-size="8.0" fill="{c}">{p2}</text>')
     # 生命门槛
     xm=X0+4*SW_
     s.append(f'<line x1="{xm}" y1="196" x2="{xm}" y2="690" stroke="{RED}" stroke-width="1" stroke-dasharray="6 5"/>')
     s.append(f'<text x="{xm-12}" y="196" font-size="9.2" fill="{GREY}" text-anchor="end">此前都是「物」</text>')
     s.append(f'<text x="{xm+12}" y="196" font-size="9.6" fill="{RED}" font-family="{SANS}" letter-spacing="1.4">生命门槛</text>')
-    s.append(f'<text x="{xm+12}" y="212" font-size="8.8" fill="{RED}" letter-spacing="0.3">第一道「徼」：一层膜划开内与外，生命的自主性就在这里亮起</text>')
+    s.append(f'<text x="{xm+12}" y="212" font-size="8.4" fill="{RED}" letter-spacing="0.3">第一道「徼」：一层膜划开内与外，生命的自主性就在这里亮起</text>')
     # 底部判据
     lines=[("判据","涌现 = 下层单独不具备、且无法由下层线性加总得出的性质。",INK),
            ("检验","把上层拆回下层，新性质随即消失；而在拆开的下层里，找不到它的影子。","#6E6459"),
@@ -23034,11 +23034,11 @@ def ch01e_you_wu_shuang_guan():
        f'<rect x="0" y="0" width="{W}" height="{H}" fill="{PAPER}"/>',
        f'<text x="110" y="30" font-size="11" fill="{SEAL}" font-family="{SANS}" letter-spacing="3">义 理 图 · 有 无 双 观</text>',
        f'<text x="110" y="66" font-size="18" fill="{INK}">以有观无，一路上到宇宙；以无观有，一路下到量子</text>',
-       f'<text x="110" y="88" font-size="10.4" fill="#6E6459">每一级先空出一处，那一层的「妙」就住在里头 —— 空是「徼」围出来的，不是第一章那个「无」。</text>']
+       f'<text x="110" y="88" font-size="10.5" fill="#6E6459">每一级先空出一处，那一层的「妙」就住在里头 —— 空是「徼」围出来的，不是第一章那个「无」。</text>']
     # 列头
-    s.append(f'<text x="{AX-20}" y="124" font-size="8.6" fill="{GREY}" text-anchor="end" font-family="{SANS}" letter-spacing="2">级</text>')
-    s.append(f'<text x="{AX+32}" y="124" font-size="8.6" fill="{RED}" font-family="{SANS}" letter-spacing="2">它空出的那一处（妙所寓）</text>')
-    s.append(f'<text x="950" y="124" font-size="8.6" fill="{GREEN}" text-anchor="end" font-family="{SANS}" letter-spacing="2">因此之「用」</text>')
+    s.append(f'<text x="{AX-20}" y="124" font-size="8.4" fill="{GREY}" text-anchor="end" font-family="{SANS}" letter-spacing="2">级</text>')
+    s.append(f'<text x="{AX+32}" y="124" font-size="8.4" fill="{RED}" font-family="{SANS}" letter-spacing="2">它空出的那一处（妙所寓）</text>')
+    s.append(f'<text x="950" y="124" font-size="8.4" fill="{GREEN}" text-anchor="end" font-family="{SANS}" letter-spacing="2">因此之「用」</text>')
     # 轴：上箭头 / 下箭头
     s.append(f'<path d="M{AX},{BOT+2} L{AX},{TOP-2}" stroke="{LINE}" stroke-width="0.9"/>')
     s.append(f'<path d="M{AX-5},{TOP-14} L{AX},{TOP-52} L{AX+5},{TOP-14}" fill="none" stroke="{RED}" stroke-width="1.3"/>')
@@ -23125,7 +23125,7 @@ def ch22_qu_mu_cao():
     c = a + 50
     s.append(f'<line x1="24" y1="{c}" x2="338" y2="{c}" stroke="{LINE}" stroke-width="0.6"/>')
     s.append(box(20, c + 8, 340, 40, fill="#F2EADA", stroke="#C9B79A"))
-    s.append(txt(190, c + 24, "曲不是委屈，是器形能受。", 5.4, INK, "middle"))
+    s.append(txt(190, c + 24, "曲不是委屈，是器形能受。", 5.2, INK, "middle"))
     s.append(txt(190, c + 36, "六句是规律，不是策略：差别只在，你是拿曲换全，还是在曲里等全。", 4.5, GREEN, "middle"))
     s.append(gold(c + 62, "ch22"))
     s.append('</svg>')
@@ -23156,7 +23156,7 @@ def ch22b_bao_yi_yu_wu_pai():
     s.append(f'<path d="M{px - 9},{p0 + 56} Q{px - 20},{p0 + 76} {px - 9},{p0 + 90}" fill="none" stroke="{INK}" stroke-width="1.0"/>')
     s.append(f'<path d="M{px + 9},{p0 + 56} Q{px + 20},{p0 + 76} {px + 9},{p0 + 90}" fill="none" stroke="{INK}" stroke-width="1.0"/>')
     s.append(f'<rect x="{px - 7}" y="{p0 + 58}" width="14" height="34" fill="#F2EADA" stroke="{INK}" stroke-width="1.0"/>')
-    s.append(txt(px, p0 + 80, "一", 5.4, SEAL, "middle"))
+    s.append(txt(px, p0 + 80, "一", 5.2, SEAL, "middle"))
     s.append(f'<circle cx="{px - 9}" cy="{p0 + 90}" r="2.6" fill="none" stroke="{INK}" stroke-width="0.9"/>')
     s.append(f'<circle cx="{px + 9}" cy="{p0 + 90}" r="2.6" fill="none" stroke="{INK}" stroke-width="0.9"/>')
     s.append(txt(px + 34, p0 + 66, "一根木简，贴胸揣着", 3.9, GREEN))
@@ -23199,7 +23199,7 @@ def ch22b_bao_yi_yu_wu_pai():
     c = a + 50
     s.append(f'<line x1="24" y1="{c}" x2="338" y2="{c}" stroke="{LINE}" stroke-width="0.6"/>')
     s.append(box(20, c + 8, 340, 40, fill="#F2EADA", stroke="#C9B79A"))
-    s.append(txt(190, c + 24, "是以圣人抱一为天下式。", 5.4, INK, "middle"))
+    s.append(txt(190, c + 24, "是以圣人抱一为天下式。", 5.2, INK, "middle"))
     s.append(txt(190, c + 36, "式只有一条：不是把自己分成好几套标准。", 4.7, GREEN, "middle"))
     s.append(gold(c + 62, "ch22b"))
     s.append('</svg>')
@@ -23288,7 +23288,7 @@ def ch22c_pao_dao_yu_jia():
     c = a + 50
     s.append(f'<line x1="24" y1="{c}" x2="338" y2="{c}" stroke="{LINE}" stroke-width="0.6"/>')
     s.append(box(20, c + 8, 340, 40, fill="#F2EADA", stroke="#C9B79A"))
-    s.append(txt(190, c + 24, "不争不是让，是换了个地方站。", 5.4, INK, "middle"))
+    s.append(txt(190, c + 24, "不争不是让，是换了个地方站。", 5.2, INK, "middle"))
     s.append(txt(190, c + 36, "争到最后的人得的多，回不去；不争的人回得去。", 4.7, GREEN, "middle"))
     s.append(gold(c + 62, "ch22c"))
     s.append('</svg>')
@@ -23356,7 +23356,7 @@ def ch23_sha_shang_zi_cheng_de_gou():
     c = a + 50
     s.append(f'<line x1="24" y1="{c}" x2="338" y2="{c}" stroke="{LINE}" stroke-width="0.6"/>')
     s.append(box(20, c + 8, 340, 40, fill="#F2EADA", stroke="#C9B79A"))
-    s.append(txt(190, c + 24, "自然不是没有秩序，是秩序自己长出来的。", 5.4, INK, "middle"))
+    s.append(txt(190, c + 24, "自然不是没有秩序，是秩序自己长出来的。", 5.2, INK, "middle"))
     s.append(txt(190, c + 36, "希言者不争久，而自久。", 4.5, GREEN, "middle"))
     s.append(gold(c + 62, "ch23"))
     s.append('</svg>')
@@ -23423,7 +23423,7 @@ def ch23b_yi_lu_xiang():
     c = a + 66
     s.append(f'<line x1="24" y1="{c}" x2="338" y2="{c}" stroke="{LINE}" stroke-width="0.6"/>')
     s.append(box(20, c + 8, 340, 40, fill="#F2EADA", stroke="#C9B79A"))
-    s.append(txt(190, c + 24, "风刮一早晨就停才是好风；老子论的不是风雨，是「久」这个字。", 5.4, INK, "middle"))
+    s.append(txt(190, c + 24, "风刮一早晨就停才是好风；老子论的不是风雨，是「久」这个字。", 5.2, INK, "middle"))
     s.append(txt(190, c + 36, "多言者求久，而先尽。", 4.5, GREEN, "middle"))
     s.append(gold(c + 62, "ch23b"))
     s.append('</svg>')
@@ -23487,7 +23487,7 @@ def ch23c_yi_cuo_yan():
     c = a + 84
     s.append(f'<line x1="24" y1="{c}" x2="338" y2="{c}" stroke="{LINE}" stroke-width="0.6"/>')
     s.append(box(20, c + 8, 340, 40, fill="#F2EADA", stroke="#C9B79A"))
-    s.append(txt(190, c + 24, "报，要有一个给的人；合，不需要。", 5.4, INK, "middle"))
+    s.append(txt(190, c + 24, "报，要有一个给的人；合，不需要。", 5.2, INK, "middle"))
     s.append(txt(190, c + 36, "你把自己放进什么里，就被什么收下。", 4.5, GREEN, "middle"))
     s.append(gold(c + 62, "ch23c"))
     s.append('</svg>')
@@ -23551,7 +23551,7 @@ def ch24_dian_jiao_kua_bu():
     rows = [("自见者", "不明"), ("自是者", "不彰"), ("自伐者", "无功"), ("自矜者", "不长")]
     ry = p1 + 32
     for (l, r) in rows:
-        s.append(txt(88, ry, l, 5.4, SEAL))
+        s.append(txt(88, ry, l, 5.2, SEAL))
         s.append(f'<line x1="146" y1="{ry - 2}" x2="192" y2="{ry - 2}" stroke="{LINE}" stroke-width="0.7" stroke-dasharray="3 3"/>')
         s.append(txt(206, ry, r, 7.4, INK))
         ry += 32
@@ -23566,7 +23566,7 @@ def ch24_dian_jiao_kua_bu():
     c = a + 52
     s.append(f'<line x1="24" y1="{c}" x2="338" y2="{c}" stroke="{LINE}" stroke-width="0.6"/>')
     s.append(box(20, c + 8, 340, 40, fill="#F2EADA", stroke="#C9B79A"))
-    s.append(txt(190, c + 24, "借来的高度站不住，省下的步子走不远。", 5.4, INK, "middle"))
+    s.append(txt(190, c + 24, "借来的高度站不住，省下的步子走不远。", 5.2, INK, "middle"))
     s.append(txt(190, c + 36, "问题不在能力，在姿势。", 4.5, GREEN, "middle"))
     s.append(gold(c + 62, "ch24"))
     s.append('</svg>')
@@ -23629,7 +23629,7 @@ def ch24b_yu_shi():
     c = a + 52
     s.append(f'<line x1="24" y1="{c}" x2="338" y2="{c}" stroke="{LINE}" stroke-width="0.6"/>')
     s.append(box(20, c + 8, 340, 40, fill="#F2EADA", stroke="#C9B79A"))
-    s.append(txt(190, c + 24, "不处不是割掉，是不长。", 5.4, INK, "middle"))
+    s.append(txt(190, c + 24, "不处不是割掉，是不长。", 5.2, INK, "middle"))
     s.append(txt(190, c + 36, "约束是按住它，不处是根本不在那儿站。", 4.5, GREEN, "middle"))
     s.append(gold(c + 62, "ch24b"))
     s.append('</svg>')
@@ -23691,7 +23691,7 @@ def ch24c_zhui_liu():
     s.append(f'<line x1="24" y1="{c}" x2="338" y2="{c}" stroke="{LINE}" stroke-width="0.6"/>')
     s.append(box(20, c + 8, 340, 40, fill="#F2EADA", stroke="#C9B79A"))
     s.append(txt(190, c + 24, "礼问「你做得对不对」，道问「这一块本来该不该长」。", 5.2, INK, "middle"))
-    s.append(txt(190, c + 36, "不处不是割掉，是不长——不在那儿立，它就得不着你。", 4.4, GREEN, "middle"))
+    s.append(txt(190, c + 36, "不处不是割掉，是不长——不在那儿立，它就得不着你。", 4.5, GREEN, "middle"))
     s.append(gold(c + 62, "ch24c"))
     s.append('</svg>')
     out = chr(10).join(s)

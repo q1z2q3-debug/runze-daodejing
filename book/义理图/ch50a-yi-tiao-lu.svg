@@ -8,7 +8,7 @@
 <rect x="20" y="102" width="340" height="30" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
 <text x="190" y="114" font-size="5.2" fill="#2F2A24" text-anchor="middle">「出生入死」不是两扇门，是一条路的两头：从出来的那一处，往进去的那一处走。</text>
 <text x="190" y="126" font-size="5.2" fill="#6E6459" text-anchor="middle">「徒」，《说文》「步行也」——这三成不是三个命定，是三个方向。</text>
-<text x="24" y="146" font-size="5.4" fill="#A2503B">一条路，三种走法</text>
+<text x="24" y="146" font-size="5.2" fill="#A2503B">一条路，三种走法</text>
 <rect x="30" y="226" width="320" height="40" fill="#FBF6EC" stroke="#DCCBB0" stroke-width="0.7"/>
 <line x1="34" y1="242" x2="346" y2="242" stroke="#E6D8C2" stroke-width="0.5" stroke-dasharray="6 5"/>
 <text x="30" y="216" font-size="5.0" fill="#4A5C55">出 · 生</text>
@@ -33,7 +33,7 @@
 <text x="44" y="332" font-size="4.8" fill="#6E6459">亦十有三：自己走进去的</text>
 <text x="24" y="362" font-size="5.2" fill="#2F2A24">本来就有一批人容易早亡，那是禀赋与外缘；另外那一批，是自己动手把自己送进去的。</text>
 <text x="24" y="378" font-size="5.2" fill="#2F2A24">而这后一批，恰恰是最用心养生的那一批。</text>
-<text x="24" y="394" font-size="5.4" fill="#4A5C55">那个「亦」字，是老子全章唯一想说的。</text>
+<text x="24" y="394" font-size="5.2" fill="#4A5C55">那个「亦」字，是老子全章唯一想说的。</text>
 <line x1="24" y1="412" x2="338" y2="412" stroke="#DCCBB0" stroke-width="0.6"/>
 <rect x="20" y="420" width="340" height="40" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
 <text x="190" y="436" font-size="6.0" fill="#2F2A24" text-anchor="middle">三成是天给的，三成是自己走进去的；</text>

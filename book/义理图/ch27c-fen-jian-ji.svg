@@ -23,7 +23,7 @@
 <rect x="268" y="275" width="6" height="6" fill="none" stroke="#2F2A24" stroke-width="0.7"/>
 <rect x="286" y="275" width="6" height="6" fill="none" stroke="#2F2A24" stroke-width="0.7"/>
 <rect x="304" y="275" width="6" height="6" fill="none" stroke="#2F2A24" stroke-width="0.7"/>
-<text x="89" y="296" font-size="4.4" fill="#4A5C55" text-anchor="middle">善</text>
+<text x="89" y="296" font-size="4.5" fill="#4A5C55" text-anchor="middle">善</text>
 <text x="291" y="296" font-size="4.2" fill="#8A7C69" text-anchor="middle">不善</text>
 <circle cx="126" cy="254" r="2.8" fill="none" stroke="#2F2A24" stroke-width="0.7"/>
 <circle cx="112" cy="262" r="2.8" fill="none" stroke="#2F2A24" stroke-width="0.7"/>

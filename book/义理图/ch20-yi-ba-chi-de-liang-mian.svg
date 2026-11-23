@@ -38,7 +38,7 @@
 <line x1="72" y1="240" x2="308" y2="240" stroke="#8A7C69" stroke-width="0.7" stroke-dasharray="4 3"/>
 <line x1="80" y1="240" x2="296" y2="240" stroke="#8A7C69" stroke-width="0.7" marker-end="url(#arr)"/>
 <line x1="300" y1="240" x2="88" y2="240" stroke="#8A7C69" stroke-width="0.7" marker-end="url(#arrL)"/>
-<text x="190" y="272" font-size="4.4" fill="#8A7C69" text-anchor="middle">相去几何：这一面上，两端被量成了一段距离</text>
+<text x="190" y="272" font-size="4.5" fill="#8A7C69" text-anchor="middle">相去几何：这一面上，两端被量成了一段距离</text>
 <text x="24" y="295" font-size="5.0" fill="#A2503B">一、有刻度的一面：两端离得很远，还要问「几 何」</text>
 <rect x="26" y="308" width="328" height="140" fill="#FBF6EC" stroke="#DCCBB0" stroke-width="0.8"/>
 <rect x="52" y="392" width="276" height="13" fill="#EFE6D4" stroke="#2F2A24" stroke-width="1.2"/>
@@ -47,17 +47,17 @@
 <path d="M52,366 q-14,10 0,22" fill="none" stroke="#8A7C69" stroke-width="0.7"/>
 <line x1="52" y1="366" x2="56" y2="362" stroke="#8A7C69" stroke-width="0.7" marker-end="url(#arr)"/>
 <rect x="172" y="352" width="30" height="20" fill="#F2EADA" stroke="#2F2A24" stroke-width="0.9"/>
-<text x="187" y="366" font-size="5.4" fill="#A2503B" text-anchor="middle">阿</text>
+<text x="187" y="366" font-size="5.2" fill="#A2503B" text-anchor="middle">阿</text>
 <rect x="160" y="370" width="30" height="22" fill="#F2EADA" stroke="#2F2A24" stroke-width="0.9"/>
-<text x="175" y="385" font-size="5.4" fill="#A2503B" text-anchor="middle">唯</text>
-<text x="190" y="438" font-size="4.4" fill="#8A7C69" text-anchor="middle">翻过来：没有刻度，两端并在一处——只是一声应答</text>
+<text x="175" y="385" font-size="5.2" fill="#A2503B" text-anchor="middle">唯</text>
+<text x="190" y="438" font-size="4.5" fill="#8A7C69" text-anchor="middle">翻过来：没有刻度，两端并在一处——只是一声应答</text>
 <text x="24" y="461" font-size="5.0" fill="#4A5C55">二、翻过来的一面：两块牌并在一处</text>
 <text x="24" y="480" font-size="4.9" fill="#2F2A24">尺子有刻度，才有了「几 何」这个问；刻度是人刻的，不是木头上长出来的。</text>
 <text x="24" y="496" font-size="4.9" fill="#2F2A24">同一句应答，这场里是恭顺，换一场就是谄媚——判词在场合手上，不在这句话上。</text>
 <text x="24" y="514" font-size="4.9" fill="#4A5C55">人之所畏，不可不畏：看穿这套规矩，不等于要去撞它。</text>
 <line x1="24" y1="532" x2="338" y2="532" stroke="#DCCBB0" stroke-width="0.6"/>
 <rect x="20" y="540" width="340" height="40" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
-<text x="190" y="556" font-size="6.2" fill="#2F2A24" text-anchor="middle">唯之与阿，相去几何。</text>
+<text x="190" y="556" font-size="6.0" fill="#2F2A24" text-anchor="middle">唯之与阿，相去几何。</text>
 <text x="190" y="568" font-size="5.2" fill="#4A5C55" text-anchor="middle">尺子定的，不是事定的。</text>
 <line x1="20" y1="594" x2="360" y2="594" stroke="#E6D8C2" stroke-width="0.8"/>
 <text x="20" y="608" font-size="8.0" fill="#A89577" letter-spacing="1">本 章 金 句</text>

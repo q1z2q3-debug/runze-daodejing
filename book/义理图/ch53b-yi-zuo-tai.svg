@@ -8,7 +8,7 @@
 <rect x="20" y="102" width="340" height="30" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
 <text x="190" y="114" font-size="5.2" fill="#2F2A24" text-anchor="middle">「除」，《说文》「殿陛也」——不是朝堂很干净，是台阶修得很讲究。</text>
 <text x="190" y="126" font-size="5.2" fill="#6E6459" text-anchor="middle">一个社会的力气是有数的：力气往台阶上使，田里就没有力气。</text>
-<text x="24" y="146" font-size="5.4" fill="#A2503B">同一年的两件事：台在修，田在荒</text>
+<text x="24" y="146" font-size="5.2" fill="#A2503B">同一年的两件事：台在修，田在荒</text>
 <line x1="24" y1="254" x2="130" y2="254" stroke="#2F2A24" stroke-width="1"/>
 <line x1="34" y1="254" x2="31" y2="240" stroke="#4A5C55" stroke-width="0.7"/>
 <line x1="34" y1="254" x2="37" y2="244" stroke="#4A5C55" stroke-width="0.7"/>
@@ -23,7 +23,7 @@
 <line x1="114" y1="254" x2="111" y2="234" stroke="#4A5C55" stroke-width="0.7"/>
 <line x1="114" y1="254" x2="117" y2="238" stroke="#4A5C55" stroke-width="0.7"/>
 <text x="74" y="268" font-size="5.0" fill="#4A5C55" text-anchor="middle">田甚芜</text>
-<text x="74" y="278" font-size="4.4" fill="#6E6459" text-anchor="middle">秽也：长满荒草</text>
+<text x="74" y="278" font-size="4.5" fill="#6E6459" text-anchor="middle">秽也：长满荒草</text>
 <rect x="146" y="230" width="48" height="24" fill="#F2EADA" stroke="#2F2A24" stroke-width="1.0"/>
 <rect x="194" y="206" width="48" height="48" fill="#F2EADA" stroke="#2F2A24" stroke-width="1.0"/>
 <rect x="242" y="182" width="48" height="72" fill="#EFE6D4" stroke="#2F2A24" stroke-width="1.0"/>
@@ -41,7 +41,7 @@
 <text x="326" y="236" font-size="5.0" fill="#8A7E70" text-anchor="middle">空</text>
 <line x1="122" y1="224" x2="168" y2="210" stroke="#A2503B" stroke-width="1.0" marker-end="url(#arrS)"/>
 <text x="126" y="208" font-size="4.6" fill="#A2503B">力气</text>
-<text x="126" y="218" font-size="4.4" fill="#6E6459">往这儿使</text>
+<text x="126" y="218" font-size="4.5" fill="#6E6459">往这儿使</text>
 <text x="24" y="298" font-size="5.2" fill="#2F2A24">三句是一个动作的三处痕迹：台阶往上修，田往下荒，仓往空走。</text>
 <text x="24" y="314" font-size="5.0" fill="#2F2A24">这不是道德问题，是算术问题：力气往台阶上使，田里就没有力气；田里没力气，仓里就空。</text>
 <text x="24" y="330" font-size="5.2" fill="#4A5C55">站在上面的人看不见下面；站在下面的人数得清上面有几级。</text>

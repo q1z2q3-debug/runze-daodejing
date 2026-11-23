@@ -25,7 +25,7 @@
 <text x="40" y="268" font-size="3.6" fill="#8A7C69">这块基，就是「其所」</text>
 <line x1="212" y1="304" x2="348" y2="304" stroke="#2F2A24" stroke-width="0.9"/>
 <rect x="232" y="268" width="52" height="36" fill="#EDE3CE" stroke="#2F2A24" stroke-width="0.7" stroke-dasharray="4 3"/>
-<text x="258" y="290" font-size="3.4" fill="#A2503B" text-anchor="middle">被抽走</text>
+<text x="258" y="290" font-size="3.5" fill="#A2503B" text-anchor="middle">被抽走</text>
 <rect x="232" y="250" width="52" height="18" fill="#E7C9BE" stroke="#2F2A24" stroke-width="0.7"/>
 <text x="258" y="263" font-size="4.2" fill="#A2503B" text-anchor="middle">名</text>
 <rect x="232" y="232" width="52" height="18" fill="#E7C9BE" stroke="#2F2A24" stroke-width="0.7"/>

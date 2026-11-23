@@ -9,20 +9,20 @@
 <text x="190" y="114" font-size="5.0" fill="#2F2A24" text-anchor="middle">四句都从「其」字起——「其」指的不是别人，是自己身上那四处。</text>
 <text x="190" y="128" font-size="5.0" fill="#6E6459" text-anchor="middle">四步排下来是一条路：先卸锋，再理结，再罩光，最后落到与尘同色。</text>
 <rect x="22" y="156" width="158" height="170" fill="#FBF6EC" stroke="#DCCBB0" stroke-width="0.8"/>
-<text x="101" y="174" font-size="5.4" fill="#A2503B" text-anchor="middle">挫其锐</text>
+<text x="101" y="174" font-size="5.2" fill="#A2503B" text-anchor="middle">挫其锐</text>
 <text x="101" y="188" font-size="4.2" fill="#8A7C69" text-anchor="middle">磨去那句非要说赢的话</text>
 <line x1="66" y1="308" x2="136" y2="308" stroke="#DCCBB0" stroke-width="0.6"/>
-<text x="101" y="321" font-size="4.4" fill="#4A5C55" text-anchor="middle">归 圆 融</text>
+<text x="101" y="321" font-size="4.5" fill="#4A5C55" text-anchor="middle">归 圆 融</text>
 <path d="M55,278 L141,278 L135,290 L61,290 z" fill="#E4D8BF" stroke="#2F2A24" stroke-width="0.9"/>
 <path d="M61,272 L127,218 L135,226 L69,280 z" fill="#EFE6D4" stroke="#2F2A24" stroke-width="1"/>
 <path d="M127,218 q9,3 8,12" fill="none" stroke="#A2503B" stroke-width="1.2"/>
 <path d="M71,274 q14,-10 28,-18" fill="none" stroke="#4A5C55" stroke-width="0.7" stroke-dasharray="4 3"/>
 <text x="105" y="304" font-size="4.2" fill="#4A5C55" text-anchor="middle">刀背还在，锋没了</text>
 <rect x="200" y="156" width="158" height="170" fill="#FBF6EC" stroke="#DCCBB0" stroke-width="0.8"/>
-<text x="279" y="174" font-size="5.4" fill="#A2503B" text-anchor="middle">解其纷</text>
+<text x="279" y="174" font-size="5.2" fill="#A2503B" text-anchor="middle">解其纷</text>
 <text x="279" y="188" font-size="4.2" fill="#8A7C69" text-anchor="middle">一团乱线，理出三根</text>
 <line x1="244" y1="308" x2="314" y2="308" stroke="#DCCBB0" stroke-width="0.6"/>
-<text x="279" y="321" font-size="4.4" fill="#4A5C55" text-anchor="middle">归 有 序</text>
+<text x="279" y="321" font-size="4.5" fill="#4A5C55" text-anchor="middle">归 有 序</text>
 <path d="M245,230 q20,14 42,0 q14,-10 26,4" fill="none" stroke="#2F2A24" stroke-width="0.7" opacity="0.8"/>
 <path d="M245,238 q20,-14 42,2 q14,-10 26,-4" fill="none" stroke="#2F2A24" stroke-width="0.7" opacity="0.8"/>
 <path d="M245,246 q20,28 42,4 q14,-10 26,8" fill="none" stroke="#2F2A24" stroke-width="0.7" opacity="0.8"/>
@@ -31,10 +31,10 @@
 <line x1="249" y1="294" x2="309" y2="294" stroke="#4A5C55" stroke-width="0.7" marker-end="url(#arr2)"/>
 <text x="279" y="302" font-size="4.2" fill="#4A5C55" text-anchor="middle">不剪断，只理顺</text>
 <rect x="22" y="340" width="158" height="170" fill="#FBF6EC" stroke="#DCCBB0" stroke-width="0.8"/>
-<text x="101" y="358" font-size="5.4" fill="#A2503B" text-anchor="middle">和其光</text>
+<text x="101" y="358" font-size="5.2" fill="#A2503B" text-anchor="middle">和其光</text>
 <text x="101" y="372" font-size="4.2" fill="#8A7C69" text-anchor="middle">灯还亮，只是不刺眼</text>
 <line x1="66" y1="492" x2="136" y2="492" stroke="#DCCBB0" stroke-width="0.6"/>
-<text x="101" y="505" font-size="4.4" fill="#4A5C55" text-anchor="middle">归 太 和</text>
+<text x="101" y="505" font-size="4.5" fill="#4A5C55" text-anchor="middle">归 太 和</text>
 <circle cx="101" cy="440" r="9" fill="#EFE6D4" stroke="#2F2A24" stroke-width="1"/>
 <line x1="114.0" y1="440.0" x2="121.0" y2="440.0" stroke="#A2503B" stroke-width="0.7"/>
 <line x1="107.5" y1="451.2583302491977" x2="111.0" y2="457.3205080756888" stroke="#A2503B" stroke-width="0.7"/>
@@ -45,10 +45,10 @@
 <path d="M75,466 L127,466 L119,410 L83,410 z" fill="none" stroke="#4A5C55" stroke-width="0.9" stroke-dasharray="5 3"/>
 <text x="101" y="482" font-size="4.2" fill="#4A5C55" text-anchor="middle">罩上去，光还在里面</text>
 <rect x="200" y="340" width="158" height="170" fill="#FBF6EC" stroke="#DCCBB0" stroke-width="0.8"/>
-<text x="279" y="358" font-size="5.4" fill="#A2503B" text-anchor="middle">同其尘</text>
+<text x="279" y="358" font-size="5.2" fill="#A2503B" text-anchor="middle">同其尘</text>
 <text x="279" y="372" font-size="4.2" fill="#8A7C69" text-anchor="middle">不躲尘，也不让尘显出来</text>
 <line x1="244" y1="492" x2="314" y2="492" stroke="#DCCBB0" stroke-width="0.6"/>
-<text x="279" y="505" font-size="4.4" fill="#4A5C55" text-anchor="middle">归 大 同</text>
+<text x="279" y="505" font-size="4.5" fill="#4A5C55" text-anchor="middle">归 大 同</text>
 <path d="M255,418 q24,10 48,0 L309,470 L249,470 z" fill="#EFE6D4" stroke="#2F2A24" stroke-width="1"/>
 <circle cx="253" cy="424" r="1.1" fill="#B9A98F"/>
 <circle cx="264" cy="431" r="1.1" fill="#B9A98F"/>
@@ -63,8 +63,8 @@
 <circle cx="255" cy="452" r="1.1" fill="#B9A98F"/>
 <circle cx="266" cy="459" r="1.1" fill="#B9A98F"/>
 <text x="279" y="484" font-size="4.2" fill="#4A5C55" text-anchor="middle">衣与尘一色，才不显</text>
-<text x="24" y="526" font-size="5.4" fill="#2F2A24">四步落在一处：把「我」的锋、结、光、色，一样一样收回到与万物同的程度。</text>
-<text x="24" y="542" font-size="5.4" fill="#2F2A24">收不是抹掉——刀背还在，线还在，灯还在，衣还在；只是不再靠它们站到人前去。</text>
+<text x="24" y="526" font-size="5.2" fill="#2F2A24">四步落在一处：把「我」的锋、结、光、色，一样一样收回到与万物同的程度。</text>
+<text x="24" y="542" font-size="5.2" fill="#2F2A24">收不是抹掉——刀背还在，线还在，灯还在，衣还在；只是不再靠它们站到人前去。</text>
 <text x="24" y="560" font-size="5.2" fill="#4A5C55">「同其尘」最难：不是自甘低下，是不必再让人看见自己干净。</text>
 <line x1="24" y1="578" x2="338" y2="578" stroke="#DCCBB0" stroke-width="0.6"/>
 <rect x="20" y="586" width="340" height="40" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>

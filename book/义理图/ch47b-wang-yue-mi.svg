@@ -50,7 +50,7 @@
 <text x="312" y="276" font-size="5.2" fill="#6E6459" text-anchor="middle">走得很远：看不见了</text>
 <text x="24" y="296" font-size="5.8" fill="#2F2A24">三个圆里是同一片「知」。网眼越密，中间那点亮越小；</text>
 <text x="24" y="312" font-size="5.8" fill="#A2503B">线都是你自己一条条捡回来的，捡得越多，越放不下。</text>
-<text x="24" y="328" font-size="5.4" fill="#6E6459">老子不是反对看；他反对把「向外看」当成求道的路。</text>
+<text x="24" y="328" font-size="5.2" fill="#6E6459">老子不是反对看；他反对把「向外看」当成求道的路。</text>
 <line x1="24" y1="346" x2="338" y2="346" stroke="#DCCBB0" stroke-width="0.6"/>
 <rect x="20" y="354" width="340" height="40" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
 <text x="190" y="370" font-size="5.2" fill="#2F2A24" text-anchor="middle">信息是捡回来的，通是放下去的；</text>

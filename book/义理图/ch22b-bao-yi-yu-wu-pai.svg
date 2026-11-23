@@ -16,7 +16,7 @@
 <path d="M141,206 Q130,226 141,240" fill="none" stroke="#2F2A24" stroke-width="1.0"/>
 <path d="M159,206 Q170,226 159,240" fill="none" stroke="#2F2A24" stroke-width="1.0"/>
 <rect x="143" y="208" width="14" height="34" fill="#F2EADA" stroke="#2F2A24" stroke-width="1.0"/>
-<text x="150" y="230" font-size="5.4" fill="#A2503B" text-anchor="middle">一</text>
+<text x="150" y="230" font-size="5.2" fill="#A2503B" text-anchor="middle">一</text>
 <circle cx="141" cy="240" r="2.6" fill="none" stroke="#2F2A24" stroke-width="0.9"/>
 <circle cx="159" cy="240" r="2.6" fill="none" stroke="#2F2A24" stroke-width="0.9"/>
 <text x="184" y="216" font-size="3.9" fill="#4A5C55">一根木简，贴胸揣着</text>
@@ -56,7 +56,7 @@
 <text x="24" y="654" font-size="4.9" fill="#4A5C55">儒者教你把举起来的手放低，老子问你为什么非要举。</text>
 <line x1="24" y1="670" x2="338" y2="670" stroke="#DCCBB0" stroke-width="0.6"/>
 <rect x="20" y="678" width="340" height="40" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
-<text x="190" y="694" font-size="5.4" fill="#2F2A24" text-anchor="middle">是以圣人抱一为天下式。</text>
+<text x="190" y="694" font-size="5.2" fill="#2F2A24" text-anchor="middle">是以圣人抱一为天下式。</text>
 <text x="190" y="706" font-size="4.7" fill="#4A5C55" text-anchor="middle">式只有一条：不是把自己分成好几套标准。</text>
 <line x1="20" y1="732" x2="360" y2="732" stroke="#E6D8C2" stroke-width="0.8"/>
 <text x="20" y="746" font-size="8.0" fill="#A89577" letter-spacing="1">本 章 金 句</text>

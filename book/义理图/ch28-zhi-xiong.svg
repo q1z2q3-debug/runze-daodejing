@@ -14,9 +14,9 @@
 <line x1="292" y1="230" x2="330" y2="230" stroke="#E6D8C2" stroke-width="1.0"/>
 <polygon points="296,230 304,218 314,218 322,230" fill="#EFE6D4" stroke="#2F2A24" stroke-width="0.9"/>
 <rect x="228" y="228" width="54" height="16" fill="#F3EAD8" stroke="#2F2A24" stroke-width="0.8"/>
-<text x="255" y="239" font-size="4.3" fill="#2F2A24" text-anchor="middle">雄·白·荣</text>
+<text x="255" y="239" font-size="4.5" fill="#2F2A24" text-anchor="middle">雄·白·荣</text>
 <rect x="40" y="360" width="54" height="16" fill="#F3EAD8" stroke="#2F2A24" stroke-width="0.8"/>
-<text x="67" y="371" font-size="4.3" fill="#2F2A24" text-anchor="middle">雌·黑·辱</text>
+<text x="67" y="371" font-size="4.5" fill="#2F2A24" text-anchor="middle">雌·黑·辱</text>
 <circle cx="150" cy="271.8461538461538" r="5.6" fill="none" stroke="#2F2A24" stroke-width="1.0"/>
 <line x1="150" y1="277.8461538461538" x2="150" y2="301.8461538461538" stroke="#2F2A24" stroke-width="1.2"/>
 <line x1="150" y1="301.8461538461538" x2="144" y2="311.8461538461538" stroke="#2F2A24" stroke-width="1.0"/>

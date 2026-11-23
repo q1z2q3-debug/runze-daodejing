@@ -21,7 +21,7 @@
 <line x1="158" y1="196" x2="158" y2="210" stroke="#A2503B" stroke-width="0.9" marker-end="url(#arrS)"/>
 <line x1="163" y1="196" x2="163" y2="210" stroke="#A2503B" stroke-width="0.9" marker-end="url(#arrS)"/>
 <line x1="168" y1="196" x2="168" y2="210" stroke="#A2503B" stroke-width="0.9" marker-end="url(#arrS)"/>
-<text x="120" y="298" font-size="4.4" fill="#A2503B" text-anchor="middle">东：两头扎起的囊橐</text>
+<text x="120" y="298" font-size="4.5" fill="#A2503B" text-anchor="middle">东：两头扎起的囊橐</text>
 <rect x="250" y="244" width="58" height="12" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
 <text x="279" y="252.4" font-size="4.0" fill="#2F2A24" text-anchor="middle">赋税</text>
 <rect x="250" y="230" width="58" height="12" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
@@ -42,7 +42,7 @@
 <path d="M236,458 Q226,460 228,474 Q230,488 242,488 Q254,488 256,474 Q258,460 248,458 Z" fill="#EFE6D4" stroke="#2F2A24" stroke-width="1" stroke-dasharray="2 2"/>
 <circle cx="242" cy="455" r="4.2" fill="none" stroke="#2F2A24" stroke-width="0.8" stroke-dasharray="2 2"/>
 <circle cx="242" cy="491" r="4.2" fill="none" stroke="#2F2A24" stroke-width="0.8" stroke-dasharray="2 2"/>
-<text x="306" y="478" font-size="4.4" fill="#4A5C55" text-anchor="middle">口袋放在地上</text>
+<text x="306" y="478" font-size="4.5" fill="#4A5C55" text-anchor="middle">口袋放在地上</text>
 <circle cx="176" cy="432" r="13" fill="none" stroke="#4A5C55" stroke-width="0.9" opacity="0.7"/>
 <text x="176" y="434" font-size="4.2" fill="#4A5C55" text-anchor="middle">背空</text>
 <text x="190" y="520" font-size="4.6" fill="#4A5C55" text-anchor="middle">民不重：背上不多一个口袋</text>

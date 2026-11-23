@@ -20,7 +20,7 @@
 <line x1="232" y1="196" x2="246" y2="196" stroke="#E6D8C2" stroke-width="0.9"/>
 <line x1="266" y1="196" x2="280" y2="196" stroke="#E6D8C2" stroke-width="0.9"/>
 <line x1="300" y1="196" x2="314" y2="196" stroke="#E6D8C2" stroke-width="0.9"/>
-<text x="190" y="234" font-size="4.4" fill="#8A7C69" text-anchor="middle">走的人自自然然，不必抬头看谁立的牌子</text>
+<text x="190" y="234" font-size="4.5" fill="#8A7C69" text-anchor="middle">走的人自自然然，不必抬头看谁立的牌子</text>
 <text x="24" y="259" font-size="5.0" fill="#4A5C55">一、道在：一条路，没有匾，也没有人称赞走过它的人</text>
 <rect x="26" y="272" width="328" height="152" fill="#FBF6EC" stroke="#DCCBB0" stroke-width="0.8"/>
 <rect x="40" y="353" width="142" height="38" fill="#EFE6D4" stroke="none"/>
@@ -40,21 +40,21 @@
 <line x1="223" y1="391" x2="227" y2="385" stroke="#4A5C55" stroke-width="0.6"/>
 <line x1="223" y1="391" x2="218" y2="386" stroke="#4A5C55" stroke-width="0.6"/>
 <rect x="185" y="286" width="38" height="64" fill="#F2EADA" stroke="#2F2A24" stroke-width="1.2"/>
-<text x="204" y="308" font-size="7.0" fill="#A2503B" text-anchor="middle">仁</text>
-<text x="204" y="334" font-size="7.0" fill="#A2503B" text-anchor="middle">义</text>
+<text x="204" y="308" font-size="7.4" fill="#A2503B" text-anchor="middle">仁</text>
+<text x="204" y="334" font-size="7.4" fill="#A2503B" text-anchor="middle">义</text>
 <line x1="192" y1="350" x2="192" y2="389" stroke="#2F2A24" stroke-width="1.8"/>
 <line x1="216" y1="350" x2="216" y2="389" stroke="#2F2A24" stroke-width="1.8"/>
-<text x="204" y="276" font-size="4.4" fill="#8A7C69" text-anchor="middle">新立的匾</text>
+<text x="204" y="276" font-size="4.5" fill="#8A7C69" text-anchor="middle">新立的匾</text>
 <text x="262" y="328" font-size="4.5" fill="#6E6459">匾是新的：刚立起来</text>
 <text x="262" y="342" font-size="4.5" fill="#6E6459">路是旧的：已经没人走</text>
-<text x="190" y="412" font-size="4.4" fill="#8A7C69" text-anchor="middle">匾长出来的地方，正是路不长的那一处</text>
+<text x="190" y="412" font-size="4.5" fill="#8A7C69" text-anchor="middle">匾长出来的地方，正是路不长的那一处</text>
 <text x="24" y="437" font-size="5.0" fill="#A2503B">二、道废：路断了，才立起「仁义」这块匾</text>
 <text x="24" y="456" font-size="4.9" fill="#2F2A24">「废」是隐而不行，不是道没了：道恒存，只是人不再依它走。</text>
 <text x="24" y="472" font-size="4.9" fill="#2F2A24">能提出仁义，说明人还知道该往哪儿走；要提出来，说明它已不在原位。</text>
 <text x="24" y="490" font-size="4.9" fill="#4A5C55">名号是被缺口造出来的：缺口越大，名号越亮。</text>
 <line x1="24" y1="508" x2="338" y2="508" stroke="#DCCBB0" stroke-width="0.6"/>
 <rect x="20" y="516" width="340" height="40" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
-<text x="190" y="532" font-size="6.2" fill="#2F2A24" text-anchor="middle">大道废，有仁义；</text>
+<text x="190" y="532" font-size="6.0" fill="#2F2A24" text-anchor="middle">大道废，有仁义；</text>
 <text x="190" y="544" font-size="5.2" fill="#4A5C55" text-anchor="middle">不是骂仁义，是给仁义记一笔来处。</text>
 <line x1="20" y1="570" x2="360" y2="570" stroke="#E6D8C2" stroke-width="0.8"/>
 <text x="20" y="584" font-size="8.0" fill="#A89577" letter-spacing="1">本 章 金 句</text>

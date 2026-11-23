@@ -13,18 +13,18 @@
 <line x1="34" y1="292" x2="330" y2="292" stroke="#2F2A24" stroke-width="1"/>
 <path d="M56,244 Q78,288 100,244" fill="#EFE6D4" stroke="#2F2A24" stroke-width="1.2"/>
 <line x1="54" y1="244" x2="102" y2="244" stroke="#2F2A24" stroke-width="1.2"/>
-<text x="78" y="306" font-size="4.3" fill="#6E6459" text-anchor="middle">不足</text>
+<text x="78" y="306" font-size="4.5" fill="#6E6459" text-anchor="middle">不足</text>
 <path d="M262,226 Q288,278 314,226" fill="#EFE6D4" stroke="#2F2A24" stroke-width="1.2"/>
 <line x1="258" y1="226" x2="318" y2="226" stroke="#2F2A24" stroke-width="1.2"/>
 <path d="M258,226 q30,-14 60,0" fill="#DED2B8" stroke="#2F2A24" stroke-width="1"/>
-<text x="288" y="306" font-size="4.3" fill="#A2503B" text-anchor="middle">有余</text>
+<text x="288" y="306" font-size="4.5" fill="#A2503B" text-anchor="middle">有余</text>
 <path d="M98,214 Q118,228 138,214" fill="#EFE6D4" stroke="#2F2A24" stroke-width="1"/>
 <line x1="108" y1="216" x2="107" y2="206" stroke="#2F2A24" stroke-width="0.8"/>
 <line x1="117" y1="216" x2="116" y2="206" stroke="#2F2A24" stroke-width="0.8"/>
 <line x1="126" y1="216" x2="125" y2="206" stroke="#2F2A24" stroke-width="0.8"/>
 <path d="M140,214 Q200,188 258,208" fill="none" stroke="#A2503B" stroke-width="1" stroke-dasharray="4 3"/>
 <polygon points="258,208 246,204 248,214" fill="#A2503B"/>
-<text x="190" y="186" font-size="4.3" fill="#A2503B" text-anchor="middle">捧而献之</text>
+<text x="190" y="186" font-size="4.5" fill="#A2503B" text-anchor="middle">捧而献之</text>
 <text x="190" y="328" font-size="4.6" fill="#4A5C55" text-anchor="middle">夺者含恨，献者含敬；而最冷者，献者自愿也</text>
 <text x="24" y="352" font-size="4.8" fill="#4A5C55">二、唯有道者：倒过来捧</text>
 <rect x="26" y="364" width="328" height="152" fill="#FBF6EC" stroke="#DCCBB0" stroke-width="0.8"/>
@@ -32,24 +32,24 @@
 <path d="M56,428 Q82,480 108,428" fill="#EFE6D4" stroke="#2F2A24" stroke-width="1.2"/>
 <line x1="52" y1="428" x2="112" y2="428" stroke="#2F2A24" stroke-width="1.2"/>
 <path d="M52,428 q30,-14 60,0" fill="#DED2B8" stroke="#2F2A24" stroke-width="1"/>
-<text x="82" y="508" font-size="4.3" fill="#A2503B" text-anchor="middle">有余</text>
+<text x="82" y="508" font-size="4.5" fill="#A2503B" text-anchor="middle">有余</text>
 <path d="M262,446 Q288,490 314,446" fill="#EFE6D4" stroke="#2F2A24" stroke-width="1.2"/>
 <line x1="260" y1="446" x2="316" y2="446" stroke="#2F2A24" stroke-width="1.2"/>
-<text x="288" y="508" font-size="4.3" fill="#6E6459" text-anchor="middle">不足</text>
+<text x="288" y="508" font-size="4.5" fill="#6E6459" text-anchor="middle">不足</text>
 <path d="M120,412 Q200,390 260,426" fill="none" stroke="#4A5C55" stroke-width="1" stroke-dasharray="4 3"/>
 <polygon points="260,426 248,422 250,432" fill="#4A5C55"/>
 <path d="M178,402 Q200,418 222,402" fill="#EFE6D4" stroke="#2F2A24" stroke-width="1"/>
 <line x1="187" y1="404" x2="186" y2="394" stroke="#2F2A24" stroke-width="0.8"/>
 <line x1="195" y1="404" x2="194" y2="394" stroke="#2F2A24" stroke-width="0.8"/>
 <line x1="203" y1="404" x2="202" y2="394" stroke="#2F2A24" stroke-width="0.8"/>
-<text x="196" y="390" font-size="4.3" fill="#4A5C55" text-anchor="middle">有余以奉天下</text>
+<text x="196" y="390" font-size="4.5" fill="#4A5C55" text-anchor="middle">有余以奉天下</text>
 <text x="190" y="530" font-size="4.6" fill="#4A5C55" text-anchor="middle">孰能有余以奉天下？唯有道者</text>
 <text x="24" y="554" font-size="4.8" fill="#2F2A24">人之道非「有人夺我」，乃「令被夺者自捧而献，且以为当然」。</text>
 <text x="24" y="570" font-size="4.8" fill="#2F2A24">同一双手，两个方向：向上献，是人之道；向下倒，是道者。</text>
 <text x="24" y="588" font-size="5.0" fill="#4A5C55">不欲见贤者，不欲使人见其所有余也。</text>
 <line x1="24" y1="606" x2="338" y2="606" stroke="#DCCBB0" stroke-width="0.6"/>
 <rect x="20" y="614" width="340" height="40" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
-<text x="190" y="629" font-size="5.4" fill="#2F2A24" text-anchor="middle">人之道则不然，损不足以奉有余。</text>
+<text x="190" y="629" font-size="5.2" fill="#2F2A24" text-anchor="middle">人之道则不然，损不足以奉有余。</text>
 <text x="190" y="642" font-size="4.7" fill="#4A5C55" text-anchor="middle">奉者，承也：两手捧而献之。</text>
 <line x1="20" y1="670" x2="360" y2="670" stroke="#E6D8C2" stroke-width="0.8"/>
 <text x="20" y="684" font-size="8.0" fill="#A89577" letter-spacing="1">本 章 金 句</text>

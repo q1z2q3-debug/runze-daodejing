@@ -26,7 +26,7 @@
 <path d="M156,240 L200,240 L196,262 L160,262 Z" fill="#EFE6D4" stroke="#2F2A24" stroke-width="0.9"/>
 <path d="M160,248 L196,248 L196,262 L160,262 Z" fill="#DDE9E1" stroke="none"/>
 <line x1="158" y1="248" x2="198" y2="248" stroke="#E6D8C2" stroke-width="0.5"/>
-<text x="190" y="292" font-size="4.3" fill="#2F2A24" text-anchor="middle">水递过去，手就空了——事做完，事就完了</text>
+<text x="190" y="292" font-size="4.5" fill="#2F2A24" text-anchor="middle">水递过去，手就空了——事做完，事就完了</text>
 <text x="24" y="322" font-size="5.0" fill="#4A5C55">二、下德：另一只手里，攥着一本账</text>
 <rect x="26" y="334" width="328" height="140" fill="#FBF6EC" stroke="#DCCBB0" stroke-width="0.8"/>
 <line x1="40" y1="446" x2="340" y2="446" stroke="#DCCBB0" stroke-width="0.9"/>
@@ -50,7 +50,7 @@
 <line x1="69.5" y1="396" x2="69.5" y2="419" stroke="#A2503B" stroke-width="0.4"/>
 <line x1="64" y1="404" x2="76" y2="404" stroke="#A2503B" stroke-width="0.4"/>
 <text x="69.5" y="416" font-size="3.8" fill="#A2503B" text-anchor="middle">德</text>
-<text x="190" y="462" font-size="4.3" fill="#2F2A24" text-anchor="middle">事一样做完了，可还记了一笔——这一笔是记给自己看的</text>
+<text x="190" y="462" font-size="4.5" fill="#2F2A24" text-anchor="middle">事一样做完了，可还记了一笔——这一笔是记给自己看的</text>
 <line x1="24" y1="480" x2="356" y2="480" stroke="#DCCBB0" stroke-width="0.6"/>
 <rect x="20" y="488" width="340" height="40" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
 <text x="190" y="504" font-size="4.8" fill="#2F2A24" text-anchor="middle">上德做事，做完就完；下德做事，做完还要记一笔。</text>

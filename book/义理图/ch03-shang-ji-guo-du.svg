@@ -8,15 +8,15 @@
 <text x="20" y="116" font-size="9.5" fill="#A2503B">不尚贤</text>
 <line x1="112" y1="111" x2="132" y2="111" stroke="#DCCBB0" stroke-width="1" marker-end="url(#arr)"/>
 <text x="138" y="116" font-size="9.5" fill="#2F2A24">使民不争</text>
-<text x="206" y="116" font-size="8.5" fill="#6E6459">把长处摆成徽章</text>
+<text x="206" y="116" font-size="8.4" fill="#6E6459">把长处摆成徽章</text>
 <text x="20" y="140" font-size="9.5" fill="#A2503B">不贵难得之货</text>
 <line x1="112" y1="135" x2="132" y2="135" stroke="#DCCBB0" stroke-width="1" marker-end="url(#arr)"/>
 <text x="138" y="140" font-size="9.5" fill="#2F2A24">使民不为盗</text>
-<text x="206" y="140" font-size="8.5" fill="#6E6459">把稀罕标成高价</text>
+<text x="206" y="140" font-size="8.4" fill="#6E6459">把稀罕标成高价</text>
 <text x="20" y="164" font-size="9.5" fill="#A2503B">不见可欲</text>
 <line x1="112" y1="159" x2="132" y2="159" stroke="#DCCBB0" stroke-width="1" marker-end="url(#arr)"/>
 <text x="138" y="164" font-size="9.5" fill="#2F2A24">使民心不乱</text>
-<text x="206" y="164" font-size="8.5" fill="#6E6459">把勾人的摆到眼前</text>
+<text x="206" y="164" font-size="8.4" fill="#6E6459">把勾人的摆到眼前</text>
 <text x="20" y="180" font-size="9" fill="#8A7C69">三个动作是同一件：不主动抬它，标尺就不起来。</text>
 <text x="20" y="204" font-size="9.5" fill="#8A7C69">经文四句，恰好分成壁与空</text>
 <rect x="36" y="234" width="13" height="74" fill="#2F2A24" opacity="0.62"/>
@@ -25,9 +25,9 @@
 <text x="90" y="275.0" font-size="12" fill="#8A7C69" text-anchor="middle">空</text>
 <text x="26" y="228" font-size="9" fill="#A2503B">壁</text>
 <text x="162" y="236" font-size="9.5" fill="#A2503B">实其腹 · 强其骨 → 壁</text>
-<text x="162" y="252" font-size="8.5" fill="#6E6459">厚其壁，是让它立得住</text>
+<text x="162" y="252" font-size="8.4" fill="#6E6459">厚其壁，是让它立得住</text>
 <text x="162" y="282" font-size="9.5" fill="#4A5C55">虚其心 · 弱其志 → 空</text>
-<text x="162" y="298" font-size="8.5" fill="#6E6459">守其空，是让空用得起</text>
+<text x="162" y="298" font-size="8.4" fill="#6E6459">守其空，是让空用得起</text>
 <text x="20" y="332" font-size="9.2" fill="#8A7C69">同一段壁的三种质地：变的是壁，空一直是空</text>
 <circle cx="72" cy="394" r="40.5" fill="none" stroke="#2F2A24" stroke-width="7" opacity="0.34"/>
 <text x="72" y="398" font-size="9.5" fill="#8A7C69" text-anchor="middle">空</text>
@@ -44,14 +44,14 @@
 <text x="308" y="398" font-size="9" fill="#8A7C69" text-anchor="middle">空</text>
 <text x="308" y="454" font-size="10" fill="#A2503B" text-anchor="middle">海绵壁</text>
 <text x="308" y="470" font-size="8.4" fill="#6E6459" text-anchor="middle">过度：壁胀、变厚</text>
-<text x="308" y="484" font-size="7.9" fill="#6E6459" text-anchor="middle">腔被挤小，空吸进孔里</text>
+<text x="308" y="484" font-size="8.0" fill="#6E6459" text-anchor="middle">腔被挤小，空吸进孔里</text>
 <rect x="20" y="500" width="340" height="60" fill="#F6EFE0" stroke="#C9B79A" stroke-width="1.0" stroke-dasharray="4 3"/>
-<text x="32" y="517" font-size="8.8" fill="#A2503B">「虚」不是实的反面：是有的那部分自己松成海绵</text>
-<text x="32" y="533" font-size="8.6" fill="#6E6459">虚其心：在空上做减法，留白，空还照用。</text>
-<text x="32" y="549" font-size="8.6" fill="#6E6459">反例·腹虚：在壁上被动的松，料变多孔、变胀，空反被吃掉。</text>
+<text x="32" y="517" font-size="8.4" fill="#A2503B">「虚」不是实的反面：是有的那部分自己松成海绵</text>
+<text x="32" y="533" font-size="8.4" fill="#6E6459">虚其心：在空上做减法，留白，空还照用。</text>
+<text x="32" y="549" font-size="8.4" fill="#6E6459">反例·腹虚：在壁上被动的松，料变多孔、变胀，空反被吃掉。</text>
 <rect x="20" y="574" width="340" height="40" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
 <text x="190" y="593" font-size="11.5" fill="#2F2A24" text-anchor="middle" letter-spacing="1">有之以为利，无之以为用。</text>
-<text x="190" y="608" font-size="8.8" fill="#6E6459" text-anchor="middle">过与不及，皆失其用。</text>
+<text x="190" y="608" font-size="8.4" fill="#6E6459" text-anchor="middle">过与不及，皆失其用。</text>
 <line x1="20" y1="642" x2="360" y2="642" stroke="#E6D8C2" stroke-width="0.8"/>
 <text x="20" y="656" font-size="8.0" fill="#A89577" letter-spacing="1">本 章 金 句</text>
 <text x="20" y="672" font-size="8.4" fill="#2F2A24">不尚贤，使民不争。</text>

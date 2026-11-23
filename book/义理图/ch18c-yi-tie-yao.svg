@@ -16,10 +16,10 @@
 <ellipse cx="108" cy="180" rx="29.0" ry="5" fill="#E4D8BF" stroke="#2F2A24" stroke-width="1.0"/>
 <path d="M80.0,180 q28.0,7 56,0" fill="none" stroke="#2F2A24" stroke-width="0.7"/>
 <rect x="99" y="171" width="18" height="12" fill="#F2EADA" stroke="#A2503B" stroke-width="0.8"/>
-<text x="108" y="180" font-size="4.3" fill="#A2503B" text-anchor="middle">封</text>
+<text x="108" y="180" font-size="4.5" fill="#A2503B" text-anchor="middle">封</text>
 <text x="170" y="198" font-size="4.6" fill="#4A5C55">没病：药封在罐里，不煎</text>
-<text x="170" y="212" font-size="4.4" fill="#6E6459">家里不必天天讲孝</text>
-<text x="170" y="226" font-size="4.4" fill="#6E6459">国里没有忠臣可称</text>
+<text x="170" y="212" font-size="4.5" fill="#6E6459">家里不必天天讲孝</text>
+<text x="170" y="226" font-size="4.5" fill="#6E6459">国里没有忠臣可称</text>
 <text x="24" y="281" font-size="5.0" fill="#4A5C55">一、本和：药在罐里，谁也不必被称赞</text>
 <rect x="26" y="294" width="328" height="150" fill="#FBF6EC" stroke="#DCCBB0" stroke-width="0.8"/>
 <path d="M76,396 L85,426 L131,426 L140,396 Z" fill="#EFE6D4" stroke="#2F2A24" stroke-width="1.0"/>
@@ -38,9 +38,9 @@
 <line x1="280" y1="392" x2="280" y2="404" stroke="#2F2A24" stroke-width="0.8"/>
 <path d="M232,391 q20,22 40,0 Z" fill="#E9F0E6" stroke="#2F2A24" stroke-width="1.0"/>
 <ellipse cx="252" cy="391" rx="20" ry="4" fill="#E4D8BF" stroke="#2F2A24" stroke-width="0.9"/>
-<text x="298" y="334" font-size="4.4" fill="#A2503B">煎得满屋药气</text>
-<text x="298" y="348" font-size="4.4" fill="#6E6459">人人夸这药好</text>
-<text x="298" y="362" font-size="4.4" fill="#6E6459">夸的是药，病还在</text>
+<text x="298" y="334" font-size="4.5" fill="#A2503B">煎得满屋药气</text>
+<text x="298" y="348" font-size="4.5" fill="#6E6459">人人夸这药好</text>
+<text x="298" y="362" font-size="4.5" fill="#6E6459">夸的是药，病还在</text>
 <text x="24" y="457" font-size="5.0" fill="#A2503B">二、有病：上了炉，才煎得出孝慈与忠臣</text>
 <text x="24" y="476" font-size="4.9" fill="#2F2A24">孝慈是医治不和的药，不是本来无病的常态。</text>
 <text x="24" y="492" font-size="4.9" fill="#2F2A24">忠臣是昏乱中扶危的人，不是乱因；次序不可倒：先有缺口，才有名号。</text>

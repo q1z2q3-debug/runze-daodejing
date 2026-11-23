@@ -34,9 +34,9 @@
 <path d="M325,262 q6,-4 9,1" fill="none" stroke="#E6D8C2" stroke-width="0.6"/>
 <path d="M333,267 q7,-5 11,1" fill="none" stroke="#E6D8C2" stroke-width="0.9"/>
 <path d="M334,262 q6,-4 9,1" fill="none" stroke="#E6D8C2" stroke-width="0.6"/>
-<text x="84" y="282" font-size="4.3" fill="#6E6459" text-anchor="middle">染缸里有染液</text>
-<text x="180" y="282" font-size="4.3" fill="#A2503B" text-anchor="middle">染过的绢：纹是外加的</text>
-<text x="288" y="282" font-size="4.3" fill="#6E6459" text-anchor="middle">下过斧的器</text>
+<text x="84" y="282" font-size="4.5" fill="#6E6459" text-anchor="middle">染缸里有染液</text>
+<text x="180" y="282" font-size="4.5" fill="#A2503B" text-anchor="middle">染过的绢：纹是外加的</text>
+<text x="288" y="282" font-size="4.5" fill="#6E6459" text-anchor="middle">下过斧的器</text>
 <text x="190" y="170" font-size="4.6" fill="#6E6459" text-anchor="middle">三处都在加：染、雕、斧斤</text>
 <text x="24" y="319" font-size="5.0" fill="#A2503B">一、文饰之后：一处是染的，一处是下过斧的</text>
 <rect x="26" y="332" width="328" height="156" fill="#FBF6EC" stroke="#DCCBB0" stroke-width="0.8"/>
@@ -52,9 +52,9 @@
 <line x1="275" y1="408" x2="275" y2="412" stroke="#2F2A24" stroke-width="0.5"/>
 <line x1="275" y1="420" x2="275" y2="424" stroke="#2F2A24" stroke-width="0.5"/>
 <line x1="275" y1="432" x2="275" y2="436" stroke="#2F2A24" stroke-width="0.5"/>
-<text x="84" y="464" font-size="4.3" fill="#8A7C69" text-anchor="middle">染缸空着</text>
-<text x="180" y="464" font-size="4.3" fill="#4A5C55" text-anchor="middle">素：未染，本就是那个色</text>
-<text x="288" y="464" font-size="4.3" fill="#4A5C55" text-anchor="middle">朴：未下斧，带着皮</text>
+<text x="84" y="464" font-size="4.5" fill="#8A7C69" text-anchor="middle">染缸空着</text>
+<text x="180" y="464" font-size="4.5" fill="#4A5C55" text-anchor="middle">素：未染，本就是那个色</text>
+<text x="288" y="464" font-size="4.5" fill="#4A5C55" text-anchor="middle">朴：未下斧，带着皮</text>
 <text x="190" y="352" font-size="4.6" fill="#6E6459" text-anchor="middle">还是那三样：一件没多，只是没再加工</text>
 <text x="24" y="501" font-size="5.0" fill="#4A5C55">二、素与朴：丝回到本色，木回到原本</text>
 <text x="24" y="520" font-size="4.9" fill="#2F2A24">少私寡欲：减的是攀缘，不除本然——吃饭穿衣不在戒除之列。</text>
@@ -62,7 +62,7 @@
 <text x="24" y="554" font-size="4.9" fill="#4A5C55">外学越积越多，多到装不下就忧；内明越照越少，少到不占地方就无忧。</text>
 <line x1="24" y1="572" x2="338" y2="572" stroke="#DCCBB0" stroke-width="0.6"/>
 <rect x="20" y="580" width="340" height="40" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
-<text x="190" y="596" font-size="6.2" fill="#2F2A24" text-anchor="middle">见素抱朴，少私寡欲。</text>
+<text x="190" y="596" font-size="6.0" fill="#2F2A24" text-anchor="middle">见素抱朴，少私寡欲。</text>
 <text x="190" y="608" font-size="5.1" fill="#4A5C55" text-anchor="middle">不染不雕，不必靠外加的东西证明自己。</text>
 <line x1="20" y1="634" x2="360" y2="634" stroke="#E6D8C2" stroke-width="0.8"/>
 <text x="20" y="648" font-size="8.0" fill="#A89577" letter-spacing="1">本 章 金 句</text>

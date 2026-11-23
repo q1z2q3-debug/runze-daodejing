@@ -17,10 +17,10 @@
 <polygon points="96,202 84,198 86,208" fill="#B9A98F"/>
 <path d="M136,294 Q140,258 168,240 Q196,224 206,202" fill="none" stroke="#2F2A24" stroke-width="1.6"/>
 <path d="M146,270 q-16,-2 -22,-12" fill="none" stroke="#2F2A24" stroke-width="1"/>
-<text x="214" y="228" font-size="4.4" fill="#A2503B">弯</text>
+<text x="214" y="228" font-size="4.5" fill="#A2503B">弯</text>
 <path d="M206,202 Q198,188 176,190" fill="none" stroke="#4A5C55" stroke-width="1" stroke-dasharray="4 3"/>
 <polygon points="176,190 186,186 186,196" fill="#4A5C55"/>
-<text x="176" y="180" font-size="4.3" fill="#4A5C55" text-anchor="middle">风过了：回来</text>
+<text x="176" y="180" font-size="4.5" fill="#4A5C55" text-anchor="middle">风过了：回来</text>
 <text x="190" y="328" font-size="4.6" fill="#4A5C55" text-anchor="middle">枝条被风弯，风过了它回来：柔的失败，只是变形</text>
 <text x="24" y="352" font-size="4.8" fill="#4A5C55">二、同一根枝，被折断了</text>
 <rect x="26" y="364" width="328" height="152" fill="#FBF6EC" stroke="#DCCBB0" stroke-width="0.8"/>
@@ -29,8 +29,8 @@
 <path d="M140,442 l-6,-10 l8,-2 l-6,-9" fill="none" stroke="#A2503B" stroke-width="1.2"/>
 <path d="M142,440 Q176,456 196,492" fill="none" stroke="#2F2A24" stroke-width="1.4"/>
 <line x1="196" y1="492" x2="214" y2="494" stroke="#2F2A24" stroke-width="1.2"/>
-<text x="228" y="460" font-size="4.3" fill="#A2503B">断口：</text>
-<text x="228" y="472" font-size="4.3" fill="#6E6459">接不回去</text>
+<text x="228" y="460" font-size="4.5" fill="#A2503B">断口：</text>
+<text x="228" y="472" font-size="4.5" fill="#6E6459">接不回去</text>
 <text x="228" y="492" font-size="4.2" fill="#6E6459">梢落在地上</text>
 <text x="190" y="530" font-size="4.6" fill="#4A5C55" text-anchor="middle">同样一个力：弯的回来了，断的回不来</text>
 <text x="24" y="554" font-size="4.8" fill="#2F2A24">所以柔非软也，可逆也；弱非无力也，桡也——曲而能直。</text>
@@ -38,7 +38,7 @@
 <text x="24" y="588" font-size="5.0" fill="#4A5C55">柔的失败是变形，强的失败是断。</text>
 <line x1="24" y1="606" x2="338" y2="606" stroke="#DCCBB0" stroke-width="0.6"/>
 <rect x="20" y="614" width="340" height="40" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
-<text x="190" y="629" font-size="5.4" fill="#2F2A24" text-anchor="middle">人之生也柔弱，其死也坚强。</text>
+<text x="190" y="629" font-size="5.2" fill="#2F2A24" text-anchor="middle">人之生也柔弱，其死也坚强。</text>
 <text x="190" y="642" font-size="4.7" fill="#4A5C55" text-anchor="middle">曲者可直，直者可曲。</text>
 <line x1="20" y1="670" x2="360" y2="670" stroke="#E6D8C2" stroke-width="0.8"/>
 <text x="20" y="684" font-size="8.0" fill="#A89577" letter-spacing="1">本 章 金 句</text>

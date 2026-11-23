@@ -8,7 +8,7 @@
 <rect x="20" y="102" width="340" height="30" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
 <text x="190" y="114" font-size="5.2" fill="#2F2A24" text-anchor="middle">角要顶穿一样东西，得有一个硬的点；爪要抓，得有一处能挂住的地方。</text>
 <text x="190" y="126" font-size="5.2" fill="#6E6459" text-anchor="middle">不是「伤害不来」，是「伤害找不到落点」。</text>
-<text x="24" y="146" font-size="5.4" fill="#A2503B">一、一身设防：每一道防线都是一个可破的点</text>
+<text x="24" y="146" font-size="5.2" fill="#A2503B">一、一身设防：每一道防线都是一个可破的点</text>
 <rect x="202" y="172" width="14" height="80" fill="#EFE6D4" stroke="#2F2A24" stroke-width="1.4"/>
 <line x1="204" y1="186" x2="214" y2="186" stroke="#DCCBB0" stroke-width="0.4"/>
 <line x1="204" y1="206" x2="214" y2="206" stroke="#DCCBB0" stroke-width="0.4"/>
@@ -21,7 +21,7 @@
 <line x1="216" y1="212" x2="256" y2="212" stroke="#A2503B" stroke-width="1.0" marker-end="url(#arrS)"/>
 <text x="260" y="214" font-size="4.8" fill="#A2503B">穿进去</text>
 <text x="30" y="260" font-size="4.6" fill="#6E6459">壳越硬，越像一个可以被钉住的靶心</text>
-<text x="24" y="288" font-size="5.4" fill="#4A5C55">二、无死地：同一只角，没有地方可投</text>
+<text x="24" y="288" font-size="5.2" fill="#4A5C55">二、无死地：同一只角，没有地方可投</text>
 <line x1="202" y1="314" x2="202" y2="394" stroke="#E6D8C2" stroke-width="0.6" stroke-dasharray="4 4"/>
 <path d="M92,343 C138,337 160,341 200,354 C160,367 138,371 92,365 Z" fill="#EFE6D4" stroke="#2F2A24" stroke-width="1.1"/>
 <path d="M92,343 q-7,11 0,22" fill="none" stroke="#2F2A24" stroke-width="0.7"/>
@@ -32,7 +32,7 @@
 <text x="30" y="402" font-size="4.6" fill="#6E6459">不是练成刀枪不入——那是把土堆得更厚</text>
 <text x="24" y="424" font-size="5.2" fill="#2F2A24">一个全身紧绷、处处设防的人，恰恰把自己变成了一排靶子。</text>
 <text x="24" y="440" font-size="5.2" fill="#2F2A24">无死地，不是没有一处可以被打——是没有一处「可以被定点击中」。</text>
-<text x="24" y="456" font-size="5.4" fill="#4A5C55">所以那个「摄」字是往回收：不堆，就不成地。</text>
+<text x="24" y="456" font-size="5.2" fill="#4A5C55">所以那个「摄」字是往回收：不堆，就不成地。</text>
 <line x1="24" y1="474" x2="338" y2="474" stroke="#DCCBB0" stroke-width="0.6"/>
 <rect x="20" y="482" width="340" height="40" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
 <text x="190" y="498" font-size="6.0" fill="#2F2A24" text-anchor="middle">他不是没遇到兕虎，</text>

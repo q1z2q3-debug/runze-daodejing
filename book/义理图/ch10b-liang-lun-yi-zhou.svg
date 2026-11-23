@@ -29,11 +29,11 @@
 <line x1="150" y1="228" x2="150" y2="218" stroke="#2F2A24" stroke-width="0.9"/>
 <line x1="230" y1="228" x2="230" y2="218" stroke="#2F2A24" stroke-width="0.9"/>
 <line x1="142" y1="218" x2="238" y2="218" stroke="#2F2A24" stroke-width="1.0"/>
-<text x="190" y="210" font-size="4.4" fill="#2F2A24" text-anchor="middle">载：车上一副身，轴下一根一</text>
+<text x="190" y="210" font-size="4.5" fill="#2F2A24" text-anchor="middle">载：车上一副身，轴下一根一</text>
 <text x="112" y="302" font-size="4.6" fill="#4A5C55" text-anchor="middle">魂</text>
 <text x="268" y="302" font-size="4.6" fill="#6E6459" text-anchor="middle">魄</text>
-<text x="190" y="265" font-size="4.4" fill="#4A5C55" text-anchor="middle">一＝轴</text>
-<text x="190" y="332" font-size="4.3" fill="#4A5C55" text-anchor="middle">两轮一轴：魂不出走，魄不自沉，人在此时此地</text>
+<text x="190" y="265" font-size="4.5" fill="#4A5C55" text-anchor="middle">一＝轴</text>
+<text x="190" y="332" font-size="4.5" fill="#4A5C55" text-anchor="middle">两轮一轴：魂不出走，魄不自沉，人在此时此地</text>
 <text x="24" y="360" font-size="5.2" fill="#A2503B">二、离：轴一断，两轮各归其处</text>
 <rect x="26" y="372" width="328" height="176" fill="#FBF6EC" stroke="#DCCBB0" stroke-width="0.8"/>
 <line x1="112" y1="456" x2="176" y2="456" stroke="#2F2A24" stroke-width="1.6"/>
@@ -60,8 +60,8 @@
 <line x1="268" y1="480" x2="268" y2="500" stroke="#A2503B" stroke-width="1.0" marker-end="url(#arrS)"/>
 <text x="112" y="402" font-size="4.2" fill="#A2503B" text-anchor="middle">魂：轻清，上归于天</text>
 <text x="268" y="510" font-size="4.2" fill="#A2503B" text-anchor="middle">魄：重浊，下归于地</text>
-<text x="190" y="436" font-size="4.4" fill="#A2503B" text-anchor="middle">断</text>
-<text x="190" y="532" font-size="4.3" fill="#6E6459" text-anchor="middle">轴断了才招魂，人已经走了——老子问的是生前合不合得住</text>
+<text x="190" y="436" font-size="4.5" fill="#A2503B" text-anchor="middle">断</text>
+<text x="190" y="532" font-size="4.5" fill="#6E6459" text-anchor="middle">轴断了才招魂，人已经走了——老子问的是生前合不合得住</text>
 <text x="190" y="544" font-size="4.1" fill="#6E6459" text-anchor="middle">《礼记》：「魂气归于天，形魄归于地」</text>
 <text x="24" y="568" font-size="5.2" fill="#2F2A24">凡人最大的分裂在这里：肉身活在当下，心神活在别处——活在评判里、活在掌控里。</text>
 <text x="24" y="584" font-size="5.2" fill="#2F2A24">「抱一」不是把两样捏成一样，是让它们回到同一根轴上：身在此时，心也回到此时。</text>

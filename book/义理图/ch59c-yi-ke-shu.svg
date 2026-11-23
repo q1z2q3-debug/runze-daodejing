@@ -8,7 +8,7 @@
 <rect x="20" y="102" width="340" height="30" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
 <text x="190" y="114" font-size="4.8" fill="#2F2A24" text-anchor="middle">「根」是横着铺开的那一层须；「柢」，《说文》「木根也」，是那根往下扎死的主根。</text>
 <text x="190" y="126" font-size="5.2" fill="#6E6459" text-anchor="middle">铺满一层挡不住风；扎死一根，才挡得住。</text>
-<text x="24" y="146" font-size="5.4" fill="#A2503B">一、只有根：横着铺一层，风一来就歪</text>
+<text x="24" y="146" font-size="5.2" fill="#A2503B">一、只有根：横着铺一层，风一来就歪</text>
 <line x1="24" y1="266" x2="240" y2="266" stroke="#2F2A24" stroke-width="1"/>
 <line x1="150" y1="266" x2="158" y2="196" stroke="#2F2A24" stroke-width="2.6"/>
 <line x1="154.8" y1="222" x2="132.8" y2="200" stroke="#2F2A24" stroke-width="1.2"/>
@@ -25,7 +25,7 @@
 <line x1="196" y1="220" x2="176" y2="222" stroke="#A2503B" stroke-width="0.8" marker-end="url(#arrS)"/>
 <text x="198" y="214" font-size="4.8" fill="#A2503B">风</text>
 <text x="150" y="300" font-size="4.6" fill="#A2503B" text-anchor="middle">根浅、铺得广：一层皮毛，挡不住风</text>
-<text x="24" y="336" font-size="5.4" fill="#4A5C55">二、有柢：一根扎死，风还在，树不动</text>
+<text x="24" y="336" font-size="5.2" fill="#4A5C55">二、有柢：一根扎死，风还在，树不动</text>
 <line x1="24" y1="468" x2="240" y2="468" stroke="#2F2A24" stroke-width="1"/>
 <line x1="150" y1="468" x2="150" y2="398" stroke="#2F2A24" stroke-width="2.6"/>
 <line x1="150.0" y1="424" x2="128.0" y2="402" stroke="#2F2A24" stroke-width="1.2"/>
@@ -48,7 +48,7 @@
 <text x="24" y="584" font-size="4.7" fill="#4A5C55">「久视」是看得久，不是看得远；「长生」在这本书里，从不指肉身不坏。</text>
 <line x1="24" y1="602" x2="338" y2="602" stroke="#DCCBB0" stroke-width="0.6"/>
 <rect x="20" y="610" width="340" height="40" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
-<text x="190" y="626" font-size="5.4" fill="#2F2A24" text-anchor="middle">根是横着铺的，柢是竖着扎的；铺满一层挡不住风，</text>
+<text x="190" y="626" font-size="5.2" fill="#2F2A24" text-anchor="middle">根是横着铺的，柢是竖着扎的；铺满一层挡不住风，</text>
 <text x="190" y="638" font-size="6.0" fill="#4A5C55" text-anchor="middle">扎死一根才挡得住。</text>
 <line x1="20" y1="664" x2="360" y2="664" stroke="#E6D8C2" stroke-width="0.8"/>
 <text x="20" y="678" font-size="8.0" fill="#A89577" letter-spacing="1">本 章 金 句</text>

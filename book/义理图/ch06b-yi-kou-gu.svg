@@ -18,8 +18,8 @@
 <path d="M166,224 q14,-6 28,0" fill="none" stroke="#B39A72" stroke-width="0.6"/>
 <path d="M248,223 q13,20 6,38" fill="none" stroke="#A2503B" stroke-width="1.0"/>
 <path d="M132,223 q-13,18 -6,34" fill="none" stroke="#A2503B" stroke-width="1.0"/>
-<text x="270" y="246" font-size="4.4" fill="#A2503B">倒不进</text>
-<text x="110" y="246" font-size="4.4" fill="#A2503B" text-anchor="end">往下淌</text>
+<text x="270" y="246" font-size="4.5" fill="#A2503B">倒不进</text>
+<text x="110" y="246" font-size="4.5" fill="#A2503B" text-anchor="end">往下淌</text>
 <path d="M184,168 q-14,10 0,14 q14,-4 0,-14 z" fill="#F8F3E6" stroke="#2F2A24" stroke-width="0.9"/>
 <line x1="184" y1="168" x2="202" y2="152" stroke="#2F2A24" stroke-width="1.1"/>
 <path d="M188,180 q3,10 2,16" fill="none" stroke="#E6D8C2" stroke-width="0.8"/>
@@ -39,13 +39,13 @@
 <line x1="190" y1="376" x2="192" y2="460" stroke="#7E9A93" stroke-width="1.6" opacity="0.9"/>
 <line x1="198" y1="376" x2="200" y2="468" stroke="#7E9A93" stroke-width="1.6" opacity="0.9"/>
 <line x1="190" y1="468" x2="190" y2="514" stroke="#8FA6A0" stroke-width="1.0" marker-end="url(#arr2)"/>
-<text x="254" y="406" font-size="4.4" fill="#6E6459">水往低处走</text>
+<text x="254" y="406" font-size="4.5" fill="#6E6459">水往低处走</text>
 <path d="M96,442 q40,-8 78,-2" fill="none" stroke="#B9A98F" stroke-width="0.6"/>
 <path d="M96,452 q40,-8 78,-2" fill="none" stroke="#B9A98F" stroke-width="0.6"/>
-<text x="96" y="430" font-size="4.4" fill="#8A7C69">风在谷里回</text>
+<text x="96" y="430" font-size="4.5" fill="#8A7C69">风在谷里回</text>
 <text x="190" y="540" font-size="4.5" fill="#4A5C55" text-anchor="middle">谷不去装，也不去留：能受，所以能生</text>
-<text x="24" y="568" font-size="5.4" fill="#2F2A24">生机不在满处，在空处；不在取处，在受处——这是全章第一句的落点。</text>
-<text x="24" y="584" font-size="5.4" fill="#2F2A24">谷填平了就没有谷；能让它一直生的，不是哪一汪水，是那处空一直在。</text>
+<text x="24" y="568" font-size="5.2" fill="#2F2A24">生机不在满处，在空处；不在取处，在受处——这是全章第一句的落点。</text>
+<text x="24" y="584" font-size="5.2" fill="#2F2A24">谷填平了就没有谷；能让它一直生的，不是哪一汪水，是那处空一直在。</text>
 <text x="24" y="602" font-size="5.2" fill="#4A5C55">「不死」不是哪一样东西活得久，是「空而能受」这个结构从来不断。</text>
 <line x1="24" y1="620" x2="338" y2="620" stroke="#DCCBB0" stroke-width="0.6"/>
 <rect x="20" y="628" width="340" height="40" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>

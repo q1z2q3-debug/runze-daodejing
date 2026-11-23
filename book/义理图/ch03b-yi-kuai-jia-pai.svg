@@ -31,7 +31,7 @@
 <line x1="266" y1="332" x2="216" y2="230" stroke="#A2503B" stroke-width="1.0" marker-end="url(#arrS)"/>
 <text x="304" y="254" font-size="8.4" fill="#A2503B" text-anchor="middle">争</text>
 <text x="190" y="364" font-size="4.5" fill="#4A5C55" text-anchor="middle">争的不是货，是牌子上的名次</text>
-<text x="190" y="400" font-size="4.4" fill="#8A7C69" text-anchor="middle">挂牌：三样货，三块价牌，三处力气都朝牌子去</text>
+<text x="190" y="400" font-size="4.5" fill="#8A7C69" text-anchor="middle">挂牌：三样货，三块价牌，三处力气都朝牌子去</text>
 <text x="24" y="428" font-size="5.2" fill="#A2503B">二、撤牌：牌子摘了，货还在，力气各回各处</text>
 <rect x="26" y="440" width="328" height="180" fill="#FBF6EC" stroke="#DCCBB0" stroke-width="0.8"/>
 <line x1="40" y1="486" x2="330" y2="486" stroke="#2F2A24" stroke-width="1"/>
@@ -55,9 +55,9 @@
 <line x1="186" y1="614" x2="184" y2="510" stroke="#4A5C55" stroke-width="0.9" marker-end="url(#arr2)"/>
 <line x1="272" y1="610" x2="256" y2="516" stroke="#4A5C55" stroke-width="0.9" marker-end="url(#arr2)"/>
 <text x="190" y="640" font-size="4.5" fill="#4A5C55" text-anchor="middle">各取各自要的：本然之欲还在，攀缘之欲没了根</text>
-<text x="190" y="676" font-size="4.4" fill="#8A7C69" text-anchor="middle">撤牌：三块空位还在，只是不再挂东西</text>
-<text x="24" y="704" font-size="5.4" fill="#2F2A24">老子不否贤，不否货，也不否欲——他否的是那把尺。</text>
-<text x="24" y="720" font-size="5.4" fill="#2F2A24">尺一收，争、盗、乱三样一起没了根：不是压住了，是没处长出来。</text>
+<text x="190" y="676" font-size="4.5" fill="#8A7C69" text-anchor="middle">撤牌：三块空位还在，只是不再挂东西</text>
+<text x="24" y="704" font-size="5.2" fill="#2F2A24">老子不否贤，不否货，也不否欲——他否的是那把尺。</text>
+<text x="24" y="720" font-size="5.2" fill="#2F2A24">尺一收，争、盗、乱三样一起没了根：不是压住了，是没处长出来。</text>
 <text x="24" y="738" font-size="5.2" fill="#4A5C55">所以三句话不是三道禁令，是一个动作：不主动起标。</text>
 <line x1="24" y1="756" x2="338" y2="756" stroke="#DCCBB0" stroke-width="0.6"/>
 <rect x="20" y="764" width="340" height="40" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>

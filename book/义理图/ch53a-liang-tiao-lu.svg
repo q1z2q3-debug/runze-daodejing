@@ -8,7 +8,7 @@
 <rect x="20" y="102" width="340" height="30" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
 <text x="190" y="114" font-size="5.2" fill="#2F2A24" text-anchor="middle">「夷」，《说文》「平也」；「径」，《说文》「步道也」——只能步行、容不下车的小路。</text>
 <text x="190" y="126" font-size="5.2" fill="#6E6459" text-anchor="middle">古时路分等级：容得下车马的叫「道」，只容人走的叫「径」。</text>
-<text x="24" y="146" font-size="5.4" fill="#4A5C55">一、大道：平、宽，谁都能走，谁也不快</text>
+<text x="24" y="146" font-size="5.2" fill="#4A5C55">一、大道：平、宽，谁都能走，谁也不快</text>
 <rect x="24" y="178" width="332" height="46" fill="#FBF6EC" stroke="#2F2A24" stroke-width="0.9"/>
 <line x1="24" y1="189" x2="356" y2="189" stroke="#DCCBB0" stroke-width="0.45"/>
 <line x1="24" y1="200" x2="356" y2="200" stroke="#DCCBB0" stroke-width="0.45"/>
@@ -24,7 +24,7 @@
 <circle cx="320" cy="188" r="3.4" fill="none" stroke="#2F2A24" stroke-width="0.7"/>
 <line x1="320" y1="191" x2="320" y2="202" stroke="#2F2A24" stroke-width="0.7"/>
 <text x="190" y="168" font-size="4.6" fill="#4A5C55" text-anchor="middle">夷：没有高低，没有转弯，没有一处要你显本事</text>
-<text x="24" y="254" font-size="5.4" fill="#A2503B">二、小径：放着大道不走，偏去挤那一条</text>
+<text x="24" y="254" font-size="5.2" fill="#A2503B">二、小径：放着大道不走，偏去挤那一条</text>
 <rect x="24" y="294" width="332" height="46" fill="#FBF6EC" stroke="#2F2A24" stroke-width="0.9"/>
 <line x1="24" y1="305" x2="356" y2="305" stroke="#DCCBB0" stroke-width="0.45"/>
 <line x1="24" y1="316" x2="356" y2="316" stroke="#DCCBB0" stroke-width="0.45"/>
@@ -36,8 +36,8 @@
 <text x="242" y="260" font-size="4.8" fill="#A2503B" text-anchor="middle">径：只容一人过</text>
 <line x1="242" y1="264" x2="242" y2="304" stroke="#A2503B" stroke-width="0.35" stroke-dasharray="3 3" opacity="0.7"/>
 <text x="300" y="368" font-size="4.6" fill="#A2503B">快，是因为窄</text>
-<text x="300" y="378" font-size="4.4" fill="#6E6459">窄，是因为只打算</text>
-<text x="300" y="387" font-size="4.4" fill="#6E6459">一个人过</text>
+<text x="300" y="378" font-size="4.5" fill="#6E6459">窄，是因为只打算</text>
+<text x="300" y="387" font-size="4.5" fill="#6E6459">一个人过</text>
 <text x="24" y="402" font-size="5.2" fill="#2F2A24">一条路宽不宽，看的不是石头，是走的人打算带几个一起走。</text>
 <text x="24" y="418" font-size="5.0" fill="#2F2A24">大道是公共的：谁都走得，谁都不快；小路是私的：只容一人，所以快，也只利一人。</text>
 <text x="24" y="434" font-size="5.2" fill="#4A5C55">窄的路走多了，就成了窄的人——这就是「私」的全部形状：不是坏，是窄。</text>

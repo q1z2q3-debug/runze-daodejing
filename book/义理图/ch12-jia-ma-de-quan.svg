@@ -15,7 +15,7 @@
 <path d="M-3.2,-3.2 L4.2,0 L-3.2,3.2 z" fill="#A2503B" transform="translate(226.8,181.2) rotate(405)"/>
 <circle cx="190" cy="218" r="36" fill="#FBF6EC" stroke="none"/>
 <text x="190" y="216" font-size="5.0" fill="#A2503B" text-anchor="middle">本味丢了</text>
-<text x="190" y="230" font-size="4.3" fill="#6E6459" text-anchor="middle">尺子歪了</text>
+<text x="190" y="230" font-size="4.5" fill="#6E6459" text-anchor="middle">尺子歪了</text>
 <text x="250" y="222" font-size="4.8" fill="#A2503B">刺激</text>
 <text x="194" y="282" font-size="4.6" fill="#A2503B">快感（短）</text>
 <text x="130" y="222" font-size="4.8" fill="#A2503B" text-anchor="end">淡了</text>

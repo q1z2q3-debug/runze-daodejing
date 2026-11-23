@@ -11,11 +11,11 @@
 <rect x="26" y="150" width="328" height="196" fill="#FBF6EC" stroke="#DCCBB0" stroke-width="0.8"/>
 <path d="M46,328 L96,328 L268,212 L246,212 Z" fill="#EFE6D4" opacity="0.75" stroke="#DCCBB0" stroke-width="0.6"/>
 <rect x="74" y="284" width="20" height="26" rx="3" fill="#E4D8BF" stroke="#2F2A24" stroke-width="0.9"/>
-<text x="84" y="302" font-size="5.4" fill="#2F2A24" text-anchor="middle">今</text>
+<text x="84" y="302" font-size="5.2" fill="#2F2A24" text-anchor="middle">今</text>
 <rect x="140" y="246" width="20" height="26" rx="3" fill="#E4D8BF" stroke="#2F2A24" stroke-width="0.9"/>
-<text x="150" y="264" font-size="5.4" fill="#2F2A24" text-anchor="middle">中</text>
+<text x="150" y="264" font-size="5.2" fill="#2F2A24" text-anchor="middle">中</text>
 <rect x="206" y="208" width="20" height="26" rx="3" fill="#E4D8BF" stroke="#2F2A24" stroke-width="0.9"/>
-<text x="216" y="226" font-size="5.4" fill="#2F2A24" text-anchor="middle">古</text>
+<text x="216" y="226" font-size="5.2" fill="#2F2A24" text-anchor="middle">古</text>
 <line x1="104" y1="314" x2="234" y2="238" stroke="#4A5C55" stroke-width="0.9" stroke-dasharray="3 3" opacity="0.85"/>
 <path d="M234,238 L226,239 M234,238 L231,246" fill="none" stroke="#4A5C55" stroke-width="0.9"/>
 <text x="150" y="326" font-size="3.8" fill="#4A5C55" text-anchor="middle">都朝同一个方向</text>

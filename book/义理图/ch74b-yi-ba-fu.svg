@@ -23,8 +23,8 @@
 <line x1="138" y1="240" x2="176" y2="262" stroke="#2F2A24" stroke-width="1.4"/>
 <path d="M176,262 L188,248 Q198,260 190,272 L174,268 Z" fill="#DED2B8" stroke="#2F2A24" stroke-width="1"/>
 <text x="90" y="304" font-size="4.2" fill="#6E6459" text-anchor="middle">匠人</text>
-<text x="272" y="240" font-size="4.3" fill="#4A5C55">只削一片</text>
-<text x="272" y="252" font-size="4.3" fill="#6E6459">器由此成</text>
+<text x="272" y="240" font-size="4.5" fill="#4A5C55">只削一片</text>
+<text x="272" y="252" font-size="4.5" fill="#6E6459">器由此成</text>
 <text x="190" y="326" font-size="4.6" fill="#4A5C55" text-anchor="middle">斧在匠人手里，是「成」的工具：他知道这一刀要落多深</text>
 <text x="24" y="348" font-size="4.8" fill="#A2503B">二、代班的人：同一把斧，一落就断，断不可复</text>
 <rect x="26" y="360" width="328" height="152" fill="#FBF6EC" stroke="#DCCBB0" stroke-width="0.8"/>
@@ -42,8 +42,8 @@
 <line x1="126" y1="396" x2="138" y2="378" stroke="#2F2A24" stroke-width="1.4"/>
 <path d="M138,378 L154,368 Q162,382 148,394 L132,388 Z" fill="#A2503B" fill-opacity="0.3" stroke="#A2503B" stroke-width="1"/>
 <text x="92" y="504" font-size="4.2" fill="#A2503B" text-anchor="middle">代班</text>
-<text x="276" y="430" font-size="4.3" fill="#A2503B">未观其性</text>
-<text x="276" y="442" font-size="4.3" fill="#6E6459">先加其手</text>
+<text x="276" y="430" font-size="4.5" fill="#A2503B">未观其性</text>
+<text x="276" y="442" font-size="4.5" fill="#6E6459">先加其手</text>
 <text x="190" y="528" font-size="4.6" fill="#4A5C55" text-anchor="middle">梓庆斋七日才敢加手；代班的人，一刀下去就断了</text>
 <text x="24" y="544" font-size="4.8" fill="#2F2A24">所差的不在力气，在那七日：先看清楚这木头要成什么，才落斧。</text>
 <text x="24" y="560" font-size="4.8" fill="#2F2A24">代班的人没有这七日——他手上没有这把斧的本事，只有这道令。</text>

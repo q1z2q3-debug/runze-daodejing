@@ -25,8 +25,8 @@
 <line x1="88" y1="294" x2="212" y2="294" stroke="#2F2A24" stroke-width="1.4"/>
 <text x="150" y="276" font-size="4.6" fill="#A2503B" text-anchor="middle">无门无窗</text>
 <line x1="232" y1="272" x2="208" y2="272" stroke="#A2503B" stroke-width="0.9" marker-end="url(#arrS)"/>
-<text x="236" y="276" font-size="4.3" fill="#A2503B">进不去</text>
-<text x="150" y="324" font-size="4.3" fill="#A2503B" text-anchor="middle">墙立着，屋子却没生出来：只剩一座土堆</text>
+<text x="236" y="276" font-size="4.5" fill="#A2503B">进不去</text>
+<text x="150" y="324" font-size="4.5" fill="#A2503B" text-anchor="middle">墙立着，屋子却没生出来：只剩一座土堆</text>
 <text x="24" y="360" font-size="5.2" fill="#4A5C55">二、开户牖：门窗是那两处「无」</text>
 <rect x="26" y="372" width="328" height="176" fill="#FBF6EC" stroke="#DCCBB0" stroke-width="0.8"/>
 <path d="M92,434 L150,400 L208,434 z" fill="#EFE6D4" stroke="#2F2A24" stroke-width="1.2"/>
@@ -49,8 +49,8 @@
 <line x1="146" y1="466" x2="149" y2="474" stroke="#2F2A24" stroke-width="0.9"/>
 <line x1="82" y1="474" x2="122" y2="474" stroke="#4A5C55" stroke-width="0.9" marker-end="url(#arr2)"/>
 <text x="80" y="467" font-size="4.2" fill="#4A5C55" text-anchor="end">人</text>
-<text x="150" y="524" font-size="4.3" fill="#4A5C55" text-anchor="middle">门窗不是墙的缺口，是「无」被开出来的地方</text>
-<text x="150" y="538" font-size="4.3" fill="#6E6459" text-anchor="middle">人在里面住、呼吸、往来——用，就发生在这片空里</text>
+<text x="150" y="524" font-size="4.5" fill="#4A5C55" text-anchor="middle">门窗不是墙的缺口，是「无」被开出来的地方</text>
+<text x="150" y="538" font-size="4.5" fill="#6E6459" text-anchor="middle">人在里面住、呼吸、往来——用，就发生在这片空里</text>
 <text x="24" y="568" font-size="5.2" fill="#2F2A24">墙、梁、门窗框是「有」：划出领地、遮风挡雨、给一个稳定框架——这是「利」。</text>
 <text x="24" y="584" font-size="5.2" fill="#2F2A24">室内那片虚空是「无」：居住、停留、往来、生活发生的地方——这才是「用」。</text>
 <text x="24" y="602" font-size="5.0" fill="#4A5C55">所以先立界，再开门；介不是墙，是墙围出来的那口空。</text>

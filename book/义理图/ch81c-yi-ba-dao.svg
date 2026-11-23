@@ -45,7 +45,7 @@
 <line x1="164" y1="456" x2="164" y2="468" stroke="#A2503B" stroke-width="1"/>
 <path d="M186,462 L200,462" stroke="#A2503B" stroke-width="0.8" stroke-dasharray="3 2"/>
 <line x1="200" y1="455" x2="200" y2="469" stroke="#A2503B" stroke-width="1.1"/>
-<text x="196" y="448" font-size="4.4" fill="#A2503B" text-anchor="middle">卡住</text>
+<text x="196" y="448" font-size="4.5" fill="#A2503B" text-anchor="middle">卡住</text>
 <text x="190" y="514" font-size="4.6" fill="#4A5C55" text-anchor="middle">逆着走，刀就卡：力加在刃上，不在禾上</text>
 <text x="24" y="558" font-size="4.8" fill="#2F2A24">刀不砍，只是顺着禾走：顺是「不害」的做法。</text>
 <text x="24" y="574" font-size="4.8" fill="#2F2A24">逆着走，禾没下来，刀先卡住——力用在自己身上了。</text>

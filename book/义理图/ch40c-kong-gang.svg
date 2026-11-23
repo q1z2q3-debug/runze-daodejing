@@ -16,7 +16,7 @@
 <rect x="140" y="204" width="108" height="58" fill="none" stroke="#C9B79A" stroke-width="0.5" stroke-dasharray="3 4"/>
 <text x="194" y="236" font-size="8.0" fill="#B8AC94" text-anchor="middle">空</text>
 <text x="194" y="208" font-size="4.2" fill="#6E6459" text-anchor="middle">无：壁围出来的那块</text>
-<text x="190" y="302" font-size="4.3" fill="#2F2A24" text-anchor="middle">缸先有了壁，壁围出一块空——万物还没有，位置已经有了</text>
+<text x="190" y="302" font-size="4.5" fill="#2F2A24" text-anchor="middle">缸先有了壁，壁围出一块空——万物还没有，位置已经有了</text>
 <text x="24" y="328" font-size="5.0" fill="#4A5C55">二、有：水落进来，活物跟着生</text>
 <rect x="26" y="340" width="328" height="146" fill="#FBF6EC" stroke="#DCCBB0" stroke-width="0.8"/>
 <line x1="40" y1="464" x2="340" y2="464" stroke="#DCCBB0" stroke-width="0.9"/>
@@ -35,7 +35,7 @@
 <path d="M150,360 l6,20" stroke="#A9C3BC" stroke-width="0.5" stroke-dasharray="2 3"/>
 <circle cx="152" cy="362" r="2.0" fill="#A9C3BC" stroke="none"/>
 <circle cx="155" cy="370" r="1.6" fill="#A9C3BC" stroke="none"/>
-<text x="190" y="478" font-size="4.3" fill="#2F2A24" text-anchor="middle">水至柔，却盛得住鱼与水草——弱者的用，就在这儿</text>
+<text x="190" y="478" font-size="4.5" fill="#2F2A24" text-anchor="middle">水至柔，却盛得住鱼与水草——弱者的用，就在这儿</text>
 <line x1="24" y1="494" x2="356" y2="494" stroke="#DCCBB0" stroke-width="0.6"/>
 <rect x="20" y="502" width="340" height="40" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
 <text x="190" y="518" font-size="5.0" fill="#2F2A24" text-anchor="middle">天下万物生于有，有生于无。</text>

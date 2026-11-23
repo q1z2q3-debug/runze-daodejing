@@ -44,7 +44,7 @@
 <path d="M280,444 Q283,414 278,392" fill="none" stroke="#4A5C55" stroke-width="1.1" opacity="0.45"/>
 <path d="M286,444 Q289,414 284,404" fill="none" stroke="#4A5C55" stroke-width="1.1" opacity="0.45"/>
 <circle cx="190" cy="420" r="34" fill="none" stroke="#A2503B" stroke-width="1" stroke-dasharray="3 3"/>
-<text x="190" y="380" font-size="4.4" fill="#A2503B" text-anchor="middle">圈住这一棵</text>
+<text x="190" y="380" font-size="4.5" fill="#A2503B" text-anchor="middle">圈住这一棵</text>
 <text x="100" y="460" font-size="4.2" fill="#A89577" text-anchor="middle">其余在外</text>
 <text x="280" y="460" font-size="4.2" fill="#A89577" text-anchor="middle">其余在外</text>
 <text x="190" y="488" font-size="4.6" fill="#6E6459" text-anchor="middle">爱护一棵，护不住就拼命；慈护一片，护的时候极稳</text>
@@ -53,7 +53,7 @@
 <text x="24" y="540" font-size="5.0" fill="#4A5C55">慈故能勇：护的是一片生机，不用拼命，反而极稳。</text>
 <line x1="24" y1="556" x2="338" y2="556" stroke="#DCCBB0" stroke-width="0.6"/>
 <rect x="20" y="564" width="340" height="40" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
-<text x="190" y="579" font-size="5.4" fill="#2F2A24" text-anchor="middle">慈从心兹，兹者草木多益；</text>
+<text x="190" y="579" font-size="5.2" fill="#2F2A24" text-anchor="middle">慈从心兹，兹者草木多益；</text>
 <text x="190" y="592" font-size="4.9" fill="#4A5C55" text-anchor="middle">心中自有草长，不问其落于何处。</text>
 <line x1="20" y1="618" x2="360" y2="618" stroke="#E6D8C2" stroke-width="0.8"/>
 <text x="20" y="632" font-size="8.0" fill="#A89577" letter-spacing="1">本 章 金 句</text>

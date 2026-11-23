@@ -15,7 +15,7 @@
 <circle cx="262" cy="154" r="30" fill="#FBF6EC" stroke="#2F2A24" stroke-width="1.2"/>
 <text x="262" y="159" font-size="12.5" fill="#2F2A24" text-anchor="middle">一</text>
 <text x="262" y="204" font-size="10" fill="#2F2A24" text-anchor="middle">一 · 太极</text>
-<text x="262" y="222" font-size="8.8" fill="#8A7C69" text-anchor="middle">圆而未判</text>
+<text x="262" y="222" font-size="8.4" fill="#8A7C69" text-anchor="middle">圆而未判</text>
 <text x="20" y="264" font-size="9.5" fill="#8A7C69">动 ②</text>
 <circle cx="48" cy="302" r="20" fill="none" stroke="#E6D8C2" stroke-width="0.8"/>
 <path d="M 48 282 A 20 20 0 0 1 48 322" fill="none" stroke="#A2503B" stroke-width="1.2" marker-end="url(#arrS)"/>
@@ -28,7 +28,7 @@
 <text x="262" y="290" font-size="10" fill="#4A5C55" text-anchor="middle">阴</text>
 <text x="262" y="324" font-size="10" fill="#A2503B" text-anchor="middle">阳</text>
 <text x="262" y="352" font-size="10" fill="#2F2A24" text-anchor="middle">二 · 阴阳</text>
-<text x="262" y="370" font-size="8.8" fill="#8A7C69" text-anchor="middle">有与无、形与气</text>
+<text x="262" y="370" font-size="8.4" fill="#8A7C69" text-anchor="middle">有与无、形与气</text>
 <text x="20" y="412" font-size="9.5" fill="#8A7C69">动 ③</text>
 <circle cx="48" cy="450" r="20" fill="none" stroke="#E6D8C2" stroke-width="0.8"/>
 <path d="M 48 430 A 20 20 0 0 1 48 470" fill="none" stroke="#A2503B" stroke-width="1.2" marker-end="url(#arrS)"/>
@@ -41,7 +41,7 @@
 <line x1="295" y1="450" x2="304" y2="450" stroke="#B9A88E" stroke-width="0.8"/>
 <text x="312" y="454" font-size="10.5" fill="#8A7C69">三</text>
 <text x="262" y="506" font-size="10" fill="#2F2A24" text-anchor="middle">三 · 虚位</text>
-<text x="262" y="524" font-size="8.8" fill="#8A7C69" text-anchor="middle">缝不是东西，是撑出来的位</text>
+<text x="262" y="524" font-size="8.4" fill="#8A7C69" text-anchor="middle">缝不是东西，是撑出来的位</text>
 <rect x="20" y="550" width="340" height="52" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
 <text x="190" y="572" font-size="10.5" fill="#2F2A24" text-anchor="middle">三生万物：靠的不是力气，是那道缝没被填实。</text>
 <text x="190" y="592" font-size="9.5" fill="#6E6459" text-anchor="middle">反不是往回退，是翻到另一面；翻一次，显一层。</text>

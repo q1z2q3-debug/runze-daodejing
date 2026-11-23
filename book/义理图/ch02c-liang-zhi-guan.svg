@@ -12,25 +12,25 @@
 <rect x="26" y="164" width="328" height="176" fill="#FBF6EC" stroke="#DCCBB0" stroke-width="0.8"/>
 <path d="M104.0,204 L104.0,296 q8.0,8 16,0 L120.0,204 z" fill="#EFE6D4" stroke="#2F2A24" stroke-width="1.1"/>
 <ellipse cx="112" cy="204" rx="8.0" ry="3.4" fill="none" stroke="#2F2A24" stroke-width="0.9"/>
-<text x="112" y="196" font-size="4.4" fill="#2F2A24" text-anchor="middle">长管</text>
+<text x="112" y="196" font-size="4.5" fill="#2F2A24" text-anchor="middle">长管</text>
 <path d="M188.0,234 L188.0,296 q8.0,8 16,0 L204.0,234 z" fill="#EFE6D4" stroke="#2F2A24" stroke-width="1.1"/>
 <ellipse cx="196" cy="234" rx="8.0" ry="3.4" fill="none" stroke="#2F2A24" stroke-width="0.9"/>
-<text x="196" y="226" font-size="4.4" fill="#2F2A24" text-anchor="middle">短管</text>
+<text x="196" y="226" font-size="4.5" fill="#2F2A24" text-anchor="middle">短管</text>
 <path d="M104,220 q-12.0,-24 -24,0" fill="none" stroke="#A2503B" stroke-width="0.7" opacity="0.5"/>
 <path d="M104,220 q-16.0,-32 -32,0" fill="none" stroke="#A2503B" stroke-width="0.7" opacity="0.5"/>
 <path d="M104,220 q-20.0,-40 -40,0" fill="none" stroke="#A2503B" stroke-width="0.7" opacity="0.5"/>
-<text x="44" y="212" font-size="4.4" fill="#A2503B">一唱</text>
+<text x="44" y="212" font-size="4.5" fill="#A2503B">一唱</text>
 <path d="M214,248 q11.0,-22 22,0" fill="none" stroke="#4A5C55" stroke-width="0.7" opacity="0.5"/>
 <path d="M214,248 q15.0,-30 30,0" fill="none" stroke="#4A5C55" stroke-width="0.7" opacity="0.5"/>
 <path d="M214,248 q19.0,-38 38,0" fill="none" stroke="#4A5C55" stroke-width="0.7" opacity="0.5"/>
-<text x="266" y="240" font-size="4.4" fill="#4A5C55">一应</text>
+<text x="266" y="240" font-size="4.5" fill="#4A5C55">一应</text>
 <path d="M136,200 q14,-6 28,0" fill="none" stroke="#8A7C69" stroke-width="0.6" opacity="0.55"/>
 <path d="M136,194 q14,-6 28,0" fill="none" stroke="#8A7C69" stroke-width="0.6" opacity="0.55"/>
 <path d="M136,188 q14,-6 28,0" fill="none" stroke="#8A7C69" stroke-width="0.6" opacity="0.55"/>
-<text x="150" y="176" font-size="4.4" fill="#6E6459" text-anchor="middle">第三样：和声</text>
+<text x="150" y="176" font-size="4.5" fill="#6E6459" text-anchor="middle">第三样：和声</text>
 <line x1="40" y1="296" x2="330" y2="296" stroke="#2F2A24" stroke-width="1"/>
 <text x="190" y="314" font-size="4.5" fill="#4A5C55" text-anchor="middle">两管互不吞并，各守边界——和的前提是不同</text>
-<text x="190" y="328" font-size="4.3" fill="#8A7C69" text-anchor="middle">和：一唱一应，各自成声</text>
+<text x="190" y="328" font-size="4.5" fill="#8A7C69" text-anchor="middle">和：一唱一应，各自成声</text>
 <text x="24" y="358" font-size="5.2" fill="#A2503B">二、合：两管并成一根，只剩一个声音</text>
 <rect x="26" y="370" width="328" height="150" fill="#FBF6EC" stroke="#DCCBB0" stroke-width="0.8"/>
 <path d="M172,386 L172,482 q18,8 36,0 L208,386 z" fill="#EFE6D4" stroke="#2F2A24" stroke-width="1.1"/>
@@ -39,11 +39,11 @@
 <path d="M198,402 q20.0,-40 40,0" fill="none" stroke="#6E6459" stroke-width="0.7" opacity="0.45"/>
 <path d="M198,402 q24.0,-48 48,0" fill="none" stroke="#6E6459" stroke-width="0.7" opacity="0.45"/>
 <path d="M198,402 q28.0,-56 56,0" fill="none" stroke="#6E6459" stroke-width="0.7" opacity="0.45"/>
-<text x="216" y="448" font-size="4.4" fill="#6E6459">只剩一个声音</text>
+<text x="216" y="448" font-size="4.5" fill="#6E6459">只剩一个声音</text>
 <text x="190" y="498" font-size="4.5" fill="#4A5C55" text-anchor="middle">第二管不见了，第一管也没有变得更响——是少了一个声音，不是多了一个</text>
-<text x="190" y="512" font-size="4.3" fill="#8A7C69" text-anchor="middle">合：抹平边界，只留一套</text>
-<text x="24" y="542" font-size="5.4" fill="#2F2A24">和不是「没有分歧」，恰是「有分歧而各自站得住」。</text>
-<text x="24" y="558" font-size="5.4" fill="#2F2A24">老子要护的就是这一处：不把两套并成一套，才生得出第三样东西。</text>
+<text x="190" y="512" font-size="4.5" fill="#8A7C69" text-anchor="middle">合：抹平边界，只留一套</text>
+<text x="24" y="542" font-size="5.2" fill="#2F2A24">和不是「没有分歧」，恰是「有分歧而各自站得住」。</text>
+<text x="24" y="558" font-size="5.2" fill="#2F2A24">老子要护的就是这一处：不把两套并成一套，才生得出第三样东西。</text>
 <text x="24" y="576" font-size="5.2" fill="#4A5C55">合是把差异抹掉换来的安静；和是差异还在，却已经应上了。</text>
 <line x1="24" y1="594" x2="338" y2="594" stroke="#DCCBB0" stroke-width="0.6"/>
 <rect x="20" y="602" width="340" height="40" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>

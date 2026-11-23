@@ -21,7 +21,7 @@
 <line x1="98" y1="264" x2="104" y2="258" stroke="#2F2A24" stroke-width="0.8"/>
 <line x1="104" y1="252" x2="110" y2="258" stroke="#2F2A24" stroke-width="0.8"/>
 <line x1="104" y1="264" x2="110" y2="258" stroke="#2F2A24" stroke-width="0.8"/>
-<text x="116" y="274" font-size="4.4" fill="#A2503B">箭在二环外</text>
+<text x="116" y="274" font-size="4.5" fill="#A2503B">箭在二环外</text>
 <line x1="220" y1="224" x2="216" y2="224" stroke="#4A5C55" stroke-width="0.1"/>
 <text x="190" y="320" font-size="4.6" fill="#4A5C55" text-anchor="middle">靶不动，箭动：中不中，是靶说的，不是射的人说的</text>
 <text x="24" y="342" font-size="4.8" fill="#A2503B">二、无环：说什么都不算数</text>
@@ -36,7 +36,7 @@
 <polygon points="194,424 186,419 187,427" fill="#2F2A24"/>
 <line x1="138" y1="432" x2="172" y2="442" stroke="#2F2A24" stroke-width="1"/>
 <polygon points="172,442 164,437 165,445" fill="#2F2A24"/>
-<text x="230" y="408" font-size="4.4" fill="#A2503B">没有环</text>
+<text x="230" y="408" font-size="4.5" fill="#A2503B">没有环</text>
 <text x="230" y="422" font-size="4.2" fill="#6E6459">落在哪儿都</text>
 <text x="230" y="434" font-size="4.2" fill="#6E6459">可以叫「中」</text>
 <text x="190" y="518" font-size="4.6" fill="#4A5C55" text-anchor="middle">环是靶的，不是你画的：环一擦掉，箭就成了自己给自己判的</text>
@@ -45,7 +45,7 @@
 <text x="24" y="568" font-size="5.0" fill="#4A5C55">靶一旦成了随身之物，箭就再也没有偏过——这不是本事，是病。</text>
 <line x1="24" y1="584" x2="338" y2="584" stroke="#DCCBB0" stroke-width="0.6"/>
 <rect x="20" y="592" width="340" height="40" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
-<text x="190" y="607" font-size="5.4" fill="#2F2A24" text-anchor="middle">靶在彼，不由我说。</text>
+<text x="190" y="607" font-size="5.2" fill="#2F2A24" text-anchor="middle">靶在彼，不由我说。</text>
 <text x="190" y="620" font-size="4.7" fill="#4A5C55" text-anchor="middle">验证的意思是：有一件东西，你说不动它。</text>
 <line x1="20" y1="646" x2="360" y2="646" stroke="#E6D8C2" stroke-width="0.8"/>
 <text x="20" y="660" font-size="8.0" fill="#A89577" letter-spacing="1">本 章 金 句</text>

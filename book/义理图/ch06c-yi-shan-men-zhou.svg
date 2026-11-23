@@ -23,8 +23,8 @@
 <rect x="254" y="214" width="9" height="12" fill="#BEA98A" stroke="#2F2A24" stroke-width="0.5"/>
 <rect x="117" y="280" width="9" height="12" fill="#BEA98A" stroke="#2F2A24" stroke-width="0.5"/>
 <rect x="254" y="280" width="9" height="12" fill="#BEA98A" stroke="#2F2A24" stroke-width="0.5"/>
-<text x="112" y="210" font-size="4.4" fill="#A2503B" text-anchor="end">轴</text>
-<text x="300" y="210" font-size="4.3" fill="#4A5C55" text-anchor="end">门缝：显化从这里出去</text>
+<text x="112" y="210" font-size="4.5" fill="#A2503B" text-anchor="end">轴</text>
+<text x="300" y="210" font-size="4.5" fill="#4A5C55" text-anchor="end">门缝：显化从这里出去</text>
 <text x="190" y="332" font-size="4.5" fill="#4A5C55" text-anchor="middle">门不在门板上，在两扇之间那道还没合死的缝</text>
 <text x="24" y="364" font-size="5.2" fill="#A2503B">二、推：一着手去定位，缝就没了</text>
 <rect x="26" y="376" width="328" height="180" fill="#FBF6EC" stroke="#DCCBB0" stroke-width="0.8"/>
@@ -42,11 +42,11 @@
 <rect x="196.8" y="457.0" width="4" height="12" rx="2" fill="#EFE6D4" stroke="#2F2A24" stroke-width="0.8"/>
 <rect x="172" y="470" width="9" height="4.4" rx="2" fill="#EFE6D4" stroke="#2F2A24" stroke-width="0.8"/>
 <line x1="202" y1="478" x2="214" y2="486" stroke="#2F2A24" stroke-width="0.8"/>
-<text x="258" y="450" font-size="4.4" fill="#A2503B">推住了</text>
+<text x="258" y="450" font-size="4.5" fill="#A2503B">推住了</text>
 <line x1="254" y1="452" x2="236" y2="460" stroke="#E6D8C2" stroke-width="0.6" stroke-dasharray="3 2"/>
 <text x="190" y="544" font-size="4.5" fill="#A2503B" text-anchor="middle">一遇定位、占有，门当场变成了墙：通道闭塞</text>
-<text x="24" y="572" font-size="5.4" fill="#2F2A24">门是出入处：不在门板，在开合。所以「玄牝之门」不是可找到、可占住的地方。</text>
-<text x="24" y="588" font-size="5.4" fill="#2F2A24">凡从隐到显、从无到有，都经由这道门流出；可它不在天地之外，就在冲虚本身。</text>
+<text x="24" y="572" font-size="5.2" fill="#2F2A24">门是出入处：不在门板，在开合。所以「玄牝之门」不是可找到、可占住的地方。</text>
+<text x="24" y="588" font-size="5.2" fill="#2F2A24">凡从隐到显、从无到有，都经由这道门流出；可它不在天地之外，就在冲虚本身。</text>
 <text x="24" y="606" font-size="5.2" fill="#4A5C55">「绵绵若存」的「若」，正是不许你把「存」把持成一个可守的东西——一守，就没了。</text>
 <line x1="24" y1="624" x2="338" y2="624" stroke="#DCCBB0" stroke-width="0.6"/>
 <rect x="20" y="632" width="340" height="40" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>

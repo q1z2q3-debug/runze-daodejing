@@ -10,7 +10,7 @@
 <text x="190" y="127" font-size="4.7" fill="#6E6459">一处撤一样；撤完，剩下的是本来的那点东西。</text>
 <text x="24" y="152" font-size="5.1" fill="#A2503B">一、有它的时候／撤掉之后</text>
 <rect x="26" y="164" width="328" height="226" fill="#FBF6EC" stroke="#DCCBB0" stroke-width="0.8"/>
-<text x="38" y="182" font-size="4.4" fill="#A2503B">复归婴儿</text>
+<text x="38" y="182" font-size="4.5" fill="#A2503B">复归婴儿</text>
 <text x="38" y="194" font-size="4.2" fill="#8A7C69">撤「染」</text>
 <rect x="96" y="176" width="52" height="38" fill="#FBF3E4" stroke="#2F2A24" stroke-width="0.9"/>
 <ellipse cx="112" cy="189" rx="11" ry="8" fill="#D8B79A" stroke="none" opacity="0.8"/>
@@ -20,7 +20,7 @@
 <text x="175" y="188" font-size="3.9" fill="#A2503B" text-anchor="middle">撤</text>
 <rect x="200" y="176" width="52" height="38" fill="#FBF3E4" stroke="#2F2A24" stroke-width="0.9"/>
 <text x="226" y="224" font-size="3.8" fill="#4A5C55" text-anchor="middle">素布</text>
-<text x="38" y="254" font-size="4.4" fill="#A2503B">复归无极</text>
+<text x="38" y="254" font-size="4.5" fill="#A2503B">复归无极</text>
 <text x="38" y="266" font-size="4.2" fill="#8A7C69">撤「界」</text>
 <path d="M96,282 L122,256 L148,282" fill="none" stroke="#2F2A24" stroke-width="1.1"/>
 <line x1="122" y1="256" x2="122" y2="242" stroke="#2F2A24" stroke-width="1.6"/>
@@ -30,7 +30,7 @@
 <text x="175" y="260" font-size="3.9" fill="#A2503B" text-anchor="middle">撤</text>
 <path d="M200,282 L226,256 L252,282" fill="none" stroke="#2F2A24" stroke-width="1.1"/>
 <text x="226" y="296" font-size="3.8" fill="#4A5C55" text-anchor="middle">无顶点的屋</text>
-<text x="38" y="326" font-size="4.4" fill="#A2503B">复归朴</text>
+<text x="38" y="326" font-size="4.5" fill="#A2503B">复归朴</text>
 <text x="38" y="338" font-size="4.2" fill="#8A7C69">撤「刀」</text>
 <rect x="96" y="332" width="46" height="18" rx="8" fill="#D9C7A6" stroke="#2F2A24" stroke-width="0.9"/>
 <ellipse cx="142" cy="341" rx="5" ry="9" fill="#E4D3B2" stroke="#2F2A24" stroke-width="0.8"/>

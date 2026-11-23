@@ -36,17 +36,17 @@
 <line x1="152" y1="426" x2="190" y2="454" stroke="#A2503B" stroke-width="1.8"/>
 <circle cx="161" cy="434" r="1.8" fill="#A2503B"/>
 <circle cx="182" cy="448" r="1.5" fill="#A2503B"/>
-<text x="212" y="424" font-size="4.3" fill="#A2503B">这道口子</text>
-<text x="212" y="436" font-size="4.3" fill="#6E6459">是自己的账</text>
+<text x="212" y="424" font-size="4.5" fill="#A2503B">这道口子</text>
+<text x="212" y="436" font-size="4.5" fill="#6E6459">是自己的账</text>
 <path d="M80,484 Q190,466 300,484" fill="none" stroke="#B9A98F" stroke-width="0.9" stroke-dasharray="4 3"/>
-<text x="190" y="500" font-size="4.4" fill="#6E6459" text-anchor="middle">天不与你争这把斧：它只让斧落在你手上</text>
+<text x="190" y="500" font-size="4.5" fill="#6E6459" text-anchor="middle">天不与你争这把斧：它只让斧落在你手上</text>
 <text x="190" y="534" font-size="4.6" fill="#4A5C55" text-anchor="middle">伤不在天上记，在手上记：这就是「希有不伤」的分量</text>
 <text x="24" y="552" font-size="4.8" fill="#2F2A24">「希」不是「少」，是「稀」；稀者疏也：上一章的疏在天为不漏，这里的疏在人必伤。</text>
 <text x="24" y="568" font-size="4.8" fill="#2F2A24">所以这一句不说「必伤」，说「希有不伤」——留的那一点余地，是留给匠人的。</text>
 <text x="24" y="586" font-size="5.0" fill="#4A5C55">代班的人没有那七日，斧就先替天把账记在他手上。</text>
 <line x1="24" y1="604" x2="338" y2="604" stroke="#DCCBB0" stroke-width="0.6"/>
 <rect x="20" y="612" width="340" height="40" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
-<text x="190" y="627" font-size="5.4" fill="#2F2A24" text-anchor="middle">夫代大匠斫者，希有不伤其手矣。</text>
+<text x="190" y="627" font-size="5.2" fill="#2F2A24" text-anchor="middle">夫代大匠斫者，希有不伤其手矣。</text>
 <text x="190" y="640" font-size="4.7" fill="#4A5C55" text-anchor="middle">斧不认人，账认手。</text>
 <line x1="20" y1="668" x2="360" y2="668" stroke="#E6D8C2" stroke-width="0.8"/>
 <text x="20" y="682" font-size="8.0" fill="#A89577" letter-spacing="1">本 章 金 句</text>

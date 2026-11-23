@@ -16,7 +16,7 @@
 <line x1="75" y1="230" x2="70" y2="290" stroke="#2F2A24" stroke-width="1"/>
 <line x1="92" y1="230" x2="92" y2="290" stroke="#2F2A24" stroke-width="1"/>
 <line x1="109" y1="230" x2="114" y2="290" stroke="#2F2A24" stroke-width="1"/>
-<text x="92" y="224" font-size="4.4" fill="#6E6459" text-anchor="middle">鼎</text>
+<text x="92" y="224" font-size="4.5" fill="#6E6459" text-anchor="middle">鼎</text>
 <line x1="70" y1="206" x2="330" y2="206" stroke="#A2503B" stroke-width="1.6"/>
 <text x="330" y="201" font-size="4.8" fill="#A2503B" text-anchor="end">则</text>
 <rect x="168" y="232" width="13" height="58" fill="#EFE6D4" stroke="#2F2A24" stroke-width="1.0"/>
@@ -52,7 +52,7 @@
 <text x="24" y="548" font-size="5.0" fill="#4A5C55">故曰「则我者贵」：贵不在人多，在那道线被当真过。</text>
 <line x1="24" y1="564" x2="338" y2="564" stroke="#DCCBB0" stroke-width="0.6"/>
 <rect x="20" y="572" width="340" height="40" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
-<text x="190" y="587" font-size="5.4" fill="#2F2A24" text-anchor="middle">则不评价，只显出来；天垂一道，人刻一道。</text>
+<text x="190" y="587" font-size="5.2" fill="#2F2A24" text-anchor="middle">则不评价，只显出来；天垂一道，人刻一道。</text>
 <text x="190" y="600" font-size="4.7" fill="#4A5C55" text-anchor="middle">把我当成那道刻线：不是学我，是拿我比。</text>
 <line x1="20" y1="626" x2="360" y2="626" stroke="#E6D8C2" stroke-width="0.8"/>
 <text x="20" y="640" font-size="8.0" fill="#A89577" letter-spacing="1">本 章 金 句</text>
