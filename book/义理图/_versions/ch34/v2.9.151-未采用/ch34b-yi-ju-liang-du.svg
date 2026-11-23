@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 380 634" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="同一个「不为主」：从它自己看是小，从万物看是大" font-family="'Noto Serif CJK SC','Noto Serif SC','Songti SC',serif">
+<defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#6E6459"/></marker><marker id="arr2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#4A5C55"/></marker><marker id="arrL" viewBox="0 0 10 10" refX="1" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M10 0 L0 5 L10 10 z" fill="#4A5C55"/></marker><marker id="arrS" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#A2503B"/></marker></defs>
+<rect x="0" y="0" width="380" height="634" fill="#F8F3E6"/>
+<text x="20" y="26" font-size="11" fill="#A2503B" font-family="'Noto Sans CJK SC','Noto Sans SC',sans-serif" letter-spacing="3">第 三 十 四 章 · 其 二</text>
+<text x="20" y="58" font-size="21" fill="#2F2A24">一 句 两 读：小 与 大</text>
+<text x="20" y="78" font-size="10.5" fill="#6E6459">万物归焉而弗为主。</text>
+<rect x="20" y="102" width="340" height="34" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="190" y="114" font-size="4.4" fill="#2F2A24" text-anchor="middle">帛书甲、乙本：这一句前后两处一字不差。通行本把前一处改成「衣养万物而不为主」。</text>
+<text x="190" y="127" font-size="4.4" fill="#6E6459" text-anchor="middle">这一改读起来顺了，可本章最要紧的结构就没了：同一件事，被说了两遍，一遍叫小，一遍叫大。</text>
+<rect x="26" y="146" width="328" height="26" fill="#FBF6EC" stroke="#DCCBB0" stroke-width="1.0"/>
+<text x="190" y="163" font-size="10.0" fill="#2F2A24" text-anchor="middle">万 物 归 焉 而 弗 为 主</text>
+<circle cx="190" cy="256" r="24" fill="none" stroke="#2F2A24" stroke-width="0.9" stroke-dasharray="4 3"/>
+<text x="190" y="259" font-size="4.8" fill="#6E6459" text-anchor="middle">不主</text>
+<circle cx="190.0" cy="190.0" r="2.2" fill="none" stroke="#8A7C69" stroke-width="0.7"/>
+<line x1="190.0" y1="190.0" x2="190.0" y2="228.0" stroke="#C9B79A" stroke-width="0.7" stroke-dasharray="4 3"/>
+<circle cx="228.8" cy="202.6" r="2.2" fill="none" stroke="#8A7C69" stroke-width="0.7"/>
+<line x1="228.8" y1="202.6" x2="206.5" y2="233.3" stroke="#C9B79A" stroke-width="0.7" stroke-dasharray="4 3"/>
+<circle cx="252.8" cy="235.6" r="2.2" fill="none" stroke="#8A7C69" stroke-width="0.7"/>
+<line x1="252.8" y1="235.6" x2="216.6" y2="247.3" stroke="#C9B79A" stroke-width="0.7" stroke-dasharray="4 3"/>
+<circle cx="252.8" cy="276.4" r="2.2" fill="none" stroke="#8A7C69" stroke-width="0.7"/>
+<line x1="252.8" y1="276.4" x2="216.6" y2="264.7" stroke="#C9B79A" stroke-width="0.7" stroke-dasharray="4 3"/>
+<circle cx="228.8" cy="309.4" r="2.2" fill="none" stroke="#8A7C69" stroke-width="0.7"/>
+<line x1="228.8" y1="309.4" x2="206.5" y2="278.7" stroke="#C9B79A" stroke-width="0.7" stroke-dasharray="4 3"/>
+<circle cx="190.0" cy="322.0" r="2.2" fill="none" stroke="#8A7C69" stroke-width="0.7"/>
+<line x1="190.0" y1="322.0" x2="190.0" y2="284.0" stroke="#C9B79A" stroke-width="0.7" stroke-dasharray="4 3"/>
+<circle cx="151.2" cy="309.4" r="2.2" fill="none" stroke="#8A7C69" stroke-width="0.7"/>
+<line x1="151.2" y1="309.4" x2="173.5" y2="278.7" stroke="#C9B79A" stroke-width="0.7" stroke-dasharray="4 3"/>
+<circle cx="127.2" cy="276.4" r="2.2" fill="none" stroke="#8A7C69" stroke-width="0.7"/>
+<line x1="127.2" y1="276.4" x2="163.4" y2="264.7" stroke="#C9B79A" stroke-width="0.7" stroke-dasharray="4 3"/>
+<circle cx="127.2" cy="235.6" r="2.2" fill="none" stroke="#8A7C69" stroke-width="0.7"/>
+<line x1="127.2" y1="235.6" x2="163.4" y2="247.3" stroke="#C9B79A" stroke-width="0.7" stroke-dasharray="4 3"/>
+<circle cx="151.2" cy="202.6" r="2.2" fill="none" stroke="#8A7C69" stroke-width="0.7"/>
+<line x1="151.2" y1="202.6" x2="173.5" y2="233.3" stroke="#C9B79A" stroke-width="0.7" stroke-dasharray="4 3"/>
+<text x="24" y="238" font-size="10.0" fill="#4A5C55">小</text>
+<text x="24" y="252" font-size="3.9" fill="#6E6459">从它自己看</text>
+<text x="24" y="263" font-size="3.7" fill="#6E6459">不伸张、不认领、不做主</text>
+<text x="356" y="238" font-size="10.0" fill="#A2503B" text-anchor="end">大</text>
+<text x="356" y="252" font-size="3.9" fill="#6E6459" text-anchor="end">从万物看</text>
+<text x="356" y="263" font-size="3.7" fill="#6E6459" text-anchor="end">归是真的归，差异都进来</text>
+<text x="190" y="346" font-size="4.4" fill="#2F2A24" text-anchor="middle">同一件事，两个名：从它自己看是小，从万物看是大。</text>
+<rect x="26" y="362" width="160" height="92" fill="#F7F1E3" stroke="#E6D8C2" stroke-width="1.0"/>
+<rect x="194" y="362" width="160" height="92" fill="#F7F1E3" stroke="#E6D8C2" stroke-width="1.0"/>
+<text x="38" y="379" font-size="4.8" fill="#4A5C55">何以为小</text>
+<text x="38" y="395" font-size="3.8" fill="#6E6459">不显、不彰、不宰、不争、不割</text>
+<text x="38" y="409" font-size="3.8" fill="#6E6459">能小，是因为它从不伸手；</text>
+<text x="38" y="421" font-size="3.8" fill="#6E6459">不伸手，才没人能握住它。</text>
+<text x="38" y="438" font-size="3.8" fill="#A2503B">形上切不开，意志上不伸张</text>
+<text x="206" y="379" font-size="4.8" fill="#A2503B">何以为大</text>
+<text x="206" y="395" font-size="3.8" fill="#6E6459">正因不做主，万千差异都能归来</text>
+<text x="206" y="409" font-size="3.8" fill="#6E6459">大不是小之外另修的一层，</text>
+<text x="206" y="421" font-size="3.8" fill="#6E6459">是小自己长出来的结果。</text>
+<text x="206" y="438" font-size="3.8" fill="#A2503B">往大里做，越做越窄</text>
+<rect x="26" y="466" width="328" height="44" fill="#FBF6EC" stroke="#E6D8C2" stroke-width="1.0"/>
+<text x="38" y="482" font-size="4.2" fill="#2F2A24">恒无欲：不是把欲掐掉，是那一点「我要你变成我要的样子」从来没有起过。</text>
+<text x="38" y="496" font-size="4.2" fill="#A2503B">不改造、不统一、不主宰、不占有——那一支，从来不发作。</text>
+<line x1="24" y1="524" x2="356" y2="524" stroke="#DCCBB0" stroke-width="0.6"/>
+<rect x="20" y="532" width="340" height="40" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="190" y="548" font-size="5.2" fill="#2F2A24" text-anchor="middle">大不是小之外另修的一层，是小自己长出来的。</text>
+<text x="190" y="561" font-size="4.6" fill="#4A5C55" text-anchor="middle">世人求大，是往大里做；道之大，是往小里做出来的。</text>
+<line x1="20" y1="578" x2="360" y2="578" stroke="#E6D8C2" stroke-width="0.8"/>
+<text x="20" y="592" font-size="8.0" fill="#A89577" letter-spacing="1">本 章 金 句</text>
+<text x="20" y="608" font-size="8.4" fill="#2F2A24">同一个「不为主」：从它自己看是小，从万物看是大。</text>
+</svg>

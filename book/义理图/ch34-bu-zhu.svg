@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 380 618" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="一主，即落合；不主，方为和" font-family="'Noto Serif CJK SC','Noto Serif SC','Songti SC',serif">
+<defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#6E6459"/></marker><marker id="arr2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#4A5C55"/></marker><marker id="arrL" viewBox="0 0 10 10" refX="1" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M10 0 L0 5 L10 10 z" fill="#4A5C55"/></marker><marker id="arrS" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#A2503B"/></marker></defs>
+<rect x="0" y="0" width="380" height="618" fill="#F8F3E6"/>
+<text x="20" y="26" font-size="11" fill="#A2503B" font-family="'Noto Sans CJK SC','Noto Sans SC',sans-serif" letter-spacing="3">第 三 十 四 章 · 三 个 本 义</text>
+<text x="20" y="58" font-size="21" fill="#2F2A24">不主，故能成其大</text>
+<text x="20" y="78" font-size="10.5" fill="#6E6459">道是场域，不是王座。</text>
+<rect x="20" y="108" width="340" height="96" fill="#FBF6EC" stroke="#E6D8C2" stroke-width="1.0"/>
+<rect x="20" y="208" width="340" height="96" fill="#FBF6EC" stroke="#E6D8C2" stroke-width="1.0"/>
+<rect x="20" y="308" width="340" height="124" fill="#FBF6EC" stroke="#E6D8C2" stroke-width="1.0"/>
+<line x1="44" y1="178" x2="76" y2="178" stroke="#DCCBB0" stroke-width="1"/>
+<path d="M60,178 l-6,-8 l12,0 z" fill="#E9DFCC" stroke="#2F2A24" stroke-width="0.8"/>
+<path d="M60,148 q5,7 0,12 q-5,-5 0,-12 z" fill="#A2503B" stroke="#A2503B" stroke-width="0.6"/>
+<line x1="104" y1="142" x2="66" y2="154" stroke="#C9B79A" stroke-width="0.8" stroke-dasharray="4 3"/>
+<circle cx="107" cy="142" r="2.2" fill="none" stroke="#8A7C69" stroke-width="0.7"/>
+<line x1="104" y1="154" x2="66" y2="154" stroke="#C9B79A" stroke-width="0.8" stroke-dasharray="4 3"/>
+<circle cx="107" cy="154" r="2.2" fill="none" stroke="#8A7C69" stroke-width="0.7"/>
+<line x1="104" y1="166" x2="66" y2="154" stroke="#C9B79A" stroke-width="0.8" stroke-dasharray="4 3"/>
+<circle cx="107" cy="166" r="2.2" fill="none" stroke="#8A7C69" stroke-width="0.7"/>
+<text x="122" y="134" font-size="8.6" fill="#2F2A24">主：一个中心，万物向它</text>
+<text x="122" y="150" font-size="7.4" fill="#6E6459">「主」本义是灯芯上那一点火，</text>
+<text x="122" y="164" font-size="7.4" fill="#6E6459">一盏灯只有一个火头，光都从那儿出。</text>
+<text x="122" y="186" font-size="7.0" fill="#A2503B">做主，就要回答谁合格、谁排第一。</text>
+<path d="M34,240 q30,-8 60,0 q30,8 60,0 l0,22 q-30,-8 -60,0 q-30,8 -60,0 z" fill="#DCE5DF" stroke="#B9C7BE" stroke-width="0.8"/>
+<path d="M40,250 q22,-3 44,0 q22,3 44,0" fill="none" stroke="#9FB0A6" stroke-width="0.7"/>
+<path d="M40,258 q22,-3 44,0 q22,3 44,0" fill="none" stroke="#9FB0A6" stroke-width="0.7"/>
+<path d="M40,266 q22,-3 44,0 q22,3 44,0" fill="none" stroke="#9FB0A6" stroke-width="0.7"/>
+<rect x="50" y="244" width="8" height="1.5" fill="#D8B27A"/>
+<rect x="70" y="244" width="8" height="1.5" fill="#D8B27A"/>
+<rect x="90" y="244" width="8" height="1.5" fill="#D8B27A"/>
+<rect x="112" y="244" width="8" height="1.5" fill="#D8B27A"/>
+<rect x="132" y="244" width="8" height="1.5" fill="#D8B27A"/>
+<text x="160" y="242" font-size="8.6" fill="#4A5C55">汎：浮在水面，到处都在</text>
+<text x="160" y="258" font-size="7.4" fill="#6E6459">水涨它高，水落它低，贴着整个水面；</text>
+<text x="160" y="272" font-size="7.4" fill="#6E6459">没有固定据点，也不分正路与支路。</text>
+<text x="160" y="290" font-size="7.0" fill="#A2503B">有中心，就有等级；有等级，就是合。</text>
+<circle cx="62" cy="332" r="4.2" fill="none" stroke="#2F2A24" stroke-width="0.9"/>
+<line x1="62" y1="336" x2="62" y2="358" stroke="#2F2A24" stroke-width="1"/>
+<path d="M62,342 l-22,-5 M62,342 l22,-5" stroke="#2F2A24" stroke-width="0.9"/>
+<path d="M62,358 l-9,16 M62,358 l9,16" stroke="#2F2A24" stroke-width="0.9"/>
+<line x1="34" y1="332" x2="90" y2="332" stroke="#A2503B" stroke-width="0.7" stroke-dasharray="3 2"/>
+<text x="62" y="396" font-size="6.6" fill="#A2503B" text-anchor="middle">张臂：量占多宽</text>
+<circle cx="126" cy="332" r="4.2" fill="none" stroke="#2F2A24" stroke-width="0.9"/>
+<line x1="126" y1="336" x2="126" y2="358" stroke="#2F2A24" stroke-width="1"/>
+<path d="M126,340 l-4,18 M126,340 l4,18" stroke="#2F2A24" stroke-width="0.9"/>
+<path d="M126,358 l-9,16 M126,358 l9,16" stroke="#2F2A24" stroke-width="0.9"/>
+<path d="M104,326 q22,-16 44,0" fill="none" stroke="#4A5C55" stroke-width="0.9" stroke-dasharray="3 2"/>
+<text x="126" y="396" font-size="6.6" fill="#4A5C55" text-anchor="middle">垂臂：怀里天地</text>
+<text x="154" y="330" font-size="7.4" fill="#6E6459">「大」本是一人张开两臂的样子，</text>
+<text x="154" y="344" font-size="7.4" fill="#6E6459">量的只是占的地方有多宽。</text>
+<text x="154" y="364" font-size="7.6" fill="#2F2A24">张开，抱住的只有一抱；</text>
+<text x="154" y="378" font-size="7.6" fill="#2F2A24">垂着，怀里是整个天地。</text>
+<text x="154" y="412" font-size="6.8" fill="#A2503B">世人的大是把世界收进来，道的大是让它不必进来。</text>
+<rect x="20" y="436" width="340" height="44" fill="#F2EADA" stroke="#C9B79A" stroke-width="1.0"/>
+<text x="190" y="454" font-size="8.6" fill="#2F2A24" text-anchor="middle">功成而不名有，万物归焉而不为主。</text>
+<text x="190" y="470" font-size="7.8" fill="#6E6459" text-anchor="middle">同一个「不为主」：从它自己看是小，从万物看是大。</text>
+<line x1="20" y1="488" x2="360" y2="488" stroke="#E6D8C2" stroke-width="0.8"/>
+<text x="20" y="502" font-size="8.0" fill="#A89577" letter-spacing="1">本 章 金 句</text>
+<text x="20" y="518" font-size="8.4" fill="#2F2A24">张开手臂，抱住的只有一抱；手臂垂着，怀里是整个天地。</text>
+<text x="20" y="534" font-size="8.4" fill="#2F2A24">世人的大，是把世界收进来；道的大，是让世界不必进来。</text>
+</svg>
