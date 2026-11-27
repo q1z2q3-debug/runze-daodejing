@@ -1,0 +1,56 @@
+{
+  "slug": "daodejing",
+  "out": "daokedao-daodejing",
+  "package": "com.runze.daokedaodaodejing",
+  "app_name": "道可道之道德经",
+  "version_code": 2009155,
+  "version_name": "2.9.155",
+  "docs": ".",
+  "entry": "index.html",
+  "copy_files": [
+    "index.html",
+    "book/道可道·道德经心法读本.html",
+    "data/daodejing-81.jsonl",
+    "llms.txt"
+  ],
+  "copy_dirs": [
+    "chapters"
+  ],
+  "site_prefixes": [
+    "https://q1z2q3-debug.github.io/runze-daodejing/",
+    "https://q1z2q3-debug.github.io/runze-daodejing",
+    "/runze-daodejing/"
+  ],
+  "bare_index_fix": true,
+  "strip_blocks": [
+    [
+      "<!-- apk-dl:start -->",
+      "<!-- apk-dl:end -->"
+    ]
+  ],
+  "strip_hrefs": [
+    "sitemap.xml"
+  ],
+  "strip_link_regex": [
+    "fonts/css2"
+  ],
+  "font": {
+    "family": "Noto Serif SC",
+    "aliases": [
+      "Noto Serif CJK SC"
+    ],
+    "weights": {
+      "400": [
+        "/usr/share/fonts/opentype/noto/NotoSerifCJK-Regular.ttc",
+        2
+      ],
+      "700": [
+        "/usr/share/fonts/opentype/noto/NotoSerifCJK-Bold.ttc",
+        2
+      ]
+    }
+  },
+  "copy_referenced": [
+    "book"
+  ]
+}

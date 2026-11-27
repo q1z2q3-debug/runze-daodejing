@@ -20,6 +20,13 @@
 
 ---
 
+## 安卓安装包
+
+- 直链：<https://q1z2q3-debug.github.io/runze-daodejing/dl/daokedao-daodejing-v2.9.155.apk>（30.2 MB，零权限、八十一章离线全本，含义理图 254 幅）
+- 校验：`dl/SHA256SUMS.txt`；包名 `com.runze.daokedaodaodejing`，versionCode 2009155。
+- 图标：作者新作「老子骑牛」，纸底 `#F7F4EE`，自适应 + 单色层齐备，原图直出未二次抠图。
+- 工程：`dist/apk-daodejing/`（`apk-config.json` 驱动，`scripts/build_apk_assets.py` 按页面引用补拷义理图，`build.sh` 走 aapt2→d8→apksigner 手工链）。
+
 ## 义理图（新增）
 
 每章最多一张，手写 SVG，一图只讲一个关系：同出、相生、层级、三境。体例见 `book/义理图-体例.md`，生成器 `tools/make_yili_svg.py`，成图在 `book/义理图/`。已出十四张：第一章三张（「无、有同出」「指月三境」「观妙·观徼」）、第二章「六组对偶」，第二批按章次十张（十一、二十二、二十五、三十八、四十、四十二、五十一、六十七、七十七、八十一）。
